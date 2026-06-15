@@ -1,19 +1,17 @@
-// Mobile menu toggle
-const hamburger = document.querySelector('.hamburger');
+// মোবাইল হ্যামবার্গার মেনু
+const hamburger = document.getElementById('hamburgerBtn');
 const navMenu = document.querySelector('.nav-menu');
 
 if (hamburger && navMenu) {
     hamburger.addEventListener('click', () => {
         navMenu.classList.toggle('active');
-        hamburger.classList.toggle('active');
     });
 }
 
-// Active link highlight on current page
-const currentLocation = window.location.pathname;
-const navLinks = document.querySelectorAll('.nav-link');
-navLinks.forEach(link => {
-    if (link.getAttribute('href') === currentLocation.split('/').pop()) {
+// সক্রিয় পেজ হাইলাইট
+const current = window.location.pathname.split('/').pop() || 'index.html';
+document.querySelectorAll('.nav-link').forEach(link => {
+    if (link.getAttribute('href') === current) {
         link.classList.add('active');
     }
 });
