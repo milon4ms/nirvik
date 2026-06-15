@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রম্পট জেনারেটর - Gemini</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #4285f4;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 5px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #3367d6;
+            transform: translateY(-2px);
+        }
+        .prompt-box {
+            background: #e8f0fe;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #4285f4;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🤖 AI প্রম্পট জেনারেটর</h2>
+        <p>নিচের বাটনে ক্লিক করলে প্রম্পট জেনারেট হবে এবং Gemini তে খুলবে</p>
+        
+        <!-- প্রি-ভিউ এর জন্য (অপশনাল) -->
+        <div class="prompt-box">
+            <strong>📝 জেনারেটেড প্রম্পট:</strong>
+            <div id="promptPreview">এখানে প্রম্পট দেখাবে</div>
+        </div>
+        
+        <!-- প্রম্পট জেনারেট বাটনসমূহ -->
+        <button onclick="generateAndSend('story')">📖 গল্প লিখুন</button>
+        <button onclick="generateAndSend('code')">💻 কোড লিখুন</button>
+        <button onclick="generateAndSend('translate')">🌐 অনুবাদ করুন</button>
+        <button onclick="generateAndSend('summary')">📄 সারাংশ তৈরি করুন</button>
+        <button onclick="generateAndSend('custom')">✏️ কাস্টম প্রম্পট</button>
+        
+        <!-- কাস্টম প্রম্পটের জন্য ইনপুট -->
+        <div id="customInput" style="display:none; margin-top: 20px;">
+            <textarea id="customPromptText" rows="3" placeholder="আপনার নিজের প্রম্পট লিখুন..."></textarea>
+            <button onclick="sendCustomPrompt()">Gemini তে পাঠান</button>
+        </div>
+    </div>
+
+    <script>
+        // বিভিন্ন টাইপের প্রম্পট জেনারেট করার ফাংশন
+        function generatePrompt(type) {
+            const prompts = {
+                story: "একটি ছোট গল্প লেখ যেখানে একটি বুদ্ধিমান কুকুর তার মালিককে উদ্ধার করে। গল্পটি বাংলায় লেখ এবং শেষে একটি শিক্ষা থাকবে।",
+                
+                code: "JavaScript এ একটি ফাংশন লিখ যা ইনপুট হিসেবে একটি অ্যারে নেবে এবং সেটিকে উল্টো করে রিটার্ন করবে। কোডটির ব্যাখ্যা বাংলায় দাও।",
+                
+                translate: "নিচের বাক্যটি ইংরেজি থেকে বাংলায় অনুবাদ কর:\n'Technology is changing our lives every single day.'\nএছাড়াও অনুবাদের পরে প্রতিটি শব্দের অর্থ লিখ।",
+                
+                summary: "নিচের টেক্সটটির একটি সংক্ষিপ্ত সারাংশ তৈরি কর (৩ লাইনে):\n'বাংলাদেশ দক্ষিণ এশিয়ার একটি ছোট কিন্তু জনবহুল দেশ। এটি ১৯৭১ সালে স্বাধীনতা অর্জন করে। ঢাকা এর রাজধানী। দেশটির অর্থনীতি মূলত কৃষি ও পোশাক শিল্পের উপর নির্ভরশীল।'"
+            };
+            
+            return prompts[type] || "আমাকে সাহায্য করুন একটি গুরুত্বপূর্ণ বিষয়ে।";
+        }
+        
+        // জেনারেট করা প্রম্পট Gemini তে পাঠানোর ফাংশন
+        function sendToGemini(promptText) {
+            // প্রম্পটটি URL এনকোড করা
+            const encodedPrompt = encodeURIComponent(promptText);
+            
+            // Gemini এর URL (প্রম্পট প্রি-ফিল সহ)
+            const geminiUrl = `https://gemini.google.com/?q=${encodedPrompt}`;
+            
+            // নতুন ট্যাবে খোলা
+            window.open(geminiUrl, '_blank');
+            
+            // কনসোলে দেখানো (ডিবাগিং এর জন্য)
+            console.log('Gemini URL খোলা হয়েছে:', geminiUrl);
+            console.log('প্রম্পট:', promptText);
+        }
+        
+        // প্রধান ফাংশন: জেনারেট + সেন্ড
+        function generateAndSend(type) {
+            // কাস্টম ইনপুট বক্স লুকানো
+            document.getElementById('customInput').style.display = 'none';
+            
+            // প্রম্পট জেনারেট করা
+            const prompt = generatePrompt(type);
+            
+            // প্রিভিউ আপডেট করা
+            document.getElementById('promptPreview').innerHTML = prompt;
+            
+            // Gemini তে পাঠানো
+            sendToGemini(prompt);
+        }
+        
+        // কাস্টম প্রম্পটের জন্য ফাংশন
+        function showCustomInput() {
+            document.getElementById('customInput').style.display = 'block';
+            document.getElementById('customPromptText').value = '';
+            document.getElementById('promptPreview').innerHTML = 'কাস্টম প্রম্পট লেখা হবে...';
+        }
+        
+        function sendCustomPrompt() {
+            const customPrompt = document.getElementById('customPromptText').value.trim();
+            
+            if (customPrompt === '') {
+                alert('দয়া করে একটি প্রম্পট লিখুন!');
+                return;
+            }
+            
+            document.getElementById('promptPreview').innerHTML = customPrompt;
+            sendToGemini(customPrompt);
+        }
+        
+        // কাস্টম বাটনের সাথে সংযোগ
+        document.querySelector('button[onclick="generateAndSend(\'custom\')"]').onclick = function() {
+            showCustomInput();
+        };
+    </script>
+</body>
+</html>
