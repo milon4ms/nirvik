@@ -2,9 +2,8 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>AI প্রম্পট জেনারেটর | Gemini তে 직접 পাঠান</title>
-    <meta name="description" content="এক ক্লিকে প্রম্পট জেনারেট করুন এবং সরাসরি Google Gemini AI তে পাঠান">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI প্রম্পট জেনারেটর - Gemini AI</title>
     <style>
         * {
             margin: 0;
@@ -13,35 +12,23 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 20px;
         }
 
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
             background: white;
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             overflow: hidden;
-            animation: slideUp 0.5s ease;
-        }
-
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
         }
 
         .header {
-            background: linear-gradient(135deg, #4285f4 0%, #34a853 100%);
+            background: linear-gradient(135deg, #4285f4, #34a853);
             color: white;
             padding: 30px;
             text-align: center;
@@ -53,130 +40,143 @@
         }
 
         .header p {
-            opacity: 0.95;
             font-size: 1.1em;
+            opacity: 0.95;
         }
 
         .content {
             padding: 30px;
         }
 
-        .prompt-preview {
+        .preview-box {
             background: #f0f7ff;
-            border-left: 4px solid #4285f4;
+            border-left: 5px solid #4285f4;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 30px;
         }
 
-        .prompt-preview h3 {
+        .preview-box h3 {
             color: #4285f4;
             margin-bottom: 10px;
             font-size: 1.1em;
         }
 
-        .prompt-preview p {
+        .preview-box p {
             color: #333;
             line-height: 1.6;
-            word-wrap: break-word;
             font-size: 14px;
+            word-wrap: break-word;
         }
 
-        .button-grid {
+        .button-group {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 15px;
             margin-bottom: 30px;
         }
 
-        .btn {
-            padding: 14px 24px;
+        button {
+            padding: 12px 20px;
             font-size: 16px;
             font-weight: 600;
             border: none;
             border-radius: 10px;
             cursor: pointer;
             transition: all 0.3s ease;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
             font-family: inherit;
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, #4285f4, #34a853);
+            background: #4285f4;
             color: white;
         }
 
         .btn-primary:hover {
+            background: #3367d6;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(66,133,244,0.3);
         }
 
-        .btn-secondary {
-            background: #f0f0f0;
-            color: #333;
-            border: 1px solid #ddd;
+        .btn-success {
+            background: #34a853;
+            color: white;
         }
 
-        .btn-secondary:hover {
-            background: #e0e0e0;
+        .btn-success:hover {
+            background: #2d8e47;
+            transform: translateY(-2px);
+        }
+
+        .btn-warning {
+            background: #fbbc05;
+            color: #333;
+        }
+
+        .btn-warning:hover {
+            background: #e6a800;
             transform: translateY(-2px);
         }
 
         .btn-danger {
-            background: linear-gradient(135deg, #f093fb, #f5576c);
+            background: #ea4335;
             color: white;
         }
 
-        .custom-section {
+        .btn-danger:hover {
+            background: #c5221f;
+            transform: translateY(-2px);
+        }
+
+        .custom-area {
             background: #f9f9f9;
             padding: 20px;
             border-radius: 10px;
             margin-top: 20px;
             display: none;
-            animation: fadeIn 0.3s ease;
         }
 
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        .custom-section textarea {
+        .custom-area textarea {
             width: 100%;
             padding: 12px;
-            border: 2px solid #e0e0e0;
-            border-radius: 10px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
             font-size: 14px;
             font-family: monospace;
             resize: vertical;
             margin-bottom: 15px;
         }
 
-        .custom-section textarea:focus {
+        .custom-area textarea:focus {
             outline: none;
             border-color: #4285f4;
         }
 
-        .info-box {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
+        .info {
+            background: #e8f0fe;
             padding: 15px;
             border-radius: 10px;
             margin-top: 20px;
-            font-size: 14px;
         }
 
-        .info-box h4 {
-            color: #856404;
+        .info h4 {
+            color: #4285f4;
             margin-bottom: 8px;
         }
 
-        .info-box p {
-            color: #856404;
+        .info p {
+            color: #555;
+            font-size: 14px;
             line-height: 1.5;
+        }
+
+        .info kbd {
+            background: #333;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-size: 12px;
+            margin: 0 2px;
         }
 
         .footer {
@@ -184,18 +184,16 @@
             padding: 20px;
             text-align: center;
             color: #666;
-            font-size: 14px;
+            font-size: 13px;
         }
 
         @media (max-width: 600px) {
-            .button-grid {
+            .button-group {
                 grid-template-columns: 1fr;
             }
-            
             .header h1 {
                 font-size: 1.5em;
             }
-            
             .content {
                 padding: 20px;
             }
@@ -203,195 +201,156 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🤖 AI প্রম্পট জেনারেটর</h1>
-            <p>এক ক্লিকে প্রম্পট তৈরি করুন & Gemini AI তে পাঠান</p>
+
+<div class="container">
+    <div class="header">
+        <h1>🤖 AI প্রম্পট জেনারেটর</h1>
+        <p>এক ক্লিকে প্রম্পট তৈরি করুন এবং Google Gemini AI তে পাঠান</p>
+    </div>
+
+    <div class="content">
+        <!-- প্রিভিউ সেকশন -->
+        <div class="preview-box">
+            <h3>📝 আপনার প্রম্পট:</h3>
+            <p id="previewText">একটি বাটনে ক্লিক করুন...</p>
         </div>
 
-        <div class="content">
-            <!-- প্রম্পট প্রিভিউ -->
-            <div class="prompt-preview">
-                <h3>📝 জেনারেটেড প্রম্পট</h3>
-                <p id="promptPreview">এখানে আপনার প্রম্পট দেখাবে... একটি বাটনে ক্লিক করুন</p>
-            </div>
-
-            <!-- বাটন গ্রিড -->
-            <div class="button-grid">
-                <button class="btn btn-primary" onclick="generateAndSend('story')">
-                    📖 গল্প লিখুন
-                </button>
-                <button class="btn btn-primary" onclick="generateAndSend('code')">
-                    💻 কোড লিখুন
-                </button>
-                <button class="btn btn-primary" onclick="generateAndSend('translate')">
-                    🌐 অনুবাদ করুন
-                </button>
-                <button class="btn btn-primary" onclick="generateAndSend('summary')">
-                    📄 সারাংশ তৈরি করুন
-                </button>
-                <button class="btn btn-primary" onclick="generateAndSend('email')">
-                    ✉️ ইমেইল লিখুন
-                </button>
-                <button class="btn btn-primary" onclick="generateAndSend('math')">
-                    🧮 গণিত সমাধান
-                </button>
-                <button class="btn btn-secondary" onclick="showCustomInput()">
-                    ✏️ কাস্টম প্রম্পট
-                </button>
-                <button class="btn btn-danger" onclick="generateRandomPrompt()">
-                    🎲 রেন্ডম প্রম্পট
-                </button>
-            </div>
-
-            <!-- কাস্টম প্রম্পট সেকশন -->
-            <div id="customSection" class="custom-section">
-                <h3>✏️ আপনার প্রম্পট লিখুন</h3>
-                <textarea id="customPrompt" rows="4" placeholder="যে কোনো প্রশ্ন বা নির্দেশনা লিখুন...&#10;&#10;উদাহরণ:&#10;1. 'পাইথন দিয়ে একটি ক্যালকুলেটর তৈরির কোড দাও'&#10;2. 'বাংলাদেশের ইতিহাস সংক্ষেপে বলো'&#10;3. 'একটি মজার মোবাইল গেমের আইডিয়া দাও'"></textarea>
-                <button class="btn btn-primary" onclick="sendCustomPrompt()">🚀 Gemini তে পাঠান</button>
-                <button class="btn btn-secondary" onclick="hideCustomInput()">❌ বাতিল করুন</button>
-            </div>
-
-            <!-- তথ্য বক্স -->
-            <div class="info-box">
-                <h4>ℹ️ কিভাবে ব্যবহার করবেন</h4>
-                <p>
-                    <strong>1.</strong> উপরের যেকোনো বাটনে ক্লিক করুন 🖱️<br>
-                    <strong>2.</strong> প্রম্পট জেনারেট হবে ✨<br>
-                    <strong>3.</strong> স্বয়ংক্রিয়ভাবে Google Gemini নতুন ট্যাবে খুলবে 🌐<br>
-                    <strong>4.</strong> প্রম্পট প্রি-ফিল থাকবে, শুধু <kbd>Enter</kbd> চাপুন 🎯<br>
-                    <strong>💡 টিপ:</strong> Gemini তে যাওয়ার পর <kbd>Enter</kbd> না চেপে আপনি প্রম্পট এডিট করতেও পারবেন!
-                </p>
-            </div>
+        <!-- বাটন গ্রুপ -->
+        <div class="button-group">
+            <button class="btn-primary" onclick="generatePrompt('story')">📖 গল্প লিখুন</button>
+            <button class="btn-primary" onclick="generatePrompt('code')">💻 কোড লিখুন</button>
+            <button class="btn-primary" onclick="generatePrompt('translate')">🌐 অনুবাদ করুন</button>
+            <button class="btn-primary" onclick="generatePrompt('summary')">📄 সারাংশ লিখুন</button>
+            <button class="btn-primary" onclick="generatePrompt('email')">✉️ ইমেইল লিখুন</button>
+            <button class="btn-success" onclick="generatePrompt('idea')">💡 আইডিয়া জেনারেট</button>
+            <button class="btn-warning" onclick="showCustom()">✏️ নিজে লিখুন</button>
+            <button class="btn-danger" onclick="randomPrompt()">🎲 র্যান্ডম</button>
         </div>
 
-        <div class="footer">
-            <p>⚡ প্রম্পট জেনারেট করে সরাসরি <strong>Google Gemini AI</strong> তে পাঠায় | সম্পূর্ণ ফ্রি</p>
-            <p style="margin-top: 5px; font-size: 12px;">🔒 প্রম্পট জেনারেট হয় আপনার ব্রাউজারেই - কোনো ডাটা সংরক্ষণ করা হয় না</p>
+        <!-- কাস্টম প্রম্পট এরিয়া -->
+        <div id="customArea" class="custom-area">
+            <h3>✏️ আপনার প্রম্পট লিখুন:</h3>
+            <textarea id="customText" rows="4" placeholder="যেমন:&#10;1. পাইথন দিয়ে একটি ক্যালকুলেটর বানাও&#10;2. ঢাকা শহরের ১০টি দর্শনীয় স্থানের নাম বলো&#10;3. একটি মজার গল্প লেখ"></textarea>
+            <button class="btn-primary" onclick="sendCustom()">🚀 Gemini তে পাঠান</button>
+            <button class="btn-warning" onclick="hideCustom()" style="margin-left: 10px;">❌ বাতিল</button>
+        </div>
+
+        <!-- তথ্য বক্স -->
+        <div class="info">
+            <h4>ℹ️ কিভাবে ব্যবহার করবেন</h4>
+            <p>
+                <strong>১.</strong> উপরের যেকোনো বাটনে ক্লিক করুন 🖱️<br>
+                <strong>২.</strong> প্রম্পট জেনারেট হবে এবং প্রিভিউ দেখাবে ✨<br>
+                <strong>৩.</strong>自动ভাবে Google Gemini নতুন ট্যাবে খুলবে 🌐<br>
+                <strong>৪.</strong> Gemini তে প্রম্পট দেখাবে, তারপর <kbd>Enter</kbd> চাপুন 🎯<br>
+                <strong>💡 টিপ:</strong> Gemini এ গিয়ে প্রম্পট এডিট করেও ব্যবহার করতে পারবেন!
+            </p>
         </div>
     </div>
 
-    <script>
-        // 🔥 সকল প্রম্পট টেমপ্লেট (আপনি ইচ্ছামতো যোগ/বিয়োগ করতে পারেন)
-        const promptTemplates = {
-            story: "একটি ছোট গল্প লেখ যেখানে একটি বুদ্ধিমান কুকুর তার মালিককে উদ্ধার করে। গল্পটি বাংলায় লেখ এবং শেষে একটি শিক্ষা থাকবে। গল্পের দৈর্ঘ্য ১০০-১৫০ শব্দের মধ্যে হবে।",
-            
-            code: "JavaScript এ একটি ফাংশন লিখ যা ইনপুট হিসেবে একটি অ্যারে নেবে এবং সেটিকে উল্টো করে রিটার্ন করবে। এছাড়াও ফাংশনটি কিভাবে কাজ করে তার ব্যাখ্যা বাংলায় দাও। কোডটি ES6 স্টাইলে লেখ।",
-            
-            translate: "নিচের বাক্যটি ইংরেজি থেকে বাংলায় অনুবাদ কর:\n\n'Technology is changing our lives every single day. From smartphones to artificial intelligence, we are surrounded by innovations that make our tasks easier.'\n\nঅনুবাদের পর প্রতিটি গুরুত্বপূর্ণ শব্দের অর্থ এবং বাক্যটির গঠন ব্যাখ্যা কর।",
-            
-            summary: "নিচের টেক্সটটির একটি সংক্ষিপ্ত সারাংশ তৈরি কর (৩ লাইনে):\n\n'বাংলাদেশ দক্ষিণ এশিয়ার একটি ছোট কিন্তু জনবহুল দেশ। এটি ১৯৭১ সালে স্বাধীনতা অর্জন করে। ঢাকা এর রাজধানী। দেশটির অর্থনীতি মূলত কৃষি ও পোশাক শিল্পের উপর নির্ভরশীল। গত এক দশকে ডিজিটাল বাংলাদেশ প্রতিষ্ঠায় উল্লেখযোগ্য অগ্রগতি হয়েছে।'",
-            
-            email: "একটি পেশাদার ইমেইল লিখ যাতে নিচের বিষয়গুলো থাকবে:\n- প্রাপক: আপনার বস\n- বিষয়: প্রজেক্ট ডেডলাইন এক্সটেনশন চাওয়া\n- কারণ: টেকনিক্যাল ইস্যু\n- প্রস্তাব: ৩ দিন সময় চাওয়া\nইমেইলটি বাংলায় লিখ এবং বিনয়ী ও পেশাদার ভাষা ব্যবহার কর।",
-            
-            math: "নিচের গণিত সমস্যাটি ধাপে ধাপে সমাধান কর এবং প্রতিটি ধাপের ব্যাখ্যা দাও:\n\nএকটি ট্রেন ঘন্টায় ৮০ কিমি বেগে চলে। ২.৫ ঘন্টায় ট্রেনটি কত দূরত্ব অতিক্রম করবে? সূত্র: দূরত্ব = বেগ × সময়"
-        };
+    <div class="footer">
+        <p>⚡ 100% ফ্রি | প্রম্পট জেনারেট করে সরাসরি Google Gemini AI তে পাঠায়</p>
+        <p style="margin-top: 5px;">🔒 আপনার ডাটা কোথাও সেভ হয় না | সম্পূর্ণ প্রাইভেট</p>
+    </div>
+</div>
+
+<script>
+    // প্রম্পট টেমপ্লেট
+    const prompts = {
+        story: "একটি ছোট গল্প লেখ। গল্পটি হবে: একটি বুদ্ধিমান কুকুর যে তার মালিককে জঙ্গলে হারিয়ে যাওয়া থেকে উদ্ধার করে। গল্পটি বাংলায় লেখ এবং শেষে একটি শিক্ষণীয় বাক্য থাকবে। গল্পের দৈর্ঘ্য ১৫০ শব্দের মধ্যে।",
         
-        // 📝 প্রম্পট জেনারেট ফাংশন
-        function generatePrompt(type) {
-            if (promptTemplates[type]) {
-                return promptTemplates[type];
-            }
-            return "আমাকে সাহায্য করুন নিচের বিষয়টিতে:\n\n[আপনার প্রশ্ন বা নির্দেশনা এখানে লিখুন]";
+        code: "JavaScript দিয়ে একটি ফাংশন লেখ যা ইনপুট হিসেবে একটি সংখ্যা নেবে এবং বলে দেবে সেটি জোড় না বিজোড়। ফাংশনটির ব্যাখ্যা বাংলায় দাও। কোডটি ES6 স্টাইলে লেখ।",
+        
+        translate: "নিচের বাক্যটি ইংরেজি থেকে বাংলায় অনুবাদ কর:\n\n'The Internet has changed the way we communicate, work, and live. It connects billions of people around the world.'\n\nঅনুবাদের পর প্রতিটি গুরুত্বপূর্ণ শব্দের অর্থ লিখ।",
+        
+        summary: "নিচের টেক্সটটির একটি ছোট সারাংশ লেখ (৩ লাইনে):\n\n'বাংলাদেশ একটি প্রাচীন ও ঐতিহ্যবাহী দেশ। প্রায় ৪০০ বছর ধরে ঢাকা ছিল মুঘল সাম্রাজ্যের একটি গুরুত্বপূর্ণ শহর। ১৯৭১ সালের মহান মুক্তিযুদ্ধের মাধ্যমে বাংলাদেশ স্বাধীনতা অর্জন করে। বর্তমানে বাংলাদেশ দ্রুত উন্নয়নশীল দেশগুলোর একটি।'",
+        
+        email: "একটি পেশাদার ইমেইল লিখ যাতে নিচের বিষয়গুলো থাকে:\n- প্রাপক: আপনার ম্যানেজার\n- বিষয়: ছুটির আবেদন\n- কারণ: পারিবারিক জরুরি কাজ\n- সময়: ২ দিন\nইমেইলটি বাংলায় লিখ এবং ভদ্র ভাষা ব্যবহার কর।",
+        
+        idea: "একটি মোবাইল অ্যাপের আইডিয়া দাও যা ছাত্রদের পড়াশোনায় সাহায্য করবে। অ্যাপটির নাম, বৈশিষ্ট্য এবং এটি কিভাবে কাজ করবে তা বিস্তারিত বাংলায় লেখ।"
+    };
+    
+    // প্রম্পট জেনারেট ফাংশন
+    function generatePrompt(type) {
+        // কাস্টম এরিয়া হাইড করি
+        document.getElementById('customArea').style.display = 'none';
+        
+        // প্রম্পট সিলেক্ট করি
+        let promptText = prompts[type];
+        if (!promptText) {
+            promptText = "আমাকে সাহায্য করুন: [আপনার প্রশ্ন লিখুন]";
         }
         
-        // 🚀 Gemini তে পাঠানোর ফাংশন
-        function sendToGemini(promptText) {
-            if (!promptText || promptText.trim() === '') {
-                alert('❌ দয়া করে একটি প্রম্পট জেনারেট করুন!');
-                return false;
-            }
-            
-            // প্রম্পট এনকোড
-            const encodedPrompt = encodeURIComponent(promptText.trim());
-            
-            // Gemini URL (সর্বশেষ ভার্সন)
-            const geminiUrl = `https://gemini.google.com/?q=${encodedPrompt}`;
-            
-            // নতুন ট্যাবে খোলা
-            window.open(geminiUrl, '_blank');
-            
-            // কনসোলে লগ (ডিবাগিং)
-            console.log('✅ প্রম্পট পাঠানো হয়েছে:', promptText);
-            console.log('🔗 Gemini URL:', geminiUrl);
-            
-            return true;
+        // প্রিভিউ আপডেট করি
+        document.getElementById('previewText').innerHTML = promptText.replace(/\n/g, '<br>');
+        
+        // Gemini তে পাঠাই
+        sendToGemini(promptText);
+    }
+    
+    // র্যান্ডম প্রম্পট
+    function randomPrompt() {
+        document.getElementById('customArea').style.display = 'none';
+        
+        const keys = Object.keys(prompts);
+        const randomKey = keys[Math.floor(Math.random() * keys.length)];
+        const randomText = prompts[randomKey];
+        
+        document.getElementById('previewText').innerHTML = randomText.replace(/\n/g, '<br>');
+        sendToGemini(randomText);
+    }
+    
+    // কাস্টম প্রম্পট দেখানো
+    function showCustom() {
+        document.getElementById('customArea').style.display = 'block';
+        document.getElementById('customText').value = '';
+        document.getElementById('customText').focus();
+    }
+    
+    // কাস্টম প্রম্পট লুকানো
+    function hideCustom() {
+        document.getElementById('customArea').style.display = 'none';
+        document.getElementById('customText').value = '';
+    }
+    
+    // কাস্টম প্রম্পট পাঠানো
+    function sendCustom() {
+        const customText = document.getElementById('customText').value.trim();
+        
+        if (customText === '') {
+            alert('⚠️ দয়া করে কিছু লিখুন!');
+            return;
         }
         
-        // 🎯 জেনারেট + পাঠান (মেইন ফাংশন)
-        function generateAndSend(type) {
-            // কাস্টম সেকশন হাইড
-            hideCustomInput();
-            
-            // প্রম্পট জেনারেট
-            const prompt = generatePrompt(type);
-            
-            // প্রিভিউ আপডেট
-            document.getElementById('promptPreview').innerHTML = prompt.replace(/\n/g, '<br>');
-            
-            // Gemini তে পাঠান
-            sendToGemini(prompt);
+        document.getElementById('previewText').innerHTML = customText.replace(/\n/g, '<br>');
+        sendToGemini(customText);
+        hideCustom();
+    }
+    
+    // Gemini তে পাঠানোর ফাংশন
+    function sendToGemini(promptText) {
+        if (!promptText || promptText.trim() === '') {
+            alert('❌ প্রম্পট খালি!');
+            return;
         }
         
-        // 🎲 রেন্ডম প্রম্পট
-        function generateRandomPrompt() {
-            hideCustomInput();
-            
-            const keys = Object.keys(promptTemplates);
-            const randomKey = keys[Math.floor(Math.random() * keys.length)];
-            const randomPrompt = promptTemplates[randomKey];
-            
-            document.getElementById('promptPreview').innerHTML = randomPrompt.replace(/\n/g, '<br>');
-            sendToGemini(randomPrompt);
-        }
+        // URL এনকোড
+        const encodedPrompt = encodeURIComponent(promptText.trim());
         
-        // ✏️ কাস্টম প্রম্পট শো
-        function showCustomInput() {
-            const customSection = document.getElementById('customSection');
-            customSection.style.display = 'block';
-            
-            // স্ক্রলে নিয়ে যাও
-            customSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
+        // Gemini URL
+        const geminiUrl = 'https://gemini.google.com/?q=' + encodedPrompt;
         
-        // ❌ কাস্টম প্রম্পট হাইড
-        function hideCustomInput() {
-            const customSection = document.getElementById('customSection');
-            customSection.style.display = 'none';
-            document.getElementById('customPrompt').value = '';
-        }
+        // নতুন ট্যাবে খোলা
+        window.open(geminiUrl, '_blank');
         
-        // 📤 কাস্টম প্রম্পট পাঠান
-        function sendCustomPrompt() {
-            const customPromptText = document.getElementById('customPrompt').value.trim();
-            
-            if (customPromptText === '') {
-                alert('⚠️ দয়া করে একটি প্রম্পট লিখুন!');
-                return;
-            }
-            
-            // প্রিভিউ আপডেট
-            document.getElementById('promptPreview').innerHTML = customPromptText.replace(/\n/g, '<br>');
-            
-            // পাঠান
-            sendToGemini(customPromptText);
-            
-            // কাস্টম সেকশন হাইড
-            hideCustomInput();
-        }
-        
-        // ⌨️ এন্টার চাপলে পাঠানো (অপশনাল)
-        document.addEventListener('keypress', function(event) {
-            if (event.key === 'Enter' && event.ctrlKey) {
-                const customSection = document.getElementById('customSection');
-                if (customSection.style.display === 'block') {
-                    sendCustomPrompt();
-                }
-            }
-        });
-        
-        // 🎉 পেজ লোড হলে কনসোলে মেসেজ
-        console.log('%c✨ AI প্রম্পট জেনারেটর রেডি! একটি বাটনে ক্লিক করুন', 'color: #4285f4; font-size: 16px');
-    </script>
+        // কনসোলে দেখানো
+        console.log('প্রম্পট পাঠানো হয়েছে:', promptText);
+        console.log('Gemini URL:', geminiUrl);
+    }
+    
+    // পেজ লোড হলে কনসোল মেসেজ
+    console.log('✅ AI প্রম্পট জেনারেটর রেডি!');
+</script>
+
 </body>
 </html>
