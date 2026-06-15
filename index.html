@@ -2,98 +2,86 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>হিলস হোমিওপ্যাথি | প্রাকৃতিক চিকিৎসা</title>
-    <!-- Common CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>হিলস হোমিও | সিম্পল কেয়ার</title>
     <link rel="stylesheet" href="assets/css/common-style.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- navbar একই কম্পোনেন্ট, তবে প্রতিটি পেজে কমন -->
+<!-- চিকন হেডার -->
 <nav class="navbar">
     <div class="nav-container">
-        <a href="index.html" class="logo">হিলস <span>হোমিও</span></a>
+        <a href="index.html" class="logo">হিলস<span>হোমিও</span></a>
+        <button class="hamburger" id="hamburgerBtn">☰</button>
         <ul class="nav-menu">
             <li><a href="index.html" class="nav-link">হোম</a></li>
-            <li><a href="about.html" class="nav-link">আমাদের সম্পর্কে</a></li>
-            <li><a href="services.html" class="nav-link">সেবাসমূহ</a></li>
-            <li><a href="doctors.html" class="nav-link">চিকিৎসকবৃন্দ</a></li>
+            <li><a href="about.html" class="nav-link">আমাদের</a></li>
+            <li><a href="services.html" class="nav-link">সেবা</a></li>
+            <li><a href="doctors.html" class="nav-link">চিকিৎসক</a></li>
             <li><a href="contact.html" class="nav-link">যোগাযোগ</a></li>
         </ul>
-        <div class="hamburger">
-            <span></span><span></span><span></span>
-        </div>
     </div>
 </nav>
 
-<!-- Hero Section -->
+<!-- সিম্পল হিরো -->
 <section class="hero">
-    <div class="container hero-grid">
-        <div class="hero-content">
-            <span class="hero-badge">স্বাস্থ্যই প্রকৃত সম্পদ</span>
-            <h1>প্রাকৃতিক পথে সুস্থ জীবন</h1>
-            <p>হোমিওপ্যাথি পার্শ্বপ্রতিক্রিয়ামুক্ত, সম্পূর্ণ নিরাপদ চিকিৎসা পদ্ধতি। ২০+ বছরের অভিজ্ঞতা সম্পন্ন চিকিৎসক ও আধুনিক ডায়াগনোসিস সমর্থিত যত্ন।</p>
-            <br>
-            <a href="appointment.html" class="btn btn-primary">অ্যাপয়েন্টমেন্ট বুক করুন →</a>
-        </div>
-        <div class="hero-img">
-            <img src="https://placehold.co/500x400/e8f5e9/2c7a4d?text=Homoeopathy+Care" alt="হোমিও চিকিৎসা">
-        </div>
+    <div class="container">
+        <span class="hero-badge">প্রাকৃতিক পথে সুস্থতা</span>
+        <h1>হোমিওপ্যাথি <br>পার্শ্বপ্রতিক্রিয়ামুক্ত</h1>
+        <p>বাংলাদেশের অভিজ্ঞ হোমিও চিকিৎসকদের পরামর্শ, সম্পূর্ণ অনলাইন ও অফলাইন সেবা।</p>
+        <a href="appointment.html" class="btn btn-primary">অ্যাপয়েন্টমেন্ট →</a>
     </div>
 </section>
 
 <div class="container">
-    <!-- বিশেষ চিকিৎসা সেবা -->
-    <h2 class="section-title">আমাদের বিশেষ সেবাসমূহ</h2>
+    <h2 class="section-title">আমাদের সেবাসমূহ</h2>
     <div class="card-grid">
         <div class="card">
             <div class="card-icon">🌿</div>
             <h3>ক্রনিক রোগ</h3>
-            <p>অ্যাজমা, এলার্জি, আর্থ্রাইটিস, স্কিন ও ডায়াবেটিসের স্থায়ী সমাধান।</p>
+            <p>ডায়াবেটিস, অ্যাজমা, আর্থ্রাইটিস, স্কিনের স্থায়ী সমাধান।</p>
         </div>
         <div class="card">
-            <div class="card-icon">🧠</div>
+            <div class="card-icon">🧘</div>
             <h3>মেন্টাল হেলথ</h3>
-            <p>উদ্বেগ, বিষণ্নতা, প্যানিক ডিজঅর্ডারে কার্যকরী সফট ট্রিটমেন্ট।</p>
+            <p>উদ্বেগ, বিষণ্নতা, অনিদ্রার প্রাকৃতিক চিকিৎসা।</p>
         </div>
         <div class="card">
             <div class="card-icon">👶</div>
-            <h3>শিশু ও মাতৃস্বাস্থ্য</h3>
-            <p>শিশুর রোগ প্রতিরোধ ক্ষমতা বাড়ানো ও গর্ভবতী মায়ের নিরাপদ সেবা।</p>
+            <h3>শিশু স্বাস্থ্য</h3>
+            <p>নিরাপদ, মিষ্টি ও কার্যকরী শিশু চিকিৎসা।</p>
         </div>
         <div class="card">
-            <div class="card-icon">💊</div>
-            <h3>ব্যক্তিত্ব নির্ভর চিকিৎসা</h3>
-            <p>শুধু রোগ নয়, রোগীকে সামগ্রিকভাবে বিশ্লেষণ করে প্রতিকার।</p>
+            <div class="card-icon">💚</div>
+            <h3>মহিলা স্বাস্থ্য</h3>
+            <p>হরমোন ও মাসিক সংক্রান্ত সমস্যার সমাধান।</p>
         </div>
     </div>
 </div>
 
-<!-- ফুটার -->
+<!-- চিকন ফুটার -->
 <footer class="footer">
-    <div class="container footer-grid">
-        <div class="footer-col">
-            <h4>হিলস হোমিওপ্যাথি</h4>
-            <p>প্রাকৃতিক নিরাময়ে আস্থা রাখুন।<br>বিনামূল্যে পরামর্শ ও রোগী সহায়তা লাইন।</p>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>হিলস হোমিওপ্যাথি</h4>
+                <p>প্রাকৃতিক নিরাময়ে বিশ্বাসী</p>
+            </div>
+            <div class="footer-col">
+                <h4>লিংক</h4>
+                <a href="about.html">আমাদের সম্পর্কে</a>
+                <a href="services.html">সেবাসমূহ</a>
+                <a href="contact.html">যোগাযোগ</a>
+            </div>
+            <div class="footer-col">
+                <h4>যোগাযোগ</h4>
+                <p>📞 ০১৬XXXXXXX</p>
+                <p>✉️ hello@hillshomoeo.com</p>
+            </div>
         </div>
-        <div class="footer-col">
-            <h4>লিংক</h4>
-            <a href="about.html">আমাদের সম্পর্কে</a>
-            <a href="services.html">সেবাসমূহ</a>
-            <a href="doctors.html">চিকিৎসক</a>
-            <a href="blog.html">স্বাস্থ্য ব্লগ</a>
+        <div class="footer-bottom">
+            <p>© ২০২৬ হিলস হোমিও — সব অধিকার সংরক্ষিত</p>
         </div>
-        <div class="footer-col">
-            <h4>যোগাযোগ</h4>
-            <p>📞 +৮৮০ ১৬XXXXXXX</p>
-            <p>✉️ hello@hillshomoeo.com</p>
-            <p>📍 ঢাকা, বাংলাদেশ</p>
-        </div>
-    </div>
-    <div class="container footer-bottom">
-        <p>&copy; ২০২৬ হিলস হোমিওপ্যাথি - সব অধিকার সংরক্ষিত</p>
     </div>
 </footer>
 
