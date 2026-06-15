@@ -1,408 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-  <title>Prompt Generator | Islamic Spiritual AI</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
-  <!-- Font Awesome 6 (Free) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+// ai-prompt-sender.js - কেন্দ্রীয় স্ক্রিপ্ট (যেকোনো পেজে ব্যবহারযোগ্য)
+(function() {
+    'use strict';
+
+    // কনফিগারেশন সেটিংস
+    const CONFIG = {
+        aiPlatform: 'perplexity',  // perplexity, chatgpt, gemini, grok
+        autoSubmit: true,
+        debugMode: true
+    };
+
+    // AI প্ল্যাটফর্মের URL টেমপ্লেট
+    const AI_URLS = {
+        perplexity: (prompt) => `https://www.perplexity.ai/?q=${encodeURIComponent(prompt)}`,
+        chatgpt: (prompt) => `https://chat.openai.com/?q=${encodeURIComponent(prompt)}`,
+        gemini: (prompt) => `https://gemini.google.com/?q=${encodeURIComponent(prompt)}`,
+        grok: (prompt) => `https://grok.com/?q=${encodeURIComponent(prompt)}`
+    };
+
+    // লগিং ফাংশন (ডিবাগিং এর জন্য)
+    function log(message, type = 'info') {
+        if (!CONFIG.debugMode) return;
+        const prefix = '🤖 [AI-Prompt-Sender]';
+        if (type === 'error') console.error(prefix, message);
+        else if (type === 'success') console.log(prefix, message);
+        else console.log(prefix, message);
     }
 
-    body {
-      background: linear-gradient(125deg, #0b2f1f 0%, #1a4d2e 100%);
-      font-family: 'Inter', sans-serif;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1.5rem;
+    // ফর্ম ডাটা কালেক্ট করার ফাংশন
+    function collectFormData() {
+        let formData = [];
+        
+        // সব সেকশন হেডার সংগ্রহ
+        const sections = document.querySelectorAll('.section');
+        
+        sections.forEach(section => {
+            const header = section.querySelector('h3');
+            const sectionTitle = header ? header.innerText.trim() : 'অন্যান্য তথ্য';
+            
+            // টেক্সটএরিয়া ও ইনপুট ফিল্ডের মান নেওয়া
+            const textareas = section.querySelectorAll('textarea, input[type="text"]');
+            textareas.forEach(input => {
+                if (input.value && input.value.trim() !== '') {
+                    formData.push(`${sectionTitle}: ${input.value.trim()}`);
+                }
+            });
+            
+            // চেকবক্সের মান নেওয়া
+            const checkboxes = section.querySelectorAll('input[type="checkbox"]:checked');
+            if (checkboxes.length > 0) {
+                const checkedValues = Array.from(checkboxes).map(cb => cb.value).join(', ');
+                formData.push(`${sectionTitle}: ${checkedValues}`);
+            }
+        });
+        
+        return formData;
     }
 
-    /* Main Card */
-    .prompt-card {
-      max-width: 900px;
-      width: 100%;
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 2rem;
-      box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255,255,255,0.5);
-      overflow: hidden;
-      transition: all 0.2s ease;
+    // প্রম্পট জেনারেট করার ফাংশন
+    function generatePrompt() {
+        const formData = collectFormData();
+        
+        if (formData.length === 0) {
+            log('কোনো ডাটা পাওয়া যায়নি!', 'error');
+            return null;
+        }
+        
+        const prompt = `আমি নিচে আমার একজন রোগীর রোগের লক্ষণসমূহ লিখছি। তুমি লক্ষণসমূহ হোমিওপ্যাথিক রেপার্টরি গুলিতে যাচাই করে ঔষধ সিলেক্ট করে দাও।
+
+লক্ষণসমূহ:
+${formData.join('\n')}
+
+নির্দেশনা:
+১) প্রধান হোমিওপ্যাথিক ঔষধের নাম (যেটি সবচেয়ে বেশি উপযুক্ত)
+২) প্রধান ঔষধের সহায়ক ঔষধের নাম (Complementary)
+৩) সবচেয়ে বেশি উপযুক্ত বায়োকেমিক ও বায়োকম্বিনেশনের নাম
+৪) লক্ষণ সমুহের সাথে মিল আছে এমন ৬/৭ ঔষধের তালিকা
+৫) এলোপ্যাথি ও ইউনানি তে এই রোগের ঔষধ (সংক্ষেপে)
+
+দয়া করে এমন ঔষধ নির্বাচন করবেন না যারা একে অপরের ক্রিয়া নাশক বা শত্রুভাবাপন্ন।`;
+
+        log('প্রম্পট জেনারেট সম্পন্ন', 'success');
+        return prompt;
     }
 
-    /* Header with Islamic Pattern */
-    .islamic-header {
-      background: linear-gradient(115deg, #0c4a2e 0%, #0b3b23 100%);
-      padding: 1.8rem 2rem 1.5rem 2rem;
-      text-align: center;
-      position: relative;
+    // AI তে পাঠানোর ফাংশন
+    function sendToAI() {
+        log('প্রম্পট জেনারেট করা শুরু...');
+        
+        const prompt = generatePrompt();
+        
+        if (!prompt) {
+            alert('❌ কোনো ডাটা পাওয়া যায়নি! দয়া করে ফর্ম পূরণ করুন।');
+            return;
+        }
+        
+        // প্রম্পট প্রিভিউ দেখান (যদি result div থাকে)
+        const resultDiv = document.getElementById('result');
+        if (resultDiv) {
+            resultDiv.innerHTML = `<strong>📝 জেনারেটেড প্রম্পট:</strong><br><br>${prompt.replace(/\n/g, '<br>')}`;
+        }
+        
+        // AI প্ল্যাটফর্মে পাঠানো
+        const urlGenerator = AI_URLS[CONFIG.aiPlatform];
+        if (urlGenerator) {
+            const aiUrl = urlGenerator(prompt);
+            log(`খোলা হচ্ছে: ${aiUrl}`);
+            window.open(aiUrl, '_blank');
+        } else {
+            log('অজানা AI প্ল্যাটফর্ম', 'error');
+        }
     }
 
-    .islamic-header::before {
-      content: "﴿ ﷽ ﴾";
-      font-family: 'Amiri', serif;
-      font-size: 1.4rem;
-      color: rgba(255,248,205,0.4);
-      position: absolute;
-      bottom: 10px;
-      right: 20px;
-      font-weight: normal;
+    // বিদ্যমান সাবমিট বাটন খুঁজে তার সাথে যুক্ত করা
+    function integrateWithExistingButton() {
+        // ফর্মের সাবমিট বাটন খোঁজা
+        const submitBtn = document.querySelector('button[type="submit"]');
+        const copyBtn = document.getElementById('copyButton');
+        
+        if (submitBtn) {
+            // মূল সাবমিট ফাংশন সংরক্ষণ
+            const originalClick = submitBtn.onclick;
+            
+            // নতুন ফাংশন যোগ করা
+            submitBtn.addEventListener('click', function(e) {
+                // প্রথমে ফর্ম ডাটা প্রদর্শন হবে (result div এ)
+                // তারপর AI তে পাঠানো হবে
+                setTimeout(() => {
+                    sendToAI();
+                }, 100); // সামান্য delay যেন result আগে আপডেট হয়
+            });
+            
+            log('সাবমিট বাটনের সাথে যুক্ত করা হয়েছে', 'success');
+        } else {
+            log('সাবমিট বাটন পাওয়া যায়নি!', 'error');
+        }
     }
 
-    .islamic-header h1 {
-      font-family: 'Amiri', serif;
-      font-size: 2.1rem;
-      letter-spacing: -0.5px;
-      color: #ffefcf;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      flex-wrap: wrap;
+    // কাস্টম বাটন তৈরি করা (যদি দরকার হয়)
+    function addCustomButton() {
+        // চেক করা ইতিমধ্যে বাটন আছে কিনা
+        if (document.getElementById('aiPromptBtn')) return;
+        
+        const buttonContainer = document.querySelector('.submit-area') || 
+                                document.querySelector('form').querySelector('button')?.parentNode ||
+                                document.querySelector('form');
+        
+        if (buttonContainer) {
+            const aiBtn = document.createElement('button');
+            aiBtn.id = 'aiPromptBtn';
+            aiBtn.innerHTML = '🤖 AI তে প্রম্পট পাঠান';
+            aiBtn.style.cssText = `
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                border: none;
+                padding: 12px 24px;
+                margin-left: 10px;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: bold;
+            `;
+            aiBtn.onclick = (e) => {
+                e.preventDefault();
+                sendToAI();
+            };
+            buttonContainer.appendChild(aiBtn);
+            log('কাস্টম বাটন যোগ করা হয়েছে', 'success');
+        }
     }
 
-    .islamic-header h1 i {
-      font-size: 1.8rem;
-      color: #e9c46a;
+    // পেজ লোড হলে সবকিছু সক্রিয় করা
+    function init() {
+        log('AI প্রম্পট সেন্ডার সক্রিয় হচ্ছে...');
+        
+        // ফর্ম লোড হওয়ার জন্য সামান্য অপেক্ষা
+        setTimeout(() => {
+            integrateWithExistingButton();
+            addCustomButton();
+        }, 500);
     }
 
-    .islamic-header p {
-      color: #d4e6d4;
-      margin-top: 0.6rem;
-      font-size: 0.9rem;
-      font-weight: 400;
+    // পেজ লোড হলে রান করা
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
     }
-
-    .badge {
-      background: #2b5e3b;
-      display: inline-block;
-      padding: 5px 14px;
-      border-radius: 40px;
-      font-size: 0.7rem;
-      font-weight: 600;
-      color: #fbffd3;
-      margin-top: 12px;
-      letter-spacing: 0.5px;
-    }
-
-    /* Content */
-    .content {
-      padding: 1.8rem 2rem 2rem 2rem;
-    }
-
-    /* Selected Prompt area */
-    .selected-area {
-      background: #fefaf0;
-      border-radius: 1.2rem;
-      padding: 1.2rem;
-      margin-bottom: 2rem;
-      border: 1px solid #e2dccd;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
-    }
-
-    .label-prompt {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-weight: 700;
-      color: #5f7345;
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-
-    .preview-text {
-      font-size: 1rem;
-      line-height: 1.55;
-      color: #1f2a1b;
-      font-weight: 500;
-      word-break: break-word;
-      white-space: pre-wrap;
-      font-family: 'Inter', monospace;
-    }
-
-    /* Grid Buttons */
-    .prompt-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-bottom: 2rem;
-      justify-content: center;
-    }
-
-    .pill-btn {
-      background: #f0f4ea;
-      border: 1px solid #cbdbb6;
-      color: #2b472f;
-      padding: 10px 20px;
-      border-radius: 60px;
-      font-weight: 600;
-      font-size: 0.85rem;
-      transition: all 0.2s;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      font-family: 'Inter', sans-serif;
-    }
-
-    .pill-btn i {
-      font-size: 0.9rem;
-      color: #4a784a;
-    }
-
-    .pill-btn:hover {
-      background: #e6f0de;
-      transform: translateY(-2px);
-      border-color: #9bb87f;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    }
-
-    /* Submit & Custom Section */
-    .submit-area {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin-bottom: 1.8rem;
-      align-items: flex-start;
-    }
-
-    .custom-input-wrapper {
-      flex: 2;
-      min-width: 180px;
-    }
-
-    .custom-input-wrapper input {
-      width: 100%;
-      padding: 12px 18px;
-      border-radius: 60px;
-      border: 1.5px solid #dde2cf;
-      background: white;
-      font-family: 'Inter', sans-serif;
-      font-size: 0.9rem;
-      transition: 0.2s;
-    }
-
-    .custom-input-wrapper input:focus {
-      outline: none;
-      border-color: #3b7a4a;
-      box-shadow: 0 0 0 2px rgba(59,122,74,0.2);
-    }
-
-    .btn-primary {
-      background: #1f543b;
-      border: none;
-      padding: 0 30px;
-      border-radius: 60px;
-      font-weight: 700;
-      font-size: 1rem;
-      color: white;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      cursor: pointer;
-      transition: 0.2s;
-      height: 48px;
-      font-family: 'Inter', sans-serif;
-    }
-
-    .btn-primary i {
-      font-size: 1rem;
-    }
-
-    .btn-primary:hover {
-      background: #0f3e2a;
-      transform: scale(0.97);
-      box-shadow: 0 5px 12px rgba(0,0,0,0.1);
-    }
-
-    .info-note {
-      background: #eef2e5;
-      border-radius: 1rem;
-      padding: 0.8rem 1rem;
-      font-size: 0.75rem;
-      color: #3e5a34;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-
-    .info-note span i {
-      margin-right: 6px;
-    }
-
-    footer {
-      background: #fcf9f0;
-      padding: 0.9rem;
-      text-align: center;
-      font-size: 0.7rem;
-      color: #6f6b54;
-      border-top: 1px solid #ede5ce;
-    }
-
-    @media (max-width: 600px) {
-      .submit-area {
-        flex-direction: column;
-      }
-      .btn-primary {
-        justify-content: center;
-      }
-      .islamic-header h1 {
-        font-size: 1.5rem;
-      }
-      .content {
-        padding: 1.5rem;
-      }
-    }
-  </style>
-</head>
-<body>
-
-<div class="prompt-card">
-  <div class="islamic-header">
-    <h1>
-      <i class="fas fa-star-and-crescent"></i> 
-      Prompt Generator
-      <i class="fas fa-hand-peace"></i>
-    </h1>
-    <p>ইসলামিক অনুপ্রেরণা ও জ্ঞানভিত্তিক প্রম্পট</p>
-    <div class="badge"><i class="fas fa-robot"></i> AI · Instant Send to Perplexity</div>
-  </div>
-
-  <div class="content">
-    <!-- জেনারেটেড প্রম্পট দেখানোর জায়গা -->
-    <div class="selected-area">
-      <div class="label-prompt"><i class="fas fa-feather-alt"></i> Generated Prompt</div>
-      <div class="preview-text" id="generatedPromptPreview">
-        আপনার নির্বাচিত প্রম্পট এখানে দেখাবে।
-      </div>
-    </div>
-
-    <!-- প্রম্পট বাটন গ্রিড (ইসলামিক ভিত্তিক) -->
-    <div class="prompt-grid">
-      <div class="pill-btn" data-prompt="আল্লাহর ৯৯ নামের তালিকা আরবি ও বাংলা অর্থসহ দিন।">
-        <i class="fas fa-gem"></i> ৯৯ নাম
-      </div>
-      <div class="pill-btn" data-prompt="প্রথম ১০ আসমাউল হুসনার ফজিলত ও অর্থ বর্ণনা কর।">
-        <i class="fas fa-book-quran"></i> আসমাউল হুসনা
-      </div>
-      <div class="pill-btn" data-prompt="সুরা ফাতিহার তাফসির ও শিক্ষা সংক্ষেপে আলোচনা কর।">
-        <i class="fas fa-quran"></i> সুরা ফাতিহা
-      </div>
-      <div class="pill-btn" data-prompt="একজন মুসলিমের দৈনিক আমল ও দুয়া সমূহ উল্লেখ কর।">
-        <i class="fas fa-praying-hands"></i> দৈনিক দুয়া
-      </div>
-      <div class="pill-btn" data-prompt="ইসলামে ধৈর্যের গুরুত্ব ও কুরআনের আয়াত উল্লেখ কর।">
-        <i class="fas fa-hand-sparkles"></i> ধৈর্যের ফজিলত
-      </div>
-      <div class="pill-btn" data-prompt="জান্নাতের ৮টি দরজার নাম ও বৈশিষ্ট্য লিখ।">
-        <i class="fas fa-door-open"></i> জান্নাতের দরজা
-      </div>
-    </div>
-
-    <!-- কাস্টম প্রম্পট + সাবমিট বাটন -->
-    <div class="submit-area">
-      <div class="custom-input-wrapper">
-        <input type="text" id="customPromptInput" placeholder="নিজের প্রম্পট লিখুন (উদা: ইস্তিগফারের ফজিলত)" autocomplete="off">
-      </div>
-      <button class="btn-primary" id="submitPromptBtn">
-        <i class="fas fa-paper-plane"></i> সাবমিট করুন
-      </button>
-    </div>
-
-    <div class="info-note">
-      <span><i class="fas fa-globe"></i> 🔍 Perplexity AI - প্রম্পট অটোমেটিক পেস্ট ও জেনারেট হবে</span>
-      <span><i class="fas fa-magic"></i> অটো রিডাইরেক্ট 🔄</span>
-    </div>
-  </div>
-  <footer>
-    <i class="fas fa-cloud-moon"></i> সাবমিট করলেই প্রম্পট তৈরি হবে → Perplexity AI পেজে নিয়ে যাবে (URL প্যারামিটার স্বয়ংক্রিয়)
-  </footer>
-</div>
-
-<script>
-  // DOM elements
-  const previewDiv = document.getElementById('generatedPromptPreview');
-  const customInput = document.getElementById('customPromptInput');
-  const submitBtn = document.getElementById('submitPromptBtn');
-  const allPillBtns = document.querySelectorAll('.pill-btn');
-
-  /**
-   * Perplexity AI তে প্রম্পট পাঠানোর ফাংশন (অটো-সাবমিট ওপেন)
-   * @param {string} promptText 
-   */
-  function sendToPerplexity(promptText) {
-    if (!promptText || promptText.trim() === "") {
-      alert("❌ প্রম্পট খালি! কিছু লিখুন বা নির্বাচন করুন।");
-      return false;
-    }
-    const trimmedPrompt = promptText.trim();
-    // URL Encode করা
-    const encodedPrompt = encodeURIComponent(trimmedPrompt);
-    // Perplexity URL - এটি স্বয়ংক্রিয়ভাবে ইনপুট ফিল্ড পূরণ করে এবং এন্টার ছাড়াই সাবমিট করে (Perplexity নিজে থেকেই কুয়েরি প্রসেস করে)
-    const perplexityUrl = `https://www.perplexity.ai/?q=${encodedPrompt}`;
-    
-    // নতুন ট্যাবে ওপেন
-    window.open(perplexityUrl, '_blank');
-    console.log("✅ Perplexity AI তে প্রেরিত:", trimmedPrompt);
-    return true;
-  }
-
-  /**
-   * প্রম্পট জেনারেট করুন এবং প্রিভিউ আপডেট করুন, তারপর Perplexity-তে পাঠান
-   * @param {string} prompt 
-   */
-  function generateAndSubmit(prompt) {
-    if (!prompt || prompt.trim() === "") return;
-    // 1. প্রিভিউ আপডেট
-    previewDiv.innerText = prompt;
-    // 2. অটোমেটিক Perplexity AI পেজে নিয়ে যান
-    sendToPerplexity(prompt);
-  }
-
-  // ============= ১. প্রি-ডিফাইন্ড বাটন ক্লিক =============
-  allPillBtns.forEach(btn => {
-    btn.addEventListener('click', function(e) {
-      const promptValue = this.getAttribute('data-prompt');
-      if (promptValue) {
-        generateAndSubmit(promptValue);
-      }
-    });
-  });
-
-  // ============= ২. সাবমিট বাটন (কাস্টম প্রম্পট + জেনারেট) =============
-  function handleCustomSubmit() {
-    let customPrompt = customInput.value.trim();
-    if (customPrompt === "") {
-      alert("⚠️ দয়া করে একটি কাস্টম প্রম্পট লিখুন অথবা উপরের বাটন থেকে নির্বাচন করুন।");
-      return;
-    }
-    // প্রিভিউ আপডেট এবং perplexity পাঠান
-    generateAndSubmit(customPrompt);
-    // অপশনাল: ইনপুট ফিল্ড পরিষ্কার করতে চাইলে (প্রয়োজনে)
-    // customInput.value = "";
-  }
-
-  submitBtn.addEventListener('click', handleCustomSubmit);
-
-  // এন্টার কি সাপোর্ট (যদি কাস্টম ইনপুটে এন্টার চাপে)
-  customInput.addEventListener('keypress', function(e) {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      handleCustomSubmit();
-    }
-  });
-
-  // পেজ লোড হলে কিছু ডিফল্ট মেসেজ
-  console.log("Islamic Prompt Generator Ready — Auto redirect to Perplexity AI");
-</script>
-</body>
-</html>
+})();
