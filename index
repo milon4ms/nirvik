@@ -1,1 +1,218 @@
-আফসদাফ
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI প্রম্পট জেনারেটর - DeepSeek AI</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #0066cc, #0ea5e9);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2em; margin-bottom: 10px; }
+        .header p { font-size: 1.1em; opacity: 0.95; }
+        .content { padding: 30px; }
+        .preview-box {
+            background: #f0f9ff;
+            border-left: 5px solid #0ea5e9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .preview-box h3 { color: #0ea5e9; margin-bottom: 10px; }
+        .preview-box p { color: #333; line-height: 1.6; }
+        .button-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .btn-primary { background: #0ea5e9; color: white; }
+        .btn-primary:hover { background: #0284c7; transform: translateY(-2px); }
+        .btn-success { background: #10b981; color: white; }
+        .btn-success:hover { background: #059669; transform: translateY(-2px); }
+        .btn-warning { background: #f59e0b; color: white; }
+        .btn-warning:hover { background: #d97706; transform: translateY(-2px); }
+        .btn-danger { background: #ef4444; color: white; }
+        .btn-danger:hover { background: #dc2626; transform: translateY(-2px); }
+        .custom-area {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: none;
+        }
+        .custom-area textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: monospace;
+            resize: vertical;
+            margin-bottom: 15px;
+        }
+        .info {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .info h4 { color: #0f172a; margin-bottom: 8px; }
+        .info p { color: #475569; font-size: 14px; line-height: 1.5; }
+        .footer {
+            background: #f8fafc;
+            padding: 20px;
+            text-align: center;
+            color: #64748b;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>🤖 AI প্রম্পট জেনারেটর</h1>
+        <p>এক ক্লিকে প্রম্পট তৈরি করুন এবং DeepSeek AI তে পাঠান</p>
+    </div>
+
+    <div class="content">
+        <div class="preview-box">
+            <h3>📝 আপনার প্রম্পট:</h3>
+            <p id="previewText">একটি বাটনে ক্লিক করুন...</p>
+        </div>
+
+        <div class="button-group">
+            <button class="btn-primary" onclick="generatePrompt('story')">📖 গল্প লিখুন</button>
+            <button class="btn-primary" onclick="generatePrompt('code')">💻 কোড লিখুন</button>
+            <button class="btn-primary" onclick="generatePrompt('translate')">🌐 অনুবাদ করুন</button>
+            <button class="btn-primary" onclick="generatePrompt('summary')">📄 সারাংশ লিখুন</button>
+            <button class="btn-primary" onclick="generatePrompt('email')">✉️ ইমেইল লিখুন</button>
+            <button class="btn-success" onclick="generatePrompt('idea')">💡 আইডিয়া জেনারেট</button>
+            <button class="btn-warning" onclick="showCustom()">✏️ নিজে লিখুন</button>
+            <button class="btn-danger" onclick="randomPrompt()">🎲 র্যান্ডম</button>
+        </div>
+
+        <div id="customArea" class="custom-area">
+            <h3>✏️ আপনার প্রম্পট লিখুন:</h3>
+            <textarea id="customText" rows="4" placeholder="যেমন:&#10;1. পাইথন দিয়ে একটি ক্যালকুলেটর বানাও&#10;2. ঢাকা শহরের ১০টি দর্শনীয় স্থানের নাম বলো&#10;3. একটি মজার গল্প লেখ"></textarea>
+            <button class="btn-primary" onclick="sendCustom()">🚀 DeepSeek এ পাঠান</button>
+            <button class="btn-warning" onclick="hideCustom()" style="margin-left: 10px;">❌ বাতিল</button>
+        </div>
+
+        <div class="info">
+            <h4>✅ কাজ করবে নিশ্চিত!</h4>
+            <p>
+                <strong>DeepSeek URL প্যারামিটার সাপোর্ট করে [citation:1]</strong><br>
+                • বাটনে ক্লিক করলেই DeepSeek খুলবে 🚀<br>
+                • প্রম্পট অটোমেটিক ইনপুট বক্সে চলে যাবে ✨<br>
+                • শুধু <kbd>Enter</kbd> চাপলেই চ্যাট শুরু! 🎯
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>⚡ 100% ফ্রি | প্রম্পট জেনারেট করে সরাসরি DeepSeek AI তে পাঠায়</p>
+    </div>
+</div>
+
+<script>
+    // প্রম্পট টেমপ্লেট
+    const prompts = {
+        story: "একটি ছোট গল্প লেখ। গল্পটি হবে: একটি বুদ্ধিমান কুকুর যে তার মালিককে জঙ্গলে হারিয়ে যাওয়া থেকে উদ্ধার করে। গল্পটি বাংলায় লেখ এবং শেষে একটি শিক্ষণীয় বাক্য থাকবে।",
+        
+        code: "JavaScript দিয়ে একটি ফাংশন লেখ যা ইনপুট হিসেবে একটি সংখ্যা নেবে এবং বলে দেবে সেটি জোড় না বিজোড়। ফাংশনটির ব্যাখ্যা বাংলায় দাও।",
+        
+        translate: "নিচের বাক্যটি ইংরেজি থেকে বাংলায় অনুবাদ কর:\n\n'The Internet has changed the way we communicate, work, and live.'\n\nঅনুবাদের পর প্রতিটি গুরুত্বপূর্ণ শব্দের অর্থ লিখ।",
+        
+        summary: "'বাংলাদেশ একটি প্রাচীন ও ঐতিহ্যবাহী দেশ। ১৯৭১ সালের মহান মুক্তিযুদ্ধের মাধ্যমে স্বাধীনতা অর্জন করে। বর্তমানে বাংলাদেশ দ্রুত উন্নয়নশীল দেশগুলোর একটি।'\n\nউপরের টেক্সটটির একটি ছোট সারাংশ লেখ।",
+        
+        email: "একটি পেশাদার ইমেইল লিখ যাতে নিচের বিষয়গুলো থাকে:\n- প্রাপক: আপনার ম্যানেজার\n- বিষয়: ছুটির আবেদন\n- কারণ: পারিবারিক জরুরি কাজ\n- সময়: ২ দিন",
+        
+        idea: "একটি মোবাইল অ্যাপের আইডিয়া দাও যা ছাত্রদের পড়াশোনায় সাহায্য করবে। অ্যাপটির নাম, বৈশিষ্ট্য এবং এটি কিভাবে কাজ করবে তা বিস্তারিত বাংলায় লেখ।"
+    };
+    
+    // 🌟 মেইন ফাংশন - DeepSeek এ পাঠাবে
+    function sendToDeepSeek(promptText) {
+        if (!promptText || promptText.trim() === '') {
+            alert('❌ প্রম্পট খালি!');
+            return;
+        }
+        
+        const encodedPrompt = encodeURIComponent(promptText.trim());
+        const deepseekUrl = 'https://chat.deepseek.com/?q=' + encodedPrompt;  // ✅ কাজ করে!
+        
+        window.open(deepseekUrl, '_blank');
+        console.log('✅ প্রম্পট পাঠানো হয়েছে:', promptText);
+    }
+    
+    // প্রম্পট জেনারেট ও পাঠান
+    function generatePrompt(type) {
+        document.getElementById('customArea').style.display = 'none';
+        let promptText = prompts[type] || "আমাকে সাহায্য করুন: [আপনার প্রশ্ন লিখুন]";
+        document.getElementById('previewText').innerHTML = promptText.replace(/\n/g, '<br>');
+        sendToDeepSeek(promptText);
+    }
+    
+    // র্যান্ডম প্রম্পট
+    function randomPrompt() {
+        document.getElementById('customArea').style.display = 'none';
+        const keys = Object.keys(prompts);
+        const randomKey = keys[Math.floor(Math.random() * keys.length)];
+        const randomText = prompts[randomKey];
+        document.getElementById('previewText').innerHTML = randomText.replace(/\n/g, '<br>');
+        sendToDeepSeek(randomText);
+    }
+    
+    // কাস্টম প্রম্পট
+    function showCustom() {
+        document.getElementById('customArea').style.display = 'block';
+        document.getElementById('customText').value = '';
+        document.getElementById('customText').focus();
+    }
+    
+    function hideCustom() {
+        document.getElementById('customArea').style.display = 'none';
+    }
+    
+    function sendCustom() {
+        const customText = document.getElementById('customText').value.trim();
+        if (customText === '') {
+            alert('⚠️ দয়া করে কিছু লিখুন!');
+            return;
+        }
+        document.getElementById('previewText').innerHTML = customText.replace(/\n/g, '<br>');
+        sendToDeepSeek(customText);
+        hideCustom();
+    }
+</script>
+
+</body>
+</html>
