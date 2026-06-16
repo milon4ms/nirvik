@@ -1,4 +1,4 @@
-// মোবাইল হ্যামবার্গার মেনু
+// মোবাইল মেনু টগল
 const hamburger = document.getElementById('hamburgerBtn');
 const navMenu = document.querySelector('.nav-menu');
 
@@ -8,10 +8,9 @@ if (hamburger && navMenu) {
     });
 }
 
-// সক্রিয় পেজ হাইলাইট
-const current = window.location.pathname.split('/').pop() || 'index.html';
+// সক্রিয় লিংক হাইলাইট
 document.querySelectorAll('.nav-link').forEach(link => {
-    if (link.getAttribute('href') === current) {
+    if (link.getAttribute('href') === '#') {
         link.classList.add('active');
     }
 });
