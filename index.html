@@ -1,389 +1,135 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nirvik Homeo - Case Taking Assistant</title>
-  <style>
-    body { font-family: 'SolaimanLipi', 'Segoe UI', sans-serif; line-height: 1.6; padding: 20px; background: #f8f8f8; margin: 0; padding-bottom: 60px; }
-    h3 { background: #4CAF50; font-size: 20px; color: white; padding: 10px; border-radius: 4px; cursor: pointer; margin-top: 0; margin-bottom: 10px; user-select: none; }
-    textarea, select, input[type="text"] {
-      width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-family: inherit;
-    }
-    .section { background: white; padding: 12px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 15px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
-    label { display: block; margin-bottom: 5px; }
-    .checkbox-group label { display: inline-block; margin-right: 12px; margin-bottom: 8px; background: #f1f5f9; padding: 6px 10px; border-radius: 4px; border: 1px solid #e2e8f0; cursor: pointer; font-size: 14px; }
-    .checkbox-group label input { margin-right: 6px; transform: scale(1.1); }
-    
-    /* নতুন বাটন ও কন্ট্রোল প্যানেল স্টাইল */
-    .control-panel { max-width: 100%; background: #fff; border: 1px solid #cbd5e1; padding: 15px; border-radius: 8px; margin-top: 25px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
-    .main-submit-btn { width: 100%; background: #0ea5e9; color: white; padding: 14px; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; transition: background 0.2s; }
-    .main-submit-btn:hover { background: #0284c7; }
-    .prompt-box { width: 100%; height: 100px; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc; font-size: 14px; resize: none; box-sizing: border-box; margin-top: 10px; color: #334155; }
-    .copy-btn { width: 100%; background: #10b981; color: white; padding: 10px; border: none; border-radius: 6px; font-size: 14px; font-weight: bold; cursor: pointer; margin-top: 8px; }
-    .copy-btn:hover { background: #059669; }
-    .ai-links-container { margin-top: 20px; border-top: 1px solid #e2e8f0; padding-top: 15px; }
-    .ai-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 8px; }
-    .ai-btn { color: white; text-align: center; padding: 8px 2px; border-radius: 4px; font-size: 12px; text-decoration: none; font-weight: bold; display: block; }
-    
-    footer { background: #1e293b; color: #94a3b8; text-align: center; padding: 8px; font-size: 12px; position: fixed; bottom: 0; width: 100%; left: 0; box-sizing: border-box; z-index: 1000; }
-  </style>
-
-  <script>
-    // আপনার আগের টগল ফাংশনটি অক্ষুণ্ণ রাখা হলো
-    function toggleCheckboxes(header) {
-      var group = header.nextElementSibling;
-      if (group.style.display === "none" || group.style.display === "") {
-        group.style.display = "block";
-      } else {
-        group.style.display = "none";
-      }
-    }
-
-    // নতুন প্রম্পট জেনারেশন লজিক
-    function generateHomeoPrompt(event) {
-      if(event) event.preventDefault(); // ফর্ম ডিফল্ট সাবমিট বন্ধ করা
-      
-      const form = document.getElementById('symptomForm');
-      
-      // ১. রোগের বিবরণ নেওয়া
-      const diseaseDesc = form.elements['diseaseDescription'].value.trim();
-      
-      // ২. চেকবক্সের ডাটা সংগ্রহের হেল্পার ফাংশন
-      function getSelectedValues(name, labelText) {
-        const checkboxes = form.querySelectorAll(`input[name="${name}"]:checked`);
-        if (checkboxes.length === 0) return '';
-        let values = [];
-        checkboxes.forEach(cb => values.push(cb.value));
-        return `\n- ${labelText}: ${values.join(', ')}`;
-      }
-
-      // সব বিভাগ থেকে ডাটা সংগ্রহ
-      let details = '';
-      details += getSelectedValues('startedWhen', 'রোগ শুরুর সময়কাল ও ঋতু');
-      details += getSelectedValues('aggravationFactors', 'রোগ বৃদ্ধির কারণ ও সময় (Aggravation)');
-      details += getSelectedValues('aggravationdeasis', 'রোগ উপশমের কারণ ও সময় (Amelioration)');
-      details += getSelectedValues('diseaseSelection', 'রোগীর বর্তমান অন্যান্য রোগ');
-      details += getSelectedValues('olddisease', 'অতীতে হওয়া বড় রোগসমূহ');
-      details += getSelectedValues('relativesdisease', 'নিকট আত্মীয়দের রোগ ইতিহাস');
-      details += getSelectedValues('diseaseLocationSpread', 'রোগের পার্শ-সম্পর্কিত অবস্থান ও বিস্তৃতি');
-      details += getSelectedValues('tongue', 'পিপাসা, জিহবা ও মুখের লক্ষণ');
-      details += getSelectedValues('sweat', 'ঘাম সম্পর্কিত লক্ষণ');
-      details += getSelectedValues('sleep', 'ঘুম ও শয়নের লক্ষণ');
-      details += getSelectedValues('stomach', 'পাকস্থলি ও ক্ষুধার লক্ষণ');
-
-      // কোনো ডাটা ইনপুট না দিলে অ্যালার্ট
-      if (!diseaseDesc && !details) {
-        alert('অনুগ্রহ করে রোগের বিবরণ লিখুন অথবা অন্তত একটি লক্ষণ সিলেক্ট করুন।');
-        return;
-      }
-
-      // ফাইনাল প্রফেশনাল প্রম্পট তৈরি
-      let finalPrompt = `একজন অভিজ্ঞ হোমিওপ্যাথিক চিকিৎসক হিসেবে নিচের কেস-স্টাডিটি বিশ্লেষণ করুন। রোগীর লক্ষণ ও বিবরণের উপর ভিত্তি করে সর্বাধিক সামঞ্জস্যপূর্ণ রেমেডি (Remedies with grading), মায়াজমেটিক অ্যানালাইসিস (Miasmatic Analysis) এবং রেপার্টরি রুব্রিক্স (Repertory Rubrics) সাজিয়ে দিন।\n`;
-      
-      if (diseaseDesc) {
-        finalPrompt += `\n[রোগের মূল বর্ণনা ও কারণ]:\n${diseaseDesc}\n`;
-      }
-      
-      if (details) {
-        finalPrompt += `\n[সংগৃহীত লক্ষণসমূহ]:${details}`;
-      }
-
-      // টেক্সট এরিয়াতে প্রম্পট সেট করা ও কন্টেইনার ভিজিবল করা
-      const outputContainer = document.getElementById('prompt-output-container');
-      const outputTextArea = document.getElementById('prompt-output');
-      
-      outputTextArea.value = finalPrompt;
-      outputContainer.style.display = 'block';
-
-      // ক্লিপবোর্ডে কপি করে সরাসরি Perplexity-তে পাঠানো
-      navigator.clipboard.writeText(finalPrompt).then(() => {
-        const encodedPrompt = encodeURIComponent(finalPrompt);
-        window.open(`https://www.perplexity.ai/?q=${encodedPrompt}`, '_blank');
-      }).catch(err => {
-        // ব্যাকআপ হিসেবে যদি ক্লিপবোর্ড এপিআই ব্লক থাকে
-        window.open(`https://www.perplexity.ai/?q=${encodeURIComponent(finalPrompt)}`, '_blank');
-      });
-    }
-
-    // আলাদা কপি বাটনের কাজ
-    function copyToClipboardOnly() {
-      const outputTextArea = document.getElementById('prompt-output');
-      outputTextArea.select();
-      try {
-        document.execCommand('copy');
-        alert('প্রম্পটটি সফলভাবে ক্লিপবোর্ডে কপি হয়েছে!');
-      } catch (err) {
-        alert('কপি করা যায়নি, ম্যানুয়ালি কপি করুন।');
-      }
-    }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>হোমিও AI | স্মার্ট হোমিওপ্যাথি</title>
+    <link rel="stylesheet" href="assets/css/common-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<form id="symptomForm" onsubmit="generateHomeoPrompt(event)">
-  
-  <div class="section">
-    <h3>১. রোগের বর্ণনা ও রোগের কারণ</h3>
-    <textarea name="diseaseDescription" placeholder="রোগীর প্রধান কষ্ট এবং যদি কোনো মানসিক বা শারীরিক কারণ জানা থাকে তা এখানে লিখুন..."></textarea>
-  </div>
-      
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">২. রোগ শুরুর সময়কাল</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input name="startedWhen" type="checkbox" value="১-৩ দিন"> ১-৩ দিন</label>      
-      <label><input name="startedWhen" type="checkbox" value="৪-২১দিন"> ৪-২১দিন</label>   
-      <label><input name="startedWhen" type="checkbox" value="১৫দিন-১মাস"> ১৫দিন-১মাস</label>       
-      <label><input name="startedWhen" type="checkbox" value="১মাস-৩মাস"> ১মাস-৩মাস</label>
-      <label><input name="startedWhen" type="checkbox" value="অনেক পুরাতন"> অনেক পুরাতন</label>
-      <label><input name="startedWhen" type="checkbox" value="হঠাৎ শুরু"> হঠাৎ শুরু</label>
-      <label><input name="startedWhen" type="checkbox" value="ধীরে শুরু"> ধীরে শুরু</label><br> 
-      <label><input name="startedWhen" type="checkbox" value="গ্রীষ্মে" /> গ্রীষ্মে</label>       
-      <label><input name="startedWhen" type="checkbox" value="বর্ষায়" /> বর্ষায়</label>
-      <label><input name="startedWhen" type="checkbox" value="শীতে" /> শীতে</label>
-      <label><input name="startedWhen" type="checkbox" value="শরতে" /> শরতে</label>
-      <label><input name="startedWhen" type="checkbox" value="হেমন্তে" /> হেমন্তে</label>
-      <label><input name="startedWhen" type="checkbox" value="সকালে" /> সকালে</label>
-      <label><input name="startedWhen" type="checkbox" value="দুপুরে" /> দুপুরে</label>
-      <label><input name="startedWhen" type="checkbox" value="বিকালে" /> বিকালে</label>
-      <label><input name="startedWhen" type="checkbox" value="সন্ধ্যায়" /> সন্ধ্যায়</label>
-      <label><input name="startedWhen" type="checkbox" value="মধ্যরাতে" /> मध्यরাতে</label>
-      <label><input name="startedWhen" type="checkbox" value="ভোরে" /> ভোরে</label>
-      <label><input name="startedWhen" type="checkbox" value="ঘুম থেকে উঠলে" /> ঘুম থেকে উঠলে</label>
-      <label><input name="startedWhen" type="checkbox" value="ঘুমাতে গেলে" /> ঘুমাতে গেলে</label>
+<!-- নেভিগেশন বার -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">🌿 হোমিও <span>AI</span></a>
+        <button class="hamburger" id="hamburgerBtn">☰</button>
+        <ul class="nav-menu">
+            <li><a href="#" class="nav-link active">হোম</a></li>
+            <li><a href="#" class="nav-link">সেবাসমূহ</a></li>
+            <li><a href="#" class="nav-link">বিশেষজ্ঞ</a></li>
+            <li><a href="#" class="nav-link">ব্লগ</a></li>
+            <li><a href="#" class="nav-link">যোগাযোগ</a></li>
+        </ul>
     </div>
-  </div>
-  
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">৩. রোগ বৃদ্ধির কারণ ও সময়</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input type="checkbox" name="aggravationFactors" value="জানা নেই"> জানা নেই</label>
-      <label><input type="checkbox" name="aggravationFactors" value="ঠান্ডায়"> ঠান্ডায়</label>
-      <label><input type="checkbox" name="aggravationFactors" value="ঠান্ডা বাতাসে">   ঠান্ডা বাতাসে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="ভেজা অবস্থায়"> ভেজা অবস্থায়</label>
-      <label><input type="checkbox" name="aggravationFactors" value="বৃষ্টিতে"> বৃষ্টিতে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="آর্দ্র আবহাওয়ায়"> আর্দ্র আবহাওয়ায়</label>
-      <label><input type="checkbox" name="aggravationFactors" value="গরমে"> গরমে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="রোদে"> রোদে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="ধুলাবালিতে"> ধুলাবালিতে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="চলাফেরা করলে"> চলাফেরা করলে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="ভারী কাজ করলে"> ভারী কাজ করলে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="পরিশ্রমে"> পরিশ্রমে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="উঠে বসলে"> উঠে বসলে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="শুয়ে থাকলে"> শুয়ে থাকলে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="মাথা ঝুঁকালে"> মাথা ঝুঁকালে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="খাওয়ার পর"> খাওয়ার পর</label>
-      <label><input type="checkbox" name="aggravationFactors" value="খালি পেটে"> খালি পেটে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="ঠান্ডা খাবারে"> ঠান্ডা খাবারে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="গরম খাবারে"> গরম খাবারে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="তেল-মসলায়"> তেল-মসলায়</label>
-      <label><input type="checkbox" name="aggravationFactors" value="গ্রীষ্মে বাড়ে"> গ্রীষ্মে </label>
-      <label><input type="checkbox" name="aggravationFactors" value="বর্ষায় বাড়ে"> বর্ষায় </label>
-      <label><input type="checkbox" name="aggravationFactors" value="শীতে বাড়ে"> শীতে </label>
-      <label><input type="checkbox" name="aggravationFactors" value="শরতে বাড়ে"> শরতে </label>
-      <label><input type="checkbox" name="aggravationFactors" value="হেমন্তে বাড়ে"> হেমন্তে </label>
-      <label><input type="checkbox" name="aggravationFactors" value="সকালে বাড়ে"> সকালে </label>
-      <label><input type="checkbox" name="aggravationFactors" value="দুপুরে বাড়ে"> দুপুরে </label>
-      <label><input type="checkbox" name="aggravationFactors" value="বিকালে বাড়ে"> বিকালে </label>
-      <label><input type="checkbox" name="aggravationFactors" value="সন্ধ্যায় বাড়ে"> সন্ধ্যায় </label>
-      <label><input type="checkbox" name="aggravationFactors" value="মধ্যরাতে বাড়ে"> মধ্যরাতে </label>
-      <label><input type="checkbox" name="aggravationFactors" value="ভোরে বাড়ে"> ভোরে </label>
-      <label><input type="checkbox" name="aggravationFactors" value="ঘুম থেকে উঠলে বাড়ে"> ঘুম থেকে উঠলে</label>
-      <label><input type="checkbox" name="aggravationFactors" value="ঘুমাতে গেলে বাড়ে"> ঘুমাতে গেলে </label>
-    </div>
-  </div>
-  
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">৪. রোগ উপশমের কারণ ও সময়</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input name="aggravationdeasis" type="checkbox" value="জানা নেই"> জানা নেই</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ঠান্ডায় উপশম হয়"> ঠান্ডায়</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ঠান্ডা বাতাসে উপশম হয়"> ঠান্ডা বাতাসে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ভেজা অবস্থায় উপশম হয়"> ভেজা অবস্থায়</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="বৃষ্টিতে উপশম হয়"> বৃষ্টিতে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="আর্দ্র আবহাওয়ায় উপশম হয়"> আর্দ্র আবহাওয়ায়</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="গরমে উপশম হয়"> গরমে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="রোদে উপশম হয়"> রোদে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ধুলাবালিতে উপশম হয়"> ধুলাবালিতে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="চলাফেরা করলে উপশম হয়"> চলাফেরা করলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ভারী কাজ করলে উপশম হয়"> ভারী কাজ করলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="পরিশ্রমে উপশম হয়"> পরিশ্রমে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="উঠে বসলে উপশম হয়"> উঠে বসলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="শুয়ে থাকলে উপশম হয়"> শুয়ে থাকলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="মাথা ঝুঁকালে উপশম হয়"> মাথা ঝুঁকালে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="খাওয়ার পর উপশম হয়"> খাওয়ার পর</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="খালি পেটে উপশম হয়"> খালি পেটে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ঠান্ডা খাবারে উপশম হয়"> ঠান্ডা খাবারে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="গরম খাবারে opশম হয়"> গরম খাবারে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="তেল-মসলায় উপশম হয়"> তেল-মসলায়</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ঘাম হলে উপশম হয়"> ঘাম হলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="মাসিক এলে উপশম হয়"> মাসিক এলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="বমি হলে উপশম হয়"> বমি হলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="পায়খানা হলে উপশম হয়"> পায়খানা হলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="প্রস্রাব হলে উপশম হয়"> প্রস্রাব হলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="স্রাব বের হলে উপশম হয়"> স্রাব বের হলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="অন্ধকারে উপশম হয়"> অন্ধকারে কমে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="নীরবতায় উপশম হয়"> নীরবতায়</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="মালিশ করলে উপশম হয়"> মালিশ করলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="চাপ দিলে উপশম হয়"> চাপ দিলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="গরম সেঁক দিলে উপশম হয়"> গরম সেঁক দিলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ঠান্ডা সেঁক দিলে উপশম হয়"> ঠান্ডা সেঁক দিলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="গরম পানিতে স্নানে উপশম হয়"> গরম পানিতে স্নানে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ঠান্ডা পানিতে ধুলে উপশম হয়"> ঠান্ডা পানিতে ধুলে</label><br>
-      <label><input name="aggravationdeasis" type="checkbox" value="গ্রীষ্মে উপশম হয়"> গ্রীষ্মে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="বর্ষায় উপশম হয়"> বর্ষায়</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="শীতে উপশম হয়"> শীতে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="শরতে উপশম হয়"> শরতে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="হেমন্তে উপশম হয়"> হেমন্তে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="সকালে উপশম হয়"> সকালে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="দুপুরে উপশম হয়"> দুপুরে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="বিকালে উপশম হয়"> বিকালে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="সন্ধ্যায় উপশম হয়"> সন্ধ্যায়</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="মধ্যরাতে উপশম হয়">  মধ্যরাতে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ভোরে উপশম হয়"> ভোরে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ঘুম থেকে উঠলে উপশম হয়"> ঘুম থেকে উঠলে</label>
-      <label><input name="aggravationdeasis" type="checkbox" value="ঘুমাতে গেলে উপশম হয়"> ঘুমাতে গেলে</label>
-    </div>
-  </div>   
+</nav>
 
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">৫. রোগীর আরো যে সকল রোগ আছে</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input name="diseaseSelection" type="checkbox" value="জ্বর" > জ্বর </label>
-      <label><input name="diseaseSelection" type="checkbox" value="সর্দি" > সর্দি </label>
-      <label><input name="diseaseSelection" type="checkbox" value="কাশি" > কাশি </label>
-      <label><input name="diseaseSelection" type="checkbox" value="মাথাব্যাথা" > মাথাব্যাথা </label>
-      <label><input name="diseaseSelection" type="checkbox" value="গ্যাস্ট্রিক" > গ্যাস্ট্রিক </label>
-      <label><input name="diseaseSelection" type="checkbox" value="ডায়রিয়া" > ডায়রিয়া </label>
-      <label><input name="diseaseSelection" type="checkbox" value="আমাশয়" > আমাশয় </label>
-      <label><input name="diseaseSelection" type="checkbox" value="উচ্চ রক্তচাপ" > উচ্চ রক্তচাপ </label>
-      <label><input name="diseaseSelection" type="checkbox" value="নিম্নরক্তচাপ" > নিম্নরক্তচাপ </label> <br>
-      <label><input name="diseaseSelection" type="checkbox" value="ডায়াবেটিস" > ডায়াবেটিস </label>
-      <label><input name="diseaseSelection" type="checkbox" value="হৃদরোগ" > হৃদরোগ </label>
-      <label><input name="diseaseSelection" type="checkbox" value="স্ট্রোক" > স্ট্রোক </label>
-      <label><input name="diseaseSelection" type="checkbox" value="ক্যান্সার" > ক্যান্সার </label>
-      <label><input name="diseaseSelection" type="checkbox" value="কিডনি রোগ" > কিডনি রোগ </label>
-      <label><input name="diseaseSelection" type="checkbox" value="অ্যাজমা" > অ্যাজমা </label>
-      <label><input name="diseaseSelection" type="checkbox" value="বাত ব্যাথা" > বাত ব্যাথা </label>
-      <label><input name="diseaseSelection" type="checkbox" value="কলেরা" > কলেরা </label>
-      <label><input name="diseaseSelection" type="checkbox" value="যক্ষ্মা" > যক্ষ্মা </label>
-      <label><input name="diseaseSelection" type="checkbox" value="ডেঙ্গু" > ডেঙ্গু </label>
-      <label><input name="diseaseSelection" type="checkbox" value="ম্যালেরিয়া" > ম্যালেরিয়া </label>
-      <label><input name="diseaseSelection" type="checkbox" value="টাইফয়েড" > টাইফয়েড </label>
-      <label><input name="diseaseSelection" type="checkbox" value="জন্ডিস" > ஜন্ডিস </label>
-      <label><input name="diseaseSelection" type="checkbox" value="হাম" > হাম </label>
-      <label><input name="diseaseSelection" type="checkbox" value="ধনুষ্টংকার" > ধনুষ্টংকার </label>
-      <label><input name="diseaseSelection" type="checkbox" value="পুষ্টিহীনতা" > পুষ্টিহীনতা </label>
-      <label><input name="diseaseSelection" type="checkbox" value="ছানি" > ছানি </label>
-      <label><input name="diseaseSelection" type="checkbox" value="গ্লুকোমা" > গ্লুকোমা </label>
-      <label><input name="diseaseSelection" type="checkbox" value="শ্বাসকষ্ট" > শ্বাসকষ্ট </label>
-      <label><input name="diseaseSelection" type="checkbox" value="চর্মরোগ" > চর্মরোগ </label>
-      <label><input name="diseaseSelection" type="checkbox" value="স্ক্যাবিস" > স্ক্যাবিস </label>
-      <label><input name="diseaseSelection" type="checkbox" value="কৃমি সংক্রমণ" > কৃমি সংক্রমণ </label>
-      <label><input name="diseaseSelection" type="checkbox" value="পাইলস" > পাইলস </label>
-      <label><input name="diseaseSelection" type="checkbox" value="টনসিল" > টনসিল </label>
-      <label><input name="diseaseSelection" type="checkbox" value="বিষণ্নতা" > বিষণ্নতা </label>
-      <label><input name="diseaseSelection" type="checkbox" value="সিজোফ্রেনিয়া" > সিজোফ্রেনিয়া </label>
-      <label><input name="diseaseSelection" type="checkbox" value="অটিজম" > অটিজম </label>
-      <label><input name="diseaseSelection" type="checkbox" value="আলঝেইমার রোগ" > আলঝেইমার রোগ </label>
-      <label><input name="diseaseSelection" type="checkbox" value="মৃগীরোগ" > মৃগীরোগ </label>
-    </div>
-  </div>   
-   
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">৬. অতীতে বড় যেসকল রোগ হয়েছিলে</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input name="olddisease" type="checkbox" value="জ্বর" > জ্বর </label>
-      <label><input name="olddisease" type="checkbox" value="টাইফয়েড" > টাইফয়েড </label>
-      <label><input name="olddisease" type="checkbox" value="জন্ডিস" > জন্ডিস </label>
-      <label><input name="olddisease" type="checkbox" value="হাম" > হাম </label>
-    </div>
-  </div>     
-  
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">৭. নিকট আত্মীয়দের যে সকল রোগ ছিল</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input name="relativesdisease" type="checkbox" value="উচ্চ রক্তচাপ" > উচ্চ রক্তচাপ </label>
-      <label><input name="relativesdisease" type="checkbox" value="ডায়াবেটিস" > ডায়াবেটিস </label>
-      <label><input name="relativesdisease" type="checkbox" value="হৃদরোগ" > হৃদরোগ </label>
-      <label><input name="relativesdisease" type="checkbox" value="ক্যান্সার" > ক্যান্সার </label>
-    </div>
-  </div>  
-    
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">৮. রোগের পার্শ-সম্পর্কিত অবস্থান-</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input name="diseaseLocationSpread" type="checkbox" value="সর্বাঙ্গে" > সর্বাঙ্গে </label>
-      <label><input name="diseaseLocationSpread" type="checkbox" value="উভয় পাশের রোগ" > উভয় পাশে </label>
-      <label><input name="diseaseLocationSpread" type="checkbox" value="ডান পাশের রোগ" > ডান পাশের রোগ </label>
-      <label><input name="diseaseLocationSpread" type="checkbox" value="বাম পাশের রোগ" > বাম পাশের রোগ </label>
-      <label><input name="diseaseLocationSpread" type="checkbox" value="ডান থেকে বামে ছড়ায়" > ডান থেকে বামে ছড়ায় </label>
-      <label><input name="diseaseLocationSpread" type="checkbox" value="বাম থেকে ডানে ছড়ায়" >  বাম থেকে ডানে ছড়ায় </label>
-    </div>
-  </div>     
-    
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">৯. পিপাসা, জিহবা ও মুখের লক্ষণ-</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input type="checkbox" name="tongue" value="প্রচুর পিপাসা"> প্রচুর পিপাসা</label>
-      <label><input type="checkbox" name="tongue" value="পিপাসা নেই"> পিপাসা নেই</label>
-      <label><input type="checkbox" name="tongue" value="জিহবা তিতা"> জিহবা তিতা</label>
-      <label><input type="checkbox" name="tongue" value="জিহবায় প্রলেপ"> জিহবায় প্রলেপ</label>
-    </div>
-  </div>          
-    
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">১০. ঘাম সম্পর্কিত লক্ষণ সমুহ-</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input type="checkbox" name="sweat" value="স্বাভাবিক ঘাম"> স্বাভাবিক ঘাম</label>
-      <label><input type="checkbox" name="sweat" value="প্রচুর ঘাম"> প্রচুর ঘাম</label>
-      <label><input type="checkbox" name="sweat" value="দুর্গন্ধযুক্ত ঘাম"> দুর্গন্ধযুক্ত ঘাম</label>
-    </div>
-  </div>      
-  
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">১১. ঘুম সম্পর্কিত লক্ষণ সমুহ-</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input type="checkbox" name="sleep" value="স্বাভাবিক ঘুম"> স্বাভাবিক ঘুম</label>
-      <label><input type="checkbox" name="sleep" value="নিদ্রাহীনতা"> নিদ্রাহীনতা</label>
-      <label><input type="checkbox" name="sleep" value="ঘুমের সময় নাক ডাকে"> ঘুমের সময় নাক ডাকে</label>
-    </div>
-  </div>      
-  
-  <div class="section"> 
-    <h3 onclick="toggleCheckboxes(this)">১২. পাকস্থলি সম্পর্কিত লক্ষণ সমুহ-</h3>
-    <div class="checkbox-group" style="display:none;">
-      <label><input type="checkbox" name="stomach" value="ক্ষুধা স্বাভাবিক"> ক্ষুধা স্বাভাবিক</label>
-      <label><input type="checkbox" name="stomach" value="ক্ষুধা কম"> ক্ষুধা কম</label>
-      <label><input type="checkbox" name="stomach" value="গ্যাস আছে"> গ্যাস আছে</label>
-      <label><input type="checkbox" name="stomach" value="পেট ফাপা"> পেট ফাপা</label>
-    </div>
-  </div>
+<!-- হিরো সেকশন (ছবির মত) -->
+<section class="hero">
+    <div class="container hero-wrapper">
+        <div class="hero-content">
+            <span class="hero-badge">🤖 AI-সমর্থিত হোমিওপ্যাথি</span>
+            <h1>স্বাগতম <br>হোমিও <span class="highlight">AI</span> ওয়েবে</h1>
+            
+            <div class="feature-list">
+                <div class="feature-item">
+                    <span class="icon">🧠</span>
+                    <p>AI-সহায়তা বিশ্লেষণ, ঔষধ নির্বাচন, পরামর্শ ও রোগী ব্যবস্থাপনা এখন কয়েক মিনিটের ব্যাপার!</p>
+                </div>
+            </div>
 
-  <div class="control-panel">
-    <button type="button" class="main-submit-btn" onclick="generateHomeoPrompt()">Generate Prompt & Open Perplexity</button>
-    
-    <div id="prompt-output-container" style="display: none;">
-      <textarea id="prompt-output" class="prompt-box" readonly></textarea>
-      <button type="button" class="copy-btn" onclick="copyToClipboardOnly()">📋 Copy Prompt Only</button>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">🔑 লগইন</a>
+                <a href="#" class="btn btn-outline">📝 নিবন্ধন</a>
+            </div>
+
+            <!-- সতর্কতা বক্স (ছবির মত) -->
+            <div class="alert-box">
+                <div class="alert-icon">⚠️</div>
+                <div class="alert-content">
+                    <h4>সতর্কতা</h4>
+                    <ul>
+                        <li>✓ গুপ্ততা বজায় রাখুন</li>
+                        <li>✓ AI বিশ্লেষণকে আপনার জ্ঞান-দক্ষতার সাথে কাজে লাগান</li>
+                        <li>✓ এই ওয়েব আপনার কাজ সহজ করে দেয়, আপনার ভূমিকা পালন করেনা</li>
+                    </ul>
+                    <a href="#" class="alert-link">ব্যবহারের নিয়ম →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <span>🧬</span>
+                <p>AI ডায়াগনোসিস</p>
+            </div>
+            <div class="floating-card card-2">
+                <span>💊</span>
+                <p>স্মার্ট প্রেসক্রিপশন</p>
+            </div>
+            <div class="floating-card card-3">
+                <span>📊</span>
+                <p>রোগী ট্র্যাকিং</p>
+            </div>
+            <div class="main-illustration">
+                <div class="circle-bg"></div>
+                <div class="ai-icon">🤖</div>
+                <div class="heart-pulse">❤️</div>
+            </div>
+        </div>
     </div>
+</section>
 
-    <div class="ai-links-container">
-      <span style="font-size: 13px; color: #64748b; font-weight: bold;">অন্যান্য AI প্ল্যাটফর্ম লিংক:</span>
-      <div class="ai-grid">
-        <a href="https://www.perplexity.ai" target="_blank" class="ai-btn" style="background: #059669;">Perplexity</a>
-        <a href="https://gemini.google.com" target="_blank" class="ai-btn" style="background: #2563eb;">Gemini</a>
-        <a href="https://grok.com" target="_blank" class="ai-btn" style="background: #000000;">Grok</a>
-        <a href="https://chat.deepseek.com" target="_blank" class="ai-btn" style="background: #4f46e5;">DeepSeek</a>
-      </div>
+<!-- ফিচার সেকশন -->
+<section class="features">
+    <div class="container">
+        <h2 class="section-title">কেন <span class="highlight">হোমিও AI</span>?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="fc-icon">⚡</div>
+                <h3>দ্রুত বিশ্লেষণ</h3>
+                <p>AI মাত্র কয়েক সেকেন্ডে রোগীর লক্ষণ বিশ্লেষণ করে</p>
+            </div>
+            <div class="feature-card">
+                <div class="fc-icon">🎯</div>
+                <h3>নির্ভুল ঔষধ</h3>
+                <p>হাজারো হোমিও ঔষধ থেকে প্রয়োজনীয়টি নির্বাচন</p>
+            </div>
+            <div class="feature-card">
+                <div class="fc-icon">📱</div>
+                <h3>অনলাইন ম্যানেজমেন্ট</h3>
+                <p>রোগী, প্রেসক্রিপশন ও ফলোআপ সব এক প্ল্যাটফর্মে</p>
+            </div>
+        </div>
     </div>
-  </div>
+</section>
 
-</form>
-
-<footer>
-  Nirvik Homeo System © 2026 | Designed for Professional Physicians
+<!-- ফুটার -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>🌿 হোমিও AI</h4>
+                <p>AI-চালিত স্মার্ট হোমিওপ্যাথি সেবা</p>
+            </div>
+            <div class="footer-col">
+                <h4>দ্রুত লিংক</h4>
+                <a href="#">হোম</a>
+                <a href="#">সেবাসমূহ</a>
+                <a href="#">বিশেষজ্ঞ</a>
+            </div>
+            <div class="footer-col">
+                <h4>যোগাযোগ</h4>
+                <p>📞 +৮৮০ ১৭XXXXXXX</p>
+                <p>✉️ info@homoeoai.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© ২০২৬ হোমিও AI — প্রযুক্তি ও হোমিওপ্যাথির মিলন</p>
+        </div>
+    </div>
 </footer>
 
+<script src="assets/js/common.js"></script>
 </body>
 </html>
