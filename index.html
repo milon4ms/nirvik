@@ -3,88 +3,369 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>হিলস হোমিও | সিম্পল কেয়ার</title>
-    <link rel="stylesheet" href="assets/css/common-style.css">
+    <title>হোমিও হিলিং | প্রাকৃতিক চিকিৎসা</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+        
+        :root {
+            --primary: #10b981;
+        }
+        
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(rgba(16, 185, 129, 0.85), rgba(16, 185, 129, 0.75)), url('https://images.unsplash.com/photo-1559757148-5e995b8b2e9d?w=1920') center/cover no-repeat;
+        }
+        
+        .nav-link {
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: #10b981;
+            transform: translateY(-2px);
+        }
+        
+        .service-card {
+            transition: all 0.4s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+        
+        .leaf-bg {
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(16, 185, 129, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(16, 185, 129, 0.08) 0%, transparent 50%);
+        }
+    </style>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-800">
 
-<!-- চিকন হেডার -->
-<nav class="navbar">
-    <div class="nav-container">
-        <a href="index.html" class="logo">হিলস<span>হোমিও</span></a>
-        <button class="hamburger" id="hamburgerBtn">☰</button>
-        <ul class="nav-menu">
-            <li><a href="index.html" class="nav-link">হোম</a></li>
-            <li><a href="about.html" class="nav-link">আমাদের</a></li>
-            <li><a href="services.html" class="nav-link">সেবা</a></li>
-            <li><a href="doctors.html" class="nav-link">চিকিৎসক</a></li>
-            <li><a href="contact.html" class="nav-link">যোগাযোগ</a></li>
-        </ul>
-    </div>
-</nav>
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex items-center justify-between px-6 py-4">
+                <!-- Logo -->
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-emerald-600 rounded-2xl flex items-center justify-center text-white text-2xl shadow-inner">
+                        🌿
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-emerald-700 tracking-tight">হোমিও হিলিং</h1>
+                        <p class="text-xs text-emerald-600 -mt-1">প্রাকৃতিক সুস্থতা</p>
+                    </div>
+                </div>
 
-<!-- সিম্পল হিরো -->
-<section class="hero">
-    <div class="container">
-        <span class="hero-badge">প্রাকৃতিক পথে সুস্থতা</span>
-        <h1>হোমিওপ্যাথি <br>পার্শ্বপ্রতিক্রিয়ামুক্ত</h1>
-        <p>বাংলাদেশের অভিজ্ঞ হোমিও চিকিৎসকদের পরামর্শ, সম্পূর্ণ অনলাইন ও অফলাইন সেবা।</p>
-        <a href="appointment.html" class="btn btn-primary">অ্যাপয়েন্টমেন্ট →</a>
-    </div>
-</section>
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                    <a href="index.html" class="nav-link text-emerald-700">হোম</a>
+                    <a href="about.html" class="nav-link text-gray-600 hover:text-emerald-700">আমাদের সম্পর্কে</a>
+                    <a href="services.html" class="nav-link text-gray-600 hover:text-emerald-700">সেবাসমূহ</a>
+                    <a href="doctors.html" class="nav-link text-gray-600 hover:text-emerald-700">ডাক্তারগণ</a>
+                    <a href="blog.html" class="nav-link text-gray-600 hover:text-emerald-700">ব্লগ</a>
+                    <a href="contact.html" class="nav-link text-gray-600 hover:text-emerald-700">যোগাযোগ</a>
+                </nav>
 
-<div class="container">
-    <h2 class="section-title">আমাদের সেবাসমূহ</h2>
-    <div class="card-grid">
-        <div class="card">
-            <div class="card-icon">🌿</div>
-            <h3>ক্রনিক রোগ</h3>
-            <p>ডায়াবেটিস, অ্যাজমা, আর্থ্রাইটিস, স্কিনের স্থায়ী সমাধান।</p>
-        </div>
-        <div class="card">
-            <div class="card-icon">🧘</div>
-            <h3>মেন্টাল হেলথ</h3>
-            <p>উদ্বেগ, বিষণ্নতা, অনিদ্রার প্রাকৃতিক চিকিৎসা।</p>
-        </div>
-        <div class="card">
-            <div class="card-icon">👶</div>
-            <h3>শিশু স্বাস্থ্য</h3>
-            <p>নিরাপদ, মিষ্টি ও কার্যকরী শিশু চিকিৎসা।</p>
-        </div>
-        <div class="card">
-            <div class="card-icon">💚</div>
-            <h3>মহিলা স্বাস্থ্য</h3>
-            <p>হরমোন ও মাসিক সংক্রান্ত সমস্যার সমাধান।</p>
-        </div>
-    </div>
-</div>
-
-<!-- চিকন ফুটার -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-grid">
-            <div class="footer-col">
-                <h4>হিলস হোমিওপ্যাথি</h4>
-                <p>প্রাকৃতিক নিরাময়ে বিশ্বাসী</p>
-            </div>
-            <div class="footer-col">
-                <h4>লিংক</h4>
-                <a href="about.html">আমাদের সম্পর্কে</a>
-                <a href="services.html">সেবাসমূহ</a>
-                <a href="contact.html">যোগাযোগ</a>
-            </div>
-            <div class="footer-col">
-                <h4>যোগাযোগ</h4>
-                <p>📞 ০১৬XXXXXXX</p>
-                <p>✉️ hello@hillshomoeo.com</p>
+                <div class="flex items-center gap-4">
+                    <a href="contact.html" 
+                       class="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2.5 rounded-2xl text-sm font-medium transition-all flex items-center gap-2">
+                        <i class="fas fa-calendar"></i>
+                        অ্যাপয়েন্টমেন্ট
+                    </a>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button id="mobile-menu-btn"
+                            class="md:hidden w-10 h-10 flex items-center justify-center text-2xl text-emerald-700">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>© ২০২৬ হিলস হোমিও — সব অধিকার সংরক্ষিত</p>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-6 py-6 flex flex-col gap-5 text-lg">
+                <a href="index.html" class="nav-link">হোম</a>
+                <a href="about.html" class="nav-link">আমাদের সম্পর্কে</a>
+                <a href="services.html" class="nav-link">সেবাসমূহ</a>
+                <a href="doctors.html" class="nav-link">ডাক্তারগণ</a>
+                <a href="blog.html" class="nav-link">ব্লগ</a>
+                <a href="contact.html" class="nav-link">যোগাযোগ</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-24 md:py-32">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <div class="max-w-2xl mx-auto">
+                <p class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-5 py-2 rounded-3xl text-sm mb-6">
+                    <span class="w-2 h-2 bg-emerald-300 rounded-full animate-pulse"></span>
+                    প্রাকৃতিক চিকিৎসায় বিশ্বাসী
+                </p>
+                
+                <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                    সুস্থতা ফিরিয়ে আনুন<br>
+                    <span class="text-emerald-200">প্রকৃতির নিয়মে</span>
+                </h2>
+                
+                <p class="text-xl md:text-2xl text-emerald-100 mb-10">
+                    অভিজ্ঞ হোমিওপ্যাথিক চিকিৎসকদের সাথে আপনার স্বাস্থ্যের যত্ন নিন
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="contact.html" 
+                       class="bg-white text-emerald-700 hover:bg-emerald-50 px-10 py-4 rounded-3xl font-semibold text-lg inline-flex items-center justify-center gap-3">
+                        <i class="fas fa-user-md"></i>
+                        ডাক্তার দেখান
+                    </a>
+                    <a href="services.html" 
+                       class="border-2 border-white hover:bg-white/10 px-10 py-4 rounded-3xl font-semibold text-lg inline-flex items-center justify-center gap-3 transition-all">
+                        সেবাসমূহ দেখুন
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <div class="bg-white py-6 border-b">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-3 md:grid-cols-6 gap-8 items-center text-center">
+            <div class="flex flex-col items-center">
+                <span class="text-3xl">🩺</span>
+                <p class="text-sm font-medium mt-2">অভিজ্ঞ ডাক্তার</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-3xl">🌱</span>
+                <p class="text-sm font-medium mt-2">১০০% প্রাকৃতিক</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-3xl">👨‍👩‍👧‍👦</span>
+                <p class="text-sm font-medium mt-2">সকল বয়স</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-3xl">📍</span>
+                <p class="text-sm font-medium mt-2">ঢাকা ও চট্টগ্রাম</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-3xl">⭐</span>
+                <p class="text-sm font-medium mt-2">৫০০০+ সন্তুষ্ট রোগী</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-3xl">📞</span>
+                <p class="text-sm font-medium mt-2">২৪/৭ সাপোর্ট</p>
+            </div>
         </div>
     </div>
-</footer>
 
-<script src="assets/js/common.js"></script>
+    <!-- Services -->
+    <section class="py-20 leaf-bg">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-3">আমাদের সেবাসমূহ</h2>
+                <p class="text-gray-600 max-w-md mx-auto">সমস্যার মূল কারণ খুঁজে প্রাকৃতিক উপায়ে চিকিৎসা</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="service-card bg-white rounded-3xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-56 bg-emerald-100 flex items-center justify-center text-7xl">
+                        🤧
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-3">অ্যালার্জি ও অ্যাজমা</h3>
+                        <p class="text-gray-600">দীর্ঘমেয়াদী সমাধান ছাড়াই ওষুধের পার্শ্বপ্রতিক্রিয়া ছাড়া চিকিৎসা।</p>
+                        <a href="#" class="mt-6 inline-flex items-center gap-2 text-emerald-600 font-medium hover:gap-3 transition-all">
+                            বিস্তারিত <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card bg-white rounded-3xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-56 bg-emerald-100 flex items-center justify-center text-7xl">
+                        👶
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-3">শিশু রোগ</h3>
+                        <p class="text-gray-600">শিশুদের ঠান্ডা-জ্বর, টনসিল, দাঁত ওঠা সহ সকল সমস্যার চিকিৎসা।</p>
+                        <a href="#" class="mt-6 inline-flex items-center gap-2 text-emerald-600 font-medium hover:gap-3 transition-all">
+                            বিস্তারিত <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="service-card bg-white rounded-3xl overflow-hidden shadow-md border border-gray-100">
+                    <div class="h-56 bg-emerald-100 flex items-center justify-center text-7xl">
+                        🦴
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-3">বাত ও ব্যথা</h3>
+                        <p class="text-gray-600">আর্থ্রাইটিস, ব্যাক পেইন, মাইগ্রেন সহ দীর্ঘস্থায়ী ব্যথার চিকিৎসা।</p>
+                        <a href="#" class="mt-6 inline-flex items-center gap-2 text-emerald-600 font-medium hover:gap-3 transition-all">
+                            বিস্তারিত <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-3">আমাদের ডাক্তারবৃন্দ</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="text-center">
+                    <div class="w-48 h-48 mx-auto rounded-3xl overflow-hidden border-4 border-emerald-100 shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600" alt="Dr. Rahman" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="mt-6 text-xl font-semibold">ডা. আব্দুর রহমান</h4>
+                    <p class="text-emerald-600">২৫+ বছরের অভিজ্ঞতা</p>
+                    <p class="text-sm text-gray-500 mt-1">DHMS, PG Hom (London)</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-48 h-48 mx-auto rounded-3xl overflow-hidden border-4 border-emerald-100 shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1594824476967-6d1e1a9c8f7f?w=600" alt="Dr. Nusrat" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="mt-6 text-xl font-semibold">ডা. নুসরাত জাহান</h4>
+                    <p class="text-emerald-600">১৮+ বছরের অভিজ্ঞতা</p>
+                    <p class="text-sm text-gray-500 mt-1">শিশু বিশেষজ্ঞ</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-48 h-48 mx-auto rounded-3xl overflow-hidden border-4 border-emerald-100 shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600" alt="Dr. Karim" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="mt-6 text-xl font-semibold">ডা. কামরুল করিম</h4>
+                    <p class="text-emerald-600">২০+ বছরের অভিজ্ঞতা</p>
+                    <p class="text-sm text-gray-500 mt-1">মহিলা ও চর্ম রোগ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-emerald-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">রোগীরা যা বলেন</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl shadow">
+                    <p class="italic text-gray-600">"১৫ বছরের অ্যালার্জির সমাধান হয়েছে মাত্র ৩ মাসে। ধন্যবাদ ডা. রহমান স্যার।"</p>
+                    <div class="mt-8 flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gray-200 rounded-2xl"></div>
+                        <div>
+                            <p class="font-medium">মোঃ রিয়াজ উদ্দিন</p>
+                            <p class="text-sm text-gray-500">মিরপুর, ঢাকা</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- আরও টেস্টিমোনিয়াল যোগ করুন -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-emerald-700 text-white py-16">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <h2 class="text-4xl font-bold mb-4">আজই সুস্থতার পথে পা বাড়ান</h2>
+            <p class="text-emerald-100 text-lg mb-10">অনলাইন বা অফলাইন অ্যাপয়েন্টমেন্ট নিন</p>
+            <a href="contact.html" 
+               class="inline-flex items-center gap-3 bg-white text-emerald-700 hover:bg-emerald-50 px-10 py-5 rounded-3xl text-xl font-semibold">
+                <i class="fas fa-phone"></i>
+                এখনই যোগাযোগ করুন
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300">
+        <div class="max-w-7xl mx-auto px-6 pt-16 pb-8">
+            <div class="grid md:grid-cols-4 gap-10">
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-9 h-9 bg-emerald-600 rounded-2xl flex items-center justify-center text-white text-2xl">🌿</div>
+                        <h3 class="text-white text-2xl font-bold">হোমিও হিলিং</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed">প্রাকৃতিক চিকিৎসার মাধ্যমে সুস্থ জীবন গড়ে তুলুন।</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-medium text-white mb-5">সেবাসমূহ</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="#" class="hover:text-white">শিশু রোগ</a></li>
+                        <li><a href="#" class="hover:text-white">মহিলা রোগ</a></li>
+                        <li><a href="#" class="hover:text-white">বাত-ব্যথা</a></li>
+                        <li><a href="#" class="hover:text-white">চর্মরোগ</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-medium text-white mb-5">যোগাযোগ</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-phone"></i>
+                            <span>০১৭১১-২২৩৩৪৪</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@homiohealing.com</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>মিরপুর-১০, ঢাকা</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-medium text-white mb-5">ফলো করুন</h4>
+                    <div class="flex gap-5 text-2xl">
+                        <a href="#" class="hover:text-emerald-400"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="hover:text-emerald-400"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="hover:text-emerald-400"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-16 pt-8 text-center text-xs">
+                © ২০২৬ হোমিও হিলিং। সর্বস্বত্ব সংরক্ষিত।
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            
+            const icon = mobileBtn.querySelector('i');
+            if (icon.classList.contains('fa-bars')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
+            }
+        });
+        
+        // Tailwind Script (already included via CDN)
+    </script>
 </body>
 </html>
