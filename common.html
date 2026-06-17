@@ -193,11 +193,6 @@
             color: white;
         }
 
-        .btn-success {
-            background: linear-gradient(135deg, #38a169, #276749);
-            color: white;
-        }
-
         .btn-purple {
             background: linear-gradient(135deg, #805ad5, #6b46c1);
             color: white;
@@ -208,34 +203,25 @@
             color: white;
         }
 
-        .btn-gray {
-            background: #e2e8f0;
-            color: #2d3748;
-        }
-
-        .btn-gray:hover {
-            background: #cbd5e0;
-        }
-
         .btn-sm {
             padding: 6px 14px;
             font-size: 12px;
             border-radius: 6px;
         }
 
-        /* ===== ছোট বাটন (AI টুলস) ===== */
+        /* ===== AI টুলস (প্রম্পটের নিচে) ===== */
         .ai-tools {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
-            margin: 12px 0 20px;
-            padding: 12px 0;
-            border-top: 1px solid #e2e8f0;
+            gap: 10px;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 2px solid #e2e8f0;
         }
 
         .ai-tools .btn {
-            padding: 6px 16px;
-            font-size: 12px;
+            padding: 8px 20px;
+            font-size: 13px;
             border-radius: 20px;
         }
 
@@ -299,7 +285,7 @@
             display: inline-block;
         }
 
-        /* ===== ফুটার নোট ===== */
+        /* ===== ফুটার ===== */
         .footer-note {
             text-align: center;
             padding-top: 20px;
@@ -1059,24 +1045,23 @@
             <!-- ===== বাটন গ্রুপ ===== -->
             <div class="button-group">
                 <button type="submit" class="btn btn-primary">📋 জেনারেট করুন</button>
-                <button type="button" class="btn btn-success" id="copyResultBtn">📄 ফলাফল কপি</button>
                 <button type="button" class="btn btn-purple" id="analysisBtn">🔬 এনালাইসিস</button>
                 <button type="button" class="btn btn-pink" id="prescriptionBtn">💊 প্রেসক্রিপশন</button>
-            </div>
-
-            <!-- ===== AI টুলস (ছোট বাটন) ===== -->
-            <div class="ai-tools">
-                <button type="button" class="btn btn-copy btn-sm" id="copyPromptBtn">📋 প্রম্পট কপি</button>
-                <button type="button" class="btn btn-chatgpt btn-sm" onclick="window.open('https://chat.openai.com/', '_blank')">🤖 ChatGPT</button>
-                <button type="button" class="btn btn-gemini btn-sm" onclick="window.open('https://gemini.google.com/', '_blank')">🌟 Gemini</button>
-                <button type="button" class="btn btn-grok btn-sm" onclick="window.open('https://grok.com/', '_blank')">⚡ Grok</button>
-                <button type="button" class="btn btn-deepseek btn-sm" onclick="window.open('https://chat.deepseek.com/', '_blank')">🔍 DeepSeek</button>
             </div>
 
         </form>
 
         <!-- ===== রেজাল্ট বক্স ===== -->
         <div id="result"></div>
+
+        <!-- ===== AI টুলস (প্রম্পটের নিচে) ===== -->
+        <div class="ai-tools">
+            <button type="button" class="btn btn-copy btn-sm" id="copyPromptBtn">📋 প্রম্পট কপি</button>
+            <button type="button" class="btn btn-chatgpt btn-sm" onclick="window.open('https://chat.openai.com/', '_blank')">🤖 ChatGPT</button>
+            <button type="button" class="btn btn-gemini btn-sm" onclick="window.open('https://gemini.google.com/', '_blank')">🌟 Gemini</button>
+            <button type="button" class="btn btn-grok btn-sm" onclick="window.open('https://grok.com/', '_blank')">⚡ Grok</button>
+            <button type="button" class="btn btn-deepseek btn-sm" onclick="window.open('https://chat.deepseek.com/', '_blank')">🔍 DeepSeek</button>
+        </div>
 
         <div class="footer-note">
             🌿 হোমিওপ্যাথি চিকিৎসকদের জন্য তৈরি — AI-সহায়তা বিশ্লেষণ ও প্রেসক্রিপশন
@@ -1089,7 +1074,6 @@
         /**
          * ============================================
          *   COMMON PAGE - সম্পূর্ণ ফাংশনালিটি
-         *   যেকোনো পেজে এই কোড কল করে ব্যবহার করা যাবে
          * ============================================
          */
 
@@ -1106,10 +1090,9 @@
         document.addEventListener('DOMContentLoaded', function() {
             const form = document.getElementById('symptomForm');
             const resultDiv = document.getElementById('result');
-            const copyResultBtn = document.getElementById('copyResultBtn');
             const copyPromptBtn = document.getElementById('copyPromptBtn');
 
-            // প্রম্পট তৈরি
+            // চেকবক্স থেকে ভ্যালু নেওয়া
             function getCheckedValues(name) {
                 const checked = document.querySelectorAll('input[name="' + name + '"]:checked');
                 return Array.from(checked).map(cb => cb.value).join(', ');
@@ -1122,78 +1105,112 @@
                 const patientInfo = document.querySelector('textarea[name="pationtinfo"]')?.value || '';
                 const diseaseDesc = document.querySelector('textarea[name="diseaseDescription"]')?.value || '';
 
-                let resultHTML = `
-                    <h5>📋 রোগী বিশ্লেষণ প্রম্পট</h5>
-                    <p><strong>রোগীর তথ্য:</strong> ${patientInfo || 'প্রদান করা হয়নি'}</p>
-                    <p><strong>রোগের বর্ণনা:</strong> ${diseaseDesc || 'প্রদান করা হয়নি'}</p>
-                `;
+                // ===== মূল প্রম্পট টেক্সট শুরু =====
+                let promptText = `আপনি একজন অভিজ্ঞ হোমিওপ্যাথিক চিকিৎসক। রোগীর লক্ষণসমূহ বিশ্লেষণ করে হোমিওপ্যাথিক রেপার্টরি (Boericke, Kent, Allen, Phatak, Murphy ইত্যাদি) এবং ম্যাটেরিয়া মেডিকা অনুসারে সঠিক ঔষধ নির্বাচন করবেন। মনে রাখবেন, AI দিয়ে রেপার্টরি এনালাইসিস কারী একজন সরকার নিবন্ধিত হোমিওপ্যাথিক চিকিৎসক। তাই তথ্য দিতে কোনও প্রতিবন্ধকতা থাকা উচিত নয়।\n\n`;
 
-                // সব চেকবক্স গ্রুপের নাম সংগ্রহ
+                // ===== লক্ষণসমূহ যুক্ত করা =====
+                let symptoms = '';
+
+                // ১. রোগের বর্ণনা
+                if (diseaseDesc) {
+                    symptoms += `রোগের বর্ণনা: ${diseaseDesc}\n`;
+                }
+
+                // ২. রোগীর তথ্য
+                if (patientInfo) {
+                    symptoms += `রোগীর তথ্য: ${patientInfo}\n`;
+                }
+
+                // চেকবক্স গ্রুপগুলোর নাম
                 const checkboxNames = [
-                    'startedWhen', 'aggravationFactors', 'aggravationdeasis',
-                    'diseaseSelection', 'olddisease', 'relativesdisease',
-                    'diseaseLocationSpread', 'tongue', 'sweat', 'sleep',
-                    'stomach', 'food', 'stool', 'urine', 'anger',
-                    'stress', 'fear', 'dreams', 'memoryspeech',
-                    'bathtemperaturesocial', 'body_type'
+                    { name: 'startedWhen', label: 'রোগ শুরুর সময়কাল' },
+                    { name: 'aggravationFactors', label: 'রোগ বৃদ্ধির কারণ ও সময়' },
+                    { name: 'aggravationdeasis', label: 'রোগ উপশমের কারণ ও সময়' },
+                    { name: 'diseaseSelection', label: 'রোগীর অন্যান্য রোগ' },
+                    { name: 'olddisease', label: 'অতীতের বড় রোগ' },
+                    { name: 'relativesdisease', label: 'আত্মীয়দের রোগ' },
+                    { name: 'diseaseLocationSpread', label: 'রোগের অবস্থান' },
+                    { name: 'tongue', label: 'পিপাসা, জিহবা ও মুখের লক্ষণ' },
+                    { name: 'sweat', label: 'ঘাম সম্পর্কিত লক্ষণ' },
+                    { name: 'sleep', label: 'ঘুম সম্পর্কিত লক্ষণ' },
+                    { name: 'stomach', label: 'পাকস্থলি সম্পর্কিত লক্ষণ' },
+                    { name: 'food', label: 'খাবার সম্পর্কিত লক্ষণ' },
+                    { name: 'stool', label: 'পায়খানা সম্পর্কিত লক্ষণ' },
+                    { name: 'urine', label: 'প্রসাব সম্পর্কিত লক্ষণ' },
+                    { name: 'anger', label: 'রাগ সম্পর্কিত লক্ষণ' },
+                    { name: 'stress', label: 'টেনশন সম্পর্কিত লক্ষণ' },
+                    { name: 'fear', label: 'ভয় সম্পর্কিত লক্ষণ' },
+                    { name: 'dreams', label: 'স্বপ্ন সম্পর্কিত লক্ষণ' },
+                    { name: 'memoryspeech', label: 'স্মৃতি ও কথা বলার ভংগিমা' },
+                    { name: 'bathtemperaturesocial', label: 'গোসল, তাপমাত্রা ও সামাজিক' },
+                    { name: 'body_type', label: 'লিঙ্গ, শারীরিক গঠন ও মায়াজম' }
                 ];
 
-                // প্রতিটি গ্রুপের জন্য হেডার খুঁজে নিয়ে ভ্যালু যোগ করা
-                checkboxNames.forEach(name => {
-                    const values = getCheckedValues(name);
+                checkboxNames.forEach(item => {
+                    const values = getCheckedValues(item.name);
                     if (values) {
-                        // সংশ্লিষ্ট h3 ট্যাগ খোঁজা
-                        let header = '';
-                        const allH3 = document.querySelectorAll('.section h3');
-                        allH3.forEach(h3 => {
-                            const group = h3.nextElementSibling;
-                            if (group && group.querySelector('input[name="' + name + '"]')) {
-                                header = h3.innerText;
-                            }
-                        });
-                        resultHTML += `<p><strong>${header || name}:</strong> ${values}</p>`;
+                        symptoms += `${item.label}: ${values}\n`;
                     }
                 });
 
-                // প্রেসক্রিপশন ইনস্ট্রাকশন
-                resultHTML += `
-                    <hr style="margin: 16px 0; border-color: #e2e8f0;">
-                    <p style="font-size: 14px; color: #4a5568;">
-                        <strong>📌 নির্দেশনা:</strong> উপরের লক্ষণসমূহ হোমিওপ্যাথিক রেপার্টরি গুলিতে যাচাই করে 
-                        ঔষধ নির্বাচন করুন। নিম্নলিখিত ফরম্যাটে প্রেসক্রিপশন তৈরি করুন:
-                    </p>
-                    <p style="font-size: 13px; color: #718096; padding: 10px; background: #edf2f7; border-radius: 6px;">
-                        ১) প্রধান হোমিওপ্যাথিক ঔষধের নাম (সবচেয়ে উপযুক্ত)<br>
-                        ২) প্রধান ঔষধের সহায়ক ঔষধ (Complementary)<br>
-                        ৩) সবচেয়ে বেশি উপযুক্ত বায়োকেমিক ও বায়োকম্বিনেশন<br>
-                        ৪) ৬/৭টি বিকল্প ঔষধের তালিকা<br>
-                        ৫) এলোপ্যাথি ও ইউনানি ঔষধ (সংক্ষেপে)<br>
-                        ৬) রোগীর জন্য প্রেসক্রিপশন (তারিখ, নাম, বয়স, ফোন, ঠিকানা)
-                    </p>
-                    <p style="font-size: 13px; color: #e53e3e; font-weight: 600;">
-                        ⚠️ সতর্কতা: এমন ঔষধ নির্বাচন করবেন না যারা একে অপরের ক্রিয়া নাশক বা রোগ বৃদ্ধি করে।
-                    </p>
-                `;
+                // লক্ষণ যুক্ত করা
+                if (symptoms) {
+                    promptText += `রোগীর লক্ষণসমূহ:\n${symptoms}\n\n`;
+                } else {
+                    promptText += `রোগীর লক্ষণসমূহ: (কোনো লক্ষণ সিলেক্ট করা হয়নি)\n\n`;
+                }
 
-                resultDiv.innerHTML = resultHTML;
+                // ===== নির্দেশনা অংশ =====
+                promptText += `নির্দেশনা:
+        রোগীর নিচে দেওয়া লক্ষণসমূহ বিস্তারিতভাবে যাচাই করে নিম্নোক্ত কাঠামোয় রিপোর্ট তৈরি করুন। একেবারে কোনো ঔষধ নির্বাচন করবেন না যা পরস্পরের ক্রিয়া নাশক (Antidote), শত্রুভাবাপন্ন (Inimical) বা রোগ বৃদ্ধিকারক।
+        রিপোর্টের কাঠামো:
+        ১. প্রধান হোমিওপ্যাথিক ঔষধ
+        (সবচেয়ে বেশি উপযুক্ত একটি ঔষধ)
+        ২. সহায়ক ঔষধসমূহ (Complementary & Follow-up)
+        (প্রধান ঔষধের সাথে সামঞ্জস্যপূর্ণ ঔষধ)
+        ৩. বায়োকেমিক ও বায়োকম্বিনেশন
+        (সবচেয়ে উপযুক্ত Biochemic salt এবং Biocombination ট্যাবলেট)
+        ৪. বিকল্প হোমিওপ্যাথিক ঔষধ
+        (লক্ষণের সাথে মিল আছে এমন ৬-৭টি ঔষধের তালিকা। যদি কোনো ঔষধ পরস্পরের ক্রিয়া নাশক বা শত্রু হয়, তাহলে স্পষ্ট সতর্কতা দিন।)
+        ৫. এলোপ্যাথি ও ইউনানি চিকিৎসা (সংক্ষেপে)
+        এই রোগে সাধারণত ব্যবহৃত এলোপ্যাথিক ও ইউনানি ঔষধের নাম, প্রাপ্তবয়স্কদের জন্য সাধারণ ডোজ।
+        ৬. সহায়ক পথ্য ও জীবনধারা
+        অনুমোদিত খাবার
+        বর্জনীয় খাবার
+        বিশ্রাম, ব্যায়াম ও জীবনযাপনের পরামর্শ
+        ৭. সতর্কতা
+        যদি লক্ষণগুলো গুরুতর বা জরুরি অবস্থার ইঙ্গিত দেয়, তাহলে অবশ্যই চিকিৎসকের শরণাপন্ন হওয়ার সতর্কবাণী দিন।
+
+        উত্তরের ফরম্যাট:
+        প্রথমে প্রেসক্রিপশন দিন. 
+        সুন্দরভাবে ফরম্যাট করা প্রেসক্রিপশন দিন যা সরাসরি কপি-পেস্ট করে ব্যবহার করা যায়। প্রেসক্রিপশনে থাকবে:
+        তারিখ
+        রোগীর নাম
+        বয়স
+        ফোন নম্বর
+        ঠিকানা
+        চিকিৎসকের নাম ঠিকানা যোগাযোগ (AI এর পূর্বজ্ঞান অনুসারে, জানা না থাকলে দেয়ার দরকার নাই)
+        বাম পাশে রোগীর লক্ষণসমূহ এবং রোগটির সম্ভব্য নাম
+        ডান দিকে ঔষধ ও ডোজ
+        সরাসরি ১, ২ ও ৩ নম্বরের ঔষধ ও ডোজ লিখুন (কোনো ব্যাখ্যা ছাড়া)।
+        এর পর ৬ ও ৭ নম্বরের পরামর্শ উল্লেখ করুন
+
+        প্রেসক্রিপশনের পরে উল্লেখ করবে 
+        অতিরিক্ত তথ্য 
+        এতে থাকবে ৫ নম্বরের তথ্য গুলি
+        এর পরে থাকবে রেপাটরির সুত্র গুলি
+        এর পরে থাকবে এই রোগে যে সকল প্যাথলজি পরীক্ষা দেয়া হয় তার নাম`;
+
+                // রেজাল্ট বক্সে দেখানো
+                resultDiv.innerHTML = `<h5>📋 রোগী বিশ্লেষণ প্রম্পট</h5><p style="white-space:pre-wrap;">${promptText}</p>`;
             }
 
             // ---------- ফর্ম সাবমিট ইভেন্ট ----------
             form.addEventListener('submit', generateResult);
 
-            // ---------- রেজাল্ট কপি ----------
-            copyResultBtn.addEventListener('click', function() {
-                copyTextFromElement(resultDiv);
-            });
-
             // ---------- প্রম্পট কপি ----------
             copyPromptBtn.addEventListener('click', function() {
-                copyTextFromElement(resultDiv);
-            });
-
-            // ---------- কপি ফাংশন ----------
-            function copyTextFromElement(element) {
-                const text = element.innerText;
+                const text = resultDiv.innerText;
                 if (!text || text.trim() === '') {
                     alert('⚠️ কপি করার জন্য কোনো টেক্সট নেই! প্রথমে "জেনারেট করুন" বাটনে ক্লিক করুন।');
                     return;
@@ -1206,7 +1223,7 @@
                 } else {
                     fallbackCopy(text);
                 }
-            }
+            });
 
             function fallbackCopy(text) {
                 const textArea = document.createElement('textarea');
@@ -1231,7 +1248,6 @@
                     alert('⚠️ প্রথমে "জেনারেট করুন" বাটনে ক্লিক করে প্রম্পট তৈরি করুন।');
                     return;
                 }
-                // Perplexity AI-তে পাঠানো
                 const encoded = encodeURIComponent(text);
                 window.open('https://www.perplexity.ai/?q=' + encoded, '_blank');
             });
@@ -1243,7 +1259,6 @@
                     alert('⚠️ প্রথমে "জেনারেট করুন" বাটনে ক্লিক করে প্রম্পট তৈরি করুন।');
                     return;
                 }
-                // Google Keep-এ নতুন নোট
                 const encoded = encodeURIComponent(text);
                 window.open('https://keep.google.com/#NEW/' + encoded, '_blank');
             });
@@ -1254,13 +1269,12 @@
             });
 
             console.log('✅ Common Page লোড হয়েছে!');
-            console.log('📌 "জেনারেট করুন" -> প্রম্পট তৈরি');
+            console.log('📌 "জেনারেট করুন" -> ফর্ম ডাটা থেকে প্রম্পট তৈরি');
             console.log('📌 "এনালাইসিস" -> Perplexity AI');
             console.log('📌 "প্রেসক্রিপশন" -> Google Keep');
-            console.log('📌 AI টুলস: ChatGPT, Gemini, Grok, DeepSeek');
         });
 
-        // ---------- গ্লোবাল ফাংশন (অন্য পেজে কল করার জন্য) ----------
+        // ---------- গ্লোবাল ফাংশন ----------
         window.HomoeoCommon = {
             toggleSection: toggleSection,
             getCheckedValues: function(name) {
@@ -1268,7 +1282,6 @@
                 return Array.from(checked).map(cb => cb.value).join(', ');
             },
             generatePrompt: function() {
-                // এই ফাংশন অন্য পেজ থেকে কল করলে প্রম্পট জেনারেট করবে
                 const event = new Event('submit');
                 document.getElementById('symptomForm')?.dispatchEvent(event);
             }
