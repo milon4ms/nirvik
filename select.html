@@ -3,143 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>নির্বিক হোমিও | হোমিওপ্যাথিক সহায়ক</title>
+    <title>সাধারণ রোগ - নির্বিক হোমিও</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <script>
-        tailwind.config = {
-            content: [],
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#00b8a9',
-                        'primary-dark': '#00897b',
-                    }
-                }
-            }
-        }
+        tailwind.config = { /* same as above */ };
     </script>
-
     <style>
-        body { 
-            font-family: 'Noto Sans Bengali', system-ui, sans-serif; 
-        }
+        body { font-family: 'Noto Sans Bengali', system-ui, sans-serif; }
     </style>
 </head>
 <body class="bg-gradient-to-br from-teal-50 to-cyan-50">
 
-    <!-- Header -->
-    <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="flex items-center justify-between py-4">
-                
-                <!-- Logo (শুধু ছবি) -->
-                <a href="index.html" class="flex-shrink-0">
-                    <img src="https://via.placeholder.com/52x52/ffffff/00b8a9?text=🌿" 
-                         alt="নির্বিক হোমিও" class="w-12 h-12 rounded-full">
-                </a>
+    <!-- === Copy the entire <header> from index.html here === -->
+    <!-- (উপরের হেডার কোড পুরোটা এখানে পেস্ট করুন) -->
 
-                <!-- Desktop Navigation -->
-                <nav class="hidden md:flex items-center gap-8 text-base font-medium">
-                    <!-- ১ নং মেনু -->
-                    <a href="Select.html" class="hover:bg-white/20 px-6 py-3 rounded-2xl transition">
-                        সাধারণ রোগ
-                    </a>
-                    
-                    <!-- মেডিকা মেনু -->
-                    <div class="relative group">
-                        <button class="flex items-center gap-2 hover:bg-white/20 px-6 py-3 rounded-2xl transition">
-                            মেডিকা 
-                            <i class="fas fa-chevron-down text-sm"></i>
-                        </button>
-                        <!-- A-Z Dropdown -->
-                        <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-6 px-6 w-[420px] mt-3 grid grid-cols-8 gap-3 text-center text-lg font-medium">
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">A</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">B</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">C</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">D</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">E</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">F</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">G</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">H</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">I</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">J</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">K</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">L</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">M</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">N</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">O</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">P</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">Q</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">R</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">S</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">T</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">U</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">V</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">W</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">X</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">Y</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">Z</a>
-                        </div>
-                    </div>
-                </nav>
-
-                <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="md:hidden text-3xl p-2">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <h1 class="text-4xl font-bold text-center mb-12 text-gray-800">সাধারণ রোগের লক্ষণ নির্বাচন</h1>
+        
+        <div class="bg-white rounded-3xl shadow-xl p-10">
+            <p class="text-center text-gray-600 text-xl">এখানে লক্ষণ নির্বাচনের সম্পূর্ণ ইন্টারফেস আসবে।</p>
+            <!-- আপনি চাইলে এখানে চেকবক্স, সার্চ বার, প্রম্পট জেনারেট বাটন ইত্যাদি যোগ করতে পারবেন -->
         </div>
+    </main>
 
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-6">
-            <div class="px-6 flex flex-col gap-4 text-lg">
-                <a href="Select.html" class="px-6 py-4 hover:bg-white/20 rounded-2xl">সাধারণ রোগ</a>
-                <a href="#" class="px-6 py-4 hover:bg-white/20 rounded-2xl">মেডিকা (A-Z)</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-primary to-teal-700 text-white py-24">
-        <div class="max-w-4xl mx-auto text-center px-6">
-            <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
-                স্বাস্থ্যের প্রাকৃতিক পথে ফিরে আসুন
-            </h1>
-            <p class="text-xl md:text-2xl mb-10 opacity-95">
-                হোমিওপ্যাথিক চিকিৎসকদের জন্য আধুনিক লক্ষণভিত্তিক প্রম্পট জেনারেটর
-            </p>
-            <a href="Select.html" 
-               class="inline-flex items-center gap-3 bg-white text-primary-dark text-lg font-semibold px-10 py-5 rounded-3xl hover:scale-105 transition">
-                <i class="fas fa-magic"></i>
-                সাধারণ রোগ থেকে শুরু করুন
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-teal-900 text-teal-200 py-12">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <strong class="text-xl text-white">নির্বিক হোমিও</strong><br>
-            প্রাকৃতিক চিকিৎসার আধুনিক প্ল্যাটফর্ম<br><br>
-            © ২০২৬ নির্বিক হোমিও। সর্বস্বত্ব সংরক্ষিত।
-        </div>
-    </footer>
+    <!-- Footer (same as index.html) -->
 
     <script>
-        // Mobile Menu
-        const btn = document.getElementById('mobile-menu-btn');
-        const menu = document.getElementById('mobile-menu');
-        
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-            btn.innerHTML = menu.classList.contains('hidden') 
-                ? '<i class="fas fa-bars"></i>' 
-                : '<i class="fas fa-times"></i>';
-        });
+        // Mobile menu script (same as above)
     </script>
 </body>
 </html>
