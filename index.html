@@ -1,151 +1,189 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="bn" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>হোমিওপ্যাথি | স্বাস্থ্যই প্রকৃত সম্পদ</title>
-    <link rel="stylesheet" href="assets/css/common-style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>হোমিওপ্যাথি | আধুনিক স্বাস্থ্যসেবা</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<!-- ===== হেডার (ছবির মতো সবুজ মেনু) ===== -->
-<nav class="navbar">
-    <div class="nav-container">
-        <a href="index.html" class="logo">🌿 হোমিও <span>প্যাথি</span></a>
-        <button class="hamburger" id="hamburgerBtn">☰</button>
-        <ul class="nav-menu">
-            <li><a href="index.html" class="nav-link active">হোম</a></li>
-            <li><a href="about.html" class="nav-link">আমাদের সম্পর্কে</a></li>
-            <li><a href="services.html" class="nav-link">সেবাসমূহ</a></li>
-            <li><a href="doctors.html" class="nav-link">চিকিৎসক</a></li>
-            <li><a href="contact.html" class="nav-link">যোগাযোগ</a></li>
-            <li><a href="common.html" class="nav-link btn-nav">🔬 বিশ্লেষণ</a></li>
-        </ul>
+<!-- ===== হেডার ===== -->
+<header class="header" id="header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <i class="fas fa-leaf"></i> হোমিও<span>প্যাথি</span>
+            </a>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">হোম</a></li>
+                <li><a href="about.html">আমাদের সম্পর্কে</a></li>
+                <li><a href="services.html">সেবাসমূহ</a></li>
+                <li><a href="doctors.html">চিকিৎসক</a></li>
+                <li><a href="contact.html">যোগাযোগ</a></li>
+                <li><a href="common.html" class="btn-nav"><i class="fas fa-microscope"></i> বিশ্লেষণ</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
     </div>
-</nav>
+</header>
 
 <!-- ===== হিরো সেকশন ===== -->
 <section class="hero">
-    <div class="container hero-wrapper">
-        <div class="hero-content">
-            <span class="hero-badge">🤖 AI-সমর্থিত হোমিওপ্যাথি</span>
-            <h1>স্বাগতম <br>হোমিও <span class="highlight">প্যাথি</span> ওয়েবে</h1>
-            
-            <div class="feature-list">
-                <div class="feature-item">
-                    <span class="icon">🧠</span>
-                    <p>AI-সহায়তা বিশ্লেষণ, ঔষধ নির্বাচন, পরামর্শ ও রোগী ব্যবস্থাপনা এখন কয়েক মিনিটের ব্যাপার!</p>
-                </div>
-            </div>
-
-            <div class="cta-buttons">
-                <a href="common.html" class="btn btn-primary">🔬 রোগী বিশ্লেষণ শুরু করুন</a>
-                <a href="#" class="btn btn-outline">📝 নিবন্ধন</a>
-            </div>
-
-            <!-- সতর্কতা বক্স -->
-            <div class="alert-box">
-                <div class="alert-icon">⚠️</div>
-                <div class="alert-content">
-                    <h4>সতর্কতা</h4>
-                    <ul>
-                        <li>✓ গুপ্ততা বজায় রাখুন</li>
-                        <li>✓ AI বিশ্লেষণকে আপনার জ্ঞান-দক্ষতার সাথে কাজে লাগান</li>
-                        <li>✓ এই ওয়েব আপনার কাজ সহজ করে দেয়, আপনার ভূমিকা পালন করেনা</li>
-                    </ul>
-                    <a href="#" class="alert-link">ব্যবহারের নিয়ম →</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="hero-visual">
-            <div class="main-illustration">
-                <div class="ai-icon">🤖</div>
-                <div class="heart-pulse">❤️</div>
-            </div>
-            <div class="floating-card card-1">
-                <span>🧬</span>
-                <p>AI ডায়াগনোসিস</p>
-            </div>
-            <div class="floating-card card-2">
-                <span>💊</span>
-                <p>স্মার্ট প্রেসক্রিপশন</p>
-            </div>
-            <div class="floating-card card-3">
-                <span>📊</span>
-                <p>রোগী ট্র্যাকিং</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ===== ফিচার সেকশন (কার্ড বাদ, সিম্পল লিস্ট) ===== -->
-<section class="features">
     <div class="container">
-        <h2 class="section-title">কেন <span class="highlight">হোমিওপ্যাথি</span>?</h2>
-        <div class="feature-grid-simple">
-            <div class="feature-item-simple">
-                <span class="icon">🌿</span>
-                <div>
-                    <h3>প্রাকৃতিক চিকিৎসা</h3>
-                    <p>পার্শ্বপ্রতিক্রিয়ামুক্ত নিরাপদ হোমিওপ্যাথি</p>
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-robot"></i> AI-সমর্থিত হোমিওপ্যাথি
+                </div>
+                <h1>স্বাস্থ্যই <span>প্রকৃত</span> সম্পদ</h1>
+                <p>AI-সহায়তা বিশ্লেষণ, ঔষধ নির্বাচন, পরামর্শ ও রোগী ব্যবস্থাপনা এখন কয়েক মিনিটের ব্যাপার!</p>
+                <div class="hero-buttons">
+                    <a href="common.html" class="btn btn-primary">
+                        <i class="fas fa-microscope"></i> রোগী বিশ্লেষণ শুরু
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                        <i class="fas fa-user-plus"></i> নিবন্ধন
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="number" data-count="50">0</span>
+                        <span class="label">চিকিৎসক</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" data-count="5000">0</span>
+                        <span class="label">সেবাপ্রাপ্ত রোগী</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" data-count="98">0</span>
+                        <span class="label">সফলতার হার %</span>
+                    </div>
                 </div>
             </div>
-            <div class="feature-item-simple">
-                <span class="icon">🎯</span>
-                <div>
-                    <h3>ব্যক্তিগতকৃত সেবা</h3>
-                    <p>প্রতিটি রোগীর জন্য আলাদা লক্ষণ-ভিত্তিক চিকিৎসা</p>
-                </div>
-            </div>
-            <div class="feature-item-simple">
-                <span class="icon">⏱️</span>
-                <div>
-                    <h3>দ্রুত বিশ্লেষণ</h3>
-                    <p>AI-সহায়তায় মিনিটের মধ্যে রোগ নির্ণয়</p>
-                </div>
-            </div>
-            <div class="feature-item-simple">
-                <span class="icon">🔒</span>
-                <div>
-                    <h3>নিরাপদ তথ্য</h3>
-                    <p>রোগীর তথ্য সম্পূর্ণ এনক্রিপ্টেড ও সুরক্ষিত</p>
+            <div class="hero-image">
+                <div class="hero-illustration">
+                    <div class="floating-icon icon-1"><i class="fas fa-heartbeat"></i></div>
+                    <div class="floating-icon icon-2"><i class="fas fa-brain"></i></div>
+                    <div class="floating-icon icon-3"><i class="fas fa-capsules"></i></div>
+                    <div class="floating-icon icon-4"><i class="fas fa-stethoscope"></i></div>
+                    <div class="main-icon">
+                        <i class="fas fa-user-md"></i>
+                        <span class="pulse-ring"></span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ===== ফুটার (চিকন - হাফ ইঞ্চি) ===== -->
+<!-- ===== সার্ভিসেস সেকশন ===== -->
+<section class="services">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">আমাদের সেবা</span>
+            <h2>কেন <span>হোমিওপ্যাথি</span>?</h2>
+            <p>আধুনিক প্রযুক্তি ও প্রাকৃতিক চিকিৎসার সমন্বয়</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="card-icon"><i class="fas fa-leaf"></i></div>
+                <h3>প্রাকৃতিক চিকিৎসা</h3>
+                <p>পার্শ্বপ্রতিক্রিয়ামুক্ত নিরাপদ হোমিওপ্যাথি সেবা</p>
+                <a href="#" class="card-link">বিস্তারিত →</a>
+            </div>
+            <div class="service-card">
+                <div class="card-icon"><i class="fas fa-user-check"></i></div>
+                <h3>ব্যক্তিগতকৃত সেবা</h3>
+                <p>প্রতিটি রোগীর জন্য আলাদা লক্ষণ-ভিত্তিক চিকিৎসা</p>
+                <a href="#" class="card-link">বিস্তারিত →</a>
+            </div>
+            <div class="service-card">
+                <div class="card-icon"><i class="fas fa-clock"></i></div>
+                <h3>দ্রুত বিশ্লেষণ</h3>
+                <p>AI-সহায়তায় মিনিটের মধ্যে রোগ নির্ণয়</p>
+                <a href="#" class="card-link">বিস্তারিত →</a>
+            </div>
+            <div class="service-card">
+                <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3>নিরাপদ তথ্য</h3>
+                <p>রোগীর তথ্য সম্পূর্ণ এনক্রিপ্টেড ও সুরক্ষিত</p>
+                <a href="#" class="card-link">বিস্তারিত →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== সতর্কতা সেকশন ===== -->
+<section class="warning">
+    <div class="container">
+        <div class="warning-box">
+            <div class="warning-icon"><i class="fas fa-exclamation-triangle"></i></div>
+            <div class="warning-content">
+                <h4>সতর্কতা</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i> গুপ্ততা বজায় রাখুন</li>
+                    <li><i class="fas fa-check"></i> AI বিশ্লেষণকে আপনার জ্ঞান-দক্ষতার সাথে কাজে লাগান</li>
+                    <li><i class="fas fa-check"></i> এই ওয়েব আপনার কাজ সহজ করে দেয়, আপনার ভূমিকা পালন করেনা</li>
+                </ul>
+                <a href="#" class="warning-link">ব্যবহারের নিয়ম <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ফুটার ===== -->
 <footer class="footer">
     <div class="container">
-        <div class="footer-grid-simple">
-            <div class="footer-col-simple">
-                <a href="index.html" class="footer-logo">🌿 হোমিওপ্যাথি</a>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="footer-logo">
+                    <i class="fas fa-leaf"></i> হোমিও<span>প্যাথি</span>
+                </a>
+                <p>প্রাকৃতিক নিরাময়ে বিশ্বাসী</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
             </div>
-            <div class="footer-col-simple">
+            <div class="footer-col">
+                <h4>দ্রুত লিংক</h4>
+                <a href="index.html">হোম</a>
                 <a href="about.html">আমাদের সম্পর্কে</a>
                 <a href="services.html">সেবাসমূহ</a>
                 <a href="doctors.html">চিকিৎসক</a>
             </div>
-            <div class="footer-col-simple">
+            <div class="footer-col">
+                <h4>সেবাসমূহ</h4>
                 <a href="common.html">রোগী বিশ্লেষণ</a>
                 <a href="#">অনলাইন প্রেসক্রিপশন</a>
-                <a href="#">যোগাযোগ</a>
+                <a href="#">ভিডিও কনসালটেশন</a>
+                <a href="#">ঔষধ ডেলিভারি</a>
             </div>
-            <div class="footer-col-simple">
-                <a href="#">📘 ফেসবুক</a>
-                <a href="#">📸 ইনস্টাগ্রাম</a>
-                <a href="#">▶️ ইউটিউব</a>
+            <div class="footer-col">
+                <h4>যোগাযোগ</h4>
+                <p><i class="fas fa-phone"></i> +৮৮০ ১৭XX-XXXXXX</p>
+                <p><i class="fas fa-envelope"></i> info@homoeopathy.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> ঢাকা, বাংলাদেশ</p>
             </div>
         </div>
-        <div class="footer-bottom-simple">
-            <p>© ২০২৬ হোমিওপ্যাথি</p>
+        <div class="footer-bottom">
+            <p>© ২০২৬ হোমিওপ্যাথি — সর্বস্বত্ব সংরক্ষিত</p>
         </div>
     </div>
 </footer>
 
-<script src="assets/js/common.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
