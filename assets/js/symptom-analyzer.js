@@ -213,6 +213,58 @@ function openPrescription() {
 }
 
 // ============================================================
+// ডায়নামিক বাটন গ্রুপ রেন্ডার করা
+// ============================================================
+function renderButtonGroup() {
+    const container = document.getElementById('button-group');
+    if (!container) return;
+
+    // বাটন গ্রুপের HTML
+    container.innerHTML = `
+        <div class="button-group">
+            <button type="submit" class="btn btn-primary">📋 জেনারেট করুন</button>
+            <button type="button" class="btn btn-copy" id="copyPromptBtn">📋 প্রম্পট কপি</button>
+            <button type="button" class="btn btn-gemini" id="geminiBtn">🌟 Gemini</button>
+            <button type="button" class="btn btn-chatgpt" id="chatgptBtn">🤖 ChatGPT</button>
+            <button type="button" class="btn btn-grok" id="grokBtn">⚡ Grok</button>
+            <button type="button" class="btn btn-deepseek" id="deepseekBtn">🔍 DeepSeek</button>
+            <button type="button" class="btn btn-perplexity" id="perplexityBtn">🔬 Perplexity</button>
+            <button type="button" class="btn btn-pink" id="prescriptionBtn">💊 প্রেসক্রিপশন</button>
+        </div>
+    `;
+
+    // ইভেন্ট লিসনার অ্যাটাচ করুন
+    const form = document.getElementById('symptomForm');
+    if (form) {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            displayResult();
+        });
+    }
+
+    const copyBtn = document.getElementById('copyPromptBtn');
+    if (copyBtn) copyBtn.addEventListener('click', copyResult);
+
+    const geminiBtn = document.getElementById('geminiBtn');
+    if (geminiBtn) geminiBtn.addEventListener('click', openGemini);
+
+    const chatgptBtn = document.getElementById('chatgptBtn');
+    if (chatgptBtn) chatgptBtn.addEventListener('click', openChatGPT);
+
+    const grokBtn = document.getElementById('grokBtn');
+    if (grokBtn) grokBtn.addEventListener('click', openGrok);
+
+    const deepseekBtn = document.getElementById('deepseekBtn');
+    if (deepseekBtn) deepseekBtn.addEventListener('click', openDeepSeek);
+
+    const perplexityBtn = document.getElementById('perplexityBtn');
+    if (perplexityBtn) perplexityBtn.addEventListener('click', openPerplexity);
+
+    const prescriptionBtn = document.getElementById('prescriptionBtn');
+    if (prescriptionBtn) prescriptionBtn.addEventListener('click', openPrescription);
+}
+
+// ============================================================
 // DOM রেডি হলে সব ইভেন্ট সেটআপ
 // ============================================================
 document.addEventListener('DOMContentLoaded', function() {
@@ -226,56 +278,8 @@ document.addEventListener('DOMContentLoaded', function() {
         content.style.display = 'none';
     });
 
-    // ফর্ম সাবমিট
-    const form = document.getElementById('symptomForm');
-    if (form) {
-        form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            displayResult();
-        });
-    }
-
-    // প্রম্পট কপি
-    const copyBtn = document.getElementById('copyPromptBtn');
-    if (copyBtn) {
-        copyBtn.addEventListener('click', copyResult);
-    }
-
-    // Gemini
-    const geminiBtn = document.getElementById('geminiBtn');
-    if (geminiBtn) {
-        geminiBtn.addEventListener('click', openGemini);
-    }
-
-    // ChatGPT
-    const chatgptBtn = document.getElementById('chatgptBtn');
-    if (chatgptBtn) {
-        chatgptBtn.addEventListener('click', openChatGPT);
-    }
-
-    // Grok
-    const grokBtn = document.getElementById('grokBtn');
-    if (grokBtn) {
-        grokBtn.addEventListener('click', openGrok);
-    }
-
-    // DeepSeek
-    const deepseekBtn = document.getElementById('deepseekBtn');
-    if (deepseekBtn) {
-        deepseekBtn.addEventListener('click', openDeepSeek);
-    }
-
-    // Perplexity
-    const perplexityBtn = document.getElementById('perplexityBtn');
-    if (perplexityBtn) {
-        perplexityBtn.addEventListener('click', openPerplexity);
-    }
-
-    // প্রেসক্রিপশন
-    const prescriptionBtn = document.getElementById('prescriptionBtn');
-    if (prescriptionBtn) {
-        prescriptionBtn.addEventListener('click', openPrescription);
-    }
+    // বাটন গ্রুপ রেন্ডার করুন
+    renderButtonGroup();
 
     // গ্লোবাল ফাংশন এক্সপোজ
     window.HomoeoCommon = {
@@ -290,7 +294,8 @@ document.addEventListener('DOMContentLoaded', function() {
         openGrok: openGrok,
         openDeepSeek: openDeepSeek,
         openPerplexity: openPerplexity,
-        openPrescription: openPrescription
+        openPrescription: openPrescription,
+        renderButtonGroup: renderButtonGroup
     };
 
     console.log('✅ Symptom Analyzer লোড হয়েছে!');
