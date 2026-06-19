@@ -218,11 +218,31 @@
             color: white;
         }
 
-        .btn-purple {
-            background: linear-gradient(135deg, #805ad5, #6b46c1);
+        /* ===== নতুন বাটন কালার (AI টুলস) ===== */
+        .btn-copy {
+            background: #718096;
             color: white;
         }
-
+        .btn-gemini {
+            background: #4285f4;
+            color: white;
+        }
+        .btn-chatgpt {
+            background: #10a37f;
+            color: white;
+        }
+        .btn-grok {
+            background: #000000;
+            color: white;
+        }
+        .btn-deepseek {
+            background: #4a6cf7;
+            color: white;
+        }
+        .btn-perplexity {
+            background: #1f2937;
+            color: white;
+        }
         .btn-pink {
             background: linear-gradient(135deg, #d53f8c, #b83280);
             color: white;
@@ -1144,7 +1164,12 @@
                 <!-- ===== বাটন গ্রুপ ===== -->
                 <div class="button-group">
                     <button type="submit" class="btn btn-primary">📋 জেনারেট করুন</button>
-                    <button type="button" class="btn btn-purple" id="analysisBtn">🔬 এনালাইসিস</button>
+                    <button type="button" class="btn btn-copy" id="copyPromptBtn">📋 প্রম্পট কপি</button>
+                    <button type="button" class="btn btn-gemini" id="geminiBtn">🌟 Gemini</button>
+                    <button type="button" class="btn btn-chatgpt" id="chatgptBtn">🤖 ChatGPT</button>
+                    <button type="button" class="btn btn-grok" id="grokBtn">⚡ Grok</button>
+                    <button type="button" class="btn btn-deepseek" id="deepseekBtn">🔍 DeepSeek</button>
+                    <button type="button" class="btn btn-perplexity" id="perplexityBtn">🔬 Perplexity</button>
                     <button type="button" class="btn btn-pink" id="prescriptionBtn">💊 প্রেসক্রিপশন</button>
                 </div>
 
@@ -1153,7 +1178,7 @@
             <!-- ===== রেজাল্ট বক্স ===== -->
             <div id="result"></div>
 
-            <!-- ===== AI টুলস ===== -->
+            <!-- ===== AI টুলস (নিচের অংশ) ===== -->
             <div class="ai-tools">
                 <button type="button" class="btn btn-copy btn-sm" id="copyPromptBtn">📋 প্রম্পট কপি</button>
                 <button type="button" class="btn btn-chatgpt btn-sm" onclick="window.open('https://chat.openai.com/', '_blank')">🤖 ChatGPT</button>
@@ -1199,23 +1224,22 @@
         // সেকশন টগল (হেডিং ক্লিক করলে নিচের অপশন খোলে)
         // ============================================================
         function toggleSection(element) {
-    const content = element.nextElementSibling;
-    const arrow = element.querySelector('.arrow');
-    if (content) {
-        if (content.classList.contains('checkbox-group')) {
-            content.classList.toggle('open');
-            // ✅ display সেট করুন
-            content.style.display = content.classList.contains('open') ? 'flex' : 'none';
-            if (arrow) arrow.classList.toggle('open');
+            const content = element.nextElementSibling;
+            const arrow = element.querySelector('.arrow');
+            if (content) {
+                if (content.classList.contains('checkbox-group')) {
+                    content.classList.toggle('open');
+                    content.style.display = content.classList.contains('open') ? 'flex' : 'none';
+                    if (arrow) arrow.classList.toggle('open');
+                }
+                else if (content.classList.contains('section-content')) {
+                    content.classList.toggle('open');
+                    content.style.display = content.classList.contains('open') ? 'block' : 'none';
+                    if (arrow) arrow.classList.toggle('open');
+                }
+            }
         }
-        else if (content.classList.contains('section-content')) {
-            content.classList.toggle('open');
-            // ✅ display সেট করুন
-            content.style.display = content.classList.contains('open') ? 'block' : 'none';
-            if (arrow) arrow.classList.toggle('open');
-        }
-    }
-}
+
         // ============================================================
         // ডিফল্ট: সব চেকবক্স গ্রুপ ও সেকশন কন্টেন্ট বন্ধ রাখা
         // ============================================================
