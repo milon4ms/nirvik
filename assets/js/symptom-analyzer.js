@@ -41,7 +41,7 @@ function generateSymptomPrompt() {
     const patientInfo = document.querySelector('textarea[name="pationtinfo"]')?.value || '';
     const diseaseDesc = document.querySelector('textarea[name="diseaseDescription"]')?.value || '';
 
-    let promptText = `আমি একজন অভিজ্ঞ হোমিওপ্যাথিক চিকিৎসক। আমার রোগীর লক্ষণসমূহ বিশ্লেষণ করে তোমাকে দিচ্ছি, তুমি লক্ষণ যাচাই করে হোমিওপ্যাথিক রেপার্টরি (Boericke, Kent, Allen, Phatak, Murphy ইত্যাদি) এবং ম্যাটেরিয়া মেডিকা অনুসারে সঠিক ঔষধ নির্বাচন করবেন। এমন কোনো ঔষধ নির্বাচন করবেন না যা পরস্পরের ক্রিয়া নাশক (Antidote), শত্রুভাবাপন্ন (Inimical) বা রোগ বৃদ্ধিকারক।`;
+    let promptText = `I am a Homeopathic Physician. Analyze the patient's symptoms and select the most appropriate remedies using Boericke, Kent, Allen, Phatak, and Murphy repertories and Materia Medica. Ensure the remedies are neither Antidotes nor Inimical to each other.`;
 
     let symptoms = '';
 
@@ -91,21 +91,31 @@ function generateSymptomPrompt() {
     }
 
     promptText += `নির্দেশনা:
-রোগীর লক্ষণসমূহ বিস্তারিতভাবে যাচাই করে নিম্নোক্ত কাঠামোয় একটি প্রেসক্রিপশন তৈরি করুন। প্রেসক্রিপশন এর ভিতরে ঔষধ সিলেকশনের কারন লিখ না।
-প্রেসক্রিপশন ফরম্যাট: সুন্দরভাবে ফরম্যাট করা প্রেসক্রিপশন দিন যা চিকিৎসক গণ ব্যবহার করেন প্রায়শই। এটি যেন সরাসরি কপি-পেস্ট করে ব্যবহার করা যায়। প্রেসক্রিপশনে থাকবে:
-তারিখ রোগীর নাম বয়স ফোন নম্বর ঠিকানা চিকিৎসকের নাম ঠিকানা যোগাযোগ (AI এর পূর্বজ্ঞান অনুসারে, জানা না থাকলে দেয়ার দরকার নাই)
-রোগীর লক্ষণসমূহ সংক্ষেপে উল্লেখ করবে এবং রোগটির সম্ভব্য নাম উল্লেখ করবে (১/২ টি)
-ঔষধ ও ডোজ
-১. প্রধান হোমিওপ্যাথিক ঔষধ (সবচেয়ে উপযুক্ত একটি ঔষধ যা রোগীর লক্ষণগুলির সাথে রেপার্টরির রুব্রিক গুলির প্রচলিত নিয়ম অনুযায়ী স্কোর করে। ডোজ সহ উল্লেখ করবে)
-২. সহায়ক ঔষধ (প্রধান ঔষধের সাথে সামঞ্জস্যপূর্ণ একটি ঔষধ যা প্রধান ঔষধের পরে রেপার্টরিতে নিয়ম অনুযায়ী সর্বোচ্চ স্কোর করে। ডোজ সহ উল্লেখ করবে)
-৩. বায়োকেমিক ও বায়োকম্বিনেশন (সবচেয়ে উপযুক্ত Biochemic salt এবং Biocombination ট্যাবলেট। ডোজ সহ উল্লেখ করবে)
-৪.অনুমোদিত খাবার। বর্জনীয় খাবার। বিশ্রাম, ব্যায়াম ও জীবনযাপনের পরামর্শ উল্লেখ করবে।
-প্রসক্রিপশন তৈরির পরে চিকিৎসকের জন্য অতিরিক্ত পরামর্শ দিবে নিম্নের ফরমেটে
-১) প্রধান হোমিওপ্যাথিক ঔষধ সহায়ক ঔষধ বায়োকেমিক ও বায়োকম্বিনেশন কেন নির্বাচন করা হলো তার সংক্ষিপ্ত ধারনা
-২) বিকল্প হোমিওপ্যাথিক ঔষধ- (লক্ষণের সাথে মিল আছে এমন ৬-৭টি ঔষধের তালিকা। যদি কোনো ঔষধ পরস্পরের ক্রিয়া নাশক বা শত্রু হয়, তাহলে স্পষ্ট সতর্কতা দিন।)
-৩) এলোপ্যাথি ও ইউনানি চিকিৎসা (সংক্ষেপে) এই রোগে সাধারণত ব্যবহৃত এলোপ্যাথিক ও ইউনানি ঔষধের নাম, প্রাপ্তবয়স্কদের জন্য সাধারণ ডোজ।
-৪) সতর্কতা-যদি লক্ষণগুলো গুরুতর বা জরুরি অবস্থার ইঙ্গিত দেয়, তাহলে অবশ্যই চিকিৎসকের শরণাপন্ন হওয়ার সতর্কবাণী দিন।
-৫) এই রোগে যে সকল প্যাথলজি পরীক্ষা দেয়া হয় তার নাম`;
+রGenerate a ready-to-use Prescription in the following format (Do not include selection logic inside the prescription):
+
+[Prescription Format]
+
+Header: Date, Patient Name, Age, Phone, Address, Doctor's Name & Chamber Address (Md Ashaduzzaman Milon, Kurigram).
+
+Chief Complaints: Brief symptoms and 1-2 tentative diagnoses.
+
+Rx (Remedies & Dosage): 1. Primary Homeopathic Remedy (Highest repertorial scoring).
+2. Complementary Remedy (Compatible with the primary remedy).
+3. Biochemic & Biocombination remedies.
+
+Advice: Allowed/restricted foods, lifestyle, and rest guidelines.
+
+[Additional Analysis for the Physician (Outside Prescription)]
+
+Prescription Rationale: Brief justification for the selected remedies.
+
+Differential Remedies: A list of 6-7 alternative remedies (with clear Antidote/Inimical warnings).
+
+Allopathic & Unani Management: Common Allopathic and Unani medicines used for this condition with adult dosages (briefly).
+
+Red Flags & Cautions: Warning signs that require immediate emergency care.
+
+Investigations: Recommended pathological/diagnostic tests for this condition.`;
 
     return promptText;
 }
