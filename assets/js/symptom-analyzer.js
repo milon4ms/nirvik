@@ -2,7 +2,7 @@
  * ============================================
  *   হোমিও রোগী বিশ্লেষণ - কমন ফাংশনালিটি
  *   সব পেজে ব্যবহারের জন্য তৈরি
- *   বাটন ডায়নামিকভাবে তৈরি করা হয়
+ *   বাটন ডায়নামিক্যালি তৈরি করা হয়
  * ============================================
  */
 
@@ -165,39 +165,27 @@ function fallbackCopy(text) {
 // AI টুলস ফাংশন (প্রতিটি AI প্ল্যাটফর্মে প্রম্পট পাঠানো)
 // ============================================================
 
-// ---------- Gemini ----------
+// ---------- Gemini (শুধু চ্যাট পেজ) ----------
 function openGemini() {
-    const text = getResultText();
-    if (!text) return;
-    const encoded = encodeURIComponent(text);
-    window.open('https://gemini.google.com/?q=' + encoded, '_blank');
+    window.open('https://gemini.google.com/', '_blank');
 }
 
-// ---------- ChatGPT ----------
+// ---------- ChatGPT (শুধু চ্যাট পেজ) ----------
 function openChatGPT() {
-    const text = getResultText();
-    if (!text) return;
-    const encoded = encodeURIComponent(text);
-    window.open('https://chat.openai.com/?q=' + encoded, '_blank');
+    window.open('https://chat.openai.com/', '_blank');
 }
 
-// ---------- Grok ----------
+// ---------- Grok (শুধু চ্যাট পেজ) ----------
 function openGrok() {
-    const text = getResultText();
-    if (!text) return;
-    const encoded = encodeURIComponent(text);
-    window.open('https://grok.com/?q=' + encoded, '_blank');
+    window.open('https://grok.com/', '_blank');
 }
 
-// ---------- DeepSeek ----------
+// ---------- DeepSeek (শুধু চ্যাট পেজ) ----------
 function openDeepSeek() {
-    const text = getResultText();
-    if (!text) return;
-    const encoded = encodeURIComponent(text);
-    window.open('https://chat.deepseek.com/?q=' + encoded, '_blank');
+    window.open('https://chat.deepseek.com/', '_blank');
 }
 
-// ---------- Perplexity ----------
+// ---------- Perplexity (প্রম্পট সহ) ----------
 function openPerplexity() {
     const text = getResultText();
     if (!text) return;
@@ -226,13 +214,13 @@ function createButtons() {
     // বাটনের ডেটা
     const buttons = [
         { id: 'generateBtn', class: 'btn btn-primary', icon: '📋', text: 'জেনারেট করুন', type: 'submit' },
-        { id: 'copyPromptBtn', class: 'btn btn-copy btn-sm', icon: '📋', text: 'কপি', type: 'button', action: copyResult },
-        { id: 'geminiBtn', class: 'btn btn-gemini btn-sm', icon: '🌟', text: 'Gemini', type: 'button', action: openGemini },
-        { id: 'chatgptBtn', class: 'btn btn-chatgpt btn-sm', icon: '🤖', text: 'ChatGPT', type: 'button', action: openChatGPT },
-        { id: 'grokBtn', class: 'btn btn-grok btn-sm', icon: '⚡', text: 'Grok', type: 'button', action: openGrok },
-        { id: 'deepseekBtn', class: 'btn btn-deepseek btn-sm', icon: '🔍', text: 'DeepSeek', type: 'button', action: openDeepSeek },
-        { id: 'perplexityBtn', class: 'btn btn-perplexity btn-sm', icon: '🔬', text: 'Perplexity', type: 'button', action: openPerplexity },
-        { id: 'prescriptionBtn', class: 'btn btn-pink btn-sm', icon: '💊', text: 'প্রেসক্রিপশন', type: 'button', action: openPrescription }
+        { id: 'copyPromptBtn', class: 'btn btn-copy', icon: '📋', text: 'প্রম্পট কপি', type: 'button', action: copyResult },
+        { id: 'geminiBtn', class: 'btn btn-gemini', icon: '🌟', text: 'Gemini', type: 'button', action: openGemini },
+        { id: 'chatgptBtn', class: 'btn btn-chatgpt', icon: '🤖', text: 'ChatGPT', type: 'button', action: openChatGPT },
+        { id: 'grokBtn', class: 'btn btn-grok', icon: '⚡', text: 'Grok', type: 'button', action: openGrok },
+        { id: 'deepseekBtn', class: 'btn btn-deepseek', icon: '🔍', text: 'DeepSeek', type: 'button', action: openDeepSeek },
+        { id: 'perplexityBtn', class: 'btn btn-perplexity', icon: '🔬', text: 'Perplexity', type: 'button', action: openPerplexity },
+        { id: 'prescriptionBtn', class: 'btn btn-pink', icon: '💊', text: 'প্রেসক্রিপশন', type: 'button', action: openPrescription }
     ];
 
     // বাটন গ্রুপ ডিভ তৈরি
