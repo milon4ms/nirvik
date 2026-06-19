@@ -1199,24 +1199,23 @@
         // সেকশন টগল (হেডিং ক্লিক করলে নিচের অপশন খোলে)
         // ============================================================
         function toggleSection(element) {
-            // হেডিং এর পরের এলিমেন্ট খুঁজি
-            const content = element.nextElementSibling;
-            const arrow = element.querySelector('.arrow');
-            
-            if (content) {
-                // চেকবক্স গ্রুপ হলে
-                if (content.classList.contains('checkbox-group')) {
-                    content.classList.toggle('open');
-                    if (arrow) arrow.classList.toggle('open');
-                }
-                // টেক্সট এরিয়া হলে (section-content)
-                else if (content.classList.contains('section-content')) {
-                    content.classList.toggle('open');
-                    if (arrow) arrow.classList.toggle('open');
-                }
-            }
+    const content = element.nextElementSibling;
+    const arrow = element.querySelector('.arrow');
+    if (content) {
+        if (content.classList.contains('checkbox-group')) {
+            content.classList.toggle('open');
+            // ✅ display সেট করুন
+            content.style.display = content.classList.contains('open') ? 'flex' : 'none';
+            if (arrow) arrow.classList.toggle('open');
         }
-
+        else if (content.classList.contains('section-content')) {
+            content.classList.toggle('open');
+            // ✅ display সেট করুন
+            content.style.display = content.classList.contains('open') ? 'block' : 'none';
+            if (arrow) arrow.classList.toggle('open');
+        }
+    }
+}
         // ============================================================
         // ডিফল্ট: সব চেকবক্স গ্রুপ ও সেকশন কন্টেন্ট বন্ধ রাখা
         // ============================================================
