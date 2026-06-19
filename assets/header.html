@@ -13,20 +13,28 @@
         .relative.group:hover .absolute {
             display: block !important;
         }
+        /* মোবাইলে সাধারণ রোগ ও মেডিকা বাটন আলাদা ভাবে দেখানোর জন্য */
+        .mobile-menu-btn {
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .mobile-menu-btn:hover {
+            background: rgba(255,255,255,0.25);
+        }
     </style>
     
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex items-center justify-between py-4">
             
-            <!-- ===== টেক্সট লোগো (শুধু সাদা, কোনো ডিজাইন নেই) ===== -->
+            <!-- ===== টেক্সট লোগো (গাঢ় সবুজ/টিল রঙে) ===== -->
             <a href="index.html" class="flex-shrink-0 hover:opacity-80 transition">
-                <span class="text-white">নির্ভীক হোমিও</span>
+                <span class="text-teal-200 font-medium text-lg">নির্ভীক হোমিও</span>
             </a>
 
-            <!-- ===== ডেস্কটপ নেভিগেশন ===== -->
+            <!-- ===== ডেস্কটপ নেভিগেশন (হোম বাটন বাদ) ===== -->
             <nav class="hidden md:flex items-center gap-6 text-base font-medium">
                 
-                <a href="index.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">হোম</a>
+                <!-- হোম বাটন সরানো হয়েছে -->
                 
                 <a href="Select.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">সাধারণ রোগ</a>
                 
@@ -142,120 +150,122 @@
 
             </nav>
 
-            <!-- ===== মোবাইল মেনু বাটন ===== -->
-            <div class="md:hidden flex items-center gap-3">
-                <a href="Select.html" class="font-medium text-sm bg-white/20 px-4 py-2 rounded-full">সাধারণ রোগ</a>
-                <button id="mobile-menu-btn" class="text-2xl p-2">
+            <!-- ===== মোবাইল মেনু বাটন (সাধারণ রোগ ও মেডিকা) ===== -->
+            <div class="md:hidden flex items-center gap-2">
+                <a href="Select.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition hover:bg-white/25">
+                    সাধারণ রোগ
+                </a>
+                <button id="mobile-menu-btn" class="text-2xl p-1.5 text-white hover:bg-white/10 rounded-lg transition">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
         </div>
     </div>
 
-    <!-- ===== মোবাইল ড্রপডাউন ===== -->
-    <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-4">
-        <div class="px-4 flex flex-col gap-2 text-base max-h-[80vh] overflow-y-auto">
+    <!-- ===== মোবাইল ড্রপডাউন (হোম বাটন বাদ) ===== -->
+    <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
+        <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
             
-            <a href="index.html" class="px-4 py-3 hover:bg-white/20 rounded-xl">🏠 হোম</a>
+            <!-- হোম বাটন সরানো হয়েছে -->
             
             <!-- মেডিকা (মোবাইলে আলাদা) -->
             <details class="group">
-                <summary class="px-4 py-3 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
                     <span>📚 মেডিকা (A-Z)</span>
                     <span class="text-xs">▼</span>
                 </summary>
                 <div class="pl-4 flex flex-wrap gap-1 mt-1">
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">A</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">B</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">C</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">D</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">E</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">F</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">G</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">H</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">I</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">J</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">K</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">L</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">M</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">N</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">O</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">P</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">Q</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">R</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">S</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">T</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">U</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">V</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">W</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">X</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">Y</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">Z</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">A</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">B</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">C</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">D</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">E</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">F</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">G</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">H</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">I</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">J</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">K</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">L</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">M</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">N</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">O</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">P</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">Q</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">R</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">S</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">T</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">U</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">V</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">W</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">X</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">Y</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center text-white">Z</a>
                 </div>
             </details>
 
             <details class="group">
-                <summary class="px-4 py-3 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
                     <span>🫀 সার্বদেহিক রোগ</span>
                     <span class="text-xs">▼</span>
                 </summary>
                 <div class="pl-4 flex flex-col gap-1 mt-1">
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🔥 জ্বর সর্দি কাশি</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">⚡ ব্যথা</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">⭕ টিউমার</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">💧 ফোঁড়া</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🍽️ প্রসার মামু গ্রন্থি মীরা</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🦴 বাক্ত হাড় পেশী</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🧠 মানসিক রোগ সকল</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">✋ চর্মরোগ</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔥 জ্বর সর্দি কাশি</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">⚡ ব্যথা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">⭕ টিউমার</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">💧 ফোঁড়া</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🍽️ প্রসার মামু গ্রন্থি মীরা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦴 বাক্ত হাড় পেশী</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧠 মানসিক রোগ সকল</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">✋ চর্মরোগ</a>
                 </div>
             </details>
 
             <details class="group">
-                <summary class="px-4 py-3 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
                     <span>👆 উপর অঙ্গের রোগ</span>
                     <span class="text-xs">▼</span>
                 </summary>
                 <div class="pl-4 flex flex-col gap-1 mt-1">
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🧠 মাথা</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">👁️ চোখ</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">👂 কান</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">👃 নাক</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🦷 মুখ হইতে টুটি ও ঘাড়</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🦷 দাঁত</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧠 মাথা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👁️ চোখ</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👂 কান</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👃 নাক</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦷 মুখ হইতে টুটি ও ঘাড়</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦷 দাঁত</a>
                 </div>
             </details>
 
             <details class="group">
-                <summary class="px-4 py-3 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
                     <span>🖐️ মাঝ অঙ্গের রোগ</span>
                     <span class="text-xs">▼</span>
                 </summary>
                 <div class="pl-4 flex flex-col gap-1 mt-1">
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🫁 বুক সমস্যা</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">✋ হাতের সমস্যা</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🔙 পিঠ</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🍲 পাকস্থলী</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🫁 বুক সমস্যা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">✋ হাতের সমস্যা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔙 পিঠ</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🍲 পাকস্থলী</a>
                 </div>
             </details>
 
             <details class="group">
-                <summary class="px-4 py-3 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
                     <span>🦶 নিচ অঙ্গের রোগ</span>
                     <span class="text-xs">▼</span>
                 </summary>
                 <div class="pl-4 flex flex-col gap-1 mt-1">
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🔴 অর্শ</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">💧 মূত্রনালী</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🦶 পা</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🐛 মল ও কৃমি</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🌊 মলগ্রাব</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">👨 যৌনাঙ্গ পুরুষ</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">👩 যৌনাঙ্গ নারী</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔴 অর্শ</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">💧 মূত্রনালী</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦶 পা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🐛 মল ও কৃমি</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🌊 মলগ্রাব</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👨 যৌনাঙ্গ পুরুষ</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👩 যৌনাঙ্গ নারী</a>
                 </div>
             </details>
 
-            <a href="login.html" class="px-4 py-3 hover:bg-white/20 rounded-xl">🔑 লগ ইন</a>
+            <a href="login.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white">🔑 লগ ইন</a>
         </div>
     </div>
 </header>
