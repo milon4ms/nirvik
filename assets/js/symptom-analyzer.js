@@ -2,6 +2,7 @@
  * ============================================
  *   হোমিও রোগী বিশ্লেষণ - কমন ফাংশনালিটি
  *   সব পেজে ব্যবহারের জন্য তৈরি
+ *   বাটন ডায়নামিকভাবে তৈরি করা হয়
  * ============================================
  */
 
@@ -37,7 +38,7 @@ function generateSymptomPrompt() {
     const patientInfo = document.querySelector('textarea[name="pationtinfo"]')?.value || '';
     const diseaseDesc = document.querySelector('textarea[name="diseaseDescription"]')?.value || '';
 
-    let promptText = `আমি একজন অভিজ্ঞ হোমিওপ্যাথিক চিকিৎসক। আমার রোগীর লক্ষণসমূহ সিলেক্ট করে তোমাকে দিচ্ছি, তুমি হোমিওপ্যাথিক রেপার্টরি সমুহে লক্ষণ যাচাই করেে সঠিক ঔষধ নির্বাচন করবে। এমন কোনো ঔষধ নির্বাচন করবে না যা পরস্পরের ক্রিয়া নাশক, শত্রুভাবাপন্ন বা রোগ বৃদ্ধিকারক।`;
+    let promptText = `আমি একজন অভিজ্ঞ হোমিওপ্যাথিক চিকিৎসক। আমার রোগীর লক্ষণসমূহ বিশ্লেষণ করে তোমাকে দিচ্ছি, তুমি লক্ষণ যাচাই করে হোমিওপ্যাথিক রেপার্টরি (Boericke, Kent, Allen, Phatak, Murphy ইত্যাদি) এবং ম্যাটেরিয়া মেডিকা অনুসারে সঠিক ঔষধ নির্বাচন করবেন। এমন কোনো ঔষধ নির্বাচন করবেন না যা পরস্পরের ক্রিয়া নাশক (Antidote), শত্রুভাবাপন্ন (Inimical) বা রোগ বৃদ্ধিকারক।`;
 
     let symptoms = '';
 
@@ -87,9 +88,9 @@ function generateSymptomPrompt() {
     }
 
     promptText += `নির্দেশনা:
-সুন্দরভাবে ফরম্যাট করা প্রেসক্রিপশন একটি প্রেসক্রিপশন তৈরি করুন। প্রেসক্রিপশন এর ভিতরে ঔষধ সিলেকশনের কারন লিখ না। প্রসক্রিপশন অংশটুকু কপি করার জন্য একটি copy বাটন রেখ।
-প্রেসক্রিপশনে থাকবে:
-বাম পাশেঃ তারিখ রোগীর নাম বয়স ফোন নম্বর ঠিকানা ডানপাশেঃ চিকিৎসকের নাম ঠিকানা যোগাযোগ (AI এর পূর্বজ্ঞান অনুসারে, জানা না থাকলে দেয়ার দরকার নাই)
+রোগীর লক্ষণসমূহ বিস্তারিতভাবে যাচাই করে নিম্নোক্ত কাঠামোয় একটি প্রেসক্রিপশন তৈরি করুন। প্রেসক্রিপশন এর ভিতরে ঔষধ সিলেকশনের কারন লিখ না।
+প্রেসক্রিপশন ফরম্যাট: সুন্দরভাবে ফরম্যাট করা প্রেসক্রিপশন দিন যা চিকিৎসক গণ ব্যবহার করেন প্রায়শই। এটি যেন সরাসরি কপি-পেস্ট করে ব্যবহার করা যায়। প্রেসক্রিপশনে থাকবে:
+তারিখ রোগীর নাম বয়স ফোন নম্বর ঠিকানা চিকিৎসকের নাম ঠিকানা যোগাযোগ (AI এর পূর্বজ্ঞান অনুসারে, জানা না থাকলে দেয়ার দরকার নাই)
 রোগীর লক্ষণসমূহ সংক্ষেপে উল্লেখ করবে এবং রোগটির সম্ভব্য নাম উল্লেখ করবে (১/২ টি)
 ঔষধ ও ডোজ
 ১. প্রধান হোমিওপ্যাথিক ঔষধ (সবচেয়ে উপযুক্ত একটি ঔষধ যা রোগীর লক্ষণগুলির সাথে রেপার্টরির রুব্রিক গুলির প্রচলিত নিয়ম অনুযায়ী স্কোর করে। ডোজ সহ উল্লেখ করবে)
@@ -213,59 +214,58 @@ function openPrescription() {
 }
 
 // ============================================================
-// ডায়নামিক বাটন গ্রুপ রেন্ডার করা
+// বাটন ডায়নামিক্যালি তৈরি করা
 // ============================================================
-function renderButtonGroup() {
-    const container = document.getElementById('button-group');
-    if (!container) return;
-
-    // বাটন গ্রুপের HTML
-    container.innerHTML = `
-        <div class="button-group">
-            <button type="submit" class="btn btn-primary">📋 জেনারেট করুন</button>
-            <button type="button" class="btn btn-copy" id="copyPromptBtn">📋 প্রম্পট কপি</button>
-            <button type="button" class="btn btn-gemini" id="geminiBtn">🌟 Gemini</button>
-            <button type="button" class="btn btn-chatgpt" id="chatgptBtn">🤖 ChatGPT</button>
-            <button type="button" class="btn btn-grok" id="grokBtn">⚡ Grok</button>
-            <button type="button" class="btn btn-deepseek" id="deepseekBtn">🔍 DeepSeek</button>
-            <button type="button" class="btn btn-perplexity" id="perplexityBtn">🔬 Perplexity</button>
-            <button type="button" class="btn btn-pink" id="prescriptionBtn">💊 প্রেসক্রিপশন</button>
-        </div>
-    `;
-
-    // ইভেন্ট লিসনার অ্যাটাচ করুন
-    const form = document.getElementById('symptomForm');
-    if (form) {
-        form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            displayResult();
-        });
+function createButtons() {
+    const container = document.getElementById('button-container');
+    if (!container) {
+        console.warn('⚠️ button-container পাওয়া যায়নি!');
+        return;
     }
 
-    const copyBtn = document.getElementById('copyPromptBtn');
-    if (copyBtn) copyBtn.addEventListener('click', copyResult);
+    // বাটনের ডেটা
+    const buttons = [
+        { id: 'generateBtn', class: 'btn btn-primary', icon: '📋', text: 'জেনারেট করুন', type: 'submit' },
+        { id: 'copyPromptBtn', class: 'btn btn-copy btn-sm', icon: '📋', text: 'কপি', type: 'button', action: copyResult },
+        { id: 'geminiBtn', class: 'btn btn-gemini btn-sm', icon: '🌟', text: 'Gemini', type: 'button', action: openGemini },
+        { id: 'chatgptBtn', class: 'btn btn-chatgpt btn-sm', icon: '🤖', text: 'ChatGPT', type: 'button', action: openChatGPT },
+        { id: 'grokBtn', class: 'btn btn-grok btn-sm', icon: '⚡', text: 'Grok', type: 'button', action: openGrok },
+        { id: 'deepseekBtn', class: 'btn btn-deepseek btn-sm', icon: '🔍', text: 'DeepSeek', type: 'button', action: openDeepSeek },
+        { id: 'perplexityBtn', class: 'btn btn-perplexity btn-sm', icon: '🔬', text: 'Perplexity', type: 'button', action: openPerplexity },
+        { id: 'prescriptionBtn', class: 'btn btn-pink btn-sm', icon: '💊', text: 'প্রেসক্রিপশন', type: 'button', action: openPrescription }
+    ];
 
-    const geminiBtn = document.getElementById('geminiBtn');
-    if (geminiBtn) geminiBtn.addEventListener('click', openGemini);
+    // বাটন গ্রুপ ডিভ তৈরি
+    const buttonGroup = document.createElement('div');
+    buttonGroup.className = 'button-group';
+    buttonGroup.id = 'dynamicButtonGroup';
 
-    const chatgptBtn = document.getElementById('chatgptBtn');
-    if (chatgptBtn) chatgptBtn.addEventListener('click', openChatGPT);
+    // প্রতিটি বাটন তৈরি
+    buttons.forEach(btnData => {
+        const btn = document.createElement('button');
+        btn.id = btnData.id;
+        btn.className = btnData.class;
+        btn.type = btnData.type || 'button';
+        btn.innerHTML = `${btnData.icon} ${btnData.text}`;
+        
+        // submit বাটনের জন্য আলাদা ইভেন্ট
+        if (btnData.type === 'submit') {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                displayResult();
+            });
+        } else if (btnData.action) {
+            btn.addEventListener('click', btnData.action);
+        }
+        
+        buttonGroup.appendChild(btn);
+    });
 
-    const grokBtn = document.getElementById('grokBtn');
-    if (grokBtn) grokBtn.addEventListener('click', openGrok);
-
-    const deepseekBtn = document.getElementById('deepseekBtn');
-    if (deepseekBtn) deepseekBtn.addEventListener('click', openDeepSeek);
-
-    const perplexityBtn = document.getElementById('perplexityBtn');
-    if (perplexityBtn) perplexityBtn.addEventListener('click', openPerplexity);
-
-    const prescriptionBtn = document.getElementById('prescriptionBtn');
-    if (prescriptionBtn) prescriptionBtn.addEventListener('click', openPrescription);
+    container.appendChild(buttonGroup);
 }
 
 // ============================================================
-// DOM রেডি হলে সব ইভেন্ট সেটআপ
+// DOM রেডি হলে সব সেটআপ
 // ============================================================
 document.addEventListener('DOMContentLoaded', function() {
     // ডিফল্ট: সব চেকবক্স গ্রুপ বন্ধ
@@ -278,25 +278,17 @@ document.addEventListener('DOMContentLoaded', function() {
         content.style.display = 'none';
     });
 
-    // বাটন গ্রুপ রেন্ডার করুন
-    renderButtonGroup();
+    // ফর্ম সাবমিট (যদি ফর্ম থাকে)
+    const form = document.getElementById('symptomForm');
+    if (form) {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            displayResult();
+        });
+    }
 
-    // গ্লোবাল ফাংশন এক্সপোজ
-    window.HomoeoCommon = {
-        toggleSection: toggleSection,
-        getCheckedValues: getCheckedValues,
-        generateSymptomPrompt: generateSymptomPrompt,
-        displayResult: displayResult,
-        copyResult: copyResult,
-        getResultText: getResultText,
-        openGemini: openGemini,
-        openChatGPT: openChatGPT,
-        openGrok: openGrok,
-        openDeepSeek: openDeepSeek,
-        openPerplexity: openPerplexity,
-        openPrescription: openPrescription,
-        renderButtonGroup: renderButtonGroup
-    };
+    // বাটন তৈরি করা
+    createButtons();
 
-    console.log('✅ Symptom Analyzer লোড হয়েছে!');
+    console.log('✅ Symptom Analyzer লোড হয়েছে! (বাটন ডায়নামিক্যালি তৈরি)');
 });
