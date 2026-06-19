@@ -2,23 +2,20 @@
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex items-center justify-between py-4">
             
-            <!-- ===== টেক্সট লোগো ===== -->
+            <!-- ===== টেক্সট লোগো (হোম লিংক) ===== -->
             <a href="index.html" class="flex-shrink-0 flex items-center gap-2 hover:opacity-80 transition">
-                <span class="text-2xl">🌿</span>
-                <span class="text-xl font-bold">নির্বিক</span>
+                <span class="text-xl font-bold">নির্ভীক</span>
                 <span class="text-sm font-light text-teal-200">হোমিও</span>
             </a>
 
             <!-- ===== ডেস্কটপ নেভিগেশন ===== -->
             <nav class="hidden md:flex items-center gap-6 text-base font-medium">
                 
-                <!-- হোম -->
                 <a href="index.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">হোম</a>
                 
-                <!-- সাধারণ রোগ -->
                 <a href="Select.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">সাধারণ রোগ</a>
                 
-                <!-- ===== সার্বদেহিক রোগ ===== -->
+                <!-- সার্বদেহিক -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs"></i>
@@ -35,7 +32,7 @@
                     </div>
                 </div>
 
-                <!-- ===== উপর অঙ্গের রোগ ===== -->
+                <!-- উপর অঙ্গ -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
@@ -50,7 +47,7 @@
                     </div>
                 </div>
 
-                <!-- ===== মাঝ অঙ্গের রোগ ===== -->
+                <!-- মাঝ অঙ্গ -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
@@ -63,7 +60,7 @@
                     </div>
                 </div>
 
-                <!-- ===== নিচ অঙ্গের রোগ ===== -->
+                <!-- নিচ অঙ্গ -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
@@ -79,7 +76,7 @@
                     </div>
                 </div>
 
-                <!-- ===== মেডিকা (A-Z) ===== -->
+                <!-- মেডিকা -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         মেডিকা <i class="fas fa-chevron-down text-xs"></i>
@@ -116,7 +113,7 @@
                     </div>
                 </div>
 
-                <!-- ===== লগইন (ড্রপডাউন সহ) ===== -->
+                <!-- লগইন -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         লগ ইন <i class="fas fa-chevron-down text-xs"></i>
@@ -130,118 +127,120 @@
 
             </nav>
 
-            <!-- ===== মোবাইল মেনু ===== -->
-            <div class="md:hidden flex items-center gap-4">
-                <a href="Select.html" class="font-medium text-lg">সাধারণ রোগ</a>
-                <button id="mobile-menu-btn" class="text-3xl p-2">
-                    <i class="fas fa-ellipsis-v"></i>
+            <!-- ===== মোবাইল মেনু বাটন ===== -->
+            <div class="md:hidden flex items-center gap-3">
+                <a href="Select.html" class="font-medium text-sm bg-white/20 px-4 py-2 rounded-full">সাধারণ রোগ</a>
+                <button id="mobile-menu-btn" class="text-2xl p-2">
+                    <i class="fas fa-bars"></i>
                 </button>
             </div>
         </div>
     </div>
 
     <!-- ===== মোবাইল ড্রপডাউন ===== -->
-    <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-6">
-        <div class="px-6 flex flex-col gap-2 text-lg max-h-[70vh] overflow-y-auto">
-            <a href="index.html" class="px-6 py-4 hover:bg-white/20 rounded-2xl">🏠 হোম</a>
+    <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-4">
+        <div class="px-4 flex flex-col gap-2 text-base max-h-[80vh] overflow-y-auto">
             
+            <a href="index.html" class="px-4 py-3 hover:bg-white/20 rounded-xl">🏠 হোম</a>
+            
+            <!-- মেডিকা (মোবাইলে আলাদা) -->
             <details class="group">
-                <summary class="px-6 py-4 hover:bg-white/20 rounded-2xl cursor-pointer list-none flex items-center justify-between">
-                    <span>🫀 সার্বদেহিক রোগ</span>
-                    <span class="text-sm">▼</span>
-                </summary>
-                <div class="pl-6 flex flex-col gap-1 mt-1">
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🔥 জ্বর সর্দি কাশি</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">⚡ ব্যথা</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">⭕ টিউমার</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">💧 ফোঁড়া</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🍽️ প্রসার মামু গ্রন্থি মীরা</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🦴 বাক্ত হাড় পেশী</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🧠 মানসিক রোগ সকল</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">✋ চর্মরোগ</a>
-                </div>
-            </details>
-
-            <details class="group">
-                <summary class="px-6 py-4 hover:bg-white/20 rounded-2xl cursor-pointer list-none flex items-center justify-between">
-                    <span>👆 উপর অঙ্গের রোগ</span>
-                    <span class="text-sm">▼</span>
-                </summary>
-                <div class="pl-6 flex flex-col gap-1 mt-1">
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🧠 মাথা</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">👁️ চোখ</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">👂 কান</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">👃 নাক</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🦷 মুখ হইতে টুটি ও ঘাড়</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🦷 দাঁত</a>
-                </div>
-            </details>
-
-            <details class="group">
-                <summary class="px-6 py-4 hover:bg-white/20 rounded-2xl cursor-pointer list-none flex items-center justify-between">
-                    <span>👐 মাঝ অঙ্গের রোগ</span>
-                    <span class="text-sm">▼</span>
-                </summary>
-                <div class="pl-6 flex flex-col gap-1 mt-1">
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🫁 বুক সমস্যা</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">✋ হাতের সমস্যা</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🔙 পিঠ</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🍲 পাকস্থলী</a>
-                </div>
-            </details>
-
-            <details class="group">
-                <summary class="px-6 py-4 hover:bg-white/20 rounded-2xl cursor-pointer list-none flex items-center justify-between">
-                    <span>🦶 নিচ অঙ্গের রোগ</span>
-                    <span class="text-sm">▼</span>
-                </summary>
-                <div class="pl-6 flex flex-col gap-1 mt-1">
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🔴 অর্শ</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">💧 মূত্রনালী</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🦶 পা</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🐛 মল ও কৃমি</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">🌊 মলগ্রাব</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">👨 যৌনাঙ্গ পুরুষ</a>
-                    <a href="#" class="px-6 py-3 hover:bg-white/20 rounded-2xl text-sm">👩 যৌনাঙ্গ নারী</a>
-                </div>
-            </details>
-
-            <details class="group">
-                <summary class="px-6 py-4 hover:bg-white/20 rounded-2xl cursor-pointer list-none flex items-center justify-between">
+                <summary class="px-4 py-3 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between">
                     <span>📚 মেডিকা (A-Z)</span>
-                    <span class="text-sm">▼</span>
+                    <span class="text-xs">▼</span>
                 </summary>
-                <div class="pl-6 flex flex-wrap gap-1 mt-1">
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">A</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">B</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">C</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">D</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">E</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">F</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">G</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">H</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">I</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">J</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">K</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">L</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">M</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">N</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">O</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">P</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">Q</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">R</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">S</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">T</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">U</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">V</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">W</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">X</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">Y</a>
-                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[48px] text-center">Z</a>
+                <div class="pl-4 flex flex-wrap gap-1 mt-1">
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">A</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">B</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">C</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">D</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">E</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">F</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">G</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">H</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">I</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">J</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">K</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">L</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">M</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">N</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">O</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">P</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">Q</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">R</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">S</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">T</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">U</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">V</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">W</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">X</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">Y</a>
+                    <a href="#" class="px-3 py-2 hover:bg-white/20 rounded-xl text-sm w-[44px] text-center">Z</a>
                 </div>
             </details>
 
-            <a href="login.html" class="px-6 py-4 hover:bg-white/20 rounded-2xl">🔑 লগ ইন</a>
+            <details class="group">
+                <summary class="px-4 py-3 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between">
+                    <span>🫀 সার্বদেহিক রোগ</span>
+                    <span class="text-xs">▼</span>
+                </summary>
+                <div class="pl-4 flex flex-col gap-1 mt-1">
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🔥 জ্বর সর্দি কাশি</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">⚡ ব্যথা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">⭕ টিউমার</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">💧 ফোঁড়া</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🍽️ প্রসার মামু গ্রন্থি মীরা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🦴 বাক্ত হাড় পেশী</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🧠 মানসিক রোগ সকল</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">✋ চর্মরোগ</a>
+                </div>
+            </details>
+
+            <details class="group">
+                <summary class="px-4 py-3 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between">
+                    <span>👆 উপর অঙ্গের রোগ</span>
+                    <span class="text-xs">▼</span>
+                </summary>
+                <div class="pl-4 flex flex-col gap-1 mt-1">
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🧠 মাথা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">👁️ চোখ</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">👂 কান</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">👃 নাক</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🦷 মুখ হইতে টুটি ও ঘাড়</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🦷 দাঁত</a>
+                </div>
+            </details>
+
+            <details class="group">
+                <summary class="px-4 py-3 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between">
+                    <span>🖐️ মাঝ অঙ্গের রোগ</span>
+                    <span class="text-xs">▼</span>
+                </summary>
+                <div class="pl-4 flex flex-col gap-1 mt-1">
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🫁 বুক সমস্যা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">✋ হাতের সমস্যা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🔙 পিঠ</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🍲 পাকস্থলী</a>
+                </div>
+            </details>
+
+            <details class="group">
+                <summary class="px-4 py-3 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between">
+                    <span>🦶 নিচ অঙ্গের রোগ</span>
+                    <span class="text-xs">▼</span>
+                </summary>
+                <div class="pl-4 flex flex-col gap-1 mt-1">
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🔴 অর্শ</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">💧 মূত্রনালী</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🦶 পা</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🐛 মল ও কৃমি</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">🌊 মলগ্রাব</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">👨 যৌনাঙ্গ পুরুষ</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm">👩 যৌনাঙ্গ নারী</a>
+                </div>
+            </details>
+
+            <a href="login.html" class="px-4 py-3 hover:bg-white/20 rounded-xl">🔑 লগ ইন</a>
         </div>
     </div>
 </header>
