@@ -1,11 +1,26 @@
 <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
+    <style>
+        /* ===== ড্রপডাউন ব্রিজ (মাউস নিচে নামালেও মেনু থাকে) ===== */
+        .relative.group .absolute {
+            top: calc(100% - 6px) !important;
+            padding-top: 6px !important;
+        }
+        /* প্যারেন্ট এলিমেন্টে সামান্য প্যাডিং */
+        .relative.group {
+            padding-bottom: 4px;
+        }
+        /* ড্রপডাউন মেনু খোলা রাখার নিশ্চয়তা */
+        .relative.group:hover .absolute {
+            display: block !important;
+        }
+    </style>
+    
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex items-center justify-between py-4">
             
-            <!-- ===== টেক্সট লোগো (হোম লিংক) ===== -->
-            <a href="index.html" class="flex-shrink-0 flex items-center gap-2 hover:opacity-80 transition">
-                <span class="text-xl font-bold">নির্ভীক</span>
-                <span class="text-sm font-light text-teal-200">হোমিও</span>
+            <!-- ===== টেক্সট লোগো (শুধু সাদা, কোনো ডিজাইন নেই) ===== -->
+            <a href="index.html" class="flex-shrink-0 hover:opacity-80 transition">
+                <span class="text-white">নির্ভীক হোমিও</span>
             </a>
 
             <!-- ===== ডেস্কটপ নেভিগেশন ===== -->
