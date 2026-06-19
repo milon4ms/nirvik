@@ -7,7 +7,7 @@
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
     
     <script>
         tailwind.config = {
@@ -25,107 +25,215 @@
 
     <style>
         body { 
-            font-family: 'Noto Sans Bengali', system-ui, sans-serif; 
+            font-family: 'SolaimanLipi', system-ui, sans-serif; 
         }
     </style>
 </head>
-<body class="bg-gradient-to-br from-teal-50 to-cyan-50">
+<body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
 
-    <!-- Header -->
+    <!-- ==================== HEADER ==================== -->
     <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex items-center justify-between py-4">
                 
-                <!-- Logo (শুধু ছবি) -->
+                <!-- Logo -->
                 <a href="index.html" class="flex-shrink-0">
                     <img src="https://via.placeholder.com/52x52/ffffff/00b8a9?text=🌿" 
                          alt="নির্বিক হোমিও" class="w-12 h-12 rounded-full">
                 </a>
 
                 <!-- Desktop Navigation -->
-                <nav class="hidden md:flex items-center gap-8 text-base font-medium">
-                    <!-- ১ নং মেনু -->
-                    <a href="Select.html" class="hover:bg-white/20 px-6 py-3 rounded-2xl transition">
+                <nav class="hidden md:flex items-center gap-6 text-base font-medium">
+                    <a href="Select.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         সাধারণ রোগ
                     </a>
-                    
-                    <!-- মেডিকা মেনু -->
+
                     <div class="relative group">
-                        <button class="flex items-center gap-2 hover:bg-white/20 px-6 py-3 rounded-2xl transition">
-                            মেডিকা 
-                            <i class="fas fa-chevron-down text-sm"></i>
+                        <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
+                            সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs"></i>
                         </button>
-                        <!-- A-Z Dropdown -->
-                        <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-6 px-6 w-[420px] mt-3 grid grid-cols-8 gap-3 text-center text-lg font-medium">
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">A</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">B</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">C</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">D</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">E</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">F</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">G</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">H</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">I</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">J</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">K</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">L</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">M</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">N</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">O</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">P</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">Q</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">R</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">S</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">T</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">U</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">V</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">W</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">X</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">Y</a>
-                            <a href="#" class="hover:bg-teal-50 py-3 rounded-2xl transition">Z</a>
+                        <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">জ্বর সর্দি কাশি</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">ব্যথা</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">টিউমার</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">ফোঁড়া</a>
+                        </div>
+                    </div>
+
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
+                            উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">মাথা</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">চোখ</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">কান</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">নাক</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">দাঁত</a>
+                        </div>
+                    </div>
+
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
+                            মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">বুক সমস্যা</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">পিঠ</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">পাকস্থলী</a>
+                        </div>
+                    </div>
+
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
+                            নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">অর্শ</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">মূত্রাশয়</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">পা</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">যৌনাঙ্গ</a>
+                        </div>
+                    </div>
+
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
+                            মেডিকা <i class="fas fa-chevron-down text-xs"></i>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-60 mt-2">
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">A</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">B</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">C</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">D</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">E</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">F</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">G</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">H</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">I</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">J</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">K</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">L</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">M</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">N</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">O</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">P</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">Q</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">R</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">S</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">T</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">U</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">V</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">W</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">X</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">Y</a>
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50">Z</a>
+                        </div>
+                    </div>
+
+                    <!-- লগ ইন (হোভারে সাবমেনু) -->
+                    <div class="relative group">
+                        <a href="login.html" 
+                           class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
+                            লগ ইন
+                        </a>
+                        <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-56 mt-2 right-0">
+                            <a href="#" class="block px-6 py-3 hover:bg-teal-50 text-red-600">লগ আউট</a>
+                            <a href="register.html" class="block px-6 py-3 hover:bg-teal-50">রেজিস্ট্রেশন</a>
+                            <a href="profile.html" class="block px-6 py-3 hover:bg-teal-50">আমার প্রোফাইল</a>
                         </div>
                     </div>
                 </nav>
 
-                <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="md:hidden text-3xl p-2">
-                    <i class="fas fa-bars"></i>
-                </button>
+                <!-- Mobile Navigation -->
+                <div class="md:hidden flex items-center gap-4">
+                    <a href="Select.html" class="font-medium text-lg">সাধারণ রোগ</a>
+                    <button id="mobile-menu-btn" class="text-3xl p-2">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-6">
-            <div class="px-6 flex flex-col gap-4 text-lg">
-                <a href="Select.html" class="px-6 py-4 hover:bg-white/20 rounded-2xl">সাধারণ রোগ</a>
+            <div class="px-6 flex flex-col gap-3 text-lg">
+                <a href="#" class="px-6 py-4 hover:bg-white/20 rounded-2xl">সার্বদেহিক রোগ</a>
+                <a href="#" class="px-6 py-4 hover:bg-white/20 rounded-2xl">উপর অঙ্গের রোগ</a>
+                <a href="#" class="px-6 py-4 hover:bg-white/20 rounded-2xl">মাঝ অঙ্গের রোগ</a>
+                <a href="#" class="px-6 py-4 hover:bg-white/20 rounded-2xl">নিচ অঙ্গের রোগ</a>
                 <a href="#" class="px-6 py-4 hover:bg-white/20 rounded-2xl">মেডিকা (A-Z)</a>
+                <a href="login.html" class="px-6 py-4 hover:bg-white/20 rounded-2xl">লগ ইন</a>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-primary to-teal-700 text-white py-24">
-        <div class="max-w-4xl mx-auto text-center px-6">
-            <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+    <!-- ==================== HERO (আরও ছোট করা হয়েছে) ==================== -->
+    <section class="bg-gradient-to-br from-primary via-teal-600 to-teal-700 text-white py-12 md:py-16">
+        <div class="max-w-5xl mx-auto text-center px-6">
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
                 স্বাস্থ্যের প্রাকৃতিক পথে ফিরে আসুন
             </h1>
-            <p class="text-xl md:text-2xl mb-10 opacity-95">
+            <p class="text-lg md:text-xl mb-8 opacity-95">
                 হোমিওপ্যাথিক চিকিৎসকদের জন্য আধুনিক লক্ষণভিত্তিক প্রম্পট জেনারেটর
             </p>
             <a href="Select.html" 
-               class="inline-flex items-center gap-3 bg-white text-primary-dark text-lg font-semibold px-10 py-5 rounded-3xl hover:scale-105 transition">
+               class="inline-flex items-center gap-3 bg-white text-primary-dark text-lg font-semibold px-10 py-5 rounded-3xl hover:scale-105 transition shadow-xl">
                 <i class="fas fa-magic"></i>
                 সাধারণ রোগ থেকে শুরু করুন
             </a>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-teal-900 text-teal-200 py-12">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <strong class="text-xl text-white">নির্বিক হোমিও</strong><br>
-            প্রাকৃতিক চিকিৎসার আধুনিক প্ল্যাটফর্ম<br><br>
-            © ২০২৬ নির্বিক হোমিও। সর্বস্বত্ব সংরক্ষিত।
+    <!-- ==================== FEATURES ==================== -->
+    <section class="py-16 flex-1">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">কেন নির্বিক হোমিও?</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition text-center">
+                    <div class="text-5xl mb-4">🧠</div>
+                    <h3 class="text-xl font-semibold mb-2">AI সহায়তা</h3>
+                    <p class="text-gray-600 text-sm">স্বয়ংক্রিয় প্রম্পট জেনারেটর</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition text-center">
+                    <div class="text-5xl mb-4">👨‍⚕️</div>
+                    <h3 class="text-xl font-semibold mb-2">চিকিৎসকদের জন্য</h3>
+                    <p class="text-gray-600 text-sm">দ্রুত রেমেডি নির্ধারণ</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition text-center">
+                    <div class="text-5xl mb-4">📱</div>
+                    <h3 class="text-xl font-semibold mb-2">মোবাইল ফ্রেন্ডলি</h3>
+                    <p class="text-gray-600 text-sm">সর্বত্র সহজ ব্যবহার</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition text-center">
+                    <div class="text-5xl mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold mb-2">দ্রুত ও সহজ</h3>
+                    <p class="text-gray-600 text-sm">কয়েক সেকেন্ডে প্রম্পট তৈরি</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-teal-900 text-teal-200 py-4">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+                <div>
+                    <strong class="text-white">নির্বিক হোমিও</strong> — প্রাকৃতিক চিকিৎসার আধুনিক প্ল্যাটফর্ম
+                </div>
+                <div class="flex flex-wrap gap-x-6 gap-y-2 justify-center">
+                    <a href="#" class="hover:text-white">ব্যবহারের নিয়ম</a>
+                    <a href="#" class="hover:text-white">প্রাইভেসি পলিসি</a>
+                    <a href="#" class="hover:text-white">যোগাযোগ</a>
+                    <a href="#" class="hover:text-white">Disclaimer</a>
+                </div>
+                <div class="text-xs opacity-75">
+                    © ২০২৬ নির্বিক হোমিও
+                </div>
+            </div>
         </div>
     </footer>
 
@@ -137,7 +245,7 @@
         btn.addEventListener('click', () => {
             menu.classList.toggle('hidden');
             btn.innerHTML = menu.classList.contains('hidden') 
-                ? '<i class="fas fa-bars"></i>' 
+                ? '<i class="fas fa-ellipsis-v"></i>' 
                 : '<i class="fas fa-times"></i>';
         });
     </script>
