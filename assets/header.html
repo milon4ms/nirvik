@@ -268,4 +268,24 @@
             <a href="login.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white">🔑 লগ ইন</a>
         </div>
     </div>
+    <!-- ===== Firebase SDK & Auth State (সব পেজে কাজ করবে) ===== -->
+<script type="module">
+    import { auth, db } from './assets/js/firebase-config.js';
+    
+    // ইউজারের লগইন স্টেট মনিটর করুন
+    auth.onAuthStateChanged((user) => {
+        if (user) {
+            // ইউজার লগইন করা আছে
+            console.log('✅ লগইন করা ইউজার:', user.email);
+            // চাইলে এখানে ইউজারের ডেটা localStorage-এ সেভ করতে পারেন
+        } else {
+            // ইউজার লগইন নেই
+            console.log('❌ ইউজার লগইন করেনি');
+        }
+    });
+    
+    // গ্লোবালি এক্সপোজ করুন (যদি অন্য স্ক্রিপ্টে দরকার হয়)
+    window.auth = auth;
+    window.db = db;
+</script>
 </header>
