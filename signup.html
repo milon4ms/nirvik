@@ -1,106 +1,70 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>রেজিস্ট্রেশন - নির্বিক হোমিও</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-- Firebase SDK -->
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
-    
-    <script src="assets/js/firebase-config.js"></script>
-    
-    <style>
-        body { font-family: 'SolaimanLipi', system-ui, sans-serif; }
-        .container-custom { max-width: 500px; margin: 50px auto; }
-        input { width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 8px; margin: 8px 0; }
-        .btn-primary { background: #00b8a9; color: white; padding: 12px; border: none; border-radius: 8px; width: 100%; font-weight: 600; cursor: pointer; }
-        .btn-primary:hover { background: #00897b; }
-    </style>
+    <!-- ... আপনার হেডার ... -->
 </head>
 <body>
 
-<!-- হেডার -->
-<div id="header-placeholder"></div>
+    <!-- ===== হেডার ===== -->
+    <div id="header-placeholder"></div>
 
-<div class="container-custom bg-white p-8 rounded-2xl shadow-lg">
-    <h1 class="text-3xl font-bold text-center text-teal-700 mb-6">📝 রেজিস্ট্রেশন</h1>
-    
-    <form id="registerForm">
-        <div>
-            <label class="font-medium">ইমেইল</label>
-            <input type="email" id="email" placeholder="আপনার ইমেইল" required>
-        </div>
-        <div>
-            <label class="font-medium">পাসওয়ার্ড</label>
-            <input type="password" id="password" placeholder="৬ অক্ষরের বেশি" required minlength="6">
-        </div>
-        <div>
-            <label class="font-medium">পাসওয়ার্ড নিশ্চিত</label>
-            <input type="password" id="confirmPassword" placeholder="পাসওয়ার্ড পুনরায় লিখুন" required>
-        </div>
-        <div>
-            <label class="font-medium">নাম</label>
-            <input type="text" id="displayName" placeholder="আপনার নাম">
-        </div>
-        
-        <button type="submit" class="btn-primary mt-4">🔑 রেজিস্ট্রেশন করুন</button>
-    </form>
-    
-    <p class="text-center mt-4 text-gray-600">
-        ইতিমধ্যে অ্যাকাউন্ট আছে? <a href="login.html" class="text-teal-600 font-bold">লগইন করুন</a>
-    </p>
-</div>
+    <!-- ... ফর্ম HTML ... -->
 
-<!-- ফুটার -->
-<div id="footer-placeholder"></div>
+    <!-- ===== ফুটার ===== -->
+    <div id="footer-placeholder"></div>
 
-<script>
-    document.getElementById('registerForm').addEventListener('submit', async function(e) {
-        e.preventDefault();
-        
-        const email = document.getElementById('email').value;
-        const password = document.getElementById('password').value;
-        const confirm = document.getElementById('confirmPassword').value;
-        const name = document.getElementById('displayName').value || 'ইউজার';
-        
-        if (password !== confirm) {
-            alert('❌ পাসওয়ার্ড দুটি মিলছে না!');
-            return;
-        }
-        
-        try {
-            // Firebase এ ইউজার তৈরি
-            const userCredential = await auth.createUserWithEmailAndPassword(email, password);
-            const user = userCredential.user;
-            
-            // ইউজার প্রোফাইল আপডেট
-            await user.updateProfile({ displayName: name });
-            
-            // Firestore-এ ইউজার ডেটা সংরক্ষণ (ডিফল্ট রোল: 'registered')
-            await db.collection('users').doc(user.uid).set({
-                uid: user.uid,
-                email: email,
-                name: name,
-                role: 'registered',  // ডিফল্ট রোল
-                createdAt: firebase.firestore.FieldValue.serverTimestamp(),
-                isPaid: false,
-                emailVerified: false
-            });
-            
-            // সাফল্য
-            alert('✅ রেজিস্ট্রেশন সফল! এখন লগইন করুন।');
-            window.location.href = 'login.html';
-            
-        } catch (error) {
-            alert('❌ ' + error.message);
-        }
-    });
-</script>
+    <!-- ===== Firebase Script (Compat) ===== -->
+    <script>
+        // Firebase ইতিমধ্যে header-এ লোড হয়েছে
+        // এখানে সরাসরি auth ও db ব্যবহার করুন
+
+        document.getElementById('registerForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const confirm = document.getElementById('confirmPassword').value;
+            const name = document.getElementById('displayName').value || 'ইউজার';
+
+            if (password !== confirm) {
+                alert('❌ পাসওয়ার্ড দুটি মিলছে না!');
+                return;
+            }
+
+            try {
+                // Firebase-এ ইউজার তৈরি
+                const userCredential = await auth.createUserWithEmailAndPassword(email, password);
+                const user = userCredential.user;
+
+                // ইউজার প্রোফাইল আপডেট
+                await user.updateProfile({ displayName: name });
+
+                // Firestore-এ ইউজার ডেটা সংরক্ষণ
+                await db.collection('users').doc(user.uid).set({
+                    uid: user.uid,
+                    email: email,
+                    name: name,
+                    role: 'general',
+                    isPaid: false,
+                    createdAt: firebase.firestore.FieldValue.serverTimestamp()
+                });
+
+                alert('✅ রেজিস্ট্রেশন সফল! এখন লগইন করুন।');
+                window.location.href = 'login.html';
+
+            } catch (error) {
+                alert('❌ ' + error.message);
+            }
+        });
+    </script>
+
+    <!-- ===== হেডার/ফুটার লোড ===== -->
+    <script>
+        $(function() {
+            $('#header-placeholder').load('assets/header.html');
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+    </script>
 
 </body>
 </html>
