@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>লগইন - নির্বিক হোমিও</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+    
+    <script src="assets/js/firebase-config.js"></script>
+    
+    <style>
+        body { font-family: 'SolaimanLipi', system-ui, sans-serif; }
+        .container-custom { max-width: 450px; margin: 50px auto; }
+        input { width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 8px; margin: 8px 0; }
+        .btn-primary { background: #00b8a9; color: white; padding: 12px; border: none; border-radius: 8px; width: 100%; font-weight: 600; cursor: pointer; }
+        .btn-primary:hover { background: #00897b; }
+    </style>
+</head>
+<body>
+
+<div id="header-placeholder"></div>
+
+<div class="container-custom bg-white p-8 rounded-2xl shadow-lg">
+    <h1 class="text-3xl font-bold text-center text-teal-700 mb-6">🔐 লগইন</h1>
+    
+    <form id="loginForm">
+        <div>
+            <label class="font-medium">ইমেইল</label>
+            <input type="email" id="email" placeholder="আপনার ইমেইল" required>
+        </div>
+        <div>
+            <label class="font-medium">পাসওয়ার্ড</label>
+            <input type="password" id="password" placeholder="পাসওয়ার্ড" required>
+        </div>
+        
+        <button type="submit" class="btn-primary mt-4">🔑 লগইন করুন</button>
+    </form>
+    
+    <p class="text-center mt-4 text-gray-600">
+        অ্যাকাউন্ট নেই? <a href="register.html" class="text-teal-600 font-bold">রেজিস্ট্রেশন করুন</a>
+    </p>
+</div>
+
+<div id="footer-placeholder"></div>
+
+<script>
+    document.getElementById('loginForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+        
+        try {
+            const userCredential = await auth.signInWithEmailAndPassword(email, password);
+            const user = userCredential.user;
+            
+            // Firestore থেকে ইউজার ডেটা নেওয়া
+            const doc = await db.collection('users').doc(user.uid).get();
+            
+            if (doc.exists) {
+                const userData = doc.data();
+                localStorage.setItem('user', JSON.stringify({
+                    uid: user.uid,
+                    email: user.email,
+                    name: userData.name || 'ইউজার',
+                    role: userData.role || 'registered',
+                    isPaid: userData.isPaid || false
+                }));
+                
+                // রোল অনুযায়ী রিডাইরেক্ট
+                if (userData.isPaid) {
+                    window.location.href = 'paid-dashboard.html';
+                } else {
+                    window.location.href = 'dashboard.html';
+                }
+            } else {
+                alert('⚠️ ইউজার ডেটা পাওয়া যায়নি!');
+            }
+            
+        } catch (error) {
+            alert('❌ ' + error.message);
+        }
+    });
+</script>
+
+</body>
+</html>
