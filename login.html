@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <!-- ... -->
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <!-- ... ফর্ম HTML ... -->
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            try {
+                const userCredential = await auth.signInWithEmailAndPassword(email, password);
+                const user = userCredential.user;
+
+                // Firestore থেকে ডেটা নেওয়া
+                const doc = await db.collection('users').doc(user.uid).get();
+
+                if (doc.exists) {
+                    const userData = doc.data();
+                    localStorage.setItem('user', JSON.stringify({
+                        uid: user.uid,
+                        email: user.email,
+                        name: userData.name || 'ইউজার',
+                        role: userData.role || 'general',
+                        isPaid: userData.isPaid || false
+                    }));
+
+                    if (userData.isPaid) {
+                        window.location.href = 'paid-dashboard.html';
+                    } else {
+                        window.location.href = 'dashboard.html';
+                    }
+                } else {
+                    alert('⚠️ ইউজার ডেটা পাওয়া যায়নি!');
+                }
+
+            } catch (error) {
+                alert('❌ ' + error.message);
+            }
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $('#header-placeholder').load('assets/header.html');
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+    </script>
+
+</body>
+</html>
