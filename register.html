@@ -1,117 +1,42 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>রেজিস্ট্রেশন - নির্বিক হোমিও</title>
+    <!-- Tailwind, Font Awesome, jQuery ইত্যাদি আগের মতো রাখুন -->
     
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
-    
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
-    <!-- Firebase SDK (Compat) -->
+    <!-- 🔥 Firebase শুধু এখানে লোড করুন (header-এ নয়) -->
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore-compat.js"></script>
-    
-    <!-- Firebase Config -->
     <script src="assets/js/firebase-config.js"></script>
-
-    <style>
-        body { font-family: 'SolaimanLipi', system-ui, sans-serif; background: #f0fdf4; }
-        .register-container { max-width: 480px; margin: 40px auto; }
-        .register-box { background: white; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.08); padding: 40px; }
-        input { width: 100%; padding: 14px 16px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 16px; }
-        input:focus { outline: none; border-color: #00b8a9; box-shadow: 0 0 0 3px rgba(0,184,169,0.1); }
-        .btn-register { background: linear-gradient(135deg, #00b8a9, #00897b); color: white; padding: 14px; border: none; border-radius: 12px; width: 100%; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s; }
-        .btn-register:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,184,169,0.3); }
-        .error-msg { color: #e53e3e; font-size: 14px; margin-top: 5px; display: none; }
-    </style>
 </head>
 <body>
 
-    <!-- ===== হেডার ===== -->
     <div id="header-placeholder"></div>
-
-    <!-- ===== ফর্ম ===== -->
-    <div class="register-container px-4">
-        <div class="register-box">
-            <div class="text-center mb-8">
-                <div class="text-5xl mb-4">🌿</div>
-                <h1 class="text-3xl font-bold text-gray-800">নতুন অ্যাকাউন্ট</h1>
-                <p class="text-gray-500 mt-2">নির্বিক হোমিওতে স্বাগতম</p>
-            </div>
-
-            <form id="registerForm">
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">👤 নাম</label>
-                    <input type="text" id="displayName" placeholder="আপনার নাম" required>
-                </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">📧 ইমেইল</label>
-                    <input type="email" id="email" placeholder="ইমেইল ঠিকানা" required>
-                </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">🔒 পাসওয়ার্ড</label>
-                    <input type="password" id="password" placeholder="৬ অক্ষরের বেশি" required minlength="6">
-                </div>
-                <div class="mb-6">
-                    <label class="block text-gray-700 font-medium mb-2">🔒 পাসওয়ার্ড নিশ্চিত</label>
-                    <input type="password" id="confirmPassword" placeholder="আবার পাসওয়ার্ড" required>
-                    <div id="passwordError" class="error-msg">❌ পাসওয়ার্ড দুটি মিলছে না!</div>
-                </div>
-
-                <button type="submit" class="btn-register">
-                    <i class="fas fa-user-plus mr-2"></i> অ্যাকাউন্ট তৈরি করুন
-                </button>
-
-                <p class="text-center mt-6 text-gray-600">
-                    ইতিমধ্যে অ্যাকাউন্ট আছে? 
-                    <a href="login.html" class="text-teal-600 font-bold">লগইন করুন</a>
-                </p>
-            </form>
-        </div>
-    </div>
-
-    <!-- ===== ফুটার ===== -->
+    
+    <!-- ... ফর্ম HTML ... -->
+    
     <div id="footer-placeholder"></div>
 
     <script>
-        // হেডার-ফুটার লোড
+        // jQuery দিয়ে হেডার/ফুটার লোড
         $(function() {
             $('#header-placeholder').load('assets/header.html', function() {
-                // মোবাইল মেনু সক্রিয়
-                const btn = document.getElementById('mobile-menu-btn');
-                const menu = document.getElementById('mobile-menu');
-                if (btn && menu) {
-                    btn.addEventListener('click', function() {
-                        menu.classList.toggle('hidden');
-                        btn.innerHTML = menu.classList.contains('hidden') 
-                            ? '<i class="fas fa-bars"></i>' 
-                            : '<i class="fas fa-times"></i>';
-                    });
-                }
+                // মোবাইল মেনু সক্রিয় করুন (যদি প্রয়োজন)
             });
             $('#footer-placeholder').load('assets/footer.html');
         });
 
-        // রেজিস্ট্রেশন ফর্ম
+        // রেজিস্ট্রেশন ফাংশন
         document.getElementById('registerForm').addEventListener('submit', async (e) => {
             e.preventDefault();
-
             const email = document.getElementById('email').value;
             const password = document.getElementById('password').value;
             const confirm = document.getElementById('confirmPassword').value;
             const name = document.getElementById('displayName').value || 'ইউজার';
 
             if (password !== confirm) {
-                document.getElementById('passwordError').style.display = 'block';
+                alert('❌ পাসওয়ার্ড দুটি মিলছে না!');
                 return;
-            } else {
-                document.getElementById('passwordError').style.display = 'none';
             }
 
             try {
@@ -129,7 +54,7 @@
                     createdAt: firebase.firestore.FieldValue.serverTimestamp()
                 });
 
-                alert('✅ রেজিস্ট্রেশন সফল! এখন লগইন করুন।');
+                alert('✅ রেজিস্ট্রেশন সফল!');
                 window.location.href = 'login.html';
 
             } catch (error) {
@@ -137,6 +62,5 @@
             }
         });
     </script>
-
 </body>
 </html>
