@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>রোগী বিশ্লেষণ - নির্বিক হোমিও</title>
+    <title>জ্বর সর্দি কাশি বিশ্লেষণ - নির্বিক হোমিও</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -330,7 +330,7 @@
 
             <!-- পেজ হেডার -->
             <div class="page-header">
-                <h1>🌿 রোগী বিশ্লেষণ (জ্বর, সর্দি, কাশি)</h1>
+                <h1>🌿 রোগ বিশ্লেষণ (জ্বর, সর্দি, কাশি)</h1>
                 <p>রোগীর সম্পূর্ণ লক্ষণ সংগ্রহ ও AI-সহায়তা বিশ্লেষণ</p>
             </div>
 
