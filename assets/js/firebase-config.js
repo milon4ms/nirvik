@@ -1,13 +1,11 @@
 // assets/js/firebase-config.js
+// এই ফাইলটি আর ES Module নয়—সাধারণ JavaScript ফাইল
 
-// Firebase SDK গুলো CDN থেকে ইম্পোর্ট করুন
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.14.0/firebase-app.js';
-import { getAuth } from 'https://www.gstatic.com/firebasejs/12.14.0/firebase-auth.js';
-import { getFirestore } from 'https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore.js';
+// Firebase ইতিমধ্যে CDN থেকে লোড হয়েছে (নিচে দেখুন)
+// আমরা শুধু কনফিগারেশন দিয়ে initialize করছি
 
-// আপনার Firebase প্রোজেক্টের কনফিগারেশন (Firebase Console থেকে কপি করুন)
 const firebaseConfig = {
-    apiKey: "AIzaSy...",  // আপনার আসল apiKey দিন
+    apiKey: "AIzaSy...",  // আপনার আসল API Key দিন
     authDomain: "nirvik-72943.firebaseapp.com",
     projectId: "nirvik-72943",
     storageBucket: "nirvik-72943.appspot.com",
@@ -15,10 +13,11 @@ const firebaseConfig = {
     appId: "1:123456789:web:abcdef"
 };
 
-// Firebase Initialize
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
+// Firebase Initialize (global firebase object ব্যবহার)
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+const db = firebase.firestore();
 
-// এক্সপোর্ট করুন (যাতে অন্য ফাইল ব্যবহার করতে পারে)
-export { auth, db };
+// অন্যান্য ফাইল যাতে ব্যবহার করতে পারে
+window.auth = auth;
+window.db = db;
