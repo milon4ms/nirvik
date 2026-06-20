@@ -9,29 +9,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
     
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
-    <!-- Firebase SDK (Compat) -->
+    <!-- 🔥 Firebase SDK (Compat) – শুধুমাত্র এই পেজে -->
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore-compat.js"></script>
     
+    <!-- Firebase কনফিগারেশন -->
     <script src="assets/js/firebase-config.js"></script>
 
     <style>
         body { font-family: 'SolaimanLipi', system-ui, sans-serif; background: #f0fdf4; }
         .login-container { max-width: 440px; margin: 40px auto; }
         .login-box { background: white; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.08); padding: 40px; }
-        input { width: 100%; padding: 14px 16px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 16px; }
+        input { width: 100%; padding: 14px 16px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 16px; transition: all 0.2s; }
         input:focus { outline: none; border-color: #00b8a9; box-shadow: 0 0 0 3px rgba(0,184,169,0.1); }
         .btn-login { background: linear-gradient(135deg, #00b8a9, #00897b); color: white; padding: 14px; border: none; border-radius: 12px; width: 100%; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s; }
         .btn-login:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,184,169,0.3); }
+        .btn-login:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+        .error-msg { background: #fed7d7; color: #c53030; padding: 12px; border-radius: 10px; display: none; margin-top: 10px; }
+        .success-msg { background: #c6f6d5; color: #276749; padding: 12px; border-radius: 10px; display: none; margin-top: 10px; }
     </style>
 </head>
 <body>
 
+    <!-- ===== হেডার ===== -->
     <div id="header-placeholder"></div>
 
+    <!-- ===== ফর্ম ===== -->
     <div class="login-container px-4">
         <div class="login-box">
             <div class="text-center mb-8">
@@ -43,14 +50,17 @@
             <form id="loginForm">
                 <div class="mb-4">
                     <label class="block text-gray-700 font-medium mb-2">📧 ইমেইল</label>
-                    <input type="email" id="email" placeholder="ইমেইল ঠিকানা" required>
+                    <input type="email" id="email" placeholder="আপনার ইমেইল ঠিকানা" required>
                 </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 font-medium mb-2">🔒 পাসওয়ার্ড</label>
-                    <input type="password" id="password" placeholder="পাসওয়ার্ড" required>
+                    <input type="password" id="password" placeholder="পাসওয়ার্ড দিন" required>
                 </div>
 
-                <button type="submit" class="btn-login">
+                <div id="errorMsg" class="error-msg">❌ ভুল ইমেইল বা পাসওয়ার্ড!</div>
+                <div id="successMsg" class="success-msg">✅ লগইন সফল! ড্যাশবোর্ডে যাচ্ছি...</div>
+
+                <button type="submit" class="btn-login" id="loginBtn">
                     <i class="fas fa-sign-in-alt mr-2"></i> লগইন করুন
                 </button>
 
@@ -65,9 +75,11 @@
         </div>
     </div>
 
+    <!-- ===== ফুটার ===== -->
     <div id="footer-placeholder"></div>
 
     <script>
+        // ===== হেডার/ফুটার লোড =====
         $(function() {
             $('#header-placeholder').load('assets/header.html', function() {
                 const btn = document.getElementById('mobile-menu-btn');
@@ -84,19 +96,37 @@
             $('#footer-placeholder').load('assets/footer.html');
         });
 
+        // ===== লগইন ফাংশন =====
         document.getElementById('loginForm').addEventListener('submit', async (e) => {
             e.preventDefault();
 
             const email = document.getElementById('email').value;
             const password = document.getElementById('password').value;
+            const btn = document.getElementById('loginBtn');
+            const errorMsg = document.getElementById('errorMsg');
+            const successMsg = document.getElementById('successMsg');
+
+            // হাইড বার্তা
+            errorMsg.style.display = 'none';
+            successMsg.style.display = 'none';
+
+            // বাটন ডিজেবল
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> লগইন হচ্ছে...';
 
             try {
-                const userCredential = await auth.signInWithEmailAndPassword(email, password);
+                // Firebase-এ লগইন
+                const userCredential = await firebase.auth().signInWithEmailAndPassword(email, password);
                 const user = userCredential.user;
 
-                const doc = await db.collection('users').doc(user.uid).get();
-                if (doc.exists) {
-                    const userData = doc.data();
+                // Firestore থেকে ইউজার ডেটা নেওয়া
+                const docRef = firebase.firestore().collection('users').doc(user.uid);
+                const docSnap = await docRef.get();
+
+                if (docSnap.exists) {
+                    const userData = docSnap.data();
+                    
+                    // localStorage-এ ইউজার ডেটা সেভ
                     localStorage.setItem('user', JSON.stringify({
                         uid: user.uid,
                         email: user.email,
@@ -105,17 +135,27 @@
                         isPaid: userData.isPaid || false
                     }));
 
-                    if (userData.isPaid) {
-                        window.location.href = 'paid-dashboard.html';
-                    } else {
-                        window.location.href = 'dashboard.html';
-                    }
+                    // সাফল্য
+                    successMsg.style.display = 'block';
+                    
+                    // রোল অনুযায়ী রিডাইরেক্ট
+                    setTimeout(() => {
+                        if (userData.isPaid) {
+                            window.location.href = 'paid-dashboard.html';
+                        } else {
+                            window.location.href = 'dashboard.html';
+                        }
+                    }, 1500);
+
                 } else {
-                    alert('⚠️ ইউজার ডেটা পাওয়া যায়নি!');
+                    throw new Error('ইউজার ডেটা পাওয়া যায়নি!');
                 }
 
             } catch (error) {
-                alert('❌ ' + error.message);
+                errorMsg.textContent = '❌ ' + error.message;
+                errorMsg.style.display = 'block';
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-sign-in-alt mr-2"></i> লগইন করুন';
             }
         });
     </script>
