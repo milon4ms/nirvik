@@ -198,7 +198,7 @@ function openPrescription() {
     const text = getResultText();
     if (!text) return;
     const encoded = encodeURIComponent(text);
-    window.open('https://keep.google.com/#NEW/' + encoded, '_blank');
+    window.open('https://keep.google.com/', '_blank');
 }
 
 // ============================================================
