@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>পেমেন্ট - নির্বিক হোমিও</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <style>
+        body { font-family: 'SolaimanLipi', system-ui, sans-serif; background: #f0fdf4; }
+        .payment-container { max-width: 560px; margin: 40px auto; }
+        .payment-box { background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.08); padding: 40px; }
+        .bkash-btn { 
+            background: linear-gradient(135deg, #e2136e, #c40e5e); 
+            color: white; 
+            padding: 14px 30px; 
+            border: none; 
+            border-radius: 12px; 
+            font-size: 18px; 
+            font-weight: 600; 
+            cursor: pointer; 
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+        .bkash-btn:hover { transform: scale(1.03); box-shadow: 0 8px 30px rgba(226,19,110,0.3); }
+        .contact-card { background: #f8fafc; border-radius: 14px; padding: 16px 20px; border: 1px solid #e2e8f0; transition: all 0.2s; }
+        .contact-card:hover { border-color: #00b8a9; }
+        .step-number { background: #00b8a9; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px; flex-shrink: 0; }
+    </style>
+</head>
+<body>
+
+    <!-- ===== হেডার ===== -->
+    <div id="header-placeholder"></div>
+
+    <!-- ===== পেমেন্ট পেজ ===== -->
+    <div class="payment-container px-4">
+        <div class="payment-box">
+
+            <!-- হেডার -->
+            <div class="text-center mb-8">
+                <div class="text-6xl mb-4">💳</div>
+                <h1 class="text-3xl font-bold text-gray-800">সাবস্ক্রিপশন পেমেন্ট</h1>
+                <p class="text-gray-500 mt-2">প্রিমিয়াম কন্টেন্ট আনলক করতে পেমেন্ট করুন</p>
+            </div>
+
+            <!-- পেমেন্ট ইনফো -->
+            <div class="bg-gradient-to-r from-pink-50 to-rose-50 p-6 rounded-2xl border-2 border-pink-200 mb-8">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm text-gray-600">পেমেন্ট করতে হবে</p>
+                        <p class="text-3xl font-bold text-gray-800">৳৫০০</p>
+                        <p class="text-xs text-gray-500">(মাসিক সাবস্ক্রিপশন)</p>
+                    </div>
+                    <div class="text-right">
+                        <p class="text-sm text-gray-600">বিকাশ নম্বর</p>
+                        <p class="text-2xl font-bold text-pink-600">01722855738</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== ধাপ ১: বিকাশে টাকা পাঠান ===== -->
+            <div class="flex items-start gap-4 mb-6">
+                <div class="step-number">১</div>
+                <div>
+                    <h3 class="font-bold text-gray-800">বিকাশ অ্যাপে Send Money করুন</h3>
+                    <p class="text-gray-600 text-sm mt-1">
+                        <strong>নম্বর:</strong> <span class="font-mono bg-gray-100 px-2 py-1 rounded">01722855738</span>
+                    </p>
+                    <ul class="text-sm text-gray-500 mt-2 space-y-1">
+                        <li>📱 বিকাশ অ্যাপ খুলুন</li>
+                        <li>💰 "Send Money" সিলেক্ট করুন</li>
+                        <li>📝 উপরের নম্বরটি দিন</li>
+                        <li>💵 পরিমাণ: <strong>৫০০</strong> টাকা</li>
+                        <li>🔐 পিন দিয়ে কনফার্ম করুন</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ===== ধাপ ২: ফোন করে জানান ===== -->
+            <div class="flex items-start gap-4 mb-6">
+                <div class="step-number">২</div>
+                <div>
+                    <h3 class="font-bold text-gray-800">টাকা পাঠানোর পর ফোন করুন</h3>
+                    <p class="text-gray-600 text-sm mt-1">
+                        টাকা পাঠানোর সাথে সাথে আমাদের জানান। তাহলে আপনার অ্যাকাউন্ট দ্রুত আপগ্রেড করা যাবে।
+                    </p>
+                </div>
+            </div>
+
+            <!-- ===== যোগাযোগের তথ্য ===== -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                
+                <div class="contact-card flex items-center gap-3">
+                    <i class="fas fa-phone-alt text-teal-600 text-xl"></i>
+                    <div>
+                        <p class="text-xs text-gray-500">ফোন</p>
+                        <a href="tel:01722855738" class="font-medium text-gray-800 hover:text-teal-600">01722855738</a>
+                    </div>
+                </div>
+
+                <div class="contact-card flex items-center gap-3">
+                    <i class="fab fa-whatsapp text-green-600 text-xl"></i>
+                    <div>
+                        <p class="text-xs text-gray-500">WhatsApp</p>
+                        <a href="https://wa.me/8801722855738" target="_blank" class="font-medium text-gray-800 hover:text-teal-600">01722855738</a>
+                    </div>
+                </div>
+
+                <div class="contact-card flex items-center gap-3">
+                    <i class="fas fa-envelope text-teal-600 text-xl"></i>
+                    <div>
+                        <p class="text-xs text-gray-500">ইমেইল</p>
+                        <a href="mailto:info@homoeoai.com" class="font-medium text-gray-800 hover:text-teal-600">info@homoeoai.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-card flex items-center gap-3">
+                    <i class="fas fa-map-marker-alt text-red-500 text-xl"></i>
+                    <div>
+                        <p class="text-xs text-gray-500">ঠিকানা</p>
+                        <p class="font-medium text-gray-800">ঢাকা, বাংলাদেশ</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ===== হোয়াটসঅ্যাপে মেসেজ বাটন ===== -->
+            <div class="mt-6 text-center">
+                <a href="https://wa.me/8801722855738?text=আমি%20পেমেন্ট%20করেছি।%20আমার%20ইমেইল%3A%20" 
+                   target="_blank" 
+                   class="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition">
+                    <i class="fab fa-whatsapp text-xl"></i> WhatsApp-এ মেসেজ দিন
+                </a>
+                <p class="text-xs text-gray-400 mt-2">
+                    ক্লিক করলে WhatsApp খুলবে, আপনার ইমেইল লিখে পাঠান।
+                </p>
+            </div>
+
+            <!-- ===== ফিরে যাওয়ার লিংক ===== -->
+            <div class="mt-6 text-center border-t pt-6">
+                <a href="index.html" class="text-teal-600 hover:underline">
+                    <i class="fas fa-arrow-left mr-1"></i> হোম পেজে ফিরে যান
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ===== ফুটার ===== -->
+    <div id="footer-placeholder"></div>
+
+    <script>
+        $(function() {
+            $('#header-placeholder').load('assets/header.html', function() {
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') 
+                            ? '<i class="fas fa-bars"></i>' 
+                            : '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+    </script>
+
+</body>
+</html>
