@@ -1,17 +1,89 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <!-- ... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>লগইন - নির্বিক হোমিও</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Firebase SDK (Compat) -->
+    <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore-compat.js"></script>
+    
+    <script src="assets/js/firebase-config.js"></script>
+
+    <style>
+        body { font-family: 'SolaimanLipi', system-ui, sans-serif; background: #f0fdf4; }
+        .login-container { max-width: 440px; margin: 40px auto; }
+        .login-box { background: white; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.08); padding: 40px; }
+        input { width: 100%; padding: 14px 16px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 16px; }
+        input:focus { outline: none; border-color: #00b8a9; box-shadow: 0 0 0 3px rgba(0,184,169,0.1); }
+        .btn-login { background: linear-gradient(135deg, #00b8a9, #00897b); color: white; padding: 14px; border: none; border-radius: 12px; width: 100%; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s; }
+        .btn-login:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,184,169,0.3); }
+    </style>
 </head>
 <body>
 
     <div id="header-placeholder"></div>
 
-    <!-- ... ফর্ম HTML ... -->
+    <div class="login-container px-4">
+        <div class="login-box">
+            <div class="text-center mb-8">
+                <div class="text-5xl mb-4">🔐</div>
+                <h1 class="text-3xl font-bold text-gray-800">স্বাগতম</h1>
+                <p class="text-gray-500 mt-2">আপনার অ্যাকাউন্টে লগইন করুন</p>
+            </div>
+
+            <form id="loginForm">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-medium mb-2">📧 ইমেইল</label>
+                    <input type="email" id="email" placeholder="ইমেইল ঠিকানা" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-medium mb-2">🔒 পাসওয়ার্ড</label>
+                    <input type="password" id="password" placeholder="পাসওয়ার্ড" required>
+                </div>
+
+                <button type="submit" class="btn-login">
+                    <i class="fas fa-sign-in-alt mr-2"></i> লগইন করুন
+                </button>
+
+                <p class="text-center mt-6 text-gray-600">
+                    অ্যাকাউন্ট নেই? 
+                    <a href="register.html" class="text-teal-600 font-bold">রেজিস্ট্রেশন করুন</a>
+                </p>
+                <p class="text-center mt-3 text-gray-500 text-sm">
+                    <a href="index.html" class="hover:text-teal-600">🏠 হোম পেজে ফিরে যান</a>
+                </p>
+            </form>
+        </div>
+    </div>
 
     <div id="footer-placeholder"></div>
 
     <script>
+        $(function() {
+            $('#header-placeholder').load('assets/header.html', function() {
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') 
+                            ? '<i class="fas fa-bars"></i>' 
+                            : '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+
         document.getElementById('loginForm').addEventListener('submit', async (e) => {
             e.preventDefault();
 
@@ -22,9 +94,7 @@
                 const userCredential = await auth.signInWithEmailAndPassword(email, password);
                 const user = userCredential.user;
 
-                // Firestore থেকে ডেটা নেওয়া
                 const doc = await db.collection('users').doc(user.uid).get();
-
                 if (doc.exists) {
                     const userData = doc.data();
                     localStorage.setItem('user', JSON.stringify({
@@ -47,13 +117,6 @@
             } catch (error) {
                 alert('❌ ' + error.message);
             }
-        });
-    </script>
-
-    <script>
-        $(function() {
-            $('#header-placeholder').load('assets/header.html');
-            $('#footer-placeholder').load('assets/footer.html');
         });
     </script>
 
