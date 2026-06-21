@@ -1,0 +1,1776 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <script src="assets/js/access-control.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>জ্বর সর্দি কাশি বিশ্লেষণ - নির্বিক হোমিও</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    
+    <!-- jQuery (হেডার-ফুটার লোডের জন্য) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Symptom Analyzer JS -->
+    <script src="assets/js/symptom-analyzer.js"></script>
+    
+    <script>
+        tailwind.config = {
+            content: [],
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00b8a9',
+                        'primary-dark': '#00897b',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { 
+            font-family: 'SolaimanLipi', system-ui, sans-serif; 
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* রেজাল্ট এলাকা কপি প্রটেক্ট */
+        #result {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* টেক্সট এরিয়া ও ইনপুট ফিল্ড - ইউজার যেন টাইপ করতে পারে */
+        textarea, input[type="text"], input[type="email"], input[type="password"] {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        /* চেকবক্স ও লেবেল - সিলেক্ট বন্ধ */
+        .checkbox-group label {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        .container-custom {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            padding: 30px;
+        }
+
+        .page-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 25px;
+        }
+
+        .page-header h1 {
+            font-size: 28px;
+            color: #2d3748;
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .page-header p {
+            color: #718096;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        /* ===== সেকশন স্টাইল ===== */
+        .section {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        .section:hover {
+            border-color: #00b8a9;
+        }
+
+        .section h3 {
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            color: white;
+            font-size: 18px;
+            padding: 12px 18px;
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .section h3:hover {
+            background: linear-gradient(135deg, #00897b, #00695c);
+        }
+
+        .section h3 .arrow {
+            font-size: 12px;
+            transition: transform 0.3s;
+            display: inline-block;
+        }
+
+        .section h3 .arrow.open {
+            transform: rotate(180deg);
+        }
+
+        .checkbox-group {
+            padding: 16px 20px;
+            display: none;
+            flex-wrap: wrap;
+            gap: 8px 16px;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .checkbox-group.open {
+            display: flex;
+        }
+
+        .checkbox-group label {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            color: #2d3748;
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 6px;
+            transition: background 0.15s;
+        }
+
+        .checkbox-group label:hover {
+            background: #edf2f7;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            width: 16px;
+            height: 16px;
+            accent-color: #00b8a9;
+            cursor: pointer;
+        }
+
+        .section-content {
+            display: none;
+        }
+
+        .section-content.open {
+            display: block;
+        }
+
+        textarea,
+        input[type="text"] {
+            width: 100%;
+            padding: 10px 14px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 15px;
+            font-family: inherit;
+            transition: border-color 0.2s;
+            background: white;
+            margin: 0;
+        }
+
+        textarea:focus,
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #00b8a9;
+            box-shadow: 0 0 0 3px rgba(0, 184, 169, 0.1);
+        }
+
+        .section textarea {
+            border: none;
+            border-radius: 0;
+            padding: 16px 20px;
+            background: #f7fafc;
+        }
+
+        .section textarea:focus {
+            background: white;
+            box-shadow: inset 0 0 0 2px #00b8a9;
+        }
+
+        /* ===== বাটন স্টাইল (JS তৈরি করবে) ===== */
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 20px 0 10px;
+            padding: 16px 0;
+            border-top: 2px solid #e2e8f0;
+        }
+
+        .btn {
+            padding: 8px 14px;
+            font-size: 13px;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            font-family: inherit;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        .btn:active {
+            transform: scale(0.97);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            color: white;
+        }
+
+        .btn-copy { background: #718096; color: white; }
+        .btn-gemini { background: #4285f4; color: white; }
+        .btn-chatgpt { background: #10a37f; color: white; }
+        .btn-grok { background: #000000; color: white; }
+        .btn-deepseek { background: #4a6cf7; color: white; }
+        .btn-perplexity { background: #1f2937; color: white; }
+        .btn-pink { background: linear-gradient(135deg, #d53f8c, #b83280); color: white; }
+
+        .btn-sm {
+            padding: 6px 12px;
+            font-size: 12px;
+            border-radius: 6px;
+        }
+
+        #result {
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 20px 24px;
+            min-height: 120px;
+            margin-top: 20px;
+            font-size: 15px;
+            line-height: 1.8;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            transition: all 0.3s;
+        }
+
+        #result:empty::before {
+            content: '📋 এখানে রোগী বিশ্লেষণ/প্রম্পট দেখাবে...';
+            color: #a0aec0;
+            font-style: italic;
+        }
+
+        #result h5 {
+            color: #00b8a9;
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        #result p {
+            margin-bottom: 6px;
+            padding: 4px 0;
+            border-bottom: 1px dashed #e2e8f0;
+        }
+
+        #result p strong {
+            color: #2d3748;
+            min-width: 140px;
+            display: inline-block;
+        }
+
+        .footer-note {
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 20px;
+            border-top: 2px solid #e2e8f0;
+            font-size: 13px;
+            color: #a0aec0;
+        }
+
+        @media (max-width: 700px) {
+            .container-custom {
+                padding: 16px;
+            }
+
+            .page-header h1 {
+                font-size: 22px;
+            }
+
+            .section h3 {
+                font-size: 16px;
+                padding: 10px 14px;
+            }
+
+            .checkbox-group {
+                padding: 12px 14px;
+                gap: 4px 10px;
+            }
+
+            .checkbox-group label {
+                font-size: 13px;
+            }
+
+            .btn {
+                padding: 6px 10px;
+                font-size: 11px;
+            }
+
+            .button-group {
+                gap: 6px;
+            }
+
+            #result p strong {
+                min-width: 100px;
+                display: inline;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
+
+    <!-- ===== হেডার প্লেসহোল্ডার ===== -->
+    <div id="header-placeholder"></div>
+
+    <!-- ===== মেইন কন্টেন্ট ===== -->
+    <main class="flex-1 container mx-auto px-4 py-8">
+        <div class="container-custom">
+
+            <!-- পেজ হেডার -->
+            <div class="page-header">
+                <h1>🌿 রোগ বিশ্লেষণ (জ্বর, সর্দি, কাশি)</h1>
+                <p>রোগীর সম্পূর্ণ লক্ষণ সংগ্রহ ও AI-সহায়তা বিশ্লেষণ</p>
+            </div>
+
+            <!-- ===== ফর্ম ===== -->
+            <form id="symptomForm">
+
+                <!-- ১. রোগের বর্ণনা -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১. রোগের বর্ণনা ও রোগের কারণ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="section-content">
+                        <textarea name="diseaseDescription" placeholder="রোগের বিস্তারিত বর্ণনা ও কারণ লিখুন..."></textarea>
+                    </div>
+                </div>
+
+                <!-- ২. রোগ শুরুর সময়কাল -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২. রোগ শুরুর সময়কাল</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input name="startedWhen" type="checkbox" value="১-৩ দিন"> ১-৩ দিন</label>
+                        <label><input name="startedWhen" type="checkbox" value="৪-২১দিন"> ৪-২১দিন</label>
+                        <label><input name="startedWhen" type="checkbox" value="১৫দিন-১মাস"> ১৫দিন-১মাস</label>
+                        <label><input name="startedWhen" type="checkbox" value="১মাস-৩মাস"> ১মাস-৩মাস</label>
+                        <label><input name="startedWhen" type="checkbox" value="অনেক পুরাতন"> অনেক পুরাতন</label>
+                        <label><input name="startedWhen" type="checkbox" value="হঠাৎ শুরু"> হঠাৎ শুরু</label>
+                        <label><input name="startedWhen" type="checkbox" value="ধীরে শুরু"> ধীরে শুরু</label>
+                        <label><input name="startedWhen" type="checkbox" value="গ্রীষ্মে"> গ্রীষ্মে</label>
+                        <label><input name="startedWhen" type="checkbox" value="বর্ষায়"> বর্ষায়</label>
+                        <label><input name="startedWhen" type="checkbox" value="শীতে"> শীতে</label>
+                        <label><input name="startedWhen" type="checkbox" value="শরতে"> শরতে</label>
+                        <label><input name="startedWhen" type="checkbox" value="হেমন্তে"> হেমন্তে</label>
+                        <label><input name="startedWhen" type="checkbox" value="সকালে"> সকালে</label>
+                        <label><input name="startedWhen" type="checkbox" value="দুপুরে"> দুপুরে</label>
+                        <label><input name="startedWhen" type="checkbox" value="বিকালে"> বিকালে</label>
+                        <label><input name="startedWhen" type="checkbox" value="সন্ধ্যায়"> সন্ধ্যায়</label>
+                        <label><input name="startedWhen" type="checkbox" value="মধ্যরাতে"> মধ্যরাতে</label>
+                        <label><input name="startedWhen" type="checkbox" value="ভোরে"> ভোরে</label>
+                        <label><input name="startedWhen" type="checkbox" value="ঘুম থেকে উঠলে"> ঘুম থেকে উঠলে</label>
+                        <label><input name="startedWhen" type="checkbox" value="ঘুমাতে গেলে"> ঘুমাতে গেলে</label>
+                    </div>
+                </div>
+
+                <!-- ৩. জ্বরের কারণ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৩. জ্বরের কারণ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="feverCause" value="ঠাণ্ডা লাগা"> ঠাণ্ডা লাগা</label>
+                        <label><input type="checkbox" name="feverCause" value="বৃষ্টি ভেজা"> বৃষ্টি ভেজা</label>
+                        <label><input type="checkbox" name="feverCause" value="অতিরিক্ত গরমে থাকা"> অতিরিক্ত গরমে থাকা</label>
+                        <label><input type="checkbox" name="feverCause" value="ঋতু পরিবর্তন"> ঋতু পরিবর্তন</label>
+                        <label><input type="checkbox" name="feverCause" value="ঠাণ্ডা বাতাসে থাকা"> ঠাণ্ডা বাতাসে থাকা</label>
+                        <label><input type="checkbox" name="feverCause" value="হঠাৎ তাপমাত্রা পরিবর্তন"> হঠাৎ তাপমাত্রা পরিবর্তন</label>
+                        <label><input type="checkbox" name="feverCause" value="ভয় পেলে জ্বর"> ভয় পেলে জ্বর</label>
+                        <label><input type="checkbox" name="feverCause" value="ভাইরাস সংক্রমণ"> ভাইরাস সংক্রমণ</label>
+                        <label><input type="checkbox" name="feverCause" value="ব্যাকটেরিয়াল সংক্রমণ"> ব্যাকটেরিয়াল সংক্রমণ</label>
+                        <label><input type="checkbox" name="feverCause" value="গলায় সংক্রমণ"> গলায় সংক্রমণ</label>
+                        <label><input type="checkbox" name="feverCause" value="সর্দি-কাশি থেকে জ্বর"> সর্দি-কাশি থেকে জ্বর</label>
+                        <label><input type="checkbox" name="feverCause" value="পানিবাহিত সংক্রমণ"> পানিবাহিত সংক্রমণ</label>
+                        <label><input type="checkbox" name="feverCause" value="খাবার দূষণ"> খাবার দূষণ</label>
+                        <label><input type="checkbox" name="feverCause" value="মশাবাহিত সংক্রমণ"> মশাবাহিত সংক্রমণ</label>
+                        <label><input type="checkbox" name="feverCause" value="রোদ লেগে জ্বর"> রোদ লেগে জ্বর</label>
+                        <label><input type="checkbox" name="feverCause" value="অতিরিক্ত পরিশ্রম"> অতিরিক্ত পরিশ্রম</label>
+                        <label><input type="checkbox" name="feverCause" value="ঘুম না হওয়া"> ঘুম না হওয়া</label>
+                        <label><input type="checkbox" name="feverCause" value="ডিহাইড্রেশন"> ডিহাইড্রেশন</label>
+                        <label><input type="checkbox" name="feverCause" value="দুঃশ্চিন্তায় জ্বর"> দুঃশ্চিন্তায় জ্বর</label>
+                    </div>
+                </div>
+
+                <!-- ৪. উত্তাপ/শীত/কাঁপুনির পর্যায় -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪. উত্তাপ / শীত / কাঁপুনির পর্যায়</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="feverHeatChill" value="পুরো শরীর গরম"> পুরো শরীর গরম</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="মুখ গরম"> মুখ গরম</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="গাল লাল"> গাল লাল</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="কপাল গরম"> কপাল গরম</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="চোখ লাল ও জ্বালা"> চোখ লাল ও জ্বালা</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="মাথা ভারী গরম"> মাথা ভারী গরম</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="শরীরে আগুন জ্বলার মতো অনুভূতি"> শরীরে আগুন জ্বলার মতো অনুভূতি</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="ত্বক খুব গরম"> ত্বক খুব গরম</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="গলা গরম"> গলা গরম</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="শরীর ঠাণ্ডা অনুভব"> শরীর ঠাণ্ডা অনুভব</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="ঠাণ্ডা লাগা কিন্তু গরম কাপড় চাই"> ঠাণ্ডা লাগা কিন্তু গরম কাপড় চাই</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="শরীর ঠাণ্ডা অথচ মুখ গরম"> শরীর ঠাণ্ডা অথচ মুখ গরম</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="হাত-পা ঠাণ্ডা"> হাত-পা ঠাণ্ডা</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="পিঠ বেয়ে ঠাণ্ডা নেমে আসা"> পিঠ বেয়ে ঠাণ্ডা নেমে আসা</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="একদিকে বেশি ঠাণ্ডা"> একদিকে বেশি ঠাণ্ডা</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="অচল থাকলে ঠাণ্ডা কমে"> অচল থাকলে ঠাণ্ডা কমে</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="বাতাসে থাকলে ঠাণ্ডা বৃদ্ধি"> বাতাসে থাকলে ঠাণ্ডা বৃদ্ধি</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="চাদর দিলে আরাম"> চাদর দিলে আরাম</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="ধীরে ধীরে কাঁপুনি ওঠা"> ধীরে ধীরে কাঁপুনি ওঠা</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="ভেজা কাপড়ে কাঁপুনি বাড়ে"> ভেজা কাপড়ে কাঁপুনি বাড়ে</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="নড়াচড়ায় কাঁপুনি বাড়ে"> নড়াচড়ায় কাঁপুনি বাড়ে</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="টানা কাঁপুনি"> টানা কাঁপুনি</label>
+                        <label><input type="checkbox" name="feverHeatChill" value="দাঁত কটকট করা"> দাঁত কটকট করা</label>
+                    </div>
+                </div>
+
+                <!-- ৫. ঘাম পর্যায় -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৫. ঘাম পর্যায়</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="feverSweat" value="প্রচুর ঘাম"> প্রচুর ঘাম</label>
+                        <label><input type="checkbox" name="feverSweat" value="সামান্য ঘাম"> সামান্য ঘাম</label>
+                        <label><input type="checkbox" name="feverSweat" value="মাথায় ঘাম"> মাথায় ঘাম</label>
+                        <label><input type="checkbox" name="feverSweat" value="বুকে ঘাম"> বুকে ঘাম</label>
+                        <label><input type="checkbox" name="feverSweat" value="রাতে ঘাম"> রাতে ঘাম</label>
+                        <label><input type="checkbox" name="feverSweat" value="পরিশ্রমে ঘাম বাড়ে"> পরিশ্রমে ঘাম বাড়ে</label>
+                        <label><input type="checkbox" name="feverSweat" value="বিশ্রামে ঘাম কম"> বিশ্রামে ঘাম কম</label>
+                        <label><input type="checkbox" name="feverSweat" value="উষ্ণ ঘাম"> উষ্ণ ঘাম</label>
+                        <label><input type="checkbox" name="feverSweat" value="ঠাণ্ডা ঘাম"> ঠাণ্ডা ঘাম</label>
+                        <label><input type="checkbox" name="feverSweat" value="দুর্গন্ধযুক্ত ঘাম"> দুর্গন্ধযুক্ত ঘাম</label>
+                        <label><input type="checkbox" name="feverSweat" value="ঘামে আরাম"> ঘামে আরাম</label>
+                        <label><input type="checkbox" name="feverSweat" value="ঘামে জ্বর কমে"> ঘামে জ্বর কমে</label>
+                        <label><input type="checkbox" name="feverSweat" value="ঘাম না হলে অস্বস্তি"> ঘাম না হলে অস্বস্তি</label>
+                    </div>
+                </div>
+
+                <!-- ৬. ব্যথা ও শরীর কামরা-কামরি -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৬. ব্যথা ও শরীর কামরা-কামরি</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="feverPain" value="সারা শরীরে ব্যথা"> সারা শরীরে ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="গা ব্যথা"> গা ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="মাংসপেশি ব্যথা"> মাংসপেশি ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="হাড়ে ব্যথা"> হাড়ে ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="জোড়ে ব্যথা"> জোড়ে ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="মাথা ভারী ব্যথা"> মাথা ভারী ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="চোখ ভারী ও ব্যথা"> চোখ ভারী ও ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="পিঠে ব্যথা"> পিঠে ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="কোমরে ব্যথা"> কোমরে ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="হাত-পায়ে ব্যথা"> হাত-পায়ে ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="মোচড়ানো ব্যথা"> মোচড়ানো ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="টান ধরার ব্যথা"> টান ধরার ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="ছুরি ফোটার মতো ব্যথা"> ছুরি ফোটার মতো ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="জ্বালাধর ব্যথা"> জ্বালাধর ব্যথা</label>
+                        <label><input type="checkbox" name="feverPain" value="চাপ দিলে ব্যথা বাড়ে"> চাপ দিলে ব্যথা বাড়ে</label>
+                        <label><input type="checkbox" name="feverPain" value="নড়াচড়ায় ব্যথা বাড়ে"> নড়াচড়ায় ব্যথা বাড়ে</label>
+                        <label><input type="checkbox" name="feverPain" value="বিশ্রামে ব্যথা কমে"> বিশ্রামে ব্যথা কমে</label>
+                        <label><input type="checkbox" name="feverPain" value="কামরা-কামরি"> কামরা-কামরি</label>
+                        <label><input type="checkbox" name="feverPain" value="শিউরে ওঠা"> শিউরে ওঠা</label>
+                        <label><input type="checkbox" name="feverPain" value="দাঁত কটকটানো"> দাঁত কটকটানো</label>
+                        <label><input type="checkbox" name="feverPain" value="কাঁপুনির পর শরীর গরম হওয়া"> কাঁপুনির পর শরীর গরম হওয়া</label>
+                        <label><input type="checkbox" name="feverPain" value="কাঁপুনির সাথে মাংসপেশিতে ব্যথা"> কাঁপুনির সাথে মাংসপেশিতে ব্যথা</label>
+                    </div>
+                </div>
+
+                <!-- ৭. তৃষ্ণা ও পানির ইচ্ছা -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৭. তৃষ্ণা ও পানির ইচ্ছা</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="feverThirst" value="তৃষ্ণা বেশি"> তৃষ্ণা বেশি</label>
+                        <label><input type="checkbox" name="feverThirst" value="তৃষ্ণা কম"> তৃষ্ণা কম</label>
+                        <label><input type="checkbox" name="feverThirst" value="তৃষ্ণা নেই"> তৃষ্ণা নেই</label>
+                        <label><input type="checkbox" name="feverThirst" value="বারবার অল্প পানি খেতে চায়"> বারবার অল্প পানি খেতে চায়</label>
+                        <label><input type="checkbox" name="feverThirst" value="একসাথে অনেক পানি খেতে চায়"> একসাথে অনেক পানি খেতে চায়</label>
+                        <label><input type="checkbox" name="feverThirst" value="ঠাণ্ডা পানি চায়"> ঠাণ্ডা পানি চায়</label>
+                        <label><input type="checkbox" name="feverThirst" value="শীতে পানি খেতে চায়"> শীতে পানি খেতে চায়</label>
+                        <label><input type="checkbox" name="feverThirst" value="গরমে পানি খেতে অনীহা"> গরমে পানি খেতে অনীহা</label>
+                    </div>
+                </div>
+
+                <!-- ৮. সময়ভেদে জ্বরের ধরন -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৮. সময়ভেদে জ্বরের ধরন</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(a) জ্বর কোন সময়ে আসে</p>
+                        <label><input type="checkbox" name="feverTiming" value="সকালে জ্বর আসা"> সকালে জ্বর আসা</label>
+                        <label><input type="checkbox" name="feverTiming" value="দুপুরে জ্বর আসা"> দুপুরে জ্বর আসা</label>
+                        <label><input type="checkbox" name="feverTiming" value="বিকেলে জ্বর আসা"> বিকেলে জ্বর আসা</label>
+                        <label><input type="checkbox" name="feverTiming" value="সন্ধ্যায় জ্বর আসা"> সন্ধ্যায় জ্বর আসা</label>
+                        <label><input type="checkbox" name="feverTiming" value="রাতে জ্বর আসা"> রাতে জ্বর আসা</label>
+                        <label><input type="checkbox" name="feverTiming" value="মধ্যরাতে জ্বর শুরু"> মধ্যরাতে জ্বর শুরু</label>
+                        <label><input type="checkbox" name="feverTiming" value="ভোরে জ্বর শুরু"> ভোরে জ্বর শুরু</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(b) কোন সময়ে জ্বর বাড়ে</p>
+                        <label><input type="checkbox" name="feverTiming" value="সকালে জ্বর বাড়ে"> সকালে জ্বর বাড়ে</label>
+                        <label><input type="checkbox" name="feverTiming" value="দুপুরে জ্বর বাড়ে"> দুপুরে জ্বর বাড়ে</label>
+                        <label><input type="checkbox" name="feverTiming" value="বিকেলে জ্বর বাড়ে"> বিকেলে জ্বর বাড়ে</label>
+                        <label><input type="checkbox" name="feverTiming" value="সন্ধ্যায় জ্বর বাড়ে"> সন্ধ্যায় জ্বর বাড়ে</label>
+                        <label><input type="checkbox" name="feverTiming" value="রাত ৯টার পর জ্বর বাড়ে"> রাত ৯টার পর জ্বর বাড়ে</label>
+                        <label><input type="checkbox" name="feverTiming" value="মধ্যরাতে জ্বর বেশি বাড়ে"> মধ্যরাতে জ্বর বেশি বাড়ে</label>
+                        <label><input type="checkbox" name="feverTiming" value="ভোরে জ্বর বাড়ে"> ভোরে জ্বর বাড়ে</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(c) কোন সময়ে জ্বর কমে</p>
+                        <label><input type="checkbox" name="feverTiming" value="সকালে জ্বর কমে"> সকালে জ্বর কমে</label>
+                        <label><input type="checkbox" name="feverTiming" value="দুপুরে জ্বর কমে"> দুপুরে জ্বর কমে</label>
+                        <label><input type="checkbox" name="feverTiming" value="বিকেলে জ্বর কমে"> বিকেলে জ্বর কমে</label>
+                        <label><input type="checkbox" name="feverTiming" value="সন্ধ্যার পর জ্বর কমে"> সন্ধ্যার পর জ্বর কমে</label>
+                        <label><input type="checkbox" name="feverTiming" value="ঘামে জ্বর ভোরে কমে"> ঘামে জ্বর ভোরে কমে</label>
+                        <label><input type="checkbox" name="feverTiming" value="ঘুমের পর জ্বর কমে"> ঘুমের পর জ্বর কমে</label>
+                        <label><input type="checkbox" name="feverTiming" value="রাতে ঘামে জ্বর কমে"> রাতে ঘামে জ্বর কমে</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(d) বিশেষ সময়ভেদী</p>
+                        <label><input type="checkbox" name="feverTiming" value="দুপুর ১২টার দিকে জ্বর বাড়ে"> দুপুর ১২টার দিকে জ্বর বাড়ে</label>
+                        <label><input type="checkbox" name="feverTiming" value="বিকেল ৩টার দিকে জ্বর শুরু"> বিকেল ৩টার দিকে জ্বর শুরু</label>
+                        <label><input type="checkbox" name="feverTiming" value="সন্ধ্যা ৬টার দিকে জ্বর শিখরে"> সন্ধ্যা ৬টার দিকে জ্বর শিখরে</label>
+                        <label><input type="checkbox" name="feverTiming" value="রাত ১০টায় তাপ বেড়ে যায়"> রাত ১০টায় তাপ বেড়ে যায়</label>
+                        <label><input type="checkbox" name="feverTiming" value="ভোর ৪–৫টার দিকে শরীর ঠাণ্ডা হয়ে জ্বর কমে"> ভোর ৪–৫টার দিকে শরীর ঠাণ্ডা হয়ে জ্বর কমে</label>
+                        <label><input type="checkbox" name="feverTiming" value="রাত্রে কাঁপুনি"> রাত্রে কাঁপুনি</label>
+                        <label><input type="checkbox" name="feverTiming" value="দিনে তাপ রাতে ঠাণ্ডা"> দিনে তাপ রাতে ঠাণ্ডা</label>
+                        <label><input type="checkbox" name="feverTiming" value="সকালে ঠাণ্ডা সন্ধ্যায় তাপ"> সকালে ঠাণ্ডা সন্ধ্যায় তাপ</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(e) ঋতুভেদে জ্বর</p>
+                        <label><input type="checkbox" name="feverTiming" value="গ্রীষ্মকালের জ্বর"> গ্রীষ্মকালের জ্বর</label>
+                        <label><input type="checkbox" name="feverTiming" value="বর্ষা/আর্দ্র ঋতুর জ্বর"> বর্ষা/আর্দ্র ঋতুর জ্বর</label>
+                        <label><input type="checkbox" name="feverTiming" value="শরৎকালের জ্বর"> শরৎকালের জ্বর</label>
+                        <label><input type="checkbox" name="feverTiming" value="শীতকালের জ্বর"> শীতকালের জ্বর</label>
+                        <label><input type="checkbox" name="feverTiming" value="ঘুমাতে গেলে উপশম হয়"> ঘুমাতে গেলে উপশম হয়</label>
+                    </div>
+                </div>
+
+                <!-- ৯. শরীরের সাধারণ অনুভূতি -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৯. শরীরের সাধারণ অনুভূতি</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="feverGeneral" value="শরীর ব্যথা"> শরীর ব্যথা</label>
+                        <label><input type="checkbox" name="feverGeneral" value="মাংসপেশি ব্যথা"> মাংসপেশি ব্যথা</label>
+                        <label><input type="checkbox" name="feverGeneral" value="দুর্বলতা"> দুর্বলতা</label>
+                        <label><input type="checkbox" name="feverGeneral" value="হাঁটতে কষ্ট"> হাঁটতে কষ্ট</label>
+                        <label><input type="checkbox" name="feverGeneral" value="শরীর ভেঙে পড়া"> শরীর ভেঙে পড়া</label>
+                        <label><input type="checkbox" name="feverGeneral" value="মাথা ভারী লাগা"> মাথা ভারী লাগা</label>
+                        <label><input type="checkbox" name="feverGeneral" value="চোখ ভারী লাগা"> চোখ ভারী লাগা</label>
+                        <label><input type="checkbox" name="feverGeneral" value="ঘুম ঘুম ভাব"> ঘুম ঘুম ভাব</label>
+                        <label><input type="checkbox" name="feverGeneral" value="শরীর ঝিমঝিম"> শরীর ঝিমঝিম</label>
+                    </div>
+                </div>
+
+                <!-- ১০. মানসিক অবস্থা -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১০. মানসিক অবস্থা</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="feverMental" value="বিরক্তিভাব"> বিরক্তিভাব</label>
+                        <label><input type="checkbox" name="feverMental" value="ভয়"> ভয়</label>
+                        <label><input type="checkbox" name="feverMental" value="দুঃশ্চিন্তা"> দুঃশ্চিন্তা</label>
+                        <label><input type="checkbox" name="feverMental" value="কথা কম বলা"> কথা কম বলা</label>
+                        <label><input type="checkbox" name="feverMental" value="একা থাকতে চাওয়া"> একা থাকতে চাওয়া</label>
+                        <label><input type="checkbox" name="feverMental" value="অস্থিরতা"> অস্থিরতা</label>
+                        <label><input type="checkbox" name="feverMental" value="ঘুম ঘুম ভাব"> ঘুম ঘুম ভাব</label>
+                        <label><input type="checkbox" name="feverMental" value="মনোযোগ কমে যাওয়া"> মনোযোগ কমে যাওয়া</label>
+                    </div>
+                </div>
+
+                <!-- ১১. জ্বর আসার আগের লক্ষণ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১১. জ্বর আসার আগের লক্ষণ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="feverBefore" value="কাঁপুনি"> কাঁপুনি</label>
+                        <label><input type="checkbox" name="feverBefore" value="গা শিহরানো"> গা শিহরানো</label>
+                        <label><input type="checkbox" name="feverBefore" value="শরীর ঠাণ্ডা ঠাণ্ডা লাগা"> শরীর ঠাণ্ডা ঠাণ্ডা লাগা</label>
+                        <label><input type="checkbox" name="feverBefore" value="দাঁত কটকট করা"> দাঁত কটকট করা</label>
+                        <label><input type="checkbox" name="feverBefore" value="হাত-পা ঠাণ্ডা হয়ে যাওয়া"> হাত-পা ঠাণ্ডা হয়ে যাওয়া</label>
+                        <label><input type="checkbox" name="feverBefore" value="শরীর ঠাণ্ডা হয়ে যাওয়া"> শরীর ঠাণ্ডা হয়ে যাওয়া</label>
+                    </div>
+                </div>
+
+                <!-- ১২. জ্বর কমার পরের লক্ষণ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১২. জ্বর কমার পরের লক্ষণ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="feverAfter" value="প্রচণ্ড দুর্বলতা"> প্রচণ্ড দুর্বলতা</label>
+                        <label><input type="checkbox" name="feverAfter" value="ঘাম দিয়ে জ্বর কমা"> ঘাম দিয়ে জ্বর কমা</label>
+                        <label><input type="checkbox" name="feverAfter" value="মুখ শুকানো"> মুখ শুকানো</label>
+                        <label><input type="checkbox" name="feverAfter" value="ক্ষুধা ফিরে আসা"> ক্ষুধা ফিরে আসা</label>
+                    </div>
+                </div>
+
+                <!-- ১৩. অন্যান্য লক্ষণ (সর্দি) -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১৩. সর্দির অন্যান্য লক্ষণ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coldSymptoms" value="ঠান্ডা বাতাসে আক্রান্ত হয়ে"> ঠান্ডা বাতাসে আক্রান্ত হয়ে</label>
+                        <label><input type="checkbox" name="coldSymptoms" value="ভেজা অবস্থায় ঠান্ডা লেগে"> ভেজা অবস্থায় ঠান্ডা লেগে</label>
+                        <label><input type="checkbox" name="coldSymptoms" value="ঘামে থাকার পর ঠান্ডা লেগে"> ঘামে থাকার পর ঠান্ডা লেগে</label>
+                        <label><input type="checkbox" name="coldSymptoms" value="ধুলাবালিতে"> ধুলাবালিতে</label>
+                        <label><input type="checkbox" name="coldSymptoms" value="ফুলের গন্ধে"> ফুলের গন্ধে</label>
+                        <label><input type="checkbox" name="coldSymptoms" value="AC বা ফ্যানের বাতাসে"> AC বা ফ্যানের বাতাসে</label>
+                        <label><input type="checkbox" name="coldSymptoms" value="আবহাওয়া পরিবর্তনে"> আবহাওয়া পরিবর্তনে</label>
+                        <label><input type="checkbox" name="coldSymptoms" value="ঠান্ডা পানি খেয়ে"> ঠান্ডা পানি খেয়ে</label>
+                        <label><input type="checkbox" name="coldSymptoms" value="হঠাৎ গরমে"> হঠাৎ গরমে</label>
+                    </div>
+                </div>
+
+                <!-- ১৪. সর্দি শুরুর কারণ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১৪. সর্দি শুরুর কারণ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coldSymptoms1" value="ঠান্ডা বাতাসে আক্রান্ত হয়ে"> ঠান্ডা বাতাসে আক্রান্ত হয়ে</label>
+                        <label><input type="checkbox" name="coldSymptoms1" value="ভেজা অবস্থায় ঠান্ডা লেগে"> ভেজা অবস্থায় ঠান্ডা লেগে</label>
+                        <label><input type="checkbox" name="coldSymptoms1" value="ঘামে থাকার পর ঠান্ডা লেগে"> ঘামে থাকার পর ঠান্ডা লেগে</label>
+                        <label><input type="checkbox" name="coldSymptoms1" value="ধুলাবালিতে"> ধুলাবালিতে</label>
+                        <label><input type="checkbox" name="coldSymptoms1" value="ফুলের গন্ধে"> ফুলের গন্ধে</label>
+                        <label><input type="checkbox" name="coldSymptoms1" value="AC বা ফ্যানের বাতাসে"> AC বা ফ্যানের বাতাসে</label>
+                        <label><input type="checkbox" name="coldSymptoms1" value="আবহাওয়া পরিবর্তনে"> আবহাওয়া পরিবর্তনে</label>
+                        <label><input type="checkbox" name="coldSymptoms1" value="ঠান্ডা পানি খেয়ে"> ঠান্ডা পানি খেয়ে</label>
+                        <label><input type="checkbox" name="coldSymptoms1" value="হঠাৎ গরমে"> হঠাৎ গরমে</label>
+                    </div>
+                </div>
+
+                <!-- ১৫. সর্দির ধরন -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১৫. সর্দির ধরন</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coldSymptoms2" value="পাতলা সর্দি"> পাতলা সর্দি</label>
+                        <label><input type="checkbox" name="coldSymptoms2" value="ঘন সর্দি"> ঘন সর্দি</label>
+                        <label><input type="checkbox" name="coldSymptoms2" value="পানি মতো সর্দি"> পানি মতো সর্দি</label>
+                        <label><input type="checkbox" name="coldSymptoms2" value="নাকে জ্বালা সৃষ্টি করা সর্দি"> নাকে জ্বালা সৃষ্টি করা সর্দি</label>
+                        <label><input type="checkbox" name="coldSymptoms2" value="সাদা সর্দি"> সাদা সর্দি</label>
+                        <label><input type="checkbox" name="coldSymptoms2" value="হলুদ সর্দি"> হলুদ সর্দি</label>
+                        <label><input type="checkbox" name="coldSymptoms2" value="সবুজ সর্দি"> সবুজ সর্দি</label>
+                        <label><input type="checkbox" name="coldSymptoms2" value="দুর্গন্ধযুক্ত সর্দি"> দুর্গন্ধযুক্ত সর্দি</label>
+                        <label><input type="checkbox" name="coldSymptoms2" value="সর্দি বের হলে আরাম"> সর্দি বের হলে আরাম</label>
+                        <label><input type="checkbox" name="coldSymptoms2" value="সর্দি থেমে গেলে অবনতি"> সর্দি থেমে গেলে অবনতি</label>
+                    </div>
+                </div>
+
+                <!-- ১৬. নাক বন্ধ/খোলা ও অনুভূতি -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১৬. নাক বন্ধ/খোলা ও অনুভূতি</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coldSymptoms3" value="একপাশ বন্ধ"> একপাশ বন্ধ</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="দুইপাশ বন্ধ"> দুইপাশ বন্ধ</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="রাতে নাক বেশি বন্ধ"> রাতে নাক বেশি বন্ধ</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="সকালে নাক বেশি বন্ধ"> সকালে নাক বেশি বন্ধ</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="বিছানায় শুলে নাক বন্ধ"> বিছানায় শুলে নাক বন্ধ</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="পাশ পরিবর্তনে একপাশ খোলে অন্যপাশ বন্ধ"> পাশ পরিবর্তনে একপাশ খোলে অন্যপাশ বন্ধ</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="মুখ দিয়ে শ্বাস নিতে বাধ্য হওয়া"> মুখ দিয়ে শ্বাস নিতে বাধ্য হওয়া</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="মুখ খুলে ঘুমানো"> মুখ খুলে ঘুমানো</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="রাতে ঘনঘন উঠে বসতে হওয়া"> রাতে ঘনঘন উঠে বসতে হওয়া</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="চুলকানি"> চুলকানি</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="খুসখুস ভাব"> খুসখুস ভাব</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="শুষ্কতা"> শুষ্কতা</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="জ্বালা"> জ্বালা</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="পুড়াভাব"> পুড়াভাব</label>
+                        <label><input type="checkbox" name="coldSymptoms3" value="নাকে চাপ অনুভব"> নাকে চাপ অনুভব</label>
+                    </div>
+                </div>
+
+                <!-- ১৭. হাঁচি ও গন্ধ/স্বাদের পরিবর্তন -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১৭. হাঁচি ও গন্ধ/স্বাদের পরিবর্তন</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(a) হাঁচি</p>
+                        <label><input type="checkbox" name="coldSymptoms4" value="পরপর বারবার হাঁচি"> পরপর বারবার হাঁচি</label>
+                        <label><input type="checkbox" name="coldSymptoms4" value="সকালে হাঁচি বাড়া"> সকালে হাঁচি বাড়া</label>
+                        <label><input type="checkbox" name="coldSymptoms4" value="ঠান্ডায় হাঁচি বাড়া"> ঠান্ডায় হাঁচি বাড়া</label>
+                        <label><input type="checkbox" name="coldSymptoms4" value="ধুলায় হাঁচি বাড়া"> ধুলায় হাঁচি বাড়া</label>
+                        <label><input type="checkbox" name="coldSymptoms4" value="হাঁচির পর নাক-পানি বেশি পড়া"> হাঁচির পর নাক-পানি বেশি পড়া</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(b) গন্ধ ও স্বাদের পরিবর্তন</p>
+                        <label><input type="checkbox" name="coldSymptoms4" value="গন্ধ কম পাওয়া"> গন্ধ কম পাওয়া</label>
+                        <label><input type="checkbox" name="coldSymptoms4" value="সম্পূর্ণ গন্ধ হারানো"> সম্পূর্ণ গন্ধ হারানো</label>
+                        <label><input type="checkbox" name="coldSymptoms4" value="মুখে তিতা স্বাদ"> মুখে তিতা স্বাদ</label>
+                        <label><input type="checkbox" name="coldSymptoms4" value="খাবারে স্বাদ কম লাগা"> খাবারে স্বাদ কম লাগা</label>
+                    </div>
+                </div>
+
+                <!-- ১৮. চোখ ও গলার অবস্থা -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১৮. চোখ ও গলার অবস্থা</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(a) চোখের উপসর্গ</p>
+                        <label><input type="checkbox" name="coldSymptoms5" value="চোখ দিয়ে পানি পড়া"> চোখ দিয়ে পানি পড়া</label>
+                        <label><input type="checkbox" name="coldSymptoms5" value="চোখ লাল হওয়া"> চোখ লাল হওয়া</label>
+                        <label><input type="checkbox" name="coldSymptoms5" value="আলোতে জ্বালা"> আলোতে জ্বালা</label>
+                        <label><input type="checkbox" name="coldSymptoms5" value="চোখে চুলকানি"> চোখে চুলকানি</label>
+                        <label><input type="checkbox" name="coldSymptoms5" value="নাকে সর্দি চললে চোখেও পানি"> নাকে সর্দি চললে চোখেও পানি</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(b) গলার উপসর্গ</p>
+                        <label><input type="checkbox" name="coldSymptoms5" value="গলা ব্যথা"> গলা ব্যথা</label>
+                        <label><input type="checkbox" name="coldSymptoms5" value="গলা শুকনো"> গলা শুকনো</label>
+                        <label><input type="checkbox" name="coldSymptoms5" value="কফ জমে থাকা"> কফ জমে থাকা</label>
+                        <label><input type="checkbox" name="coldSymptoms5" value="গিলতে ব্যথা"> গিলতে ব্যথা</label>
+                        <label><input type="checkbox" name="coldSymptoms5" value="ঠান্ডায় গলা খারাপ"> ঠান্ডায় গলা খারাপ</label>
+                        <label><input type="checkbox" name="coldSymptoms5" value="গরমে গলা আরাম"> গরমে গলা আরাম</label>
+                    </div>
+                </div>
+
+                <!-- ১৯. মাথার উপসর্গ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১৯. মাথা সম্পর্কিত উপসর্গ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coldSymptoms6" value="কপালে ব্যথা"> কপালে ব্যথা</label>
+                        <label><input type="checkbox" name="coldSymptoms6" value="গোগায় চাপভাব"> গোগায় চাপভাব</label>
+                        <label><input type="checkbox" name="coldSymptoms6" value="চোখের উপরে ব্যথা"> চোখের উপরে ব্যথা</label>
+                        <label><input type="checkbox" name="coldSymptoms6" value="মাথা ভারি ভাব"> মাথা ভারি ভাব</label>
+                        <label><input type="checkbox" name="coldSymptoms6" value="নাক বন্ধ হলে মাথাব্যথা বাড়া"> নাক বন্ধ হলে মাথাব্যথা বাড়া</label>
+                        <label><input type="checkbox" name="coldSymptoms6" value="ঝাঁকুনি দিলে মাথাব্যথা বাড়া"> ঝাঁকুনি দিলে মাথাব্যথা বাড়া</label>
+                    </div>
+                </div>
+
+                <!-- ২০. অতীত ইতিহাস -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২০. অতীত ইতিহাস</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coldSymptoms7" value="বারবার সর্দি হওয়া"> বারবার সর্দি হওয়া</label>
+                        <label><input type="checkbox" name="coldSymptoms7" value="অ্যালার্জির প্রবণতা"> অ্যালার্জির প্রবণতা</label>
+                        <label><input type="checkbox" name="coldSymptoms7" value="সাইনাস সমস্যা"> সাইনাস সমস্যা</label>
+                        <label><input type="checkbox" name="coldSymptoms7" value="ধুলা বা ঠান্ডায় সহজে আক্রান্ত হওয়া"> ধুলা বা ঠান্ডায় সহজে আক্রান্ত হওয়া</label>
+                    </div>
+                </div>
+
+                <!-- ২১. কাশি শুরুর ও সময়কাল -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২১. কাশি শুরুর ও সময়কাল</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coughStart" value="হঠাৎ শুরু"> হঠাৎ শুরু</label>
+                        <label><input type="checkbox" name="coughStart" value="ধীরে ধীরে বেড়ে যাওয়া"> ধীরে ধীরে বেড়ে যাওয়া</label>
+                        <label><input type="checkbox" name="coughStart" value="ঠান্ডা লাগার পর শুরু"> ঠান্ডা লাগার পর শুরু</label>
+                        <label><input type="checkbox" name="coughStart" value="আবহাওয়া পরিবর্তনের পর শুরু"> আবহাওয়া পরিবর্তনের পর শুরু</label>
+                        <label><input type="checkbox" name="coughStart" value="ধুলাবালি"> ধুলাবালি</label>
+                        <label><input type="checkbox" name="coughStart" value="ঠান্ডা পানি খাওয়া"> ঠান্ডা পানি খাওয়া</label>
+                        <label><input type="checkbox" name="coughStart" value="ভেজা বৃষ্টিতে ভিজা"> ভেজা বৃষ্টিতে ভিজা</label>
+                        <label><input type="checkbox" name="coughStart" value="অতিরিক্ত কথা বলা"> অতিরিক্ত কথা বলা</label>
+                        <label><input type="checkbox" name="coughStart" value="রাগের পরে"> রাগের পরে</label>
+                    </div>
+                </div>
+
+                <!-- ২২. কাশির প্রকৃতি ও সাউন্ড -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২২. কাশির প্রকৃতি ও সাউন্ড</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coughSymptoms" value="শুকনো কাশি"> শুকনো কাশি</label>
+                        <label><input type="checkbox" name="coughSymptoms" value="ভেজা কাশি"> ভেজা কাশি</label>
+                        <label><input type="checkbox" name="coughSymptoms" value="থেমে থেমে কাশি"> থেমে থেমে কাশি</label>
+                        <label><input type="checkbox" name="coughSymptoms" value="একটানা কাশি"> একটানা কাশি</label>
+                        <label><input type="checkbox" name="coughSymptoms" value="গভীর কাশি"> গভীর কাশি</label>
+                        <label><input type="checkbox" name="coughSymptoms" value="ঘেউঘেউ ধরনের কাশি"> ঘেউঘেউ ধরনের কাশি</label>
+                        <label><input type="checkbox" name="coughSymptoms" value="দমবন্ধ হওয়া ধরনের কাশি"> দমবন্ধ হওয়া ধরনের কাশি</label>
+                        <label><input type="checkbox" name="coughSymptoms" value="ভেঙে ভেঙে কাশি"> ভেঙে ভেঙে কাশি</label>
+                        <label><input type="checkbox" name="coughSymptoms" value="কর্কশ কাশি"> কর্কশ কাশি</label>
+                    </div>
+                </div>
+
+                <!-- ২৩. কাশি বাড়ায়/কমায় -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২৩. কাশি বাড়ায় / কমায়</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(a) কাশি বাড়ায়</p>
+                        <label><input type="checkbox" name="coughSymptoms2" value="ঠান্ডা বাতাসে কাশি বাড়ে"> ঠান্ডা বাতাসে কাশি বাড়ে</label>
+                        <label><input type="checkbox" name="coughSymptoms2" value="শোয়া মাত্র কাশি বাড়ে"> শোয়া মাত্র কাশি বাড়ে</label>
+                        <label><input type="checkbox" name="coughSymptoms2" value="নড়াচড়া করলে কাশি বাড়ে"> নড়াচড়া করলে কাশি বাড়ে</label>
+                        <label><input type="checkbox" name="coughSymptoms2" value="রাতে কাশি বাড়ে"> রাতে কাশি বাড়ে</label>
+                        <label><input type="checkbox" name="coughSymptoms2" value="ভোরে কাশি বাড়ে"> ভোরে কাশি বাড়ে</label>
+                        <label><input type="checkbox" name="coughSymptoms2" value="ভয় পেলে কাশি বাড়ে"> ভয় পেলে কাশি বাড়ে</label>
+                        <label><input type="checkbox" name="coughSymptoms2" value="দুশ্চিন্তায় কাশি বাড়ে"> দুশ্চিন্তায় কাশি বাড়ে</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(b) কাশি কমায়</p>
+                        <label><input type="checkbox" name="coughSymptoms2" value="গরম পানীয় খেলে কাশি কমে"> গরম পানীয় খেলে কাশি কমে</label>
+                        <label><input type="checkbox" name="coughSymptoms2" value="বসলে কাশি কমে"> বসলে কমে</label>
+                        <label><input type="checkbox" name="coughSymptoms2" value="সকালে কাশি বেশি বিকেলে কমে"> সকালে কাশি বেশি, বিকেলে কমে</label>
+                        <label><input type="checkbox" name="coughSymptoms2" value="মাথা উঁচু করে শুলে কাশি আরাম"> মাথা উঁচু করে শুলে আরাম</label>
+                        <label><input type="checkbox" name="coughSymptoms2" value="নির্দিষ্ট পাশে শুলে কাশি বাড়ে"> নির্দিষ্ট পাশে শুলে বাড়ে</label>
+                    </div>
+                </div>
+
+                <!-- ২৪. কফ সম্পর্কিত -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২৪. কফ সম্পর্কিত</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coughSymptoms3" value="সাদা কফ"> সাদা কফ</label>
+                        <label><input type="checkbox" name="coughSymptoms3" value="হলুদ কফ"> হলুদ কফ</label>
+                        <label><input type="checkbox" name="coughSymptoms3" value="সবুজ কফ"> সবুজ কফ</label>
+                        <label><input type="checkbox" name="coughSymptoms3" value="আঠালো কফ"> আঠালো কফ</label>
+                        <label><input type="checkbox" name="coughSymptoms3" value="কফ উঠলে আরাম লাগে"> কফ উঠলে আরাম লাগে</label>
+                    </div>
+                </div>
+
+                <!-- ২৫. গলার লক্ষণ ও শ্বাসপ্রশ্বাস -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২৫. গলার লক্ষণ ও শ্বাসপ্রশ্বাস</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(a) গলার লক্ষণ</p>
+                        <label><input type="checkbox" name="coughSymptoms4" value="গলায় চুলকানি"> গলায় চুলকানি</label>
+                        <label><input type="checkbox" name="coughSymptoms4" value="গলা শুষ্ক"> গলা শুষ্ক</label>
+                        <label><input type="checkbox" name="coughSymptoms4" value="গলায় জ্বালা"> গলায় জ্বালা</label>
+                        <label><input type="checkbox" name="coughSymptoms4" value="গলায় কিছু আটকে থাকার অনুভূতি"> গলায় কিছু আটকে থাকার অনুভূতি</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">(b) শ্বাসপ্রশ্বাস</p>
+                        <label><input type="checkbox" name="coughSymptoms4" value="শ্বাসকষ্ট"> শ্বাসকষ্ট</label>
+                        <label><input type="checkbox" name="coughSymptoms4" value="শ্বাসে সাঁ সাঁ শব্দ"> শ্বাসে সাঁ সাঁ শব্দ</label>
+                        <label><input type="checkbox" name="coughSymptoms4" value="শ্বাস আটকে যাওয়ার অনুভূতি"> শ্বাস আটকে যাওয়ার অনুভূতি</label>
+                        <label><input type="checkbox" name="coughSymptoms4" value="শ্বাস নিতে কষ্ট"> শ্বাস নিতে কষ্ট</label>
+                    </div>
+                </div>
+
+                <!-- ২৬. বুকের অনুভূতি -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২৬. বুকের অনুভূতি</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coughSymptoms5" value="বুকে ভারী লাগা"> বুকে ভারী লাগা</label>
+                        <label><input type="checkbox" name="coughSymptoms5" value="বুকে চাপ অনুভব"> বুকে চাপ অনুভব</label>
+                        <label><input type="checkbox" name="coughSymptoms5" value="বুকের ভেতর জ্বালা"> বুকের ভেতর জ্বালা</label>
+                        <label><input type="checkbox" name="coughSymptoms5" value="সুঁচ ফোটার মতো ব্যথা"> সুঁচ ফোটার মতো ব্যথা</label>
+                    </div>
+                </div>
+
+                <!-- ২৭. অন্যান্য সহ-লক্ষণ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২৭. অন্যান্য সহ-লক্ষণ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coughSymptoms6" value="জ্বর"> জ্বর</label>
+                        <label><input type="checkbox" name="coughSymptoms6" value="দুর্বলতা"> দুর্বলতা</label>
+                        <label><input type="checkbox" name="coughSymptoms6" value="নাক বন্ধ"> নাক বন্ধ</label>
+                        <label><input type="checkbox" name="coughSymptoms6" value="নাক দিয়ে পানি পড়া"> নাক দিয়ে পানি পড়া</label>
+                        <label><input type="checkbox" name="coughSymptoms6" value="কাশতে কাশতে বমি"> কাশতে কাশতে বমি</label>
+                        <label><input type="checkbox" name="coughSymptoms6" value="কাশির সাথে মাথাব্যথা"> কাশির সাথে মাথাব্যথা</label>
+                        <label><input type="checkbox" name="coughSymptoms6" value="কাশির সময় বুক ব্যথা"> কাশির সময় বুক ব্যথা</label>
+                        <label><input type="checkbox" name="coughSymptoms6" value="কাশির সময় চোখে পানি পড়া"> কাশির সময় চোখে পানি পড়া</label>
+                    </div>
+                </div>
+
+                <!-- ২৮. বাচ্চাদের জন্য অতিরিক্ত লক্ষণ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২৮. বাচ্চাদের জন্য অতিরিক্ত লক্ষণ ও পূর্ব ইতিহাস</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="coughSymptoms7" value="কাশতে কাশতে ঘুম ভেঙে যাওয়া"> কাশতে কাশতে ঘুম ভেঙে যাওয়া</label>
+                        <label><input type="checkbox" name="coughSymptoms7" value="দুধ খাওয়ার পর কাশি"> দুধ খাওয়ার পর কাশি</label>
+                        <label><input type="checkbox" name="coughSymptoms7" value="কাশির সময় মুখ লাল হওয়া"> কাশির সময় মুখ লাল হওয়া</label>
+                        <label><input type="checkbox" name="coughSymptoms7" value="অ্যালার্জির প্রবণতা"> অ্যালার্জির প্রবণতা</label>
+                        <label><input type="checkbox" name="coughSymptoms7" value="বারবার সর্দি-কাশি হওয়া"> বারবার সর্দি-কাশি হওয়া</label>
+                        <label><input type="checkbox" name="coughSymptoms7" value="অ্যাজমার ইতিহাস"> অ্যাজমার ইতিহাস</label>
+                    </div>
+                </div>
+
+                <!-- ৩১. রোগ বৃদ্ধির কারণ ও সময় -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৩১. রোগ বৃদ্ধির কারণ ও সময়</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="aggravationFactors" value="জানা নেই"> জানা নেই</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="ঠান্ডায়"> ঠান্ডায়</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="ঠান্ডা বাতাসে"> ঠান্ডা বাতাসে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="ভেজা অবস্থায়"> ভেজা অবস্থায়</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="বৃষ্টিতে"> বৃষ্টিতে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="আর্দ্র আবহাওয়ায়"> আর্দ্র আবহাওয়ায়</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="গরমে"> গরমে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="রোদে"> রোদে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="ধুলাবালিতে"> ধুলাবালিতে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="চলাফেরা করলে"> চলাফেরা করলে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="ভারী কাজ করলে"> ভারী কাজ করলে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="পরিশ্রমে"> পরিশ্রমে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="উঠে বসলে"> উঠে বসলে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="শুয়ে থাকলে"> শুয়ে থাকলে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="মাথা ঝুঁকালে"> মাথা ঝুঁকালে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="খাওয়ার পর"> খাওয়ার পর</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="খালি পেটে"> খালি পেটে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="ঠান্ডা খাবারে"> ঠান্ডা খাবারে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="গরম খাবারে"> গরম খাবারে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="তেল-মসলায়"> তেল-মসলায়</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="গ্রীষ্মে বাড়ে"> গ্রীষ্মে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="বর্ষায় বাড়ে"> বর্ষায়</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="শীতে বাড়ে"> শীতে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="শরতে বাড়ে"> শরতে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="হেমন্তে বাড়ে"> হেমন্তে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="সকালে বাড়ে"> সকালে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="দুপুরে বাড়ে"> দুপুরে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="বিকালে বাড়ে"> বিকালে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="সন্ধ্যায় বাড়ে"> সন্ধ্যায়</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="মধ্যরাতে বাড়ে"> মধ্যরাতে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="ভোরে বাড়ে"> ভোরে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="ঘুম থেকে উঠলে বাড়ে"> ঘুম থেকে উঠলে</label>
+                        <label><input type="checkbox" name="aggravationFactors" value="ঘুমাতে গেলে বাড়ে"> ঘুমাতে গেলে</label>
+                    </div>
+                </div>
+
+                <!-- ৩২. রোগ উপশমের কারণ ও সময় -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৩২. রোগ উপশমের কারণ ও সময়</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input name="aggravationdeasis" type="checkbox" value="জানা নেই"> জানা নেই</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ঠান্ডায় উপশম হয়"> ঠান্ডায়</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ঠান্ডা বাতাসে উপশম হয়"> ঠান্ডা বাতাসে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ভেজা অবস্থায় উপশম হয়"> ভেজা অবস্থায়</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="বৃষ্টিতে উপশম হয়"> বৃষ্টিতে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="আর্দ্র আবহাওয়ায় উপশম হয়"> আর্দ্র আবহাওয়ায়</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="গরমে উপশম হয়"> গরমে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="রোদে উপশম হয়"> রোদে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ধুলাবালিতে উপশম হয়"> ধুলাবালিতে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="চলাফেরা করলে উপশম হয়"> চলাফেরা করলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ভারী কাজ করলে উপশম হয়"> ভারী কাজ করলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="পরিশ্রমে উপশম হয়"> পরিশ্রমে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="উঠে বসলে উপশম হয়"> উঠে বসলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="শুয়ে থাকলে উপশম হয়"> শুয়ে থাকলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="মাথা ঝুঁকালে উপশম হয়"> মাথা ঝুঁকালে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="খাওয়ার পর উপশম হয়"> খাওয়ার পর</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="খালি পেটে উপশম হয়"> খালি পেটে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ঠান্ডা খাবারে উপশম হয়"> ঠান্ডা খাবারে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="গরম খাবারে উপশম হয়"> গরম খাবারে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="তেল-মসলায় উপশম হয়"> তেল-মসলায়</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ঘাম হলে উপশম হয়"> ঘাম হলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="মাসিক এলে উপশম হয়"> মাসিক এলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="বমি হলে উপশম হয়"> বমি হলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="পায়খানা হলে উপশম হয়"> পায়খানা হলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="প্রস্রাব হলে উপশম হয়"> প্রস্রাব হলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="স্রাব বের হলে উপশম হয়"> স্রাব বের হলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="অন্ধকারে উপশম হয়"> অন্ধকারে কমে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="নীরবতায় উপশম হয়"> নীরবতায়</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="মালিশ করলে উপশম হয়"> মালিশ করলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="চাপ দিলে উপশম হয়"> চাপ দিলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="গরম সেঁক দিলে উপশম হয়"> গরম সেঁক দিলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ঠান্ডা সেঁক দিলে উপশম হয়"> ঠান্ডা সেঁক দিলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="গরম পানিতে স্নানে উপশম হয়"> গরম পানিতে স্নানে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ঠান্ডা পানিতে ধুলে উপশম হয়"> ঠান্ডা পানিতে ধুলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="গ্রীষ্মে উপশম হয়"> গ্রীষ্মে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="বর্ষায় উপশম হয়"> বর্ষায়</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="শীতে উপশম হয়"> শীতে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="শরতে উপশম হয়"> শরতে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="হেমন্তে উপশম হয়"> হেমন্তে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="সকালে উপশম হয়"> সকালে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="দুপুরে উপশম হয়"> দুপুরে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="বিকালে উপশম হয়"> বিকালে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="সন্ধ্যায় উপশম হয়"> সন্ধ্যায়</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="মধ্যরাতে উপশম হয়"> মধ্যরাতে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ভোরে উপশম হয়"> ভোরে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ঘুম থেকে উঠলে উপশম হয়"> ঘুম থেকে উঠলে</label>
+                        <label><input name="aggravationdeasis" type="checkbox" value="ঘুমাতে গেলে উপশম হয়"> ঘুমাতে গেলে</label>
+                    </div>
+                </div>
+
+                <!-- ৩৩. রোগীর আরো রোগ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৩৩. রোগীর আরো যে সকল রোগ আছে</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input name="diseaseSelection" type="checkbox" value="জ্বর"> জ্বর</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="সর্দি"> সর্দি</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="কাশি"> কাশি</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="মাথাব্যাথা"> মাথাব্যাথা</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="গ্যাস্ট্রিক"> গ্যাস্ট্রিক</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="ডায়রিয়া"> ডায়রিয়া</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="আমাশয়"> আমাশয়</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="উচ্চ রক্তচাপ"> উচ্চ রক্তচাপ</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="নিম্নরক্তচাপ"> নিম্নরক্তচাপ</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="ডায়াবেটিস"> ডায়াবেটিস</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="হৃদরোগ"> হৃদরোগ</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="স্ট্রোক"> স্ট্রোক</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="ক্যান্সার"> ক্যান্সার</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="কিডনি রোগ"> কিডনি রোগ</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="অ্যাজমা"> অ্যাজমা</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="বাত ব্যাথা"> বাত ব্যাথা</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="কলেরা"> কলেরা</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="যক্ষ্মা"> যক্ষ্মা</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="ডেঙ্গু"> ডেঙ্গু</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="ম্যালেরিয়া"> ম্যালেরিয়া</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="টাইফয়েড"> টাইফয়েড</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="জন্ডিস"> জন্ডিস</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="হাম"> হাম</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="ধনুষ্টংকার"> ধনুষ্টংকার</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="পুষ্টিহীনতা"> পুষ্টিহীনতা</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="ছানি"> ছানি</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="গ্লুকোমা"> গ্লুকোমা</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="শ্বাসকষ্ট"> শ্বাসকষ্ট</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="চর্মরোগ"> চর্মরোগ</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="স্ক্যাবিস"> স্ক্যাবিস</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="কৃমি সংক্রমণ"> কৃমি সংক্রমণ</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="পাইলস"> পাইলস</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="টনসিল"> টনসিল</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="বিষণ্নতা"> বিষণ্নতা</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="সিজোফ্রেনিয়া"> সিজোফ্রেনিয়া</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="অটিজম"> অটিজম</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="আলঝেইমার রোগ"> আলঝেইমার রোগ</label>
+                        <label><input name="diseaseSelection" type="checkbox" value="মৃগীরোগ"> মৃগীরোগ</label>
+                    </div>
+                </div>
+
+                <!-- ৩৪. অতীতে বড় রোগ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৩৪. অতীতে বড় যেসকল রোগ হয়েছিল</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input name="olddisease" type="checkbox" value="জ্বর"> জ্বর</label>
+                        <label><input name="olddisease" type="checkbox" value="সর্দি"> সর্দি</label>
+                        <label><input name="olddisease" type="checkbox" value="কাশি"> কাশি</label>
+                        <label><input name="olddisease" type="checkbox" value="মাথাব্যাথা"> মাথাব্যাথা</label>
+                        <label><input name="olddisease" type="checkbox" value="গ্যাস্ট্রিক"> গ্যাস্ট্রিক</label>
+                        <label><input name="olddisease" type="checkbox" value="ডায়রিয়া"> ডায়রিয়া</label>
+                        <label><input name="olddisease" type="checkbox" value="আমাশয়"> আমাশয়</label>
+                        <label><input name="olddisease" type="checkbox" value="উচ্চ রক্তচাপ"> উচ্চ রক্তচাপ</label>
+                        <label><input name="olddisease" type="checkbox" value="নিম্নরক্তচাপ"> নিম্নরক্তচাপ</label>
+                        <label><input name="olddisease" type="checkbox" value="ডায়াবেটিস"> ডায়াবেটিস</label>
+                        <label><input name="olddisease" type="checkbox" value="হৃদরোগ"> হৃদরোগ</label>
+                        <label><input name="olddisease" type="checkbox" value="স্ট্রোক"> স্ট্রোক</label>
+                        <label><input name="olddisease" type="checkbox" value="ক্যান্সার"> ক্যান্সার</label>
+                        <label><input name="olddisease" type="checkbox" value="কিডনি রোগ"> কিডনি রোগ</label>
+                        <label><input name="olddisease" type="checkbox" value="অ্যাজমা"> অ্যাজমা</label>
+                        <label><input name="olddisease" type="checkbox" value="বাত ব্যাথা"> বাত ব্যাথা</label>
+                        <label><input name="olddisease" type="checkbox" value="কলেরা"> কলেরা</label>
+                        <label><input name="olddisease" type="checkbox" value="যক্ষ্মা"> যক্ষ্মা</label>
+                        <label><input name="olddisease" type="checkbox" value="ডেঙ্গু"> ডেঙ্গু</label>
+                        <label><input name="olddisease" type="checkbox" value="ম্যালেরিয়া"> ম্যালেরিয়া</label>
+                        <label><input name="olddisease" type="checkbox" value="টাইফয়েড"> টাইফয়েড</label>
+                        <label><input name="olddisease" type="checkbox" value="জন্ডিস"> জন্ডিস</label>
+                        <label><input name="olddisease" type="checkbox" value="হাম"> হাম</label>
+                        <label><input name="olddisease" type="checkbox" value="ধনুষ্টংকার"> ধনুষ্টংকার</label>
+                        <label><input name="olddisease" type="checkbox" value="পুষ্টিহীনতা"> পুষ্টিহীনতা</label>
+                        <label><input name="olddisease" type="checkbox" value="ছানি"> ছানি</label>
+                        <label><input name="olddisease" type="checkbox" value="গ্লুকোমা"> গ্লুকোমা</label>
+                        <label><input name="olddisease" type="checkbox" value="শ্বাসকষ্ট"> শ্বাসকষ্ট</label>
+                        <label><input name="olddisease" type="checkbox" value="চর্মরোগ"> চর্মরোগ</label>
+                        <label><input name="olddisease" type="checkbox" value="স্ক্যাবিস"> স্ক্যাবিস</label>
+                        <label><input name="olddisease" type="checkbox" value="কৃমি সংক্রমণ"> কৃমি সংক্রমণ</label>
+                        <label><input name="olddisease" type="checkbox" value="পাইলস"> পাইলস</label>
+                        <label><input name="olddisease" type="checkbox" value="টনসিল"> টনসিল</label>
+                        <label><input name="olddisease" type="checkbox" value="বিষণ্নতা"> বিষণ্নতা</label>
+                        <label><input name="olddisease" type="checkbox" value="সিজোফ্রেনিয়া"> সিজোফ্রেনিয়া</label>
+                        <label><input name="olddisease" type="checkbox" value="অটিজম"> অটিজম</label>
+                        <label><input name="olddisease" type="checkbox" value="আলঝেইমার রোগ"> আলঝেইমার রোগ</label>
+                        <label><input name="olddisease" type="checkbox" value="মৃগীরোগ"> মৃগীরোগ</label>
+                    </div>
+                </div>
+
+                <!-- ৩৫. আত্মীয়দের রোগ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৩৫. নিকট আত্মীয়দের যে সকল রোগ ছিল</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input name="relativesdisease" type="checkbox" value="জ্বর"> জ্বর</label>
+                        <label><input name="relativesdisease" type="checkbox" value="সর্দি"> সর্দি</label>
+                        <label><input name="relativesdisease" type="checkbox" value="কাশি"> কাশি</label>
+                        <label><input name="relativesdisease" type="checkbox" value="মাথাব্যাথা"> মাথাব্যাথা</label>
+                        <label><input name="relativesdisease" type="checkbox" value="গ্যাস্ট্রিক"> গ্যাস্ট্রিক</label>
+                        <label><input name="relativesdisease" type="checkbox" value="ডায়রিয়া"> ডায়রিয়া</label>
+                        <label><input name="relativesdisease" type="checkbox" value="আমাশয়"> আমাশয়</label>
+                        <label><input name="relativesdisease" type="checkbox" value="উচ্চ রক্তচাপ"> উচ্চ রক্তচাপ</label>
+                        <label><input name="relativesdisease" type="checkbox" value="নিম্নরক্তচাপ"> নিম্নরক্তচাপ</label>
+                        <label><input name="relativesdisease" type="checkbox" value="ডায়াবেটিস"> ডায়াবেটিস</label>
+                        <label><input name="relativesdisease" type="checkbox" value="হৃদরোগ"> হৃদরোগ</label>
+                        <label><input name="relativesdisease" type="checkbox" value="স্ট্রোক"> স্ট্রোক</label>
+                        <label><input name="relativesdisease" type="checkbox" value="ক্যান্সার"> ক্যান্সার</label>
+                        <label><input name="relativesdisease" type="checkbox" value="কিডনি রোগ"> কিডনি রোগ</label>
+                        <label><input name="relativesdisease" type="checkbox" value="অ্যাজমা"> অ্যাজমা</label>
+                        <label><input name="relativesdisease" type="checkbox" value="বাত ব্যাথা"> বাত ব্যাথা</label>
+                        <label><input name="relativesdisease" type="checkbox" value="কলেরা"> কলেরা</label>
+                        <label><input name="relativesdisease" type="checkbox" value="যক্ষ্মা"> যক্ষ্মা</label>
+                        <label><input name="relativesdisease" type="checkbox" value="ডেঙ্গু"> ডেঙ্গু</label>
+                        <label><input name="relativesdisease" type="checkbox" value="ম্যালেরিয়া"> ম্যালেরিয়া</label>
+                        <label><input name="relativesdisease" type="checkbox" value="টাইফয়েড"> টাইফয়েড</label>
+                        <label><input name="relativesdisease" type="checkbox" value="জন্ডিস"> জন্ডিস</label>
+                        <label><input name="relativesdisease" type="checkbox" value="হাম"> হাম</label>
+                        <label><input name="relativesdisease" type="checkbox" value="ধনুষ্টংকার"> ধনুষ্টংকার</label>
+                        <label><input name="relativesdisease" type="checkbox" value="পুষ্টিহীনতা"> পুষ্টিহীনতা</label>
+                        <label><input name="relativesdisease" type="checkbox" value="ছানি"> ছানি</label>
+                        <label><input name="relativesdisease" type="checkbox" value="গ্লুকোমা"> গ্লুকোমা</label>
+                        <label><input name="relativesdisease" type="checkbox" value="শ্বাসকষ্ট"> শ্বাসকষ্ট</label>
+                        <label><input name="relativesdisease" type="checkbox" value="চর্মরোগ"> চর্মরোগ</label>
+                        <label><input name="relativesdisease" type="checkbox" value="স্ক্যাবিস"> স্ক্যাবিস</label>
+                        <label><input name="relativesdisease" type="checkbox" value="কৃমি সংক্রমণ"> কৃমি সংক্রমণ</label>
+                        <label><input name="relativesdisease" type="checkbox" value="পাইলস"> পাইলস</label>
+                        <label><input name="relativesdisease" type="checkbox" value="টনসিল"> টনসিল</label>
+                        <label><input name="relativesdisease" type="checkbox" value="বিষণ্নতা"> বিষণ্নতা</label>
+                        <label><input name="relativesdisease" type="checkbox" value="সিজোফ্রেনিয়া"> সিজোফ্রেনিয়া</label>
+                        <label><input name="relativesdisease" type="checkbox" value="অটিজম"> অটিজম</label>
+                        <label><input name="relativesdisease" type="checkbox" value="আলঝেইমার রোগ"> আলঝেইমার রোগ</label>
+                        <label><input name="relativesdisease" type="checkbox" value="মৃগীরোগ"> মৃগীরোগ</label>
+                    </div>
+                </div>
+
+                <!-- ৩৬. রোগের অবস্থান -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৩৬. রোগের পার্শ-সম্পর্কিত অবস্থান</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="সর্বাঙ্গে"> সর্বাঙ্গে</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="উভয় পাশের রোগ"> উভয় পাশে</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="ডান পাশের রোগ"> ডান পাশের রোগ</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="বাম পাশের রোগ"> বাম পাশের রোগ</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="ডান থেকে বামে ছড়ায়"> ডান থেকে বামে ছড়ায়</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="বাম থেকে ডানে ছড়ায়"> বাম থেকে ডানে ছড়ায়</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="উপর থেকে নিচে ছড়ায়"> উপর থেকে নিচে ছড়ায়</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="নিচ থেকে উপরে ছড়ায়"> নিচ থেকে উপরে ছড়ায়</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="বাম নিম্নাংগ হতে ডান উর্ধাংগে"> বাম নিম্নাংগ হতে ডান উর্ধাংগে</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="বাম উর্ধাংগে হতে ডান নিম্নাংগে"> বাম উর্ধাংগে হতে ডান নিম্নাংগে</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="একপাশে"> একপাশে</label>
+                        <label><input name="diseaseLocationSpread" type="checkbox" value="একবার এ পাশে আর একবার ওপাশে"> একবার এ পাশে আর একবার ওপাশে</label>
+                    </div>
+                </div>
+
+                <!-- ৩৭. পিপাসা, জিহবা -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৩৭. পিপাসা, জিহবা ও মুখের লক্ষণ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="tongue" value="প্রচুর পিপাসা"> প্রচুর পিপাসা</label>
+                        <label><input type="checkbox" name="tongue" value="পিপাসা নেই"> পিপাসা নেই</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা লবনাক্ত"> জিহবা লবনাক্ত</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা টক"> জিহবা টক</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা তিতা"> জিহবা তিতা</label>
+                        <label><input type="checkbox" name="tongue" value="প্রচুর লালা বের হয়"> প্রচুর লালা বের হয়</label>
+                        <label><input type="checkbox" name="tongue" value="লালা নেই শুস্ক"> লালা নেই শুস্ক</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবার রং লাল"> জিহবার রং লাল</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবার রং কালো"> জিহবার রং কালো</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবার রং সাদা"> জিহবার রং সাদা</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা শুস্ক"> জিহবা শুস্ক</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা ফাটা"> জিহবা ফাটা</label>
+                        <label><input type="checkbox" name="tongue" value="ঠোটের কোনা ফাটা"> ঠোটের কোনা ফাটা</label>
+                        <label><input type="checkbox" name="tongue" value="মাড়ি ফাটা"> মাড়ি ফাটা</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবায় প্রলেপ"> জিহবায় প্রলেপ</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা লাল"> জিহবা লাল</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা ফ্যাকাসে"> জিহবা ফ্যাকাসে</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা কালচে"> জিহবা কালচে</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা স্ফীত"> জিহবা স্ফীত</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা দাঁতের দাগযুক্ত"> জিহবা দাঁতের দাগযুক্ত</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা সাদা আস্তরণ"> জিহবা সাদা আস্তরণ</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা হলুদ আস্তরণ"> জিহবা হলুদ আস্তরণ</label>
+                        <label><input type="checkbox" name="tongue" value="শুকনো জিহ্বা"> শুকনো জিহ্বা</label>
+                        <label><input type="checkbox" name="tongue" value="ভেজা জিহ্বা"> ভেজা জিহ্বা</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা গভীর ফাটল"> জিহবা গভীর ফাটল</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা প্রান্তে ফাটল"> জিহবা প্রান্তে ফাটল</label>
+                        <label><input type="checkbox" name="tongue" value="জিহবা মাঝখানে ফাটল"> জিহবা মাঝখানে ফাটল</label>
+                    </div>
+                </div>
+
+                <!-- ৩৮. ঘাম -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৩৮. ঘাম সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="sweat" value="স্বাভাবিক ঘাম"> স্বাভাবিক ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="প্রচুর ঘাম"> প্রচুর ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="অল্প ঘাম"> অল্প ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="খাওয়ার পরে ঘাম"> খাওয়ার পরে ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="জ্বরের সময় ঘাম"> জ্বরের সময় ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="মাথা ব্যাথার সময় ঘাম"> মাথা ব্যাথার সময় ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="গরম লাগলে ঘাম"> গরম লাগলে ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="মানসিক চাপের সময় ঘাম"> মানসিক চাপের সময় ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="চলাফেরার সময় ঘাম"> চলাফেরার সময় ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="নার্ভাস লাগলে ঘাম"> নার্ভাস লাগলে ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="দুর্গন্ধযুক্ত ঘাম"> দুর্গন্ধযুক্ত ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="টক গন্ধযুক্ত ঘাম"> টক গন্ধযুক্ত ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="রসুনের মত গন্ধযুক্ত ঘাম"> রসুনের মত গন্ধযুক্ত ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="প্রসাবের মত গন্ধযুক্ত ঘাম"> প্রসাবের মত গন্ধযুক্ত ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="সকালে ঘাম"> সকালে ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="দুপুরে ঘাম"> দুপুরে ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="বিকালে ঘাম"> বিকালে ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="সন্ধ্যায় ঘাম"> সন্ধ্যায় ঘাম</label>
+                        <label><input type="checkbox" name="sweat" value="রাতে ঘাম"> রাতে ঘাম</label>
+                    </div>
+                </div>
+
+                <!-- ৩৯. ঘুম -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৩৯. ঘুম সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="sleep" value="স্বাভাবিক ঘুম"> স্বাভাবিক ঘুম</label>
+                        <label><input type="checkbox" name="sleep" value="নিদ্রাহীনতা"> নিদ্রাহীনতা</label>
+                        <label><input type="checkbox" name="sleep" value="অর্ধচৈতন্য"> অর্ধচৈতন্য</label>
+                        <label><input type="checkbox" name="sleep" value="ঘুম ঘুম ভাব"> ঘুম ঘুম ভাব</label>
+                        <label><input type="checkbox" name="sleep" value="ঘুম কম"> ঘুম কম</label>
+                        <label><input type="checkbox" name="sleep" value="ঘুম বেশি"> ঘুম বেশি</label>
+                        <label><input type="checkbox" name="sleep" value="গভীর ঘুম"> গভীর ঘুম</label>
+                        <label><input type="checkbox" name="sleep" value="হালকা ঘুম"> হালকা ঘুম</label>
+                        <label><input type="checkbox" name="sleep" value="সহজে ঘুম ভেঙে যাওয়া"> সহজে ঘুম ভেঙে যাওয়া</label>
+                        <label><input type="checkbox" name="sleep" value="রাতে ঘুম কম"> রাতে ঘুম কম</label>
+                        <label><input type="checkbox" name="sleep" value="দিনে ঘুম আসা"> দিনে ঘুম আসা</label>
+                        <label><input type="checkbox" name="sleep" value="ডান পাশে ঘুমায়"> ডান পাশে ঘুমায়</label>
+                        <label><input type="checkbox" name="sleep" value="বাম পাশে ঘুমায়"> বাম পাশে ঘুমায়</label>
+                        <label><input type="checkbox" name="sleep" value="পিঠ পাশে বা চিৎ হয়ে ঘুমায়"> পিঠ পাশে বা চিৎ হয়ে ঘুমায়</label>
+                        <label><input type="checkbox" name="sleep" value="পা গুটিয়ে ঘুমায়"> পা গুটিয়ে ঘুমায়</label>
+                        <label><input type="checkbox" name="sleep" value="ডান পাশে শুইতে পারেনা"> ডান পাশে শুইতে পারেনা</label>
+                        <label><input type="checkbox" name="sleep" value="ঘুমের সময় নাক ডাকে"> ঘুমের সময় নাক ডাকে</label>
+                        <label><input type="checkbox" name="sleep" value="ঘুমের সময় লালা বের হয়"> ঘুমের সময় লালা বের হয়</label>
+                    </div>
+                </div>
+
+                <!-- ৪০. পাকস্থলি -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪০. পাকস্থলি সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="stomach" value="ক্ষুধা স্বাভাবিক"> ক্ষুধা স্বাভাবিক</label>
+                        <label><input type="checkbox" name="stomach" value="ক্ষুধা বেশি"> ক্ষুধা বেশি</label>
+                        <label><input type="checkbox" name="stomach" value="ক্ষুধা কম"> ক্ষুধা কম</label>
+                        <label><input type="checkbox" name="stomach" value="ক্ষুধা একেবারেই নেই"> ক্ষুধা একেবারেই নেই</label>
+                        <label><input type="checkbox" name="stomach" value="ক্ষুধার্ত কিন্তু রুচি নেই"> ক্ষুধার্ত কিন্তু রুচি নেই</label>
+                        <label><input type="checkbox" name="stomach" value="অল্প খেয়ে পেট ভরে যাওয়া"> অল্প খেয়ে পেট ভরে যাওয়া</label>
+                        <label><input type="checkbox" name="stomach" value="খাবারের প্রতি অরুচি"> খাবারের প্রতি অরুচি</label>
+                        <label><input type="checkbox" name="stomach" value="পেটে এসিড আছে"> পেটে এসিড আছে</label>
+                        <label><input type="checkbox" name="stomach" value="গ্যাস আছে"> গ্যাস আছে</label>
+                        <label><input type="checkbox" name="stomach" value="বদহজম"> বদহজম</label>
+                        <label><input type="checkbox" name="stomach" value="বমি ভাব"> বমি ভাব</label>
+                        <label><input type="checkbox" name="stomach" value="বমি"> বমি</label>
+                        <label><input type="checkbox" name="stomach" value="নিচ পেটে ব্যাথা"> নিচ পেটে ব্যাথা</label>
+                        <label><input type="checkbox" name="stomach" value="পেট ফাপা"> পেট ফাপা</label>
+                        <label><input type="checkbox" name="stomach" value="পেট ফুলে থাকা"> পেট ফুলে থাকা</label>
+                        <label><input type="checkbox" name="stomach" value="পেটে বুদ বুদ অনুভুতি"> পেটে বুদ বুদ অনুভূতি</label>
+                        <label><input type="checkbox" name="stomach" value="পেটে ভাড় ভাড় লাগা"> পেটে ভাড় ভাড় লাগা</label>
+                        <label><input type="checkbox" name="stomach" value="নিচ পেটে প্রদাহ"> নিচ পেটে প্রদাহ</label>
+                    </div>
+                </div>
+
+                <!-- ৪১. খাবার -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪১. খাবার সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">যে সকল খাবার খেতে ইচ্ছে হয়</p>
+                        <label><input type="checkbox" name="food" value="গোশত পছন্দ"> গোশত</label>
+                        <label><input type="checkbox" name="food" value="ডিম পছন্দ"> ডিম</label>
+                        <label><input type="checkbox" name="food" value="দুধ পছন্দ"> দুধ</label>
+                        <label><input type="checkbox" name="food" value="লবন পছন্দ"> লবন</label>
+                        <label><input type="checkbox" name="food" value="টক পছন্দ"> টক</label>
+                        <label><input type="checkbox" name="food" value="ঝাল পছন্দ"> ঝাল</label>
+                        <label><input type="checkbox" name="food" value="মিষ্টি পছন্দ"> মিষ্টি</label>
+                        <label><input type="checkbox" name="food" value="তিতা পছন্দ"> তিতা</label>
+                        <label><input type="checkbox" name="food" value="ফ্যাট বা তেল পছন্দ"> ফ্যাট বা তেল</label>
+                        <label><input type="checkbox" name="food" value="গরম খাবার পছন্দ"> গরম খাবার</label>
+                        <label><input type="checkbox" name="food" value="ঠান্ডা খাবার পছন্দ"> ঠান্ডা খাবার</label>
+                        <p style="width:100%; font-weight:600; color:#e53e3e;">যে সকল খাবার খেতে ইচ্ছে হয়না</p>
+                        <label><input type="checkbox" name="food" value="গোশত অপছন্দ"> গোশত</label>
+                        <label><input type="checkbox" name="food" value="ডিম অপছন্দ"> ডিম</label>
+                        <label><input type="checkbox" name="food" value="দুধ অপছন্দ"> দুধ</label>
+                        <label><input type="checkbox" name="food" value="লবন অপছন্দ"> লবন</label>
+                        <label><input type="checkbox" name="food" value="টক অপছন্দ"> টক</label>
+                        <label><input type="checkbox" name="food" value="ঝাল অপছন্দ"> ঝাল</label>
+                        <label><input type="checkbox" name="food" value="মিষ্টি অপছন্দ"> মিষ্টি</label>
+                        <label><input type="checkbox" name="food" value="তিতা অপছন্দ"> তিতা</label>
+                        <label><input type="checkbox" name="food" value="ফ্যাট বা তেল অপছন্দ"> ফ্যাট বা তেল</label>
+                        <label><input type="checkbox" name="food" value="গরম খাবার অপছন্দ"> গরম খাবার</label>
+                        <label><input type="checkbox" name="food" value="ঠান্ডা খাবার অপছন্দ"> ঠান্ডা খাবার</label>
+                        <p style="width:100%; font-weight:600; color:#e53e3e;">যে সকল খাবার রোগ বৃদ্ধি করে</p>
+                        <label><input type="checkbox" name="food" value="গোশত খেলে রোগ বৃদ্ধি"> গোশত</label>
+                        <label><input type="checkbox" name="food" value="ডিম খেলে রোগ বৃদ্ধি"> ডিম</label>
+                        <label><input type="checkbox" name="food" value="দুধ খেলে রোগ বৃদ্ধি"> দুধ</label>
+                        <label><input type="checkbox" name="food" value="লবন খেলে রোগ বৃদ্ধি"> লবন</label>
+                        <label><input type="checkbox" name="food" value="টক খেলে রোগ বৃদ্ধি"> টক</label>
+                        <label><input type="checkbox" name="food" value="ঝাল খেলে রোগ বৃদ্ধি"> ঝাল</label>
+                        <label><input type="checkbox" name="food" value="মিষ্টি খেলে রোগ বৃদ্ধি"> মিষ্টি</label>
+                        <label><input type="checkbox" name="food" value="তিতা খেলে রোগ বৃদ্ধি"> তিতা</label>
+                        <label><input type="checkbox" name="food" value="ফ্যাট বা তেল খেলে রোগ বৃদ্ধি"> ফ্যাট বা তেল</label>
+                        <label><input type="checkbox" name="food" value="গরম খাবার খেলে রোগ বৃদ্ধি"> গরম খাবার</label>
+                        <label><input type="checkbox" name="food" value="ঠান্ডা খাবার খেলে রোগ বৃদ্ধি"> ঠান্ডা খাবার</label>
+                    </div>
+                </div>
+
+                <!-- ৪২. পায়খানা -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪২. পায়খানা সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">শক্ত, নরম, পরিমাণ, গঠন, গন্ধ</p>
+                        <label><input type="checkbox" name="stool" value="স্বাভাবিক"> স্বাভাবিক</label>
+                        <label><input type="checkbox" name="stool" value="শক্ত"> শক্ত</label>
+                        <label><input type="checkbox" name="stool" value="নরম"> নরম</label>
+                        <label><input type="checkbox" name="stool" value="শক্ত নরম পর্যায়ক্রমে"> শক্ত নরম পর্যায়ক্রমে</label>
+                        <label><input type="checkbox" name="stool" value="প্রথমে শক্ত  পরে নরম"> প্রথমে শক্ত পরে নরম</label>
+                        <label><input type="checkbox" name="stool" value="শক্ত ও রক্ত যুক্ত"> শক্ত ও রক্ত যুক্ত</label>
+                        <label><input type="checkbox" name="stool" value="শুকনা"> শুকনা</label>
+                        <label><input type="checkbox" name="stool" value="প্রচুর পরিমানে"> প্রচুর পরিমানে</label>
+                        <label><input type="checkbox" name="stool" value="পরিমানে সামান্য"> পরিমানে সামান্য</label>
+                        <label><input type="checkbox" name="stool" value="ছোট"> ছোট</label>
+                        <label><input type="checkbox" name="stool" value="গুটি গুটি"> গুটি গুটি</label>
+                        <label><input type="checkbox" name="stool" value="পানির মত"> পানির মত</label>
+                        <label><input type="checkbox" name="stool" value="পরিবর্তনশীল"> পরিবর্তনশীল</label>
+                        <label><input type="checkbox" name="stool" value="দুর্গন্ধযুক্ত"> দুর্গন্ধযুক্ত</label>
+                        <label><input type="checkbox" name="stool" value="গন্ধহীন"> গন্ধহীন</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">কষ্ট, তৃপ্তি, বেগ, রঙ</p>
+                        <label><input type="checkbox" name="stool" value="কষ্টকর"> কষ্টকর</label>
+                        <label><input type="checkbox" name="stool" value="ব্যাথা করে"> ব্যাথা করে</label>
+                        <label><input type="checkbox" name="stool" value="জ্বালা করে"> জ্বালা করে</label>
+                        <label><input type="checkbox" name="stool" value="মল ত্যাগে তৃপ্তি নেই"> অল্প তৃপ্তি ছাড়া মল</label>
+                        <label><input type="checkbox" name="stool" value="বারবার মল ত্যাগের ইচ্ছা"> বারবার মল ত্যাগের ইচ্ছা</label>
+                        <label><input type="checkbox" name="stool" value="মল বের হয়ে আবার ঢুকে"> মল বের হয় আবার ঢুকে</label>
+                        <label><input type="checkbox" name="stool" value="মলদ্বারে দীর্ঘক্ষণ মল থাকে কিন্তু বেগ নেই"> মলদ্বারে দীর্ঘক্ষণ মল থাকে কিন্তু বেগ নেই</label>
+                        <label><input type="checkbox" name="stool" value="বার বার বেগ হওয়া"> বার বার বেগ হওয়া</label>
+                        <label><input type="checkbox" name="stool" value="কালো"> কালো</label>
+                        <label><input type="checkbox" name="stool" value="হলুদ"> হলুদ</label>
+                        <label><input type="checkbox" name="stool" value="সাদা"> সাদা</label>
+                        <label><input type="checkbox" name="stool" value="বাদামী"> বাদামী</label>
+                        <label><input type="checkbox" name="stool" value="সবুজ"> সবুজ</label>
+                    </div>
+                </div>
+
+                <!-- ৪৩. প্রসাব -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪৩. প্রসাব সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="urine" value="স্বাভাবিক"> স্বাভাবিক</label>
+                        <label><input type="checkbox" name="urine" value="কম"> কম</label>
+                        <label><input type="checkbox" name="urine" value="বেশি"> বেশি</label>
+                        <label><input type="checkbox" name="urine" value="ঘনঘন"> ঘনঘন</label>
+                        <label><input type="checkbox" name="urine" value="জ্বালা"> জ্বালা</label>
+                        <label><input type="checkbox" name="urine" value="প্রসাব আটকে যাওয়া"> প্রসাব আটকে যাওয়া</label>
+                        <label><input type="checkbox" name="urine" value="প্রসাব কঠিন বা কষ্টসাধ্য"> প্রসাব কঠিন বা কষ্টসাধ্য</label>
+                        <label><input type="checkbox" name="urine" value="প্রসাবের পরে অস্বস্তি"> প্রসাবের পরে অস্বস্তি</label>
+                        <label><input type="checkbox" name="urine" value="গন্ধহীন"> গন্ধহীন</label>
+                        <label><input type="checkbox" name="urine" value="তীব্র দুর্গন্ধ"> তীব্র দুর্গন্ধ</label>
+                        <label><input type="checkbox" name="urine" value="ঝাজালো"> ঝাজালো</label>
+                        <label><input type="checkbox" name="urine" value="অস্বাভাবিক গন্ধ"> অস্বাভাবিক গন্ধ</label>
+                        <label><input type="checkbox" name="urine" value="দুর্গন্ধযুক্ত প্রসাব"> দুর্গন্ধযুক্ত প্রসাব</label>
+                        <label><input type="checkbox" name="urine" value="তলানি"> তলানি</label>
+                        <label><input type="checkbox" name="urine" value="ঘোলা"> ঘোলা</label>
+                        <label><input type="checkbox" name="urine" value="বর্ণহীন"> বর্ণহীন</label>
+                        <label><input type="checkbox" name="urine" value="হলুদ"> হলুদ</label>
+                        <label><input type="checkbox" name="urine" value="গাঢ় হলুদ"> গাঢ় হলুদ</label>
+                        <label><input type="checkbox" name="urine" value="লালচে রঙ"> লালচে রঙ</label>
+                    </div>
+                </div>
+
+                <!-- ৪৪. রাগ -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪৪. রাগ সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="anger" value="স্বাভাবিক"> স্বাভাবিক</label>
+                        <label><input type="checkbox" name="anger" value="রাগ নেই"> রাগ নেই</label>
+                        <label><input type="checkbox" name="anger" value="অত্যাধিক রাগ"> অত্যাধিক</label>
+                        <label><input type="checkbox" name="anger" value="খিটখিটে"> খিটখিটে</label>
+                        <label><input type="checkbox" name="anger" value="বদমেজাজী"> বদমেজাজী</label>
+                        <label><input type="checkbox" name="anger" value="সহজে রাগ ওঠে"> সহজে</label>
+                        <label><input type="checkbox" name="anger" value="হঠাৎ রাগ ওঠে"> হঠাৎ করে</label>
+                        <label><input type="checkbox" name="anger" value="কারণ ছাড়া রাগ ওঠে"> কারণ ছাড়া</label>
+                        <label><input type="checkbox" name="anger" value="নিজের মত না হলে রাগে"> নিজের মত না হলে</label>
+                        <label><input type="checkbox" name="anger" value="বিরক্তির ফলে রাগ"> বিরক্তির ফলে</label>
+                        <label><input type="checkbox" name="anger" value="রাগলে চিৎকার করে"> রাগলে চিৎকার করে</label>
+                        <label><input type="checkbox" name="anger" value="রাগলে মারতে ইচ্ছে হয়"> রাগলে মারতে ইচ্ছে হয়</label>
+                        <label><input type="checkbox" name="anger" value="রাগলে জিনিস ছুঁড়ে ফেলে"> রাগলে জিনিস ছুঁড়ে ফেলে</label>
+                    </div>
+                </div>
+
+                <!-- ৪৫. টেনশন -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪৫. টেনশন সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="stress" value="ভবিষ্যত চিন্তা"> ভবিষ্যত চিন্তা</label>
+                        <label><input type="checkbox" name="stress" value="বর্তমান পরিস্থিতিতে"> বর্তমান পরিস্থিতিতে</label>
+                        <label><input type="checkbox" name="stress" value="কাজের চাপ"> কাজের চাপ</label>
+                        <label><input type="checkbox" name="stress" value="কারন ছাড়াই"> কারন ছাড়াই</label>
+                        <label><input type="checkbox" name="stress" value="আর্থিক কারনে"> আর্থিক কারনে</label>
+                        <label><input type="checkbox" name="stress" value="ব্যাবসার কারনে"> ব্যাবসার কারনে</label>
+                        <label><input type="checkbox" name="stress" value="চাকুরীর কারনে"> চাকুরীর কারনে</label>
+                        <label><input type="checkbox" name="stress" value="পরিবারের কারনে"> পরিবারের কারনে</label>
+                        <label><input type="checkbox" name="stress" value="পারিবারিক চাপ"> পারিবারিক চাপ</label>
+                        <label><input type="checkbox" name="stress" value="চাপের কারনে"> চাপের কারনে</label>
+                        <label><input type="checkbox" name="stress" value="পড়াশুনার কারনে"> পড়াশুনার কারনে</label>
+                        <label><input type="checkbox" name="stress" value="লোকদের সাথে কথা বলার সময়"> লোকদের সাথে কথা বলার সময়</label>
+                    </div>
+                </div>
+
+                <!-- ৪৬. ভয় -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪৬. ভয় সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="fear" value="ভুতের"> ভুতের</label>
+                        <label><input type="checkbox" name="fear" value="অন্ধকারের"> অন্ধকারের</label>
+                        <label><input type="checkbox" name="fear" value="কুকুরের"> কুকুরের</label>
+                        <label><input type="checkbox" name="fear" value="সাপের"> সাপের</label>
+                        <label><input type="checkbox" name="fear" value="দুর্ঘটনার"> দুর্ঘটনার</label>
+                        <label><input type="checkbox" name="fear" value="মৃত্যুর"> মৃত্যুর</label>
+                        <label><input type="checkbox" name="fear" value="খারাপ কিছুর"> খারাপ কিছুর</label>
+                        <label><input type="checkbox" name="fear" value="খারাপ খবর শোনার"> খারাপ খবর শোনার</label>
+                        <label><input type="checkbox" name="fear" value="যেন পিছনে কেউ আছে"> যেন পিছনে কেউ আছে</label>
+                        <label><input type="checkbox" name="fear" value="জনতার মাঝে যেতে"> জনতার মাঝে যেতে</label>
+                        <label><input type="checkbox" name="fear" value="আসন্ন বিপদের"> আসন্ন বিপদের</label>
+                        <label><input type="checkbox" name="fear" value="দারিদ্র্যের"> দারিদ্র্যের</label>
+                        <label><input type="checkbox" name="fear" value="জল ভয়"> জল ভয়</label>
+                        <label><input type="checkbox" name="fear" value="পরীক্ষার ভয়"> পরীক্ষার ভয়</label>
+                        <label><input type="checkbox" name="fear" value="সাধারণ ভয়"> সাধারণ ভয়</label>
+                        <label><input type="checkbox" name="fear" value="অতি ভয়প্রবণ"> অতি ভয়প্রবণ</label>
+                        <label><input type="checkbox" name="fear" value="সকালে"> সকালে</label>
+                        <label><input type="checkbox" name="fear" value="দুপুরে"> দুপুরে</label>
+                        <label><input type="checkbox" name="fear" value="বিকালে"> বিকালে</label>
+                        <label><input type="checkbox" name="fear" value="সন্ধ্যায়"> সন্ধ্যায়</label>
+                        <label><input type="checkbox" name="fear" value="রাতে"> রাতে</label>
+                    </div>
+                </div>
+
+                <!-- ৪৭. স্বপ্ন -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪৭. স্বপ্ন সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="dreams" value="অস্পষ্ট স্বপ্ন"> অস্পষ্ট স্বপ্ন</label>
+                        <label><input type="checkbox" name="dreams" value="আগুন"> আগুন</label>
+                        <label><input type="checkbox" name="dreams" value="ভূত প্রেত"> ভূত প্রেত</label>
+                        <label><input type="checkbox" name="dreams" value="স্বজনদের মৃত্যু দেখে"> স্বজনদের মৃত্যু দেখে</label>
+                        <label><input type="checkbox" name="dreams" value="লাশ"> লাশ</label>
+                        <label><input type="checkbox" name="dreams" value="হত্যা"> হত্যা</label>
+                        <label><input type="checkbox" name="dreams" value="দুর্ঘটনা"> দুর্ঘটনা</label>
+                        <label><input type="checkbox" name="dreams" value="বোমা"> বোমা</label>
+                        <label><input type="checkbox" name="dreams" value="অন্ধকার"> অন্ধকার</label>
+                        <label><input type="checkbox" name="dreams" value="গান গায়"> গান গায়</label>
+                        <label><input type="checkbox" name="dreams" value="সাঁতার কাটে"> সাঁতার কাটে</label>
+                        <label><input type="checkbox" name="dreams" value="জল"> জল</label>
+                        <label><input type="checkbox" name="dreams" value="নৌকা"> নৌকা</label>
+                        <label><input type="checkbox" name="dreams" value="দাত পড়িয়া যাইতেছে"> দাত পড়িয়া যাইতেছে</label>
+                        <label><input type="checkbox" name="dreams" value="বিভিন্ন কাজ যা শেষ হয়না"> বিভিন্ন কাজ যা শেষ হয়না</label>
+                        <label><input type="checkbox" name="dreams" value="যৌন কর্ম"> যৌন কর্ম</label>
+                        <label><input type="checkbox" name="dreams" value="ঝগড়া করে"> ঝগড়া করে</label>
+                        <label><input type="checkbox" name="dreams" value="উড়ে যায়"> উড়ে যায়</label>
+                        <label><input type="checkbox" name="dreams" value="পরিয়া যাইতেছে"> পরিয়া যাইতেছে</label>
+                        <label><input type="checkbox" name="dreams" value="ফেরেস্তা"> ফেরেস্তা</label>
+                        <label><input type="checkbox" name="dreams" value="কাদিতেছে"> কাদিতেছে</label>
+                        <label><input type="checkbox" name="dreams" value="চোর-ডাকাত"> চোর-ডাকাত</label>
+                        <label><input type="checkbox" name="dreams" value="রক্ত"> রক্ত</label>
+                        <label><input type="checkbox" name="dreams" value="প্রাণী"> প্রাণী</label>
+                        <label><input type="checkbox" name="dreams" value="পাখি"> পাখি</label>
+                        <label><input type="checkbox" name="dreams" value="বিড়াল"> বিড়াল</label>
+                        <label><input type="checkbox" name="dreams" value="সর্প"> সর্প</label>
+                        <label><input type="checkbox" name="dreams" value="কুকুর"> কুকুর</label>
+                        <label><input type="checkbox" name="dreams" value="ইদুর"> ইদুর</label>
+                        <label><input type="checkbox" name="dreams" value="পিপড়া"> পিপড়া</label>
+                    </div>
+                </div>
+
+                <!-- ৪৮. স্মৃতি ও কথা বলার ভঙ্গিমা -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪৮. স্মৃতি ও কথা বলার ভঙ্গিমা সম্পর্কিত লক্ষণসমূহ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="memoryspeech" value="মনে রাখার শক্তি প্রখর"> মনে রাখার শক্তি প্রখর</label>
+                        <label><input type="checkbox" name="memoryspeech" value="মনে রাখার শক্তি দুর্বল"> মনে রাখার শক্তি দুর্বল</label>
+                        <label><input type="checkbox" name="memoryspeech" value="ভুলে যাওয়ার সমস্যা"> ভুলে যাওয়ার সমস্যা</label>
+                        <label><input type="checkbox" name="memoryspeech" value="নাম মনে না থাকা"> নাম মনে না থাকা</label>
+                        <label><input type="checkbox" name="memoryspeech" value="জিনিস রাখার জায়গা ভুল"> জিনিস রাখার জায়গা ভুল</label>
+                        <label><input type="checkbox" name="memoryspeech" value="মনোযোগ কম"> মনোযোগ কম</label>
+                        <label><input type="checkbox" name="memoryspeech" value="মানসিক বিভ্রান্তি"> মানসিক বিভ্রান্তি</label>
+                        <label><input type="checkbox" name="memoryspeech" value="ভুল সিদ্ধান্ত নেওয়া"> ভুল সিদ্ধান্ত নেওয়া</label>
+                        <label><input type="checkbox" name="memoryspeech" value="দ্রুত ভাবনা হারানো"> দ্রুত ভাবনা হারানো</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">কথা বলার ভঙ্গিমা</p>
+                        <label><input type="checkbox" name="memoryspeech" value="কথা বলার ইচ্ছা করে"> কথা বলার ইচ্ছা করে</label>
+                        <label><input type="checkbox" name="memoryspeech" value="কথা বলার ইচ্ছা করেনা"> কথা বলার ইচ্ছা করেনা</label>
+                        <label><input type="checkbox" name="memoryspeech" value="বাচাল"> বাচাল</label>
+                        <label><input type="checkbox" name="memoryspeech" value="উচ্চ শব্দে কথা বলে"> উচ্চ শব্দে কথা বলে</label>
+                        <label><input type="checkbox" name="memoryspeech" value="কথা বলে দ্রুত"> কথা বলে দ্রুত</label>
+                        <label><input type="checkbox" name="memoryspeech" value="কথা বলে ধীরে"> কথা বলে ধীরে</label>
+                        <label><input type="checkbox" name="memoryspeech" value="কথা বলে অনিচ্ছায়"> কথা বলে অনিচ্ছায়</label>
+                        <label><input type="checkbox" name="memoryspeech" value="কথা বলে মনোযোগ সহকারে"> কথা বলে মনোযোগ সহকারে</label>
+                        <label><input type="checkbox" name="memoryspeech" value="কথা বলে অসংলগ্ন ভাবে"> কথা বলে অসংলগ্ন ভাবে</label>
+                        <label><input type="checkbox" name="memoryspeech" value="প্রশ্নটি পুনরাবৃত্তি করে"> প্রশ্নটি পুনরাবৃত্তি করে</label>
+                        <label><input type="checkbox" name="memoryspeech" value="সংক্ষিপ্ত উত্তর"> সংক্ষিপ্ত উত্তর</label>
+                        <label><input type="checkbox" name="memoryspeech" value="প্রশ্নে বিরক্তি দেখানো"> প্রশ্নে বিরক্তি দেখানো</label>
+                    </div>
+                </div>
+
+                <!-- ৪৯. গোসল, তাপমাত্রা ও সামাজিক -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৪৯. গোসল, তাপমাত্রার প্রভাব ও লোকজনের সাহচার্য</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">গোসল করতে ইচ্ছা হয় কী, গোসলে রোগ বাড়ে বা কমে?</p>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="গোসলের ইচ্ছা"> গোসলের ইচ্ছা</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="গোসলের অনিচ্ছা"> গোসলের অনিচ্ছা</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="গোসলে ভয়"> গোসলে ভয়</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="গোসলে রোগ বৃদ্ধি"> গোসলে রোগ বৃদ্ধি</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="গোসলে রোগ উপশম"> গোসলে রোগ উপশম</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">ঠান্ডা নাকি গরম ভালো লাগে</p>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="ঠান্ডা লাগার প্রবনতা"> ঠান্ডা লাগার প্রবনতা</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="গরম ঠান্ডা উভয় কাতর"> গরম ঠান্ডা উভয় কাতর</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="গড়ম ঠান্ডা উভয়ই ভালো লাগে"> গরম ঠান্ডা উভয়ই ভালো লাগে</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">একা থাকতে ভালো লাগে নাকি বন্ধুদের সাথে</p>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="নিরিবিলি থাকতে ভাল লাগে"> নিরিবিলি থাকতে ভাল লাগে</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="বন্ধুদের সাথে আড্ডা দিতে ইচ্ছা"> বন্ধুদের সাথে আড্ডা দিতে ইচ্ছা</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="বন্ধুত্বপূর্ণ"> বন্ধুত্বপূর্ণ</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="নতুন মানুষের সঙ্গে কুশলতা কম"> নতুন মানুষের সঙ্গে কুশলতা কম</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="লাজুক"> লাজুক</label>
+                        <label><input type="checkbox" name="bathtemperaturesocial" value="অন্যের দুঃখে সহমর্মিতা"> অন্যের দুঃখে সহমর্মিতা</label>
+                    </div>
+                </div>
+
+                <!-- ৫০. রোগীর লিঙ্গ, শারীরিক গঠন ও মায়াজম -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৫০. রোগীর লিঙ্গ, শারীরিক গঠন ও মায়াজম</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="body_type" value="পুরুষ"> পুরুষ</label>
+                        <label><input type="checkbox" name="body_type" value="মহিলা"> মহিলা</label>
+                        <label><input type="checkbox" name="body_type" value="শিশু"> শিশু</label>
+                        <label><input type="checkbox" name="body_type" value="কিশোর"> কিশোর</label>
+                        <label><input type="checkbox" name="body_type" value="যুবক"> যুবক</label>
+                        <label><input type="checkbox" name="body_type" value="বৃদ্ধ"> বৃদ্ধ</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">শারীরিক গঠন</p>
+                        <label><input type="checkbox" name="body_type" value="স্থূল গঠন"> স্থূল গঠন</label>
+                        <label><input type="checkbox" name="body_type" value="থলথলে"> থলথলে</label>
+                        <label><input type="checkbox" name="body_type" value="দুর্বল গঠন"> দুর্বল গঠন</label>
+                        <label><input type="checkbox" name="body_type" value="পেট মোটা"> পেট মোটা</label>
+                        <label><input type="checkbox" name="body_type" value="লম্বা গঠন"> লম্বা গঠন</label>
+                        <label><input type="checkbox" name="body_type" value="খাটো গঠন"> খাটো গঠন</label>
+                        <label><input type="checkbox" name="body_type" value="অপুষ্টিজনিত গঠন"> অপুষ্টিজনিত গঠন</label>
+                        <label><input type="checkbox" name="body_type" value="শীর্ণতা প্রবন মানুষ"> শীর্ণতা প্রবন মানুষ</label>
+                        <label><input type="checkbox" name="body_type" value="শরীর ঠান্ডা প্রকৃতির"> শরীর ঠান্ডা প্রকৃতির</label>
+                        <label><input type="checkbox" name="body_type" value="শরীর গরম প্রকৃতির"> শরীর গরম প্রকৃতির</label>
+                        <label><input type="checkbox" name="body_type" value="হাত-পা ঠান্ডা"> হাত-পা ঠান্ডা</label>
+                        <label><input type="checkbox" name="body_type" value="চোখের নিচে দাগ"> চোখের নিচে দাগ</label>
+                        <label><input type="checkbox" name="body_type" value="রক্ত সঞ্চয় প্রবণ মানুষ"> রক্ত সঞ্চয় প্রবণ মানুষ</label>
+                        <p style="width:100%; font-weight:600; color:#00b8a9;">মায়াজম ও স্বভাব</p>
+                        <label><input type="checkbox" name="body_type" value="সাইকোসিস মায়াজম"> সাইকোসিস মায়াজম</label>
+                        <label><input type="checkbox" name="body_type" value="সিফিলিস মায়াজম"> সিফিলিস মায়াজম</label>
+                        <label><input type="checkbox" name="body_type" value="সোরা মায়াজম"> সোরা মায়াজম</label>
+                        <label><input type="checkbox" name="body_type" value="অস্থির"> অস্থির</label>
+                        <label><input type="checkbox" name="body_type" value="অকাল বার্ধক্য"> অকাল বার্ধক্য</label>
+                        <label><input type="checkbox" name="body_type" value="অলস"> অলস</label>
+                    </div>
+                </div>
+
+                <!-- ৫১. রোগীর নাম, ঠিকানা, বয়স, ফোন -->
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>৫১. রোগীর নাম, ঠিকানা, বয়স, ফোন নম্বর</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="section-content">
+                        <textarea name="pationtinfo" placeholder="রোগীর নাম, ঠিকানা, বয়স, ফোন নম্বর লিখুন..."></textarea>
+                    </div>
+                </div>
+
+                <!-- ===== বাটন কন্টেইনার (JS ডায়নামিক্যালি তৈরি করবে) ===== -->
+                <div id="button-container"></div>
+
+            </form>
+
+            <!-- ===== রেজাল্ট বক্স ===== -->
+            <div id="result"></div>
+
+            <!-- ===== ফুটার নোট ===== -->
+            <div class="footer-note">
+                🌿 হোমিওপ্যাথি চিকিৎসকদের জন্য তৈরি — AI-সহায়তা বিশ্লেষণ ও প্রেসক্রিপশন
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ===== হেডার/ফুটার লোড ===== -->
+    <script>
+        $(function(){
+            $('#header-placeholder').load('assets/header.html', function() {
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') 
+                            ? '<i class="fas fa-bars"></i>' 
+                            : '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
+            
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+    </script>
+
+    <script>
+        // পেইড পেজের জন্য
+        checkAccess('paid');
+    </script>
+
+    <!-- ===== কপি প্রটেকশন স্ক্রিপ্ট ===== -->
+    <script>
+        // ============================================================
+        // ১. রাইট-ক্লিক (Context Menu) বন্ধ করা
+        // ============================================================
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // ============================================================
+        // ২. কী-বোর্ড শর্টকাট বন্ধ করা (Ctrl+C, Ctrl+A, Ctrl+U, Ctrl+S)
+        // ============================================================
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey || e.metaKey) {
+                const key = e.key.toLowerCase();
+                const forbiddenKeys = ['c', 'a', 'u', 's', 'p'];
+                if (forbiddenKeys.includes(key)) {
+                    e.preventDefault();
+                    return false;
+                }
+            }
+            if (e.key === 'F12') {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        // ============================================================
+        // ৩. সিলেক্ট বন্ধ করা (মাউস ড্র্যাগ)
+        // ============================================================
+        document.addEventListener('selectstart', function(e) {
+            const tagName = e.target.tagName.toLowerCase();
+            if (tagName !== 'textarea' && tagName !== 'input') {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        console.log('✅ কপি প্রটেকশন সক্রিয়!');
+    </script>
+
+</body>
+</html>
