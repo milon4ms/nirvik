@@ -32,6 +32,34 @@
     <style>
         body { 
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE */
+            user-select: none; /* Standard */
+        }
+
+        /* রেজাল্ট এলাকা কপি প্রটেক্ট */
+        #result {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* টেক্সট এরিয়া ও ইনপুট ফিল্ড - ইউজার যেন টাইপ করতে পারে */
+        textarea, input[type="text"], input[type="email"], input[type="password"] {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        /* চেকবক্স ও লেবেল - সিলেক্ট বন্ধ */
+        .checkbox-group label {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
         
         .container-custom {
@@ -1143,6 +1171,55 @@
 
     <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
     <div id="footer-placeholder"></div>
+
+    <!-- ===== কপি প্রটেকশন স্ক্রিপ্ট ===== -->
+    <script>
+        // ============================================================
+        // ১. রাইট-ক্লিক (Context Menu) বন্ধ করা
+        // ============================================================
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // ============================================================
+        // ২. কী-বোর্ড শর্টকাট বন্ধ করা (Ctrl+C, Ctrl+A, Ctrl+U, Ctrl+S)
+        // ============================================================
+        document.addEventListener('keydown', function(e) {
+            // Ctrl কী প্রেস করা আছে কিনা চেক করুন
+            if (e.ctrlKey || e.metaKey) {
+                const key = e.key.toLowerCase();
+                
+                // নিষিদ্ধ শর্টকাট
+                const forbiddenKeys = ['c', 'a', 'u', 's', 'p'];
+                
+                if (forbiddenKeys.includes(key)) {
+                    e.preventDefault();
+                    return false;
+                }
+            }
+            
+            // F12 বন্ধ (ডেভেলপার টুলস)
+            if (e.key === 'F12') {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        // ============================================================
+        // ৩. সিলেক্ট বন্ধ করা (মাউস ড্র্যাগ)
+        // ============================================================
+        document.addEventListener('selectstart', function(e) {
+            // টেক্সট এরিয়া ও ইনপুট ফিল্ড ছাড়া সব জায়গায় সিলেক্ট বন্ধ
+            const tagName = e.target.tagName.toLowerCase();
+            if (tagName !== 'textarea' && tagName !== 'input') {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        console.log('✅ কপি প্রটেকশন সক্রিয়!');
+    </script>
 
     <!-- ===== হেডার/ফুটার লোড ===== -->
     <script>
