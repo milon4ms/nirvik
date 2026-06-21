@@ -12,12 +12,12 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
-    <!-- 🔥 Firebase SDK (Compat) – শুধুমাত্র এই পেজে -->
+    <!-- Firebase SDK (Compat) -->
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore-compat.js"></script>
     
-    <!-- Firebase কনফিগারেশন -->
+    <!-- Firebase Config -->
     <script src="assets/js/firebase-config.js"></script>
 
     <style>
@@ -29,6 +29,12 @@
         .btn-login { background: linear-gradient(135deg, #00b8a9, #00897b); color: white; padding: 14px; border: none; border-radius: 12px; width: 100%; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s; }
         .btn-login:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,184,169,0.3); }
         .btn-login:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+        .btn-google { background: white; color: #444; border: 2px solid #ddd; padding: 14px; border-radius: 12px; width: 100%; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s; display: flex; align-items: center; justify-content: center; gap: 12px; }
+        .btn-google:hover { background: #f1f1f1; border-color: #bbb; }
+        .btn-google img { width: 24px; height: 24px; }
+        .divider { display: flex; align-items: center; margin: 20px 0; }
+        .divider::before, .divider::after { content: ''; flex: 1; border-bottom: 1px solid #e2e8f0; }
+        .divider span { padding: 0 12px; color: #a0aec0; font-size: 14px; }
         .error-msg { background: #fed7d7; color: #c53030; padding: 12px; border-radius: 10px; display: none; margin-top: 10px; }
         .success-msg { background: #c6f6d5; color: #276749; padding: 12px; border-radius: 10px; display: none; margin-top: 10px; }
     </style>
@@ -38,15 +44,17 @@
     <!-- ===== হেডার ===== -->
     <div id="header-placeholder"></div>
 
-    <!-- ===== ফর্ম ===== -->
+    <!-- ===== লগইন ফর্ম ===== -->
     <div class="login-container px-4">
         <div class="login-box">
+            <!-- হেডার -->
             <div class="text-center mb-8">
                 <div class="text-5xl mb-4">🔐</div>
                 <h1 class="text-3xl font-bold text-gray-800">স্বাগতম</h1>
                 <p class="text-gray-500 mt-2">আপনার অ্যাকাউন্টে লগইন করুন</p>
             </div>
 
+            <!-- ===== ফর্ম ===== -->
             <form id="loginForm">
                 <div class="mb-4">
                     <label class="block text-gray-700 font-medium mb-2">📧 ইমেইল</label>
@@ -63,15 +71,27 @@
                 <button type="submit" class="btn-login" id="loginBtn">
                     <i class="fas fa-sign-in-alt mr-2"></i> লগইন করুন
                 </button>
-
-                <p class="text-center mt-6 text-gray-600">
-                    অ্যাকাউন্ট নেই? 
-                    <a href="register.html" class="text-teal-600 font-bold">রেজিস্ট্রেশন করুন</a>
-                </p>
-                <p class="text-center mt-3 text-gray-500 text-sm">
-                    <a href="index.html" class="hover:text-teal-600">🏠 হোম পেজে ফিরে যান</a>
-                </p>
             </form>
+
+            <!-- ===== ডিভাইডার ===== -->
+            <div class="divider">
+                <span>অথবা</span>
+            </div>
+
+            <!-- ===== Google বাটন ===== -->
+            <button id="googleLoginBtn" class="btn-google">
+                <i class="fab fa-google text-2xl" style="color: #ea4335;"></i>
+                Google দিয়ে লগইন করুন
+            </button>
+
+            <!-- ===== লিংক ===== -->
+            <p class="text-center mt-6 text-gray-600">
+                অ্যাকাউন্ট নেই? 
+                <a href="register.html" class="text-teal-600 font-bold hover:text-teal-700">রেজিস্ট্রেশন করুন</a>
+            </p>
+            <p class="text-center mt-3 text-gray-500 text-sm">
+                <a href="index.html" class="hover:text-teal-600">🏠 হোম পেজে ফিরে যান</a>
+            </p>
         </div>
     </div>
 
@@ -96,7 +116,7 @@
             $('#footer-placeholder').load('assets/footer.html');
         });
 
-        // ===== লগইন ফাংশন =====
+        // ===== Email/Password লগইন =====
         document.getElementById('loginForm').addEventListener('submit', async (e) => {
             e.preventDefault();
 
@@ -106,51 +126,18 @@
             const errorMsg = document.getElementById('errorMsg');
             const successMsg = document.getElementById('successMsg');
 
-            // হাইড বার্তা
             errorMsg.style.display = 'none';
             successMsg.style.display = 'none';
 
-            // বাটন ডিজেবল
             btn.disabled = true;
             btn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> লগইন হচ্ছে...';
 
             try {
-                // Firebase-এ লগইন
                 const userCredential = await firebase.auth().signInWithEmailAndPassword(email, password);
                 const user = userCredential.user;
-
-                // Firestore থেকে ইউজার ডেটা নেওয়া
-                const docRef = firebase.firestore().collection('users').doc(user.uid);
-                const docSnap = await docRef.get();
-
-                if (docSnap.exists) {
-                    const userData = docSnap.data();
-                    
-                    // localStorage-এ ইউজার ডেটা সেভ
-                    localStorage.setItem('user', JSON.stringify({
-                        uid: user.uid,
-                        email: user.email,
-                        name: userData.name || 'ইউজার',
-                        role: userData.role || 'general',
-                        isPaid: userData.isPaid || false
-                    }));
-
-                    // সাফল্য
-                    successMsg.style.display = 'block';
-                    
-                    // রোল অনুযায়ী রিডাইরেক্ট
-                    setTimeout(() => {
-                        if (userData.isPaid) {
-                            window.location.href = 'paid-dashboard.html';
-                        } else {
-                            window.location.href = 'dashboard.html';
-                        }
-                    }, 1500);
-
-                } else {
-                    throw new Error('ইউজার ডেটা পাওয়া যায়নি!');
-                }
-
+                await handleUserLogin(user);
+                successMsg.style.display = 'block';
+                setTimeout(() => redirectUser(user.uid), 1500);
             } catch (error) {
                 errorMsg.textContent = '❌ ' + error.message;
                 errorMsg.style.display = 'block';
@@ -158,6 +145,77 @@
                 btn.innerHTML = '<i class="fas fa-sign-in-alt mr-2"></i> লগইন করুন';
             }
         });
+
+        // ===== Google লগইন =====
+        document.getElementById('googleLoginBtn').addEventListener('click', async () => {
+            const btn = document.getElementById('googleLoginBtn');
+            const errorMsg = document.getElementById('errorMsg');
+            const successMsg = document.getElementById('successMsg');
+
+            errorMsg.style.display = 'none';
+            successMsg.style.display = 'none';
+
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Google-এ সংযুক্ত হচ্ছে...';
+
+            try {
+                const provider = new firebase.auth.GoogleAuthProvider();
+                const result = await firebase.auth().signInWithPopup(provider);
+                const user = result.user;
+                await handleUserLogin(user);
+                successMsg.style.display = 'block';
+                setTimeout(() => redirectUser(user.uid), 1500);
+            } catch (error) {
+                errorMsg.textContent = '❌ ' + error.message;
+                errorMsg.style.display = 'block';
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fab fa-google text-2xl" style="color: #ea4335;"></i> Google দিয়ে লগইন করুন';
+            }
+        });
+
+        // ===== সাধারণ ফাংশন =====
+        async function handleUserLogin(user) {
+            // Firestore থেকে ইউজার ডেটা নেওয়া/তৈরি করা
+            const docRef = firebase.firestore().collection('users').doc(user.uid);
+            const docSnap = await docRef.get();
+
+            if (docSnap.exists) {
+                const userData = docSnap.data();
+                localStorage.setItem('user', JSON.stringify({
+                    uid: user.uid,
+                    email: user.email,
+                    name: userData.name || user.displayName || 'ইউজার',
+                    role: userData.role || 'general',
+                    isPaid: userData.isPaid || false
+                }));
+            } else {
+                // নতুন ইউজার – ডকুমেন্ট তৈরি করুন (ডিফল্ট রোল general)
+                const newUser = {
+                    uid: user.uid,
+                    email: user.email,
+                    name: user.displayName || 'ইউজার',
+                    role: 'general',
+                    isPaid: false,
+                    createdAt: firebase.firestore.FieldValue.serverTimestamp()
+                };
+                await docRef.set(newUser);
+                localStorage.setItem('user', JSON.stringify(newUser));
+            }
+        }
+
+        function redirectUser(uid) {
+            const userStr = localStorage.getItem('user');
+            if (userStr) {
+                const userData = JSON.parse(userStr);
+                if (userData.isPaid) {
+                    window.location.href = 'paid-dashboard.html';
+                } else {
+                    window.location.href = 'dashboard.html';
+                }
+            } else {
+                window.location.href = 'dashboard.html';
+            }
+        }
     </script>
 
 </body>
