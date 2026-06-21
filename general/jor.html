@@ -8,9 +8,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
-    
-    <!-- jQuery (হেডার-ফুটার লোডের জন্য) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <style>
         body { 
@@ -306,7 +303,7 @@
                 <p>রোগীর সম্পূর্ণ লক্ষণ সংগ্রহ ও AI-সহায়তা বিশ্লেষণ</p>
             </div>
 
-            <!-- ===== ফর্ম ===== -->
+            <!-- ===== ফর্ম (সমস্ত সেকশন সহ) ===== -->
             <form id="symptomForm">
 
                 <!-- ১. রোগের বর্ণনা -->
@@ -1629,7 +1626,7 @@
                     </div>
                 </div>
 
-                <!-- ===== বাটন কন্টেইনার (JS ডায়নামিক্যালি তৈরি করবে) ===== -->
+                <!-- ===== বাটন কন্টেইনার ===== -->
                 <div id="button-container"></div>
 
             </form>
@@ -1647,7 +1644,9 @@
     <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
     <div id="footer-placeholder"></div>
 
-    <!-- ===== সব ফাংশনালিটি ===== -->
+    <!-- ============================================================ -->
+    <!-- ===== স্ক্রিপ্টস ===== -->
+    <!-- ============================================================ -->
     <script>
         // =================================================================
         // ১. সেকশন টগল
@@ -1812,7 +1811,7 @@
         }
 
         // =================================================================
-        // ৬. AI টুলস ফাংশন
+        // ৬. AI টুলস
         // =================================================================
         function openGemini() { window.open('https://gemini.google.com/', '_blank'); }
         function openChatGPT() { window.open('https://chat.openai.com/', '_blank'); }
@@ -1874,55 +1873,85 @@
         }
 
         // =================================================================
-        // ৮. হেডার-ফুটার লোড
+        // ৮. রোবাস্ট হেডার-ফুটার লোডার (fetch ব্যবহার)
         // =================================================================
-        function loadHeaderFooter() {
-            $('#header-placeholder').load('assets/header.html', function(response, status, xhr) {
-                if (status === 'error') {
-                    console.warn('হেডার লোড করতে সমস্যা:', xhr.status, xhr.statusText);
-                    $('#header-placeholder').html('<header style="background:#00b8a9; padding:10px; color:white; text-align:center;">হেডার লোড করা সম্ভব হয়নি</header>');
-                } else {
-                    const btn = document.getElementById('mobile-menu-btn');
-                    const menu = document.getElementById('mobile-menu');
-                    if (btn && menu) {
-                        btn.addEventListener('click', function() {
-                            menu.classList.toggle('hidden');
-                            btn.innerHTML = menu.classList.contains('hidden') ? '<i class="fas fa-bars"></i>' : '<i class="fas fa-times"></i>';
-                        });
-                    }
+        async function loadComponent(url, placeholderId, fallbackHtml) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const html = await response.text();
+                document.getElementById(placeholderId).innerHTML = html;
+            } catch (error) {
+                console.warn(`${url} লোড করতে সমস্যা:`, error);
+                if (fallbackHtml) {
+                    document.getElementById(placeholderId).innerHTML = fallbackHtml;
                 }
-            });
-
-            $('#footer-placeholder').load('assets/footer.html', function(response, status, xhr) {
-                if (status === 'error') {
-                    console.warn('ফুটার লোড করতে সমস্যা:', xhr.status, xhr.statusText);
-                    $('#footer-placeholder').html('<footer style="background:#0d5c3a; padding:10px; color:white; text-align:center;">ফুটার লোড করা সম্ভব হয়নি</footer>');
-                }
-            });
+            }
         }
 
         // =================================================================
         // ৯. DOM রেডি
         // =================================================================
         document.addEventListener('DOMContentLoaded', function() {
-            document.querySelectorAll('.checkbox-group').forEach(g => { g.classList.remove('open'); g.style.display = 'none'; });
-            document.querySelectorAll('.section-content').forEach(c => { c.classList.remove('open'); c.style.display = 'none'; });
+            // ৯.১: সব চেকবক্স ও সেকশন কন্টেন্ট বন্ধ
+            document.querySelectorAll('.checkbox-group').forEach(g => {
+                g.classList.remove('open');
+                g.style.display = 'none';
+            });
+            document.querySelectorAll('.section-content').forEach(c => {
+                c.classList.remove('open');
+                c.style.display = 'none';
+            });
 
+            // ৯.২: ফর্ম সাবমিট
             const form = document.getElementById('symptomForm');
             if (form) {
-                form.addEventListener('submit', function(e) { e.preventDefault(); displayResult(); });
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    displayResult();
+                });
             }
 
+            // ৯.৩: বাটন তৈরি
             createButtons();
-            loadHeaderFooter();
 
-            // কপি প্রটেকশন
+            // ৯.৪: হেডার-ফুটার লোড (রোবাস্ট)
+            loadComponent(
+                'assets/header.html',
+                'header-placeholder',
+                `<header style="background:#00b8a9; padding:14px 20px; color:white; display:flex; justify-content:space-between; align-items:center;">
+                    <h2 style="margin:0; font-size:20px;">🌿 নির্বিক হোমিও</h2>
+                    <nav style="display:flex; gap:16px; font-size:14px;">
+                        <a href="index.html" style="color:white; text-decoration:none;">হোম</a>
+                        <a href="select.html" style="color:white; text-decoration:none;">সেবাসমূহ</a>
+                        <a href="login.html" style="color:white; text-decoration:none;">লগইন</a>
+                    </nav>
+                </header>`
+            );
+
+            loadComponent(
+                'assets/footer.html',
+                'footer-placeholder',
+                `<footer style="background:#0d5c3a; padding:12px; color:white; text-align:center;">
+                    <p style="margin:0;">© ২০২৬ নির্বিক হোমিও — প্রাকৃতিক নিরাময়ে বিশ্বাসী</p>
+                </footer>`
+            );
+
+            // ৯.৫: কপি প্রটেকশন
             document.addEventListener('contextmenu', e => e.preventDefault());
             document.addEventListener('keydown', function(e) {
-                if (e.ctrlKey || e.metaKey) { const key = e.key.toLowerCase(); if (['c', 'a', 'u', 's', 'p'].includes(key)) e.preventDefault(); }
+                if (e.ctrlKey || e.metaKey) {
+                    const key = e.key.toLowerCase();
+                    if (['c', 'a', 'u', 's', 'p'].includes(key)) {
+                        e.preventDefault();
+                    }
+                }
                 if (e.key === 'F12') e.preventDefault();
             });
-            document.addEventListener('selectstart', function(e) { const tag = e.target.tagName.toLowerCase(); if (tag !== 'textarea' && tag !== 'input') e.preventDefault(); });
+            document.addEventListener('selectstart', function(e) {
+                const tag = e.target.tagName.toLowerCase();
+                if (tag !== 'textarea' && tag !== 'input') e.preventDefault();
+            });
 
             console.log('✅ সব ফাংশনালিটি সক্রিয় হয়েছে!');
         });
