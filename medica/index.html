@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>মেটেরিয়া মেডিকা - নির্ভীক হোমিও</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        /* কাস্টম স্ক্রলবার */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #0d9488;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+
+    <!-- 🏷️ হেডার/ব্যানার সেকশন -->
+    <div class="bg-gradient-to-r from-teal-700 to-cyan-800 text-white py-12 px-4 shadow-inner text-center">
+        <div class="max-w-4xl mx-auto">
+            <a href="../index.html" class="inline-flex items-center gap-2 text-teal-200 hover:text-white transition text-sm font-medium mb-4">
+                <i class="fas fa-arrow-left"></i> প্রধান মেনুতে ফিরুন
+            </a>
+            <h1 class="text-3xl md:text-4xl font-bold tracking-wide">📖 হোমিওপ্যাথিক মেটেরিয়া মেডিকা</h1>
+            <p class="text-teal-100/90 mt-2 text-base md:text-lg">সহজে বর্ণানুক্রমিকভাবে ঔষধের লক্ষণ ও কার্যকারিতা খুঁজুন</p>
+        </div>
+    </div>
+
+    <!-- 🗂️ A-Z কুইক নেভিগেশন ইনডেক্স বার -->
+    <div class="sticky top-0 bg-white/95 backdrop-blur-md shadow-md z-40 border-b border-slate-200 py-4 px-2">
+        <div class="max-w-6xl mx-auto">
+            <p class="text-center text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">কুইক জাম্প মেনু</p>
+            <div class="flex flex-wrap justify-center gap-1.5 md:gap-2 max-w-3xl mx-auto">
+                <!-- বর্ণমালার লিংক (যেসব অক্ষর সচল সেগুলোতে সরাসরি জাম্প করবে) -->
+                <a href="#letter-A" class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white transition shadow-sm border border-teal-100">A</a>
+                <a href="#letter-B" class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white transition shadow-sm border border-teal-100">B</a>
+                <a href="#letter-C" class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white transition shadow-sm border border-teal-100">C</a>
+                <a href="#letter-D" class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white transition shadow-sm border border-teal-100">D</a>
+                <a href="#letter-E" class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white transition shadow-sm border border-teal-100">E</a>
+                <a href="#letter-F" class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white transition shadow-sm border border-teal-100">F</a>
+                
+                <!-- বাকি অক্ষরগুলো খালি বা অফলাইন দেখানোর স্টাইল (ভবিষ্যতের জন্য প্রস্তুত) -->
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">G</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">H</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">I</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">J</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">K</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">L</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">M</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">N</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">O</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">P</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">Q</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">R</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">S</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">T</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">U</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">V</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">W</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">X</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">Y</span>
+                <span class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center font-bold text-sm md:text-base rounded-xl bg-slate-100 text-slate-400 cursor-not-allowed">Z</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 💊 ঔষধের তালিকা মেইন কন্টেন্ট -->
+    <main class="flex-grow max-w-5xl w-full mx-auto px-4 py-8">
+        <div class="space-y-10">
+
+            <!-- 🅰️ 'A' ক্যাটাগরি -->
+            <section id="letter-A" class="bg-white rounded-3xl p-6 shadow-sm border border-slate-100 scroll-mt-24">
+                <div class="flex items-center gap-3 border-b border-slate-100 pb-4 mb-4">
+                    <span class="text-2xl font-bold bg-teal-600 text-white w-10 h-10 flex items-center justify-center rounded-2xl">A</span>
+                    <h2 class="text-xl font-bold text-slate-700">A অক্ষর দ্বারা শুরু ঔষধসমূহ</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                    <a href="aconite.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Aconite Napellus</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                    <a href="arnica.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Arnica Montana</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                    <a href="arsenic.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Arsenic Album</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 🅱️ 'B' ক্যাটাগরি -->
+            <section id="letter-B" class="bg-white rounded-3xl p-6 shadow-sm border border-slate-100 scroll-mt-24">
+                <div class="flex items-center gap-3 border-b border-slate-100 pb-4 mb-4">
+                    <span class="text-2xl font-bold bg-teal-600 text-white w-10 h-10 flex items-center justify-center rounded-2xl">B</span>
+                    <h2 class="text-xl font-bold text-slate-700">B অক্ষর দ্বারা শুরু ঔষধসমূহ</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                    <a href="belladonna.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Belladonna</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                    <a href="bryonia.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Bryonia Alba</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 🅲 'C' ক্যাটাগরি -->
+            <section id="letter-C" class="bg-white rounded-3xl p-6 shadow-sm border border-slate-100 scroll-mt-24">
+                <div class="flex items-center gap-3 border-b border-slate-100 pb-4 mb-4">
+                    <span class="text-2xl font-bold bg-teal-600 text-white w-10 h-10 flex items-center justify-center rounded-2xl">C</span>
+                    <h2 class="text-xl font-bold text-slate-700">C অক্ষর দ্বারা শুরু ঔষধসমূহ</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                    <a href="calcarea.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Calcarea Carbonica</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                    <a href="china.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">China Officinalis</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 🅳 'D' ক্যাটাগরি -->
+            <section id="letter-D" class="bg-white rounded-3xl p-6 shadow-sm border border-slate-100 scroll-mt-24">
+                <div class="flex items-center gap-3 border-b border-slate-100 pb-4 mb-4">
+                    <span class="text-2xl font-bold bg-teal-600 text-white w-10 h-10 flex items-center justify-center rounded-2xl">D</span>
+                    <h2 class="text-xl font-bold text-slate-700">D অক্ষর দ্বারা শুরু ঔষধসমূহ</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                    <a href="digitalis.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Digitalis Purpurea</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                    <a href="drosera.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Drosera Rotundifolia</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                    <a href="dulcamara.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Dulcamara</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 🅴 'E' ক্যাটাগরি -->
+            <section id="letter-E" class="bg-white rounded-3xl p-6 shadow-sm border border-slate-100 scroll-mt-24">
+                <div class="flex items-center gap-3 border-b border-slate-100 pb-4 mb-4">
+                    <span class="text-2xl font-bold bg-teal-600 text-white w-10 h-10 flex items-center justify-center rounded-2xl">E</span>
+                    <h2 class="text-xl font-bold text-slate-700">E অক্ষর দ্বারা শুরু ঔষধসমূহ</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                    <a href="echinacea.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Echinacea Angustifolia</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                    <a href="equisetum.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Equisetum Hyemale</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                    <a href="eupatorium.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Eupatorium Perfoliatum</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 🅵 'F' ক্যাটাগরি -->
+            <section id="letter-F" class="bg-white rounded-3xl p-6 shadow-sm border border-slate-100 scroll-mt-24">
+                <div class="flex items-center gap-3 border-b border-slate-100 pb-4 mb-4">
+                    <span class="text-2xl font-bold bg-teal-600 text-white w-10 h-10 flex items-center justify-center rounded-2xl">F</span>
+                    <h2 class="text-xl font-bold text-slate-700">F অক্ষর দ্বারা শুরু ঔষধসমূহ</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                    <a href="ferrum_phos.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Ferrum Phosphoricum</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                    <a href="ferrum_met.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Ferrum Metallicum</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                    <a href="fluoric_acid.html" class="flex items-center justify-between p-3 rounded-xl bg-slate-50 hover:bg-teal-50 border border-transparent hover:border-teal-200 transition group">
+                        <span class="font-medium group-hover:text-teal-700">Fluoricum Acidum</span>
+                        <i class="fas fa-chevron-right text-xs text-slate-400 group-hover:transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- 👣 ফুটার সেকশন -->
+    <footer class="bg-slate-900 text-slate-400 text-center py-6 border-t border-slate-800 text-sm mt-12">
+        <p>&copy; 2026 নির্ভীক হোমিও। সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+
+</body>
+</html>
