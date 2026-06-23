@@ -1,6 +1,6 @@
 <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
     <style>
-        /* ===== ড্রপডাউন যোগসূত্র (মাউস নিচে নামালেও মেনু থাকে) ===== */
+        /* ===== ড্রপডাউন যোগাযোগ সূত্র (মাউস নিচে নামালেও মেনু থাকে) ===== */
         .relative.group .absolute {
             top: calc(100% - 6px) !important;
             padding-top: 6px !important;
@@ -10,7 +10,7 @@
             padding-bottom: 4px;
         }
         /* ডেস্কটপে ড্রপডাউন মেনু খোলা রাখার নিশ্চয়তা */
-        .relative.group:hover .absolute {
+        .relative.group:hover > .absolute {
             display: block !important;
         }
         /* মোবাইলে সরাসরি দেখানো বাটনগুলোর স্টাইল */
@@ -20,6 +20,18 @@
         }
         .mobile-menu-btn:hover {
             background: rgba(255,255,255,0.25);
+        }
+        
+        /* 📝 পিসির জন্য ডানপাশের সাবমেনু (Nested Dropdown) স্টাইল */
+        .nested-dropdown {
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            margin-left: 2px;
+        }
+        .nested-parent:hover .nested-dropdown {
+            display: block !important;
         }
     </style>
     
@@ -39,7 +51,7 @@
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
                         <a href="jor.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-temperature-high mr-2 text-teal-600"></i>জ্বর সর্দি কাশি</a>
                         <a href="pain.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-bolt mr-2 text-teal-600"></i>ব্যথা</a>
                         <a href="tumor.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-circle mr-2 text-teal-600"></i>টিউমার</a>
@@ -55,7 +67,7 @@
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
                         <a href="head.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-brain mr-2 text-teal-600"></i>মাথা</a>
                         <a href="eyes.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-eye mr-2 text-teal-600"></i>চোখ</a>
                         <a href="ear.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-ear-listen mr-2 text-teal-600"></i>কান</a>
@@ -69,11 +81,11 @@
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
-                        <a href="chest.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-lungs mr-2 text-teal-600"></i>বুক সমস্যা</a>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                        <a href="chest.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-lungs mr-2 text-teal-600"></i>বुक সমস্যা</a>
                         <a href="hands.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-hand mr-2 text-teal-600"></i>হাতের সমস্যা</a>
                         <a href="back.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-spine mr-2 text-teal-600"></i>পিঠ</a>
-                        <a href="stomach.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-stomach mr-2 text-teal-600"></i>پাকস্থলী</a>
+                        <a href="stomach.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-stomach mr-2 text-teal-600"></i>পাকস্থলী</a>
                     </div>
                 </div>
 
@@ -81,7 +93,7 @@
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
                         <a href="piles.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-circle-dot mr-2 text-teal-600"></i>অর্শ</a>
                         <a href="urethral.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-droplet mr-2 text-teal-600"></i>মূত্রনালী</a>
                         <a href="leg.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-shoe-prints mr-2 text-teal-600"></i>পা</a>
@@ -93,15 +105,47 @@
                 </div>
 
                 <div class="relative group">
-                    <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
+                    <a href="medica.html" class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         মেডিকা <i class="fas fa-chevron-down text-xs"></i>
-                    </button>
-                    <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-64 mt-2">
-                        <div class="grid grid-cols-4 gap-1 px-4">
-                            <a href="medica.html?letter=A" class="block px-3 py-2 hover:bg-teal-50 rounded-lg text-center">A</a>
-                            <a href="medica.html?letter=B" class="block px-3 py-2 hover:bg-teal-50 rounded-lg text-center">B</a>
-                            <a href="medica.html?letter=C" class="block px-3 py-2 hover:bg-teal-50 rounded-lg text-center">C</a>
-                            <a href="medica.html?letter=D" class="block px-3 py-2 hover:bg-teal-50 rounded-lg text-center">D</a>
+                    </a>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-3 w-56 mt-2">
+                        <div class="flex flex-col max-h-[400px] overflow-y-auto px-2">
+                            
+                            <div class="nested-parent relative">
+                                <a href="medica.html?letter=A" class="flex items-center justify-between px-4 py-2 hover:bg-teal-50 rounded-xl transition">
+                                    <span>A</span> <i class="fas fa-chevron-right text-xs text-gray-400"></i>
+                                </a>
+                                <div class="nested-dropdown bg-white text-gray-800 shadow-2xl rounded-2xl py-2 w-48">
+                                    <a href="aconite.html" class="block px-4 py-2 hover:bg-teal-50 rounded-lg text-sm">Aconite Nap</a>
+                                    <a href="arnica.html" class="block px-4 py-2 hover:bg-teal-50 rounded-lg text-sm">Arnica Mont</a>
+                                    <a href="arsenic.html" class="block px-4 py-2 hover:bg-teal-50 rounded-lg text-sm">Arsenic Alb</a>
+                                </div>
+                            </div>
+
+                            <div class="nested-parent relative">
+                                <a href="medica.html?letter=B" class="flex items-center justify-between px-4 py-2 hover:bg-teal-50 rounded-xl transition">
+                                    <span>B</span> <i class="fas fa-chevron-right text-xs text-gray-400"></i>
+                                </a>
+                                <div class="nested-dropdown bg-white text-gray-800 shadow-2xl rounded-2xl py-2 w-48">
+                                    <a href="belladonna.html" class="block px-4 py-2 hover:bg-teal-50 rounded-lg text-sm">Belladonna</a>
+                                    <a href="bryonia.html" class="block px-4 py-2 hover:bg-teal-50 rounded-lg text-sm">Bryonia Alba</a>
+                                </div>
+                            </div>
+
+                            <div class="nested-parent relative">
+                                <a href="medica.html?letter=C" class="flex items-center justify-between px-4 py-2 hover:bg-teal-50 rounded-xl transition">
+                                    <span>C</span> <i class="fas fa-chevron-right text-xs text-gray-400"></i>
+                                </a>
+                                <div class="nested-dropdown bg-white text-gray-800 shadow-2xl rounded-2xl py-2 w-48">
+                                    <a href="calcarea.html" class="block px-4 py-2 hover:bg-teal-50 rounded-lg text-sm">Calcarea Carb</a>
+                                    <a href="china.html" class="block px-4 py-2 hover:bg-teal-50 rounded-lg text-sm">China Off</a>
+                                </div>
+                            </div>
+
+                            <a href="medica.html?letter=D" class="block px-4 py-2 hover:bg-teal-50 rounded-xl">D</a>
+                            <a href="medica.html?letter=E" class="block px-4 py-2 hover:bg-teal-50 rounded-xl">E</a>
+                            <a href="medica.html?letter=F" class="block px-4 py-2 hover:bg-teal-50 rounded-xl">F</a>
+
                         </div>
                     </div>
                 </div>
@@ -110,7 +154,7 @@
                     <a href="login.html" class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         লগ ইন <i class="fas fa-chevron-down text-xs"></i>
                     </a>
-                    <div class="absolute hidden group-hover:block bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-56 mt-2 right-0">
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-56 mt-2 right-0">
                         <a href="register.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-plus mr-2"></i>রেজিস্ট্রেশন</a>
                         <a href="dashboard.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-circle mr-2"></i>আমার প্রোফাইল</a>
                         <a href="#" class="block px-6 py-3 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
@@ -122,7 +166,7 @@
                 <a href="select.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
                     সাধারণ রোগ
                 </a>
-                <a href="medica-database.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
+                <a href="medica.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
                     মেডিকা
                 </a>
                 <button id="mobile-menu-btn" class="text-xl p-1.5 text-white hover:bg-white/10 rounded-lg transition focus:outline-none">
@@ -146,7 +190,7 @@
                     <a href="tumor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">⭕ টিউমার</a>
                     <a href="abscess.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">💧 ফোঁড়া</a>
                     <a href="pressure.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🍽️ প্রেসার গ্রন্থি শিরা</a>
-                    <a href="bloodbonemuscle.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">Bone রক্ত হাড় পেশী</a>
+                    <a href="bloodbonemuscle.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🦴 রক্ত হাড় পেশী</a>
                     <a href="mental.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🧠 মানসিক রোগ সকল</a>
                     <a href="skin.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">✋ চর্মরোগ</a>
                 </div>
@@ -210,11 +254,10 @@
 
             if (menuBtn && mobileMenu) {
                 menuBtn.addEventListener('click', function(e) {
-                    e.stopPropagation(); // ক্লিক অ্যাকশন যেন বাইরে পাস না হয়
+                    e.stopPropagation();
                     mobileMenu.classList.toggle('hidden');
                 });
 
-                // মেনুর বাইরে ক্লিক করলে যেন মোবাইল মেনু বন্ধ হয়ে যায়
                 document.addEventListener('click', function(e) {
                     if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
                         mobileMenu.classList.add('hidden');
