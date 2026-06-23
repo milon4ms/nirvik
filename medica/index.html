@@ -1,26 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nirvik Homeo - Dashboard</title>
+    <title>নির্ভীক হোমিও - হোমিওপ্যাথিক মেটেরিয়া মেডিকা</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons (যদি মেনুর আইকন বা সার্চ আইকন লাগে) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="bg-gray-50 font-sans antialiased">
 
-    <div id="header-container" class="bg-slate-900 text-white shadow-md relative z-50"></div>
+    <!-- 📥 হেডার বা মেনুবার কন্টেইনার (ফিক্সড ব্যাকগ্রাউন্ড ও শ্যাডো সহ) -->
+    <header id="header-container" class="bg-slate-900 text-white shadow-lg sticky top-0 z-50 transition-all duration-300">
+        <!-- assets/header.html ফাইলটি জাভাস্ক্রিপ্টের মাধ্যমে এখানে লোড হবে -->
+    </header>
 
+    <!-- 📢 ব্যানার বা হিরো সেকশন -->
+    <section class="bg-[#006A54] text-white py-12 px-4 text-center border-b-4 border-yellow-500">
+        <div class="max-w-4xl mx-auto flex flex-col items-center justify-center gap-3">
+            <h1 class="text-3xl md:text-5xl font-bold flex items-center gap-3">
+                📖 হোমিওপ্যাথিক মেটেরিয়া মেডিকা
+            </h1>
+            <p class="text-lg md:text-xl text-teal-100 font-medium">
+                সহজে বর্ণানুক্রমিকভাবে ওষুধের লক্ষণ ও কার্যকারিতা জানুন
+            </p>
+        </div>
+    </section>
+
+    <!-- 🎯 কুইক জাম্প মেনু (A-Z বাটন সেকশন) -->
     <main class="container mx-auto px-4 py-8">
-        </main>
+        <div class="text-center mb-6">
+            <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">কুইক জাম্প মেনু</h2>
+            
+            <!-- বাটন গ্রিড কন্টেইনার -->
+            <div id="alphabet-grid" class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+                <!-- জাভাস্ক্রিপ্ট দিয়ে বাটনগুলো ডাইনামিকালি তৈরি হবে -->
+            </div>
+        </div>
 
+        <!-- 📄 ওষুধের তালিকা বা অন্যান্য কন্টেন্ট এরিয়া -->
+        <div id="medicine-content" class="mt-8 bg-white rounded-lg shadow p-6 min-h-[300px] text-center text-gray-500">
+            উপরের যেকোনো অক্ষরে ক্লিক করে ওষুধের তালিকা দেখুন।
+        </div>
+    </main>
+
+    <!-- 🌐 ডাইনামিকালি ফাইল ও ডেটা লোড করার স্ক্রিপ্ট -->
     <script>
-        // ডাইনামিকালি হেডার ফাইল লোড করা
+        // ১. assets/header.html ফাইলটি লোড করার ফাংশন
         fetch('assets/header.html')
-            .then(response => response.text())
+            .then(response => {
+                if (!response.ok) throw new Error('হেডার ফাইলটি পাওয়া যায়নি।');
+                return response.text();
+            })
             .then(data => {
                 document.getElementById('header-container').innerHTML = data;
             })
-            .catch(error => console.error('Error loading header:', error));
+            .catch(error => {
+                console.error('Error loading header:', error);
+                // যদি ফাইল লোড না হয় তবে একটি ব্যাকআপ টেক্সট দেখাবে
+                document.getElementById('header-container').innerHTML = `
+                    <div class="p-4 text-center text-red-400">মেনুবার লোড হতে সমস্যা হয়েছে।</div>
+                `;
+            });
+
+        // ২. A থেকে R পর্যন্ত কুইক জাম্প বাটন ডাইনামিকালি তৈরি করা
+        const alphabetGrid = document.getElementById('alphabet-grid');
+        const startChar = 'A'.charCodeAt(0);
+        const endChar = 'R'.charCodeAt(0);
+
+        for (let i = startChar; i <= endChar; i++) {
+            const letter = String.fromCharCode(i);
+            const button = document.createElement('button');
+            
+            // ইমেজের মতো হুবহু রাউন্ডেড স্টাইলিশ বর্ডার ও হোভার ইফেক্ট
+            button.className = "w-11 h-11 flex items-center justify-center font-bold text-teal-700 bg-teal-50 border border-teal-200 rounded-2xl shadow-sm hover:bg-teal-600 hover:text-white hover:scale-105 transition-all duration-200 text-lg";
+            button.textContent = letter;
+            
+            // বাটনে ক্লিক করলে অ্যাকশন
+            button.addEventListener('click', () => {
+                document.getElementById('medicine-content').innerHTML = `
+                    <h3 class="text-2xl font-bold text-teal-600 mb-4">${letter} দিয়ে শুরু হওয়া ওষুধসমূহ</h3>
+                    <p class="text-gray-600">এখানে ওষুধগুলোর তালিকা ও বিস্তারিত বিবরণ লোড হবে।</p>
+                `;
+            });
+            
+            alphabetGrid.appendChild(button);
+        }
     </script>
 </body>
 </html>
