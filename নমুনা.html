@@ -1,0 +1,570 @@
+﻿<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  চর্ম সমস্যার কেসটেকিং  - নির্ভীক হোমিও</title>
+
+    <!-- ============================================================ -->
+    <!-- অ্যাক্সেস কন্ট্রোল – শুধুমাত্র পেইড ইউজার প্রবেশ করতে পারবে     -->
+    <!-- ============================================================ -->
+    <script src="assets/js/access-control.js"></script>
+    <script>
+        // পেজ লোড হওয়ার সাথে সাথেই পেইড চেক করুন
+        document.addEventListener('DOMContentLoaded', function() {
+            checkAccess('paid');
+        });
+    </script>
+
+    <!-- বাকি লাইব্রেরি ও কনফিগ -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/symptom-analyzer.js"></script>
+
+    <script>
+        tailwind.config = {
+            content: [],
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00b8a9',
+                        'primary-dark': '#00897b',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'SolaimanLipi', system-ui, sans-serif;
+            -webkit-user-select: none;
+            /* Safari */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* IE */
+            user-select: none;
+            /* Standard */
+        }
+
+        /* রেজাল্ট এলাকা কপি প্রটেক্ট */
+        #result {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* টেক্সট এরিয়া ও ইনপুট ফিল্ড - ইউজার যেন টাইপ করতে পারে */
+        textarea,
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        /* চেকবক্স ও লেবেল - সিলেক্ট বন্ধ */
+        .checkbox-group label {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .container-custom {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            padding: 30px;
+        }
+
+        .page-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 25px;
+        }
+
+        .page-header h1 {
+            font-size: 28px;
+            color: #2d3748;
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .page-header p {
+            color: #718096;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        /* ===== সেকশন স্টাইল ===== */
+        .section {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        .section:hover {
+            border-color: #00b8a9;
+        }
+
+        .section h3 {
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            color: white;
+            font-size: 18px;
+            padding: 12px 18px;
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .section h3:hover {
+            background: linear-gradient(135deg, #00897b, #00695c);
+        }
+
+        .section h3 .arrow {
+            font-size: 12px;
+            transition: transform 0.3s;
+            display: inline-block;
+        }
+
+        .section h3 .arrow.open {
+            transform: rotate(180deg);
+        }
+
+        .checkbox-group {
+            padding: 16px 20px;
+            display: none;
+            flex-wrap: wrap;
+            gap: 8px 16px;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .checkbox-group.open {
+            display: flex;
+        }
+
+        .checkbox-group label {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            color: #2d3748;
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 6px;
+            transition: background 0.15s;
+        }
+
+        .checkbox-group label:hover {
+            background: #edf2f7;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            width: 16px;
+            height: 16px;
+            accent-color: #00b8a9;
+            cursor: pointer;
+        }
+
+        .section-content {
+            display: none;
+        }
+
+        .section-content.open {
+            display: block;
+        }
+
+        textarea,
+        input[type="text"] {
+            width: 100%;
+            padding: 10px 14px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 15px;
+            font-family: inherit;
+            transition: border-color 0.2s;
+            background: white;
+            margin: 0;
+        }
+
+        textarea:focus,
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #00b8a9;
+            box-shadow: 0 0 0 3px rgba(0, 184, 169, 0.1);
+        }
+
+        .section textarea {
+            border: none;
+            border-radius: 0;
+            padding: 16px 20px;
+            background: #f7fafc;
+        }
+
+        .section textarea:focus {
+            background: white;
+            box-shadow: inset 0 0 0 2px #00b8a9;
+        }
+
+        /* ===== বাটন স্টাইল (JS তৈরি করবে) ===== */
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 20px 0 10px;
+            padding: 16px 0;
+            border-top: 2px solid #e2e8f0;
+        }
+
+        .btn {
+            padding: 8px 14px;
+            font-size: 13px;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            font-family: inherit;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        .btn:active {
+            transform: scale(0.97);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            color: white;
+        }
+
+        .btn-copy {
+            background: #718096;
+            color: white;
+        }
+
+        .btn-gemini {
+            background: #4285f4;
+            color: white;
+        }
+
+        .btn-chatgpt {
+            background: #10a37f;
+            color: white;
+        }
+
+        .btn-grok {
+            background: #000000;
+            color: white;
+        }
+
+        .btn-deepseek {
+            background: #4a6cf7;
+            color: white;
+        }
+
+        .btn-perplexity {
+            background: #1f2937;
+            color: white;
+        }
+
+        .btn-pink {
+            background: linear-gradient(135deg, #d53f8c, #b83280);
+            color: white;
+        }
+
+        .btn-sm {
+            padding: 6px 12px;
+            font-size: 12px;
+            border-radius: 6px;
+        }
+
+        #result {
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 20px 24px;
+            min-height: 120px;
+            margin-top: 20px;
+            font-size: 15px;
+            line-height: 1.8;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            transition: all 0.3s;
+        }
+
+        #result:empty::before {
+            content: '📋 এখানে রোগ বিশ্লেষণ/প্রম্পট দেখাবে...';
+            color: #a0aec0;
+            font-style: italic;
+        }
+
+        #result h5 {
+            color: #00b8a9;
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        #result p {
+            margin-bottom: 6px;
+            padding: 4px 0;
+            border-bottom: 1px dashed #e2e8f0;
+        }
+
+        #result p strong {
+            color: #2d3748;
+            min-width: 140px;
+            display: inline-block;
+        }
+
+        .footer-note {
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 20px;
+            border-top: 2px solid #e2e8f0;
+            font-size: 13px;
+            color: #a0aec0;
+        }
+
+        @media (max-width: 700px) {
+            .container-custom {
+                padding: 16px;
+            }
+
+            .page-header h1 {
+                font-size: 22px;
+            }
+
+            .section h3 {
+                font-size: 16px;
+                padding: 10px 14px;
+            }
+
+            .checkbox-group {
+                padding: 12px 14px;
+                gap: 4px 10px;
+            }
+
+            .checkbox-group label {
+                font-size: 13px;
+            }
+
+            .btn {
+                padding: 6px 10px;
+                font-size: 11px;
+            }
+
+            .button-group {
+                gap: 6px;
+            }
+
+            #result p strong {
+                min-width: 100px;
+                display: inline;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
+
+    <!-- ===== হেডার প্লেসহোল্ডার ===== -->
+    <div id="header-placeholder"></div>
+
+    <!-- ===== মেইন কন্টেন্ট ===== -->
+    <main class="flex-1 container mx-auto px-4 py-8">
+        <div class="container-custom">
+
+            <!-- পেজ হেডার -->
+            <div class="page-header">
+                <h1> চর্ম সমস্যার কেসটেকিং </h1>
+                <p>রোগীর সম্পূর্ণ লক্ষণ সংগ্রহ ও AI-সহায়তা বিশ্লেষণ</p>
+            </div>
+
+            <!-- ===== ফর্ম ===== -->
+            <form id="symptomForm">
+
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১. রোগের বর্ণনা ও রোগের কারণ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <textarea name="diseaseDescription" style="width: 100%; min-height: 100px; padding: 10px; margin-top: 5px; box-sizing: border-box;"></textarea>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২.রোগ শুরুর সময়কাল</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input name="startedWhen" type="checkbox" value="১-৩ দিন"> ১-৩ দিন</label>
+                        <label><input name="startedWhen" type="checkbox" value="৪-২১দিন"> ৪-২১দিন</label>
+                        <label><input name="startedWhen" type="checkbox" value="১৫দিন-১মাস"> ১৫দিন-১মাস</label>
+                        <label><input name="startedWhen" type="checkbox" value="১মাস-৩মাস"> ১মাস-৩মাস</label>
+                        <label><input name="startedWhen" type="checkbox" value="অনেক পুরাতন"> অনেক পুরাতন</label>
+                        <label><input name="startedWhen" type="checkbox" value="হঠাৎ শুরু"> হঠাৎ শুরু</label>
+                        <label><input name="startedWhen" type="checkbox" value="ধীরে শুরু"> ধীরে শুরু</label><br>
+                        <label><input name="startedWhen" type="checkbox" value="গ্রীষ্মে শুরু"> গ্রীষ্মে</label>
+                        <label><input name="startedWhen" type="checkbox" value="বর্ষায় শুরু"> বর্ষায়</label>
+                        <label><input name="startedWhen" type="checkbox" value="শীতে শুরু"> শীতে</label>
+                        <label><input name="startedWhen" type="checkbox" value="শরতে শুরু"> শরতে</label>
+                        <label><input name="startedWhen" type="checkbox" value="হেমন্তে শুরু"> হেমন্তে</label>
+                        <label><input name="startedWhen" type="checkbox" value="সকালে শুরু"> সকালে</label>
+                        <label><input name="startedWhen" type="checkbox" value="দুপুরে শুরু"> দুপুরে</label>
+                        <label><input name="startedWhen" type="checkbox" value="বিকেলে শুরু"> বিকেলে</label>
+                        <label><input name="startedWhen" type="checkbox" value="সন্ধ্যায় শুরু"> সন্ধ্যায়</label>
+                        <label><input name="startedWhen" type="checkbox" value="মধ্যরাতে শুরু"> মধ্যরাতে</label>
+                        <label><input name="startedWhen" type="checkbox" value="ভোরে শুরু"> ভোরে</label>
+                        <label><input name="startedWhen" type="checkbox" value="ঘুম থেকে উঠলে শুরু"> ঘুম থেকে উঠলে</label>
+                        <label><input name="startedWhen" type="checkbox" value="ঘুমাতে গেলে শুরু"> ঘুমাতে গেলে</label>
+                    </div>
+                </div>
+
+               ***********
+
+                <div id="additional-sections-container"></div>
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        // রুট থেকে সরাসরি assets ফোল্ডারের ফাইলটিকে ফেচ করা হচ্ছে
+                        fetch('assets/snippets/section-31-to-50.html')
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error('স্নিপেট ফাইলটি খুঁজে পাওয়া যায়নি (404)');
+                                }
+                                return response.text();
+                            })
+                            .then(htmlData => {
+                                const container = document.getElementById('additional-sections-container');
+                                if (container) {
+                                    container.innerHTML = htmlData;
+                                    console.log('✅ Section 31 to 50 সফলভাবে লোড হয়েছে!');
+
+                                    // যদি স্নিপেট লোড হওয়ার পর ডিফল্টভাবে তাদের ভেতরের চেকবক্স গ্রুপগুলো বন্ধ রাখতে চান
+                                    container.querySelectorAll('.checkbox-group').forEach(group => {
+                                        group.style.display = 'none';
+                                        group.classList.remove('open');
+                                    });
+                                }
+                            })
+                            .catch(error => console.error('⚠️ স্নিপেট লোড করতে সমস্যা হয়েছে:', error));
+                    });
+                </script>
+
+                <!-- ===== বাটন কন্টেইনার (JS ডায়নামিক্যালি তৈরি করবে) ===== -->
+                <div id="button-container"></div>
+
+            </form>
+
+            <!-- ===== রেজাল্ট বক্স ===== -->
+            <div id="result"></div>
+
+            <!-- ===== ফুটার নোট ===== -->
+            <div class="footer-note">
+                🌿 হোমিওপ্যাথি চিকিৎসকদের জন্য তৈরি — AI-সহায়তা বিশ্লেষণ ও প্রেসক্রিপশন
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ===== কপি প্রটেকশন স্ক্রিপ্ট ===== -->
+    <script>
+        // ============================================================
+        // ১. রাইট-ক্লিক (Context Menu) বন্ধ করা
+        // ============================================================
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // ============================================================
+        // ২. কী-বোর্ড শর্টকাট বন্ধ করা (Ctrl+C, Ctrl+A, Ctrl+U, Ctrl+S)
+        // ============================================================
+        document.addEventListener('keydown', function(e) {
+            // Ctrl কী প্রেস করা আছে কিনা চেক করুন
+            if (e.ctrlKey || e.metaKey) {
+                const key = e.key.toLowerCase();
+
+                // নিষিদ্ধ শর্টকাট
+                const forbiddenKeys = ['c', 'a', 'u', 's', 'p'];
+
+                if (forbiddenKeys.includes(key)) {
+                    e.preventDefault();
+                    return false;
+                }
+            }
+
+            // F12 বন্ধ (ডেভেলপার টুলস)
+            if (e.key === 'F12') {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        // ============================================================
+        // ৩. সিলেক্ট বন্ধ করা (মাউস ড্র্যাগ)
+        // ============================================================
+        document.addEventListener('selectstart', function(e) {
+            // টেক্সট এরিয়া ও ইনপুট ফিল্ড ছাড়া সব জায়গায় সিলেক্ট বন্ধ
+            const tagName = e.target.tagName.toLowerCase();
+            if (tagName !== 'textarea' && tagName !== 'input') {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        console.log('✅ কপি প্রটেকশন সক্রিয়!');
+    </script>
+
+    <!-- ===== হেডার/ফুটার লোড ===== -->
+    <script>
+        $(function() {
+            $('#header-placeholder').load('assets/header.html', function() {
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') ?
+                            '<i class="fas fa-bars"></i>' :
+                            '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
+
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+    </script>
+
+</body>
+</html>
