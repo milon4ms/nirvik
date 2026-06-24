@@ -1,0 +1,881 @@
+﻿<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> চোখের সকল সমস্যার কেসটেকিং - নির্ভীক হোমিও</title>
+
+    <!-- ============================================================ -->
+    <!-- অ্যাক্সেস কন্ট্রোল – শুধুমাত্র পেইড ইউজার প্রবেশ করতে পারবে     -->
+    <!-- ============================================================ -->
+    <script src="assets/js/access-control.js"></script>
+    <script>
+        // পেজ লোড হওয়ার সাথে সাথেই পেইড চেক করুন
+        document.addEventListener('DOMContentLoaded', function() {
+            checkAccess('paid');
+        });
+    </script>
+
+    <!-- বাকি লাইব্রেরি ও কনফিগ -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/symptom-analyzer.js"></script>
+
+    <script>
+        tailwind.config = {
+            content: [],
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00b8a9',
+                        'primary-dark': '#00897b',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'SolaimanLipi', system-ui, sans-serif;
+            -webkit-user-select: none;
+            /* Safari */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* IE */
+            user-select: none;
+            /* Standard */
+        }
+
+        /* রেজাল্ট এলাকা কপি প্রটেক্ট */
+        #result {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* টেক্সট এরিয়া ও ইনপুট ফিল্ড - ইউজার যেন টাইপ করতে পারে */
+        textarea,
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        /* চেকবক্স ও লেবেল - সিলেক্ট বন্ধ */
+        .checkbox-group label {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .container-custom {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            padding: 30px;
+        }
+
+        .page-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 25px;
+        }
+
+        .page-header h1 {
+            font-size: 28px;
+            color: #2d3748;
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .page-header p {
+            color: #718096;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        /* ===== সেকশন স্টাইল ===== */
+        .section {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        .section:hover {
+            border-color: #00b8a9;
+        }
+
+        .section h3 {
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            color: white;
+            font-size: 18px;
+            padding: 12px 18px;
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .section h3:hover {
+            background: linear-gradient(135deg, #00897b, #00695c);
+        }
+
+        .section h3 .arrow {
+            font-size: 12px;
+            transition: transform 0.3s;
+            display: inline-block;
+        }
+
+        .section h3 .arrow.open {
+            transform: rotate(180deg);
+        }
+
+        .checkbox-group {
+            padding: 16px 20px;
+            display: none;
+            flex-wrap: wrap;
+            gap: 8px 16px;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .checkbox-group.open {
+            display: flex;
+        }
+
+        .checkbox-group label {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            color: #2d3748;
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 6px;
+            transition: background 0.15s;
+        }
+
+        .checkbox-group label:hover {
+            background: #edf2f7;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            width: 16px;
+            height: 16px;
+            accent-color: #00b8a9;
+            cursor: pointer;
+        }
+
+        .section-content {
+            display: none;
+        }
+
+        .section-content.open {
+            display: block;
+        }
+
+        textarea,
+        input[type="text"] {
+            width: 100%;
+            padding: 10px 14px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 15px;
+            font-family: inherit;
+            transition: border-color 0.2s;
+            background: white;
+            margin: 0;
+        }
+
+        textarea:focus,
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #00b8a9;
+            box-shadow: 0 0 0 3px rgba(0, 184, 169, 0.1);
+        }
+
+        .section textarea {
+            border: none;
+            border-radius: 0;
+            padding: 16px 20px;
+            background: #f7fafc;
+        }
+
+        .section textarea:focus {
+            background: white;
+            box-shadow: inset 0 0 0 2px #00b8a9;
+        }
+
+        /* ===== বাটন স্টাইল (JS তৈরি করবে) ===== */
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 20px 0 10px;
+            padding: 16px 0;
+            border-top: 2px solid #e2e8f0;
+        }
+
+        .btn {
+            padding: 8px 14px;
+            font-size: 13px;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            font-family: inherit;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        .btn:active {
+            transform: scale(0.97);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            color: white;
+        }
+
+        .btn-copy {
+            background: #718096;
+            color: white;
+        }
+
+        .btn-gemini {
+            background: #4285f4;
+            color: white;
+        }
+
+        .btn-chatgpt {
+            background: #10a37f;
+            color: white;
+        }
+
+        .btn-grok {
+            background: #000000;
+            color: white;
+        }
+
+        .btn-deepseek {
+            background: #4a6cf7;
+            color: white;
+        }
+
+        .btn-perplexity {
+            background: #1f2937;
+            color: white;
+        }
+
+        .btn-pink {
+            background: linear-gradient(135deg, #d53f8c, #b83280);
+            color: white;
+        }
+
+        .btn-sm {
+            padding: 6px 12px;
+            font-size: 12px;
+            border-radius: 6px;
+        }
+
+        #result {
+            background: #f7fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 20px 24px;
+            min-height: 120px;
+            margin-top: 20px;
+            font-size: 15px;
+            line-height: 1.8;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            transition: all 0.3s;
+        }
+
+        #result:empty::before {
+            content: '📋 এখানে রোগ বিশ্লেষণ/প্রম্পট দেখাবে...';
+            color: #a0aec0;
+            font-style: italic;
+        }
+
+        #result h5 {
+            color: #00b8a9;
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        #result p {
+            margin-bottom: 6px;
+            padding: 4px 0;
+            border-bottom: 1px dashed #e2e8f0;
+        }
+
+        #result p strong {
+            color: #2d3748;
+            min-width: 140px;
+            display: inline-block;
+        }
+
+        .footer-note {
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 20px;
+            border-top: 2px solid #e2e8f0;
+            font-size: 13px;
+            color: #a0aec0;
+        }
+
+        @media (max-width: 700px) {
+            .container-custom {
+                padding: 16px;
+            }
+
+            .page-header h1 {
+                font-size: 22px;
+            }
+
+            .section h3 {
+                font-size: 16px;
+                padding: 10px 14px;
+            }
+
+            .checkbox-group {
+                padding: 12px 14px;
+                gap: 4px 10px;
+            }
+
+            .checkbox-group label {
+                font-size: 13px;
+            }
+
+            .btn {
+                padding: 6px 10px;
+                font-size: 11px;
+            }
+
+            .button-group {
+                gap: 6px;
+            }
+
+            #result p strong {
+                min-width: 100px;
+                display: inline;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
+
+    <!-- ===== হেডার প্লেসহোল্ডার ===== -->
+    <div id="header-placeholder"></div>
+
+    <!-- ===== মেইন কন্টেন্ট ===== -->
+    <main class="flex-1 container mx-auto px-4 py-8">
+        <div class="container-custom">
+
+            <!-- পেজ হেডার -->
+            <div class="page-header">
+                <h1>চোখের সকল সমস্যার কেসটেকিং </h1>
+                <p>রোগীর সম্পূর্ণ লক্ষণ সংগ্রহ ও AI-সহায়তা বিশ্লেষণ</p>
+            </div>
+
+            <!-- ===== ফর্ম ===== -->
+            <form id="symptomForm">
+
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>১. রোগের বর্ণনা ও রোগের কারণ</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <textarea name="diseaseDescription" style="width: 100%; min-height: 100px; padding: 10px; margin-top: 5px; box-sizing: border-box;"></textarea>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3 onclick="toggleSection(this)">
+                        <span>২.রোগ শুরুর সময়কাল</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="checkbox-group">
+                        <label><input name="startedWhen" type="checkbox" value="১-৩ দিন"> ১-৩ দিন</label>
+                        <label><input name="startedWhen" type="checkbox" value="৪-২১দিন"> ৪-২১দিন</label>
+                        <label><input name="startedWhen" type="checkbox" value="১৫দিন-১মাস"> ১৫দিন-১মাস</label>
+                        <label><input name="startedWhen" type="checkbox" value="১মাস-৩মাস"> ১মাস-৩মাস</label>
+                        <label><input name="startedWhen" type="checkbox" value="অনেক পুরাতন"> অনেক পুরাতন</label>
+                        <label><input name="startedWhen" type="checkbox" value="হঠাৎ শুরু"> হঠাৎ শুরু</label>
+                        <label><input name="startedWhen" type="checkbox" value="ধীরে শুরু"> ধীরে শুরু</label><br>
+                        <label><input name="startedWhen" type="checkbox" value="গ্রীষ্মে শুরু"> গ্রীষ্মে</label>
+                        <label><input name="startedWhen" type="checkbox" value="বর্ষায় শুরু"> বর্ষায়</label>
+                        <label><input name="startedWhen" type="checkbox" value="শীতে শুরু"> শীতে</label>
+                        <label><input name="startedWhen" type="checkbox" value="শরতে শুরু"> শরতে</label>
+                        <label><input name="startedWhen" type="checkbox" value="হেমন্তে শুরু"> হেমন্তে</label>
+                        <label><input name="startedWhen" type="checkbox" value="সকালে শুরু"> সকালে</label>
+                        <label><input name="startedWhen" type="checkbox" value="দুপুরে শুরু"> দুপুরে</label>
+                        <label><input name="startedWhen" type="checkbox" value="বিকেলে শুরু"> বিকেলে</label>
+                        <label><input name="startedWhen" type="checkbox" value="সন্ধ্যায় শুরু"> সন্ধ্যায়</label>
+                        <label><input name="startedWhen" type="checkbox" value="মধ্যরাতে শুরু"> মধ্যরাতে</label>
+                        <label><input name="startedWhen" type="checkbox" value="ভোরে শুরু"> ভোরে</label>
+                        <label><input name="startedWhen" type="checkbox" value="ঘুম থেকে উঠলে শুরু"> ঘুম থেকে উঠলে</label>
+                        <label><input name="startedWhen" type="checkbox" value="ঘুমাতে গেলে শুরু"> ঘুমাতে গেলে</label>
+                    </div>
+                </div>
+
+              <!-- ৩. চোখের মূল সমস্যা -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>৩. চোখের মূল সমস্যা</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="eyeProblems" value="চোখ ওঠা (Conjunctivitis)"> চোখ ওঠা (Conjunctivitis)</label>
+        <label><input type="checkbox" name="eyeProblems" value="সংক্রমণজনিত সমস্যা (Infective Eye Problems)"> সংক্রমণজনিত সমস্যা (Infective Eye Problems)</label>
+        <label><input type="checkbox" name="eyeProblems" value="চোখের পাতার প্রদাহ (Blepharitis)"> চোখের পাতার প্রদাহ (Blepharitis)</label>
+        <label><input type="checkbox" name="eyeProblems" value="অঞ্জনি বা আঞ্জনি (Stye)"> অঞ্জনি বা আঞ্জনি (Stye)</label>
+        <label><input type="checkbox" name="eyeProblems" value="শুষ্ক চোখ (Dry Eye Syndrome)"> শুষ্ক চোখ (Dry Eye Syndrome)</label>
+        <label><input type="checkbox" name="eyeProblems" value="চোখের সাদা অংশে রক্তজমা (Subconjunctival Hemorrhage)"> চোখের সাদা অংশে রক্তজমা (Subconjunctival Hemorrhage)</label>
+        <label><input type="checkbox" name="eyeProblems" value="চোখের কর্নিয়ার আঘাত (Corneal Abrasion)"> চোখের কর্নিয়ার আঘাত (Corneal Abrasion)</label>
+        <label><input type="checkbox" name="eyeProblems" value="চোখে বাইরের বস্তু (Foreign Body in Eye)"> চোখে বাইরের বস্তু (Foreign Body in Eye)</label>
+        <label><input type="checkbox" name="eyeProblems" value="চোখের অ্যালার্জি (Eye Allergy)"> চোখের অ্যালার্জি (Eye Allergy)</label>
+        <label><input type="checkbox" name="eyeProblems" value="দৃষ্টিশক্তির সমস্যা (Vision Problems)"> দৃষ্টিশক্তির সমস্যা (Vision Problems)</label>
+        <label><input type="checkbox" name="eyeProblems" value="চোখের পাতার সমস্যা (Eyelid Problems)"> চোখের পাতার সমস্যা (Eyelid Problems)</label>
+        <label><input type="checkbox" name="eyeProblems" value="ছানি (Cataract)"> ছানি (Cataract)</label>
+        <label><input type="checkbox" name="eyeProblems" value="গ্লুকোমা (Glaucoma)"> গ্লুকোমা (Glaucoma)</label>
+        <label><input type="checkbox" name="eyeProblems" value="চোখে মাছি ভাসা (Floaters)"> চোখে মাছি ভাসা (Floaters)</label>
+        <label><input type="checkbox" name="eyeProblems" value="চোখের ক্লান্তি বা স্ট্রেস (Eye Strain or Stress)"> চোখের ক্লান্তি বা স্ট্রেস (Eye Strain or Stress)</label>
+        <label><input type="checkbox" name="eyeProblems" value="কর্নিয়ার অস্বচ্ছতা (Corneal Opacity)"> কর্নিয়ার অস্বচ্ছতা (Corneal Opacity)</label>
+        <label><input type="checkbox" name="eyeProblems" value="চোখের আঘাত পরবর্তী জটিলতা (Post-Traumatic Complications)"> চোখের আঘাত পরবর্তী জটিলতা (Post-Traumatic Complications)</label>
+    </div>
+</div>
+
+<!-- ৪. চোখে ব্যথা সম্পর্কিত -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>৪. চোখে ব্যথা সম্পর্কিত</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="eyePain" value="চোঁচানো ব্যথা"> চোঁচানো ব্যথা</label>
+        <label><input type="checkbox" name="eyePain" value="সূচ ফোটার মতো ব্যথা"> সূচ ফোটার মতো ব্যথা</label>
+        <label><input type="checkbox" name="eyePain" value="চাপ অনুভূতি"> চাপ অনুভূতি</label>
+        <label><input type="checkbox" name="eyePain" value="টান অনুভূতি"> টান অনুভূতি</label>
+        <label><input type="checkbox" name="eyePain" value="ধড়ফড় ব্যথা"> ধড়ফড় ব্যথা</label>
+        <label><input type="checkbox" name="eyePain" value="জ্বালা সহ ব্যথা"> জ্বালা সহ ব্যথা</label>
+        <label><input type="checkbox" name="eyePain" value="চোখ নড়ালে ব্যথা"> চোখ নড়ালে ব্যথা</label>
+        <label><input type="checkbox" name="eyePain" value="আলোয় তাকালে ব্যথা"> আলোয় তাকালে ব্যথা</label>
+        <label><input type="checkbox" name="eyePain" value="মাথায় ছড়িয়ে যাওয়া ব্যথা"> মাথায় ছড়িয়ে যাওয়া ব্যথা</label>
+    </div>
+</div>
+
+<!-- ৫. চোখ লাল হওয়া -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>৫. চোখ লাল হওয়া</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="eyeRedness" value="চোখের কোণে লাল"> চোখের কোণে লাল</label>
+        <label><input type="checkbox" name="eyeRedness" value="পুরো চোখ লাল"> পুরো চোখ লাল</label>
+        <label><input type="checkbox" name="eyeRedness" value="ব্যথা সহ লাল"> ব্যথা সহ লাল</label>
+        <label><input type="checkbox" name="eyeRedness" value="চুলকানি সহ লাল"> চুলকানি সহ লাল</label>
+        <label><input type="checkbox" name="eyeRedness" value="ঘুম কম হলে লাল"> ঘুম কম হলে লাল</label>
+        <label><input type="checkbox" name="eyeRedness" value="স্ক্রিনে বেশি দেখলে লাল"> স্ক্রিনে বেশি দেখলে লাল</label>
+    </div>
+</div>
+
+<!-- ৬. নিঃসরণ/পানি পড়া / চোখ ভেজা/শুকানো -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>৬. নিঃসরণ/পানি পড়া / চোখ ভেজা/শুকানো</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="eyeDischarge" value="বাতাসে পানি পড়ে"> বাতাসে পানি পড়ে</label>
+        <label><input type="checkbox" name="eyeDischarge" value="রোদে পানি পড়ে"> রোদে পানি পড়ে</label>
+        <label><input type="checkbox" name="eyeDischarge" value="ঠান্ডায় পানি পড়ে"> ঠান্ডায় পানি পড়ে</label>
+        <label><input type="checkbox" name="eyeDischarge" value="চোখ শুকিয়ে পরে পানি পড়ে"> চোখ শুকিয়ে পরে পানি পড়ে</label>
+        <label><input type="checkbox" name="eyeDischarge" value="খোলা বাতাসে বাড়ে"> খোলা বাতাসে বাড়ে</label>
+        <label><input type="checkbox" name="eyeDischarge" value="আঠালো পানি"> আঠালো পানি</label>
+        <label><input type="checkbox" name="eyeDischarge" value="স্বচ্ছ পানি"> স্বচ্ছ পানি</label>
+        <label><input type="checkbox" name="eyeDischarge" value="স্বচ্ছ নিঃসরণ"> স্বচ্ছ নিঃসরণ</label>
+        <label><input type="checkbox" name="eyeDischarge" value="পিচ্ছিল নিঃসরণ"> পিচ্ছিল নিঃসরণ</label>
+        <label><input type="checkbox" name="eyeDischarge" value="পুঁজযুক্ত নিঃসরণ"> পুঁজযুক্ত নিঃসরণ</label>
+        <label><input type="checkbox" name="eyeDischarge" value="হলুদ নিঃসরণ"> হলুদ নিঃসরণ</label>
+        <label><input type="checkbox" name="eyeDischarge" value="সকালে জমে থাকা নিঃসরণ"> সকালে জমে থাকা নিঃসরণ</label>
+        <label><input type="checkbox" name="eyeDischarge" value="রক্ত আসে"> রক্ত আসে</label>
+        <label><input type="checkbox" name="eyeDischarge" value="শুষ্ক অনুভূতি"> শুষ্ক অনুভূতি</label>
+        <label><input type="checkbox" name="eyeDischarge" value="স্ক্রিন দেখলে শুষ্কতা"> স্ক্রিন দেখলে শুষ্কতা</label>
+        <label><input type="checkbox" name="eyeDischarge" value="বালু-ধুলোর মতো অনুভূতি"> বালু-ধুলোর মতো অনুভূতি</label>
+        <label><input type="checkbox" name="eyeDischarge" value="ঘুম কম হলে চোখ শুকানো"> ঘুম কম হলে চোখ শুকানো</label>
+    </div>
+</div>
+
+<!-- ৭. চোখে চুলকান/জ্বালা / পোড়া অনুভূতি -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>৭. চোখে চুলকান/জ্বালা / পোড়া অনুভূতি</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="eyeItching" value="পাতায় চুলকানি"> পাতায় চুলকানি</label>
+        <label><input type="checkbox" name="eyeItching" value="চোখের কোণে চুলকানি"> চোখের কোণে চুলকানি</label>
+        <label><input type="checkbox" name="eyeItching" value="ধুলোয় চুলকানি বাড়ে"> ধুলোয় চুলকানি বাড়ে</label>
+        <label><input type="checkbox" name="eyeItching" value="ঘষলে আরাম"> ঘষলে আরাম</label>
+        <label><input type="checkbox" name="eyeItching" value="এলার্জিতে বাড়ে"> এলার্জিতে বাড়ে</label>
+        <label><input type="checkbox" name="eyeItching" value="পোড়া ভাব"> পোড়া ভাব</label>
+        <label><input type="checkbox" name="eyeItching" value="চুলকানি ছাড়া জ্বালা"> চুলকানি ছাড়া জ্বালা</label>
+        <label><input type="checkbox" name="eyeItching" value="গরমে বাড়ে"> গরমে বাড়ে</label>
+        <label><input type="checkbox" name="eyeItching" value="ঠান্ডায় আরাম"> ঠান্ডায় আরাম</label>
+        <label><input type="checkbox" name="eyeItching" value="ঘুম কম হলে জ্বালা"> ঘুম কম হলে জ্বালা</label>
+    </div>
+</div>
+
+<!-- ৮. আলোয় সমস্যা (ফটোফোবিয়া) -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>৮. আলোয় সমস্যা (ফটোফোবিয়া)</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="eyePhotophobia" value="আলোতে দৃষ্টি দিতে না পারা"> আলোতে দৃষ্টি দিতে না পারা</label>
+        <label><input type="checkbox" name="eyePhotophobia" value="রোদে কষ্ট"> রোদে কষ্ট</label>
+        <label><input type="checkbox" name="eyePhotophobia" value="আলোয় পানি পড়ে"> আলোয় পানি পড়ে</label>
+        <label><input type="checkbox" name="eyePhotophobia" value="আলোয় ব্যথা"> আলোয় ব্যথা</label>
+    </div>
+</div>
+
+<!-- ৯. দৃষ্টি সমস্যা -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>৯. দৃষ্টি সমস্যা</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="visionProblem" value="দূরের জিনিস অস্পষ্ট"> দূরের জিনিস অস্পষ্ট</label>
+        <label><input type="checkbox" name="visionProblem" value="দূরে তাকালে দৃষ্টি কুয়াশা ঢাকা"> দূরে তাকালে দৃষ্টি কুয়াশা ঢাকা</label>
+        <label><input type="checkbox" name="visionProblem" value="কাছে দেখতে সমস্যা"> কাছে দেখতে সমস্যা</label>
+        <label><input type="checkbox" name="visionProblem" value="ছোট লেখা পড়তে কষ্ট"> ছোট লেখা পড়তে কষ্ট</label>
+        <label><input type="checkbox" name="visionProblem" value="কাছে তাকালে চোখ ক্লান্ত হওয়া"> কাছে তাকালে চোখ ক্লান্ত হওয়া</label>
+        <label><input type="checkbox" name="visionProblem" value="ঝাপসা দেখা যায়"> ঝাপসা দেখা যায়</label>
+        <label><input type="checkbox" name="visionProblem" value="মাঝে মাঝে ঝাপসা হয়"> মাঝে মাঝে ঝাপসা হয়</label>
+        <label><input type="checkbox" name="visionProblem" value="ঘুম থেকে উঠলে ঝাপসা দেখা"> ঘুম থেকে উঠলে ঝাপসা দেখা</label>
+        <label><input type="checkbox" name="visionProblem" value="চোখে পানি এলে দৃষ্টি ঢেকে যাওয়া"> চোখে পানি এলে দৃষ্টি ঢেকে যাওয়া</label>
+        <label><input type="checkbox" name="visionProblem" value="আলো কম থাকলে কম দেখা যায়"> আলো কম থাকলে কম দেখা যায়</label>
+        <label><input type="checkbox" name="visionProblem" value="অল্প আলোতে দেখায় অসুবিধা"> অল্প আলোতে দেখায় অসুবিধা</label>
+        <label><input type="checkbox" name="visionProblem" value="সন্ধ্যায় দৃষ্টি দুর্বল হওয়া"> সন্ধ্যায় দৃষ্টি দুর্বল হওয়া</label>
+        <label><input type="checkbox" name="visionProblem" value="অন্ধকারে দৃষ্টি কমে যাওয়া"> অন্ধকারে দৃষ্টি কমে যাওয়া</label>
+        <label><input type="checkbox" name="visionProblem" value="চোখে কুয়াশা জমার মতো অনুভূতি হয়"> চোখে কুয়াশা জমার মতো অনুভূতি হয়</label>
+        <label><input type="checkbox" name="visionProblem" value="সকালে দৃষ্টি ঝাপসা"> সকালে দৃষ্টি ঝাপসা</label>
+        <label><input type="checkbox" name="visionProblem" value="সন্ধ্যায় দৃষ্টি খারাপ"> সন্ধ্যায় দৃষ্টি খারাপ</label>
+        <label><input type="checkbox" name="visionProblem" value="রাতে সমস্যা বাড়ে"> রাতে সমস্যা বাড়ে</label>
+        <label><input type="checkbox" name="visionProblem" value="স্ক্রিন দেখলে সমস্যা বাড়ে"> স্ক্রিন দেখলে সমস্যা বাড়ে</label>
+        <label><input type="checkbox" name="visionProblem" value="পড়ার সময় বৃদ্ধি পায়"> পড়ার সময় বৃদ্ধি পায়</label>
+        <label><input type="checkbox" name="visionProblem" value="দুই চোখে দুটো দেখা"> দুই চোখে দুটো দেখা</label>
+        <label><input type="checkbox" name="visionProblem" value="চোখে দ্বিগুণ ছবি"> চোখে দ্বিগুণ ছবি</label>
+        <label><input type="checkbox" name="visionProblem" value="দৃষ্টি বিভক্ত মনে হওয়া"> দৃষ্টি বিভক্ত মনে হওয়া</label>
+        <label><input type="checkbox" name="visionProblem" value="জিনিস বাঁকা দেখা"> জিনিস বাঁকা দেখা</label>
+        <label><input type="checkbox" name="visionProblem" value="লেখার লাইন নড়াচড়া করা"> লেখার লাইন নড়াচড়া করা</label>
+        <label><input type="checkbox" name="visionProblem" value="বস্তুর আকার বিকৃত দেখায়"> বস্তুর আকার বিকৃত দেখায়</label>
+        <label><input type="checkbox" name="visionProblem" value="কিছুক্ষণ দেখলে চোখ ঝিমঝিম করে"> কিছুক্ষণ দেখলে চোখ ঝিমঝিম করে</label>
+        <label><input type="checkbox" name="visionProblem" value="দীর্ঘক্ষণ তাকালে ঝিমঝিম"> দীর্ঘক্ষণ তাকালে ঝিমঝিম</label>
+        <label><input type="checkbox" name="visionProblem" value="পড়ার সময় চোখ ভারী হওয়া"> পড়ার সময় চোখ ভারী হওয়া</label>
+        <label><input type="checkbox" name="visionProblem" value="মনোযোগ ধরে রাখতে কষ্ট"> মনোযোগ ধরে রাখতে কষ্ট</label>
+        <label><input type="checkbox" name="visionProblem" value="চোখ খুব দ্রুত ক্লান্ত হয়ে যায়"> চোখ খুব দ্রুত ক্লান্ত হয়ে যায়</label>
+        <label><input type="checkbox" name="visionProblem" value="পরিবারে চোখের সমস্যা"> পরিবারে চোখের সমস্যা</label>
+    </div>
+</div>
+
+<!-- ১০. চোখ ঢুলু ঢুলু / ভারী -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>১০. চোখ ঢুলু ঢুলু / ভারী</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="eyeHeaviness" value="চোখ ভারী লাগা"> চোখ ভারী লাগা</label>
+        <label><input type="checkbox" name="eyeHeaviness" value="চোখের পাতা ঝুলে পড়া"> চোখের পাতা ঝুলে পড়া</label>
+        <label><input type="checkbox" name="eyeHeaviness" value="অতিরিক্ত ক্লান্তি"> অতিরিক্ত ক্লান্তি</label>
+        <label><input type="checkbox" name="eyeHeaviness" value="কাজ করলে ভারী লাগে"> কাজ করলে ভারী লাগে</label>
+    </div>
+</div>
+
+<!-- ১১. চোখের পাতা সমস্যা/পাতা কম্পন/ অন্য বস্তু থাকার অনুভূতি -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>১১. চোখের পাতা সমস্যা/পাতা কম্পন/ অন্য বস্তু থাকার অনুভূতি</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="eyelidProblem" value="সকালে বেশি ফোলা"> সকালে বেশি ফোলা</label>
+        <label><input type="checkbox" name="eyelidProblem" value="ব্যথা সহ ফোলা"> ব্যথা সহ ফোলা</label>
+        <label><input type="checkbox" name="eyelidProblem" value="ঘুম থেকে উঠে পাতা আটকে যায়"> ঘুম থেকে উঠে পাতা আটকে যায়</label>
+        <label><input type="checkbox" name="eyelidProblem" value="আঠালো খোসা জমা"> আঠালো খোসা জমা</label>
+        <label><input type="checkbox" name="eyelidProblem" value="লাল ফোঁড়া"> লাল ফোঁড়া</label>
+        <label><input type="checkbox" name="eyelidProblem" value="ব্যথা সহ ফোঁড়া"> ব্যথা সহ ফোঁড়া</label>
+        <label><input type="checkbox" name="eyelidProblem" value="বারবার স্টাই হওয়া"> বারবার স্টাই হওয়া</label>
+        <label><input type="checkbox" name="eyelidProblem" value="নিচের পাতা কম্পন"> নিচের পাতা কম্পন</label>
+        <label><input type="checkbox" name="eyelidProblem" value="উপরের পাতা কম্পন"> উপরের পাতা কম্পন</label>
+        <label><input type="checkbox" name="eyelidProblem" value="ক্লান্তিতে বাড়ে"> ক্লান্তিতে বাড়ে</label>
+        <label><input type="checkbox" name="eyelidProblem" value="চাপের সময় বাড়ে"> চাপের সময় বাড়ে</label>
+        <label><input type="checkbox" name="eyelidProblem" value="ধুলো ঢুকেছে এমন অনুভূতি"> ধুলো ঢুকেছে এমন অনুভূতি</label>
+        <label><input type="checkbox" name="eyelidProblem" value="বালুর মতো অনুভূতি"> বালুর মতো অনুভূতি</label>
+        <label><input type="checkbox" name="eyelidProblem" value="ঘষলে বাড়ে"> ঘষলে বাড়ে</label>
+    </div>
+</div>
+
+<!-- ১২. মাথা ও চোখ -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>১২. মাথা ও চোখ</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="eyeHeadSymptoms" value="চোখের ব্যথা মাথায় ছড়ায়"> চোখের ব্যথা মাথায় ছড়ায়</label>
+        <label><input type="checkbox" name="eyeHeadSymptoms" value="চোখে চাপ দিলে মাথাব্যথা বাড়ে"> চোখে চাপ দিলে মাথাব্যথা বাড়ে</label>
+        <label><input type="checkbox" name="eyeHeadSymptoms" value="সাইনাসজনিত চোখে চাপ"> সাইনাসজনিত চোখে চাপ</label>
+    </div>
+</div>
+
+<!-- ১৩. অন্যান্য সমস্যা -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>১৩. অন্যান্য সমস্যা</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="otherEyeProblems" value="ঘুম কম হওয়া"> ঘুম কম হওয়া</label>
+        <label><input type="checkbox" name="otherEyeProblems" value="এলার্জির ইতিহাস"> এলার্জির ইতিহাস</label>
+        <label><input type="checkbox" name="otherEyeProblems" value="স্ক্রিন টাইম বেশি"> স্ক্রিন টাইম বেশি</label>
+        <label><input type="checkbox" name="otherEyeProblems" value="চোখে আঘাতের ইতিহাস"> চোখে আঘাতের ইতিহাস</label>
+        <label><input type="checkbox" name="otherEyeProblems" value="ডায়াবেটিস/বিপি সংক্রান্ত চোখের সমস্যা"> ডায়াবেটিস/বিপি সংক্রান্ত চোখের সমস্যা</label>
+        <label><input type="checkbox" name="otherEyeProblems" value="পরিবারের কারো চোখের রোগ"> পরিবারের কারো চোখের রোগ</label>
+    </div>
+</div>
+
+<!-- ১৪. চোখের অঞ্জনী সংক্রান্ত লক্ষণ গুলি -->
+<div class="section">
+    <h3 onclick="toggleSection(this)">
+        <span>১৪. চোখের অঞ্জনী সংক্রান্ত লক্ষণ গুলি</span>
+        <span class="arrow">▼</span>
+    </h3>
+    <div class="checkbox-group">
+        <h6>অঞ্জনীর অবস্থান:</h6>
+        <label><input type="checkbox" name="onjoni" value="ডান চোখে অঞ্জনী"> ডান চোখে অঞ্জনী</label>
+        <label><input type="checkbox" name="onjoni" value="বাম চোখে অঞ্জনী"> বাম চোখে অঞ্জনী</label>
+        <label><input type="checkbox" name="onjoni" value="উপর চোখের পাতায় অঞ্জনী"> উপর চোখের পাতায় অঞ্জনী</label>
+        <label><input type="checkbox" name="onjoni" value="নিচের পাতায় অঞ্জনী"> নিচের পাতায় অঞ্জনী</label>
+        <label><input type="checkbox" name="onjoni" value="পাপড়ির গোড়ায় অঞ্জনী"> পাপড়ির গোড়ায় অঞ্জনী</label>
+        <label><input type="checkbox" name="onjoni" value="পাতার ভেতরের অংশে অঞ্জনী"> পাতার ভেতরের অংশে অঞ্জনী</label>
+        <label><input type="checkbox" name="onjoni" value="বারবার একই জায়গায় অঞ্জনী"> বারবার একই জায়গায় অঞ্জনী</label>
+
+        <h6>চুলকানি / জ্বালা:</h6>
+        <label><input type="checkbox" name="onjoni" value="চোখে চুলকানি"> চোখে চুলকানি</label>
+        <label><input type="checkbox" name="onjoni" value="চোখে জ্বালাপোড়া"> চোখে জ্বালাপোড়া</label>
+        <label><input type="checkbox" name="onjoni" value="বাতাসে জ্বালা বাড়ে"> বাতাসে জ্বালা বাড়ে</label>
+        <label><input type="checkbox" name="onjoni" value="রোদে জ্বালা বাড়ে"> রোদে জ্বালা বাড়ে</label>
+
+        <h6>নিঃসরণ / পানি পড়া:</h6>
+        <label><input type="checkbox" name="onjoni" value="চোখ দিয়ে পানি পড়া"> চোখ দিয়ে পানি পড়া</label>
+        <label><input type="checkbox" name="onjoni" value="ঠান্ডা বাতাসে পানি বাড়ে"> ঠান্ডা বাতাসে পানি বাড়ে</label>
+        <label><input type="checkbox" name="onjoni" value="সকালে নিঃসরণ বেশি"> সকালে নিঃসরণ বেশি</label>
+        <label><input type="checkbox" name="onjoni" value="ঘুম থেকে উঠলে পাপড়ি আটকানো"> ঘুম থেকে উঠলে পাপড়ি আটকানো</label>
+        <label><input type="checkbox" name="onjoni" value="পাতলা পানি পড়া"> পাতলা পানি পড়া</label>
+        <label><input type="checkbox" name="onjoni" value="ঘন পুঁজ বের হওয়া"> ঘন পুঁজ বের হওয়া</label>
+
+        <h6>ব্যথার ধরন:</h6>
+        <label><input type="checkbox" name="onjoni" value="চোখে টান টান ব্যথা"> চোখে টান টান ব্যথা</label>
+        <label><input type="checkbox" name="onjoni" value="চুঁচ ফোটার মতো ব্যথা"> চুঁচ ফোটার মতো ব্যথা</label>
+        <label><input type="checkbox" name="onjoni" value="ধুকপুকানি ব্যথা"> ধুকপুকানি ব্যথা</label>
+        <label><input type="checkbox" name="onjoni" value="স্পর্শে ব্যথা বাড়ে"> স্পর্শে ব্যথা বাড়ে</label>
+        <label><input type="checkbox" name="onjoni" value="রাতে ব্যথা বাড়ে"> রাতে ব্যথা বাড়ে</label>
+        <label><input type="checkbox" name="onjoni" value="গরমে ব্যথা কমে"> গরমে ব্যথা কমে</label>
+        <label><input type="checkbox" name="onjoni" value="দপদপ করে"> দপদপ করে</label>
+        <label><input type="checkbox" name="onjoni" value="স্পর্শকাতর"> স্পর্শকাতর</label>
+
+        <h6>অঞ্জনী রোগের শুরু:</h6>
+        <label><input type="checkbox" name="onjoni" value="হঠাৎ শুরু"> হঠাৎ শুরু</label>
+        <label><input type="checkbox" name="onjoni" value="ধীরে ধীরে শুরু"> ধীরে ধীরে শুরু</label>
+        <label><input type="checkbox" name="onjoni" value="ঠান্ডা লাগার পর শুরু"> ঠান্ডা লাগার পর শুরু</label>
+        <label><input type="checkbox" name="onjoni" value="ধুলাবালির পর শুরু"> ধুলাবালির পর শুরু</label>
+        <label><input type="checkbox" name="onjoni" value="ঘুম কম হওয়ার পর শুরু"> ঘুম কম হওয়ার পর শুরু</label>
+
+        <h6>ফোলা ও লালभाव ও ভারী ভাব:</h6>
+        <label><input type="checkbox" name="onjoni" value="চোখের পাতা লাল"> চোখের পাতা লাল</label>
+        <label><input type="checkbox" name="onjoni" value="উষ্ণ ফোলা"> warmth ফোলা</label>
+        <label><input type="checkbox" name="onjoni" value="শক্ত ফোলা"> শক্ত ফোলা</label>
+        <label><input type="checkbox" name="onjoni" value="পাকা ফোলা"> পাকা ফোলা</label>
+        <label><input type="checkbox" name="onjoni" value="স্পর্শে গরম অনুভূত"> স্পর্শে গরম অনুভূত</label>
+        <label><input type="checkbox" name="onjoni" value="ফোলার সাথে জ্বালা"> ফোলার সাথে জ্বালা</label>
+        <label><input type="checkbox" name="onjoni" value="চোখ ভারী লাগা"> চোখ ভারী লাগা</label>
+        <label><input type="checkbox" name="onjoni" value="চোখের পাতায় চাপभाव"> চোখের পাতায় চাপভাব</label>
+        <label><input type="checkbox" name="onjoni" value="চোখ খুলতে কষ্ট"> চোখ খুলতে কষ্ট</label>
+        <label><input type="checkbox" name="onjoni" value="পাতা ভারী হয়ে থাকা"> পাতা ভারী হয়ে থাকা</label>
+
+        <h6>দৃষ্টি সমস্যা:</h6>
+        <label><input type="checkbox" name="onjoni" value="ঝাপসা দেখা"> ঝাপসা দেখা</label>
+        <label><input type="checkbox" name="onjoni" value="অস্থায়ী দৃষ্টি সমস্যা"> অস্থানীয় দৃষ্টি সমস্যা</label>
+        <label><input type="checkbox" name="onjoni" value="পানি পড়লে দৃষ্টি ঢেকে যাওয়া"> পানি পড়লে দৃষ্টি ঢেকে যাওয়া</label>
+        <label><input type="checkbox" name="onjoni" value="ব্যথায় চোখ ছোট করে রাখা"> ব্যথায় চোখ ছোট করে রাখা</label>
+
+        <h6>পূর্ব ইতিহাস:</h6>
+        <label><input type="checkbox" name="onjoni" value="বারবার অঞ্জনী হওয়ার ইতিহাস"> বারবার অঞ্জনী হওয়ার ইতিহাস</label>
+        <label><input type="checkbox" name="onjoni" value="ধুলাবালিতে সংবেদনশীলতা"> ধুলাবালিতে সংবেদনশীলতা</label>
+        <label><input type="checkbox" name="onjoni" value="ত্বক তৈলাক্ত"> ত্বক তৈলাক্ত</label>
+        <label><input type="checkbox" name="onjoni" value="এলার্জির ইতিহাস"> এলার্জির ইতিহাস</label>
+        <label><input type="checkbox" name="onjoni" value="নাক-চোখ-গলার সংবেদনশীলতা"> নাক-চোখ-গলার সংবেদনশীলতা</label>
+
+        <h6>অন্যান্য সহায়ক লক্ষণ:</h6>
+        <label><input type="checkbox" name="onjoni" value="চোখ ঘষার অভ্যাস"> চোখ ঘষার অভ্যাস</label>
+        <label><input type="checkbox" name="onjoni" value="বাইরে গেলে সমস্যা বাড়ে"> বাইরে গেলে সমস্যা বাড়ে</label>
+        <label><input type="checkbox" name="onjoni" value="উষ্ণ সেঁকে আরাম"> উষ্ণ সেঁকে আরাম</label>
+        <label><input type="checkbox" name="onjoni" value="ধোঁয়ায় সমস্যা বাড়ে"> ধোঁয়ায় সমস্যা বাড়ে</label>
+        <label><input type="checkbox" name="onjoni" value="চোখে ময়লা জমা"> চোখে ময়লা জমা</label>
+        <label><input type="checkbox" name="onjoni" value="স্ক্রিন টাইমে বৃদ্ধি"> স্ক্রিন টাইমে বৃদ্ধি</label>
+    </div>
+</div>
+
+                <div id="additional-sections-container"></div>
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        // রুট থেকে সরাসরি assets ফোল্ডারের ফাইলটিকে ফেচ করা হচ্ছে
+                        fetch('assets/snippets/section-31-to-50.html')
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error('স্নিপেট ফাইলটি খুঁজে পাওয়া যায়নি (404)');
+                                }
+                                return response.text();
+                            })
+                            .then(htmlData => {
+                                const container = document.getElementById('additional-sections-container');
+                                if (container) {
+                                    container.innerHTML = htmlData;
+                                    console.log('✅ Section 31 to 50 সফলভাবে লোড হয়েছে!');
+
+                                    // যদি স্নিপেট লোড হওয়ার পর ডিফল্টভাবে তাদের ভেতরের চেকবক্স গ্রুপগুলো বন্ধ রাখতে চান
+                                    container.querySelectorAll('.checkbox-group').forEach(group => {
+                                        group.style.display = 'none';
+                                        group.classList.remove('open');
+                                    });
+                                }
+                            })
+                            .catch(error => console.error('⚠️ স্নিপেট লোড করতে সমস্যা হয়েছে:', error));
+                    });
+                </script>
+
+                <!-- ===== বাটন কন্টেইনার (JS ডায়নামিক্যালি তৈরি করবে) ===== -->
+                <div id="button-container"></div>
+
+            </form>
+
+            <!-- ===== রেজাল্ট বক্স ===== -->
+            <div id="result"></div>
+
+            <!-- ===== ফুটার নোট ===== -->
+            <div class="footer-note">
+                🌿 হোমিওপ্যাথি চিকিৎসকদের জন্য তৈরি — AI-সহায়তা বিশ্লেষণ ও প্রেসক্রিপশন
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ===== কপি প্রটেকশন স্ক্রিপ্ট ===== -->
+    <script>
+        // ============================================================
+        // ১. রাইট-ক্লিক (Context Menu) বন্ধ করা
+        // ============================================================
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // ============================================================
+        // ২. কী-বোর্ড শর্টকাট বন্ধ করা (Ctrl+C, Ctrl+A, Ctrl+U, Ctrl+S)
+        // ============================================================
+        document.addEventListener('keydown', function(e) {
+            // Ctrl কী প্রেস করা আছে কিনা চেক করুন
+            if (e.ctrlKey || e.metaKey) {
+                const key = e.key.toLowerCase();
+
+                // নিষিদ্ধ শর্টকাট
+                const forbiddenKeys = ['c', 'a', 'u', 's', 'p'];
+
+                if (forbiddenKeys.includes(key)) {
+                    e.preventDefault();
+                    return false;
+                }
+            }
+
+            // F12 বন্ধ (ডেভেলপার টুলস)
+            if (e.key === 'F12') {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        // ============================================================
+        // ৩. সিলেক্ট বন্ধ করা (মাউস ড্র্যাগ)
+        // ============================================================
+        document.addEventListener('selectstart', function(e) {
+            // টেক্সট এরিয়া ও ইনপুট ফিল্ড ছাড়া সব জায়গায় সিলেক্ট বন্ধ
+            const tagName = e.target.tagName.toLowerCase();
+            if (tagName !== 'textarea' && tagName !== 'input') {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        console.log('✅ কপি প্রটেকশন সক্রিয়!');
+    </script>
+
+    <!-- ===== হেডার/ফুটার লোড ===== -->
+    <script>
+        $(function() {
+            $('#header-placeholder').load('assets/header.html', function() {
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') ?
+                            '<i class="fas fa-bars"></i>' :
+                            '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
+
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+    </script>
+
+</body>
+</html>
