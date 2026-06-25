@@ -1,1 +1,196 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbo Veg (কার্বোভেজ) - মেটেরিয়া মেডিকা</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for Professional Bengali Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind_Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-white font-sans antialiased flex flex-col min-h-screen text-gray-800 text-sm md:text-base">
 
+    <!-- 📥 ১. এখানে স্বয়ংক্রিয়ভাবে হেডার লোড হবে -->
+    <div id="app-header"></div>
+
+    <!-- 📢 ২. হিরো ব্যানার সেকশন -->
+    <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-8 px-4 text-center shadow-sm">
+        <div class="max-w-7xl mx-auto">
+            <span class="bg-white/20 text-[11px] uppercase font-bold tracking-wider px-3 py-1 rounded-full">Materia Medica</span>
+            
+            <!-- 📌 [বিশেষ নোট]: ভিন্ন ভিন্ন ফাইলে শুধু নিচের এই নামটুকু পরিবর্তন করবেন -->
+            <!-- ==================== ঔষধের নাম পরিবর্তন শুরু ==================== -->
+            <h1 class="text-2xl md:text-3xl font-bold mt-2 flex items-center justify-center gap-2">
+                <i class="fas fa-pills text-lg"></i> Carbo Veg (কার্বোভেজ)
+            </h1>
+            <p class="text-xs md:text-sm text-teal-100 mt-1 italic">
+                Common Name: Vegetable Charcoal | Latin Name: Carbo vegetabilis
+            </p>
+            <!-- ==================== ঔষধের নাম পরিবর্তন শেষ ==================== -->
+        </div>
+    </section>
+
+    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া (এক কলামে চওড়া লেআউট - max-w-7xl) -->
+    <main class="container mx-auto px-4 md:px-8 py-6 flex-grow max-w-7xl space-y-6">
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শুরু ==================== -->
+
+        <!-- 🟢 সেকশন: সারসংক্ষেপ (Keynotes for Doctors) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                সারসংক্ষেপ (Keynotes for Doctors)
+            </div>
+            <p class="text-gray-600 italic mb-3 pl-1 text-xs md:text-sm">চিকিৎসক ও শিক্ষার্থীদের দ্রুত মুখস্ত করার জন্য ঔষধের মূল কথাগুলো নিচে দেওয়া হলো:</p>
+            <ul class="list-disc list-inside space-y-1.5 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>সব শেষ চিকিৎসা।ঠান্ডা নি:শ্বাস, ঠান্ডা ঘাম, ঠান্ডা জিহবা, স্বর ভংগ হলে দিতে হয়।</li>
+                <li>কোল্যান্স অবস্থায় রোগী বলে বাতাস কর বাতাস কর। মাথা গড়ম, বাকি অংগ শীতল।</li>
+                <li>পেটে বায়ু জমে, দুর্গন্ধ যুক্ত বায়ু,ঢেকুর ও মলদ্বার দিয়ে বায়ু নি:সরনে আরাম।</li>
+                <li>রক্ত স্রাব,রক্ত বেগে নয় চুয়ে চুয়ে বের হয়।</li>
+                <li>স্বাস্থ্য হানীর অতীত কাহিনী। বলবে ওমুক ঘটনার পর আর আমার স্বাস্থ্য ভাল হল না।</li>
+                <li>শরীর ও মনের কাজ ধীর গতিতে চলে।</li>
+                <li>শিরা, মাথা ও প্রদাহ স্থানে জ্বালা।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের বিস্তারিত পরিচয় -->
+        <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm">
+            ঔষধের বিস্তারিত পরিচয়
+        </div>
+
+        <!-- 🟢 সেকশন: ১. স্মারক প্রধান লক্ষণ (Keynotes) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ১. স্মারক প্রধান লক্ষণ (Keynotes)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>মৃতসঞ্জীবনী ঔষধ (Corpse Reviver):</strong> যখন রোগীর জীবনীশক্তি চরম পর্যায়ে হ্রাস পায়, নাড়ির গতি পাওয়া যায় না এবং শরীর বরফের মতো ঠান্ডা হয়ে যায়, তখন এটি নতুন প্রাণদান করতে পারে।</li>
+                <li><strong>বাতাসের আকাঙ্ক্ষা (Desire for Fanning):</strong> শরীরের উপরিভাগ শীতল থাকা সত্ত্বেও রোগী প্রচণ্ড বাতাস চায়। সে চায় কেউ তাকে খুব কাছ থেকে পাখা দিয়ে জোরে জোরে বাতাস করুক।</li>
+                <li><strong>পেট ফাঁপা ও গ্যাস:</strong> পাকস্থলীর উপরিভাগে প্রচুর গ্যাস জমে এবং পেট ঢোলের মতো ফুলে থাকে। সামান্য কিছু খেলেই পেটে প্রচণ্ড ভার বোধ হয়।</li>
+                <li><strong>ঢেকুরে উপশম:</strong> পেটে যে গ্যাস জমে, তা ঢেকুরের মাধ্যমে বেরিয়ে গেলে রোগী সাময়িকভাবে বেশ আরাম বোধ করে।</li>
+                <li><strong>রক্তসঞ্চালনের ধীরগতি:</strong> শিরাগুলোর রক্ত চলাচল ধীর হয়ে যায় (Venous congestion), যার ফলে শরীর নীলাভ বা কালচে দেখায়।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ২. মানসিক লক্ষণ -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ২. মানসিক লক্ষণ
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>রোগী মানসিকভাবে অত্যন্ত অবসাদগ্রস্ত এবং তার চিন্তা করার ক্ষমতা কমে যায় (Confusion of mind)।</li>
+                <li>অন্ধকারকে প্রচণ্ড ভয় পায় এবং ভূতের ভয় কাজ করে।</li>
+                <li>অত্যন্ত খিটখিটে মেজাজ এবং সামান্য বিষয়েই ধৈর্য হারিয়ে ফেলে।</li>
+                <li>স্মৃতিশক্তি দুর্বল হয়ে পড়ে এবং কথা বলার সময় খেই হারিয়ে ফেলে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পাকস্থলী:</strong> এটি এই ঔষধের প্রধান কেন্দ্র। হজম শক্তি অত্যন্ত দুর্বল। চর্বিযুক্ত খাবার, দুধ বা পচা খাবার খাওয়ার ফলে সৃষ্ট গ্যাসের সমস্যায় এটি শ্রেষ্ঠ।</li>
+                <li><strong>শ্বাসযন্ত্র:</strong> দীর্ঘস্থায়ী স্বরভঙ্গ (Chronic hoarseness), যা সাধারণত বিকেলের দিকে বাড়ে। নিঃশ্বাস-প্রশ্বাস অত্যন্ত শীতল মনে হয়।</li>
+                <li><strong>হৃদপিণ্ড:</strong> নাড়ি অত্যন্ত দুর্বল, সুতোর মতো এবং অনিয়মিত। বুক ধড়ফড়ানি যা খাওয়ার পর বাড়ে।</li>
+                <li><strong>চক্ষু ও মুখমণ্ডল:</strong> মুখমণ্ডল ফ্যাকাশে, নীলাভ এবং ঠান্ডা ঘামে ভেজা থাকে। চোখ বসে যায় এবং তার চারপাশে কালচে দাগ পড়ে।</li>
+                <li><strong>মলদ্বার:</strong> অর্শের সমস্যা যেখানে শিরাগুলো ফুলে নীল হয়ে থাকে এবং প্রচুর চুলকানি ও জ্বালা থাকে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৪. বৃদ্ধি ও উপশম -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৪. বৃদ্ধি ও উপশম (Aggravation & Amelioration)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>বৃদ্ধি:</strong> চর্বিযুক্ত খাবার ও দুধ খেলে, বিকেলের দিকে (বিশেষ করে ৪টে থেকে ৮টা), শুয়ে থাকলে এবং আর্দ্র আবহাওয়ায়।</li>
+                <li><strong>উপশম:</strong> ঢেকুর উঠলে (Eructation), বাতাস করলে (Fanning), ঠান্ডা বাতাসে এবং মাথা উঁচু করে রাখলে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৫. শক্তি ও মাত্রা -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৫. শক্তি ও মাত্রা (Potency & Dosage)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>শক্তি:</strong> ৩০ থেকে ২০০ শক্তি সাধারণ রোগের জন্য। তবে জরুরি অবস্থায় বা জীবন সংকটাপন্ন হলে উচ্চ শক্তি (১ম বা তদূর্ধ্ব) ব্যবহার করা হয়।</li>
+                <li><strong>মাত্রা:</strong> বোরিকের মতে, এটি একটি দীর্ঘস্থায়ী ক্রিয়াশীল ঔষধ হলেও জরুরি অবস্থায় ঘনঘন প্রয়োগ করা যেতে পারে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৬. সম্পর্ক -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৬. সম্পর্ক (Relationships)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পরিপূরক (Complementary):</strong> Kali Carb (কালি কার্ব)।</li>
+                <li><strong>প্রতিষেধক (Antidote):</strong> Camphor, Arsenic, Coffea।</li>
+                <li><strong>সদৃশ (Similar):</strong> Lycopodium (পেটের নিচের অংশে গ্যাস), China (পুরো পেটে গ্যাস), Lachesis (রক্ত চলাচলের ধীরগতিতে)।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ঔষধের সংক্ষিপ্ত পরিচিতি
+            </div>
+            <div class="border border-gray-400 overflow-x-auto rounded-sm">
+                <table class="w-full text-left text-xs md:text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-400 font-bold text-gray-800">
+                            <th class="p-3 border-r border-gray-400 w-1/3">বৈশিষ্ট্য</th>
+                            <th class="p-3">বিবরণ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">নাম</td><td class="p-3">Carbo Vegetabilis</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ল্যাটিন নাম</td><td class="p-3 italic">Carbo vegetabilis (Vegetable Charcoal)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">উৎস</td><td class="p-3">উদ্ভিজ্জ জগত (কাঠকয়লা)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">কাতরতা</td><td class="p-3">অত্যন্ত শীতকাতর (Very Chilly) - কিন্তু বাতাস চায়</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">পার্শ্ব</td><td class="p-3">প্রধানত ডান পার্শ্ব (Right side)</td></tr>
+                        <tr><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">মায়াজম</td><td class="p-3">সোরা (Psora)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 📚 তথ্যের উৎস এবং সতর্কতা -->
+        <div class="pt-4 text-xs md:text-sm text-gray-600 space-y-2 pl-1">
+            <p class="font-bold text-gray-800">তথ্যসূত্র:</p>
+            <ul class="list-disc list-inside space-y-1 pl-2 text-gray-500">
+                <li>Pocket Manual of Homoeopathic Materia Medica (William Boericke)</li>
+                <li>Lectures on Homoeopathic Materia Medica (J.T. Kent)</li>
+                <li>Keynotes and Characteristics (H.C. Allen)</li>
+            </ul>
+            <blockquote class="border-l-4 border-red-500 bg-red-50/50 p-3 rounded-r-sm text-red-600 font-medium pt-2 mt-2">
+                <strong class="text-red-700">সতর্কতা:</strong> কার্বো ভেজ একটি গভীর ক্রিয়াশীল ঔষধ যা শরীরের মেটাবলিজমকে প্রভাবিত করে। জরুরি অবস্থা বা হার্ট ফেইলিয়রের লক্ষণে নিজে চিকিৎসা না করে দ্রুত হাসপাতালে বা অভিজ্ঞ চিকিৎসকের শরণাপন্ন হওয়া উচিত।
+            </blockquote>
+        </div>
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শেষ ==================== -->
+
+        <!-- ডিরেক্টরিতে ফিরে যাওয়ার বাটন -->
+        <div class="text-center pt-6">
+            <a href="index.html" class="inline-flex items-center gap-1.5 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-md font-medium transition text-xs md:text-sm shadow-sm">
+                <i class="fas fa-chevron-left"></i> ডিরেক্টরিতে ফিরে যান
+            </a>
+        </div>
+
+    </main>
+
+    <!-- 📥 ৪. এখানে স্বয়ংক্রিয়ভাবে ফুটার লোড হবে -->
+    <div id="app-footer"></div>
+
+    <!-- 🛠️ ৫. সেন্ট্রাল স্ক্রিপ্ট কল -->
+    <script src="medica-template.js"></script>
+</body>
+</html>
