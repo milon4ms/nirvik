@@ -1,1 +1,67 @@
-<a href="data:text/javascript;charset=utf-8,document.addEventListener%28%22DOMContentLoaded%22%2C%20%28%29%20%3D%3E%20%7B%0A%20%20%20%20const%20headerHTML%20%3D%20%6B%60%0A%20%20%20%20%3Cheader%20class%3D%22bg-%5B%23008066%5D%20text-white%20sticky%20top-0%20z-50%20shadow-md%20text-xs%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22max-w-7xl%20mx-auto%20px-3%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22flex%20items-center%20justify-between%20py-2.5%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ca%20href%3D%22index.html%22%20class%3D%22flex%20items-center%20gap-2%20hover%3Aopacity-80%20transition%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ci%20class%3D%22fas%20fa-arrow-left%20text-sm%22%3E%3C%2Fi%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class%3D%22font-medium%20text-sm%22%3E%E0%A6%AE%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A6%95%E0%A6%BE%20%E0%A6%A1%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A6%B0%E0%A6%BF%3C%2Fspan%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fa%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class%3D%22text-white%2F90%20font-medium%20text-xs%20hidden%20sm%3Ainline%22%3E%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A7%80%E0%A6%95%20%E0%A6%B9%E0%A6%AC%E0%A6%BF%E0%A6%93%20%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%9F%E0%A6%BE%E0%A6%B2%20%E0%A6%8App%3C%2Fspan%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%3C%2Fheader%3E%0A%20%20%20%20%6B%60%3B%0A%0A%20%20%20%20const%20footerHTML%20%3D%20%6B%60%0A%20%20%20%20%3Cfooter%20class%3D%22bg-%5B%23002D24%5D%20text-teal-300%20py-3%20mt-auto%20text-%5B10px%5D%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22max-w-7xl%20mx-auto%20px-4%20text-center%20flex%20flex-col%20sm%3Aflex-row%20justify-between%20items-center%20gap-1%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%3E%3Cstrong%20class%3D%22text-white%22%3E%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A7%80%E0%A6%95%20%E0%A6%B9%E0%A6%AC%E0%A6%BF%E0%A6%93%3C%2strong%3E%20%E2%80%94%20%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%9F%E0%A6%BE%E0%A6%B2%20%E0%A6%A1%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A6%B0%E0%A6%BF%20%E0%A6%A??%E0%A7%8D%E0%A6%Bblock%E0%A6%AB%E0%A6%B0%E0%A7%8D%E0%A6%AE%3C%2Fdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22opacity-75%22%3E%C2%A9%20%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC%20%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A7%80%E0%A6%95%20%E0%A6%B9%E0%A6%AC%E0%A6%BF%E0%A6%93%3C%2Fdiv%3E%0A%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%3C%2Ffooter%3E%0A%20%20%20%20%6B%60%3B%0A%0A%20%20%20%20const%20appHeader%20%3D%20document.getElementById%28%22app-header%22%29%3B%0A%20%20%20%20const%20appFooter%20%3D%20document.getElementById%28%22app-footer%22%29%3B%0A%0A%20%20%20%20if%20%20%28appHeader%29%20appHeader.insertAdjacentHTML%20%28%22afterbegin%22%2C%20headerHTML%29%3B%0A%20%20%20%20if%20%20%28appFooter%29%20appFooter.insertAdjacentHTML%20%28%22afterbegin%22%2C%20footerHTML%29%3B%0A%0A%20%20%20%20document.body.style.userSelect%20%3D%20%22none%22%3B%0A%20%20%20%20document.body.style.webkitUserSelect%20%3D%20%22none%22%3B%0A%20%20%20%20document.body.style.msUserSelect%20%3D%20%22none%22%3B%0A%20%20%20%20document.body.style.mozUserSelect%20%3D%20%22none%22%3B%0A%0A%20%20%20%20document.addEventListener%20%28%22contextmenu%22%2C%20e%20%3D%3E%20e.preventDefault%20%28%29%29%3B%0A%20%20%20%20document.addEventListener%20%28%22keydown%22%2C%20e%20%3D%3E%20%7B%0A%20%20%20%20%20%20%20%20if%20%20%28%28e.ctrlKey%20%7C%7C%20e.metaKey%20%29%20%26%26%20%5B%22c%22%2C%20%22a%22%2C%20%22u%22%2C%20%22s%22%5D.includes%20%28e.key.toLowerCase%20%28%29%29%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20e.preventDefault%20%28%29%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20if%20%20%28e.keyCode%20%3D%3D%3D%20123%20%29%20e.preventDefault%20%28%29%3B%0A%20%20%20%20%7D%29%3B%0A%7D%29%3B" download="medica-template.js" style="display: inline-block; padding: 10px 20px; background-color: #008066; color: white; text-decoration: none; font-weight: bold; border-radius: 8px; font-family: sans-serif; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 15px;">medica-template.js ফাইলটি ডাউনলোড করুন</a>
+/**
+ * Nirvik Homeo - Materia Medica Master Template Script
+ * Year: 2026
+ * Description: Dynamically injects Header, Footer and enforces Anti-Copy Protection.
+ */
+
+document.addEventListener("DOMContentLoaded", () => {
+    // ১. হেডার টেমপ্লেট (HTML)
+    const headerHTML = `
+    <header class="bg-[#008066] text-white sticky top-0 z-50 shadow-md text-xs">
+        <div class="max-w-7xl mx-auto px-3">
+            <div class="flex items-center justify-between py-2.5">
+                <a href="index.html" class="flex items-center gap-2 hover:opacity-80 transition">
+                    <i class="fas fa-arrow-left text-sm"></i>
+                    <span class="font-medium text-sm">মেডিকা ডিরেক্টরি</span>
+                </a>
+                <span class="text-white/90 font-medium text-xs hidden sm:inline">নির্ভীক হোমিও ডিজিটাল অ্যাপ</span>
+            </div>
+        </div>
+    </header>`;
+
+    // ২. ফুটার টেমপ্লেট (HTML)
+    const footerHTML = `
+    <footer class="bg-[#002D24] text-teal-300 py-3 mt-auto text-[10px]">
+        <div class="max-w-7xl mx-auto px-4 text-center flex flex-col sm:flex-row justify-between items-center gap-1">
+            <div><strong class="text-white">নির্ভীক হোমিও</strong> — ডিজিটাল ডিরেক্টরি প্ল্যাটফর্ম</div>
+            <div class="opacity-75">© ২০২৬ নির্ভীক হোমিও</div>
+        </div>
+    </footer>`;
+
+    // ৩. ডমে (DOM) হেডার ও ফুটার ইনজেক্ট করা
+    const appHeader = document.getElementById("app-header");
+    const appFooter = document.getElementById("app-footer");
+
+    if (appHeader) appHeader.insertAdjacentHTML("afterbegin", headerHTML);
+    if (appFooter) appFooter.insertAdjacentHTML("afterbegin", footerHTML);
+
+    // ৪. অ্যাডভান্সড অ্যান্টি-কপি এবং কন্টেন্ট প্রটেকশন সিস্টেম
+    
+    // সিএসএস (CSS) এর মাধ্যমে টেক্সট সিলেকশন বন্ধ করা
+    document.body.style.userSelect = "none";
+    document.body.style.webkitUserSelect = "none";
+    document.body.style.msUserSelect = "none";
+    document.body.style.mozUserSelect = "none";
+
+    // মাউসের রাইট-ক্লিক (Context Menu) বন্ধ করা
+    document.addEventListener("contextmenu", (e) => e.preventDefault());
+
+    // কিবোর্ড শর্টকাট এবং ডেভেলপার টুলস (F12) লক করা
+    document.addEventListener("keydown", (e) => {
+        // Ctrl+C, Ctrl+A, Ctrl+U, Ctrl+S, Ctrl+P শর্টকাট ব্লক
+        if ((e.ctrlKey || e.metaKey) && ["c", "a", "u", "s", "p"].includes(e.key.toLowerCase())) {
+            e.preventDefault();
+        }
+        // F12 ডেভেলপার টুলস ব্লক
+        if (e.keyCode === 123) {
+            e.preventDefault();
+        }
+        // Ctrl+Shift+I (ইন্সপেক্ট এলিমেন্ট) ব্লক
+        if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") {
+            e.preventDefault();
+        }
+    });
+
+    // ড্র্যাগ অ্যান্ড ড্রপ (Drag and Drop) এর মাধ্যমে টেক্সট বা ইমেজ কপি করা বন্ধ করা
+    document.addEventListener("dragstart", (e) => e.preventDefault());
+});
