@@ -1,1 +1,216 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রিমিয়াম ড্যাশবোর্ড - নির্বিক হোমিও</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore-compat.js"></script>
+    <script src="assets/js/firebase-config.js"></script>
 
+    <style>
+        body { 
+            font-family: 'SolaimanLipi', system-ui, sans-serif; 
+            background: #f0fdf4;
+        }
+        .dashboard-container { max-width: 1200px; margin: 0 auto; padding: 30px 20px; }
+        .card { background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); padding: 24px; transition: all 0.3s; border: 1px solid rgba(0,184,169,0.06); }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,184,169,0.08); }
+        .card-icon { font-size: 2.5rem; margin-bottom: 12px; }
+        .premium-badge { background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 2px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; }
+        .paid-badge { background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 4px 16px; border-radius: 30px; font-size: 13px; font-weight: 600; }
+        .logout-btn { background: #e53e3e; color: white; padding: 8px 20px; border-radius: 30px; border: none; font-weight: 500; cursor: pointer; transition: all 0.3s; }
+        .logout-btn:hover { background: #c53030; }
+        .premium-card { background: linear-gradient(135deg, #faf5ff, #f3e8ff); border: 2px solid #8b5cf6; }
+        .premium-card:hover { box-shadow: 0 12px 40px rgba(139,92,246,0.15); }
+    </style>
+</head>
+<body>
+
+    <!-- ===== হেডার ===== -->
+    <div id="header-placeholder"></div>
+
+    <!-- ===== ড্যাশবোর্ড ===== -->
+    <div class="dashboard-container">
+        
+        <!-- ওয়েলকাম -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
+            <div>
+                <div class="flex items-center gap-3">
+                    <h1 class="text-3xl font-bold text-gray-800">👋 স্বাগতম, <span id="userName">ইউজার</span>!</h1>
+                    <span class="paid-badge"><i class="fas fa-crown mr-1"></i> প্রিমিয়াম</span>
+                </div>
+                <p class="text-gray-500 mt-1">আপনি <strong>💎 প্রিমিয়াম</strong> ইউজার হিসেবে লগইন করেছেন</p>
+            </div>
+            <div class="flex gap-3 mt-3 md:mt-0">
+                <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium">
+                    <i class="fas fa-crown mr-1"></i> প্রিমিয়াম
+                </span>
+                <button onclick="logout()" class="logout-btn">
+                    <i class="fas fa-sign-out-alt mr-1"></i> লগআউট
+                </button>
+            </div>
+        </div>
+
+        <!-- প্রিমিয়াম স্ট্যাটাস -->
+        <div class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-2xl p-6 mb-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-3xl">👑</span>
+                        <div>
+                            <h2 class="text-2xl font-bold">প্রিমিয়াম অ্যাক্সেস</h2>
+                            <p class="text-purple-200 text-sm">আপনার সব পেইড কন্টেন্ট এখন আনলক করা আছে</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center bg-white/10 backdrop-blur-sm px-6 py-3 rounded-xl">
+                    <p class="text-sm text-purple-200">সাবস্ক্রিপশন স্ট্যাটাস</p>
+                    <p class="font-bold text-lg"><i class="fas fa-check-circle text-green-300 mr-1"></i> সক্রিয়</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- সব পেজ (পেইড + ফ্রি) -->
+        <h2 class="text-xl font-bold text-gray-700 mb-4">🚀 আপনার সব কন্টেন্ট</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div class="card">
+                <div class="card-icon">🏠</div>
+                <h3 class="text-lg font-bold">হোম</h3>
+                <p class="text-gray-500 text-sm mt-1">মূল পেজ</p>
+                <a href="index.html" class="inline-block mt-3 text-teal-600 font-medium hover:underline">যান →</a>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔬</div>
+                <h3 class="text-lg font-bold">রোগী বিশ্লেষণ</h3>
+                <p class="text-gray-500 text-sm mt-1">সাধারণ রোগ</p>
+                <a href="select.html" class="inline-block mt-3 text-teal-600 font-medium hover:underline">যান →</a>
+            </div>
+            <div class="card">
+                <div class="card-icon">📝</div>
+                <h3 class="text-lg font-bold">জ্বর-সর্দি-কাশি</h3>
+                <p class="text-gray-500 text-sm mt-1">বিশেষায়িত</p>
+                <a href="fever-analysis.html" class="inline-block mt-3 text-teal-600 font-medium hover:underline">যান →</a>
+            </div>
+            <div class="card premium-card">
+                <div class="card-icon">💊</div>
+                <h3 class="text-lg font-bold">মেডিকা ডেটাবেস</h3>
+                <p class="text-gray-500 text-sm mt-1">সম্পূর্ণ ডেটাবেস</p>
+                <span class="inline-block mt-2 text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম</span>
+            </div>
+            <div class="card premium-card">
+                <div class="card-icon">📊</div>
+                <h3 class="text-lg font-bold">রোগী হিস্টোরি</h3>
+                <p class="text-gray-500 text-sm mt-1">সমস্ত রেকর্ড</p>
+                <span class="inline-block mt-2 text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম</span>
+            </div>
+            <div class="card premium-card">
+                <div class="card-icon">📖</div>
+                <h3 class="text-lg font-bold">ম্যাটেরিয়া মেডিকা</h3>
+                <p class="text-gray-500 text-sm mt-1">সম্পূর্ণ বিবরণ</p>
+                <span class="inline-block mt-2 text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম</span>
+            </div>
+            <div class="card premium-card">
+                <div class="card-icon">🧬</div>
+                <h3 class="text-lg font-bold">জিনোমিক অ্যানালাইসিস</h3>
+                <p class="text-gray-500 text-sm mt-1">এডভান্সড অ্যানালাইসিস</p>
+                <span class="inline-block mt-2 text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম</span>
+            </div>
+            <div class="card premium-card">
+                <div class="card-icon">📈</div>
+                <h3 class="text-lg font-bold">এডভান্সড রিপোর্ট</h3>
+                <p class="text-gray-500 text-sm mt-1">পিডিএফ রিপোর্ট</p>
+                <span class="inline-block mt-2 text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম</span>
+            </div>
+        </div>
+
+        <!-- পেইড ফিচার হাইলাইট -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="card bg-gradient-to-br from-purple-50 to-indigo-50 border-purple-200">
+                <div class="text-3xl mb-2">👨‍⚕️</div>
+                <h3 class="text-lg font-bold">প্রাইভেট কনসালটেশন</h3>
+                <p class="text-gray-600 text-sm mt-1">বিশেষজ্ঞ চিকিৎসকের সাথে সরাসরি কথা বলুন</p>
+                <span class="inline-block mt-3 text-xs bg-purple-200 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম ফিচার</span>
+            </div>
+            <div class="card bg-gradient-to-br from-purple-50 to-indigo-50 border-purple-200">
+                <div class="text-3xl mb-2">📱</div>
+                <h3 class="text-lg font-bold">মোবাইল অ্যাক্সেস</h3>
+                <p class="text-gray-600 text-sm mt-1">যেকোনো ডিভাইস থেকে অ্যাক্সেস</p>
+                <span class="inline-block mt-3 text-xs bg-purple-200 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম ফিচার</span>
+            </div>
+            <div class="card bg-gradient-to-br from-purple-50 to-indigo-50 border-purple-200">
+                <div class="text-3xl mb-2">🎯</div>
+                <h3 class="text-lg font-bold">এক্সক্লুসিভ কন্টেন্ট</h3>
+                <p class="text-gray-600 text-sm mt-1">শুধু প্রিমিয়াম ইউজারদের জন্য</p>
+                <span class="inline-block mt-3 text-xs bg-purple-200 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম ফিচার</span>
+            </div>
+        </div>
+
+        <!-- রোল ইনফো -->
+        <div class="mt-6 p-4 bg-purple-50 rounded-xl border border-purple-200">
+            <p class="text-sm text-gray-600">
+                <i class="fas fa-crown text-purple-600 mr-2"></i>
+                <strong>আপনার রোল:</strong> <span class="text-purple-700 font-medium">💎 প্রিমিয়াম</span> — 
+                আপনার সব কন্টেন্ট আনলক করা আছে। প্রিমিয়াম ফিচারগুলো উপভোগ করুন!
+            </p>
+        </div>
+    </div>
+
+    <!-- ===== ফুটার ===== -->
+    <div id="footer-placeholder"></div>
+
+    <script>
+        // ===== হেডার-ফুটার লোড =====
+        $(function() {
+            $('#header-placeholder').load('assets/header.html', function() {
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') 
+                            ? '<i class="fas fa-bars"></i>' 
+                            : '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+
+        // ===== ইউজার ইনফো =====
+        const userStr = localStorage.getItem('user');
+        if (userStr) {
+            const user = JSON.parse(userStr);
+            if (!user.isPaid) {
+                // পেইড না হলে সাধারণ ড্যাশবোর্ডে পাঠান
+                window.location.href = 'dashboard.html';
+                return;
+            }
+            document.getElementById('userName').textContent = user.name || 'ইউজার';
+        } else {
+            window.location.href = 'login.html';
+        }
+
+        // ===== লগআউট =====
+        function logout() {
+            firebase.auth().signOut()
+                .then(() => {
+                    localStorage.removeItem('user');
+                    window.location.href = 'index.html';
+                })
+                .catch(error => alert('লগআউটে সমস্যা: ' + error.message));
+        }
+    </script>
+
+</body>
+</html>
