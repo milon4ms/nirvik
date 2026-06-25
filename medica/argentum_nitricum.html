@@ -1,1 +1,196 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentum-Nitricum (আর্জেন্টাম নাইট্রিকাম) - মেটেরিয়া মেডিকা</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for Professional Bengali Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind_Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-white font-sans antialiased flex flex-col min-h-screen text-gray-800 text-sm md:text-base">
 
+    <!-- 📥 ১. এখানে স্বয়ংক্রিয়ভাবে হেডার লোড হবে -->
+    <div id="app-header"></div>
+
+    <!-- 📢 ২. হিরো ব্যানার সেকশন -->
+    <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-8 px-4 text-center shadow-sm">
+        <div class="max-w-7xl mx-auto">
+            <span class="bg-white/20 text-[11px] uppercase font-bold tracking-wider px-3 py-1 rounded-full">Materia Medica</span>
+            
+            <!-- 📌 [বিশেষ নোট]: ভিন্ন ভিন্ন ফাইলে শুধু নিচের এই নামটুকু পরিবর্তন করবেন -->
+            <!-- ==================== ঔষধের নাম পরিবর্তন শুরু ==================== -->
+            <h1 class="text-2xl md:text-3xl font-bold mt-2 flex items-center justify-center gap-2">
+                <i class="fas fa-pills text-lg"></i> Argentum-Nitricum (আর্জেন্টাম নাইট্রিকাম)
+            </h1>
+            <p class="text-xs md:text-sm text-teal-100 mt-1 italic">
+                Common Name: Silver Nitrate / Lunar Caustic | Latin Name: Argenti Nitras
+            </p>
+            <!-- ==================== ঔষধের নাম পরিবর্তন শেষ ==================== -->
+        </div>
+    </section>
+
+    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া (এক কলামে চওড়া লেআউট - max-w-7xl) -->
+    <main class="container mx-auto px-4 md:px-8 py-6 flex-grow max-w-7xl space-y-6">
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শুরু ==================== -->
+
+        <!-- 🟢 সেকশন: সারসংক্ষেপ (Keynotes for Doctors) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                সারসংক্ষেপ (Keynotes for Doctors)
+            </div>
+            <p class="text-gray-600 italic mb-3 pl-1 text-xs md:text-sm">চিকিৎসক ও শিক্ষার্থীদের দ্রুত মুখস্ত করার জন্য ঔষধের মূল কথাগুলো নিচে দেওয়া হলো:</p>
+            <ul class="list-disc list-inside space-y-1.5 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>ব্যস্ত ও ত্রস্তভাব, সবকাজ তারাতারি করে মনে হয় সময় ধীরে যায়।</li>
+                <li>বিমর্ষ, সহজে রাগ হয়।</li>
+                <li>উচু জায়গায় উঠলে ভয়।</li>
+                <li>চিনি বা মিষ্টি খাওয়ার প্রবল ইচ্ছা কিন্তু সহ্য হয় না।</li>
+                <li>লবণ খাওয়ার ইচ্ছা।</li>
+                <li>কাটা ফোঁটার মত ব্যথা।</li>
+                <li>রোগী ডানপাশে শুইতে পারেনা। হার্টবিট শুরু হয়।</li>
+                <li>জিহবায় ব্যাথা, জিহবার ডগা লাল, জিহবার উপরের দানাগুলি বড় মলের রঙ সবুজ।</li>
+                <li>আমযুক্ত, মল সজোড়ে বাহির হয় পেট বায়ুতে পূর্ণ হয়ে গড় গড় শব্দ করে। কষ্টে বায়ু নিঃসরন।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের বিস্তারিত পরিচয় -->
+        <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm">
+            ঔষধের বিস্তারিত পরিচয়
+        </div>
+
+        <!-- 🟢 সেকশন: ১. স্মারক প্রধান লক্ষণ (Keynotes) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ১. স্মারক প্রধান লক্ষণ (Keynotes)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>ত্বরাপ্রবণতা (Hurry):</strong> রোগী সবসময় তাড়াহুড়ো করে। সে মনে করে সময় খুব ধীরে চলছে (Time passes too slowly), তাই সে সব কাজ দ্রুত শেষ করতে চায়।</li>
+                <li><strong>উৎকণ্ঠা ও শঙ্কা (Anticipation):</strong> কোনো গুরুত্বপূর্ণ ঘটনা, পরীক্ষা বা ইন্টারভ্যুর আগে রোগী প্রচণ্ড উদ্বিগ্ন হয়ে পড়ে এবং এর ফলে তার ডায়রিয়া বা পেটের গোলযোগ দেখা দেয়।</li>
+                <li><strong>মিষ্টি খাওয়ার তীব্র ইচ্ছা (Craving for Sugar):</strong> রোগী মিষ্টি খেতে খুব পছন্দ করে, কিন্তু মিষ্টি খেলে তার পেটের সমস্যা বা অসুখ বেড়ে যায়।</li>
+                <li><strong>বিস্ফোরক বায়ুনির্গমন (Belching):</strong> পেটে প্রচুর বায়ু জমে এবং তা সশব্দে ও তীব্র বেগে ঢেকুর আকারে বেরিয়ে আসে।</li>
+                <li><strong>কাঁটার মতো বিঁধছে এমন ব্যথা (Splinter-like sensation):</strong> গলায় বা ক্ষতের স্থানে মনে হয় যেন একটা মাছের কাঁটা বা ফালি বিঁধে আছে (Hepar Sulph-এর মতো)।</li>
+                <li><strong>চোখের প্রদাহ:</strong> চোখ দিয়ে প্রচুর ঘন, হলদেটে পুঁজ নির্গত হয় (Ophthalmia Neonatorum)।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ২. মানসিক লক্ষণ -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ২. মানসিক লক্ষণ
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>রোগী প্রচণ্ড <strong>মানসিক অস্থিরতায়</strong> ভোগে। একা থাকতে ভয় পায়, কিন্তু ভিড়ের মধ্যেও অস্বস্তি বোধ করে।</li>
+                <li>বিচিত্র সব কুসংস্কার বা আজব চিন্তা মাথায় আসে। যেমন—রাস্তায় চলার সময় উঁচু দালান তার ওপর ভেঙে পড়বে অথবা ব্রিজের ওপর দিয়ে যাওয়ার সময় সে নিচে পড়ে যাবে।</li>
+                <li>স্মৃতিশক্তি অত্যন্ত দুর্বল এবং মানসিকভাবে সে সবসময় ক্লান্ত থাকে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>پাকস্থলী (Stomach):</strong> এটি এই ঔষধের প্রধান ক্ষেত্র। পেট ফুলে ঢোল হয়ে থাকে। ঢেকুর তুললে সাময়িক আরাম পায়। পাকস্থলীতে ক্ষত বা গ্যাস্ট্রিক আলসারের জন্য এটি চমৎকার ঔষধ।</li>
+                <li><strong>চোখ (Eyes):</strong> চোখের পাতা লাল হয়ে ফুলে যায়। চোখ থেকে ঘন পুঁজ পড়ে। উজ্জ্বল আলো সহ্য করতে পারে না। চোখের ওপর অত্যধিক চাপের ফলে চোখের কোণে ব্যথা।</li>
+                <li><strong>গলা (Throat):</strong> গলা কাঁচা মনে হয় এবং কিছু গিলতে গেলে কাঁটা ফোটার মতো ব্যথা হয়। গলার ভেতর শ্লেষ্মা জমে থাকে যা তুলতে রোগী বারবার গলা খাঁকারি দেয়।</li>
+                <li><strong>মলদ্বার (Stomach & Stool):</strong> মিষ্টি খাওয়ার পর ডায়রিয়া। মল সবুজ রঙের (সিদ্ধ করা পালং শাকের মতো) এবং বায়ুসহ নির্গত হয়।</li>
+                <li><strong>পুরুষ জননেন্দ্রিয়:</strong> ধ্বজভঙ্গ বা যৌন অক্ষমতা। সঙ্গমের কথা চিন্তা করলেই লিঙ্গ শিথিল হয়ে যায়।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৪. বৃদ্ধি ও উপশম -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৪. বৃদ্ধি ও উপশম (Aggravation & Amelioration)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>বৃদ্ধি:</strong> উত্তাপে বা গরম ঘরে, মিষ্টি খেলে, মানসিক উদ্বেগে, বাম কাতে শুলে এবং রাতে।</li>
+                <li><strong>উপশম:</strong> খোলা বাতাসে (Open air), ঠাণ্ডা জল প্রয়োগে, জোরে চাপ দিলে (Hard pressure) এবং সশব্দে ঢেকুর উঠলে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৫. শক্তি ও মাত্রা -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৫. শক্তি ও মাত্রা (Potency & Dosage)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>বোরিকের মতে, ৩x থেকে ৩০ শক্তি পর্যন্ত সাধারণত ব্যবহৃত হয়।</li>
+                <li>মানসিক লক্ষণের প্রাধান্য থাকলে ২০০ বা তার উচ্চ শক্তি (১M) বিরল মাত্রায় অধিক কার্যকর।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৬. সম্পর্ক -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৬. সম্পর্ক (Relationships)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পরিপূরক (Complementary):</strong> Natrum Mur.</li>
+                <li><strong>প্রতিষেধক (Antidote):</strong> Natrum Mur, Arsenicum.</li>
+                <li><strong>সদৃশ (Similar):</strong> Lycopodium (বায়ু সঞ্চয়), Gelsemium (পরীক্ষার আগের ভয়), Pulsatilla.</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ঔষধের সংক্ষিপ্ত পরিচিতি
+            </div>
+            <div class="border border-gray-400 overflow-x-auto rounded-sm">
+                <table class="w-full text-left text-xs md:text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-400 font-bold text-gray-800">
+                            <th class="p-3 border-r border-gray-400 w-1/3">विषय</th>
+                            <th class="p-3">বিবরণ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ঔষধের নাম</td><td class="p-3">Argentum Nitricum</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ল্যাটিন নাম</td><td class="p-3 italic">Argenti Nitras</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">উৎস</td><td class="p-3">খনিজ (Silver Nitrate/Lunar Caustic)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">কাতরতা</td><td class="p-3">গরমকাতর (Hot patient) - এটি Arg-met থেকে ভিন্ন</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">পার্শ্ব</td><td class="p-3">বাম পার্শ্বে বেশি ক্রিয়াশীল</td></tr>
+                        <tr><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">মায়াজম</td><td class="p-3">সোরিক, সাইকোটিক ও সিফিলিটিক (Mixed)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 📚 তথ্যের উৎস এবং সতর্কতা -->
+        <div class="pt-4 text-xs md:text-sm text-gray-600 space-y-2 pl-1">
+            <p class="font-bold text-gray-800">তথ্যসূত্র:</p>
+            <ul class="list-disc list-inside space-y-1 pl-2 text-gray-500">
+                <li>Boericke’s Materia Medica</li>
+                <li>Kent’s Lectures on Homoeopathic Materia Medica</li>
+                <li>Allen’s Keynotes</li>
+            </ul>
+            <p class="text-red-600 font-medium pt-2"><strong class="text-red-700">সতর্কতা:</strong> আর্জেন্টাম নাইট্রিকাম একটি অত্যন্ত গভীর ক্রিয়াশীল ঔষধ। বিশেষ করে যারা হৃদরোগ বা উচ্চ রক্তচাপে ভুগছেন, তারা চিকিৎসকের পরামর্শ ছাড়া উচ্চ শক্তি গ্রহণ করবেন না।</p>
+        </div>
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শেষ ==================== -->
+
+        <!-- ডিরেক্টরিতে ফিরে যাওয়ার বাটন -->
+        <div class="text-center pt-6">
+            <a href="index.html" class="inline-flex items-center gap-1.5 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-md font-medium transition text-xs md:text-sm shadow-sm">
+                <i class="fas fa-chevron-left"></i> ডিরেক্টরিতে ফিরে যান
+            </a>
+        </div>
+
+    </main>
+
+    <!-- 📥 ৪. এখানে স্বয়ংক্রিয়ভাবে ফুটার লোড হবে -->
+    <div id="app-footer"></div>
+
+    <!-- 🛠️ ৫. সেন্ট্রাল স্ক্রিপ্ট কল -->
+    <script src="medica-template.js"></script>
+</body>
+</html>
