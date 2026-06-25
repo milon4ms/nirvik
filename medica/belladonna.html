@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belladonna (বেলেডোনা) - মেটেরিয়া মেডিকা</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for Professional Bengali Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind_Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-white font-sans antialiased flex flex-col min-h-screen text-gray-800 text-sm md:text-base">
 
+    <!-- 📥 ১. এখানে স্বয়ংক্রিয়ভাবে হেডার লোড হবে -->
+    <div id="app-header"></div>
+
+    <!-- 📢 ২. হিরো ব্যানার সেকশন -->
+    <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-8 px-4 text-center shadow-sm">
+        <div class="max-w-7xl mx-auto">
+            <span class="bg-white/20 text-[11px] uppercase font-bold tracking-wider px-3 py-1 rounded-full">Materia Medica</span>
+            
+            <!-- 📌 [বিশেষ নোট]: ভিন্ন ভিন্ন ফাইলে শুধু নিচের এই নামটুকু পরিবর্তন করবেন -->
+            <!-- ==================== ঔষধের নাম পরিবর্তন শুরু ==================== -->
+            <h1 class="text-2xl md:text-3xl font-bold mt-2 flex items-center justify-center gap-2">
+                <i class="fas fa-pills text-lg"></i> Belladonna (বেলেডোনা)
+            </h1>
+            <p class="text-xs md:text-sm text-teal-100 mt-1 italic">
+                Common Name: Deadly Nightshade | Latin Name: Atropa Belladonna
+            </p>
+            <!-- ==================== ঔষধের নাম পরিবর্তন শেষ ==================== -->
+        </div>
+    </section>
+
+    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া (এক কলামে চওড়া লেআউট - max-w-7xl) -->
+    <main class="container mx-auto px-4 md:px-8 py-6 flex-grow max-w-7xl space-y-6">
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শুরু ==================== -->
+
+        <!-- 🟢 সেকশন: সারসংক্ষেপ (Keynotes for Doctors) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                সারসংক্ষেপ (Keynotes for Doctors)
+            </div>
+            <p class="text-gray-600 italic mb-3 pl-1 text-xs md:text-sm">চিকিৎসক ও শিক্ষার্থীদের দ্রুত মুখস্ত করার জন্য ঔষধের মূল কথাগুলো নিচে দেওয়া হলো:</p>
+            <ul class="list-disc list-inside space-y-1.5 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>পীড়া হঠাৎ শুরু হয়, অল্প সময়ে তীব্র হয়</li>
+                <li>ব্যাথা হঠাৎ আসে হঠাৎ যায়</li>
+                <li>প্রদাহিত স্থান উত্তপ্ত, লাল বর্ণ, জ্বালাপোড়া</li>
+                <li>রক্ত মাথার দিকে সঞ্চালিত হয়, ক্যারেটিড ধমনী দপদপ করে</li>
+                <li>মাথা গড়ম, মাথা ব্যাথা কিন্তু পা ঠান্ডা</li>
+                <li>ঘুমের মাঝে চমকে উঠে, উম্মাদ হলে থু থু ছিটায়, কামড় দেয়। কল্পনায় অদ্ভুত জীব দেখে, জীব কালো রঙের, জীব দেখে পালাইতে চায়, লুকাইতে চায়</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের বিস্তারিত পরিচয় -->
+        <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm">
+            ঔষধের বিস্তারিত পরিচয়
+        </div>
+
+        <!-- 🟢 সেকশন: ১. স্মারক প্রধান লক্ষণ (Keynotes) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ১. স্মারক প্রধান লক্ষণ (Keynotes)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>আকস্মিকতা (Suddenness):</strong> রোগ বা লক্ষণগুলো হঠাৎ আসে এবং হঠাৎ চলে যায়।</li>
+                <li><strong>লাল ভাব ও উত্তাপ (Redness &amp; Heat):</strong> আক্রান্ত স্থান টকটকে লাল হয়ে ফুলে যায় এবং প্রচণ্ড উত্তাপ অনুভূত হয়। মুখমণ্ডল আরক্তিম দেখায়।</li>
+                <li><strong>দপ দপ করা ব্যথা (Throbbing Pains):</strong> রক্তবাহী ধমনীগুলো (বিশেষ করে ঘাড়ের ক্যারোটিড ধমনী) সজোরে স্পন্দিত হয় এবং দপ দপ করে ব্যথা করে।</li>
+                <li><strong>প্রসারিত চোখের তারা (Dilated Pupils):</strong> চোখ উজ্জ্বল, রক্তবর্ণ এবং চোখের মণি বা তারা বড় হয়ে যায়।</li>
+                <li><strong>জ্বালা ও শুষ্কতা:</strong> শ্লেষ্মাজিল্লী অত্যন্ত শুষ্ক থাকে। মুখ, গলা এবং চোখ শুকনো অনুভূত হয়।</li>
+                <li><strong>স্পর্শাতরতা:</strong> রোগী শরীরের আক্রান্ত স্থানে সামান্য ছোঁয়া বা স্পর্শও সহ্য করতে পারে না।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ২. মানসিক লক্ষণ -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ২. মানসিক লক্ষণ
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>রোগী প্রচণ্ড <strong>প্রলাপ (Delirium)</strong> বকে। সে উজ্জ্বল বা কাল্পনিক বস্তু দেখে ভয় পায়।</li>
+                <li>উগ্র আচরণ: রোগী কামড়াতে, চড় মারতে বা কাপড় ছিঁড়তে চায়।</li>
+                <li>রোগী পালিয়ে যাওয়ার চেষ্টা করে (Desire to escape)।</li>
+                <li>আলোর ঝলকানি বা শব্দে রোগী অত্যন্ত বিরক্ত হয় এবং চমকে ওঠে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>মাথা (Head):</strong> প্রচণ্ড রক্তসঞ্চয়জনিত মাথাব্যথা (Congestive Headache)। মাথা নিচু করলে বা শুলে ব্যথা বাড়ে। মুখমণ্ডল লাল হয়ে যায়।</li>
+                <li><strong>গলা (Throat):</strong> গলা অত্যন্ত শুকনো ও উজ্জ্বল লাল বর্ণ ধারণ করে। বিশেষ করে ডান দিকের টনসিল ফোলা। কিছু গিলতে গেলে বা এমনকি জল পান করতে গেলে গলার ভেতর সংকোচন অনুভূত হয়।</li>
+                <li><strong>জ্বর (Fever):</strong> জ্বরের সময় শরীর থেকে আগুনের মতো তাপ বের হয়। মাথা খুব গরম থাকে কিন্তু হাত-পা ঠান্ডা থাকতে পারে। রোগী ঘামতে চায় না।</li>
+                <li><strong>চর্ম (Skin):</strong> চামড়া মসৃণ, চকচকে এবং উজ্জ্বল লাল। হাত দিলে মনে হয় হাত পুড়ে যাবে।</li>
+                <li><strong>পাকস্থলী:</strong> পেটে প্রচণ্ড ব্যথা যা হঠাৎ আসে এবং হঠাৎ চলে যায়। পেট স্পর্শ করলে বা ঝাঁকুনি লাগলে কষ্ট বাড়ে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৪. বৃদ্ধি ও উপশম -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৪. বৃদ্ধি ও উপশম (Aggravation &amp; Amelioration)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>বৃদ্ধি:</strong> স্পর্শ করলে, সামান্য ঝাঁকুনিতে, শুয়ে থাকলে, দুপুরের পর (বিকেল ৩টার দিকে), আলো বা শব্দে এবং মাথা নিচু করলে।</li>
+                <li><strong>উপশম:</strong> মাথা উঁচু করে আধা-বসা অবস্থায় থাকলে (Semi-erect position) এবং গরম ঘরে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৫. শক্তি ও মাত্রা -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৫. শক্তি ও মাত্রা (Potency &amp; Dosage)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>বোরিকের মতে, ১ থেকে ৩০ শক্তি তরুণ রোগে ব্যবহৃত হয়।</li>
+                <li>স্নায়বিক বা মানসিক লক্ষণে ২০০ শক্তি বা তার উচ্চ শক্তি চমৎকার কাজ করে। তবে হৃদরোগের ঝুঁকি থাকলে উচ্চ শক্তি সতর্কতার সাথে ব্যবহার্য।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৬. সম্পর্ক -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৬. সম্পর্ক (Relationships)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পরিপূরক (Complementary):</strong> Calcarea Carb. (বেলেডোনার কাজ শেষ হলে অনেক সময় ক্যালকেরিয়া কার্ব প্রয়োজন হয়)।</li>
+                <li><strong>প্রতিষেধক (Antidote):</strong> Camphora, Coffea, Hepar Sulph.</li>
+                <li><strong>সদৃশ (Similar):</strong> Aconite (অ্যাকোনাইটে উদ্বেগ বেশি, বেলেডোনায় রক্তসঞ্চয় বেশি), Hyoscyamus, Stramonium.</li>
+                <li><strong>শত্রুভাবাপন্ন (Inimical):</strong> Dulcamara এবং Vinegar-এর সাথে এটি ব্যবহার করা উচিত নয়।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ঔষধের সংক্ষিপ্ত পরিচিতি
+            </div>
+            <div class="border border-gray-400 overflow-x-auto rounded-sm">
+                <table class="w-full text-left text-xs md:text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-400 font-bold text-gray-800">
+                            <th class="p-3 border-r border-gray-400 w-1/3">বৈশিষ্ট্য</th>
+                            <th class="p-3">বিবরণ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">নাম</td><td class="p-3">Belladonna</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ল্যাটিন নাম</td><td class="p-3 italic">Atropa Belladonna</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">উৎস</td><td class="p-3">উদ্ভিদ (Deadly Nightshade)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">কাতরতা</td><td class="p-3">প্রধানত শীতকাতর (কিন্তু গরমেও বৃদ্ধি পায়)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">পার্শ্ব</td><td class="p-3">প্রধানত ডান পার্শ্বে (Right-sided) কাজ করে</td></tr>
+                        <tr><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">মায়াজম</td><td class="p-3">সোরিক (Psora)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 📚 তথ্যের উৎস এবং সতর্কতা -->
+        <div class="pt-4 text-xs md:text-sm text-gray-600 space-y-2 pl-1">
+            <p class="font-bold text-gray-800">তথ্যসূত্র:</p>
+            <ul class="list-disc list-inside space-y-1 pl-2 text-gray-500">
+                <li><em>Boericke’s Materia Medica</em></li>
+                <li><em>Kent’s Lectures on Homoeopathic Materia Medica</em></li>
+                <li><em>Allen’s Keynotes</em></li>
+            </ul>
+            <blockquote class="border-l-4 border-red-400 pl-3 text-red-600 font-medium pt-2">
+                <p><strong>সতর্কতা:</strong> বেলেডোনা একটি বিষাক্ত উদ্ভিদ থেকে প্রস্তুত। তাই সঠিক পোটেন্সি বা শক্তি নির্বাচনে চিকিৎসকের পরামর্শ গ্রহণ করুন। প্রলাপ বা উচ্চ জ্বরের সময় লক্ষণ বিচার না করে এটি প্রয়োগ করা অনুচিত।</p>
+            </blockquote>
+        </div>
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শেষ ==================== -->
+
+        <!-- ডিরেক্টরিতে ফিরে যাওয়ার বাটন -->
+        <div class="text-center pt-6">
+            <a href="index.html" class="inline-flex items-center gap-1.5 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-md font-medium transition text-xs md:text-sm shadow-sm">
+                <i class="fas fa-chevron-left"></i> ডিরেক্টরিতে ফিরে যান
+            </a>
+        </div>
+
+    </main>
+
+    <!-- 📥 ৪. এখানে স্বয়ংক্রিয়ভাবে ফুটার লোড হবে -->
+    <div id="app-footer"></div>
+
+    <!-- 🛠️ ৫. সেন্ট্রাল স্ক্রিপ্ট কল -->
+    <script src="medica-template.js"></script>
+</body>
+</html>
