@@ -1,1 +1,192 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aethuja (ইথুজা) - মেটেরিয়া মেডিকা</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for Professional Bengali Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind_Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-white font-sans antialiased flex flex-col min-h-screen text-gray-800 text-sm md:text-base">
 
+    <!-- 📥 ১. এখানে স্বয়ংক্রিয়ভাবে হেডার লোড হবে -->
+    <div id="app-header"></div>
+
+    <!-- 📢 ২. হিরো ব্যানার সেকশন -->
+    <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-8 px-4 text-center shadow-sm">
+        <div class="max-w-7xl mx-auto">
+            <span class="bg-white/20 text-[11px] uppercase font-bold tracking-wider px-3 py-1 rounded-full">Materia Medica</span>
+            
+            <!-- 📌 [বিশেষ নোট]: ভিন্ন ভিন্ন ফাইলে শুধু নিচের এই নামটুকু পরিবর্তন করবেন -->
+            <!-- ==================== ঔষধের নাম পরিবর্তন শুরু ==================== -->
+            <h1 class="text-2xl md:text-3xl font-bold mt-2 flex items-center justify-center gap-2">
+                <i class="fas fa-pills text-lg"></i> Aethuja (ইথুজা)
+            </h1>
+            <p class="text-xs md:text-sm text-teal-100 mt-1 italic">
+                Common Name: Fool's Parsley | Latin Name: Aethusa Cynapium
+            </p>
+            <!-- ==================== ঔষধের নাম পরিবর্তন শেষ ==================== -->
+        </div>
+    </section>
+
+    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া (এক কলামে চওড়া লেআউট - max-w-7xl) -->
+    <main class="container mx-auto px-4 md:px-8 py-6 flex-grow max-w-7xl space-y-6">
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শুরু ==================== -->
+
+        <!-- 🟢 সেকশন: সারসংক্ষেপ (Keynotes for Doctors) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                সারসংক্ষেপ (Keynotes for Doctors)
+            </div>
+            <p class="text-gray-600 italic mb-3 pl-1 text-xs md:text-sm">চিকিৎসক ও শিক্ষার্থীদের দ্রুত মুখস্ত করার জন্য ঔষধের মূল কথাগুলো নিচে দেওয়া হলো:</p>
+            <ul class="list-disc list-inside space-y-1.5 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>শিশুর দুধ সহ্য হয় না, দুধ খাইলে দইয়ের মত বমি হয় বমির পর ক্লান্ত হয়ে ঘুমায়, জেগে উঠে আবার দুধ পান করে</li>
+                <li>দাত ওঠার সময়ে যে কোন রোগ বিশেষভাবে শীর্ণতা ও বমি</li>
+                <li>ঘুমে কথা বলে, ভ্রমণ করে, যেকোন জিনিস বড় করে দেখে</li>
+                <li>অজীর্ণ সহ পাতলা মল,সবুজ মল, শুল বেদনা</li>
+                <li>পশুদের প্রতি অসম্ভব ভালবাসা,</li>
+                <li>ভ্রান্ত ধারনা, মনে করে ঘরে কুকুর বেড়াল আছে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের বিস্তারিত পরিচয় -->
+        <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm">
+            ঔষধের বিস্তারিত পরিচয়
+        </div>
+
+        <!-- 🟢 সেকশন: ১. স্মারক প্রধান লক্ষণ (Keynotes) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ১. স্মারক প্রধান লক্ষণ (Keynotes)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>দুগ্ধ সহ্য করতে না পারা (Intolerance of Milk):</strong> এটি এই ঔষধের সবচেয়ে বড় পরিচায়ক লক্ষণ। শিশু দুধ পান করার কিছুক্ষণ পরেই তা বড় বড় ছানার মতো (Large Curds) বমি করে দেয় এবং এরপর অত্যন্ত ক্লান্ত হয়ে ঘুমিয়ে পড়ে।</li>
+                <li><strong>Linea Nasalis:</strong> মুখমণ্ডলে একটি বিশেষ রেখা দেখা যায়, যা নাকের পাশ থেকে ঠোঁটের কোণ পর্যন্ত বিস্তৃত। এটি গভীর যন্ত্রণা বা ব্যথার ছাপ প্রকাশ করে।</li>
+                <li><strong>বমি ও পায়খানার পর অবসাদ:</strong> প্রচুর পরিমাণে বমি বা পাতলা পায়খানা করার পর রোগী প্রচণ্ড দুর্বল হয়ে পড়ে এবং গভীর ঘুমে আচ্ছন্ন হয়।</li>
+                <li><strong>ক্ষুধা ও তৃষ্ণা:</strong> বমি করার পরপরই শিশুর প্রচণ্ড ক্ষুধা পায়, কিন্তু জল পানে তৃষ্ণা থাকে না (Thirstless)।</li>
+                <li><strong>মস্তিষ্কের ক্লান্তি (Brain Fag):</strong> ছাত্রছাত্রীদের ক্ষেত্রে দেখা যায় তারা পড়াশোনায় মন দিতে পারে না, যা পড়ছে তা মাথায় ঢুকছে না বা মনে রাখতে পারছে না।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ২. মানসিক লক্ষণ -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ২. মানসিক লক্ষণ
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>রোগী সবসময় বিভ্রান্ত বোধ করে। মনে হয় সে কিছু বুঝতে পারছে না বা তার চিন্তাশক্তি লোপ পেয়েছে।</li>
+                <li><strong>পরীক্ষার্থী বা ছাত্রদের ঔষধ:</strong> পরীক্ষার আগে অতিরিক্ত উত্তেজনায় পড়া ভুলে যাওয়া বা মাথায় শূন্যতা বোধ করা।</li>
+                <li>একা থাকতে ভয় পায় (Fear of solitude) এবং অন্ধকার দেখলে আতঙ্কিত হয়।</li>
+                <li>শিশুরা খিটখিটে থাকে এবং প্রচুর কান্নাকাটি করে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পাকস্থলী ও উদর:</strong> পেটে প্রচণ্ড খিঁচুনি ও মোচড়ানো ব্যথা। দুধ পানের সাথে সাথে বা কিছুক্ষণ পর বমি হওয়া। গ্রীষ্মকালীন উদরাময় (Cholera Infantum) যেখানে শরীর ঠান্ডা হয়ে যায় কিন্তু রোগী ঘামতে থাকে।</li>
+                <li><strong>মুখমণ্ডল:</strong> মুখ ফ্যাকাশে এবং বসা থাকে। চোখের চারপাশে নীল দাগ পড়ে। মুখমণ্ডলে যন্ত্রণার স্পষ্ট ছাপ ফুটে ওঠে।</li>
+                <li><strong>স্নায়ুতন্ত্র:</strong> শিশুদের দাঁত ওঠার সময় খিঁচুনি (Convulsions)। খিঁচুনির সময় চোখের মণি নীচের দিকে উল্টে যায় (Eyes turned downwards)।</li>
+                <li><strong>নিদ্রা:</strong> বমি বা পায়খানার পর রোগী দীর্ঘক্ষণ এবং খুব গভীরভাবে ঘুমায় (Profound sleep)।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৪. বৃদ্ধি ও উপশম -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৪. বৃদ্ধি ও উপশম (Aggravation & Amelioration)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>বৃদ্ধি:</strong> দুধ পান করলে, গ্রীষ্মকালে, সকালে, খাওয়ার পর এবং দাঁত ওঠার সময়।</li>
+                <li><strong>উপশম:</strong> মুক্ত বাতাসে (Open air), শরীর ধুয়ে ফেললে এবং কিছুক্ষণ ঘুমালে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৫. শক্তি ও মাত্রা -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৫. শক্তি ও মাত্রা (Potency & Dosage)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>শক্তি:</strong> সাধারণ ক্ষেত্রে ৩০ বা ২০০ শক্তি ব্যবহৃত হয়। তবে শিশুদের ক্ষেত্রে নিম্ন শক্তি (৬ বা ১২) অনেক সময় ভালো কাজ করে।</li>
+                <li><strong>মাত্রা:</strong> বোরিকের মতে, তীক্ষ্ণ ও তীব্র উপসর্গে ঔষধটি নির্দিষ্ট ব্যবধানে প্রয়োগ করা উচিত।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৬. সম্পর্ক -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৬. সম্পর্ক (Relationships)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পরিপূরক (Complementary):</strong> Calcarea Carb. (ক্যালকেরিয়া কার্ব)।</li>
+                <li><strong>সদৃশ (Similar):</strong> Antimony Tart, Arsenic, Phosphorus.</li>
+                <li><strong>বিপরীত (Antidote):</strong> উদ্ভিজ্জ অম্ল (Vegetable acids) বা হালকা টক দ্রব্য।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ঔষধের সংক্ষিপ্ত পরিচিতি
+            </div>
+            <div class="border border-gray-400 overflow-x-auto rounded-sm">
+                <table class="w-full text-left text-xs md:text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-400 font-bold text-gray-800">
+                            <th class="p-3 border-r border-gray-400 w-1/3">বৈশিষ্ট্য</th>
+                            <th class="p-3">বিবরণ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">নাম</td><td class="p-3">Aethuja</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ল্যাটিন নাম</td><td class="p-3 italic">Aethusa Cynapium</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">উৎস</td><td class="p-3">উদ্ভিদ জগত (Fool's Parsley)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">কাতরতা</td><td class="p-3">গরম কাতর (Hot patient)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">পার্শ্ব</td><td class="p-3">প্রধানত বাম পার্শ্ব (Left side)</td></tr>
+                        <tr><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">মায়াজম</td><td class="p-3">সোরা (Psora)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 📚 তথ্যের উৎস এবং সতর্কতা -->
+        <div class="pt-4 text-xs md:text-sm text-gray-600 space-y-2 pl-1">
+            <p class="font-bold text-gray-800">তথ্যসূত্র:</p>
+            <ul class="list-disc list-inside space-y-1 pl-2 text-gray-500">
+                <li>Pocket Manual of Homoeopathic Materia Medica (William Boericke)</li>
+                <li>Lectures on Homoeopathic Materia Medica (J.T. Kent)</li>
+                <li>Keynotes and Characteristics (H.C. Allen)</li>
+            </ul>
+            <p class="text-red-600 font-medium pt-2"><strong class="text-red-700">সতর্কতা:</strong> শিশুদের ক্ষেত্রে এই ঔষধটি প্রয়োগ করার আগে অবশ্যই একজন অভিজ্ঞ চিকিৎসকের পরামর্শ নিন, কারণ ভুল শক্তির প্রয়োগ হিতে বিপরীত হতে পারে।</p>
+        </div>
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শেষ ==================== -->
+
+        <!-- ডিরেক্টরিতে ফিরে যাওয়ার বাটন -->
+        <div class="text-center pt-6">
+            <a href="index.html" class="inline-flex items-center gap-1.5 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-md font-medium transition text-xs md:text-sm shadow-sm">
+                <i class="fas fa-chevron-left"></i> ডিরেক্টরিতে ফিরে যান
+            </a>
+        </div>
+
+    </main>
+
+    <!-- 📥 ৪. এখানে স্বয়ংক্রিয়ভাবে ফুটার লোড হবে -->
+    <div id="app-footer"></div>
+
+    <!-- 🛠️ ৫. সেন্ট্রাল স্ক্রিপ্ট কল -->
+    <script src="medica-template.js"></script>
+</body>
+</html>
