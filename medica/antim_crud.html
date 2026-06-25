@@ -1,1 +1,195 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antim Crud (এন্টিম ক্রুড) - মেটেরিয়া মেডিকা</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for Professional Bengali Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind_Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-white font-sans antialiased flex flex-col min-h-screen text-gray-800 text-sm md:text-base">
 
+    <!-- 📥 ১. এখানে স্বয়ংক্রিয়ভাবে হেডার লোড হবে -->
+    <div id="app-header"></div>
+
+    <!-- 📢 ২. হিরো ব্যানার সেকশন -->
+    <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-8 px-4 text-center shadow-sm">
+        <div class="max-w-7xl mx-auto">
+            <span class="bg-white/20 text-[11px] uppercase font-bold tracking-wider px-3 py-1 rounded-full">Materia Medica</span>
+            
+            <!-- 📌 [বিশেষ নোট]: ভিন্ন ভিন্ন ফাইলে শুধু নিচের এই নামটুকু পরিবর্তন করবেন -->
+            <!-- ==================== ঔষধের নাম পরিবর্তন শুরু ==================== -->
+            <h1 class="text-2xl md:text-3xl font-bold mt-2 flex items-center justify-center gap-2">
+                <i class="fas fa-pills text-lg"></i> Antim Crud (এন্টিম ক্রুড)
+            </h1>
+            <p class="text-xs md:text-sm text-teal-100 mt-1 italic">
+                Common Name: Sulphide of Antimony | Latin Name: Antimonium Crudum
+            </p>
+            <!-- ==================== ঔষধের নাম পরিবর্তন শেষ ==================== -->
+        </div>
+    </section>
+
+    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া (এক কলামে চওড়া লেআউট - max-w-7xl) -->
+    <main class="container mx-auto px-4 md:px-8 py-6 flex-grow max-w-7xl space-y-6">
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শুরু ==================== -->
+
+        <!-- 🟢 সেকশন: সারসংক্ষেপ (Keynotes for Doctors) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                সারসংক্ষেপ (Keynotes for Doctors)
+            </div>
+            <p class="text-gray-600 italic mb-3 pl-1 text-xs md:text-sm">চিকিৎসক ও শিক্ষার্থীদের দ্রুত মুখস্ত করার জন্য ঔষধের মূল কথাগুলো নিচে দেওয়া হলো:</p>
+            <ul class="list-disc list-inside space-y-1.5 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>স্থুল দেহ, জিহবার উপর সাদা পুরু প্রলেপ পরে।</li>
+                <li>আহারে অরুচি, আহারের পর বমি।</li>
+                <li>গুরু ভোজনের পর পাকস্থলির সমস্যা।</li>
+                <li>টক খাওয়ার ইচ্ছা প্রবল।</li>
+                <li>গোসলে অনিচ্ছা।</li>
+                <li>জীবনের প্রতি vitrishni প্রবল, বিরক্তি, ক্রোধ, ক্রন্দন,</li>
+                <li>পর্যায়ক্রোমে উদারাময় ও কোষ্টবন্ধতা</li>
+                <li>পায়ের তলায় ব্যাথাযুক্ত কড়া,</li>
+                <li>নাকের পাতা ও ঠোটের কোন ফাটে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের বিস্তারিত পরিচয় -->
+        <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm">
+            ঔষধের বিস্তারিত পরিচয়
+        </div>
+
+        <!-- 🟢 সেকশন: ১. স্মারক প্রধান লক্ষণ (Keynotes) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ১. স্মারক প্রধান লক্ষণ (Keynotes)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>সাদা লেপাবৃত জিহ্বা:</strong> এটি এই ঔষধের 'হলমার্ক' লক্ষণ। জিহ্বা মনে হয় যেন সাদা আলকাতরা বা চুন দিয়ে মোটা করে লেপে দেওয়া হয়েছে (Milky white coated tongue)।</li>
+                <li><strong>তাকানো বা স্পর্শ সহ্য করতে না পারা:</strong> বিশেষ করে শিশুরা কাউকে তার দিকে তাকাতে দিতে চায় না এবং কেউ তাকে স্পর্শ করলে বা কোলে নিতে চাইলে চিৎকার করে ওঠে।</li>
+                <li><strong>অতিরিক্ত খাওয়ার কুফল:</strong> বেশি খাওয়ার ফলে বা হজম শক্তি নষ্ট হওয়ার কারণে সৃষ্ট আমাশয়, বমি বা পেটের গোলযোগ।</li>
+                <li><strong>নখ ও চামড়ার কাঠিন্য:</strong> নখ অত্যন্ত পুরু, কর্কশ এবং সহজেই ভেঙে যায়। পায়ের তলায় শক্ত কড়া (Corns) বা ক্যালাস পড়ে যা হাঁটলে প্রচণ্ড ব্যথা করে।</li>
+                <li><strong>অম্ল ও টক খাবারের ইচ্ছা:</strong> রোগী প্রচুর পরিমাণে আচার, ভিনেগার বা টক জাতীয় খাবার খেতে পছন্দ করে, যদিও এগুলো তার ক্ষতি করে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ২. মানসিক লক্ষণ -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ২. মানসিক লক্ষণ
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>রোগী অত্যন্ত খিটখিটে এবং রাগী মেজাজের হয়।</li>
+                <li><strong>আবেগী ও বিষণ্ণ:</strong> বিশেষ করে তরুণ-তরুণীদের ক্ষেত্রে দেখা যায় চাঁদের আলোতে তারা খুব ভাবপ্রবণ হয়ে পড়ে এবং প্রেমে বিফল হয়ে অত্যন্ত মুষড়ে পড়ে (Sentimental mood in moonlight)।</li>
+                <li>জীবন নিয়ে সে অত্যন্ত হতাশ এবং অনেক সময় তার মধ্যে আত্মহত্যার ইচ্ছা জাগে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পাকস্থলী ও উদর:</strong> পেটে প্রচণ্ড বায়ু জমে এবং অনবরত ঢেকুর ওঠে। খাওয়ার পরেই বমি বমি ভাব এবং পেটে ভার বোধ হওয়া। টক খাবার বা গরমে পেটের অসুখ শুরু হয়।</li>
+                <li><strong>চর্ম:</strong> নাকের কোণে বা ঠোঁটের কোণে ফাটল ধরা। চামড়ায় একজিমা বা ফুসকুড়ি যার ওপর হলুদাভ মামড়ি পড়ে।</li>
+                <li><strong>মলদ্বার ও মল:</strong> কোষ্ঠকাঠিন্য ও উদরাময় পর্যায়ক্রমে দেখা দেয়। মলের সাথে পিচ্ছিল আম নির্গত হয়।</li>
+                <li><strong>মাথা:</strong> ঠান্ডা জলে স্নান করার পর বা রোদে যাওয়ার পর মাথাব্যথা।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৪. বৃদ্ধি ও উপশম -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৪. বৃদ্ধি ও উপশম (Aggravation & Amelioration)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>বৃদ্ধি:</strong> উত্তাপে (সূর্যের তাপ বা আগুনের তাপে), ঠান্ডা জলে স্নান করলে, টক বা অম্ল যুক্ত খাবার খেলে এবং রাতে।</li>
+                <li><strong>উপশম:</strong> মুক্ত বাতাসে এবং বিশ্রামে থাকলে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৫. শক্তি ও মাত্রা -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৫. শক্তি ও মাত্রা (Potency & Dosage)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>শক্তি:</strong> ৩ থেকে ৩০ শক্তি সাধারণত ব্যবহৃত হয়। তবে চর্মরোগ ও মানসিক লক্ষণে ২০০ শক্তি নির্দিষ্ট ব্যবধানে অত্যন্ত কার্যকরী।</li>
+                <li><strong>মাত্রা:</strong> বোরিকের মতে, নিম্ন শক্তি (৩ বা ৬) হজমের সমস্যায় দ্রুত ফল দেয়।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৬. সম্পর্ক -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৬. সম্পর্ক (Relationships)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পরিপূরক (Complementary):</strong> Sulphur (সালফার)।</li>
+                <li><strong>প্রতিষেধক (Antidote):</strong> Hepar Sulph, Mercurius.</li>
+                <li><strong>সদৃশ (Similar):</strong> Bryonia, Ipecac, Pulsatilla (পেটের সমস্যায়)।</li>
+                <li><strong>অসঙ্গতি (Inimical):</strong> এই ঔষধের পরে সরাসরি স্নান করা বা ঠান্ডা জল ব্যবহার করা ঠিক নয়।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ঔষধের সংক্ষিপ্ত পরিচিতি
+            </div>
+            <div class="border border-gray-400 overflow-x-auto rounded-sm">
+                <table class="w-full text-left text-xs md:text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-400 font-bold text-gray-800">
+                            <th class="p-3 border-r border-gray-400 w-1/3">বৈশিষ্ট্য</th>
+                            <th class="p-3">বিবরণ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">নাম</td><td class="p-3">Antim Crud</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ল্যাটিন নাম</td><td class="p-3 italic">Antimonium Crudum</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">উৎস</td><td class="p-3">খনিজ জগত (Sulphide of Antimony)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">কাতরতা</td><td class="p-3">শীতকাতর (Chilly) - কিন্তু রোদের তাপ সহ্য হয় না</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">পার্শ্ব</td><td class="p-3">প্রধানত বাম পার্শ্ব (Left side)</td></tr>
+                        <tr><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">মায়াজম</td><td class="p-3">সোরা (Psora), সাইকোসিস (Sycotic)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 📚 তথ্যের উৎস এবং সতর্কতা -->
+        <div class="pt-4 text-xs md:text-sm text-gray-600 space-y-2 pl-1">
+            <p class="font-bold text-gray-800">তথ্যসূত্র:</p>
+            <ul class="list-disc list-inside space-y-1 pl-2 text-gray-500">
+                <li>Pocket Manual of Homoeopathic Materia Medica (William Boericke)</li>
+                <li>Lectures on Homoeopathic Materia Medica (J.T. Kent)</li>
+                <li>Keynotes and Characteristics (H.C. Allen)</li>
+            </ul>
+            <p class="text-red-600 font-medium pt-2"><strong class="text-red-700">সতর্কতা:</strong> জিহ্বায় মোটা সাদা স্তর এবং খিটখিটে মেজাজ থাকলে এই ঔষধটি চমৎকার কাজ করে। তবে সঠিক শক্তি নির্বাচনের জন্য চিকিৎসকের পরামর্শ নিন।</p>
+        </div>
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শেষ ==================== -->
+
+        <!-- ডিরেক্টরিতে ফিরে যাওয়ার বাটন -->
+        <div class="text-center pt-6">
+            <a href="index.html" class="inline-flex items-center gap-1.5 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-md font-medium transition text-xs md:text-sm shadow-sm">
+                <i class="fas fa-chevron-left"></i> ডিরেক্টরিতে ফিরে যান
+            </a>
+        </div>
+
+    </main>
+
+    <!-- 📥 ৪. এখানে স্বয়ংক্রিয়ভাবে ফুটার লোড হবে -->
+    <div id="app-footer"></div>
+
+    <!-- 🛠️ ৫. সেন্ট্রাল স্ক্রিপ্ট কল -->
+    <script src="medica-template.js"></script>
+</body>
+</html>
