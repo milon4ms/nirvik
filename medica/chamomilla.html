@@ -1,1 +1,199 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamomilla (ক্যামেমিলা) - মেটেরিয়া মেডিকা</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for Professional Bengali Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind_Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-white font-sans antialiased flex flex-col min-h-screen text-gray-800 text-sm md:text-base">
 
+    <!-- 📥 ১. এখানে স্বয়ংক্রিয়ভাবে হেডার লোড হবে -->
+    <div id="app-header"></div>
+
+    <!-- 📢 ২. হিরো ব্যানার সেকশন -->
+    <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-8 px-4 text-center shadow-sm">
+        <div class="max-w-7xl mx-auto">
+            <span class="bg-white/20 text-[11px] uppercase font-bold tracking-wider px-3 py-1 rounded-full">Materia Medica</span>
+            
+            <!-- 📌 [বিশেষ নোট]: ভিন্ন ভিন্ন ফাইলে শুধু নিচের এই নামটুকু পরিবর্তন করবেন -->
+            <!-- ==================== ঔষধের নাম পরিবর্তন শুরু ==================== -->
+            <h1 class="text-2xl md:text-3xl font-bold mt-2 flex items-center justify-center gap-2">
+                <i class="fas fa-pills text-lg"></i> Chamomilla (ক্যামেমিলা)
+            </h1>
+            <p class="text-xs md:text-sm text-teal-100 mt-1 italic">
+                Common Name: German Chamomile | Latin Name: Matricaria chamomilla
+            </p>
+            <!-- ==================== ঔষধের নাম পরিবর্তন শেষ ==================== -->
+        </div>
+    </section>
+
+    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া (এক কলামে চওড়া লেআউট - max-w-7xl) -->
+    <main class="container mx-auto px-4 md:px-8 py-6 flex-grow max-w-7xl space-y-6">
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শুরু ==================== -->
+
+        <!-- 🟢 সেকশন: সারসংক্ষেপ (Keynotes for Doctors) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                সারসংক্ষেপ (Keynotes for Doctors)
+            </div>
+            <p class="text-gray-600 italic mb-3 pl-1 text-xs md:text-sm">চিকিৎসক ও শিক্ষার্থীদের দ্রুত মুখস্ত করার জন্য ঔষধের মূল কথাগুলো নিচে দেওয়া হলো:</p>
+            <ul class="list-disc list-inside space-y-1.5 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>নারী ও শিশুদের ঔষধ</li>
+                <li>বদমেজাজী, কলহ প্রিয়, গায়ে পড়ে ঝগড়া করে। কথার বিরোধীতা সহ্য হয়না</li>
+                <li>প্রসবের পর ব্যাথা। ব্যাথা অত্যন্ত অসহ্য মনে হয়। হাটাচলায় উপশম</li>
+                <li>নিদ্রালু কিন্তু ঘুম হয়না, নিদ্রা কালে ঘাম আসে</li>
+                <li>মুখের স্বাদ তিতা, ঢেকুরে পচা ডিমের গন্ধ</li>
+                <li>রাতে পায়ের তলা, হাতের তলা জ্বলে। পা বাইরে রাখে</li>
+                <li>জ্বরে ঘাম, পিপাসা। এক গাল লাল, গরম অন্য গাল বিবর্ণ ও ঠান্ডা</li>
+                <li>শিশু ঘ্যান ঘ্যান করে, থু থু ছিটায় অনাবরত কাদে। কোলে নিয়ে চাপরালে শান্ত হয়</li>
+                <li>মা রাগ অবস্থায় দুধ পান করালে শিশুর তরকা রোগ হয়</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের বিস্তারিত পরিচয় -->
+        <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm">
+            ঔষধের বিস্তারিত পরিচয়
+        </div>
+
+        <!-- 🟢 সেকশন: ১. স্মারক প্রধান লক্ষণ (Keynotes) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ১. স্মারক প্রধান লক্ষণ (Keynotes)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>মানসিক অসহিষ্ণুতা ও রাগ:</strong> যন্ত্রণার প্রতি রোগী অত্যন্ত সংবেদনশীল। সে সামান্য ব্যথাও সহ্য করতে পারে না এবং যন্ত্রণায় চিৎকার করে ওঠে।</li>
+                <li><strong>কোলে থাকতে চাওয়ার প্রবণতা:</strong> বিশেষ করে শিশুদের ক্ষেত্রে; শিশু সারাক্ষণ কোলে থাকতে চায় এবং তাকে নিয়ে ঘুরে বেড়ালে সে শান্ত থাকে (Child wants to be carried and petted)।</li>
+                <li><strong>অসমঞ্জস মুখমণ্ডল:</strong> যন্ত্রণার সময় একটি গাল লাল ও গরম থাকে, অন্যটি ফ্যাকাশে ও ঠান্ডা থাকে (One cheek red and hot, the other pale and cold)।</li>
+                <li><strong>দাঁত ওঠার কষ্ট:</strong> শিশুদের দাঁত ওঠার সময় ডায়রিয়া, জ্বর বা খিটখিটে মেজাজ হলে এটি প্রধান ঔষধ।</li>
+                <li><strong>পচা ডিমের মতো মল:</strong> শিশুদের মল দেখতে সবুজ এবং গন্ধ পচা ডিমের মতো (Stool like chopped spinach, smelling like rotten eggs)।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ২. মানসিক লক্ষণ -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ২. মানসিক লক্ষণ
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>রোগী অত্যন্ত রাগী, ঝগড়াটে এবং খিটখিটে প্রকৃতির। সে কোনো জিনিস চেয়ে পাওয়ার পর তা ছুড়ে ফেলে দেয়।</li>
+                <li>কেউ তার দিকে তাকালে বা কথা বললে সে প্রচণ্ড বিরক্ত হয়।</li>
+                <li>যন্ত্রণার চোটে সে জ্ঞান হারিয়ে ফেলতে পারে বা ছটফট করতে থাকে।</li>
+                <li>শিশুদের ক্ষেত্রে শান্ত করা প্রায় অসম্ভব হয়ে পড়ে যদি না তাকে কোলে নিয়ে হাঁটা হয়।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>দাঁত ও মুখ:</strong> দাঁতে প্রচণ্ড ব্যথা যা রাতে বাড়ে এবং গরম পানীয় পানে বৃদ্ধি পায়। ঠান্ডা জল মুখে রাখলে ব্যথার সাময়িক উপশম হয়।</li>
+                <li><strong>পাকস্থলী ও উদর:</strong> রাগের পর পেটে প্রচণ্ড বায়ু জমা ও আক্ষেপিক ব্যথা (Colic)। শিশুদের পেটে যন্ত্রণার সময় সে পা ওপরের দিকে তুলে কুঁকড়ে থাকে।</li>
+                <li><strong>স্ত্রী জননেন্দ্রিয়:</strong> ঋতুস্রাব অত্যন্ত যন্ত্রণাদায়ক (Dysmenorrhea) এবং রক্ত কালচে ও চাকা চাকা। যন্ত্রণার সাথে রোগী খিটখিটে হয়ে পড়ে।</li>
+                <li><strong>শ্বাসযন্ত্র:</strong> রাতে শোয়ার সময় শুষ্ক কাশি, কিন্তু শিশু ঘুমিয়ে পড়লে কাশির বেগ কমে যায়।</li>
+                <li><strong>কান:</strong> কানে প্রচণ্ড যন্ত্রণা, মনে হয় যেন কান ফেটে যাবে। কান অত্যন্ত স্পর্শকাতর হয়ে পড়ে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৪. বৃদ্ধি ও উপশম -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৪. বৃদ্ধি ও উপশম (Aggravation &amp; Amelioration)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>বৃদ্ধি:</strong> রাগের ফলে (Anger), রাতে, গরমে, খোলা বাতাসে এবং কফি পান করলে।</li>
+                <li><strong>উপশম:</strong> কোলে নিয়ে ঘুরে বেড়ালে (Being carried), ঠান্ডা ও আর্দ্র আবহাওয়ায়।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৫. শক্তি ও মাত্রা -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৫. শক্তি ও মাত্রা (Potency &amp; Dosage)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>শক্তি:</strong> ৬ থেকে ৩০ শক্তি শিশুদের জন্য এবং প্রাপ্তবয়স্কদের জন্য ২০০ শক্তি খুব ভালো কাজ করে।</li>
+                <li><strong>মাত্রা:</strong> বোরিকের মতে, এটি একটি স্বল্পস্থায়ী ঔষধ যা তীব্র যন্ত্রণায় প্রতি ১০-১৫ মিনিট অন্তর প্রয়োগ করা যেতে পারে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৬. সম্পর্ক -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৬. সম্পর্ক (Relationships)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পরিপূরক (Complementary):</strong> Belladonna, Magnesium Phos।</li>
+                <li><strong>প্রতিষেধক (Antidote):</strong> Camphor, Nux Vomica, Coffea।</li>
+                <li><strong>সদৃশ (Similar):</strong> Pulsatilla, Cina (খিটখিটে মেজাজ), Coffea (অসহ্য যন্ত্রণায়)।</li>
+                <li><strong>অসঙ্গতি (Inimical):</strong> এটি ব্যবহারের সময় কফি পান করা নিষেধ, কারণ কফি এর কার্যকারিতা নষ্ট করে দেয়।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ঔষধের সংক্ষিপ্ত পরিচিতি
+            </div>
+            <div class="border border-gray-400 overflow-x-auto rounded-sm">
+                <table class="w-full text-left text-xs md:text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-400 font-bold text-gray-800">
+                            <th class="p-3 border-r border-gray-400 w-1/3">বৈশিষ্ট্য</th>
+                            <th class="p-3">বিবরণ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">নাম</td><td class="p-3">Chamomilla</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ল্যাটিন নাম</td><td class="p-3 italic">Matricaria chamomilla</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">উৎস</td><td class="p-3">উদ্ভিদ জগত (জার্মান ক্যামোমাইল ফুল)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">কাতরতা</td><td class="p-3">গরম কাতর (Warm patient) - যদিও ঠান্ডায় কষ্ট বাড়ে</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">পার্শ্ব</td><td class="p-3">প্রধানত বাম পার্শ্ব (Left side)</td></tr>
+                        <tr><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">মায়াজম</td><td class="p-3">সোরা (Psora)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 📚 তথ্যের উৎস এবং সতর্কতা -->
+        <div class="pt-4 text-xs md:text-sm text-gray-600 space-y-2 pl-1">
+            <p class="font-bold text-gray-800">তথ্যসূত্র:</p>
+            <ul class="list-disc list-inside space-y-1 pl-2 text-gray-500">
+                <li><em>Pocket Manual of Homoeopathic Materia Medica</em> (William Boericke)</li>
+                <li><em>Lectures on Homoeopathic Materia Medica</em> (J.T. Kent)</li>
+                <li><em>Keynotes and Characteristics</em> (H.C. Allen)</li>
+            </ul>
+            <blockquote class="border-l-4 border-red-400 pl-3 text-red-600 font-medium pt-2">
+                <p><strong>সতর্কতা:</strong> ক্যামেমিলা মূলত স্নায়বিক উত্তেজনার ঔষধ। যদি যন্ত্রণার সাথে মেজাজ খুব খিটখিটে না থাকে, তবে এই ঔষধটি ভালো কাজ নাও করতে পারে।</p>
+            </blockquote>
+        </div>
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শেষ ==================== -->
+
+        <!-- ডিরেক্টরিতে ফিরে যাওয়ার বাটন -->
+        <div class="text-center pt-6">
+            <a href="index.html" class="inline-flex items-center gap-1.5 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-md font-medium transition text-xs md:text-sm shadow-sm">
+                <i class="fas fa-chevron-left"></i> ডিরেক্টরিতে ফিরে যান
+            </a>
+        </div>
+
+    </main>
+
+    <!-- 📥 ৪. এখানে স্বয়ংক্রিয়ভাবে ফুটার লোড হবে -->
+    <div id="app-footer"></div>
+
+    <!-- 🛠️ ৫. সেন্ট্রাল স্ক্রিপ্ট কল -->
+    <script src="medica-template.js"></script>
+</body>
+</html>
