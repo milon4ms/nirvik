@@ -1,1 +1,195 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agnus Castus (এগনাস ক্যাস্ট) - মেটেরিয়া মেডিকা</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for Professional Bengali Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind_Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-white font-sans antialiased flex flex-col min-h-screen text-gray-800 text-sm md:text-base">
 
+    <!-- 📥 ১. এখানে স্বয়ংক্রিয়ভাবে হেডার লোড হবে -->
+    <div id="app-header"></div>
+
+    <!-- 📢 ২. হিরো ব্যানার সেকশন -->
+    <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-8 px-4 text-center shadow-sm">
+        <div class="max-w-7xl mx-auto">
+            <span class="bg-white/20 text-[11px] uppercase font-bold tracking-wider px-3 py-1 rounded-full">Materia Medica</span>
+            
+            <!-- 📌 [বিশেষ নোট]: ভিন্ন ভিন্ন ফাইলে শুধু নিচের এই নামটুকু পরিবর্তন করবেন -->
+            <!-- ==================== ঔষধের নাম পরিবর্তন শুরু ==================== -->
+            <h1 class="text-2xl md:text-3xl font-bold mt-2 flex items-center justify-center gap-2">
+                <i class="fas fa-pills text-lg"></i> Agnus Castus (এগনাস ক্যাস্ট)
+            </h1>
+            <p class="text-xs md:text-sm text-teal-100 mt-1 italic">
+                Common Name: Chaste Tree | Latin Name: Vitex agnus-castus
+            </p>
+            <!-- ==================== ঔষধের নাম পরিবর্তন শেষ ==================== -->
+        </div>
+    </section>
+
+    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া (এক কলামে চওড়া লেআউট - max-w-7xl) -->
+    <main class="container mx-auto px-4 md:px-8 py-6 flex-grow max-w-7xl space-y-6">
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শুরু ==================== -->
+
+        <!-- 🟢 সেকশন: সারসংক্ষেপ (Keynotes for Doctors) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                সারসংক্ষেপ (Keynotes for Doctors)
+            </div>
+            <p class="text-gray-600 italic mb-3 pl-1 text-xs md:text-sm">চিকিৎসক ও শিক্ষার্থীদের দ্রুত মুখস্ত করার জন্য ঔষধের মূল কথাগুলো নিচে দেওয়া হলো:</p>
+            <ul class="list-disc list-inside space-y-1.5 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>অতিরিক্ত হস্তমৈথুন বা গণোরিয়া জনিত ধব্জভঙ্গ দোষ</li>
+                <li>অধিক সহবাসের কারনে বীর্য পাতলা, সামান্য কোথে বীর্য বের হয়</li>
+                <li>যৌনাংগ থলথলে ও ক্ষুদ্র ও শিথিল। সহবাসের ইচ্ছা লোপ</li>
+                <li>অকাল বার্ধক্য। অমনোযোগী, এককথা বারবার বলে</li>
+                <li>সর্বদা বিষন্ন, আত্মহত্যার ইচ্ছা, স্মৃতিশক্তির দুর্বলতা</li>
+                <li>প্রসূতির স্তনে দুধের অভাব। জড়ায়ুর পীড়ায় কার্যকর</li>
+                <li>মলবের হয়ে ডুকে যায়</li>
+                <li>একদিকে একনাগারে তাকিয়ে থাকলে মাথাব্যাথা উপশম</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের বিস্তারিত পরিচয় -->
+        <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm">
+            ঔষধের বিস্তারিত পরিচয়
+        </div>
+
+        <!-- 🟢 সেকশন: ১. স্মারক প্রধান লক্ষণ (Keynotes) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ১. স্মারক প্রধান লক্ষণ (Keynotes)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>অকাল বার্ধক্য ও যৌন অবসাদ:</strong> যৌবনে অতিরিক্ত ইন্দ্রিয়সেবা বা বীর্যক্ষয়ের ফলে অকাল বার্ধক্য। একে প্রায়ই "Old Sinner" বা "বৃদ্ধ পাপিষ্ঠের ঔষধ" বলা হয়।</li>
+                <li><strong>জননেন্দ্রিয়ের শীতলতা ও শিথিলতা:</strong> লিঙ্গ বা জননেন্দ্রিয় অত্যন্ত ঠান্ডা, শিথিল এবং কুঁচকানো থাকে। কোনো প্রকার যৌন ইচ্ছা বা উত্তেজনা থাকে না।</li>
+                <li><strong>হলুদাভ স্রাব (Gleet):</strong> দীর্ঘদিনের পুরনো প্রমেহ বা গনোরিয়া রোগ, যাতে হলুদ রঙের দীর্ঘস্থায়ী স্রাব নির্গত হয়।</li>
+                <li><strong>দুগ্ধহীনতা (Agalactia):</strong> প্রসূতি মায়েদের স্তনে দুধের অভাব এবং সেই সাথে অত্যন্ত বিষণ্ণতা।</li>
+                <li><strong>ঘ্রাণশক্তির বিভ্রম:</strong> রোগী সবসময় নিজের চারপাশে কাল্পনিক গন্ধ পায় (যেমন: পোড়া মাছ বা কস্তুরীর গন্ধ)।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ২. মানসিক লক্ষণ -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ২. মানসিক লক্ষণ
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>গভীর বিষণ্ণতা (Melancholy):</strong> রোগী সবসময় বিমর্ষ থাকে এবং মনে করে তার মৃত্যু আসন্ন। একোনাইটের মতো সে তার মৃত্যুর সময় পর্যন্ত নির্ধারণ করে ফেলে।</li>
+                <li><strong>স্মৃতিশক্তি লোপ:</strong> অত্যন্ত অন্যমনস্ক থাকে, কোনো কিছু পড়তে গেলে মনোযোগ দিতে পারে না এবং পড়া বিষয় দ্রুত ভুলে যায়।</li>
+                <li>রোগী মনে করে তার রোগ আর কখনোই সারবে না এবং সে জীবন নিয়ে সম্পূর্ণ হতাশ হয়ে পড়ে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পুং জননেন্দ্রিয়:</strong> যৌন ক্ষমতা সম্পূর্ণ লোপ পায়। সঙ্গমের সময় বা উত্তেজনার সময় লিঙ্গ শক্ত হয় না। প্রস্রাব বা মলত্যাগের সময় অজান্তেই বীর্য বা প্রোস্টেটিক রস নির্গত হয়।</li>
+                <li><strong>স্ত্রী জননেন্দ্রিয়:</strong> যৌন ইচ্ছার অভাব। জরায়ু থেকে সাদা বা হলুদাভ স্রাব নির্গত হয় যা কাপড়ে হলুদ দাগ ফেলে। স্তনে দুধ আসে না বা আসলেও খুব সামান্য।</li>
+                <li><strong>চোখ:</strong> চোখের মণি প্রসারিত (Dilated pupils) থাকে। চোখের সামনে অনেক সময় আলোকচ্ছটা বা ছোট ছোট পোকা ওড়ার মতো অনুভূতি হয়।</li>
+                <li><strong>পাকস্থলী:</strong> পেটে বায়ু জমে এবং প্লীহা (Spleen) অঞ্চলে ব্যথা অনুভূত হতে পারে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৪. বৃদ্ধি ও উপশম -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৪. বৃদ্ধি ও উপশম (Aggravation &amp; Amelioration)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>বৃদ্ধি:</strong> অতিরিক্ত যৌন মিলনে, নড়াচড়া করলে এবং মানসিক পরিশ্রমে।</li>
+                <li><strong>উপশম:</strong> বিশ্রামে থাকলে এবং স্থিরভাবে শুয়ে থাকলে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৫. শক্তি ও মাত্রা -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৫. শক্তি ও মাত্রা (Potency &amp; Dosage)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>শক্তি:</strong> মাদার টিংচার (Q) থেকে ৬ শক্তি সাধারণত বেশি কার্যকর। তবে মানসিক উপসর্গের প্রাবল্য থাকলে উচ্চ শক্তি (৩০ বা ২০০) ব্যবহৃত হয়।</li>
+                <li><strong>মাত্রা:</strong> বোরিকের মতে, নিম্ন শক্তি (Lower attenuations) এই ঔষধের ক্ষেত্রে অধিক ফলপ্রসূ।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৬. সম্পর্ক -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৬. সম্পর্ক (Relationships)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পরিপূরক (Complementary):</strong> Selenium (সিলেনিয়াম)।</li>
+                <li><strong>প্রতিষেধক (Antidote):</strong> Camphor (ক্যামফর)।</li>
+                <li><strong>সদৃশ (Similar):</strong> Caladium, Lycopodium, Phosphorus, Selenium (এগুলোও যৌন দুর্বলতায় ব্যবহৃত হয়)।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ঔষধের সংক্ষিপ্ত পরিচিতি
+            </div>
+            <div class="border border-gray-400 overflow-x-auto rounded-sm">
+                <table class="w-full text-left text-xs md:text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-400 font-bold text-gray-800">
+                            <th class="p-3 border-r border-gray-400 w-1/3">বৈশিষ্ট্য</th>
+                            <th class="p-3">বিবরণ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">নাম</td><td class="p-3">Agnus Castus</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ল্যাটিন নাম</td><td class="p-3 italic">Vitex agnus-castus</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">উৎস</td><td class="p-3">উদ্ভিদ জগত (Chaste Tree)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">কাতরতা</td><td class="p-3">শীতকাতর (Chilly)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">পার্শ্ব</td><td class="p-3">প্রধানত বাম পার্শ্ব (Left side)</td></tr>
+                        <tr><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">মায়াজম</td><td class="p-3">সাইকোসিস (Sycotic)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 📚 তথ্যের উৎস এবং সতর্কতা -->
+        <div class="pt-4 text-xs md:text-sm text-gray-600 space-y-2 pl-1">
+            <p class="font-bold text-gray-800">তথ্যসূত্র:</p>
+            <ul class="list-disc list-inside space-y-1 pl-2 text-gray-500">
+                <li><em>Pocket Manual of Homoeopathic Materia Medica</em> (William Boericke)</li>
+                <li><em>Lectures on Homoeopathic Materia Medica</em> (J.T. Kent)</li>
+                <li><em>Keynotes and Characteristics</em> (H.C. Allen)</li>
+            </ul>
+            <blockquote class="border-l-4 border-red-400 pl-3 text-red-600 font-medium pt-2">
+                <p><strong>সতর্কতা:</strong> ভুল ঔষধ বা মাত্রা দীর্ঘমেয়াদী শারীরিক সমস্যার কারণ হতে পারে। সঠিক চিকিৎসার জন্য লক্ষণ মিলিয়ে একজন অভিজ্ঞ হোমিওপ্যাথিক চিকিৎসকের পরামর্শ নিন।</p>
+            </blockquote>
+        </div>
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শেষ ==================== -->
+
+        <!-- ডিরেক্টরিতে ফিরে যাওয়ার বাটন -->
+        <div class="text-center pt-6">
+            <a href="index.html" class="inline-flex items-center gap-1.5 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-md font-medium transition text-xs md:text-sm shadow-sm">
+                <i class="fas fa-chevron-left"></i> ডিরেক্টরিতে ফিরে যান
+            </a>
+        </div>
+
+    </main>
+
+    <!-- 📥 ৪. এখানে স্বয়ংক্রিয়ভাবে ফুটার লোড হবে -->
+    <div id="app-footer"></div>
+
+    <!-- 🛠️ ৫. সেন্ট্রাল স্ক্রিপ্ট কল -->
+    <script src="medica-template.js"></script>
+</body>
+</html>
