@@ -1,19 +1,78 @@
 <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
     <style>
-        /* ===== ড্রপডাউন যোগাযোগ সূত্র (মাউস নিচে নামালেও মেনু থাকে) ===== */
-        .relative.group .absolute {
-            top: calc(100% - 6px) !important;
-            padding-top: 6px !important;
+        /* ===== ড্রপডাউন স্টাইল ===== */
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 8px;
+            background: white;
+            color: #333;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            min-width: 220px;
+            padding: 12px 0;
+            z-index: 100;
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
         }
-        /* প্যারেন্ট এলিমেন্টে সামান্য প্যাডিং */
-        .relative.group {
-            padding-bottom: 4px;
-        }
-        /* ডেস্কটপে ড্রপডাউন মেনু খোলা রাখার নিশ্চয়তা */
-        .relative.group:hover > .absolute {
+        
+        .dropdown-menu.show {
             display: block !important;
+            opacity: 1;
+            transform: translateY(0);
         }
-        /* মোবাইলে সরাসরি দেখানো বাটনগুলোর স্টাইল */
+        
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 20px;
+            color: #4a5568;
+            text-decoration: none;
+            transition: all 0.2s;
+            font-size: 15px;
+            border-left: 3px solid transparent;
+        }
+        
+        .dropdown-menu a:hover {
+            background: #f0fdf4;
+            border-left-color: #00b8a9;
+        }
+        
+        .dropdown-menu a i {
+            width: 20px;
+            color: #00b8a9;
+            margin-right: 10px;
+        }
+        
+        .dropdown-menu .logout-item {
+            border-top: 1px solid #e2e8f0;
+            margin-top: 6px;
+            padding-top: 6px;
+            color: #e53e3e;
+        }
+        
+        .dropdown-menu .logout-item i {
+            color: #e53e3e;
+        }
+        
+        .dropdown-menu .logout-item:hover {
+            background: #fff5f5;
+            border-left-color: #e53e3e;
+        }
+        
+        /* ড্রপডাউন ট্রিগার বাটন */
+        .dropdown-trigger {
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .dropdown-trigger.active .fa-chevron-down {
+            transform: rotate(180deg);
+        }
+        
+        /* মোবাইলের জন্য */
         .mobile-menu-btn {
             background: rgba(255,255,255,0.15);
             border: 1px solid rgba(255,255,255,0.1);
@@ -22,16 +81,25 @@
             background: rgba(255,255,255,0.25);
         }
         
-        /* 📝 পিসির জন্য ডানপাশের সাবমেনু (Nested Dropdown) স্টাইল */
-        .nested-dropdown {
-            display: none;
-            position: absolute;
-            left: 100%;
-            top: 0;
-            margin-left: 2px;
+        /* ফিক্সড ড্রপডাউন */
+        .relative {
+            position: relative;
         }
-        .nested-parent:hover .nested-dropdown {
-            display: block !important;
+        
+        /* অ্যানিমেশন */
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .dropdown-menu.show {
+            animation: slideDown 0.3s ease;
         }
     </style>
     
@@ -48,7 +116,7 @@
                 <!-- ১. সাধারণ রোগ -->
                 <a href="select.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">সাধারণ রোগ</a>
                 
-                <!-- ২. মেডিকা (এখন সাধারণ রোগের ডানে এবং নতুন লিংকে) -->
+                <!-- ২. মেডিকা -->
                 <a href="medica/index.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                     মেডিকা
                 </a>
@@ -57,7 +125,7 @@
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2 group-hover:block">
                         <a href="jor.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-temperature-high mr-2 text-teal-600"></i>জ্বর সর্দি কাশি</a>
                         <a href="pain.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-bolt mr-2 text-teal-600"></i>ব্যথা</a>
                         <a href="tumor.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-circle mr-2 text-teal-600"></i>টিউমার</a>
@@ -73,7 +141,7 @@
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2 group-hover:block">
                         <a href="head.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-brain mr-2 text-teal-600"></i>মাথা</a>
                         <a href="eyes.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-eye mr-2 text-teal-600"></i>চোখ</a>
                         <a href="ear.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-ear-listen mr-2 text-teal-600"></i>কান</a>
@@ -87,7 +155,7 @@
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2 group-hover:block">
                         <a href="chest.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-lungs mr-2 text-teal-600"></i>বুকের সমস্যা</a>
                         <a href="hands.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-hand mr-2 text-teal-600"></i>হাতের সমস্যা</a>
                         <a href="back.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-spine mr-2 text-teal-600"></i>পিঠের সমস্যা</a>
@@ -99,7 +167,7 @@
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2 group-hover:block">
                         <a href="piles.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-circle-dot mr-2 text-teal-600"></i>অর্শ</a>
                         <a href="urethral.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-droplet mr-2 text-teal-600"></i>মূত্রনালী</a>
                         <a href="leg.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-shoe-prints mr-2 text-teal-600"></i>পা</a>
@@ -110,13 +178,14 @@
                     </div>
                 </div>
 
-                <!-- লগইন/প্রোফাইল ড্রপডাউন - আপডেটেড -->
-                <div class="relative group" id="userMenu">
-                    <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition" id="userMenuBtn">
+                <!-- ===== লগইন ড্রপডাউন (ক্লিক করলে খোলা) ===== -->
+                <div class="relative" id="userDropdownWrapper">
+                    <button class="dropdown-trigger flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition" id="userDropdownBtn">
                         <span id="userMenuLabel">লগ ইন</span>
-                        <i class="fas fa-chevron-down text-xs"></i>
+                        <i class="fas fa-chevron-down text-xs transition-transform"></i>
                     </button>
-                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-56 mt-2 right-0" id="userDropdown">
+                    
+                    <div class="dropdown-menu" id="userDropdownMenu">
                         <!-- ডায়নামিক কন্টেন্ট জাভাস্ক্রিপ্ট দিয়ে লোড হবে -->
                         <div id="userDropdownContent"></div>
                     </div>
@@ -137,7 +206,7 @@
         </div>
     </div>
 
-    <!-- মোবাইল মেনু - আপডেটেড -->
+    <!-- মোবাইল মেনু -->
     <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
         <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
             
@@ -205,7 +274,6 @@
             </details>
 
             <div class="border-t border-teal-700 my-2 pt-2 flex flex-col gap-1" id="mobileUserMenu">
-                <!-- ডায়নামিক কন্টেন্ট জাভাস্ক্রিপ্ট দিয়ে লোড হবে -->
                 <div id="mobileUserContent"></div>
             </div>
         </div>
@@ -227,6 +295,33 @@
                     if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
                         mobileMenu.classList.add('hidden');
                     }
+                });
+            }
+
+            // ===== ডেস্কটপ ড্রপডাউন টগল (ক্লিক করবে) =====
+            const dropdownBtn = document.getElementById('userDropdownBtn');
+            const dropdownMenu = document.getElementById('userDropdownMenu');
+            const dropdownWrapper = document.getElementById('userDropdownWrapper');
+
+            if (dropdownBtn && dropdownMenu) {
+                // বাটনে ক্লিক করলে ড্রপডাউন টগল
+                dropdownBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    dropdownMenu.classList.toggle('show');
+                    this.classList.toggle('active');
+                });
+
+                // বাইরে ক্লিক করলে ড্রপডাউন বন্ধ
+                document.addEventListener('click', function(e) {
+                    if (!dropdownWrapper.contains(e.target)) {
+                        dropdownMenu.classList.remove('show');
+                        dropdownBtn.classList.remove('active');
+                    }
+                });
+
+                // ড্রপডাউনের ভেতরে ক্লিক করলে বন্ধ না হওয়া
+                dropdownMenu.addEventListener('click', function(e) {
+                    e.stopPropagation();
                 });
             }
 
@@ -259,11 +354,11 @@
                             }
                             
                             userDropdownContent.innerHTML = `
-                                <a href="${dashboardLink}" class="block px-6 py-3 hover:bg-teal-50">
-                                    <i class="fas fa-user-circle mr-2 text-teal-600"></i>আমার প্রোফাইল
+                                <a href="${dashboardLink}">
+                                    <i class="fas fa-user-circle"></i> আমার প্রোফাইল
                                 </a>
-                                <a href="#" class="block px-6 py-3 hover:bg-teal-50 text-red-600" id="desktopLogoutBtn">
-                                    <i class="fas fa-sign-out-alt mr-2"></i>লগ আউট
+                                <a href="#" class="logout-item" id="desktopLogoutBtn">
+                                    <i class="fas fa-sign-out-alt"></i> লগ আউট
                                 </a>
                             `;
                             
@@ -288,10 +383,10 @@
                             
                             mobileUserContent.innerHTML = `
                                 <a href="${dashboardLink}" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
-                                    <i class="fas fa-user-circle mr-1"></i>আমার প্রোফাইল
+                                    <i class="fas fa-user-circle mr-1"></i> আমার প্রোফাইল
                                 </a>
                                 <a href="#" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2 text-red-300" id="mobileLogoutBtn">
-                                    <i class="fas fa-sign-out-alt mr-1"></i>লগ আউট
+                                    <i class="fas fa-sign-out-alt mr-1"></i> লগ আউট
                                 </a>
                             `;
                             
@@ -325,11 +420,11 @@
                 
                 if (userDropdownContent) {
                     userDropdownContent.innerHTML = `
-                        <a href="login.html" class="block px-6 py-3 hover:bg-teal-50">
-                            <i class="fas fa-sign-in-alt mr-2 text-teal-600"></i>লগ ইন
+                        <a href="login.html">
+                            <i class="fas fa-sign-in-alt"></i> লগ ইন
                         </a>
-                        <a href="register.html" class="block px-6 py-3 hover:bg-teal-50">
-                            <i class="fas fa-user-plus mr-2 text-teal-600"></i>রেজিস্ট্রেশন
+                        <a href="register.html">
+                            <i class="fas fa-user-plus"></i> রেজিস্ট্রেশন
                         </a>
                     `;
                 }
@@ -339,10 +434,10 @@
                 if (mobileUserContent) {
                     mobileUserContent.innerHTML = `
                         <a href="login.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
-                            <i class="fas fa-sign-in-alt mr-1"></i>লগ ইন
+                            <i class="fas fa-sign-in-alt mr-1"></i> লগ ইন
                         </a>
                         <a href="register.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
-                            <i class="fas fa-user-plus mr-1"></i>রেজিস্ট্রেশন
+                            <i class="fas fa-user-plus mr-1"></i> রেজিস্ট্রেশন
                         </a>
                     `;
                 }
@@ -351,22 +446,22 @@
             // ===== লগআউট ফাংশন =====
             async function handleLogout() {
                 try {
-                    // Firebase থেকে লগআউট
                     if (typeof firebase !== 'undefined' && firebase.auth) {
                         await firebase.auth().signOut();
                     }
                     
-                    // LocalStorage ক্লিয়ার
                     localStorage.removeItem('user');
                     localStorage.removeItem('userData');
-                    
-                    // সেশন স্টোরেজ ক্লিয়ার
                     sessionStorage.clear();
                     
-                    // UI আপডেট
                     showLoggedOutUI();
                     
-                    // হোম পেজে রিডাইরেক্ট
+                    // ড্রপডাউন বন্ধ করুন
+                    const dropdownMenu = document.getElementById('userDropdownMenu');
+                    const dropdownBtn = document.getElementById('userDropdownBtn');
+                    if (dropdownMenu) dropdownMenu.classList.remove('show');
+                    if (dropdownBtn) dropdownBtn.classList.remove('active');
+                    
                     window.location.href = 'index.html';
                 } catch (error) {
                     console.error('Logout error:', error);
@@ -378,10 +473,8 @@
             if (typeof firebase !== 'undefined' && firebase.auth) {
                 firebase.auth().onAuthStateChanged((user) => {
                     if (user) {
-                        // ইউজার লগইন আছে, কিন্তু localStorage-এ ডেটা নেই?
                         const userStr = localStorage.getItem('user');
                         if (!userStr) {
-                            // Firestore থেকে ডেটা নিয়ে localStorage আপডেট করুন
                             try {
                                 const docRef = firebase.firestore().collection('users').doc(user.uid);
                                 docRef.get().then((docSnap) => {
@@ -406,13 +499,11 @@
                             updateUserUI();
                         }
                     } else {
-                        // ইউজার লগআউট
                         localStorage.removeItem('user');
                         showLoggedOutUI();
                     }
                 });
             } else {
-                // Firebase না থাকলে শুধু localStorage চেক করুন
                 updateUserUI();
             }
 
