@@ -1,1 +1,199 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsenic Album (আর্সেনিক এল্বাম) - মেটেরিয়া মেডিকা</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for Professional Bengali Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind_Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-white font-sans antialiased flex flex-col min-h-screen text-gray-800 text-sm md:text-base">
 
+    <!-- 📥 ১. এখানে স্বয়ংক্রিয়ভাবে হেডার লোড হবে -->
+    <div id="app-header"></div>
+
+    <!-- 📢 ২. হিরো ব্যানার সেকশন -->
+    <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-8 px-4 text-center shadow-sm">
+        <div class="max-w-7xl mx-auto">
+            <span class="bg-white/20 text-[11px] uppercase font-bold tracking-wider px-3 py-1 rounded-full">Materia Medica</span>
+            
+            <!-- 📌 [বিশেষ নোট]: ভিন্ন ভিন্ন ফাইলে শুধু নিচের এই নামটুকু পরিবর্তন করবেন -->
+            <!-- ==================== ঔষধের নাম পরিবর্তন শুরু ==================== -->
+            <h1 class="text-2xl md:text-3xl font-bold mt-2 flex items-center justify-center gap-2">
+                <i class="fas fa-pills text-lg"></i> Arsenic Album (আর্সেনিক এল্বাম)
+            </h1>
+            <p class="text-xs md:text-sm text-teal-100 mt-1 italic">
+                Common Name: Arsenic Trioxide (White Oxide of Arsenic) | Latin Name: Arsenicum Album
+            </p>
+            <!-- ==================== ঔষধের নাম পরিবর্তন শেষ ==================== -->
+        </div>
+    </section>
+
+    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া (এক কলামে চওড়া লেআউট - max-w-7xl) -->
+    <main class="container mx-auto px-4 md:px-8 py-6 flex-grow max-w-7xl space-y-6">
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শুরু ==================== -->
+
+        <!-- 🟢 সেকশন: সারসংক্ষেপ (Keynotes for Doctors) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                সারসংক্ষেপ (Keynotes for Doctors)
+            </div>
+            <p class="text-gray-600 italic mb-3 pl-1 text-xs md:text-sm">চিকিৎসক ও শিক্ষার্থীদের দ্রুত মুখস্ত করার জন্য ঔষধের মূল কথাগুলো নিচে দেওয়া হলো:</p>
+            <ul class="list-disc list-inside space-y-1.5 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>শারিরীক ও মানসিক অস্থিরতা, অবসাদ, অতিমাত্রায় দুর্বলতা।</li>
+                <li>আক্রান্ত স্থানে জ্বালা, উত্তাপে জ্বালা ও ব্যাথার উপশম হয়।</li>
+                <li>প্রবল পিপাসা, অল্প পানি পান করে। পানি পান মাত্র বমি।</li>
+                <li>স্রাব/বমি অল্প, তরল, দুর্গন্ধ যুক্ত।</li>
+                <li>মল অল্প, তরল, দুর্গন্ধ যুক্ত, জ্বালাকর ও কালো রংগের।</li>
+                <li>আর্সেনিকের ক্ষেত্রছাড়া ইহার প্রয়োগ মারাত্তক বিপদ আনে।</li>
+                <li>নির্দ্রিষ্ট সময় পর পর রোগ আক্রমন করে। পর্যায়ক্রমে মাথা ব্যাথা ও গেটে বাত।</li>
+                <li>মধ্যদিন বা মধ্যরাতের পর রোগ বৃদ্ধি।</li>
+                <li>রোগের কারনে মৃত্যু ভয়, ক্যান্সারের ভয়।</li>
+                <li>অর্শরোগে নড়াচড়ায় /বসে থাকলে সূঁচফোটানো যন্ত্রণা কিন্তু মলত্যাগে যন্ত্রণাহীন।</li>
+                <li>গরমে উপশম পায় গায়ের চামড়া শুকনো, আঁস ওঠে, কুঁচকে যায়, কালচে ফুস্কুরী এবং জ্বালা ও ব্যথা থাকে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের বিস্তারিত পরিচয় -->
+        <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm">
+            ঔষধের বিস্তারিত পরিচয়
+        </div>
+
+        <!-- 🟢 সেকশন: ১. স্মারক প্রধান লক্ষণ (Keynotes) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ১. স্মারক প্রধান লক্ষণ (Keynotes)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>অস্থিরতা (Restlessness):</strong> রোগী শারীরিক ও মানসিকভাবে অত্যন্ত অস্থির। যন্ত্রণার চোটে সে এক বিছানা থেকে অন্য বিছানায় ছোটাছুটি করে।</li>
+                <li><strong>জ্বালা (Burning Pains):</strong> শরীরের বিভিন্ন অঙ্গে আগুনের মতো জ্বালা অনুভূত হয়। কিন্তু অদ্ভুত লক্ষণ হলো, এই <strong>জ্বালা উত্তাপে বা গরমে উপশম হয়</strong> (ব্যতিক্রম: মাথাব্যথা)।</li>
+                <li><strong>তৃষ্ণা (Thirst):</strong> রোগী অল্প অল্প জল বারবার পান করে। একবারে বেশি জল সে খেতে পারে না।</li>
+                <li><strong>প্রবল অবসাদ (Prostration):</strong> সামান্য পরিশ্রমে বা রোগের প্রাথমিক অবস্থাতেই রোগী চরম দুর্বল হয়ে পড়ে।</li>
+                <li><strong>মধ্যরাতের বৃদ্ধি:</strong> এর সমস্ত লক্ষণ রাত ১২টার পর থেকে রাত ২টোর মধ্যে বৃদ্ধি পায়।</li>
+                <li><strong>পচনশীল অবস্থা:</strong> নিঃসরণ অত্যন্ত দুর্গন্ধযুক্ত এবং ক্ষত সৃষ্টি করার মতো ঝাঁঝালো।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ২. মানসিক লক্ষণ -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ২. মানসিক লক্ষণ
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>মৃত্যুভয়:</strong> রোগী নিশ্চিত যে তার রোগ সারবে না এবং সে মারা যাবে। তাই সে ঔষধ খেতে চায় না।</li>
+                <li><strong>একা থাকতে ভয়:</strong> সে সবসময় কাউকে পাশে চায়। একা থাকলে তার উদ্বেগ বেড়ে যায়।</li>
+                <li><strong>তি-সতর্কতা (Fastidiousness):</strong> রোগী সবকিছু খুব গোছানো এবং পরিষ্কার দেখতে চায়। সামান্য বিশৃঙ্খলাও সে সহ্য করতে পারে না।</li>
+                <li><strong>দুশ্চিন্তা:</strong> বিশেষ করে নিজের স্বাস্থ্য নিয়ে সে সারাক্ষণ উদ্বিগ্ন থাকে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পাকস্থলী (Stomach):</strong> খাদ্যে বিষক্রিয়া (Food poisoning), পচা ফল বা আইসক্রিম খাওয়ার কুফল। ঠান্ডা জল পান করার সাথে সাথেই বমি হয়ে যায়। পাকস্থলীতে অসহ্য জ্বালা।</li>
+                <li><strong>শ্বাসযন্ত্র (Respiratory):</strong> হাঁপানি বা শ্বাসকষ্ট যা মধ্যরাতে শুয়ে থাকলে বৃদ্ধি পায়। রোগী উঠে বসলে বা সামনে ঝুঁকে থাকলে কিছুটা আরাম পায়।</li>
+                <li><strong>নাক (Nose):</strong> সর্দি যা পাতলা এবং জলের মতো, কিন্তু নাকের চারপাশ হাজিয়ে দেয়। বারবার হাঁচি হয়।</li>
+                <li><strong>চর্ম (Skin):</strong> চামড়া শুষ্ক, খসখসে এবং আঁশের মতো। চুলকানির পর প্রচণ্ড জ্বালা করে।</li>
+                <li><strong>চোখ:</strong> চোখের পাতা ফুলে লাল হয়ে যায় এবং চোখ দিয়ে গরম, ঝাঁঝালো জল পড়ে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৪. বৃদ্ধি ও উপশম -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৪. বৃদ্ধি ও উপশম (Aggravation & Amelioration)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>বৃদ্ধি:</strong> মধ্যরাতের পর (বিশেষ করে ১টা থেকে ২টো), ঠান্ডায়, ঠান্ডা পানীয় বা খাবার খেলে, এবং সমুদ্র উপকূলে।</li>
+                <li><strong>উপশম:</strong> গরমে বা উত্তাপ প্রয়োগে, গরম পানীয় পানে, এবং মাথা উঁচু করে শুলে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৫. শক্তি ও মাত্রা -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৫. শক্তি ও মাত্রা (Potency & Dosage)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>বোরিকের মতে, ৩ থেকে ৩০ শক্তি সচরাচর ব্যবহৃত হয়।</li>
+                <li>তবে উচ্চতর শক্তি (২০০ বা ১M) মানসিক লক্ষণের ক্ষেত্রে এবং দীর্ঘস্থায়ী রোগে চমৎকার ফল দেয়। এটি ঘন ঘন প্রয়োগ করা উচিত নয়।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৬. সম্পর্ক -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৬. সম্পর্ক (Relationships)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পরিপূরক (Complementary):</strong> Phosphorus, Allium Cepa, Pyrogen.</li>
+                <li><strong>প্রতিষেধক (Antidote):</strong> Nux Vomica, Opium, Camphora.</li>
+                <li><strong>সদৃশ (Similar):</strong> Aconite, Carbo Veg, Secale Cor.</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ঔষধের সংক্ষিপ্ত পরিচিতি
+            </div>
+            <div class="border border-gray-400 overflow-x-auto rounded-sm">
+                <table class="w-full text-left text-xs md:text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-400 font-bold text-gray-800">
+                            <th class="p-3 border-r border-gray-400 w-1/3">বিষয়</th>
+                            <th class="p-3">বিবরণ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ঔষধের নাম</td><td class="p-3">Arsenicum Album</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ল্যাটিন নাম</td><td class="p-3 italic">Arsenicum Album</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">উৎস</td><td class="p-3">খনিজ (Mineral Kingdom)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">কাতরতা</td><td class="p-3">চরম শীতকাতর (Very Chilly)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">পার্শ্ব</td><td class="p-3">প্রধানত ডান পার্শ্বে কাজ করে</td></tr>
+                        <tr><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">মায়াজম</td><td class="p-3">সোরিক, সাইকোটিক ও সিফিলিটিক (Tri-miasmatic)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 📚 তথ্যের উৎস এবং সতর্কতা -->
+        <div class="pt-4 text-xs md:text-sm text-gray-600 space-y-2 pl-1">
+            <p class="font-bold text-gray-800">তথ্যসূত্র:</p>
+            <ul class="list-disc list-inside space-y-1 pl-2 text-gray-500">
+                <li>Boericke’s Materia Medica</li>
+                <li>Kent’s Lectures on Homoeopathic Materia Medica</li>
+                <li>Allen’s Keynotes</li>
+            </ul>
+            <p class="text-red-600 font-medium pt-2"><strong class="text-red-700">সতর্কতা:</strong> আর্সেনিক একটি অত্যন্ত শক্তিশালী ঔষধ। তৃষ্ণা এবং অস্থিরতার সঠিক লক্ষণ না মিললে এটি প্রয়োগ করা বিপজ্জনক হতে পারে। সঠিক মাত্রা নির্বাচনের জন্য অভিজ্ঞ চিকিৎসকের পরামর্শ অত্যাবশ্যক।</p>
+        </div>
+
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শেষ ==================== -->
+
+        <!-- ডিরেক্টরিতে ফিরে যাওয়ার বাটন -->
+        <div class="text-center pt-6">
+            <a href="index.html" class="inline-flex items-center gap-1.5 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-md font-medium transition text-xs md:text-sm shadow-sm">
+                <i class="fas fa-chevron-left"></i> ডিরেক্টরিতে ফিরে যান
+            </a>
+        </div>
+
+    </main>
+
+    <!-- 📥 ৪. এখানে স্বয়ংক্রিয়ভাবে ফুটার লোড হবে -->
+    <div id="app-footer"></div>
+
+    <!-- 🛠️ ৫. সেন্ট্রাল স্ক্রিপ্ট কল -->
+    <script src="medica-template.js"></script>
+</body>
+</html>
