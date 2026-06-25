@@ -8,174 +8,179 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts for Better Bengali Typography -->
+    <!-- Google Fonts for Professional Bengali Typography -->
     <link href="https://fonts.googleapis.com/css2?family=Hind_Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Hind Siliguri', sans-serif; }
     </style>
 </head>
-<body class="bg-slate-50 font-sans antialiased flex flex-col min-h-screen text-sm md:text-base leading-relaxed text-gray-800">
+<body class="bg-white font-sans antialiased flex flex-col min-h-screen text-gray-800 text-sm md:text-base">
 
     <!-- 📥 ১. এখানে স্বয়ংক্রিয়ভাবে হেডার লোড হবে -->
     <div id="app-header"></div>
 
-    <!-- 📢 ২. হিরো ব্যানার সেকশন (ফুল উইডথ এবং আধুনিক গ্রেডিয়েন্ট) -->
-    <section class="bg-gradient-to-r from-[#006E57] via-[#008066] to-[#00A884] text-white py-10 px-6 text-center shadow-md">
-        <div class="max-w-6xl mx-auto">
-            <span class="bg-white/20 text-xs uppercase font-bold tracking-wider px-3.5 py-1.5 rounded-full backdrop-blur-sm">Materia Medica</span>
+    <!-- 📢 ২. হিরো ব্যানার সেকশন -->
+    <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-8 px-4 text-center shadow-sm">
+        <div class="max-w-7xl mx-auto">
+            <span class="bg-white/20 text-[11px] uppercase font-bold tracking-wider px-3 py-1 rounded-full">Materia Medica</span>
             
-            <!-- 📌 ঔষধের নাম -->
-            <h1 class="text-2xl md:text-4xl font-bold mt-3 flex items-center justify-center gap-3">
-                <i class="fas fa-pills text-xl md:text-2xl"></i> Abrotanum (অ্যাব্রোটেনাম)
+            <!-- 📌 [বিশেষ নোট]: ভিন্ন ভিন্ন ফাইলে শুধু নিচের এই নামটুকু পরিবর্তন করবেন -->
+            <!-- ==================== ঔষধের নাম পরিবর্তন শুরু ==================== -->
+            <h1 class="text-2xl md:text-3xl font-bold mt-2 flex items-center justify-center gap-2">
+                <i class="fas fa-pills text-lg"></i> Abrotanum (অ্যাব্রোটেনাম)
             </h1>
-            <p class="text-xs md:text-sm text-teal-100 mt-2 italic opacity-90 tracking-wide">
+            <p class="text-xs md:text-sm text-teal-100 mt-1 italic">
                 Common Name: Southernwood | Latin Name: Artemisia abrotanum
             </p>
+            <!-- ==================== ঔষধের নাম পরিবর্তন শেষ ==================== -->
         </div>
     </section>
 
-    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া (প্রস্থ বৃদ্ধি করে max-w-6xl করা হয়েছে) -->
-    <main class="container mx-auto px-4 md:px-6 py-8 flex-grow max-w-6xl">
-        
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            
-            <!-- বাম পাশের কলাম: সংক্ষিপ্ত পরিচিতি ও কুইক নোট (১ ভাগ) -->
-            <div class="lg:col-span-1 space-y-6">
-                <!-- 📊 ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
-                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-                    <div class="bg-[#006E57] px-4 py-3 text-white">
-                        <h3 class="font-bold flex items-center gap-2 text-sm md:text-base">
-                            <i class="fas fa-id-card"></i> ঔষধের সংক্ষিপ্ত পরিচিতি
-                        </h3>
-                    </div>
-                    <table class="w-full text-left text-gray-600 text-xs md:text-sm">
-                        <tbody>
-                            <tr class="border-b border-gray-100"><td class="p-3 font-bold bg-gray-50/50 w-1/3">নাম</td><td class="p-3 text-gray-800 font-semibold">Abrotanum</td></tr>
-                            <tr class="border-b border-gray-100"><td class="p-3 font-bold bg-gray-50/50">ল্যাটিন নাম</td><td class="p-3 italic text-gray-800">Artemisia abrotanum</td></tr>
-                            <tr class="border-b border-gray-100"><td class="p-3 font-bold bg-gray-50/50">উৎস</td><td class="p-3">উদ্ভিদ জগত (Southernwood)</td></tr>
-                            <tr class="border-b border-gray-100"><td class="p-3 font-bold bg-gray-50/50">কাতরতা</td><td class="p-3 text-red-600 font-bold">শীতকাতর (Chilly)</td></tr>
-                            <tr class="border-b border-gray-100"><td class="p-3 font-bold bg-gray-50/50">পার্শ্ব</td><td class="p-3">বাম পাশ (Left side)</td></tr>
-                            <tr><td class="p-3 font-bold bg-gray-50/50">মায়াজম</td><td class="p-3">সোরা (Psora), সাইকোসিস (Sycotic)</td></tr>
-                        </tbody>
-                    </table>
-                </div>
+    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া (এক কলামে চওড়া লেআউট - max-w-7xl) -->
+    <main class="container mx-auto px-4 md:px-8 py-6 flex-grow max-w-7xl space-y-6">
 
-                <!-- 💊 শক্তি, মাত্রা ও সম্পর্ক -->
-                <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 space-y-4">
-                    <div class="border-l-4 border-teal-600 pl-3">
-                        <h4 class="font-bold text-[#006E57] text-sm md:text-base mb-1 flex items-center gap-1.5">
-                            <i class="fas fa-prescription-bottle"></i> ৫. শক্তি ও মাত্রা
-                        </h4>
-                        <p class="text-gray-600 text-xs md:text-sm">৩x থেকে ৩০ শক্তি সাধারণত ব্যবহৃত হয়। ক্রনিক ক্ষেত্রে উচ্চ শক্তি (২০০+) লাগতে পারে। বোরিকের মতে, নিম্ন শক্তি দীর্ঘ সময় ধরে ব্যবহার করা যেতে পারে।</p>
-                    </div>
-                    
-                    <div class="border-l-4 border-purple-600 pl-3">
-                        <h4 class="font-bold text-purple-700 text-sm md:text-base mb-1 flex items-center gap-1.5">
-                            <i class="fas fa-link"></i> ৬. সম্পর্ক (Relationships)
-                        </h4>
-                        <p class="text-gray-600 text-xs md:text-sm">
-                            <strong class="text-gray-700">পরিপূরক:</strong> Lycopodium, Bryonia।<br>
-                            <strong class="text-gray-700">সদৃশ:</strong> Baryta Carb, Iodum, Natrum Mur।<br>
-                            <strong class="text-gray-700">প্রতিষেধক:</strong> Camphor।
-                        </p>
-                    </div>
-                </div>
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শুরু ==================== -->
+
+        <!-- 🟢 সেকশন: সারসংক্ষেপ (Keynotes for Doctors) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                সারসংক্ষেপ (Keynotes for Doctors)
             </div>
+            <p class="text-gray-600 italic mb-3 pl-1 text-xs md:text-sm">চিকিৎসক ও শিক্ষার্থীদের দ্রুত মুখস্ত করার জন্য ঔষধের মূল কথাগুলো নিচে দেওয়া হলো:</p>
+            <ul class="list-disc list-inside space-y-1.5 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>চিকন, বৃদ্ধদের মত মুখমন্ডল, ঝ্যালঝ্যালা।</li>
+                <li>কোন বিষয়ে বোঝার ক্ষমতা কম, খিটখিটে ও নিষ্ঠুর।</li>
+                <li>উদারাময় ও শিশুদের শীর্নতার মহা ঔষধ।</li>
+                <li>উদরাময় উপশম ও বাত উদারাময়ে অজীর্ণ।</li>
+                <li>পর্যায়ক্রমে বিভিন্ন রোগ বা রোগের রূপান্তর।</li>
+                <li>ক্ষয়দোষ বা প্রবল ক্ষুধা থাকা সত্ত্বে ও দেহ শুকিয়ে যায়।</li>
+                <li>চোখের চারিদিকে নীলরেখা।</li>
+                <li>বালকদের নাক থেকে রক্তস্রাব।</li>
+                <li>বাচালতা।</li>
+                <li>অন্ডকোষে পানি জমা।</li>
+            </ul>
+        </div>
 
-            <!-- ডান পাশের কলাম: মূল লক্ষণসমূহ (২ ভাগ - চওড়া অংশ) -->
-            <div class="lg:col-span-2 space-y-6">
-                
-                <!-- 🩺 সারসংক্ষেপ (Keynotes for Doctors) -->
-                <div class="bg-amber-50/70 border border-amber-200 p-5 rounded-2xl shadow-sm">
-                    <h3 class="text-sm md:text-lg font-bold text-amber-900 flex items-center gap-2 mb-2">
-                        <i class="fas fa-notes-medical text-amber-600"></i> সারসংক্ষেপ (Keynotes for Doctors)
-                    </h3>
-                    <p class="text-xs md:text-sm text-amber-800 italic mb-3 border-b border-amber-200 pb-2">
-                        চিকিৎসক ও শিক্ষার্থীদের দ্রুত রিকল বা মনে রাখার জন্য ঔষধের মূল কথা:
-                    </p>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs md:text-sm text-gray-700">
-                        <div class="flex items-start gap-2"><i class="fas fa-check-circle text-amber-600 mt-1"></i> চিকন, বৃদ্ধদের মত মুখমন্ডল, ঝ্যালঝ্যালা।</div>
-                        <div class="flex items-start gap-2"><i class="fas fa-check-circle text-amber-600 mt-1"></i> কোনো বিষয়ে বোঝার ক্ষমতা কম, খিটখিটে ও নিষ্ঠুর।</div>
-                        <div class="flex items-start gap-2"><i class="fas fa-check-circle text-amber-600 mt-1"></i> উদরাময় ও শিশুদের শীর্ণতার মহা ঔষধ।</div>
-                        <div class="flex items-start gap-2"><i class="fas fa-check-circle text-amber-600 mt-1"></i> উদরাময়ে উপশম ও বাত উদরাময়ে অজীর্ণ।</div>
-                        <div class="flex items-start gap-2"><i class="fas fa-check-circle text-amber-600 mt-1"></i> পর্যায়ক্রমে বিভিন্ন রোগ বা রোগের রূপান্তর।</div>
-                        <div class="flex items-start gap-2"><i class="fas fa-check-circle text-amber-600 mt-1"></i> ক্ষয়দোষ বা প্রবল ক্ষুধা থাকা সত্ত্বেও দেহ শুকিয়ে যায়।</div>
-                        <div class="flex items-start gap-2"><i class="fas fa-check-circle text-amber-600 mt-1"></i> চোখের চারিদিকে নীলরেখা।</div>
-                        <div class="flex items-start gap-2"><i class="fas fa-check-circle text-amber-600 mt-1"></i> বালকদের নাক থেকে রক্তস্রাব ও বাচালতা।</div>
-                        <div class="flex items-start gap-2 sm:col-span-2"><i class="fas fa-check-circle text-amber-600 mt-1"></i> অন্ডকোষে পানি জমা।</div>
-                    </div>
-                </div>
+        <!-- 🟢 সেকশন: ঔষধের বিস্তারিত পরিচয় -->
+        <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm">
+            ঔষধের বিস্তারিত পরিচয়
+        </div>
 
-                <!-- বিস্তারিত মেটেরিয়া মেডিকা কার্ড -->
-                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 space-y-6">
-                    
-                    <div>
-                        <h3 class="text-sm md:text-base font-bold text-[#006E57] border-b border-gray-100 pb-2 flex items-center gap-2 mb-3">
-                            <i class="fas fa-star text-amber-500"></i> ১. স্মারক প্রধান লক্ষণ (Keynotes)
-                        </h3>
-                        <ul class="space-y-2 text-gray-600 text-xs md:text-sm list-inside list-disc pl-1">
-                            <li><strong class="text-gray-900">শীর্ণতা (Marasmus):</strong> এটি সবচেয়ে গুরুত্বপূর্ণ লক্ষণ। বিশেষ করে শরীরের নীচের অংশ বা পা থেকে শীর্ণতা শুরু হয় এবং ক্রমশ উপরের দিকে ছড়ায়। শিশু প্রচুর খায় কিন্তু দিন দিন শুকিয়ে যায়।</li>
-                            <li><strong class="text-gray-900">পর্যায়ক্রমিক রোগ (Metastasis):</strong> এক রোগ সেরে গিয়ে অন্য কঠিন রোগের উদ্ভব হওয়া। যেমন: বাত (Rheumatism) হঠাৎ ভালো হয়ে গিয়ে হৃদরোগ বা পেটের সমস্যা দেখা দেওয়া।</li>
-                            <li><strong class="text-gray-900">মলদ্বার দিয়ে রস নিঃসরণ:</strong> শিশুদের মলদ্বার দিয়ে পুঁজ বা রস নির্গত হওয়া।</li>
-                            <li><strong class="text-gray-900">নাভি থেকে রক্তক্ষরণ:</strong> নবজাতকদের ক্ষেত্রে নাভি থেকে রক্তক্ষরণ বা জমাট রক্ত/টিউমার হওয়া।</li>
-                            <li><strong class="text-gray-900">ব্যথা ও ফোলা:</strong> গাঁটে গাঁটে বাত, যা বিশেষ করে পিঠে বা ঘাড়ের ব্যথার সাথে পর্যায়ক্রমে দেখা দেয়।</li>
-                        </ul>
-                    </div>
+        <!-- 🟢 সেকশন: ১. স্মারক প্রধান লক্ষণ (Keynotes) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ১. স্মারক প্রধান লক্ষণ (Keynotes)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>শীর্ণতা (Marasmus):</strong> এটি এই ঔষধের সবচেয়ে গুরুত্বপূর্ণ লক্ষণ। বিশেষ করে শরীরের নীচের অংশ বা পা থেকে শীর্ণতা শুরু হয় এবং ক্রমশ উপরের দিকে ছড়ায়। শিশু প্রচুর খায় কিন্তু দিন দিন শুকিয়ে যায়।</li>
+                <li><strong>পর্যায়क्रमিক রোগ (Metastasis):</strong> এক রোগ সেরে গিয়ে অন্য কঠিন রোগের উদ্ভব होना। যেমন: বাত (Rheumatism) হঠাৎ ভালো হয়ে গিয়ে হৃদরোগ বা পেটের সমস্যা দেখা দেওয়া।</li>
+                <li><strong>মলদ্বার দিয়ে রস নিঃসরণ:</strong> শিশুদের মলদ্বার দিয়ে পুঁজ বা রস নির্গত হওয়া।</li>
+                <li><strong>জмаট রক্ত বা টিউমার:</strong> নাভি থেকে রক্তক্ষরণ হওয়া (নবজাতকদের ক্ষেত্রে)।</li>
+                <li><strong>ব্যথা ও ফোলা:</strong> গাঁটে গাঁটে বাত, যা বিশেষ করে পিঠে বা ঘাড়ের ব্যথার সাথে পর্যায়ক্রমে দেখা দেয়।</li>
+            </ul>
+        </div>
 
-                    <div>
-                        <h3 class="text-sm md:text-base font-bold text-[#006E57] border-b border-gray-100 pb-2 flex items-center gap-2 mb-3">
-                            <i class="fas fa-brain text-purple-500"></i> ২. মানসিক লক্ষণ
-                        </h3>
-                        <ul class="space-y-2 text-gray-600 text-xs md:text-sm list-inside list-disc pl-1">
-                            <li>রোগী অত্যন্ত <strong class="text-gray-900">খিটখিটে</strong>, ক্রোধী এবং বদমেজাজী প্রকৃতির হয়।</li>
-                            <li>শিশুরা কাউকে সহ্য করতে পারে না, খামচাতে বা কামড়াতে চায়।</li>
-                            <li>মানসিকভাবে সে সবসময় বিষণ্ণ এবং হতাশ থাকে (Despondent)।</li>
-                            <li>স্মৃতিশক্তি দুর্বল হয়ে পড়ে এবং চিন্তা করার ক্ষমতা কমে যায়।</li>
-                        </ul>
-                    </div>
+        <!-- 🟢 সেকশন: ২. মানসিক লক্ষণ -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ২. মানসিক লক্ষণ
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>রোগী অত্যন্ত <strong>খিটখিটে</strong>, ক্রোধী এবং বদমেজাজী প্রকৃতির হয়।</li>
+                <li>শিশুরা কাউকে সহ্য করতে পারে না, খামচাতে বা কামড়াতে চায়।</li>
+                <li>মানসিকভাবে সে সবসময় বিষণ্ণ এবং হতাশ থাকে (Despondent)।</li>
+                <li>স্মৃতিশক্তি দুর্বল হয়ে পড়ে এবং চিন্তা করার ক্ষমতা কমে যায়।</li>
+            </ul>
+        </div>
 
-                    <div>
-                        <h3 class="text-sm md:text-base font-bold text-[#006E57] border-b border-gray-100 pb-2 flex items-center gap-2 mb-3">
-                            <i class="fas fa-stethoscope text-blue-500"></i> ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
-                        </h3>
-                        <ul class="space-y-2 text-gray-600 text-xs md:text-sm list-inside list-disc pl-1">
-                            <li><strong class="text-gray-900">পাকস্থলী ও উদর:</strong> পেটে প্রচণ্ড বায়ু জমে এবং পেট বড় দেখায়। কোষ্ঠকাঠিন্য ও উদরাময় (Diarrhoea) পর্যায়ক্রমে দেখা দেয়। অর্শ বা পাইলসের ব্যথা বাত ব্যথার সাথে পর্যায়ক্রমে আসে।</li>
-                            <li><strong class="text-gray-900">মুখমণ্ডল:</strong> মুখমণ্ডল ফ্যাকাশে, কুঁচকানো এবং বৃদ্ধের মতো দেখায়। চোখের চারপাশে নীল দাগ থাকে।</li>
-                            <li><strong class="text-gray-900">হৃদপিণ্ড:</strong> বাতের ব্যথা হঠাৎ চেপে গিয়ে হৃদপিণ্ডে চাপ বা ব্যথা অনুভূত হওয়া (Rheumatic metastasis)।</li>
-                            <li><strong class="text-gray-900">চর্ম:</strong> চামড়া ঢিলেঢালা এবং ঝুলে পড়ে। মনে হয় হাড়ের সাথে চামড়া লেগে আছে।</li>
-                        </ul>
-                    </div>
+        <!-- 🟢 সেকশন: ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পাকস্থলী ও উদর:</strong> পেটে প্রচণ্ড বায়ু জমে এবং পেট বড় দেখায়। কোষ্ঠকাঠিন্য ও উদরাময় (Diarrhoea) পর্যায়ক্রমে দেখা দেয়। অর্শ বা পাইলসের ব্যথা বাত ব্যথার সাথে পর্যায়ক্রমে আসে।</li>
+                <li><strong>মুখমণ্ডল:</strong> মুখমণ্ডল ফ্যাকাশে, কুঁচকানো এবং বৃদ্ধের মতো দেখায়। চোখের চারপাশে নীল দাগ থাকে।</li>
+                <li><strong>হৃদপিণ্ড:</strong> বাতের ব্যথা হঠাৎ চেপে গিয়ে হৃদপিণ্ডে চাপ বা ব্যথা অনুভূত হওয়া (Rheumatic metastasis)।</li>
+                <li><strong>চর্ম:</strong> চামড়া ঢিলেঢালা এবং ঝুলে পড়ে। মনে হয় হাড়ের সাথে চামড়া লেগে আছে।</li>
+            </ul>
+        </div>
 
-                    <!-- হ্রাস-বৃদ্ধি গ্রিড -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-                        <div class="bg-rose-50 border border-rose-100 p-4 rounded-xl">
-                            <h4 class="font-bold text-rose-800 text-xs md:text-sm mb-1.5 flex items-center gap-1.5">
-                                <i class="fas fa-arrow-alt-circle-up text-rose-600"></i> ৪. বৃদ্ধি (Aggravation)
-                            </h4>
-                            <p class="text-gray-600 text-xs md:text-sm">রাতে, ঠান্ডা বাতাসে এবং কুয়াশাচ্ছন্ন আবহাওয়ায় লক্ষণ বৃদ্ধি পায়। হঠাৎ নিঃসরণ (যেমন উদরাময়) বন্ধ হলে কষ্ট বেড়ে যায়।</p>
-                        </div>
-                        <div class="bg-emerald-50 border border-emerald-100 p-4 rounded-xl">
-                            <h4 class="font-bold text-emerald-800 text-xs md:text-sm mb-1.5 flex items-center gap-1.5">
-                                <i class="fas fa-arrow-alt-circle-down text-emerald-600"></i> ৪. উপশম (Amelioration)
-                            </h4>
-                            <p class="text-gray-600 text-xs md:text-sm">মলত্যাগ করলে বা কোনো নিঃসরণ পুনরায় শুরু হলে রোগী আরাম বোধ করে।</p>
-                        </div>
-                    </div>
+        <!-- 🟢 সেকশন: ৪. বৃদ্ধি ও উপশম -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৪. বৃদ্ধি ও উপশম (Aggravation & Amelioration)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>বৃদ্ধি:</strong> স্পর্শ করলে, গরম আবহাওয়ায়, নড়াচড়া করলে এবং আর্দ্র ঠান্ডায়। রাতে ও কুয়াশাচ্ছন্ন আবহাওয়াতেও বৃদ্ধি পায়।</li>
+                <li><strong>উপশম:</strong> বিশ্রামে এবং ঠান্ডা প্রয়োগে। মলত্যাগ করলে বা কোনো নিঃসরণ পুনরায় শুরু হলে রোগী আরাম বোধ করে।</li>
+            </ul>
+        </div>
 
-                </div>
+        <!-- 🟢 সেকশন: ৫. শক্তি ও মাত্রা -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৫. শক্তি ও মাত্রা (Potency & Dosage)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>শক্তি:</strong> মাদার টিংচার (Q) থেকে ৩০ শক্তি সবচেয়ে বেশি ব্যবহৃত হয়। বাহ্যিক ব্যবহারের জন্য মাদার টিংচার লোশন হিসেবে ব্যবহার করা যায়। ক্রনিক বা দীর্ঘস্থায়ী ক্ষেত্রে উচ্চ শক্তি (২০০ বা তার বেশি) ব্যবহৃত হতে পারে।</li>
+                <li><strong>মাত্রা:</strong> রক্তক্ষরণ বন্ধ করার জন্য নিম্ন শক্তি (২-৩ ঘণ্টা অন্তর) এবং দীর্ঘস্থায়ী শিরার সমস্যার জন্য উচ্চ শক্তি ব্যবহার করা হয়।</li>
+            </ul>
+        </div>
 
+        <!-- 🟢 সেকশন: ৬. সম্পর্ক -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৬. সম্পর্ক (Relationships)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পরিপূরক (Complementary):</strong> Ferrum Metallicum, Lycopodium, Bryonia।</li>
+                <li><strong>সদৃশ (Similar):</strong> Arnica (আঘাতের ব্যথায়), Bellis Perennis, Millefolium (রক্তপাতে)। Baryta Carb, Iodum, Natrum Mur (শীর্ণতায়)।</li>
+                <li><strong>পার্থক্য:</strong> আরনিকার রক্ত উজ্জ্বল লাল, কিন্তু হ্যামামেলিসের রক্ত কালচে এবং শিরার ওপর এর প্রভাব বেশি।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ঔষধের সংক্ষিপ্ত পরিচিতি
+            </div>
+            <div class="border border-gray-400 overflow-x-auto rounded-sm">
+                <table class="w-full text-left text-xs md:text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-400 font-bold text-gray-800">
+                            <th class="p-3 border-r border-gray-400 w-1/3">বৈশিষ্ট্য</th>
+                            <th class="p-3">বিবরণ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">নাম</td><td class="p-3">Abrotanum</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ল্যাটিন নাম</td><td class="p-3 italic">Artemisia abrotanum</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">উৎস</td><td class="p-3">উদ্ভিদ জগত (Southernwood)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">কাতরতা</td><td class="p-3">শীতকাতর (Chilly)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">পার্শ্ব</td><td class="p-3">বাম পাশ (Left side)</td></tr>
+                        <tr><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">মায়াজম</td><td class="p-3">সোরা (Psora), সাইকোসিস (Sycotic)</td></tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
         <!-- 📚 তথ্যের উৎস এবং সতর্কতা -->
-        <div class="mt-6 p-4 bg-slate-100 rounded-2xl text-xs text-gray-500 space-y-1.5 border border-slate-200">
-            <p><strong>তথ্যের উৎস:</strong> William Boericke (Pocket Manual), J.T. Kent (Lectures), H.C. Allen (Keynotes).</p>
-            <p class="text-rose-600 font-medium"><strong class="text-rose-700">সতর্কতা:</strong> এই তথ্যগুলো শুধুমাত্র চিকিৎসকদের পেশাগত এবং শিক্ষামূলক উদ্দেশ্যে দেওয়া হয়েছে। চিকিৎসকের পরামর্শ ছাড়া কোনো ওষুধ সেবন করা অনুচিত।</p>
+        <div class="pt-4 text-xs md:text-sm text-gray-600 space-y-2 pl-1">
+            <p class="font-bold text-gray-800">তথ্যসূত্র:</p>
+            <ul class="list-disc list-inside space-y-1 pl-2 text-gray-500">
+                <li>Pocket Manual of Homoeopathic Materia Medica (William Boericke)</li>
+                <li>Lectures on Homoeopathic Materia Medica (J.T. Kent)</li>
+                <li>Keynotes and Characteristics (H.C. Allen)</li>
+            </ul>
+            <p class="text-red-600 font-medium pt-2"><strong class="text-red-700">সতর্কতা:</strong> এই তথ্যগুলো শুধুমাত্র চিকিৎসকদের পেশাগত এবং শিক্ষামূলক উদ্দেশ্যে দেওয়া হয়েছে।</p>
         </div>
 
-        <!-- ব্যাক বাটন -->
-        <div class="text-center mt-8">
-            <a href="index.html" class="inline-flex items-center gap-2 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-xl font-medium transition text-xs md:text-sm shadow-sm">
+        <!-- ==================== আপনার মূল কোড বসানোর জায়গা শেষ ==================== -->
+
+        <!-- ডিরেক্টরিতে ফিরে যাওয়ার বাটন -->
+        <div class="text-center pt-6">
+            <a href="index.html" class="inline-flex items-center gap-1.5 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-md font-medium transition text-xs md:text-sm shadow-sm">
                 <i class="fas fa-chevron-left"></i> ডিরেক্টরিতে ফিরে যান
             </a>
         </div>
