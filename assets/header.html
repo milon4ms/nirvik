@@ -110,14 +110,15 @@
                     </div>
                 </div>
 
-                <div class="relative group">
-                    <a href="login.html" class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
-                        লগ ইন <i class="fas fa-chevron-down text-xs"></i>
-                    </a>
-                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-56 mt-2 right-0">
-                        <a href="register.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-plus mr-2"></i>রেজিস্ট্রেশন</a>
-                        <a href="dashboard.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-circle mr-2"></i>আমার প্রোফাইল</a>
-                        <a href="#" class="block px-6 py-3 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
+                <!-- লগইন/প্রোফাইল ড্রপডাউন - আপডেটেড -->
+                <div class="relative group" id="userMenu">
+                    <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition" id="userMenuBtn">
+                        <span id="userMenuLabel">লগ ইন</span>
+                        <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-56 mt-2 right-0" id="userDropdown">
+                        <!-- ডায়নামিক কন্টেন্ট জাভাস্ক্রিপ্ট দিয়ে লোড হবে -->
+                        <div id="userDropdownContent"></div>
                     </div>
                 </div>
             </nav>
@@ -126,7 +127,6 @@
                 <a href="select.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
                     সাধারণ রোগ
                 </a>
-                <!-- মোবাইলের টপ-বারেও মেডিকা লিংক আপডেট করা হয়েছে -->
                 <a href="medica/index.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
                     মেডিকা
                 </a>
@@ -137,10 +137,10 @@
         </div>
     </div>
 
+    <!-- মোবাইল মেনু - আপডেটেড -->
     <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
         <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
             
-            <!-- মোবাইলের ড্রপডাউন লিস্টের ভেতরেও মেডিকাকে সাধারণ রোগের ঠিক নিচে রাখা হয়েছে -->
             <a href="medica/index.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-base flex items-center gap-2">📖 মেডিকা</a>
 
             <details class="group">
@@ -204,15 +204,16 @@
                 </div>
             </details>
 
-            <div class="border-t border-teal-700 my-2 pt-2 flex flex-col gap-1">
-                <a href="dashboard.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">👤 আমার প্রোফাইল</a>
-                <a href="login.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">🔑 লগ ইন / রেজিস্ট্রেশন</a>
+            <div class="border-t border-teal-700 my-2 pt-2 flex flex-col gap-1" id="mobileUserMenu">
+                <!-- ডায়নামিক কন্টেন্ট জাভাস্ক্রিপ্ট দিয়ে লোড হবে -->
+                <div id="mobileUserContent"></div>
             </div>
         </div>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // ===== মোবাইল মেনু টগল =====
             const menuBtn = document.getElementById('mobile-menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
 
@@ -228,6 +229,198 @@
                     }
                 });
             }
+
+            // ===== ইউজার স্টেট চেক এবং UI আপডেট =====
+            function updateUserUI() {
+                const userStr = localStorage.getItem('user');
+                const userMenuLabel = document.getElementById('userMenuLabel');
+                const userDropdownContent = document.getElementById('userDropdownContent');
+                const mobileUserContent = document.getElementById('mobileUserContent');
+                
+                if (userStr) {
+                    try {
+                        const userData = JSON.parse(userStr);
+                        const userName = userData.name || 'ইউজার';
+                        const isPaid = userData.isPaid || false;
+                        const role = userData.role || 'general';
+                        
+                        // ডেস্কটপ মেনু আপডেট
+                        if (userMenuLabel) {
+                            userMenuLabel.innerHTML = `<i class="fas fa-user-circle mr-1"></i> ${userName}`;
+                        }
+                        
+                        // ডেস্কটপ ড্রপডাউন কন্টেন্ট
+                        if (userDropdownContent) {
+                            let dashboardLink = 'dashboard.html';
+                            if (isPaid) {
+                                dashboardLink = 'dashboard-paid.html';
+                            } else if (role === 'admin') {
+                                dashboardLink = 'admin-dashboard.html';
+                            }
+                            
+                            userDropdownContent.innerHTML = `
+                                <a href="${dashboardLink}" class="block px-6 py-3 hover:bg-teal-50">
+                                    <i class="fas fa-user-circle mr-2 text-teal-600"></i>আমার প্রোফাইল
+                                </a>
+                                <a href="#" class="block px-6 py-3 hover:bg-teal-50 text-red-600" id="desktopLogoutBtn">
+                                    <i class="fas fa-sign-out-alt mr-2"></i>লগ আউট
+                                </a>
+                            `;
+                            
+                            // ডেস্কটপ লগআউট ইভেন্ট
+                            const desktopLogout = document.getElementById('desktopLogoutBtn');
+                            if (desktopLogout) {
+                                desktopLogout.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    handleLogout();
+                                });
+                            }
+                        }
+                        
+                        // মোবাইল মেনু আপডেট
+                        if (mobileUserContent) {
+                            let dashboardLink = 'dashboard.html';
+                            if (isPaid) {
+                                dashboardLink = 'dashboard-paid.html';
+                            } else if (role === 'admin') {
+                                dashboardLink = 'admin-dashboard.html';
+                            }
+                            
+                            mobileUserContent.innerHTML = `
+                                <a href="${dashboardLink}" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
+                                    <i class="fas fa-user-circle mr-1"></i>আমার প্রোফাইল
+                                </a>
+                                <a href="#" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2 text-red-300" id="mobileLogoutBtn">
+                                    <i class="fas fa-sign-out-alt mr-1"></i>লগ আউট
+                                </a>
+                            `;
+                            
+                            // মোবাইল লগআউট ইভেন্ট
+                            const mobileLogout = document.getElementById('mobileLogoutBtn');
+                            if (mobileLogout) {
+                                mobileLogout.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    handleLogout();
+                                });
+                            }
+                        }
+                        
+                    } catch (e) {
+                        console.error('Error parsing user data:', e);
+                        showLoggedOutUI();
+                    }
+                } else {
+                    showLoggedOutUI();
+                }
+            }
+
+            function showLoggedOutUI() {
+                // ডেস্কটপ
+                const userMenuLabel = document.getElementById('userMenuLabel');
+                const userDropdownContent = document.getElementById('userDropdownContent');
+                
+                if (userMenuLabel) {
+                    userMenuLabel.textContent = 'লগ ইন';
+                }
+                
+                if (userDropdownContent) {
+                    userDropdownContent.innerHTML = `
+                        <a href="login.html" class="block px-6 py-3 hover:bg-teal-50">
+                            <i class="fas fa-sign-in-alt mr-2 text-teal-600"></i>লগ ইন
+                        </a>
+                        <a href="register.html" class="block px-6 py-3 hover:bg-teal-50">
+                            <i class="fas fa-user-plus mr-2 text-teal-600"></i>রেজিস্ট্রেশন
+                        </a>
+                    `;
+                }
+                
+                // মোবাইল
+                const mobileUserContent = document.getElementById('mobileUserContent');
+                if (mobileUserContent) {
+                    mobileUserContent.innerHTML = `
+                        <a href="login.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
+                            <i class="fas fa-sign-in-alt mr-1"></i>লগ ইন
+                        </a>
+                        <a href="register.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
+                            <i class="fas fa-user-plus mr-1"></i>রেজিস্ট্রেশন
+                        </a>
+                    `;
+                }
+            }
+
+            // ===== লগআউট ফাংশন =====
+            async function handleLogout() {
+                try {
+                    // Firebase থেকে লগআউট
+                    if (typeof firebase !== 'undefined' && firebase.auth) {
+                        await firebase.auth().signOut();
+                    }
+                    
+                    // LocalStorage ক্লিয়ার
+                    localStorage.removeItem('user');
+                    localStorage.removeItem('userData');
+                    
+                    // সেশন স্টোরেজ ক্লিয়ার
+                    sessionStorage.clear();
+                    
+                    // UI আপডেট
+                    showLoggedOutUI();
+                    
+                    // হোম পেজে রিডাইরেক্ট
+                    window.location.href = 'index.html';
+                } catch (error) {
+                    console.error('Logout error:', error);
+                    alert('লগআউট করতে সমস্যা হয়েছে। আবার চেষ্টা করুন।');
+                }
+            }
+
+            // ===== Firebase Auth State Observer =====
+            if (typeof firebase !== 'undefined' && firebase.auth) {
+                firebase.auth().onAuthStateChanged((user) => {
+                    if (user) {
+                        // ইউজার লগইন আছে, কিন্তু localStorage-এ ডেটা নেই?
+                        const userStr = localStorage.getItem('user');
+                        if (!userStr) {
+                            // Firestore থেকে ডেটা নিয়ে localStorage আপডেট করুন
+                            try {
+                                const docRef = firebase.firestore().collection('users').doc(user.uid);
+                                docRef.get().then((docSnap) => {
+                                    if (docSnap.exists) {
+                                        const userData = docSnap.data();
+                                        localStorage.setItem('user', JSON.stringify({
+                                            uid: user.uid,
+                                            email: user.email,
+                                            name: userData.name || user.displayName || 'ইউজার',
+                                            role: userData.role || 'general',
+                                            isPaid: userData.isPaid || false
+                                        }));
+                                    }
+                                    updateUserUI();
+                                }).catch(() => {
+                                    updateUserUI();
+                                });
+                            } catch (e) {
+                                updateUserUI();
+                            }
+                        } else {
+                            updateUserUI();
+                        }
+                    } else {
+                        // ইউজার লগআউট
+                        localStorage.removeItem('user');
+                        showLoggedOutUI();
+                    }
+                });
+            } else {
+                // Firebase না থাকলে শুধু localStorage চেক করুন
+                updateUserUI();
+            }
+
+            // প্রাথমিক UI লোড
+            updateUserUI();
+
+            // ===== গ্লোবাল স্কোপে handleLogout এক্সপোজ করুন =====
+            window.handleLogout = handleLogout;
         });
     </script>
 </header>
