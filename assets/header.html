@@ -4,13 +4,12 @@
         .user-dropdown {
             position: relative;
         }
-        
         .user-dropdown .dropdown-menu {
             display: none;
             position: absolute;
             top: 100%;
             right: 0;
-            margin-top: 10px;
+            margin-top: 8px;
             background: white;
             color: #333;
             border-radius: 16px;
@@ -20,11 +19,9 @@
             z-index: 9999;
             border: 1px solid #e2e8f0;
         }
-        
-        .user-dropdown .dropdown-menu.open {
+        .user-dropdown:hover .dropdown-menu {
             display: block !important;
         }
-        
         .user-dropdown .dropdown-menu a {
             display: flex;
             align-items: center;
@@ -36,34 +33,28 @@
             gap: 12px;
             border-left: 3px solid transparent;
         }
-        
         .user-dropdown .dropdown-menu a:hover {
             background: #f0fdf4;
             border-left-color: #00b8a9;
         }
-        
         .user-dropdown .dropdown-menu a i {
             width: 20px;
             text-align: center;
             color: #00b8a9;
         }
-        
         .user-dropdown .dropdown-menu .logout-item {
             border-top: 1px solid #e2e8f0;
             margin-top: 4px;
             padding-top: 4px;
             color: #e53e3e;
         }
-        
         .user-dropdown .dropdown-menu .logout-item i {
             color: #e53e3e;
         }
-        
         .user-dropdown .dropdown-menu .logout-item:hover {
             background: #fff5f5;
             border-left-color: #e53e3e;
         }
-        
         .user-dropdown .dropdown-trigger {
             cursor: pointer;
             display: flex;
@@ -79,25 +70,14 @@
             transition: all 0.2s;
             font-family: inherit;
         }
-        
         .user-dropdown .dropdown-trigger:hover {
             background: rgba(255,255,255,0.2);
         }
-        
-        .user-dropdown .dropdown-trigger i.fa-chevron-down {
-            transition: transform 0.3s;
-            font-size: 12px;
-        }
-        
-        .user-dropdown .dropdown-trigger.open i.fa-chevron-down {
-            transform: rotate(180deg);
-        }
-        
-        /* ===== অন্যান্য ড্রপডাউন (হোভার) ===== */
+
+        /* অন্যান্য ড্রপডাউন (হোভার) */
         .nav-dropdown {
             position: relative;
         }
-        
         .nav-dropdown .dropdown-content {
             display: none;
             position: absolute;
@@ -113,11 +93,9 @@
             z-index: 100;
             border: 1px solid #e2e8f0;
         }
-        
         .nav-dropdown:hover .dropdown-content {
             display: block !important;
         }
-        
         .nav-dropdown .dropdown-content a {
             display: flex;
             align-items: center;
@@ -128,18 +106,16 @@
             transition: all 0.2s;
             font-size: 14px;
         }
-        
         .nav-dropdown .dropdown-content a:hover {
             background: #f0fdf4;
         }
-        
         .nav-dropdown .dropdown-content a i {
             width: 20px;
             text-align: center;
             color: #00b8a9;
         }
-        
-        /* ===== মোবাইল ===== */
+
+        /* মোবাইল */
         .mobile-menu-btn {
             background: rgba(255,255,255,0.15);
             border: 1px solid rgba(255,255,255,0.1);
@@ -148,25 +124,8 @@
             font-size: 12px;
             transition: all 0.2s;
         }
-        
         .mobile-menu-btn:hover {
             background: rgba(255,255,255,0.25);
-        }
-        
-        /* অ্যানিমেশন */
-        @keyframes slideDown {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        .user-dropdown .dropdown-menu.open {
-            animation: slideDown 0.25s ease;
         }
     </style>
     
@@ -174,7 +133,6 @@
     
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex items-center justify-between py-4">
-            
             <!-- লোগো -->
             <a href="index.html" class="flex-shrink-0 hover:opacity-80 transition">
                 <span class="text-teal-200 font-medium text-lg">নির্ভীক হোমিও</span>
@@ -182,17 +140,11 @@
 
             <!-- ===== ডেস্কটপ নেভিগেশন ===== -->
             <nav class="hidden md:flex items-center gap-2 text-base font-medium">
-                <!-- সাধারণ রোগ -->
                 <a href="select.html" class="hover:bg-white/20 px-4 py-2 rounded-xl transition">সাধারণ রোগ</a>
-                
-                <!-- মেডিকা -->
                 <a href="medica/index.html" class="hover:bg-white/20 px-4 py-2 rounded-xl transition">মেডিকা</a>
                 
-                <!-- সার্বদেহিক রোগ -->
                 <div class="nav-dropdown">
-                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
-                        সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs"></i>
-                    </button>
+                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs"></i></button>
                     <div class="dropdown-content">
                         <a href="jor.html"><i class="fas fa-temperature-high"></i>জ্বর সর্দি কাশি</a>
                         <a href="pain.html"><i class="fas fa-bolt"></i>ব্যথা</a>
@@ -205,11 +157,8 @@
                     </div>
                 </div>
 
-                <!-- উপর অঙ্গের রোগ -->
                 <div class="nav-dropdown">
-                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
-                        উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
-                    </button>
+                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i></button>
                     <div class="dropdown-content">
                         <a href="head.html"><i class="fas fa-brain"></i>মাথা</a>
                         <a href="eyes.html"><i class="fas fa-eye"></i>চোখ</a>
@@ -220,11 +169,8 @@
                     </div>
                 </div>
 
-                <!-- মাঝ অঙ্গের রোগ -->
                 <div class="nav-dropdown">
-                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
-                        মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
-                    </button>
+                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i></button>
                     <div class="dropdown-content">
                         <a href="chest.html"><i class="fas fa-lungs"></i>বুকের সমস্যা</a>
                         <a href="hands.html"><i class="fas fa-hand"></i>হাতের সমস্যা</a>
@@ -233,11 +179,8 @@
                     </div>
                 </div>
 
-                <!-- নিচ অঙ্গের রোগ -->
                 <div class="nav-dropdown">
-                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
-                        নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
-                    </button>
+                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i></button>
                     <div class="dropdown-content">
                         <a href="piles.html"><i class="fas fa-circle-dot"></i>অর্শ</a>
                         <a href="urethral.html"><i class="fas fa-droplet"></i>মূত্রনালী</a>
@@ -249,13 +192,12 @@
                     </div>
                 </div>
 
-                <!-- ===== লগইন ড্রপডাউন ===== -->
-                <div class="user-dropdown" id="userDropdownWrapper">
-                    <button class="dropdown-trigger" id="userDropdownBtn" type="button">
+                <!-- ===== ইউজার ড্রপডাউন (হোভার) ===== -->
+                <div class="user-dropdown">
+                    <button class="dropdown-trigger" id="userDropdownBtn">
                         <span id="userMenuLabel">লগ ইন</span>
-                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    
                     <div class="dropdown-menu" id="userDropdownMenu">
                         <div id="userDropdownContent">
                             <!-- ডায়নামিক কন্টেন্ট -->
@@ -264,10 +206,9 @@
                 </div>
             </nav>
 
-            <!-- ===== মোবাইল হেডার বাটন ===== -->
+            <!-- ===== মোবাইল হেডার ===== -->
             <div class="md:hidden flex items-center gap-1.5">
                 <a href="select.html" class="mobile-menu-btn text-white">সাধারণ রোগ</a>
-                <a href="medica/index.html" class="mobile-menu-btn text-white">মেডিকা</a>
                 <button id="mobile-menu-btn" class="text-xl p-1.5 text-white hover:bg-white/10 rounded-lg transition">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -275,12 +216,11 @@
         </div>
     </div>
 
-    <!-- ===== মোবাইল মেনু ===== -->
+    <!-- ===== মোবাইল মেনু (আপডেটেড) ===== -->
     <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
         <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
+            <!-- মেডিকা সরানো হয়েছে -->
             
-            <a href="medica/index.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white flex items-center gap-2">📖 মেডিকা</a>
-
             <details class="group">
                 <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
                     <span>🫀 সার্বদেহিক রোগ</span>
@@ -342,6 +282,7 @@
                 </div>
             </details>
 
+            <!-- ===== মোবাইলের জন্য ইউজার মেনু (লগইন/রেজিস্ট্রেশন) ===== -->
             <div class="border-t border-teal-700 my-2 pt-2 flex flex-col gap-1" id="mobileUserMenu">
                 <div id="mobileUserContent"></div>
             </div>
@@ -365,52 +306,6 @@
                         mobileMenu.classList.add('hidden');
                     }
                 });
-            }
-
-            // ===== ডেস্কটপ ড্রপডাউন টগল (শক্তিশালী পদ্ধতি) =====
-            const dropdownBtn = document.getElementById('userDropdownBtn');
-            const dropdownMenu = document.getElementById('userDropdownMenu');
-            const dropdownWrapper = document.getElementById('userDropdownWrapper');
-
-            if (dropdownBtn && dropdownMenu) {
-                // ১. বাটনে ক্লিক – টগল
-                dropdownBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    
-                    // টগল ক্লাস
-                    const isOpen = dropdownMenu.classList.contains('open');
-                    if (isOpen) {
-                        dropdownMenu.classList.remove('open');
-                        dropdownBtn.classList.remove('open');
-                    } else {
-                        dropdownMenu.classList.add('open');
-                        dropdownBtn.classList.add('open');
-                    }
-                });
-
-                // ২. ড্রপডাউনের ভেতরে ক্লিক করলে বন্ধ না হওয়া
-                dropdownMenu.addEventListener('click', function(e) {
-                    e.stopPropagation();
-                });
-
-                // ৩. ডকুমেন্টে ক্লিক করলে বন্ধ
-                document.addEventListener('click', function(e) {
-                    if (dropdownWrapper && !dropdownWrapper.contains(e.target)) {
-                        dropdownMenu.classList.remove('open');
-                        dropdownBtn.classList.remove('open');
-                    }
-                });
-
-                // ৪. ESC কী চাপলে বন্ধ
-                document.addEventListener('keydown', function(e) {
-                    if (e.key === 'Escape' && dropdownMenu.classList.contains('open')) {
-                        dropdownMenu.classList.remove('open');
-                        dropdownBtn.classList.remove('open');
-                    }
-                });
-            } else {
-                console.error('ড্রপডাউন এলিমেন্ট পাওয়া যায়নি!');
             }
 
             // ===== ইউজার UI আপডেট =====
@@ -532,19 +427,10 @@
                     if (typeof firebase !== 'undefined' && firebase.auth) {
                         await firebase.auth().signOut();
                     }
-                    
                     localStorage.removeItem('user');
                     localStorage.removeItem('userData');
                     sessionStorage.clear();
-                    
                     showLoggedOutUI();
-                    
-                    // ড্রপডাউন বন্ধ
-                    const dropdownMenu = document.getElementById('userDropdownMenu');
-                    const dropdownBtn = document.getElementById('userDropdownBtn');
-                    if (dropdownMenu) dropdownMenu.classList.remove('open');
-                    if (dropdownBtn) dropdownBtn.classList.remove('open');
-                    
                     window.location.href = 'index.html';
                 } catch (error) {
                     console.error('Logout error:', error);
