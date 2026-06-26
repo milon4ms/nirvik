@@ -35,10 +35,6 @@
         }
     </style>
     
-    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
-    <script src="assets/js/firebase-config.js"></script>
-    
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex items-center justify-between py-4">
             
@@ -242,12 +238,13 @@
             }
         })();
 
-        // 🚪 গ্লোবাল লগআউট অ্যাকশন (যা হেডার লোড হওয়ার পর যেকোনো পেজ থেকে স্বয়ংক্রিয়ভাবে কাজ করবে)
+        // 🚪 গ্লোবাল লগআউট অ্যাকশন (যা মেইন পেজের ফায়ারবেসকে স্বয়ংক্রিয়ভাবে ব্যবহার করবে)
         window.addEventListener('click', function(e) {
             if (e.target && e.target.closest('.nh-logout')) {
                 e.preventDefault();
                 
                 if (confirm('আপনি কি নিশ্চিতভাবে লগআউট করতে চান?')) {
+                    // মেইন পেজের গ্লোবাল ফায়ারবেস চেক করে রান করছে
                     if (typeof firebase !== 'undefined' && firebase.auth) {
                         firebase.auth().signOut().then(function() {
                             alert('✅ সফলভাবে লগআউট হয়েছে!');
@@ -256,7 +253,7 @@
                             alert('❌ লগআউট করতে সমস্যা হয়েছে: ' + error.message);
                         });
                     } else {
-                        alert('❌ ফায়ারবেস কনফিগারেশন ত্রুটি! মূল পেজে ফায়ারবেস লোড করা নেই।');
+                        alert('❌ ফায়ারবেস লাইব্রেরি এই পেজে লোড করা নেই!');
                     }
                 }
             }
