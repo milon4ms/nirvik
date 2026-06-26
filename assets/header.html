@@ -14,11 +14,16 @@
             display: block !important;
         }
         /* মোবাইলে সরাসরি দেখানো বাটনগুলোর স্টাইল */
-        .mobile-menu-btn {
+        .mobile-header-btn {
             background: rgba(255,255,255,0.15);
             border: 1px solid rgba(255,255,255,0.1);
+            font-size: 11px;
+            padding: 6px 10px;
+            border-radius: 9999px;
+            font-weight: 500;
+            transition: all 0.2s;
         }
-        .mobile-menu-btn:hover {
+        .mobile-header-btn:hover {
             background: rgba(255,255,255,0.25);
         }
         
@@ -44,7 +49,6 @@
 
             <nav class="hidden md:flex items-center gap-6 text-base font-medium">
                 <a href="select.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">সাধারণ রোগ</a>
-                
                 <a href="medica/index.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">মেডিকা</a>
                 
                 <div class="relative group">
@@ -111,9 +115,7 @@
                     <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-60 mt-2 right-0">
                         <a href="login.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-sign-in-alt mr-2 text-teal-600"></i>লগ ইন</a>
                         <a href="register.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-plus mr-2 text-teal-600"></i>রেজিস্ট্রেশন</a>
-                        
                         <a href="dashboard-gate.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-circle mr-2 text-teal-600"></i>ড্যাশবোর্ড</a>
-                        
                         <a href="forgot-password.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-key mr-2 text-teal-600"></i>পাসওয়ার্ড ভুলে গেছি</a>
                         <div class="border-t border-gray-100 my-1"></div>
                         <a href="#" class="nh-logout block px-6 py-3 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
@@ -121,14 +123,12 @@
                 </div>
             </nav>
 
-            <div class="md:hidden flex items-center gap-1.5">
-                <a href="select.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
-                    সাধারণ রোগ
-                </a>
-                <a href="medica/index.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
-                    মেডিকা
-                </a>
-                <button id="mobile-menu-btn" class="text-xl p-1.5 text-white hover:bg-white/10 rounded-lg transition focus:outline-none">
+            <div class="md:hidden flex items-center gap-1">
+                <a href="medica/index.html" class="mobile-header-btn">মেডিকা</a>
+                
+                <a href="select.html" class="mobile-header-btn">সার্বদেহিক রোগ</a>
+                
+                <button id="mobile-menu-btn" class="text-xl p-2 text-white hover:bg-white/10 rounded-full transition focus:outline-none ml-0.5">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
@@ -138,22 +138,7 @@
     <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
         <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
             
-            <details class="group">
-                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
-                    <span>🫀 সার্বদেহিক রোগ</span>
-                    <span class="text-xs transition-transform group-open:rotate-180">▼</span>
-                </summary>
-                <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
-                    <a href="jor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🔥 জ্বর সর্দি কাশি</a>
-                    <a href="pain.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">⚡ ব্যথা</a>
-                    <a href="tumor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">⭕ টিউমার</a>
-                    <a href="abscess.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">💧 ফোঁড়া</a>
-                    <a href="pressure.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🍽️ প্রেসার গ্রন্থি শিরা</a>
-                    <a href="bloodbonemuscle.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🦴 রক্ত হাড় পেশী</a>
-                    <a href="mental.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🧠 মানসিক রোগ সকল</a>
-                    <a href="skin.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">✋ চর্মরোগ</a>
-                </div>
-            </details>
+            <a href="select.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white font-medium flex items-center gap-2">🏥 সাধারণ রোগ</a>
 
             <details class="group">
                 <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
@@ -194,8 +179,8 @@
                     <a href="leg.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦶 পা</a>
                     <a href="stool.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🐛 মল ও কৃমি</a>
                     <a href="anus.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🌊 মলদ্বার</a>
-                    <a href="male.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👨 যৌনাঙ্গ পুরুষ</a>
-                    <a href="female.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👩 যৌনাঙ্গ নারী</a>
+                    <a href="male.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👨... পুরুষ</a>
+                    <a href="female.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👩... নারী</a>
                 </div>
             </details>
 
@@ -207,9 +192,7 @@
                 <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
                     <a href="login.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔐 লগ ইন</a>
                     <a href="register.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">📝 রেজিস্ট্রেশন</a>
-                    
                     <a href="dashboard-gate.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👤 ড্যাশবোর্ড</a>
-                    
                     <a href="forgot-password.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔑 পাসওয়ার্ড ভুলে গেছি</a>
                     <a href="#" class="nh-logout px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-red-400 border-t border-teal-800 mt-1 pt-1">🚪 লগ আউট</a>
                 </div>
@@ -219,33 +202,34 @@
     </div>
 
     <script>
-        // 📱 মোবাইলের ৩ লাইনের (Hamburger) মেনু সচল করার ফিক্সড কোড
-        document.addEventListener('click', function(e) {
+        // 📱 মোবাইলের ৩ লাইনের (Hamburger) মেনু সচল করার ফিক্সড জাভাস্ক্রিপ্ট
+        document.addEventListener('DOMContentLoaded', function() {
             const menuBtn = document.getElementById('mobile-menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
-            
-            if (!menuBtn || !mobileMenu) return;
 
-            // যদি ৩ লাইন বাটনে বা তার ভেতরের আইকনে ক্লিক করা হয়
-            if (menuBtn.contains(e.target) || e.target.closest('#mobile-menu-btn')) {
-                e.preventDefault();
-                e.stopPropagation();
-                mobileMenu.classList.toggle('hidden');
-            } 
-            // মেনুর বাইরে ক্লিক করলে মেনু স্বয়ংক্রিয়ভাবে বন্ধ হবে
-            else if (!mobileMenu.contains(e.target)) {
-                mobileMenu.classList.add('hidden');
+            if (menuBtn && mobileMenu) {
+                menuBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    mobileMenu.classList.toggle('hidden');
+                });
+
+                // মেনুর বাইরে কোথাও ক্লিক করলে মেনু স্বয়ংক্রিয়ভাবে বন্ধ হবে
+                document.addEventListener('click', function(e) {
+                    if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                });
             }
         });
 
-        // 🚪 সরাসরি ও সহজ লগআউট অ্যাকশন
+        // 🚪 গ্লোবাল সেশন লগআউট অ্যাকশন
         window.addEventListener('click', function(e) {
             if (e.target && e.target.closest('.nh-logout')) {
                 e.preventDefault();
                 
                 if (confirm('আপনি কি নিশ্চিতভাবে লগআউট করতে চান?')) {
                     try {
-                        // মূল পেজের ফায়ারবেস স্ক্রিপ্ট ব্যবহার করে লগআউট
                         if (typeof firebase !== 'undefined' && firebase.auth) {
                             firebase.auth().signOut().then(function() {
                                 alert('✅ সফলভাবে লগআউট হয়েছে!');
@@ -254,7 +238,6 @@
                                 alert('❌ লগআউট করতে সমস্যা হয়েছে: ' + error.message);
                             });
                         } else {
-                            // ফায়ারবেস ইনস্ট্যান্টলি না পেলেও সাইলেন্টলি রিডাইরেক্ট করবে
                             window.location.href = 'login.html';
                         }
                     } catch (err) {
