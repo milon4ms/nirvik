@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>লোডিং... - নির্ভীক হোমিও</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+    
+    <script src="assets/js/firebase-config.js"></script>
+
+    <script>
+        // পেজ লোড হওয়ার সাথে সাথে ফায়ারবেস অথেন্টিকেশন স্টেট চেক করবে
+        firebase.auth().onAuthStateChanged((user) => {
+            if (!user) {
+                // ১. ইউজার যদি লগইন করা না থাকে -> লগইন পেজে পাঠাও
+                window.location.href = "login.html";
+            } else {
+                // ২. ইউজার লগইন করা থাকলে -> Firestore থেকে তার 'role' চেক করো
+                firebase.firestore().collection("users").doc(user.uid).get()
+                .then((doc) => {
+                    if (doc.exists) {
+                        const userRole = doc.data().role;
+
+                        // রোল অনুযায়ী নির্দিষ্ট ড্যাশবোর্ডে রিডাইরেকশন
+                        if (userRole === "admin") {
+                            window.location.href = "admin-dashboard.html";
+                        } else if (userRole === "paid") {
+                            window.location.href = "paid-dashboard.html";
+                        } else {
+                            // ডিফল্ট বা সাধারণ রেজিস্টার্ড ইউজার হলে
+                            window.location.href = "dashboard.html";
+                        }
+                    } else {
+                        // যদি ডাটাবেজে ইউজারের কোনো ডকুমেন্ট বা রোল না থাকে
+                        console.warn("User role not found in Firestore. Defaulting to general dashboard.");
+                        window.location.href = "dashboard.html";
+                    }
+                })
+                .catch((error) => {
+                    console.error("Error fetching user role:", error);
+                    // কোনো এরর হলে সুরক্ষার স্বার্থে লগইন পেজে ব্যাক করানোই নিরাপদ
+                    window.location.href = "login.html";
+                });
+            }
+        });
+    </script>
+</head>
+<body class="bg-emerald-50 min-height-vh flex items-center justify-center h-screen">
+
+    <div class="text-center p-6 bg-white shadow-xl rounded-3xl max-w-sm w-full mx-4 border border-emerald-100">
+        <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-teal-500 border-t-transparent mb-4"></div>
+        
+        <h2 class="text-xl font-semibold text-gray-800 mb-2">অনুমতি পরীক্ষা করা হচ্ছে</h2>
+        <p class="text-sm text-gray-500 flex items-center justify-center gap-1.5">
+            <i class="fas fa-shield-alt text-teal-600"></i> অনুগ্রহ করে কিছু মুহূর্ত অপেক্ষা করুন...
+        </p>
+    </div>
+
+</body>
+</html>
