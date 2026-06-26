@@ -1,6 +1,6 @@
 <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
     <style>
-        /* ===== ড্রপডাউন স্টাইল ===== */
+        /* ===== ডেস্কটপ ড্রপডাউন ===== */
         .user-dropdown {
             position: relative;
         }
@@ -74,7 +74,7 @@
             background: rgba(255,255,255,0.2);
         }
 
-        /* অন্যান্য ড্রপডাউন (হোভার) */
+        /* ===== অন্যান্য ড্রপডাউন (হোভার) ===== */
         .nav-dropdown {
             position: relative;
         }
@@ -115,7 +115,7 @@
             color: #00b8a9;
         }
 
-        /* মোবাইল */
+        /* ===== মোবাইল ===== */
         .mobile-menu-btn {
             background: rgba(255,255,255,0.15);
             border: 1px solid rgba(255,255,255,0.1);
@@ -200,7 +200,8 @@
                     </button>
                     <div class="dropdown-menu" id="userDropdownMenu">
                         <div id="userDropdownContent">
-                            <!-- ডায়নামিক কন্টেন্ট -->
+                            <a href="login.html"><i class="fas fa-sign-in-alt"></i> লগ ইন</a>
+                            <a href="register.html"><i class="fas fa-user-plus"></i> রেজিস্ট্রেশন</a>
                         </div>
                     </div>
                 </div>
@@ -216,11 +217,12 @@
         </div>
     </div>
 
-    <!-- ===== মোবাইল মেনু (আপডেটেড) ===== -->
+    <!-- ===== মোবাইল মেনু ===== -->
     <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
         <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
-            <!-- মেডিকা সরানো হয়েছে -->
             
+            <a href="medica/index.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white flex items-center gap-2">📖 মেডিকা</a>
+
             <details class="group">
                 <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
                     <span>🫀 সার্বদেহিক রোগ</span>
@@ -282,9 +284,16 @@
                 </div>
             </details>
 
-            <!-- ===== মোবাইলের জন্য ইউজার মেনু (লগইন/রেজিস্ট্রেশন) ===== -->
+            <!-- ===== মোবাইলের জন্য ইউজার মেনু ===== -->
             <div class="border-t border-teal-700 my-2 pt-2 flex flex-col gap-1" id="mobileUserMenu">
-                <div id="mobileUserContent"></div>
+                <div id="mobileUserContent">
+                    <a href="login.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
+                        <i class="fas fa-sign-in-alt mr-1"></i> লগ ইন
+                    </a>
+                    <a href="register.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
+                        <i class="fas fa-user-plus mr-1"></i> রেজিস্ট্রেশন
+                    </a>
+                </div>
             </div>
         </div>
     </div>
