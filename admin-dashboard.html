@@ -9,43 +9,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
     
-    <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
-    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
-    <!-- Firebase SDK (Compat) -->
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-auth-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-firestore-compat.js"></script>
-<script src="assets/js/firebase-config.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+    <script src="assets/js/firebase-config.js"></script>
 
-<script>
-    // পেজ লোড হওয়ার আগেই চেক করার জন্য
-    firebase.auth().onAuthStateChanged((user) => {
-        if (!user) {
-            // লগড-ইন না থাকলে লগইন পেজে পাঠাও
-            window.location.href = "login.html";
-        } else {
-            // ডাটাবেজ থেকে ইউজারের রোল চেক (ধরে নিচ্ছি Firestore-এর 'users' কালেকশনে রোল আছে)
-            firebase.firestore().collection("users").doc(user.uid).get()
-            .then((doc) => {
-                if (doc.exists && doc.data().role === "admin") {
-                    // রোল 'admin' হলে পেজে থাকতে দাও
-                    console.log("Welcome Admin");
-                } else {
-                    // এডমিন না হলে অ্যাক্সেস ব্লক করে অন্য পেজে পাঠাও
-                    alert("আপনার এই পেজে প্রবেশের অনুমতি নেই!");
-                    window.location.href = "index.html"; 
-                }
-            }).catch((error) => {
+    <script>
+        // সিকিউরিটি চেক শেষ না হওয়া পর্যন্ত বডি হাইড করে রাখার জন্য স্টাইল ডাইনামিকালি যুক্ত করা
+        const style = document.createElement('style');
+        style.innerHTML = 'body { display: none !important; }';
+        document.head.appendChild(style);
+
+        // পেজ লোড হওয়ার আগেই চেক করার জন্য
+        firebase.auth().onAuthStateChanged((user) => {
+            if (!user) {
+                // লগড-ইন না থাকলে লগইন পেজে পাঠাও
                 window.location.href = "login.html";
-            });
-        }
-    });
-</script>
-
+            } else {
+                // ডাটাবেজ থেকে ইউজারের রোল চেক
+                firebase.firestore().collection("users").doc(user.uid).get()
+                .then((doc) => {
+                    if (doc.exists && doc.data().role === "admin") {
+                        // রোল 'admin' হলে পেজটি দেখাও (হাইড করা স্টাইলটি রিমুভ করে)
+                        style.remove();
+                        console.log("Welcome Admin");
+                    } else {
+                        // এডমিন না হলে অ্যাক্সেস ব্লক করে অন্য পেজে পাঠাও
+                        alert("আপনার এই পেজে প্রবেশের অনুমতি নেই!");
+                        window.location.href = "index.html"; 
+                    }
+                }).catch((error) => {
+                    console.error("Error checking role: ", error);
+                    window.location.href = "login.html";
+                });
+            }
+        });
+    </script>
     <style>
         body { 
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
