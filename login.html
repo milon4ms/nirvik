@@ -334,11 +334,11 @@
     </div>
 
     <div id="phoneModal" class="hidden fixed inset-0 bg-black/60 flex items-center justify-center p-4 z-50">
-        <div class="bg-white p-6 rounded-2xl shadow-2xl max-w-sm w-full border border-emerald-100 text-center animate-spin-none">
+        <div class="bg-white p-6 rounded-2xl shadow-2xl max-w-sm w-full border border-emerald-100 text-center">
             <div class="inline-flex items-center justify-center w-14 h-14 bg-teal-100 text-teal-600 rounded-full mb-4 text-2xl">
                 <i class="fas fa-phone-alt"></i>
             </div>
-            <h3 class="text-2xl font-bold text-gray-800 mb-2">মোবাইল নাম্বার প্রয়োজন</h3>
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">মোবাইল নাম্বার প্রয়োজন</h3>
             <p class="text-sm text-gray-500 mb-4">আপনার অ্যাকাউন্টের নিরাপত্তা নিশ্চিত করতে ১১ ডিজিটের মোবাইল নাম্বারটি দিন।</p>
             
             <form id="phoneForm" class="space-y-4">
@@ -358,7 +358,6 @@
         // ===== হেডার/ফুটার লোড এবং সিএসএস ইনজেকশন ফিক্স =====
         $(function() {
             $('#header-placeholder').load('assets/header.html', function() {
-                // হেডার ইনজেক্ট হওয়ার পর সিএসএস ফোর্স অ্যাপ্লাই করা
                 $('#header-placeholder').find('nav, div.bg-white, div.bg-emerald-600').css('background-color', '#065f46');
                 $('#header-placeholder').find('a, button, span').css('color', '#ffffff');
                 
@@ -394,7 +393,7 @@
 
         // ===== State =====
         let isLoading = false;
-        let tempUserInstance = null; // টেম্পোরারি ইউজার অবজেক্ট হোল্ড করার জন্য
+        let tempUserInstance = null;
 
         // ===== বাংলা সংখ্যাকে ইংরেজিতে কনভার্ট করার হেল্পার ফাংশন =====
         function convertBanglaToEnglish(str) {
@@ -498,7 +497,7 @@
                 await handleUserLogin(result.user);
             } catch (error) {
                 console.error('Google login error:', error);
-                showError('Google লগইন ব্যর্থ হয়েছে!');
+                showError('Google লগইন ব্যর্থ হয়েছে!');
                 setLoading(false);
             }
         });
@@ -506,23 +505,21 @@
         // ===== Handle User Login & Phone Presence Check =====
         async function handleUserLogin(user) {
             try {
-                tempUserInstance = user; // গ্লোবাল ভেরিয়েবলে ইউজার অবজেক্ট সেভ রাখলাম
+                tempUserInstance = user;
                 const docRef = firebase.firestore().collection('users').doc(user.uid);
                 const docSnap = await docRef.get();
                 
                 if (docSnap.exists && docSnap.data().phone) {
-                    // ইউজারের তথ্য এবং ফোন নাম্বার অলরেডি ডাটাবেজে আছে
                     const userData = docSnap.data();
                     saveSessionAndRedirect(user, userData);
                 } else {
-                    // নতুন ইউজার অথবা যার ফোন নাম্বার নেই -> মডাল অন করো
                     setLoading(false);
                     phoneModal.classList.remove('hidden');
                     modalPhoneInput.focus();
                 }
             } catch (error) {
                 console.error('Error checking user data:', error);
-                showError('ডাটাবেজ কানেকশনে সমস্যা হয়েছে।');
+                showError('ডাটাবেজ কানেকশনে সমস্যা হয়েছে।');
                 setLoading(false);
             }
         }
@@ -531,14 +528,11 @@
         phoneForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             let phoneInputVal = modalPhoneInput.value.trim();
-            
-            // বাংলা সংখ্যা থাকলে ইংরেজিতে কনভার্ট করা হচ্ছে
             phoneInputVal = convertBanglaToEnglish(phoneInputVal);
 
-            // কঠোর নিয়মের ভ্যালিডেশন চেক (১১ ডিজিট এবং শুরু ০১ দিয়ে)
             const phonePattern = /^01[0-9]{9}$/;
             if (!phonePattern.test(phoneInputVal)) {
-                alert("ভুল নাম্বার! মোবাইল নাম্বারটি অবশ্যই ঠিক ১১ ডিজিটের হতে হবে এবং শুরু হতে হবে 01 বা ০১ দিয়ে।");
+                alert("ভুল নাম্বার! মোবাইল নাম্বারটি অবশ্যই ঠিক ১১ ডিজিটের হতে হবে এবং শুরু হতে হবে 01 বা ০১ দিয়ে।");
                 modalPhoneInput.focus();
                 return;
             }
@@ -551,19 +545,17 @@
 
                 let finalUserData = {};
                 if (docSnap.exists) {
-                    // পুরাতন ইউজার কিন্তু ফোন নাম্বার ছিল না
                     await docRef.update({
                         phone: phoneInputVal,
                         lastLogin: firebase.firestore.FieldValue.serverTimestamp()
                     });
                     finalUserData = (await docRef.get()).data();
                 } else {
-                    // সম্পূর্ণ নতুন ইউজার
                     finalUserData = {
                         uid: tempUserInstance.uid,
                         email: tempUserInstance.email,
                         name: tempUserInstance.displayName || tempUserInstance.email?.split('@')[0] || 'ইউজার',
-                        phone: phoneInputVal, // ফোন নাম্বার সফলভাবে যুক্ত হলো
+                        phone: phoneInputVal,
                         role: 'general',
                         isPaid: false,
                         createdAt: firebase.firestore.FieldValue.serverTimestamp(),
@@ -578,7 +570,7 @@
 
             } catch (error) {
                 console.error("ফোন সেভ করতে সমস্যা:", error);
-                alert("তথ্য সংরক্ষণ করা যায়নি, আবার চেষ্টা করুন।");
+                alert("তথ্য সংরক্ষণ করা যায়নি, আবার চেষ্টা করুন।");
             }
         });
 
@@ -595,7 +587,7 @@
 
             showSuccess('লগইন সফল! রিডাইরেক্ট করা হচ্ছে...');
             setTimeout(() => {
-                window.location.href = 'dashboard-gate.html'; // ড্যাশবোর্ড গেটওয়েতে পাঠিয়ে দেওয়া হলো
+                window.location.href = 'dashboard-gate.html';
             }, 1000);
         }
 
@@ -612,13 +604,27 @@
             else emailInput.focus();
         });
 
-        // ===== Auth Observer (Already Logged In Session Control) =====
-        firebase.auth().onAuthStateChanged(async (user) => {
-            if (user && window.location.pathname.includes('login.html')) {
-                const docSnap = await firebase.firestore().collection('users').doc(user.uid).get();
-                if (docSnap.exists && docSnap.data().phone) {
-                    window.location.href = 'dashboard-gate.html';
-                }
+        // ===== Auth Observer (লুপ কন্ট্রোল ফিক্সড অংশ) =====
+        firebase.auth().onAuthStateChanged((user) => {
+            // যদি ইউজার সেশন রিয়েল-টাইমে পাওয়া যায়
+            if (user) {
+                // ১ সেকেন্ড অপেক্ষা করা হচ্ছে নিশ্চিত হতে এটি কোনো লগআউট ইভেন্টের ঠিক পরপরই ঘটছে না
+                setTimeout(async () => {
+                    // পুনরায় চেক করা হচ্ছে যে সেশনটি এখনো টিকে আছে কিনা
+                    const currentUser = firebase.auth().currentUser;
+                    if (currentUser && window.location.pathname.includes('login.html')) {
+                        try {
+                            const docSnap = await firebase.firestore().collection('users').doc(currentUser.uid).get();
+                            if (docSnap.exists && docSnap.data().phone) {
+                                window.location.href = 'dashboard-gate.html';
+                            }
+                        } catch (err) {
+                            console.error("লুপ গার্ড চেক ব্যর্থ:", err);
+                        }
+                    }
+                }, 1000); // ১ সেকেন্ডের সেফটি ডিলে
+            } else {
+                console.log("ইউজার সম্পূর্ণ লগআউট অবস্থায় আছে। কোনো লুপ হবে না।");
             }
         });
     </script>
