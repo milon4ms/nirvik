@@ -3,89 +3,365 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>রেজিস্ট্রেশন - নির্বিক হোমিও</title>
+    <title>লগইন - নির্ভীক হোমিও</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
     
-    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
-    <!-- 🔥 Firebase SDK (Compat) – শুধুমাত্র এই পেজে -->
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore-compat.js"></script>
     
-    <!-- Firebase কনফিগারেশন (আপনার আসল API Key বসান) -->
     <script src="assets/js/firebase-config.js"></script>
 
     <style>
-        body { font-family: 'SolaimanLipi', system-ui, sans-serif; background: #f0fdf4; }
-        .register-container { max-width: 480px; margin: 40px auto; }
-        .register-box { background: white; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.08); padding: 40px; }
-        input { width: 100%; padding: 14px 16px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 16px; transition: all 0.2s; }
-        input:focus { outline: none; border-color: #00b8a9; box-shadow: 0 0 0 3px rgba(0,184,169,0.1); }
-        .btn-register { background: linear-gradient(135deg, #00b8a9, #00897b); color: white; padding: 14px; border: none; border-radius: 12px; width: 100%; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s; }
-        .btn-register:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,184,169,0.3); }
-        .btn-register:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
-        .error-msg { color: #e53e3e; font-size: 14px; margin-top: 5px; display: none; }
-        .success-msg { color: #38a169; font-size: 14px; margin-top: 5px; display: none; }
+        body { 
+            font-family: 'SolaimanLipi', system-ui, sans-serif; 
+            background: #f0fdf4; 
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* হেডার ও মেনুর কালার সমস্যা সমাধানের জন্য বিশেষ ফিক্স */
+        #header-placeholder, nav {
+            background-color: #065f46 !important; /* ডার্ক গ্রিন ব্যাকগ্রাউন্ড */
+        }
+        #header-placeholder a, #header-placeholder button, nav a {
+            color: #ffffff !important; /* টেক্সট কালার সাদা */
+            opacity: 1 !important;
+        }
+        #header-placeholder a:hover, nav a:hover {
+            color: #a7f3d0 !important; /* হোভার করলে হালকা সবুজ */
+        }
+        
+        .login-container { 
+            max-width: 440px; 
+            margin: 40px auto; 
+            flex: 1;
+        }
+        
+        .login-box { 
+            background: white; 
+            border-radius: 20px; 
+            box-shadow: 0 20px 60px rgba(0,0,0,0.08); 
+            padding: 40px; 
+            transition: all 0.3s;
+        }
+        
+        input { 
+            width: 100%; 
+            padding: 14px 16px; 
+            border: 2px solid #e2e8f0; 
+            border-radius: 12px; 
+            font-size: 16px; 
+            transition: all 0.2s; 
+            background: #fafafa;
+        }
+        
+        input:focus { 
+            outline: none; 
+            border-color: #00b8a9; 
+            box-shadow: 0 0 0 3px rgba(0,184,169,0.1);
+            background: white;
+        }
+        
+        input:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .btn-login { 
+            background: linear-gradient(135deg, #00b8a9, #00897b); 
+            color: white; 
+            padding: 14px; 
+            border: none; 
+            border-radius: 12px; 
+            width: 100%; 
+            font-size: 18px; 
+            font-weight: 600; 
+            cursor: pointer; 
+            transition: all 0.3s; 
+        }
+        
+        .btn-login:hover:not(:disabled) { 
+            transform: translateY(-2px); 
+            box-shadow: 0 8px 25px rgba(0,184,169,0.3); 
+        }
+        
+        .btn-login:disabled { 
+            opacity: 0.6; 
+            cursor: not-allowed; 
+            transform: none; 
+        }
+        
+        .btn-google { 
+            background: white; 
+            color: #444; 
+            border: 2px solid #ddd; 
+            padding: 14px; 
+            border-radius: 12px; 
+            width: 100%; 
+            font-size: 18px; 
+            font-weight: 600; 
+            cursor: pointer; 
+            transition: all 0.3s; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 12px; 
+        }
+        
+        .btn-google:hover:not(:disabled) { 
+            background: #f8f8f8; 
+            border-color: #bbb; 
+            transform: translateY(-2px);
+        }
+        
+        .btn-google:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .divider { 
+            display: flex; 
+            align-items: center; 
+            margin: 25px 0; 
+        }
+        
+        .divider::before, .divider::after { 
+            content: ''; 
+            flex: 1; 
+            border-bottom: 1px solid #e2e8f0; 
+        }
+        
+        .divider span { 
+            padding: 0 12px; 
+            color: #a0aec0; 
+            font-size: 14px; 
+            background: white;
+        }
+        
+        .error-msg { 
+            background: #fed7d7; 
+            color: #c53030; 
+            padding: 12px 16px; 
+            border-radius: 10px; 
+            display: none; 
+            margin-top: 10px;
+            border-left: 4px solid #fc8181;
+        }
+        
+        .success-msg { 
+            background: #c6f6d5; 
+            color: #276749; 
+            padding: 12px 16px; 
+            border-radius: 10px; 
+            display: none; 
+            margin-top: 10px;
+            border-left: 4px solid #48bb78;
+        }
+        
+        .input-group {
+            position: relative;
+        }
+        
+        .input-group .toggle-password {
+            position: absolute;
+            right: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #a0aec0;
+            transition: color 0.2s;
+            background: none;
+            border: none;
+            font-size: 18px;
+        }
+        
+        .input-group .toggle-password:hover {
+            color: #4a5568;
+        }
+        
+        @media (max-width: 640px) {
+            .login-box { 
+                padding: 24px; 
+                border-radius: 16px;
+            }
+            
+            input { 
+                font-size: 14px; 
+                padding: 12px 14px; 
+            }
+            
+            .btn-login, .btn-google { 
+                font-size: 16px; 
+                padding: 12px; 
+            }
+            
+            .login-container {
+                margin: 20px auto;
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .login-box {
+            animation: fadeInUp 0.5s ease-out;
+        }
+        
+        .password-strength {
+            height: 4px;
+            margin-top: 8px;
+            border-radius: 4px;
+            background: #e2e8f0;
+            transition: all 0.3s;
+            overflow: hidden;
+        }
+        
+        .password-strength .bar {
+            height: 100%;
+            width: 0%;
+            transition: all 0.3s;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
 
-    <!-- ===== হেডার ===== -->
     <div id="header-placeholder"></div>
 
-    <!-- ===== ফর্ম ===== -->
-    <div class="register-container px-4">
-        <div class="register-box">
+    <div class="login-container px-4">
+        <div class="login-box">
             <div class="text-center mb-8">
-                <div class="text-5xl mb-4">🌿</div>
-                <h1 class="text-3xl font-bold text-gray-800">নতুন অ্যাকাউন্ট</h1>
-                <p class="text-gray-500 mt-2">নির্বিক হোমিওতে স্বাগতম</p>
+                <div class="text-6xl mb-4">🔐</div>
+                <h1 class="text-3xl font-bold text-gray-800">স্বাগতম</h1>
+                <p class="text-gray-500 mt-2">আপনার অ্যাকাউন্টে লগইন করুন</p>
             </div>
 
-            <form id="registerForm">
+            <form id="loginForm" autocomplete="on">
                 <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">👤 নাম</label>
-                    <input type="text" id="displayName" placeholder="আপনার নাম" required>
+                    <label class="block text-gray-700 font-medium mb-2">
+                        <i class="fas fa-envelope text-teal-600 mr-2"></i>ইমেইল
+                    </label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        placeholder="আপনার ইমেইল ঠিকানা" 
+                        required 
+                        autocomplete="email"
+                        class="w-full"
+                    >
                 </div>
+                
                 <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">📧 ইমেইল</label>
-                    <input type="email" id="email" placeholder="আপনার ইমেইল ঠিকানা" required>
-                </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">🔒 পাসওয়ার্ড</label>
-                    <input type="password" id="password" placeholder="৬ অক্ষরের বেশি" required minlength="6">
-                </div>
-                <div class="mb-6">
-                    <label class="block text-gray-700 font-medium mb-2">🔒 পাসওয়ার্ড নিশ্চিত</label>
-                    <input type="password" id="confirmPassword" placeholder="আবার পাসওয়ার্ড লিখুন" required>
-                    <div id="passwordError" class="error-msg">❌ পাসওয়ার্ড দুটি মিলছে না!</div>
+                    <label class="block text-gray-700 font-medium mb-2">
+                        <i class="fas fa-lock text-teal-600 mr-2"></i>পাসওয়ার্ড
+                    </label>
+                    <div class="input-group">
+                        <input 
+                            type="password" 
+                            id="password" 
+                            placeholder="পাসওয়ার্ড দিন" 
+                            required 
+                            autocomplete="current-password"
+                            class="w-full"
+                        >
+                        <button type="button" class="toggle-password" id="togglePassword" aria-label="পাসওয়ার্ড দেখান/লুকান">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="password-strength">
+                        <div class="bar" id="passwordStrengthBar"></div>
+                    </div>
                 </div>
 
-                <button type="submit" class="btn-register" id="registerBtn">
-                    <i class="fas fa-user-plus mr-2"></i> অ্যাকাউন্ট তৈরি করুন
+                <div id="errorMsg" class="error-msg">
+                    <i class="fas fa-exclamation-circle mr-2"></i>
+                    <span id="errorText">ভুল ইমেইল বা পাসওয়ার্ড!</span>
+                </div>
+                
+                <div id="successMsg" class="success-msg">
+                    <i class="fas fa-check-circle mr-2"></i>
+                    লগইন সফল! ড্যাশবোর্ডে যাচ্ছি...
+                </div>
+
+                <button type="submit" class="btn-login mt-2" id="loginBtn">
+                    <i class="fas fa-sign-in-alt mr-2"></i> লগইন করুন
                 </button>
+            </form>
 
-                <p class="text-center mt-6 text-gray-600">
-                    ইতিমধ্যে অ্যাকাউন্ট আছে? 
-                    <a href="login.html" class="text-teal-600 font-bold">লগইন করুন</a>
+            <div class="divider">
+                <span>অথবা</span>
+            </div>
+
+            <button id="googleLoginBtn" class="btn-google">
+                <i class="fab fa-google text-2xl" style="color: #ea4335;"></i>
+                Google দিয়ে লগইন করুন
+            </button>
+
+            <div class="mt-6 space-y-2 text-center">
+                <p class="text-gray-600">
+                    অ্যাকাউন্ট নেই? 
+                    <a href="register.html" class="text-teal-600 font-bold hover:text-teal-700 transition-colors">
+                        রেজিস্ট্রেশন করুন
+                    </a>
                 </p>
+                <p class="text-gray-500 text-sm">
+                    <a href="forgot-password.html" class="hover:text-teal-600 transition-colors">
+                        <i class="fas fa-key mr-1"></i>পাসওয়ার্ড ভুলে গেছেন?
+                    </a>
+                </p>
+                <p class="text-gray-500 text-sm">
+                    <a href="index.html" class="hover:text-teal-600 transition-colors">
+                        <i class="fas fa-home mr-1"></i>হোম পেজে ফিরে যান
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="phoneModal" class="hidden fixed inset-0 bg-black/60 flex items-center justify-center p-4 z-50">
+        <div class="bg-white p-6 rounded-2xl shadow-2xl max-w-sm w-full border border-emerald-100 text-center animate-spin-none">
+            <div class="inline-flex items-center justify-center w-14 h-14 bg-teal-100 text-teal-600 rounded-full mb-4 text-2xl">
+                <i class="fas fa-phone-alt"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">মোবাইল নাম্বার প্রয়োজন</h3>
+            <p class="text-sm text-gray-500 mb-4">আপনার অ্যাকাউন্টের নিরাপত্তা নিশ্চিত করতে ১১ ডিজিটের মোবাইল নাম্বারটি দিন।</p>
+            
+            <form id="phoneForm" class="space-y-4">
+                <input type="text" id="modalPhoneInput" required
+                    class="w-full text-center font-bold text-xl tracking-widest text-gray-700 py-3 border-2 border-gray-200 rounded-xl focus:border-teal-500 focus:outline-none"
+                    placeholder="017XXXXXXXX">
+                <button type="submit" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 rounded-xl transition shadow-md">
+                    সংরক্ষণ করুন
+                </button>
             </form>
         </div>
     </div>
 
-    <!-- ===== ফুটার ===== -->
     <div id="footer-placeholder"></div>
 
     <script>
-        // ===== হেডার/ফুটার লোড =====
+        // ===== হেডার/ফুটার লোড এবং সিএসএস ইনজেকশন ফিক্স =====
         $(function() {
             $('#header-placeholder').load('assets/header.html', function() {
-                // মোবাইল মেনু সক্রিয়
+                // হেডার ইনজেক্ট হওয়ার পর সিএসএস ফোর্স অ্যাপ্লাই করা
+                $('#header-placeholder').find('nav, div.bg-white, div.bg-emerald-600').css('background-color', '#065f46');
+                $('#header-placeholder').find('a, button, span').css('color', '#ffffff');
+                
                 const btn = document.getElementById('mobile-menu-btn');
                 const menu = document.getElementById('mobile-menu');
                 if (btn && menu) {
@@ -100,57 +376,251 @@
             $('#footer-placeholder').load('assets/footer.html');
         });
 
-        // ===== রেজিস্ট্রেশন ফাংশন =====
-        document.getElementById('registerForm').addEventListener('submit', async (e) => {
-            e.preventDefault();
+        // ===== DOM Elements =====
+        const emailInput = document.getElementById('email');
+        const passwordInput = document.getElementById('password');
+        const loginForm = document.getElementById('loginForm');
+        const loginBtn = document.getElementById('loginBtn');
+        const googleBtn = document.getElementById('googleLoginBtn');
+        const errorMsg = document.getElementById('errorMsg');
+        const errorText = document.getElementById('errorText');
+        const successMsg = document.getElementById('successMsg');
+        const togglePassword = document.getElementById('togglePassword');
+        const strengthBar = document.getElementById('passwordStrengthBar');
+        
+        const phoneModal = document.getElementById('phoneModal');
+        const phoneForm = document.getElementById('phoneForm');
+        const modalPhoneInput = document.getElementById('modalPhoneInput');
 
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
-            const confirm = document.getElementById('confirmPassword').value;
-            const name = document.getElementById('displayName').value || 'ইউজার';
-            const btn = document.getElementById('registerBtn');
+        // ===== State =====
+        let isLoading = false;
+        let tempUserInstance = null; // টেম্পোরারি ইউজার অবজেক্ট হোল্ড করার জন্য
 
-            // পাসওয়ার্ড মিল চেক
-            if (password !== confirm) {
-                document.getElementById('passwordError').style.display = 'block';
-                return;
+        // ===== বাংলা সংখ্যাকে ইংরেজিতে কনভার্ট করার হেল্পার ফাংশন =====
+        function convertBanglaToEnglish(str) {
+            const banglaDigits = {'০':'0','১':'1','২':'2','৩':'3','৪':'4','৫':'5','৬':'6','৭':'7','৮':'8','৯':'9'};
+            return str.replace(/[০-৯]/g, function(w) { return banglaDigits[w]; });
+        }
+
+        function setLoading(state) {
+            isLoading = state;
+            const inputs = loginForm.querySelectorAll('input');
+            inputs.forEach(input => input.disabled = state);
+            loginBtn.disabled = state;
+            googleBtn.disabled = state;
+            
+            if (state) {
+                loginBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> লগইন হচ্ছে...';
+                googleBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> সংযুক্ত হচ্ছে...';
             } else {
-                document.getElementById('passwordError').style.display = 'none';
+                loginBtn.innerHTML = '<i class="fas fa-sign-in-alt mr-2"></i> লগইন করুন';
+                googleBtn.innerHTML = '<i class="fab fa-google text-2xl" style="color: #ea4335;"></i> Google দিয়ে লগইন করুন';
+            }
+        }
+
+        function showError(message) {
+            errorText.textContent = message;
+            errorMsg.style.display = 'block';
+            successMsg.style.display = 'none';
+        }
+
+        function showSuccess(message) {
+            successMsg.innerHTML = `<i class="fas fa-check-circle mr-2"></i> ${message}`;
+            successMsg.style.display = 'block';
+            errorMsg.style.display = 'none';
+        }
+
+        function hideMessages() {
+            errorMsg.style.display = 'none';
+            successMsg.style.display = 'none';
+        }
+
+        // ===== Toggle Password =====
+        togglePassword.addEventListener('click', function() {
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            this.querySelector('i').classList.toggle('fa-eye');
+            this.querySelector('i').classList.toggle('fa-eye-slash');
+        });
+
+        // ===== Password Strength =====
+        passwordInput.addEventListener('input', function() {
+            const strength = this.value.length;
+            let width = 0;
+            let color = '#e2e8f0';
+            if (strength > 0) {
+                if (strength < 4) { width = 25; color = '#fc8181'; }
+                else if (strength < 8) { width = 50; color = '#f6ad55'; }
+                else if (strength < 12) { width = 75; color = '#68d391'; }
+                else { width = 100; color = '#48bb78'; }
+            }
+            strengthBar.style.width = width + '%';
+            strengthBar.style.background = color;
+        });
+
+        // ===== Email/Password Login =====
+        loginForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            if (isLoading) return;
+            
+            const email = emailInput.value.trim();
+            const password = passwordInput.value;
+            
+            if (!email || !password) return;
+            
+            hideMessages();
+            setLoading(true);
+            
+            try {
+                const userCredential = await firebase.auth().signInWithEmailAndPassword(email, password);
+                await handleUserLogin(userCredential.user);
+            } catch (error) {
+                console.error('Login error:', error);
+                let message = 'লগইন ব্যর্থ! ';
+                if (error.code === 'auth/user-not-found') message += 'এই ইমেইলে কোনো অ্যাকাউন্ট নেই।';
+                else if (error.code === 'auth/wrong-password') message += 'পাসওয়ার্ড ভুল।';
+                else message += error.message;
+                showError(message);
+                setLoading(false);
+            }
+        });
+
+        // ===== Google Login =====
+        googleBtn.addEventListener('click', async () => {
+            if (isLoading) return;
+            hideMessages();
+            setLoading(true);
+            
+            try {
+                const provider = new firebase.auth.GoogleAuthProvider();
+                provider.setCustomParameters({ prompt: 'select_account' });
+                const result = await firebase.auth().signInWithPopup(provider);
+                await handleUserLogin(result.user);
+            } catch (error) {
+                console.error('Google login error:', error);
+                showError('Google লগইন ব্যর্থ হয়েছে!');
+                setLoading(false);
+            }
+        });
+
+        // ===== Handle User Login & Phone Presence Check =====
+        async function handleUserLogin(user) {
+            try {
+                tempUserInstance = user; // গ্লোবাল ভেরিয়েবলে ইউজার অবজেক্ট সেভ রাখলাম
+                const docRef = firebase.firestore().collection('users').doc(user.uid);
+                const docSnap = await docRef.get();
+                
+                if (docSnap.exists && docSnap.data().phone) {
+                    // ইউজারের তথ্য এবং ফোন নাম্বার অলরেডি ডাটাবেজে আছে
+                    const userData = docSnap.data();
+                    saveSessionAndRedirect(user, userData);
+                } else {
+                    // নতুন ইউজার অথবা যার ফোন নাম্বার নেই -> মডাল অন করো
+                    setLoading(false);
+                    phoneModal.classList.remove('hidden');
+                    modalPhoneInput.focus();
+                }
+            } catch (error) {
+                console.error('Error checking user data:', error);
+                showError('ডাটাবেজ কানেকশনে সমস্যা হয়েছে।');
+                setLoading(false);
+            }
+        }
+
+        // ===== Phone Number Submit Form Validation & Save =====
+        phoneForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            let phoneInputVal = modalPhoneInput.value.trim();
+            
+            // বাংলা সংখ্যা থাকলে ইংরেজিতে কনভার্ট করা হচ্ছে
+            phoneInputVal = convertBanglaToEnglish(phoneInputVal);
+
+            // কঠোর নিয়মের ভ্যালিডেশন চেক (১১ ডিজিট এবং শুরু ০১ দিয়ে)
+            const phonePattern = /^01[0-9]{9}$/;
+            if (!phonePattern.test(phoneInputVal)) {
+                alert("ভুল নাম্বার! মোবাইল নাম্বারটি অবশ্যই ঠিক ১১ ডিজিটের হতে হবে এবং শুরু হতে হবে 01 বা ০১ দিয়ে।");
+                modalPhoneInput.focus();
+                return;
             }
 
-            // বাটন ডিজেবল
-            btn.disabled = true;
-            btn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> প্রক্রিয়াকরণ...';
+            if (!tempUserInstance) return;
 
             try {
-                // Firebase-এ ইউজার তৈরি
-                const userCredential = await firebase.auth().createUserWithEmailAndPassword(email, password);
-                const user = userCredential.user;
+                const docRef = firebase.firestore().collection('users').doc(tempUserInstance.uid);
+                const docSnap = await docRef.get();
 
-                // ইউজার প্রোফাইল আপডেট
-                await user.updateProfile({ displayName: name });
+                let finalUserData = {};
+                if (docSnap.exists) {
+                    // পুরাতন ইউজার কিন্তু ফোন নাম্বার ছিল না
+                    await docRef.update({
+                        phone: phoneInputVal,
+                        lastLogin: firebase.firestore.FieldValue.serverTimestamp()
+                    });
+                    finalUserData = (await docRef.get()).data();
+                } else {
+                    // সম্পূর্ণ নতুন ইউজার
+                    finalUserData = {
+                        uid: tempUserInstance.uid,
+                        email: tempUserInstance.email,
+                        name: tempUserInstance.displayName || tempUserInstance.email?.split('@')[0] || 'ইউজার',
+                        phone: phoneInputVal, // ফোন নাম্বার সফলভাবে যুক্ত হলো
+                        role: 'general',
+                        isPaid: false,
+                        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+                        lastLogin: firebase.firestore.FieldValue.serverTimestamp(),
+                        emailVerified: tempUserInstance.emailVerified || false
+                    };
+                    await docRef.set(finalUserData);
+                }
 
-                // Firestore-এ ইউজার ডেটা সংরক্ষণ
-                await firebase.firestore().collection('users').doc(user.uid).set({
-                    uid: user.uid,
-                    email: email,
-                    name: name,
-                    role: 'general',        // ডিফল্ট রোল
-                    isPaid: false,
-                    createdAt: firebase.firestore.FieldValue.serverTimestamp(),
-                    emailVerified: user.emailVerified
-                });
-
-                alert('✅ রেজিস্ট্রেশন সফল! এখন লগইন করুন।');
-                window.location.href = 'login.html';
+                phoneModal.classList.add('hidden');
+                saveSessionAndRedirect(tempUserInstance, finalUserData);
 
             } catch (error) {
-                alert('❌ ' + error.message);
-                btn.disabled = false;
-                btn.innerHTML = '<i class="fas fa-user-plus mr-2"></i> অ্যাকাউন্ট তৈরি করুন';
+                console.error("ফোন সেভ করতে সমস্যা:", error);
+                alert("তথ্য সংরক্ষণ করা যায়নি, আবার চেষ্টা করুন।");
+            }
+        });
+
+        // ===== Session Save & Redirect =====
+        function saveSessionAndRedirect(user, userData) {
+            localStorage.setItem('user', JSON.stringify({
+                uid: user.uid,
+                email: user.email,
+                name: userData.name || user.displayName || 'ইউজার',
+                role: userData.role || 'general',
+                isPaid: userData.isPaid || false,
+                emailVerified: user.emailVerified || false
+            }));
+
+            showSuccess('লগইন সফল! রিডাইরেক্ট করা হচ্ছে...');
+            setTimeout(() => {
+                window.location.href = 'dashboard-gate.html'; // ড্যাশবোর্ড গেটওয়েতে পাঠিয়ে দেওয়া হলো
+            }, 1000);
+        }
+
+        // ===== Keyboard Shortcuts =====
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.key === 'Enter') {
+                loginForm.dispatchEvent(new Event('submit'));
+            }
+        });
+
+        // ===== Auto-focus on load =====
+        window.addEventListener('load', () => {
+            if (emailInput.value) passwordInput.focus();
+            else emailInput.focus();
+        });
+
+        // ===== Auth Observer (Already Logged In Session Control) =====
+        firebase.auth().onAuthStateChanged(async (user) => {
+            if (user && window.location.pathname.includes('login.html')) {
+                const docSnap = await firebase.firestore().collection('users').doc(user.uid).get();
+                if (docSnap.exists && docSnap.data().phone) {
+                    window.location.href = 'dashboard-gate.html';
+                }
             }
         });
     </script>
-
 </body>
 </html>
