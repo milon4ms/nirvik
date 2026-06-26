@@ -238,25 +238,63 @@
             }
         })();
 
-        // 🚪 গ্লোবাল লগআউট অ্যাকশন (যা মেইন পেজের ফায়ারবেসকে স্বয়ংক্রিয়ভাবে ব্যবহার করবে)
+        // 🛡️ নিরাপদ ও বুদ্ধিমান লগআউট ফাংশন
         window.addEventListener('click', function(e) {
             if (e.target && e.target.closest('.nh-logout')) {
                 e.preventDefault();
                 
                 if (confirm('আপনি কি নিশ্চিতভাবে লগআউট করতে চান?')) {
-                    // মেইন পেজের গ্লোবাল ফায়ারবেস চেক করে রান করছে
+                    
+                    // ১. যদি পেজে ফায়ারবেস অলরেডি রেডি থাকে
                     if (typeof firebase !== 'undefined' && firebase.auth) {
-                        firebase.auth().signOut().then(function() {
-                            alert('✅ সফলভাবে লগআউট হয়েছে!');
-                            window.location.href = 'login.html';
-                        }).catch(function(error) {
-                            alert('❌ লগআউট করতে সমস্যা হয়েছে: ' + error.message);
-                        });
-                    } else {
-                        alert('❌ ফায়ারবেস লাইব্রেরি এই পেজে লোড করা নেই!');
+                        executeSignOut();
+                    } 
+                    // ২. যদি পেজে ফায়ারবেস স্ক্রিপ্ট লোড হতে সামান্য দেরি হয় বা লোড না হয়ে থাকে
+                    else {
+                        console.log('ফায়ারবেস ইনস্ট্যান্টলি পাওয়া যায়নি, ডাইনামিক লোড ট্রাই করা হচ্ছে...');
+                        
+                        // ডাইনামিকালি ফায়ারবেস স্ক্রিপ্ট লোড করার নিরাপদ ব্যবস্থা
+                        const coreScript = document.createElement('script');
+                        coreScript.src = "https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js";
+                        
+                        const authScript = document.createElement('script');
+                        authScript.src = "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js";
+                        
+                        coreScript.onload = function() {
+                            document.head.appendChild(authScript);
+                        };
+                        
+                        authScript.onload = function() {
+                            // কনফিগ ফাইল অলরেডি মেইন পেজে আছে কিনা তা চেক করে লোড করা
+                            if (typeof firebaseConfig !== 'undefined') {
+                                if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+                                executeSignOut();
+                            } else {
+                                // যদি কোনো পেজে কনফিগ একদমই না থাকে, তবে নিজস্ব কনফিগ রি-লোড করবে
+                                $.getScript("assets/js/firebase-config.js")
+                                .done(function() { executeSignOut(); })
+                                .fail(function() { alert('❌ ফায়ারবেস কনফিগারেশন লোড করা সম্ভব হয়নি।'); });
+                            }
+                        };
+                        
+                        document.head.appendChild(coreScript);
                     }
                 }
             }
         });
+
+        // সাইনআউট এক্সিকিউশন হেল্পার ফাংশন
+        function executeSignOut() {
+            if (firebase.auth()) {
+                firebase.auth().signOut().then(function() {
+                    alert('✅ সফলভাবে লগআউট হয়েছে!');
+                    window.location.href = 'login.html';
+                }).catch(function(error) {
+                    alert('❌ লগআউট করতে সমস্যা হয়েছে: ' + error.message);
+                });
+            } else {
+                alert('❌ অথেনটিকেশন মডিউল কাজ করছে না।');
+            }
+        }
     </script>
 </header>
