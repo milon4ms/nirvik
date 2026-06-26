@@ -1,149 +1,37 @@
 <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
     <style>
-        /* ===== ডেস্কটপ ড্রপডাউন ===== */
-        .nav-dropdown {
-            position: relative;
+        /* ===== ড্রপডাউন যোগাযোগ সূত্র (মাউস নিচে নামালেও মেনু থাকে) ===== */
+        .relative.group .absolute {
+            top: calc(100% - 6px) !important;
+            padding-top: 6px !important;
         }
-        .nav-dropdown .dropdown-content {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            margin-top: 8px;
-            background: white;
-            color: #333;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
-            border-radius: 16px;
-            padding: 12px 0;
-            min-width: 250px;
-            z-index: 9999;
-            border: 1px solid #e2e8f0;
+        /* প্যারেন্ট এলিমেন্টে সামান্য প্যাডিং */
+        .relative.group {
+            padding-bottom: 4px;
         }
-        .nav-dropdown .dropdown-content.show {
+        /* ডেস্কটপে ড্রপডাউন মেনু খোলা রাখার নিশ্চয়তা */
+        .relative.group:hover > .absolute {
             display: block !important;
         }
-        .nav-dropdown .dropdown-content a {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 8px 20px;
-            color: #4a5568;
-            text-decoration: none;
-            transition: all 0.2s;
-            font-size: 14px;
-        }
-        .nav-dropdown .dropdown-content a:hover {
-            background: #f0fdf4;
-        }
-        .nav-dropdown .dropdown-content a i {
-            width: 20px;
-            text-align: center;
-            color: #00b8a9;
-        }
-        .nav-dropdown .nav-dropdown-btn {
-            cursor: pointer;
-            background: transparent;
-            border: none;
-            color: white;
-            font-size: 16px;
-            font-weight: 500;
-            padding: 10px 16px;
-            border-radius: 16px;
-            transition: all 0.2s;
-            font-family: inherit;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .nav-dropdown .nav-dropdown-btn:hover {
-            background: rgba(255,255,255,0.2);
-        }
-
-        /* ===== ইউজার ড্রপডাউন ===== */
-        .user-dropdown {
-            position: relative;
-        }
-        .user-dropdown .dropdown-menu {
-            display: none;
-            position: absolute;
-            top: 100%;
-            right: 0;
-            margin-top: 8px;
-            background: white;
-            color: #333;
-            border-radius: 16px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
-            min-width: 220px;
-            padding: 8px 0;
-            z-index: 9999;
-            border: 1px solid #e2e8f0;
-        }
-        .user-dropdown .dropdown-menu.show {
-            display: block !important;
-        }
-        .user-dropdown .dropdown-menu a {
-            display: flex;
-            align-items: center;
-            padding: 10px 20px;
-            color: #4a5568;
-            text-decoration: none;
-            transition: all 0.2s;
-            font-size: 15px;
-            gap: 12px;
-            border-left: 3px solid transparent;
-        }
-        .user-dropdown .dropdown-menu a:hover {
-            background: #f0fdf4;
-            border-left-color: #00b8a9;
-        }
-        .user-dropdown .dropdown-menu a i {
-            width: 20px;
-            text-align: center;
-            color: #00b8a9;
-        }
-        .user-dropdown .dropdown-menu .logout-item {
-            border-top: 1px solid #e2e8f0;
-            margin-top: 4px;
-            padding-top: 4px;
-            color: #e53e3e;
-        }
-        .user-dropdown .dropdown-menu .logout-item i {
-            color: #e53e3e;
-        }
-        .user-dropdown .dropdown-menu .logout-item:hover {
-            background: #fff5f5;
-            border-left-color: #e53e3e;
-        }
-        .user-dropdown .dropdown-trigger {
-            cursor: pointer;
-            background: transparent;
-            border: none;
-            color: white;
-            font-size: 16px;
-            font-weight: 500;
-            padding: 10px 20px;
-            border-radius: 16px;
-            transition: all 0.2s;
-            font-family: inherit;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .user-dropdown .dropdown-trigger:hover {
-            background: rgba(255,255,255,0.2);
-        }
-
-        /* ===== মোবাইল ===== */
+        /* মোবাইলে সরাসরি দেখানো বাটনগুলোর স্টাইল */
         .mobile-menu-btn {
             background: rgba(255,255,255,0.15);
             border: 1px solid rgba(255,255,255,0.1);
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 12px;
-            transition: all 0.2s;
         }
         .mobile-menu-btn:hover {
             background: rgba(255,255,255,0.25);
+        }
+        
+        /* 📝 পিসির জন্য ডানপাশের সাবমেনু (Nested Dropdown) স্টাইল */
+        .nested-dropdown {
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            margin-left: 2px;
+        }
+        .nested-parent:hover .nested-dropdown {
+            display: block !important;
         }
     </style>
     
@@ -151,127 +39,129 @@
     
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex items-center justify-between py-4">
-            <!-- লোগো -->
+            
             <a href="index.html" class="flex-shrink-0 hover:opacity-80 transition">
                 <span class="text-teal-200 font-medium text-lg">নির্ভীক হোমিও</span>
             </a>
 
-            <!-- ===== ডেস্কটপ নেভিগেশন ===== -->
-            <nav class="hidden md:flex items-center gap-2 text-base font-medium">
-                <a href="select.html" class="hover:bg-white/20 px-4 py-2 rounded-xl transition">সাধারণ রোগ</a>
-                <a href="medica/index.html" class="hover:bg-white/20 px-4 py-2 rounded-xl transition">মেডিকা</a>
+            <nav class="hidden md:flex items-center gap-6 text-base font-medium">
+                <!-- ১. সাধারণ রোগ -->
+                <a href="select.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">সাধারণ রোগ</a>
                 
-                <!-- সার্বদেহিক রোগ -->
-                <div class="nav-dropdown">
-                    <button class="nav-dropdown-btn" data-dropdown="dropdown1">
+                <!-- ২. মেডিকা (এখন সাধারণ রোগের ডানে এবং নতুন লিংকে) -->
+                <a href="medica/index.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">
+                    মেডিকা
+                </a>
+                
+                <div class="relative group">
+                    <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="dropdown-content" id="dropdown1">
-                        <a href="jor.html"><i class="fas fa-temperature-high"></i>জ্বর সর্দি কাশি</a>
-                        <a href="pain.html"><i class="fas fa-bolt"></i>ব্যথা</a>
-                        <a href="tumor.html"><i class="fas fa-circle"></i>টিউমার</a>
-                        <a href="abscess.html"><i class="fas fa-droplet"></i>ফোঁড়া</a>
-                        <a href="pressure.html"><i class="fas fa-utensils"></i>প্রেসার গ্রন্থি শিরা</a>
-                        <a href="bloodbonemuscle.html"><i class="fas fa-bone"></i>রক্ত হাড় পেশী</a>
-                        <a href="mental.html"><i class="fas fa-brain"></i>মানসিক রোগ সকল</a>
-                        <a href="skin.html"><i class="fas fa-hand-sparkles"></i>চর্মরোগ</a>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                        <a href="jor.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-temperature-high mr-2 text-teal-600"></i>জ্বর সর্দি কাশি</a>
+                        <a href="pain.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-bolt mr-2 text-teal-600"></i>ব্যথা</a>
+                        <a href="tumor.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-circle mr-2 text-teal-600"></i>টিউমার</a>
+                        <a href="abscess.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-droplet mr-2 text-teal-600"></i>ফোঁড়া</a>
+                        <a href="pressure.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-utensils mr-2 text-teal-600"></i>প্রেসার গ্রন্থি শিরা</a>
+                        <a href="bloodbonemuscle.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-bone mr-2 text-teal-600"></i>রক্ত হাড় পেশী</a>
+                        <a href="mental.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-brain mr-2 text-teal-600"></i>মানসিক রোগ সকল</a>
+                        <a href="skin.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-hand-sparkles mr-2 text-teal-600"></i>চর্মরোগ</a>
                     </div>
                 </div>
 
-                <!-- উপর অঙ্গের রোগ -->
-                <div class="nav-dropdown">
-                    <button class="nav-dropdown-btn" data-dropdown="dropdown2">
+                <div class="relative group">
+                    <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="dropdown-content" id="dropdown2">
-                        <a href="head.html"><i class="fas fa-brain"></i>মাথা</a>
-                        <a href="eyes.html"><i class="fas fa-eye"></i>চোখ</a>
-                        <a href="ear.html"><i class="fas fa-ear-listen"></i>কান</a>
-                        <a href="nose.html"><i class="fas fa-nose"></i>নাক</a>
-                        <a href="mouthful.html"><i class="fas fa-teeth"></i>মুখ হইতে টুটি ও ঘাড়</a>
-                        <a href="teeth.html"><i class="fas fa-tooth"></i>দাঁত</a>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                        <a href="head.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-brain mr-2 text-teal-600"></i>মাথা</a>
+                        <a href="eyes.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-eye mr-2 text-teal-600"></i>চোখ</a>
+                        <a href="ear.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-ear-listen mr-2 text-teal-600"></i>কান</a>
+                        <a href="nose.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-nose mr-2 text-teal-600"></i>নাক</a>
+                        <a href="mouthful.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-teeth mr-2 text-teal-600"></i>মুখ হইতে টুটি ও ঘাড়</a>
+                        <a href="teeth.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-tooth mr-2 text-teal-600"></i>দাঁত</a>
                     </div>
                 </div>
 
-                <!-- মাঝ অঙ্গের রোগ -->
-                <div class="nav-dropdown">
-                    <button class="nav-dropdown-btn" data-dropdown="dropdown3">
+                <div class="relative group">
+                    <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="dropdown-content" id="dropdown3">
-                        <a href="chest.html"><i class="fas fa-lungs"></i>বুকের সমস্যা</a>
-                        <a href="hands.html"><i class="fas fa-hand"></i>হাতের সমস্যা</a>
-                        <a href="back.html"><i class="fas fa-spine"></i>পিঠের সমস্যা</a>
-                        <a href="stomach.html"><i class="fas fa-stomach"></i>পাকস্থলী</a>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                        <a href="chest.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-lungs mr-2 text-teal-600"></i>বুকের সমস্যা</a>
+                        <a href="hands.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-hand mr-2 text-teal-600"></i>হাতের সমস্যা</a>
+                        <a href="back.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-spine mr-2 text-teal-600"></i>পিঠের সমস্যা</a>
+                        <a href="stomach.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-stomach mr-2 text-teal-600"></i>পাকস্থলী</a>
                     </div>
                 </div>
 
-                <!-- নিচ অঙ্গের রোগ -->
-                <div class="nav-dropdown">
-                    <button class="nav-dropdown-btn" data-dropdown="dropdown4">
+                <div class="relative group">
+                    <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
                         নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="dropdown-content" id="dropdown4">
-                        <a href="piles.html"><i class="fas fa-circle-dot"></i>অর্শ</a>
-                        <a href="urethral.html"><i class="fas fa-droplet"></i>মূত্রনালী</a>
-                        <a href="leg.html"><i class="fas fa-shoe-prints"></i>পা</a>
-                        <a href="stool.html"><i class="fas fa-toilet"></i>মল ও কৃমি</a>
-                        <a href="anus.html"><i class="fas fa-water"></i>মলদ্বার</a>
-                        <a href="male.html"><i class="fas fa-person"></i>যৌনাঙ্গ পুরুষ</a>
-                        <a href="female.html"><i class="fas fa-person-dress"></i>যৌনাঙ্গ নারী</a>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
+                        <a href="piles.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-circle-dot mr-2 text-teal-600"></i>অর্শ</a>
+                        <a href="urethral.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-droplet mr-2 text-teal-600"></i>মূত্রনালী</a>
+                        <a href="leg.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-shoe-prints mr-2 text-teal-600"></i>পা</a>
+                        <a href="stool.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-toilet mr-2 text-teal-600"></i>মল ও কৃমি</a>
+                        <a href="anus.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-water mr-2 text-teal-600"></i>মলদ্বার</a>
+                        <a href="male.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-person mr-2 text-teal-600"></i>যৌনাঙ্গ পুরুষ</a>
+                        <a href="female.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-person-dress mr-2 text-teal-600"></i>যৌনাঙ্গ নারী</a>
                     </div>
                 </div>
 
-                <!-- ===== ইউজার ড্রপডাউন ===== -->
-                <div class="user-dropdown">
-                    <button class="dropdown-trigger" id="userDropdownBtn">
-                        <span id="userMenuLabel">লগ ইন</span>
-                        <i class="fas fa-chevron-down text-xs"></i>
-                    </button>
-                    <div class="dropdown-menu" id="userDropdownMenu">
-                        <div id="userDropdownContent">
-                            <a href="login.html"><i class="fas fa-sign-in-alt"></i> লগ ইন</a>
-                            <a href="register.html"><i class="fas fa-user-plus"></i> রেজিস্ট্রেশন</a>
-                        </div>
+                <div class="relative group">
+                    <a href="login.html" class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
+                        লগ ইন <i class="fas fa-chevron-down text-xs"></i>
+                    </a>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-56 mt-2 right-0">
+                        <a href="register.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-plus mr-2"></i>রেজিস্ট্রেশন</a>
+                        <a href="dashboard.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-circle mr-2"></i>আমার প্রোফাইল</a>
+                        <a href="#" class="block px-6 py-3 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
                     </div>
                 </div>
             </nav>
 
-            <!-- ===== মোবাইল হেডার ===== -->
             <div class="md:hidden flex items-center gap-1.5">
-                <a href="select.html" class="mobile-menu-btn text-white">সাধারণ রোগ</a>
-                <button id="mobile-menu-btn" class="text-xl p-1.5 text-white hover:bg-white/10 rounded-lg transition">
+                <a href="select.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
+                    সাধারণ রোগ
+                </a>
+                <!-- মোবাইলের টপ-বারেও মেডিকা লিংক আপডেট করা হয়েছে -->
+                <a href="medica/index.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
+                    মেডিকা
+                </a>
+                <button id="mobile-menu-btn" class="text-xl p-1.5 text-white hover:bg-white/10 rounded-lg transition focus:outline-none">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
         </div>
     </div>
 
-    <!-- ===== মোবাইল মেনু ===== -->
     <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
         <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
             
-            <a href="medica/index.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white flex items-center gap-2">📖 মেডিকা</a>
+            <!-- মোবাইলের ড্রপডাউন লিস্টের ভেতরেও মেডিকাকে সাধারণ রোগের ঠিক নিচে রাখা হয়েছে -->
+            <a href="medica/index.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-base flex items-center gap-2">📖 মেডিকা</a>
 
             <details class="group">
-                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
                     <span>🫀 সার্বদেহিক রোগ</span>
                     <span class="text-xs transition-transform group-open:rotate-180">▼</span>
                 </summary>
                 <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
-                    <a href="jor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔥 জ্বর সর্দি কাশি</a>
-                    <a href="pain.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">⚡ ব্যথা</a>
-                    <a href="tumor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">⭕ টিউমার</a>
-                    <a href="abscess.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">💧 ফোঁড়া</a>
-                    <a href="pressure.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🍽️ প্রেসার গ্রন্থি শিরা</a>
-                    <a href="bloodbonemuscle.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦴 রক্ত হাড় পেশী</a>
-                    <a href="mental.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧠 মানসিক রোগ সকল</a>
-                    <a href="skin.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">✋ চর্মরোগ</a>
+                    <a href="jor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🔥 জ্বর সর্দি কাশি</a>
+                    <a href="pain.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">⚡ ব্যথা</a>
+                    <a href="tumor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">⭕ টিউমার</a>
+                    <a href="abscess.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">💧 ফোঁড়া</a>
+                    <a href="pressure.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🍽️ প্রেসার গ্রন্থি শিরা</a>
+                    <a href="bloodbonemuscle.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🦴 রক্ত হাড় পেশী</a>
+                    <a href="mental.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">🧠 মানসিক রোগ সকল</a>
+                    <a href="skin.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white flex items-center gap-2">✋ চর্মরোগ</a>
                 </div>
             </details>
 
             <details class="group">
-                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
                     <span>👆 উপর অঙ্গের রোগ</span>
                     <span class="text-xs transition-transform group-open:rotate-180">▼</span>
                 </summary>
@@ -286,7 +176,7 @@
             </details>
 
             <details class="group">
-                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
                     <span>🖐️ মাঝ অঙ্গের রোগ</span>
                     <span class="text-xs transition-transform group-open:rotate-180">▼</span>
                 </summary>
@@ -299,7 +189,7 @@
             </details>
 
             <details class="group">
-                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
                     <span>🦶 নিচ অঙ্গের রোগ</span>
                     <span class="text-xs transition-transform group-open:rotate-180">▼</span>
                 </summary>
@@ -314,23 +204,15 @@
                 </div>
             </details>
 
-            <!-- ===== মোবাইলের জন্য ইউজার মেনু ===== -->
-            <div class="border-t border-teal-700 my-2 pt-2 flex flex-col gap-1" id="mobileUserMenu">
-                <div id="mobileUserContent">
-                    <a href="login.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
-                        <i class="fas fa-sign-in-alt mr-1"></i> লগ ইন
-                    </a>
-                    <a href="register.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
-                        <i class="fas fa-user-plus mr-1"></i> রেজিস্ট্রেশন
-                    </a>
-                </div>
+            <div class="border-t border-teal-700 my-2 pt-2 flex flex-col gap-1">
+                <a href="dashboard.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">👤 আমার প্রোফাইল</a>
+                <a href="login.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">🔑 লগ ইন / রেজিস্ট্রেশন</a>
             </div>
         </div>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // ===== মোবাইল মেনু টগল =====
             const menuBtn = document.getElementById('mobile-menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
 
@@ -346,240 +228,6 @@
                     }
                 });
             }
-
-            // ===== ডেস্কটপ নেভিগেশন ড্রপডাউন (ক্লিক করবে) =====
-            const dropdownBtns = document.querySelectorAll('.nav-dropdown-btn');
-            
-            dropdownBtns.forEach(btn => {
-                btn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    
-                    const dropdownId = this.getAttribute('data-dropdown');
-                    const content = document.getElementById(dropdownId);
-                    
-                    if (!content) return;
-                    
-                    // অন্য সব ড্রপডাউন বন্ধ
-                    document.querySelectorAll('.nav-dropdown .dropdown-content').forEach(d => {
-                        if (d !== content) {
-                            d.classList.remove('show');
-                        }
-                    });
-                    
-                    // টগল
-                    content.classList.toggle('show');
-                });
-            });
-
-            // ===== বাইরে ক্লিক করলে ড্রপডাউন বন্ধ =====
-            document.addEventListener('click', function(e) {
-                // নেভিগেশন ড্রপডাউন
-                document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
-                    const content = dropdown.querySelector('.dropdown-content');
-                    const btn = dropdown.querySelector('.nav-dropdown-btn');
-                    if (content && btn) {
-                        if (!dropdown.contains(e.target)) {
-                            content.classList.remove('show');
-                        }
-                    }
-                });
-                
-                // ইউজার ড্রপডাউন
-                const userDropdownMenu = document.getElementById('userDropdownMenu');
-                const userDropdownBtn = document.getElementById('userDropdownBtn');
-                if (userDropdownMenu && userDropdownBtn) {
-                    if (!userDropdownBtn.contains(e.target) && !userDropdownMenu.contains(e.target)) {
-                        userDropdownMenu.classList.remove('show');
-                    }
-                }
-            });
-
-            // ===== ইউজার ড্রপডাউন টগল =====
-            const userBtn = document.getElementById('userDropdownBtn');
-            const userMenu = document.getElementById('userDropdownMenu');
-
-            if (userBtn && userMenu) {
-                userBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    userMenu.classList.toggle('show');
-                });
-            }
-
-            // ===== ইউজার UI আপডেট =====
-            function updateUserUI() {
-                const userStr = localStorage.getItem('user');
-                const userMenuLabel = document.getElementById('userMenuLabel');
-                const userDropdownContent = document.getElementById('userDropdownContent');
-                const mobileUserContent = document.getElementById('mobileUserContent');
-                
-                if (userStr) {
-                    try {
-                        const userData = JSON.parse(userStr);
-                        const userName = userData.name || 'ইউজার';
-                        const isPaid = userData.isPaid || false;
-                        const role = userData.role || 'general';
-                        
-                        // ডেস্কটপ
-                        if (userMenuLabel) {
-                            userMenuLabel.innerHTML = `<i class="fas fa-user-circle mr-1"></i> ${userName}`;
-                        }
-                        
-                        if (userDropdownContent) {
-                            let dashboardLink = 'dashboard.html';
-                            if (isPaid) {
-                                dashboardLink = 'dashboard-paid.html';
-                            } else if (role === 'admin') {
-                                dashboardLink = 'admin-dashboard.html';
-                            }
-                            
-                            userDropdownContent.innerHTML = `
-                                <a href="${dashboardLink}">
-                                    <i class="fas fa-user-circle"></i> আমার প্রোফাইল
-                                </a>
-                                <a href="#" class="logout-item" id="desktopLogoutBtn">
-                                    <i class="fas fa-sign-out-alt"></i> লগ আউট
-                                </a>
-                            `;
-                            
-                            const desktopLogout = document.getElementById('desktopLogoutBtn');
-                            if (desktopLogout) {
-                                desktopLogout.addEventListener('click', function(e) {
-                                    e.preventDefault();
-                                    handleLogout();
-                                });
-                            }
-                        }
-                        
-                        // মোবাইল
-                        if (mobileUserContent) {
-                            let dashboardLink = 'dashboard.html';
-                            if (isPaid) {
-                                dashboardLink = 'dashboard-paid.html';
-                            } else if (role === 'admin') {
-                                dashboardLink = 'admin-dashboard.html';
-                            }
-                            
-                            mobileUserContent.innerHTML = `
-                                <a href="${dashboardLink}" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
-                                    <i class="fas fa-user-circle mr-1"></i> আমার প্রোফাইল
-                                </a>
-                                <a href="#" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2 text-red-300" id="mobileLogoutBtn">
-                                    <i class="fas fa-sign-out-alt mr-1"></i> লগ আউট
-                                </a>
-                            `;
-                            
-                            const mobileLogout = document.getElementById('mobileLogoutBtn');
-                            if (mobileLogout) {
-                                mobileLogout.addEventListener('click', function(e) {
-                                    e.preventDefault();
-                                    handleLogout();
-                                });
-                            }
-                        }
-                        
-                    } catch (e) {
-                        console.error('Error:', e);
-                        showLoggedOutUI();
-                    }
-                } else {
-                    showLoggedOutUI();
-                }
-            }
-
-            function showLoggedOutUI() {
-                const userMenuLabel = document.getElementById('userMenuLabel');
-                const userDropdownContent = document.getElementById('userDropdownContent');
-                const mobileUserContent = document.getElementById('mobileUserContent');
-                
-                if (userMenuLabel) {
-                    userMenuLabel.textContent = 'লগ ইন';
-                }
-                
-                if (userDropdownContent) {
-                    userDropdownContent.innerHTML = `
-                        <a href="login.html">
-                            <i class="fas fa-sign-in-alt"></i> লগ ইন
-                        </a>
-                        <a href="register.html">
-                            <i class="fas fa-user-plus"></i> রেজিস্ট্রেশন
-                        </a>
-                    `;
-                }
-                
-                if (mobileUserContent) {
-                    mobileUserContent.innerHTML = `
-                        <a href="login.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
-                            <i class="fas fa-sign-in-alt mr-1"></i> লগ ইন
-                        </a>
-                        <a href="register.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">
-                            <i class="fas fa-user-plus mr-1"></i> রেজিস্ট্রেশন
-                        </a>
-                    `;
-                }
-            }
-
-            // ===== লগআউট ফাংশন =====
-            async function handleLogout() {
-                try {
-                    if (typeof firebase !== 'undefined' && firebase.auth) {
-                        await firebase.auth().signOut();
-                    }
-                    localStorage.removeItem('user');
-                    localStorage.removeItem('userData');
-                    sessionStorage.clear();
-                    showLoggedOutUI();
-                    window.location.href = 'index.html';
-                } catch (error) {
-                    console.error('Logout error:', error);
-                    alert('লগআউট করতে সমস্যা হয়েছে। আবার চেষ্টা করুন।');
-                }
-            }
-
-            // ===== Firebase Observer =====
-            if (typeof firebase !== 'undefined' && firebase.auth) {
-                firebase.auth().onAuthStateChanged((user) => {
-                    if (user) {
-                        const userStr = localStorage.getItem('user');
-                        if (!userStr) {
-                            try {
-                                const docRef = firebase.firestore().collection('users').doc(user.uid);
-                                docRef.get().then((docSnap) => {
-                                    if (docSnap.exists) {
-                                        const userData = docSnap.data();
-                                        localStorage.setItem('user', JSON.stringify({
-                                            uid: user.uid,
-                                            email: user.email,
-                                            name: userData.name || user.displayName || 'ইউজার',
-                                            role: userData.role || 'general',
-                                            isPaid: userData.isPaid || false
-                                        }));
-                                    }
-                                    updateUserUI();
-                                }).catch(() => {
-                                    updateUserUI();
-                                });
-                            } catch (e) {
-                                updateUserUI();
-                            }
-                        } else {
-                            updateUserUI();
-                        }
-                    } else {
-                        localStorage.removeItem('user');
-                        showLoggedOutUI();
-                    }
-                });
-            } else {
-                updateUserUI();
-            }
-
-            // প্রাথমিক UI লোড
-            updateUserUI();
-
-            // গ্লোবাল স্কোপে এক্সপোজ
-            window.handleLogout = handleLogout;
         });
     </script>
 </header>
