@@ -45,13 +45,9 @@
             </a>
 
             <nav class="hidden md:flex items-center gap-6 text-base font-medium">
-                <!-- ১. সাধারণ রোগ -->
                 <a href="select.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">সাধারণ রোগ</a>
                 
-                <!-- ২. মেডিকা (এখন সাধারণ রোগের ডানে এবং নতুন লিংকে) -->
-                <a href="medica/index.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">
-                    মেডিকা
-                </a>
+                <a href="medica/index.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">মেডিকা</a>
                 
                 <div class="relative group">
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
@@ -71,14 +67,13 @@
 
                 <div class="relative group">
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
-                        উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
+                        על অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
                     <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
                         <a href="head.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-brain mr-2 text-teal-600"></i>মাথা</a>
                         <a href="eyes.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-eye mr-2 text-teal-600"></i>চোখ</a>
                         <a href="ear.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-ear-listen mr-2 text-teal-600"></i>কান</a>
-                        <a href="nose.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-nose mr-2 text-teal-600"></i>নাক</a>
-                        <a href="mouthful.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-teeth mr-2 text-teal-600"></i>মুখ হইতে টুটি ও ঘাড়</a>
+                        <a href="nose.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-allergies mr-2 text-teal-600"></i>নাক</a> <a href="mouthful.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-teeth mr-2 text-teal-600"></i>মুখ হইতে টুটি ও ঘাড়</a>
                         <a href="teeth.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-tooth mr-2 text-teal-600"></i>দাঁত</a>
                     </div>
                 </div>
@@ -90,9 +85,7 @@
                     <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2">
                         <a href="chest.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-lungs mr-2 text-teal-600"></i>বুকের সমস্যা</a>
                         <a href="hands.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-hand mr-2 text-teal-600"></i>হাতের সমস্যা</a>
-                        <a href="back.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-spine mr-2 text-teal-600"></i>পিঠের সমস্যা</a>
-                        <a href="stomach.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-stomach mr-2 text-teal-600"></i>পাকস্থলী</a>
-                    </div>
+                        <a href="back.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-child mr-2 text-teal-600"></i>পিঠের সমস্যা</a> <a href="stomach.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-apple-alt mr-2 text-teal-600"></i>পাকস্থলী</a> </div>
                 </div>
 
                 <div class="relative group">
@@ -111,12 +104,17 @@
                 </div>
 
                 <div class="relative group">
-                    <a href="login.html" class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition">
+                    <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition focus:outline-none">
                         লগ ইন <i class="fas fa-chevron-down text-xs"></i>
-                    </a>
-                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-56 mt-2 right-0">
-                        <a href="register.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-plus mr-2"></i>রেজিস্ট্রেশন</a>
-                        <a href="dashboard.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-circle mr-2"></i>আমার প্রোফাইল</a>
+                    </button>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-64 mt-2 right-0">
+                        <a href="login.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-sign-in-alt mr-2 text-teal-600"></i>লগ ইন</a>
+                        <a href="register.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-plus mr-2 text-teal-600"></i>রেজিস্ট্রেশন</a>
+                        <a href="admin-dashboard.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-shield mr-2 text-teal-600"></i>এডমিন ড্যাশবোর্ড</a>
+                        <a href="dashboard.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-circle mr-2 text-teal-600"></i>ইউজার ড্যাশবোর্ড</a>
+                        <a href="paid-dashboard.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-user-check mr-2 text-teal-600"></i>পেইড ড্যাশবোর্ড</a>
+                        <a href="forgot-password.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-key mr-2 text-teal-600"></i>পাসওয়ার্ড ভুলে গেছি</a>
+                        <div class="border-t border-gray-100 my-1"></div>
                         <a href="#" class="block px-6 py-3 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
                     </div>
                 </div>
@@ -126,7 +124,6 @@
                 <a href="select.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
                     সাধারণ রোগ
                 </a>
-                <!-- মোবাইলের টপ-বারেও মেডিকা লিংক আপডেট করা হয়েছে -->
                 <a href="medica/index.html" class="mobile-menu-btn text-white text-xs px-3 py-1.5 rounded-full font-medium transition">
                     মেডিকা
                 </a>
@@ -140,7 +137,6 @@
     <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
         <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
             
-            <!-- মোবাইলের ড্রপডাউন লিস্টের ভেতরেও মেডিকাকে সাধারণ রোগের ঠিক নিচে রাখা হয়েছে -->
             <a href="medica/index.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-base flex items-center gap-2">📖 মেডিকা</a>
 
             <details class="group">
@@ -169,8 +165,7 @@
                     <a href="head.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧠 মাথা</a>
                     <a href="eyes.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👁️ চোখ</a>
                     <a href="ear.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👂 কান</a>
-                    <a href="nose.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👃 নাক</a>
-                    <a href="mouthful.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦷 মুখ হইতে টুটি ও ঘাড়</a>
+                    <a href="nose.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👃 নাক</a> <a href="mouthful.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦷 মুখ হইতে টুটি ও ঘাড়</a>
                     <a href="teeth.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦷 দাঁত</a>
                 </div>
             </details>
@@ -183,9 +178,7 @@
                 <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
                     <a href="chest.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🫁 বুক সমস্যা</a>
                     <a href="hands.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">✋ হাতের সমস্যা</a>
-                    <a href="back.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔙 পিঠ</a>
-                    <a href="stomach.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🍲 পাকস্থলী</a>
-                </div>
+                    <a href="back.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧍‍♂️ পিঠের সমস্যা</a> <a href="stomach.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🍲 পাকস্থলী</a> </div>
             </details>
 
             <details class="group">
@@ -204,10 +197,21 @@
                 </div>
             </details>
 
-            <div class="border-t border-teal-700 my-2 pt-2 flex flex-col gap-1">
-                <a href="dashboard.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">👤 আমার প্রোফাইল</a>
-                <a href="login.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white text-sm flex items-center gap-2">🔑 লগ ইন / রেজিস্ট্রেশন</a>
-            </div>
+            <details class="group">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
+                    <span>🔑 অ্যাকাউন্ট ও লগইন</span>
+                    <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+                </summary>
+                <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
+                    <a href="login.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔐 লগ ইন</a>
+                    <a href="register.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">📝 রেজিস্ট্রেশন</a>
+                    <a href="admin-dashboard.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🛡️ এডমিন ড্যাশবোর্ড</a>
+                    <a href="dashboard.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👤 ইউজার ড্যাশবোর্ড</a>
+                    <a href="paid-dashboard.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">💎 পেইড ড্যাশবোর্ড</a>
+                    <a href="forgot-password.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔑 পাসওয়ার্ড ভুলে গেছি</a>
+                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-red-400">🚪 লগ আউট</a>
+                </div>
+            </details>
         </div>
     </div>
 
