@@ -41,7 +41,7 @@
         <div class="flex items-center justify-between py-4">
             
             <a href="index.html" class="flex-shrink-0 hover:opacity-80 transition">
-                <span class="text-teal-200 font-medium text-lg">নির্ভীক হোমিও</span>
+                <span class="text-amber-400 font-bold text-lg">নির্ভীক হোমিও</span>
             </a>
 
             <nav class="hidden md:flex items-center gap-6 text-base font-medium">
@@ -87,7 +87,7 @@
                         <a href="chest.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-lungs mr-2 text-teal-600"></i>বুকের সমস্যা</a>
                         <a href="hands.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-hand mr-2 text-teal-600"></i>হাতের সমস্যা</a>
                         <a href="back.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-child mr-2 text-teal-600"></i>পিঠের সমস্যা</a>
-                        <a href="stomach.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-apple-alt mr-2 text-teal-600"></i>پاکস্থলী</a>
+                        <a href="stomach.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-apple-alt mr-2 text-teal-600"></i>পাকস্থলী</a>
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@
                         
                         <a href="forgot-password.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-key mr-2 text-teal-600"></i>পাসওয়ার্ড ভুলে গেছি</a>
                         <div class="border-t border-gray-100 my-1"></div>
-                        <a href="#" class="nh-logout-btn block px-6 py-3 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
+                        <a href="#" class="nh-logout block px-6 py-3 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
                     </div>
                 </div>
             </nav>
@@ -187,7 +187,7 @@
 
             <details class="group">
                 <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
-                    <span>🦶 niচ অঙ্গের রোগ</span>
+                    <span>🦶 নিচ অঙ্গের রোগ</span>
                     <span class="text-xs transition-transform group-open:rotate-180">▼</span>
                 </summary>
                 <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
@@ -213,7 +213,7 @@
                     <a href="dashboard-gate.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👤 ড্যাশবোর্ড</a>
                     
                     <a href="forgot-password.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔑 পাসওয়ার্ড ভুলে গেছি</a>
-                    <a href="#" class="nh-logout-btn px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-red-400 border-t border-teal-800 mt-1 pt-1">🚪 লগ আউট</a>
+                    <a href="#" class="nh-logout px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-red-400 border-t border-teal-800 mt-1 pt-1">🚪 লগ আউট</a>
                 </div>
             </details>
 
@@ -221,8 +221,8 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // মোবাইল মেনু টগল ফাংশনালিটি
+        // মোবাইল মেনু বাটন টগল অ্যাকশন
+        (function() {
             const menuBtn = document.getElementById('mobile-menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
 
@@ -238,24 +238,26 @@
                     }
                 });
             }
+        })();
 
-            // 🚪 গ্লোবাল লগআউট অ্যাকশন (ভ্যানিলা জেএস দিয়ে ইভেন্ট ডেলিগেশন করা হয়েছে)
-            document.addEventListener('click', function(e) {
-                // পিসি কিংবা মোবাইল যেকোনো লগআউট বাটনে ক্লিক করলেই কাজ করবে
-                if (e.target.closest('.nh-logout-btn')) {
-                    e.preventDefault(); // পেজ টপ স্ক্রোল বা রিলোড বন্ধ করার জন্য
-                    
-                    if (confirm('আপনি কি নিশ্চিতভাবে লগআউট করতে চান?')) {
-                        firebase.auth().signOut().then(() => {
-                            alert('সফলভাবে লগআউট হয়েছে!');
-                            window.location.href = 'login.html'; // সফল হলে লগইন পেজে রিডাইরেক্ট করবে
-                        }).catch((error) => {
-                            console.error("Logout error: ", error);
+        // 🚪 গ্লোবাল লগআউট অ্যাকশন (যা হেডার লোড হওয়ার পর যেকোনো পেজ থেকে স্বয়ংক্রিয়ভাবে কাজ করবে)
+        window.addEventListener('click', function(e) {
+            if (e.target && e.target.closest('.nh-logout')) {
+                e.preventDefault();
+                
+                if (confirm('আপনি কি নিশ্চিতভাবে লগআউট করতে চান?')) {
+                    if (typeof firebase !== 'undefined' && firebase.auth) {
+                        firebase.auth().signOut().then(function() {
+                            alert('✅ সফলভাবে লগআউট হয়েছে!');
+                            window.location.href = 'login.html';
+                        }).catch(function(error) {
                             alert('❌ লগআউট করতে সমস্যা হয়েছে: ' + error.message);
                         });
+                    } else {
+                        alert('❌ ফায়ারবেস কনফিগারেশন ত্রুটি! মূল পেজে ফায়ারবেস লোড করা নেই।');
                     }
                 }
-            });
+            }
         });
     </script>
 </header>
