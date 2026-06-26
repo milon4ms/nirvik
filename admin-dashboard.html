@@ -10,7 +10,6 @@
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
     <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
@@ -19,28 +18,37 @@
     <script src="assets/js/firebase-config.js"></script>
 
     <script>
-        // সিকিউরিটি চেক শেষ না হওয়া পর্যন্ত বডি হাইড করে রাখার জন্য স্টাইল ডাইনামিকালি যুক্ত করা
+        // সিকিউরিটি চেক শেষ না হওয়া পর্যন্ত বডি হাইড করে রাখার জন্য স্টাইল
         const style = document.createElement('style');
         style.innerHTML = 'body { display: none !important; }';
         document.head.appendChild(style);
 
-        // পেজ লোড হওয়ার আগেই চেক করার জন্য
+        // গ্লোবাল ভ্যারিয়েবল ড্যাশবোর্ড ডেটা লোড করার জন্য
+        let isDashboardInitialized = false;
+
+        // পেজ লোড হওয়ার আগেই রোল চেক করার মূল ফাংশন
         firebase.auth().onAuthStateChanged((user) => {
             if (!user) {
-                // লগড-ইন না থাকলে লগইন পেজে পাঠাও
                 window.location.href = "login.html";
             } else {
-                // ডাটাবেজ থেকে ইউজারের রোল চেক
+                // সরাসরি Firestore থেকে লেটেস্ট রোল চেক করা হচ্ছে
                 firebase.firestore().collection("users").doc(user.uid).get()
                 .then((doc) => {
                     if (doc.exists && doc.data().role === "admin") {
-                        // রোল 'admin' হলে পেজটি দেখাও (হাইড করা স্টাইলটি রিমুভ করে)
-                        style.remove();
+                        // রোল 'admin' হলে পেজটি দেখাও
+                        if (style.parentNode) {
+                            style.remove();
+                        }
                         console.log("Welcome Admin");
+                        
+                        // একবারই ড্যাশবোর্ড ডাটা লোড করা নিশ্চিত করা
+                        if (!isDashboardInitialized) {
+                            isDashboardInitialized = true;
+                            loadDashboardData();
+                        }
                     } else {
-                        // এডমিন না হলে অ্যাক্সেস ব্লক করে অন্য পেজে পাঠাও
                         alert("আপনার এই পেজে প্রবেশের অনুমতি নেই!");
-                        window.location.href = "index.html"; 
+                        window.location.href = "dashboard.html"; 
                     }
                 }).catch((error) => {
                     console.error("Error checking role: ", error);
@@ -220,13 +228,10 @@
 </head>
 <body>
 
-    <!-- ===== হেডার ===== -->
     <div id="header-placeholder"></div>
 
-    <!-- ===== অ্যাডমিন ড্যাশবোর্ড ===== -->
     <div class="max-w-7xl mx-auto px-4 py-8">
         
-        <!-- শিরোনাম -->
         <div class="mb-8 fade-in">
             <h1 class="text-3xl font-bold text-gray-800">
                 <i class="fas fa-shield-alt text-teal-600 mr-3"></i>অ্যাডমিন ড্যাশবোর্ড
@@ -234,9 +239,7 @@
             <p class="text-gray-500 mt-1">সকল ইউজার, অর্ডার ও সিস্টেম মনিটর করুন</p>
         </div>
 
-        <!-- স্ট্যাটিস্টিক্স কার্ড -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            <!-- মোট ইউজার -->
             <div class="stat-card fade-in delay-1">
                 <div class="flex items-center justify-between">
                     <div>
@@ -250,7 +253,6 @@
                 </div>
             </div>
             
-            <!-- পেইড ইউজার -->
             <div class="stat-card fade-in delay-2">
                 <div class="flex items-center justify-between">
                     <div>
@@ -264,7 +266,6 @@
                 </div>
             </div>
             
-            <!-- ফ্রি ইউজার -->
             <div class="stat-card fade-in delay-3">
                 <div class="flex items-center justify-between">
                     <div>
@@ -278,7 +279,6 @@
                 </div>
             </div>
             
-            <!-- মোট অর্ডার -->
             <div class="stat-card fade-in delay-4">
                 <div class="flex items-center justify-between">
                     <div>
@@ -293,9 +293,7 @@
             </div>
         </div>
 
-        <!-- চার্ট ও কুইক অ্যাকশন -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
-            <!-- চার্ট -->
             <div class="lg:col-span-2 table-container fade-in">
                 <h3 class="text-lg font-semibold text-gray-800 mb-4">
                     <i class="fas fa-chart-bar text-teal-600 mr-2"></i>ইউজার গ্রোথ
@@ -303,7 +301,6 @@
                 <canvas id="userGrowthChart" height="200"></canvas>
             </div>
             
-            <!-- কুইক অ্যাকশন -->
             <div class="table-container fade-in">
                 <h3 class="text-lg font-semibold text-gray-800 mb-4">
                     <i class="fas fa-bolt text-teal-600 mr-2"></i>কুইক অ্যাকশন
@@ -325,7 +322,6 @@
             </div>
         </div>
 
-        <!-- ইউজার লিস্ট -->
         <div class="table-container fade-in">
             <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-3">
                 <h3 class="text-lg font-semibold text-gray-800">
@@ -333,7 +329,7 @@
                 </h3>
                 <div class="flex gap-2 w-full sm:w-auto">
                     <input type="text" id="searchUser" placeholder="ইউজার সার্চ করুন..." class="flex-1 sm:w-48 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-600 text-sm">
-                    <button onclick="loadUsers()" class="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition text-sm">
+                    <button onclick="loadDashboardData()" class="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition text-sm">
                         <i class="fas fa-sync-alt"></i>
                     </button>
                 </div>
@@ -363,14 +359,12 @@
         </div>
     </div>
 
-    <!-- ===== ফুটার ===== -->
     <div id="footer-placeholder"></div>
 
     <script>
         // ===== হেডার/ফুটার লোড =====
         $(function() {
             $('#header-placeholder').load('assets/header.html', function() {
-                // Mobile menu toggle
                 const btn = document.getElementById('mobile-menu-btn');
                 const menu = document.getElementById('mobile-menu');
                 if (btn && menu) {
@@ -383,28 +377,6 @@
                 }
             });
             $('#footer-placeholder').load('assets/footer.html');
-        });
-
-        // ===== Firebase Auth Check =====
-        firebase.auth().onAuthStateChanged((user) => {
-            if (!user) {
-                window.location.href = 'login.html';
-                return;
-            }
-            
-            // চেক করুন ইউজার অ্যাডমিন কিনা
-            const userStr = localStorage.getItem('user');
-            if (userStr) {
-                const userData = JSON.parse(userStr);
-                if (userData.role !== 'admin') {
-                    alert('আপনার অ্যাডমিন অ্যাক্সেস নেই!');
-                    window.location.href = 'dashboard.html';
-                    return;
-                }
-            }
-            
-            // ডাটা লোড করুন
-            loadDashboardData();
         });
 
         // ===== ড্যাশবোর্ড ডাটা লোড =====
@@ -428,7 +400,7 @@
                 document.getElementById('paidUsers').textContent = paidUsers;
                 document.getElementById('freeUsers').textContent = freeUsers;
                 
-                // অর্ডার কাউন্ট (যদি অর্ডার কালেকশন থাকে)
+                // অর্ডার কাউন্ট
                 try {
                     const ordersSnapshot = await db.collection('orders').get();
                     document.getElementById('totalOrders').textContent = ordersSnapshot.size;
@@ -436,10 +408,8 @@
                     document.getElementById('totalOrders').textContent = '০';
                 }
                 
-                // ইউজার টেবিল লোড
+                // ইউজার টেবিল ও চার্ট রেন্ডার
                 renderUsersTable(users);
-                
-                // চার্ট লোড
                 renderChart(users);
                 
             } catch (error) {
@@ -457,7 +427,6 @@
         // ===== ইউজার টেবিল রেন্ডার =====
         function renderUsersTable(users) {
             const tbody = document.getElementById('usersTableBody');
-            
             if (users.length === 0) {
                 tbody.innerHTML = `
                     <tr>
@@ -503,19 +472,16 @@
                     </tr>
                 `;
             });
-            
             tbody.innerHTML = html;
         }
 
         // ===== চার্ট রেন্ডার =====
         function renderChart(users) {
-            const ctx = document.getElementById('userGrowthChart').getContext('2d');
+            const chartCanvas = document.getElementById('userGrowthChart');
+            if (!chartCanvas) return;
+            const ctx = chartCanvas.getContext('2d');
             
-            // মাস অনুযায়ী ইউজার কাউন্ট (ডেমো ডাটা)
             const months = ['জানু', 'ফেব্রু', 'মার্চ', 'এপ্রিল', 'মে', 'জুন', 'জুলাই', 'আগস্ট', 'সেপ্ট', 'অক্টো', 'নভে', 'ডিসে'];
-            const currentMonth = new Date().getMonth();
-            
-            // ডেমো ডাটা জেনারেট
             const userCounts = [];
             let count = 0;
             for (let i = 0; i < 12; i++) {
@@ -539,35 +505,18 @@
                 },
                 options: {
                     responsive: true,
-                    plugins: {
-                        legend: {
-                            display: false
-                        }
-                    },
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            ticks: {
-                                stepSize: 5
-                            }
-                        }
-                    }
+                    plugins: { legend: { display: false } },
+                    scales: { y: { beginAtZero: true, ticks: { stepSize: 5 } } }
                 }
             });
         }
 
         // ===== ইউজার অ্যাকশন =====
-        function editUser(userId) {
-            window.location.href = `edit-user.html?id=${userId}`;
-        }
-
-        function viewUser(userId) {
-            window.location.href = `user-profile.html?id=${userId}`;
-        }
+        function editUser(userId) { window.location.href = `edit-user.html?id=${userId}`; }
+        function viewUser(userId) { window.location.href = `user-profile.html?id=${userId}`; }
 
         async function deleteUser(userId) {
             if (!confirm('আপনি কি এই ইউজারকে ডিলিট করতে চান?')) return;
-            
             try {
                 await firebase.firestore().collection('users').doc(userId).delete();
                 alert('ইউজার ডিলিট করা হয়েছে!');
@@ -581,16 +530,11 @@
         document.getElementById('searchUser').addEventListener('input', function() {
             const searchTerm = this.value.toLowerCase();
             const rows = document.querySelectorAll('#usersTableBody tr');
-            
             rows.forEach(row => {
                 const text = row.textContent.toLowerCase();
                 row.style.display = text.includes(searchTerm) ? '' : 'none';
             });
         });
-
-        // ===== রিফ্রেশ বাটন =====
-        window.loadUsers = loadDashboardData;
     </script>
-
 </body>
 </html>
