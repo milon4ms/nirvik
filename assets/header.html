@@ -178,8 +178,8 @@
                     <a href="leg.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦶 পা</a>
                     <a href="stool.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🐛 মল ও কৃমি</a>
                     <a href="anus.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🌊 মলদ্বার</a>
-                    <a href="male.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👨ৌনাঙ্গ পুরুষ</a>
-                    <a href="female.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👩ৌনাঙ্গ নারী</a>
+                    <a href="male.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👨 যৌনাঙ্গ পুরুষ</a>
+                    <a href="female.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👩 যৌনাঙ্গ নারী</a>
                 </div>
             </details>
 
@@ -221,44 +221,50 @@
             }
         });
 
-        // 🔐 আপনার নির্দিষ্ট logoutUser() ফাংশন
+        // 🔐 আপনার নির্দিষ্ট কাস্টম logoutUser ফাংশন (লুপ বন্ধের সিগন্যালসহ)
         function logoutUser() {
-            // লগইন পেজের অটোমেটিক রিডাইরেক্ট লুপ জোরপূর্বক বন্ধ করার নির্দেশ
+            // লগইন পেজকে লুপ বন্ধ করতে লোকাল স্টোরেজেও সিগন্যাল পাঠানো
             if (typeof window.isLoggingOut !== 'undefined') {
                 window.isLoggingOut = true;
             }
+            if (typeof localStorage !== 'undefined') {
+                localStorage.setItem('isLoggingOut', 'true');
+            }
             
-            // ফায়ারবেস লগআউট ট্রিগার
+            // ফায়ারবেস লগআউট
             if (typeof firebase !== 'undefined' && firebase.auth) {
-                firebase.auth().signOut().then(() => {
-                    // লোকাল এবং সেশন স্টোরেজ সম্পূর্ণ ক্লিয়ার করা (নিরাপদ অটো-লগইন প্রোটেকশন)
-                    if (typeof localStorage !== 'undefined') localStorage.clear();
-                    if (typeof sessionStorage !== 'undefined') sessionStorage.clear();
+                firebase.auth().signOut().then(function() {
+                    // সেশন বা লোকাল স্টোরেজ ক্লিয়ার করুন
+                    if (typeof localStorage !== 'undefined') {
+                        localStorage.removeItem('user'); 
+                    }
+                    if (typeof sessionStorage !== 'undefined') {
+                        sessionStorage.clear();
+                    }
                     
                     alert('✅ সফলভাবে লগআউট হয়েছে!');
                     window.location.replace('login.html'); // replace ব্যবহার করলে ব্রাউজার ক্যাশ লুপ হয় না
-                }).catch((error) => {
+                }).catch(function(error) {
                     console.error("লগআউট ত্রুটি:", error);
-                    alert('❌ লগআউট করতে সমস্যা হয়েছে: ' + error.message);
+                    if (typeof localStorage !== 'undefined') {
+                        localStorage.removeItem('isLoggingOut');
+                    }
                     if (typeof window.isLoggingOut !== 'undefined') {
                         window.isLoggingOut = false; 
                     }
                 });
             } else {
-                // ফায়ারবেস স্ক্রিপ্ট লোড না থাকলেও স্টোরেজ সাফা করে ব্যাকআপ রিডাইরেক্ট
-                if (typeof localStorage !== 'undefined') localStorage.clear();
-                if (typeof sessionStorage !== 'undefined') sessionStorage.clear();
                 window.location.replace('login.html');
             }
         }
 
-        // 🚪 লগআউট বাটনে ক্লিকের গ্লোবাল লিসেনার (ডেস্কটপ ও মোবাইল উভয়ের জন্য)
+        // 🚪 লগআউট বাটনে ক্লিকের গ্লোবাল লিসেনার
         window.addEventListener('click', function(e) {
             const logoutBtn = e.target.closest('.nh-logout');
             if (logoutBtn) {
                 e.preventDefault();
                 if (confirm('আপনি কি নিশ্চিতভাবে লগআউট করতে চান?')) {
-                    logoutUser(); // আপনার কাস্টম ফাংশনটি সফলভাবে কল করা হলো
+                    logoutUser();
                 }
             }
         });
