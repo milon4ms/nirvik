@@ -18,6 +18,27 @@
     <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore-compat.js"></script>
     <script src="assets/js/firebase-config.js"></script>
 
+    <script>
+    firebase.auth().onAuthStateChanged((user) => {
+        if (!user) {
+            window.location.href = "login.html";
+        } else {
+            firebase.firestore().collection("users").doc(user.uid).get()
+            .then((doc) => {
+                if (doc.exists && doc.data().role === "paid") {
+                    // রোল 'paid' হলে অনুমতি দাও
+                    console.log("Welcome Paid User");
+                } else {
+                    alert("এই ড্যাশবোর্ডটি শুধুমাত্র পেইড ইউজারদের জন্য!");
+                    window.location.href = "index.html";
+                }
+            }).catch(() => {
+                window.location.href = "login.html";
+            });
+        }
+    });
+</script>
+
     <style>
         body { 
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
