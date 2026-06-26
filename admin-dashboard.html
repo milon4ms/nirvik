@@ -18,30 +18,24 @@
     <script src="assets/js/firebase-config.js"></script>
 
     <script>
-        // সিকিউরিটি চেক শেষ না হওয়া পর্যন্ত বডি হাইড করে রাখার জন্য স্টাইল
         const style = document.createElement('style');
         style.innerHTML = 'body { display: none !important; }';
         document.head.appendChild(style);
 
-        // গ্লোবাল ভ্যারিয়েবল ড্যাশবোর্ড ডেটা লোড করার জন্য
         let isDashboardInitialized = false;
 
-        // পেজ লোড হওয়ার আগেই রোল চেক করার মূল ফাংশন
         firebase.auth().onAuthStateChanged((user) => {
             if (!user) {
                 window.location.href = "login.html";
             } else {
-                // সরাসরি Firestore থেকে লেটেস্ট রোল চেক করা হচ্ছে
                 firebase.firestore().collection("users").doc(user.uid).get()
                 .then((doc) => {
                     if (doc.exists && doc.data().role === "admin") {
-                        // রোল 'admin' হলে পেজটি দেখাও
                         if (style.parentNode) {
                             style.remove();
                         }
                         console.log("Welcome Admin");
                         
-                        // একবারই ড্যাশবোর্ড ডাটা লোড করা নিশ্চিত করা
                         if (!isDashboardInitialized) {
                             isDashboardInitialized = true;
                             loadDashboardData();
@@ -60,22 +54,23 @@
     <style>
         body { 
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
-            background: #f0fdf4;
+            background: #022c22; /* হেডার এর নিচে পুরো ব্যাকগ্রাউন্ড কুচকুচে গাঢ় সবুজ করা হয়েছে */
             min-height: 100vh;
+            color: #f1f5f9;
         }
         
         .stat-card {
-            background: white;
+            background: #044e3e; /* কার্ডের ব্যাকগ্রাউন্ড ও ডার্ক করা হয়েছে */
             border-radius: 16px;
             padding: 24px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 25px rgba(0,0,0,0.3);
             transition: all 0.3s;
-            border: 1px solid #e2e8f0;
+            border: 1px solid #065f46;
         }
         
         .stat-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 35px rgba(0,0,0,0.5);
         }
         
         .stat-icon {
@@ -89,11 +84,11 @@
         }
         
         .table-container {
-            background: white;
+            background: #044e3e; /* টেবিল কন্টেইনার ও ডার্ক করা হয়েছে */
             border-radius: 16px;
             padding: 20px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 25px rgba(0,0,0,0.3);
+            border: 1px solid #065f46;
             overflow-x: auto;
         }
         
@@ -105,20 +100,20 @@
         th {
             text-align: left;
             padding: 12px 16px;
-            background: #f7fafc;
+            background: #064e3b;
             font-weight: 600;
-            color: #2d3748;
-            border-bottom: 2px solid #e2e8f0;
+            color: #34d399; /* টেবিল হেডার টেক্সট এখন উজ্জ্বল সবুজ */
+            border-bottom: 2px solid #065f46;
         }
         
         td {
             padding: 12px 16px;
-            border-bottom: 1px solid #e2e8f0;
-            color: #4a5568;
+            border-bottom: 1px solid #065f46;
+            color: #e2e8f0; /* টেবিলের ভেতরের সব লেখা এখন উজ্জ্বল সাদাটে */
         }
         
         tr:hover {
-            background: #f7fafc;
+            background: #064e3b;
         }
         
         .status-badge {
@@ -129,18 +124,18 @@
         }
         
         .status-active {
-            background: #c6f6d5;
-            color: #276749;
+            background: #065f46;
+            color: #34d399;
         }
         
         .status-inactive {
-            background: #fed7d7;
-            color: #c53030;
+            background: #7f1d1d;
+            color: #fca5a5;
         }
         
         .status-pending {
-            background: #fefcbf;
-            color: #975a16;
+            background: #78350f;
+            color: #fcd34d;
         }
         
         .btn-action {
@@ -157,69 +152,44 @@
         }
         
         .btn-edit {
-            background: #ebf8ff;
-            color: #2b6cb0;
+            background: #065f46;
+            color: #34d399;
         }
         
         .btn-edit:hover {
-            background: #bee3f8;
+            background: #047857;
         }
         
         .btn-delete {
-            background: #fff5f5;
-            color: #c53030;
+            background: #7f1d1d;
+            color: #fca5a5;
         }
         
         .btn-delete:hover {
-            background: #fed7d7;
+            background: #991b1b;
         }
         
         .btn-view {
-            background: #f0fff4;
-            color: #276749;
+            background: #1e3a8a;
+            color: #93c5fd;
         }
         
         .btn-view:hover {
-            background: #c6f6d5;
+            background: #1e40af;
         }
         
         @media (max-width: 640px) {
-            .stat-card {
-                padding: 16px;
-            }
-            
-            .stat-icon {
-                width: 40px;
-                height: 40px;
-                font-size: 18px;
-            }
-            
-            .table-container {
-                padding: 12px;
-            }
-            
-            th, td {
-                padding: 8px 12px;
-                font-size: 14px;
-            }
+            .stat-card { padding: 16px; }
+            .stat-icon { width: 40px; height: 40px; font-size: 18px; }
+            .table-container { padding: 12px; }
+            th, td { padding: 8px 12px; font-size: 14px; }
         }
         
-        /* Animation */
         @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
-        
-        .fade-in {
-            animation: fadeInUp 0.5s ease-out;
-        }
-        
+        .fade-in { animation: fadeInUp 0.5s ease-out; }
         .delay-1 { animation-delay: 0.1s; }
         .delay-2 { animation-delay: 0.2s; }
         .delay-3 { animation-delay: 0.3s; }
@@ -228,107 +198,119 @@
 </head>
 <body>
 
+    <!-- ===== হেডার ===== -->
     <div id="header-placeholder"></div>
 
+    <!-- ===== অ্যাডমিন ড্যাশবোর্ড কন্টেন্ট ===== -->
     <div class="max-w-7xl mx-auto px-4 py-8">
         
+        <!-- শিরোনাম -->
         <div class="mb-8 fade-in">
-            <h1 class="text-3xl font-bold text-gray-800">
-                <i class="fas fa-shield-alt text-teal-600 mr-3"></i>অ্যাডমিন ড্যাশবোর্ড
+            <h1 class="text-3xl font-bold text-teal-400">
+                <i class="fas fa-shield-alt text-teal-400 mr-3"></i>অ্যাডমিন ড্যাশবোর্ড
             </h1>
-            <p class="text-gray-500 mt-1">সকল ইউজার, অর্ডার ও সিস্টেম মনিটর করুন</p>
+            <p class="text-emerald-300 mt-1">সকল ইউজার, অর্ডার ও সিস্টেম মনিটর করুন</p>
         </div>
 
+        <!-- স্ট্যাটিস্টিক্স কার্ডসমূহ -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <!-- মোট ইউজার -->
             <div class="stat-card fade-in delay-1">
                 <div class="flex items-center justify-between">
                     <div>
-                        <p class="text-gray-500 text-sm">মোট ইউজার</p>
-                        <p class="text-3xl font-bold text-gray-800" id="totalUsers">০</p>
-                        <p class="text-xs text-gray-400 mt-1">সকল রেজিস্টার্ড ইউজার</p>
+                        <p class="text-emerald-300 text-sm">মোট ইউজার</p>
+                        <p class="text-3xl font-bold text-white" id="totalUsers">০</p>
+                        <p class="text-xs text-emerald-400/70 mt-1">সকল রেজিস্টার্ড ইউজার</p>
                     </div>
-                    <div class="stat-icon bg-blue-50 text-blue-600">
+                    <div class="stat-icon bg-emerald-950/50 text-emerald-400">
                         <i class="fas fa-users"></i>
                     </div>
                 </div>
             </div>
             
+            <!-- পেইড ইউজার -->
             <div class="stat-card fade-in delay-2">
                 <div class="flex items-center justify-between">
                     <div>
-                        <p class="text-gray-500 text-sm">পেইড ইউজার</p>
-                        <p class="text-3xl font-bold text-gray-800" id="paidUsers">০</p>
-                        <p class="text-xs text-gray-400 mt-1">প্রিমিয়াম সদস্য</p>
+                        <p class="text-emerald-300 text-sm">পেইড ইউজার</p>
+                        <p class="text-3xl font-bold text-white" id="paidUsers">০</p>
+                        <p class="text-xs text-emerald-400/70 mt-1">প্রিমিয়াম সদস্য</p>
                     </div>
-                    <div class="stat-icon bg-green-50 text-green-600">
+                    <div class="stat-icon bg-emerald-950/50 text-yellow-400">
                         <i class="fas fa-crown"></i>
                     </div>
                 </div>
             </div>
             
+            <!-- ফ্রি ইউজার -->
             <div class="stat-card fade-in delay-3">
                 <div class="flex items-center justify-between">
                     <div>
-                        <p class="text-gray-500 text-sm">ফ্রি ইউজার</p>
-                        <p class="text-3xl font-bold text-gray-800" id="freeUsers">০</p>
-                        <p class="text-xs text-gray-400 mt-1">বিনামূল্যে সদস্য</p>
+                        <p class="text-emerald-300 text-sm">ফ্রি ইউজার</p>
+                        <p class="text-3xl font-bold text-white" id="freeUsers">০</p>
+                        <p class="text-xs text-emerald-400/70 mt-1">বিনামূল্যে সদস্য</p>
                     </div>
-                    <div class="stat-icon bg-yellow-50 text-yellow-600">
+                    <div class="stat-icon bg-emerald-950/50 text-blue-400">
                         <i class="fas fa-user"></i>
                     </div>
                 </div>
             </div>
             
+            <!-- মোট অর্ডার -->
             <div class="stat-card fade-in delay-4">
                 <div class="flex items-center justify-between">
                     <div>
-                        <p class="text-gray-500 text-sm">মোট অর্ডার</p>
-                        <p class="text-3xl font-bold text-gray-800" id="totalOrders">০</p>
-                        <p class="text-xs text-gray-400 mt-1">সকল অর্ডার</p>
+                        <p class="text-emerald-300 text-sm">মোট অর্ডার</p>
+                        <p class="text-3xl font-bold text-white" id="totalOrders">০</p>
+                        <p class="text-xs text-emerald-400/70 mt-1">সকল অর্ডার</p>
                     </div>
-                    <div class="stat-icon bg-purple-50 text-purple-600">
+                    <div class="stat-icon bg-emerald-950/50 text-purple-400">
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                 </div>
             </div>
         </div>
 
+        <!-- চার্ট ও কুইক অ্যাকশন -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+            <!-- চার্ট -->
             <div class="lg:col-span-2 table-container fade-in">
-                <h3 class="text-lg font-semibold text-gray-800 mb-4">
-                    <i class="fas fa-chart-bar text-teal-600 mr-2"></i>ইউজার গ্রোথ
+                <h3 class="text-lg font-semibold text-emerald-300 mb-4">
+                    <i class="fas fa-chart-bar text-teal-400 mr-2"></i>ইউজার গ্রোথ
                 </h3>
                 <canvas id="userGrowthChart" height="200"></canvas>
             </div>
             
+            <!-- কুইক অ্যাকশন -->
             <div class="table-container fade-in">
-                <h3 class="text-lg font-semibold text-gray-800 mb-4">
-                    <i class="fas fa-bolt text-teal-600 mr-2"></i>কুইক অ্যাকশন
+                <h3 class="text-lg font-semibold text-emerald-300 mb-4">
+                    <i class="fas fa-bolt text-teal-400 mr-2"></i>কুইক অ্যাকশন
                 </h3>
                 <div class="space-y-3">
-                    <button onclick="window.location.href='register.html'" class="w-full bg-teal-600 text-white px-4 py-3 rounded-xl hover:bg-teal-700 transition flex items-center justify-center gap-2">
+                    <button onclick="window.location.href='register.html'" class="w-full bg-teal-600 text-white px-4 py-3 rounded-xl hover:bg-teal-700 transition flex items-center justify-center gap-2 font-medium">
                         <i class="fas fa-user-plus"></i> নতুন ইউজার যোগ করুন
                     </button>
-                    <button onclick="window.location.href='manage-users.html'" class="w-full bg-blue-600 text-white px-4 py-3 rounded-xl hover:bg-blue-700 transition flex items-center justify-center gap-2">
+                    <button onclick="window.location.href='manage-users.html'" class="w-full bg-emerald-600 text-white px-4 py-3 rounded-xl hover:bg-emerald-700 transition flex items-center justify-center gap-2 font-medium">
                         <i class="fas fa-users-cog"></i> ইউজার ম্যানেজ
                     </button>
-                    <button onclick="window.location.href='medica/index.html'" class="w-full bg-purple-600 text-white px-4 py-3 rounded-xl hover:bg-purple-700 transition flex items-center justify-center gap-2">
+                    <button onclick="window.location.href='medica/index.html'" class="w-full bg-teal-700 text-white px-4 py-3 rounded-xl hover:bg-teal-800 transition flex items-center justify-center gap-2 font-medium">
                         <i class="fas fa-book-medical"></i> মেডিকা এডিট
                     </button>
-                    <button onclick="window.location.href='index.html'" class="w-full bg-gray-600 text-white px-4 py-3 rounded-xl hover:bg-gray-700 transition flex items-center justify-center gap-2">
+                    <button onclick="window.location.href='index.html'" class="w-full bg-zinc-700 text-white px-4 py-3 rounded-xl hover:bg-zinc-600 transition flex items-center justify-center gap-2 font-medium">
                         <i class="fas fa-home"></i> হোম পেজ
                     </button>
                 </div>
             </div>
         </div>
 
+        <!-- ইউজার লিস্ট টেবিল -->
         <div class="table-container fade-in">
             <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-3">
-                <h3 class="text-lg font-semibold text-gray-800">
-                    <i class="fas fa-list text-teal-600 mr-2"></i>সকল ইউজার লিস্ট
+                <h3 class="text-lg font-semibold text-emerald-300">
+                    <i class="fas fa-list text-teal-400 mr-2"></i>সকল ইউজার লিস্ট
                 </h3>
                 <div class="flex gap-2 w-full sm:w-auto">
-                    <input type="text" id="searchUser" placeholder="ইউজার সার্চ করুন..." class="flex-1 sm:w-48 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-600 text-sm">
+                    <input type="text" id="searchUser" placeholder="ইউজার সার্চ করুন..." class="flex-1 sm:w-48 px-4 py-2 bg-emerald-950 border border-emerald-800 text-white rounded-lg focus:outline-none focus:border-teal-400 text-sm placeholder-emerald-600">
                     <button onclick="loadDashboardData()" class="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition text-sm">
                         <i class="fas fa-sync-alt"></i>
                     </button>
@@ -349,7 +331,7 @@
                     </thead>
                     <tbody id="usersTableBody">
                         <tr>
-                            <td colspan="6" class="text-center text-gray-400 py-8">
+                            <td colspan="6" class="text-center text-emerald-400 py-8">
                                 <i class="fas fa-spinner fa-spin mr-2"></i>লোড হচ্ছে...
                             </td>
                         </tr>
@@ -359,6 +341,7 @@
         </div>
     </div>
 
+    <!-- ===== ফুটার ===== -->
     <div id="footer-placeholder"></div>
 
     <script>
@@ -384,14 +367,12 @@
             try {
                 const db = firebase.firestore();
                 
-                // সকল ইউজার লোড
                 const usersSnapshot = await db.collection('users').get();
                 const users = [];
                 usersSnapshot.forEach(doc => {
                     users.push({ id: doc.id, ...doc.data() });
                 });
                 
-                // স্ট্যাটিস্টিক্স আপডেট
                 const totalUsers = users.length;
                 const paidUsers = users.filter(u => u.isPaid === true).length;
                 const freeUsers = totalUsers - paidUsers;
@@ -400,7 +381,6 @@
                 document.getElementById('paidUsers').textContent = paidUsers;
                 document.getElementById('freeUsers').textContent = freeUsers;
                 
-                // অর্ডার কাউন্ট
                 try {
                     const ordersSnapshot = await db.collection('orders').get();
                     document.getElementById('totalOrders').textContent = ordersSnapshot.size;
@@ -408,7 +388,6 @@
                     document.getElementById('totalOrders').textContent = '০';
                 }
                 
-                // ইউজার টেবিল ও চার্ট রেন্ডার
                 renderUsersTable(users);
                 renderChart(users);
                 
@@ -416,7 +395,7 @@
                 console.error('Error loading dashboard data:', error);
                 document.getElementById('usersTableBody').innerHTML = `
                     <tr>
-                        <td colspan="6" class="text-center text-red-500 py-8">
+                        <td colspan="6" class="text-center text-red-400 py-8">
                             <i class="fas fa-exclamation-circle mr-2"></i>ডাটা লোড করতে সমস্যা হয়েছে
                         </td>
                     </tr>
@@ -430,7 +409,7 @@
             if (users.length === 0) {
                 tbody.innerHTML = `
                     <tr>
-                        <td colspan="6" class="text-center text-gray-400 py-8">
+                        <td colspan="6" class="text-center text-emerald-500 py-8">
                             <i class="fas fa-user-slash mr-2"></i>কোন ইউজার পাওয়া যায়নি
                         </td>
                     </tr>
@@ -445,9 +424,9 @@
                 
                 html += `
                     <tr>
-                        <td>${index + 1}</td>
-                        <td class="font-medium">${user.name || 'নাম নেই'}</td>
-                        <td>${user.email || 'ইমেইল নেই'}</td>
+                        <td class="text-emerald-400 font-bold">${index + 1}</td>
+                        <td class="font-medium text-white">${user.name || 'নাম নেই'}</td>
+                        <td class="text-slate-300">${user.email || 'ইমেইল নেই'}</td>
                         <td>
                             <span class="status-badge ${user.role === 'admin' ? 'status-active' : 'status-pending'}">
                                 ${user.role || 'general'}
@@ -458,13 +437,13 @@
                         </td>
                         <td>
                             <div class="flex gap-2">
-                                <button onclick="editUser('${user.id}')" class="btn-action btn-edit">
+                                <button onclick="editUser('${user.id}')" class="btn-action btn-edit" title="এডিট">
                                     <i class="fas fa-edit"></i>
                                 </button>
-                                <button onclick="viewUser('${user.id}')" class="btn-action btn-view">
+                                <button onclick="viewUser('${user.id}')" class="btn-action btn-view" title="প্রোফাইল">
                                     <i class="fas fa-eye"></i>
                                 </button>
-                                <button onclick="deleteUser('${user.id}')" class="btn-action btn-delete">
+                                <button onclick="deleteUser('${user.id}')" class="btn-action btn-delete" title="ডিলিট">
                                     <i class="fas fa-trash"></i>
                                 </button>
                             </div>
@@ -475,7 +454,7 @@
             tbody.innerHTML = html;
         }
 
-        // ===== চার্ট রেন্ডার =====
+        // ===== চার্ট রেন্ডার (ডার্ক থিম ম্যাচিং) =====
         function renderChart(users) {
             const chartCanvas = document.getElementById('userGrowthChart');
             if (!chartCanvas) return;
@@ -496,8 +475,8 @@
                     datasets: [{
                         label: 'মোট ইউজার',
                         data: userCounts,
-                        borderColor: '#00b8a9',
-                        backgroundColor: 'rgba(0, 184, 169, 0.1)',
+                        borderColor: '#34d399',
+                        backgroundColor: 'rgba(52, 211, 153, 0.1)',
                         borderWidth: 3,
                         fill: true,
                         tension: 0.4
@@ -505,13 +484,24 @@
                 },
                 options: {
                     responsive: true,
-                    plugins: { legend: { display: false } },
-                    scales: { y: { beginAtZero: true, ticks: { stepSize: 5 } } }
+                    plugins: { 
+                        legend: { display: false } 
+                    },
+                    scales: { 
+                        y: { 
+                            beginAtZero: true, 
+                            grid: { color: 'rgba(6, 95, 70, 0.2)' },
+                            ticks: { color: '#a7f3d0', stepSize: 5 } 
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: '#a7f3d0' }
+                        }
+                    }
                 }
             });
         }
 
-        // ===== ইউজার অ্যাকশন =====
         function editUser(userId) { window.location.href = `edit-user.html?id=${userId}`; }
         function viewUser(userId) { window.location.href = `user-profile.html?id=${userId}`; }
 
@@ -526,7 +516,6 @@
             }
         }
 
-        // ===== সার্চ ফাংশন =====
         document.getElementById('searchUser').addEventListener('input', function() {
             const searchTerm = this.value.toLowerCase();
             const rows = document.querySelectorAll('#usersTableBody tr');
