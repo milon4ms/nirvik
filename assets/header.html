@@ -1,6 +1,6 @@
 <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
     <style>
-        /* ===== ডেস্কটপ ড্রপডাউন ===== */
+        /* ===== ডেস্কটপ ড্রপডাউন (ক্লিক করলে খোলা) ===== */
         .user-dropdown {
             position: relative;
         }
@@ -19,7 +19,7 @@
             z-index: 9999;
             border: 1px solid #e2e8f0;
         }
-        .user-dropdown:hover .dropdown-menu {
+        .user-dropdown .dropdown-menu.open {
             display: block !important;
         }
         .user-dropdown .dropdown-menu a {
@@ -74,7 +74,7 @@
             background: rgba(255,255,255,0.2);
         }
 
-        /* ===== অন্যান্য ড্রপডাউন (হোভার) ===== */
+        /* ===== অন্যান্য ড্রপডাউন (ক্লিক করলে খোলা) ===== */
         .nav-dropdown {
             position: relative;
         }
@@ -93,7 +93,7 @@
             z-index: 100;
             border: 1px solid #e2e8f0;
         }
-        .nav-dropdown:hover .dropdown-content {
+        .nav-dropdown .dropdown-content.open {
             display: block !important;
         }
         .nav-dropdown .dropdown-content a {
@@ -143,8 +143,11 @@
                 <a href="select.html" class="hover:bg-white/20 px-4 py-2 rounded-xl transition">সাধারণ রোগ</a>
                 <a href="medica/index.html" class="hover:bg-white/20 px-4 py-2 rounded-xl transition">মেডিকা</a>
                 
+                <!-- সার্বদেহিক রোগ -->
                 <div class="nav-dropdown">
-                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs"></i></button>
+                    <button class="nav-dropdown-btn hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
+                        সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
                     <div class="dropdown-content">
                         <a href="jor.html"><i class="fas fa-temperature-high"></i>জ্বর সর্দি কাশি</a>
                         <a href="pain.html"><i class="fas fa-bolt"></i>ব্যথা</a>
@@ -157,8 +160,11 @@
                     </div>
                 </div>
 
+                <!-- উপর অঙ্গের রোগ -->
                 <div class="nav-dropdown">
-                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i></button>
+                    <button class="nav-dropdown-btn hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
+                        উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
                     <div class="dropdown-content">
                         <a href="head.html"><i class="fas fa-brain"></i>মাথা</a>
                         <a href="eyes.html"><i class="fas fa-eye"></i>চোখ</a>
@@ -169,8 +175,11 @@
                     </div>
                 </div>
 
+                <!-- মাঝ অঙ্গের রোগ -->
                 <div class="nav-dropdown">
-                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i></button>
+                    <button class="nav-dropdown-btn hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
+                        মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
                     <div class="dropdown-content">
                         <a href="chest.html"><i class="fas fa-lungs"></i>বুকের সমস্যা</a>
                         <a href="hands.html"><i class="fas fa-hand"></i>হাতের সমস্যা</a>
@@ -179,8 +188,11 @@
                     </div>
                 </div>
 
+                <!-- নিচ অঙ্গের রোগ -->
                 <div class="nav-dropdown">
-                    <button class="hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i></button>
+                    <button class="nav-dropdown-btn hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
+                        নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
                     <div class="dropdown-content">
                         <a href="piles.html"><i class="fas fa-circle-dot"></i>অর্শ</a>
                         <a href="urethral.html"><i class="fas fa-droplet"></i>মূত্রনালী</a>
@@ -192,7 +204,7 @@
                     </div>
                 </div>
 
-                <!-- ===== ইউজার ড্রপডাউন (হোভার) ===== -->
+                <!-- ===== ইউজার ড্রপডাউন ===== -->
                 <div class="user-dropdown">
                     <button class="dropdown-trigger" id="userDropdownBtn">
                         <span id="userMenuLabel">লগ ইন</span>
@@ -314,6 +326,60 @@
                     if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
                         mobileMenu.classList.add('hidden');
                     }
+                });
+            }
+
+            // ===== ডেস্কটপ নেভিগেশন ড্রপডাউন (ক্লিক করবে) =====
+            const dropdownBtns = document.querySelectorAll('.nav-dropdown-btn');
+            
+            dropdownBtns.forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    const parent = this.closest('.nav-dropdown');
+                    const content = parent.querySelector('.dropdown-content');
+                    
+                    // অন্য সব ড্রপডাউন বন্ধ
+                    document.querySelectorAll('.nav-dropdown .dropdown-content').forEach(d => {
+                        if (d !== content) {
+                            d.classList.remove('open');
+                        }
+                    });
+                    
+                    // টগল
+                    content.classList.toggle('open');
+                });
+            });
+
+            // ===== বাইরে ক্লিক করলে ড্রপডাউন বন্ধ =====
+            document.addEventListener('click', function(e) {
+                // নেভিগেশন ড্রপডাউন
+                document.querySelectorAll('.nav-dropdown .dropdown-content').forEach(content => {
+                    if (!content.closest('.nav-dropdown').contains(e.target)) {
+                        content.classList.remove('open');
+                    }
+                });
+                
+                // ইউজার ড্রপডাউন
+                const userDropdownMenu = document.getElementById('userDropdownMenu');
+                const userDropdownBtn = document.getElementById('userDropdownBtn');
+                if (userDropdownMenu && userDropdownBtn) {
+                    if (!userDropdownBtn.contains(e.target) && !userDropdownMenu.contains(e.target)) {
+                        userDropdownMenu.classList.remove('open');
+                    }
+                }
+            });
+
+            // ===== ইউজার ড্রপডাউন টগল =====
+            const userBtn = document.getElementById('userDropdownBtn');
+            const userMenu = document.getElementById('userDropdownMenu');
+
+            if (userBtn && userMenu) {
+                userBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    userMenu.classList.toggle('open');
                 });
             }
 
