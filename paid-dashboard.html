@@ -3,57 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>প্রিমিয়াম ড্যাশবোর্ড - নির্বিক হোমিও</title>
+    <title>অ্যাডমিন ড্যাশবোর্ড - নির্বিক হোমিও</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
     
-    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
-    <!-- Firebase SDK -->
-    <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-auth-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
     <script src="assets/js/firebase-config.js"></script>
 
     <script>
-    firebase.auth().onAuthStateChanged((user) => {
-        if (!user) {
-            window.location.href = "login.html";
-        } else {
-            firebase.firestore().collection("users").doc(user.uid).get()
-            .then((doc) => {
-                if (doc.exists && doc.data().role === "paid") {
-                    // রোল 'paid' হলে অনুমতি দাও
-                    console.log("Welcome Paid User");
-                } else {
-                    alert("এই ড্যাশবোর্ডটি শুধুমাত্র পেইড ইউজারদের জন্য!");
-                    window.location.href = "index.html";
-                }
-            }).catch(() => {
-                window.location.href = "login.html";
-            });
-        }
-    });
-</script>
+        const style = document.createElement('style');
+        style.innerHTML = 'body { display: none !important; }';
+        document.head.appendChild(style);
 
+        let isDashboardInitialized = false;
+
+        firebase.auth().onAuthStateChanged((user) => {
+            if (!user) {
+                window.location.href = "login.html";
+            } else {
+                firebase.firestore().collection("users").doc(user.uid).get()
+                .then((doc) => {
+                    if (doc.exists && doc.data().role === "admin") {
+                        if (style.parentNode) {
+                            style.remove();
+                        }
+                        
+                        if (!isDashboardInitialized) {
+                            isDashboardInitialized = true;
+                            loadDashboardData();
+                        }
+                    } else {
+                        alert("আপনার এই পেজে প্রবেশের অনুমতি নেই!");
+                        window.location.href = "dashboard.html"; 
+                    }
+                }).catch((error) => {
+                    console.error("Error checking role: ", error);
+                    window.location.href = "login.html";
+                });
+            }
+        });
+    </script>
     <style>
         body { 
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
-            background: #f0fdf4;
+            background: #f8fafc; /* স্বাভাবিক ও হালকা ব্যাকগ্রাউন্ড */
+            min-height: 100vh;
+            color: #1e293b;
         }
-        .dashboard-container { max-width: 1200px; margin: 0 auto; padding: 30px 20px; }
-        .card { background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); padding: 24px; transition: all 0.3s; border: 1px solid rgba(0,184,169,0.06); }
-        .card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,184,169,0.08); }
-        .card-icon { font-size: 2.5rem; margin-bottom: 12px; }
-        .premium-badge { background: linear-gradient(135deg, #f59e0b, #d97706); color: white; padding: 2px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; }
-        .paid-badge { background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: white; padding: 4px 16px; border-radius: 30px; font-size: 13px; font-weight: 600; }
-        .logout-btn { background: #e53e3e; color: white; padding: 8px 20px; border-radius: 30px; border: none; font-weight: 500; cursor: pointer; transition: all 0.3s; }
-        .logout-btn:hover { background: #c53030; }
-        .premium-card { background: linear-gradient(135deg, #faf5ff, #f3e8ff); border: 2px solid #8b5cf6; }
-        .premium-card:hover { box-shadow: 0 12px 40px rgba(139,92,246,0.15); }
+        
+        /* হেডিং এর নিচের অংশ ও কার্ড স্বাভাবিক রাখা হয়েছে */
+        .stat-card {
+            background: #ffffff; 
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: all 0.3s;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        
+        .stat-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        
+        .table-container {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        /* হেডার বা হেডিং এর অংশটি গাঢ় সবুজ রাখা হয়েছে */
+        th {
+            text-align: left;
+            padding: 14px 16px;
+            background: #022c22; /* গাঢ় ব্যাকগ্রাউন্ড */
+            font-weight: 600;
+            color: #34d399; /* উজ্জ্বল লেখা */
+            border-bottom: 2px solid #044e3e;
+            white-space: nowrap;
+        }
+        
+        /* টেবিলের ভেতরের অংশগুলো স্বাভাবিক ও পরিষ্কার */
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #334155;
+            vertical-align: middle;
+        }
+        
+        tr:hover {
+            background: #f1f5f9;
+        }
+
+        .table-input {
+            width: 110px;
+            padding: 6px 10px;
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            color: #1e293b;
+            border-radius: 6px;
+            font-size: 14px;
+            outline: none;
+            transition: border 0.2s;
+        }
+        .table-input:focus {
+            border-color: #0d9488;
+        }
+        
+        .status-badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-active { background: #d1fae5; color: #065f46; }
+        .status-inactive { background: #fee2e2; color: #991b1b; }
+        .status-pending { background: #fef3c7; color: #92400e; }
+        
+        .btn-action {
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        .btn-action:hover { transform: scale(1.05); }
+        .btn-save { background: #0d9488; color: white; }
+        .btn-save:hover { background: #0f766e; }
+        .btn-delete { background: #ef4444; color: white; }
+        .btn-delete:hover { background: #dc2626; }
     </style>
 </head>
 <body>
@@ -61,129 +165,103 @@
     <!-- ===== হেডার ===== -->
     <div id="header-placeholder"></div>
 
-    <!-- ===== ড্যাশবোর্ড ===== -->
-    <div class="dashboard-container">
+    <div class="max-w-7xl mx-auto px-4 py-8">
         
-        <!-- ওয়েলকাম -->
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
-            <div>
-                <div class="flex items-center gap-3">
-                    <h1 class="text-3xl font-bold text-gray-800">👋 স্বাগতম, <span id="userName">ইউজার</span>!</h1>
-                    <span class="paid-badge"><i class="fas fa-crown mr-1"></i> প্রিমিয়াম</span>
-                </div>
-                <p class="text-gray-500 mt-1">আপনি <strong>💎 প্রিমিয়াম</strong> ইউজার হিসেবে লগইন করেছেন</p>
-            </div>
-            <div class="flex gap-3 mt-3 md:mt-0">
-                <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium">
-                    <i class="fas fa-crown mr-1"></i> প্রিমিয়াম
-                </span>
-                <button onclick="logout()" class="logout-btn">
-                    <i class="fas fa-sign-out-alt mr-1"></i> লগআউট
-                </button>
-            </div>
+        <!-- ড্যাশবোর্ড শিরোনাম (গাঢ় ও আকর্ষণীয় রাখা হয়েছে) -->
+        <div class="mb-8 p-6 bg-gradient-to-r from-emerald-950 to-teal-900 rounded-2xl shadow-lg">
+            <h1 class="text-3xl font-bold text-white flex items-center">
+                <i class="fas fa-shield-alt text-teal-400 mr-3"></i>অ্যাডমিন ড্যাশবোর্ড
+            </h1>
+            <p class="text-emerald-300 mt-1">ইউজার এক্সেস, পেমেন্ট ম্যাট্রিক্স ও মেয়াদ নিয়ন্ত্রণ করুন</p>
         </div>
 
-        <!-- প্রিমিয়াম স্ট্যাটাস -->
-        <div class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-2xl p-6 mb-8">
-            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-                <div>
-                    <div class="flex items-center gap-3">
-                        <span class="text-3xl">👑</span>
-                        <div>
-                            <h2 class="text-2xl font-bold">প্রিমিয়াম অ্যাক্সেস</h2>
-                            <p class="text-purple-200 text-sm">আপনার সব পেইড কন্টেন্ট এখন আনলক করা আছে</p>
-                        </div>
+        <!-- স্ট্যাটিস্টিক্স কার্ডসমূহ (স্বাভাবিক থিম) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="stat-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-slate-500 text-sm">মোট ইউজার</p>
+                        <p class="text-3xl font-bold text-slate-800" id="totalUsers">০</p>
+                    </div>
+                    <div class="stat-icon bg-teal-50 text-teal-600">
+                        <i class="fas fa-users"></i>
                     </div>
                 </div>
-                <div class="text-center bg-white/10 backdrop-blur-sm px-6 py-3 rounded-xl">
-                    <p class="text-sm text-purple-200">সাবস্ক্রিপশন স্ট্যাটাস</p>
-                    <p class="font-bold text-lg"><i class="fas fa-check-circle text-green-300 mr-1"></i> সক্রিয়</p>
+            </div>
+            
+            <div class="stat-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-slate-500 text-sm">পেইড ইউজার</p>
+                        <p class="text-3xl font-bold text-slate-800" id="paidUsers">০</p>
+                    </div>
+                    <div class="stat-icon bg-amber-50 text-amber-600">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-slate-500 text-sm">ফ্রি ইউজার</p>
+                        <p class="text-3xl font-bold text-slate-800" id="freeUsers">০</p>
+                    </div>
+                    <div class="stat-icon bg-blue-50 text-blue-600">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-slate-500 text-sm">মোট কালেকশন</p>
+                        <p class="text-3xl font-bold text-slate-800" id="totalEarnings">৳০</p>
+                    </div>
+                    <div class="stat-icon bg-emerald-50 text-emerald-600">
+                        <i class="fas fa-wallet"></i>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- সব পেজ (পেইড + ফ্রি) -->
-        <h2 class="text-xl font-bold text-gray-700 mb-4">🚀 আপনার সব কন্টেন্ট</h2>
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-            <div class="card">
-                <div class="card-icon">🏠</div>
-                <h3 class="text-lg font-bold">হোম</h3>
-                <p class="text-gray-500 text-sm mt-1">মূল পেজ</p>
-                <a href="index.html" class="inline-block mt-3 text-teal-600 font-medium hover:underline">যান →</a>
+        <!-- ইউজার লিস্ট টেবিল -->
+        <div class="table-container mb-8">
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-3">
+                <h3 class="text-xl font-bold text-slate-800">
+                    <i class="fas fa-list text-teal-600 mr-2"></i>সকল ইউজার পেমেন্ট ও এক্সেস লিস্ট
+                </h3>
+                <div class="flex gap-2 w-full sm:w-auto">
+                    <input type="text" id="searchUser" placeholder="নাম বা ইমেইল সার্চ..." class="flex-1 sm:w-64 px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:border-teal-600 text-sm">
+                    <button onclick="loadDashboardData()" class="bg-slate-800 text-white px-4 py-2 rounded-lg hover:bg-slate-700 transition text-sm">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                </div>
             </div>
-            <div class="card">
-                <div class="card-icon">🔬</div>
-                <h3 class="text-lg font-bold">রোগী বিশ্লেষণ</h3>
-                <p class="text-gray-500 text-sm mt-1">সাধারণ রোগ</p>
-                <a href="select.html" class="inline-block mt-3 text-teal-600 font-medium hover:underline">যান →</a>
+            
+            <div class="overflow-x-auto">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>নাম ও ইমেইল</th>
+                            <th>ফোন নম্বর</th>
+                            <th>টাকার পরিমাণ</th>
+                            <th>শুরুর তারিখ</th>
+                            <th>মেয়াদ শেষের তারিখ</th>
+                            <th>স্ট্যাটাস</th>
+                            <th>অ্যাকশন</th>
+                        </tr>
+                    </thead>
+                    <tbody id="usersTableBody">
+                        <tr>
+                            <td colspan="7" class="text-center text-slate-500 py-8">
+                                <i class="fas fa-spinner fa-spin mr-2"></i>ডাটা লোড হচ্ছে...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="card">
-                <div class="card-icon">📝</div>
-                <h3 class="text-lg font-bold">জ্বর-সর্দি-কাশি</h3>
-                <p class="text-gray-500 text-sm mt-1">বিশেষায়িত</p>
-                <a href="fever-analysis.html" class="inline-block mt-3 text-teal-600 font-medium hover:underline">যান →</a>
-            </div>
-            <div class="card premium-card">
-                <div class="card-icon">💊</div>
-                <h3 class="text-lg font-bold">মেডিকা ডেটাবেস</h3>
-                <p class="text-gray-500 text-sm mt-1">সম্পূর্ণ ডেটাবেস</p>
-                <span class="inline-block mt-2 text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম</span>
-            </div>
-            <div class="card premium-card">
-                <div class="card-icon">📊</div>
-                <h3 class="text-lg font-bold">রোগী হিস্টোরি</h3>
-                <p class="text-gray-500 text-sm mt-1">সমস্ত রেকর্ড</p>
-                <span class="inline-block mt-2 text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম</span>
-            </div>
-            <div class="card premium-card">
-                <div class="card-icon">📖</div>
-                <h3 class="text-lg font-bold">ম্যাটেরিয়া মেডিকা</h3>
-                <p class="text-gray-500 text-sm mt-1">সম্পূর্ণ বিবরণ</p>
-                <span class="inline-block mt-2 text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম</span>
-            </div>
-            <div class="card premium-card">
-                <div class="card-icon">🧬</div>
-                <h3 class="text-lg font-bold">জিনোমিক অ্যানালাইসিস</h3>
-                <p class="text-gray-500 text-sm mt-1">এডভান্সড অ্যানালাইসিস</p>
-                <span class="inline-block mt-2 text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম</span>
-            </div>
-            <div class="card premium-card">
-                <div class="card-icon">📈</div>
-                <h3 class="text-lg font-bold">এডভান্সড রিপোর্ট</h3>
-                <p class="text-gray-500 text-sm mt-1">পিডিএফ রিপোর্ট</p>
-                <span class="inline-block mt-2 text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম</span>
-            </div>
-        </div>
-
-        <!-- পেইড ফিচার হাইলাইট -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="card bg-gradient-to-br from-purple-50 to-indigo-50 border-purple-200">
-                <div class="text-3xl mb-2">👨‍⚕️</div>
-                <h3 class="text-lg font-bold">প্রাইভেট কনসালটেশন</h3>
-                <p class="text-gray-600 text-sm mt-1">বিশেষজ্ঞ চিকিৎসকের সাথে সরাসরি কথা বলুন</p>
-                <span class="inline-block mt-3 text-xs bg-purple-200 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম ফিচার</span>
-            </div>
-            <div class="card bg-gradient-to-br from-purple-50 to-indigo-50 border-purple-200">
-                <div class="text-3xl mb-2">📱</div>
-                <h3 class="text-lg font-bold">মোবাইল অ্যাক্সেস</h3>
-                <p class="text-gray-600 text-sm mt-1">যেকোনো ডিভাইস থেকে অ্যাক্সেস</p>
-                <span class="inline-block mt-3 text-xs bg-purple-200 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম ফিচার</span>
-            </div>
-            <div class="card bg-gradient-to-br from-purple-50 to-indigo-50 border-purple-200">
-                <div class="text-3xl mb-2">🎯</div>
-                <h3 class="text-lg font-bold">এক্সক্লুসিভ কন্টেন্ট</h3>
-                <p class="text-gray-600 text-sm mt-1">শুধু প্রিমিয়াম ইউজারদের জন্য</p>
-                <span class="inline-block mt-3 text-xs bg-purple-200 text-purple-700 px-3 py-1 rounded-full">প্রিমিয়াম ফিচার</span>
-            </div>
-        </div>
-
-        <!-- রোল ইনফো -->
-        <div class="mt-6 p-4 bg-purple-50 rounded-xl border border-purple-200">
-            <p class="text-sm text-gray-600">
-                <i class="fas fa-crown text-purple-600 mr-2"></i>
-                <strong>আপনার রোল:</strong> <span class="text-purple-700 font-medium">💎 প্রিমিয়াম</span> — 
-                আপনার সব কন্টেন্ট আনলক করা আছে। প্রিমিয়াম ফিচারগুলো উপভোগ করুন!
-            </p>
         </div>
     </div>
 
@@ -191,47 +269,191 @@
     <div id="footer-placeholder"></div>
 
     <script>
-        // ===== হেডার-ফুটার লোড =====
         $(function() {
-            $('#header-placeholder').load('assets/header.html', function() {
-                const btn = document.getElementById('mobile-menu-btn');
-                const menu = document.getElementById('mobile-menu');
-                if (btn && menu) {
-                    btn.addEventListener('click', function() {
-                        menu.classList.toggle('hidden');
-                        btn.innerHTML = menu.classList.contains('hidden') 
-                            ? '<i class="fas fa-bars"></i>' 
-                            : '<i class="fas fa-times"></i>';
-                    });
-                }
-            });
+            $('#header-placeholder').load('assets/header.html');
             $('#footer-placeholder').load('assets/footer.html');
         });
 
-        // ===== ইউজার ইনফো =====
-        const userStr = localStorage.getItem('user');
-        if (userStr) {
-            const user = JSON.parse(userStr);
-            if (!user.isPaid) {
-                // পেইড না হলে সাধারণ ড্যাশবোর্ডে পাঠান
-                window.location.href = 'dashboard.html';
+        // আজিকার ডেটা ফরম্যাট (YYYY-MM-DD) পেতে
+        function getTodayDateString() {
+            const today = new Date();
+            return today.toISOString().split('T')[0];
+        }
+
+        // টাকার পরিমাণ পরিবর্তনের উপর ভিত্তি করে অটো মেয়াদ হিসাব (৫০ টাকা = ৩০ দিন)
+        function calculateExpiry(amount, startDateStr) {
+            if (!amount || amount <= 0 || !startDateStr) return '';
+            const startDate = new Date(startDateStr);
+            if (isNaN(startDate.getTime())) return '';
+
+            // ৫০ টাকা = ৩০ দিন অনুপাত হিসাব
+            const daysTo追加 = Math.floor((amount / 50) * 30);
+            
+            const expiryDate = new Date(startDate);
+            expiryDate.setDate(expiryDate.getDate() + daysTo追加);
+            
+            return expiryDate.toISOString().split('T')[0];
+        }
+
+        // ইনপুট পরিবর্তনের ইভেন্ট হ্যান্ডলার
+        function onPaymentInputChanged(userId) {
+            const amountInput = document.getElementById(`amount-${userId}`);
+            const startInput = document.getElementById(`start-${userId}`);
+            const expiryInput = document.getElementById(`expiry-${userId}`);
+            
+            const amount = parseFloat(amountInput.value) || 0;
+            const startDate = startInput.value;
+            
+            if (amount > 0 && startDate) {
+                expiryInput.value = calculateExpiry(amount, startDate);
+            } else {
+                expiryInput.value = '';
+            }
+        }
+
+        // ===== ফায়ারবেস থেকে ডেটা লোড করা =====
+        async function loadDashboardData() {
+            try {
+                const db = firebase.firestore();
+                const usersSnapshot = await db.collection('users').get();
+                const users = [];
+                let totalAmountCollected = 0;
+
+                usersSnapshot.forEach(doc => {
+                    const data = doc.data();
+                    users.push({ id: doc.id, ...data });
+                    if (data.paidAmount) {
+                        totalAmountCollected += parseFloat(data.paidAmount) || 0;
+                    }
+                });
+                
+                const totalUsers = users.length;
+                const paidUsers = users.filter(u => u.isPaid === true).length;
+                const freeUsers = totalUsers - paidUsers;
+                
+                document.getElementById('totalUsers').textContent = totalUsers;
+                document.getElementById('paidUsers').textContent = paidUsers;
+                document.getElementById('freeUsers').textContent = freeUsers;
+                document.getElementById('totalEarnings').textContent = '৳' + totalAmountCollected;
+                
+                renderUsersTable(users);
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        // ===== টেবিল রেন্ডারিং =====
+        function renderUsersTable(users) {
+            const tbody = document.getElementById('usersTableBody');
+            if (users.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="7" class="text-center py-8">কোন ইউজার পাওয়া যায়নি।</td></tr>`;
                 return;
             }
-            document.getElementById('userName').textContent = user.name || 'ইউজার';
-        } else {
-            window.location.href = 'login.html';
+            
+            let html = '';
+            users.forEach((user) => {
+                const phone = user.phone || '';
+                const paidAmount = user.paidAmount || '';
+                const accessStart = user.accessStart || getTodayDateString();
+                const accessExpiry = user.accessExpiry || '';
+                
+                // রিয়েলটাইম ভ্যালিডেশন স্ট্যাটাস চেক
+                const todayStr = getTodayDateString();
+                let statusClass = 'status-inactive';
+                let statusText = 'ফ্রি / মেয়াদোত্তীর্ণ';
+                
+                if (user.isPaid && accessExpiry && accessExpiry >= todayStr) {
+                    statusClass = 'status-active';
+                    statusText = 'পেইড (Active)';
+                }
+
+                html += `
+                    <tr id="row-${user.id}">
+                        <td>
+                            <div class="font-bold text-slate-900">${user.name || 'নাম নেই'}</div>
+                            <div class="text-xs text-slate-500">${user.email || 'ইমেইল নেই'}</div>
+                        </td>
+                        <td>
+                            <input type="tel" id="phone-${user.id}" value="${phone}" placeholder="017xxxxxxxx" class="table-input" style="width: 130px;">
+                        </td>
+                        <td>
+                            <input type="number" id="amount-${user.id}" value="${paidAmount}" placeholder="টাকা" class="table-input" style="width: 80px;" oninput="onPaymentInputChanged('${user.id}')">
+                        </td>
+                        <td>
+                            <input type="date" id="start-${user.id}" value="${accessStart}" class="table-input" style="width: 135px;" onchange="onPaymentInputChanged('${user.id}')">
+                        </td>
+                        <td>
+                            <input type="date" id="expiry-${user.id}" value="${accessExpiry}" class="table-input" style="width: 135px;" readonly bg-gray-50 title="টাকার পরিমাণের ওপর ভিত্তি করে অটোমেটিক সেট হবে">
+                        </td>
+                        <td>
+                            <span class="status-badge ${statusClass}">${statusText}</span>
+                        </td>
+                        <td>
+                            <div class="flex gap-2">
+                                <button onclick="saveUserAccess('${user.id}')" class="btn-action btn-save" title="সংরক্ষণ করুন">
+                                    <i class="fas fa-save mr-1"></i> সেভ
+                                </button>
+                                <button onclick="deleteUser('${user.id}')" class="btn-action btn-delete" title="ডিলিট">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+            });
+            tbody.innerHTML = html;
         }
 
-        // ===== লগআউট =====
-        function logout() {
-            firebase.auth().signOut()
-                .then(() => {
-                    localStorage.removeItem('user');
-                    window.location.href = 'index.html';
-                })
-                .catch(error => alert('লগআউটে সমস্যা: ' + error.message));
+        // ===== আপডেট ডাটা ফায়ারবেসে সেভ করা =====
+        async function saveUserAccess(userId) {
+            const phone = document.getElementById(`phone-${userId}`).value.trim();
+            const paidAmount = parseFloat(document.getElementById(`amount-${userId}`).value) || 0;
+            const accessStart = document.getElementById(`start-${userId}`).value;
+            const accessExpiry = document.getElementById(`expiry-${userId}`).value;
+            
+            // যদি টাকা দেওয়া হয়, তবে সে পেইড ইউজার হিসেবে গণ্য হবে
+            const isPaid = paidAmount > 0 ? true : false;
+
+            try {
+                await firebase.firestore().collection('users').doc(userId).update({
+                    phone: phone,
+                    paidAmount: paidAmount,
+                    accessStart: accessStart,
+                    accessExpiry: accessExpiry,
+                    isPaid: isPaid
+                });
+                
+                alert('ইউজার পেমেন্ট ও এক্সেস ডাটা সফলভাবে সেভ হয়েছে!');
+                loadDashboardData(); // রিফ্রেশ ডেটা
+            } catch (error) {
+                alert('সেভ করতে সমস্যা হয়েছে: ' + error.message);
+            }
         }
+
+        // ইউজার ডিলিট
+        async function deleteUser(userId) {
+            if (!confirm('আপনি কি নিশ্চিতভাবে এই ইউজার রিমুভ করতে চান?')) return;
+            try {
+                await firebase.firestore().collection('users').doc(userId).delete();
+                alert('ইউজার সফলভাবে মুছে ফেলা হয়েছে।');
+                loadDashboardData();
+            } catch (error) {
+                alert('ত্রুটি: ' + error.message);
+            }
+        }
+
+        // লাইভ সার্চ সিস্টেম
+        document.getElementById('searchUser').addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            const rows = document.querySelectorAll('#usersTableBody tr');
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                if(row.cells.length > 1) { 
+                    row.style.display = text.includes(searchTerm) ? '' : 'none';
+                }
+            });
+        });
     </script>
-
 </body>
 </html>
