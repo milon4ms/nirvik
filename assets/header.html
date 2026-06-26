@@ -1,6 +1,65 @@
 <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
     <style>
-        /* ===== ডেস্কটপ ড্রপডাউন (ক্লিক করলে খোলা) ===== */
+        /* ===== ডেস্কটপ ড্রপডাউন ===== */
+        .nav-dropdown {
+            position: relative;
+        }
+        .nav-dropdown .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            margin-top: 8px;
+            background: white;
+            color: #333;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            border-radius: 16px;
+            padding: 12px 0;
+            min-width: 250px;
+            z-index: 9999;
+            border: 1px solid #e2e8f0;
+        }
+        .nav-dropdown .dropdown-content.show {
+            display: block !important;
+        }
+        .nav-dropdown .dropdown-content a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 20px;
+            color: #4a5568;
+            text-decoration: none;
+            transition: all 0.2s;
+            font-size: 14px;
+        }
+        .nav-dropdown .dropdown-content a:hover {
+            background: #f0fdf4;
+        }
+        .nav-dropdown .dropdown-content a i {
+            width: 20px;
+            text-align: center;
+            color: #00b8a9;
+        }
+        .nav-dropdown .nav-dropdown-btn {
+            cursor: pointer;
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 10px 16px;
+            border-radius: 16px;
+            transition: all 0.2s;
+            font-family: inherit;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .nav-dropdown .nav-dropdown-btn:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        /* ===== ইউজার ড্রপডাউন ===== */
         .user-dropdown {
             position: relative;
         }
@@ -19,7 +78,7 @@
             z-index: 9999;
             border: 1px solid #e2e8f0;
         }
-        .user-dropdown .dropdown-menu.open {
+        .user-dropdown .dropdown-menu.show {
             display: block !important;
         }
         .user-dropdown .dropdown-menu a {
@@ -57,9 +116,6 @@
         }
         .user-dropdown .dropdown-trigger {
             cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 6px;
             background: transparent;
             border: none;
             color: white;
@@ -69,50 +125,12 @@
             border-radius: 16px;
             transition: all 0.2s;
             font-family: inherit;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
         .user-dropdown .dropdown-trigger:hover {
             background: rgba(255,255,255,0.2);
-        }
-
-        /* ===== অন্যান্য ড্রপডাউন (ক্লিক করলে খোলা) ===== */
-        .nav-dropdown {
-            position: relative;
-        }
-        .nav-dropdown .dropdown-content {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            margin-top: 8px;
-            background: white;
-            color: #333;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
-            border-radius: 16px;
-            padding: 12px 0;
-            min-width: 250px;
-            z-index: 100;
-            border: 1px solid #e2e8f0;
-        }
-        .nav-dropdown .dropdown-content.open {
-            display: block !important;
-        }
-        .nav-dropdown .dropdown-content a {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 8px 20px;
-            color: #4a5568;
-            text-decoration: none;
-            transition: all 0.2s;
-            font-size: 14px;
-        }
-        .nav-dropdown .dropdown-content a:hover {
-            background: #f0fdf4;
-        }
-        .nav-dropdown .dropdown-content a i {
-            width: 20px;
-            text-align: center;
-            color: #00b8a9;
         }
 
         /* ===== মোবাইল ===== */
@@ -145,10 +163,10 @@
                 
                 <!-- সার্বদেহিক রোগ -->
                 <div class="nav-dropdown">
-                    <button class="nav-dropdown-btn hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
+                    <button class="nav-dropdown-btn" data-dropdown="dropdown1">
                         সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" id="dropdown1">
                         <a href="jor.html"><i class="fas fa-temperature-high"></i>জ্বর সর্দি কাশি</a>
                         <a href="pain.html"><i class="fas fa-bolt"></i>ব্যথা</a>
                         <a href="tumor.html"><i class="fas fa-circle"></i>টিউমার</a>
@@ -162,10 +180,10 @@
 
                 <!-- উপর অঙ্গের রোগ -->
                 <div class="nav-dropdown">
-                    <button class="nav-dropdown-btn hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
+                    <button class="nav-dropdown-btn" data-dropdown="dropdown2">
                         উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" id="dropdown2">
                         <a href="head.html"><i class="fas fa-brain"></i>মাথা</a>
                         <a href="eyes.html"><i class="fas fa-eye"></i>চোখ</a>
                         <a href="ear.html"><i class="fas fa-ear-listen"></i>কান</a>
@@ -177,10 +195,10 @@
 
                 <!-- মাঝ অঙ্গের রোগ -->
                 <div class="nav-dropdown">
-                    <button class="nav-dropdown-btn hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
+                    <button class="nav-dropdown-btn" data-dropdown="dropdown3">
                         মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" id="dropdown3">
                         <a href="chest.html"><i class="fas fa-lungs"></i>বুকের সমস্যা</a>
                         <a href="hands.html"><i class="fas fa-hand"></i>হাতের সমস্যা</a>
                         <a href="back.html"><i class="fas fa-spine"></i>পিঠের সমস্যা</a>
@@ -190,10 +208,10 @@
 
                 <!-- নিচ অঙ্গের রোগ -->
                 <div class="nav-dropdown">
-                    <button class="nav-dropdown-btn hover:bg-white/20 px-4 py-2 rounded-xl transition flex items-center gap-1">
+                    <button class="nav-dropdown-btn" data-dropdown="dropdown4">
                         নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
                     </button>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" id="dropdown4">
                         <a href="piles.html"><i class="fas fa-circle-dot"></i>অর্শ</a>
                         <a href="urethral.html"><i class="fas fa-droplet"></i>মূত্রনালী</a>
                         <a href="leg.html"><i class="fas fa-shoe-prints"></i>পা</a>
@@ -337,27 +355,33 @@
                     e.preventDefault();
                     e.stopPropagation();
                     
-                    const parent = this.closest('.nav-dropdown');
-                    const content = parent.querySelector('.dropdown-content');
+                    const dropdownId = this.getAttribute('data-dropdown');
+                    const content = document.getElementById(dropdownId);
+                    
+                    if (!content) return;
                     
                     // অন্য সব ড্রপডাউন বন্ধ
                     document.querySelectorAll('.nav-dropdown .dropdown-content').forEach(d => {
                         if (d !== content) {
-                            d.classList.remove('open');
+                            d.classList.remove('show');
                         }
                     });
                     
                     // টগল
-                    content.classList.toggle('open');
+                    content.classList.toggle('show');
                 });
             });
 
             // ===== বাইরে ক্লিক করলে ড্রপডাউন বন্ধ =====
             document.addEventListener('click', function(e) {
                 // নেভিগেশন ড্রপডাউন
-                document.querySelectorAll('.nav-dropdown .dropdown-content').forEach(content => {
-                    if (!content.closest('.nav-dropdown').contains(e.target)) {
-                        content.classList.remove('open');
+                document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+                    const content = dropdown.querySelector('.dropdown-content');
+                    const btn = dropdown.querySelector('.nav-dropdown-btn');
+                    if (content && btn) {
+                        if (!dropdown.contains(e.target)) {
+                            content.classList.remove('show');
+                        }
                     }
                 });
                 
@@ -366,7 +390,7 @@
                 const userDropdownBtn = document.getElementById('userDropdownBtn');
                 if (userDropdownMenu && userDropdownBtn) {
                     if (!userDropdownBtn.contains(e.target) && !userDropdownMenu.contains(e.target)) {
-                        userDropdownMenu.classList.remove('open');
+                        userDropdownMenu.classList.remove('show');
                     }
                 }
             });
@@ -379,7 +403,7 @@
                 userBtn.addEventListener('click', function(e) {
                     e.preventDefault();
                     e.stopPropagation();
-                    userMenu.classList.toggle('open');
+                    userMenu.classList.toggle('show');
                 });
             }
 
