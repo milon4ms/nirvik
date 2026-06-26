@@ -394,9 +394,6 @@
         // ===== State =====
         let isLoading = false;
         let tempUserInstance = null;
-        
-        // গ্লোবাল ফ্ল্যাগ যা লগআউটের সময় ডিরেক্ট চেক ব্লক করবে
-        window.isLoggingOut = false; 
 
         // ===== বাংলা সংখ্যাকে ইংরেজিতে কনভার্ট করার হেল্পার ফাংশন =====
         function convertBanglaToEnglish(str) {
@@ -607,19 +604,28 @@
             else emailInput.focus();
         });
 
-        // ===== Auth Observer (লুপ কন্ট্রোল ফিক্সড অংশ) =====
+        // ===== Auth Observer (লুপ কন্ট্রোল চূড়ান্ত সমাধান) =====
         firebase.auth().onAuthStateChanged((user) => {
-            // যদি সিস্টেমে বর্তমানে লগআউট রিকোয়েস্ট একটিভ থাকে, তবে কোনো অটো-লগইন বা রিডাইরেক্ট হবে না
-            if (window.isLoggingOut) {
-                console.log("লগআউট চলমান... অনুমতি পরীক্ষা বন্ধ রাখা হলো।");
-                return;
+            // ১. পেজ রিলোড হলেও ব্রাউজার মেমোরি (localStorage) থেকে লগআউট স্ট্যাটাস চেক করা হচ্ছে
+            const checkLoggingOut = localStorage.getItem('isLoggingOut');
+
+            if (checkLoggingOut === 'true') {
+                console.log("সফলভাবে লগআউট সনাক্ত করা হয়েছে। অটো-লগইন ব্লক করা হলো।");
+                
+                // ২. ফায়ারবেসের স্বয়ংক্রিয় রিডাইরেক্ট লুপ চিরতরে ব্রেক করতে সেশন টোকেন ফোর্স ক্লিয়ার
+                localStorage.removeItem('isLoggingOut'); 
+                
+                // লগআউট প্রসেস চলাকালীন কোড এক্সিকিউশন এখানেই স্টপ (Return) করে দেওয়া হলো
+                return; 
             }
 
+            // ৩. যদি এটি নরমাল ভিজিট হয় এবং ইউজার ইতিমধ্যে লগইন থাকে, তবেই অটোমেটিক ড্যাশবোর্ডে যাবে
             if (user) {
                 setTimeout(async () => {
                     const currentUser = firebase.auth().currentUser;
-                    // ইউজার এখনো সিস্টেমে লগইন থাকলে এবং পেজটি login.html হলে তবেই ড্যাশবোর্ডে পাঠাবে
-                    if (currentUser && window.location.pathname.includes('login.html') && !window.isLoggingOut) {
+                    const finalCheckOut = localStorage.getItem('isLoggingOut');
+                    
+                    if (currentUser && window.location.pathname.includes('login.html') && finalCheckOut !== 'true') {
                         try {
                             const docSnap = await firebase.firestore().collection('users').doc(currentUser.uid).get();
                             if (docSnap.exists && docSnap.data().phone) {
@@ -629,9 +635,9 @@
                             console.error("লুপ গার্ড চেক ব্যর্থ:", err);
                         }
                     }
-                }, 1000); // ১ সেকেন্ডের সেফটি ডিলে
+                }, 1000); // সেশন রিফ্রেশ হতে ১ সেকেন্ডের নিরাপদ বিরতি
             } else {
-                console.log("ইউজার সম্পূর্ণ লগআউট অবস্থায় আছে।");
+                console.log("কোনো সক্রিয় সেশন নেই। ইউজার লগআউট অবস্থায় আছেন।");
             }
         });
     </script>
