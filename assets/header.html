@@ -118,7 +118,7 @@
                         
                         <a href="forgot-password.html" class="block px-6 py-3 hover:bg-teal-50"><i class="fas fa-key mr-2 text-teal-600"></i>পাসওয়ার্ড ভুলে গেছি</a>
                         <div class="border-t border-gray-100 my-1"></div>
-                        <a href="#" class="block px-6 py-3 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
+                        <a href="#" class="nh-logout-btn block px-6 py-3 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
                     </div>
                 </div>
             </nav>
@@ -187,7 +187,7 @@
 
             <details class="group">
                 <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
-                    <span>🦶 নিচ অঙ্গের রোগ</span>
+                    <span>🦶 niচ অঙ্গের রোগ</span>
                     <span class="text-xs transition-transform group-open:rotate-180">▼</span>
                 </summary>
                 <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
@@ -213,7 +213,7 @@
                     <a href="dashboard-gate.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👤 ড্যাশবোর্ড</a>
                     
                     <a href="forgot-password.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔑 পাসওয়ার্ড ভুলে গেছি</a>
-                    <a href="#" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-red-400 border-t border-teal-800 mt-1 pt-1">🚪 লগ আউট</a>
+                    <a href="#" class="nh-logout-btn px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-red-400 border-t border-teal-800 mt-1 pt-1">🚪 লগ আউট</a>
                 </div>
             </details>
 
@@ -222,6 +222,7 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // মোবাইল মেনু টগল ফাংশনালিটি
             const menuBtn = document.getElementById('mobile-menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
 
@@ -237,6 +238,24 @@
                     }
                 });
             }
+
+            // 🚪 গ্লোবাল লগআউট অ্যাকশন (ভ্যানিলা জেএস দিয়ে ইভেন্ট ডেলিগেশন করা হয়েছে)
+            document.addEventListener('click', function(e) {
+                // পিসি কিংবা মোবাইল যেকোনো লগআউট বাটনে ক্লিক করলেই কাজ করবে
+                if (e.target.closest('.nh-logout-btn')) {
+                    e.preventDefault(); // পেজ টপ স্ক্রোল বা রিলোড বন্ধ করার জন্য
+                    
+                    if (confirm('আপনি কি নিশ্চিতভাবে লগআউট করতে চান?')) {
+                        firebase.auth().signOut().then(() => {
+                            alert('সফলভাবে লগআউট হয়েছে!');
+                            window.location.href = 'login.html'; // সফল হলে লগইন পেজে রিডাইরেক্ট করবে
+                        }).catch((error) => {
+                            console.error("Logout error: ", error);
+                            alert('❌ লগআউট করতে সমস্যা হয়েছে: ' + error.message);
+                        });
+                    }
+                }
+            });
         });
     </script>
 </header>
