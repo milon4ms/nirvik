@@ -17,7 +17,7 @@
             box-shadow: 0 20px 60px rgba(0,0,0,0.15);
             min-width: 220px;
             padding: 8px 0;
-            z-index: 1000;
+            z-index: 9999;
             border: 1px solid #e2e8f0;
         }
         
@@ -93,7 +93,7 @@
             transform: rotate(180deg);
         }
         
-        /* ===== অন্যান্য ড্রপডাউন ===== */
+        /* ===== অন্যান্য ড্রপডাউন (হোভার) ===== */
         .nav-dropdown {
             position: relative;
         }
@@ -249,9 +249,9 @@
                     </div>
                 </div>
 
-                <!-- ===== লগইন ড্রপডাউন (ইউজার ড্রপডাউন) ===== -->
+                <!-- ===== লগইন ড্রপডাউন ===== -->
                 <div class="user-dropdown" id="userDropdownWrapper">
-                    <button class="dropdown-trigger" id="userDropdownBtn">
+                    <button class="dropdown-trigger" id="userDropdownBtn" type="button">
                         <span id="userMenuLabel">লগ ইন</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
@@ -367,32 +367,50 @@
                 });
             }
 
-            // ===== ডেস্কটপ ড্রপডাউন টগল =====
+            // ===== ডেস্কটপ ড্রপডাউন টগল (শক্তিশালী পদ্ধতি) =====
             const dropdownBtn = document.getElementById('userDropdownBtn');
             const dropdownMenu = document.getElementById('userDropdownMenu');
             const dropdownWrapper = document.getElementById('userDropdownWrapper');
 
             if (dropdownBtn && dropdownMenu) {
-                // ক্লিক করলে টগল
+                // ১. বাটনে ক্লিক – টগল
                 dropdownBtn.addEventListener('click', function(e) {
                     e.preventDefault();
                     e.stopPropagation();
-                    dropdownMenu.classList.toggle('open');
-                    this.classList.toggle('open');
+                    
+                    // টগল ক্লাস
+                    const isOpen = dropdownMenu.classList.contains('open');
+                    if (isOpen) {
+                        dropdownMenu.classList.remove('open');
+                        dropdownBtn.classList.remove('open');
+                    } else {
+                        dropdownMenu.classList.add('open');
+                        dropdownBtn.classList.add('open');
+                    }
                 });
 
-                // বাইরে ক্লিক করলে বন্ধ
+                // ২. ড্রপডাউনের ভেতরে ক্লিক করলে বন্ধ না হওয়া
+                dropdownMenu.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                });
+
+                // ৩. ডকুমেন্টে ক্লিক করলে বন্ধ
                 document.addEventListener('click', function(e) {
-                    if (!dropdownWrapper.contains(e.target)) {
+                    if (dropdownWrapper && !dropdownWrapper.contains(e.target)) {
                         dropdownMenu.classList.remove('open');
                         dropdownBtn.classList.remove('open');
                     }
                 });
 
-                // ড্রপডাউনের ভেতরে ক্লিক করলে বন্ধ না হওয়া
-                dropdownMenu.addEventListener('click', function(e) {
-                    e.stopPropagation();
+                // ৪. ESC কী চাপলে বন্ধ
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape' && dropdownMenu.classList.contains('open')) {
+                        dropdownMenu.classList.remove('open');
+                        dropdownBtn.classList.remove('open');
+                    }
                 });
+            } else {
+                console.error('ড্রপডাউন এলিমেন্ট পাওয়া যায়নি!');
             }
 
             // ===== ইউজার UI আপডেট =====
