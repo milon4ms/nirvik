@@ -394,6 +394,9 @@
         // ===== State =====
         let isLoading = false;
         let tempUserInstance = null;
+        
+        // গ্লোবাল ফ্ল্যাগ যা লগআউটের সময় ডিরেক্ট চেক ব্লক করবে
+        window.isLoggingOut = false; 
 
         // ===== বাংলা সংখ্যাকে ইংরেজিতে কনভার্ট করার হেল্পার ফাংশন =====
         function convertBanglaToEnglish(str) {
@@ -606,13 +609,17 @@
 
         // ===== Auth Observer (লুপ কন্ট্রোল ফিক্সড অংশ) =====
         firebase.auth().onAuthStateChanged((user) => {
-            // যদি ইউজার সেশন রিয়েল-টাইমে পাওয়া যায়
+            // যদি সিস্টেমে বর্তমানে লগআউট রিকোয়েস্ট একটিভ থাকে, তবে কোনো অটো-লগইন বা রিডাইরেক্ট হবে না
+            if (window.isLoggingOut) {
+                console.log("লগআউট চলমান... অনুমতি পরীক্ষা বন্ধ রাখা হলো।");
+                return;
+            }
+
             if (user) {
-                // ১ সেকেন্ড অপেক্ষা করা হচ্ছে নিশ্চিত হতে এটি কোনো লগআউট ইভেন্টের ঠিক পরপরই ঘটছে না
                 setTimeout(async () => {
-                    // পুনরায় চেক করা হচ্ছে যে সেশনটি এখনো টিকে আছে কিনা
                     const currentUser = firebase.auth().currentUser;
-                    if (currentUser && window.location.pathname.includes('login.html')) {
+                    // ইউজার এখনো সিস্টেমে লগইন থাকলে এবং পেজটি login.html হলে তবেই ড্যাশবোর্ডে পাঠাবে
+                    if (currentUser && window.location.pathname.includes('login.html') && !window.isLoggingOut) {
                         try {
                             const docSnap = await firebase.firestore().collection('users').doc(currentUser.uid).get();
                             if (docSnap.exists && docSnap.data().phone) {
@@ -624,7 +631,7 @@
                     }
                 }, 1000); // ১ সেকেন্ডের সেফটি ডিলে
             } else {
-                console.log("ইউজার সম্পূর্ণ লগআউট অবস্থায় আছে। কোনো লুপ হবে না।");
+                console.log("ইউজার সম্পূর্ণ লগআউট অবস্থায় আছে।");
             }
         });
     </script>
