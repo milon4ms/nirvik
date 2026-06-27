@@ -75,11 +75,10 @@
         .dark-hero-section {
             background: linear-gradient(135deg, #022c22, #064e3b);
             color: white;
-            padding: 20px 16px;
+            padding: 24px 16px;
             border-bottom: 4px solid #10b981;
         }
 
-        /* আরও ছোট সাইজের কমপ্যাক্ট কার্ড */
         .premium-card {
             background: linear-gradient(135deg, #064e3b, #0f766e);
             color: white;
@@ -96,7 +95,6 @@
             box-shadow: 0 2px 8px rgba(15, 23, 42, 0.1);
         }
         
-        /* ছোট ও কমপ্যাক্ট কালারফুল বাটন লিস্ট স্টাইল */
         .list-btn {
             display: inline-flex;
             align-items: center;
@@ -121,16 +119,44 @@
 
     <div id="header-placeholder"></div>
 
-    <!-- হিরো সেকশন -->
+    <!-- হিরো ব্যানার সেকশন -->
     <div class="dark-hero-section">
-        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-            <div>
-                <h1 class="text-2xl font-bold text-emerald-400">
-                    <i class="fas fa-user-md mr-2"></i>স্বাগতম, <span id="userName" class="text-white">ইউজার</span>!
-                </h1>
-                <p class="text-emerald-200 text-xs mt-0.5">নির্বিক হোমিও প্রিমিয়াম মেম্বারশিপ ড্যাশবোর্ড</p>
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+            
+            <!-- বাম দিক: স্বাগতম, টাইটেল এবং প্রোফাইল তথ্য -->
+            <div class="md:col-span-7 space-y-2">
+                <div class="flex items-center gap-3">
+                    <h1 class="text-2xl font-bold text-emerald-400">
+                        <i class="fas fa-user-md mr-1"></i>স্বাগতম, <span id="userName" class="text-white">ইউজার</span>!
+                    </h1>
+                    <div id="badgeContainer"></div>
+                </div>
+                <p class="text-emerald-200 text-xs font-semibold">নির্বিক হোমিও প্রিমিয়াম মেম্বারশিপ ড্যাশবোর্ড</p>
+                
+                <!-- ডাইনামিক প্রোফাইল তথ্যের লাইন -->
+                <div class="flex flex-wrap items-center gap-x-4 gap-y-1 pt-1.5 border-t border-emerald-800/60 text-slate-300 text-[11px]">
+                    <span class="flex items-center gap-1.5"><i class="fas fa-phone text-emerald-400"></i> <span id="userPhone">-</span></span>
+                    <span class="flex items-center gap-1.5"><i class="fas fa-envelope text-emerald-400"></i> <span id="userEmail">-</span></span>
+                    <span class="flex items-center gap-1.5"><i class="fas fa-user-plus text-emerald-400"></i> যুক্ত হয়েছেন: <span id="startDateFull">-</span></span>
+                </div>
             </div>
-            <div id="badgeContainer"></div>
+            
+            <!-- ডান দিক: এডমিন সাপোর্ট সেন্টার -->
+            <div class="md:col-span-5 bg-emerald-950/40 border border-emerald-800/40 rounded-xl p-3 text-slate-200 text-xs md:justify-self-end w-full md:w-auto min-w-[280px]">
+                <h3 class="font-bold text-emerald-400 border-b border-emerald-900 pb-1 mb-1.5 flex items-center gap-1.5">
+                    <i class="fas fa-headset"></i> এডমিন সাপোর্ট সেন্টার
+                </h3>
+                <div class="space-y-1 text-[11px]">
+                    <p><i class="fas fa-phone-alt text-emerald-400 mr-1"></i> <b>কল করুন:</b> 01722855738</p>
+                    <p class="overflow-hidden text-ellipsis"><i class="fas fa-envelope text-emerald-400 mr-1"></i> <b>ইমেইল:</b> milon4ms@yahoo.com</p>
+                    <div class="pt-1">
+                        <a href="https://wa.me/8801722855738" target="_blank" class="inline-flex items-center gap-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-2 py-0.5 rounded text-[10px] transition shadow-sm">
+                            <i class="fab fa-whatsapp text-sm"></i> হোয়াটসঅ্যাপে মেসেজ দিন
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -138,7 +164,7 @@
     <div class="max-w-7xl mx-auto px-4 py-6">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
             
-            <!-- বাম কলাম: তথ্য ও স্ট্যাটাস কার্ডসমূহ -->
+            <!-- বাম কলাম: ৩টি ছোট কার্ড ও পেমেন্ট সেন্টার -->
             <div class="lg:col-span-4 space-y-4">
                 
                 <!-- ১. মোট জমা টাকা -->
@@ -177,7 +203,7 @@
                     </div>
                 </div>
 
-                <!-- ৪. নতুন কার্ড: ফি পরিশোধের লিংক বাটন -->
+                <!-- ৪. ফি পরিশোধের লিংক বাটন কার্ড -->
                 <div class="bg-gradient-to-r from-amber-500 to-orange-600 rounded-xl p-3 shadow-md border border-amber-400 flex flex-col justify-between text-white">
                     <div class="flex items-center gap-2 mb-2">
                         <i class="fas fa-credit-card text-sm"></i>
@@ -188,38 +214,11 @@
                         <i class="fas fa-sync-alt"></i> ফি পরিশোধ করুন (Pay/Renew)
                     </a>
                 </div>
-
-                <!-- ৫. নতুন কার্ড: ইউজারের পার্সোনাল প্রোফাইল তথ্য -->
-                <div class="bg-white rounded-xl p-3.5 shadow-sm border border-slate-200/80 space-y-2 text-slate-700">
-                    <h3 class="text-xs font-bold text-slate-800 border-b border-slate-100 pb-1.5 flex items-center gap-1.5">
-                        <i class="fas fa-id-card text-emerald-600"></i> আপনার প্রোফাইল তথ্য
-                    </h3>
-                    <div class="text-[11px] space-y-1">
-                        <p class="flex items-center gap-2"><i class="fas fa-phone text-slate-400 w-3.5 text-center"></i> <b>ফোন:</b> <span id="userPhone">-</span></p>
-                        <p class="flex items-center gap-2 overflow-hidden text-ellipsis"><i class="fas fa-envelope text-slate-400 w-3.5 text-center"></i> <b>ইমেইল:</b> <span id="userEmail">-</span></p>
-                        <p class="flex items-center gap-2"><i class="fas fa-user-plus text-slate-400 w-3.5 text-center"></i> <b>যুক্ত হয়েছেন:</b> <span id="startDateFull">-</span></p>
-                    </div>
-                </div>
-
-                <!-- ৬. নতুন কার্ড: এডমিন বা টেকনিক্যাল সাপোর্ট যোগাযোগ -->
-                <div class="bg-emerald-50 rounded-xl p-3.5 shadow-sm border border-emerald-100 space-y-2 text-slate-700">
-                    <h3 class="text-xs font-bold text-emerald-800 border-b border-emerald-200 pb-1.5 flex items-center gap-1.5">
-                        <i class="fas fa-headset text-emerald-600"></i> এডমিন সাপোর্ট সেন্টার
-                    </h3>
-                    <div class="text-[11px] space-y-1.5">
-                        <p class="flex items-center gap-2"><i class="fas fa-phone-alt text-emerald-600 w-3.5 text-center"></i> <b>কল করুন:</b> 017XXXXXXXX</p>
-                        <p class="flex items-center gap-2"><i class="fas fa-envelope text-emerald-600 w-3.5 text-center"></i> <b>ইমেইল:</b> support@nirvik.com</p>
-                        <a href="https://wa.me/88017XXXXXXXX" target="_blank" class="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-2 py-1 rounded text-[10px] mt-1 transition shadow-sm">
-                            <i class="fab fa-whatsapp text-sm"></i> হোয়াটসঅ্যাপে মেসেজ দিন
-                        </a>
-                    </div>
-                </div>
             </div>
 
             <!-- ডান কলাম: সুবিধার বাটনসমূহ -->
             <div class="lg:col-span-8 bg-white rounded-xl p-5 shadow-sm border border-slate-100 space-y-5">
                 
-                <!-- মূল গ্লোবাল শিরোনাম -->
                 <div class="border-b border-slate-100 pb-2">
                     <h2 class="text-base font-bold text-slate-800 flex items-center gap-2">
                         <i class="fas fa-gem text-amber-500 animate-pulse"></i> প্রিমিয়াম মেম্বার হিসাবে যেসকল পেজ ব্যবহার করতে পারবেন:
@@ -370,9 +369,9 @@
             document.getElementById('userName').textContent = data.name || 'ইউজার';
             document.getElementById('paymentAmount').textContent = data.paymentAmount || '০';
             
-            // প্রোফাইল কার্ডের ডাইনামিক ডেটা লোড
-            document.getElementById('userPhone').textContent = data.phone || authUser.phoneNumber || 'যুক্ত নেই';
-            document.getElementById('userEmail').textContent = data.email || authUser.email || 'যুক্ত নেই';
+            // হিরো ব্যানারের ভেতর প্রফাইল ইনফো সেটআপ
+            document.getElementById('userPhone').textContent = data.phone || authUser.phoneNumber || 'ফোন: যুক্ত নেই';
+            document.getElementById('userEmail').textContent = data.email || authUser.email || 'ইমেইল: যুক্ত নেই';
             
             const joinDate = data.accessStartDate || 'যুক্ত নেই';
             document.getElementById('startDateFull').textContent = formatDateToBangla(joinDate);
