@@ -54,23 +54,31 @@
     <style>
         body { 
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
-            background: #022c22; /* হেডার এর নিচে পুরো ব্যাকগ্রাউন্ড কুচকুচে গাঢ় সবুজ করা হয়েছে */
+            background: #f4f7f6; 
             min-height: 100vh;
-            color: #f1f5f9;
+            color: #1e293b;
         }
         
+        .dark-hero-section {
+            background: #022c22;
+            color: white;
+            padding: 32px 16px;
+            border-bottom: 4px solid #059669;
+        }
+
         .stat-card {
-            background: #044e3e; /* কার্ডের ব্যাকগ্রাউন্ড ও ডার্ক করা হয়েছে */
+            background: #022c22; 
+            color: white;
             border-radius: 16px;
             padding: 24px;
-            box-shadow: 0 4px 25px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
             transition: all 0.3s;
             border: 1px solid #065f46;
         }
         
         .stat-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 8px 35px rgba(0,0,0,0.5);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
         }
         
         .stat-icon {
@@ -84,11 +92,11 @@
         }
         
         .table-container {
-            background: #044e3e; /* টেবিল কন্টেইনার ও ডার্ক করা হয়েছে */
+            background: white;
             border-radius: 16px;
             padding: 20px;
-            box-shadow: 0 4px 25px rgba(0,0,0,0.3);
-            border: 1px solid #065f46;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
             overflow-x: auto;
         }
         
@@ -99,172 +107,136 @@
         
         th {
             text-align: left;
-            padding: 12px 16px;
-            background: #064e3b;
+            padding: 12px 10px;
+            background: #f8fafc;
             font-weight: 600;
-            color: #34d399; /* টেবিল হেডার টেক্সট এখন উজ্জ্বল সবুজ */
-            border-bottom: 2px solid #065f46;
+            color: #0f172a;
+            border-bottom: 2px solid #e2e8f0;
+            font-size: 14px;
         }
         
         td {
-            padding: 12px 16px;
-            border-bottom: 1px solid #065f46;
-            color: #e2e8f0; /* টেবিলের ভেতরের সব লেখা এখন উজ্জ্বল সাদাটে */
+            padding: 10px 10px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #334155;
+            font-size: 14px;
         }
         
         tr:hover {
-            background: #064e3b;
+            background: #f8fafc;
+        }
+
+        .table-input {
+            width: 100%;
+            padding: 6px 8px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 13px;
+            background-color: #fff;
+            color: #0f172a;
+            transition: border-color 0.2s;
+        }
+        .table-input:focus {
+            outline: none;
+            border-color: #059669;
+        }
+        .readonly-input {
+            background-color: #f1f5f9;
+            color: #64748b;
+            cursor: not-allowed;
         }
         
         .status-badge {
-            padding: 4px 12px;
+            padding: 4px 10px;
             border-radius: 20px;
-            font-size: 12px;
+            font-size: 11px;
             font-weight: 600;
+            display: inline-block;
         }
         
-        .status-active {
-            background: #065f46;
-            color: #34d399;
-        }
-        
-        .status-inactive {
-            background: #7f1d1d;
-            color: #fca5a5;
-        }
-        
-        .status-pending {
-            background: #78350f;
-            color: #fcd34d;
-        }
+        .status-active { background: #dcfce7; color: #166534; }
+        .status-inactive { background: #fee2e2; color: #991b1b; }
+        .status-pending { background: #fef3c7; color: #92400e; }
         
         .btn-action {
             padding: 6px 12px;
-            border-radius: 8px;
-            font-size: 13px;
+            border-radius: 6px;
+            font-size: 12px;
             transition: all 0.2s;
-            border: none;
             cursor: pointer;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
         }
-        
-        .btn-action:hover {
-            transform: scale(1.05);
-        }
-        
-        .btn-edit {
-            background: #065f46;
-            color: #34d399;
-        }
-        
-        .btn-edit:hover {
-            background: #047857;
-        }
-        
-        .btn-delete {
-            background: #7f1d1d;
-            color: #fca5a5;
-        }
-        
-        .btn-delete:hover {
-            background: #991b1b;
-        }
-        
-        .btn-view {
-            background: #1e3a8a;
-            color: #93c5fd;
-        }
-        
-        .btn-view:hover {
-            background: #1e40af;
-        }
-        
-        @media (max-width: 640px) {
-            .stat-card { padding: 16px; }
-            .stat-icon { width: 40px; height: 40px; font-size: 18px; }
-            .table-container { padding: 12px; }
-            th, td { padding: 8px 12px; font-size: 14px; }
-        }
-        
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .fade-in { animation: fadeInUp 0.5s ease-out; }
-        .delay-1 { animation-delay: 0.1s; }
-        .delay-2 { animation-delay: 0.2s; }
-        .delay-3 { animation-delay: 0.3s; }
-        .delay-4 { animation-delay: 0.4s; }
+        .btn-save { background: #059669; color: white; }
+        .btn-save:hover { background: #047857; }
+        .btn-delete { background: #ef4444; color: white; }
+        .btn-delete:hover { background: #dc2626; }
     </style>
 </head>
 <body>
 
-    <!-- ===== হেডার ===== -->
     <div id="header-placeholder"></div>
 
-    <!-- ===== অ্যাডমিন ড্যাশবোর্ড কন্টেন্ট ===== -->
+    <div class="dark-hero-section">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="fade-in">
+                <h1 class="text-3xl font-bold text-emerald-400">
+                    <i class="fas fa-shield-alt mr-3"></i>অ্যাডমিন ড্যাশবোর্ড
+                </h1>
+                <p class="text-emerald-200 mt-1">ইউজার এক্সেস, পেমেন্ট ও মেয়াদ নিয়ন্ত্রণ করুন</p>
+            </div>
+        </div>
+    </div>
+
     <div class="max-w-7xl mx-auto px-4 py-8">
         
-        <!-- শিরোনাম -->
-        <div class="mb-8 fade-in">
-            <h1 class="text-3xl font-bold text-teal-400">
-                <i class="fas fa-shield-alt text-teal-400 mr-3"></i>অ্যাডমিন ড্যাশবোর্ড
-            </h1>
-            <p class="text-emerald-300 mt-1">সকল ইউজার, অর্ডার ও সিস্টেম মনিটর করুন</p>
-        </div>
-
         <!-- স্ট্যাটিস্টিক্স কার্ডসমূহ -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            <!-- মোট ইউজার -->
-            <div class="stat-card fade-in delay-1">
+            <div class="stat-card fade-in">
                 <div class="flex items-center justify-between">
                     <div>
-                        <p class="text-emerald-300 text-sm">মোট ইউজার</p>
-                        <p class="text-3xl font-bold text-white" id="totalUsers">০</p>
-                        <p class="text-xs text-emerald-400/70 mt-1">সকল রেজিস্টার্ড ইউজার</p>
+                        <p class="text-emerald-200 text-sm">মোট ইউজার</p>
+                        <p class="text-3xl font-bold" id="totalUsers">০</p>
                     </div>
-                    <div class="stat-icon bg-emerald-950/50 text-emerald-400">
+                    <div class="stat-icon bg-emerald-900/50 text-emerald-400">
                         <i class="fas fa-users"></i>
                     </div>
                 </div>
             </div>
             
-            <!-- পেইড ইউজার -->
-            <div class="stat-card fade-in delay-2">
+            <div class="stat-card fade-in">
                 <div class="flex items-center justify-between">
                     <div>
-                        <p class="text-emerald-300 text-sm">পেইড ইউজার</p>
-                        <p class="text-3xl font-bold text-white" id="paidUsers">০</p>
-                        <p class="text-xs text-emerald-400/70 mt-1">প্রিমিয়াম সদস্য</p>
+                        <p class="text-emerald-200 text-sm">পেইড ইউজার</p>
+                        <p class="text-3xl font-bold" id="paidUsers">০</p>
                     </div>
-                    <div class="stat-icon bg-emerald-950/50 text-yellow-400">
+                    <div class="stat-icon bg-emerald-900/50 text-yellow-400">
                         <i class="fas fa-crown"></i>
                     </div>
                 </div>
             </div>
             
-            <!-- ফ্রি ইউজার -->
-            <div class="stat-card fade-in delay-3">
+            <div class="stat-card fade-in">
                 <div class="flex items-center justify-between">
                     <div>
-                        <p class="text-emerald-300 text-sm">ফ্রি ইউজার</p>
-                        <p class="text-3xl font-bold text-white" id="freeUsers">০</p>
-                        <p class="text-xs text-emerald-400/70 mt-1">বিনামূল্যে সদস্য</p>
+                        <p class="text-emerald-200 text-sm">ফ্রি ইউজার</p>
+                        <p class="text-3xl font-bold" id="freeUsers">০</p>
                     </div>
-                    <div class="stat-icon bg-emerald-950/50 text-blue-400">
+                    <div class="stat-icon bg-emerald-900/50 text-blue-400">
                         <i class="fas fa-user"></i>
                     </div>
                 </div>
             </div>
             
-            <!-- মোট অর্ডার -->
-            <div class="stat-card fade-in delay-4">
+            <div class="stat-card fade-in">
                 <div class="flex items-center justify-between">
                     <div>
-                        <p class="text-emerald-300 text-sm">মোট অর্ডার</p>
-                        <p class="text-3xl font-bold text-white" id="totalOrders">০</p>
-                        <p class="text-xs text-emerald-400/70 mt-1">সকল অর্ডার</p>
+                        <p class="text-emerald-200 text-sm">মোট অর্ডার</p>
+                        <p class="text-3xl font-bold" id="totalOrders">০</p>
                     </div>
-                    <div class="stat-icon bg-emerald-950/50 text-purple-400">
+                    <div class="stat-icon bg-emerald-900/50 text-purple-400">
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                 </div>
@@ -273,66 +245,63 @@
 
         <!-- চার্ট ও কুইক অ্যাকশন -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
-            <!-- চার্ট -->
             <div class="lg:col-span-2 table-container fade-in">
-                <h3 class="text-lg font-semibold text-emerald-300 mb-4">
-                    <i class="fas fa-chart-bar text-teal-400 mr-2"></i>ইউজার গ্রোথ
+                <h3 class="text-lg font-semibold text-gray-800 mb-4">
+                    <i class="fas fa-chart-bar text-emerald-600 mr-2"></i>ইউজার গ্রোথ
                 </h3>
-                <canvas id="userGrowthChart" height="200"></canvas>
+                <canvas id="userGrowthChart" height="180"></canvas>
             </div>
             
-            <!-- কুইক অ্যাকশন -->
             <div class="table-container fade-in">
-                <h3 class="text-lg font-semibold text-emerald-300 mb-4">
-                    <i class="fas fa-bolt text-teal-400 mr-2"></i>কুইক অ্যাকশন
+                <h3 class="text-lg font-semibold text-gray-800 mb-4">
+                    <i class="fas fa-bolt text-emerald-600 mr-2"></i>কুইক অ্যাকশন
                 </h3>
                 <div class="space-y-3">
-                    <button onclick="window.location.href='register.html'" class="w-full bg-teal-600 text-white px-4 py-3 rounded-xl hover:bg-teal-700 transition flex items-center justify-center gap-2 font-medium">
+                    <button onclick="window.location.href='register.html'" class="w-full bg-emerald-600 text-white px-4 py-2.5 rounded-xl hover:bg-emerald-700 transition flex items-center justify-center gap-2 font-medium">
                         <i class="fas fa-user-plus"></i> নতুন ইউজার যোগ করুন
                     </button>
-                    <button onclick="window.location.href='manage-users.html'" class="w-full bg-emerald-600 text-white px-4 py-3 rounded-xl hover:bg-emerald-700 transition flex items-center justify-center gap-2 font-medium">
+                    <button onclick="window.location.href='manage-users.html'" class="w-full bg-slate-700 text-white px-4 py-2.5 rounded-xl hover:bg-slate-800 transition flex items-center justify-center gap-2 font-medium">
                         <i class="fas fa-users-cog"></i> ইউজার ম্যানেজ
                     </button>
-                    <button onclick="window.location.href='medica/index.html'" class="w-full bg-teal-700 text-white px-4 py-3 rounded-xl hover:bg-teal-800 transition flex items-center justify-center gap-2 font-medium">
+                    <button onclick="window.location.href='medica/index.html'" class="w-full bg-teal-700 text-white px-4 py-2.5 rounded-xl hover:bg-teal-800 transition flex items-center justify-center gap-2 font-medium">
                         <i class="fas fa-book-medical"></i> মেডিকা এডিট
-                    </button>
-                    <button onclick="window.location.href='index.html'" class="w-full bg-zinc-700 text-white px-4 py-3 rounded-xl hover:bg-zinc-600 transition flex items-center justify-center gap-2 font-medium">
-                        <i class="fas fa-home"></i> হোম পেজ
                     </button>
                 </div>
             </div>
         </div>
 
-        <!-- ইউজার লিস্ট টেবিল -->
+        <!-- ইউজার টেবিল -->
         <div class="table-container fade-in">
-            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-3">
-                <h3 class="text-lg font-semibold text-emerald-300">
-                    <i class="fas fa-list text-teal-400 mr-2"></i>সকল ইউজার লিস্ট
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-3">
+                <h3 class="text-lg font-semibold text-gray-800">
+                    <i class="fas fa-list text-emerald-600 mr-2"></i>ইউজার পেমেন্ট ও মেয়াদ লিস্ট
                 </h3>
                 <div class="flex gap-2 w-full sm:w-auto">
-                    <input type="text" id="searchUser" placeholder="ইউজার সার্চ করুন..." class="flex-1 sm:w-48 px-4 py-2 bg-emerald-950 border border-emerald-800 text-white rounded-lg focus:outline-none focus:border-teal-400 text-sm placeholder-emerald-600">
-                    <button onclick="loadDashboardData()" class="bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition text-sm">
+                    <input type="text" id="searchUser" placeholder="নাম বা ইমেইল দিয়ে সার্চ..." class="flex-1 sm:w-64 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-emerald-600 text-sm">
+                    <button onclick="loadDashboardData()" class="bg-emerald-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition text-sm">
                         <i class="fas fa-sync-alt"></i>
                     </button>
                 </div>
             </div>
             
-            <div id="usersTableWrapper">
-                <table>
+            <div class="overflow-x-auto">
+                <table class="min-w-full">
                     <thead>
                         <tr>
-                            <th>#</th>
-                            <th>নাম</th>
-                            <th>ইমেইল</th>
-                            <th>রোল</th>
-                            <th>স্ট্যাটাস</th>
-                            <th>অ্যাকশন</th>
+                            <th style="width: 5%">#</th>
+                            <th style="width: 17%">নাম ও ইমেইল</th>
+                            <th style="width: 15%">ফোন নম্বর</th>
+                            <th style="width: 12%">টাকার পরিমাণ</th>
+                            <th style="width: 14%">শুরুর তারিখ</th>
+                            <th style="width: 14%">মেয়াদ শেষ (অটো)</th>
+                            <th style="width: 10%">স্ট্যাটাস</th>
+                            <th style="width: 13%">অ্যাকশন</th>
                         </tr>
                     </thead>
                     <tbody id="usersTableBody">
                         <tr>
-                            <td colspan="6" class="text-center text-emerald-400 py-8">
-                                <i class="fas fa-spinner fa-spin mr-2"></i>লোড হচ্ছে...
+                            <td colspan="8" class="text-center text-gray-400 py-8">
+                                <i class="fas fa-spinner fa-spin mr-2"></i>ইউজার ডেটা লোড হচ্ছে...
                             </td>
                         </tr>
                     </tbody>
@@ -341,34 +310,20 @@
         </div>
     </div>
 
-    <!-- ===== ফুটার ===== -->
     <div id="footer-placeholder"></div>
 
     <script>
-        // ===== হেডার/ফুটার লোড =====
         $(function() {
-            $('#header-placeholder').load('assets/header.html', function() {
-                const btn = document.getElementById('mobile-menu-btn');
-                const menu = document.getElementById('mobile-menu');
-                if (btn && menu) {
-                    btn.addEventListener('click', function() {
-                        menu.classList.toggle('hidden');
-                        btn.innerHTML = menu.classList.contains('hidden') 
-                            ? '<i class="fas fa-bars"></i>' 
-                            : '<i class="fas fa-times"></i>';
-                    });
-                }
-            });
+            $('#header-placeholder').load('assets/header.html');
             $('#footer-placeholder').load('assets/footer.html');
         });
 
-        // ===== ড্যাশবোর্ড ডাটা লোড =====
         async function loadDashboardData() {
             try {
                 const db = firebase.firestore();
-                
                 const usersSnapshot = await db.collection('users').get();
                 const users = [];
+                
                 usersSnapshot.forEach(doc => {
                     users.push({ id: doc.id, ...doc.data() });
                 });
@@ -392,28 +347,21 @@
                 renderChart(users);
                 
             } catch (error) {
-                console.error('Error loading dashboard data:', error);
+                console.error('Error:', error);
                 document.getElementById('usersTableBody').innerHTML = `
                     <tr>
-                        <td colspan="6" class="text-center text-red-400 py-8">
-                            <i class="fas fa-exclamation-circle mr-2"></i>ডাটা লোড করতে সমস্যা হয়েছে
+                        <td colspan="8" class="text-center text-red-500 py-8">
+                            <i class="fas fa-exclamation-circle mr-2"></i>ডাটা লোড করতে সমস্যা হয়েছে।
                         </td>
                     </tr>
                 `;
             }
         }
 
-        // ===== ইউজার টেবিল রেন্ডার =====
         function renderUsersTable(users) {
             const tbody = document.getElementById('usersTableBody');
             if (users.length === 0) {
-                tbody.innerHTML = `
-                    <tr>
-                        <td colspan="6" class="text-center text-emerald-500 py-8">
-                            <i class="fas fa-user-slash mr-2"></i>কোন ইউজার পাওয়া যায়নি
-                        </td>
-                    </tr>
-                `;
+                tbody.innerHTML = `<tr><td colspan="8" class="text-center text-gray-400 py-8">কোন ইউজার পাওয়া যায়নি</td></tr>`;
                 return;
             }
             
@@ -422,28 +370,39 @@
                 const statusClass = user.isPaid ? 'status-active' : 'status-inactive';
                 const statusText = user.isPaid ? 'পেইড' : 'ফ্রি';
                 
+                const phone = user.phone || '';
+                const amount = user.paymentAmount || '';
+                const startDate = user.accessStartDate || '';
+                const endDate = user.accessEndDate || '';
+                
                 html += `
-                    <tr>
-                        <td class="text-emerald-400 font-bold">${index + 1}</td>
-                        <td class="font-medium text-white">${user.name || 'নাম নেই'}</td>
-                        <td class="text-slate-300">${user.email || 'ইমেইল নেই'}</td>
+                    <tr id="row-${user.id}">
+                        <td>${index + 1}</td>
                         <td>
-                            <span class="status-badge ${user.role === 'admin' ? 'status-active' : 'status-pending'}">
-                                ${user.role || 'general'}
-                            </span>
+                            <div class="font-semibold text-gray-900">${user.name || 'নাম নেই'}</div>
+                            <div class="text-xs text-gray-500">${user.email || ''}</div>
+                        </td>
+                        <td>
+                            <input type="tel" id="phone-${user.id}" value="${phone}" placeholder="017xxxxxxxx" class="table-input">
+                        </td>
+                        <td>
+                            <input type="number" id="amount-${user.id}" value="${amount}" placeholder="টাকা" class="table-input" oninput="calculateExpiry('${user.id}')">
+                        </td>
+                        <td>
+                            <input type="date" id="start-${user.id}" value="${startDate}" class="table-input" onchange="calculateExpiry('${user.id}')">
+                        </td>
+                        <td>
+                            <input type="date" id="end-${user.id}" value="${endDate}" class="table-input readonly-input" readonly>
                         </td>
                         <td>
                             <span class="status-badge ${statusClass}">${statusText}</span>
                         </td>
                         <td>
-                            <div class="flex gap-2">
-                                <button onclick="editUser('${user.id}')" class="btn-action btn-edit" title="এডিট">
-                                    <i class="fas fa-edit"></i>
+                            <div class="flex gap-1.5">
+                                <button onclick="saveUserAccess('${user.id}')" class="btn-action btn-save">
+                                    <i class="fas fa-save"></i> সেভ
                                 </button>
-                                <button onclick="viewUser('${user.id}')" class="btn-action btn-view" title="প্রোফাইল">
-                                    <i class="fas fa-eye"></i>
-                                </button>
-                                <button onclick="deleteUser('${user.id}')" class="btn-action btn-delete" title="ডিলিট">
+                                <button onclick="deleteUser('${user.id}')" class="btn-action btn-delete">
                                     <i class="fas fa-trash"></i>
                                 </button>
                             </div>
@@ -454,66 +413,96 @@
             tbody.innerHTML = html;
         }
 
-        // ===== চার্ট রেন্ডার (ডার্ক থিম ম্যাচিং) =====
+        function calculateExpiry(userId) {
+            const amountInput = document.getElementById(`amount-${userId}`).value;
+            const startInput = document.getElementById(`start-${userId}`).value;
+            const endInput = document.getElementById(`end-${userId}`);
+            
+            if (!amountInput || !startInput) {
+                endInput.value = '';
+                return;
+            }
+            
+            const amount = parseFloat(amountInput);
+            if (amount <= 0) {
+                endInput.value = '';
+                return;
+            }
+            
+            const daysTo_add = Math.floor((amount / 50) * 30);
+            const startDate = new Date(startInput);
+            startDate.setDate(startDate.getDate() + daysTo_add);
+            
+            const year = startDate.getFullYear();
+            const month = String(startDate.getMonth() + 1).padStart(2, '0');
+            const day = String(startDate.getDate()).padStart(2, '0');
+            
+            endInput.value = `${year}-${month}-${day}`;
+        }
+
+        async function saveUserAccess(userId) {
+            const phone = document.getElementById(`phone-${userId}`).value;
+            const amount = document.getElementById(`amount-${userId}`).value;
+            const startDate = document.getElementById(`start-${userId}`).value;
+            const endDate = document.getElementById(`end-${userId}`).value;
+            
+            const isPaid = amount > 0 ? true : false;
+            
+            try {
+                await firebase.firestore().collection('users').doc(userId).update({
+                    phone: phone,
+                    paymentAmount: amount ? parseFloat(amount) : 0,
+                    accessStartDate: startDate,
+                    accessEndDate: endDate,
+                    isPaid: isPaid
+                });
+                
+                alert('ইউজার ডাটা সফলভাবে ফায়ারবেসে সেভ করা হয়েছে!');
+                loadDashboardData(); 
+            } catch (error) {
+                alert('সেভ করতে সমস্যা হয়েছে: ' + error.message);
+            }
+        }
+
+        async function deleteUser(userId) {
+            if (!confirm('আপনি কি নিশ্চিতভাবে এই ইউজারকে মুছে ফেলতে চান?')) return;
+            try {
+                await firebase.firestore().collection('users').doc(userId).delete();
+                alert('ইউজার ডিলিট করা হয়েছে!');
+                loadDashboardData();
+            } catch (error) {
+                alert('ডিলিট ব্যর্থ হয়েছে: ' + error.message);
+            }
+        }
+
         function renderChart(users) {
             const chartCanvas = document.getElementById('userGrowthChart');
             if (!chartCanvas) return;
             const ctx = chartCanvas.getContext('2d');
             
             const months = ['জানু', 'ফেব্রু', 'মার্চ', 'এপ্রিল', 'মে', 'জুন', 'জুলাই', 'আগস্ট', 'সেপ্ট', 'অক্টো', 'নভে', 'ডিসে'];
-            const userCounts = [];
-            let count = 0;
-            for (let i = 0; i < 12; i++) {
-                count += Math.floor(Math.random() * 5) + 1;
-                userCounts.push(count);
-            }
+            const userCounts = [5, 12, 18, 25, 32, users.length, users.length, users.length, users.length, users.length, users.length, users.length];
             
             new Chart(ctx, {
                 type: 'line',
                 data: {
                     labels: months,
                     datasets: [{
-                        label: 'মোট ইউজার',
+                        label: 'ইউজার সংখ্যা',
                         data: userCounts,
-                        borderColor: '#34d399',
-                        backgroundColor: 'rgba(52, 211, 153, 0.1)',
-                        borderWidth: 3,
+                        borderColor: '#059669',
+                        backgroundColor: 'rgba(5, 150, 105, 0.05)',
+                        borderWidth: 2,
                         fill: true,
-                        tension: 0.4
+                        tension: 0.3
                     }]
                 },
                 options: {
                     responsive: true,
-                    plugins: { 
-                        legend: { display: false } 
-                    },
-                    scales: { 
-                        y: { 
-                            beginAtZero: true, 
-                            grid: { color: 'rgba(6, 95, 70, 0.2)' },
-                            ticks: { color: '#a7f3d0', stepSize: 5 } 
-                        },
-                        x: {
-                            grid: { display: false },
-                            ticks: { color: '#a7f3d0' }
-                        }
-                    }
+                    plugins: { legend: { display: false } },
+                    scales: { y: { beginAtZero: true } }
                 }
             });
-        }
-
-        function editUser(userId) { window.location.href = `edit-user.html?id=${userId}`; }
-        function viewUser(userId) { window.location.href = `user-profile.html?id=${userId}`; }
-
-        async function deleteUser(userId) {
-            if (!confirm('আপনি কি এই ইউজারকে ডিলিট করতে চান?')) return;
-            try {
-                await firebase.firestore().collection('users').doc(userId).delete();
-                alert('ইউজার ডিলিট করা হয়েছে!');
-                loadDashboardData();
-            } catch (error) {
-                alert('ডিলিট করতে সমস্যা হয়েছে: ' + error.message);
-            }
         }
 
         document.getElementById('searchUser').addEventListener('input', function() {
