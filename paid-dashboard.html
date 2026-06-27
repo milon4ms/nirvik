@@ -56,7 +56,6 @@
             color: #1e293b;
         }
 
-        /* পুরো হেডার বার জুড়ে নিখুঁত গাঢ় কালার ও টেক্সট ফিক্স */
         #header-placeholder {
             background-color: #0f172a !important;
             display: block;
@@ -89,9 +88,6 @@
             border: 1px solid #059669;
             transition: all 0.3s;
         }
-        .premium-card:hover {
-            transform: translateY(-2px);
-        }
 
         .countdown-card {
             background: linear-gradient(135deg, #1e293b, #0f172a);
@@ -102,31 +98,32 @@
             border: 1px solid #334155;
         }
         
+        /* ছোট সাইজের রেসপন্সিভ কার্ডের স্টাইল */
         .feature-card {
             background: white;
-            border-radius: 16px;
-            padding: 16px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            border-radius: 12px;
+            padding: 10px 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
             border: 1px solid #e2e8f0;
             transition: all 0.2s ease;
             cursor: pointer;
         }
         
         .feature-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(5, 150, 105, 0.12);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(5, 150, 105, 0.1);
             border-color: #059669;
         }
         
         .feature-icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 10px;
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 18px;
-            margin-bottom: 10px;
+            font-size: 14px;
+            margin-bottom: 6px;
         }
     </style>
 </head>
@@ -151,7 +148,6 @@
         
         <!-- পেমেন্ট ও মেয়াদ স্ট্যাটাস গ্রিড -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-            <!-- জমা দেওয়া টাকা -->
             <div class="premium-card flex flex-col justify-between">
                 <div>
                     <div class="flex justify-between items-center mb-4">
@@ -163,11 +159,10 @@
                     <p class="text-4xl font-bold"><span id="paymentAmount">০</span> ৳</p>
                 </div>
                 <div class="text-xs text-emerald-300 mt-4 pt-3 border-t border-emerald-800/60">
-                    <span>শрующих তারিখ: <span id="startDate">-</span></span>
+                    <span>শুরুর তারিখ: <span id="startDate">-</span></span>
                 </div>
             </div>
             
-            <!-- মেয়াদের শেষ তারিখ -->
             <div class="premium-card flex flex-col justify-between">
                 <div>
                     <div class="flex justify-between items-center mb-4">
@@ -185,7 +180,6 @@
                 </div>
             </div>
             
-            <!-- সময় বাকি (কাউন্টডাউন) -->
             <div class="countdown-card flex flex-col justify-between">
                 <div>
                     <div class="flex justify-between items-center mb-4">
@@ -202,91 +196,158 @@
             </div>
         </div>
 
-        <!-- প্রিমিয়াম ফিচার মেনু সেকশনসমূহ -->
-        <div class="space-y-8">
+        <!-- প্রিমিয়াম ফিচার কার্ডসমূহ (ছোট সাইজ ও কাস্টম ক্যাটাগরি) -->
+        <div class="space-y-6">
             
-            <!-- ক্যাটাগরি ১: উপরি অঙ্গের রোগ -->
+            <!-- ১. মেটেরিয়া মেডিকা ও সাধারণ রোগ -->
             <div>
-                <h3 class="text-lg font-bold text-gray-800 mb-4 border-b pb-2 flex items-center gap-2">
-                    <span class="w-2.5 h-5 bg-emerald-600 rounded-sm"></span>
+                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <i class="fas fa-star text-emerald-600"></i> প্রধান সেবাসমূহ
+                </h3>
+                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+                    <div onclick="window.location.href='medica/index.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-amber-50 text-amber-600"><i class="fas fa-book-medical"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মেটেরিয়া মেডিকা</h4>
+                    </div>
+                    <div onclick="window.location.href='select.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-blue-50 text-blue-600"><i class="fas fa-stethoscope"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">সাধারণ রোগ</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ২. উপরি অঙ্গের রোগ -->
+            <div>
+                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
                     <i class="fas fa-head-side-virus text-emerald-600"></i> উপরি অঙ্গের রোগসমূহ
                 </h3>
-                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-                    <div onclick="window.location.href='disease/head.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-emerald-50 text-emerald-600"><i class="fas fa-brain"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">মাথা</h4>
+                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+                    <div onclick="window.location.href='head.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-brain"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মাথা</h4>
                     </div>
-                    <div onclick="window.location.href='disease/eyes.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-blue-50 text-blue-600"><i class="fas fa-eye"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">চোখ</h4>
+                    <div onclick="window.location.href='eyes.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-eye"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">চোখ</h4>
                     </div>
-                    <div onclick="window.location.href='disease/ears.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-amber-50 text-amber-600"><i class="fas fa-ear-listen"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">কান</h4>
+                    <div onclick="window.location.href='ear.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-ear-listen"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">কান</h4>
                     </div>
-                    <div onclick="window.location.href='disease/nose.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-purple-50 text-purple-600"><i class="fas fa-smog"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">নাক</h4>
+                    <div onclick="window.location.href='nose.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-allergies"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">নাক</h4>
                     </div>
-                    <div onclick="window.location.href='disease/face.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-smile"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">মুখমন্ডল</h4>
+                    <div onclick="window.location.href='mouthful.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-teeth"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মুখ, টুটি ও ঘাড়</h4>
                     </div>
-                    <div onclick="window.location.href='disease/mouth.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-indigo-50 text-indigo-600"><i class="fas fa-teeth-open"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">মুখগহ্বর ও দাঁত</h4>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ক্যাটাগরি ২: মধ্যম ও অভ্যন্তরীণ অঙ্গের রোগ -->
-            <div>
-                <h3 class="text-lg font-bold text-gray-800 mb-4 border-b pb-2 flex items-center gap-2">
-                    <span class="w-2.5 h-5 bg-teal-600 rounded-sm"></span>
-                    <i class="fas fa-lungs text-teal-600"></i> মধ্যম ও অভ্যন্তরীণ রোগসমূহ
-                </h3>
-                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-                    <div onclick="window.location.href='disease/throat.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-rose-50 text-rose-600"><i class="fas fa-crutch"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">গলা ও কণ্ঠনালী</h4>
-                    </div>
-                    <div onclick="window.location.href='disease/chest.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-cyan-50 text-cyan-600"><i class="fas fa-heartbeat"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">বক্ষ ও ফুসফুস</h4>
-                    </div>
-                    <div onclick="window.location.href='disease/stomach.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-orange-50 text-orange-600"><i class="fas fa-pizza-slice"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">পাকস্থলী ও লিভার</h4>
-                    </div>
-                    <div onclick="window.location.href='disease/abdomen.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-lime-50 text-lime-600"><i class="fas fa-couch"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">উদরাময় ও পেট</h4>
-                    </div>
-                    <div onclick="window.location.href='disease/urinary.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-sky-50 text-sky-600"><i class="fas fa-toilet-paper"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">মূত্রযন্ত্র ও কিডনি</h4>
+                    <div onclick="window.location.href='teeth.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-tooth"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">দাঁত</h4>
                     </div>
                 </div>
             </div>
 
-            <!-- ক্যাটাগরি ৩: নিম্ন ও সাধারণ অঙ্গের রোগ -->
+            <!-- ৩. মাঝ অঙ্গের রোগ -->
             <div>
-                <h3 class="text-lg font-bold text-gray-800 mb-4 border-b pb-2 flex items-center gap-2">
-                    <span class="w-2.5 h-5 bg-blue-600 rounded-sm"></span>
-                    <i class="fas fa-mitten text-blue-600"></i> নিম্ন ও সাধারণ রোগসমূহ
+                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <i class="fas fa-lungs text-emerald-600"></i> মাঝ অঙ্গের রোগসমূহ
                 </h3>
-                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-                    <div onclick="window.location.href='disease/extremities.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-indigo-50 text-indigo-600"><i class="fas fa-walking"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">হাত ও পা</h4>
+                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+                    <div onclick="window.location.href='chest.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-lungs"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">বুকের সমস্যা</h4>
                     </div>
-                    <div onclick="window.location.href='disease/skin.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-pink-50 text-pink-600"><i class="fas fa-hand-sparkles"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">চর্মরোগ</h4>
+                    <div onclick="window.location.href='hands.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-hand"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">হাতের সমস্যা</h4>
                     </div>
-                    <div onclick="window.location.href='disease/fever.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-red-50 text-red-600"><i class="fas fa-temperature-high"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-sm">জ্বর ও সাধারণ</h4>
+                    <div onclick="window.location.href='back.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-child"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">পিঠের সমস্যা</h4>
+                    </div>
+                    <div onclick="window.location.href='stomach.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-apple-alt"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">পাকস্থলী</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ৪. নিচ অঙ্গের রোগ -->
+            <div>
+                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <i class="fas fa-person-walking text-emerald-600"></i> নিচ অঙ্গের রোগসমূহ
+                </h3>
+                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+                    <div onclick="window.location.href='piles.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-circle-dot"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">অর্শ</h4>
+                    </div>
+                    <div onclick="window.location.href='urethral.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-droplet"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মূত্রনালী</h4>
+                    </div>
+                    <div onclick="window.location.href='leg.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-shoe-prints"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">পা</h4>
+                    </div>
+                    <div onclick="window.location.href='stool.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-toilet"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মল ও কৃমি</h4>
+                    </div>
+                    <div onclick="window.location.href='anus.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-water"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মলদ্বার</h4>
+                    </div>
+                    <div onclick="window.location.href='male.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-person"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">যৌনাঙ্গ পুরুষ</h4>
+                    </div>
+                    <div onclick="window.location.href='female.html'" class="feature-card text-center flex flex-col items-center" style="grid-column: span 1;">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-person-dress"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">যৌনাঙ্গ নারী</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ৫. সার্বদেহিক রোগ -->
+            <div>
+                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <i class="fas fa-accessibility text-emerald-600"></i> সার্বদেহিক রোগসমূহ
+                </h3>
+                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+                    <div onclick="window.location.href='jor.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-temperature-high"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">জ্বর সর্দি কাশি</h4>
+                    </div>
+                    <div onclick="window.location.href='pain.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-bolt"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">ব্যথা</h4>
+                    </div>
+                    <div onclick="window.location.href='tumor.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-circle"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">টিউমার</h4>
+                    </div>
+                    <div onclick="window.location.href='abscess.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-droplet"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">ফোঁড়া</h4>
+                    </div>
+                    <div onclick="window.location.href='pressure.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-utensils"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">প্রেসার গ্রন্থি শিরা</h4>
+                    </div>
+                    <div onclick="window.location.href='bloodbonemuscle.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-bone"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">রক্ত হাড় পেশী</h4>
+                    </div>
+                    <div onclick="window.location.href='mental.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-brain"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মানসিক রোগ সকল</h4>
+                    </div>
+                    <div onclick="window.location.href='skin.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-hand-sparkles"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">চর্মরোগ</h4>
                     </div>
                 </div>
             </div>
