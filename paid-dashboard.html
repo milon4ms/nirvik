@@ -36,7 +36,7 @@
                         
                         if (!isDashboardInitialized) {
                             isDashboardInitialized = true;
-                            loadUserData(doc.data(), user.uid);
+                            loadUserData(doc.data(), user.uid, user);
                         }
                     } else {
                         window.location.href = "login.html";
@@ -75,24 +75,25 @@
         .dark-hero-section {
             background: linear-gradient(135deg, #022c22, #064e3b);
             color: white;
-            padding: 24px 16px;
+            padding: 20px 16px;
             border-bottom: 4px solid #10b981;
         }
 
+        /* আরও ছোট সাইজের কমপ্যাক্ট কার্ড */
         .premium-card {
             background: linear-gradient(135deg, #064e3b, #0f766e);
             color: white;
-            border-radius: 12px;
-            padding: 16px;
-            box-shadow: 0 4px 12px rgba(6, 78, 59, 0.12);
+            border-radius: 10px;
+            padding: 12px;
+            box-shadow: 0 2px 8px rgba(6, 78, 59, 0.1);
         }
 
         .countdown-card {
             background: linear-gradient(135deg, #1e293b, #0f172a);
             color: white;
-            border-radius: 12px;
-            padding: 16px;
-            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
+            border-radius: 10px;
+            padding: 12px;
+            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.1);
         }
         
         /* ছোট ও কমপ্যাক্ট কালারফুল বাটন লিস্ট স্টাইল */
@@ -133,55 +134,89 @@
         </div>
     </div>
 
-    <!-- মূল লেআউট কন্টেইনার (বামে কার্ড, ডানে সুবিধা) -->
+    <!-- মূল লেআউট কন্টেইনার -->
     <div class="max-w-7xl mx-auto px-4 py-6">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
             
-            <!-- বাম কলাম: ৩টি কার্ড (LG স্ক্রিনে ৩ কলাম ছড়াবে) -->
+            <!-- বাম কলাম: তথ্য ও স্ট্যাটাস কার্ডসমূহ -->
             <div class="lg:col-span-4 space-y-4">
+                
+                <!-- ১. মোট জমা টাকা -->
                 <div class="premium-card flex flex-col justify-between">
-                    <div class="flex justify-between items-center mb-1">
+                    <div class="flex justify-between items-center">
                         <p class="text-emerald-200 text-xs font-medium">মোট জমা দেওয়া টাকা</p>
-                        <div class="w-7 h-7 rounded-full bg-emerald-900/50 flex items-center justify-center text-emerald-400 text-xs">
+                        <div class="w-6 h-6 rounded-full bg-emerald-900/50 flex items-center justify-center text-emerald-400 text-[10px]">
                             <i class="fas fa-wallet"></i>
                         </div>
                     </div>
-                    <p class="text-2xl font-bold"><span id="paymentAmount">০</span> ৳</p>
-                    <div class="text-[10px] text-emerald-300 mt-2 pt-1 border-t border-emerald-800/60">
-                        <span>শুরুর তারিখ: <span id="startDate">-</span></span>
-                    </div>
+                    <p class="text-xl font-bold mt-1"><span id="paymentAmount">০</span> ৳</p>
                 </div>
                 
+                <!-- ২. মেয়াদ সমাপ্তির তারিখ -->
                 <div class="premium-card flex flex-col justify-between">
-                    <div class="flex justify-between items-center mb-1">
+                    <div class="flex justify-between items-center">
                         <p class="text-emerald-200 text-xs font-medium">মেয়াদ সমাপ্তির তারিখ</p>
-                        <div class="w-7 h-7 rounded-full bg-emerald-900/50 flex items-center justify-center text-yellow-400 text-xs">
+                        <div class="w-6 h-6 rounded-full bg-emerald-900/50 flex items-center justify-center text-yellow-400 text-[10px]">
                             <i class="fas fa-calendar-alt"></i>
                         </div>
                     </div>
-                    <p class="text-xl font-bold text-yellow-300" id="endDate">-</p>
-                    <div class="mt-2 pt-1 border-t border-emerald-800/60">
-                        <a href="payment.html" class="text-[10px] font-semibold bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-2 py-0.5 rounded transition inline-flex items-center gap-1">
-                            <i class="fas fa-sync-alt"></i> মেয়াদ নবায়ন
-                        </a>
-                    </div>
+                    <p class="text-lg font-bold text-yellow-300 mt-1" id="endDate">-</p>
                 </div>
                 
+                <!-- ৩. বাকি দিন ও সময় কাউন্টডাউন -->
                 <div class="countdown-card flex flex-col justify-between">
-                    <div class="flex justify-between items-center mb-1">
+                    <div class="flex justify-between items-center">
                         <p class="text-slate-300 text-xs font-medium">বাকি দিন ও সময়</p>
-                        <div class="w-7 h-7 rounded-full bg-slate-800 flex items-center justify-center text-red-400 text-xs" id="timeIcon">
+                        <div class="w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-red-400 text-[10px]" id="timeIcon">
                             <i class="fas fa-hourglass-half"></i>
                         </div>
                     </div>
-                    <p class="text-lg font-bold text-emerald-400 tracking-wide" id="countdownTimer">হিসাব করা হচ্ছে...</p>
-                    <div class="text-[10px] text-slate-400 mt-2 pt-1 border-t border-slate-800">
+                    <p class="text-base font-bold text-emerald-400 tracking-wide mt-1" id="countdownTimer">হিসাব করা হচ্ছে...</p>
+                    <div class="text-[10px] text-slate-400 mt-1 pt-1 border-t border-slate-800">
                         স্ট্যাটাস: <span id="accountStatus" class="font-bold">চেক করা হচ্ছে...</span>
+                    </div>
+                </div>
+
+                <!-- ৪. নতুন কার্ড: ফি পরিশোধের লিংক বাটন -->
+                <div class="bg-gradient-to-r from-amber-500 to-orange-600 rounded-xl p-3 shadow-md border border-amber-400 flex flex-col justify-between text-white">
+                    <div class="flex items-center gap-2 mb-2">
+                        <i class="fas fa-credit-card text-sm"></i>
+                        <span class="text-xs font-bold uppercase tracking-wider">রিনিউয়াল ও পেমেন্ট সেন্টার</span>
+                    </div>
+                    <p class="text-[11px] text-amber-100 mb-2">সহজে আপনার মেম্বারশিপ ফি পরিশোধ করতে নিচের বাটনে ক্লিক করুন।</p>
+                    <a href="payment.html" class="w-full text-center bg-white hover:bg-slate-100 text-slate-900 font-bold text-xs py-2 rounded-lg transition shadow flex items-center justify-center gap-1.5">
+                        <i class="fas fa-sync-alt"></i> ফি পরিশোধ করুন (Pay/Renew)
+                    </a>
+                </div>
+
+                <!-- ৫. নতুন কার্ড: ইউজারের পার্সোনাল প্রোফাইল তথ্য -->
+                <div class="bg-white rounded-xl p-3.5 shadow-sm border border-slate-200/80 space-y-2 text-slate-700">
+                    <h3 class="text-xs font-bold text-slate-800 border-b border-slate-100 pb-1.5 flex items-center gap-1.5">
+                        <i class="fas fa-id-card text-emerald-600"></i> আপনার প্রোফাইল তথ্য
+                    </h3>
+                    <div class="text-[11px] space-y-1">
+                        <p class="flex items-center gap-2"><i class="fas fa-phone text-slate-400 w-3.5 text-center"></i> <b>ফোন:</b> <span id="userPhone">-</span></p>
+                        <p class="flex items-center gap-2 overflow-hidden text-ellipsis"><i class="fas fa-envelope text-slate-400 w-3.5 text-center"></i> <b>ইমেইল:</b> <span id="userEmail">-</span></p>
+                        <p class="flex items-center gap-2"><i class="fas fa-user-plus text-slate-400 w-3.5 text-center"></i> <b>যুক্ত হয়েছেন:</b> <span id="startDateFull">-</span></p>
+                    </div>
+                </div>
+
+                <!-- ৬. নতুন কার্ড: এডমিন বা টেকনিক্যাল সাপোর্ট যোগাযোগ -->
+                <div class="bg-emerald-50 rounded-xl p-3.5 shadow-sm border border-emerald-100 space-y-2 text-slate-700">
+                    <h3 class="text-xs font-bold text-emerald-800 border-b border-emerald-200 pb-1.5 flex items-center gap-1.5">
+                        <i class="fas fa-headset text-emerald-600"></i> এডমিন সাপোর্ট সেন্টার
+                    </h3>
+                    <div class="text-[11px] space-y-1.5">
+                        <p class="flex items-center gap-2"><i class="fas fa-phone-alt text-emerald-600 w-3.5 text-center"></i> <b>কল করুন:</b> 017XXXXXXXX</p>
+                        <p class="flex items-center gap-2"><i class="fas fa-envelope text-emerald-600 w-3.5 text-center"></i> <b>ইমেইল:</b> support@nirvik.com</p>
+                        <a href="https://wa.me/88017XXXXXXXX" target="_blank" class="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-2 py-1 rounded text-[10px] mt-1 transition shadow-sm">
+                            <i class="fab fa-whatsapp text-sm"></i> হোয়াটসঅ্যাপে মেসেজ দিন
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <!-- ডান কলাম: সুবিধার বাটনসমূহ (LG স্ক্রিনে ৮ কলাম ছড়াবে) -->
+            <!-- ডান কলাম: সুবিধার বাটনসমূহ -->
             <div class="lg:col-span-8 bg-white rounded-xl p-5 shadow-sm border border-slate-100 space-y-5">
                 
                 <!-- মূল গ্লোবাল শিরোনাম -->
@@ -223,7 +258,7 @@
                         </a>
                         <a href="nose.html" class="list-btn bg-gradient-to-r from-green-500 to-emerald-500">
                             <i class="fas fa-allergies"></i> নাক
-                    </a>
+                        </a>
                         <a href="mouthful.html" class="list-btn bg-gradient-to-r from-sky-500 to-indigo-500">
                             <i class="fas fa-teeth"></i> মুখ হইতে টুটি ও ঘাড়
                         </a>
@@ -257,7 +292,7 @@
                 <!-- ৪. নিচ অঙ্গের রোগ -->
                 <div>
                     <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                        <span class="w-1.5 h-3 bg-emerald-500 rounded-sm"></span> niচ অঙ্গের রোগসমূহ
+                        <span class="w-1.5 h-3 bg-emerald-500 rounded-sm"></span> নিচ অঙ্গের রোগসমূহ
                     </h3>
                     <div class="flex flex-wrap gap-2">
                         <a href="piles.html" class="list-btn bg-gradient-to-r from-rose-500 to-pink-600">
@@ -331,10 +366,16 @@
 
         let timerInterval;
 
-        function loadUserData(data, uid) {
+        function loadUserData(data, uid, authUser) {
             document.getElementById('userName').textContent = data.name || 'ইউজার';
             document.getElementById('paymentAmount').textContent = data.paymentAmount || '০';
-            document.getElementById('startDate').textContent = data.accessStartDate || 'যুক্ত নেই';
+            
+            // প্রোফাইল কার্ডের ডাইনামিক ডেটা লোড
+            document.getElementById('userPhone').textContent = data.phone || authUser.phoneNumber || 'যুক্ত নেই';
+            document.getElementById('userEmail').textContent = data.email || authUser.email || 'যুক্ত নেই';
+            
+            const joinDate = data.accessStartDate || 'যুক্ত নেই';
+            document.getElementById('startDateFull').textContent = formatDateToBangla(joinDate);
             
             const badgeContainer = document.getElementById('badgeContainer');
             const accountStatus = document.getElementById('accountStatus');
@@ -362,6 +403,7 @@
         }
 
         function formatDateToBangla(dateString) {
+            if (!dateString || dateString === 'যুক্ত নেই') return dateString;
             const date = new Date(dateString);
             if (isNaN(date)) return dateString;
             return date.toLocaleDateString('bn-BD', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -381,8 +423,8 @@
                 if (distance < 0) {
                     clearInterval(timerInterval);
                     timerElement.textContent = "মেয়াদ শেষ হয়েছে!";
-                    timerElement.className = "text-xl font-bold text-red-500";
-                    document.getElementById('timeIcon').className = "w-7 h-7 rounded-full bg-slate-800 flex items-center justify-center text-red-600 text-xs";
+                    timerElement.className = "text-base font-bold text-red-500";
+                    document.getElementById('timeIcon').className = "w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-red-600 text-[10px]";
                     return;
                 }
                 
