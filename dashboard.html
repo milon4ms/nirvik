@@ -3,151 +3,401 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ড্যাশবোর্ড - নির্বিক হোমিও</title>
+    <title>ইউজার ড্যাশবোর্ড - নির্বিক হোমিও</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
     
-    <!-- jQuery (হেডার-ফুটার লোডের জন্য) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
-    <!-- Firebase SDK (Compat) -->
-   <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-auth-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.x.x/firebase-firestore-compat.js"></script>
-    
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
     <script src="assets/js/firebase-config.js"></script>
 
-   <script>
-    firebase.auth().onAuthStateChanged((user) => {
-        if (!user) {
-            window.location.href = "login.html";
-        }
-        // এখানে সাধারণ রেজিস্টার্ড ইউজার ঢুকতে পারবে, তাই অতিরিক্ত রোল চেক না করলেও চলে।
-        // তবে আপনি চাইলে নিশ্চিত করতে পারেন যে সে 'registered' বা অন্য কিছু কিনা।
-    });
-</script>
+    <script>
+        const style = document.createElement('style');
+        style.innerHTML = 'body { display: none !important; }';
+        document.head.appendChild(style);
 
+        firebase.auth().onAuthStateChanged((user) => {
+            if (!user) {
+                window.location.href = "login.html";
+            } else {
+                firebase.firestore().collection("users").doc(user.uid).get()
+                .then((doc) => {
+                    if (doc.exists) {
+                        if (style.parentNode) {
+                            style.remove();
+                        }
+                        loadUserData(doc.data(), user.uid, user);
+                    } else {
+                        window.location.href = "login.html";
+                    }
+                }).catch((error) => {
+                    console.error("Error loading dashboard: ", error);
+                    window.location.href = "login.html";
+                });
+            }
+        });
+    </script>
     <style>
-        body { font-family: 'SolaimanLipi', system-ui, sans-serif; background: #f0fdf4; }
-        .container-custom { max-width: 1200px; margin: 0 auto; padding: 30px 20px; }
-        
-        /* ===== হেডারের ব্যাকগ্রাউন্ড ঠিক করার জন্য ===== */
-        #header-placeholder header {
-            background-color: #00b8a9 !important;
+        body { 
+            font-family: 'SolaimanLipi', system-ui, sans-serif; 
+            background: #f8fafc; 
+            min-height: 100vh;
+            color: #0f172a;
         }
-        /* মোবাইল মেনুর জন্যও (যদি আলাদা ব্যাকগ্রাউন্ড লাগে) */
-        #header-placeholder header #mobile-menu {
-            background-color: #00b8a9 !important;
+
+        #header-placeholder {
+            background-color: #0f172a !important;
+            display: block;
+            width: 100%;
+        }
+        #header-placeholder header, #header-placeholder nav, #header-placeholder div {
+            background-color: #0f172a !important;
+            color: #ffffff !important;
+        }
+        #header-placeholder a {
+            color: #cbd5e1 !important;
+        }
+        #header-placeholder a:hover {
+            color: #34d399 !important;
+        }
+        
+        .dark-hero-section {
+            background: linear-gradient(135deg, #022c22, #064e3b);
+            color: white;
+            padding: 24px 16px;
+            border-bottom: 4px solid #10b981;
+        }
+
+        .premium-card {
+            background: linear-gradient(135deg, #064e3b, #0f766e);
+            color: white;
+            border-radius: 10px;
+            padding: 12px;
+            box-shadow: 0 2px 8px rgba(6, 78, 59, 0.1);
+        }
+
+        .countdown-card {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: white;
+            border-radius: 10px;
+            padding: 12px;
+            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.1);
+        }
+        
+        /* সলিড কালার কমপ্যাক্ট বাটন বেস স্টাইল */
+        .list-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            font-size: 13px;
+            font-weight: bold;
+            border-radius: 20px;
+            color: white !important;
+            transition: all 0.15s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+        }
+        
+        .list-btn:hover {
+            transform: translateY(-1px) scale(1.02);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+            filter: brightness(1.1);
+        }
+
+        /* লক করা বাটনের স্টাইল */
+        .locked-btn {
+            opacity: 0.65;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
 
-    <!-- ===== হেডার প্লেসহোল্ডার ===== -->
     <div id="header-placeholder"></div>
 
-    <!-- ===== ড্যাশবোর্ড কন্টেন্ট ===== -->
-    <div class="container-custom">
-        <div class="bg-white p-8 rounded-2xl shadow-lg">
-            <h1 class="text-3xl font-bold text-teal-700">👋 স্বাগতম, <span id="userName">ইউজার</span>!</h1>
-            <p class="text-gray-600 mt-2">আপনি <strong id="userRole">সাধারণ</strong> ইউজার হিসেবে লগইন করেছেন।</p>
+    <!-- হিরো ব্যানার সেকশন -->
+    <div class="dark-hero-section">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-                <!-- ফ্রি পেজ -->
-                <div class="border p-6 rounded-xl hover:shadow-lg transition">
-                    <h3 class="text-xl font-bold">📖 ফ্রি পেজ</h3>
-                    <ul class="mt-3 space-y-2 text-gray-600">
-                        <li><a href="index.html" class="text-teal-600 hover:underline">🏠 হোম</a></li>
-                        <li><a href="select.html" class="text-teal-600 hover:underline">🔬 রোগী বিশ্লেষণ</a></li>
-                    </ul>
+            <!-- বাম দিক: স্বাগতম, টাইটেল এবং প্রোফাইল তথ্য -->
+            <div class="md:col-span-7 space-y-2">
+                <div class="flex items-center gap-3">
+                    <h1 class="text-2xl font-bold text-emerald-400">
+                        <i class="fas fa-user-md mr-1"></i>স্বাগতম, <span id="userName" class="text-white">ইউজার</span>!
+                    </h1>
+                    <div id="badgeContainer"></div>
                 </div>
+                <p class="text-emerald-200 text-xs font-semibold">নির্বিক হোমিও প্রিমিয়াম মেম্বারশিপ ড্যাশবোর্ড</p>
                 
-                <!-- রেজিস্টার্ড পেজ -->
-                <div class="border p-6 rounded-xl hover:shadow-lg transition">
-                    <h3 class="text-xl font-bold">📚 রেজিস্টার্ড পেজ</h3>
-                    <ul class="mt-3 space-y-2 text-gray-600">
-                        <li>📝 মেডিকা ডেটাবেস</li>
-                        <li>📊 রোগী হিস্টোরি</li>
-                        <li>💊 ঔষধ রিপার্টরি</li>
-                        <li><a href="#" class="text-teal-600 hover:underline">📖 ম্যাটেরিয়া মেডিকা</a></li>
-                    </ul>
-                </div>
-                
-                <!-- পেইড পেজ -->
-                <div class="border p-6 rounded-xl hover:shadow-lg transition bg-gradient-to-br from-yellow-50 to-amber-50">
-                    <h3 class="text-xl font-bold flex items-center gap-2">
-                        💎 পেইড কন্টেন্ট
-                        <span class="bg-amber-500 text-white text-xs px-3 py-1 rounded-full">প্রিমিয়াম</span>
-                    </h3>
-                    <ul class="mt-3 space-y-2 text-gray-600">
-                        <li><a href="jor.html" class="text-teal-600 hover:underline">🧬 জিনোমিক অ্যানালাইসিস</a></li>
-                        <li><a href="#" class="text-teal-600 hover:underline">📈 এডভান্সড রিপোর্ট</a></li>
-                        <li><a href="#" class="text-teal-600 hover:underline">👨‍⚕️ প্রাইভেট কনসালটেশন</a></li>
-                    </ul>
-                    
-                    <a href="payment.html" class="block mt-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-center py-3 rounded-xl font-bold hover:shadow-xl transition">
-                        💳 আপগ্রেড করুন
-                    </a>
+                <!-- ডাইনামিক প্রোফাইল তথ্যের লাইন -->
+                <div class="flex flex-wrap items-center gap-x-4 gap-y-1 pt-1.5 border-t border-emerald-800/60 text-slate-300 text-[11px]">
+                    <span class="flex items-center gap-1.5"><i class="fas fa-phone text-emerald-400"></i> <span id="userPhone">-</span></span>
+                    <span class="flex items-center gap-1.5"><i class="fas fa-envelope text-emerald-400"></i> <span id="userEmail">-</span></span>
+                    <span class="flex items-center gap-1.5"><i class="fas fa-user-plus text-emerald-400"></i> যুক্ত হয়েছেন: <span id="startDateFull">-</span></span>
                 </div>
             </div>
             
-            <div class="mt-8 p-4 bg-gray-100 rounded-xl">
-                <p class="text-sm text-gray-500">
-                    <strong>🔑 রোল:</strong> আপনার ডিফল্ট রোল <strong>registered</strong>। 
-                    পেইড কন্টেন্ট অ্যাক্সেস করতে <a href="payment.html" class="text-teal-600 hover:underline font-bold">আপগ্রেড করুন</a>।
-                </p>
+            <!-- ডান দিক: এডমিন সাপোর্ট সেন্টার -->
+            <div class="md:col-span-5 bg-emerald-950/40 border border-emerald-800/40 rounded-xl p-3 text-slate-200 text-xs md:justify-self-end w-full md:w-auto min-w-[280px]">
+                <h3 class="font-bold text-emerald-400 border-b border-emerald-900 pb-1 mb-1.5 flex items-center gap-1.5">
+                    <i class="fas fa-headset"></i> এডমিন সাপোর্ট সেন্টার
+                </h3>
+                <div class="space-y-1 text-[11px]">
+                    <p><i class="fas fa-phone-alt text-emerald-400 mr-1"></i> <b>কল করুন:</b> 01722855738</p>
+                    <p class="overflow-hidden text-ellipsis"><i class="fas fa-envelope text-emerald-400 mr-1"></i> <b>ইমেইল:</b> milon4ms@yahoo.com</p>
+                    <div class="pt-1">
+                        <a href="https://wa.me/8801722855738" target="_blank" class="inline-flex items-center gap-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-2 py-0.5 rounded text-[10px] transition shadow-sm">
+                            <i class="fab fa-whatsapp text-sm"></i> হোয়াটসঅ্যাপে মেসেজ দিন
+                        </a>
+                    </div>
+                </div>
             </div>
-            
-            <button onclick="logout()" class="mt-6 bg-red-500 text-white px-6 py-3 rounded-xl hover:bg-red-600 transition">
-                🚪 লগআউট
-            </button>
+
         </div>
     </div>
 
-    <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
+    <!-- মূল লেআউট কন্টেইনার -->
+    <div class="max-w-7xl mx-auto px-4 py-6">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+            
+            <!-- বাম কলাম: ৩টি ছোট কার্ড ও পেমেন্ট সেন্টার -->
+            <div class="lg:col-span-4 space-y-4">
+                
+                <!-- ১. মেম্বারশিপ ফি -->
+                <div class="premium-card flex flex-col justify-between">
+                    <div class="flex justify-between items-center">
+                        <p class="text-emerald-200 text-xs font-medium">মেম্বারশিপ টাইপ</p>
+                        <div class="w-6 h-6 rounded-full bg-emerald-900/50 flex items-center justify-center text-emerald-400 text-[10px]">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                    </div>
+                    <p class="text-xl font-bold mt-1">ফি: ফ্রি (নিবন্ধনকৃত)</p>
+                </div>
+                
+                <!-- ২. মেয়াদ সমাপ্তির তারিখ -->
+                <div class="premium-card flex flex-col justify-between">
+                    <div class="flex justify-between items-center">
+                        <p class="text-emerald-200 text-xs font-medium">মেয়াদের সময়সীমা</p>
+                        <div class="w-6 h-6 rounded-full bg-emerald-900/50 flex items-center justify-center text-yellow-400 text-[10px]">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                    </div>
+                    <p class="text-lg font-bold text-yellow-300 mt-1">সবসময় চালু থাকবে</p>
+                </div>
+                
+                <!-- ৩. পেইড ইউজারের সুবিধাসমূহ -->
+                <div class="countdown-card flex flex-col justify-between">
+                    <div class="flex justify-between items-center mb-1.5">
+                        <p class="text-slate-300 text-xs font-bold text-amber-400 flex items-center gap-1">
+                            <i class="fas fa-star text-xs"></i> পেইড ইউজারের সুবিধাসমূহ:
+                        </p>
+                    </div>
+                    <ul class="text-[11px] text-slate-300 space-y-1 pl-1">
+                        <li><i class="fas fa-check-circle text-emerald-400 mr-1"></i> শরীরের সকল অঙ্গের জটিল রোগের এক্সেস।</li>
+                        <li><i class="fas fa-check-circle text-emerald-400 mr-1"></i> ২৫+ এর বেশি এক্সক্লুসিভ ক্লিনিকাল সাব-পেজ।</li>
+                        <li><i class="fas fa-check-circle text-emerald-400 mr-1"></i> সার্বক্ষণিক স্পেশাল টেকনিক্যাল সাপোর্ট।</li>
+                    </ul>
+                </div>
+
+                <!-- ৪. পেইড ইউজার হওয়ার জন্য ফি পরিশোধের আহবান -->
+                <div class="bg-gradient-to-r from-amber-500 to-orange-600 rounded-xl p-3 shadow-md border border-amber-400 flex flex-col justify-between text-white">
+                    <div class="flex items-center gap-2 mb-1.5">
+                        <i class="fas fa-crown text-sm text-yellow-200 animate-bounce"></i>
+                        <span class="text-xs font-bold uppercase tracking-wider">পেইড মেম্বারশিপ এক্টিভেশন</span>
+                    </div>
+                    <p class="text-[11px] text-amber-500 font-bold bg-white px-2 py-1 rounded mb-2 text-center shadow-sm">
+                        ⚠️ সবগুলি পেজ সম্পূর্ণ আনলক করতে এখনই প্রিমিয়াম মেম্বার হোন!
+                    </p>
+                    <a href="payment.html" class="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs py-2 rounded-lg transition shadow flex items-center justify-center gap-1.5">
+                        <i class="fas fa-wallet"></i> ফি পরিশোধ করে পেইড ইউজার হোন
+                    </a>
+                </div>
+            </div>
+
+            <!-- ডান কলাম: সুবিধার বাটনসমূহ -->
+            <div class="lg:col-span-8 bg-white rounded-xl p-5 shadow-sm border border-slate-100 space-y-5">
+                
+                <div class="border-b border-slate-100 pb-2">
+                    <h2 class="text-base font-bold text-slate-800 flex items-center gap-2">
+                        <i class="fas fa-id-badge text-emerald-500"></i> রেজিষ্টার্ড ইউজার হিসাবে যেসকল পেজ ব্যবহার করতে পারবেন:
+                    </h2>
+                </div>
+                
+                <!-- ১. সাধারণ রোগ ও মেটেরিয়া মেডিকা (ফ্রি এক্সেস) -->
+                <div>
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                        <span class="w-1.5 h-3 bg-orange-500 rounded-sm"></span> প্রধান সেবাসমূহ (উন্মুক্ত)
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="select.html" class="list-btn bg-orange-500 hover:bg-orange-600">
+                            <i class="fas fa-stethoscope"></i> সাধারণ রোগ
+                        </a>
+                        <a href="medica/index.html" class="list-btn bg-orange-500 hover:bg-orange-600">
+                            <i class="fas fa-book-medical"></i> মেটেরিয়া মেডিকা
+                        </a>
+                    </div>
+                </div>
+
+                <!-- প্রিমিয়াম লক নোটিশ ব্যানার -->
+                <div class="bg-red-50 border border-red-200/60 rounded-xl p-2.5 text-red-700 text-xs font-bold flex items-center gap-2">
+                    <i class="fas fa-info-circle text-base text-red-500"></i>
+                    <span>নিচের পেজ গুলি ব্যবহার করার জন্য দয়া করে ফি পরিশোধ করে পেইড ইউজার হোন।</span>
+                </div>
+
+                <!-- ২. উপরি অঙ্গের রোগ (Locked) -->
+                <div>
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                        <span class="w-1.5 h-3 bg-cyan-500 rounded-sm"></span> উপরি অঙ্গের রোগসমূহ
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <button onclick="showLockAlert()" class="list-btn bg-cyan-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-brain"></i> মাথা
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-cyan-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-eye"></i> চোখ
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-cyan-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-ear-listen"></i> কান
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-cyan-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-allergies"></i> নাক
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-cyan-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-teeth"></i> মুখ হইতে টুটি ও ঘাড়
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-cyan-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-tooth"></i> দাঁত
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ৩. মাঝ অঙ্গের রোগ (Locked) -->
+                <div>
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                        <span class="w-1.5 h-3 bg-blue-500 rounded-sm"></span> মাঝ অঙ্গের রোগসমূহ
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <button onclick="showLockAlert()" class="list-btn bg-blue-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-lungs"></i> বুকের সমস্যা
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-blue-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-hand"></i> হাতের সমস্যা
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-blue-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-child"></i> পিঠের সমস্যা
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-blue-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-apple-alt"></i> পাকস্থলী
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ৪. নিচ অঙ্গের রোগ (Locked) -->
+                <div>
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                        <span class="w-1.5 h-3 bg-purple-500 rounded-sm"></span> নিচ অঙ্গের রোগসমূহ
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <button onclick="showLockAlert()" class="list-btn bg-purple-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-circle-dot"></i> অর্শ
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-purple-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-droplet"></i> মূত্রনালী
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-purple-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-shoe-prints"></i> পা
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-purple-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-toilet"></i> মল ও কৃমি
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-purple-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-water"></i> মলদ্বার
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-purple-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-person"></i> যৌনাঙ্গ পুরুষ
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-purple-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-person-dress"></i> যৌনাঙ্গ নারী
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ৫. সার্বদেহিক রোগ (Locked) -->
+                <div>
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                        <span class="w-1.5 h-3 bg-rose-500 rounded-sm"></span> সার্বদেহিক রোগসমূহ
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <button onclick="showLockAlert()" class="list-btn bg-rose-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-temperature-high"></i> জ্বর সর্দি কাশি
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-rose-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-bolt"></i> ব্যথা
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-rose-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-circle"></i> টিউমার
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-rose-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-droplet"></i> ফোঁড়া
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-rose-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-utensils"></i> প্রেসার গ্রন্থি শিরা
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-rose-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-bone"></i> রক্ত হাড় পেশী
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-rose-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-brain"></i> মানসিক রোগ সকল
+                        </button>
+                        <button onclick="showLockAlert()" class="list-btn bg-rose-500 locked-btn">
+                            <i class="fas fa-lock text-[10px] mr-1"></i><i class="fas fa-hand-sparkles"></i> চর্মরোগ
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
     <div id="footer-placeholder"></div>
 
     <script>
-        // ===== হেডার/ফুটার লোড =====
         $(function() {
-            $('#header-placeholder').load('assets/header.html', function() {
-                // মোবাইল মেনু সক্রিয়
-                const btn = document.getElementById('mobile-menu-btn');
-                const menu = document.getElementById('mobile-menu');
-                if (btn && menu) {
-                    btn.addEventListener('click', function() {
-                        menu.classList.toggle('hidden');
-                        btn.innerHTML = menu.classList.contains('hidden') 
-                            ? '<i class="fas fa-bars"></i>' 
-                            : '<i class="fas fa-times"></i>';
-                    });
-                }
-            });
+            $('#header-placeholder').load('assets/header.html');
             $('#footer-placeholder').load('assets/footer.html');
         });
 
-        // ===== ইউজার ইনফো লোড =====
-        const userStr = localStorage.getItem('user');
-        if (userStr) {
-            const user = JSON.parse(userStr);
-            document.getElementById('userName').textContent = user.name || 'ইউজার';
-            document.getElementById('userRole').textContent = user.isPaid ? '💎 পেইড' : '📖 স্ট্যান্ডার্ড';
-        } else {
-            window.location.href = 'login.html';
+        // লক করা বাটনে ক্লিক করলে যে অ্যালার্ট দেখাবে
+        function showLockAlert() {
+            alert("দুঃখিত! এই পেজটি শুধুমাত্র পেইড ইউজারদের জন্য নির্ধারিত। অনুগ্রহ করে বাম পাশের পেমেন্ট সেন্টার থেকে ফি পরিশোধ করে আপনার অ্যাকাউন্টটি আপডেট করুন।");
         }
 
-        // ===== লগআউট =====
-        function logout() {
-            firebase.auth().signOut()
-                .then(() => {
-                    localStorage.removeItem('user');
-                    window.location.href = 'index.html';
-                })
-                .catch(error => alert('লগআউটে সমস্যা: ' + error.message));
+        function loadUserData(data, uid, authUser) {
+            document.getElementById('userName').textContent = data.name || 'ইউজার';
+            
+            document.getElementById('userPhone').textContent = data.phone || authUser.phoneNumber || 'ফোন: যুক্ত নেই';
+            document.getElementById('userEmail').textContent = data.email || authUser.email || 'ইমেইল: যুক্ত নেই';
+            
+            const joinDate = data.accessStartDate || 'যুক্ত নেই';
+            document.getElementById('startDateFull').textContent = formatDateToBangla(joinDate);
+            
+            const badgeContainer = document.getElementById('badgeContainer');
+            
+            // সাধারণ বা ফ্রি ইউজারের ব্যাজ সেটআপ
+            badgeContainer.innerHTML = `<span class="bg-slate-700 text-slate-300 px-3 py-1 rounded-full font-bold text-xs flex items-center gap-1"><i class="fas fa-user"></i> REGISTERED USER</span>`;
+        }
+
+        function formatDateToBangla(dateString) {
+            if (!dateString || dateString === 'যুক্ত নেই') return dateString;
+            const date = new Date(dateString);
+            if (isNaN(date)) return dateString;
+            return date.toLocaleDateString('bn-BD', { year: 'numeric', month: 'long', day: 'numeric' });
         }
     </script>
-
 </body>
 </html>
