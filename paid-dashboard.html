@@ -1,4 +1,205 @@
-<!-- ১. মেটেরিয়া মেডিকা ও সাধারণ রোগ (নতুন আকর্ষণীয় ফ্ল্যাট ডিজাইন) -->
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ইউজার ড্যাশবোর্ড - নির্বিক হোমিও</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+    <script src="assets/js/firebase-config.js"></script>
+
+    <script>
+        const style = document.createElement('style');
+        style.innerHTML = 'body { display: none !important; }';
+        document.head.appendChild(style);
+
+        let isDashboardInitialized = false;
+
+        firebase.auth().onAuthStateChanged((user) => {
+            if (!user) {
+                window.location.href = "login.html";
+            } else {
+                firebase.firestore().collection("users").doc(user.uid).get()
+                .then((doc) => {
+                    if (doc.exists) {
+                        if (style.parentNode) {
+                            style.remove();
+                        }
+                        
+                        if (!isDashboardInitialized) {
+                            isDashboardInitialized = true;
+                            loadUserData(doc.data(), user.uid);
+                        }
+                    } else {
+                        window.location.href = "login.html";
+                    }
+                }).catch((error) => {
+                    console.error("Error loading dashboard: ", error);
+                    window.location.href = "login.html";
+                });
+            }
+        });
+    </script>
+    <style>
+        body { 
+            font-family: 'SolaimanLipi', system-ui, sans-serif; 
+            background: #f4f7f6; 
+            min-height: 100vh;
+            color: #1e293b;
+        }
+
+        #header-placeholder {
+            background-color: #0f172a !important;
+            display: block;
+            width: 100%;
+        }
+        #header-placeholder header, #header-placeholder nav, #header-placeholder div {
+            background-color: #0f172a !important;
+            color: #ffffff !important;
+        }
+        #header-placeholder a {
+            color: #cbd5e1 !important;
+        }
+        #header-placeholder a:hover {
+            color: #34d399 !important;
+        }
+        
+        .dark-hero-section {
+            background: #022c22;
+            color: white;
+            padding: 32px 16px;
+            border-bottom: 4px solid #059669;
+        }
+
+        .premium-card {
+            background: linear-gradient(135deg, #022c22, #065f46);
+            color: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            border: 1px solid #059669;
+            transition: all 0.3s;
+        }
+
+        .countdown-card {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            border: 1px solid #334155;
+        }
+        
+        /* ছোট সাইজের রেসপন্সিভ কার্ডের স্টাইল */
+        .feature-card {
+            background: white;
+            border-radius: 12px;
+            padding: 10px 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+            border: 1px solid #e2e8f0;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(5, 150, 105, 0.1);
+            border-color: #059669;
+        }
+        
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <!-- হিরো সেকশন -->
+    <div class="dark-hero-section">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <div>
+                <h1 class="text-3xl font-bold text-emerald-400">
+                    <i class="fas fa-user-gem mr-2"></i>স্বাগতম, <span id="userName" class="text-white">ইউজার</span>!
+                </h1>
+                <p class="text-emerald-200 mt-1">নির্বিক হোমিও প্রিমিয়াম মেম্বারশিপ ড্যাশবোর্ড</p>
+            </div>
+            <div id="badgeContainer"></div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 py-8">
+        
+        <!-- পেমেন্ট ও মেয়াদ স্ট্যাটাস গ্রিড -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            <div class="premium-card flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <p class="text-emerald-200 text-sm font-medium">মোট জমা দেওয়া টাকা</p>
+                        <div class="w-10 h-10 rounded-full bg-emerald-900/50 flex items-center justify-center text-emerald-400">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                    </div>
+                    <p class="text-4xl font-bold"><span id="paymentAmount">০</span> ৳</p>
+                </div>
+                <div class="text-xs text-emerald-300 mt-4 pt-3 border-t border-emerald-800/60">
+                    <span>শুরুর তারিখ: <span id="startDate">-</span></span>
+                </div>
+            </div>
+            
+            <div class="premium-card flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <p class="text-emerald-200 text-sm font-medium">মেয়াদ সমাপ্তির তারিখ</p>
+                        <div class="w-10 h-10 rounded-full bg-emerald-900/50 flex items-center justify-center text-yellow-400">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-3xl font-bold text-yellow-300" id="endDate">-</p>
+                </div>
+                <div class="mt-4 pt-3 border-t border-emerald-800/60">
+                    <a href="payment.html" class="text-xs font-semibold bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-3 py-1.5 rounded-lg transition inline-flex items-center gap-1">
+                        <i class="fas fa-sync-alt"></i> মেয়াদ নবায়ন করুন
+                    </a>
+                </div>
+            </div>
+            
+            <div class="countdown-card flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <p class="text-slate-300 text-sm font-medium">বাকি দিন ও সময়</p>
+                        <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-red-400" id="timeIcon">
+                            <i class="fas fa-hourglass-half"></i>
+                        </div>
+                    </div>
+                    <p class="text-2xl font-bold text-emerald-400 tracking-wide" id="countdownTimer">হিসাব করা হচ্ছে...</p>
+                </div>
+                <div class="text-xs text-slate-400 mt-4 pt-3 border-t border-slate-800">
+                    স্ট্যাটাস: <span id="accountStatus" class="font-bold">চেক করা হচ্ছে...</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- প্রিমিয়াম ফিচার কার্ডসমূহ -->
+        <div class="space-y-6">
+            
+            <!-- ১. মেটেরিয়া মেডিকা ও সাধারণ রোগ (নতুন আকর্ষণীয় ফ্ল্যাট ডিজাইন) -->
             <div class="bg-gradient-to-r from-emerald-950 to-teal-900 rounded-2xl p-4 shadow-inner mb-6 border border-emerald-800">
                 <h3 class="text-xs font-bold text-emerald-300 uppercase tracking-wider mb-3 flex items-center gap-2">
                     <i class="fas fa-star text-yellow-400 animate-pulse"></i> প্রধান কার্যকারী সেবাসমূহ
@@ -27,3 +228,220 @@
                     </a>
                 </div>
             </div>
+
+            <!-- ২. উপরি অঙ্গের রোগ -->
+            <div>
+                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <i class="fas fa-head-side-virus text-emerald-600"></i> উপরি অঙ্গের রোগসমূহ
+                </h3>
+                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+                    <div onclick="window.location.href='head.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-brain"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মাথা</h4>
+                    </div>
+                    <div onclick="window.location.href='eyes.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-eye"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">চোখ</h4>
+                    </div>
+                    <div onclick="window.location.href='ear.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-ear-listen"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">কান</h4>
+                    </div>
+                    <div onclick="window.location.href='nose.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-allergies"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">নাক</h4>
+                    </div>
+                    <div onclick="window.location.href='mouthful.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-teeth"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মুখ, টুটি ও ঘাড়</h4>
+                    </div>
+                    <div onclick="window.location.href='teeth.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-tooth"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">দাঁত</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ৩. মাঝ অঙ্গের রোগ -->
+            <div>
+                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <i class="fas fa-lungs text-emerald-600"></i> মাঝ অঙ্গের রোগসমূহ
+                </h3>
+                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+                    <div onclick="window.location.href='chest.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-lungs"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">বুকের সমস্যা</h4>
+                    </div>
+                    <div onclick="window.location.href='hands.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-hand"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">হাতের সমস্যা</h4>
+                    </div>
+                    <div onclick="window.location.href='back.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-child"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">পিঠের সমস্যা</h4>
+                    </div>
+                    <div onclick="window.location.href='stomach.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-apple-alt"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">পাকস্থলী</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ৪. নিচ অঙ্গের রোগ -->
+            <div>
+                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <i class="fas fa-person-walking text-emerald-600"></i> নিচ অঙ্গের রোগসমূহ
+                </h3>
+                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+                    <div onclick="window.location.href='piles.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-circle-dot"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">অর্শ</h4>
+                    </div>
+                    <div onclick="window.location.href='urethral.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-droplet"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মূত্রনালী</h4>
+                    </div>
+                    <div onclick="window.location.href='leg.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-shoe-prints"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">পা</h4>
+                    </div>
+                    <div onclick="window.location.href='stool.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-toilet"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মল ও কৃমি</h4>
+                    </div>
+                    <div onclick="window.location.href='anus.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-water"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মলদ্বার</h4>
+                    </div>
+                    <div onclick="window.location.href='male.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-person"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">যৌনাঙ্গ পুরুষ</h4>
+                    </div>
+                    <div onclick="window.location.href='female.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-person-dress"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">যৌনাঙ্গ নারী</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ৫. সার্বদেহিক রোগ -->
+            <div>
+                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <i class="fas fa-accessibility text-emerald-600"></i> সার্বদেহিক রোগসমূহ
+                </h3>
+                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+                    <div onclick="window.location.href='jor.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-temperature-high"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">জ্বর সর্দি কাশি</h4>
+                    </div>
+                    <div onclick="window.location.href='pain.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-bolt"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">ব্যথা</h4>
+                    </div>
+                    <div onclick="window.location.href='tumor.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-circle"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">টিউমার</h4>
+                    </div>
+                    <div onclick="window.location.href='abscess.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-droplet"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">ফোঁড়া</h4>
+                    </div>
+                    <div onclick="window.location.href='pressure.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-utensils"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">প্রেসার গ্রন্থি শিরা</h4>
+                    </div>
+                    <div onclick="window.location.href='bloodbonemuscle.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-bone"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">রক্ত হাড় পেশী</h4>
+                    </div>
+                    <div onclick="window.location.href='mental.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-brain"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">মানসিক রোগ সকল</h4>
+                    </div>
+                    <div onclick="window.location.href='skin.html'" class="feature-card text-center flex flex-col items-center">
+                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-hand-sparkles"></i></div>
+                        <h4 class="font-semibold text-gray-800 text-xs">চর্মরোগ</h4>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        $(function() {
+            $('#header-placeholder').load('assets/header.html');
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+
+        let timerInterval;
+
+        function loadUserData(data, uid) {
+            document.getElementById('userName').textContent = data.name || 'ইউজার';
+            document.getElementById('paymentAmount').textContent = data.paymentAmount || '০';
+            document.getElementById('startDate').textContent = data.accessStartDate || 'যুক্ত নেই';
+            
+            const badgeContainer = document.getElementById('badgeContainer');
+            const accountStatus = document.getElementById('accountStatus');
+            const endDateText = document.getElementById('endDate');
+            
+            if (data.role === 'paid') {
+                badgeContainer.innerHTML = `<span class="bg-gradient-to-r from-yellow-500 to-amber-600 text-slate-950 px-4 py-1.5 rounded-full font-bold text-sm shadow-md flex items-center gap-1.5"><i class="fas fa-crown"></i> PRO MEMBER</span>`;
+                accountStatus.innerHTML = `<span class="text-emerald-400">সক্রিয় (Paid)</span>`;
+            } else if (data.role === 'admin') {
+                badgeContainer.innerHTML = `<span class="bg-red-600 text-white px-4 py-1.5 rounded-full font-bold text-sm shadow-md flex items-center gap-1.5"><i class="fas fa-user-shield"></i> ADMIN</span>`;
+                accountStatus.innerHTML = `<span class="text-red-400">ফুল অ্যাডমিন এক্সেস</span>`;
+            } else {
+                badgeContainer.innerHTML = `<span class="bg-slate-700 text-slate-300 px-4 py-1.5 rounded-full font-bold text-sm flex items-center gap-1.5"><i class="fas fa-user"></i> GENERAL</span>`;
+                accountStatus.innerHTML = `<span class="text-yellow-400">ফ্রি ট্রায়াল</span>`;
+            }
+
+            if (data.accessEndDate) {
+                endDateText.textContent = formatDateToBangla(data.accessEndDate);
+                startCountdown(data.accessEndDate);
+            } else {
+                endDateText.textContent = 'সীমাহীন বা সেট করা নেই';
+                document.getElementById('countdownTimer').textContent = '--';
+                document.getElementById('accountStatus').textContent = 'সীমাহীন ট্রায়াল';
+            }
+        }
+
+        function formatDateToBangla(dateString) {
+            const date = new Date(dateString);
+            if (isNaN(date)) return dateString;
+            return date.toLocaleDateString('bn-BD', { year: 'numeric', month: 'long', day: 'numeric' });
+        }
+
+        function startCountdown(endDateStr) {
+            const targetDate = new Date(endDateStr + "T23:59:59").getTime();
+            
+            if (timerInterval) clearInterval(timerInterval);
+            
+            timerInterval = setInterval(function() {
+                const now = new Date().getTime();
+                const distance = targetDate - now;
+                
+                const timerElement = document.getElementById('countdownTimer');
+                
+                if (distance < 0) {
+                    clearInterval(timerInterval);
+                    timerElement.textContent = "মেয়াদ শেষ হয়েছে!";
+                    timerElement.className = "text-2xl font-bold text-red-500";
+                    document.getElementById('timeIcon').className = "w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-red-600";
+                    return;
+                }
+                
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                
+                const convertToBangla = (num) => String(num).replace(/\d/g, d => "০১২৩৪৫৬৭৮৯"[d]);
+                
+                timerElement.innerHTML = `${convertToBangla(days)} দিন ${convertToBangla(hours)} ঘণ্টা ${convertToBangla(minutes)} মিনিট`;
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
