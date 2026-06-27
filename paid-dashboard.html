@@ -51,9 +51,9 @@
     <style>
         body { 
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
-            background: #f4f7f6; 
+            background: #f8fafc; 
             min-height: 100vh;
-            color: #1e293b;
+            color: #0f172a;
         }
 
         #header-placeholder {
@@ -73,57 +73,44 @@
         }
         
         .dark-hero-section {
-            background: #022c22;
+            background: linear-gradient(135deg, #022c22, #064e3b);
             color: white;
             padding: 32px 16px;
-            border-bottom: 4px solid #059669;
+            border-bottom: 4px solid #10b981;
         }
 
         .premium-card {
-            background: linear-gradient(135deg, #022c22, #065f46);
+            background: linear-gradient(135deg, #064e3b, #0f766e);
             color: white;
             border-radius: 16px;
-            padding: 24px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-            border: 1px solid #059669;
-            transition: all 0.3s;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(6, 78, 59, 0.15);
         }
 
         .countdown-card {
             background: linear-gradient(135deg, #1e293b, #0f172a);
             color: white;
             border-radius: 16px;
-            padding: 24px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-            border: 1px solid #334155;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(15, 23, 42, 0.15);
         }
         
-        /* ছোট সাইজের রেসপন্সিভ কার্ডের স্টাইল */
-        .feature-card {
-            background: white;
-            border-radius: 12px;
-            padding: 10px 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
-            border: 1px solid #e2e8f0;
-            transition: all 0.2s ease;
-            cursor: pointer;
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 15px rgba(5, 150, 105, 0.1);
-            border-color: #059669;
-        }
-        
-        .feature-icon {
-            width: 32px;
-            height: 32px;
-            border-radius: 8px;
-            display: flex;
+        /* কালারফুল বাটন লিস্ট স্টাইল */
+        .list-btn {
+            display: inline-flex;
             align-items: center;
-            justify-content: center;
+            gap: 8px;
+            padding: 8px 14px;
             font-size: 14px;
-            margin-bottom: 6px;
+            font-weight: 600;
+            border-radius: 30px;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .list-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.12);
         }
     </style>
 </head>
@@ -136,7 +123,7 @@
         <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div>
                 <h1 class="text-3xl font-bold text-emerald-400">
-                    <i class="fas fa-user-gem mr-2"></i>স্বাগতম, <span id="userName" class="text-white">ইউজার</span>!
+                    <i class="fas fa-user-md mr-2"></i>স্বাগতম, <span id="userName" class="text-white">ইউজার</span>!
                 </h1>
                 <p class="text-emerald-200 mt-1">নির্বিক হোমিও প্রিমিয়াম মেম্বারশিপ ড্যাশবোর্ড</p>
             </div>
@@ -150,218 +137,184 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             <div class="premium-card flex flex-col justify-between">
                 <div>
-                    <div class="flex justify-between items-center mb-4">
-                        <p class="text-emerald-200 text-sm font-medium">মোট জমা দেওয়া টাকা</p>
-                        <div class="w-10 h-10 rounded-full bg-emerald-900/50 flex items-center justify-center text-emerald-400">
+                    <div class="flex justify-between items-center mb-2">
+                        <p class="text-emerald-200 text-xs font-medium">মোট জমা দেওয়া টাকা</p>
+                        <div class="w-8 h-8 rounded-full bg-emerald-900/50 flex items-center justify-center text-emerald-400 text-sm">
                             <i class="fas fa-wallet"></i>
                         </div>
                     </div>
-                    <p class="text-4xl font-bold"><span id="paymentAmount">০</span> ৳</p>
+                    <p class="text-3xl font-bold"><span id="paymentAmount">০</span> ৳</p>
                 </div>
-                <div class="text-xs text-emerald-300 mt-4 pt-3 border-t border-emerald-800/60">
+                <div class="text-[11px] text-emerald-300 mt-3 pt-2 border-t border-emerald-800/60">
                     <span>শুরুর তারিখ: <span id="startDate">-</span></span>
                 </div>
             </div>
             
             <div class="premium-card flex flex-col justify-between">
                 <div>
-                    <div class="flex justify-between items-center mb-4">
-                        <p class="text-emerald-200 text-sm font-medium">মেয়াদ সমাপ্তির তারিখ</p>
-                        <div class="w-10 h-10 rounded-full bg-emerald-900/50 flex items-center justify-center text-yellow-400">
+                    <div class="flex justify-between items-center mb-2">
+                        <p class="text-emerald-200 text-xs font-medium">মেয়াদ সমাপ্তির তারিখ</p>
+                        <div class="w-8 h-8 rounded-full bg-emerald-900/50 flex items-center justify-center text-yellow-400 text-sm">
                             <i class="fas fa-calendar-alt"></i>
                         </div>
                     </div>
-                    <p class="text-3xl font-bold text-yellow-300" id="endDate">-</p>
+                    <p class="text-2xl font-bold text-yellow-300" id="endDate">-</p>
                 </div>
-                <div class="mt-4 pt-3 border-t border-emerald-800/60">
-                    <a href="payment.html" class="text-xs font-semibold bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-3 py-1.5 rounded-lg transition inline-flex items-center gap-1">
-                        <i class="fas fa-sync-alt"></i> মেয়াদ নবায়ন করুন
+                <div class="mt-3 pt-2 border-t border-emerald-800/60">
+                    <a href="payment.html" class="text-[11px] font-semibold bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-2.5 py-1 rounded-lg transition inline-flex items-center gap-1">
+                        <i class="fas fa-sync-alt"></i> মেয়াদ নবায়ন
                     </a>
                 </div>
             </div>
             
             <div class="countdown-card flex flex-col justify-between">
                 <div>
-                    <div class="flex justify-between items-center mb-4">
-                        <p class="text-slate-300 text-sm font-medium">বাকি দিন ও সময়</p>
-                        <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-red-400" id="timeIcon">
+                    <div class="flex justify-between items-center mb-2">
+                        <p class="text-slate-300 text-xs font-medium">বাকি দিন ও সময়</p>
+                        <div class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-red-400 text-sm" id="timeIcon">
                             <i class="fas fa-hourglass-half"></i>
                         </div>
                     </div>
-                    <p class="text-2xl font-bold text-emerald-400 tracking-wide" id="countdownTimer">হিসাব করা হচ্ছে...</p>
+                    <p class="text-xl font-bold text-emerald-400 tracking-wide" id="countdownTimer">হিসাব করা হচ্ছে...</p>
                 </div>
-                <div class="text-xs text-slate-400 mt-4 pt-3 border-t border-slate-800">
+                <div class="text-[11px] text-slate-400 mt-3 pt-2 border-t border-slate-800">
                     স্ট্যাটাস: <span id="accountStatus" class="font-bold">চেক করা হচ্ছে...</span>
                 </div>
             </div>
         </div>
 
-        <!-- প্রিমিয়াম ফিচার কার্ডসমূহ -->
-        <div class="space-y-6">
+        <!-- মডার্ন কালারফুল লিস্ট এবং বাটন লেআউট -->
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 space-y-8">
             
-            <!-- ১. মেটেরিয়া মেডিকা ও সাধারণ রোগ (নতুন আকর্ষণীয় ফ্ল্যাট ডিজাইন) -->
-            <div class="bg-gradient-to-r from-emerald-950 to-teal-900 rounded-2xl p-4 shadow-inner mb-6 border border-emerald-800">
-                <h3 class="text-xs font-bold text-emerald-300 uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <i class="fas fa-star text-yellow-400 animate-pulse"></i> প্রধান কার্যকারী সেবাসমূহ
-                </h3>
-                <div class="flex flex-wrap gap-3">
-                    <!-- মেটেরিয়া মেডিকা বাটন -->
-                    <a href="medica/index.html" class="flex-1 min-w-[150px] bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-xl px-4 py-3 flex items-center gap-3 transition shadow-sm group">
-                        <div class="w-10 h-10 rounded-lg bg-amber-500 text-slate-950 flex items-center justify-center text-lg shadow-md group-hover:scale-105 transition-transform">
-                            <i class="fas fa-book-medical"></i>
+            <!-- ১. মেটেরিয়া মেডিকা ও সাধারণ রোগ (বড় এবং আকর্ষণীয় হাইলাইট বাটন) -->
+            <div class="pb-6 border-b border-slate-100">
+                <div class="flex flex-wrap gap-4">
+                    <a href="medica/index.html" class="flex-1 min-w-[200px] bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white rounded-xl px-5 py-3.5 flex items-center justify-between transition shadow-md group">
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-book-medical text-2xl"></i>
+                            <span class="font-bold text-base tracking-wide">মেটেরিয়া মেডিকা ব্যবহার করুন</span>
                         </div>
-                        <div>
-                            <span class="block font-bold text-sm tracking-wide">মেটেরিয়া মেডিকা</span>
-                            <span class="block text-[10px] text-emerald-200">হোমিওপ্যাথিক ঔষধ নির্দেশিকা</span>
-                        </div>
+                        <i class="fas fa-arrow-right text-sm opacity-70 group-hover:translate-x-1 transition-transform"></i>
                     </a>
                     
-                    <!-- সাধারণ রোগ বাটন -->
-                    <a href="select.html" class="flex-1 min-w-[150px] bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-xl px-4 py-3 flex items-center gap-3 transition shadow-sm group">
-                        <div class="w-10 h-10 rounded-lg bg-blue-500 text-white flex items-center justify-center text-lg shadow-md group-hover:scale-105 transition-transform">
-                            <i class="fas fa-stethoscope"></i>
+                    <a href="select.html" class="flex-1 min-w-[200px] bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white rounded-xl px-5 py-3.5 flex items-center justify-between transition shadow-md group">
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-stethoscope text-2xl"></i>
+                            <span class="font-bold text-base tracking-wide">সাধারণ রোগ ও চিকিৎসা</span>
                         </div>
-                        <div>
-                            <span class="block font-bold text-sm tracking-wide">সাধারণ রোগসমূহ</span>
-                            <span class="block text-[10px] text-emerald-200">দ্রুত লক্ষণ ও চিকিৎসা</span>
-                        </div>
+                        <i class="fas fa-arrow-right text-sm opacity-70 group-hover:translate-x-1 transition-transform"></i>
                     </a>
                 </div>
             </div>
 
             <!-- ২. উপরি অঙ্গের রোগ -->
             <div>
-                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <i class="fas fa-head-side-virus text-emerald-600"></i> উপরি অঙ্গের রোগসমূহ
+                <h3 class="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <span class="w-2 h-4 bg-teal-500 rounded-sm"></span> উপরি অঙ্গের রোগসমূহ
                 </h3>
-                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
-                    <div onclick="window.location.href='head.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-brain"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">মাথা</h4>
-                    </div>
-                    <div onclick="window.location.href='eyes.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-eye"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">চোখ</h4>
-                    </div>
-                    <div onclick="window.location.href='ear.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-ear-listen"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">কান</h4>
-                    </div>
-                    <div onclick="window.location.href='nose.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-allergies"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">নাক</h4>
-                    </div>
-                    <div onclick="window.location.href='mouthful.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-teeth"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">মুখ, টুটি ও ঘাড়</h4>
-                    </div>
-                    <div onclick="window.location.href='teeth.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-tooth"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">দাঁত</h4>
-                    </div>
+                <div class="flex flex-wrap gap-2.5">
+                    <a href="head.html" class="list-btn bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white border border-teal-200/60">
+                        <i class="fas fa-brain"></i> মাথা
+                    </a>
+                    <a href="eyes.html" class="list-btn bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white border border-teal-200/60">
+                        <i class="fas fa-eye"></i> চোখ
+                    </a>
+                    <a href="ear.html" class="list-btn bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white border border-teal-200/60">
+                        <i class="fas fa-ear-listen"></i> কান
+                    </a>
+                    <a href="nose.html" class="list-btn bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white border border-teal-200/60">
+                        <i class="fas fa-allergies"></i> নাক
+                    </a>
+                    <a href="mouthful.html" class="list-btn bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white border border-teal-200/60">
+                        <i class="fas fa-teeth"></i> মুখ হইতে টুটি ও ঘাড়
+                    </a>
+                    <a href="teeth.html" class="list-btn bg-teal-50 text-teal-700 hover:bg-teal-600 hover:text-white border border-teal-200/60">
+                        <i class="fas fa-tooth"></i> দাঁত
+                    </a>
                 </div>
             </div>
 
             <!-- ৩. মাঝ অঙ্গের রোগ -->
             <div>
-                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <i class="fas fa-lungs text-emerald-600"></i> মাঝ অঙ্গের রোগসমূহ
+                <h3 class="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <span class="w-2 h-4 bg-cyan-500 rounded-sm"></span> মাঝ অঙ্গের রোগসমূহ
                 </h3>
-                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
-                    <div onclick="window.location.href='chest.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-lungs"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">বুকের সমস্যা</h4>
-                    </div>
-                    <div onclick="window.location.href='hands.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-hand"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">হাতের সমস্যা</h4>
-                    </div>
-                    <div onclick="window.location.href='back.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-child"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">পিঠের সমস্যা</h4>
-                    </div>
-                    <div onclick="window.location.href='stomach.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-apple-alt"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">পাকস্থলী</h4>
-                    </div>
+                <div class="flex flex-wrap gap-2.5">
+                    <a href="chest.html" class="list-btn bg-cyan-50 text-cyan-700 hover:bg-cyan-600 hover:text-white border border-cyan-200/60">
+                        <i class="fas fa-lungs"></i> বুকের সমস্যা
+                    </a>
+                    <a href="hands.html" class="list-btn bg-cyan-50 text-cyan-700 hover:bg-cyan-600 hover:text-white border border-cyan-200/60">
+                        <i class="fas fa-hand"></i> হাতের সমস্যা
+                    </a>
+                    <a href="back.html" class="list-btn bg-cyan-50 text-cyan-700 hover:bg-cyan-600 hover:text-white border border-cyan-200/60">
+                        <i class="fas fa-child"></i> পিঠের সমস্যা
+                    </a>
+                    <a href="stomach.html" class="list-btn bg-cyan-50 text-cyan-700 hover:bg-cyan-600 hover:text-white border border-cyan-200/60">
+                        <i class="fas fa-apple-alt"></i> পাকস্থলী
+                    </a>
                 </div>
             </div>
 
             <!-- ৪. নিচ অঙ্গের রোগ -->
             <div>
-                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <i class="fas fa-person-walking text-emerald-600"></i> নিচ অঙ্গের রোগসমূহ
+                <h3 class="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <span class="w-2 h-4 bg-emerald-500 rounded-sm"></span> নিচ অঙ্গের রোগসমূহ
                 </h3>
-                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
-                    <div onclick="window.location.href='piles.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-circle-dot"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">অর্শ</h4>
-                    </div>
-                    <div onclick="window.location.href='urethral.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-droplet"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">মূত্রনালী</h4>
-                    </div>
-                    <div onclick="window.location.href='leg.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-shoe-prints"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">পা</h4>
-                    </div>
-                    <div onclick="window.location.href='stool.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-toilet"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">মল ও কৃমি</h4>
-                    </div>
-                    <div onclick="window.location.href='anus.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-water"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">মলদ্বার</h4>
-                    </div>
-                    <div onclick="window.location.href='male.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-person"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">যৌনাঙ্গ পুরুষ</h4>
-                    </div>
-                    <div onclick="window.location.href='female.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-person-dress"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">যৌনাঙ্গ নারী</h4>
-                    </div>
+                <div class="flex flex-wrap gap-2.5">
+                    <a href="piles.html" class="list-btn bg-emerald-50 text-emerald-700 hover:bg-emerald-600 hover:text-white border border-emerald-200/60">
+                        <i class="fas fa-circle-dot"></i> অর্শ
+                    </a>
+                    <a href="urethral.html" class="list-btn bg-emerald-50 text-emerald-700 hover:bg-emerald-600 hover:text-white border border-emerald-200/60">
+                        <i class="fas fa-droplet"></i> মূত্রনালী
+                    </a>
+                    <a href="leg.html" class="list-btn bg-emerald-50 text-emerald-700 hover:bg-emerald-600 hover:text-white border border-emerald-200/60">
+                        <i class="fas fa-shoe-prints"></i> পা
+                    </a>
+                    <a href="stool.html" class="list-btn bg-emerald-50 text-emerald-700 hover:bg-emerald-600 hover:text-white border border-emerald-200/60">
+                        <i class="fas fa-toilet"></i> মল ও কৃমি
+                    </a>
+                    <a href="anus.html" class="list-btn bg-emerald-50 text-emerald-700 hover:bg-emerald-600 hover:text-white border border-emerald-200/60">
+                        <i class="fas fa-water"></i> মলদ্বার
+                    </a>
+                    <a href="male.html" class="list-btn bg-emerald-50 text-emerald-700 hover:bg-emerald-600 hover:text-white border border-emerald-200/60">
+                        <i class="fas fa-person"></i> যৌনাঙ্গ পুরুষ
+                    </a>
+                    <a href="female.html" class="list-btn bg-emerald-50 text-emerald-700 hover:bg-emerald-600 hover:text-white border border-emerald-200/60">
+                        <i class="fas fa-person-dress"></i> যৌনাঙ্গ নারী
+                    </a>
                 </div>
             </div>
 
             <!-- ৫. সার্বদেহিক রোগ -->
             <div>
-                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <i class="fas fa-accessibility text-emerald-600"></i> সার্বদেহিক রোগসমূহ
+                <h3 class="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <span class="w-2 h-4 bg-purple-500 rounded-sm"></span> সার্বদেহিক রোগসমূহ
                 </h3>
-                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
-                    <div onclick="window.location.href='jor.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-temperature-high"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">জ্বর সর্দি কাশি</h4>
-                    </div>
-                    <div onclick="window.location.href='pain.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-bolt"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">ব্যথা</h4>
-                    </div>
-                    <div onclick="window.location.href='tumor.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-circle"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">টিউমার</h4>
-                    </div>
-                    <div onclick="window.location.href='abscess.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-droplet"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">ফোঁড়া</h4>
-                    </div>
-                    <div onclick="window.location.href='pressure.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-utensils"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">প্রেসার গ্রন্থি শিরা</h4>
-                    </div>
-                    <div onclick="window.location.href='bloodbonemuscle.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-bone"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">রক্ত হাড় পেশী</h4>
-                    </div>
-                    <div onclick="window.location.href='mental.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-brain"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">মানসিক রোগ সকল</h4>
-                    </div>
-                    <div onclick="window.location.href='skin.html'" class="feature-card text-center flex flex-col items-center">
-                        <div class="feature-icon bg-teal-50 text-teal-600"><i class="fas fa-hand-sparkles"></i></div>
-                        <h4 class="font-semibold text-gray-800 text-xs">চর্মরোগ</h4>
-                    </div>
+                <div class="flex flex-wrap gap-2.5">
+                    <a href="jor.html" class="list-btn bg-purple-50 text-purple-700 hover:bg-purple-600 hover:text-white border border-purple-200/60">
+                        <i class="fas fa-temperature-high"></i> জ্বর সর্দি কাশি
+                    </a>
+                    <a href="pain.html" class="list-btn bg-purple-50 text-purple-700 hover:bg-purple-600 hover:text-white border border-purple-200/60">
+                        <i class="fas fa-bolt"></i> ব্যথা
+                    </a>
+                    <a href="tumor.html" class="list-btn bg-purple-50 text-purple-700 hover:bg-purple-600 hover:text-white border border-purple-200/60">
+                        <i class="fas fa-circle"></i> টিউমার
+                    </a>
+                    <a href="abscess.html" class="list-btn bg-purple-50 text-purple-700 hover:bg-purple-600 hover:text-white border border-purple-200/60">
+                        <i class="fas fa-droplet"></i> ফোঁড়া
+                    </a>
+                    <a href="pressure.html" class="list-btn bg-purple-50 text-purple-700 hover:bg-purple-600 hover:text-white border border-purple-200/60">
+                        <i class="fas fa-utensils"></i> প্রেসার গ্রন্থি শিরা
+                    </a>
+                    <a href="bloodbonemuscle.html" class="list-btn bg-purple-50 text-purple-700 hover:bg-purple-600 hover:text-white border border-purple-200/60">
+                        <i class="fas fa-bone"></i> রক্ত হাড় পেশী
+                    </a>
+                    <a href="mental.html" class="list-btn bg-purple-50 text-purple-700 hover:bg-purple-600 hover:text-white border border-purple-200/60">
+                        <i class="fas fa-brain"></i> মানসিক রোগ সকল
+                    </a>
+                    <a href="skin.html" class="list-btn bg-purple-50 text-purple-700 hover:bg-purple-600 hover:text-white border border-purple-200/60">
+                        <i class="fas fa-hand-sparkles"></i> চর্মরোগ
+                    </a>
                 </div>
             </div>
             
