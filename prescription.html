@@ -22,6 +22,7 @@
         document.head.appendChild(style);
 
         let currentUserId = null;
+        let currentUserRole = "general"; // ডিফল্ট রোল
         let currentUserName = "হোমিওপ্যাথিক চিকিৎসক"; // ডিফল্ট নাম
         let nextSuggestedSerial = "১";
         
@@ -63,7 +64,7 @@
                 <h1 class="text-xl font-bold flex items-center gap-2 text-emerald-300">
                     <i class="fas fa-laptop-medical"></i> নির্বিক হাইব্রিড প্রেসক্রিপশন ডায়েরি
                 </h1>
-                <p class="text-xs text-emerald-100/80 mt-1">নিরাপদ এআই প্রেসক্রিপশন ক্লাউড ব্যাকআপ। প্রতিটি পেস্টে প্রথম ২০০০ ক্যারেক্টার সংরক্ষিত হবে।</p>
+                <p class="text-xs text-emerald-100/80 mt-1">নিরাপদ এআই প্রেসক্রিপশন ক্লাউড ব্যাকআপ। প্রতিটি পেস্টে প্রথম ২৩০০ ক্যারেক্টার সংরক্ষিত হবে।</p>
             </div>
             
             <div class="bg-white/10 border border-white/20 rounded-xl p-3 flex items-center gap-3 self-start md:self-auto">
@@ -93,14 +94,14 @@
                     <div class="grid grid-cols-2 gap-3">
                         <div>
                             <label class="block text-[11px] font-bold text-slate-600 mb-0.5 flex justify-between items-center">
-                                <span>সিরিয়াল নং</span>
+                                <span>সিরিয়াল নং</span>
                                 <button type="button" onclick="applySuggestedSerial()" class="text-[9px] text-emerald-600 hover:underline" id="serialSuggestor">অফার: ১</button>
                             </label>
                             <input type="text" id="serialNo" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: ২৫/০৬-এ">
                         </div>
                         <div>
                             <label class="block text-[11px] font-bold text-slate-600 mb-0.5">তারিখ</label>
-                            <input type="text" id="prescriptionDate" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: ২৮ জুন, ۲۰২৬">
+                            <input type="text" id="prescriptionDate" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: ২৮ জুন, ২০২৬">
                         </div>
                     </div>
 
@@ -116,8 +117,8 @@
                     </div>
 
                     <div>
-                        <label class="block text-[11px] font-bold text-slate-600 mb-1">প্রেসক্রিপশন বিবরণ <span class="text-rose-500 font-normal">(সর্বোচ্চ ২০০০ ক্যারেক্টার)</span></label>
-                        <textarea id="prescriptionText" rows="12" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white font-mono transition" placeholder="এখানে লেখা পেস্ট বা টাইপ করুন..."></textarea>
+                        <label class="block text-[11px] font-bold text-slate-600 mb-1">প্রেসক্রিপশন বিবরণ <span class="text-rose-500 font-normal">(সর্বোচ্চ ২৩০০ ক্যারেক্টার)</span></label>
+                        <textarea id="prescriptionText" maxlength="2300" rows="12" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white font-mono transition" placeholder="এখানে লেখা পেস্ট বা টাইপ করুন..."></textarea>
                     </div>
 
                     <button type="submit" id="btnSubmitPrescription" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-2.5 rounded-lg shadow transition flex items-center justify-center gap-1.5">
@@ -136,7 +137,7 @@
                         <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
                             <i class="fas fa-search text-[11px]"></i>
                         </span>
-                        <input type="text" id="txtSearch" onkeyup="filterPrescriptions()" class="w-full pl-8 pr-3 py-1.5 bg-slate-50 border border-slate-200 text-xs rounded-xl focus:outline-emerald-500 focus:bg-white transition" placeholder="সিরিয়াল, নাম, ফোন বা যেকোনো শব্দ খুঁজুন...">
+                        <input type="text" id="txtSearch" onkeyup="filterPrescriptions()" class="w-full pl-8 pr-3 py-1.5 bg-slate-50 border border-slate-200 text-xs rounded-xl focus:outline-emerald-500 focus:bg-white transition" placeholder="সিরিয়াল, নাম, ফোন বা যেকোনো শব্দ খুঁজুন...">
                     </div>
                 </div>
 
@@ -144,7 +145,7 @@
                     <table class="w-full text-left border-collapse text-xs">
                         <thead>
                             <tr class="bg-slate-50 text-slate-700 uppercase font-bold border-b border-slate-200">
-                                <th class="p-3">সিরিয়াল</th>
+                                <th class="p-3">সিরিয়াল</th>
                                 <th class="p-3">তারিখ</th>
                                 <th class="p-3">রোগীর নাম</th>
                                 <th class="p-3">মোবাইল নম্বর</th>
@@ -178,10 +179,10 @@
             
             <input type="hidden" id="editDocId">
             <div class="text-[11px] font-bold text-slate-600 mb-1 flex justify-between items-center">
-                <span>সম্পূর্ণ প্রেসক্রিপশন স্ক্রিপ্ট:</span>
+                <span>সম্পূর্ণ প্রেসক্রিপশন স্ক্রিপ্ট (সর্বোচ্চ ২৩০০ ক্যারেক্টার):</span>
                 <button onclick="appendAutoTimestamp()" class="bg-amber-50 hover:bg-amber-100 text-amber-700 text-[10px] px-2 py-0.5 rounded border border-amber-200 font-sans"><i class="fas fa-clock"></i> নতুন ঔষধ লেখার তারিখ যোগ করুন</button>
             </div>
-            <textarea id="modalTextContent" class="w-full bg-slate-50 border p-3 rounded-lg text-xs text-slate-700 font-mono whitespace-pre-wrap flex-1 focus:bg-white focus:outline-emerald-500" rows="14"></textarea>
+            <textarea id="modalTextContent" maxlength="2300" class="w-full bg-slate-50 border p-3 rounded-lg text-xs text-slate-700 font-mono whitespace-pre-wrap flex-1 focus:bg-white focus:outline-emerald-500" rows="14"></textarea>
             
             <div class="mt-4 flex justify-end gap-2">
                 <button onclick="closeModal()" class="bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold text-xs px-4 py-2 rounded-lg transition">বন্ধ করুন</button>
@@ -204,9 +205,17 @@
             
             db.collection("users").doc(uid).get().then((doc) => {
                 if (doc.exists) {
-                    if(doc.data().fullName) currentUserName = doc.data().fullName;
+                    const userData = doc.data();
+                    if(userData.fullName) currentUserName = userData.fullName;
+                    if(userData.role) currentUserRole = userData.role; // আপনার রোল সেভ কলাম
+                    if(userData.userRole) currentUserRole = userData.userRole; // বিকল্প ট্র্যাকিং ব্যাকআপ
                     
-                    if (doc.data().userRole === 'paid') {
+                    // রোল যদি এডমিন হয় তবে আনলিমিটেড
+                    if (currentUserRole === 'admin') {
+                        userDailyLimit = Infinity; 
+                        $('#lblLimit').text('∞');
+                        $('#quotaStatusBadge').removeClass('bg-emerald-500/20 text-emerald-300').addClass('bg-purple-500/20 text-purple-300').html('<i class="fas fa-user-shield text-[10px]"></i> প্রধান এডমিন');
+                    } else if (currentUserRole === 'paid') {
                         userDailyLimit = 50; 
                         $('#lblLimit').text('৫০');
                         $('#quotaStatusBadge').removeClass('bg-emerald-500/20 text-emerald-300').addClass('bg-amber-500/20 text-amber-300').html('<i class="fas fa-crown text-[10px]"></i> পেইড মেম্বার');
@@ -226,8 +235,9 @@
                         todaySavedCount = snapshot.size;
                         $('#lblUsed').text(todaySavedCount);
                         
-                        if (todaySavedCount >= userDailyLimit) {
-                            $('#btnSubmitPrescription').removeClass('bg-emerald-600 hover:bg-emerald-700').addClass('bg-slate-400 cursor-not-allowed').text('আজকের জমার কোটা শেষ হয়ে গেছে');
+                        // এডমিন না হলে এবং কোটা শেষ হলে বাটন ডিজেবল হবে
+                        if (currentUserRole !== 'admin' && todaySavedCount >= userDailyLimit) {
+                            $('#btnSubmitPrescription').removeClass('bg-emerald-600 hover:bg-emerald-700').addClass('bg-slate-400 cursor-not-allowed').text('আজকের জমার কোটা শেষ হয়ে গেছে');
                         } else {
                             $('#btnSubmitPrescription').removeClass('bg-slate-400 cursor-not-allowed').addClass('bg-emerald-600 hover:bg-emerald-700').text('ডাটাবেজে সংরক্ষণ করুন');
                         }
@@ -239,10 +249,10 @@
             });
         }
 
-        // ক্লিপবোর্ড পেস্ট লজিক (সর্বোচ্চ ২০০০ ক্যারেক্টার ট্রিম)
+        // ক্লিপবোর্ড পেস্ট লজিক (সর্বোচ্চ ২৩০০ ক্যারেক্টার ট্রিম)
         async function handlePaste() {
-            if (todaySavedCount >= userDailyLimit) {
-                alert(`⚠️ দুঃখিত! আপনার আজকের দৈনিক লিমিট (${userDailyLimit}টি) শেষ হয়ে গেছে।`);
+            if (currentUserRole !== 'admin' && todaySavedCount >= userDailyLimit) {
+                alert(`⚠️ দুঃখিত! আপনার আজকের দৈনিক লিমিট (${userDailyLimit}টি) শেষ হয়ে গেছে।`);
                 return;
             }
 
@@ -250,9 +260,9 @@
                 let text = await navigator.clipboard.readText();
                 text = text.trim();
 
-                if(text.length > 2000) {
-                    alert("✂️ নোটিশ: প্রেসক্রিপশন স্ক্রিপ্টটি ২০০০ অক্ষরের চেয়ে বড়! ডাটাবেজ সুরক্ষায় প্রথম ২০০০ ক্যারেক্টার নেওয়া হয়েছে।");
-                    text = text.substring(0, 2000);
+                if(text.length > 2300) {
+                    alert("✂️ নোটিশ: প্রেসক্রিপশন স্ক্রিপ্টটি ২৩০০ অক্ষরের চেয়ে বড়! ডাটাবেজ সুরক্ষায় প্রথম ২৩০০ ক্যারেক্টার নেওয়া হয়েছে।");
+                    text = text.substring(0, 2300);
                 }
 
                 $('#prescriptionText').val(text);
@@ -263,15 +273,15 @@
                 if(extracted.name) $('#patientName').val(extracted.name);
                 if(extracted.phone) $('#patientPhone').val(extracted.phone);
                 
-                alert("✅ পেস্ট ও অটো-ফিল সফল হয়েছে!");
+                alert("✅ পেস্ট ও অটো-ফিল সফল হয়েছে!");
             } catch (err) {
-                alert("ম্যানুয়ালি পেস্ট (Ctrl+V) করুন।");
+                alert("ম্যানুয়ালি পেস্ট (Ctrl+V) করুন।");
             }
         }
 
         function parsePrescriptionText(text) {
             let res = { serial: '', date: '', name: '', phone: '' };
-            const sMatch = text.match(/সিরিয়াল\s*নং\s*:\s*([^\n\r]+)/);
+            const sMatch = text.match(/সিরিয়াল\s*নং\s*:\s*([^\n\r]+)/);
             if(sMatch) res.serial = sMatch[1].trim();
             const dMatch = text.match(/তারিখ\s*:\s*([^\n\r]+)/);
             if(dMatch) res.date = dMatch[1].trim();
@@ -291,14 +301,14 @@
             e.preventDefault();
             if(!currentUserId) return alert("ত্রুটি: পুনরায় লগইন করুন।");
 
-            if (todaySavedCount >= userDailyLimit) {
+            if (currentUserRole !== 'admin' && todaySavedCount >= userDailyLimit) {
                 alert("⚠️ কোটা শেষ! আপনি আজকের সর্বোচ্চ সীমা অতিক্রম করেছেন।");
                 return;
             }
 
             let mainText = $('#prescriptionText').val();
-            if(mainText.length > 2000) {
-                mainText = mainText.substring(0, 2000);
+            if(mainText.length > 2300) {
+                mainText = mainText.substring(0, 2300);
             }
 
             const submitBtn = $(this).find('button[type="submit"]');
@@ -313,11 +323,11 @@
                 prescriptionText: mainText,
                 createdAt: firebase.firestore.FieldValue.serverTimestamp()
             }).then(() => {
-                alert("সফলভাবে ডায়েরিতে সেভ করা হয়েছে!");
+                alert("সফলভাবে ডায়েরিতে সেভ করা হয়েছে!");
                 $('#prescriptionForm')[0].reset();
                 applySuggestedSerial();
             }).catch(error => {
-                alert("ডাটা সেভ করতে সমস্যা হয়েছে।");
+                alert("ডাটা সেভ করতে সমস্যা হয়েছে।");
             }).finally(() => {
                 submitBtn.prop('disabled', false);
             });
@@ -370,14 +380,13 @@
             tbody.innerHTML = '';
 
             if (dataArray.length === 0) {
-                tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-slate-400">কোনো তথ্য পাওয়া যায়নি।</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-slate-400">কোনো তথ্য পাওয়া যায়নি।</td></tr>`;
                 return;
             }
 
             dataArray.forEach((data) => {
                 const openBtn = `<button onclick="openEditModal('${data.id}', \`${escape(data.patientName)}\`, \`${escape(data.prescriptionText)}\`)" class="bg-emerald-600 text-white hover:bg-emerald-700 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition"><i class="fas fa-folder-open text-[9px]"></i> ওপেন</button>`;
                 
-                // 🖨️ নীল রঙের প্রফেশনাল প্রিন্ট বাটন
                 const printBtn = `<button onclick="printPrescriptionWindow(\`${escape(data.serialNo)}\`,\`${escape(data.prescriptionDate)}\`,\`${escape(data.patientName)}\`,\`${escape(data.patientPhone)}\`,\`${escape(data.prescriptionText)}\`)" class="bg-blue-600 text-white hover:bg-blue-700 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition ml-1"><i class="fas fa-print text-[9px]"></i> প্রিন্ট</button>`;
 
                 const deleteBtn = `<button onclick="deletePrescription('${data.id}', '${data.patientName}')" class="bg-rose-50 text-rose-600 hover:bg-rose-100 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition ml-1"><i class="fas fa-trash-alt text-[9px]"></i> ডিলিট</button>`;
@@ -395,7 +404,7 @@
             });
         }
 
-        // 🖨️ প্রফেশনাল প্রেসক্রিপশন প্রিন্ট উইন্ডো মেকার লজিক
+        // 🖨️ প্রিন্ট উইন্ডো লজিক
         function printPrescriptionWindow(serial, date, name, phone, text) {
             serial = unescape(serial);
             date = unescape(date);
@@ -403,10 +412,8 @@
             phone = unescape(phone);
             text = unescape(text);
 
-            // নতুন ফাঁকা উইন্ডো তৈরি
             const printWindow = window.open('', '_blank', 'width=900,height=1000');
             
-            // উইন্ডোর ভেতরে প্রফেশনাল মেডিকেল প্যাড ডিজাইন ইনজেক্ট করা
             printWindow.document.write(`
                 <html>
                 <head>
@@ -432,20 +439,20 @@
 
                     <div class="flex justify-between items-start border-b-4 border-emerald-700 pb-4 mb-6">
                         <div>
-                            <h1 class="text-3xl font-black text-emerald-800 tracking-wide">নিভিক হোমিও</h1>
+                            <h1 class="text-3xl font-black text-emerald-800 tracking-wide">নির্ভীক হোমিও</h1>
                             <p class="text-md font-bold text-slate-700 mt-1">${currentUserName}</p>
                             <p class="text-xs text-slate-500">DHMS (হোমিওপ্যাথিক চিকিৎসা শিক্ষা বোর্ড)</p>
-                            <p class="text-xs text-slate-400 mt-0.5">ডিজিটাল এআই প্রেসক্রিপশন নেটওয়ার্ক</p>
+                            <p class="text-xs text-slate-400 mt-0.5">ডিজিটাল এআই প্রেসক্রিপশন নেটওয়ার্ক</p>
                         </div>
                         <div class="text-right text-xs text-slate-500 space-y-0.5">
                             <p class="font-bold text-slate-700"><i class="fas fa-clinic-medical"></i> নির্বিক অনলাইন চেম্বার</p>
-                            <p>কুড়িগ্রাম, রংপুর, বাংলাদেশ</p>
+                            <p>কুড়িগ্রাম, রংপুর, বাংলাদেশ</p>
                             <p><i class="fas fa-globe"></i> nirvikbazar.kesug.com</p>
                         </div>
                     </div>
 
                     <div class="grid grid-cols-4 bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs gap-3 mb-6 font-medium">
-                        <div><span class="text-slate-400">সিরিয়াল নং:</span> <b class="text-slate-800">${serial}</b></div>
+                        <div><span class="text-slate-400">সিরিয়াল নং:</span> <b class="text-slate-800">${serial}</b></div>
                         <div><span class="text-slate-400">তারিখ:</span> <b class="text-slate-800">${date}</b></div>
                         <div class="col-span-1"><span class="text-slate-400">রোগীর নাম:</span> <b class="text-slate-800">${name}</b></div>
                         <div><span class="text-slate-400">মোবাইল নম্বর:</span> <b class="text-slate-800">${phone}</b></div>
@@ -468,7 +475,7 @@
 
                     <div class="border-t border-slate-200 mt-12 pt-4 flex justify-between items-center text-[10px] text-slate-400">
                         <div>
-                            <p><i class="fas fa-heartbeat text-rose-500"></i> নির্বিক হোমিও সফটওয়্যার দ্বারা জেনারেটকৃত ডিজিটাল কপি।</p>
+                            <p><i class="fas fa-heartbeat text-rose-500"></i> নির্বিক হোমিও软件 দ্বারা জেনারেটকৃত ডিজিটাল কপি।</p>
                         </div>
                         <div class="text-center w-40 border-t border-slate-400 pt-1 mt-6 text-slate-600 font-bold">
                             চিকিৎসকের স্বাক্ষর
@@ -480,7 +487,6 @@
             `);
 
             printWindow.document.close();
-            // অটোমেটিকভাবে প্রিন্ট উইন্ডোকে পপআপ আকারে ট্রিগার করা
             printWindow.focus();
         }
 
@@ -510,9 +516,9 @@
             if (!accept) return;
 
             firebase.firestore().collection("prescriptions").doc(docId).delete().then(() => {
-                alert("✅ রেকর্ডটি সফলভাবে ডাটাবেজ থেকে ডিলিট করা হয়েছে।");
+                alert("✅ রেকর্ডটি সফলভাবে ডাটাবেজ থেকে ডিলিট করা হয়েছে।");
             }).catch(error => {
-                alert("ডিলিট করতে ব্যর্থ হয়েছে।");
+                alert("ডিলিট করতে ব্যর্থ হয়েছে।");
             });
         }
 
@@ -533,10 +539,10 @@
             const banglaDate = now.toLocaleDateString('bn-BD', options);
             const banglaTime = now.toLocaleTimeString('bn-BD', { hour: '2-digit', minute: '2-digit' });
 
-            const timestampText = `\n\n--- [নতুন ফলোআপ ও ঔষধ - তারিখ: ${banglaDate} | সময়: ${banglaTime}] ---\n`;
+            const timestampText = `\n\n--- [নতুন ফলোআপ ও ঔষধ - তারিখ: ${banglaDate} | সময়: ${banglaTime}] ---\n`;
             
-            if((textarea.value + timestampText).length > 2000) {
-                alert("⚠️ সতর্কতা: নতুন ঔষধ যুক্ত করলে টেক্সট ২০০০ ক্যারেক্টার অতিক্রম করবে!");
+            if((textarea.value + timestampText).length > 2300) {
+                alert("⚠️ সতর্কতা: নতুন ঔষধ যুক্ত করলে টেক্সট ২৩০০ ক্যারেক্টার অতিক্রম করবে!");
                 return;
             }
 
@@ -551,18 +557,18 @@
 
             if(!docId) return;
 
-            if(updatedText.length > 2000) {
-                alert("✂️ টেক্সট অতিরিক্ত বড় হওয়ায় প্রথম ২০০০ ক্যারেক্টার সেভ করা হচ্ছে।");
-                updatedText = updatedText.substring(0, 2000);
+            if(updatedText.length > 2300) {
+                alert("✂️ টেক্সট অতিরিক্ত বড় হওয়ায় প্রথম ২৩০০ ক্যারেক্টার সেভ করা হচ্ছে।");
+                updatedText = updatedText.substring(0, 2300);
             }
 
             firebase.firestore().collection("prescriptions").doc(docId).update({
                 prescriptionText: updatedText
             }).then(() => {
-                alert("আপডেট সফল হয়েছে!");
+                alert("আপডেট সফল হয়েছে!");
                 closeModal();
             }).catch(error => {
-                alert("আপডেট ব্যর্থ হয়েছে।");
+                alert("আপডেট ব্যর্থ হয়েছে。");
             });
         }
 
