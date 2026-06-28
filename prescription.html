@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>প্রেসক্রিপশন - নির্বিক হোমিও</title>
+    <title>স্মার্ট প্রেসক্রিপশন - নির্বিক হোমিও</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -22,6 +22,7 @@
         document.head.appendChild(style);
 
         let currentUserId = null;
+        let nextSuggestedSerial = "১";
 
         firebase.auth().onAuthStateChanged((user) => {
             if (!user) {
@@ -55,9 +56,9 @@
         <div class="mb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4 bg-gradient-to-r from-emerald-800 to-teal-900 p-6 rounded-2xl text-white shadow-sm">
             <div>
                 <h1 class="text-xl font-bold flex items-center gap-2 text-emerald-300">
-                    <i class="fas fa-file-prescription"></i> এআই স্মার্ট প্রেসক্রিপশন খাতা
+                    <i class="fas fa-laptop-medical"></i> নির্বিক হাইব্রিড প্রেসক্রিপশন ডায়েরি
                 </h1>
-                <p class="text-xs text-emerald-100/80 mt-1">আপনার নিজস্ব প্রেসক্রিপশনগুলি এখানে সম্পূর্ণ নিরাপদে ও গোপনে সংরক্ষিত থাকবে (অন্য কেউ দেখবে না)।</p>
+                <p class="text-xs text-emerald-100/80 mt-1">AI প্রেসক্রিপশন পেস্ট করুন অথবা ম্যানুয়ালি টাইপ করে ঔষধ রেকর্ড করুন। আপনার ডাটা সম্পূর্ণ ব্যক্তিগত ও সুরক্ষিত।</p>
             </div>
             <a href="dashboard.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-4 py-2 rounded-xl transition inline-flex items-center gap-1.5 self-start md:self-auto">
                 <i class="fas fa-arrow-left"></i> ড্যাশবোর্ডে ফিরুন
@@ -66,34 +67,65 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
             <div class="lg:col-span-5 bg-white rounded-2xl p-5 shadow-sm border border-slate-100 space-y-4">
-                <h2 class="text-sm font-bold text-slate-800 border-b border-slate-100 pb-2 flex items-center gap-1.5">
-                    <i class="fas fa-paste text-emerald-500"></i> প্রেসক্রিপশন পেস্ট করুন
-                </h2>
+                <div class="flex items-center justify-between border-b border-slate-100 pb-2">
+                    <h2 class="text-sm font-bold text-slate-800 flex items-center gap-1.5">
+                        <i class="fas fa-edit text-emerald-500"></i> প্রেসক্রিপশন এন্ট্রি/রাইটার
+                    </h2>
+                    <button type="button" onclick="handlePaste()" class="bg-emerald-50 hover:bg-emerald-100 text-emerald-700 font-bold text-xs px-3 py-1 rounded-lg border border-emerald-200 transition flex items-center gap-1">
+                        <i class="fas fa-paste"></i> Paste (পেস্ট করুন)
+                    </button>
+                </div>
                 
-                <form id="prescriptionForm" class="space-y-4">
-                    <div>
-                        <label class="block text-[11px] font-bold text-slate-600 mb-1">সম্পূর্ণ এআই প্রেসক্রিপশন টেক্সট *</label>
-                        <textarea id="prescriptionText" required rows="15" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white font-mono transition" placeholder="এখানে আপনার এআই জেনারেটেড সম্পূর্ণ প্রেসক্রিপশনটি পেস্ট (Paste) করুন..."></textarea>
+                <form id="prescriptionForm" class="space-y-3">
+                    <div class="grid grid-cols-2 gap-3">
+                        <div>
+                            <label class="block text-[11px] font-bold text-slate-600 mb-0.5 flex justify-between items-center">
+                                <span>সিরিয়াল নং</span>
+                                <button type="button" onclick="applySuggestedSerial()" class="text-[9px] text-emerald-600 hover:underline" id="serialSuggestor">অফার: ১</button>
+                            </label>
+                            <input type="text" id="serialNo" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: ২৫/০৬-এ">
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-bold text-slate-600 mb-0.5">তারিখ</label>
+                            <input type="text" id="prescriptionDate" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: ২৮ জুন, ২০২৬">
+                        </div>
                     </div>
+
+                    <div class="grid grid-cols-2 gap-3">
+                        <div>
+                            <label class="block text-[11px] font-bold text-slate-600 mb-0.5">রোগীর নাম</label>
+                            <input type="text" id="patientName" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: মিলন">
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-bold text-slate-600 mb-0.5">মোবাইল নম্বর</label>
+                            <input type="text" id="patientPhone" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: 017XXXXXXXX">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-[11px] font-bold text-slate-600 mb-1">প্রেসক্রিপশন বিবরণ (লক্ষণ, রোগ ও ঔষধসমূহ)</label>
+                        <textarea id="prescriptionText" rows="12" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white font-mono transition" placeholder="AI থেকে আনা টেক্সট পেস্ট করুন অথবা নিজে এখানে সমস্যা ও ঔষধের নাম টাইপ করুন..."></textarea>
+                    </div>
+
                     <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-2.5 rounded-lg shadow transition flex items-center justify-center gap-1.5">
-                        <i class="fas fa-brain"></i> অটো-রিড ও ডাটাবেজে সেভ করুন
+                        <i class="fas fa-cloud-upload-alt"></i> ডাটাবেজে সংরক্ষণ করুন
                     </button>
                 </form>
             </div>
 
             <div class="lg:col-span-7 bg-white rounded-2xl p-5 shadow-sm border border-slate-100 space-y-4">
                 <h2 class="text-sm font-bold text-slate-800 border-b border-slate-100 pb-2 flex items-center gap-1.5">
-                    <i class="fas fa-user-lock text-emerald-500"></i> আপনার ব্যক্তিগত প্রেসক্রিপশন তালিকা
+                    <i class="fas fa-list-ol text-emerald-500"></i> আপনার ব্যক্তিগত ডাটা তালিকা
                 </h2>
 
                 <div class="overflow-x-auto">
                     <table class="w-full text-left border-collapse text-xs">
                         <thead>
                             <tr class="bg-slate-50 text-slate-700 uppercase font-bold border-b border-slate-200">
+                                <th class="p-3">সিরিয়াল</th>
                                 <th class="p-3">তারিখ</th>
                                 <th class="p-3">রোগীর নাম</th>
                                 <th class="p-3">মোবাইল নম্বর</th>
-                                <th class="p-3">প্রধান সমস্যা</th>
                                 <th class="p-3 text-center">অ্যাকশন</th>
                             </tr>
                         </thead>
@@ -109,18 +141,29 @@
     </div>
 
     <div id="textModal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
-        <div class="bg-white rounded-2xl max-w-xl w-full p-5 shadow-xl flex flex-col max-h-[85vh]">
+        <div class="bg-white rounded-2xl max-w-2xl w-full p-5 shadow-xl flex flex-col max-h-[90vh]">
             <div class="flex items-center justify-between border-b pb-2 mb-3">
-                <h3 class="font-bold text-slate-800 text-sm flex items-center gap-1">
-                    <i class="fas fa-file-invoice text-emerald-500"></i> সম্পূর্ণ প্রেসক্রিপশন রেকর্ড
-                </h3>
+                <div>
+                    <h3 class="font-bold text-slate-800 text-sm flex items-center gap-1">
+                        <i class="fas fa-file-invoice text-emerald-500"></i> প্রেসক্রিপশন রেকর্ড এডিটর
+                    </h3>
+                    <p class="text-[10px] text-slate-400" id="modalPatientSubtitle"></p>
+                </div>
                 <button onclick="closeModal()" class="text-slate-400 hover:text-slate-600 text-sm">
                     <i class="fas fa-times"></i>
                 </button>
             </div>
-            <div class="overflow-y-auto bg-slate-50 p-4 rounded-lg border text-xs text-slate-700 font-mono whitespace-pre-wrap flex-1" id="modalTextContent"></div>
-            <div class="mt-4 flex justify-end">
-                <button onclick="closeModal()" class="bg-slate-800 hover:bg-slate-700 text-white font-bold text-xs px-4 py-1.5 rounded-lg transition">বন্ধ করুন</button>
+            
+            <input type="hidden" id="editDocId">
+            <div class="text-[11px] font-bold text-slate-600 mb-1 flex justify-between items-center">
+                <span>সম্পূর্ণ প্রেসক্রিপশন স্ক্রিপ্ট:</span>
+                <button onclick="appendAutoTimestamp()" class="bg-amber-50 hover:bg-amber-100 text-amber-700 text-[10px] px-2 py-0.5 rounded border border-amber-200 font-sans"><i class="fas fa-clock"></i> নতুন ঔষধ লেখার তারিখ যোগ করুন</button>
+            </div>
+            <textarea id="modalTextContent" class="w-full bg-slate-50 border p-3 rounded-lg text-xs text-slate-700 font-mono whitespace-pre-wrap flex-1 focus:bg-white focus:outline-emerald-500" rows="14"></textarea>
+            
+            <div class="mt-4 flex justify-end gap-2">
+                <button onclick="closeModal()" class="bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold text-xs px-4 py-2 rounded-lg transition">বন্ধ করুন</button>
+                <button onclick="saveUpdatedPrescription()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-5 py-2 rounded-lg transition flex items-center gap-1"><i class="fas fa-save"></i> আপডেট ও ঔষধ সেভ করুন</button>
             </div>
         </div>
     </div>
@@ -133,37 +176,47 @@
             $('#footer-placeholder').load('assets/footer.html');
         });
 
-        function formatDateToBangla(dateString) {
-            if (!dateString) return dateString;
-            const date = new Date(dateString);
-            if (isNaN(date)) return dateString;
-            return date.toLocaleDateString('bn-BD', { year: 'numeric', month: 'long', day: 'numeric' });
+        // ক্লিপবোর্ড থেকে লেখা নিয়ে বক্সে পেস্ট করা এবং অটো-ফিল করার ফাংশন
+        async function handlePaste() {
+            try {
+                const text = await navigator.clipboard.readText();
+                $('#prescriptionText').val(text);
+                
+                // টেক্সট থেকে ডাটা এক্সট্রাক্ট করা
+                const extracted = parsePrescriptionText(text);
+                
+                if(extracted.serial) $('#serialNo').val(extracted.serial);
+                if(extracted.date) $('#prescriptionDate').val(extracted.date);
+                if(extracted.name) $('#patientName').val(extracted.name);
+                if(extracted.phone) $('#patientPhone').val(extracted.phone);
+                
+                alert("ক্লিপবোর্ড থেকে তথ্য সফলভাবে পেস্ট ও অটো-ফিল করা হয়েছে!");
+            } catch (err) {
+                alert("ক্লিপবোর্ড অ্যাক্সেস করা যায়নি। অনুগ্রহ করে ম্যানুয়ালি পেস্ট (Ctrl+V) করুন।");
+            }
         }
 
-        // 🧠 টেক্সট থেকে ডাটা অটো এক্সট্রাক্ট করার স্মার্ট লজিক
-        function extractPrescriptionData(text) {
-            let patientName = "অজানা রোগী";
-            let patientPhone = "উল্লেখ নেই";
-            let mainProblem = "উল্লেখ নেই";
+        // এআই টেক্সট পার্স করার স্মার্ট ফিল্টার
+        function parsePrescriptionText(text) {
+            let res = { serial: '', date: '', name: '', phone: '' };
 
-            // রোগীর নাম বের করা
-            const nameMatch = text.match(/রোগীর\s*নাম\s*:\s*([^\n\r]+)/);
-            if (nameMatch && nameMatch[1]) patientName = nameMatch[1].trim();
+            const sMatch = text.match(/সিরিয়াল\s*নং\s*:\s*([^\n\r]+)/);
+            if(sMatch) res.serial = sMatch[1].trim();
 
-            // ফোন নম্বর বের করা
-            const phoneMatch = text.match(/ফোন\s*নম্বর\s*:\s*([০-৯0-9]+)/);
-            if (phoneMatch && phoneMatch[1]) patientPhone = phoneMatch[1].trim();
+            const dMatch = text.match(/তারিখ\s*:\s*([^\n\r]+)/);
+            if(dMatch) res.date = dMatch[1].trim();
 
-            // প্রধান সমস্যা বের করা
-            const problemMatch = text.match(/প্রধান\s*সমস্যা\s*:\s*([^\n\r।]+)/);
-            if (problemMatch && problemMatch[1]) {
-                mainProblem = problemMatch[1].trim();
-            } else {
-                const altMatch = text.match(/Case\s*Summary[\s\S]*?:\s*([^\n\r।]+)/i);
-                if (altMatch && altMatch[1]) mainProblem = altMatch[1].trim();
-            }
+            const nMatch = text.match(/রোগীর\s*নাম\s*:\s*([^\n\r]+)/);
+            if(nMatch) res.name = nMatch[1].trim();
 
-            return { patientName, patientPhone, mainProblem };
+            const pMatch = text.match(/ফোন\s*নম্বর\s*:\s*([০-৯0-9]+)/);
+            if(pMatch) res.phone = pMatch[1].trim();
+
+            return res;
+        }
+
+        function applySuggestedSerial() {
+            $('#serialNo').val(nextSuggestedSerial);
         }
 
         // ফর্ম সাবমিট
@@ -171,86 +224,132 @@
             e.preventDefault();
             if(!currentUserId) return alert("ত্রুটি: পুনরায় লগইন করুন।");
 
-            const prescriptionText = $('#prescriptionText').val();
-            const extracted = extractPrescriptionData(prescriptionText);
-
             const submitBtn = $(this).find('button[type="submit"]');
-            submitBtn.prop('disabled', true).text('প্রসেসিং ও সেভ হচ্ছে...');
+            submitBtn.prop('disabled', true).text('সংরক্ষণ হচ্ছে...');
 
             firebase.firestore().collection("prescriptions").add({
-                doctorId: currentUserId, // এই আইডির কারণেই ডাটা প্রাইভেট থাকবে
-                patientName: extracted.patientName,
-                patientPhone: extracted.patientPhone,
-                mainProblem: extracted.mainProblem,
-                prescriptionText: prescriptionText,
+                doctorId: currentUserId,
+                serialNo: $('#serialNo').val() || 'উল্লেখ নেই',
+                prescriptionDate: $('#prescriptionDate').val() || 'উল্লেখ নেই',
+                patientName: $('#patientName').val() || 'অজানা রোগী',
+                patientPhone: $('#patientPhone').val() || 'উল্লেখ নেই',
+                prescriptionText: $('#prescriptionText').val() || '',
                 createdAt: firebase.firestore.FieldValue.serverTimestamp()
             }).then(() => {
-                alert("সফলভাবে আপনার ব্যক্তিগত আর্কাইভে সেভ করা হয়েছে!");
+                alert("রেকর্ডটি সফলভাবে আপনার ডায়েরিতে সেভ করা হয়েছে!");
                 $('#prescriptionForm')[0].reset();
+                applySuggestedSerial();
             }).catch(error => {
-                console.error("Error: ", error);
-                alert("ডাটা সেভ করতে ব্যর্থ হয়েছে।");
+                alert("ডাটা সেভ করতে সমস্যা হয়েছে।");
             }).finally(() => {
-                submitBtn.prop('disabled', false).html('<i class="fas fa-brain"></i> অটো-রিড ও ডাটাবেজে সেভ করুন');
+                submitBtn.prop('disabled', false).html('<i class="fas fa-cloud-upload-alt"></i> ডাটাবেজে সংরক্ষণ করুন');
             });
         });
 
-        // 🌟 রিয়েলটাইমে শুধুমাত্র নিজের ডেটা লোড করার সিস্টেম (ইনডেক্স এরর মুক্ত)
+        // ডাটা তালিকা রিড
         function loadPrescriptions(uid) {
-            const tbody = document.getElementById('prescriptionTableBody');
-            
             firebase.firestore().collection("prescriptions")
-                .where("doctorId", "==", uid) // এটি নিশ্চিত করে যে অন্য কেউ আপনার ডাটা দেখবে না
+                .where("doctorId", "==", uid)
                 .onSnapshot((querySnapshot) => {
+                    const tbody = document.getElementById('prescriptionTableBody');
                     tbody.innerHTML = '';
 
                     if (querySnapshot.empty) {
-                        tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-slate-400">কোনো সংরক্ষিত প্রেসক্রিপশন রেকর্ড খুঁজে পাওয়া যায়নি।</td></tr>`;
+                        tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-slate-400">কোনো সংরক্ষিত রেকর্ড খুঁজে পাওয়া যায়নি।</td></tr>`;
+                        nextSuggestedSerial = "১";
+                        $('#serialSuggestor').text("অফার: ১");
                         return;
                     }
 
-                    // ক্লায়েন্ট সাইড সর্টিং (ইনডেক্স এরর হবে না)
                     let docsArray = [];
                     querySnapshot.forEach((doc) => {
                         docsArray.push({ id: doc.id, ...doc.data() });
                     });
                     
+                    // সর্টিং
                     docsArray.sort((a, b) => {
                         const timeA = a.createdAt ? a.createdAt.toMillis() : 0;
                         const timeB = b.createdAt ? b.createdAt.toMillis() : 0;
                         return timeB - timeA;
                     });
 
-                    docsArray.forEach((data) => {
-                        let dateStr = 'প্রক্রিয়াধীন';
-                        if(data.createdAt) {
-                            dateStr = formatDateToBangla(data.createdAt.toDate().toISOString().split('T')[0]);
+                    // 💡 স্মার্ট পরবর্তী সিরিয়াল ক্যালকুলেশন
+                    const lastDoc = docsArray[0];
+                    if(lastDoc && lastDoc.serialNo) {
+                        let lastSerial = lastDoc.serialNo;
+                        let numMatch = lastSerial.match(/([০-৯0-9]+)/);
+                        if(numMatch) {
+                            let nextNum = parseInt(numMatch[1], 10) + 1;
+                            nextSuggestedSerial = lastSerial.replace(numMatch[1], nextNum);
+                        } else {
+                            nextSuggestedSerial = lastSerial + " +১";
                         }
+                    }
+                    $('#serialSuggestor').text("অফার: " + nextSuggestedSerial);
+                    if(!$('#serialNo').val()) $('#serialNo').attr("placeholder", "পরবর্তী অফার: " + nextSuggestedSerial);
 
-                        const viewBtnHtml = `<button onclick="openModal(\`${escape(data.prescriptionText)}\`)" class="bg-emerald-50 text-emerald-600 hover:bg-emerald-100 font-bold px-2.5 py-1 rounded-lg text-[11px] inline-flex items-center gap-1 transition shadow-sm"><i class="fas fa-eye text-[10px]"></i> দেখুন</button>`;
+                    docsArray.forEach((data) => {
+                        // এডিটেবল মোডাল ওপেন বাটন
+                        const actionBtn = `<button onclick="openEditModal('${data.id}', \`${escape(data.patientName)}\`, \`${escape(data.prescriptionText)}\`)" class="bg-emerald-600 text-white hover:bg-emerald-700 font-bold px-2.5 py-1 rounded-lg text-[11px] inline-flex items-center gap-1 transition shadow-sm"><i class="fas fa-folder-open text-[10px]"></i> ওপেন ও ঔষধ যোগ</button>`;
 
                         const tr = document.createElement('tr');
                         tr.className = "hover:bg-slate-50 transition border-b border-slate-100";
                         tr.innerHTML = `
-                            <td class="p-3 whitespace-nowrap text-slate-500">${dateStr}</td>
+                            <td class="p-3 font-bold text-slate-700">${data.serialNo || 'নেই'}</td>
+                            <td class="p-3 text-slate-500">${data.prescriptionDate || 'নেই'}</td>
                             <td class="p-3 font-bold text-slate-800">${data.patientName}</td>
-                            <td class="p-3 text-slate-600">${data.patientPhone || 'উল্লেখ নেই'}</td>
-                            <td class="p-3 text-slate-500 max-w-[180px] truncate" title="${data.mainProblem}">${data.mainProblem || 'উল্লেখ নেই'}</td>
-                            <td class="p-3 text-center">${viewBtnHtml}</td>
+                            <td class="p-3 text-slate-600">${data.patientPhone}</td>
+                            <td class="p-3 text-center">${actionBtn}</td>
                         `;
                         tbody.appendChild(tr);
                     });
-                }, (error) => {
-                    console.error("Error loading prescriptions: ", error);
-                    tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-red-500 font-bold">ফায়ারবেস সিকিউরিটি বা রুলস জনিত সমস্যা। কনসোল চেক করুন।</td></tr>`;
                 });
         }
 
-        function openModal(escapedText) {
-            document.getElementById('modalTextContent').textContent = unescape(escapedText);
+        // মোডাল ওপেন ও ম্যানেজমেন্ট
+        function openEditModal(id, escapedName, escapedText) {
+            $('#editDocId').val(id);
+            $('#modalPatientSubtitle').text("রোগী: " + unescape(escapedName));
+            $('#modalTextContent').val(unescape(escapedText));
+            
             const modal = document.getElementById('textModal');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
+        }
+
+        // 🕒 নতুন ঔষধ সংযুক্তির পূর্বে অটো তারিখ-সময় যোগ করার স্মার্ট মেকানিজম
+        function appendAutoTimestamp() {
+            const textarea = document.getElementById('modalTextContent');
+            const now = new Date();
+            
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const banglaDate = now.toLocaleDateString('bn-BD', options);
+            const banglaTime = now.toLocaleTimeString('bn-BD', { hour: '2-digit', minute: '2-digit' });
+
+            const timestampText = `\n\n--- [নতুন ফলোআপ ও ঔষধ - তারিখ: ${banglaDate} | সময়: ${banglaTime}] ---\n`;
+            
+            textarea.value = textarea.value + timestampText;
+            textarea.focus();
+            
+            // কার্সার একদম নিচে নামিয়ে দেওয়া
+            textarea.scrollTop = textarea.scrollHeight;
+        }
+
+        // আপডেট সেভ করার ফাংশন
+        function saveUpdatedPrescription() {
+            const docId = $('#editDocId').val();
+            const updatedText = $('#modalTextContent').val();
+
+            if(!docId) return;
+
+            firebase.firestore().collection("prescriptions").doc(docId).update({
+                prescriptionText: updatedText
+            }).then(() => {
+                alert("প্রেসক্রিপশন রেকর্ড এবং নতুন ঔষধ সফলভাবে আপডেট করা হয়েছে!");
+                closeModal();
+            }).catch(error => {
+                alert("আপডেট করতে ব্যর্থ হয়েছে।");
+            });
         }
 
         function closeModal() {
