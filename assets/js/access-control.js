@@ -22,8 +22,8 @@ function checkAccess(requiredRole) {
         // ৩. ইউজার ডেটা পার্স করুন
         const user = JSON.parse(userStr);
 
-        // ৪. শুধুমাত্র পেইড চেক – অন্য যেকোনো রোল (registered, general) ব্যর্থ
-        if (requiredRole === 'paid' && !user.isPaid) {
+// ৪. শুধুমাত্র পেইড চেক – এডমিন (admin) হলে সরাসরি অনুমতি, অন্য যেকোনো রোল (registered, general) ব্যর্থ
+        if (requiredRole === 'paid' && user.role !== 'admin' && !user.isPaid) {
             alert('💎 এই কন্টেন্ট শুধুমাত্র পেইড সাবস্ক্রাইবারদের জন্য।');
             window.location.href = 'payment.html';
             return false;
