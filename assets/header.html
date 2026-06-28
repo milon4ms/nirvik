@@ -48,8 +48,11 @@
             </a>
 
             <nav class="hidden md:flex items-center gap-6 text-base font-medium">
-                <a href="select.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">সাধারণ রোগ</a>
-                <a href="medica/index.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">মেডিকা</a>
+                <a href="select.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">কেস টেকিং</a>
+                
+                <a href="prescription.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">প্রেসক্রিপশন</a>
+                
+                <a href="medica/index.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">মে.মেডিকা</a>
                 
                 <div class="relative group">
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition focus:outline-none">
@@ -77,7 +80,7 @@
                         <a href="ear.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-ear-listen mr-2 text-teal-600 w-5"></i>কান</a>
                         <a href="nose.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-allergies mr-2 text-teal-600 w-5"></i>নাক</a>
                         <a href="mouthful.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-teeth mr-2 text-teal-600 w-5"></i>মুখ হইতে টুটি ও ঘাড়</a>
-                        <a href="teeth.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-tooth mr-2 text-teal-600 w-5"></i>দাঁত</a>
+                        <a href="teeth.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-tooth mr-2 text-teal-600 w-5"></i>دাঁত</a>
                     </div>
                 </div>
 
@@ -124,8 +127,8 @@
             </nav>
 
             <div class="md:hidden flex items-center gap-1">
-                <a href="medica/index.html" class="mobile-header-btn">মেডিকা</a>
-                <a href="select.html" class="mobile-header-btn">সার্বদেহিক রোগ</a>
+                <a href="medica/index.html" class="mobile-header-btn">মে.মেডিকা</a>
+                <a href="select.html" class="mobile-header-btn">কেস টেকিং</a>
                 
                 <button id="mobile-menu-btn" class="text-xl p-2 text-white hover:bg-white/10 rounded-full transition focus:outline-none ml-0.5" aria-label="Toggle Menu">
                     <i class="fas fa-bars"></i>
@@ -137,7 +140,9 @@
     <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
         <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
             
-            <a href="select.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white font-medium flex items-center gap-2">🏥 সাধারণ রোগ</a>
+            <a href="select.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white font-medium flex items-center gap-2">🏥 কেস টেকিং</a>
+
+            <a href="prescription.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white font-medium flex items-center gap-2">📝 প্রেসক্রিপশন</a>
 
             <details class="group">
                 <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
@@ -221,9 +226,8 @@
             }
         });
 
-        // 🔐 আপনার নির্দিষ্ট কাস্টম logoutUser ফাংশন (লুপ বন্ধের সিগন্যালসহ)
+        // 🔐 আপনার নির্দিষ্ট কাস্টম logoutUser ফাংশন (লুপ বন্ধের সিগнюালসহ)
         function logoutUser() {
-            // লগইন পেজকে লুপ বন্ধ করতে লোকাল স্টোরেজেও সিগন্যাল পাঠানো
             if (typeof window.isLoggingOut !== 'undefined') {
                 window.isLoggingOut = true;
             }
@@ -234,7 +238,6 @@
             // ফায়ারবেস লগআউট
             if (typeof firebase !== 'undefined' && firebase.auth) {
                 firebase.auth().signOut().then(function() {
-                    // সেশন বা লোকাল স্টোরেজ ক্লিয়ার করুন
                     if (typeof localStorage !== 'undefined') {
                         localStorage.removeItem('user'); 
                     }
@@ -243,7 +246,7 @@
                     }
                     
                     alert('✅ সফলভাবে লগআউট হয়েছে!');
-                    window.location.replace('login.html'); // replace ব্যবহার করলে ব্রাউজার ক্যাশ লুপ হয় না
+                    window.location.replace('login.html');
                 }).catch(function(error) {
                     console.error("লগআউট ত্রুটি:", error);
                     if (typeof localStorage !== 'undefined') {
