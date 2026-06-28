@@ -47,6 +47,7 @@
                 <span class="text-white font-bold text-xl md:text-2xl tracking-wide">নির্ভীক হোমিও</span>
             </a>
 
+            <!-- 💻 ডেস্কটপ নেভিগেশন মেনু -->
             <nav class="hidden md:flex items-center gap-6 text-base font-medium">
                 <a href="select.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">কেস টেকিং</a>
                 <a href="prescription.html" class="hover:bg-white/20 px-5 py-3 rounded-2xl transition">প্রেসক্রিপশন</a>
@@ -68,6 +69,7 @@
                     </div>
                 </div>
 
+                <!-- উপর অঙ্গের রোগ -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 hover:bg-white/20 px-5 py-3 rounded-2xl transition focus:outline-none">
                         উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs ml-1"></i>
@@ -79,6 +81,7 @@
                         <a href="nose.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-allergies mr-2 text-teal-600 w-5"></i>নাক</a>
                         <a href="mouthful.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-teeth mr-2 text-teal-600 w-5"></i>মুখ হইতে টুটি ও ঘাড়</a>
                         <a href="teeth.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-tooth mr-2 text-teal-600 w-5"></i>দাঁত</a>
+                        
                         <div class="border-t border-gray-100 my-1"></div>
                         <a href="chest.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-lungs mr-2 text-teal-600 w-5"></i>বুকের সমস্যা</a>
                         <a href="hands.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-hand mr-2 text-teal-600 w-5"></i>হাতের সমস্যা</a>
@@ -117,6 +120,7 @@
                 </div>
             </nav>
 
+            <!-- 📱 মোবাইল বার (কেসটেকিং ও প্রেসক্রিপশন বাটন বাইরে থাকবে) -->
             <div class="md:hidden flex items-center gap-1">
                 <a href="select.html" class="mobile-header-btn"><i class="fas fa-hospital text-[10px] mr-0.5"></i>কেস টেকিং</a>
                 <a href="prescription.html" class="mobile-header-btn"><i class="fas fa-file-invoice text-[10px] mr-0.5"></i>প্রেসক্রিপশন</a>
@@ -128,13 +132,31 @@
         </div>
     </div>
 
+    <!-- 📱 মোবাইল ৩-লাইন ড্রপডাউন মেনু -->
     <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
         <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
             
             <a href="medica/index.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white font-medium flex items-center gap-2">📖 মে.মেডিকা</a>
 
-            <a href="jor.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white font-medium flex items-center gap-2">🌡️ সার্বদেহিক রোগ</a>
+            <!-- 🔧 মোবাইল সার্বদেহিক রোগ (এখন ড্রপডাউন করে দেওয়া হয়েছে) -->
+            <details class="group">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
+                    <span>🌡️ সার্বদেহিক রোগ</span>
+                    <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+                </summary>
+                <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
+                    <a href="jor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🤒 জ্বর সর্দি কাশি</a>
+                    <a href="pain.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">⚡ ব্যথা</a>
+                    <a href="tumor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">⚫ টিউমার</a>
+                    <a href="abscess.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">💧 ফোঁড়া</a>
+                    <a href="pressure.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🩺 প্রেসার গ্রন্থি শিরা</a>
+                    <a href="bloodbonemuscle.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦴 রক্ত হাড় পেশী</a>
+                    <a href="mental.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧠 মানসিক রোগ সকল</a>
+                    <a href="skin.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">✨ চর্মরোগ</a>
+                </div>
+            </details>
 
+            <!-- উপর ও মাঝ অঙ্গের রোগ -->
             <details class="group">
                 <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
                     <span>👆 উপর অঙ্গের রোগ</span>
@@ -147,6 +169,7 @@
                     <a href="nose.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👃 নাক</a>
                     <a href="mouthful.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👅 মুখ হইতে টুটি ও ঘাড়</a>
                     <a href="teeth.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦷 দাঁত</a>
+                    
                     <div class="border-t border-teal-700/50 my-1"></div>
                     <a href="chest.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🫁 বুক সমস্যা</a>
                     <a href="hands.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">✋ হাতের সমস্যা</a>
@@ -166,7 +189,7 @@
                     <a href="leg.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦶 পা</a>
                     <a href="stool.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🐛 মল ও কৃমি</a>
                     <a href="anus.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🌊 মলদ্বার</a>
-                    <a href="male.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👨 যৌথনাঙ্গ পুরুষ</a>
+                    <a href="male.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👨 যোনাঙ্গ পুরুষ</a>
                     <a href="female.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👩 যৌনাঙ্গ নারী</a>
                 </div>
             </details>
