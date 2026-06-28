@@ -51,13 +51,14 @@
 
     <div id="header-placeholder"></div>
 
-    <div class="max-w-6xl mx-auto px-4 py-8">
+    <div class="max-w-7xl mx-auto px-4 py-8">
+        <!-- পেজ হেডিং বা ব্যানার -->
         <div class="mb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4 bg-gradient-to-r from-emerald-800 to-teal-900 p-6 rounded-2xl text-white shadow-sm">
             <div>
                 <h1 class="text-xl font-bold flex items-center gap-2 text-emerald-300">
-                    <i class="fas fa-file-prescription"></i> ডিজিটাল প্রেসক্রিপশন
+                    <i class="fas fa-file-prescription"></i> এআই স্মার্ট প্রেসক্রিপশন খাতা
                 </h1>
-                <p class="text-xs text-emerald-100/80 mt-1">আপনার তৈরি করা এআই প্রেসক্রিপশনগুলো সুরক্ষিতভাবে ১০ লক্ষ ফ্রি মেমরির ডাটাবেজে সংরক্ষণ করুন।</p>
+                <p class="text-xs text-emerald-100/80 mt-1">AI প্রম্পট থেকে প্রাপ্ত পুরো প্রেসক্রিপশন পেস্ট করুন। নাম, মোবাইল ও রোগ সিস্টেম নিজে থেকেই খুঁজে নেবে।</p>
             </div>
             <a href="dashboard.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-4 py-2 rounded-xl transition inline-flex items-center gap-1.5 self-start md:self-auto">
                 <i class="fas fa-arrow-left"></i> ড্যাশবোর্ডে ফিরুন
@@ -65,33 +66,27 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+            <!-- বাম কলাম: শুধুমাত্র ১টি বড় ইনপুট বক্স -->
             <div class="lg:col-span-5 bg-white rounded-2xl p-5 shadow-sm border border-slate-100 space-y-4">
                 <h2 class="text-sm font-bold text-slate-800 border-b border-slate-100 pb-2 flex items-center gap-1.5">
-                    <i class="fas fa-plus-circle text-emerald-500"></i> নতুন প্রেসক্রিপশন যুক্ত করুন
+                    <i class="fas fa-paste text-emerald-500"></i> প্রেসক্রিপশন পেস্ট করুন
                 </h2>
                 
                 <form id="prescriptionForm" class="space-y-4">
                     <div>
-                        <label class="block text-[11px] font-bold text-slate-600 mb-1">রোগীর নাম *</label>
-                        <input type="text" id="patientName" required class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: আব্দুল করিম">
-                    </div>
-                    <div>
-                        <label class="block text-[11px] font-bold text-slate-600 mb-1">রোগীর মোবাইল বা রোগের নাম</label>
-                        <input type="text" id="patientInfo" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: 017XXXXXXXX / দীর্ঘস্থায়ী হাঁপানি">
-                    </div>
-                    <div>
-                        <label class="block text-[11px] font-bold text-slate-600 mb-1">এআই জেনারেটেড প্রেসক্রিপশন টেক্সট *</label>
-                        <textarea id="prescriptionText" required rows="10" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white font-mono transition" placeholder="AI চ্যাটবট থেকে প্রাপ্ত সম্পূর্ণ প্রেসক্রিপশনটি এখানে পেস্ট (Paste) করুন..."></textarea>
+                        <label class="block text-[11px] font-bold text-slate-600 mb-1">সম্পূর্ণ এআই প্রেসক্রিপশন টেক্সট *</label>
+                        <textarea id="prescriptionText" required rows="15" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white font-mono transition" placeholder="এখানে আপনার এআই জেনারেটেড সম্পূর্ণ প্রেসক্রিপশনটি পেস্ট (Paste) করুন..."></textarea>
                     </div>
                     <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-2.5 rounded-lg shadow transition flex items-center justify-center gap-1.5">
-                        <i class="fas fa-save"></i> ডাটাবেজে ক্লাউড সেভ করুন
+                        <i class="fas fa-brain"></i> অটো-রিড ও ডাটাবেজে সেভ করুন
                     </button>
                 </form>
             </div>
 
+            <!-- ডান কলাম: সংরক্ষিত প্রেসক্রিপশন তালিকা -->
             <div class="lg:col-span-7 bg-white rounded-2xl p-5 shadow-sm border border-slate-100 space-y-4">
                 <h2 class="text-sm font-bold text-slate-800 border-b border-slate-100 pb-2 flex items-center gap-1.5">
-                    <i class="fas fa-list-ul text-emerald-500"></i> আপনার সংরক্ষিত প্রেসক্রিপশনসমূহ
+                    <i class="fas fa-list-ul text-emerald-500"></i> সংরক্ষিত প্রেসক্রিপশন তালিকা
                 </h2>
 
                 <div class="overflow-x-auto">
@@ -100,13 +95,14 @@
                             <tr class="bg-slate-50 text-slate-700 uppercase font-bold border-b border-slate-200">
                                 <th class="p-3">তারিখ</th>
                                 <th class="p-3">রোগীর নাম</th>
-                                <th class="p-3">মোবাইল/রোগ</th>
-                                <th class="p-3 text-center">প্রেসক্রিপশন</th>
+                                <th class="p-3">মোবাইল নম্বর</th>
+                                <th class="p-3">প্রধান সমস্যা</th>
+                                <th class="p-3 text-center">অ্যাকশন</th>
                             </tr>
                         </thead>
                         <tbody id="prescriptionTableBody" class="text-slate-600 divide-y divide-slate-100">
                             <tr>
-                                <td colspan="4" class="p-6 text-center text-slate-400">লোড হচ্ছে...</td>
+                                <td colspan="5" class="p-6 text-center text-slate-400">লোড হচ্ছে...</td>
                             </tr>
                         </tbody>
                     </table>
@@ -115,18 +111,20 @@
         </div>
     </div>
 
+    <!-- টেক্সট দেখার মডার্ন পপআপ মোডাল -->
     <div id="textModal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
-        <div class="bg-white rounded-2xl max-w-lg w-full p-5 shadow-xl flex flex-col max-h-[80vh]">
+        <div class="bg-white rounded-2xl max-w-xl w-full p-5 shadow-xl flex flex-col max-h-[85vh]">
             <div class="flex items-center justify-between border-b pb-2 mb-3">
                 <h3 class="font-bold text-slate-800 text-sm flex items-center gap-1">
-                    <i class="fas fa-file-invoice text-emerald-500"></i> প্রেসক্রিপশন ভিউ
+                    <i class="fas fa-file-invoice text-emerald-500"></i> সম্পূর্ণ প্রেসক্রিপশন রেকর্ড
                 </h3>
                 <button onclick="closeModal()" class="text-slate-400 hover:text-slate-600 text-sm">
                     <i class="fas fa-times"></i>
                 </button>
             </div>
-            <div class="overflow-y-auto bg-slate-50 p-3 rounded-lg border text-xs text-slate-700 font-mono whitespace-pre-wrap flex-1" id="modalTextContent">
-                </div>
+            <div class="overflow-y-auto bg-slate-50 p-4 rounded-lg border text-xs text-slate-700 font-mono whitespace-pre-wrap flex-1" id="modalTextContent">
+                <!-- ডায়নামিক টেক্সট লোড হবে -->
+            </div>
             <div class="mt-4 flex justify-end">
                 <button onclick="closeModal()" class="bg-slate-800 hover:bg-slate-700 text-white font-bold text-xs px-4 py-1.5 rounded-lg transition">বন্ধ করুন</button>
             </div>
@@ -148,36 +146,69 @@
             return date.toLocaleDateString('bn-BD', { year: 'numeric', month: 'long', day: 'numeric' });
         }
 
-        // ফর্ম সাবমিট করে Firestore-এ ডাটা সেভ করার লজিক
+        // 🧠 টেক্সট থেকে ডাটা অটো এক্সট্রাক্ট করার মূল লজিক (Regex)
+        function extractPrescriptionData(text) {
+            let patientName = "অজানা রোগী";
+            let patientPhone = "উল্লেখ নেই";
+            let mainProblem = "উল্লেখ নেই";
+
+            // রোগীর নাম খোঁজা (রোগীর নাম: [লেখা])
+            const nameMatch = text.match(/রোগীর\s*নাম\s*:\s*([^\n\r]+)/);
+            if (nameMatch && nameMatch[1]) {
+                patientName = nameMatch[1].trim();
+            }
+
+            // ফোন নম্বর খোঁজা (ফোন নম্বর: [সংখ্যা])
+            const phoneMatch = text.match(/ফোন\s*নম্বর\s*:\s*([০-৯0-9]+)/);
+            if (phoneMatch && phoneMatch[1]) {
+                patientPhone = phoneMatch[1].trim();
+            }
+
+            // প্রধান সমস্যা খোঁজা (প্রধান সমস্যা: [লেখা] অথবা রোগের সংক্ষিপ্ত লক্ষণ এর পরের লাইন)
+            const problemMatch = text.match(/প্রধান\s*সমস্যা\s*:\s*([^\n\r।]+)/);
+            if (problemMatch && problemMatch[1]) {
+                mainProblem = problemMatch[1].trim();
+            } else {
+                // বিকল্প ট্র্যাকিং: যদি প্রধান সমস্যা কি-ওয়ার্ড না থাকে তবে "Provisional Diagnosis" থেকে কিছুটা নেওয়ার চেষ্টা করবে
+                const diagMatch = text.match(/সম্ভাবনা\s*রোগ\s*\(Provisional\s*Diagnosis\s*\)\s*:\s*([^\n\r।]+)/i);
+                if (diagMatch && diagMatch[1]) mainProblem = diagMatch[1].trim();
+            }
+
+            return { patientName, patientPhone, mainProblem };
+        }
+
+        // ফর্ম সাবমিট লজিক
         $('#prescriptionForm').on('submit', function(e) {
             e.preventDefault();
             if(!currentUserId) return alert("ত্রুটি: পুনরায় লগইন করুন।");
 
-            const patientName = $('#patientName').val();
-            const patientInfo = $('#patientInfo').val() || 'prefix_not_set';
             const prescriptionText = $('#prescriptionText').val();
+            
+            // অটোমেটিক ডাটা এক্সট্রাকশন চালু
+            const extracted = extractPrescriptionData(prescriptionText);
 
             const submitBtn = $(this).find('button[type="submit"]');
-            submitBtn.prop('disabled', true).text('সংরক্ষণ হচ্ছে...');
+            submitBtn.prop('disabled', true).text('প্রসেসিং ও সেভ হচ্ছে...');
 
             firebase.firestore().collection("prescriptions").add({
                 doctorId: currentUserId,
-                patientName: patientName,
-                patientInfo: patientInfo,
+                patientName: extracted.patientName,
+                patientPhone: extracted.patientPhone,
+                mainProblem: extracted.mainProblem,
                 prescriptionText: prescriptionText,
                 createdAt: firebase.firestore.FieldValue.serverTimestamp()
             }).then(() => {
-                alert("প্রেসক্রিপশনটি সফলভাবে আর্কাইভে সংরক্ষিত হয়েছে!");
+                alert("ডাটা রিড সফল! রোগী '" + extracted.patientName + "' এর প্রেসক্রিপশনটি সেভ করা হয়েছে।");
                 $('#prescriptionForm')[0].reset();
             }).catch(error => {
                 console.error("Error: ", error);
                 alert("ডাটা সেভ করতে ব্যর্থ হয়েছে।");
             }).finally(() => {
-                submitBtn.prop('disabled', false).html('<i class="fas fa-save"></i> ডাটাবেজে ক্লাউড সেভ করুন');
+                submitBtn.prop('disabled', false).html('<i class="fas fa-brain"></i> অটো-রিড ও ডাটাবেজে সেভ করুন');
             });
         });
 
-        // রিয়েলটাইমে ফায়ারস্টোর থেকে ইউজারের নিজস্ব প্রেসক্রিপশন ডাটা রিড করা
+        // রিয়েলটাইমে ডেটা রিড করা
         function loadPrescriptions(uid) {
             firebase.firestore().collection("prescriptions")
                 .where("doctorId", "==", uid)
@@ -187,7 +218,7 @@
                     tbody.innerHTML = '';
 
                     if (querySnapshot.empty) {
-                        tbody.innerHTML = `<tr><td colspan="4" class="p-6 text-center text-slate-400">কোনো সংরক্ষিত প্রেসক্রিপশন রেকর্ড খুঁজে পাওয়া যায়নি।</td></tr>`;
+                        tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-slate-400">কোনো সংরক্ষিত প্রেসক্রিপশন রেকর্ড খুঁজে পাওয়া যায়নি।</td></tr>`;
                         return;
                     }
 
@@ -198,15 +229,16 @@
                             dateStr = formatDateToBangla(data.createdAt.toDate().toISOString().split('T')[0]);
                         }
 
-                        // মডার্ন পপআপ মোডালের মাধ্যমে ডাটা ভিউ করার বাটন
-                        const viewBtnHtml = `<button onclick="openModal(\`${escape(data.prescriptionText)}\`)" class="bg-emerald-50 text-emerald-600 hover:bg-emerald-100 font-bold px-2.5 py-1 rounded-lg text-[11px] inline-flex items-center gap-1 transition"><i class="fas fa-eye text-[10px]"></i> দেখুন</button>`;
+                        // মোডাল পপআপের মাধ্যমে পুরো টেক্সট ভিউ করার বাটন
+                        const viewBtnHtml = `<button onclick="openModal(\`${escape(data.prescriptionText)}\`)" class="bg-emerald-50 text-emerald-600 hover:bg-emerald-100 font-bold px-3 py-1 rounded-lg text-[11px] inline-flex items-center gap-1 transition shadow-sm"><i class="fas fa-eye text-[10px]"></i> দেখুন</button>`;
 
                         const tr = document.createElement('tr');
                         tr.className = "hover:bg-slate-50 transition border-b border-slate-100";
                         tr.innerHTML = `
                             <td class="p-3 whitespace-nowrap text-slate-500">${dateStr}</td>
                             <td class="p-3 font-bold text-slate-800">${data.patientName}</td>
-                            <td class="p-3 text-slate-500">${data.patientInfo}</td>
+                            <td class="p-3 text-slate-600">${data.patientPhone || 'উল্লেখ নেই'}</td>
+                            <td class="p-3 text-slate-500 max-w-[180px] truncate" title="${data.mainProblem}">${data.mainProblem || 'উল্লেখ নেই'}</td>
                             <td class="p-3 text-center">${viewBtnHtml}</td>
                         `;
                         tbody.appendChild(tr);
