@@ -52,13 +52,12 @@
     <div id="header-placeholder"></div>
 
     <div class="max-w-7xl mx-auto px-4 py-8">
-        <!-- পেজ হেডিং বা ব্যানার -->
         <div class="mb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4 bg-gradient-to-r from-emerald-800 to-teal-900 p-6 rounded-2xl text-white shadow-sm">
             <div>
                 <h1 class="text-xl font-bold flex items-center gap-2 text-emerald-300">
                     <i class="fas fa-file-prescription"></i> এআই স্মার্ট প্রেসক্রিপশন খাতা
                 </h1>
-                <p class="text-xs text-emerald-100/80 mt-1">AI প্রম্পট থেকে প্রাপ্ত পুরো প্রেসক্রিপশন পেস্ট করুন। নাম, মোবাইল ও রোগ সিস্টেম নিজে থেকেই খুঁজে নেবে।</p>
+                <p class="text-xs text-emerald-100/80 mt-1">আপনার নিজস্ব প্রেসক্রিপশনগুলি এখানে সম্পূর্ণ নিরাপদে ও গোপনে সংরক্ষিত থাকবে (অন্য কেউ দেখবে না)।</p>
             </div>
             <a href="dashboard.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-4 py-2 rounded-xl transition inline-flex items-center gap-1.5 self-start md:self-auto">
                 <i class="fas fa-arrow-left"></i> ড্যাশবোর্ডে ফিরুন
@@ -66,7 +65,6 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-            <!-- বাম কলাম: শুধুমাত্র ১টি বড় ইনপুট বক্স -->
             <div class="lg:col-span-5 bg-white rounded-2xl p-5 shadow-sm border border-slate-100 space-y-4">
                 <h2 class="text-sm font-bold text-slate-800 border-b border-slate-100 pb-2 flex items-center gap-1.5">
                     <i class="fas fa-paste text-emerald-500"></i> প্রেসক্রিপশন পেস্ট করুন
@@ -83,10 +81,9 @@
                 </form>
             </div>
 
-            <!-- ডান কলাম: সংরক্ষিত প্রেসক্রিপশন তালিকা -->
             <div class="lg:col-span-7 bg-white rounded-2xl p-5 shadow-sm border border-slate-100 space-y-4">
                 <h2 class="text-sm font-bold text-slate-800 border-b border-slate-100 pb-2 flex items-center gap-1.5">
-                    <i class="fas fa-list-ul text-emerald-500"></i> সংরক্ষিত প্রেসক্রিপশন তালিকা
+                    <i class="fas fa-user-lock text-emerald-500"></i> আপনার ব্যক্তিগত প্রেসক্রিপশন তালিকা
                 </h2>
 
                 <div class="overflow-x-auto">
@@ -111,7 +108,6 @@
         </div>
     </div>
 
-    <!-- টেক্সট দেখার মডার্ন পপআপ মোডাল -->
     <div id="textModal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
         <div class="bg-white rounded-2xl max-w-xl w-full p-5 shadow-xl flex flex-col max-h-[85vh]">
             <div class="flex items-center justify-between border-b pb-2 mb-3">
@@ -122,9 +118,7 @@
                     <i class="fas fa-times"></i>
                 </button>
             </div>
-            <div class="overflow-y-auto bg-slate-50 p-4 rounded-lg border text-xs text-slate-700 font-mono whitespace-pre-wrap flex-1" id="modalTextContent">
-                <!-- ডায়নামিক টেক্সট লোড হবে -->
-            </div>
+            <div class="overflow-y-auto bg-slate-50 p-4 rounded-lg border text-xs text-slate-700 font-mono whitespace-pre-wrap flex-1" id="modalTextContent"></div>
             <div class="mt-4 flex justify-end">
                 <button onclick="closeModal()" class="bg-slate-800 hover:bg-slate-700 text-white font-bold text-xs px-4 py-1.5 rounded-lg transition">বন্ধ করুন</button>
             </div>
@@ -146,59 +140,52 @@
             return date.toLocaleDateString('bn-BD', { year: 'numeric', month: 'long', day: 'numeric' });
         }
 
-        // 🧠 টেক্সট থেকে ডাটা অটো এক্সট্রাক্ট করার মূল লজিক (Regex)
+        // 🧠 টেক্সট থেকে ডাটা অটো এক্সট্রাক্ট করার স্মার্ট লজিক
         function extractPrescriptionData(text) {
             let patientName = "অজানা রোগী";
             let patientPhone = "উল্লেখ নেই";
             let mainProblem = "উল্লেখ নেই";
 
-            // রোগীর নাম খোঁজা (রোগীর নাম: [লেখা])
+            // রোগীর নাম বের করা
             const nameMatch = text.match(/রোগীর\s*নাম\s*:\s*([^\n\r]+)/);
-            if (nameMatch && nameMatch[1]) {
-                patientName = nameMatch[1].trim();
-            }
+            if (nameMatch && nameMatch[1]) patientName = nameMatch[1].trim();
 
-            // ফোন নম্বর খোঁজা (ফোন নম্বর: [সংখ্যা])
+            // ফোন নম্বর বের করা
             const phoneMatch = text.match(/ফোন\s*নম্বর\s*:\s*([০-৯0-9]+)/);
-            if (phoneMatch && phoneMatch[1]) {
-                patientPhone = phoneMatch[1].trim();
-            }
+            if (phoneMatch && phoneMatch[1]) patientPhone = phoneMatch[1].trim();
 
-            // প্রধান সমস্যা খোঁজা (প্রধান সমস্যা: [লেখা] অথবা রোগের সংক্ষিপ্ত লক্ষণ এর পরের লাইন)
+            // প্রধান সমস্যা বের করা
             const problemMatch = text.match(/প্রধান\s*সমস্যা\s*:\s*([^\n\r।]+)/);
             if (problemMatch && problemMatch[1]) {
                 mainProblem = problemMatch[1].trim();
             } else {
-                // বিকল্প ট্র্যাকিং: যদি প্রধান সমস্যা কি-ওয়ার্ড না থাকে তবে "Provisional Diagnosis" থেকে কিছুটা নেওয়ার চেষ্টা করবে
-                const diagMatch = text.match(/সম্ভাবনা\s*রোগ\s*\(Provisional\s*Diagnosis\s*\)\s*:\s*([^\n\r।]+)/i);
-                if (diagMatch && diagMatch[1]) mainProblem = diagMatch[1].trim();
+                const altMatch = text.match(/Case\s*Summary[\s\S]*?:\s*([^\n\r।]+)/i);
+                if (altMatch && altMatch[1]) mainProblem = altMatch[1].trim();
             }
 
             return { patientName, patientPhone, mainProblem };
         }
 
-        // ফর্ম সাবমিট লজিক
+        // ফর্ম সাবমিট
         $('#prescriptionForm').on('submit', function(e) {
             e.preventDefault();
             if(!currentUserId) return alert("ত্রুটি: পুনরায় লগইন করুন।");
 
             const prescriptionText = $('#prescriptionText').val();
-            
-            // অটোমেটিক ডাটা এক্সট্রাকশন চালু
             const extracted = extractPrescriptionData(prescriptionText);
 
             const submitBtn = $(this).find('button[type="submit"]');
             submitBtn.prop('disabled', true).text('প্রসেসিং ও সেভ হচ্ছে...');
 
             firebase.firestore().collection("prescriptions").add({
-                doctorId: currentUserId,
+                doctorId: currentUserId, // এই আইডির কারণেই ডাটা প্রাইভেট থাকবে
                 patientName: extracted.patientName,
                 patientPhone: extracted.patientPhone,
                 mainProblem: extracted.mainProblem,
                 prescriptionText: prescriptionText,
                 createdAt: firebase.firestore.FieldValue.serverTimestamp()
             }).then(() => {
-                alert("ডাটা রিড সফল! রোগী '" + extracted.patientName + "' এর প্রেসক্রিপশনটি সেভ করা হয়েছে।");
+                alert("সফলভাবে আপনার ব্যক্তিগত আর্কাইভে সেভ করা হয়েছে!");
                 $('#prescriptionForm')[0].reset();
             }).catch(error => {
                 console.error("Error: ", error);
@@ -208,13 +195,13 @@
             });
         });
 
-        // রিয়েলটাইমে ডেটা রিড করা
+        // 🌟 রিয়েলটাইমে শুধুমাত্র নিজের ডেটা লোড করার সিস্টেম (ইনডেক্স এরর মুক্ত)
         function loadPrescriptions(uid) {
+            const tbody = document.getElementById('prescriptionTableBody');
+            
             firebase.firestore().collection("prescriptions")
-                .where("doctorId", "==", uid)
-                .orderBy("createdAt", "desc")
+                .where("doctorId", "==", uid) // এটি নিশ্চিত করে যে অন্য কেউ আপনার ডাটা দেখবে না
                 .onSnapshot((querySnapshot) => {
-                    const tbody = document.getElementById('prescriptionTableBody');
                     tbody.innerHTML = '';
 
                     if (querySnapshot.empty) {
@@ -222,15 +209,25 @@
                         return;
                     }
 
+                    // ক্লায়েন্ট সাইড সর্টিং (ইনডেক্স এরর হবে না)
+                    let docsArray = [];
                     querySnapshot.forEach((doc) => {
-                        const data = doc.data();
+                        docsArray.push({ id: doc.id, ...doc.data() });
+                    });
+                    
+                    docsArray.sort((a, b) => {
+                        const timeA = a.createdAt ? a.createdAt.toMillis() : 0;
+                        const timeB = b.createdAt ? b.createdAt.toMillis() : 0;
+                        return timeB - timeA;
+                    });
+
+                    docsArray.forEach((data) => {
                         let dateStr = 'প্রক্রিয়াধীন';
                         if(data.createdAt) {
                             dateStr = formatDateToBangla(data.createdAt.toDate().toISOString().split('T')[0]);
                         }
 
-                        // মোডাল পপআপের মাধ্যমে পুরো টেক্সট ভিউ করার বাটন
-                        const viewBtnHtml = `<button onclick="openModal(\`${escape(data.prescriptionText)}\`)" class="bg-emerald-50 text-emerald-600 hover:bg-emerald-100 font-bold px-3 py-1 rounded-lg text-[11px] inline-flex items-center gap-1 transition shadow-sm"><i class="fas fa-eye text-[10px]"></i> দেখুন</button>`;
+                        const viewBtnHtml = `<button onclick="openModal(\`${escape(data.prescriptionText)}\`)" class="bg-emerald-50 text-emerald-600 hover:bg-emerald-100 font-bold px-2.5 py-1 rounded-lg text-[11px] inline-flex items-center gap-1 transition shadow-sm"><i class="fas fa-eye text-[10px]"></i> দেখুন</button>`;
 
                         const tr = document.createElement('tr');
                         tr.className = "hover:bg-slate-50 transition border-b border-slate-100";
@@ -245,10 +242,10 @@
                     });
                 }, (error) => {
                     console.error("Error loading prescriptions: ", error);
+                    tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-red-500 font-bold">ফায়ারবেস সিকিউরিটি বা রুলস জনিত সমস্যা। কনসোল চেক করুন।</td></tr>`;
                 });
         }
 
-        // মোডাল পপআপ স্ক্রিপ্ট
         function openModal(escapedText) {
             document.getElementById('modalTextContent').textContent = unescape(escapedText);
             const modal = document.getElementById('textModal');
