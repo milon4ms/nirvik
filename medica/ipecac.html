@@ -1,1 +1,188 @@
 
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ipecac (ইপিকাক) - মেটেরিয়া মেডিকা</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for Professional Bengali Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind_Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-white font-sans antialiased flex flex-col min-h-screen text-gray-800 text-sm md:text-base">
+
+    <!-- 📥 ১. এখানে স্বয়ংক্রিয়ভাবে হেডার লোড হবে -->
+    <div id="app-header"></div>
+
+    <!-- 📢 ২. হিরো ব্যানার সেকশন -->
+    <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-8 px-4 text-center shadow-sm">
+        <div class="max-w-7xl mx-auto">
+            <span class="bg-white/20 text-[11px] uppercase font-bold tracking-wider px-3 py-1 rounded-full">Materia Medica</span>
+            
+            <!-- 📌 ঔষধের নাম -->
+            <h1 class="text-2xl md:text-3xl font-bold mt-2 flex items-center justify-center gap-2">
+                <i class="fas fa-pills text-lg"></i> Ipecac (ইপিকাক)
+            </h1>
+            <p class="text-xs md:text-sm text-teal-100 mt-1 italic">
+                Common Name: Ipecacuanha | Latin Name: Cephaelis ipecacuanha
+            </p>
+        </div>
+    </section>
+
+    <!-- 🎯 ৩. মূল কন্টেন্ট এরিয়া -->
+    <main class="container mx-auto px-4 md:px-8 py-6 flex-grow max-w-7xl space-y-6">
+
+        <!-- 🟢 সেকশন: সারসংক্ষেপ (Keynotes for Doctors) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                সারসংক্ষেপ (Keynotes for Doctors)
+            </div>
+            <p class="text-gray-600 italic mb-3 pl-1 text-xs md:text-sm">চিকিৎসক ও শিক্ষার্থীদের দ্রুত মুখস্ত করার জন্য ঔষধের মূল কথাগুলো নিচে দেওয়া হলো:</p>
+            <ul class="list-disc list-inside space-y-1.5 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>বমি, অন্য রোগের সাথে বমি বমি ভাব</li>
+                <li>জিহবা পরিস্কার, কপালে ঠান্ড ঘাম।</li>
+                <li>পিপাসা নাই, ক্ষুধা নাই, মুখে প্রচুর থু থু ওঠে।</li>
+                <li>জ্বরে ঘাড়, পিঠ, হাতে প্রচন্ড ব্যাথা, সারা শরীরে থ্যাতলানো ব্যাথা</li>
+                <li>টাটকা রক্তস্রাবের সাথে বমি বমি ভাব</li>
+                <li>শ্বাস কষ্ট, বুকে শ্লেষ্মা ঘরঘর করে, ওঠেনা।</li>
+                <li>শিশুদের হুপিং কাশি, কাশতে কাশতে বমি করে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের বিস্তারিত পরিচয় -->
+        <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm">
+            ঔষধের বিস্তারিত পরিচয়
+        </div>
+
+        <!-- 🟢 সেকশন: ১. স্মারক প্রধান লক্ষণ (Keynotes) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ১. স্মারক প্রধান লক্ষণ (Keynotes)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>অনবরত বমি ভাব (Persistent Nausea):</strong> এটি ইপিকাকের প্রধানতম লক্ষণ। বমি হওয়ার পরেও রোগীর বমি ভাব কমে না (Nausea not relieved by vomiting)।</li>
+                <li><strong>পরিষ্কার জিব (Clean Tongue):</strong> প্রচণ্ড বমি ভাব বা পেটের অসুখ থাকা সত্ত্বেও রোগীর জিব একদম পরিষ্কার থাকে, কোনো ময়লা থাকে না (Tongue is usually clean)।</li>
+                <li><strong>রক্তস্রাব (Hemorrhage):</strong> যেকোনো দ্বার দিয়ে উজ্জ্বল লাল বর্ণের এবং প্রচুর রক্তপাত হওয়া (Bright red, gushing blood)।</li>
+                <li><strong>পিপাসাহীনতা:</strong> অসুস্থ অবস্থায় বা জ্বরের সময় রোগীর একদম পিপাসা থাকে না।</li>
+                <li><strong>দমবন্ধ করা কাশি (Suffocative Cough):</strong> কাশতে কাশতে রোগী নীল হয়ে যায় এবং দম বন্ধ হওয়ার মতো অবস্থা হয়। কাশির সাথে বমি হওয়া একটি সাধারণ লক্ষণ।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ২. মানসিক লক্ষণ -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ২. মানসিক লক্ষণ
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li>রোগী অত্যন্ত খিটখিটে মেজাজের হয় এবং সবকিছুতেই বিরক্তি প্রকাশ করে।</li>
+                <li>সে কী চায় তা সে নিজেই জানে না; একটার পর একটা জিনিসের বায়না ধরে কিন্তু হাতে পেলে তা প্রত্যাখ্যান করে।</li>
+                <li>মনে সবসময় এক প্রকার অস্থিরতা এবং ভয় কাজ করে।</li>
+                <li>যন্ত্রণার কারণে রোগী অনেক সময় কথা বলতে চায় না এবং মুখ গোমড়া করে থাকে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক) -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৩. শারীরিক লক্ষণ (অঙ্গভিত্তিক)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পাকস্থলী:</strong> পাকস্থলীতে মনে হয় যেন নিচের দিকে ঝুলে পড়েছে (Relaxed feeling in the stomach)। কাঁচা ফল, চর্বিযুক্ত খাবার বা মিষ্টি খাওয়ার ফলে পেটের অসুখ।</li>
+                <li><strong>শ্বাসযন্ত্র:</strong> হুপিং কাশি বা হাঁপানি (Asthma)। বুকে প্রচুর শ্লেষ্মা বা কফ জমে থাকে, যার ফলে ঘড়ঘড় শব্দ হয় কিন্তু কফ সহজে ওঠে না।</li>
+                <li><strong>মল:</strong> মল উজ্জ্বল সবুজ রঙের (ঘাসের মতো সবুজ), গাঁজানো বা ফেনা যুক্ত। শিশুদের দাঁত ওঠার সময়কালীন ডায়রিয়া।</li>
+                <li><strong>জ্বর:</strong> সবিরাম জ্বর বা ম্যালেরিয়া যেখানে প্রতিটি অবস্থায় বমি ভাব প্রধান লক্ষণ হিসেবে থাকে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৪. বৃদ্ধি ও উপশম -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৪. বৃদ্ধি ও উপশম (Aggravation &amp; Amelioration)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>বৃদ্ধি:</strong> খাবারের গন্ধে, তামাকের গন্ধে, আর্দ্র গরম আবহাওয়ায় এবং রাতে।</li>
+                <li><strong>উপশম:</strong> খোলা বাতাসে এবং বিশ্রামে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৫. শক্তি ও মাত্রা -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৫. শক্তি ও মাত্রা (Potency &amp; Dosage)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>শক্তি:</strong> ৩ থেকে ৩০ শক্তি সবচেয়ে বেশি কার্যকর। বমি ভাব ও কাশির জন্য ৩০ শক্তি দ্রুত কাজ করে।</li>
+                <li><strong>মাত্রা:</strong> বোরিকের মতে, এটি একটি স্বল্পস্থায়ী ঔষধ। তীব্র অবস্থায় এটি ঘনঘন প্রয়োগ করা যেতে পারে।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ৬. সম্পর্ক -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ৬. সম্পর্ক (Relationships)
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-2 text-xs md:text-sm">
+                <li><strong>পরিপূরক (Complementary):</strong> Cuprum Met (কাশির ক্ষেত্রে)।</li>
+                <li><strong>প্রতিষেধক (Antidote):</strong> Arsenic, Nux Vomica, Tabacum।</li>
+                <li><strong>সদৃশ (Similar):</strong> Antim Tart (বুকে ঘড়ঘড়ে কফ), Arsenic (বমি ও জ্বরে), Pulsatilla।</li>
+            </ul>
+        </div>
+
+        <!-- 🟢 সেকশন: ঔষধের সংক্ষিপ্ত পরিচিতি টেবিল -->
+        <div>
+            <div class="bg-[#10b981] text-gray-900 font-bold px-4 py-2 text-base md:text-lg rounded-sm shadow-sm mb-3">
+                ঔষধের সংক্ষিপ্ত পরিচিতি
+            </div>
+            <div class="border border-gray-400 overflow-x-auto rounded-sm">
+                <table class="w-full text-left text-xs md:text-sm">
+                    <thead>
+                        <tr class="bg-gray-50 border-b border-gray-400 font-bold text-gray-800">
+                            <th class="p-3 border-r border-gray-400 w-1/3">বৈশিষ্ট্য</th>
+                            <th class="p-3">বিবরণ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">নাম</td><td class="p-3">Ipecacuanha</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">ল্যাটিন নাম</td><td class="p-3 italic">Cephaelis ipecacuanha</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">উৎস</td><td class="p-3">উদ্ভিদ জগত</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">কাতরতা</td><td class="p-3">শীতকাতর (Chilly)</td></tr>
+                        <tr class="border-b border-gray-400"><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">পার্শ্ব</td><td class="p-3">বাম পার্শ্বে বেশি কাজ করে</td></tr>
+                        <tr><td class="p-3 border-r border-gray-400 font-semibold bg-gray-50/30">মায়াজম</td><td class="p-3">সোরা (Psora)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 📚 তথ্যের উৎস এবং সতর্কতা -->
+        <div class="pt-4 text-xs md:text-sm text-gray-600 space-y-2 pl-1">
+            <p class="font-bold text-gray-800">তথ্যসূত্র:</p>
+            <ul class="list-disc list-inside space-y-1 pl-2 text-gray-500">
+                <li>Pocket Manual of Homoeopathic Materia Medica (William Boericke)</li>
+                <li>Lectures on Homoeopathic Materia Medica (J.T. Kent)</li>
+                <li>Keynotes and Characteristics (H.C. Allen)</li>
+            </ul>
+            <p class="text-red-600 font-medium pt-2"><strong class="text-red-700">সতর্কতা:</strong> এই তথ্যগুলো শুধুমাত্র চিকিৎসকদের পেশাগত এবং শিক্ষামূলক উদ্দেশ্যে দেওয়া হয়েছে।</p>
+        </div>
+
+        <!-- ডিরেক্টরিতে ফিরে যাওয়ার বাটন -->
+        <div class="text-center pt-6">
+            <a href="index.html" class="inline-flex items-center gap-1.5 bg-gray-200 hover:bg-[#006E57] text-gray-700 hover:text-white px-5 py-2 rounded-md font-medium transition text-xs md:text-sm shadow-sm">
+                <i class="fas fa-chevron-left"></i> ডিরেক্টরিতে ফিরে যান
+            </a>
+        </div>
+
+    </main>
+
+    <!-- 📥 ৪. এখানে স্বয়ংক্রিয়ভাবে ফুটার লোড হবে -->
+    <div id="app-footer"></div>
+
+    <!-- 🛠️ ৫. সেন্ট্রাল স্ক্রিপ্ট কল -->
+    <script src="medica-template.js"></script>
+</body>
+</html>
