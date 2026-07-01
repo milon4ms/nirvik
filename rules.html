@@ -1,187 +1,246 @@
 <!DOCTYPE html>
-<html lang="bn-BD">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ব্যবহারের নিয়্ম - নির্ভীক হোমিও</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            font-family: 'SolaimanLipi', Arial, sans-serif;
-            background-color: #f4f6f9;
-            color: #333;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 1000px;
-            margin: 30px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-        .entry-header {
-            border-bottom: 3px solid #2ecc71;
-            padding-bottom: 10px;
-            margin-bottom: 25px;
-        }
-        .entry-title {
-            color: #2c3e50;
-            font-size: 24px;
-        }
-        .main-link {
-            background: #eef9f2;
-            padding: 12px;
-            border-left: 5px solid #2ecc71;
-            margin-bottom: 25px;
-            border-radius: 0 4px 4px 0;
-        }
-        .main-link a {
-            color: #27ae60;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .section-box {
-            margin-bottom: 30px;
-            padding: 20px;
-            border: 1px solid #e0e0e0;
-            border-radius: 6px;
-            background: #fdfdfd;
-        }
-        .section-box h3 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 18px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 5px;
-        }
-        .section-box p {
-            margin-bottom: 12px;
-        }
-        .section-box strong {
-            color: #16a085;
-        }
-    </style>
-    <script>
-        // রুট পাথ থেকে সঠিকভাবে হেডার এবং ফুটার লোড করার ফাংশন
-        async function loadComponent(elementId, url) {
-            try {
-                // গিটহাব পেজের সাব-ডিরেক্টরি বা রুট পাথ ঠিক রাখতে উইন্ডো লোকেশন চেক
-                const basePath = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
-                const fullUrl = url.startsWith('/') ? window.location.origin + basePath + url.substring(1) : url;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>নির্ভীক হোমিও - ব্যবহারের নিয়ম ও সুবিধাসমূহ</title>
 
-                const response = await fetch(fullUrl);
-                if (response.ok) {
-                    const html = await response.text();
-                    document.getElementById(elementId).innerHTML = html;
-                } else {
-                    console.error('Failed to load component from: ' + fullUrl);
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            content: [],
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00b8a9',
+                        'primary-dark': '#00897b',
+                    }
                 }
-            } catch (error) {
-                console.error('Error loading component:', error);
             }
         }
-
-        window.addEventListener('DOMContentLoaded', () => {
-            // পাথ পরিবর্তন করে সরাসরি রুট রেফারেন্স দেওয়া হয়েছে
-            loadComponent('header-placeholder', 'assets/header.html');
-            loadComponent('footer-placeholder', 'assets/footer.html');
-        });
     </script>
-</head>
-<body>
 
-    <!-- Header Placement -->
+    <style>
+        body {
+            font-family: 'SolaimanLipi', system-ui, sans-serif;
+            background-color: #f0fdfa;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .container-custom {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+        }
+
+        .page-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 25px;
+        }
+
+        .page-header h1 {
+            font-size: 28px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* ===== অ্যাকোর্ডিয়ন সেকশন স্টাইল ===== */
+        .info-section {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            margin-bottom: 14px;
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+
+        .info-section:hover {
+            border-color: #00b8a9;
+            box-shadow: 0 4px 12px rgba(0, 184, 169, 0.05);
+        }
+
+        .info-section h3 {
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 14px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .info-section h3:hover {
+            background: linear-gradient(135deg, #00897b, #00695c);
+        }
+
+        .info-section h3 .arrow {
+            font-size: 12px;
+            transition: transform 0.3s;
+        }
+
+        .info-section h3.active .arrow {
+            transform: rotate(180deg);
+        }
+
+        .info-content {
+            padding: 20px;
+            display: none;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #334155;
+        }
+
+        .info-content p {
+            margin-bottom: 12px;
+        }
+
+        .btn-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: linear-gradient(135deg, #e11d48, #be123c);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 14px;
+            margin: 5px 0;
+            transition: all 0.2s;
+        }
+        .btn-link:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(190, 18, 60, 0.2);
+        }
+
+        .btn-web {
+            color: #00897b;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .footer-note {
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 30px;
+            border-top: 2px solid #e2e8f0;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 700px) {
+            .container-custom { padding: 16px; }
+            .page-header h1 { font-size: 22px; }
+            .info-section h3 { font-size: 16px; padding: 12px 16px; }
+            .info-content { padding: 16px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
+
     <div id="header-placeholder"></div>
 
-    <div class="container">
-        <main id="primary" class="content-area">
-            <article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
-                
-                <header class="entry-header">
-                    <h1 class="entry-title" itemprop="headline">ব্যবহারের নিয়্ম</h1>
-                </header>
+    <main class="flex-1 container mx-auto px-4 py-8">
+        <div class="container-custom">
 
-                <div class="entry-content" itemprop="text">
-                    <div class="main-link">
-                        <p><strong><a href="https://homeo.is-best.net" rel="noreferrer noopener" target="_blank">homeo.is-best.net</a> </strong> <strong>ওয়েবসাইট এর সুবিধা ও <strong>ব্যবহারের</strong></strong> <strong>নিয়মাবলী</strong> (শিরোনামের উপর ক্লিক করুন)</p>
-                    </div>
+            <div class="page-header">
+                <h1>নির্ভীক হোমিও</h1>
+                <p>স্মার্ট ডিজিটাল রোগীলিপি, রেপার্টরি এবং AI চিকিৎসা নির্দেশিকা</p>
+            </div>
 
-                    <!-- সুবিধা সমূহ -->
-                    <div class="section-box" role="group">
-                        <h3><i class="fa-solid fa-star" style="color: #f1c40f;"></i> সুবিধা সমূহ:</h3>
-                        <div role="region">
-                            <p>✿ <strong>ভুলে যাওয়ার ভয় নেই:</strong> এখানে রোগ অনুযায়ী শরীরের সব ধরণের (শারীরিক ও মানসিক) লক্ষণ সাজানো আছে। আপনি শুধু দেখে দেখে রোগীকে প্রশ্ন করবেন, কোনো লক্ষণ বাদ পড়ার সম্ভাবনা থাকবে না।</p>
-                            <p>✿ <strong>খাতায় লেখার ঝামেলা নেই:</strong> লক্ষণের পাশে ক্লিক করলেই তা স্বয়ংক্রিয়ভাবে রোগীলিপিতে যুক্ত হয়ে যায়। কলম-খাতা ছাড়াই দ্রুত কেসটেকিং সম্ভব।</p>
-                            <p>✿ <strong>সময় বাঁচায়:</strong> রেপার্টরি বই বা সফটওয়্যারে বারবার সার্চ করার প্রয়োজন নেই। সব প্রয়োজনীয় লক্ষণ আপনার চোখের সামনেই থাকবে।</p>
-                            <p>✿ <strong>স্মার্ট রোগীলিপি ও প্রম্পট:</strong> এক ক্লিকেই একটি পূর্ণাঙ্গ রোগীলিপি তৈরি হয়, যা একই সাথে AI-এর জন্য শক্তিশালী ‘প্রম্পট’ হিসেবে কাজ করে। আপনাকে কষ্ট করে কিছু লিখতে হবে না।</p>
-                            <p>✿ <strong>নির্ভুল ঔষধ নির্বাচন:</strong> আমাদের AI সকল রেপার্টরি যাচাই করে সবচেয়ে বেশি লক্ষণ কভার করা ঔষধটি সবার আগে দেখায়। পাশাপাশি সহযোগী ঔষধের তালিকাও প্রদান করে।</p>
-                            <p>✿ <strong>পূর্ণাঙ্গ চিকিৎসা পরামর্শ:</strong> ঔষধের পাশাপাশি এটি রোগীর পথ্য (খাবার), লাইফস্টাইল এবং প্রয়োজনীয় বিধিনিষেধ সম্পর্কে বিস্তারিত তথ্য দেয়।</p>
-                            <p>✿ <strong>ঝুঁকি সতর্কতা:</strong> রোগীর অবস্থা গুরুতর হলে বা কোনো লক্ষণ উদ্বেগজনক হলে AI সাথে সাথে চিকিৎসককে সতর্ক করে দেয়।</p>
-                            <p>✿ <strong>সহজ প্রেসক্রিপশন:</strong> AI একটি সুন্দর প্রেসক্রিপশন তৈরি করে দেয়, যা এক ক্লিকে কপি করে আমাদের ওয়েবসাইটের নোটবুকে সারাজীবনের জন্য জমা রাখতে পারেন।</p>
-                            <p>✿ <strong>খরচঃ</strong> এটির ফ্রি এবং পেইড উভয় ভার্শন আছে। শুধু রেজিষ্ট্রশন করে ফ্রি ভার্সন ব্যবহার করা যায়। নাম মাত্র ফি (১০০ টাকা) দিয়ে একমাস ব্যবহার করা যায়।</p>
-                        </div>
-                    </div>
-
-                    <!-- ধাপ ১ -->
-                    <div class="section-box" role="group">
-                        <h3>ধাপ ১: প্রথম কাজ</h3>
-                        <div role="region">
-                            <p><strong>ওয়েবসাইটে যান:</strong> আপনার ফোনের বা কম্পিউটারের ব্রাউজার (যেমন: Google Chrome) থেকে <strong><a href="https://homeo.is-best.net" rel="noreferrer noopener" target="_blank">https://homeo.is-best.net</a></strong> লিংকে যান।</p>
-                            <p><strong>অ্যাকাউন্ট তৈরি:</strong> আপনি নতুন হলে ‘Account’ মেনু থেকে <strong>Registration</strong>-এ ক্লিক করুন। নাম, ইমেইল, মোবাইল নম্বর ও পাসওয়ার্ড দিয়ে ‘I agree’ বক্সে টিক দিন এবং <strong>Submit</strong> করুন।</p>
-                            <p><strong>লগইন:</strong> একবার রেজিষ্ট্রেশন হয়ে গেলে পরবর্তীতে শুধু ইউজার নেম ও পাসওয়ার্ড দিয়ে লগইন করলেই হবে।</p>
-                        </div>
-                    </div>
-
-                    <!-- ধাপ ২ -->
-                    <div class="section-box" role="group">
-                        <h3>ধাপ ২: কেসটেকিং ও লক্ষণ বাছাই</h3>
-                        <div role="region">
-                            <p><strong>রোগের বর্ণনা:</strong> লগইন করার পর ‘সাধারণ রোগের কেসটেকিং’ পেজে যান। প্রথম বক্সে রোগীর সমস্যাগুলো বাংলা বা ইংরেজিতে লিখুন।</p>
-                            <p><strong>লক্ষণ বাছাই:</strong> নিচে ২ থেকে ২২ নম্বর পর্যন্ত বিভিন্ন সবুজ রঙের শিরোনাম আছে। এগুলোতে ক্লিক করলে অনেক লক্ষণ দেখা যাবে। রোগীর সাথে কথা বলে মিলে যাওয়া লক্ষণগুলোতে টিক চিহ্ন দিন।</p>
-                            <p><strong>রোগীর তথ্য:</strong> শেষে রোগীর নাম, ঠিকানা ও বয়স লিখে ‘সাবমিট করুন’ বাটনে ক্লিক করুন।</p>
-                            <p><em>যে কোনো রোগের জন্য “সাধারণ রোগের কেসটেকিং” ব্যবহার করা হয়। সরাসরি রোগের নাম ভিত্তিক লক্ষণ পেতে মেনুবারের মেনুর নিচে রোগ এর নামের উপর ক্লিক করুন। এতে ঐ রোগের স্পেশাল অনেক লক্ষণ পাওয়া যাবে (সম্পূর্ণ পেইড ইউজার দের জন্য)</em></p>
-                        </div>
-                    </div>
-
-                    <!-- ধাপ ৩ -->
-                    <div class="section-box" role="group">
-                        <h3>ধাপ ৩: রোগীলিপি কপি ও AI এর সাহায্য</h3>
-                        <div role="region">
-                            <p><strong>কপি করুন:</strong> সাবমিট করার পর নিচে একটি ‘রোগীলিপি’ তৈরি হবে। ‘ফলাফল কপি’ বাটনে চাপ দিয়ে তথ্যগুলো কপি করে নিন।</p>
-                            <p><strong>AI সাহায্য:</strong> এবার ChatGPT বা Grok বাটনে ক্লিক করুন। সেখানে চ্যাট বক্সে আপনার কপি করা তথ্যগুলো ‘Paste’ করে সেন্ড করুন।</p>
-                            <p><strong>ঔষধ নির্বাচন:</strong> AI আপনাকে সম্ভাব্য হোমিওপ্যাথি ও বায়োকেমিক ঔষধের তালিকা দেবে। একজন চিকিৎসক হিসেবে আপনি চূড়ান্ত ঔষধটি বেছে নিন।</p>
-                        </div>
-                    </div>
-
-                    <!-- ধাপ ৪ -->
-                    <div class="section-box" role="group">
-                        <h3>ধাপ ৪: প্রেসক্রিপশন সেভ করা</h3>
-                        <div role="region">
-                            <p>ভবিষ্যতের জন্য AI-এর দেওয়া পরামর্শগুলো কপি করে আমাদের সাইটের <strong>‘নোট জমা’</strong> বাটনে ক্লিক করে সেভ করে রাখতে পারেন।</p>
-                        </div>
-                    </div>
-
-                    <!-- ইউজার প্রকারভেদ -->
-                    <div class="section-box" role="group">
-                        <h3>ফ্রি বনাম পেইড ইউজার (পার্থক্য)</h3>
-                        <div role="region">
-                            <p><strong>ফ্রি ইউজার:</strong> আপনি ফ্রিতে ‘সাধারণ কেসটেকিং’, ‘জ্বর-সর্দি-কাশি’ এবং ‘ব্যথা’—এই তিনটি পেজ ব্যবহার করতে পারবেন।</p>
-                            <p><strong>পেইড ইউজার:</strong> শরীরের অঙ্গভিত্তিক হাজার হাজার লক্ষণ এবং সকল পেজ ব্যবহার করতে চাইলে আপনাকে ‘Paid User’ হতে হবে। বিস্তারিত জানতে <a href="https://homeo.is-best.net/paid-user/" target="_blank"><strong>Paid User</strong> লিংকে ক্লিক করুন।</a></p>
-                        </div>
-                    </div>
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-star text-yellow-300 mr-2"></i> এই ওয়েবের সুবিধাসমূহ</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <p>✅ <strong>কোনো লক্ষণ বাদ পড়বে না:</strong> রোগভিত্তিক শারীরিক ও মানসিক লক্ষণের তালিকা দেখে সহজেই রোগীকে প্রশ্ন করুন। চিকিৎসকের দুর্বলতার কারণে রোগীর ক্ষতিগ্রস্ততা দূর করে।</p>
+                    <p>✅ <strong>খাতা-কলম ছাড়াই কেসটেকিং:</strong> লক্ষণে ক্লিক করলেই তা স্বয়ংক্রিয়ভাবে রোগীলিপিতে যুক্ত হয়।</p>
+                    <p>✅ <strong>অতিরিক্ত সময় বাঁচে:</strong> বারবার রেপার্টরি খোঁজার দরকার নেই; সব প্রয়োজনীয় তথ্য চোখের সামনে। AI নিজেই লক্ষণকে রেপার্টরিতে যাচাই করে সেরা ঔষধ বের করে আনে।</p>
+                    <p>✅ <strong>অটো রোগীলিপি ও AI প্রম্পট:</strong> এক ক্লিকে তৈরি হয় পূর্ণাঙ্গ রোগীলিপি, যা AI-র জন্য সরাসরি প্রম্পট হিসেবেও কাজ করে।</p>
+                    <p>✅ <strong>নির্ভুল ঔষধ সুপারিশ:</strong> AI সব রেপার্টরি মিলিয়ে সবচেয়ে মিলযুক্ত ঔষধ ও সহযোগী ঔষধের তালিকা দেখায়। সাথে চিকিৎসককে রোগের এলোপ্যাথিক ও ইউনানী ঔষধ সম্পর্কে জ্ঞান দেয়।</p>
+                    <p>✅ <strong>শুধু ঔষধ নয়, পূর্ণ গাইডলাইন:</strong> রোগীর খাদ্য, লাইফস্টাইল ও নিষেধাজ্ঞা সম্পর্কেও বিস্তারিত জানায়।</p>
+                    <p>✅ <strong>জরুরি সতর্কতা:</strong> গুরুতর বা উদ্বেগজনক লক্ষণ দেখলে AI সঙ্গে সঙ্গে চিকিৎসককে সতর্ক করে। এছাড়া এই রোগের জন্য কী কী টেস্ট দেয়া যাবে তা জানায়।</p>
+                    <p>✅ <strong>প্রস্তুত প্রেসক্রিপশন:</strong> সুন্দর প্রেসক্রিপশন তৈরি হয়, যা এক ক্লিকে কপি করে এই ওয়েবে জমা করতে পারেন এবং পরে ফলোআপ করতে পারেন।</p>
+                    <p>✅ <strong>খরচসুলভ:</strong> ফ্রি ভার্সনেই সব রোগের কেসটেকিং করা যায়। প্রতিদিন ৫ টি প্রেসক্রিপশন জমা রাখা যায়। এটা সব সময় ফ্রী। তবে যদি কোন রোগীকে কী প্রশ্ন করবেন তা জানা না থাকে, তবে দেখে দেখে প্রশ্ন করা ও টাইপিং ছাড়াই লক্ষণ বেছে নিতে পেইড ইউজার হতে হবে। প্রতিমাস মাত্র ৫০ টাকা দিয়ে পেইড ইউজার হতে <a href="#" class="btn-link"><i class="fa-solid fa-crown"></i> এখানে ক্লিক করুন</a>। পেইড ইউজার প্রতিদিন ৫০ টি প্রেসক্রিপশন ব্যবহার করতে পারেন ও ওয়েবের সকল রোগের লিংক ব্যবহার করতে পারেন। মাত্র ৫০ টাকায় ১ মাস !!!</p>
                 </div>
-            </article>
-        </main>
-    </div>
+            </div>
 
-    <!-- Footer Placement -->
-    <div id="footer-placeholder"></div>
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-right-to-bracket mr-2"></i> কিভাবে প্রবেশ করবেন</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <p class="font-bold text-teal-600 border-b pb-1 mb-2">🔐 লগইন ও রেজিস্ট্রেশন</p>
+                    <p><strong>ধাপ ১: ওয়েবসাইটে যান</strong><br>গুগল ক্রোম এ খুলুন: <a href="https://nirvik.mooo.com" target="_blank" class="btn-web">nirvik.mooo.com</a></p>
+                    <p><strong>ধাপ ২: অ্যাকাউন্ট তৈরি করুন (নতুন ব্যবহারকারী)</strong><br>মেনু থেকে 'একাউন্ট' → 'রেজিষ্ট্রেশন'-এ ক্লিক করুন। নাম, ফোন নং, ইমেইল, ও পাসওয়ার্ড দিন। ইমেইল না দিলেও চলবে। 'একাউন্ট তৈরি করুন' এ চাপুন। ব্যাস আপনি এ ওয়েব সাইটের একজন রেজিষ্টার্ড ইউজার হয়ে গেলেন।</p>
+                    <p><strong>ধাপ ৩: লগইন করুন (পুরানো ব্যবহারকারী)</strong><br>একাউন্ট এ ক্লিক করুন → লগ ইন এ ক্লিক করুন। ফোন নাম্বার ও পাসওয়ার্ডタイプ করুন। লগইন এ ক্লিক করুন।</p>
+                    <p class="text-sm text-gray-500 bg-gray-50 p-2 rounded">💡 আপনি ইচ্ছে করলে রেজিষ্ট্রেশন ছাড়া <em>'Google দিয়ে লগ ইন করুন'</em> এ ক্লিক করেও লগ ইন করতে পারবেন।</p>
+                </div>
+            </div>
 
-</body>
-</html>
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-clipboard-list mr-2"></i> কেসটেকিং ও লক্ষণ বাছাই</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <p><strong>রোগের বর্ণনা:</strong> 'কেসটেকিং' মেনুতে ক্লিক করুন > '১. রোগের বর্ণনা ও কারন' লেখার উপর ক্লিক করুন > বক্সে রোগীর বলা সমস্যাগুলো লিখুন।</p>
+                    <p><strong>লক্ষণ বাছাই:</strong> নিচে ২ থেকে ২৩ নম্বর পর্যন্ত বিভিন্ন সবুজ রঙের শিরোনাম আছে। এগুলোতে ক্লিক করলে অনেক লক্ষণ দেখা যাবে। রোগীর সাথে কথা বলে মিলে যাওয়া লক্ষণগুলোতে টিক চিহ্ন দিন।</p>
+                    <p><strong>পরবর্তী পদক্ষেপ:</strong> এর পর 'জেনারেট করুন' বাটনে ক্লিক করুন। তারপর 'প্রম্পট কপি' বাটনে ক্লিক করুন। তার পর 'Gemini' বাটনে ক্লিক করুন।</p>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-robot mr-2"></i> AI এর সাহায্য রেপার্টরি ও প্রেসক্রিপশন তৈরি</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <p>✿ জেমিনি এর বক্সে <strong>CTRL + V</strong> একসাথে চাপুন (যদি কম্পিউটার থেকে চালান) অথবা আঙুল চেপে ধরুন এবং <strong>Paste</strong> লেখাতে ক্লিক করুন (মোবাইলে যদি চালান)।</p>
+                    <p>✿ এর পর তীরে (Send Button) ক্লিক করুন এবং দেখুন একটি প্রেসক্রিপশন তৈরি হয়েছে। পাশে <strong>Copy</strong> বাটন এ ক্লিক করুন।</p>
+                    <p>✿ নিচের লেখাগুলি পড়ুন; এখানে বিকল্প ঔষধগুলি দেখুন, বায়োকেমিক সাজেশনগুলি দেখুন এবং সিদ্ধান্ত নিন কোন ঔষধটি রোগীকে দিবেন। জ্ঞান অর্জনের জন্য নিচের লেখাগুলি পড়তে পারেন।</p>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-floppy-disk mr-2"></i> প্রেসক্রিপশন সেভ করা</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <p>১. নির্ভীক ওয়েবে ফেরত আসুন। উপরে <strong>'প্রেসক্রিপশন'</strong> মেনুতে ক্লিক করুন।</p>
+                    <p>২. <strong>'Paste (পেস্ট করুন)'</strong> বাটনে ক্লিক করুন।</p>
+                    <p>৩. এবারে <strong>'ডেটাবেজে সংরক্ষন করুন'</strong> বাটনে চাপ দিন। দেখুন প্রেসক্রিপশন জমা হয়েছে।</p>
+                    <p>💡 পরবর্তীতে এটি বের করে এডিট করে নতুন ঔষধ দিতে পারবেন। এতে তারিখ সহ লেখা থাকে তাই খাতা ব্যবহারের দরকার হয় না।</p>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-scale-balanced mr-2"></i> রেজিষ্টার্ড ইউজার (ফ্রী) বনাম পেইড ইউজার</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <div class="mb-4 bg-teal-50 p-3 rounded border-l-4 border-teal-500">
+                        <p class="font-bold text-teal-700"><i class="fa-solid fa-user"></i> রেজিষ্টার্ড ইউজার বা ফ্রী ইউজার:</p>
+                        <p>আপনি ফ্রিতে শুধু
