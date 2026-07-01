@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>নির্ভীক হোমিও - ব্যবহারের নিয়ম ও সুবিধাসমূহ</title>
 
+    <!-- লাইব্রেরি ও সিডিএন লিংকসমূহ (জেকুয়েরি প্রথমে রাখা হয়েছে) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script>
         tailwind.config = {
@@ -156,16 +157,22 @@
 </head>
 <body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
 
+    <!-- ===== হেডার প্লেসহোল্ডার ===== -->
     <div id="header-placeholder"></div>
 
+    <!-- ===== মেইন কন্টেন্ট ===== -->
     <main class="flex-1 container mx-auto px-4 py-8">
         <div class="container-custom">
 
+            <!-- পেজ হেডার -->
             <div class="page-header">
                 <h1>নির্ভীক হোমিও</h1>
                 <p>স্মার্ট ডিজিটাল রোগীলিপি, রেপার্টরি এবং AI চিকিৎসা নির্দেশিকা</p>
             </div>
 
+            <!-- ===== অ্যাকোর্ডিয়ন গ্রুপ সমূহ ===== -->
+
+            <!-- ১. এই ওয়েবের সুবিধাসমূহ -->
             <div class="info-section">
                 <h3>
                     <span><i class="fa-solid fa-star text-yellow-300 mr-2"></i> এই ওয়েবের সুবিধাসমূহ</span>
@@ -184,6 +191,7 @@
                 </div>
             </div>
 
+            <!-- ২. কিভাবে প্রবেশ করবেন -->
             <div class="info-section">
                 <h3>
                     <span><i class="fa-solid fa-right-to-bracket mr-2"></i> কিভাবে প্রবেশ করবেন</span>
@@ -192,12 +200,13 @@
                 <div class="info-content">
                     <p class="font-bold text-teal-600 border-b pb-1 mb-2">🔐 লগইন ও রেজিস্ট্রেশন</p>
                     <p><strong>ধাপ ১: ওয়েবসাইটে যান</strong><br>গুগল ক্রোম এ খুলুন: <a href="https://nirvik.mooo.com" target="_blank" class="btn-web">nirvik.mooo.com</a></p>
-                    <p><strong>ধাপ ২: অ্যাকাউন্ট তৈরি করুন (নতুন ব্যবহারকারী)</strong><br>মেনু থেকে 'একাউন্ট' → 'রেজিষ্ট্রেশন'-এ ক্লিক করুন। নাম, ফোন নং, ইমেইল, ও পাসওয়ার্ড দিন। ইমেইল না দিলেও চলবে। 'একাউন্ট তৈরি করুন' এ চাপুন। ব্যাস আপনি এ ওয়েব সাইটের একজন রেজিষ্টার্ড ইউজার হয়ে গেলেন।</p>
-                    <p><strong>ধাপ ৩: লগইন করুন (পুরানো ব্যবহারকারী)</strong><br>একাউন্ট এ ক্লিক করুন → লগ ইন এ ক্লিক করুন। ফোন নাম্বার ও পাসওয়ার্ডタイプ করুন। লগইন এ ক্লিক করুন।</p>
+                    <p><strong>ধাপ ২: অ্যাকাউন্ট তৈরি করুন (নতুন ব্যবহারকারী)</strong><br>মেনু থেকে 'একাউন্ট' → 'রেজিষ্ট্রেশন'-এ ক্লিক করুন। নাম, ফোন নং, ইমেইল, ও পাসওয়ার্ড দিন। ইমেইল না দিলেও চলবে। 'একাউন্ট তৈরি করুন' এ চাপুন। ব্যাস আপনি এ切换 সাইটের একজন রেজিষ্টার্ড ইউজার হয়ে গেলেন।</p>
+                    <p><strong>ধাপ ৩: লগইন করুন (পুরানো ব্যবহারকারী)</strong><br>একাউন্ট এ ক্লিক করুন → লগ ইন এ ক্লিক করুন। ফোন নাম্বার ও পাসওয়ার্ড টাইপ করুন। লগইন এ ক্লিক করুন।</p>
                     <p class="text-sm text-gray-500 bg-gray-50 p-2 rounded">💡 আপনি ইচ্ছে করলে রেজিষ্ট্রেশন ছাড়া <em>'Google দিয়ে লগ ইন করুন'</em> এ ক্লিক করেও লগ ইন করতে পারবেন।</p>
                 </div>
             </div>
 
+            <!-- ৩. কেসটেকিং ও লক্ষণ বাছাই -->
             <div class="info-section">
                 <h3>
                     <span><i class="fa-solid fa-clipboard-list mr-2"></i> কেসটেকিং ও লক্ষণ বাছাই</span>
@@ -210,6 +219,7 @@
                 </div>
             </div>
 
+            <!-- ৪. AI এর সাহায্য রেপার্টরি ও প্রেসক্রিপশন তৈরি -->
             <div class="info-section">
                 <h3>
                     <span><i class="fa-solid fa-robot mr-2"></i> AI এর সাহায্য রেপার্টরি ও প্রেসক্রিপশন তৈরি</span>
@@ -222,6 +232,7 @@
                 </div>
             </div>
 
+            <!-- ৫. প্রেসক্রিপশন সেভ করা -->
             <div class="info-section">
                 <h3>
                     <span><i class="fa-solid fa-floppy-disk mr-2"></i> প্রেসক্রিপশন সেভ করা</span>
@@ -235,6 +246,7 @@
                 </div>
             </div>
 
+            <!-- ৬. রেজিষ্টার্ড ইউজার (ফ্রী) বনাম পেইড ইউজার -->
             <div class="info-section">
                 <h3>
                     <span><i class="fa-solid fa-scale-balanced mr-2"></i> রেজিষ্টার্ড ইউজার (ফ্রী) বনাম পেইড ইউজার</span>
@@ -243,4 +255,80 @@
                 <div class="info-content">
                     <div class="mb-4 bg-teal-50 p-3 rounded border-l-4 border-teal-500">
                         <p class="font-bold text-teal-700"><i class="fa-solid fa-user"></i> রেজিষ্টার্ড ইউজার বা ফ্রী ইউজার:</p>
-                        <p>আপনি ফ্রিতে শুধু
+                        <p>আপনি ফ্রিতে শুধু ‘কেসটেকিং’ পেজ ব্যবহার করতে পারবেন। এখানেই সব রোগের লক্ষণ রোগীর কাছে শুনে শুনে টাইপ করতে হয়। একটি পেজেই সব রোগের জন্য কাজ করে কিন্তু চিকিৎসককে প্রচুর লিখতে হয়, সময় যায়। চিকিৎসককে বুদ্ধি খাটিয়ে রোগীকে প্রশ্ন করতে হয়। যদি কোন রোগের জন্য কী প্রশ্ন করতে হয় না জানেন তবে এটা ভালো ফল দিবে না। এছাড়াও প্রতিদিন মাত্র ৫ টি প্রেশক্রিপশন জমা রাখতে পারবেন। মেটেরিয়া মেডিকার শত শত ঔষধ এর পেজ ব্যবহার করতে পারবেন।</p>
+                    </div>
+                    <div class="bg-amber-50 p-3 rounded border-l-4 border-amber-500">
+                        <p class="font-bold text-amber-700"><i class="fa-solid fa-crown"></i> পেইড ইউজার:</p>
+                        <p>পেইড ইউজার এ ওয়েবের সকল পেইজ ব্যবহার করতে পারবেন। শরীরের অঙ্গভিত্তিক সব রোগের জন্য অনেক পেজ তৈরি করা আছে। সেখানে রোগের লক্ষণ দেয়া আছে, সেগুলি দেখে দেখে রোগীকে প্রশ্ন করবেন আর লক্ষণের উপর ক্লিক করবেন। টাইপের ঝামেলা নাই, রোগীকে কী প্রশ্ন করবেন সে টেনশন নাই। কয়েক মিনিটেই প্রেসক্রিপশন তৈরি। এছাড়া পেইড ইউজার প্রতিদিন ৫০ টি প্রেসক্রিপশন জমা রাখতে পারবেন। মেটেরিয়া মেডিকার শত শত ঔষধ এর পেজ ব্যবহার করতে পারবেন। <a href="#" class="text-rose-600 font-bold underline">পেইড ইউজার হতে ক্লিক করুন</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ৭. এপস ডাউনলোড -->
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-download mr-2"></i> এপস ডাউনলোড</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content text-center py-4">
+                    <p>আপনি চাইলে মোবাইল অ্যাপস দিয়ে খুব সহজেই এই ওয়েব পোর্টালটি ব্যবহার করতে পারবেন।</p>
+                    <a href="#" class="btn-link my-2"><i class="fa-brands fa-android"></i> অ্যাপস ডাউনলোড করতে ক্লিক করুন</a>
+                    <p class="text-sm text-gray-500 mt-2">⚠️ কোনো কারণে অ্যাপস না চললে সরাসরি ভিজিট করুন: <a href="https://nirvik.mooo.com/" target="_blank" class="btn-web">https://nirvik.mooo.com/</a></p>
+                </div>
+            </div>
+
+            <!-- ===== ফুটার নোট ===== -->
+            <div class="footer-note">
+                🌿 homeopathy চিকিৎসকদের জন্য তৈরি — নির্ভীক হোমিও গাইডলাইন ও কেস অ্যানালাইসিস পোর্টাল
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ===== স্ক্রিপ্ট সমূহ ===== -->
+    <script>
+        $(document).ready(function() {
+            // অ্যাকোর্ডিয়ন ওপেন/ক্লোজ করার ফাংশন
+            $('.info-section h3').on('click', function() {
+                const content = $(this).next('.info-content');
+                
+                // অন্য সব ওপেন থাকা সেকশন বন্ধ করা
+                $('.info-content').not(content).slideUp().prev('h3').removeClass('active');
+                
+                // বর্তমান সেকশনটি টগল করা
+                $(this).toggleClass('active');
+                content.slideToggle(250);
+            });
+
+            // হেডার এবং ফুটার ডাইনামিকালি লোড করা
+            $('#header-placeholder').load('assets/header.html', function() {
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') ?
+                            '<i class="fas fa-bars"></i>' :
+                            '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
+
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+
+        // কন্টেন্ট ও কপি প্রটেকশন সিকিউরিটি
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && ['c', 'a', 'u', 's', 'p'].includes(e.key.toLowerCase())) {
+                e.preventDefault();
+            }
+            if (e.key === 'F12') e.preventDefault();
+        });
+    </script>
+
+</body>
+</html>
