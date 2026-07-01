@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ব্যবহারের নিয়্ম - নির্ভীক হোমিও</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
     <style>
         * {
             box-sizing: border-box;
@@ -68,31 +67,36 @@
             color: #16a085;
         }
     </style>
-
     <script>
+        // রুট পাথ থেকে সঠিকভাবে হেডার এবং ফুটার লোড করার ফাংশন
         async function loadComponent(elementId, url) {
             try {
-                const response = await fetch(url);
+                // গিটহাব পেজের সাব-ডিরেক্টরি বা রুট পাথ ঠিক রাখতে উইন্ডো লোকেশন চেক
+                const basePath = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+                const fullUrl = url.startsWith('/') ? window.location.origin + basePath + url.substring(1) : url;
+
+                const response = await fetch(fullUrl);
                 if (response.ok) {
                     const html = await response.text();
                     document.getElementById(elementId).innerHTML = html;
                 } else {
-                    console.error('Failed to load ' + url);
+                    console.error('Failed to load component from: ' + fullUrl);
                 }
             } catch (error) {
                 console.error('Error loading component:', error);
             }
         }
 
-        // পেজ লোড হওয়ার সাথে সাথে হেডার ও ফুটার ইনজেক্ট হবে
         window.addEventListener('DOMContentLoaded', () => {
-            loadComponent('header-placeholder', './assets/header.html');
-            loadComponent('footer-placeholder', './assets/footer.html');
+            // পাথ পরিবর্তন করে সরাসরি রুট রেফারেন্স দেওয়া হয়েছে
+            loadComponent('header-placeholder', 'assets/header.html');
+            loadComponent('footer-placeholder', 'assets/footer.html');
         });
     </script>
 </head>
 <body>
 
+    <!-- Header Placement -->
     <div id="header-placeholder"></div>
 
     <div class="container">
@@ -108,8 +112,9 @@
                         <p><strong><a href="https://homeo.is-best.net" rel="noreferrer noopener" target="_blank">homeo.is-best.net</a> </strong> <strong>ওয়েবসাইট এর সুবিধা ও <strong>ব্যবহারের</strong></strong> <strong>নিয়মাবলী</strong> (শিরোনামের উপর ক্লিক করুন)</p>
                     </div>
 
+                    <!-- সুবিধা সমূহ -->
                     <div class="section-box" role="group">
-                        <h3>সুবিধা সমূহ:</h3>
+                        <h3><i class="fa-solid fa-star" style="color: #f1c40f;"></i> সুবিধা সমূহ:</h3>
                         <div role="region">
                             <p>✿ <strong>ভুলে যাওয়ার ভয় নেই:</strong> এখানে রোগ অনুযায়ী শরীরের সব ধরণের (শারীরিক ও মানসিক) লক্ষণ সাজানো আছে। আপনি শুধু দেখে দেখে রোগীকে প্রশ্ন করবেন, কোনো লক্ষণ বাদ পড়ার সম্ভাবনা থাকবে না।</p>
                             <p>✿ <strong>খাতায় লেখার ঝামেলা নেই:</strong> লক্ষণের পাশে ক্লিক করলেই তা স্বয়ংক্রিয়ভাবে রোগীলিপিতে যুক্ত হয়ে যায়। কলম-খাতা ছাড়াই দ্রুত কেসটেকিং সম্ভব।</p>
@@ -123,6 +128,7 @@
                         </div>
                     </div>
 
+                    <!-- ধাপ ১ -->
                     <div class="section-box" role="group">
                         <h3>ধাপ ১: প্রথম কাজ</h3>
                         <div role="region">
@@ -132,16 +138,18 @@
                         </div>
                     </div>
 
+                    <!-- ধাপ ২ -->
                     <div class="section-box" role="group">
                         <h3>ধাপ ২: কেসটেকিং ও লক্ষণ বাছাই</h3>
                         <div role="region">
                             <p><strong>রোগের বর্ণনা:</strong> লগইন করার পর ‘সাধারণ রোগের কেসটেকিং’ পেজে যান। প্রথম বক্সে রোগীর সমস্যাগুলো বাংলা বা ইংরেজিতে লিখুন।</p>
                             <p><strong>লক্ষণ বাছাই:</strong> নিচে ২ থেকে ২২ নম্বর পর্যন্ত বিভিন্ন সবুজ রঙের শিরোনাম আছে। এগুলোতে ক্লিক করলে অনেক লক্ষণ দেখা যাবে। রোগীর সাথে কথা বলে মিলে যাওয়া লক্ষণগুলোতে টিক চিহ্ন দিন।</p>
                             <p><strong>রোগীর তথ্য:</strong> শেষে রোগীর নাম, ঠিকানা ও বয়স লিখে ‘সাবমিট করুন’ বাটনে ক্লিক করুন।</p>
-                            <p><em>যে কোনো রোগের জন্য “সাধারণ রোগের কেসটেকিং” ব্যবহার করা হয়। সরাসরি রোগের নাম ভিত্তিক লক্ষণ পেতে মেনুবারের মেনুর নিচে রোগ এর নামের উপর ক্লিক করুন। এতে ঐ রোগের স্পেশাল অনেক লক্ষণ পাওয়া যাবে (শুধু মাত্র পেইড ইউজার দের জন্য)</em></p>
+                            <p><em>যে কোনো রোগের জন্য “সাধারণ রোগের কেসটেকিং” ব্যবহার করা হয়। সরাসরি রোগের নাম ভিত্তিক লক্ষণ পেতে মেনুবারের মেনুর নিচে রোগ এর নামের উপর ক্লিক করুন। এতে ঐ রোগের স্পেশাল অনেক লক্ষণ পাওয়া যাবে (সম্পূর্ণ পেইড ইউজার দের জন্য)</em></p>
                         </div>
                     </div>
 
+                    <!-- ধাপ ৩ -->
                     <div class="section-box" role="group">
                         <h3>ধাপ ৩: রোগীলিপি কপি ও AI এর সাহায্য</h3>
                         <div role="region">
@@ -151,6 +159,7 @@
                         </div>
                     </div>
 
+                    <!-- ধাপ ৪ -->
                     <div class="section-box" role="group">
                         <h3>ধাপ ৪: প্রেসক্রিপশন সেভ করা</h3>
                         <div role="region">
@@ -158,6 +167,7 @@
                         </div>
                     </div>
 
+                    <!-- ইউজার প্রকারভেদ -->
                     <div class="section-box" role="group">
                         <h3>ফ্রি বনাম পেইড ইউজার (পার্থক্য)</h3>
                         <div role="region">
@@ -170,6 +180,7 @@
         </main>
     </div>
 
+    <!-- Footer Placement -->
     <div id="footer-placeholder"></div>
 
 </body>
