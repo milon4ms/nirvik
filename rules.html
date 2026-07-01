@@ -3,45 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="profile" href="https://gmpg.org/xfn/11"> 
-    
     <title>ব্যবহারের নিয়্ম - নির্ভীক হোমিও</title>
-    <link href="http://nirvik.mooo.com/feed/" rel="alternate" title="নির্ভীক হোমিও » Feed" type="application/rss+xml">
-    <link href="http://nirvik.mooo.com/rules/" rel="canonical">
-    <link href="http://nirvik.mooo.com/wp-content/uploads/2025/12/cropped-siteicone-32x32.jpg" rel="icon" sizes="32x32">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'SolaimanLipi', Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .entry-header {
+            border-bottom: 3px solid #2ecc71;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+        .entry-title {
+            color: #2c3e50;
+            font-size: 24px;
+        }
+        .main-link {
+            background: #eef9f2;
+            padding: 12px;
+            border-left: 5px solid #2ecc71;
+            margin-bottom: 25px;
+            border-radius: 0 4px 4px 0;
+        }
+        .main-link a {
+            color: #27ae60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section-box {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            background: #fdfdfd;
+        }
+        .section-box h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 18px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .section-box p {
+            margin-bottom: 12px;
+        }
+        .section-box strong {
+            color: #16a085;
+        }
+    </style>
+
+    <script>
+        async function loadComponent(elementId, url) {
+            try {
+                const response = await fetch(url);
+                if (response.ok) {
+                    const html = await response.text();
+                    document.getElementById(elementId).innerHTML = html;
+                } else {
+                    console.error('Failed to load ' + url);
+                }
+            } catch (error) {
+                console.error('Error loading component:', error);
+            }
+        }
+
+        // পেজ লোড হওয়ার সাথে সাথে হেডার ও ফুটার ইনজেক্ট হবে
+        window.addEventListener('DOMContentLoaded', () => {
+            loadComponent('header-placeholder', './assets/header.html');
+            loadComponent('footer-placeholder', './assets/footer.html');
+        });
+    </script>
 </head>
+<body>
 
-<body class="page-template-default page page-id-316">
-<div id="page" class="site">
-    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    <div id="header-placeholder"></div>
 
-    <header id="masthead" class="site-header" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <!-- নেভিগেশন ও মেনুবার অংশ -->
-        <div class="site-branding" itemscope="itemscope" itemtype="https://schema.org/Organization">
-            <span>
-                <a href="http://nirvik.mooo.com/" rel="home">
-                    <img alt="নির্ভীক হোমিও" src="http://nirvik.mooo.com/wp-content/uploads/2025/12/log8-56x57.png" width="56" height="57">
-                </a>
-            </span>
-            <div class="site-title-wrapper">
-                <span itemprop="name"><a href="http://nirvik.mooo.com/" itemprop="url" rel="home">নির্ভীক হোমিও</a></span>
-            </div>
-        </div>
-    </header>
-
-    <div id="content" class="site-content">
+    <div class="container">
         <main id="primary" class="content-area">
-            <article id="post-316" class="post-316 page type-page status-publish hentry" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+            <article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
                 
                 <header class="entry-header">
                     <h1 class="entry-title" itemprop="headline">ব্যবহারের নিয়্ম</h1>
                 </header>
 
                 <div class="entry-content" itemprop="text">
-                    <p><strong><a href="https://homeo.is-best.net" rel="noreferrer noopener" target="_blank">homeo.is-best.net</a> </strong> <strong>ওয়েবসাইট এর সুবিধা ও <strong>ব্যবহারের</strong></strong> <strong>নিয়মাবলী</strong> (শিরোনামের উপর ক্লিক করুন)</p>
+                    <div class="main-link">
+                        <p><strong><a href="https://homeo.is-best.net" rel="noreferrer noopener" target="_blank">homeo.is-best.net</a> </strong> <strong>ওয়েবসাইট এর সুবিধা ও <strong>ব্যবহারের</strong></strong> <strong>নিয়মাবলী</strong> (শিরোনামের উপর ক্লিক করুন)</p>
+                    </div>
 
-                    <!-- সুবিধা সমূহ -->
-                    <div role="group">
+                    <div class="section-box" role="group">
                         <h3>সুবিধা সমূহ:</h3>
                         <div role="region">
                             <p>✿ <strong>ভুলে যাওয়ার ভয় নেই:</strong> এখানে রোগ অনুযায়ী শরীরের সব ধরণের (শারীরিক ও মানসিক) লক্ষণ সাজানো আছে। আপনি শুধু দেখে দেখে রোগীকে প্রশ্ন করবেন, কোনো লক্ষণ বাদ পড়ার সম্ভাবনা থাকবে না।</p>
@@ -52,12 +119,11 @@
                             <p>✿ <strong>পূর্ণাঙ্গ চিকিৎসা পরামর্শ:</strong> ঔষধের পাশাপাশি এটি রোগীর পথ্য (খাবার), লাইফস্টাইল এবং প্রয়োজনীয় বিধিনিষেধ সম্পর্কে বিস্তারিত তথ্য দেয়।</p>
                             <p>✿ <strong>ঝুঁকি সতর্কতা:</strong> রোগীর অবস্থা গুরুতর হলে বা কোনো লক্ষণ উদ্বেগজনক হলে AI সাথে সাথে চিকিৎসককে সতর্ক করে দেয়।</p>
                             <p>✿ <strong>সহজ প্রেসক্রিপশন:</strong> AI একটি সুন্দর প্রেসক্রিপশন তৈরি করে দেয়, যা এক ক্লিকে কপি করে আমাদের ওয়েবসাইটের নোটবুকে সারাজীবনের জন্য জমা রাখতে পারেন।</p>
-                            <p>✿ খরচঃ এটির ফ্রি এবং পেইড উভয় ভার্শন আছে। শুধু রেজিষ্ট্রশন করে ফ্রি ভার্সন ব্যবহার করা যায়। নাম মাত্র ফি (১০০ টাকা) দিয়ে একমাস ব্যবহার করা যায়।</p>
+                            <p>✿ <strong>খরচঃ</strong> এটির ফ্রি এবং পেইড উভয় ভার্শন আছে। শুধু রেজিষ্ট্রশন করে ফ্রি ভার্সন ব্যবহার করা যায়। নাম মাত্র ফি (১০০ টাকা) দিয়ে একমাস ব্যবহার করা যায়।</p>
                         </div>
                     </div>
 
-                    <!-- ধাপ ১ -->
-                    <div role="group">
+                    <div class="section-box" role="group">
                         <h3>ধাপ ১: প্রথম কাজ</h3>
                         <div role="region">
                             <p><strong>ওয়েবসাইটে যান:</strong> আপনার ফোনের বা কম্পিউটারের ব্রাউজার (যেমন: Google Chrome) থেকে <strong><a href="https://homeo.is-best.net" rel="noreferrer noopener" target="_blank">https://homeo.is-best.net</a></strong> লিংকে যান।</p>
@@ -66,41 +132,37 @@
                         </div>
                     </div>
 
-                    <!-- ধাপ ২ -->
-                    <div role="group">
+                    <div class="section-box" role="group">
                         <h3>ধাপ ২: কেসটেকিং ও লক্ষণ বাছাই</h3>
                         <div role="region">
-                            <p>রোগের বর্ণনা: লগইন করার পর ‘সাধারণ রোগের কেসটেকিং’ পেজে যান। প্রথম বক্সে রোগীর সমস্যাগুলো বাংলা বা ইংরেজিতে লিখুন।</p>
-                            <p>লক্ষণ বাছাই: নিচে ২ থেকে ২২ নম্বর পর্যন্ত বিভিন্ন সবুজ রঙের শিরোনাম আছে। এগুলোতে ক্লিক করলে অনেক লক্ষণ দেখা যাবে। রোগীর সাথে কথা বলে মিলে যাওয়া লক্ষণগুলোতে টিক চিহ্ন দিন。</p>
-                            <p>রোগীর তথ্য: শেষে রোগীর নাম, ঠিকানা ও বয়স লিখে ‘সাবমিট করুন’ বাটনে ক্লিক করুন।</p>
-                            <p>যে কোনো রোগের জন্য “সাধারণ রোগের কেসটেকিং” ব্যবহার করা হয়। সরাসরি রোগের নাম ভিত্তিক লক্ষণ পেতে মেনুবারের মেনুর নিচে রোগ এর নামের উপর ক্লিক করুন। এতে ঐরোগের স্পেশাল অনেক লক্ষণ পাওয়া যাবে ( শুধু মাত্র পেইড ইউজার দের জন্য)</p>
+                            <p><strong>রোগের বর্ণনা:</strong> লগইন করার পর ‘সাধারণ রোগের কেসটেকিং’ পেজে যান। প্রথম বক্সে রোগীর সমস্যাগুলো বাংলা বা ইংরেজিতে লিখুন।</p>
+                            <p><strong>লক্ষণ বাছাই:</strong> নিচে ২ থেকে ২২ নম্বর পর্যন্ত বিভিন্ন সবুজ রঙের শিরোনাম আছে। এগুলোতে ক্লিক করলে অনেক লক্ষণ দেখা যাবে। রোগীর সাথে কথা বলে মিলে যাওয়া লক্ষণগুলোতে টিক চিহ্ন দিন।</p>
+                            <p><strong>রোগীর তথ্য:</strong> শেষে রোগীর নাম, ঠিকানা ও বয়স লিখে ‘সাবমিট করুন’ বাটনে ক্লিক করুন।</p>
+                            <p><em>যে কোনো রোগের জন্য “সাধারণ রোগের কেসটেকিং” ব্যবহার করা হয়। সরাসরি রোগের নাম ভিত্তিক লক্ষণ পেতে মেনুবারের মেনুর নিচে রোগ এর নামের উপর ক্লিক করুন। এতে ঐ রোগের স্পেশাল অনেক লক্ষণ পাওয়া যাবে (শুধু মাত্র পেইড ইউজার দের জন্য)</em></p>
                         </div>
                     </div>
 
-                    <!-- ধাপ ৩ -->
-                    <div role="group">
+                    <div class="section-box" role="group">
                         <h3>ধাপ ৩: রোগীলিপি কপি ও AI এর সাহায্য</h3>
                         <div role="region">
-                            <p>কপি করুন: সাবমিট করার পর নিচে একটি ‘রোগীলিপি’ তৈরি হবে। ‘ফলাফল কপি’ বাটনে চাপ দিয়ে তথ্যগুলো কপি করে নিন।</p>
-                            <p>AI সাহায্য: এবার ChatGPT বা Grok বাটনে ক্লিক করুন। সেখানে চ্যাট বক্সে আপনার কপি করা তথ্যগুলো ‘Paste’ করে সেন্ড করুন।</p>
-                            <p><strong>ঔষধ নির্বাচন:</strong> AI আপনাকে সম্ভাব্য হোমিওপ্যাথি ও বায়োকেমিক ঔষধের তালিকা দেবে। একজন চিকিৎসক হিসেবে আপনি চূড়ান্ত ঔষধটি বেছে নিন。</p>
+                            <p><strong>কপি করুন:</strong> সাবমিট করার পর নিচে একটি ‘রোগীলিপি’ তৈরি হবে। ‘ফলাফল কপি’ বাটনে চাপ দিয়ে তথ্যগুলো কপি করে নিন।</p>
+                            <p><strong>AI সাহায্য:</strong> এবার ChatGPT বা Grok বাটনে ক্লিক করুন। সেখানে চ্যাট বক্সে আপনার কপি করা তথ্যগুলো ‘Paste’ করে সেন্ড করুন।</p>
+                            <p><strong>ঔষধ নির্বাচন:</strong> AI আপনাকে সম্ভাব্য হোমিওপ্যাথি ও বায়োকেমিক ঔষধের তালিকা দেবে। একজন চিকিৎসক হিসেবে আপনি চূড়ান্ত ঔষধটি বেছে নিন।</p>
                         </div>
                     </div>
 
-                    <!-- ধাপ ৪ -->
-                    <div role="group">
+                    <div class="section-box" role="group">
                         <h3>ধাপ ৪: প্রেসক্রিপশন সেভ করা</h3>
                         <div role="region">
                             <p>ভবিষ্যতের জন্য AI-এর দেওয়া পরামর্শগুলো কপি করে আমাদের সাইটের <strong>‘নোট জমা’</strong> বাটনে ক্লিক করে সেভ করে রাখতে পারেন।</p>
                         </div>
                     </div>
 
-                    <!-- ইউজার প্রকারভেদ -->
-                    <div role="group">
+                    <div class="section-box" role="group">
                         <h3>ফ্রি বনাম পেইড ইউজার (পার্থক্য)</h3>
                         <div role="region">
                             <p><strong>ফ্রি ইউজার:</strong> আপনি ফ্রিতে ‘সাধারণ কেসটেকিং’, ‘জ্বর-সর্দি-কাশি’ এবং ‘ব্যথা’—এই তিনটি পেজ ব্যবহার করতে পারবেন।</p>
-                            <p><strong>পেইড ইউজার:</strong> শরীরের অঙ্গভিত্তিক হাজার হাজার লক্ষণ এবং সকল পেজ ব্যবহার করতে চাইলে আপনাকে ‘Paid User’ হতে হবে। বিস্তারিত জানতে <a href="http://nirvik.mooo.com/paid-user/"><strong>Paid User</strong> লিংকে ক্লিক করুন।</a></p>
+                            <p><strong>পেইড ইউজার:</strong> শরীরের অঙ্গভিত্তিক হাজার হাজার লক্ষণ এবং সকল পেজ ব্যবহার করতে চাইলে আপনাকে ‘Paid User’ হতে হবে। বিস্তারিত জানতে <a href="https://homeo.is-best.net/paid-user/" target="_blank"><strong>Paid User</strong> লিংকে ক্লিক করুন।</a></p>
                         </div>
                     </div>
                 </div>
@@ -108,14 +170,7 @@
         </main>
     </div>
 
-    <footer id="colophon" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
-        <div class="footer-widgets">
-            <p><a href="http://nirvik.mooo.com/rules/">ব্যবহারের নিয়ম </a></p>
-            <p><a href="http://nirvik.mooo.com/paid-user/">পেইড ইউজার </a></p>
-            <p><a href="http://nirvik.mooo.com/contact/">যোগাযোগ </a></p>
-            <p><a href="http://nirvik.mooo.com/privacy-policy/">Privacy policy </a></p>
-        </div>
-    </footer>
-</div>
+    <div id="footer-placeholder"></div>
+
 </body>
-</html> 
+</html>
