@@ -1,1 +1,275 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>নির্ভীক হোমিও - যোগাযোগ করুন</title>
 
+    <!-- লাইব্রেরি ও সিডিএন লিংকসমূহ -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            content: [],
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00b8a9',
+                        'primary-dark': '#00897b',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'SolaimanLipi', system-ui, sans-serif;
+            background-color: #f0fdfa;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .container-custom {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+        }
+
+        .page-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 25px;
+        }
+
+        .page-header h1 {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* ===== অ্যাকোর্ডিয়ন সেকশন স্টাইল ===== */
+        .info-section {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            margin-bottom: 14px;
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+
+        .info-section:hover {
+            border-color: #00b8a9;
+            box-shadow: 0 4px 12px rgba(0, 184, 169, 0.05);
+        }
+
+        .info-section h3 {
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 14px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .info-section h3:hover {
+            background: linear-gradient(135deg, #00897b, #00695c);
+        }
+
+        .info-section h3 .arrow {
+            font-size: 12px;
+            transition: transform 0.3s;
+        }
+
+        .info-section h3.active .arrow {
+            transform: rotate(180deg);
+        }
+
+        .info-content {
+            padding: 20px;
+            display: none;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #334155;
+        }
+
+        /* Screenshot_4.jpg এর সাথে মিল রেখে কন্টাক্ট বক্স স্টাইল */
+        .contact-box-custom {
+            background: #f0fdfa;
+            border: 1px dashed #00b8a9;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 10px;
+        }
+
+        .footer-note {
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 30px;
+            border-top: 2px solid #e2e8f0;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 700px) {
+            .container-custom { padding: 16px; }
+            .page-header h1 { font-size: 20px; }
+            .info-section h3 { font-size: 16px; padding: 12px 16px; }
+            .info-content { padding: 14px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
+
+    <!-- ===== হেডার প্লেসহোল্ডার ===== -->
+    <div id="header-placeholder"></div>
+
+    <!-- ===== মেইন কন্টেন্ট ===== -->
+    <main class="flex-1 container mx-auto px-4 py-8">
+        <div class="container-custom">
+
+            <!-- পেজ হেডার -->
+            <div class="page-header">
+                <h1>যোগাযোগ করুন</h1>
+                <p class="text-gray-600 mt-2">আমরা আছি আপনার সেবায়। যেকোনো প্রয়োজনে বা জিজ্ঞাসায় আমাদের সাথে সরাসরি যোগাযোগ করতে পারেন।</p>
+            </div>
+
+            <!-- ===== অ্যাকোর্ডিয়ন গ্রুপ সমূহ ===== -->
+
+            <!-- ১. ব্যক্তিগত তথ্য -->
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-user-doctor mr-2"></i> ব্যক্তিগত তথ্য</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <div class="space-y-2">
+                        <p class="border-b pb-1"><strong>নাম:</strong> মো: আসাদুজ্জামান (মিলন)</p>
+                        <p class="border-b pb-1"><strong>যোগ্যতা:</strong> ডিএইচএমএস (বাংলাদেশ হোমিওপ্যাথিক বোর্ড)</p>
+                        <p><strong>পেশা:</strong> হোমিওপ্যাথিক ফিজিশিয়ান @ মানহা হোমিও কেয়ার</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ২. চেম্বারের ঠিকানা -->
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-location-dot mr-2"></i> চেম্বারের ঠিকানা</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <p class="font-bold text-teal-800 text-lg mb-1"><i class="fa-solid fa-house-medical mr-1"></i> মানহা হোমিও কেয়ার</p>
+                        <p class="text-gray-700">ত্রিমোহনী বাজার (রেলগেট এর নিকট),</p>
+                        <p class="text-gray-700">কুড়িগ্রাম সদর, কুড়িগ্রাম।</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ৩. যোগাযোগের মাধ্যম (Screenshot_4.jpg ডিজাইন অনুসরণ করে) -->
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-address-book mr-2"></i> যোগাযোগের মাধ্যম</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <p class="mb-3 text-gray-600">আপনি নিচের যেকোনো একটি মাধ্যমে আমাদের সাথে যোগাযোগ করতে পারেন:</p>
+                    
+                    <!-- ড্যাশড বর্ডার কন্টাক্ট বক্স (ডিজাইন রেপ্লিকা) -->
+                    <div class="contact-box-custom space-y-4">
+                        <p class="flex items-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-green-500 text-xl w-6 text-center"></i> 
+                            <span><strong>ফোন / হোয়াটসঅ্যাপ:</strong> <span class="text-teal-800 font-bold">01722855738</span></span>
+                        </p>
+                        <p class="flex items-center gap-3">
+                            <i class="fa-solid fa-envelope text-red-400 text-lg w-6 text-center"></i> 
+                            <span><strong>ইমেইল:</strong> <a href="mailto:milon4ms@yahoo.com" class="text-blue-600 underline">milon4ms@yahoo.com</a></span>
+                        </p>
+                        <p class="flex items-center gap-3">
+                            <i class="fa-solid fa-globe text-teal-600 text-lg w-6 text-center"></i> 
+                            <span><strong>ওয়েব:</strong> <a href="https://doctorashad.blogspot.com/" target="_blank" class="text-blue-600 underline">https://doctorashad.blogspot.com/</a></span>
+                        </p>
+                        <p class="flex items-center gap-3">
+                            <i class="fa-brands fa-facebook-messenger text-blue-500 text-xl w-6 text-center"></i> 
+                            <span><strong>ম্যাসেঞ্জার লিংক:</strong> <a href="https://www.facebook.com/milon4ms" target="_blank" class="text-blue-600 underline">https://www.facebook.com/milon4ms</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== ফুটার নোট ===== -->
+            <div class="footer-note">
+                🌿 নির্ভীক হোমিও — আধুনিক ও বিশ্বস্ত ডিজিটাল হোমিও কেয়ার পার্টনার
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ===== স্ক্রিপ্ট সমূহ ===== -->
+    <script>
+        $(document).ready(function() {
+            // অ্যাকোর্ডিয়ন ওপেন/ক্লোজ করার ফাংশন
+            $('.info-section h3').on('click', function() {
+                const content = $(this).next('.info-content');
+                
+                // অন্য সব ওপেন থাকা সেকশন বন্ধ করা
+                $('.info-content').not(content).slideUp().prev('h3').removeClass('active');
+                
+                // বর্তমান সেকশনটি টগল করা
+                $(this).toggleClass('active');
+                content.slideToggle(250);
+            });
+
+            // প্রথম সেকশনটি ডিফল্টভাবে ওপেন রাখতে চাইলে নিচের ২ লাইনের কমেন্ট তুলে দিতে পারেন
+            // $('.info-section:first h3').addClass('active');
+            // $('.info-section:first .info-content').show();
+
+            // হেডার এবং ফুটার ডাইনামিকালি লোড করা
+            $('#header-placeholder').load('assets/header.html', function() {
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') ?
+                            '<i class="fas fa-bars"></i>' :
+                            '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
+
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+
+        // কন্টেন্ট ও কপি প্রটেকশন সিকিউরিটি
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && ['c', 'a', 'u', 's', 'p'].includes(e.key.toLowerCase())) {
+                e.preventDefault();
+            }
+            if (e.key === 'F12') e.preventDefault();
+        });
+    </script>
+
+</body>
+</html>
