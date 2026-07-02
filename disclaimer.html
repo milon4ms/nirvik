@@ -1,1 +1,405 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>নির্ভীক হোমিও - দায়মুক্তি এবং আইনি সতর্কবার্তা (Disclaimer)</title>
 
+    <!-- লাইব্রেরি ও সিডিএন লিংকসমূহ -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            content: [],
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00b8a9',
+                        'primary-dark': '#00897b',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'SolaimanLipi', system-ui, sans-serif;
+            background-color: #f0fdfa;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .container-custom {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+        }
+
+        .page-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 25px;
+        }
+
+        .page-header h1 {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .version-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #00897b;
+            margin: 25px 0 15px 0;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #00b8a9;
+            display: flex;
+            align-items: center;
+        }
+
+        /* ===== অ্যাকোর্ডিয়ন সেকশন স্টাইল ===== */
+        .info-section {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+
+        .info-section:hover {
+            border-color: #00b8a9;
+            box-shadow: 0 4px 12px rgba(0, 184, 169, 0.05);
+        }
+
+        .info-section h3 {
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            color: white;
+            font-size: 17px;
+            font-weight: 600;
+            padding: 14px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .info-section h3:hover {
+            background: linear-gradient(135deg, #00897b, #00695c);
+        }
+
+        .info-section h3 .arrow {
+            font-size: 12px;
+            transition: transform 0.3s;
+        }
+
+        .info-section h3.active .arrow {
+            transform: rotate(180deg);
+        }
+
+        .info-content {
+            padding: 20px;
+            display: none;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #334155;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 22px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .footer-note {
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 30px;
+            border-top: 2px solid #e2e8f0;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 700px) {
+            .container-custom { padding: 16px; }
+            .page-header h1 { font-size: 22px; }
+            .info-section h3 { font-size: 15px; padding: 12px 16px; }
+            .info-content { padding: 14px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
+
+    <!-- ===== হেডার প্লেসহোল্ডার ===== -->
+    <div id="header-placeholder"></div>
+
+    <!-- ===== মেইন কন্টেন্ট ===== -->
+    <main class="flex-1 container mx-auto px-4 py-8">
+        <div class="container-custom">
+
+            <!-- পেজ হেডার -->
+            <div class="page-header">
+                <h1>दायमुक्ति एवम् आईनी सतर्कबार्ता (Disclaimer)</h1>
+                <p class="text-gray-600 mt-2">আমাদের সেবা ব্যবহার করার আগে অনুগ্রহ করে এই নথিটি মনোযোগ সহকারে পড়ুন।</p>
+            </div>
+
+            <!-- ==================== বাংলা সংস্করণ ==================== -->
+            <div class="version-title">
+                <i class="fa-solid fa-gavel mr-2"></i> আইনি সতর্কবার্তা বা Disclaimer
+            </div>
+
+            <div class="accordion-group-bn">
+                <!-- ১. শুধুমাত্র শিক্ষামূলক এবং তথ্যগত উদ্দেশ্যে -->
+                <div class="info-section">
+                    <h3>
+                        <span>১. শুধুমাত্র শিক্ষামূলক এবং তথ্যগত উদ্দেশ্যে</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>nirvik.mooo.com -এ প্রদত্ত সরঞ্জামসমূহ (Tools), যেমন—AI প্রম্পট জেনারেটর এবং রোগীলিপি সংরক্ষণ ব্যবস্থা, শুধুমাত্র যোগ্য হোমিওপ্যাথিক চিকিৎসকদের তথ্যগত সহায়তার জন্য তৈরি করা হয়েছে। এই ওয়েবসাইট সরাসরি কোনো চিকিৎসা সেবা, রোগ নির্ণয় বা প্রেসক্রিপশন প্রদান করে না।</p>
+                    </div>
+                </div>
+
+                <!-- ২. चिकित्सक-রোগী সম্পর্কের অনুপস্থিতি -->
+                <div class="info-section">
+                    <h3>
+                        <span>২. चिकित्सक-রোগী সম্পর্কের অনুপস্থিতি</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>এই ওয়েবসাইট ব্যবহার করার অর্থ এই নয় যে, ওয়েবসাইটের সাথে কোনো রোগীর সরাসরি সম্পর্ক তৈরি হয়েছে। এই প্ল্যাটফর্মটি শুধুমাত্র চিকিৎসকের ব্যক্তিগত ডিজিটাল সহকারী হিসেবে কাজ করে।</p>
+                    </div>
+                </div>
+
+                <!-- ৩. চিকিৎসকের পেশাদারী দায়িত্ব -->
+                <div class="info-section">
+                    <h3>
+                        <span>৩. চিকিৎসকের পেশাদারী দায়িত্ব</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>এই ওয়েবসাইট ব্যবহারকারী চিকিৎসক স্বীকার করছেন যে:</p>
+                        <ul>
+                            <li>তিনি একজন যোগ্যতাসম্পন্ন পেশাদার এবং তার নিজের করা প্রতিটি ক্লিনিক্যাল সিদ্ধান্তের জন্য তিনি নিজেই দায়বদ্ধ।</li>
+                            <li>AI-জেনারেটেড প্রম্পট বা পরামর্শগুলো শুধুমাত্র গাণিতিক বা ডাটা-ভিত্তিক সম্ভাবনা। এগুলো অবশ্যই মূল মেটেরিয়া মেডিকা (Materia Medica) এবং রেপার্টরি (Repertories) এর সাথে মিলিয়ে যাচাই করতে হবে।</li>
+                            <li>ঔষধ নির্বাচন, পোটেন্সি এবং মাত্রা নির্ধারণের চূড়ান্ত সিদ্ধান্ত সম্পূর্ণভাবে চিকিৎসকের নিজস্ব।</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ৪. দায়মুক্তি এবং সীমাবদ্ধতা (Exoneration) -->
+                <div class="info-section">
+                    <h3>
+                        <span>৪. দায়মুক্তি এবং সীমাবদ্ধতা (Exoneration)</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>প্রচলিত আইন অনুযায়ী, nirvik.mooo.com , এর মালিক কর্তৃপক্ষ এবং ডেভেলপারগণ নিম্নোক্ত বিষয়গুলোর জন্য দায়ী থাকবে না:</p>
+                        <ul>
+                            <li>এই ওয়েবসাইট ব্যবহারের ফলে উদ্ভূত কোনো প্রত্যক্ষ বা পরোক্ষ ক্ষতি বা লোকসান।</li>
+                            <li>এই টুলটি ব্যবহার করে চিকিৎসকের নেওয়া কোনো ভুল সিদ্ধান্ত, ভুল প্রেসক্রিপশন বা রোগীর ওপর কোনো পার্শ্বপ্রতিক্রিয়া বা বিরূপ প্রভাব।</li>
+                            <li>তিলীয় পক্ষের AI মডেল (যেমন: ChatGPT, Gemini ইত্যাদি) দ্বারা প্রদত্ত তথ্যের নির্ভুলতা বা ভুল তথ্য (Hallucinations)।</li>
+                            <li>টেকনিক্যাল ত্রুটি বা ডাটা হারানো সংক্রান্ত কোনো সমস্যা।</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ৫. তথ্যের নির্ভুলতা -->
+                <div class="info-section">
+                    <h3>
+                        <span>৫. তথ্যের নির্ভুলতা</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>আমরা আমাদের টুলগুলো নির্ভুল রাখার সর্বোচ্চ চেষ্টা করি, তবে লক্ষণ প্রসেসিং বা AI প্রম্পট ১০০% নির্ভুল হবে—এমন কোনো গ্যারান্টি আমরা দিচ্ছি না। হোমিওপ্যাথি একটি জটিল বিজ্ঞান; তাই কোনো অটোমেটেড টুল কখনোই মানুষের অভিজ্ঞতালব্ধ ক্লিনিক্যাল বিচারের বিকল্প হতে পারে না。</p>
+                    </div>
+                </div>
+
+                <!-- ৬. ক্ষতিপূরণ (Indemnification) -->
+                <div class="info-section">
+                    <h3>
+                        <span>৬. ক্ষতিপূরণ (Indemnification)</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>এই ওয়েবসাইট ব্যবহারের মাধ্যমে ব্যবহারকারী (চিকিৎসক) এই মর্মে সম্মত হচ্ছেন যে, তার ভুল চিকিৎসা বা এই প্ল্যাটফর্মের তথ্যের অপব্যবহারের ফলে কোনো আইনি জটিলতা বা মামলা তৈরি হলে তিনি nirvik.mooo.com এবং এর কর্তৃপক্ষকে সকল দায় ও আইনি খরচ থেকে মুক্ত রাখবেন।</p>
+                    </div>
+                </div>
+
+                <!-- ৭. শর্তাবলীর স্বীকৃতি -->
+                <div class="info-section">
+                    <h3>
+                        <span>৭. শর্তাবলীর স্বীকৃতি</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>nirvik.mooo.com / ব্যবহার করার মাধ্যমে আপনি এই দায়মুক্তির শর্তাবলী মেনে নিচ্ছেন বলে গণ্য হবে। আপনি যদি এই শর্তাবলীর কোনো অংশের সাথে একমত না হন, তবে দয়া করে আমাদের সেবা ব্যবহার করা থেকে বিরত থাকুন।</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ==================== English Version ==================== -->
+            <div class="version-title font-sans">
+                <i class="fa-solid fa-scale-balanced mr-2"></i> Disclaimer & Exoneration of Liability
+            </div>
+
+            <div class="accordion-group-en font-sans">
+                <!-- 1. For Educational and Informative Purposes Only -->
+                <div class="info-section">
+                    <h3>
+                        <span>1. For Educational and Informative Purposes Only</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>The content and tools provided on nirvik.mooo.com , including the AI prompt generator and patient record management system, are intended solely for informational and educational assistance for qualified Homeopathic practitioners. This website does not provide medical advice, diagnosis, or treatment.</p>
+                    </div>
+                </div>
+
+                <!-- 2. No Doctor-Patient Relationship -->
+                <div class="info-section">
+                    <h3>
+                        <span>2. No Doctor-Patient Relationship</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>Use of this website does not establish a doctor-patient relationship between the website and any individual. The platform acts strictly as a digital assistant for the practitioner.</p>
+                    </div>
+                </div>
+
+                <!-- 3. Professional Responsibility (The Practitioner’s Duty) -->
+                <div class="info-section">
+                    <h3>
+                        <span>3. Professional Responsibility (The Practitioner’s Duty)</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>The practitioner using this website acknowledges that:</p>
+                        <ul>
+                            <li>They are a qualified professional responsible for their own clinical decisions.</li>
+                            <li>The AI-generated prompts or suggestions are mere data-driven possibilities and must be cross-referenced with standard Materia Medica and Repertories.</li>
+                            <li>The final choice of remedy, potency, and dosage is the sole responsibility of the practitioner.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 4. Limitation of Liability (Exoneration) -->
+                <div class="info-section">
+                    <h3>
+                        <span>4. Limitation of Liability (Exoneration)</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>To the maximum extent permitted by applicable law, nirvik.mooo.com , its owners, and developers shall NOT be held liable for:</p>
+                        <ul>
+                            <li>Any direct, indirect, or consequential loss or damage arising from the use of this website.</li>
+                            <li>Any clinical errors, wrong prescriptions, or adverse effects on patients resulting from decisions made by the practitioner using this tool.</li>
+                            <li>Any inaccuracies or "hallucinations" produced by third-party AI models (like ChatGPT, Gemini, etc.) where the prompts are used.</li>
+                            <li>Loss of data or technical failures.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 5. Accuracy of Information -->
+                <div class="info-section">
+                    <h3>
+                        <span>5. Accuracy of Information</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>While we strive to provide accurate tools, we do not warrant that the information, AI prompts, or symptom processing will be 100% error-free. Homeopathy is a subjective and complex science; therefore, automated tools should never replace human clinical expertise.</p>
+                    </div>
+                </div>
+
+                <!-- 6. Indemnification -->
+                <div class="info-section">
+                    <h3>
+                        <span>6. Indemnification</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>By using this website, the user (Practitioner) agrees to indemnify and hold harmless nirvik.mooo.com and its affiliates from any claims, lawsuits, or legal fees arising out of the user's clinical practice or misuse of the platform's tools.</p>
+                    </div>
+                </div>
+
+                <!-- 7. Acceptance of Terms -->
+                <div class="info-section">
+                    <h3>
+                        <span>7. Acceptance of Terms</span>
+                        <span class="arrow">▼</span>
+                    </h3>
+                    <div class="info-content">
+                        <p>By accessing nirvik.mooo.com, you signify your acceptance of this disclaimer. If you do not agree with any part of this exoneration, you must not use our services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== ফুটার নোট ===== -->
+            <div class="footer-note">
+                🌿 নির্ভীক হোমিও — আধুনিক ও নিরাপদ ডিজিটাল হোমিয়োপ্যাথিক সিস্টেম
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ===== স্ক্রিপ্ট সমূহ ===== -->
+    <script>
+        $(document).ready(function() {
+            // অ্যাকোর্ডিয়ন ওপেন/ক্লোজ করার ডাইনামিক ফাংশন
+            $('.info-section h3').on('click', function() {
+                const content = $(this).next('.info-content');
+                
+                // শুধুমাত্র ক্লিক করা সেকশনটি স্লাইড টগল হবে এবং অ্যাক্টিভ ক্লাস পরিবর্তন হবে
+                $(this).toggleClass('active');
+                content.slideToggle(250);
+            });
+
+            // হেডার এবং ফুটার ডাইনামিকালি লোড করা
+            $('#header-placeholder').load('assets/header.html', function() {
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') ?
+                            '<i class="fas fa-bars"></i>' :
+                            '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
+
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+
+        // কন্টেন্ট ও কপি প্রটেকশন সিকিউরিটি
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && ['c', 'a', 'u', 's', 'p'].includes(e.key.toLowerCase())) {
+                e.preventDefault();
+            }
+            if (e.key === 'F12') e.preventDefault();
+        });
+    </script>
+
+</body>
+</html>
