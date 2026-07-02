@@ -248,20 +248,20 @@
             <div class="text-center mb-8">
                 <div class="text-6xl mb-4">🔐</div>
                 <h1 class="text-3xl font-bold text-gray-800">স্বাগতম</h1>
-                <p class="text-gray-500 mt-2">আপনার অ্যাকাউন্টে লগইন করুন</p>
+                <p class="text-gray-500 mt-2">আপনার অ্যাকাуন্টে লগইন করুন</p>
             </div>
 
             <form id="loginForm" autocomplete="on">
                 <div class="mb-4">
                     <label class="block text-gray-700 font-medium mb-2">
-                        <i class="fas fa-envelope text-teal-600 mr-2"></i>ইমেইল
+                        <i class="fas fa-user text-teal-600 mr-2"></i>ইমেইল অথবা ফোন নাম্বার
                     </label>
                     <input 
-                        type="email" 
-                        id="email" 
-                        placeholder="আপনার ইমেইল ঠিকানা" 
+                        type="text" 
+                        id="loginIdentifier" 
+                        placeholder="আপনার ইমেইল বা ফোন নাম্বার লিখুন" 
                         required 
-                        autocomplete="email"
+                        autocomplete="username"
                         class="w-full"
                     >
                 </div>
@@ -290,7 +290,7 @@
 
                 <div id="errorMsg" class="error-msg">
                     <i class="fas fa-exclamation-circle mr-2"></i>
-                    <span id="errorText">ভুল ইমেইল বা পাসওয়ার্ড!</span>
+                    <span id="errorText">ভুল তথ্য বা পাসওয়ার্ড!</span>
                 </div>
                 
                 <div id="successMsg" class="success-msg">
@@ -314,7 +314,7 @@
 
             <div class="mt-6 space-y-2 text-center">
                 <p class="text-gray-600">
-                    অ্যাকাউন্ট নেই? 
+                    অকাউন্ট নেই? 
                     <a href="register.html" class="text-teal-600 font-bold hover:text-teal-700 transition-colors">
                         রেজিস্ট্রেশন করুন
                     </a>
@@ -376,7 +376,7 @@
         });
 
         // ===== DOM Elements =====
-        const emailInput = document.getElementById('email');
+        const loginIdentifierInput = document.getElementById('loginIdentifier');
         const passwordInput = document.getElementById('password');
         const loginForm = document.getElementById('loginForm');
         const loginBtn = document.getElementById('loginBtn');
@@ -457,28 +457,52 @@
             strengthBar.style.background = color;
         });
 
-        // ===== Email/Password Login =====
+        // ===== Email or Phone / Password Login Logic =====
         loginForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             if (isLoading) return;
             
-            const email = emailInput.value.trim();
+            let identifier = loginIdentifierInput.value.trim();
             const password = passwordInput.value;
             
-            if (!email || !password) return;
+            if (!identifier || !password) return;
             
             hideMessages();
             setLoading(true);
-            
+
+            identifier = convertBanglaToEnglish(identifier);
+            let finalEmail = identifier;
+
             try {
-                const userCredential = await firebase.auth().signInWithEmailAndPassword(email, password);
+                // ১. যদি ইউজার ফোন নাম্বার ইনপুট দিয়ে থাকেন (১১ ডিজিটের নাম্বার চেক)
+                const phonePattern = /^01[0-9]{9}$/;
+                if (phonePattern.test(identifier)) {
+                    // ফায়ারস্টোর থেকে ওই ফোন নাম্বারের ইউজারকে খুঁজে বের করা হচ্ছে
+                    const snapshot = await firebase.firestore().collection('users').where('phone', '==', identifier).get();
+                    
+                    if (snapshot.empty) {
+                        showError('❌ এই ফোন নাম্বার দিয়ে কোনো অ্যাকাউন্ট পাওয়া যায়নি!');
+                        setLoading(false);
+                        return;
+                    }
+                    // ফোন নাম্বার ম্যাচ করলে তার সেভ করা আসল ইমেইলটি নেওয়া হচ্ছে
+                    finalEmail = snapshot.docs[0].data().email;
+                }
+
+                // ২. ইমেইল এবং পাসওয়ার্ড দিয়ে ফায়ারবেস অথেনটিকেশন লগইন
+                const userCredential = await firebase.auth().signInWithEmailAndPassword(finalEmail, password);
                 await handleUserLogin(userCredential.user);
+
             } catch (error) {
                 console.error('Login error:', error);
                 let message = 'লগইন ব্যর্থ! ';
-                if (error.code === 'auth/user-not-found') message += 'এই ইমেইলে কোনো অ্যাকাউন্ট নেই।';
-                else if (error.code === 'auth/wrong-password') message += 'পাসওয়ার্ড ভুল।';
-                else message += error.message;
+                if (error.code === 'auth/user-not-found' || error.code === 'auth/invalid-email') {
+                    message += 'এই ইমেইল বা ফোন নাম্বারে কোনো অ্যাকাউন্ট নেই।';
+                } else if (error.code === 'auth/wrong-password') {
+                    message += 'পাসওয়ার্ড ভুল দিয়েছেন।';
+                } else {
+                    message += 'তথ্য যাচাই করা যায়নি। সঠিক তথ্য দিন।';
+                }
                 showError(message);
                 setLoading(false);
             }
@@ -540,7 +564,16 @@
             if (!tempUserInstance) return;
 
             try {
-                const docRef = firebase.firestore().collection('users').doc(tempUserInstance.uid);
+                const db = firebase.firestore();
+                
+                // ফোন নাম্বারটি ইউনিক কিনা চেক (অন্য কেউ এটি ব্যবহার করছে কিনা)
+                const phoneCheck = await db.collection('users').where('phone', '==', phoneInputVal).get();
+                if (!phoneCheck.empty) {
+                    alert("❌ এই ফোন নাম্বারটি ইতিমধ্যে অন্য একটি অ্যাকাউন্টে ব্যবহৃত হচ্ছে!");
+                    return;
+                }
+
+                const docRef = db.collection('users').doc(tempUserInstance.uid);
                 const docSnap = await docRef.get();
 
                 let finalUserData = {};
@@ -600,26 +633,20 @@
 
         // ===== Auto-focus on load =====
         window.addEventListener('load', () => {
-            if (emailInput.value) passwordInput.focus();
-            else emailInput.focus();
+            if (loginIdentifierInput.value) passwordInput.focus();
+            else loginIdentifierInput.focus();
         });
 
         // ===== Auth Observer (লুপ কন্ট্রোল চূড়ান্ত সমাধান) =====
         firebase.auth().onAuthStateChanged((user) => {
-            // ১. পেজ রিলোড হলেও ব্রাউজার মেমোরি (localStorage) থেকে লগআউট স্ট্যাটাস চেক করা হচ্ছে
             const checkLoggingOut = localStorage.getItem('isLoggingOut');
 
             if (checkLoggingOut === 'true') {
-                console.log("সফলভাবে লগআউট সনাক্ত করা হয়েছে। অটো-লগইন ব্লক করা হলো।");
-                
-                // ২. ফায়ারবেসের স্বয়ংক্রিয় রিডাইরেক্ট লুপ চিরতরে ব্রেক করতে সেশন টোকেন ফোর্স ক্লিয়ার
+                console.log("সফলভাবে লগআউট সনাক্ত করা হয়েছে। অটো-লগইন অ্যাকাউন্ট ব্লক করা হলো।");
                 localStorage.removeItem('isLoggingOut'); 
-                
-                // লগআউট প্রসেস চলাকালীন কোড এক্সিকিউশন এখানেই স্টপ (Return) করে দেওয়া হলো
                 return; 
             }
 
-            // ৩. যদি এটি নরমাল ভিজিট হয় এবং ইউজার ইতিমধ্যে লগইন থাকে, তবেই অটোমেটিক ড্যাশবোর্ডে যাবে
             if (user) {
                 setTimeout(async () => {
                     const currentUser = firebase.auth().currentUser;
@@ -635,9 +662,9 @@
                             console.error("লুপ গার্ড চেক ব্যর্থ:", err);
                         }
                     }
-                }, 1000); // সেশন রিফ্রেশ হতে ১ সেকেন্ডের নিরাপদ বিরতি
+                }, 1000);
             } else {
-                console.log("কোনো সক্রিয় সেশন নেই। ইউজার লগআউট অবস্থায় আছেন।");
+                console.log("কোনো সক্রিয় সেশন নেই। ইউজার লগআউট অবস্থায় আছেন।");
             }
         });
     </script>
