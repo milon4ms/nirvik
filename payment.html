@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>পেমেন্ট - নির্ভীক  হোমিও</title>
+    <title>পেমেন্ট - নির্ভীক হোমিও</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -13,9 +13,13 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
     <style>
-        body { font-family: 'SolaimanLipi', system-ui, sans-serif; background: #f0fdf4; }
+        /* বডির ব্যাকগ্রাউন্ড পরিবর্তন করে স্ট্যান্ডার্ড এবং পরিচ্ছন্ন লাইট গ্রে করা হয়েছে যেন হেডার ও ফন্ট স্পষ্ট থাকে */
+        body { 
+            font-family: 'SolaimanLipi', system-ui, sans-serif; 
+            background-color: #f8fafc; 
+        }
         .payment-container { max-width: 560px; margin: 40px auto; }
-        .payment-box { background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.08); padding: 40px; }
+        .payment-box { background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.05); padding: 40px; }
         .bkash-btn { 
             background: linear-gradient(135deg, #e2136e, #c40e5e); 
             color: white; 
@@ -50,7 +54,7 @@
             <div class="text-center mb-8">
                 <div class="text-6xl mb-4">💳</div>
                 <h1 class="text-3xl font-bold text-gray-800">সাবস্ক্রিপশন পেমেন্ট</h1>
-                <p class="text-gray-500 mt-2">প্রিমিয়াম কন্টেন্ট আনলক করতে পেমেন্ট করুন</p>
+                <p class="text-gray-500 mt-2">প্রিমিয়াম কন্টেন্ট আনলক করতে পেমেন্ট করুন</p>
             </div>
 
             <!-- পেমেন্ট ইনফো -->
@@ -81,9 +85,9 @@
                         <li>💰 "Send Money" সিলেক্ট করুন</li>
                         <li>📝 উপরের নম্বরটি দিন</li>
                         <li>💵 পরিমাণ: <strong>৫০</strong> টাকা</li>
-                        <li>🔐 পিন দিয়ে কনফার্ম করুন</li>
-                        <li>কয়েক মাসের সাবস্ক্রিপশন একবারে নেয়া যাবে। সে অনুযায়ী Send Money করুন  </li>
-                        <li>১ মাসের জন্য ৫০ টাকা, ২ মাসের জন্য ১০০ টাকা,৩ মাসের জন্য ১৫০ টাকা, ৬ মাসের জন্য ৩০০ টাকা,১ বছরের জন্য ৫০০ টাকা </li>
+                        <li>🔐 পিন দিয়ে কনফার্ম করুন</li>
+                        <li>কয়েক মাসের সাবস্ক্রিপশন একবারে নেয়া যাবে। সে অনুযায়ী Send Money করুন  </li>
+                        <li>১ মাসের জন্য ৫০ টাকা, ২ মাসের জন্য ১০০ টাকা, ৩ মাসের জন্য ১৫০ টাকা, ৬ মাসের জন্য ৩০০ টাকা, ১ বছরের জন্য ৫০০ টাকা </li>
                     </ul>
                 </div>
             </div>
@@ -92,7 +96,7 @@
             <div class="flex items-start gap-4 mb-6">
                 <div class="step-number">২</div>
                 <div>
-                    <h3 class="font-bold text-gray-800">টাকা পাঠানোর পর ফোন করুন/হোয়াটসএপে জানান</h3>
+                    <h3 class="font-bold text-gray-800">টাকা পাঠানোর পর ফোন করুন/হোয়াটসএপে জানান</h3>
                     <p class="text-gray-600 text-sm mt-1">
                         টাকা পাঠানোর সাথে সাথে আমাদের জানান। তাহলে আপনার অ্যাকাউন্ট দ্রুত আপগ্রেড করা যাবে।
                     </p>
@@ -130,13 +134,13 @@
                     <i class="fas fa-map-marker-alt text-red-500 text-xl"></i>
                     <div>
                         <p class="text-xs text-gray-500">ঠিকানা</p>
-                        <p class="font-medium text-gray-800">ত্রিমোহনী বাজার, কুড়িগ্রাম, বাংলাদেশ</p>
+                        <p class="font-medium text-gray-800">ত্রিমোহনী বাজার, কুড়িগ্রাম, বাংলাদেশ</p>
                     </div>
                 </div>
 
             </div>
 
-            <!-- ===== হোয়াটসঅ্যাপে মেসেজ বাটন ===== -->
+            <!-- ===== হোয়াটসঅ্যাপে মেসেজ বাটন ===== -->
             <div class="mt-6 text-center">
                 <a href="https://wa.me/8801722855738?text=আমি%20পেমেন্ট%20করেছি।%20আমার%20মোবাইল নাম্বারঃ3A%20" 
                    target="_blank" 
@@ -148,7 +152,7 @@
                 </p>
             </div>
 
-            <!-- ===== ফিরে যাওয়ার লিংক ===== -->
+            <!-- ===== ফিরে যাওয়ার লিংক ===== -->
             <div class="mt-6 text-center border-t pt-6">
                 <a href="index.html" class="text-teal-600 hover:underline">
                     <i class="fas fa-arrow-left mr-1"></i> হোম পেজে ফিরে যান
