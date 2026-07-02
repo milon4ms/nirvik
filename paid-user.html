@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>নির্ভীক হোমিও - প্রিমিয়াম মেম্বারশিপ</title>
 
-    <!-- লাইব্রেরি ও সিডিএন লিংকসমূহ -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -46,7 +45,7 @@
 
         .page-header {
             text-align: center;
-            padding-bottom: 20px;
+            padding-bottom: 24px;
             border-bottom: 2px solid #e2e8f0;
             margin-bottom: 25px;
         }
@@ -59,7 +58,18 @@
             -webkit-text-fill-color: transparent;
         }
 
-        /* ===== অ্যাকোর্ডিয়ন সেকশন স্টাইল ===== */
+        /* আকর্ষণীয় অফার টেক্সট বক্স */
+        .premium-badge-box {
+            background: linear-gradient(135deg, #fff5f5, #f0fdfa);
+            border: 2px dashed #f43f5e;
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 18px;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(244, 63, 94, 0.08);
+        }
+
+        /* ===== অ্যাকোর্ডিয়ন সেকশন স্টাইল ===== */
         .info-section {
             background: #f8fafc;
             border: 1px solid #e2e8f0;
@@ -162,22 +172,24 @@
 </head>
 <body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
 
-    <!-- ===== হেডার প্লেসহোল্ডার ===== -->
     <div id="header-placeholder"></div>
 
-    <!-- ===== মেইন কন্টেন্ট ===== -->
     <main class="flex-1 container mx-auto px-4 py-8">
         <div class="container-custom">
 
-            <!-- পেজ হেডার -->
             <div class="page-header">
                 <h1>প্রিমিয়াম মেম্বারশিপ – আপনার চেম্বার প্র্যাকটিসকে দিন ডিজিটাল স্পর্শ</h1>
-                <p class="text-gray-600 mt-2">আপনার দৈনন্দিন চেম্বার প্র্যাকটিসকে আরও আধুনিক, দ্রুত ও কার্যকরী করতে আমাদের পেইড ইউজার সাবস্ক্রিপশনটি আজই নিন। সাবস্ক্রাইব করলেই আনলক হয়ে যাবে আমাদের ওয়েবসাইটের সকল প্রিমিয়াম ফিচার, যা আপনার রোগী দেখার অভিজ্ঞতাকে নিয়ে যাবে নতুন উচ্চতায়।</p>
+                <p class="text-gray-600 mt-2">আপনার দৈনন্দিন চেম্বার প্র্যাকটিসকে আরও আধুনিক, দ্রুত ও কার্যকরী করতে আমাদের পেইড ইউজার সাবস্ক্রিপশনটি আজই নিন।</p>
+                
+                <div class="premium-badge-box">
+                    <div class="text-xl sm:text-2xl font-black text-rose-600 tracking-wide flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+                        <span><i class="fa-solid fa-lock-open mr-1"></i> সকল রোগের কেসটেকিং পেজ আনলকড!</span>
+                        <span class="hidden sm:inline text-slate-300">|</span>
+                        <span class="text-teal-600"><i class="fa-solid fa-floppy-disk mr-1"></i> প্রতিদিন ৫০ টি প্রেসক্রিপশন সেভ !!</span>
+                    </div>
+                </div>
             </div>
 
-            <!-- ===== অ্যাকোর্ডিয়ন গ্রুপ সমূহ ===== -->
-
-            <!-- ১. 💎 পেইড মেম্বারশিপের বিশেষ সুবিধাসমূহ -->
             <div class="info-section">
                 <h3>
                     <span><i class="fa-solid fa-gem text-amber-300 mr-2"></i> 💎 পেইড মেম্বারশিপের বিশেষ সুবিধাসমূহ</span>
@@ -227,7 +239,6 @@
                 </div>
             </div>
 
-            <!-- ২. 🎁 সাশ্রয়ী সাবস্ক্রিপশন প্ল্যানসমূহ -->
             <div class="info-section">
                 <h3>
                     <span><i class="fa-solid fa-gift mr-2"></i> 🎁 সাশ্রয়ী সাবস্ক্রিপশন প্ল্যানসমূহ</span>
@@ -270,7 +281,6 @@
                 </div>
             </div>
 
-            <!-- ৩. 💳 কীভাবে পেমেন্ট করবেন -->
             <div class="info-section">
                 <h3>
                     <span><i class="fa-solid fa-credit-card mr-2"></i> 💳 কীভাবে পেমেন্ট করবেন</span>
@@ -288,7 +298,6 @@
                 </div>
             </div>
 
-            <!-- ৪. 📞 যেকোনো প্রয়োজনে যোগাযোগ করুন -->
             <div class="info-section">
                 <h3>
                     <span><i class="fa-solid fa-headset mr-2"></i> 📞 যেকোনো প্রয়োজনে যোগাযোগ করুন</span>
@@ -301,12 +310,11 @@
                         <p><i class="fa-brands fa-whatsapp text-green-500 text-lg mr-2"></i> <strong>ফোন / হোয়াটসঅ্যাপ:</strong> <span class="text-teal-800 font-bold">01722855738</span></p>
                         <p><i class="fa-solid fa-envelope text-red-400 mr-2"></i> <strong>ইমেইল:</strong> <a href="mailto:milon4ms@yahoo.com" class="text-blue-600 underline">milon4ms@yahoo.com</a></p>
                         <p><i class="fa-solid fa-globe text-teal-600 mr-2"></i> <strong>ওয়েব:</strong> <a href="https://doctorashad.blogspot.com/" target="_blank" class="text-blue-600 underline font-bold">https://doctorashad.blogspot.com/</a></p>
-                        <p><i class="fa-brands fa-facebook-messenger text-blue-500 text-lg mr-2"></i> <strong>ম্যাসেঞ্জার লিংক:</strong> <a href="https://www.facebook.com/asad158258" target="_blank" class="text-blue-600 underline font-bold">https://www.facebook.com/milon4ms</a></p>
+                        <p><i class="fa-brands fa-facebook-messenger text-blue-500 text-lg mr-2"></i> <strong>ম্যাসেঞ্জার লিংক:</strong> <a href="https://www.facebook.com/milon4ms" target="_blank" class="text-blue-600 underline font-bold">https://www.facebook.com/milon4ms</a></p>
                     </div>
                 </div>
             </div>
 
-            <!-- ===== ফুটার নোট ===== -->
             <div class="footer-note">
                 🌿 নির্ভীক হোমিও — আপনার চেম্বার প্র্যাকটিসকে করুন সম্পূর্ণ ডিজিটাল ও স্মার্ট
             </div>
@@ -314,13 +322,11 @@
         </div>
     </main>
 
-    <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
     <div id="footer-placeholder"></div>
 
-    <!-- ===== স্ক্রিপ্ট সমূহ ===== -->
     <script>
         $(document).ready(function() {
-            // অ্যাকোর্ডিয়ন ওপেন/ক্লোজ করার ফাংশন
+            // অ্যাকোর্ডিয়ন ওপেন/ক্লোজ করার ফাংশন
             $('.info-section h3').on('click', function() {
                 const content = $(this).next('.info-content');
                 
