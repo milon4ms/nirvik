@@ -52,7 +52,7 @@
             <div class="text-center mb-8">
                 <div class="text-5xl mb-4">🌿</div>
                 <h1 class="text-3xl font-bold text-gray-800">নতুন অ্যাকাউন্ট</h1>
-                <p class="text-gray-500 mt-2">নির্ভীক  হোমিওতে স্বাগতম</p>
+                <p class="text-gray-500 mt-2">নির্ভীক হোমিওতে স্বাগতম</p>
             </div>
 
             <form id="registerForm">
@@ -64,12 +64,12 @@
                 <div class="mb-4">
                     <label class="block text-gray-700 font-medium mb-2">📞 ফোন নাম্বার</label>
                     <input type="text" id="phone" placeholder="01XXXXXXXXX (১১ ডিজিট)" required>
-                    <div id="phoneError" class="error-msg">❌ ফোন নাম্বারটি অবশ্যই ১১ ডিজিটের এবং ০১ দিয়ে শুরু হতে হবে!</div>
+                    <div id="phoneError" class="error-msg">❌ ফোন নাম্বারটি অবশ্যই ১১ ডিজিটের এবং ০১ দিয়ে শুরু হতে হবে!</div>
                 </div>
 
                 <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">📧 ইমেইল (ঐচ্ছিক)</label>
-                    <input type="email" id="email" placeholder="আপনার ইমেইল ঠিকানা (না দিলেও চলবে)">
+                    <label class="block text-gray-700 font-medium mb-2">📧 ইমেইল ঠিকানা</label>
+                    <input type="email" id="email" placeholder="আপনার আসল ইমেইল ঠিকানা দিন" required>
                 </div>
 
                 <div class="mb-4">
@@ -101,7 +101,6 @@
         // ===== হেডার/ফুটার লোড ও স্টাইল ইনজেকশন =====
         $(function() {
             $('#header-placeholder').load('assets/header.html', function() {
-                // ইনজেক্টেড হেডারের ব্যাকগ্রাউন্ড কালার ও টেক্সট কালার ফোর্স ফিক্স
                 $('#header-placeholder').find('nav, div.bg-white, div.bg-emerald-600').css('background-color', '#065f46');
                 $('#header-placeholder').find('a, button, span').css('color', '#ffffff');
 
@@ -140,7 +139,7 @@
             document.getElementById('phoneError').style.display = 'none';
             document.getElementById('passwordError').style.display = 'none';
 
-            // ১. ফোন নাম্বার ফরমেট ভ্যালিডেশন (বাংলা/ইংরেজি যাই হোক)
+            // ১. ফোন নাম্বার ফরমেট ভ্যালিডেশন
             phone = convertBanglaToEnglish(phone);
             const phonePattern = /^01[0-9]{9}$/;
             if (!phonePattern.test(phone)) {
@@ -156,43 +155,49 @@
                 return;
             }
 
-            // ৩. ইমেইল না দিলে ডামি ইমেইল জেনারেট (Firebase Auth সেশন সচল রাখার জন্য)
-            if (!email) {
-                email = `${phone}@nirvik.com`; 
-            }
-
-            // বাটন ডিজেবল
+            // বাটন ডিজেবল ও লোডিং স্টেট
             btn.disabled = true;
             btn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> প্রক্রিয়াকরণ...';
 
             try {
-                // Firebase Auth-এ ইউজার তৈরি
+                const db = firebase.firestore();
+
+                // ৩. এই ফোন নাম্বার দিয়ে ইতিমধ্যে ডাটাবেজে অন্য কোনো অ্যাকাউন্ট আছে কিনা যাচাই
+                const phoneCheckSnapshot = await db.collection('users').where('phone', '==', phone).get();
+                if (!phoneCheckSnapshot.empty) {
+                    alert('❌ এই ফোন নাম্বারটি দিয়ে ইতিমধ্যে একটি অ্যাকাউন্ট তৈরি করা হয়েছে!');
+                    btn.disabled = false;
+                    btn.innerHTML = '<i class="fas fa-user-plus mr-2"></i> অ্যাকাউন্ট তৈরি করুন';
+                    return;
+                }
+
+                // ৪. Firebase Auth-এ আসল ইমেইল এবং পাসওয়ার্ড দিয়ে ইউজার তৈরি
                 const userCredential = await firebase.auth().createUserWithEmailAndPassword(email, password);
                 const user = userCredential.user;
 
                 // প্রোফাইল আপডেট (ডিসপ্লে নেম)
                 await user.updateProfile({ displayName: name });
 
-                // Firestore-এ তথ্য সংরক্ষণ (ফোন নাম্বার সহ)
-                await firebase.firestore().collection('users').doc(user.uid).set({
+                // ৫. Firestore-এ তথ্য সংরক্ষণ
+                await db.collection('users').doc(user.uid).set({
                     uid: user.uid,
                     email: email,
                     name: name,
-                    phone: phone, // ফোন নাম্বার ফিল্ড যুক্ত করা হলো
+                    phone: phone, 
                     role: 'general',
                     isPaid: false,
                     createdAt: firebase.firestore.FieldValue.serverTimestamp(),
                     emailVerified: user.emailVerified
                 });
 
-                alert('✅ রেজিস্ট্রেশন সফল হয়েছে! অনুগ্রহ করে লগইন করুন।');
+                alert('✅ রেজিস্ট্রেশন সফল হয়েছে! অনুগ্রহ করে লগইন করুন।');
                 window.location.href = 'login.html';
 
             } catch (error) {
                 console.error("Registration error:", error);
                 let msg = error.message;
                 if(error.code === 'auth/email-already-in-use') {
-                    msg = "এই ফোন নাম্বার বা ইমেইল দিয়ে ইতিপূর্বে অ্যাকাউন্ট খোলা হয়েছে।";
+                    msg = "এই ইমেইল ঠিকানাটি দিয়ে ইতিমধ্যে অ্যাকাউন্ট খোলা হয়েছে।";
                 }
                 alert('❌ ' + msg);
                 btn.disabled = false;
