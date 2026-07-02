@@ -1,1 +1,357 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>নির্ভীক হোমিও - প্রিমিয়াম মেম্বারশিপ</title>
 
+    <!-- লাইব্রেরি ও সিডিএন লিংকসমূহ -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            content: [],
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00b8a9',
+                        'primary-dark': '#00897b',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'SolaimanLipi', system-ui, sans-serif;
+            background-color: #f0fdfa;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .container-custom {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+        }
+
+        .page-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 25px;
+        }
+
+        .page-header h1 {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* ===== অ্যাকোর্ডিয়ন সেকশন স্টাইল ===== */
+        .info-section {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            margin-bottom: 14px;
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+
+        .info-section:hover {
+            border-color: #00b8a9;
+            box-shadow: 0 4px 12px rgba(0, 184, 169, 0.05);
+        }
+
+        .info-section h3 {
+            background: linear-gradient(135deg, #00b8a9, #00897b);
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 14px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .info-section h3:hover {
+            background: linear-gradient(135deg, #00897b, #00695c);
+        }
+
+        .info-section h3 .arrow {
+            font-size: 12px;
+            transition: transform 0.3s;
+        }
+
+        .info-section h3.active .arrow {
+            transform: rotate(180deg);
+        }
+
+        .info-content {
+            padding: 20px;
+            display: none;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #334155;
+        }
+
+        /* ডাইনামিক টেবিল স্টাইল */
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        .custom-table th {
+            background-color: #00897b;
+            color: white;
+            text-align: left;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .custom-table td {
+            padding: 10px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .custom-table tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        .contact-box {
+            background: #f0fdf4;
+            border: 1px dashed #00b8a9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .footer-note {
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 30px;
+            border-top: 2px solid #e2e8f0;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 700px) {
+            .container-custom { padding: 16px; }
+            .page-header h1 { font-size: 20px; }
+            .info-section h3 { font-size: 16px; padding: 12px 16px; }
+            .info-content { padding: 14px; font-size: 14px; }
+            .custom-table th, .custom-table td { padding: 8px; font-size: 13px; }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
+
+    <!-- ===== হেডার প্লেসহোল্ডার ===== -->
+    <div id="header-placeholder"></div>
+
+    <!-- ===== মেইন কন্টেন্ট ===== -->
+    <main class="flex-1 container mx-auto px-4 py-8">
+        <div class="container-custom">
+
+            <!-- পেজ হেডার -->
+            <div class="page-header">
+                <h1>প্রিমিয়াম মেম্বারশিপ – আপনার চেম্বার প্র্যাকটিসকে দিন ডিজিটাল স্পর্শ</h1>
+                <p class="text-gray-600 mt-2">আপনার দৈনন্দিন চেম্বার প্র্যাকটিসকে আরও আধুনিক, দ্রুত ও কার্যকরী করতে আমাদের পেইড ইউজার সাবস্ক্রিপশনটি আজই নিন। সাবস্ক্রাইব করলেই আনলক হয়ে যাবে আমাদের ওয়েবসাইটের সকল প্রিমিয়াম ফিচার, যা আপনার রোগী দেখার অভিজ্ঞতাকে নিয়ে যাবে নতুন উচ্চতায়।</p>
+            </div>
+
+            <!-- ===== অ্যাকোর্ডিয়ন গ্রুপ সমূহ ===== -->
+
+            <!-- ১. 💎 পেইড মেম্বারশিপের বিশেষ সুবিধাসমূহ -->
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-gem text-amber-300 mr-2"></i> 💎 পেইড মেম্বারশিপের বিশেষ সুবিধাসমূহ</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <div class="overflow-x-auto">
+                        <table class="custom-table">
+                            <thead>
+                                <tr>
+                                    <th class="w-1/3">সুবিধা</th>
+                                    <th>বিবরণ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="font-bold text-teal-700">সকল রোগের অ্যাক্সেস</td>
+                                    <td>চিকিৎসাযোগ্য প্রতিটি রোগের জন্য আলাদা, বিস্তারিত পেজ ও সহজ কেসটেকিং সুবিধা।</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold text-teal-700">হাজারো লক্ষণের ভাণ্ডার</td>
+                                    <td>শরীরের সর্বোচ্চ থেকে সর্বনিম্ন অংশের সকল অঙ্গের হাজার হাজার লক্ষণের সম্পূর্ণ ডেটাবেজ।</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold text-teal-700">সীমাহীন কেসটেকিং</td>
+                                    <td>যত খুশি রোগীর তথ্য সংরক্ষণ করুন, কোনো প্রকার কৃত্রিম বাধা নেই।</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold text-teal-700">প্রেসক্রিপশন সংরক্ষণ</td>
+                                    <td>প্রতিদিন ৫০টি পর্যন্ত প্রেসক্রিপশন সংরক্ষণ করে পরবর্তীতে নতুন ঔষধ যুক্ত করার সুযোগ।</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold text-teal-700">সংক্ষিপ্ত মেটেরিয়া মেডিকা</td>
+                                    <td>সকল মেটেরিয়া মেডিকা থেকে বাছাই করা একটি সংক্ষিপ্ত সংস্করণ, যা সহজেই মুখস্ত করা যায়।</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold text-teal-700">এআই-নির্ভর মেটেরিয়া মেডিকা</td>
+                                    <td>আপনার পছন্দ অনুযায়ী শুধু প্রাসঙ্গিক তথ্য বের করে আনে, অপ্রয়োজনীয় অংশ বাদ দিয়ে।</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold text-teal-700">নিয়মিত আপডেট</td>
+                                    <td>ওয়েবসাইটের কন্টেন্ট ও ফিচারসমূহ প্রতিনিয়ত আপডেট করা হচ্ছে, ফলে আপনি সব সময় আধুনিক তথ্য পাবেন।</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ২. 🎁 সাশ্রয়ী সাবস্ক্রিপশন প্ল্যানসমূহ -->
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-gift mr-2"></i> 🎁 সাশ্রয়ী সাবস্ক্রিপশন প্ল্যানসমূহ</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <p class="mb-3 text-gray-600 font-semibold">আপনার প্রয়োজন অনুযায়ী যেকোনো একটি প্ল্যান বেছে নিন:</p>
+                    <div class="overflow-x-auto">
+                        <table class="custom-table text-center">
+                            <thead>
+                                <tr>
+                                    <th>প্যাকেজ</th>
+                                    <th>মূল্য (টাকা)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="font-bold">১ মাস</td>
+                                    <td class="text-emerald-600 font-bold">৫০ টাকা</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold">২ মাস</td>
+                                    <td class="text-emerald-600 font-bold">১০০ টাকা</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-bold">৩ মাস</td>
+                                    <td class="text-emerald-600 font-bold">১৫০ টাকা</td>
+                                </tr>
+                                <tr class="bg-amber-50">
+                                    <td class="font-bold text-rose-600">৬ মাস</td>
+                                    <td class="text-rose-600 font-bold">৩০০ টাকা (সর্বোচ্চ সাশ্রয়ী)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ৩. 💳 কীভাবে পেমেন্ট করবেন -->
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-credit-card mr-2"></i> 💳 কীভাবে পেমেন্ট করবেন</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <p class="mb-2">পেমেন্ট সম্পূর্ণ করতে নিচের ধাপগুলো অনুসরণ করুন:</p>
+                    <p class="pl-2">🔹 <strong>পেমেন্ট করুন:</strong> আপনার সুবিধামতো বিকাশ অথবা নগদ-এর মাধ্যমে নিচের নম্বরে টাকা পাঠান।</p>
+                    
+                    <div class="bg-slate-100 p-3 rounded-lg my-3 font-mono text-center text-lg border">
+                        <span class="font-sans font-bold text-gray-700">মোবাইল নম্বর:</span> <strong class="text-teal-700">01722855738</strong>
+                    </div>
+
+                    <p class="pl-2">🔹 <strong>নিশ্চিত করুন:</strong> পেমেন্ট সম্পন্ন করার পর, অনুগ্রহপূর্বক ফোন কল অথবা হোয়াটসঅ্যাপের মাধ্যমে একই নম্বরে (<span class="text-teal-700 font-bold">01722855738</span>) আমাদের জানান।</p>
+                </div>
+            </div>
+
+            <!-- ৪. 📞 যেকোনো প্রয়োজনে যোগাযোগ করুন -->
+            <div class="info-section">
+                <h3>
+                    <span><i class="fa-solid fa-headset mr-2"></i> 📞 যেকোনো প্রয়োজনে যোগাযোগ করুন</span>
+                    <span class="arrow">▼</span>
+                </h3>
+                <div class="info-content">
+                    <p>আমরা আছি আপনার জন্য। পেমেন্ট সংক্রান্ত যেকোনো জিজ্ঞাসা বা সেবা সম্পর্কিত যেকোনো প্রশ্নে আমাদের সাথে সরাসরি যোগাযোগ করুন।</p>
+                    
+                    <div class="contact-box space-y-2">
+                        <p><i class="fa-brands fa-whatsapp text-green-500 text-lg mr-2"></i> <strong>ফোন / হোয়াটসঅ্যাপ:</strong> <span class="text-teal-800 font-bold">01722855738</span></p>
+                        <p><i class="fa-solid fa-envelope text-red-400 mr-2"></i> <strong>ইমেইল:</strong> <a href="mailto:milon4ms@yahoo.com" class="text-blue-600 underline">milon4ms@yahoo.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== ফুটার নোট ===== -->
+            <div class="footer-note">
+                🌿 নির্ভীক হোমিও — আপনার চেম্বার প্র্যাকটিসকে করুন সম্পূর্ণ ডিজিটাল ও স্মার্ট
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ===== ফুটার প্লেসহোল্ডার ===== -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ===== স্ক্রিপ্ট সমূহ ===== -->
+    <script>
+        $(document).ready(function() {
+            // অ্যাকোর্ডিয়ন ওপেন/ক্লোজ করার ফাংশন
+            $('.info-section h3').on('click', function() {
+                const content = $(this).next('.info-content');
+                
+                // অন্য সব ওপেন থাকা সেকশন বন্ধ করা
+                $('.info-content').not(content).slideUp().prev('h3').removeClass('active');
+                
+                // বর্তমান সেকশনটি টগল করা
+                $(this).toggleClass('active');
+                content.slideToggle(250);
+            });
+
+            // হেডার এবং ফুটার ডাইনামিকালি লোড করা
+            $('#header-placeholder').load('assets/header.html', function() {
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') ?
+                            '<i class="fas fa-bars"></i>' :
+                            '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
+
+            $('#footer-placeholder').load('assets/footer.html');
+        });
+
+        // কন্টেন্ট ও কপি প্রটেকশন সিকিউরিটি
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && ['c', 'a', 'u', 's', 'p'].includes(e.key.toLowerCase())) {
+                e.preventDefault();
+            }
+            if (e.key === 'F12') e.preventDefault();
+        });
+    </script>
+
+</body>
+</html>
