@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 font-family: 'SolaimanLipi', sans-serif !important;
             }
 
-            /* ===== ড্রপডাউন যোগাযোগ সূত্র (ماউস নিচে নামালেও মেনু থাকে) ===== */
+            /* ===== ড্রপডাউন যোগাযোগ সূত্র (মাউস নিচে নামালেও মেনু থাকে) ===== */
             .relative.group .absolute {
                 top: calc(100% - 6px) !important;
                 padding-top: 6px !important;
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="../mouthful.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👅 মুখ হইতে টুটি ও ঘাড়</a>
                         <a href="../teeth.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦷 দাঁত</a>
                         <div class="border-t border-teal-700/50 my-1"></div>
-                        <a href="../chest.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🫁 বুক समस्या</a>
+                        <a href="../chest.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🫁 বুক সমস্যা</a>
                         <a href="../hands.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">✋ হাতের সমস্যা</a>
                         <a href="../back.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧍‍♂️ পিঠের সমস্যা</a>
                         <a href="../stomach.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🍲 পাকস্থলী</a>
@@ -245,8 +245,9 @@ document.addEventListener("DOMContentLoaded", () => {
     </footer>`;
 
     // ৩. ডমে হেডার ও ফুটার রেন্ডারিং করা
-    const appHeader = document.getElementById("app-header");
-    const appFooter = document.getElementById("app-footer");
+    // এখানে আপনার HTML ফাইলের ID অনুযায়ী 'app-header' অথবা পূর্বের 'header-container' মিলিয়ে নেবেন।
+    const appHeader = document.getElementById("app-header") || document.getElementById("header-container");
+    const appFooter = document.getElementById("app-footer") || document.getElementById("footer-container");
 
     if (appHeader) appHeader.insertAdjacentHTML("afterbegin", headerHTML);
     if (appFooter) appFooter.insertAdjacentHTML("afterbegin", footerHTML);
@@ -276,7 +277,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // 🔐 ৬. ফায়ারবেস লগআউট ইউজার ফাংশন
+    // 🔐 6. ফায়ারবেস লগআউট ইউজার ফাংশন
     function logoutUser() {
         if (typeof window.isLoggingOut !== 'undefined') {
             window.isLoggingOut = true;
@@ -291,7 +292,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     localStorage.removeItem('user'); 
                 }
                 if (typeof sessionStorage !== 'undefined') {
-                    session sessionStorage.clear();
+                    sessionStorage.clear(); // এখানে ভুলটি ঠিক করা হয়েছে
                 }
                 
                 alert('✅ সফলভাবে লগআউট হয়েছে!');
