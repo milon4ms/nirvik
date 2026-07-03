@@ -256,5 +256,5 @@ document.addEventListener("DOMContentLoaded", () => {
         if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") {
             e.preventDefault();
         }
-    });
+    }); 
 });
