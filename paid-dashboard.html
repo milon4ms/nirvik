@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ইউজার ড্যাশবোর্ড - নির্ভীক  হোমিও</title>
+    <title>ইউজার ড্যাশবোর্ড - নির্ভীক হোমিও</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -86,22 +86,14 @@
             padding: 12px;
             box-shadow: 0 2px 8px rgba(6, 78, 59, 0.1);
         }
-
-        .countdown-card {
-            background: linear-gradient(135deg, #1e293b, #0f172a);
-            color: white;
-            border-radius: 10px;
-            padding: 12px;
-            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.1);
-        }
         
-        /* সলিড কালার কমপ্যাক্ট বাটন বেস স্টাইল */
+        /* সলিড কালার কমপ্যাক্ট বাটন বেস স্টাইল (প্রধান সেবাসমূহ) */
         .list-btn {
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            padding: 6px 14px;
-            font-size: 13px;
+            padding: 8px 16px;
+            font-size: 14px;
             font-weight: bold;
             border-radius: 20px;
             color: white !important;
@@ -114,17 +106,38 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.12);
             filter: brightness(1.1);
         }
+
+        /* ক্লিন ও মডার্ন টেক্সট লিংক স্টাইল */
+        .text-link-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #334155;
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .text-link-item:hover {
+            background-color: #ffffff;
+            color: #0f172a;
+            border-color: #cbd5e1;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+            transform: translateX(2px);
+        }
     </style>
 </head>
 <body>
 
     <div id="header-placeholder"></div>
 
-    <!-- হিরো ব্যানার সেকশন -->
     <div class="dark-hero-section">
         <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
             
-            <!-- বাম দিক: স্বাগতম, টাইটেল এবং প্রোফাইল তথ্য -->
             <div class="md:col-span-7 space-y-2">
                 <div class="flex items-center gap-3">
                     <h1 class="text-2xl font-bold text-emerald-400">
@@ -132,17 +145,15 @@
                     </h1>
                     <div id="badgeContainer"></div>
                 </div>
-                <p class="text-emerald-200 text-xs font-semibold">নির্ভীক  হোমিও প্রিমিয়াম মেম্বারশিপ ড্যাশবোর্ড</p>
+                <p class="text-emerald-200 text-xs font-semibold">নির্ভীক হোমিও প্রিমিয়াম মেম্বারশিপ ড্যাশবোর্ড</p>
                 
-                <!-- ডাইনামিক প্রোফাইল তথ্যের লাইন -->
                 <div class="flex flex-wrap items-center gap-x-4 gap-y-1 pt-1.5 border-t border-emerald-800/60 text-slate-300 text-[11px]">
                     <span class="flex items-center gap-1.5"><i class="fas fa-phone text-emerald-400"></i> <span id="userPhone">-</span></span>
                     <span class="flex items-center gap-1.5"><i class="fas fa-envelope text-emerald-400"></i> <span id="userEmail">-</span></span>
-                    <span class="flex items-center gap-1.5"><i class="fas fa-user-plus text-emerald-400"></i> যুক্ত হয়েছেন: <span id="startDateFull">-</span></span>
+                    <span class="flex items-center gap-1.5"><i class="fas fa-user-plus text-emerald-400"></i> যুক্ত হয়েছেন: <span id="startDateFull">-</span></span>
                 </div>
             </div>
             
-            <!-- ডান দিক: এডমিন সাপোর্ট সেন্টার -->
             <div class="md:col-span-5 bg-emerald-950/40 border border-emerald-800/40 rounded-xl p-3 text-slate-200 text-xs md:justify-self-end w-full md:w-auto min-w-[280px]">
                 <h3 class="font-bold text-emerald-400 border-b border-emerald-900 pb-1 mb-1.5 flex items-center gap-1.5">
                     <i class="fas fa-headset"></i> এডমিন সাপোর্ট সেন্টার
@@ -161,17 +172,14 @@
         </div>
     </div>
 
-    <!-- মূল লেআউট কন্টেইনার -->
     <div class="max-w-7xl mx-auto px-4 py-6">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
             
-            <!-- বাম কলাম: ৩টি ছোট কার্ড ও পেমেন্ট সেন্টার -->
             <div class="lg:col-span-4 space-y-4">
                 
-                <!-- ১. মোট জমা টাকা -->
                 <div class="premium-card flex flex-col justify-between">
                     <div class="flex justify-between items-center">
-                        <p class="text-emerald-200 text-xs font-medium">মোট জমা দেওয়া টাকা</p>
+                        <p class="text-emerald-200 text-xs font-medium">মোট জমা দেওয়া টাকা</p>
                         <div class="w-6 h-6 rounded-full bg-emerald-900/50 flex items-center justify-center text-emerald-400 text-[10px]">
                             <i class="fas fa-wallet"></i>
                         </div>
@@ -179,10 +187,9 @@
                     <p class="text-xl font-bold mt-1"><span id="paymentAmount">০</span> ৳</p>
                 </div>
                 
-                <!-- ২. মেয়াদ সমাপ্তির তারিখ -->
                 <div class="premium-card flex flex-col justify-between">
                     <div class="flex justify-between items-center">
-                        <p class="text-emerald-200 text-xs font-medium">মেয়াদ সমাপ্তির তারিখ</p>
+                        <p class="text-emerald-200 text-xs font-medium">মেয়াদ সমাপ্তির তারিখ</p>
                         <div class="w-6 h-6 rounded-full bg-emerald-900/50 flex items-center justify-center text-yellow-400 text-[10px]">
                             <i class="fas fa-calendar-alt"></i>
                         </div>
@@ -190,35 +197,32 @@
                     <p class="text-lg font-bold text-yellow-300 mt-1" id="endDate">-</p>
                 </div>
                 
-                <!-- ৩. বাকি দিন ও সময় কাউন্টডাউন -->
-                <div class="countdown-card flex flex-col justify-between">
+                <div class="premium-card flex flex-col justify-between">
                     <div class="flex justify-between items-center">
-                        <p class="text-slate-300 text-xs font-medium">বাকি দিন ও সময়</p>
-                        <div class="w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-red-400 text-[10px]" id="timeIcon">
+                        <p class="text-emerald-200 text-xs font-medium">বাকি দিন ও সময়</p>
+                        <div class="w-6 h-6 rounded-full bg-emerald-900/50 flex items-center justify-center text-yellow-400 text-[10px]" id="timeIcon">
                             <i class="fas fa-hourglass-half"></i>
                         </div>
                     </div>
-                    <p class="text-base font-bold text-emerald-400 tracking-wide mt-1" id="countdownTimer">হিসাব করা হচ্ছে...</p>
-                    <div class="text-[10px] text-slate-400 mt-1 pt-1 border-t border-slate-800">
+                    <p class="text-base font-bold text-yellow-300 tracking-wide mt-1" id="countdownTimer">হিসাব করা হচ্ছে...</p>
+                    <div class="text-[10px] text-emerald-200/80 mt-1 pt-1 border-t border-emerald-800/60">
                         স্ট্যাটাস: <span id="accountStatus" class="font-bold">চেক করা হচ্ছে...</span>
                     </div>
                 </div>
 
-                <!-- ৪. ফি পরিশোধের লিংক বাটন কার্ড -->
-                <div class="bg-gradient-to-r from-amber-500 to-orange-600 rounded-xl p-3 shadow-md border border-amber-400 flex flex-col justify-between text-white">
+                <div class="bg-orange-600 rounded-xl p-4 shadow-md border border-orange-500 flex flex-col justify-between text-white">
                     <div class="flex items-center gap-2 mb-2">
-                        <i class="fas fa-credit-card text-sm"></i>
-                        <span class="text-xs font-bold uppercase tracking-wider">রিনিউয়াল ও পেমেন্ট সেন্টার</span>
+                        <i class="fas fa-credit-card text-base"></i>
+                        <span class="text-sm font-bold uppercase tracking-wider">রিনিউয়াল ও পেমেন্ট সেন্টার</span>
                     </div>
-                    <p class="text-[11px] text-amber-100 mb-2">সহজে আপনার মেম্বারশিপ ফি পরিশোধ করতে নিচের বাটনে ক্লিক করুন।</p>
-                    <a href="payment.html" class="w-full text-center bg-white hover:bg-slate-100 text-slate-900 font-bold text-xs py-2 rounded-lg transition shadow flex items-center justify-center gap-1.5">
+                    <p class="text-xs text-orange-100 mb-3 leading-relaxed">সহজে আপনার মেম্বারশিপ ফি পরিশোধ করতে নিচের বাটনে ক্লিক করুন।</p>
+                    <a href="payment.html" class="w-full text-center bg-white hover:bg-slate-100 text-orange-700 font-extrabold text-sm py-2.5 rounded-lg transition shadow flex items-center justify-center gap-1.5">
                         <i class="fas fa-sync-alt"></i> ফি পরিশোধ করুন (Pay/Renew)
                     </a>
                 </div>
             </div>
 
-            <!-- ডান কলাম: সুবিধার বাটনসমূহ -->
-            <div class="lg:col-span-8 bg-white rounded-xl p-5 shadow-sm border border-slate-100 space-y-5">
+            <div class="lg:col-span-8 bg-white rounded-xl p-5 shadow-sm border border-slate-100 space-y-6">
                 
                 <div class="border-b border-slate-100 pb-2">
                     <h2 class="text-base font-bold text-slate-800 flex items-center gap-2">
@@ -226,7 +230,6 @@
                     </h2>
                 </div>
                 
-                <!-- ১. সাধারণ রোগ ও মেটেরিয়া মেডিকা -->
                 <div>
                     <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                         <span class="w-1.5 h-3 bg-orange-500 rounded-sm"></span> প্রধান সেবাসমূহ
@@ -238,116 +241,115 @@
                         <a href="medica/index.html" class="list-btn bg-orange-500 hover:bg-orange-600">
                             <i class="fas fa-book-medical"></i> মেটেরিয়া মেডিকা
                         </a>
+                        <a href="prescription.html" class="list-btn bg-emerald-600 hover:bg-emerald-700">
+                            <i class="fas fa-file-prescription"></i> প্রেশক্রিপশন প্রতিদিন ৫০ টি
+                        </a>
                     </div>
                 </div>
 
-                <!-- ২. উপরি অঙ্গের রোগ -->
                 <div>
                     <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                         <span class="w-1.5 h-3 bg-cyan-500 rounded-sm"></span> উপরি অঙ্গের রোগসমূহ
                     </h3>
-                    <div class="flex flex-wrap gap-2">
-                        <a href="head.html" class="list-btn bg-cyan-500 hover:bg-cyan-600">
-                            <i class="fas fa-brain"></i> মাথা
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                        <a href="head.html" class="text-link-item">
+                            <i class="fas fa-brain text-cyan-500 w-4 text-center"></i> মাথা
                         </a>
-                        <a href="eyes.html" class="list-btn bg-cyan-500 hover:bg-cyan-600">
-                            <i class="fas fa-eye"></i> চোখ
+                        <a href="eyes.html" class="text-link-item">
+                            <i class="fas fa-eye text-cyan-500 w-4 text-center"></i> চোখ
                         </a>
-                        <a href="ear.html" class="list-btn bg-cyan-500 hover:bg-cyan-600">
-                            <i class="fas fa-ear-listen"></i> কান
+                        <a href="ear.html" class="text-link-item">
+                            <i class="fas fa-ear-listen text-cyan-500 w-4 text-center"></i> কান
                         </a>
-                        <a href="nose.html" class="list-btn bg-cyan-500 hover:bg-cyan-600">
-                            <i class="fas fa-allergies"></i> নাক
+                        <a href="nose.html" class="text-link-item">
+                            <i class="fas fa-allergies text-cyan-500 w-4 text-center"></i> নাক
                         </a>
-                        <a href="mouthful.html" class="list-btn bg-cyan-500 hover:bg-cyan-600">
-                            <i class="fas fa-teeth"></i> মুখ হইতে টুটি ও ঘাড়
+                        <a href="mouthful.html" class="text-link-item">
+                            <i class="fas fa-teeth text-cyan-500 w-4 text-center"></i> মুখ, টুটি ও ঘাড়
                         </a>
-                        <a href="teeth.html" class="list-btn bg-cyan-500 hover:bg-cyan-600">
-                            <i class="fas fa-tooth"></i> দাঁত
+                        <a href="teeth.html" class="text-link-item">
+                            <i class="fas fa-tooth text-cyan-500 w-4 text-center"></i> দাঁত
                         </a>
                     </div>
                 </div>
 
-                <!-- ৩. মাঝ অঙ্গের রোগ -->
                 <div>
                     <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                         <span class="w-1.5 h-3 bg-blue-500 rounded-sm"></span> মাঝ অঙ্গের রোগসমূহ
                     </h3>
-                    <div class="flex flex-wrap gap-2">
-                        <a href="chest.html" class="list-btn bg-blue-500 hover:bg-blue-600">
-                            <i class="fas fa-lungs"></i> বুকের সমস্যা
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                        <a href="chest.html" class="text-link-item">
+                            <i class="fas fa-lungs text-blue-500 w-4 text-center"></i> বুকের সমস্যা
                         </a>
-                        <a href="hands.html" class="list-btn bg-blue-500 hover:bg-blue-600">
-                            <i class="fas fa-hand"></i> হাতের সমস্যা
+                        <a href="hands.html" class="text-link-item">
+                            <i class="fas fa-hand text-blue-500 w-4 text-center"></i> হাতের সমস্যা
                         </a>
-                        <a href="back.html" class="list-btn bg-blue-500 hover:bg-blue-600">
-                            <i class="fas fa-child"></i> পিঠের সমস্যা
+                        <a href="back.html" class="text-link-item">
+                            <i class="fas fa-child text-blue-500 w-4 text-center"></i> পিঠের সমস্যা
                         </a>
-                        <a href="stomach.html" class="list-btn bg-blue-500 hover:bg-blue-600">
-                            <i class="fas fa-apple-alt"></i> পাকস্থলী
+                        <a href="stomach.html" class="text-link-item">
+                            <i class="fas fa-apple-alt text-blue-500 w-4 text-center"></i> পাকস্থলী
                         </a>
                     </div>
                 </div>
 
-                <!-- ৪. নিচ অঙ্গের রোগ -->
                 <div>
                     <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                         <span class="w-1.5 h-3 bg-purple-500 rounded-sm"></span> নিচ অঙ্গের রোগসমূহ
                     </h3>
-                    <div class="flex flex-wrap gap-2">
-                        <a href="piles.html" class="list-btn bg-purple-500 hover:bg-purple-600">
-                            <i class="fas fa-circle-dot"></i> অর্শ
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                        <a href="piles.html" class="text-link-item">
+                            <i class="fas fa-circle-dot text-purple-500 w-4 text-center"></i> অর্শ
                         </a>
-                        <a href="urethral.html" class="list-btn bg-purple-500 hover:bg-purple-600">
-                            <i class="fas fa-droplet"></i> মূত্রনালী
+                        <a href="urethral.html" class="text-link-item">
+                            <i class="fas fa-droplet text-purple-500 w-4 text-center"></i> মূত্রনালী
                         </a>
-                        <a href="leg.html" class="list-btn bg-purple-500 hover:bg-purple-600">
-                            <i class="fas fa-shoe-prints"></i> পা
+                        <a href="leg.html" class="text-link-item">
+                            <i class="fas fa-shoe-prints text-purple-500 w-4 text-center"></i> পা
                         </a>
-                        <a href="stool.html" class="list-btn bg-purple-500 hover:bg-purple-600">
-                            <i class="fas fa-toilet"></i> মল ও কৃমি
+                        <a href="stool.html" class="text-link-item">
+                            <i class="fas fa-toilet text-purple-500 w-4 text-center"></i> মল ও কৃমি
                         </a>
-                        <a href="anus.html" class="list-btn bg-purple-500 hover:bg-purple-600">
-                            <i class="fas fa-water"></i> মলদ্বার
+                        <a href="anus.html" class="text-link-item">
+                            <i class="fas fa-water text-purple-500 w-4 text-center"></i> মলদ্বার
                         </a>
-                        <a href="male.html" class="list-btn bg-purple-500 hover:bg-purple-600">
-                            <i class="fas fa-person"></i> যৌনাঙ্গ পুরুষ
+                        <a href="male.html" class="text-link-item">
+                            <i class="fas fa-person text-purple-500 w-4 text-center"></i> যৌনাঙ্গ পুরুষ
                         </a>
-                        <a href="female.html" class="list-btn bg-purple-500 hover:bg-purple-600">
-                            <i class="fas fa-person-dress"></i> যৌনাঙ্গ নারী
+                        <a href="female.html" class="text-link-item">
+                            <i class="fas fa-person-dress text-purple-500 w-4 text-center"></i> যৌনাঙ্গ নারী
                         </a>
                     </div>
                 </div>
 
-                <!-- ৫. সার্বদেহিক রোগ -->
                 <div>
                     <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                         <span class="w-1.5 h-3 bg-rose-500 rounded-sm"></span> সার্বদেহিক রোগসমূহ
                     </h3>
-                    <div class="flex flex-wrap gap-2">
-                        <a href="jor.html" class="list-btn bg-rose-500 hover:bg-rose-600">
-                            <i class="fas fa-temperature-high"></i> জ্বর সর্দি কাশি
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                        <a href="jor.html" class="text-link-item">
+                            <i class="fas fa-temperature-high text-rose-500 w-4 text-center"></i> জ্বর সর্দি কাশি
                         </a>
-                        <a href="pain.html" class="list-btn bg-rose-500 hover:bg-rose-600">
-                            <i class="fas fa-bolt"></i> ব্যথা
+                        <a href="pain.html" class="text-link-item">
+                            <i class="fas fa-bolt text-rose-500 w-4 text-center"></i> ব্যথা
                         </a>
-                        <a href="tumor.html" class="list-btn bg-rose-500 hover:bg-rose-600">
-                            <i class="fas fa-circle"></i> টিউমার
+                        <a href="tumor.html" class="text-link-item">
+                            <i class="fas fa-circle text-rose-500 w-4 text-center"></i> টিউমার
                         </a>
-                        <a href="abscess.html" class="list-btn bg-rose-500 hover:bg-rose-600">
-                            <i class="fas fa-droplet"></i> ফোঁড়া
+                        <a href="abscess.html" class="text-link-item">
+                            <i class="fas fa-droplet text-rose-500 w-4 text-center"></i> ফোঁড়া
                         </a>
-                        <a href="pressure.html" class="list-btn bg-rose-500 hover:bg-rose-600">
-                            <i class="fas fa-utensils"></i> প্রেসার গ্রন্থি শিরা
+                        <a href="pressure.html" class="text-link-item">
+                            <i class="fas fa-utensils text-rose-500 w-4 text-center"></i> প্রেসার গ্রন্থি শিরা
                         </a>
-                        <a href="bloodbonemuscle.html" class="list-btn bg-rose-500 hover:bg-rose-600">
-                            <i class="fas fa-bone"></i> রক্ত হাড় পেশী
+                        <a href="bloodbonemuscle.html" class="text-link-item">
+                            <i class="fas fa-bone text-rose-500 w-4 text-center"></i> রক্ত হাড় পেশী
                         </a>
-                        <a href="mental.html" class="list-btn bg-rose-500 hover:bg-rose-600">
-                            <i class="fas fa-brain"></i> মানসিক রোগ সকল
+                        <a href="mental.html" class="text-link-item">
+                            <i class="fas fa-brain text-rose-500 w-4 text-center"></i> মানসিক রোগ সকল
                         </a>
-                        <a href="skin.html" class="list-btn bg-rose-500 hover:bg-rose-600">
-                            <i class="fas fa-hand-sparkles"></i> চর্মরোগ
+                        <a href="skin.html" class="text-link-item">
+                            <i class="fas fa-hand-sparkles text-rose-500 w-4 text-center"></i> চর্মরোগ
                         </a>
                     </div>
                 </div>
@@ -382,7 +384,7 @@
             
             if (data.role === 'paid') {
                 badgeContainer.innerHTML = `<span class="bg-gradient-to-r from-yellow-500 to-amber-600 text-slate-950 px-3 py-1 rounded-full font-bold text-xs shadow-md flex items-center gap-1"><i class="fas fa-crown"></i> PRO</span>`;
-                accountStatus.innerHTML = `<span class="text-emerald-400">সক্রিয় (Paid)</span>`;
+                accountStatus.innerHTML = `<span class="text-yellow-300">সক্রিয় (Paid)</span>`;
             } else if (data.role === 'admin') {
                 badgeContainer.innerHTML = `<span class="bg-red-600 text-white px-3 py-1 rounded-full font-bold text-xs shadow-md flex items-center gap-1"><i class="fas fa-user-shield"></i> ADMIN</span>`;
                 accountStatus.innerHTML = `<span class="text-red-400">ফুল অ্যাডমিন এক্সেস</span>`;
@@ -421,7 +423,7 @@
                 
                 if (distance < 0) {
                     clearInterval(timerInterval);
-                    timerElement.textContent = "মেয়াদ শেষ হয়েছে!";
+                    timerElement.textContent = "মেয়াদ শেষ হয়েছে!";
                     timerElement.className = "text-base font-bold text-red-500";
                     document.getElementById('timeIcon').className = "w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-red-600 text-[10px]";
                     return;
@@ -433,7 +435,7 @@
                 
                 const convertToBangla = (num) => String(num).replace(/\d/g, d => "০১২৩৪৫৬৭৮৯"[d]);
                 
-                timerElement.innerHTML = `${convertToBangla(days)} দিন ${convertToBangla(hours)} ঘ. ${convertToBangla(minutes)} মি.`;
+                timerElement.innerHTML = `${convertToBangla(days)} দিন ${convertToBangla(hours)} ঘ. ${convertToBangla(minutes)} mi.`;
             }, 1000);
         }
     </script>
