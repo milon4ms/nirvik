@@ -6,119 +6,9 @@
     <title>নির্ভীক হোমিও - মেটেরিয়া মেডিকা ডিরেক্টরি</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="../assets/js/medica-template.js"></script>
 </head>
 <body class="bg-gray-50 font-sans antialiased flex flex-col min-h-screen text-xs md:text-sm">
-
-    <header class="bg-[#008066] text-white sticky top-0 z-50 shadow-md text-xs">
-        <style>
-            .relative.group .absolute {
-                top: calc(100% - 4px) !important;
-                padding-top: 4px !important;
-            }
-            .relative.group {
-                padding-bottom: 2px;
-            }
-            .relative.group:hover > .absolute {
-                display: block !important;
-            }
-            .mobile-menu-btn {
-                background: rgba(255,255,255,0.15);
-                border: 1px solid rgba(255,255,255,0.1);
-            }
-            .mobile-menu-btn:hover {
-                background: rgba(255,255,255,0.25);
-            }
-        </style>
-        
-        <script src="../assets/js/firebase-config.js"></script>
-        
-        <div class="max-w-7xl mx-auto px-3">
-            <div class="flex items-center justify-between py-2.5">
-                
-                <a href="../index.html" class="flex-shrink-0 hover:opacity-80 transition">
-                    <span class="text-white font-medium text-sm">নির্ভীক হোমিও</span>
-                </a>
-
-                <nav class="hidden md:flex items-center gap-3 font-medium">
-                    <a href="../select.html" class="hover:bg-white/20 px-3 py-1.5 rounded-xl transition">কেসটেকিং</a>
-                    <a href="index.html" class="bg-white/20 px-3 py-1.5 rounded-xl transition">মে.মেডিকা</a>
-                    
-                    <div class="relative group">
-                        <button class="flex items-center gap-1 hover:bg-white/20 px-3 py-1.5 rounded-xl transition">
-                            সার্বদেহিক রোগ <i class="fas fa-chevron-down text-[10px]"></i>
-                        </button>
-                        <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-2xl py-2 w-64 mt-1">
-                            <a href="../jor.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-temperature-high mr-2 text-teal-600"></i>জ্বর সর্দি কাশি</a>
-                            <a href="../pain.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-bolt mr-2 text-teal-600"></i>ব্যথা</a>
-                            <a href="../tumor.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-circle mr-2 text-teal-600"></i>টিউমার</a>
-                            <a href="../abscess.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-droplet mr-2 text-teal-600"></i>ফোঁড়া</a>
-                            <a href="../pressure.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-utensils mr-2 text-teal-600"></i>প্রেসার গ্রন্থি শিরা</a>
-                            <a href="../bloodbonemuscle.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-bone mr-2 text-teal-600"></i>রক্ত হাড় পেশী</a>
-                            <a href="../mental.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-brain mr-2 text-teal-600"></i>মানসিক রোগ সকল</a>
-                            <a href="../skin.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-hand-sparkles mr-2 text-teal-600"></i>চর্মরোগ</a>
-                        </div>
-                    </div>
-
-                    <div class="relative group">
-                        <button class="flex items-center gap-1 hover:bg-white/20 px-3 py-1.5 rounded-xl transition">
-                            উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-[10px]"></i>
-                        </button>
-                        <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-2xl py-2 w-64 mt-1">
-                            <a href="../head.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-brain mr-2 text-teal-600"></i>মাথা</a>
-                            <a href="../eyes.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-eye mr-2 text-teal-600"></i>চোখ</a>
-                            <a href="../ear.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-ear-listen mr-2 text-teal-600"></i>কান</a>
-                            <a href="../nose.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-nose mr-2 text-teal-600"></i>নাক</a>
-                            <a href="../mouthful.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-teeth mr-2 text-teal-600"></i>মুখ হইতে টুটি ও ঘাড়</a>
-                            <a href="../teeth.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-tooth mr-2 text-teal-600"></i>দাঁত</a>
-                            <a href="../chest.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-lungs mr-2 text-teal-600"></i>বুকে সমস্যা</a>
-                            <a href="../hands.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-hand mr-2 text-teal-600"></i>হাতের সমস্যা</a>
-                            <a href="../back.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-spine mr-2 text-teal-600"></i> পিঠ</a>
-                            <a href="../stomach.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-stomach mr-2 text-teal-600"></i>পাকস্থলী</a>
-                        </div>
-                    </div>
-
-                    <div class="relative group">
-                        <button class="flex items-center gap-1 hover:bg-white/20 px-3 py-1.5 rounded-xl transition">
-                            নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-[10px]"></i>
-                        </button>
-                        <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-2xl py-2 w-64 mt-1">
-                            <a href="../piles.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-circle-dot mr-2 text-teal-600"></i>অর্শ</a>
-                            <a href="../urethral.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-droplet mr-2 text-teal-600"></i>মূত্রনালী</a>
-                            <a href="../leg.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-shoe-prints mr-2 text-teal-600"></i>পা</a>
-                            <a href="../stool.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-toilet mr-2 text-teal-600"></i>মল ও কৃমি</a>
-                            <a href="../anus.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-water mr-2 text-teal-600"></i>মলদ্বার</a>
-                            <a href="../male.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-person mr-2 text-teal-600"></i>যৌনাঙ্গ পুরুষ</a>
-                            <a href="../female.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-person-dress mr-2 text-teal-600"></i>যৌনাঙ্গ নারী</a>
-                        </div>
-                    </div>
-
-                    <div class="relative group">
-                        <a href="../login.html" class="flex items-center gap-1 hover:bg-white/20 px-3 py-1.5 rounded-xl transition">
-                            লগ ইন <i class="fas fa-chevron-down text-[10px]"></i>
-                        </a>
-                        <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-2xl py-2 w-48 mt-1 right-0">
-                            <a href="../register.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-user-plus mr-2"></i>রেজিস্ট্রেশন</a>
-                            <a href="../dashboard.html" class="block px-4 py-2 hover:bg-teal-50"><i class="fas fa-user-circle mr-2"></i>ড্যাশবোর্ড</a>
-                        </div>
-                    </div>
-                </nav>
-
-                <div class="md:hidden flex items-center gap-1">
-                    <a href="../select.html" class="mobile-menu-btn text-white text-[10px] px-2.5 py-1 rounded-full font-medium">কেসটেকিং</a>
-                    <a href="index.html" class="bg-white/30 text-white text-[10px] px-2.5 py-1 rounded-full font-medium">মে.মেডিকা</a>
-                    <button id="mobile-menu-btn" class="text-lg p-1 text-white hover:bg-white/10 rounded-lg focus:outline-none">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div id="mobile-menu" class="hidden md:hidden bg-[#008066] border-t border-teal-800 py-2">
-            <div class="px-3 flex flex-col gap-1 max-h-[75vh] overflow-y-auto">
-                <a href="index.html" class="px-3 py-2 bg-white/10 rounded-lg text-white">📖 মেটেরিয়া মেডিকা</a>
-            </div>
-        </div>
-    </header>
 
     <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-6 px-4 text-center">
         <div class="max-w-4xl mx-auto">
@@ -137,19 +27,11 @@
             <div id="alphabet-grid" class="flex flex-wrap justify-center gap-1 max-w-3xl mx-auto"></div>
         </div>
 
-        <div id="medicine-content" class="bg-white rounded-xl shadow-sm p-4 min-h-[250px]">
-            </div>
+        <div id="medicine-content" class="bg-white rounded-xl shadow-sm p-4 min-h-[250px]"></div>
     </main>
 
-    <footer class="bg-[#002D24] text-teal-300 py-3 mt-auto text-[10px]">
-        <div class="max-w-7xl mx-auto px-4 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-2">
-            <div><strong class="text-white">নির্ভীক হোমিও</strong> — ডিজিটাল ডিরেক্টরি প্ল্যাটফর্ম</div>
-            <div class="opacity-75">© ২০২৬ নির্ভীক হোমিও</div>
-        </div>
-    </footer>
-
     <script>
-        // আপনার সরবরাহকৃত ১১২টি ওষুধের ডিরেক্টরি ম্যাপিং
+        // ১১২টি ওষুধের ডিরেক্টরি ম্যাপিং ডেটা
         const medicineData = {
             'A': [
                 { name: 'Abrotanum (এব্রোটেনাম)', file: 'abrotanum.html' },
@@ -194,7 +76,7 @@
                 { name: 'CALENDULA (ক্যালেন্ডুলা)', file: 'calendula.html' },
                 { name: 'Camp-officinarum (ক্যাম্ফর অফিসিনেরাম)', file: 'camp_officinarum.html' },
                 { name: 'Cantharis (ক্যান্থারিস)', file: 'cantharis.html' },
-                { name: 'CAPSICUM (ক্যাপসিকাম)', file: 'capsicum.html' },
+                { name: 'CAPSISUM (ক্যাপসিকাম)', file: 'capsicum.html' },
                 { name: 'Carbo Veg (কার্বোভেজ)', file: 'carbo_veg.html' },
                 { name: 'Causticum (কষ্টিকাম)', file: 'causticum.html' },
                 { name: 'Caulophyllum (কলোফাইলাম)', file: 'caulophyllum.html' },
@@ -372,16 +254,6 @@
         document.addEventListener('DOMContentLoaded', () => {
             showMedicines('A');
         });
-
-        // মোবাইল মেনু টগল হ্যান্ডলার
-        const menuBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        if (menuBtn && mobileMenu) {
-            menuBtn.addEventListener('click', function(e) {
-                e.stopPropagation();
-                mobileMenu.classList.toggle('hidden');
-            });
-        }
     </script>
 </body>
 </html>
