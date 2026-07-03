@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 </a>
 
                 <nav class="hidden md:flex items-center gap-4 text-sm font-medium">
-                    <a href="../select.html" class="hover:bg-white/20 px-4 py-2 rounded-2xl transition">সাধারণ রোগ</a>
+                    <a href="../select.html" class="hover:bg-white/20 px-4 py-2 rounded-2xl transition">কেসটেকিং</a>
                     
-                    <a href="index.html" class="bg-white/20 px-4 py-2 rounded-2xl transition">মেডিকা</a>
+                    <a href="index.html" class="bg-white/20 px-4 py-2 rounded-2xl transition">মে.মেডিকা</a>
                     
                     <div class="relative group">
                         <button class="flex items-center gap-1 hover:bg-white/20 px-4 py-2 rounded-2xl transition">
@@ -68,14 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
                             <a href="../nose.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-nose mr-2 text-teal-600"></i>নাক</a>
                             <a href="../mouthful.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-teeth mr-2 text-teal-600"></i>মুখ হইতে টুটি ও ঘাড়</a>
                             <a href="../teeth.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-tooth mr-2 text-teal-600"></i>দাঁত</a>
-                        </div>
-                    </div>
-
-                    <div class="relative group">
-                        <button class="flex items-center gap-1 hover:bg-white/20 px-4 py-2 rounded-2xl transition">
-                            মাঝ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs"></i>
-                        </button>
-                        <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2 z-50">
                             <a href="../chest.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-lungs mr-2 text-teal-600"></i>বুকের সমস্যা</a>
                             <a href="../hands.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-hand mr-2 text-teal-600"></i>হাতের সমস্যা</a>
                             <a href="../back.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-spine mr-2 text-teal-600"></i>পিঠের সমস্যা</a>
@@ -111,8 +103,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 </nav>
 
                 <div class="md:hidden flex items-center gap-1.5">
-                    <a href="../select.html" class="mobile-menu-btn text-white text-[11px] px-2.5 py-1.5 rounded-full font-medium transition">সাধারণ রোগ</a>
-                    <a href="index.html" class="mobile-menu-btn text-white text-[11px] px-2.5 py-1.5 rounded-full font-medium transition">মেডিকা</a>
+                    <a href="../select.html" class="mobile-menu-btn text-white text-[11px] px-2.5 py-1.5 rounded-full font-medium transition">কেসটেকিং</a>
+                    <a href="index.html" class="mobile-menu-btn text-white text-[11px] px-2.5 py-1.5 rounded-full font-medium transition">মে.মেডিকা</a>
                     <button id="template-mobile-menu-btn" class="text-lg p-1.5 text-white hover:bg-white/10 rounded-lg transition focus:outline-none">
                         <i class="fas fa-bars"></i>
                     </button>
@@ -122,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <div id="template-mobile-menu" class="hidden md:hidden border-t border-teal-700 py-3 bg-[#008066]">
             <div class="px-4 flex flex-col gap-1.5 text-sm max-h-[75vh] overflow-y-auto">
-                <a href="index.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-white flex items-center gap-2">📖 মেডিকা</a>
+                <a href="index.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-white flex items-center gap-2">📖 মে.মেডিকা</a>
 
                 <details class="group">
                     <summary class="px-4 py-2 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
@@ -153,15 +145,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="../nose.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">👃 নাক</a>
                         <a href="../mouthful.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🦷 মুখ হইতে টুটি ও ঘাড়</a>
                         <a href="../teeth.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🦷 দাঁত</a>
-                    </div>
-                </details>
-
-                <details class="group">
-                    <summary class="px-4 py-2 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
-                        <span>🖐️ মাঝ অঙ্গের রোগ</span>
-                        <span class="text-xs transition-transform group-open:rotate-180">▼</span>
-                    </summary>
-                    <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
                         <a href="../chest.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🫁 বুক সমস্যা</a>
                         <a href="../hands.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">✋ হাতের সমস্যা</a>
                         <a href="../back.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🔙 পিঠ</a>
