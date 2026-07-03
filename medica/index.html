@@ -6,15 +6,12 @@
     <title>নির্ভীক হোমিও - মেটেরিয়া মেডিকা ডিরেক্টরি</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- ডাইনামিক হেডার-ফুটার টেমপ্লেট স্ক্রিপ্ট কল -->
-    <script src="../assets/js/medica-template.js"></script>
+    <script src="medica-template.js" defer></script>
 </head>
 <body class="bg-gray-50 font-sans antialiased flex flex-col min-h-screen text-xs md:text-sm">
 
-    <!-- ডাইনামিক হেডার প্লেসহোল্ডার (JS ফাইলের ID-র সাথে মিল রেখে app-header করা হলো) -->
     <div id="app-header"></div>
 
-    <!-- ব্যানার সেকশন -->
     <section class="bg-gradient-to-r from-[#00A884] to-[#006E57] text-white py-6 px-4 text-center">
         <div class="max-w-4xl mx-auto">
             <h1 class="text-base md:text-lg font-bold flex items-center justify-center gap-2 mb-0.5">
@@ -26,7 +23,6 @@
         </div>
     </section>
 
-    <!-- মূল কন্টেন্ট এরিয়া -->
     <main class="container mx-auto px-3 py-4 flex-grow">
         <div class="text-center mb-4">
             <h2 class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">কুইক জাম্প মেনু (A - Z)</h2>
@@ -36,7 +32,6 @@
         <div id="medicine-content" class="bg-white rounded-xl shadow-sm p-4 min-h-[250px]"></div>
     </main>
 
-    <!-- ডাইনামিক ফুটার প্লেসহোল্ডার (JS ফাইলের ID-র সাথে মিল রেখে app-footer করা হলো) -->
     <div id="app-footer"></div>
 
     <script>
@@ -66,7 +61,7 @@
                 { name: 'Argentum-Nitricum (আর্জেন্টাম নাইট্রিকাম)', file: 'argentum_nitricum.html' },
                 { name: 'Arnica Mont (আর্নিকা)', file: 'arnica_mont.html' },
                 { name: 'Arsenic Album (আর্সেনিক এলবাম)', file: 'arsenic_album.html' },
-                { name: 'ARSENICUM IODATUM (আর্সেনিক আয়อด)', file: 'arsenicum_iodatum.html' },
+                { name: 'ARSENICUM IODATUM (আর্সেনিক আয়োড)', file: 'arsenicum_iodatum.html' },
                 { name: 'Aurum-metallicum (অরাম মেটালিকাম)', file: 'aurum_metallicum.html' },
                 { name: 'Aurum mur (অরাম মিউর)', file: 'aurum_mur.html' }
             ],
@@ -89,7 +84,7 @@
                 { name: 'Carbo Veg (কার্বোভেজ)', file: 'carbo_veg.html' },
                 { name: 'Causticum (কষ্টিকাম)', file: 'causticum.html' },
                 { name: 'Caulophyllum (কলোফাইলাম)', file: 'caulophyllum.html' },
-                { name: 'Chamomilla (ক্যামোমিলা)', file: 'chamomilla.html' },
+                { name: 'Chamomilla (ক্যামোমিला)', file: 'chamomilla.html' },
                 { name: 'Cheledonium majus (চেলেডোনিয়াম)', file: 'cheledonium_majus.html' },
                 { name: 'China (চায়না)', file: 'china.html' },
                 { name: 'Chlorum (ক্লোরাম)', file: 'chlorum.html' },
