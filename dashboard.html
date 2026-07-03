@@ -356,10 +356,23 @@
     <div id="footer-placeholder"></div>
 
     <script>
-        $(function() {
-            $('#header-placeholder').load('assets/header.html');
-            $('#footer-placeholder').load('assets/footer.html');
-        });
+       $(function() {
+    $('#header-placeholder').load('assets/header.html', function() {
+        // হেডার লোড হওয়ার পর মোবাইল মেনু সক্রিয় করার কোড
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        if (btn && menu) {
+            btn.addEventListener('click', function() {
+                menu.classList.toggle('hidden');
+                btn.innerHTML = menu.classList.contains('hidden') 
+                    ? '<i class="fas fa-bars"></i>' 
+                    : '<i class="fas fa-times"></i>';
+            });
+        }
+    });
+    
+    $('#footer-placeholder').load('assets/footer.html');
+});
 
         // লক করা আইটেমে ক্লিক করলে যে অ্যালার্ট দেখাবে
         function showLockAlert() {
