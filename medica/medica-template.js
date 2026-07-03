@@ -1,7 +1,7 @@
 /**
  * Nirvik Homeo - Materia Medica Master Template Script
  * Year: 2026
- * Description: Dynamic Header (Sync with main web), Compact Hero Height, Footer & Anti-Copy Protection.
+ * Description: Dynamic Header, Compact Hero, Footer, Anti-Copy & Desktop/Mobile Synced Account Menu.
  */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <a href="../login.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-sign-in-alt mr-2"></i>লগ ইন</a>
                             <a href="../register.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-user-plus mr-2"></i>রেজিস্ট্রেশন</a>
                             <a href="../dashboard.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-user-circle mr-2"></i>ড্যাশবোর্ড</a>
-                            <a href="#" class="block px-6 py-2.5 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
+                            <a href="#" class="logout-trigger block px-6 py-2.5 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
                         </div>
                     </div>
                 </nav>
@@ -169,11 +169,19 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </details>
 
-                <div class="border-t border-teal-700 my-2 pt-2 flex flex-col gap-1">
-                    <a href="../login.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-white text-xs flex items-center gap-2">🔑 লগ ইন</a>
-                    <a href="../register.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-white text-xs flex items-center gap-2">👤 রেজিস্ট্রেশন</a>
-                    <a href="../dashboard.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-white text-xs flex items-center gap-2">📊 ড্যাশবোর্ড</a>
-                </div>
+                <!-- পিসির মতো মোবাইল মেনুতেও অ্যাকাউন্ট ড্রপডাউন যুক্ত করা হয়েছে -->
+                <details class="group border-t border-teal-700/50 pt-1.5">
+                    <summary class="px-4 py-2 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
+                        <span>👤 অ্যাকাউন্ট</span>
+                        <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+                    </summary>
+                    <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
+                        <a href="../login.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white"><i class="fas fa-sign-in-alt mr-2 text-teal-300"></i>লগ ইন</a>
+                        <a href="../register.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white"><i class="fas fa-user-plus mr-2 text-teal-300"></i>রেজিস্ট্রেশন</a>
+                        <a href="../dashboard.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white"><i class="fas fa-user-circle mr-2 text-teal-300"></i>ড্যাশবোর্ড</a>
+                        <a href="#" class="logout-trigger px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-red-400 font-medium"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
+                    </div>
+                </details>
             </div>
         </div>
     </header>`;
@@ -201,7 +209,7 @@ document.addEventListener("DOMContentLoaded", () => {
         heroSection.classList.add("py-3");
     }
 
-    // ৫. মোবাইল মেনু ওপেন/ক্লোজ টগল লজিক (আইডি দ্বন্দ্ব এড়াতে সুনির্দিষ্ট করা হয়েছে)
+    // ৫. মোবাইল মেনু ওপেন/ক্লোজ টগল লজিক
     const menuBtn = document.getElementById('template-mobile-menu-btn');
     const mobileMenu = document.getElementById('template-mobile-menu');
 
@@ -217,6 +225,17 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
+
+    // ===== লগআউট ফাংশনাল কোড (Logout Handler) =====
+    const logoutButtons = document.querySelectorAll('.logout-trigger');
+    logoutButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            localStorage.clear();
+            sessionStorage.clear();
+            window.location.href = "../login.html";
+        });
+    });
 
     // ৬. অ্যাডভান্সড অ্যান্টি-কপি এবং কন্টেন্ট প্রটেকশন সিস্টেম
     document.body.style.userSelect = "none";
