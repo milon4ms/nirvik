@@ -20,7 +20,7 @@
     <style>
         body { 
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
-            background: #f0fdf4; 
+            background: radial-gradient(circle at top right, #e6fffa, #f0fdf4 60%); 
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -39,33 +39,36 @@
         }
         
         .login-container { 
-            max-width: 440px; 
-            margin: 40px auto; 
+            max-width: 450px; 
+            margin: 50px auto; 
             flex: 1;
+            width: 100%;
         }
         
         .login-box { 
-            background: white; 
-            border-radius: 20px; 
-            box-shadow: 0 20px 60px rgba(0,0,0,0.08); 
-            padding: 40px; 
-            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.95); 
+            border-radius: 24px; 
+            box-shadow: 0 25px 50px -12px rgba(4, 120, 87, 0.08), 0 10px 20px -5px rgba(0, 0, 0, 0.03); 
+            padding: 45px 40px; 
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
         }
         
         input { 
             width: 100%; 
-            padding: 14px 16px; 
-            border: 2px solid #e2e8f0; 
-            border-radius: 12px; 
-            font-size: 16px; 
-            transition: all 0.2s; 
-            background: #fafafa;
+            padding: 14px 18px; 
+            border: 1px solid #cbd5e1; 
+            border-radius: 14px; 
+            font-size: 15px; 
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            background: #f8fafc;
+            color: #1e293b;
         }
         
         input:focus { 
             outline: none; 
             border-color: #00b8a9; 
-            box-shadow: 0 0 0 3px rgba(0,184,169,0.1);
+            box-shadow: 0 0 0 4px rgba(0, 184, 169, 0.12);
             background: white;
         }
         
@@ -79,17 +82,23 @@
             color: white; 
             padding: 14px; 
             border: none; 
-            border-radius: 12px; 
+            border-radius: 14px; 
             width: 100%; 
-            font-size: 18px; 
+            font-size: 16px; 
             font-weight: 600; 
             cursor: pointer; 
-            transition: all 0.3s; 
+            transition: all 0.25s ease; 
+            box-shadow: 0 4px 12px rgba(0, 184, 169, 0.2);
         }
         
         .btn-login:hover:not(:disabled) { 
-            transform: translateY(-2px); 
-            box-shadow: 0 8px 25px rgba(0,184,169,0.3); 
+            transform: translateY(-1px); 
+            box-shadow: 0 8px 20px rgba(0, 184, 169, 0.3); 
+            filter: brightness(1.05);
+        }
+        
+        .btn-login:active:not(:disabled) {
+            transform: translateY(1px);
         }
         
         .btn-login:disabled { 
@@ -100,25 +109,27 @@
         
         .btn-google { 
             background: white; 
-            color: #444; 
-            border: 2px solid #ddd; 
+            color: #334155; 
+            border: 1px solid #e2e8f0; 
             padding: 14px; 
-            border-radius: 12px; 
+            border-radius: 14px; 
             width: 100%; 
-            font-size: 18px; 
+            font-size: 16px; 
             font-weight: 600; 
             cursor: pointer; 
-            transition: all 0.3s; 
+            transition: all 0.25s ease; 
             display: flex; 
             align-items: center; 
             justify-content: center; 
             gap: 12px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
         }
         
         .btn-google:hover:not(:disabled) { 
-            background: #f8f8f8; 
-            border-color: #bbb; 
-            transform: translateY(-2px);
+            background: #f8fafc; 
+            border-color: #cbd5e1; 
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
         }
         
         .btn-google:disabled {
@@ -139,30 +150,34 @@
         }
         
         .divider span { 
-            padding: 0 12px; 
-            color: #a0aec0; 
+            padding: 0 16px; 
+            color: #94a3b8; 
             font-size: 14px; 
-            background: white;
+            background: transparent;
         }
         
         .error-msg { 
-            background: #fed7d7; 
-            color: #c53030; 
+            background: #fef2f2; 
+            color: #991b1b; 
             padding: 12px 16px; 
-            border-radius: 10px; 
+            border-radius: 12px; 
             display: none; 
-            margin-top: 10px;
-            border-left: 4px solid #fc8181;
+            margin-top: 15px;
+            border: 1px solid #fee2e2;
+            border-left: 4px solid #ef4444;
+            font-size: 14px;
         }
         
         .success-msg { 
-            background: #c6f6d5; 
-            color: #276749; 
+            background: #f0fdf4; 
+            color: #166534; 
             padding: 12px 16px; 
-            border-radius: 10px; 
+            border-radius: 12px; 
             display: none; 
-            margin-top: 10px;
-            border-left: 4px solid #48bb78;
+            margin-top: 15px;
+            border: 1px solid #dcfce7;
+            border-left: 4px solid #22c55e;
+            font-size: 14px;
         }
         
         .input-group {
@@ -171,46 +186,41 @@
         
         .input-group .toggle-password {
             position: absolute;
-            right: 14px;
+            right: 16px;
             top: 50%;
             transform: translateY(-50%);
             cursor: pointer;
-            color: #a0aec0;
+            color: #94a3b8;
             transition: color 0.2s;
             background: none;
             border: none;
-            font-size: 18px;
+            font-size: 16px;
         }
         
         .input-group .toggle-password:hover {
-            color: #4a5568;
+            color: #475569;
         }
         
         @media (max-width: 640px) {
             .login-box { 
-                padding: 24px; 
-                border-radius: 16px;
+                padding: 35px 24px; 
+                border-radius: 20px;
+                box-shadow: none;
+                background: transparent;
+                border: none;
             }
-            
-            input { 
-                font-size: 14px; 
-                padding: 12px 14px; 
+            body {
+                background: #ffffff;
             }
-            
-            .btn-login, .btn-google { 
-                font-size: 16px; 
-                padding: 12px; 
-            }
-            
             .login-container {
-                margin: 20px auto;
+                margin: 10px auto;
             }
         }
         
         @keyframes fadeInUp {
             from {
                 opacity: 0;
-                transform: translateY(20px);
+                transform: translateY(15px);
             }
             to {
                 opacity: 1;
@@ -219,13 +229,13 @@
         }
         
         .login-box {
-            animation: fadeInUp 0.5s ease-out;
+            animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
         }
         
         .password-strength {
-            height: 4px;
+            height: 5px;
             margin-top: 8px;
-            border-radius: 4px;
+            border-radius: 10px;
             background: #e2e8f0;
             transition: all 0.3s;
             overflow: hidden;
@@ -235,7 +245,7 @@
             height: 100%;
             width: 0%;
             transition: all 0.3s;
-            border-radius: 4px;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -246,15 +256,17 @@
     <div class="login-container px-4">
         <div class="login-box">
             <div class="text-center mb-8">
-                <div class="text-6xl mb-4">🔐</div>
-                <h1 class="text-3xl font-bold text-gray-800">স্বাগতম</h1>
-                <p class="text-gray-500 mt-2">আপনার একাউন্টে লগইন করুন</p>
+                <div class="w-16 h-16 bg-teal-50 text-teal-600 rounded-2xl flex items-center justify-center mx-auto mb-4 text-3xl shadow-inner border border-teal-100">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h1 class="text-2xl font-bold text-gray-800 tracking-tight">স্বাগতম</h1>
+                <p class="text-gray-500 mt-1.5 text-sm">আপনার একাউন্টে সুরক্ষিতভাবে লগইন করুন</p>
             </div>
 
             <form id="loginForm" autocomplete="on">
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">
-                        <i class="fas fa-user text-teal-600 mr-2"></i>ইমেইল অথবা ফোন নাম্বার
+                <div class="mb-5">
+                    <label class="block text-gray-700 text-sm font-semibold mb-2">
+                        <i class="fas fa-envelope text-teal-600 mr-1.5"></i>ইমেইল অথবা ফোন নাম্বার
                     </label>
                     <input 
                         type="text" 
@@ -266,15 +278,15 @@
                     >
                 </div>
                 
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">
-                        <i class="fas fa-lock text-teal-600 mr-2"></i>পাসওয়ার্ড
+                <div class="mb-5">
+                    <label class="block text-gray-700 text-sm font-semibold mb-2">
+                        <i class="fas fa-key text-teal-600 mr-1.5"></i>পাসওয়ার্ড
                     </label>
                     <div class="input-group">
                         <input 
                             type="password" 
                             id="password" 
-                            placeholder="পাসওয়ার্ড দিন" 
+                            placeholder="আপনার গোপন পাসওয়ার্ড দিন" 
                             required 
                             autocomplete="current-password"
                             class="w-full"
@@ -298,7 +310,7 @@
                     লগইন সফল! ড্যাশবোর্ডে যাচ্ছি...
                 </div>
 
-                <button type="submit" class="btn-login mt-2" id="loginBtn">
+                <button type="submit" class="btn-login mt-4" id="loginBtn">
                     <i class="fas fa-sign-in-alt mr-2"></i> লগইন করুন
                 </button>
             </form>
@@ -308,44 +320,48 @@
             </div>
 
             <button id="googleLoginBtn" class="btn-google">
-                <i class="fab fa-google text-2xl" style="color: #ea4335;"></i>
+                <svg class="w-5 h-5" viewBox="0 0 24 24" width="20px" height="20px">
+                    <path fill="#EA4335" d="M24,12.25c0,-0.82 -0.07,-1.62 -0.21,-2.39l-11.79,0l0,4.51l6.72,0c-0.29,1.53 -1.15,2.83 -2.45,3.7l0,3.08l3.96,0c2.32,-2.13 3.66,-5.27 3.66,-8.9l0,0Z"/>
+                    <path fill="#4285F4" d="M12,24c3.24,0 5.95,-1.07 7.94,-2.91l-3.96,-3.08c-1.1,0.74 -2.51,1.18 -3.98,1.18c-3.07,0 -5.66,-2.07 -6.59,-4.86l-4.09,0l0,3.17c2.02,4.02 6.18,6.5 10.68,6.5z"/>
+                    <path fill="#FBBC05" d="M5.41,14.33c-0.24,-0.72 -0.38,-1.49 -0.38,-2.33c0,-0.84 0.14,-1.61 0.38,-2.33l0,-3.17l-4.09,0c-0.83,1.66 -1.32,3.53 -1.32,5.5c0,1.97 0.49,3.84 1.32,5.5l4.09,-3.17z"/>
+                    <path fill="#34A853" d="M12,4.82c1.76,0 3.34,0.61 4.58,1.79l3.43,-3.43c-2.07,-1.93 -4.78,-3.18 -8.01,-3.18c-4.5,0 -8.66,2.48 -10.68,6.5l4.09,3.17c0.93,-2.79 3.52,-4.86 6.59,-4.86z"/>
+                </svg>
                 Google দিয়ে লগইন করুন
             </button>
 
-            <div class="mt-6 space-y-2 text-center">
+            <div class="mt-8 space-y-3 text-center text-sm border-t border-gray-100 pt-5">
                 <p class="text-gray-600">
-                    অকাউন্ট নেই? 
-                    <a href="register.html" class="text-teal-600 font-bold hover:text-teal-700 transition-colors">
+                    অ্যাকাউন্ট নেই? 
+                    <a href="register.html" class="text-teal-600 font-bold hover:text-teal-700 transition-colors ml-1">
                         রেজিস্ট্রেশন করুন
                     </a>
                 </p>
-                <p class="text-gray-500 text-sm">
-                    <a href="forgot-password.html" class="hover:text-teal-600 transition-colors">
-                        <i class="fas fa-key mr-1"></i>পাসওয়ার্ড ভুলে গেছেন?
+                <div class="flex items-center justify-center gap-4 text-xs text-gray-400">
+                    <a href="forgot-password.html" class="hover:text-teal-600 transition-colors flex items-center gap-1">
+                        <i class="fas fa-key"></i> পিন/পাসওয়ার্ড রিসেট
                     </a>
-                </p>
-                <p class="text-gray-500 text-sm">
-                    <a href="index.html" class="hover:text-teal-600 transition-colors">
-                        <i class="fas fa-home mr-1"></i>হোম পেজে ফিরে যান
+                    <span>•</span>
+                    <a href="index.html" class="hover:text-teal-600 transition-colors flex items-center gap-1">
+                        <i class="fas fa-home"></i> হোম পেজ
                     </a>
-                </p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="phoneModal" class="hidden fixed inset-0 bg-black/60 flex items-center justify-center p-4 z-50">
-        <div class="bg-white p-6 rounded-2xl shadow-2xl max-w-sm w-full border border-emerald-100 text-center">
-            <div class="inline-flex items-center justify-center w-14 h-14 bg-teal-100 text-teal-600 rounded-full mb-4 text-2xl">
+    <div id="phoneModal" class="hidden fixed inset-0 bg-black/60 flex items-center justify-center p-4 z-50 backdrop-blur-sm">
+        <div class="bg-white p-7 rounded-2xl shadow-2xl max-w-sm w-full border border-emerald-100 text-center animate-[fadeInUp_0.3s_ease-out]">
+            <div class="inline-flex items-center justify-center w-14 h-14 bg-teal-50 text-teal-600 rounded-full mb-4 text-2xl border border-teal-100">
                 <i class="fas fa-phone-alt"></i>
             </div>
-            <h3 class="text-2xl font-bold text-gray-800 mb-2">মোবাইল নাম্বার প্রয়োজন</h3>
-            <p class="text-sm text-gray-500 mb-4">আপনার অ্যাকাউন্টের নিরাপত্তা নিশ্চিত করতে ১১ ডিজিটের মোবাইল নাম্বারটি দিন।</p>
+            <h3 class="text-xl font-bold text-gray-800 mb-1.5">মোবাইল নাম্বার প্রয়োজন</h3>
+            <p class="text-xs text-gray-500 mb-5 leading-relaxed">আপনার অ্যাকাউন্টের নিরাপত্তা নিশ্চিত করতে ১১ ডিজিটের মোবাইল নাম্বারটি দিন।</p>
             
             <form id="phoneForm" class="space-y-4">
                 <input type="text" id="modalPhoneInput" required
-                    class="w-full text-center font-bold text-xl tracking-widest text-gray-700 py-3 border-2 border-gray-200 rounded-xl focus:border-teal-500 focus:outline-none"
+                    class="w-full text-center font-bold text-xl tracking-widest text-gray-700 py-3 border border-gray-300 rounded-xl focus:border-teal-500 focus:outline-none bg-slate-50"
                     placeholder="017XXXXXXXX">
-                <button type="submit" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 rounded-xl transition shadow-md">
+                <button type="submit" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 rounded-xl transition shadow-md text-sm tracking-wide">
                     সংরক্ষণ করুন
                 </button>
             </form>
@@ -413,7 +429,7 @@
                 googleBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> সংযুক্ত হচ্ছে...';
             } else {
                 loginBtn.innerHTML = '<i class="fas fa-sign-in-alt mr-2"></i> লগইন করুন';
-                googleBtn.innerHTML = '<i class="fab fa-google text-2xl" style="color: #ea4335;"></i> Google দিয়ে লগইন করুন';
+                googleBtn.innerHTML = '<svg class="w-5 h-5 inline mr-2" viewBox="0 0 24 24" width="20px" height="20px"><path fill="#EA4335" d="M24,12.25c0,-0.82 -0.07,-1.62 -0.21,-2.39l-11.79,0l0,4.51l6.72,0c-0.29,1.53 -1.15,2.83 -2.45,3.7l0,3.08l3.96,0c2.32,-2.13 3.66,-5.27 3.66,-8.9l0,0Z"/><path fill="#4285F4" d="M12,24c3.24,0 5.95,-1.07 7.94,-2.91l-3.96,-3.08c-1.1,0.74 -2.51,1.18 -3.98,1.18c-3.07,0 -5.66,-2.07 -6.59,-4.86l-4.09,0l0,3.17c2.02,4.02 6.18,6.5 10.68,6.5z"/><path fill="#FBBC05" d="M5.41,14.33c-0.24,-0.72 -0.38,-1.49 -0.38,-2.33c0,-0.84 0.14,-1.61 0.38,-2.33l0,-3.17l-4.09,0c-0.83,1.66 -1.32,3.53 -1.32,5.5c0,1.97 0.49,3.84 1.32,5.5l4.09,-3.17z"/><path fill="#34A853" d="M12,4.82c1.76,0 3.34,0.61 4.58,1.79l3.43,-3.43c-2.07,-1.93 -4.78,-3.18 -8.01,-3.18c-4.5,0 -8.66,2.48 -10.68,6.5l4.09,3.17c0.93,-2.79 3.52,-4.86 6.59,-4.86z"/></svg> Google দিয়ে লগইন করুন';
             }
         }
 
@@ -448,10 +464,10 @@
             let width = 0;
             let color = '#e2e8f0';
             if (strength > 0) {
-                if (strength < 4) { width = 25; color = '#fc8181'; }
-                else if (strength < 8) { width = 50; color = '#f6ad55'; }
-                else if (strength < 12) { width = 75; color = '#68d391'; }
-                else { width = 100; color = '#48bb78'; }
+                if (strength < 4) { width = 25; color = '#ef4444'; }
+                else if (strength < 8) { width = 50; color = '#f59e0b'; }
+                else if (strength < 12) { width = 75; color = '#10b981'; }
+                else { width = 100; color = '#059669'; }
             }
             strengthBar.style.width = width + '%';
             strengthBar.style.background = color;
@@ -474,22 +490,22 @@
             let finalEmail = identifier;
 
             try {
-                // ১. যদি ইউজার ফোন নাম্বার ইনপুট দিয়ে থাকেন (১১ ডিজিটের নাম্বার চেক)
+                // ১. যদি ইউজার ফোন নাম্বার ইনপুট দিয়ে থাকেন (১১ ডিজিটের নাম্বার চেক)
                 const phonePattern = /^01[0-9]{9}$/;
                 if (phonePattern.test(identifier)) {
-                    // ফায়ারস্টোর থেকে ওই ফোন নাম্বারের ইউজারকে খুঁজে বের করা হচ্ছে
+                    // ফায়ারস্টোর থেকে ওই ফোন নাম্বারের ইউজারকে খুঁজে বের করা হচ্ছে
                     const snapshot = await firebase.firestore().collection('users').where('phone', '==', identifier).get();
                     
                     if (snapshot.empty) {
-                        showError('❌ এই ফোন নাম্বার দিয়ে কোনো অ্যাকাউন্ট পাওয়া যায়নি!');
+                        showError('❌ এই ফোন নাম্বার দিয়ে কোনো অ্যাকাউন্ট পাওয়া যায়নি!');
                         setLoading(false);
                         return;
                     }
-                    // ফোন নাম্বার ম্যাচ করলে তার সেভ করা আসল ইমেইলটি নেওয়া হচ্ছে
+                    // ফোন নাম্বার ম্যাচ করলে তার সেভ করা আসল ইমেইলটি নেওয়া হচ্ছে
                     finalEmail = snapshot.docs[0].data().email;
                 }
 
-                // ২. ইমেইল এবং পাসওয়ার্ড দিয়ে ফায়ারবেস অথেনটিকেশন লগইন
+                // ২. ইমেইল এবং পাসওয়ার্ড দিয়ে ফায়ারবেস অথেনটিকেশন লগইন
                 const userCredential = await firebase.auth().signInWithEmailAndPassword(finalEmail, password);
                 await handleUserLogin(userCredential.user);
 
@@ -499,9 +515,9 @@
                 if (error.code === 'auth/user-not-found' || error.code === 'auth/invalid-email') {
                     message += 'এই ইমেইল বা ফোন নাম্বারে কোনো অ্যাকাউন্ট নেই।';
                 } else if (error.code === 'auth/wrong-password') {
-                    message += 'পাসওয়ার্ড ভুল দিয়েছেন।';
+                    message += 'পাসওয়ার্ড ভুল দিয়েছেন।';
                 } else {
-                    message += 'তথ্য যাচাই করা যায়নি। সঠিক তথ্য দিন।';
+                    message += 'তথ্য যাচাই করা যায়নি। সঠিক তথ্য দিন।';
                 }
                 showError(message);
                 setLoading(false);
@@ -670,4 +686,3 @@
     </script>
 </body>
 </html>
-
