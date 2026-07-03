@@ -244,13 +244,16 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     </footer>`;
 
-    // ৩. ডমে হেডার ও ফুটার রেন্ডারিং করা
-    // এখানে আপনার HTML ফাইলের ID অনুযায়ী 'app-header' অথবা পূর্বের 'header-container' মিলিয়ে নেবেন।
+    // ৩. ডমে হেডার ও ফুটার রেন্ডারিং করার নিরাপদ মেথড (innerHTML ট্র্যাকিং সহ)
     const appHeader = document.getElementById("app-header") || document.getElementById("header-container");
     const appFooter = document.getElementById("app-footer") || document.getElementById("footer-container");
 
-    if (appHeader) appHeader.insertAdjacentHTML("afterbegin", headerHTML);
-    if (appFooter) appFooter.insertAdjacentHTML("afterbegin", footerHTML);
+    if (appHeader) {
+        appHeader.innerHTML = headerHTML; // insertAdjacentHTML এর বদলে সরাসরি innerHTML সেট করে রিপ্লেস হওয়া বন্ধ করা হলো
+    }
+    if (appFooter) {
+        appFooter.innerHTML = footerHTML;
+    }
 
     // ৪. হিরো ব্যানারের উচ্চতা সুবিন্যস্ত করা
     const heroSection = document.querySelector("section.bg-gradient-to-r");
@@ -271,75 +274,4 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         document.addEventListener('click', (e) => {
-            if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
-                mobileMenu.classList.add('hidden');
-            }
-        });
-    }
-
-    // 🔐 6. ফায়ারবেস লগআউট ইউজার ফাংশন
-    function logoutUser() {
-        if (typeof window.isLoggingOut !== 'undefined') {
-            window.isLoggingOut = true;
-        }
-        if (typeof localStorage !== 'undefined') {
-            localStorage.setItem('isLoggingOut', 'true');
-        }
-        
-        if (typeof firebase !== 'undefined' && firebase.auth) {
-            firebase.auth().signOut().then(function() {
-                if (typeof localStorage !== 'undefined') {
-                    localStorage.removeItem('user'); 
-                }
-                if (typeof sessionStorage !== 'undefined') {
-                    sessionStorage.clear(); // এখানে ভুলটি ঠিক করা হয়েছে
-                }
-                
-                alert('✅ সফলভাবে লগআউট হয়েছে!');
-                window.location.replace('../login.html');
-            }).catch(function(error) {
-                console.error("লগআউট ত্রুটি:", error);
-                if (typeof localStorage !== 'undefined') {
-                    localStorage.removeItem('isLoggingOut');
-                }
-                if (typeof window.isLoggingOut !== 'undefined') {
-                    window.isLoggingOut = false; 
-                }
-            });
-        } else {
-            window.location.replace('../login.html');
-        }
-    }
-
-    // লগআউট বাটনে ক্লিক ইভেন্ট হ্যান্ডলার
-    window.addEventListener('click', function(e) {
-        const logoutBtn = e.target.closest('.nh-logout');
-        if (logoutBtn) {
-            e.preventDefault();
-            if (confirm('আপনি কি নিশ্চিতভাবে লগআউট করতে চান?')) {
-                logoutUser();
-            }
-        }
-    });
-
-    // 🛡️ ৭. অ্যাডভান্সড অ্যান্টি-কপি এবং কন্টেন্ট প্রটেকশন সিস্টেম
-    document.body.style.userSelect = "none";
-    document.body.style.webkitUserSelect = "none";
-    document.body.style.msUserSelect = "none";
-    document.body.style.mozUserSelect = "none";
-
-    document.addEventListener("contextmenu", (e) => e.preventDefault());
-    document.addEventListener("dragstart", (e) => e.preventDefault());
-
-    document.addEventListener("keydown", (e) => {
-        if ((e.ctrlKey || e.metaKey) && ["c", "a", "u", "s", "p"].includes(e.key.toLowerCase())) {
-            e.preventDefault();
-        }
-        if (e.keyCode === 123) {
-            e.preventDefault();
-        }
-        if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") {
-            e.preventDefault();
-        }
-    });
-});
+            if (!mobileMenu.contains(e.target) && !menu
