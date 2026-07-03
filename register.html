@@ -51,7 +51,7 @@
         <div class="register-box">
             <div class="text-center mb-8">
                 <div class="text-5xl mb-4">🌿</div>
-                <h1 class="text-3xl font-bold text-gray-800">নতুন অ্যাকাউন্ট</h1>
+                <h1 class="text-3xl font-bold text-gray-800">নতুন একাউন্ট</h1>
                 <p class="text-gray-500 mt-2">নির্ভীক হোমিওতে স্বাগতম</p>
             </div>
 
@@ -84,11 +84,11 @@
                 </div>
 
                 <button type="submit" class="btn-register" id="registerBtn">
-                    <i class="fas fa-user-plus mr-2"></i> অ্যাকাউন্ট তৈরি করুন
+                    <i class="fas fa-user-plus mr-2"></i> একাউন্ট তৈরি করুন
                 </button>
 
                 <p class="text-center mt-6 text-gray-600">
-                    ইতিমধ্যে অ্যাকাউন্ট আছে? 
+                    ইতিমধ্যে একাউন্ট আছে? 
                     <a href="login.html" class="text-teal-600 font-bold">লগইন করুন</a>
                 </p>
             </form>
@@ -162,12 +162,12 @@
             try {
                 const db = firebase.firestore();
 
-                // ৩. এই ফোন নাম্বার দিয়ে ইতিমধ্যে ডাটাবেজে অন্য কোনো অ্যাকাউন্ট আছে কিনা যাচাই
+                // ৩. এই ফোন নাম্বার দিয়ে ইতিমধ্যে ডাটাবেজে অন্য কোনো একাউন্ট আছে কিনা যাচাই
                 const phoneCheckSnapshot = await db.collection('users').where('phone', '==', phone).get();
                 if (!phoneCheckSnapshot.empty) {
-                    alert('❌ এই ফোন নাম্বারটি দিয়ে ইতিমধ্যে একটি অ্যাকাউন্ট তৈরি করা হয়েছে!');
+                    alert('❌ এই ফোন নাম্বারটি দিয়ে ইতিমধ্যে একটি একাউন্ট তৈরি করা হয়েছে!');
                     btn.disabled = false;
-                    btn.innerHTML = '<i class="fas fa-user-plus mr-2"></i> অ্যাকাউন্ট তৈরি করুন';
+                    btn.innerHTML = '<i class="fas fa-user-plus mr-2"></i> একাউন্ট তৈরি করুন';
                     return;
                 }
 
@@ -197,11 +197,11 @@
                 console.error("Registration error:", error);
                 let msg = error.message;
                 if(error.code === 'auth/email-already-in-use') {
-                    msg = "এই ইমেইল ঠিকানাটি দিয়ে ইতিমধ্যে অ্যাকাউন্ট খোলা হয়েছে।";
+                    msg = "এই ইমেইল ঠিকানাটি দিয়ে ইতিমধ্যে একাউন্ট খোলা হয়েছে।";
                 }
                 alert('❌ ' + msg);
                 btn.disabled = false;
-                btn.innerHTML = '<i class="fas fa-user-plus mr-2"></i> অ্যাকাউন্ট তৈরি করুন';
+                btn.innerHTML = '<i class="fas fa-user-plus mr-2"></i> একাউন্ট তৈরি করুন';
             }
         });
     </script>
