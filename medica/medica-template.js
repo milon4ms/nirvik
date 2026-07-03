@@ -5,7 +5,7 @@
  */
 
 document.addEventListener("DOMContentLoaded", () => {
-    // ১. মূল ওয়েবসাইটের অনুরূপ সম্পূর্ণ হেডার ডিজাইন (লিংক পাথ ডিরেক্টরি অনুযায়ী ঠিক করা)
+    // ১. মূল ওয়েবসাইটের অনুরূপ সম্পূর্ণ হেডার ডিজাইন (লিংক পাথ ডিরেক্টরি অনুযায়ী ঠিক করা)
     const headerHTML = `
     <header class="bg-[#008066] text-white sticky top-0 z-50 shadow-md">
         <style>
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <a href="../chest.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-lungs mr-2 text-teal-600"></i>বুকের সমস্যা</a>
                             <a href="../hands.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-hand mr-2 text-teal-600"></i>হাতের সমস্যা</a>
                             <a href="../back.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-spine mr-2 text-teal-600"></i>পিঠের সমস্যা</a>
-                            <a href="../stomach.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-stomach mr-2 text-teal-600"></i>पাকস্থলী</a>
+                            <a href="../stomach.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-stomach mr-2 text-teal-600"></i>পাকস্থলী</a>
                         </div>
                     </div>
 
@@ -92,11 +92,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     <div class="relative group">
                         <button class="flex items-center gap-1 hover:bg-white/20 px-4 py-2 rounded-2xl transition">
-                            লগ ইন <i class="fas fa-chevron-down text-xs"></i>
+                            অ্যাকাউন্ট <i class="fas fa-chevron-down text-xs"></i>
                         </button>
                         <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-56 mt-2 right-0 z-50">
+                            <a href="../login.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-sign-in-alt mr-2"></i>লগ ইন</a>
                             <a href="../register.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-user-plus mr-2"></i>রেজিস্ট্রেশন</a>
-                            <a href="../dashboard.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-user-circle mr-2"></i>আমার প্রোফাইল</a>
+                            <a href="../dashboard.html" class="block px-6 py-2.5 hover:bg-teal-50"><i class="fas fa-user-circle mr-2"></i>ড্যাশবোর্ড</a>
                             <a href="#" class="block px-6 py-2.5 hover:bg-teal-50 text-red-600"><i class="fas fa-sign-out-alt mr-2"></i>লগ আউট</a>
                         </div>
                     </div>
@@ -145,9 +146,9 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="../nose.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">👃 নাক</a>
                         <a href="../mouthful.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🦷 মুখ হইতে টুটি ও ঘাড়</a>
                         <a href="../teeth.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🦷 দাঁত</a>
-                        <a href="../chest.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🫁 বুক সমস্যা</a>
+                        <a href="../chest.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🫁 বুকে সমস্যা</a>
                         <a href="../hands.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">✋ হাতের সমস্যা</a>
-                        <a href="../back.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🔙 পিঠ</a>
+                        <a href="../back.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🔙 পিঠের সমস্যা</a>
                         <a href="../stomach.html" class="px-4 py-1.5 hover:bg-white/20 rounded-xl text-xs text-white">🍲 পাকস্থলী</a>
                     </div>
                 </details>
@@ -169,8 +170,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 </details>
 
                 <div class="border-t border-teal-700 my-2 pt-2 flex flex-col gap-1">
-                    <a href="../dashboard.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-white text-xs flex items-center gap-2">👤 আমার প্রোফাইল</a>
-                    <a href="../login.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-white text-xs flex items-center gap-2">🔑 লগ ইন / রেজিস্ট্রেশন</a>
+                    <a href="../login.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-white text-xs flex items-center gap-2">🔑 লগ ইন</a>
+                    <a href="../register.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-white text-xs flex items-center gap-2">👤 রেজিস্ট্রেশন</a>
+                    <a href="../dashboard.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-white text-xs flex items-center gap-2">📊 ড্যাশবোর্ড</a>
                 </div>
             </div>
         </div>
@@ -180,7 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const footerHTML = `
     <footer class="bg-[#002D24] text-teal-300 py-3 mt-auto text-[10px]">
         <div class="max-w-7xl mx-auto px-4 text-center flex flex-col sm:flex-row justify-between items-center gap-1">
-            <div><strong class="text-white">নির্ভীক হোমিও</strong> — মেটেরিয়া মেডিকা ডিরেক্টরি</div>
+            <div><strong class="text-white">নির্ভীক হোমিও</strong> — মেটেরিয়া মেডিকা ডিরেক্টরি</div>
             <div class="opacity-75">© ২০২৬ নির্ভীক হোমিও</div>
         </div>
     </footer>`;
@@ -199,7 +201,7 @@ document.addEventListener("DOMContentLoaded", () => {
         heroSection.classList.add("py-3");
     }
 
-    // ৫. মোবাইল মেনু ওপেন/ক্লোজ টগল লজিক (আইডি দ্বন্দ্ব এড়াতে সুনির্দিষ্ট করা হয়েছে)
+    // ৫. মোবাইল মেনু ওপেন/ক্লোজ টগল লজিক (আইডি দ্বন্দ্ব এড়াতে সুনির্দিষ্ট করা হয়েছে)
     const menuBtn = document.getElementById('template-mobile-menu-btn');
     const mobileMenu = document.getElementById('template-mobile-menu');
 
