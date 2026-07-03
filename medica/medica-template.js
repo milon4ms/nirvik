@@ -169,7 +169,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </details>
 
-                <!-- পিসির মতো মোবাইল মেনুতেও অ্যাকাউন্ট ড্রপডাউন যুক্ত করা হয়েছে -->
                 <details class="group border-t border-teal-700/50 pt-1.5">
                     <summary class="px-4 py-2 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
                         <span>👤 অ্যাকাউন্ট</span>
@@ -195,14 +194,14 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     </footer>`;
 
-    // ৩. ডমে হেডার ও ফুটার রেন্ডারিং করা
+    // ৩. ডমে হেডার ও ফুটার রেন্ডারিং করা (এখানে আইডি দুটি app-header এবং app-footer করা হয়েছে)
     const appHeader = document.getElementById("app-header");
     const appFooter = document.getElementById("app-footer");
 
     if (appHeader) appHeader.insertAdjacentHTML("afterbegin", headerHTML);
     if (appFooter) appFooter.insertAdjacentHTML("afterbegin", footerHTML);
 
-    // ৪. হিরো ব্যানারের উচ্চতা কমানো (সেকশনের ক্লাসের প্যাডিং `py-6` থেকে `py-3` এ পরিবর্তন)
+    // ৪. হিরো ব্যানারের উচ্চতা কমানো
     const heroSection = document.querySelector("section.bg-gradient-to-r");
     if (heroSection) {
         heroSection.classList.remove("py-6");
@@ -226,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // ===== লগআউট ফাংশনাল কোড (Logout Handler) =====
+    // ===== লগআউট ফাংশনাল কোড =====
     const logoutButtons = document.querySelectorAll('.logout-trigger');
     logoutButtons.forEach(button => {
         button.addEventListener('click', (e) => {
@@ -237,7 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // ৬. অ্যাডভান্সড অ্যান্টি-কপি এবং কন্টেন্ট প্রটেকশন সিস্টেম
+    // ৬. অ্যান্টি-কপি প্রটেকশন সিস্টেম
     document.body.style.userSelect = "none";
     document.body.style.webkitUserSelect = "none";
     document.body.style.msUserSelect = "none";
@@ -256,5 +255,5 @@ document.addEventListener("DOMContentLoaded", () => {
         if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") {
             e.preventDefault();
         }
-    }); 
+    });
 });
