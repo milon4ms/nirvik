@@ -1,15 +1,23 @@
 /**
  * Nirvik Homeo - Materia Medica Master Template Script
  * Year: 2026
- * Description: Dynamic Header & Footer synced with main web (Corrected Paths), Mobile Menu & Authentication Support.
+ * Description: Dynamic Header & Footer synced with main web (Corrected Paths), Mobile Menu & Authentication Support with SolaimanLipi Font.
  */
 
 document.addEventListener("DOMContentLoaded", () => {
-    // ১. মূল ওয়েবসাইটের অনুরূপ সম্পূর্ণ হেডার ডিজাইন (সাব-ডিরেক্টরি পাথ সেট করা)
+    // ১. মূল ওয়েবসাইটের অনুরূপ সম্পূর্ণ হেডার ডিজাইন (সাব-ডিরেক্টরি পাথ সেট করা এবং SolaimanLipi ফন্ট যুক্ত)
     const headerHTML = `
     <header class="bg-[#005c4b] text-white sticky top-0 z-50 shadow-md">
         <style>
-            /* ===== ড্রপডাউন যোগাযোগ সূত্র (মাউস নিচে নামালেও মেনু থাকে) ===== */
+            /* ===== গুগল ফন্ট থেকে সোলাইমান লিপি ইম্পোর্ট ===== */
+            @import url('https://fonts.googleapis.com/css2?family=SolaimanLipi&display=swap');
+
+            /* সম্পূর্ণ ওয়েবসাইটের টেক্সটে সোলাইমান লিপি ফন্ট প্রয়োগ */
+            body, header, footer, nav, button, a, div, span, p, h1, h2, h3, strong {
+                font-family: 'SolaimanLipi', sans-serif !important;
+            }
+
+            /* ===== ড্রপডাউন যোগাযোগ সূত্র (ماউস নিচে নামালেও মেনু থাকে) ===== */
             .relative.group .absolute {
                 top: calc(100% - 6px) !important;
                 padding-top: 6px !important;
@@ -173,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="../mouthful.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👅 মুখ হইতে টুটি ও ঘাড়</a>
                         <a href="../teeth.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦷 দাঁত</a>
                         <div class="border-t border-teal-700/50 my-1"></div>
-                        <a href="../chest.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🫁 বুক সমস্যা</a>
+                        <a href="../chest.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🫁 বুক समस्या</a>
                         <a href="../hands.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">✋ হাতের সমস্যা</a>
                         <a href="../back.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧍‍♂️ পিঠের সমস্যা</a>
                         <a href="../stomach.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🍲 পাকস্থলী</a>
@@ -283,7 +291,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     localStorage.removeItem('user'); 
                 }
                 if (typeof sessionStorage !== 'undefined') {
-                    sessionStorage.clear();
+                    session sessionStorage.clear();
                 }
                 
                 alert('✅ সফলভাবে লগআউট হয়েছে!');
@@ -333,4 +341,4 @@ document.addEventListener("DOMContentLoaded", () => {
             e.preventDefault();
         }
     });
-}); 
+});
