@@ -18,7 +18,10 @@
     <script src="assets/js/firebase-config.js"></script>
 
     <style>
-        body { font-family: 'SolaimanLipi', system-ui, sans-serif; background: #f0fdf4; }
+        body { 
+            font-family: 'SolaimanLipi', system-ui, sans-serif; 
+            background-color: #f0fdf4; 
+        }
         
         /* হেডার ও মেনুর কালার সমস্যা সমাধানের ফিক্স */
         #header-placeholder, nav {
@@ -32,68 +35,96 @@
             color: #a7f3d0 !important; /* হোভার কালার */
         }
 
-        .register-container { max-width: 480px; margin: 40px auto; }
-        .register-box { background: white; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.08); padding: 40px; }
-        input { width: 100%; padding: 14px 16px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 16px; transition: all 0.2s; }
-        input:focus { outline: none; border-color: #00b8a9; box-shadow: 0 0 0 3px rgba(0,184,169,0.1); }
-        .btn-register { background: linear-gradient(135deg, #00b8a9, #00897b); color: white; padding: 14px; border: none; border-radius: 12px; width: 100%; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s; }
-        .btn-register:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,184,169,0.3); }
-        .btn-register:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+        /* ইনপুট ফিল্ড ও বাটনের আধুনিক ডিজাইন ফিক্স */
+        .input-group i {
+            transition: color 0.2s;
+        }
+        .input-field:focus + i {
+            color: #059669;
+        }
         .error-msg { color: #e53e3e; font-size: 14px; margin-top: 5px; display: none; }
         .success-msg { color: #38a169; font-size: 14px; margin-top: 5px; display: none; }
     </style>
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
 
     <div id="header-placeholder"></div>
 
-    <div class="register-container px-4">
-        <div class="register-box">
-            <div class="text-center mb-8">
-                <div class="text-5xl mb-4">🌿</div>
-                <h1 class="text-3xl font-bold text-gray-800">নতুন একাউন্ট</h1>
-                <p class="text-gray-500 mt-2">নির্ভীক হোমিওতে স্বাগতম</p>
+    <main class="flex-grow flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-md w-full space-y-8 bg-white p-8 sm:p-10 rounded-2xl shadow-xl border border-emerald-100/50">
+            
+            <div class="text-center">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-emerald-50 text-emerald-600 text-3xl mb-4 shadow-sm border border-emerald-100 animate-bounce">
+                    🌿
+                </div>
+                <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight">নতুন একাউন্ট</h2>
+                <p class="mt-2 text-sm text-gray-500">নির্ভীক হোমিওতে আপনাকে স্বাগতম</p>
             </div>
 
-            <form id="registerForm">
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">👤 নাম</label>
-                    <input type="text" id="displayName" placeholder="আপনার নাম" required>
+            <form class="mt-8 space-y-5" id="registerForm">
+                
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">👤 নাম</label>
+                    <div class="relative input-group">
+                        <input type="text" id="displayName" placeholder="আপনার নাম লিখুন" required
+                            class="input-field w-full pl-4 pr-4 py-3 bg-gray-50 border-2 border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:border-emerald-600 focus:bg-white transition-all duration-200 text-base">
+                    </div>
                 </div>
                 
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">📞 ফোন নাম্বার</label>
-                    <input type="text" id="phone" placeholder="01XXXXXXXXX (১১ ডিজিট)" required>
-                    <div id="phoneError" class="error-msg">❌ ফোন নাম্বারটি অবশ্যই ১১ ডিজিটের এবং ০১ দিয়ে শুরু হতে হবে!</div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">📞 ফোন নাম্বার</label>
+                    <div class="relative input-group">
+                        <input type="text" id="phone" placeholder="01XXXXXXXXX (১১ ডিজিট)" required
+                            class="input-field w-full pl-4 pr-4 py-3 bg-gray-50 border-2 border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:border-emerald-600 focus:bg-white transition-all duration-200 text-base">
+                    </div>
+                    <div id="phoneError" class="error-msg mt-1.5 flex items-center gap-1.5 bg-red-50 text-red-600 px-3 py-1.5 rounded-lg border border-red-100">
+                        <span>❌ ফোন নাম্বারটি অবশ্যই ১১ ডিজিটের এবং ০১ দিয়ে শুরু হতে হবে!</span>
+                    </div>
                 </div>
 
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">📧 ইমেইল ঠিকানা</label>
-                    <input type="email" id="email" placeholder="আপনার আসল ইমেইল ঠিকানা দিন" required>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">📧 ইমেইল ঠিকানা</label>
+                    <div class="relative input-group">
+                        <input type="email" id="email" placeholder="আপনার আসল ইমেইল ঠিকানা দিন" required
+                            class="input-field w-full pl-4 pr-4 py-3 bg-gray-50 border-2 border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:border-emerald-600 focus:bg-white transition-all duration-200 text-base">
+                    </div>
                 </div>
 
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-medium mb-2">🔒 পাসওয়ার্ড</label>
-                    <input type="password" id="password" placeholder="কমপক্ষে ৬ অক্ষরের" required minlength="6">
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">🔒 পাসওয়ার্ড</label>
+                    <div class="relative input-group">
+                        <input type="password" id="password" placeholder="কমপক্ষে ৬ অক্ষরের পাসওয়ার্ড" required minlength="6"
+                            class="input-field w-full pl-4 pr-4 py-3 bg-gray-50 border-2 border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:border-emerald-600 focus:bg-white transition-all duration-200 text-base">
+                    </div>
                 </div>
 
-                <div class="mb-6">
-                    <label class="block text-gray-700 font-medium mb-2">🔒 পাসওয়ার্ড নিশ্চিত করুন</label>
-                    <input type="password" id="confirmPassword" placeholder="আবার পাসওয়ার্ড লিখুন" required>
-                    <div id="passwordError" class="error-msg">❌ পাসওয়ার্ড দুটি মিলছে না!</div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">🔒 পাসওয়ার্ড নিশ্চিত করুন</label>
+                    <div class="relative input-group">
+                        <input type="password" id="confirmPassword" placeholder="আবার পাসওয়ার্ডটি লিখুন" required
+                            class="input-field w-full pl-4 pr-4 py-3 bg-gray-50 border-2 border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:border-emerald-600 focus:bg-white transition-all duration-200 text-base">
+                    </div>
+                    <div id="passwordError" class="error-msg mt-1.5 flex items-center gap-1.5 bg-red-50 text-red-600 px-3 py-1.5 rounded-lg border border-red-100">
+                        <span>❌ পাসওয়ার্ড দুটি মিলছে না!</span>
+                    </div>
                 </div>
 
-                <button type="submit" class="btn-register" id="registerBtn">
-                    <i class="fas fa-user-plus mr-2"></i> একাউন্ট তৈরি করুন
-                </button>
+                <div class="pt-2">
+                    <button type="submit" id="registerBtn"
+                        class="w-full flex justify-center items-center py-3.5 px-4 border border-transparent rounded-xl text-base font-bold text-white bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-4 focus:ring-emerald-100 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 disabled:opacity-60 disabled:cursor-not-allowed disabled:transform-none">
+                        <i class="fas fa-user-plus mr-2"></i> একাউন্ট তৈরি করুন
+                    </button>
+                </div>
 
-                <p class="text-center mt-6 text-gray-600">
-                    ইতিমধ্যে একাউন্ট আছে? 
-                    <a href="login.html" class="text-teal-600 font-bold">লগইন করুন</a>
-                </p>
+                <div class="text-center mt-4">
+                    <p class="text-sm text-gray-600">
+                        ইতিমধ্যে একাউন্ট আছে? 
+                        <a href="login.html" class="font-bold text-emerald-600 hover:text-emerald-700 ml-1 transition-colors duration-200 underline underline-offset-4">লগইন করুন</a>
+                    </p>
+                </div>
             </form>
         </div>
-    </div>
+    </main>
 
     <div id="footer-placeholder"></div>
 
@@ -162,16 +193,16 @@
             try {
                 const db = firebase.firestore();
 
-                // ৩. এই ফোন নাম্বার দিয়ে ইতিমধ্যে ডাটাবেজে অন্য কোনো একাউন্ট আছে কিনা যাচাই
+                // ৩. এই ফোন নাম্বার দিয়ে ইতিমধ্যে ডাটাবেজে অন্য কোনো একাউন্ট আছে কিনা যাচাই
                 const phoneCheckSnapshot = await db.collection('users').where('phone', '==', phone).get();
                 if (!phoneCheckSnapshot.empty) {
-                    alert('❌ এই ফোন নাম্বারটি দিয়ে ইতিমধ্যে একটি একাউন্ট তৈরি করা হয়েছে!');
+                    alert('❌ এই ফোন নাম্বারটি দিয়ে ইতিমধ্যে একটি একাউন্ট তৈরি করা হয়েছে!');
                     btn.disabled = false;
                     btn.innerHTML = '<i class="fas fa-user-plus mr-2"></i> একাউন্ট তৈরি করুন';
                     return;
                 }
 
-                // ৪. Firebase Auth-এ আসল ইমেইল এবং পাসওয়ার্ড দিয়ে ইউজার তৈরি
+                // ৪. Firebase Auth-এ আসল ইমেইল এবং পাসওয়ার্ড দিয়ে ইউজার তৈরি
                 const userCredential = await firebase.auth().createUserWithEmailAndPassword(email, password);
                 const user = userCredential.user;
 
@@ -197,7 +228,7 @@
                 console.error("Registration error:", error);
                 let msg = error.message;
                 if(error.code === 'auth/email-already-in-use') {
-                    msg = "এই ইমেইল ঠিকানাটি দিয়ে ইতিমধ্যে একাউন্ট খোলা হয়েছে।";
+                    msg = "এই ইমেইল ঠিকানাটি দিয়ে ইতিমধ্যে একাউন্ট খোলা হয়েছে।";
                 }
                 alert('❌ ' + msg);
                 btn.disabled = false;
@@ -208,4 +239,3 @@
 
 </body>
 </html>
-
