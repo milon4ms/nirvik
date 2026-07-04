@@ -233,7 +233,7 @@
             });
         }
 
-        // লাইভ কোটা কাউন্টার ও প্রটেকশন লক
+        // লাইভ কোটা কাউন্টার ও প্রটেকশন লক (Composite Index ঝামেলা বিহীন ইনটেলিজেন্ট সিস্টেম)
         function trackTodayQuota(uid) {
             const db = firebase.firestore();
             const startOfToday = new Date();
@@ -241,12 +241,24 @@
             const endOfToday = new Date();
             endOfToday.setHours(23,59,59,999);
 
+            // শুধু চিকিৎসকের আইডি দিয়ে রিয়েল-টাইম স্ন্যাপশট ওপেন রাখা হলো যেন কোন জটিল ইনডেক্স না লাগে
             db.collection("prescriptions")
                 .where("doctorId", "==", uid)
-                .where("createdAt", ">=", startOfToday)
-                .where("createdAt", "<=", endOfToday)
                 .onSnapshot((snapshot) => {
-                    todaySavedCount = snapshot ? snapshot.size : 0;
+                    if (!snapshot) return;
+                    
+                    let countToday = 0;
+                    snapshot.forEach((doc) => {
+                        const data = doc.data();
+                        if (data.createdAt && typeof data.createdAt.toMillis === 'function') {
+                            const createdTime = data.createdAt.toMillis();
+                            if (createdTime >= startOfToday.getTime() && createdTime <= endOfToday.getTime()) {
+                                countToday++;
+                            }
+                        }
+                    });
+
+                    todaySavedCount = countToday;
                     $('#lblUsed').text(todaySavedCount);
                     
                     if (currentUserRole !== 'admin' && todaySavedCount >= userDailyLimit) {
@@ -271,7 +283,7 @@
                 text = text.trim();
 
                 if(text.length > 2300) {
-                    alert("✂️ নোটিশ: ডাটাবেজ সুরক্ষায় প্রথম ২৩০০ ক্যারেক্টার নেওয়া হয়েছে।");
+                    alert("✂️ নোটিশ: ডাটাবেজ সুরক্ষায় প্রথম ২৩০০ ক্যারোক্তার নেওয়া হয়েছে।");
                     text = text.substring(0, 2300);
                 }
 
@@ -306,7 +318,7 @@
             $('#serialNo').val(nextSuggestedSerial);
         }
 
-        // ফর্ম সাবমিট (সংশোধিত: সার্ভার সাইড টাইমিং বাগমুক্ত করা সংস্করণ)
+        // ফর্ম সাবমিট (সংশোধিত: ইনডেক্সিং ঝামেলামুক্ত ক্লায়েন্ট ও সার্ভার ডুয়াল-লেয়ার লক)
         $('#prescriptionForm').on('submit', function(e) {
             e.preventDefault();
             if(!currentUserId) return alert("ত্রুটি: পুনরায় লগইন করুন।");
@@ -320,7 +332,7 @@
                 return;
             }
 
-            // সাধারণ ও পেইড চিকিৎসকদের জন্য ডাটাবেজ থেকে ইনস্ট্যান্ট তাজা কাউন্ট চেক
+            // সাধারণ ও পেইড চিকিৎসকদের জন্য কোনো জটিল ফিল্টার ছাড়া সরাসরি আইডি দিয়ে রিয়েল কাউন্ট বের করা
             const db = firebase.firestore();
             const startOfToday = new Date();
             startOfToday.setHours(0,0,0,0);
@@ -329,11 +341,21 @@
 
             db.collection("prescriptions")
                 .where("doctorId", "==", currentUserId)
-                .where("createdAt", ">=", startOfToday)
-                .where("createdAt", "<=", endOfToday)
-                .get() // অন-ডিমান্ড তাজা ডাটা রিড
+                .get() 
                 .then((snapshot) => {
-                    const exactCurrentCount = snapshot ? snapshot.size : 0;
+                    let exactCurrentCount = 0;
+                    
+                    if (snapshot && !snapshot.empty) {
+                        snapshot.forEach((doc) => {
+                            const data = doc.data();
+                            if (data.createdAt && typeof data.createdAt.toMillis === 'function') {
+                                const createdTime = data.createdAt.toMillis();
+                                if (createdTime >= startOfToday.getTime() && createdTime <= endOfToday.getTime()) {
+                                    exactCurrentCount++;
+                                }
+                            }
+                        });
+                    }
                     
                     if (exactCurrentCount >= userDailyLimit) {
                         alert(`⚠️ দুঃখিত! আপনার আজকের কোটা (${userDailyLimit}টি) ইতিমধ্যে পূর্ণ হয়ে গেছে। নতুন ডাটা সংরক্ষণ করা যাবে না।`);
@@ -341,12 +363,17 @@
                         return;
                     }
                     
-                    // লিমিট ক্রস না করলে সেভ রান করুন
+                    // লিমিট ও কোটা ঠিক থাকলে ফাইনাল সেভ এক্সিকিউট হবে
                     executeSave(submitBtn);
                 })
                 .catch((error) => {
-                    alert("কোটা যাচাই করতে সমস্যা হয়েছে। আবার চেষ্টা করুন।");
-                    submitBtn.prop('disabled', false).text('ডাটাবেজে সংরক্ষণ করুন');
+                    // কোনো কারণে ফেইল হলে ব্যাকআপ হিসেবে রিয়েল-টাইম স্ন্যাপশটের ডাটা কাউন্টকে স্ট্যান্ডার্ড ধরবে
+                    if (todaySavedCount >= userDailyLimit) {
+                        alert(`⚠️ দুঃখিত! আপনার আজকের কোটা (${userDailyLimit}টি) ইতিমধ্যে পূর্ণ হয়ে গেছে।`);
+                        submitBtn.prop('disabled', true).text('আজকের জমার কোটা শেষ হয়ে গেছে');
+                    } else {
+                        executeSave(submitBtn);
+                    }
                 });
         });
 
