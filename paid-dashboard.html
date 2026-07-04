@@ -22,7 +22,7 @@
         document.head.appendChild(style);
 
         let isDashboardInitialized = false;
-        let currentUserData = {}; // বর্তমান ইউজারের ডেটা সংরক্ষণের জন্য
+        let currentUserData = {};
 
         firebase.auth().onAuthStateChanged((user) => {
             if (!user) {
@@ -37,7 +37,7 @@
                         
                         if (!isDashboardInitialized) {
                             isDashboardInitialized = true;
-                            currentUserData = doc.data(); // ডেটা গ্লোবাল ভেরিয়েবলে রাখা হলো
+                            currentUserData = doc.data();
                             loadUserData(currentUserData, user.uid, user);
                         }
                     } else {
@@ -111,11 +111,10 @@
             transform: translateX(2px);
         }
 
-        /* প্রফাইল আপডেট ফর্ম মডাল স্টাইল */
         .modal {
             transition: opacity 0.25s ease;
         }
-        body.modal-active {
+        .modal-active-body {
             overflow: hidden;
         }
     </style>
@@ -175,7 +174,7 @@
                     </div>
                     <div class="flex flex-col gap-2 mt-2">
                         <p class="text-xl font-bold"><span id="paymentAmount">০</span> ৳</p>
-                        <button onclick="toggleModal()" class="text-xl font-bold text-emerald-300 hover:text-white transition flex items-center gap-2 text-left w-full">
+                        <button type="button" onclick="toggleModal()" class="text-xl font-bold text-emerald-300 hover:text-white transition flex items-center gap-2 text-left w-full cursor-pointer">
                             <i class="fas fa-user-edit text-lg"></i> প্রোফাইল আপডেট করুন
                         </button>
                     </div>
@@ -319,34 +318,65 @@
         </div>
     </div>
 
+    <!-- প্রোফাইল আপডেট করার পপআপ ফর্ম (Modal) -->
     <div id="profileModal" class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center z-50">
         <div class="modal-overlay absolute w-full h-full bg-slate-900 opacity-50 backdrop-blur-sm" onclick="toggleModal()"></div>
         
-        <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded-xl shadow-lg z-50 overflow-y-auto border border-slate-200">
+        <div class="modal-container bg-white w-11/12 md:max-w-lg mx-auto rounded-xl shadow-lg z-50 max-h-[90vh] overflow-y-auto border border-slate-200">
             
             <div class="modal-content py-4 text-left px-6">
                 <div class="flex justify-between items-center pb-3 border-b border-slate-100">
-                    <p class="text-lg font-bold text-slate-800"><i class="fas fa-user-edit text-emerald-600 mr-1"></i> প্রফাইল আপডেট করুন</p>
+                    <p class="text-lg font-bold text-slate-800"><i class="fas fa-user-edit text-emerald-600 mr-1"></i> চিকিৎসকের প্রফাইল আপডেট</p>
                     <div class="modal-close cursor-pointer z-50" onclick="toggleModal()">
                         <i class="fas fa-times text-slate-400 hover:text-slate-600"></i>
                     </div>
                 </div>
 
                 <form id="profileUpdateForm" class="space-y-4 pt-4">
-                    <div>
-                        <label class="block text-xs font-bold text-slate-600 mb-1">নাম:</label>
-                        <input type="text" id="editName" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
-                    </div>
-                    <div>
-                        <label class="block text-xs font-bold text-slate-600 mb-1">মোবাইল নম্বর:</label>
-                        <input type="text" id="editPhone" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
-                    </div>
-                    <div>
-                        <label class="block text-xs font-bold text-slate-600 mb-1">ইমেইল ঠিকানা:</label>
-                        <input type="email" id="editEmail" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="editName" class="block text-xs font-bold text-slate-600 mb-1">চিকিৎসকের নাম:</label>
+                            <input type="text" id="editName" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                        </div>
+                        <div>
+                            <label for="editDoctorDegree" class="block text-xs font-bold text-slate-600 mb-1">পদবী/ডিগ্রী:</label>
+                            <input type="text" id="editDoctorDegree" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                        </div>
                     </div>
 
-                    <div class="flex justify-end pt-2 gap-2">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="editRegNo" class="block text-xs font-bold text-slate-600 mb-1">রেজিষ্ট্রেশন নম্বর:</label>
+                            <input type="text" id="editRegNo" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                        </div>
+                        <div>
+                            <label for="editPhone" class="block text-xs font-bold text-slate-600 mb-1">ফোন নম্বর:</label>
+                            <input type="text" id="editPhone" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="editChamberName" class="block text-xs font-bold text-slate-600 mb-1">চেম্বারের নাম:</label>
+                            <input type="text" id="editChamberName" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                        </div>
+                        <div>
+                            <label for="editChamberPhonee" class="block text-xs font-bold text-slate-600 mb-1">চেম্বারের ফোন নম্বর:</label>
+                            <input type="text" id="editChamberPhonee" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="editChamberAddress" class="block text-xs font-bold text-slate-600 mb-1">চেম্বারের ঠিকানা:</label>
+                        <input type="text" id="editChamberAddress" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                    </div>
+
+                    <div>
+                        <label for="editVisitingTime" class="block text-xs font-bold text-slate-600 mb-1">রোগী দেখার সময়:</label>
+                        <input type="text" id="editVisitingTime" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                    </div>
+
+                    <div class="flex justify-end pt-2 gap-2 border-t border-slate-100 mt-4">
                         <button type="button" onclick="toggleModal()" class="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs rounded-lg transition">বাতিল</button>
                         <button type="submit" id="saveBtn" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-lg transition shadow-sm flex items-center gap-1">
                             <i class="fas fa-save"></i> সংরক্ষণ করুন
@@ -367,24 +397,26 @@
 
         let timerInterval;
 
-        // মডাল খোলা এবং বন্ধ করার ফাংশন
         function toggleModal() {
             const body = document.querySelector('body');
             const modal = document.querySelector('#profileModal');
             
-            // মডাল খোলার সময় ইনপুট ফিল্ডগুলোতে বর্তমান ডেটা সেট করা
             if(modal.classList.contains('pointer-events-none')) {
                 document.getElementById('editName').value = currentUserData.name || '';
+                document.getElementById('editDoctorDegree').value = currentUserData.doctorDegree || '';
+                document.getElementById('editRegNo').value = currentUserData.regNo || '';
                 document.getElementById('editPhone').value = currentUserData.phone || '';
-                document.getElementById('editEmail').value = currentUserData.email || '';
+                document.getElementById('editChamberName').value = currentUserData.chamberName || '';
+                document.getElementById('editChamberAddress').value = currentUserData.chamberAddress || '';
+                document.getElementById('editVisitingTime').value = currentUserData.visitingTime || '';
+                document.getElementById('editChamberPhonee').value = currentUserData.chamberPhonee || '';
             }
 
             modal.classList.toggle('opacity-0');
             modal.classList.toggle('pointer-events-none');
-            body.classList.toggle('modal-active');
+            body.classList.toggle('modal-active-body');
         }
 
-        // ফর্ম সাবমিট করে ডেটাবেস (Firestore) এডিট/আপডেট করার ফাংশন
         document.getElementById('profileUpdateForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
@@ -396,19 +428,28 @@
             saveBtn.innerHTML = `<i class="fas fa-spinner animate-spin"></i> প্রসেসিং...`;
 
             const updatedName = document.getElementById('editName').value.trim();
+            const updatedDoctorDegree = document.getElementById('editDoctorDegree').value.trim();
+            const updatedRegNo = document.getElementById('editRegNo').value.trim();
             const updatedPhone = document.getElementById('editPhone').value.trim();
-            const updatedEmail = document.getElementById('editEmail').value.trim();
+            const updatedChamberName = document.getElementById('editChamberName').value.trim();
+            const updatedChamberAddress = document.getElementById('editChamberAddress').value.trim();
+            const updatedVisitingTime = document.getElementById('editVisitingTime').value.trim();
+            const updatedChamberPhonee = document.getElementById('editChamberPhonee').value.trim();
 
-            // ফায়ারস্টোরে ডেটা আপডেট করা হচ্ছে
             firebase.firestore().collection("users").doc(user.uid).update({
                 name: updatedName,
+                doctorDegree: updatedDoctorDegree,
+                regNo: updatedRegNo,
                 phone: updatedPhone,
-                email: updatedEmail
+                chamberName: updatedChamberName,
+                chamberAddress: updatedChamberAddress,
+                visitingTime: updatedVisitingTime,
+                chamberPhonee: updatedChamberPhonee
             })
             .then(() => {
                 alert("আপনার প্রোফাইল সফলভাবে আপডেট হয়েছে!");
                 toggleModal();
-                window.location.reload(); // নতুন ডেটা লোড করার জন্য পেজ রিলোড
+                window.location.reload();
             })
             .catch((error) => {
                 console.error("Error updating profile: ", error);
@@ -491,4 +532,3 @@
     </script>
 </body>
 </html>
-
