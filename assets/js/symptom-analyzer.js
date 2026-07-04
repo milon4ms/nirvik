@@ -1,6 +1,6 @@
 /**
  * ============================================
- * হোমিও রোগী বিশ্লেষণ - সংশোধিত কোড
+ * হোমিও রোগী বিশ্লেষণ - আগের ডিজাইন ও সব বাটনসহ
  * ============================================
  */
 
@@ -23,7 +23,7 @@ function getCheckedValues(name) {
     return Array.from(checked).map(cb => cb.value).join(', ');
 }
 
-// ---------- প্রম্পট জেনারেট (আপডেটেড) ----------
+// ---------- প্রম্পট জেনারেট ----------
 function generateSymptomPrompt() {
     const today = new Date().toLocaleDateString('bn-BD');
 
@@ -101,26 +101,35 @@ function generateSymptomPrompt() {
     return promptText;
 }
 
-// ---------- ফলাফল ও বাটন হ্যান্ডলার ----------
+// ---------- ফলাফল ও কপি ফাংশন ----------
 function displayResult() {
     const resultDiv = document.getElementById('result');
     if (!resultDiv) return;
-    resultDiv.innerHTML = `<h5>📋 রোগী বিশ্লেষণ প্রম্পট</h5><p style="white-space:pre-wrap;">${generateSymptomPrompt()}</p>`;
+    const promptText = generateSymptomPrompt();
+    resultDiv.innerHTML = `<h5>📋 রোগী বিশ্লেষণ প্রম্পট</h5><p id="prompt-content" style="white-space:pre-wrap;">${promptText}</p>`;
 }
 
 function getResultText() {
-    const resultDiv = document.getElementById('result');
-    return resultDiv ? resultDiv.innerText : null;
+    const content = document.getElementById('prompt-content');
+    return content ? content.innerText : null;
 }
 
 function copyResult() {
     const text = getResultText();
-    if (text) navigator.clipboard.writeText(text).then(() => alert('✅ প্রম্পট কপি হয়েছে!'));
+    if (!text) { alert('⚠️ আগে প্রম্পট জেনারেট করুন!'); return; }
+    navigator.clipboard.writeText(text).then(() => alert('✅ কপি হয়েছে!'));
 }
 
-function openPerplexity() {
+// ---------- AI টুলস ফাংশন ----------
+function openAI(url) {
     const text = getResultText();
-    if (text) window.open('https://www.perplexity.ai/?q=' + encodeURIComponent(text), '_blank');
+    if (!text) { alert('⚠️ আগে প্রম্পট জেনারেট করুন!'); return; }
+    // Perplexity-র জন্য ইউআরএল এ প্রম্পট যুক্ত হবে
+    if (url.includes('perplexity')) {
+        window.open(url + encodeURIComponent(text), '_blank');
+    } else {
+        window.open(url, '_blank');
+    }
 }
 
 // ---------- বাটন ডায়নামিক্যালি তৈরি ----------
@@ -130,15 +139,21 @@ function createButtons() {
 
     const buttons = [
         { id: 'generateBtn', class: 'btn btn-primary', icon: '📋', text: 'জেনারেট করুন', type: 'submit' },
-        { id: 'copyBtn', class: 'btn btn-copy', icon: '📝', text: 'কপি করুন', type: 'button', action: copyResult },
-        { id: 'perplexityBtn', class: 'btn btn-perplexity', icon: '🔬', text: 'Perplexity', type: 'button', action: openPerplexity },
-        { id: 'geminiBtn', class: 'btn btn-gemini', icon: '🌟', text: 'Gemini', type: 'button', action: () => window.open('https://gemini.google.com/', '_blank') }
+        { id: 'copyBtn', class: 'btn btn-copy', icon: '📝', text: 'প্রম্পট কপি', type: 'button', action: copyResult },
+        { id: 'geminiBtn', class: 'btn btn-gemini', icon: '🌟', text: 'Gemini', action: () => openAI('https://gemini.google.com/') },
+        { id: 'chatgptBtn', class: 'btn btn-chatgpt', icon: '🤖', text: 'ChatGPT', action: () => openAI('https://chat.openai.com/') },
+        { id: 'grokBtn', class: 'btn btn-grok', icon: '⚡', text: 'Grok', action: () => openAI('https://grok.com/') },
+        { id: 'deepseekBtn', class: 'btn btn-deepseek', icon: '🔍', text: 'DeepSeek', action: () => openAI('https://chat.deepseek.com/') },
+        { id: 'perplexityBtn', class: 'btn btn-perplexity', icon: '🔬', text: 'Perplexity', action: () => openAI('https://www.perplexity.ai/?q=') }
     ];
 
     const buttonGroup = document.createElement('div');
     buttonGroup.className = 'button-group';
+    
     buttons.forEach(btnData => {
         const btn = document.createElement('button');
+        btn.id = btnData.id;
+        btn.className = btnData.class;
         btn.innerHTML = `${btnData.icon} ${btnData.text}`;
         btn.onclick = (btnData.type === 'submit') ? (e) => { e.preventDefault(); displayResult(); } : btnData.action;
         buttonGroup.appendChild(btn);
