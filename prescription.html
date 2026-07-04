@@ -85,9 +85,14 @@
                     <h2 class="text-sm font-bold text-slate-800 flex items-center gap-1.5">
                         <i class="fas fa-edit text-emerald-500"></i> প্রেসক্রিপশন এন্ট্রি
                     </h2>
-                    <button type="button" onclick="handlePaste()" class="bg-emerald-50 hover:bg-emerald-100 text-emerald-700 font-bold text-xs px-3 py-1 rounded-lg border border-emerald-200 transition flex items-center gap-1">
-                        <i class="fas fa-paste"></i> Paste (পেস্ট করুন)
-                    </button>
+                    <div class="flex gap-2">
+                        <button type="button" onclick="clearFormFields()" class="bg-rose-50 hover:bg-rose-100 text-rose-700 font-bold text-xs px-3 py-1 rounded-lg border border-rose-200 transition flex items-center gap-1">
+                            <i class="fas fa-eraser"></i> Clear (মুছুন)
+                        </button>
+                        <button type="button" onclick="handlePaste()" class="bg-emerald-50 hover:bg-emerald-100 text-emerald-700 font-bold text-xs px-3 py-1 rounded-lg border border-emerald-200 transition flex items-center gap-1">
+                            <i class="fas fa-paste"></i> Paste (পেস্ট করুন)
+                        </button>
+                    </div>
                 </div>
                 
                 <form id="prescriptionForm" class="space-y-3">
@@ -199,6 +204,14 @@
             $('#footer-placeholder').load('assets/footer.html');
         });
 
+        // ফর্ম খালি করার লজিক (Clear Button)
+        function clearFormFields() {
+            $('#prescriptionForm')[0].reset();
+            $('#prescriptionText').val('');
+            applySuggestedSerial();
+            alert("✅ ফর্মের সকল তথ্য খালি করা হয়েছে!");
+        }
+
         // চিকিৎসকের অ্যাকাউন্ট টাইপ ও কোটা ট্র্যাকিং
         function fetchUserLimitAndUsage(uid) {
             const db = firebase.firestore();
@@ -233,7 +246,7 @@
             });
         }
 
-        // লাইভ কোটা কাউন্টার ও প্রটেকশন লক (Composite Index ঝামেলা বিহীন ইনটেলিজেন্ট সিস্টেম)
+        // লাইভ কোটা কাউন্টার ও প্রটেকশন লক
         function trackTodayQuota(uid) {
             const db = firebase.firestore();
             const startOfToday = new Date();
@@ -241,7 +254,6 @@
             const endOfToday = new Date();
             endOfToday.setHours(23,59,59,999);
 
-            // শুধু চিকিৎসকের আইডি দিয়ে রিয়েল-টাইম স্ন্যাপশট ওপেন রাখা হলো যেন কোন জটিল ইনডেক্স না লাগে
             db.collection("prescriptions")
                 .where("doctorId", "==", uid)
                 .onSnapshot((snapshot) => {
@@ -283,7 +295,7 @@
                 text = text.trim();
 
                 if(text.length > 2300) {
-                    alert("✂️ নোটিশ: ডাটাবেজ সুরক্ষায় প্রথম ২৩০০ ক্যারোক্তার নেওয়া হয়েছে।");
+                    alert("✂️ নোটিশ: ডাটাবেজ সুরক্ষায় প্রথম ২৩০০ ক্যারেক্টার নেওয়া হয়েছে।");
                     text = text.substring(0, 2300);
                 }
 
@@ -318,7 +330,7 @@
             $('#serialNo').val(nextSuggestedSerial);
         }
 
-        // ফর্ম সাবমিট (সংশোধিত: ইনডেক্সিং ঝামেলামুক্ত ক্লায়েন্ট ও সার্ভার ডুয়াল-লেয়ার লক)
+        // ফর্ম সাবমিট
         $('#prescriptionForm').on('submit', function(e) {
             e.preventDefault();
             if(!currentUserId) return alert("ত্রুটি: পুনরায় লগইন করুন।");
@@ -326,13 +338,11 @@
             const submitBtn = $('#btnSubmitPrescription');
             submitBtn.prop('disabled', true).text('যাচাই করা হচ্ছে...');
 
-            // এডমিন হলে সরাসরি সেভ করার অনুমতি দিন
             if (currentUserRole === 'admin') {
                 executeSave(submitBtn);
                 return;
             }
 
-            // সাধারণ ও পেইড চিকিৎসকদের জন্য কোনো জটিল ফিল্টার ছাড়া সরাসরি আইডি দিয়ে রিয়েল কাউন্ট বের করা
             const db = firebase.firestore();
             const startOfToday = new Date();
             startOfToday.setHours(0,0,0,0);
@@ -363,11 +373,9 @@
                         return;
                     }
                     
-                    // লিমিট ও কোটা ঠিক থাকলে ফাইনাল সেভ এক্সিকিউট হবে
                     executeSave(submitBtn);
                 })
                 .catch((error) => {
-                    // কোনো কারণে ফেইল হলে ব্যাকআপ হিসেবে রিয়েল-টাইম স্ন্যাপশটের ডাটা কাউন্টকে স্ট্যান্ডার্ড ধরবে
                     if (todaySavedCount >= userDailyLimit) {
                         alert(`⚠️ দুঃখিত! আপনার আজকের কোটা (${userDailyLimit}টি) ইতিমধ্যে পূর্ণ হয়ে গেছে।`);
                         submitBtn.prop('disabled', true).text('আজকের জমার কোটা শেষ হয়ে গেছে');
@@ -377,7 +385,6 @@
                 });
         });
 
-        // প্রকৃত সেভ এক্সিকিউশন লজিক
         function executeSave(submitBtn) {
             let mainText = $('#prescriptionText').val();
             if(mainText.length > 2300) {
@@ -473,6 +480,7 @@
             });
         }
 
+        // সংশোধিত অ্যাডভান্সড প্রিন্ট উইন্ডো লেআউট (চাহিদা অনুযায়ী ডাটা পার্সিং-সহ)
         function printPrescriptionWindow(serial, date, name, phone, text) {
             serial = unescape(serial);
             date = unescape(date);
@@ -480,7 +488,61 @@
             phone = unescape(phone);
             text = unescape(text);
 
-            const printWindow = window.open('', '_blank', 'width=900,height=1000');
+            // টেক্সট থেকে বাম এবং ডান কলামের সুনির্দিষ্ট ডাটা এক্সট্র্যাক্ট করার লজিক
+            function extractSection(fullText, startHeader, endHeadersArray) {
+                const startIndex = fullText.indexOf(startHeader);
+                if (startIndex === -1) return '';
+                
+                let remainingText = fullText.substring(startIndex);
+                let minEndIndex = remainingText.length;
+                
+                endHeadersArray.forEach(header => {
+                    const idx = remainingText.indexOf(header, startHeader.length);
+                    if (idx !== -1 && idx < minEndIndex) {
+                        minEndIndex = idx;
+                    }
+                });
+                
+                return remainingText.substring(0, minEndIndex).trim();
+            }
+
+            // প্যারাগ্রাফ পৃথকীকরণ
+            const leftTargetHeaders = ["রোগীর সংক্ষিপ্ত লক্ষণ", "সম্ভাব্য রোগ", "Provisional Diagnosis"];
+            const rightTargetHeaders = ["Rx", "ঔষধ ও সেবন বিধি", "জীবনযাপন ও পথ্য পরামর্শ", "বর্জনীয় খাবার"];
+
+            let leftColumnContent = '';
+            let rightColumnContent = '';
+
+            // টেক্সটের প্রতিটি লাইন চেক করে সহজ ইন্টেলিজেন্ট ম্যাচিং
+            const lines = text.split('\n');
+            let currentSide = 'right'; // ডিফল্টভাবে সব লেখা ডানে যাবে যদি ম্যাচ না করে
+
+            lines.forEach(line => {
+                const cleanLine = line.trim();
+                
+                // বাম কলামের ইন্ডিকেটর চেক
+                if (cleanLine.includes("রোগীর সংক্ষিপ্ত লক্ষণ") || cleanLine.includes("সম্ভাব্য রোগ") || cleanLine.includes("Provisional Diagnosis")) {
+                    currentSide = 'left';
+                } 
+                // ডান কলামের ইন্ডিকেটর চেক
+                else if (cleanLine.startsWith("Rx") || cleanLine.includes("ঔষধ ও সেবন বিধি") || cleanLine.includes("জীবনযাপন ও পথ্য পরামর্শ") || cleanLine.includes("বর্জনীয় খাবার")) {
+                    currentSide = 'right';
+                }
+
+                if (currentSide === 'left') {
+                    leftColumnContent += line + '\n';
+                } else {
+                    rightColumnContent += line + '\n';
+                }
+            });
+
+            // যদি সম্পূর্ণ লেখায় কোনো ম্যাচ না পাওয়া যায়, তবে ব্যাকআপ হিসেবে মূল টেক্সটটিই ডান পাশে দেখাবে
+            if (!leftColumnContent.trim()) {
+                rightColumnContent = text;
+                leftColumnContent = "রোগীর সাধারণ লক্ষণাবলী ও কেস হিস্ট্রি ডান কলামের বিবরণীতে সংযুক্ত আছে।";
+            }
+
+            const printWindow = window.open('', '_blank', 'width=950,height=1000');
             printWindow.document.write(`
                 <html>
                 <head>
@@ -493,7 +555,7 @@
                         @media print {
                             body { background: white; color: black; }
                             .no-print { display: none; }
-                            @page { size: A4; margin: 15mm; }
+                            @page { size: A4; margin: 12mm; }
                         }
                     </style>
                 </head>
@@ -504,16 +566,18 @@
                     </div>
 
                     <div class="flex justify-between items-start border-b-4 border-emerald-700 pb-4 mb-6">
-                        <div>
-                            <h1 class="text-3xl font-black text-emerald-800 tracking-wide">নির্ভীক হোমিও</h1>
-                            <p class="text-md font-bold text-slate-700 mt-1">${currentUserName}</p>
-                            <p class="text-xs text-slate-500">DHMS (হোমিওপ্যাথিক চিকিৎসা শিক্ষা বোর্ড)</p>
-                            <p class="text-xs text-slate-400 mt-0.5">ডিজিটাল এআই প্রেসক্রিপশন নেটওয়ার্ক</p>
+                        <div class="space-y-0.5">
+                            <h1 class="text-2xl font-black text-emerald-800 tracking-wide">${currentUserName}</h1>
+                            <p class="text-sm font-bold text-slate-700">DHMS (হোমিওপ্যাথিক চিকিৎসা শিক্ষা বোর্ড)</p>
+                            <p class="text-xs text-slate-600 font-semibold">রেজি নং: এইচ-১২৩৪৫</p>
+                            <p class="text-[11px] text-slate-500">ডিজিটাল এআই প্রেসক্রিপশন নেটওয়ার্ক</p>
                         </div>
-                        <div class="text-right text-xs text-slate-500 space-y-0.5">
-                            <p class="font-bold text-slate-700"><i class="fas fa-clinic-medical"></i> নির্ভীক  অনলাইন চেম্বার</p>
-                            <p>কুড়িগ্রাম, রংপুর, বাংলাদেশ</p>
-                            <p><i class="fas fa-globe"></i> nirvikbazar.kesug.com</p>
+                        
+                        <div class="text-right space-y-0.5">
+                            <h2 class="text-xl font-bold text-emerald-800"><i class="fas fa-clinic-medical text-sm"></i> নির্ভীক  অনলাইন চেম্বার</h2>
+                            <p class="text-xs text-slate-600 font-medium">শিবরাম, কুড়িগ্রাম, রংপুর, বাংলাদেশ</p>
+                            <p class="text-xs text-slate-600 font-medium">রোগী দেখার সময়: বিকাল ৪.০০ - রাত ৯.০০ টা</p>
+                            <p class="text-xs font-bold text-slate-700"><i class="fas fa-phone-alt text-[10px]"></i> ফোন: 017XXXXXXXX</p>
                         </div>
                     </div>
 
@@ -525,15 +589,19 @@
                     </div>
 
                     <div class="grid grid-cols-12 gap-6 min-h-[600px] items-start">
-                        <div class="col-span-4 border-r pr-4 space-y-4 text-xs min-h-[500px]">
-                            <div class="text-emerald-800 font-bold uppercase tracking-wider border-b pb-1 text-[11px]"><i class="fas fa-notes-medical"></i> লক্ষণ ও কেস হিস্ট্রি</div>
-                            <p class="text-slate-500 italic">সিস্টেমে সংরক্ষিত প্রধান সমস্যাসমূহ এবং রোগীর শারীরিক লক্ষণাবলী ডান বক্সের বিবরণীতে সাজানো আছে।</p>
+                        <div class="col-span-4 border-r pr-4 space-y-4 text-xs min-h-[550px]">
+                            <div class="text-emerald-800 font-bold uppercase tracking-wider border-b pb-1 text-[11px]">
+                                <i class="fas fa-notes-medical"></i> লক্ষণ ও কেস হিস্ট্রি
+                            </div>
+                            <div class="text-slate-700 font-sans whitespace-pre-wrap leading-relaxed">
+                                ${leftColumnContent}
+                            </div>
                         </div>
 
-                        <div class="col-span-8 pl-2">
-                            <div class="text-4xl font-serif text-emerald-800 font-black mb-4 select-none">R<sub>x</sub></div>
-                            <div class="text-xs text-slate-800 font-mono whitespace-pre-wrap leading-relaxed bg-white border border-dashed border-slate-200 p-4 rounded-xl min-h-[450px]">
-                                ${text}
+                        <div class="col-span-8 pl-2 min-h-[550px]">
+                            <div class="text-4xl font-serif text-emerald-800 font-black mb-3 select-none">R<sub>x</sub></div>
+                            <div class="text-xs text-slate-800 font-sans whitespace-pre-wrap leading-relaxed bg-white p-2 rounded-xl">
+                                ${rightColumnContent}
                             </div>
                         </div>
                     </div>
@@ -553,6 +621,7 @@
             printWindow.focus();
         }
 
+        // ফিল্টার লজিক
         function filterPrescriptions() {
             const searchKey = $('#txtSearch').val().toLowerCase().trim();
             if(!searchKey) {
@@ -569,6 +638,7 @@
             renderTable(filtered);
         }
 
+        // ডিলিট লজিক
         function deletePrescription(docId, name) {
             const accept = confirm(`⚠️ আপনি কি নিশ্চিতভাবে রোগী "${name}" এর সম্পূর্ণ প্রেসক্রিপশন রেকর্ডটি ডাটাবেজ থেকে চিরতরে মুছে ফেলতে চান?`);
             if (!accept) return;
@@ -580,6 +650,7 @@
             });
         }
 
+        // এডিট মোডাল লজিক
         function openEditModal(id, escapedName, escapedText) {
             $('#editDocId').val(id);
             $('#modalPatientSubtitle').text("রোগী: " + unescape(escapedName));
