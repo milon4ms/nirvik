@@ -306,14 +306,14 @@
             $('#serialNo').val(nextSuggestedSerial);
         }
 
-        // ফর্ম সাবমিট (সংশোধিত ও বাগমুক্ত ফাংশন)
+        // ফর্ম সাবমিট (সংশোধিত, রিয়েল-টাইম রেস-কন্ডিশন ও কোটা সেফগার্ড লক)
         $('#prescriptionForm').on('submit', function(e) {
             e.preventDefault();
             if(!currentUserId) return alert("ত্রুটি: পুনরায় লগইন করুন।");
 
-            // ইনস্ট্যান্ট সাবমিট রিয়েল-টাইম লাইভ কোটা চেক
+            // সাবমিটের ইনস্ট্যান্ট মোমেন্টে কঠোর যাচাইকরণ লক
             if (currentUserRole !== 'admin' && todaySavedCount >= userDailyLimit) {
-                alert(`⚠️ কোটা শেষ! আপনি আজকের সর্বোচ্চ সীমা (${userDailyLimit}টি) ইতিমধ্যে অতিক্রম করেছেন।`);
+                alert(`⚠️ দুঃখিত! আপনি আজকের সর্বোচ্চ সীমা (${userDailyLimit}টি) ইতিমধ্যে অতিক্রম করেছেন। নতুন ডাটা জমা নেওয়া সম্ভব নয়।`);
                 return;
             }
 
@@ -564,7 +564,7 @@
                 alert("আপডেট সফল হয়েছে!");
                 closeModal();
             }).catch(error => {
-                alert("আপডেট ব্যর্থ হয়েছে।");
+                alert("আপডেট ব্যর্থ হয়েছে。");
             });
         }
 
