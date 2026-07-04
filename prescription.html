@@ -22,8 +22,26 @@
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
             background-color: #f0fdf4; 
         }
-        #header-placeholder, nav { background-color: #065f46 !important; }
-        #header-placeholder a, #header-placeholder button, nav a { color: #ffffff !important; }
+        
+        /* হেডার ও মেনুর কালার সমস্যা সমাধানের ফিক্স */
+        #header-placeholder, nav {
+            background-color: #065f46 !important; /* ডার্ক গ্রিন ব্যাকগ্রাউন্ড */
+        }
+        #header-placeholder a, #header-placeholder button, nav a {
+            color: #ffffff !important; /* টেক্সট কালার সাদা */
+            opacity: 1 !important;
+        }
+        #header-placeholder a:hover, nav a:hover {
+            color: #a7f3d0 !important; /* হোভার কালার */
+        }
+
+        /* ইনপুট ফিল্ড ও বাটনের আধুনিক ডিজাইন ফিক্স */
+        .input-group i {
+            transition: color 0.2s;
+        }
+        .input-field:focus + i {
+            color: #059669;
+        }
     </style>
 </head>
 <body class="flex flex-col min-h-screen">
@@ -31,51 +49,67 @@
     <div id="header-placeholder"></div>
 
     <main class="flex-grow flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-2xl w-full space-y-6 bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-emerald-100/50">
+        <div class="max-w-md w-full space-y-6 bg-white p-8 sm:p-10 rounded-2xl shadow-xl border border-emerald-100/50">
             
-            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-gray-100 pb-4">
-                <div class="flex items-center gap-3">
-                    <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-emerald-50 text-emerald-600 text-2xl border border-emerald-100">
-                        📄
-                    </div>
-                    <div>
-                        <h2 class="text-xl font-extrabold text-gray-900">প্রেসক্রিপশন এন্ট্রি</h2>
-                        <p class="text-xs text-gray-500">আপনার আজকের প্রেসক্রিপশনটি এখানে লিখুন বা পেস্ট করুন</p>
-                    </div>
+            <div class="flex items-center justify-center gap-4 border-b border-gray-100 pb-4">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-emerald-50 text-emerald-600 text-2xl shadow-sm border border-emerald-100 animate-bounce flex-shrink-0">
+                    🌿
                 </div>
-                <div class="bg-emerald-50 border border-emerald-200 rounded-xl px-4 py-2 text-center sm:text-right">
-                    <span class="text-xs text-emerald-800 block font-semibold">আজকের কোটা ব্যবহার</span>
-                    <span id="quotaText" class="text-lg font-bold text-emerald-700">লোড হচ্ছে...</span>
+                <div class="text-left flex-grow">
+                    <h2 class="text-2xl font-extrabold text-gray-900 tracking-tight leading-none">প্রেসক্রিপশন এন্ট্রি</h2>
+                    <p class="mt-1.5 text-xs text-gray-500">নির্ভীক হোমিওতে আপনাকে স্বাগতম</p>
                 </div>
             </div>
 
-            <form id="prescriptionForm" class="space-y-4">
+            <div class="bg-emerald-50 border border-emerald-100 rounded-xl p-3 text-center">
+                <span class="text-sm font-semibold text-emerald-800">আজকের কোটা ব্যবহার: </span>
+                <span id="quotaText" class="font-bold text-emerald-600">লোড হচ্ছে...</span>
+            </div>
+
+            <form class="space-y-5" id="prescriptionForm">
+                
                 <div>
-                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">✍️ প্রেসক্রিপশন টেক্সট</label>
-                    <textarea id="prescriptionText" rows="10" required placeholder="এখানে প্রেসক্রিপশন টাইপ করুন বা পেস্ট করুন..."
-                        class="w-full p-4 bg-gray-50 border-2 border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:border-emerald-600 focus:bg-white transition-all duration-200 text-base disabled:bg-gray-200 disabled:cursor-not-allowed"></textarea>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">✍️ প্রেসক্রিপশন লিখুন বা পেস্ট করুন</label>
+                    <div class="relative input-group">
+                        <textarea id="prescriptionText" placeholder="আপনার প্রেসক্রিপশনটি এখানে লিখুন..." required rows="6"
+                            class="input-field w-full px-4 py-3 bg-gray-50 border-2 border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:border-emerald-600 focus:bg-white transition-all duration-200 text-base disabled:bg-gray-100 disabled:cursor-not-allowed"></textarea>
+                    </div>
                 </div>
 
-                <div>
+                <div class="pt-2">
                     <button type="submit" id="submitBtn" disabled
-                        class="w-full flex justify-center items-center py-3.5 px-4 border border-transparent rounded-xl text-base font-bold text-white bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-4 focus:ring-emerald-100 transition-all duration-200 shadow-md disabled:opacity-50 disabled:cursor-not-allowed">
+                        class="w-full flex justify-center items-center py-3.5 px-4 border border-transparent rounded-xl text-base font-bold text-white bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-4 focus:ring-emerald-100 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 disabled:opacity-60 disabled:cursor-not-allowed disabled:transform-none">
                         <i class="fas fa-paper-plane mr-2"></i> সাবমিট করুন
                     </button>
                 </div>
             </form>
-            
         </div>
     </main>
 
     <div id="footer-placeholder"></div>
 
     <script>
-        // হেডার/ফুটার লোড
+        // ===== হেডার/ফুটার লোড ও স্টাইল ইনজেকশন =====
         $(function() {
-            $('#header-placeholder').load('assets/header.html');
+            $('#header-placeholder').load('assets/header.html', function() {
+                $('#header-placeholder').find('nav, div.bg-white, div.bg-emerald-600').css('background-color', '#065f46');
+                $('#header-placeholder').find('a, button, span').css('color', '#ffffff');
+
+                const btn = document.getElementById('mobile-menu-btn');
+                const menu = document.getElementById('mobile-menu');
+                if (btn && menu) {
+                    btn.addEventListener('click', function() {
+                        menu.classList.toggle('hidden');
+                        btn.innerHTML = menu.classList.contains('hidden') 
+                            ? '<i class="fas fa-bars"></i>' 
+                            : '<i class="fas fa-times"></i>';
+                    });
+                }
+            });
             $('#footer-placeholder').load('assets/footer.html');
         });
 
+        // ===== ডাটাবেজ ও কোটা সেন্সরশিপ লজিক =====
         const db = firebase.firestore();
         let currentUser = null;
         let userRole = "general";
@@ -92,12 +126,12 @@
             return { start, end };
         }
 
-        // ইউজারের লগইন স্টেট এবং কোটা চেক করা
+        // ইউজারের লগইন স্টেট এবং রোল চেক করা
         firebase.auth().onAuthStateChanged(async (user) => {
             if (user) {
                 currentUser = user;
                 try {
-                    // ১. ইউজারের প্রোফাইল থেকে Role চেক করা
+                    // ১. ফায়ারস্টোর থেকে ইউজারের Role (general নাকি paid) চেক করা
                     const userDoc = await db.collection('users').doc(user.uid).get();
                     if (userDoc.exists) {
                         userRole = userDoc.data().role || "general";
@@ -106,12 +140,11 @@
                     // রোল অনুযায়ী সর্বোচ্চ লিমিট সেট
                     maxQuota = (userRole === "paid") ? 50 : 5;
                     
-                    // ২. আজকের সাবমিট করা প্রেসক্রিপশন সংখ্যা গণনা করা
+                    // ২. আজকে কয়টি প্রেসক্রিপশন জমা হয়েছে তা কাউন্ট করা
                     checkTodayQuota();
 
                 } catch (error) {
                     console.error("Error fetching user data:", error);
-                    alert("ডাটাবেজ লোড করতে সমস্যা হয়েছে।");
                 }
             } else {
                 // রেজিস্টার্ড ইউজার না হলে লগইন পেজে রিডাইরেক্ট
@@ -120,35 +153,50 @@
             }
         });
 
-        // আজকের কোটা যাচাই ও UI লক/আনলক করার মেইন ফাংশন
+        // আজকের কোটা যাচাই ও ইনপুট বক্স লক/আনলক করার ফাংশন
         async function checkTodayQuota() {
             if (!currentUser) return;
 
             const { start, end } = getTodayRange();
 
             try {
-                // ফায়ারস্টোর থেকে আজকের ডেট রেঞ্জের প্রেসক্রিপশন কুয়েরি
+                // আজকের ডেট রেঞ্জের প্রেসক্রিপশন কুয়েরি
                 const snapshot = await db.collection('prescriptions')
                     .where('uid', '==', currentUser.uid)
                     .where('createdAt', '>=', start)
                     .where('createdAt', '<=', end)
                     .get();
 
-                const submittedCount = snapshot.size; // আজকে কয়টা জমা দিয়েছে
+                const submittedCount = snapshot.size; // আজকে যতগুলো জমা হয়েছে
 
-                // UI-তে কোটা টেক্সট আপডেট (যেমন: ২ / ৫)
-                document.getElementById('quotaText').innerText = `${submittedCount} / ${maxQuota}`;
+                // UI-এর 'আজকের কোটা ব্যবহার' টেক্সট আপডেট
+                const quotaDisplay = document.getElementById('quotaText');
+                if (quotaDisplay) {
+                    quotaDisplay.innerText = `${submittedCount} / ${maxQuota}`;
+                }
 
-                // ৩. কোটা শেষ হলে লক করার লজিক
+                // ৩. কোটা পূর্ণ হলে বক্স ও বাটন লক করার লজিক
+                const inputField = document.getElementById('prescriptionText');
+                const submitBtn = document.getElementById('submitBtn');
+
                 if (submittedCount >= maxQuota) {
-                    document.getElementById('prescriptionText').disabled = true;
-                    document.getElementById('prescriptionText').placeholder = `❌ দুঃখিত! আপনার আজকের দৈনিক কোটা (${maxQuota}টি) শেষ হয়ে গেছে। আগামীকাল আবার চেষ্টা করুন।`;
-                    document.getElementById('submitBtn').disabled = true;
-                    document.getElementById('submitBtn').innerText = "আজকের কোটা শেষ";
+                    if (inputField) {
+                        inputField.disabled = true;
+                        inputField.placeholder = `❌ আপনার আজকের দৈনিক কোটা (${maxQuota}টি) শেষ হয়ে গেছে। আগামীকাল আবার চেষ্টা করুন।`;
+                    }
+                    if (submitBtn) {
+                        submitBtn.disabled = true;
+                        submitBtn.innerText = "আজকের কোটা শেষ";
+                    }
                 } else {
-                    document.getElementById('prescriptionText').disabled = false;
-                    document.getElementById('submitBtn').disabled = false;
-                    document.getElementById('submitBtn').innerHTML = '<i class="fas fa-paper-plane mr-2"></i> সাবমিট করুন';
+                    if (inputField) {
+                        inputField.disabled = false;
+                        inputField.placeholder = "আপনার প্রেসক্রিপশনটি এখানে লিখুন...";
+                    }
+                    if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = '<i class="fas fa-paper-plane mr-2"></i> সাবমিট করুন';
+                    }
                 }
 
             } catch (error) {
@@ -162,7 +210,8 @@
             
             if (!currentUser) return;
             
-            const text = document.getElementById('prescriptionText').value.trim();
+            const inputField = document.getElementById('prescriptionText');
+            const text = inputField ? inputField.value.trim() : "";
             const btn = document.getElementById('submitBtn');
 
             if (!text) {
@@ -170,9 +219,11 @@
                 return;
             }
 
-            // সাবমিট করার আগেও আরেকবার সিকিউরিটি চেক
-            btn.disabled = true;
-            btn.innerText = "যাচাই করা হচ্ছে...";
+            // সাবমিট করার আগে ডাবল সিকিউরিটি চেক করা
+            if (btn) {
+                btn.disabled = true;
+                btn.innerText = "যাচাই করা হচ্ছে...";
+            }
 
             const { start, end } = getTodayRange();
             const snapshot = await db.collection('prescriptions')
@@ -182,7 +233,7 @@
                 .get();
 
             if (snapshot.size >= maxQuota) {
-                alert(`❌ আপনার আজকের কোটা (${maxQuota}টি) ইতিমধ্যে শেষ!`);
+                alert(`❌ আপনার আজকের কোটা (${maxQuota}টি) শেষ হয়ে গেছে!`);
                 checkTodayQuota();
                 return;
             }
@@ -196,19 +247,18 @@
                 });
 
                 alert("✅ প্রিসক্রিপশনটি সফলভাবে জমা হয়েছে!");
-                document.getElementById('prescriptionText').value = ""; // বক্স খালি করা
+                if (inputField) inputField.value = ""; // বক্স খালি করা
                 
-                // কোটা রিয়েল-টাইমে আপডেট করা
+                // রিয়েল-টাইমে কোটা আপডেট
                 checkTodayQuota();
 
             } catch (error) {
                 console.error("Submission error:", error);
                 alert("সংরক্ষণ করতে সমস্যা হয়েছে, আবার চেষ্টা করুন।");
-                btn.disabled = false;
+                if (btn) btn.disabled = false;
             }
         });
     </script>
 
-    
 </body>
 </html>
