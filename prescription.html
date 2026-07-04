@@ -306,20 +306,52 @@
             $('#serialNo').val(nextSuggestedSerial);
         }
 
-        // ফর্ম সাবমিট (সংশোধিত, রিয়েল-টাইম রেস-কন্ডিশন ও কোটা সেফগার্ড লক)
+        // ফর্ম সাবমিট (সংশোধিত: সার্ভার সাইড টাইমিং বাগমুক্ত করা সংস্করণ)
         $('#prescriptionForm').on('submit', function(e) {
             e.preventDefault();
             if(!currentUserId) return alert("ত্রুটি: পুনরায় লগইন করুন।");
 
-            // সাবমিটের ইনস্ট্যান্ট মোমেন্টে কঠোর যাচাইকরণ লক
-            if (currentUserRole !== 'admin' && todaySavedCount >= userDailyLimit) {
-                alert(`⚠️ দুঃখিত! আপনি আজকের সর্বোচ্চ সীমা (${userDailyLimit}টি) ইতিমধ্যে অতিক্রম করেছেন। নতুন ডাটা জমা নেওয়া সম্ভব নয়।`);
+            const submitBtn = $('#btnSubmitPrescription');
+            submitBtn.prop('disabled', true).text('যাচাই করা হচ্ছে...');
+
+            // এডমিন হলে সরাসরি সেভ করার অনুমতি দিন
+            if (currentUserRole === 'admin') {
+                executeSave(submitBtn);
                 return;
             }
 
-            const submitBtn = $('#btnSubmitPrescription');
-            submitBtn.prop('disabled', true).text('সংরক্ষণ করা হচ্ছে...');
+            // সাধারণ ও পেইড চিকিৎসকদের জন্য ডাটাবেজ থেকে ইনস্ট্যান্ট তাজা কাউন্ট চেক
+            const db = firebase.firestore();
+            const startOfToday = new Date();
+            startOfToday.setHours(0,0,0,0);
+            const endOfToday = new Date();
+            endOfToday.setHours(23,59,59,999);
 
+            db.collection("prescriptions")
+                .where("doctorId", "==", currentUserId)
+                .where("createdAt", ">=", startOfToday)
+                .where("createdAt", "<=", endOfToday)
+                .get() // অন-ডিমান্ড তাজা ডাটা রিড
+                .then((snapshot) => {
+                    const exactCurrentCount = snapshot ? snapshot.size : 0;
+                    
+                    if (exactCurrentCount >= userDailyLimit) {
+                        alert(`⚠️ দুঃখিত! আপনার আজকের কোটা (${userDailyLimit}টি) ইতিমধ্যে পূর্ণ হয়ে গেছে। নতুন ডাটা সংরক্ষণ করা যাবে না।`);
+                        submitBtn.prop('disabled', true).text('আজকের জমার কোটা শেষ হয়ে গেছে');
+                        return;
+                    }
+                    
+                    // লিমিট ক্রস না করলে সেভ রান করুন
+                    executeSave(submitBtn);
+                })
+                .catch((error) => {
+                    alert("কোটা যাচাই করতে সমস্যা হয়েছে। আবার চেষ্টা করুন।");
+                    submitBtn.prop('disabled', false).text('ডাটাবেজে সংরক্ষণ করুন');
+                });
+        });
+
+        // প্রকৃত সেভ এক্সিকিউশন লজিক
+        function executeSave(submitBtn) {
             let mainText = $('#prescriptionText').val();
             if(mainText.length > 2300) {
                 mainText = mainText.substring(0, 2300);
@@ -342,7 +374,7 @@
                 alert("ডাটা সেভ করতে সমস্যা হয়েছে।");
                 submitBtn.prop('disabled', false).text('ডাটাবেজে সংরক্ষণ করুন');
             });
-        });
+        }
 
         // তালিকা রেন্ডার লজিক
         function loadPrescriptions(uid) {
@@ -564,7 +596,7 @@
                 alert("আপডেট সফল হয়েছে!");
                 closeModal();
             }).catch(error => {
-                alert("আপডেট ব্যর্থ হয়েছে。");
+                alert("আপডেট ব্যর্থ হয়েছে।");
             });
         }
 
