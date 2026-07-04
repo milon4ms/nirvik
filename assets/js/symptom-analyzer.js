@@ -1,6 +1,6 @@
 /**
  * ============================================
- * হোমিও রোগী বিশ্লেষণ - আগের ডিজাইন ও সব বাটনসহ
+ * হোমিও রোগী বিশ্লেষণ - স্থায়ী প্রম্পট ও বাটন
  * ============================================
  */
 
@@ -11,9 +11,6 @@ function toggleSection(element) {
         group.classList.toggle('open');
         group.style.display = group.classList.contains('open') ? 'flex' : 'none';
         element.classList.toggle('collapsed');
-    }
-    if (group && group.classList.contains('section-content')) {
-        group.style.display = (group.style.display === 'none' || group.style.display === '') ? 'block' : 'none';
     }
 }
 
@@ -36,14 +33,14 @@ function generateSymptomPrompt() {
 ঠিকানা: 
 বয়স: 
 ফোন নম্বর: 
-তারিখ: ${today} 
+তারিখ: (আজকের তারিখ যুক্ত করে দাও)
 ১. প্রধান হোমিওপ্যাথিক ঔষধ: (ঔষধের নাম ও ডোজ) 
 ২. সহায়ক ঔষধ: (ঔষধের নাম ও ডোজ) 
 ৩. বায়োকেমিক:(ঔষধের নাম ও ডোজ) 
 ৪. পরামর্শ: 
 ৫.রোগ লক্ষণ সমুহ: 
 ৬. রোগের সম্ভব্য নাম: 
-[প্রেসক্রিপশন অংশ শেষ]
+[প্রেসক্রিপশন অংশ শেষ][এ অংশটুকু কপি করার জন্য copy বাটন যুক্ত করে দাও]
 
 চিকিৎসকের জ্ঞাতার্থে ফরম্যাট: 
 ৭. বিকল্প ঔষধ সমুহের তালিকা 
@@ -101,31 +98,32 @@ function generateSymptomPrompt() {
     return promptText;
 }
 
-// ---------- ফলাফল ও কপি ফাংশন ----------
+// ---------- ফলাফল ও কপি ফাংশন (ফিক্সড) ----------
 function displayResult() {
     const resultDiv = document.getElementById('result');
     if (!resultDiv) return;
     const promptText = generateSymptomPrompt();
-    resultDiv.innerHTML = `<h5>📋 রোগী বিশ্লেষণ প্রম্পট</h5><p id="prompt-content" style="white-space:pre-wrap;">${promptText}</p>`;
+    resultDiv.innerHTML = `<h5>📋 রোগী বিশ্লেষণ প্রম্পট</h5><textarea id="prompt-content" style="width:100%; height:300px;">${promptText}</textarea>`;
 }
 
-function getResultText() {
-    const content = document.getElementById('prompt-content');
-    return content ? content.innerText : null;
-}
-
-function copyResult() {
-    const text = getResultText();
-    if (!text) { alert('⚠️ আগে প্রম্পট জেনারেট করুন!'); return; }
-    navigator.clipboard.writeText(text).then(() => alert('✅ কপি হয়েছে!'));
+// কপি ফাংশনে e.preventDefault যোগ করা হয়েছে যাতে রিলোড না হয়
+function copyResult(e) {
+    if(e) e.preventDefault();
+    const textArea = document.getElementById('prompt-content');
+    if (!textArea) { alert('⚠️ আগে প্রম্পট জেনারেট করুন!'); return; }
+    
+    textArea.select();
+    document.execCommand('copy');
+    alert('✅ কপি হয়েছে!');
 }
 
 // ---------- AI টুলস ফাংশন ----------
-function openAI(url) {
-    const text = getResultText();
+function openAI(url, isPerplexity = false) {
+    const textArea = document.getElementById('prompt-content');
+    const text = textArea ? textArea.value : "";
     if (!text) { alert('⚠️ আগে প্রম্পট জেনারেট করুন!'); return; }
-    // Perplexity-র জন্য ইউআরএল এ প্রম্পট যুক্ত হবে
-    if (url.includes('perplexity')) {
+    
+    if (isPerplexity) {
         window.open(url + encodeURIComponent(text), '_blank');
     } else {
         window.open(url, '_blank');
@@ -144,7 +142,7 @@ function createButtons() {
         { id: 'chatgptBtn', class: 'btn btn-chatgpt', icon: '🤖', text: 'ChatGPT', action: () => openAI('https://chat.openai.com/') },
         { id: 'grokBtn', class: 'btn btn-grok', icon: '⚡', text: 'Grok', action: () => openAI('https://grok.com/') },
         { id: 'deepseekBtn', class: 'btn btn-deepseek', icon: '🔍', text: 'DeepSeek', action: () => openAI('https://chat.deepseek.com/') },
-        { id: 'perplexityBtn', class: 'btn btn-perplexity', icon: '🔬', text: 'Perplexity', action: () => openAI('https://www.perplexity.ai/?q=') }
+        { id: 'perplexityBtn', class: 'btn btn-perplexity', icon: '🔬', text: 'Perplexity', action: () => openAI('https://www.perplexity.ai/?q=', true) }
     ];
 
     const buttonGroup = document.createElement('div');
