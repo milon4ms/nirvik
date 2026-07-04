@@ -22,8 +22,8 @@
         document.head.appendChild(style);
 
         let currentUserId = null;
-        let currentUserRole = "general"; // ডিফল্ট রোল
-        let currentUserName = "হোমিওপ্যাথিক चिकित्सक"; // ডিফল্ট নাম
+        let currentUserRole = "general"; 
+        let currentUserName = "হোমিওপ্যাথিক চিকিৎসক"; 
         let nextSuggestedSerial = "১";
         
         let userDailyLimit = 5; 
@@ -210,7 +210,6 @@
                     if(userData.role) currentUserRole = userData.role; 
                     if(userData.userRole) currentUserRole = userData.userRole; 
                     
-                    // রোল যাচাই ও দৈনিক লিমিট ও ব্যাজ ডিফাইন
                     if (currentUserRole === 'admin') {
                         userDailyLimit = Infinity; 
                         $('#lblLimit').text('∞');
@@ -226,7 +225,6 @@
                     }
                 }
                 
-                // লিমিট ডিফাইন হওয়ার পর আজকের রিয়েল-টাইম ডাটা ট্র্যাকিং চালু হবে
                 trackTodayQuota(uid);
                 loadPrescriptions(uid);
             }).catch(err => {
@@ -235,7 +233,7 @@
             });
         }
 
-        // আজকের লাইভ কোটা পর্যবেক্ষণ ও ইনপুট লক সেন্সরশিপ
+        // লাইভ কোটা কাউন্টার ও প্রটেকশন লক
         function trackTodayQuota(uid) {
             const db = firebase.firestore();
             const startOfToday = new Date();
@@ -248,12 +246,11 @@
                 .where("createdAt", ">=", startOfToday)
                 .where("createdAt", "<=", endOfToday)
                 .onSnapshot((snapshot) => {
-                    todaySavedCount = snapshot.size;
+                    todaySavedCount = snapshot ? snapshot.size : 0;
                     $('#lblUsed').text(todaySavedCount);
                     
-                    // এডমিন না হলে এবং কোটা শেষ হলে ইনপুট বক্স ও বাটন সম্পূর্ণ লক (সেন্সর) হবে
                     if (currentUserRole !== 'admin' && todaySavedCount >= userDailyLimit) {
-                        $('#prescriptionText').prop('disabled', true).val('').attr('placeholder', `❌ দুঃখিত ডক্টর! আপনার আজকের দৈনিক কোটা (${userDailyLimit}টি) শেষ হয়ে গেছে। আগামীকাল আবার ট্রাই করুন।`);
+                        $('#prescriptionText').prop('disabled', true).val('').attr('placeholder', `❌ দুঃখিত ডক্টর! আপনার আজকের দৈনিক কোটা (${userDailyLimit}টি) শেষ হয়ে গেছে।`);
                         $('#btnSubmitPrescription').prop('disabled', true).removeClass('bg-emerald-600 hover:bg-emerald-700').addClass('bg-slate-400 cursor-not-allowed').text('আজকের জমার কোটা শেষ হয়ে গেছে');
                     } else {
                         $('#prescriptionText').prop('disabled', false).attr('placeholder', 'এখানে লেখা পেস্ট বা টাইপ করুন...');
@@ -262,7 +259,7 @@
                 });
         }
 
-        // ক্লিপবোর্ড পেস্ট লজিক (সর্বোচ্চ ২৩০০ ক্যারেক্টার ট্রিম)
+        // পেস্ট বাটন লজিক
         async function handlePaste() {
             if (currentUserRole !== 'admin' && todaySavedCount >= userDailyLimit) {
                 alert(`⚠️ দুঃখিত! আপনার আজকের দৈনিক লিমিট (${userDailyLimit}টি) শেষ হয়ে গেছে।`);
@@ -274,7 +271,7 @@
                 text = text.trim();
 
                 if(text.length > 2300) {
-                    alert("✂️ নোটিশ: প্রেসক্রিপশন স্ক্রিপ্টটি ২৩০০ অক্ষরের চেয়ে বড়! ডাটাবেজ সুরক্ষায় প্রথম ২৩০০ ক্যারেক্টার নেওয়া হয়েছে।");
+                    alert("✂️ নোটিশ: ডাটাবেজ সুরক্ষায় প্রথম ২৩০০ ক্যারেক্টার নেওয়া হয়েছে।");
                     text = text.substring(0, 2300);
                 }
 
@@ -309,33 +306,19 @@
             $('#serialNo').val(nextSuggestedSerial);
         }
 
-        // ফর্ম সাবমিট ও ইনস্ট্যান্ট সার্ভার-সাইড ভ্যালিডেশন
-        $('#prescriptionForm').on('submit', async function(e) {
+        // ফর্ম সাবমিট (সংশোধিত ও বাগমুক্ত ফাংশন)
+        $('#prescriptionForm').on('submit', function(e) {
             e.preventDefault();
             if(!currentUserId) return alert("ত্রুটি: পুনরায় লগইন করুন।");
 
-            const submitBtn = $(this).find('button[type="submit"]');
-            submitBtn.prop('disabled', true).text('যাচাই করা হচ্ছে...');
-
-            // সাবমিট করার পূর্ব মুহূর্তে আরেকটি ইনস্ট্যান্ট সিকিউরিটি চেক
-            if (currentUserRole !== 'admin') {
-                const startOfToday = new Date();
-                startOfToday.setHours(0,0,0,0);
-                const endOfToday = new Date();
-                endOfToday.setHours(23,59,59,999);
-
-                const snap = await firebase.firestore().collection("prescriptions")
-                    .where("doctorId", "==", currentUserId)
-                    .where("createdAt", ">=", startOfToday)
-                    .where("createdAt", "<=", endOfToday)
-                    .get();
-
-                if (snap.size >= userDailyLimit) {
-                    alert(`⚠️ কোটা শেষ! আপনি আজকের সর্বোচ্চ সীমা (${userDailyLimit}টি) ইতিমধ্যে অতিক্রম করেছেন।`);
-                    submitBtn.prop('disabled', false).text('ডাটাবেজে সংরক্ষণ করুন');
-                    return;
-                }
+            // ইনস্ট্যান্ট সাবমিট রিয়েল-টাইম লাইভ কোটা চেক
+            if (currentUserRole !== 'admin' && todaySavedCount >= userDailyLimit) {
+                alert(`⚠️ কোটা শেষ! আপনি আজকের সর্বোচ্চ সীমা (${userDailyLimit}টি) ইতিমধ্যে অতিক্রম করেছেন।`);
+                return;
             }
+
+            const submitBtn = $('#btnSubmitPrescription');
+            submitBtn.prop('disabled', true).text('সংরক্ষণ করা হচ্ছে...');
 
             let mainText = $('#prescriptionText').val();
             if(mainText.length > 2300) {
@@ -353,6 +336,7 @@
             }).then(() => {
                 alert("সফলভাবে ডায়েরিতে সেভ করা হয়েছে!");
                 $('#prescriptionForm')[0].reset();
+                submitBtn.prop('disabled', false).text('ডাটাবেজে সংরক্ষণ করুন');
                 applySuggestedSerial();
             }).catch(error => {
                 alert("ডাটা সেভ করতে সমস্যা হয়েছে।");
@@ -360,14 +344,14 @@
             });
         });
 
-        // ডাটাবেজ থেকে তালিকা লোড
+        // তালিকা রেন্ডার লজিক
         function loadPrescriptions(uid) {
             firebase.firestore().collection("prescriptions")
                 .where("doctorId", "==", uid)
                 .onSnapshot((querySnapshot) => {
                     allPrescriptions = []; 
                     
-                    if (querySnapshot.empty) {
+                    if (!querySnapshot || querySnapshot.empty) {
                         renderTable([]);
                         nextSuggestedSerial = "১";
                         $('#serialSuggestor').text("অফার: ১");
@@ -401,7 +385,6 @@
                 });
         }
 
-        // 📋 টেবিল ড্র ফাংশন
         function renderTable(dataArray) {
             const tbody = document.getElementById('prescriptionTableBody');
             tbody.innerHTML = '';
@@ -431,7 +414,6 @@
             });
         }
 
-        // 🖨️ প্রিন্ট উইন্ডো লজিক
         function printPrescriptionWindow(serial, date, name, phone, text) {
             serial = unescape(serial);
             date = unescape(date);
@@ -440,11 +422,10 @@
             text = unescape(text);
 
             const printWindow = window.open('', '_blank', 'width=900,height=1000');
-            
             printWindow.document.write(`
                 <html>
                 <head>
-                    <title>プレスক্রিপশন - ${name}</title>
+                    <title>প্রেসক্রিপশন - ${name}</title>
                     <script src="https://cdn.tailwindcss.com"><\/script>
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
                     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
@@ -458,7 +439,6 @@
                     </style>
                 </head>
                 <body class="p-6 max-w-4xl mx-auto border border-slate-200 my-4 shadow-sm relative">
-                    
                     <div class="no-print mb-6 bg-slate-100 p-3 rounded-xl flex justify-between items-center border">
                         <span class="text-xs text-slate-600"><i class="fas fa-info-circle"></i> প্রফেশনাল ভিউ রেডি। PDF ফাইল আকারে সেভ করতে প্রিন্ট উইন্ডো এলে <b>Destination: Save as PDF</b> সিলেক্ট করুন।</span>
                         <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs px-4 py-2 rounded-lg transition shadow"><i class="fas fa-print"></i> প্রিন্ট বা পিডিএফ সেভ করুন</button>
@@ -493,7 +473,6 @@
 
                         <div class="col-span-8 pl-2">
                             <div class="text-4xl font-serif text-emerald-800 font-black mb-4 select-none">R<sub>x</sub></div>
-                            
                             <div class="text-xs text-slate-800 font-mono whitespace-pre-wrap leading-relaxed bg-white border border-dashed border-slate-200 p-4 rounded-xl min-h-[450px]">
                                 ${text}
                             </div>
@@ -508,24 +487,19 @@
                             চিকিৎসকের স্বাক্ষর
                         </div>
                     </div>
-
                 </body>
                 </html>
             `);
-
             printWindow.document.close();
             printWindow.focus();
         }
 
-        // সার্চ ফিল্টার লজিক
         function filterPrescriptions() {
             const searchKey = $('#txtSearch').val().toLowerCase().trim();
-            
             if(!searchKey) {
                 renderTable(allPrescriptions);
                 return;
             }
-
             const filtered = allPrescriptions.filter(item => {
                 return (item.serialNo && item.serialNo.toLowerCase().includes(searchKey)) ||
                        (item.prescriptionDate && item.prescriptionDate.toLowerCase().includes(searchKey)) ||
@@ -533,11 +507,9 @@
                        (item.patientPhone && item.patientPhone.toLowerCase().includes(searchKey)) ||
                        (item.prescriptionText && item.prescriptionText.toLowerCase().includes(searchKey));
             });
-
             renderTable(filtered);
         }
 
-        // ডিলিট ফাংশন
         function deletePrescription(docId, name) {
             const accept = confirm(`⚠️ আপনি কি নিশ্চিতভাবে রোগী "${name}" এর সম্পূর্ণ প্রেসক্রিপশন রেকর্ডটি ডাটাবেজ থেকে চিরতরে মুছে ফেলতে চান?`);
             if (!accept) return;
@@ -567,12 +539,10 @@
             const banglaTime = now.toLocaleTimeString('bn-BD', { hour: '2-digit', minute: '2-digit' });
 
             const timestampText = `\n\n--- [নতুন ফলোআপ ও ঔষধ - তারিখ: ${banglaDate} | সময়: ${banglaTime}] ---\n`;
-            
             if((textarea.value + timestampText).length > 2300) {
                 alert("⚠️ সতর্কতা: নতুন ঔষধ যুক্ত করলে টেক্সট ২৩০০ ক্যারেক্টার অতিক্রম করবে!");
                 return;
             }
-
             textarea.value = textarea.value + timestampText;
             textarea.focus();
             textarea.scrollTop = textarea.scrollHeight;
@@ -583,7 +553,6 @@
             let updatedText = $('#modalTextContent').val();
 
             if(!docId) return;
-
             if(updatedText.length > 2300) {
                 alert("✂️ টেক্সট অতিরিক্ত বড় হওয়ায় প্রথম ২৩০০ ক্যারেক্টার সেভ করা হচ্ছে।");
                 updatedText = updatedText.substring(0, 2300);
