@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>স্মার্ট প্রেসক্রিপশন - নির্ভীক  হোমিও</title>
+    <title>স্মার্ট প্রেসক্রিপশন - নির্ভীক হোমিও</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -62,7 +62,7 @@
         <div class="mb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4 bg-gradient-to-r from-emerald-800 to-teal-900 p-6 rounded-2xl text-white shadow-sm">
             <div>
                 <h1 class="text-xl font-bold flex items-center gap-2 text-emerald-300">
-                    <i class="fas fa-laptop-medical"></i> নির্ভীক  হাইব্রিড প্রেসক্রিপশন ডায়েরি
+                    <i class="fas fa-laptop-medical"></i> নির্ভীক হাইব্রিড প্রেসক্রিপশন ডায়েরি
                 </h1>
                 <p class="text-xs text-emerald-100/80 mt-1">নিরাপদ এআই প্রেসক্রিপশন ক্লাউড ব্যাকআপ। প্রতিটি পেস্টে প্রথম ২৩০০ ক্যারেক্টার সংরক্ষিত হবে।</p>
             </div>
@@ -424,6 +424,8 @@
                     }
                     $('#serialSuggestor').text("অফার: " + nextSuggestedSerial);
                     renderTable(allPrescriptions);
+                }, (error) => {
+                    console.error("Error loading data: ", error);
                 });
         }
 
@@ -452,7 +454,6 @@
             });
         }
 
-        // সংশোধিত কাস্টম প্রিন্ট উইন্ডো লেআউট (নতুন চাহিদা অনুযায়ী)
         function printPrescriptionWindow(serial, date, name, phone, text) {
             serial = unescape(serial);
             date = unescape(date);
@@ -460,7 +461,6 @@
             phone = unescape(phone);
             text = unescape(text);
 
-            // টেক্সট থেকে বয়স এবং লিঙ্গ অটো এক্সট্র্যাক্ট করার চেষ্টা করার ব্যাকআপ লজিক
             let age = '......';
             let gender = '......';
             const ageMatch = text.match(/(?:বয়স|Age)\s*:\s*([^\n\r,৷]+)/i);
@@ -477,18 +477,15 @@
             lines.forEach(line => {
                 const cleanLine = line.trim();
                 
-                // অপ্রয়োজনীয় ডাবল ডেটা ফিল্টার (রোগীর নাম, বয়স, চিকিৎসকের নাম বডি টেক্সট থেকে বাদ দেওয়া হবে)
                 if (cleanLine.startsWith("রোগীর নাম") || cleanLine.startsWith("নাম") || cleanLine.startsWith("Patient Name") ||
                     cleanLine.startsWith("বয়স") || cleanLine.startsWith("Age") || 
                     cleanLine.startsWith("চিকিৎসকের নাম") || cleanLine.startsWith("ডাক্তার")) {
                     return; 
                 }
 
-                // বাম কলাম ইন্ডিকেটর
                 if (cleanLine.includes("রোগীর সংক্ষিপ্ত লক্ষণ") || cleanLine.includes("সম্ভাব্য রোগ") || cleanLine.includes("Provisional Diagnosis")) {
                     currentSide = 'left';
                 } 
-                // ডান কলাম ইন্ডিকেটর
                 else if (cleanLine.startsWith("Rx") || cleanLine.includes("ঔষধ ও সেবন বিধি") || cleanLine.includes("জীবনযাপন ও পথ্য পরামর্শ") || cleanLine.includes("বর্জনীয় খাবার")) {
                     currentSide = 'right';
                 }
@@ -496,7 +493,6 @@
                 if (currentSide === 'left') {
                     leftColumnContent += line + '\n';
                 } else {
-                    // Rx লাইনের পর শুধু নির্দিষ্ট ডাটা রাখার ফিল্টারিং
                     rightColumnContent += line + '\n';
                 }
             });
@@ -529,7 +525,6 @@
                         <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs px-4 py-2 rounded-lg transition shadow"><i class="fas fa-print"></i> প্রিন্ট বা পিডিএফ সেভ করুন</button>
                     </div>
 
-                    <!-- প্রেসক্রিপশন হেডার -->
                     <div class="flex justify-between items-start border-b-4 border-emerald-700 pb-4 mb-4">
                         <div class="space-y-0.5">
                             <h1 class="text-2xl font-black text-emerald-800 tracking-wide">${currentUserName}</h1>
@@ -539,14 +534,13 @@
                         </div>
                         
                         <div class="text-right space-y-0.5">
-                            <h2 class="text-xl font-bold text-emerald-800"><i class="fas fa-clinic-medical text-sm"></i> নির্ভীক  অনলাইন চেম্বার</h2>
+                            <h2 class="text-xl font-bold text-emerald-800"><i class="fas fa-clinic-medical text-sm"></i> নির্ভীক অনলাইন চেম্বার</h2>
                             <p class="text-xs text-slate-600 font-medium">শিবরাম, কুড়িগ্রাম, রংপুর, বাংলাদেশ</p>
                             <p class="text-xs text-slate-600 font-medium">রোগী দেখার সময়: বিকাল ৪.০০ - রাত ৯.০০ টা</p>
                             <p class="text-xs font-bold text-slate-700"><i class="fas fa-phone-alt text-[10px]"></i> ফোন: 017XXXXXXXX</p>
                         </div>
                     </div>
 
-                    <!-- নতুন ইনফো বার (তারিখ নেই - শুধু সিরিয়াল, নাম, বয়স, লিঙ্গ ও মোবাইল) -->
                     <div class="grid grid-cols-5 bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs gap-2 mb-6 font-medium">
                         <div><span class="text-slate-400">সিরিয়াল নং:</span> <b class="text-slate-800">${serial}</b></div>
                         <div class="col-span-1"><span class="text-slate-400">রোগীর নাম:</span> <b class="text-slate-800">${name}</b></div>
@@ -555,9 +549,7 @@
                         <div><span class="text-slate-400">মোবাইল:</span> <b class="text-slate-800">${phone}</b></div>
                     </div>
 
-                    <!-- মূল প্রেসক্রিপশন বডি (দুই কলাম লেআউট) -->
                     <div class="grid grid-cols-12 gap-6 min-h-[600px] items-start">
-                        <!-- বাম কলাম: লক্ষণ ও সম্ভাব্য রোগ -->
                         <div class="col-span-4 border-r pr-4 space-y-4 text-xs min-h-[550px]">
                             <div class="text-emerald-800 font-bold uppercase tracking-wider border-b pb-1 text-[11px]">
                                 <i class="fas fa-notes-medical"></i> লক্ষণ ও কেস হিস্ট্রি
@@ -567,9 +559,7 @@
                             </div>
                         </div>
 
-                        <!-- ডান কলাম: তারিখ সহ শুধু Rx এবং নির্দিষ্ট প্যারাগ্রাফগুলো -->
                         <div class="col-span-8 pl-2 min-h-[550px] relative">
-                            <!-- তারিখ এখন মূল বডির শুরুতে চলে এসেছে -->
                             <div class="text-right text-[11px] text-slate-500 font-bold mb-2">
                                 <i class="far fa-calendar-alt"></i> তারিখ: ${date}
                             </div>
@@ -581,10 +571,9 @@
                         </div>
                     </div>
 
-                    <!-- প্রেসক্রিপশন ফুটার -->
                     <div class="border-t border-slate-200 mt-12 pt-4 flex justify-between items-center text-[10px] text-slate-400">
                         <div>
-                            <p><i class="fas fa-heartbeat text-rose-500"></i> নির্ভীক  হোমিও সফটওয়্যার দ্বারা জেনারেটকৃত কপি।</p>
+                            <p><i class="fas fa-heartbeat text-rose-500"></i> নির্ভীক হোমিও সফটওয়্যার দ্বারা জেনারেটকৃত কপি।</p>
                         </div>
                         <div class="text-center w-40 border-t border-slate-400 pt-1 mt-6 text-slate-600 font-bold">
                             চিকিৎসকের স্বাক্ষর
@@ -666,12 +655,11 @@
             });
         }
 
-        fnction closeModal() {
+        function closeModal() {
             const modal = document.getElementById('textModal');
             modal.classList.remove('flex');
             modal.classList.add('hidden');
         }
     </script>
 </body>
-    
 </html>
