@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="bn">
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -141,12 +140,6 @@
                     <span class="flex items-center gap-1.5"><i class="fas fa-envelope text-emerald-400"></i> <span id="userEmail">-</span></span>
                     <span class="flex items-center gap-1.5"><i class="fas fa-user-plus text-emerald-400"></i> যুক্ত হয়েছেন: <span id="startDateFull">-</span></span>
                 </div>
-
-                <div class="pt-2">
-                    <button onclick="openProfileModal()" class="text-emerald-400 hover:text-emerald-300 font-bold text-xs underline cursor-pointer flex items-center gap-1">
-                        <i class="fas fa-user-edit"></i> প্রোফাইল আপডেট
-                    </button>
-                </div>
             </div>
             
             <div class="md:col-span-5 bg-emerald-950/40 border border-emerald-800/40 rounded-xl p-3 text-slate-200 text-xs md:justify-self-end w-full md:w-auto min-w-[280px]">
@@ -167,11 +160,12 @@
         </div>
     </div>
 
+    <!-- প্রোফাইল আপডেট মডাল ফর্ম -->
     <div id="profileModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center hidden p-4">
         <div class="bg-white rounded-xl shadow-xl max-w-lg w-full max-h-[90vh] overflow-y-auto">
             <div class="bg-slate-900 text-white px-5 py-4 flex justify-between items-center rounded-t-xl">
                 <h2 class="text-base font-bold flex items-center gap-2">
-                    <i class="fas fa-user-md text-emerald-400"></i> চিকিৎসক প্রোফাইল তথ্য আপডেট
+                    <i class="fas fa-user-md text-emerald-400"></i> चिकित्सक প্রোফাইল তথ্য আপডেট
                 </h2>
                 <button onclick="closeProfileModal()" class="text-slate-400 hover:text-white transition">
                     <i class="fas fa-times text-lg"></i>
@@ -231,6 +225,7 @@
             
             <div class="lg:col-span-4 space-y-4">
                 
+                <!-- মেম্বারশিপ টাইপ কার্ড (যেখানে প্রোফাইল আপডেট লিংক স্থাপন করা হলো) -->
                 <div class="header-styled-card flex flex-col justify-between">
                     <div class="flex justify-between items-center">
                         <p class="text-slate-300 text-sm font-medium">মেম্বারশিপ টাইপ</p>
@@ -239,6 +234,11 @@
                         </div>
                     </div>
                     <p class="text-2xl font-bold mt-1.5">ফি: ফ্রি (নিবন্ধনকৃত)</p>
+                    <div class="pt-2.5 mt-2 border-t border-slate-800 flex justify-start">
+                        <button onclick="openProfileModal()" class="text-emerald-400 hover:text-emerald-300 font-bold text-xs underline cursor-pointer flex items-center gap-1">
+                            <i class="fas fa-user-edit"></i> প্রোফাইল আপডেট
+                        </button>
+                    </div>
                 </div>
                 
                 <div class="header-styled-card flex flex-col justify-between">
@@ -309,10 +309,13 @@
                      <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                         <span class="w-1.5 h-3 bg-cyan-500 rounded-sm"></span>  প্রেসক্রিপশন জমা ৫০ টি প্রতিদিন
                     </h3>
-                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                        <span class="w-1.5 h-3 bg-cyan-500 rounded-sm"></span> উপরি অঙ্গের রোগসমূহ
+                    
+                    <!-- নির্দেশনা অনুযায়ী শিরোনামটি পরিবর্তন এবং বাকি বাক্যগুলো রিমুভ করে এক জায়গায় আনা হলো -->
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5 mt-4">
+                        <span class="w-1.5 h-3 bg-cyan-500 rounded-sm"></span> অঙ্গ ভিত্তিক রোগ সমুহের পেজসমুহ
                     </h3>
                     <div class="flex flex-wrap gap-x-4 gap-y-2">
+                        <!-- উপরি অঙ্গ -->
                         <span onclick="showLockAlert()" class="locked-text-item">
                             <i class="fas fa-lock text-red-400 text-xs"></i><i class="fas fa-brain text-cyan-500"></i> মাথা
                         </span>
@@ -331,16 +334,10 @@
                         <span onclick="showLockAlert()" class="locked-text-item">
                             <i class="fas fa-lock text-red-400 text-xs"></i><i class="fas fa-tooth text-cyan-500"></i> দাঁত
                         </span>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                        <span class="w-1.5 h-3 bg-blue-500 rounded-sm"></span> মাঝ অঙ্গের রোগসমূহ
-                    </h3>
-                    <div class="flex flex-wrap gap-x-4 gap-y-2">
+                        
+                        <!-- মাঝ অঙ্গ -->
                         <span onclick="showLockAlert()" class="locked-text-item">
-                            <i class="fas fa-lock text-red-400 text-xs"></i><i class="fas fa-lungs text-blue-500"></i> বুকের समस्या
+                            <i class="fas fa-lock text-red-400 text-xs"></i><i class="fas fa-lungs text-blue-500"></i> বুকের সমস্যা
                         </span>
                         <span onclick="showLockAlert()" class="locked-text-item">
                             <i class="fas fa-lock text-red-400 text-xs"></i><i class="fas fa-hand text-blue-500"></i> হাতের সমস্যা
@@ -351,14 +348,8 @@
                         <span onclick="showLockAlert()" class="locked-text-item">
                             <i class="fas fa-lock text-red-400 text-xs"></i><i class="fas fa-apple-alt text-blue-500"></i> পাকস্থলী
                         </span>
-                    </div>
-                </div>
 
-                <div>
-                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                        <span class="w-1.5 h-3 bg-purple-500 rounded-sm"></span> নিচ অঙ্গের রোগসমূহ
-                    </h3>
-                    <div class="flex flex-wrap gap-x-4 gap-y-2">
+                        <!-- নিচ অঙ্গ -->
                         <span onclick="showLockAlert()" class="locked-text-item">
                             <i class="fas fa-lock text-red-400 text-xs"></i><i class="fas fa-circle-dot text-purple-500"></i> অর্শ
                         </span>
@@ -380,14 +371,8 @@
                         <span onclick="showLockAlert()" class="locked-text-item">
                             <i class="fas fa-lock text-red-400 text-xs"></i><i class="fas fa-person-dress text-purple-500"></i> যৌনাঙ্গ নারী
                         </span>
-                    </div>
-                </div>
 
-                <div>
-                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                        <span class="w-1.5 h-3 bg-rose-500 rounded-sm"></span> সার্বদেহিক রোগসমূহ
-                    </h3>
-                    <div class="flex flex-wrap gap-x-4 gap-y-2">
+                        <!-- সার্বদেহিক -->
                         <span onclick="showLockAlert()" class="locked-text-item">
                             <i class="fas fa-lock text-red-400 text-xs"></i><i class="fas fa-temperature-high text-rose-500"></i> জ্বর সর্দি কাশি
                         </span>
@@ -422,7 +407,6 @@
     <div id="footer-placeholder"></div>
 
     <script>
-        // গ্লোবাল ভেরিয়েবল কারেন্ট ইউজারের UID রাখার জন্য
         let currentUserId = null;
 
         $(function() {
@@ -441,7 +425,6 @@
             
             $('#footer-placeholder').load('assets/footer.html');
 
-            // প্রোফাইল ফর্ম সাবমিট লজিক
             $('#profileForm').on('submit', function(e) {
                 e.preventDefault();
                 if (!currentUserId) return;
@@ -457,12 +440,10 @@
                     chamberPhonee: $('#p_chamberPhonee').val().trim()
                 };
 
-                // ফায়ারস্টোরে ডেটা সেট/আপডেট করা (Set with merge true)
                 firebase.firestore().collection("users").doc(currentUserId).set(updatedData, { merge: true })
                 .then(() => {
                     alert("প্রোফাইল তথ্য সফলভাবে সংরক্ষণ করা হয়েছে!");
                     closeProfileModal();
-                    // ড্যাশবোর্ডের টেক্সট আপডেট
                     if(updatedData.name) document.getElementById('userName').textContent = updatedData.name;
                     if(updatedData.phone) document.getElementById('userPhone').textContent = updatedData.phone;
                 })
@@ -473,12 +454,10 @@
             });
         });
 
-        // লক করা আইটেমে ক্লিক করলে যে অ্যালার্ট দেখাবে
         function showLockAlert() {
             alert("দুঃখিত! এই পেজটি শুধুমাত্র পেইড ইউজারদের জন্য নির্ধারিত। অনুগ্রহ করে বাম পাশের পেমেন্ট সেন্টার থেকে ফি পরিশোধ করে আপনার অ্যাকাউন্টটি আপডেট করুন।");
         }
 
-        // মডাল ওপেন ও ক্লোজ করার ফাংশন
         function openProfileModal() {
             $('#profileModal').removeClass('hidden');
         }
@@ -488,9 +467,8 @@
         }
 
         function loadUserData(data, uid, authUser) {
-            currentUserId = uid; // UID সেট করা হলো
+            currentUserId = uid;
 
-            // ড্যাশবোর্ড ইন্টারফেস ডেটা লোড
             document.getElementById('userName').textContent = data.name || 'ইউজার';
             document.getElementById('userPhone').textContent = data.phone || authUser.phoneNumber || 'ফোন: যুক্ত নেই';
             document.getElementById('userEmail').textContent = data.email || authUser.email || 'ইমেইল: যুক্ত নেই';
@@ -501,7 +479,6 @@
             const badgeContainer = document.getElementById('badgeContainer');
             badgeContainer.innerHTML = `<span class="bg-slate-700 text-slate-300 px-3 py-1 rounded-full font-bold text-xs flex items-center gap-1"><i class="fas fa-user"></i> REGISTERED USER</span>`;
 
-            // মডাল ফর্মের ইনপুট ফিল্ডগুলোতে ডেটা প্রি-লোড করা (যদি ডেটাবেসে থাকে)
             $('#p_name').val(data.name || '');
             $('#p_doctorDegree').val(data.doctorDegree || '');
             $('#p_regNo').val(data.regNo || '');
