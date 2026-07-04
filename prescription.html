@@ -311,15 +311,15 @@
 
         function parsePrescriptionText(text) {
             let res = { serial: '', date: '', name: '', phone: '', address: '' };
-            const sMatch = text.match(/সিরিয়াল\s*নং\s*:\s*([^\n\r]+)/);
+            const sMatch = text.match(/(?:সিরিয়াল\s*নং|সিরিয়াল\s*নং|Serial|Sl)\s*[:ঃ\s-]*\s*([^\n\r]+)/i);
             if(sMatch) res.serial = sMatch[1].trim();
-            const dMatch = text.match(/তারিখ\s*:\s*([^\n\r]+)/);
+            const dMatch = text.match(/(?:তারিখ|Date)\s*[:ঃ\s-]*\s*([^\n\r]+)/i);
             if(dMatch) res.date = dMatch[1].trim();
-            const nMatch = text.match(/রোগীর\s*নাম\s*:\s*([^\n\r]+)/);
+            const nMatch = text.match(/(?:রোগীর\s*নাম|নাম|Patient\s*Name|Name)\s*[:ঃ\s-]*\s*([^\n\r]+)/i);
             if(nMatch) res.name = nMatch[1].trim();
-            const pMatch = text.match(/ফোন\s*নম্বর\s*:\s*([০-৯0-9]+)/);
+            const pMatch = text.match(/(?:ফোন\s*নম্বর|মোবাইল|ফোন|Phone|Mobile)\s*[:ঃ\s-]*\s*([০-৯0-9]+)/i);
             if(pMatch) res.phone = pMatch[1].trim();
-            const aMatch = text.match(/(?:ঠিকানা|Address)\s*:\s*([^\n\r]+)/i);
+            const aMatch = text.match(/(?:ঠিকানা|বাসা|Address)\s*[:ঃ\s-]*\s*([^\n\r]+)/i);
             if(aMatch) res.address = aMatch[1].trim();
             return res;
         }
@@ -448,8 +448,9 @@
                 return;
             }
             dataArray.forEach((data) => {
+                const addr = data.patientAddress ? data.patientAddress : 'উল্লেখ নেই';
                 const openBtn = `<button onclick="openEditModal('${data.id}', \`${escape(data.patientName)}\`, \`${escape(data.prescriptionText)}\`)" class="bg-emerald-600 text-white hover:bg-emerald-700 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition"><i class="fas fa-folder-open text-[9px]"></i> ওপেন</button>`;
-                const printBtn = `<button onclick="printPrescriptionWindow(\`${escape(data.serialNo)}\`,\`${escape(data.prescriptionDate)}\`,\`${escape(data.patientName)}\`,\`${escape(data.patientAddress || '')}\`,\`${escape(data.patientPhone)}\`,\`${escape(data.prescriptionText)}\`)" class="bg-blue-600 text-white hover:bg-blue-700 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition ml-1"><i class="fas fa-print text-[9px]"></i> প্রিন্ট</button>`;
+                const printBtn = `<button onclick="printPrescriptionWindow(\`${escape(data.serialNo)}\`,\`${escape(data.prescriptionDate)}\`,\`${escape(data.patientName)}\`,\`${escape(addr)}\`,\`${escape(data.patientPhone)}\`,\`${escape(data.prescriptionText)}\`)" class="bg-blue-600 text-white hover:bg-blue-700 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition ml-1"><i class="fas fa-print text-[9px]"></i> প্রিন্ট</button>`;
                 const deleteBtn = `<button onclick="deletePrescription('${data.id}', '${data.patientName}')" class="bg-rose-50 text-rose-600 hover:bg-rose-100 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition ml-1"><i class="fas fa-trash-alt text-[9px]"></i> ডিলিট</button>`;
 
                 const tr = document.createElement('tr');
@@ -476,10 +477,11 @@
             let age = '......';
             let gender = '......';
             
-            // বয়স এবং লিঙ্গ খোঁজার জন্য আরও উন্নত ও শক্তিশালী রেগুলার এক্সপ্রেশন ব্যবহার করা হয়েছে
-            const ageMatch = text.match(/(?:বয়স|বয়েস|Age)\s*[:ঃ]?\s*([^\n\r,৷]+)/i);
+            // বয়স এবং লিঙ্গ ক্যাপচারের জন্য শক্তিশালী রেগুলার এক্সপ্রেশন
+            const ageMatch = text.match(/(?:বয়স|বয়েস|Age)\s*[:ঃ\s-]*\s*([^\n\r,৷\s]+[^\n\r,৷]*)/i);
             if(ageMatch) age = ageMatch[1].trim();
-            const genderMatch = text.match(/(?:লিঙ্গ|Gender|Sex)\s*[:ঃ]?\s*([^\n\r,৷]+)/i);
+            
+            const genderMatch = text.match(/(?:লিঙ্গ|Gender|Sex)\s*[:ঃ\s-]*\s*([^\n\r,৷\s]+[^\n\r,৷]*)/i);
             if(genderMatch) gender = genderMatch[1].trim();
 
             let leftColumnContent = '';
@@ -491,14 +493,13 @@
             lines.forEach(line => {
                 const cleanLine = line.trim();
                 
-                // সমস্ত সম্ভাব্য অবাঞ্ছিত বা ডুপ্লিকেট টেক্সট ফিল্টারিং লজিক (যা প্রিন্ট কপিতে আসবে না)
-                if (cleanLine.startsWith("রোগীর নাম") || cleanLine.startsWith("নাম") || cleanLine.startsWith("Patient Name") ||
+                // সমস্ত মেটাডাটা যা স্ক্রিপ্ট থেকে এক্সট্র্যাক্ট হয়ে অলরেডি উপরে চলে গেছে, তা বডি থেকে সম্পূর্ণ বাদ দেওয়া হবে
+                if (cleanLine.startsWith("রোগীর নাম") || cleanLine.startsWith("নাম") || cleanLine.startsWith("Patient Name") || cleanLine.startsWith("Name:") ||
                     cleanLine.startsWith("বয়স") || cleanLine.startsWith("বয়েস") || cleanLine.startsWith("Age") || 
                     cleanLine.startsWith("লিঙ্গ") || cleanLine.startsWith("Gender") || cleanLine.startsWith("Sex") ||
                     cleanLine.startsWith("ফোন নম্বর") || cleanLine.startsWith("মোবাইল") || cleanLine.startsWith("Phone") ||
                     cleanLine.startsWith("ঠিকানা") || cleanLine.startsWith("Address") ||
-                    cleanLine.startsWith("চেম্বার") || cleanLine.startsWith("তারিখ") || cleanLine.startsWith("Date") ||
-                    cleanLine.startsWith("চিকিৎসকের নাম") || cleanLine.startsWith("ডাক্তার")) {
+                    cleanLine.startsWith("চেম্বার") || cleanLine.startsWith("তারিখ") || cleanLine.startsWith("Date")) {
                     return; 
                 }
 
@@ -507,8 +508,8 @@
                 } 
                 else if (cleanLine.startsWith("Rx") || cleanLine.includes("ঔষধ ও সেবন বিধি") || cleanLine.includes("জীবনযাপন ও পথ্য পরামর্শ") || cleanLine.includes("বর্জনীয় খাবার")) {
                     currentSide = 'right';
-                    if(cleanLine.startsWith("Rx")) {
-                        return; // মূল Rx বড় ফন্টে জেনারেট হচ্ছে বিধায় এই লাইন স্কিপ হবে
+                    if(cleanLine.startsWith("Rx") || cleanLine.startsWith("RX")) {
+                        return; 
                     }
                 }
 
@@ -567,7 +568,7 @@
                         <div><span class="text-slate-400">রোগীর নাম:</span> <b class="text-slate-800">${name}</b></div>
                         <div><span class="text-slate-400">বয়স:</span> <b class="text-slate-800">${age}</b></div>
                         <div><span class="text-slate-400">লিঙ্গ:</span> <b class="text-slate-800">${gender}</b></div>
-                        <div><span class="text-slate-400">ঠিকানা:</span> <b class="text-slate-800">${address || 'উল্লেখ নেই'}</b></div>
+                        <div><span class="text-slate-400">ঠিকানা:</span> <b class="text-slate-800">${address}</b></div>
                     </div>
 
                     <div class="grid grid-cols-12 gap-6 min-h-[600px] items-start">
@@ -618,6 +619,7 @@
                        (item.prescriptionDate && item.prescriptionDate.toLowerCase().includes(searchKey)) ||
                        (item.patientName && item.patientName.toLowerCase().includes(searchKey)) ||
                        (item.patientPhone && item.patientPhone.toLowerCase().includes(searchKey)) ||
+                       (item.patientAddress && item.patientAddress.toLowerCase().includes(searchKey)) ||
                        (item.prescriptionText && item.prescriptionText.toLowerCase().includes(searchKey));
             });
             renderTable(filtered);
