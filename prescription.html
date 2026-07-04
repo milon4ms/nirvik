@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="bn">
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -298,7 +297,6 @@
                     text = text.substring(0, 2300);
                 }
 
-                // সুনির্দিষ্ট অটো-পার্সিং এক্সট্রাকশন লজিক
                 const extracted = parsePrescriptionText(text);
                 
                 if(extracted.serial) $('#serialNo').val(extracted.serial);
@@ -307,7 +305,6 @@
                 if(extracted.address) $('#patientAddress').val(extracted.address);
                 if(extracted.phone) $('#patientPhone').val(extracted.phone);
 
-                // মূল এডিটর থেকে ডুপ্লিকেট ডাটাগুলো রিমুভ করার প্রসেস
                 let cleanText = text;
                 const filterPatterns = [
                     /সিরিয়াল\s*নং\s*[:ঃ]?\s*[^\n\r]+/g,
@@ -511,7 +508,6 @@
             let age = '......';
             let gender = '......';
             
-            // বয়স ও লিঙ্গ ফিল্ড এক্সট্র্যাক্ট করার সবথেকে শক্তিশালী বাংলা Regex ইন্টেলিজেন্স
             const ageMatch = text.match(/(?:বয়স|বয়েস|Age)\s*[:ঃ]?\s*([^\n\r,৷\(\)]+)/i);
             if(ageMatch) age = ageMatch[1].trim();
             const genderMatch = text.match(/(?:লিঙ্গ|Gender|Sex)\s*[:ঃ]?\s*([^\n\r,৷\(\)]+)/i);
@@ -526,7 +522,6 @@
             lines.forEach(line => {
                 const cleanLine = line.trim();
                 
-                // প্রিন্ট কপিতে ক্লিন ফিল্টারিং লজিক (যাতে ডুপ্লিকেট এন্ট্রি না আসে)
                 if (cleanLine.startsWith("রোগীর নাম") || cleanLine.startsWith("নাম") || cleanLine.startsWith("Patient Name") ||
                     cleanLine.startsWith(" can ") || cleanLine.startsWith("বয়স") || cleanLine.startsWith("বয়েস") || cleanLine.startsWith("Age") || 
                     cleanLine.startsWith("লিঙ্গ") || cleanLine.startsWith("Gender") || cleanLine.startsWith("Sex") ||
@@ -556,6 +551,12 @@
 
             if (!leftColumnContent.trim()) {
                 leftColumnContent = "রোগীর সাধারণ লক্ষণাবলী ও কেস হিস্ট্রি ডান কলামের বিবরণীতে সংযুক্ত আছে।";
+            }
+
+            // নাম এবং ঠিকানা একসাথে মার্জ করার সুন্দর ফরম্যাট
+            let nameAndAddress = name;
+            if(address && address !== 'null' && address !== 'undefined' && address !== 'কোনোটিই নয়' && address !== 'উল্লেখ নেই') {
+                nameAndAddress += `, ${address}`;
             }
 
             const printWindow = window.open('', '_blank', 'width=950,height=1000');
@@ -597,11 +598,10 @@
                         </div>
                     </div>
 
-                    <!-- রেসপন্সিভ এবং ফ্লুইড ৪-কলাম ইনফো বার গ্রিড -->
-                    <div class="grid grid-cols-4 bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs gap-3 mb-6 font-medium shadow-sm">
+                    <!-- ৩-কলাম ইনফো বার গ্রিড: নাম ও ঠিকানা একই ফিল্ডে পাশাপাশি অবস্থান করছে -->
+                    <div class="grid grid-cols-3 bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs gap-3 mb-6 font-medium shadow-sm">
                         <div class="border-r border-slate-200 pr-2"><span class="text-slate-400 block mb-0.5">সিরিয়াল নং:</span> <b class="text-slate-800 text-[13px]">${serial}</b></div>
-                        <div class="border-r border-slate-200 pr-2"><span class="text-slate-400 block mb-0.5">রোগীর নাম ও ঠিকানা:</span> <b class="text-slate-800 text-[13px]">${name}</b> <span class="text-slate-500 block text-[11px] mt-0.5">🏠 ${address || 'উল্লেখ নেই'}</span></div>
-                        <div class="border-r border-slate-200 pr-2"><span class="text-slate-400 block mb-0.5">বয়স:</span> <b class="text-slate-800 text-[13px]">${age}</b></div>
+                        <div class="border-r border-slate-200 pr-2"><span class="text-slate-400 block mb-0.5">রোগীর নাম ও ঠিকানা:</span> <b class="text-slate-800 text-[13px]">${nameAndAddress}</b></div>
                         <div><span class="text-slate-400 block mb-0.5">লিঙ্গ:</span> <b class="text-slate-800 text-[13px]">${gender}</b></div>
                     </div>
 
@@ -620,7 +620,14 @@
                                 <i class="far fa-calendar-alt"></i> তারিখ: ${date}
                             </div>
                             
-                            <div class="text-4xl font-serif text-emerald-800 font-black mb-3 select-none">R<sub>x</sub></div>
+                            <!-- Rx এর নিচে বয়স চমৎকারভাবে স্থাপন করা হয়েছে -->
+                            <div class="flex flex-col mb-4">
+                                <div class="text-4xl font-serif text-emerald-800 font-black select-none">R<sub>x</sub></div>
+                                <div class="text-[11px] font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded mt-1 self-start">
+                                    <i class="fas fa-user-clock text-[9px] text-emerald-600"></i> বয়স: ${age}
+                                </div>
+                            </div>
+                            
                             <div class="text-xs text-slate-800 font-sans whitespace-pre-wrap leading-relaxed bg-white p-2 rounded-xl">
                                 ${rightColumnContent}
                             </div>
@@ -707,7 +714,7 @@
                 alert("আপডেট সফল হয়েছে!");
                 closeModal();
             }).catch(error => {
-                alert("আপডেট ব্যর্থ হয়েছে।");
+                alert("আপডেট ব্যর্থ হয়েছে。");
             });
         }
 
