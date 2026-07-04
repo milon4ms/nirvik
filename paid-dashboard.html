@@ -22,6 +22,7 @@
         document.head.appendChild(style);
 
         let isDashboardInitialized = false;
+        let currentUserData = {}; // বর্তমান ইউজারের ডেটা সংরক্ষণের জন্য
 
         firebase.auth().onAuthStateChanged((user) => {
             if (!user) {
@@ -36,7 +37,8 @@
                         
                         if (!isDashboardInitialized) {
                             isDashboardInitialized = true;
-                            loadUserData(doc.data(), user.uid, user);
+                            currentUserData = doc.data(); // ডেটা গ্লোবাল ভেরিয়েবলে রাখা হলো
+                            loadUserData(currentUserData, user.uid, user);
                         }
                     } else {
                         window.location.href = "login.html";
@@ -87,7 +89,6 @@
             box-shadow: 0 2px 8px rgba(6, 78, 59, 0.1);
         }
 
-        /* ক্লিন ও মডার্ন টেক্সট লিংক স্টাইল */
         .text-link-item {
             display: flex;
             align-items: center;
@@ -108,6 +109,14 @@
             border-color: #cbd5e1;
             box-shadow: 0 2px 6px rgba(0,0,0,0.04);
             transform: translateX(2px);
+        }
+
+        /* প্রফাইল আপডেট ফর্ম মডাল স্টাইল */
+        .modal {
+            transition: opacity 0.25s ease;
+        }
+        body.modal-active {
+            overflow: hidden;
         }
     </style>
 </head>
@@ -166,9 +175,9 @@
                     </div>
                     <div class="flex flex-col gap-2 mt-2">
                         <p class="text-xl font-bold"><span id="paymentAmount">০</span> ৳</p>
-                        <a href="profile-update.html" class="text-xl font-bold text-emerald-300 hover:text-white transition flex items-center gap-2">
+                        <button onclick="toggleModal()" class="text-xl font-bold text-emerald-300 hover:text-white transition flex items-center gap-2 text-left w-full">
                             <i class="fas fa-user-edit text-lg"></i> প্রোফাইল আপডেট করুন
-                        </a>
+                        </button>
                     </div>
                 </div>
                 
@@ -216,7 +225,6 @@
                 </div>
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-                    
                     <a href="select.html" class="text-link-item">
                         <i class="fas fa-stethoscope text-orange-500 w-5 text-center text-base"></i> সাধারণ রোগ
                     </a>
@@ -311,6 +319,44 @@
         </div>
     </div>
 
+    <div id="profileModal" class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center z-50">
+        <div class="modal-overlay absolute w-full h-full bg-slate-900 opacity-50 backdrop-blur-sm" onclick="toggleModal()"></div>
+        
+        <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded-xl shadow-lg z-50 overflow-y-auto border border-slate-200">
+            
+            <div class="modal-content py-4 text-left px-6">
+                <div class="flex justify-between items-center pb-3 border-b border-slate-100">
+                    <p class="text-lg font-bold text-slate-800"><i class="fas fa-user-edit text-emerald-600 mr-1"></i> প্রফাইল আপডেট করুন</p>
+                    <div class="modal-close cursor-pointer z-50" onclick="toggleModal()">
+                        <i class="fas fa-times text-slate-400 hover:text-slate-600"></i>
+                    </div>
+                </div>
+
+                <form id="profileUpdateForm" class="space-y-4 pt-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-600 mb-1">নাম:</label>
+                        <input type="text" id="editName" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-600 mb-1">মোবাইল নম্বর:</label>
+                        <input type="text" id="editPhone" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-600 mb-1">ইমেইল ঠিকানা:</label>
+                        <input type="email" id="editEmail" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-500" required>
+                    </div>
+
+                    <div class="flex justify-end pt-2 gap-2">
+                        <button type="button" onclick="toggleModal()" class="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs rounded-lg transition">বাতিল</button>
+                        <button type="submit" id="saveBtn" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-lg transition shadow-sm flex items-center gap-1">
+                            <i class="fas fa-save"></i> সংরক্ষণ করুন
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <div id="footer-placeholder"></div>
 
     <script>
@@ -320,6 +366,57 @@
         });
 
         let timerInterval;
+
+        // মডাল খোলা এবং বন্ধ করার ফাংশন
+        function toggleModal() {
+            const body = document.querySelector('body');
+            const modal = document.querySelector('#profileModal');
+            
+            // মডাল খোলার সময় ইনপুট ফিল্ডগুলোতে বর্তমান ডেটা সেট করা
+            if(modal.classList.contains('pointer-events-none')) {
+                document.getElementById('editName').value = currentUserData.name || '';
+                document.getElementById('editPhone').value = currentUserData.phone || '';
+                document.getElementById('editEmail').value = currentUserData.email || '';
+            }
+
+            modal.classList.toggle('opacity-0');
+            modal.classList.toggle('pointer-events-none');
+            body.classList.toggle('modal-active');
+        }
+
+        // ফর্ম সাবমিট করে ডেটাবেস (Firestore) এডিট/আপডেট করার ফাংশন
+        document.getElementById('profileUpdateForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const user = firebase.auth().currentUser;
+            if (!user) return;
+
+            const saveBtn = document.getElementById('saveBtn');
+            saveBtn.disabled = true;
+            saveBtn.innerHTML = `<i class="fas fa-spinner animate-spin"></i> প্রসেসিং...`;
+
+            const updatedName = document.getElementById('editName').value.trim();
+            const updatedPhone = document.getElementById('editPhone').value.trim();
+            const updatedEmail = document.getElementById('editEmail').value.trim();
+
+            // ফায়ারস্টোরে ডেটা আপডেট করা হচ্ছে
+            firebase.firestore().collection("users").doc(user.uid).update({
+                name: updatedName,
+                phone: updatedPhone,
+                email: updatedEmail
+            })
+            .then(() => {
+                alert("আপনার প্রোফাইল সফলভাবে আপডেট হয়েছে!");
+                toggleModal();
+                window.location.reload(); // নতুন ডেটা লোড করার জন্য পেজ রিলোড
+            })
+            .catch((error) => {
+                console.error("Error updating profile: ", error);
+                alert("দুঃখিত, আপডেট করা যায়নি। আবার চেষ্টা করুন।");
+                saveBtn.disabled = false;
+                saveBtn.innerHTML = `<i class="fas fa-save"></i> সংরক্ষণ করুন`;
+            });
+        });
 
         function loadUserData(data, uid, authUser) {
             document.getElementById('userName').textContent = data.name || 'ইউজার';
