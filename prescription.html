@@ -82,7 +82,7 @@
             <div class="bg-white/10 border border-white/20 rounded-xl p-3 flex items-center gap-3 self-start md:self-auto">
                 <div class="text-center">
                     <p class="text-[10px] text-emerald-200 font-bold uppercase tracking-wider">আজকের কোটা ব্যবহার</p>
-                    <p class="text-base font-black mt-0.5"><span id="lblUsed">০</span> / <span id="lblLimit">৫</span></p>
+                    <p class="text-base font-black mt-0.5"><span id="lblUsed">০</span> / <span id="lblLimit">5</span></p>
                 </div>
                 <div class="w-px h-8 bg-white/20"></div>
                 <div id="quotaStatusBadge" class="bg-emerald-500/20 text-emerald-300 text-[11px] font-bold px-2 py-1 rounded-lg flex items-center gap-1">
@@ -255,11 +255,11 @@
                         $('#quotaStatusBadge').removeClass('bg-emerald-500/20 text-emerald-300').addClass('bg-purple-500/20 text-purple-300').html('<i class="fas fa-user-shield text-[10px]"></i> প্রধান এডমিন');
                     } else if (currentUserRole === 'paid') {
                         userDailyLimit = 50; 
-                        $('#lblLimit').text('৫০');
+                        $('#lblLimit').text('50');
                         $('#quotaStatusBadge').removeClass('bg-emerald-500/20 text-emerald-300').addClass('bg-amber-500/20 text-amber-300').html('<i class="fas fa-crown text-[10px]"></i> পেইড মেম্বার');
                     } else {
                         userDailyLimit = 5; 
-                        $('#lblLimit').text('৫');
+                        $('#lblLimit').text('5');
                         $('#quotaStatusBadge').removeClass('bg-amber-500/20 text-amber-300').addClass('bg-emerald-500/20 text-emerald-300').html('<i class="fas fa-user-check text-[10px]"></i> রেজিস্টার্ড');
                     }
                 }
