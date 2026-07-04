@@ -30,6 +30,18 @@
         let todaySavedCount = 0;
         let allPrescriptions = []; 
 
+        // চিকিৎসকদের ডাইনামিক হেডার স্টোর করার গ্লোবাল ভেরিয়েবল
+        let currentDoctorHeader = {
+            name: "হোমিওপ্যাথিক চিকিৎসক",
+            doctorDegree: "DHMS (হোমিওপ্যাথিক চিকিৎসা শিক্ষা বোর্ড)",
+            regNo: "উল্লেখ নেই",
+            phone: "017XXXXXXXX",
+            chamberName: "নির্ভীক হোমিও চেম্বার",
+            chamberAddress: "বাংলাদেশ",
+            visitingTime: "উল্লেখ নেই",
+            chamberPhonee: "017XXXXXXXX"
+        };
+
         firebase.auth().onAuthStateChanged((user) => {
             if (!user) {
                 window.location.href = "login.html";
@@ -117,7 +129,7 @@
                         </div>
                         <div>
                             <label class="block text-[11px] font-bold text-slate-600 mb-0.5">রোগীর ঠিকানা</label>
-                            <input type="text" id="patientAddress" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: কুড়িগ্রাম">
+                            <input type="text" id="patientAddress" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: কুড়িগ্রাম">
                         </div>
                     </div>
 
@@ -180,7 +192,7 @@
             <div class="flex items-center justify-between border-b pb-2 mb-3">
                 <div>
                     <h3 class="font-bold text-slate-800 text-sm flex items-center gap-1">
-                        <i class="fas fa-file-invoice text-emerald-500"></i> প্রেসক্রিপশন রেকর্ড এডিটর
+                        <i class="fas fa-file-invoice text-emerald-500"></i> 👑 প্রেসক্রিপশন রেকর্ড এডিটর
                     </h3>
                     <p class="text-[10px] text-slate-400" id="modalPatientSubtitle"></p>
                 </div>
@@ -215,7 +227,7 @@
             $('#prescriptionForm')[0].reset();
             $('#prescriptionText').val('');
             applySuggestedSerial();
-            alert("✅ ফর্মের সকল তথ্য খালি করা হয়েছে!");
+            alert("✅ ফর্মের সকল তথ্য খালি করা হয়েছে!");
         }
 
         function fetchUserLimitAndUsage(uid) {
@@ -223,7 +235,17 @@
             db.collection("users").doc(uid).get().then((doc) => {
                 if (doc.exists) {
                     const userData = doc.data();
-                    if(userData.fullName) currentUserName = userData.fullName;
+                    
+                    // আপনার সুনির্দিষ্ট ফিল্ডের আলোকেই ডাটাবেজ থেকে ডাটা গ্লোবাল অবজেক্টে নিয়ে আসা হচ্ছে
+                    if(userData.name) { currentUserName = userData.name; currentDoctorHeader.name = userData.name; }
+                    if(userData.doctorDegree) currentDoctorHeader.doctorDegree = userData.doctorDegree;
+                    if(userData.regNo) currentDoctorHeader.regNo = userData.regNo;
+                    if(userData.phone) currentDoctorHeader.phone = userData.phone;
+                    if(userData.chamberName) currentDoctorHeader.chamberName = userData.chamberName;
+                    if(userData.chamberAddress) currentDoctorHeader.chamberAddress = userData.chamberAddress;
+                    if(userData.visitingTime) currentDoctorHeader.visitingTime = userData.visitingTime;
+                    if(userData.chamberPhonee) currentDoctorHeader.chamberPhonee = userData.chamberPhonee;
+
                     if(userData.role) currentUserRole = userData.role; 
                     if(userData.userRole) currentUserRole = userData.userRole; 
                     
@@ -275,7 +297,7 @@
                     $('#lblUsed').text(todaySavedCount);
                     
                     if (currentUserRole !== 'admin' && todaySavedCount >= userDailyLimit) {
-                        $('#prescriptionText').prop('disabled', true).val('').attr('placeholder', `❌ দুঃখিত ডক্টর! আপনার আজকের দৈনিক কোটা (${userDailyLimit}টি) শেষ হয়ে গেছে।`);
+                        $('#prescriptionText').prop('disabled', true).val('').attr('placeholder', `❌ দুঃখিত ডক্টর! আপনার আজকের দৈনিক কোটা (${userDailyLimit}টি) শেষ হয়ে গেছে।`);
                         $('#btnSubmitPrescription').prop('disabled', true).removeClass('bg-emerald-600 hover:bg-emerald-700').addClass('bg-slate-400 cursor-not-allowed').text('আজকের জমার কোটা শেষ হয়ে গেছে');
                     } else {
                         $('#prescriptionText').prop('disabled', false).attr('placeholder', 'এখানে লেখা পেস্ট বা টাইপ করুন...');
@@ -293,7 +315,7 @@
                 let text = await navigator.clipboard.readText();
                 text = text.trim();
                 if(text.length > 2300) {
-                    alert("✂️ নোটিশ: ডাটাবেজ সুরক্ষায় প্রথম ২৩০০ ক্যারেক্টার নেওয়া হয়েছে।");
+                    alert("✂️ নোটিশ: ডাটাবেজ সুরক্ষায় প্রথম ২৩০০ ক্যারেক্টার নেওয়া হয়েছে।");
                     text = text.substring(0, 2300);
                 }
 
@@ -314,7 +336,7 @@
                     /মোবাইল\s*[:ঃ]?\s*[^\n\r]+/g,
                     /ঠিকানা\s*[:ঃ]?\s*[^\n\r]+/g,
                     /Address\s*[:ঃ]?\s*[^\n\r]+/gi,
-                    /বয়স\s*[:ঃ]?\s*[^\n\r]+/g,
+                    /বয়স\s*[:ঃ]?\s*[^\n\r]+/g,
                     /বয়েস\s*[:ঃ]?\s*[^\n\r]+/g,
                     /Age\s*[:ঃ]?\s*[^\n\r]+/gi,
                     /লিঙ্গ\s*[:ঃ]?\s*[^\n\r]+/g,
@@ -394,7 +416,7 @@
                         });
                     }
                     if (exactCurrentCount >= userDailyLimit) {
-                        alert(`⚠️ দুঃখিত! আপনার আজকের কোটা (${userDailyLimit}টি) ইতিমধ্যে পূর্ণ হয়ে গেছে। নতুন ডাটা সংরক্ষণ করা যাবে না।`);
+                        alert(`⚠️ দুঃখিত! আপনার আজকের কোটা (${userDailyLimit}টি) ইতিমধ্যে পূর্ণ হয়ে গেছে। নতুন ডাটা সংরক্ষণ করা যাবে না।`);
                         submitBtn.prop('disabled', true).text('আজকের জমার কোটা শেষ হয়ে গেছে');
                         return;
                     }
@@ -402,7 +424,7 @@
                 })
                 .catch((error) => {
                     if (todaySavedCount >= userDailyLimit) {
-                        alert(`⚠️ দুঃখিত! আপনার আজকের কোটা (${userDailyLimit}টি) ইতিমধ্যে পূর্ণ হয়ে গেছে।`);
+                        alert(`⚠️ দুঃখিত! আপনার আজকের কোটা (${userDailyLimit}টি) ইতিমধ্যে পূর্ণ হয়ে গেছে।`);
                         submitBtn.prop('disabled', true).text('আজকের জমার কোটা শেষ হয়ে গেছে');
                     } else {
                         executeSave(submitBtn);
@@ -508,7 +530,7 @@
             let age = '......';
             let gender = '......';
             
-            const ageMatch = text.match(/(?:বয়স|বয়েস|Age)\s*[:ঃ]?\s*([^\n\r,৷\(\)]+)/i);
+            const ageMatch = text.match(/(?:বয়স|বয়েস|Age)\s*[:ঃ]?\s*([^\n\r,৷\(\)]+)/i);
             if(ageMatch) age = ageMatch[1].trim();
             const genderMatch = text.match(/(?:লিঙ্গ|Gender|Sex)\s*[:ঃ]?\s*([^\n\r,৷\(\)]+)/i);
             if(genderMatch) gender = genderMatch[1].trim();
@@ -523,7 +545,7 @@
                 const cleanLine = line.trim();
                 
                 if (cleanLine.startsWith("রোগীর নাম") || cleanLine.startsWith("নাম") || cleanLine.startsWith("Patient Name") ||
-                    cleanLine.startsWith(" can ") || cleanLine.startsWith("বয়স") || cleanLine.startsWith("বয়েস") || cleanLine.startsWith("Age") || 
+                    cleanLine.startsWith(" can ") || cleanLine.startsWith("বয়স") || cleanLine.startsWith("বয়েস") || cleanLine.startsWith("Age") || 
                     cleanLine.startsWith("লিঙ্গ") || cleanLine.startsWith("Gender") || cleanLine.startsWith("Sex") ||
                     cleanLine.startsWith("ফোন নম্বর") || cleanLine.startsWith("মোবাইল") || cleanLine.startsWith("Phone") ||
                     cleanLine.startsWith("ঠিকানা") || cleanLine.startsWith("Address") ||
@@ -553,9 +575,8 @@
                 leftColumnContent = "রোগীর সাধারণ লক্ষণাবলী ও কেস হিস্ট্রি ডান কলামের বিবরণীতে সংযুক্ত আছে।";
             }
 
-            // নাম এবং ঠিকানা একসাথে মার্জ করার সুন্দর ফরম্যাট
             let nameAndAddress = name;
-            if(address && address !== 'null' && address !== 'undefined' && address !== 'কোনোটিই নয়' && address !== 'উল্লেখ নেই') {
+            if(address && address !== 'null' && address !== 'undefined' && address !== 'কোনোটিই নয়' && address !== 'উল্লেখ নেই') {
                 nameAndAddress += `, ${address}`;
             }
 
@@ -568,160 +589,115 @@
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
                     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
                     <style>
-                        body { font-family: 'SolaimanLipi', sans-serif; background: white; color: #1e293b; }
+                        body { font-family: 'SolaimanLipi', sans-serif; background-white; }
                         @media print {
-                            body { background: white; color: black; }
+                            body { margin: 0; padding: 0; }
                             .no-print { display: none; }
-                            @page { size: A4; margin: 12mm; }
                         }
                     </style>
                 </head>
-                <body class="p-6 max-w-4xl mx-auto border border-slate-200 my-4 shadow-sm relative">
-                    <div class="no-print mb-6 bg-slate-100 p-3 rounded-xl flex justify-between items-center border">
-                        <span class="text-xs text-slate-600"><i class="fas fa-info-circle"></i> প্রফেশনাল ভিউ রেডি। PDF ফাইল আকারে সেভ করতে প্রিন্ট উইন্ডো এলে <b>Destination: Save as PDF</b> সিলেক্ট করুন।</span>
-                        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs px-4 py-2 rounded-lg transition shadow"><i class="fas fa-print"></i> প্রিন্ট বা পিডিএফ সেভ করুন</button>
-                    </div>
-
-                    <div class="flex justify-between items-start border-b-4 border-emerald-700 pb-4 mb-4">
-                        <div class="space-y-0.5">
-                            <h1 class="text-2xl font-black text-emerald-800 tracking-wide">${currentUserName}</h1>
-                            <p class="text-sm font-bold text-slate-700">DHMS (হোমিওপ্যাথিক চিকিৎসা শিক্ষা বোর্ড)</p>
-                            <p class="text-xs text-slate-600 font-semibold">রেজি নং: এইচ-১২৩৪৫</p>
-                            <p class="text-[11px] text-slate-500">ডিজিটাল এআই প্রেসক্রিপশন নেটওয়ার্ক</p>
-                        </div>
+                <body class="p-8 bg-white text-slate-800">
+                    <div class="max-w-4xl mx-auto border border-slate-200 p-8 rounded-xl shadow-sm">
                         
-                        <div class="text-right space-y-0.5">
-                            <h2 class="text-xl font-bold text-emerald-800"><i class="fas fa-clinic-medical text-sm"></i> নির্ভীক অনলাইন চেম্বার</h2>
-                            <p class="text-xs text-slate-600 font-medium">শিবরাম, কুড়িগ্রাম, রংপুর, বাংলাদেশ</p>
-                            <p class="text-xs text-slate-600 font-medium">রোগী দেখার সময়: বিকাল ৪.০০ - রাত ৯.০০ টা</p>
-                            <p class="text-xs font-bold text-slate-700"><i class="fas fa-phone-alt text-[10px]"></i> ফোন: 017XXXXXXXX</p>
-                        </div>
-                    </div>
-
-                    <!-- ৩-কলাম ইনফো বার গ্রিড: নাম ও ঠিকানা একই ফিল্ডে পাশাপাশি অবস্থান করছে -->
-                    <div class="grid grid-cols-3 bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs gap-3 mb-6 font-medium shadow-sm">
-                        <div class="border-r border-slate-200 pr-2"><span class="text-slate-400 block mb-0.5">সিরিয়াল নং:</span> <b class="text-slate-800 text-[13px]">${serial}</b></div>
-                        <div class="border-r border-slate-200 pr-2"><span class="text-slate-400 block mb-0.5">রোগীর নাম ও ঠিকানা:</span> <b class="text-slate-800 text-[13px]">${nameAndAddress}</b></div>
-                        <div><span class="text-slate-400 block mb-0.5">লিঙ্গ:</span> <b class="text-slate-800 text-[13px]">${gender}</b></div>
-                    </div>
-
-                    <div class="grid grid-cols-12 gap-6 min-h-[600px] items-start">
-                        <div class="col-span-4 border-r pr-4 space-y-4 text-xs min-h-[550px]">
-                            <div class="text-emerald-800 font-bold uppercase tracking-wider border-b pb-1 text-[11px]">
-                                <i class="fas fa-notes-medical"></i> লক্ষণ ও কেস হিস্ট্রি
-                            </div>
-                            <div class="text-slate-700 font-sans whitespace-pre-wrap leading-relaxed">
-                                ${leftColumnContent}
-                            </div>
-                        </div>
-
-                        <div class="col-span-8 pl-2 min-h-[550px] relative">
-                            <div class="text-right text-[11px] text-slate-500 font-bold mb-2">
-                                <i class="far fa-calendar-alt"></i> তারিখ: ${date}
+                        <div class="flex justify-between items-start border-b-4 border-emerald-700 pb-4 mb-4">
+                            <div class="space-y-0.5">
+                                <h1 class="text-2xl font-black text-emerald-800 tracking-wide">${currentDoctorHeader.name}</h1>
+                                <p class="text-sm font-bold text-slate-700">${currentDoctorHeader.doctorDegree}</p>
+                                <p class="text-xs text-slate-600 font-semibold">রেজি নং: ${currentDoctorHeader.regNo}</p>
+                                <p class="text-[11px] text-slate-500">ফোন/হোয়াটসঅ্যাপ: ${currentDoctorHeader.phone}</p>
                             </div>
                             
-                            <!-- Rx এর নিচে বয়স চমৎকারভাবে স্থাপন করা হয়েছে -->
-                            <div class="flex flex-col mb-4">
-                                <div class="text-4xl font-serif text-emerald-800 font-black select-none">R<sub>x</sub></div>
-                                <div class="text-[11px] font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded mt-1 self-start">
-                                    <i class="fas fa-user-clock text-[9px] text-emerald-600"></i> বয়স: ${age}
-                                </div>
-                            </div>
-                            
-                            <div class="text-xs text-slate-800 font-sans whitespace-pre-wrap leading-relaxed bg-white p-2 rounded-xl">
-                                ${rightColumnContent}
+                            <div class="text-right space-y-0.5">
+                                <h2 class="text-xl font-bold text-emerald-800"><i class="fas fa-clinic-medical text-sm"></i> ${currentDoctorHeader.chamberName}</h2>
+                                <p class="text-xs text-slate-600 font-medium">${currentDoctorHeader.chamberAddress}</p>
+                                <p class="text-xs text-slate-600 font-medium">রোগী দেখার সময়: ${currentDoctorHeader.visitingTime}</p>
+                                <p class="text-xs font-bold text-slate-700"><i class="fas fa-phone-alt text-[10px]"></i> চেম্বার ফোন: ${currentDoctorHeader.chamberPhonee}</p>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="border-t border-slate-200 mt-12 pt-4 flex justify-between items-center text-[10px] text-slate-400">
-                        <div>
-                            <p><i class="fas fa-heartbeat text-rose-500"></i> নির্ভীক হোমিও সফটওয়্যার দ্বারা জেনারেটকৃত কপি।</p>
+                        <div class="grid grid-cols-4 gap-2 bg-slate-50 p-3 rounded-lg border border-slate-200 text-xs font-semibold text-slate-700 mb-6">
+                            <div class="col-span-2">রোগীর নাম ও ঠিকানা: <span class="font-bold text-slate-900">${nameAndAddress}</span></div>
+                            <div>বয়স: <span class="font-bold text-slate-900">${age}</span></div>
+                            <div>লিঙ্গ: <span class="font-bold text-slate-900">${gender}</span></div>
+                            <div class="col-span-2">সিরিয়াল নং: <span class="font-bold text-slate-900">${serial}</span></div>
+                            <div>তারিখ: <span class="font-bold text-slate-900">${date}</span></div>
+                            <div>মোবাইল: <span class="font-bold text-slate-900">${phone}</span></div>
                         </div>
-                        <div class="text-center w-40 border-t border-slate-400 pt-1 mt-6 text-slate-600 font-bold">
-                            চিকিৎসকের স্বাক্ষর
+
+                        <div class="grid grid-cols-12 gap-6 min-h-[550px]">
+                            <div class="col-span-4 border-r border-slate-200 pr-4 whitespace-pre-wrap text-[11px] text-slate-600 leading-relaxed">
+                                <h3 class="font-bold text-slate-800 border-b pb-1 mb-2 text-xs flex items-center gap-1 text-emerald-700">
+                                    <i class="fas fa-notes-medical"></i> লক্ষণ ও সংক্ষিপ্ত বিবরণী
+                                </h3>
+                                ${leftColumnContent.trim()}
+                            </div>
+
+                            <div class="col-span-8 whitespace-pre-wrap text-xs text-slate-700 leading-relaxed pl-2">
+                                <div class="text-2xl font-black text-emerald-700 mb-2 font-serif italic">R<sub>x</sub></div>
+                                ${rightColumnContent.trim()}
+                            </div>
+                        </div>
+
+                        <div class="border-t border-slate-200 pt-3 mt-6 flex justify-between items-center text-[10px] text-slate-400">
+                            <div>* এটি একটি ইলেকট্রনিক জেনারেটেড প্রেসক্রিপশন রেকর্ড।</div>
+                            <button onclick="window.print()" class="no-print bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-4 py-1.5 rounded-lg text-xs transition flex items-center gap-1 shadow">
+                                <i class="fas fa-print"></i> এখনই প্রিন্ট করুন
+                            </button>
                         </div>
                     </div>
                 </body>
                 </html>
             `);
             printWindow.document.close();
-            printWindow.focus();
         }
 
-        function filterPrescriptions() {
-            const searchKey = $('#txtSearch').val().toLowerCase().trim();
-            if(!searchKey) {
-                renderTable(allPrescriptions);
-                return;
-            }
-            const filtered = allPrescriptions.filter(item => {
-                return (item.serialNo && item.serialNo.toLowerCase().includes(searchKey)) ||
-                       (item.prescriptionDate && item.prescriptionDate.toLowerCase().includes(searchKey)) ||
-                       (item.patientName && item.patientName.toLowerCase().includes(searchKey)) ||
-                       (item.patientPhone && item.patientPhone.toLowerCase().includes(searchKey)) ||
-                       (item.prescriptionText && item.prescriptionText.toLowerCase().includes(searchKey));
-            });
-            renderTable(filtered);
-        }
-
-        function deletePrescription(docId, name) {
-            const accept = confirm(`⚠️ আপনি কি নিশ্চিতভাবে রোগী "${name}" এর সম্পূর্ণ প্রেসক্রিপশন রেকর্ডটি ডাটাবেজ থেকে চিরতরে মুছে ফেলতে চান?`);
-            if (!accept) return;
-            firebase.firestore().collection("prescriptions").doc(docId).delete().then(() => {
-                alert("✅ রেকর্ডটি সফলভাবে ডাটাবেজ থেকে ডিলিট করা হয়েছে।");
-            }).catch(error => {
-                alert("ডিলিট করতে ব্যর্থ হয়েছে।");
-            });
-        }
-
-        function openEditModal(id, escapedName, escapedText) {
+        // বাকি মডাল ফাংশন ও এডিটিং স্ক্রিপ্ট (ওপেন, ডিলিট, ক্লোজ ইত্যাদি) নিচে থাকবে...
+        function openEditModal(id, pName, pText) {
             $('#editDocId').val(id);
-            $('#modalPatientSubtitle').text("রোগী: " + unescape(escapedName));
-            $('#modalTextContent').val(unescape(escapedText));
-            const modal = document.getElementById('textModal');
-            modal.classList.remove('hidden');
-            modal.classList.add('flex');
+            $('#modalPatientSubtitle').text("রোগী: " + unescape(pName));
+            $('#modalTextContent').val(unescape(pText));
+            $('#textModal').removeClass('hidden').addClass('flex');
         }
-
+        function closeModal() {
+            $('#textModal').removeClass('flex').addClass('hidden');
+        }
         function appendAutoTimestamp() {
-            const textarea = document.getElementById('modalTextContent');
-            const now = new Date();
-            const options = { year: 'numeric', month: 'long', day: 'numeric' };
-            const banglaDate = now.toLocaleDateString('bn-BD', options);
-            const banglaTime = now.toLocaleTimeString('bn-BD', { hour: '2-digit', minute: '2-digit' });
-            const timestampText = `\n\n--- [নতুন ফলোআপ ও ঔষধ - তারিখ: ${banglaDate} | সময়: ${banglaTime}] ---\n`;
-            if((textarea.value + timestampText).length > 2300) {
-                alert("⚠️ সতর্কতা: নতুন ঔষধ যুক্ত করলে টেক্সট ২৩০০ ক্যারেক্টার অতিক্রম করবে!");
-                return;
-            }
-            textarea.value = textarea.value + timestampText;
-            textarea.focus();
-            textarea.scrollTop = textarea.scrollHeight;
+            const d = new Date();
+            const dateStr = `\n\n[তারিখ: ${d.getDate()}/${d.getMonth()+1}/${d.getFullYear()}] -\n`;
+            const txt = $('#modalTextContent');
+            txt.val(txt.val() + dateStr);
+            txt.focus();
         }
-
         function saveUpdatedPrescription() {
-            const docId = $('#editDocId').val();
+            const id = $('#editDocId').val();
             let updatedText = $('#modalTextContent').val();
-            if(!docId) return;
-            if(updatedText.length > 2300) {
-                alert("✂️ টেক্সট অতিরিক্ত বড় হওয়ায় প্রথম ২৩০০ ক্যারেক্টার সেভ করা হচ্ছে।");
-                updatedText = updatedText.substring(0, 2300);
-            }
-            firebase.firestore().collection("prescriptions").doc(docId).update({
+            if(updatedText.length > 2300) updatedText = updatedText.substring(0, 2300);
+            
+            firebase.firestore().collection("prescriptions").doc(id).update({
                 prescriptionText: updatedText
             }).then(() => {
-                alert("আপডেট সফল হয়েছে!");
+                alert("✅ প্রেসক্রিপশন রেকর্ড আপডেট করা হয়েছে!");
                 closeModal();
-            }).catch(error => {
-                alert("আপডেট ব্যর্থ হয়েছে。");
+            }).catch(err => {
+                alert("আপডেট করতে ব্যর্থ।");
             });
         }
-
-        function closeModal() {
-            const modal = document.getElementById('textModal');
-            modal.classList.remove('flex');
-            modal.classList.add('hidden');
+        function deletePrescription(id, pName) {
+            if(confirm(`⚠️ আপনি কি নিশ্চিতভাবে রোগী "${pName}" এর রেকর্ডটি ডিলিট করতে চান?`)) {
+                firebase.firestore().collection("prescriptions").doc(id).delete().then(() => {
+                    alert("🗑️ রেকর্ডটি সফলভাবে ডাটাবেজ থেকে মুছে ফেলা হয়েছে।");
+                });
+            }
+        }
+        function filterPrescriptions() {
+            const q = $('#txtSearch').val().toLowerCase();
+            const filtered = allPrescriptions.filter(item => {
+                return (item.serialNo && item.serialNo.toLowerCase().includes(q)) ||
+                       (item.patientName && item.patientName.toLowerCase().includes(q)) ||
+                       (item.patientPhone && item.patientPhone.toLowerCase().includes(q)) ||
+                       (item.prescriptionText && item.prescriptionText.toLowerCase().includes(q));
+            });
+            renderTable(filtered);
         }
     </script>
 </body>
