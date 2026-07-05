@@ -89,8 +89,7 @@ function generateSymptomPrompt() {
 
     promptText += `নির্দেশনা:
 তুমি আউটপুট দিবে ২টি অংশে। প্রথম অংশে থাকবে প্রেসক্রিপশন ; দ্বিতীয় অংশে থাকবে চিকিৎসকের জ্ঞাতার্থে নামক অংশ।
-প্রেসক্রিপশন ফরম্যাট: রোগীর নাম: ঠিকানা:  বয়স: ফোন নম্বর: তারিখ:(আজকের তারিখ)  ১. প্রধান হোমিওপ্যাথিক ঔষধ: (ঔষধের নাম ও ডোজ) ২. সহায়ক ঔষধ: (ঔষধের নাম ও ডোজ) ৩. বায়োকেমিক:(ঔষধের নাম ও ডোজ) ৪. পরামর্শ: 
-৫.রোগ লক্ষণ সমুহ: ৬. রোগের সম্ভব্য নাম: ৭. বিকল্প ঔষধ সমুহের তালিকা:
+প্রেসক্রিপশন ফরম্যাট: রোগীর নাম: ঠিকানা:  বয়স: ফোন নম্বর: তারিখ:(আজকের তারিখ)  ১. প্রধান হোমিওপ্যাথিক ঔষধ: (ঔষধের নাম ও ডোজ) ২. সহায়ক ঔষধ: (ঔষধের নাম ও ডোজ) ৩. বায়োকেমিক:(ঔষধের নাম ও ডোজ) ৪. পরামর্শ: ৫.রোগ লক্ষণ সমুহ: ৬. রোগের সম্ভব্য নাম: ৭. বিকল্প ঔষধ সমুহের তালিকা:
 চিকিৎসকের জ্ঞাতার্থে ফরম্যাট:   ৮. বিজ্ঞ চিকিৎসকদের পছন্দের ঔষধ: ৯. এলোপ্যাথিক ঔষধ: ১০. ইউনানি ঔষধ: ১১. রেপার্টরি রুব্রিক তালিকা: ১২. সতর্কতা:  ১৩. প্যাথলজি পরীক্ষা: 
 উপরের পয়েন্ট গুলি তৈরিতে নিচের নির্দেশনা লক্ষণীয়-
 ১. প্রধান হোমিওপ্যাথিক ঔষধ (সবচেয়ে উপযুক্ত একটি ঔষধ যা রোগীর লক্ষণগুলির সাথে রেপার্টরির রুব্রিক গুলির প্রচলিত নিয়ম অনুযায়ী সর্বোচ্চ স্কোর করে)
@@ -189,21 +188,11 @@ function openDeepSeek() {
     window.open('https://chat.deepseek.com/', '_blank');
 }
 
-// ---------- Perplexity (প্রম্পট সহ) ----------
-function openPerplexity() {
-    const text = getResultText();
-    if (!text) return;
-    const encoded = encodeURIComponent(text);
-    window.open('https://www.perplexity.ai/?q=' + encoded, '_blank');
+// ---------- Perplexity (শুধু চ্যাট পেজ) ----------
+function openDeepSeek() {
+    window.open('https://www.perplexity.ai/', '_blank');
 }
 
-// ---------- প্রেসক্রিপশন (Google Keep) ----------
-function openPrescription() {
-    const text = getResultText();
-    if (!text) return;
-    const encoded = encodeURIComponent(text);
-    window.open('https://keep.google.com/', '_blank');
-}
 
 // ============================================================
 // বাটন ডায়নামিক্যালি তৈরি করা
@@ -224,7 +213,7 @@ function createButtons() {
         { id: 'grokBtn', class: 'btn btn-grok', icon: '⚡', text: 'Grok', type: 'button', action: openGrok },
         { id: 'deepseekBtn', class: 'btn btn-deepseek', icon: '🔍', text: 'DeepSeek', type: 'button', action: openDeepSeek },
         { id: 'perplexityBtn', class: 'btn btn-perplexity', icon: '🔬', text: 'Perplexity', type: 'button', action: openPerplexity },
-        { id: 'prescriptionBtn', class: 'btn btn-pink', icon: '💊', text: 'প্রেসক্রিপশন', type: 'button', action: openPrescription }
+       
     ];
 
     // বাটন গ্রুপ ডিভ তৈরি
