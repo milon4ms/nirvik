@@ -188,11 +188,10 @@ function openDeepSeek() {
     window.open('https://chat.deepseek.com/', '_blank');
 }
 
-// ---------- Perplexity (শুধু চ্যাট পেজ) ----------
-function openDeepSeek() {
+// ---------- Perplexity (শুধু লিংক) ----------
+function openPerplexity() {
     window.open('https://www.perplexity.ai/', '_blank');
 }
-
 
 // ============================================================
 // বাটন ডায়নামিক্যালি তৈরি করা
@@ -204,7 +203,7 @@ function createButtons() {
         return;
     }
 
-    // বাটনের ডেটা
+    // বাটনের ডেটা (প্রেসক্রিপশন বাটন বাদ, Perplexity শুধু লিংক)
     const buttons = [
         { id: 'generateBtn', class: 'btn btn-primary', icon: '📋', text: 'জেনারেট করুন', type: 'submit' },
         { id: 'copyPromptBtn', class: 'btn btn-copy', icon: '📋', text: 'প্রম্পট কপি', type: 'button', action: copyResult },
@@ -212,8 +211,7 @@ function createButtons() {
         { id: 'chatgptBtn', class: 'btn btn-chatgpt', icon: '🤖', text: 'ChatGPT', type: 'button', action: openChatGPT },
         { id: 'grokBtn', class: 'btn btn-grok', icon: '⚡', text: 'Grok', type: 'button', action: openGrok },
         { id: 'deepseekBtn', class: 'btn btn-deepseek', icon: '🔍', text: 'DeepSeek', type: 'button', action: openDeepSeek },
-        { id: 'perplexityBtn', class: 'btn btn-perplexity', icon: '🔬', text: 'Perplexity', type: 'button', action: openPerplexity },
-       
+        { id: 'perplexityBtn', class: 'btn btn-perplexity', icon: '🔬', text: 'Perplexity', type: 'button', action: openPerplexity }
     ];
 
     // বাটন গ্রুপ ডিভ তৈরি
@@ -273,4 +271,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
     console.log('✅ Symptom Analyzer লোড হয়েছে! (বাটন ডায়নামিক্যালি তৈরি)');
 });
-
