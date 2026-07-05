@@ -186,20 +186,11 @@ function openDeepSeek() {
 }
 
 // ---------- Perplexity (প্রম্পট সহ) ----------
-function openPerplexity() {
-    const text = getResultText();
-    if (!text) return;
-    const encoded = encodeURIComponent(text);
-    window.open('https://www.perplexity.ai/?q=' + encoded, '_blank');
+function openDeepSeek() {
+    window.open('https://www.perplexity.ai', '_blank');
 }
 
-// ---------- প্রেসক্রিপশন (Google Keep) ----------
-function openPrescription() {
-    const text = getResultText();
-    if (!text) return;
-    const encoded = encodeURIComponent(text);
-    window.open('https://keep.google.com/', '_blank');
-}
+
 
 // ============================================================
 // বাটন ডায়নামিক্যালি তৈরি করা
@@ -219,8 +210,8 @@ function createButtons() {
         { id: 'chatgptBtn', class: 'btn btn-chatgpt', icon: '🤖', text: 'ChatGPT', type: 'button', action: openChatGPT },
         { id: 'grokBtn', class: 'btn btn-grok', icon: '⚡', text: 'Grok', type: 'button', action: openGrok },
         { id: 'deepseekBtn', class: 'btn btn-deepseek', icon: '🔍', text: 'DeepSeek', type: 'button', action: openDeepSeek },
-        { id: 'perplexityBtn', class: 'btn btn-perplexity', icon: '🔬', text: 'Perplexity', type: 'button', action: openPerplexity },
-        { id: 'prescriptionBtn', class: 'btn btn-pink', icon: '💊', text: 'প্রেসক্রিপশন', type: 'button', action: openPrescription }
+        { id: 'perplexitybtn', class: 'btn btn-perplexity', icon: '🔬', text: 'Perplexity', type: 'button', action: openPerplexity },
+    
     ];
 
     // বাটন গ্রুপ ডিভ তৈরি
