@@ -63,16 +63,20 @@
             display: block;
             width: 100%;
         }
-        .prescription-section {
-            transition: all 0.2s ease;
-        }
-        .prescription-section:hover {
-            background-color: #f8fafc;
-        }
-        .section-label {
+        .section-title {
             color: #065f46;
             font-weight: 700;
             font-size: 12px;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 4px;
+            margin-bottom: 6px;
+            margin-top: 8px;
+        }
+        .section-content {
+            font-size: 11px;
+            color: #1f2937;
+            line-height: 1.6;
+            padding-left: 4px;
         }
     </style>
 </head>
@@ -132,21 +136,20 @@
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-3">
-                        <div>
-                            <label class="block text-[11px] font-bold text-slate-600 mb-0.5">রোগীর নাম</label>
-                            <input type="text" id="patientName" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: মিলন">
-                        </div>
-                        <div>
-                            <label class="block text-[11px] font-bold text-slate-600 mb-0.5">বয়স</label>
-                            <input type="text" id="patientAge" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: ৩৫ বছর">
-                        </div>
+                    <div>
+                        <label class="block text-[11px] font-bold text-slate-600 mb-0.5">রোগীর নাম</label>
+                        <input type="text" id="patientName" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: মিলন">
+                    </div>
+
+                    <div>
+                        <label class="block text-[11px] font-bold text-slate-600 mb-0.5">রোগীর ঠিকানা</label>
+                        <input type="text" id="patientAddress" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: কুড়িগ্রাম">
                     </div>
 
                     <div class="grid grid-cols-2 gap-3">
                         <div>
-                            <label class="block text-[11px] font-bold text-slate-600 mb-0.5">রোগীর ঠিকানা</label>
-                            <input type="text" id="patientAddress" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: কুড়িগ্রাম">
+                            <label class="block text-[11px] font-bold text-slate-600 mb-0.5">বয়স</label>
+                            <input type="text" id="patientAge" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-emerald-500 focus:bg-white transition" placeholder="উদা: ৩৫ বছর">
                         </div>
                         <div>
                             <label class="block text-[11px] font-bold text-slate-600 mb-0.5">মোবাইল নম্বর</label>
@@ -341,6 +344,7 @@
                 if(extracted.phone) $('#patientPhone').val(extracted.phone);
                 if(extracted.age) $('#patientAge').val(extracted.age);
 
+                // ক্লিনিং - শুধুমাত্র হেডারগুলো রিমুভ করবো
                 let cleanText = text;
                 const filterPatterns = [
                     /সিরিয়াল\s*নং\s*[:ঃ]?\s*[^\n\r]+/g,
@@ -455,9 +459,6 @@
                 mainText = mainText.substring(0, 2300);
             }
             
-            // সংরক্ষণের আগে ডেটা সংগঠিত করুন
-            const formattedText = formatPrescriptionText(mainText);
-            
             firebase.firestore().collection("prescriptions").add({
                 doctorId: currentUserId,
                 serialNo: $('#serialNo').val() || 'উল্লেখ নেই',
@@ -466,7 +467,7 @@
                 patientAddress: $('#patientAddress').val() || 'উল্লেখ নেই',
                 patientPhone: $('#patientPhone').val() || 'উল্লেখ নেই',
                 patientAge: $('#patientAge').val() || 'উল্লেখ নেই',
-                prescriptionText: formattedText,
+                prescriptionText: mainText,
                 createdAt: firebase.firestore.FieldValue.serverTimestamp()
             }).then(() => {
                 alert("সফলভাবে ডায়েরিতে সেভ করা হয়েছে!");
@@ -477,29 +478,6 @@
                 alert("ডাটা সেভ করতে সমস্যা হয়েছে।");
                 submitBtn.prop('disabled', false).text('ডাটাবেজে সংরক্ষণ করুন');
             });
-        }
-
-        function formatPrescriptionText(text) {
-            // প্রেসক্রিপশন টেক্সট ফরম্যাট করুন - সেকশন হেডার এবং কন্টেন্ট আলাদা করুন
-            let formatted = text;
-            
-            // সেকশন হেডার গুলোকে স্পষ্টভাবে চিহ্নিত করুন
-            const sectionHeaders = [
-                '১. প্রধান হোমিওপ্যাথিক ঔষধ',
-                '২. সহায়ক ঔষধ',
-                '৩. বায়োকেমিক',
-                '৪. পরামর্শ',
-                '৫. রোগ লক্ষণ সমূহ',
-                '৬. রোগের সম্ভাব্য নাম',
-                '৭. বিকল্প ঔষধ সমূহের তালিকা'
-            ];
-            
-            sectionHeaders.forEach(header => {
-                const regex = new RegExp(header.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
-                formatted = formatted.replace(regex, `\n\n${header}\n${'-'.repeat(header.length)}\n`);
-            });
-            
-            return formatted;
         }
 
         function loadPrescriptions(uid) {
@@ -573,10 +551,6 @@
             age = unescape(age);
             text = unescape(text);
 
-            let gender = '......';
-            const genderMatch = text.match(/(?:লিঙ্গ|Gender|Sex)\s*[:ঃ]?\s*([^\n\r,৷\(\)]+)/i);
-            if(genderMatch) gender = genderMatch[1].trim();
-
             // সেকশন গুলো আলাদা করুন
             let sections = {
                 mainMedicine: '',
@@ -588,7 +562,7 @@
                 alternativeMedicine: ''
             };
 
-            // সেকশন হেডার দিয়ে কন্টেন্ট আলাদা করুন
+            // সেকশন হেডার দিয়ে কন্টেন্ট আলাদা করুন - এখানে ":" চিহ্ন সহ
             const sectionPatterns = {
                 mainMedicine: /১\.\s*প্রধান হোমিওপ্যাথিক ঔষধ[:\n]*([\s\S]*?)(?=২\.\s*সহায়ক ঔষধ|$)/,
                 supportiveMedicine: /২\.\s*সহায়ক ঔষধ[:\n]*([\s\S]*?)(?=৩\.\s*বায়োকেমিক|$)/,
@@ -606,10 +580,9 @@
                 }
             });
 
-            let nameAndAddress = name;
-            if(address && address !== 'null' && address !== 'undefined' && address !== 'কোনোটিই নয়' && address !== 'উল্লেখ নেই') {
-                nameAndAddress += `, ${address}`;
-            }
+            // রোগীর নাম এবং ঠিকানা আলাদা
+            let patientNameDisplay = name;
+            let patientAddressDisplay = address;
 
             const printWindow = window.open('', '_blank', 'width=950,height=1000');
             printWindow.document.write(`
@@ -624,6 +597,7 @@
                         @media print {
                             body { margin: 0; padding: 0; }
                             .no-print { display: none; }
+                            .print-only { display: block !important; }
                         }
                         .section-title {
                             color: #065f46;
@@ -640,11 +614,19 @@
                             line-height: 1.6;
                             padding-left: 4px;
                         }
+                        .rx-header {
+                            font-size: 2rem;
+                            font-weight: 900;
+                            color: #065f46;
+                            font-family: serif;
+                            font-style: italic;
+                        }
                     </style>
                 </head>
                 <body class="p-8 bg-white text-slate-800">
                     <div class="max-w-4xl mx-auto border border-slate-200 p-8 rounded-xl shadow-sm">
                         
+                        <!-- ডাক্তারের হেডার -->
                         <div class="flex justify-between items-start border-b-4 border-emerald-700 pb-4 mb-4">
                             <div class="space-y-0.5">
                                 <h1 class="text-2xl font-black text-emerald-800 tracking-wide">${currentDoctorHeader.name}</h1>
@@ -661,16 +643,17 @@
                             </div>
                         </div>
 
+                        <!-- রোগীর তথ্য -->
                         <div class="grid grid-cols-4 gap-2 bg-slate-50 p-3 rounded-lg border border-slate-200 text-xs font-semibold text-slate-700 mb-6">
-                            <div class="col-span-2">রোগীর নাম ও ঠিকানা: <span class="font-bold text-slate-900">${nameAndAddress}</span></div>
-                            <div>বয়স: <span class="font-bold text-slate-900">${age}</span></div>
-                            <div>লিঙ্গ: <span class="font-bold text-slate-900">${gender}</span></div>
-                            <div class="col-span-2">সিরিয়াল নং: <span class="font-bold text-slate-900">${serial}</span></div>
-                            <div>তারিখ: <span class="font-bold text-slate-900">${date}</span></div>
-                            <div>মোবাইল: <span class="font-bold text-slate-900">${phone}</span></div>
+                            <div class="col-span-1">রোগীর নাম: <span class="font-bold text-slate-900">${patientNameDisplay}</span></div>
+                            <div class="col-span-1">ঠিকানা: <span class="font-bold text-slate-900">${patientAddressDisplay}</span></div>
+                            <div class="col-span-1">বয়স: <span class="font-bold text-slate-900">${age}</span></div>
+                            <div class="col-span-1">মোবাইল: <span class="font-bold text-slate-900">${phone}</span></div>
                         </div>
 
+                        <!-- প্রেসক্রিপশন বডি -->
                         <div class="grid grid-cols-12 gap-6 min-h-[550px]">
+                            <!-- বাম কলাম -->
                             <div class="col-span-4 border-r border-slate-200 pr-4">
                                 <h3 class="font-bold text-slate-800 border-b pb-1 mb-2 text-xs flex items-center gap-1 text-emerald-700">
                                     <i class="fas fa-notes-medical"></i> লক্ষণ ও সংক্ষিপ্ত বিবরণী
@@ -698,8 +681,12 @@
                                 ` : ''}
                             </div>
 
+                            <!-- ডান কলাম -->
                             <div class="col-span-8 pl-2">
-                                <div class="text-2xl font-black text-emerald-700 mb-2 font-serif italic">R<sub>x</sub></div>
+                                <div class="flex justify-between items-center mb-2">
+                                    <span class="rx-header">R<sub>x</sub></span>
+                                    <span class="text-xs font-bold text-slate-600">তারিখ: ${date}</span>
+                                </div>
                                 
                                 ${sections.mainMedicine ? `
                                 <div class="mb-3">
@@ -768,11 +755,8 @@
             let updatedText = $('#modalTextContent').val();
             if(updatedText.length > 2300) updatedText = updatedText.substring(0, 2300);
             
-            // ফরম্যাট করে সেভ করুন
-            const formattedText = formatPrescriptionText(updatedText);
-            
             firebase.firestore().collection("prescriptions").doc(id).update({
-                prescriptionText: formattedText
+                prescriptionText: updatedText
             }).then(() => {
                 alert("✅ প্রেসক্রিপশন রেকর্ড আপডেট করা হয়েছে!");
                 closeModal();
