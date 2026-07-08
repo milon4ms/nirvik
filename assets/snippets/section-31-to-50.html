@@ -711,31 +711,64 @@
         <label><input type="checkbox" name="body_type" value="অলস"> অলস</label>
     </div>
 </div>
-
-<!-- ===== ৫১. রোগীর নাম, ঠিকানা, বয়স, ফোন ===== -->
-<div class="section">
-    <h3 onclick="toggleSection(this)">
-        <span>৫১. রোগীর নাম, ঠিকানা, বয়স, ফোন নম্বর</span>
-        <span class="arrow">▼</span>
-    </h3>
-    <div class="section-content">
-        <div class="info-grid">
-            <div class="info-item">
-                <label>নাম</label>
-                <input type="text" name="patientName" placeholder="রোগীর নাম লিখুন">
-            </div>
-            <div class="info-item">
-                <label>বয়স</label>
-                <input type="number" name="patientAge" placeholder="বয়স লিখুন">
-            </div>
-            <div class="info-item">
-                <label>ঠিকানা</label>
-                <input type="text" name="patientAddress" placeholder="ঠিকানা লিখুন">
-            </div>
-            <div class="info-item">
-                <label>ফোন নম্বর</label>
-                <input type="tel" name="patientPhone" placeholder="ফোন নম্বর লিখুন">
+  <!-- ===== ৫১. রোগীর নাম, ঠিকানা, বয়স, ফোন ===== -->
+        <div class="section">
+            <h3 onclick="toggleSection(this)">
+                <span>৫১. রোগীর নাম, ঠিকানা, বয়স, ফোন নম্বর</span>
+                <span class="arrow">▼</span>
+            </h3>
+            <div class="section-content">
+                <div class="info-grid">
+                    <div class="info-item">
+                        <label>নাম</label>
+                        <input type="text" name="patientName" placeholder="রোগীর নাম লিখুন">
+                    </div>
+                    <div class="info-item">
+                        <label>বয়স</label>
+                        <input type="number" name="patientAge" placeholder="বয়স লিখুন">
+                    </div>
+                    <div class="info-item">
+                        <label>ঠিকানা</label>
+                        <input type="text" name="patientAddress" placeholder="ঠিকানা লিখুন">
+                    </div>
+                    <div class="info-item">
+                        <label>ফোন নম্বর</label>
+                        <input type="tel" name="patientPhone" placeholder="ফোন নম্বর লিখুন">
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
-</div>
+
+    <script>
+        // ===== টগল ফাংশন =====
+        function toggleSection(headerElement) {
+            const content = headerElement.nextElementSibling;
+            const arrow = headerElement.querySelector('.arrow');
+
+            if (content.classList.contains('open')) {
+                content.classList.remove('open');
+                arrow.classList.remove('open');
+            } else {
+                content.classList.add('open');
+                arrow.classList.add('open');
+            }
+        }
+
+        // ===== ডিফল্টভাবে সব সেকশন খোলা =====
+        document.addEventListener('DOMContentLoaded', function() {
+            const allContents = document.querySelectorAll('.section-content');
+            const allArrows = document.querySelectorAll('.arrow');
+
+            allContents.forEach(function(content) {
+                content.classList.add('open');
+            });
+
+            allArrows.forEach(function(arrow) {
+                arrow.classList.add('open');
+            });
+        });
+    </script>
+
+              
