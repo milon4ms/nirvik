@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
@@ -233,7 +232,7 @@
     <div class="max-w-7xl mx-auto px-4 py-8">
         
         <!-- স্ট্যাটিস্টিক্স কার্ডসমূহ এবং কুইক অ্যাকশন বাটন সমন্বয় -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-7 gap-6 mb-8">
             <div class="stat-card">
                 <div>
                     <p class="text-emerald-200 text-sm">মোট ইউজার</p>
@@ -274,6 +273,28 @@
                 </div>
             </div>
 
+            <!-- নতুন: আজকের ভিজিটর কার্ড -->
+            <div class="stat-card">
+                <div>
+                    <p class="text-emerald-200 text-sm">আজকের ভিজিটর</p>
+                    <p class="text-3xl font-bold mt-1" id="todayVisitors">০</p>
+                </div>
+                <div class="stat-icon bg-emerald-900/50 text-cyan-400">
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <!-- নতুন: মোট হিট কার্ড -->
+            <div class="stat-card">
+                <div>
+                    <p class="text-emerald-200 text-sm">মোট হিট</p>
+                    <p class="text-3xl font-bold mt-1" id="totalHits">০</p>
+                </div>
+                <div class="stat-icon bg-emerald-900/50 text-orange-400">
+                    <i class="fas fa-fire"></i>
+                </div>
+            </div>
+
             <!-- সমন্বয়কৃত নতুন ইউজার যোগ করার কার্ড বাটন -->
             <div onclick="window.location.href='register.html'" class="action-card">
                 <div class="text-2xl mb-1 text-emerald-100">
@@ -303,18 +324,20 @@
                     <thead>
                         <tr>
                             <th style="width: 5%">#</th>
-                            <th style="width: 17%">নাম ও ইমেইল</th>
-                            <th style="width: 15%">ফোন নম্বর</th>
-                            <th style="width: 12%">টাকার পরিমাণ</th>
-                            <th style="width: 14%">শুরুর তারিখ</th>
-                            <th style="width: 14%">মেয়াদ শেষ (অটো)</th>
-                            <th style="width: 10%">রোল স্ট্যাটাস</th>
-                            <th style="width: 13%">অ্যাকশন</th>
+                            <th style="width: 15%">নাম ও ইমেইল</th>
+                            <th style="width: 12%">ফোন নম্বর</th>
+                            <th style="width: 10%">টাকার পরিমাণ</th>
+                            <th style="width: 12%">শুরুর তারিখ</th>
+                            <th style="width: 12%">মেয়াদ শেষ (অটো)</th>
+                            <th style="width: 8%">রোল স্ট্যাটাস</th>
+                            <!-- নতুন কলাম: শেষ লগইন -->
+                            <th style="width: 12%">শেষ লগইন</th>
+                            <th style="width: 14%">অ্যাকশন</th>
                         </tr>
                     </thead>
                     <tbody id="usersTableBody">
                         <tr>
-                            <td colspan="8" class="text-center text-gray-400 py-8">
+                            <td colspan="9" class="text-center text-gray-400 py-8">
                                 <i class="fas fa-spinner fa-spin mr-2"></i>ইউজার ডেটা লোড হচ্ছে...
                             </td>
                         </tr>
@@ -332,6 +355,70 @@
             $('#footer-placeholder').load('assets/footer.html');
         });
 
+        // ভিজিটর এবং হিট ট্র্যাকিং ফাংশন
+        async function trackVisitAndHit() {
+            try {
+                const db = firebase.firestore();
+                const today = new Date().toDateString();
+                const todayDocRef = db.collection('analytics').doc('dailyStats');
+
+                await db.runTransaction(async (transaction) => {
+                    const doc = await transaction.get(todayDocRef);
+                    if (!doc.exists) {
+                        // আজকের প্রথম ভিজিট
+                        transaction.set(todayDocRef, {
+                            date: today,
+                            visitors: 1,
+                            totalHits: 1,
+                            lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
+                        });
+                    } else {
+                        const data = doc.data();
+                        // চেক করুন আজকের তারিখের সাথে মিলছে কিনা
+                        if (data.date === today) {
+                            // ভিজিটর বাড়ান (শুধু নতুন ইউজার আইডি চেক করে)
+                            // আমরা ধরে নিচ্ছি প্রতিটি ব্রাউজার সেশন একটি ভিজিট
+                            // সহজতার জন্য আমরা প্রতি লোডে হিট বাড়াবো
+                            // কিন্তু ভিজিটর বাড়াবো শুধু যদি ইউজার আইডি পরিবর্তন হয়
+                            // যেহেতু আমরা ইউজার আইডি ট্র্যাক করছি না, আমরা প্রতি সেশনে ভিজিটর বাড়াবো
+                            // এখানে আমরা sessionStorage ব্যবহার করবো যাতে রিফ্রেশে ভিজিটর না বাড়ে
+                            
+                            let visitorCount = data.visitors || 0;
+                            let hitCount = data.totalHits || 0;
+                            
+                            // চেক করি এই সেশনে ইতিমধ্যে ভিজিট কাউন্ট হয়েছে কিনা
+                            const hasVisitedToday = sessionStorage.getItem('visited_today');
+                            if (!hasVisitedToday) {
+                                visitorCount += 1;
+                                sessionStorage.setItem('visited_today', 'true');
+                            }
+                            
+                            hitCount += 1;
+                            
+                            transaction.update(todayDocRef, {
+                                visitors: visitorCount,
+                                totalHits: hitCount,
+                                lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
+                            });
+                        } else {
+                            // নতুন দিন, রিসেট করুন
+                            transaction.set(todayDocRef, {
+                                date: today,
+                                visitors: 1,
+                                totalHits: 1,
+                                lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
+                            });
+                            sessionStorage.setItem('visited_today', 'true');
+                        }
+                    }
+                });
+                console.log('Visit and hit tracked successfully');
+            } catch (error) {
+                console.error('Error tracking visit/hit:', error);
+            }
+        }
+
+        // ড্যাশবোর্ড ডেটা লোড করা
         async function loadDashboardData() {
             try {
                 const db = firebase.firestore();
@@ -356,6 +443,23 @@
                 } catch (e) {
                     document.getElementById('totalOrders').textContent = '০';
                 }
+
+                // ভিজিটর এবং হিট ডেটা লোড করুন
+                try {
+                    const todayDoc = await db.collection('analytics').doc('dailyStats').get();
+                    if (todayDoc.exists) {
+                        const data = todayDoc.data();
+                        document.getElementById('todayVisitors').textContent = data.visitors || 0;
+                        document.getElementById('totalHits').textContent = data.totalHits || 0;
+                    } else {
+                        document.getElementById('todayVisitors').textContent = '০';
+                        document.getElementById('totalHits').textContent = '০';
+                    }
+                } catch (e) {
+                    console.error('Error loading analytics:', e);
+                    document.getElementById('todayVisitors').textContent = '০';
+                    document.getElementById('totalHits').textContent = '০';
+                }
                 
                 renderUsersTable(users);
                 
@@ -363,7 +467,7 @@
                 console.error('Error:', error);
                 document.getElementById('usersTableBody').innerHTML = `
                     <tr>
-                        <td colspan="8" class="text-center text-red-500 py-8">
+                        <td colspan="9" class="text-center text-red-500 py-8">
                             <i class="fas fa-exclamation-circle mr-2"></i>ডাটা লোড করতে সমস্যা হয়েছে।
                         </td>
                     </tr>
@@ -374,7 +478,7 @@
         function renderUsersTable(users) {
             const tbody = document.getElementById('usersTableBody');
             if (users.length === 0) {
-                tbody.innerHTML = `<tr><td colspan="8" class="text-center text-gray-400 py-8">কোন ইউজার পাওয়া যায়নি</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="9" class="text-center text-gray-400 py-8">কোন ইউজার পাওয়া যায়নি</td></tr>`;
                 return;
             }
             
@@ -397,6 +501,33 @@
                 const startDate = user.accessStartDate || '';
                 const endDate = user.accessEndDate || '';
                 
+                // শেষ লগইন সময় ফর্ম্যাট করা
+                let lastLogin = 'কখনও নয়';
+                if (user.lastLogin) {
+                    try {
+                        const date = user.lastLogin.toDate ? user.lastLogin.toDate() : new Date(user.lastLogin);
+                        const now = new Date();
+                        const diffMs = now - date;
+                        const diffMins = Math.floor(diffMs / 60000);
+                        const diffHours = Math.floor(diffMs / 3600000);
+                        const diffDays = Math.floor(diffMs / 86400000);
+                        
+                        if (diffMins < 1) {
+                            lastLogin = 'এইমাত্র';
+                        } else if (diffMins < 60) {
+                            lastLogin = `${diffMins} মিনিট আগে`;
+                        } else if (diffHours < 24) {
+                            lastLogin = `${diffHours} ঘন্টা আগে`;
+                        } else if (diffDays < 30) {
+                            lastLogin = `${diffDays} দিন আগে`;
+                        } else {
+                            lastLogin = date.toLocaleDateString('bn-BD');
+                        }
+                    } catch (e) {
+                        lastLogin = 'অজানা';
+                    }
+                }
+                
                 html += `
                     <tr id="row-${user.id}">
                         <td>${index + 1}</td>
@@ -418,6 +549,9 @@
                         </td>
                         <td>
                             <span class="status-badge ${statusClass}">${statusText}</span>
+                        </td>
+                        <td>
+                            <span class="text-sm text-gray-600">${lastLogin}</span>
                         </td>
                         <td>
                             <div class="flex gap-1.5">
@@ -512,6 +646,11 @@
                 const text = row.textContent.toLowerCase();
                 row.style.display = text.includes(searchTerm) ? '' : 'none';
             });
+        });
+
+        // পেজ লোড হলে ভিজিটর এবং হিট ট্র্যাক করুন
+        document.addEventListener('DOMContentLoaded', function() {
+            trackVisitAndHit();
         });
     </script>
 </body>
