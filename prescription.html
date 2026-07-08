@@ -78,13 +78,29 @@
             line-height: 1.6;
             padding-left: 4px;
         }
-        /* প্রিন্ট স্টাইল */
         @media print {
             .no-print { display: none !important; }
             .prescription-col-left { 
                 border-right: 1px solid #e5e7eb !important;
                 padding-right: 16px !important;
             }
+        }
+        /* এডিট মোডের জন্য স্টাইল */
+        .edit-input {
+            background: #f0fdf4;
+            border: 1px solid #86efac;
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 11px;
+            width: 100%;
+            font-family: 'SolaimanLipi', system-ui, sans-serif;
+        }
+        .edit-input:focus {
+            outline: 2px solid #22c55e;
+            background: white;
+        }
+        .editing-row {
+            background: #f0fdf4 !important;
         }
     </style>
 </head>
@@ -236,6 +252,47 @@
             <div class="mt-4 flex justify-end gap-2">
                 <button onclick="closeModal()" class="bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold text-xs px-4 py-2 rounded-lg transition">বন্ধ করুন</button>
                 <button onclick="saveUpdatedPrescription()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-5 py-2 rounded-lg transition flex items-center gap-1"><i class="fas fa-save"></i> আপডেট ও ঔষধ সেভ করুন</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- এডিট মোডাল - টেবিল ডাটা এডিট করার জন্য -->
+    <div id="editTableModal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-2xl max-w-md w-full p-5 shadow-xl">
+            <div class="flex items-center justify-between border-b pb-2 mb-3">
+                <h3 class="font-bold text-slate-800 text-sm flex items-center gap-1">
+                    <i class="fas fa-edit text-emerald-500"></i> রেকর্ড এডিট করুন
+                </h3>
+                <button onclick="closeEditTableModal()" class="text-slate-400 hover:text-slate-600 text-sm">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <input type="hidden" id="editTableDocId">
+            <div class="space-y-3">
+                <div>
+                    <label class="block text-[11px] font-bold text-slate-600 mb-0.5">সিরিয়াল নং</label>
+                    <input type="text" id="editTableSerial" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white transition">
+                </div>
+                <div>
+                    <label class="block text-[11px] font-bold text-slate-600 mb-0.5">তারিখ</label>
+                    <input type="text" id="editTableDate" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white transition">
+                </div>
+                <div>
+                    <label class="block text-[11px] font-bold text-slate-600 mb-0.5">রোগীর নাম</label>
+                    <input type="text" id="editTableName" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white transition">
+                </div>
+                <div>
+                    <label class="block text-[11px] font-bold text-slate-600 mb-0.5">মোবাইল নম্বর</label>
+                    <input type="text" id="editTablePhone" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white transition">
+                </div>
+            </div>
+            
+            <div class="mt-4 flex justify-end gap-2">
+                <button onclick="closeEditTableModal()" class="bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold text-xs px-4 py-2 rounded-lg transition">বন্ধ করুন</button>
+                <button onclick="saveTableEdit()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-5 py-2 rounded-lg transition flex items-center gap-1">
+                    <i class="fas fa-save"></i> আপডেট করুন
+                </button>
             </div>
         </div>
     </div>
@@ -534,6 +591,7 @@
             dataArray.forEach((data) => {
                 const openBtn = `<button onclick="openEditModal('${data.id}', \`${escape(data.patientName)}\`, \`${escape(data.prescriptionText)}\`)" class="bg-emerald-600 text-white hover:bg-emerald-700 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition"><i class="fas fa-folder-open text-[9px]"></i> ওপেন</button>`;
                 const printBtn = `<button onclick="printPrescriptionWindow(\`${escape(data.serialNo)}\`,\`${escape(data.prescriptionDate)}\`,\`${escape(data.patientName)}\`,\`${escape(data.patientAddress || 'উল্লেখ নেই')}\`,\`${escape(data.patientPhone)}\`,\`${escape(data.patientAge || 'উল্লেখ নেই')}\`,\`${escape(data.prescriptionText)}\`)" class="bg-blue-600 text-white hover:bg-blue-700 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition ml-1"><i class="fas fa-print text-[9px]"></i> প্রিন্ট</button>`;
+                const editBtn = `<button onclick="openEditTableModal('${data.id}', \`${escape(data.serialNo)}\`, \`${escape(data.prescriptionDate)}\`, \`${escape(data.patientName)}\`, \`${escape(data.patientPhone)}\`)" class="bg-amber-500 text-white hover:bg-amber-600 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition ml-1"><i class="fas fa-pen text-[9px]"></i> এডিট</button>`;
                 const deleteBtn = `<button onclick="deletePrescription('${data.id}', '${data.patientName}')" class="bg-rose-50 text-rose-600 hover:bg-rose-100 font-bold px-2 py-1 rounded-lg text-[10px] inline-flex items-center gap-0.5 transition ml-1"><i class="fas fa-trash-alt text-[9px]"></i> ডিলিট</button>`;
 
                 const tr = document.createElement('tr');
@@ -543,12 +601,59 @@
                     <td class="p-3 text-slate-500">${data.prescriptionDate || 'নেই'}</td>
                     <td class="p-3 font-bold text-slate-800">${data.patientName}</td>
                     <td class="p-3 text-slate-600">${data.patientPhone}</td>
-                    <td class="p-3 text-center whitespace-nowrap">${openBtn}${printBtn}${deleteBtn}</td>
+                    <td class="p-3 text-center whitespace-nowrap">${openBtn}${printBtn}${editBtn}${deleteBtn}</td>
                 `;
                 tbody.appendChild(tr);
             });
         }
 
+        // ================ টেবিল এডিট ফাংশন ================
+        function openEditTableModal(id, serial, date, name, phone) {
+            $('#editTableDocId').val(id);
+            $('#editTableSerial').val(unescape(serial));
+            $('#editTableDate').val(unescape(date));
+            $('#editTableName').val(unescape(name));
+            $('#editTablePhone').val(unescape(phone));
+            $('#editTableModal').removeClass('hidden').addClass('flex');
+        }
+
+        function closeEditTableModal() {
+            $('#editTableModal').removeClass('flex').addClass('hidden');
+        }
+
+        function saveTableEdit() {
+            const id = $('#editTableDocId').val();
+            const serial = $('#editTableSerial').val().trim();
+            const date = $('#editTableDate').val().trim();
+            const name = $('#editTableName').val().trim();
+            const phone = $('#editTablePhone').val().trim();
+
+            if (!name) {
+                alert("⚠️ রোগীর নাম অবশ্যই দিতে হবে!");
+                return;
+            }
+
+            if (!serial) {
+                alert("⚠️ সিরিয়াল নং অবশ্যই দিতে হবে!");
+                return;
+            }
+
+            const db = firebase.firestore();
+            db.collection("prescriptions").doc(id).update({
+                serialNo: serial || 'উল্লেখ নেই',
+                prescriptionDate: date || 'উল্লেখ নেই',
+                patientName: name || 'অজানা রোগী',
+                patientPhone: phone || 'উল্লেখ নেই'
+            }).then(() => {
+                alert("✅ রেকর্ড সফলভাবে আপডেট করা হয়েছে!");
+                closeEditTableModal();
+                // রিলোড করার প্রয়োজন নেই, Firestore onSnapshot অটোমেটিক আপডেট করবে
+            }).catch(error => {
+                alert("❌ আপডেট করতে সমস্যা হয়েছে: " + error.message);
+            });
+        }
+
+        // ================ প্রিন্ট ফাংশন ================
         function printPrescriptionWindow(serial, date, name, address, phone, age, text) {
             serial = unescape(serial);
             date = unescape(date);
@@ -558,7 +663,6 @@
             age = unescape(age);
             text = unescape(text);
 
-            // স্পষ্টভাবে সেকশন ডিটেক্ট করার জন্য স্ট্রং প্যাটার্ন
             let sections = {
                 mainMedicine: '',
                 supportiveMedicine: '',
@@ -569,7 +673,6 @@
                 alternativeMedicine: ''
             };
 
-            // কঠোর সেন্সরশিপ - প্রতিটি সেকশনের জন্য একাধিক প্যাটার্ন
             const sectionPatterns = {
                 mainMedicine: [
                     /১\.\s*প্রধান হোমিওপ্যাথিক ঔষধ[:\n]*([\s\S]*?)(?=২\.\s*সহায়ক ঔষধ|২\.\s*সহায়ক ঔষধ|$)/,
@@ -597,7 +700,6 @@
                 ]
             };
 
-            // প্রতিটি সেকশন ডিটেক্ট করুন
             Object.keys(sectionPatterns).forEach(key => {
                 for (let pattern of sectionPatterns[key]) {
                     const match = text.match(pattern);
@@ -608,7 +710,6 @@
                 }
             });
 
-            // যদি কোনো সেকশন না পাওয়া যায়, তাহলে ব্যাকআপ মেথড
             if (!sections.symptoms) {
                 const symptomsMatch = text.match(/রোগ লক্ষণ[:\n]*([\s\S]*?)(?=রোগের সম্ভাব্য নাম|বিকল্প ঔষধ|$)/i);
                 if (symptomsMatch) sections.symptoms = symptomsMatch[1].trim();
@@ -624,7 +725,6 @@
                 if (altMatch) sections.alternativeMedicine = altMatch[1].trim();
             }
 
-            // রোগীর নাম এবং ঠিকানা আলাদা
             let patientNameDisplay = name;
             let patientAddressDisplay = address;
 
@@ -680,7 +780,6 @@
                 <body class="p-8 bg-white text-slate-800">
                     <div class="max-w-4xl mx-auto border border-slate-200 p-8 rounded-xl shadow-sm">
                         
-                        <!-- ডাক্তারের হেডার -->
                         <div class="flex justify-between items-start border-b-4 border-emerald-700 pb-4 mb-4">
                             <div class="space-y-0.5">
                                 <h1 class="text-2xl font-black text-emerald-800 tracking-wide">${currentDoctorHeader.name}</h1>
@@ -697,7 +796,6 @@
                             </div>
                         </div>
 
-                        <!-- রোগীর তথ্য -->
                         <div class="grid grid-cols-4 gap-2 bg-slate-50 p-3 rounded-lg border border-slate-200 text-xs font-semibold text-slate-700 mb-6">
                             <div class="col-span-1">রোগীর নাম: <span class="font-bold text-slate-900">${patientNameDisplay}</span></div>
                             <div class="col-span-1">ঠিকানা: <span class="font-bold text-slate-900">${patientAddressDisplay}</span></div>
@@ -705,9 +803,7 @@
                             <div class="col-span-1">মোবাইল: <span class="font-bold text-slate-900">${phone}</span></div>
                         </div>
 
-                        <!-- প্রেসক্রিপশন বডি - কঠোরভাবে বাম এবং ডান কলামে বিভক্ত -->
                         <div class="grid grid-cols-12 gap-6 min-h-[550px]">
-                            <!-- বাম কলাম - শুধুমাত্র ৫,৬,৭ নম্বর সেকশন থাকবে -->
                             <div class="col-span-4 prescription-col-left">
                                 <h3 class="font-bold text-slate-800 border-b pb-1 mb-2 text-xs flex items-center gap-1 text-emerald-700">
                                     <i class="fas fa-notes-medical"></i> লক্ষণ ও সংক্ষিপ্ত বিবরণী
@@ -729,7 +825,6 @@
                                 </div>
                             </div>
 
-                            <!-- ডান কলাম - ১,২,৩,৪ নম্বর সেকশন থাকবে -->
                             <div class="col-span-8 prescription-col-right">
                                 <div class="flex justify-between items-center mb-2">
                                     <span class="rx-header">R<sub>x</sub></span>
