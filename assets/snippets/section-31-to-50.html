@@ -718,6 +718,74 @@
         <span class="arrow">▼</span>
     </h3>
     <div class="section-content">
-        <textarea name="pationtinfo" placeholder="রোগীর নামঃ (এখানে রোগীর নাম লিখুন)&#10;ঠিকানাঃ (এখানে ঠিকানা লিখুন)&#10;বয়সঃ (এখানে বয়স লিখুন)&#10;ফোন নম্বর লিখুনঃ (১১ সংখ্যার ফোন নম্বর লিখুন)" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; font-size:14px; min-height:120px; box-sizing:border-box; font-family:inherit; background:#f9f9f9;"></textarea>
+        <div style="display:flex; flex-direction:column; gap:6px; padding:5px 0;">
+            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 10px; border-radius:4px; border:1px solid #ddd;">
+                <span style="font-weight:600; min-width:100px; font-size:14px; color:#333;">রোগীর নামঃ</span>
+                <input type="text" id="patientName" placeholder="এখানে রোগীর নাম লিখুন" style="flex:1; padding:8px 10px; border:none; background:transparent; font-size:14px; outline:none; font-family:inherit;">
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 10px; border-radius:4px; border:1px solid #ddd;">
+                <span style="font-weight:600; min-width:100px; font-size:14px; color:#333;">ঠিকানাঃ</span>
+                <input type="text" id="patientAddress" placeholder="এখানে ঠিকানা লিখুন" style="flex:1; padding:8px 10px; border:none; background:transparent; font-size:14px; outline:none; font-family:inherit;">
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 10px; border-radius:4px; border:1px solid #ddd;">
+                <span style="font-weight:600; min-width:100px; font-size:14px; color:#333;">বয়সঃ</span>
+                <input type="text" id="patientAge" placeholder="এখানে বয়স লিখুন" style="flex:1; padding:8px 10px; border:none; background:transparent; font-size:14px; outline:none; font-family:inherit;">
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 10px; border-radius:4px; border:1px solid #ddd;">
+                <span style="font-weight:600; min-width:100px; font-size:14px; color:#333;">ফোন নম্বরঃ</span>
+                <input type="tel" id="patientPhone" placeholder="১১ সংখ্যার ফোন নম্বর লিখুন" style="flex:1; padding:8px 10px; border:none; background:transparent; font-size:14px; outline:none; font-family:inherit;">
+            </div>
+        </div>
+        <!-- এটি আপনার JS এর সাথে কাজ করবে -->
+        <textarea name="pationtinfo" style="display:none;"></textarea>
     </div>
 </div>
+
+<script>
+// ৫১ নম্বর সেকশনের ডেটা আপডেট করার ফাংশন
+function updatePatientInfo() {
+    var name = document.getElementById('patientName')?.value || '';
+    var address = document.getElementById('patientAddress')?.value || '';
+    var age = document.getElementById('patientAge')?.value || '';
+    var phone = document.getElementById('patientPhone')?.value || '';
+    
+    var formattedText = '';
+    if (name) formattedText += 'রোগীর নামঃ ' + name + '\n';
+    if (address) formattedText += 'ঠিকানাঃ ' + address + '\n';
+    if (age) formattedText += 'বয়সঃ ' + age + '\n';
+    if (phone) formattedText += 'ফোন নম্বর লিখুনঃ ' + phone;
+    
+    var hiddenTextarea = document.querySelector('textarea[name="pationtinfo"]');
+    if (hiddenTextarea) {
+        hiddenTextarea.value = formattedText;
+    }
+    
+    return formattedText;
+}
+
+// যখন ইনপুট ফিল্ডে পরিবর্তন হবে, তখন হিডেন ফিল্ড আপডেট হবে
+document.addEventListener('DOMContentLoaded', function() {
+    // সব ইনপুট ফিল্ডে ইভেন্ট লিসেনার যোগ করা
+    var inputs = document.querySelectorAll('#patientName, #patientAddress, #patientAge, #patientPhone');
+    inputs.forEach(function(input) {
+        input.addEventListener('input', function() {
+            updatePatientInfo();
+        });
+        input.addEventListener('change', function() {
+            updatePatientInfo();
+        });
+    });
+    
+    // জেনারেট বাটনে ক্লিক করলেও আপডেট হবে
+    var generateBtn = document.getElementById('generateBtn');
+    if (generateBtn) {
+        generateBtn.addEventListener('click', function() {
+            updatePatientInfo();
+        });
+    }
+});
+
+// আপনার বিদ্যমান displayResult ফাংশনটি ওভাররাইড না করে, 
+// generateSymptomPrompt ফাংশনে patientInfo সঠিকভাবে আসবে
+// কারণ এটি document.querySelector('textarea[name="pationtinfo"]')?.value || '' ব্যবহার করে
+</script>
