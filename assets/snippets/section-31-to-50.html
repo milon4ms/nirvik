@@ -711,93 +711,14 @@
         <label><input type="checkbox" name="body_type" value="অলস"> অলস</label>
     </div>
 </div>
-<!-- ===== ৫১. রোগীর নাম, ঠিকানা, বয়স, ফোন ===== -->
 <div class="section">
     <h3 onclick="toggleSection(this)">
-        <span>৫১. রোগীর নাম, ঠিকানা, বয়স, ফোন নম্বর</span>
+        <span>৫১. রোগীর নাম, ঠিকানা, বয়স, ফোন নম্বর</span>
         <span class="arrow">▼</span>
     </h3>
     <div class="section-content">
-        <div style="display:flex; flex-direction:column; gap:6px; padding:5px 0;">
-            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 10px; border-radius:4px; border:1px solid #ddd;">
-                <span style="font-weight:600; min-width:100px; font-size:14px; color:#333;">রোগীর নামঃ</span>
-                <input type="text" id="patientName" placeholder="এখানে রোগীর নাম লিখুন" style="flex:1; padding:8px 10px; border:none; background:transparent; font-size:14px; outline:none; font-family:inherit;">
-            </div>
-            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 10px; border-radius:4px; border:1px solid #ddd;">
-                <span style="font-weight:600; min-width:100px; font-size:14px; color:#333;">ঠিকানাঃ</span>
-                <input type="text" id="patientAddress" placeholder="এখানে ঠিকানা লিখুন" style="flex:1; padding:8px 10px; border:none; background:transparent; font-size:14px; outline:none; font-family:inherit;">
-            </div>
-            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 10px; border-radius:4px; border:1px solid #ddd;">
-                <span style="font-weight:600; min-width:100px; font-size:14px; color:#333;">বয়সঃ</span>
-                <input type="text" id="patientAge" placeholder="এখানে বয়স লিখুন" style="flex:1; padding:8px 10px; border:none; background:transparent; font-size:14px; outline:none; font-family:inherit;">
-            </div>
-            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 10px; border-radius:4px; border:1px solid #ddd;">
-                <span style="font-weight:600; min-width:100px; font-size:14px; color:#333;">ফোন নম্বরঃ</span>
-                <input type="tel" id="patientPhone" placeholder="১১ সংখ্যার ফোন নম্বর লিখুন" style="flex:1; padding:8px 10px; border:none; background:transparent; font-size:14px; outline:none; font-family:inherit;">
-            </div>
-        </div>
-        <!-- এটি আপনার JS এর সাথে কাজ করবে - name="pationtinfo" ঠিক আছে -->
-        <textarea name="pationtinfo" style="display:none;"></textarea>
+        <textarea name="pationtinfo" rows="3" style="width: 100%; padding: 8px;">
+রোগীর নাম:                      ঠিকানা: 
+বয়স:                           ফোন নম্বর: </textarea>
     </div>
 </div>
-
-<script>
-// ৫১ নম্বর সেকশনের ডেটা আপডেট করার ফাংশন
-function updatePatientInfo() {
-    var name = document.getElementById('patientName')?.value || '';
-    var address = document.getElementById('patientAddress')?.value || '';
-    var age = document.getElementById('patientAge')?.value || '';
-    var phone = document.getElementById('patientPhone')?.value || '';
-    
-    var formattedText = '';
-    if (name) formattedText += 'রোগীর নামঃ ' + name + '\n';
-    if (address) formattedText += 'ঠিকানাঃ ' + address + '\n';
-    if (age) formattedText += 'বয়সঃ ' + age + '\n';
-    if (phone) formattedText += 'ফোন নম্বর লিখুনঃ ' + phone;
-    
-    var hiddenTextarea = document.querySelector('textarea[name="pationtinfo"]');
-    if (hiddenTextarea) {
-        hiddenTextarea.value = formattedText;
-        console.log('✅ pationtinfo আপডেট:', formattedText); // ডিবাগিং এর জন্য
-    }
-    
-    return formattedText;
-}
-
-// DOM রেডি হলে এবং প্রতিবার ইনপুট পরিবর্তনে আপডেট
-document.addEventListener('DOMContentLoaded', function() {
-    // সব ইনপুট ফিল্ডে ইভেন্ট লিসেনার
-    var inputs = document.querySelectorAll('#patientName, #patientAddress, #patientAge, #patientPhone');
-    inputs.forEach(function(input) {
-        input.addEventListener('input', function() {
-            updatePatientInfo();
-        });
-        input.addEventListener('change', function() {
-            updatePatientInfo();
-        });
-    });
-    
-    // প্রথমবার আপডেট
-    setTimeout(updatePatientInfo, 100);
-    
-    // জেনারেট বাটনে ক্লিক করলেও আপডেট হবে
-    var generateBtn = document.getElementById('generateBtn');
-    if (generateBtn) {
-        generateBtn.addEventListener('click', function() {
-            updatePatientInfo();
-        });
-    }
-    
-    // displayResult ফাংশন ওভাররাইড না করে বরং তার আগে আপডেট
-    var originalDisplayResult = window.displayResult;
-    if (originalDisplayResult) {
-        window.displayResult = function() {
-            updatePatientInfo(); // আগে আপডেট
-            originalDisplayResult(); // তারপর মূল ফাংশন কল
-        };
-    }
-});
-
-// কনসোলে চেক করার জন্য
-console.log('✅ ৫১ নম্বর সেকশন লোড হয়েছে!');
-</script>
