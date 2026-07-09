@@ -719,6 +719,24 @@
         <span class="arrow">▼</span>
     </h3>
     <div class="section-content">
-        <textarea name="pationtinfo" placeholder="রোগীর নামঃ (এখানে রোগীর নাম লিখব)&#10;ঠিকানাঃ (এখানে ঠিকানা লিখব)&#10;বয়সঃ (এখানে বয়স লিখতে হবে)&#10;ফোন নম্বর লিখুনঃ (১১ সংখ্যার ফোন নম্বর লিখুন)" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; font-size:14px; min-height:120px; box-sizing:border-box; font-family:inherit;"></textarea>
+        <div style="display:flex; flex-direction:column; gap:8px; padding:5px 0;">
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="font-weight:600; min-width:120px; font-size:14px;">রোগীর নামঃ</span>
+                <input type="text" name="patientName" placeholder="এখানে রোগীর নাম লিখুন" style="flex:1; padding:8px 10px; border:1px solid #ccc; border-radius:4px; font-size:14px; box-sizing:border-box;">
+            </div>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="font-weight:600; min-width:120px; font-size:14px;">ঠিকানাঃ</span>
+                <input type="text" name="patientAddress" placeholder="এখানে ঠিকানা লিখুন" style="flex:1; padding:8px 10px; border:1px solid #ccc; border-radius:4px; font-size:14px; box-sizing:border-box;">
+            </div>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="font-weight:600; min-width:120px; font-size:14px;">বয়সঃ</span>
+                <input type="text" name="patientAge" placeholder="এখানে বয়স লিখুন" style="flex:1; padding:8px 10px; border:1px solid #ccc; border-radius:4px; font-size:14px; box-sizing:border-box;">
+            </div>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span style="font-weight:600; min-width:120px; font-size:14px;">ফোন নম্বর লিখুনঃ</span>
+                <input type="tel" name="patientPhone" placeholder="১১ সংখ্যার ফোন নম্বর লিখুন" style="flex:1; padding:8px 10px; border:1px solid #ccc; border-radius:4px; font-size:14px; box-sizing:border-box;">
+            </div>
+        </div>
+        <input type="hidden" name="pationtinfo" value="">
     </div>
 </div>
