@@ -271,3 +271,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     console.log('✅ Symptom Analyzer লোড হয়েছে! (বাটন ডায়নামিক্যালি তৈরি)');
 });
+
