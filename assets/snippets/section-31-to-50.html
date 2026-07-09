@@ -711,7 +711,6 @@
         <label><input type="checkbox" name="body_type" value="অলস"> অলস</label>
     </div>
 </div>
-
 <!-- ===== ৫১. রোগীর নাম, ঠিকানা, বয়স, ফোন ===== -->
 <div class="section">
     <h3 onclick="toggleSection(this)">
@@ -719,55 +718,6 @@
         <span class="arrow">▼</span>
     </h3>
     <div class="section-content">
-        <div style="display:flex; flex-direction:column; gap:6px;">
-            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 8px; border-radius:4px; border:1px solid #e0e0e0;">
-                <span style="font-weight:600; min-width:100px; font-size:13px;">রোগীর নামঃ</span>
-                <input type="text" id="patientName" placeholder="নাম লিখুন" style="flex:1; padding:6px 8px; border:none; background:transparent; font-size:14px; outline:none;">
-            </div>
-            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 8px; border-radius:4px; border:1px solid #e0e0e0;">
-                <span style="font-weight:600; min-width:100px; font-size:13px;">ঠিকানাঃ</span>
-                <input type="text" id="patientAddress" placeholder="ঠিকানা লিখুন" style="flex:1; padding:6px 8px; border:none; background:transparent; font-size:14px; outline:none;">
-            </div>
-            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 8px; border-radius:4px; border:1px solid #e0e0e0;">
-                <span style="font-weight:600; min-width:100px; font-size:13px;">বয়সঃ</span>
-                <input type="text" id="patientAge" placeholder="বয়স লিখুন" style="flex:1; padding:6px 8px; border:none; background:transparent; font-size:14px; outline:none;">
-            </div>
-            <div style="display:flex; align-items:center; gap:8px; background:#f9f9f9; padding:4px 8px; border-radius:4px; border:1px solid #e0e0e0;">
-                <span style="font-weight:600; min-width:100px; font-size:13px;">ফোন নম্বরঃ</span>
-                <input type="tel" id="patientPhone" placeholder="১১ সংখ্যার ফোন নম্বর" style="flex:1; padding:6px 8px; border:none; background:transparent; font-size:14px; outline:none;">
-            </div>
-        </div>
-        <!-- হিডেন ফিল্ড যা JS এর সাথে কাজ করবে -->
-        <textarea name="pationtinfo" style="display:none;"></textarea>
+        <textarea name="pationtinfo" placeholder="রোগীর নামঃ (এখানে রোগীর নাম লিখুন)&#10;ঠিকানাঃ (এখানে ঠিকানা লিখুন)&#10;বয়সঃ (এখানে বয়স লিখুন)&#10;ফোন নম্বর লিখুনঃ (১১ সংখ্যার ফোন নম্বর লিখুন)" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; font-size:14px; min-height:120px; box-sizing:border-box; font-family:inherit; background:#f9f9f9;"></textarea>
     </div>
 </div>
-
-<script>
-// ৫১ নম্বর সেকশনের জন্য ডেটা সংগ্রহ
-document.addEventListener('DOMContentLoaded', function() {
-    // যখন জেনারেট বাটনে ক্লিক হবে
-    const generateBtn = document.getElementById('generateBtn');
-    if (generateBtn) {
-        generateBtn.addEventListener('click', function() {
-            // ইনপুট ফিল্ড থেকে ডেটা নেওয়া
-            var name = document.getElementById('patientName')?.value || '';
-            var address = document.getElementById('patientAddress')?.value || '';
-            var age = document.getElementById('patientAge')?.value || '';
-            var phone = document.getElementById('patientPhone')?.value || '';
-            
-            // ফরম্যাট করা টেক্সট তৈরি
-            var formattedText = '';
-            if (name) formattedText += 'রোগীর নামঃ ' + name + '\n';
-            if (address) formattedText += 'ঠিকানাঃ ' + address + '\n';
-            if (age) formattedText += 'বয়সঃ ' + age + '\n';
-            if (phone) formattedText += 'ফোন নম্বর লিখুনঃ ' + phone;
-            
-            // হিডেন textarea-তে সেট করা
-            var hiddenTextarea = document.querySelector('textarea[name="pationtinfo"]');
-            if (hiddenTextarea) {
-                hiddenTextarea.value = formattedText;
-            }
-        });
-    }
-});
-</script>
