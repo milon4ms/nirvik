@@ -8,16 +8,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
-    
-    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
     <style>
-        /* বডির ব্যাকগ্রাউন্ড পরিবর্তন করে স্ট্যান্ডার্ড এবং পরিচ্ছন্ন লাইট গ্রে করা হয়েছে যেন হেডার ও ফন্ট স্পষ্ট থাকে */
         body { 
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
             background-color: #f8fafc; 
         }
+        
+        /* হেডার ফিক্সড স্টাইল */
+        #header-placeholder {
+            background-color: #4fb8a9 !important;
+            width: 100%;
+            min-height: 60px;
+        }
+
         .payment-container { max-width: 560px; margin: 40px auto; }
         .payment-box { background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.05); padding: 40px; }
         .bkash-btn { 
@@ -50,14 +55,12 @@
     <div class="payment-container px-4">
         <div class="payment-box">
 
-            <!-- হেডার -->
             <div class="text-center mb-8">
                 <div class="text-6xl mb-4">💳</div>
                 <h1 class="text-3xl font-bold text-gray-800">সাবস্ক্রিপশন পেমেন্ট</h1>
                 <p class="text-gray-500 mt-2">প্রিমিয়াম কন্টেন্ট আনলক করতে পেমেন্ট করুন</p>
             </div>
 
-            <!-- পেমেন্ট ইনফো -->
             <div class="bg-gradient-to-r from-pink-50 to-rose-50 p-6 rounded-2xl border-2 border-pink-200 mb-8">
                 <div class="flex items-center justify-between">
                     <div>
@@ -72,7 +75,6 @@
                 </div>
             </div>
 
-            <!-- ===== ধাপ ১: বিকাশে টাকা পাঠান ===== -->
             <div class="flex items-start gap-4 mb-6">
                 <div class="step-number">১</div>
                 <div>
@@ -86,13 +88,11 @@
                         <li>📝 উপরের নম্বরটি দিন</li>
                         <li>💵 পরিমাণ: <strong>৫০</strong> টাকা</li>
                         <li>🔐 পিন দিয়ে কনফার্ম করুন</li>
-                        <li>কয়েক মাসের সাবস্ক্রিপশন একবারে নেয়া যাবে। সে অনুযায়ী Send Money করুন  </li>
                         <li>১ মাসের জন্য ৫০ টাকা, ২ মাসের জন্য ১০০ টাকা, ৩ মাসের জন্য ১৫০ টাকা, ৬ মাসের জন্য ৩০০ টাকা, ১ বছরের জন্য ৫০০ টাকা </li>
                     </ul>
                 </div>
             </div>
 
-            <!-- ===== ধাপ ২: ফোন করে জানান ===== -->
             <div class="flex items-start gap-4 mb-6">
                 <div class="step-number">২</div>
                 <div>
@@ -103,9 +103,7 @@
                 </div>
             </div>
 
-            <!-- ===== যোগাযোগের তথ্য ===== -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-                
                 <div class="contact-card flex items-center gap-3">
                     <i class="fas fa-phone-alt text-teal-600 text-xl"></i>
                     <div>
@@ -121,38 +119,15 @@
                         <a href="https://wa.me/8801722855738" target="_blank" class="font-medium text-gray-800 hover:text-teal-600">01722855738</a>
                     </div>
                 </div>
-
-                <div class="contact-card flex items-center gap-3">
-                    <i class="fas fa-envelope text-teal-600 text-xl"></i>
-                    <div>
-                        <p class="text-xs text-gray-500">ইমেইল</p>
-                        <a href="mailto:milon4ms@yahoo.com" class="font-medium text-gray-800 hover:text-teal-600">milon4ms@yahoo.com</a>
-                    </div>
-                </div>
-
-                <div class="contact-card flex items-center gap-3">
-                    <i class="fas fa-map-marker-alt text-red-500 text-xl"></i>
-                    <div>
-                        <p class="text-xs text-gray-500">ঠিকানা</p>
-                        <p class="font-medium text-gray-800">ত্রিমোহনী বাজার, কুড়িগ্রাম, বাংলাদেশ</p>
-                    </div>
-                </div>
-
             </div>
 
-            <!-- ===== হোয়াটসঅ্যাপে মেসেজ বাটন ===== -->
             <div class="mt-6 text-center">
-                <a href="https://wa.me/8801722855738?text=আমি%20পেমেন্ট%20করেছি।%20আমার%20মোবাইল নাম্বারঃ3A%20" 
-                   target="_blank" 
+                <a href="https://wa.me/8801722855738?text=আমি%20পেমেন্ট%20করেছি।" target="_blank" 
                    class="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition">
                     <i class="fab fa-whatsapp text-xl"></i> WhatsApp-এ মেসেজ দিন
                 </a>
-                <p class="text-xs text-gray-400 mt-2">
-                    ক্লিক করলে WhatsApp খুলবে, আপনার ইমেইল লিখে পাঠান।
-                </p>
             </div>
 
-            <!-- ===== ফিরে যাওয়ার লিংক ===== -->
             <div class="mt-6 text-center border-t pt-6">
                 <a href="index.html" class="text-teal-600 hover:underline">
                     <i class="fas fa-arrow-left mr-1"></i> হোম পেজে ফিরে যান
@@ -167,18 +142,7 @@
 
     <script>
         $(function() {
-            $('#header-placeholder').load('assets/header.html', function() {
-                const btn = document.getElementById('mobile-menu-btn');
-                const menu = document.getElementById('mobile-menu');
-                if (btn && menu) {
-                    btn.addEventListener('click', function() {
-                        menu.classList.toggle('hidden');
-                        btn.innerHTML = menu.classList.contains('hidden') 
-                            ? '<i class="fas fa-bars"></i>' 
-                            : '<i class="fas fa-times"></i>';
-                    });
-                }
-            });
+            $('#header-placeholder').load('assets/header.html');
             $('#footer-placeholder').load('assets/footer.html');
         });
     </script>
