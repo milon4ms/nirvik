@@ -59,133 +59,22 @@
             color: #0f172a;
         }
 
-        /* হেডার স্টাইল */
-        .navbar {
-            background: #0f172a !important;
-            padding: 12px 16px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            position: sticky;
-            top: 0;
-            z-index: 50;
-            border-bottom: 1px solid #1e293b;
-        }
-
-        .navbar-brand {
-            color: white;
-            font-size: 20px;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            text-decoration: none;
-        }
-
-        .navbar-brand i {
-            color: #34d399;
-        }
-
-        .nav-links {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .nav-links a {
-            color: #cbd5e1;
-            text-decoration: none;
-            font-size: 15px;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-
-        .nav-links a:hover {
-            color: #34d399;
-        }
-
-        .nav-links .logout-btn {
-            background: #dc2626;
-            color: white;
-            padding: 6px 16px;
-            border-radius: 6px;
-            font-weight: 600;
-            transition: background 0.2s;
-        }
-
-        .nav-links .logout-btn:hover {
-            background: #b91c1c;
-            color: white;
-        }
-
-        /* মোবাইল মেন্যু টগল বাটন */
-        .menu-toggle {
-            display: none;
-            background: none;
-            border: none;
-            color: white;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 4px 8px;
-        }
-
-        /* মোবাইল মেন্যু */
-        .mobile-menu {
-            display: none;
-            width: 100%;
-            background: #1e293b;
-            padding: 12px 16px;
-            border-top: 1px solid #334155;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .mobile-menu a {
-            color: #cbd5e1;
-            text-decoration: none;
-            padding: 10px 12px;
-            border-radius: 6px;
-            font-size: 15px;
-            transition: background 0.2s;
+        #header-placeholder {
+            background-color: #0f172a !important;
             display: block;
+            width: 100%;
         }
-
-        .mobile-menu a:hover {
-            background: #334155;
-            color: white;
+        #header-placeholder header, #header-placeholder nav, #header-placeholder div {
+            background-color: #0f172a !important;
+            color: #ffffff !important;
         }
-
-        .mobile-menu .logout-btn {
-            background: #dc2626;
-            color: white;
-            text-align: center;
-            font-weight: 600;
+        #header-placeholder a {
+            color: #cbd5e1 !important;
         }
-
-        .mobile-menu .logout-btn:hover {
-            background: #b91c1c;
+        #header-placeholder a:hover {
+            color: #34d399 !important;
         }
-
-        /* রেসপন্সিভ */
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-            .menu-toggle {
-                display: block;
-            }
-            .mobile-menu.active {
-                display: flex;
-            }
-            .navbar-brand {
-                font-size: 17px;
-            }
-        }
-
+        
         .dark-hero-section {
             background: linear-gradient(135deg, #022c22, #064e3b);
             color: white;
@@ -234,35 +123,7 @@
 </head>
 <body>
 
-    <!-- হেডার (সরাসরি পেজে যুক্ত) -->
-    <nav class="navbar">
-        <a href="dashboard.html" class="navbar-brand">
-            <i class="fas fa-leaf"></i> নির্ভীক হোমিও
-        </a>
-        
-        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
-            <i class="fas fa-bars"></i>
-        </button>
-
-        <ul class="nav-links">
-            <li><a href="dashboard.html"><i class="fas fa-home"></i> ড্যাশবোর্ড</a></li>
-            <li><a href="select.html"><i class="fas fa-stethoscope"></i> রোগ নির্ণয়</a></li>
-            <li><a href="medica/index.html"><i class="fas fa-book-medical"></i> মেটেরিয়া</a></li>
-            <li><a href="prescription.html"><i class="fas fa-file-prescription"></i> প্রেসক্রিপশন</a></li>
-            <li><a href="payment.html"><i class="fas fa-credit-card"></i> পেমেন্ট</a></li>
-            <li><a href="#" onclick="logoutUser()" class="logout-btn"><i class="fas fa-sign-out-alt"></i> লগআউট</a></li>
-        </ul>
-    </nav>
-
-    <!-- মোবাইল মেন্যু -->
-    <div class="mobile-menu" id="mobileMenu">
-        <a href="dashboard.html"><i class="fas fa-home"></i> ড্যাশবোর্ড</a>
-        <a href="select.html"><i class="fas fa-stethoscope"></i> রোগ নির্ণয়</a>
-        <a href="medica/index.html"><i class="fas fa-book-medical"></i> মেটেরিয়া মেডিকা</a>
-        <a href="prescription.html"><i class="fas fa-file-prescription"></i> প্রেসক্রিপশন</a>
-        <a href="payment.html"><i class="fas fa-credit-card"></i> পেমেন্ট</a>
-        <a href="#" onclick="logoutUser()" class="logout-btn"><i class="fas fa-sign-out-alt"></i> লগআউট</a>
-    </div>
+    <div id="header-placeholder"></div>
 
     <div class="dark-hero-section">
         <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
@@ -532,31 +393,64 @@
 
     <script>
         $(function() {
+            $('#header-placeholder').load('assets/header.html', function() {
+                // header.html লোড হওয়ার পর মোবাইল মেন্যুর ইভেন্ট হ্যান্ডলার সেট করা
+                initializeMobileMenu();
+            });
             $('#footer-placeholder').load('assets/footer.html');
         });
 
-        // মোবাইল মেন্যু টগল
-        document.getElementById('menuToggle').addEventListener('click', function() {
-            document.getElementById('mobileMenu').classList.toggle('active');
-            // আইকন পরিবর্তন
-            const icon = this.querySelector('i');
-            if (icon.classList.contains('fa-bars')) {
-                icon.className = 'fas fa-times';
-            } else {
-                icon.className = 'fas fa-bars';
+        // মোবাইল মেন্যু ফাংশন - header.html এর ভেতরের এলিমেন্টগুলোর জন্য
+        function initializeMobileMenu() {
+            // header.html এর ভেতরে মেনু টগল বাটন খুঁজে বের করা
+            const menuToggle = document.querySelector('#header-placeholder .menu-toggle, #header-placeholder [onclick*="toggleMenu"]');
+            const mobileMenu = document.querySelector('#header-placeholder .mobile-menu, #header-placeholder [class*="mobile-menu"]');
+            
+            // যদি header.html এ menu-toggle এবং mobile-menu ক্লাস থাকে
+            if (menuToggle && mobileMenu) {
+                // আগের ইভেন্ট রিমুভ করে নতুন যোগ করা (ডুপ্লিকেট এড়াতে)
+                menuToggle.replaceWith(menuToggle.cloneNode(true));
+                const newToggle = document.querySelector('#header-placeholder .menu-toggle, #header-placeholder [onclick*="toggleMenu"]');
+                
+                if (newToggle) {
+                    newToggle.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const menu = document.querySelector('#header-placeholder .mobile-menu, #header-placeholder [class*="mobile-menu"]');
+                        if (menu) {
+                            menu.classList.toggle('active');
+                            // আইকন পরিবর্তন
+                            const icon = this.querySelector('i');
+                            if (icon) {
+                                if (icon.classList.contains('fa-bars')) {
+                                    icon.className = 'fas fa-times';
+                                } else {
+                                    icon.className = 'fas fa-bars';
+                                }
+                            }
+                        }
+                    });
+                }
             }
-        });
-
-        // লগআউট ফাংশন
-        function logoutUser() {
-            if (confirm('আপনি কি নিশ্চিত যে আপনি লগআউট করতে চান?')) {
-                firebase.auth().signOut().then(() => {
-                    window.location.href = "login.html";
-                }).catch((error) => {
-                    console.error("Logout error:", error);
-                    alert("লগআউট করতে সমস্যা হয়েছে। আবার চেষ্টা করুন।");
-                });
-            }
+            
+            // বিকল্প: যদি header.html এ onclick ব্যবহার করা থাকে, তাহলে সেটি কাজ করবে
+            // কিন্তু সেটিও নিশ্চিত করতে আমরা window এ ফাংশন যোগ করছি
+            window.toggleMenu = function() {
+                const menu = document.querySelector('#header-placeholder .mobile-menu, #header-placeholder [class*="mobile-menu"]');
+                const toggle = document.querySelector('#header-placeholder .menu-toggle, #header-placeholder [onclick*="toggleMenu"]');
+                if (menu) {
+                    menu.classList.toggle('active');
+                    if (toggle) {
+                        const icon = toggle.querySelector('i');
+                        if (icon) {
+                            if (icon.classList.contains('fa-bars')) {
+                                icon.className = 'fas fa-times';
+                            } else {
+                                icon.className = 'fas fa-bars';
+                            }
+                        }
+                    }
+                }
+            };
         }
 
         let timerInterval;
