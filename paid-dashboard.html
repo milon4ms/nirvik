@@ -50,6 +50,33 @@
                 });
             }
         });
+        $(document).ready(function() {
+    // হেডার লোড করা
+    $('#header-placeholder').load('assets/header.html', function() {
+        // হেডার লোড হওয়ার পর মোবাইল মেনু ইভেন্ট সচল করা
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (menuBtn && mobileMenu) {
+            // বাটন ক্লিক ইভেন্ট
+            menuBtn.onclick = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                mobileMenu.classList.toggle('hidden');
+            };
+
+            // মেনুর বাইরে ক্লিক করলে মেনু বন্ধ হওয়া
+            document.onclick = function(e) {
+                if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+                    mobileMenu.classList.add('hidden');
+                }
+            };
+        }
+    });
+
+    // ফুটার লোড করা
+    $('#footer-placeholder').load('assets/footer.html');
+});
     </script>
     <style>
         body { 
@@ -102,7 +129,6 @@
             border: 1px solid #e2e8f0;
             border-radius: 8px;
             transition: all 0.2s ease;
-            text-decoration: none;
         }
 
         .text-link-item:hover {
@@ -393,65 +419,9 @@
 
     <script>
         $(function() {
-            $('#header-placeholder').load('assets/header.html', function() {
-                // header.html লোড হওয়ার পর মোবাইল মেন্যুর ইভেন্ট হ্যান্ডলার সেট করা
-                initializeMobileMenu();
-            });
+            $('#header-placeholder').load('assets/header.html');
             $('#footer-placeholder').load('assets/footer.html');
         });
-
-        // মোবাইল মেন্যু ফাংশন - header.html এর ভেতরের এলিমেন্টগুলোর জন্য
-        function initializeMobileMenu() {
-            // header.html এর ভেতরে মেনু টগল বাটন খুঁজে বের করা
-            const menuToggle = document.querySelector('#header-placeholder .menu-toggle, #header-placeholder [onclick*="toggleMenu"]');
-            const mobileMenu = document.querySelector('#header-placeholder .mobile-menu, #header-placeholder [class*="mobile-menu"]');
-            
-            // যদি header.html এ menu-toggle এবং mobile-menu ক্লাস থাকে
-            if (menuToggle && mobileMenu) {
-                // আগের ইভেন্ট রিমুভ করে নতুন যোগ করা (ডুপ্লিকেট এড়াতে)
-                menuToggle.replaceWith(menuToggle.cloneNode(true));
-                const newToggle = document.querySelector('#header-placeholder .menu-toggle, #header-placeholder [onclick*="toggleMenu"]');
-                
-                if (newToggle) {
-                    newToggle.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        const menu = document.querySelector('#header-placeholder .mobile-menu, #header-placeholder [class*="mobile-menu"]');
-                        if (menu) {
-                            menu.classList.toggle('active');
-                            // আইকন পরিবর্তন
-                            const icon = this.querySelector('i');
-                            if (icon) {
-                                if (icon.classList.contains('fa-bars')) {
-                                    icon.className = 'fas fa-times';
-                                } else {
-                                    icon.className = 'fas fa-bars';
-                                }
-                            }
-                        }
-                    });
-                }
-            }
-            
-            // বিকল্প: যদি header.html এ onclick ব্যবহার করা থাকে, তাহলে সেটি কাজ করবে
-            // কিন্তু সেটিও নিশ্চিত করতে আমরা window এ ফাংশন যোগ করছি
-            window.toggleMenu = function() {
-                const menu = document.querySelector('#header-placeholder .mobile-menu, #header-placeholder [class*="mobile-menu"]');
-                const toggle = document.querySelector('#header-placeholder .menu-toggle, #header-placeholder [onclick*="toggleMenu"]');
-                if (menu) {
-                    menu.classList.toggle('active');
-                    if (toggle) {
-                        const icon = toggle.querySelector('i');
-                        if (icon) {
-                            if (icon.classList.contains('fa-bars')) {
-                                icon.className = 'fas fa-times';
-                            } else {
-                                icon.className = 'fas fa-bars';
-                            }
-                        }
-                    }
-                }
-            };
-        }
 
         let timerInterval;
 
