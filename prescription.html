@@ -101,15 +101,26 @@
         .editing-row {
             background: #f0fdf4 !important;
         }
-        /* মোবাইল ফ্রেন্ডলি স্টাইল */
         .prescription-textarea {
             font-size: 14px !important;
             min-height: 200px;
         }
         @media (max-width: 640px) {
             input, textarea, button {
-                font-size: 16px !important; /* iOS zoom fix */
+                font-size: 16px !important;
             }
+        }
+        /* ডান কলামে নতুন সেকশনের জন্য স্টাইল */
+        .new-medicine-section {
+            background: #f0fdf4;
+            border-left: 3px solid #22c55e;
+            padding-left: 8px;
+            margin-top: 8px;
+            border-radius: 4px;
+        }
+        .new-medicine-section .section-title {
+            color: #166534;
+            border-bottom-color: #86efac;
         }
     </style>
 </head>
@@ -313,10 +324,8 @@
             $('#footer-placeholder').load('assets/footer.html');
         });
 
-        // ================ ম্যানুয়াল পেস্ট ডিটেকশন ================
-        // টেক্সট বক্সে পেস্ট করলে অটো পার্স করবে
+        // ================ অটোমেটিক পেস্ট ডিটেকশন ================
         $('#prescriptionText').on('paste', function(e) {
-            // একটু দেরি করে কাজ করবে যাতে টেক্সট বসার পর পার্স করতে পারে
             setTimeout(function() {
                 const text = $('#prescriptionText').val();
                 if (text && text.length > 10) {
@@ -325,11 +334,9 @@
             }, 100);
         });
 
-        // টেক্সট বক্সে টাইপ করলেও চেক করবে (ব্যাকআপ)
         $('#prescriptionText').on('input', function() {
             const text = $(this).val();
             if (text && text.length > 30) {
-                // চেক করি যে হেডার গুলো আছে কিনা
                 const hasHeaders = /রোগীর নাম|ঠিকানা|বয়স|ফোন|মোবাইল|তারিখ|সিরিয়াল/.test(text);
                 if (hasHeaders) {
                     autoParseAndFill(text);
@@ -359,12 +366,9 @@
                 if(extracted.age && !$('#patientAge').val()) {
                     $('#patientAge').val(extracted.age);
                 }
-            } catch(e) {
-                // সাইলেন্ট ফেইল
-            }
+            } catch(e) {}
         }
 
-        // ================ মূল ফাংশন ================
         function clearFormFields() {
             $('#prescriptionForm')[0].reset();
             $('#prescriptionText').val('');
@@ -464,7 +468,6 @@
                 
                 alert("✅ পেস্ট, ক্লিনিং ও অটো-ফিল সফল হয়েছে!");
             } catch (err) {
-                // ক্লিপবোর্ড API কাজ না করলে ম্যানুয়াল নির্দেশনা
                 alert("📋 দয়া করে টেক্সট বক্সে ক্লিক করে Ctrl+V (বা মোবাইলে পেস্ট) করুন। সিস্টেম স্বয়ংক্রিয়ভাবে ডাটা পার্স করবে।");
                 $('#prescriptionText').focus();
             }
@@ -673,7 +676,6 @@
             });
         }
 
-        // ================ টেবিল এডিট ফাংশন ================
         function openEditTableModal(id, serial, date, name, phone) {
             $('#editTableDocId').val(id);
             $('#editTableSerial').val(unescape(serial));
@@ -718,7 +720,7 @@
             });
         }
 
-        // ================ প্রিন্ট ফাংশন ================
+        // ================ প্রিন্ট ফাংশন - আপডেটেড ================
         function printPrescriptionWindow(serial, date, name, address, phone, age, text) {
             serial = unescape(serial);
             date = unescape(date);
@@ -728,6 +730,7 @@
             age = unescape(age);
             text = unescape(text);
 
+            // স্ট্যান্ডার্ড সেকশন
             let sections = {
                 mainMedicine: '',
                 supportiveMedicine: '',
@@ -738,6 +741,7 @@
                 alternativeMedicine: ''
             };
 
+            // স্ট্যান্ডার্ড সেকশন প্যাটার্ন
             const sectionPatterns = {
                 mainMedicine: [
                     /১\.\s*প্রধান হোমিওপ্যাথিক ঔষধ[:\n]*([\s\S]*?)(?=২\.\s*সহায়ক ঔষধ|২\.\s*সহায়ক ঔষধ|$)/,
@@ -775,6 +779,7 @@
                 }
             });
 
+            // ব্যাকআপ ডিটেকশন
             if (!sections.symptoms) {
                 const symptomsMatch = text.match(/রোগ লক্ষণ[:\n]*([\s\S]*?)(?=রোগের সম্ভাব্য নাম|বিকল্প ঔষধ|$)/i);
                 if (symptomsMatch) sections.symptoms = symptomsMatch[1].trim();
@@ -788,6 +793,39 @@
             if (!sections.alternativeMedicine) {
                 const altMatch = text.match(/বিকল্প ঔষধ[:\n]*([\s\S]*?)(?=$)/i);
                 if (altMatch) sections.alternativeMedicine = altMatch[1].trim();
+            }
+
+            // 🔥 নতুন অংশ ডিটেক্ট করা - যা ৪. পরামর্শ এর পরে যোগ করা হয়েছে
+            let newMedicineContent = '';
+            const newMedicineMatch = text.match(/\[তারিখ.*?\][\s\S]*?(?=৫\.\s*রোগ লক্ষণ সমূহ|$)/);
+            if (newMedicineMatch) {
+                // চেক করি যে এটি ৪. পরামর্শ এর অংশ না
+                const isAdvicePart = /৪\.\s*পরামর্শ/.test(newMedicineMatch[0]);
+                if (!isAdvicePart && newMedicineMatch[0].length > 15) {
+                    newMedicineContent = newMedicineMatch[0].trim();
+                }
+            }
+
+            // যদি নতুন অংশ ৪. পরামর্শ এর মধ্যে থাকে, তাহলে সেটি আলাদা করুন
+            if (!newMedicineContent) {
+                // চেক করি যে ৪. পরামর্শ এর মধ্যে নতুন তারিখ আছে কিনা
+                const adviceSection = sections.advice;
+                if (adviceSection) {
+                    const dateMatch = adviceSection.match(/\[তারিখ.*?\][\s\S]*?(?=\n|$)/);
+                    if (dateMatch && dateMatch[0].length > 10) {
+                        // ৪. পরামর্শ থেকে নতুন অংশ আলাদা করুন
+                        const parts = adviceSection.split(/\[তারিখ.*?\]/);
+                        if (parts.length > 1) {
+                            // মূল পরামর্শ অংশ
+                            sections.advice = parts[0].trim();
+                            // নতুন অংশ
+                            const datePart = adviceSection.match(/\[তারিখ.*?\][\s\S]*/);
+                            if (datePart) {
+                                newMedicineContent = datePart[0].trim();
+                            }
+                        }
+                    }
+                }
             }
 
             let patientNameDisplay = name;
@@ -825,6 +863,7 @@
                             color: #1f2937;
                             line-height: 1.6;
                             padding-left: 4px;
+                            white-space: pre-wrap;
                         }
                         .rx-header {
                             font-size: 2rem;
@@ -839,6 +878,21 @@
                         }
                         .prescription-col-right {
                             padding-left: 16px;
+                        }
+                        /* নতুন ঔষধ অংশের স্টাইল - ডান কলামে */
+                        .new-medicine-section {
+                            background: #f0fdf4;
+                            border-left: 3px solid #22c55e;
+                            padding: 8px 8px 8px 12px;
+                            margin-top: 10px;
+                            border-radius: 4px;
+                        }
+                        .new-medicine-section .section-title {
+                            color: #166534;
+                            border-bottom-color: #86efac;
+                        }
+                        .new-medicine-section .section-content {
+                            color: #14532d;
                         }
                     </style>
                 </head>
@@ -869,6 +923,7 @@
                         </div>
 
                         <div class="grid grid-cols-12 gap-6 min-h-[550px]">
+                            <!-- বাম কলাম - শুধুমাত্র ৫,৬,৭ -->
                             <div class="col-span-4 prescription-col-left">
                                 <h3 class="font-bold text-slate-800 border-b pb-1 mb-2 text-xs flex items-center gap-1 text-emerald-700">
                                     <i class="fas fa-notes-medical"></i> লক্ষণ ও সংক্ষিপ্ত বিবরণী
@@ -890,6 +945,7 @@
                                 </div>
                             </div>
 
+                            <!-- ডান কলাম - ১,২,৩,৪ + নতুন ঔষধ -->
                             <div class="col-span-8 prescription-col-right">
                                 <div class="flex justify-between items-center mb-2">
                                     <span class="rx-header">R<sub>x</sub></span>
@@ -915,6 +971,14 @@
                                     <div class="section-title">৪. পরামর্শ</div>
                                     <div class="section-content">${sections.advice ? sections.advice.replace(/\n/g, '<br>') : 'উল্লেখ নেই'}</div>
                                 </div>
+
+                                <!-- 🔥 নতুন ঔষধ অংশ - ৪. পরামর্শ এর নিচে ডান কলামে -->
+                                ${newMedicineContent ? `
+                                <div class="new-medicine-section">
+                                    <div class="section-title">📋 নতুন ঔষধ সংযোজন</div>
+                                    <div class="section-content">${newMedicineContent.replace(/\n/g, '<br>')}</div>
+                                </div>
+                                ` : ''}
                             </div>
                         </div>
 
