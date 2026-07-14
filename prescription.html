@@ -85,7 +85,6 @@
                 padding-right: 16px !important;
             }
         }
-        /* এডিট মোডের জন্য স্টাইল */
         .edit-input {
             background: #f0fdf4;
             border: 1px solid #86efac;
@@ -102,6 +101,16 @@
         .editing-row {
             background: #f0fdf4 !important;
         }
+        /* মোবাইল ফ্রেন্ডলি স্টাইল */
+        .prescription-textarea {
+            font-size: 14px !important;
+            min-height: 200px;
+        }
+        @media (max-width: 640px) {
+            input, textarea, button {
+                font-size: 16px !important; /* iOS zoom fix */
+            }
+        }
     </style>
 </head>
 <body>
@@ -112,7 +121,7 @@
         <div class="mb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4 bg-gradient-to-r from-emerald-800 to-teal-900 p-6 rounded-2xl text-white shadow-sm">
             <div>
                 <h1 class="text-xl font-bold flex items-center gap-2 text-emerald-300">
-                    <i class="fas fa-laptop-medical"></i> নির্ভীক প্রেসক্রিপশন
+                    <i class="fas fa-laptop-medical"></i> নির্ভীক হাইব্রিড প্রেসক্রিপশন ডায়েরি
                 </h1>
                 <p class="text-xs text-emerald-100/80 mt-1">নিরাপদ এআই প্রেসক্রিপশন ক্লাউড ব্যাকআপ। প্রতিটি পেস্টে প্রথম ২৩০০ ক্যারেক্টার সংরক্ষিত হবে।</p>
             </div>
@@ -183,7 +192,7 @@
 
                     <div>
                         <label class="block text-[11px] font-bold text-slate-600 mb-1">প্রেসক্রিপশন বিবরণ <span class="text-rose-500 font-normal">(সর্বোচ্চ ২৩০০ ক্যারেক্টার)</span></label>
-                        <textarea id="prescriptionText" maxlength="2300" rows="12" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white font-mono transition placeholder:text-slate-400" placeholder="এখানে লেখা পেস্ট বা টাইপ করুন..."></textarea>
+                        <textarea id="prescriptionText" maxlength="2300" rows="12" class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-emerald-500 focus:bg-white font-mono transition placeholder:text-slate-400 prescription-textarea" placeholder="এখানে লেখা পেস্ট বা টাইপ করুন..."></textarea>
                     </div>
 
                     <button type="submit" id="btnSubmitPrescription" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-2.5 rounded-lg shadow transition flex items-center justify-center gap-1.5 disabled:opacity-50 disabled:cursor-not-allowed">
@@ -256,7 +265,6 @@
         </div>
     </div>
 
-    <!-- এডিট মোডাল - টেবিল ডাটা এডিট করার জন্য -->
     <div id="editTableModal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
         <div class="bg-white rounded-2xl max-w-md w-full p-5 shadow-xl">
             <div class="flex items-center justify-between border-b pb-2 mb-3">
@@ -305,6 +313,58 @@
             $('#footer-placeholder').load('assets/footer.html');
         });
 
+        // ================ ম্যানুয়াল পেস্ট ডিটেকশন ================
+        // টেক্সট বক্সে পেস্ট করলে অটো পার্স করবে
+        $('#prescriptionText').on('paste', function(e) {
+            // একটু দেরি করে কাজ করবে যাতে টেক্সট বসার পর পার্স করতে পারে
+            setTimeout(function() {
+                const text = $('#prescriptionText').val();
+                if (text && text.length > 10) {
+                    autoParseAndFill(text);
+                }
+            }, 100);
+        });
+
+        // টেক্সট বক্সে টাইপ করলেও চেক করবে (ব্যাকআপ)
+        $('#prescriptionText').on('input', function() {
+            const text = $(this).val();
+            if (text && text.length > 30) {
+                // চেক করি যে হেডার গুলো আছে কিনা
+                const hasHeaders = /রোগীর নাম|ঠিকানা|বয়স|ফোন|মোবাইল|তারিখ|সিরিয়াল/.test(text);
+                if (hasHeaders) {
+                    autoParseAndFill(text);
+                }
+            }
+        });
+
+        function autoParseAndFill(text) {
+            try {
+                const extracted = parsePrescriptionText(text);
+                
+                if(extracted.serial && !$('#serialNo').val()) {
+                    $('#serialNo').val(extracted.serial);
+                }
+                if(extracted.date && !$('#prescriptionDate').val()) {
+                    $('#prescriptionDate').val(extracted.date);
+                }
+                if(extracted.name && !$('#patientName').val()) {
+                    $('#patientName').val(extracted.name);
+                }
+                if(extracted.address && !$('#patientAddress').val()) {
+                    $('#patientAddress').val(extracted.address);
+                }
+                if(extracted.phone && !$('#patientPhone').val()) {
+                    $('#patientPhone').val(extracted.phone);
+                }
+                if(extracted.age && !$('#patientAge').val()) {
+                    $('#patientAge').val(extracted.age);
+                }
+            } catch(e) {
+                // সাইলেন্ট ফেইল
+            }
+        }
+
+        // ================ মূল ফাংশন ================
         function clearFormFields() {
             $('#prescriptionForm')[0].reset();
             $('#prescriptionText').val('');
@@ -400,43 +460,49 @@
                     text = text.substring(0, 2300);
                 }
 
-                const extracted = parsePrescriptionText(text);
-                
-                if(extracted.serial) $('#serialNo').val(extracted.serial);
-                if(extracted.date) $('#prescriptionDate').val(extracted.date);
-                if(extracted.name) $('#patientName').val(extracted.name);
-                if(extracted.address) $('#patientAddress').val(extracted.address);
-                if(extracted.phone) $('#patientPhone').val(extracted.phone);
-                if(extracted.age) $('#patientAge').val(extracted.age);
-
-                let cleanText = text;
-                const filterPatterns = [
-                    /সিরিয়াল\s*নং\s*[:ঃ]?\s*[^\n\r]+/g,
-                    /তারিখ\s*[:ঃ]?\s*[^\n\r]+/g,
-                    /রোগীর\s*নাম\s*[:ঃ]?\s*[^\n\r]+/g,
-                    /ফোন\s*নম্বর\s*[:ঃ]?\s*[^\n\r]+/g,
-                    /মোবাইল\s*[:ঃ]?\s*[^\n\r]+/g,
-                    /ঠিকানা\s*[:ঃ]?\s*[^\n\r]+/g,
-                    /Address\s*[:ঃ]?\s*[^\n\r]+/gi,
-                    /বয়স\s*[:ঃ]?\s*[^\n\r]+/g,
-                    /বয়েস\s*[:ঃ]?\s*[^\n\r]+/g,
-                    /Age\s*[:ঃ]?\s*[^\n\r]+/gi,
-                    /লিঙ্গ\s*[:ঃ]?\s*[^\n\r]+/g,
-                    /Gender\s*[:ঃ]?\s*[^\n\r]+/gi,
-                    /Sex\s*[:ঃ]?\s*[^\n\r]+/gi
-                ];
-
-                filterPatterns.forEach(pattern => {
-                    cleanText = cleanText.replace(pattern, '');
-                });
-
-                cleanText = cleanText.replace(/\n{3,}/g, '\n\n').trim();
-                $('#prescriptionText').val(cleanText);
+                processPastedText(text);
                 
                 alert("✅ পেস্ট, ক্লিনিং ও অটো-ফিল সফল হয়েছে!");
             } catch (err) {
-                alert("ম্যানুয়ালি পেস্ট (Ctrl+V) করুন।");
+                // ক্লিপবোর্ড API কাজ না করলে ম্যানুয়াল নির্দেশনা
+                alert("📋 দয়া করে টেক্সট বক্সে ক্লিক করে Ctrl+V (বা মোবাইলে পেস্ট) করুন। সিস্টেম স্বয়ংক্রিয়ভাবে ডাটা পার্স করবে।");
+                $('#prescriptionText').focus();
             }
+        }
+
+        function processPastedText(text) {
+            const extracted = parsePrescriptionText(text);
+            
+            if(extracted.serial) $('#serialNo').val(extracted.serial);
+            if(extracted.date) $('#prescriptionDate').val(extracted.date);
+            if(extracted.name) $('#patientName').val(extracted.name);
+            if(extracted.address) $('#patientAddress').val(extracted.address);
+            if(extracted.phone) $('#patientPhone').val(extracted.phone);
+            if(extracted.age) $('#patientAge').val(extracted.age);
+
+            let cleanText = text;
+            const filterPatterns = [
+                /সিরিয়াল\s*নং\s*[:ঃ]?\s*[^\n\r]+/g,
+                /তারিখ\s*[:ঃ]?\s*[^\n\r]+/g,
+                /রোগীর\s*নাম\s*[:ঃ]?\s*[^\n\r]+/g,
+                /ফোন\s*নম্বর\s*[:ঃ]?\s*[^\n\r]+/g,
+                /মোবাইল\s*[:ঃ]?\s*[^\n\r]+/g,
+                /ঠিকানা\s*[:ঃ]?\s*[^\n\r]+/g,
+                /Address\s*[:ঃ]?\s*[^\n\r]+/gi,
+                /বয়স\s*[:ঃ]?\s*[^\n\r]+/g,
+                /বয়েস\s*[:ঃ]?\s*[^\n\r]+/g,
+                /Age\s*[:ঃ]?\s*[^\n\r]+/gi,
+                /লিঙ্গ\s*[:ঃ]?\s*[^\n\r]+/g,
+                /Gender\s*[:ঃ]?\s*[^\n\r]+/gi,
+                /Sex\s*[:ঃ]?\s*[^\n\r]+/gi
+            ];
+
+            filterPatterns.forEach(pattern => {
+                cleanText = cleanText.replace(pattern, '');
+            });
+
+            cleanText = cleanText.replace(/\n{3,}/g, '\n\n').trim();
+            $('#prescriptionText').val(cleanText);
         }
 
         function parsePrescriptionText(text) {
@@ -647,7 +713,6 @@
             }).then(() => {
                 alert("✅ রেকর্ড সফলভাবে আপডেট করা হয়েছে!");
                 closeEditTableModal();
-                // রিলোড করার প্রয়োজন নেই, Firestore onSnapshot অটোমেটিক আপডেট করবে
             }).catch(error => {
                 alert("❌ আপডেট করতে সমস্যা হয়েছে: " + error.message);
             });
