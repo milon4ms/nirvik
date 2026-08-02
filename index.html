@@ -1,210 +1,85 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>নির্ভীক  হোমিও | হোমিওপ্যাথিক সহায়ক</title>
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
-    
-    <!-- jQuery CDN (হেডার/ফুটার লোডের জন্য) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+  /* AI Container Design */
+  .ai-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f8f9fa; /* ব্যাকগ্রাউন্ড কালার */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+  }
 
-    <script>
-        tailwind.config = {
-            content: [],
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#00b8a9',
-                        'primary-dark': '#00897b',
-                    }
-                }
-            }
-        }
-    </script>
+  .ai-label {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+    margin-right: 10px;
+  }
 
-    <style>
-        body { 
-            font-family: 'SolaimanLipi', system-ui, sans-serif; 
-        }
-        /* AI লিংক আইকনের জন্য স্টাইল */
-        .ai-link {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 48px;
-            height: 48px;
-            border-radius: 12px;
-            background: white;
-            color: #333;
-            font-size: 22px;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            border: 1px solid #e5e7eb;
-        }
-        .ai-link:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-            border-color: #00b8a9;
-        }
-        .ai-link img {
-            width: 28px;
-            height: 28px;
-            object-fit: contain;
-        }
-        /* জায়গা সেভ করতে ছোট স্ক্রিনে */
-        @media (max-width: 640px) {
-            .ai-link {
-                width: 42px;
-                height: 42px;
-                font-size: 18px;
-            }
-            .ai-link img {
-                width: 22px;
-                height: 22px;
-            }
-        }
-    </style>
+  .ai-item {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* আইকন ও টেক্সটের মাঝখানের ফাঁক */
+    text-decoration: none; /* লিংকের আন্ডারলাইন সরাবে */
+    background: white;
+    padding: 6px 12px 6px 6px;
+    border-radius: 50px; /* গোলাকার বাটন */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: 0.3s;
+    border: 1px solid #eee;
+    color: #333; /* টেক্সটের রং */
+    font-size: 14px;
+  }
+
+  .ai-item:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+
+  /* Icon Design */
+  .ai-icon {
+    width: 24px;  /* আইকন ছোট করা হয়েছে */
+    height: 24px;
+    object-fit: contain;
+    border-radius: 50%; /* যদি আইকন গোলাকার হয় */
+  }
+</style>
 </head>
-<body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
+<body>
 
-    <!-- ==================== হেডার প্লেসহোল্ডার ==================== -->
-    <div id="header-placeholder"></div>
+<!-- আপনার এই সেকশনটি এখানে বসাবে -->
+<div class="ai-section">
+  <span class="ai-label">AI সহায়তা</span>
 
-    <!-- ==================== হিরো ব্যানার ==================== -->
-    <section class="bg-gradient-to-br from-primary via-teal-600 to-teal-700 text-white py-8 md:py-10">
-        <div class="max-w-5xl mx-auto text-center px-6">
-            <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-3">
-               হোমিও চিকিৎসকের নির্ভীক ডিজিটাল অ্যাসিস্টেন্ট
-            </h1>
-            <p class="text-base md:text-lg mb-6 opacity-95">
-                 কেসটেকিং ➜ রোগীলিপি জেনারেট ➜ AI অ্যানালাইসিস ➜ প্রেসক্রিপশন — মুহূর্তেই সম্পন্ন 
-            </p>
-            <a href="select.html" 
-               class="inline-flex items-center gap-3 bg-white text-primary-dark text-base font-semibold px-8 py-4 rounded-3xl hover:scale-105 transition shadow-xl">
-                <i class="fas fa-magic"></i>
-                কেসটেকিং শুরু করুন
-            </a>
-        </div>
-    </section>
+  <!-- জেমিনি -->
+  <a href="https://gemini.google.com/" target="_blank" class="ai-item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Google_Gemini_logo.svg/1200px-Google_Gemini_logo.svg.png" class="ai-icon" alt="Gemini">
+    <span>Gemini</span>
+  </a>
 
-    <!-- ==================== AI লিংক সেকশন (কেন নির্ভীক হোমিও এর উপরে) ==================== -->
-    <section class="py-8 bg-white/50 backdrop-blur-sm border-b border-gray-100">
-        <div class="max-w-4xl mx-auto px-6">
-            <div class="flex items-center justify-center gap-4 md:gap-6 flex-wrap">
-                <span class="text-sm font-semibold text-gray-500 uppercase tracking-wider mr-2">AI সহায়তা</span>
-                
-                <!-- Gemini -->
-                <a href="#" class="ai-link" title="Gemini">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/120px-Google_Gemini_logo.svg.png" alt="Gemini">
-                </a>
-                
-                <!-- ChatGPT -->
-                <a href="#" class="ai-link" title="ChatGPT">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png" alt="ChatGPT">
-                </a>
-                
-                <!-- Claude -->
-                <a href="#" class="ai-link" title="Claude">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Claude_AI_logo.svg/120px-Claude_AI_logo.svg.png" alt="Claude">
-                </a>
-                
-                <!-- Perplexity -->
-                <a href="#" class="ai-link" title="Perplexity AI">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Perplexity_AI_logo.svg/120px-Perplexity_AI_logo.svg.png" alt="Perplexity">
-                </a>
-                
-                <!-- DeepSeek -->
-                <a href="#" class="ai-link" title="DeepSeek">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/DeepSeek_logo.svg/120px-DeepSeek_logo.svg.png" alt="DeepSeek">
-                </a>
-                
-                <!-- Grok -->
-                <a href="#" class="ai-link" title="Grok">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/X_logo_2023.svg/120px-X_logo_2023.svg.png" alt="Grok">
-                </a>
-            </div>
-        </div>
-    </section>
+  <!-- চ্যাটজিপিটি -->
+  <a href="https://chat.openai.com/" target="_blank" class="ai-item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png" class="ai-icon" alt="ChatGPT">
+    <span>ChatGPT</span>
+  </a>
 
-<!-- ==================== ফিচার সেকশন ==================== -->
-    <section class="py-16 flex-1">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">কেন নির্ভীক হোমিও?</h2>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition text-center">
-                    <div class="text-5xl mb-4">📋</div>
-                    <h3 class="text-xl font-semibold mb-2">কার্যকারিতা</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed text-left">
-                        <span class="text-teal-500 font-bold">•</span> এক পেজে পূর্ণ কেসটেকিং<br>
-                        <span class="text-teal-500 font-bold">•</span> একক্লিকে রোগীলিপি (প্রম্পট) তৈরি<br>
-                        <span class="text-teal-500 font-bold">•</span> পেজে লক্ষণ দেখে রোগীকে প্রশ্নকরা
-                    </p>
-                </div>
-                
-                <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition text-center">
-                    <div class="text-5xl mb-4">🔬</div>
-                    <h3 class="text-xl font-semibold mb-2">AI শক্তি</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed text-left">
-                       <span class="text-purple-500 font-bold">•</span> হোমিওপ্যাথিক নীতিতে তৈরি প্রম্পট<br>
-                       <span class="text-purple-500 font-bold">•</span> AI  নির্ভর রেপার্টরি এনালাইসিস  <br>
-                       <span class="text-purple-500 font-bold">•</span> ১ ক্লিকে প্রেশক্রিপশন তৈরি
-                    </p>
-                </div>
-                
-                <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition text-center">
-                    <div class="text-5xl mb-4">📱</div>
-                    <h3 class="text-xl font-semibold mb-2">সহজ লভ্যতা</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed text-left">
-                      <span class="text-orange-500 font-bold">•</span>  মোবাইল পিসি এপসে চলে<br>
-                      <span class="text-orange-500 font-bold">•</span>  কয়েক ক্লিকেই কাজ শেষ<br>
-                      <span class="text-orange-500 font-bold">•</span>  ক্রিটিক্যাল লক্ষণ পেলে সতর্কতা
-                    </p>
-                </div>
-                
-                <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition text-center">
-                    <div class="text-5xl mb-4">🔒</div>
-                    <h3 class="text-xl font-semibold mb-2">নিরাপত্তা</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed text-left">
-                      <span class="text-rose-500 font-bold">•</span>  প্রেসক্রিপশন জমা ও এডিট যোগ্য<br>
-                      <span class="text-rose-500 font-bold">•</span>  ফ্রি অ্যাকাউন্টেই সব কাজ চলে<br>
-                      <span class="text-rose-500 font-bold">•</span>  ৫০ টাকায় পেইড ইউজার হওয়া যায়
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- অন্য এআই (পিডিএফ আইকন এর জায়গায় আপনি ছবি বসাবেন) -->
+  <a href="https://www.perplexity.ai/" target="_blank" class="ai-item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Perplexity_AI_logo.svg/1200px-Perplexity_AI_logo.svg.png" class="ai-icon" alt="AI Tool">
+    <span>Perplexity</span> <!-- নাম বসান -->
+  </a>
+  
+  <!-- আপনার মত একই আইকন স্টাইলে আরেকটি -->
+  <a href="https://claude.ai/" target="_blank" class="ai-item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Claude_AI_logo.svg/1200px-Claude_AI_logo.svg.png" class="ai-icon" alt="Claude">
+    <span>Claude</span>
+  </a>
 
-    <!-- ==================== ফুটার প্লেসহোল্ডার ==================== -->
-    <div id="footer-placeholder"></div>
-
-    <script>
-        // ============================================================
-        // হেডার ও ফুটার লোড - jQuery
-        // ============================================================
-        $(function(){
-            $('#header-placeholder').load('assets/header.html', function() {
-                // হেডার লোড হওয়ার পর মোবাইল মেনু সক্রিয় করুন
-                const btn = document.getElementById('mobile-menu-btn');
-                const menu = document.getElementById('mobile-menu');
-                if (btn && menu) {
-                    btn.addEventListener('click', function() {
-                        menu.classList.toggle('hidden');
-                        btn.innerHTML = menu.classList.contains('hidden') 
-                            ? '<i class="fas fa-bars"></i>' 
-                            : '<i class="fas fa-times"></i>';
-                    });
-                }
-            });
-            
-            $('#footer-placeholder').load('assets/footer.html');
-        });
-    </script>
+</div>
 
 </body>
 </html>
