@@ -30,6 +30,29 @@
         body { 
             font-family: 'SolaimanLipi', system-ui, sans-serif; 
         }
+        /* AI লিংক আইকনের জন্য স্টাইল */
+        .ai-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.15);
+            color: white;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .ai-link:hover {
+            background: rgba(255,255,255,0.3);
+            transform: scale(1.1);
+            color: white;
+        }
+        .ai-link i {
+            font-size: 18px;
+        }
     </style>
 </head>
 <body class="bg-gradient-to-br from-teal-50 to-cyan-50 min-h-screen flex flex-col">
@@ -37,15 +60,26 @@
     <!-- ==================== হেডার প্লেসহোল্ডার ==================== -->
     <div id="header-placeholder"></div>
 
-    <!-- ==================== হিরো ব্যানার (উচ্চতা কমানো) ==================== -->
+    <!-- ==================== হিরো ব্যানার ==================== -->
     <section class="bg-gradient-to-br from-primary via-teal-600 to-teal-700 text-white py-8 md:py-10">
         <div class="max-w-5xl mx-auto text-center px-6">
             <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-3">
                হোমিও চিকিৎসকের নির্ভীক ডিজিটাল অ্যাসিস্টেন্ট
             </h1>
-            <p class="text-base md:text-lg mb-6 opacity-95">
+            <p class="text-base md:text-lg mb-4 opacity-95">
                  কেসটেকিং ➜ রোগীলিপি জেনারেট ➜ AI অ্যানালাইসিস ➜ প্রেসক্রিপশন — মুহূর্তেই সম্পন্ন 
             </p>
+            
+            <!-- AI লিংক আইকন (ছবির মতো) -->
+            <div class="flex items-center justify-center gap-3 mb-6 flex-wrap">
+                <span class="text-sm font-medium opacity-80 mr-1">AI সহায়তা:</span>
+                <a href="#" class="ai-link" title="Geminir"><i class="fa-brands fa-google"></i></a>
+                <a href="#" class="ai-link" title="GPT"><i class="fa-solid fa-brain"></i></a>
+                <a href="#" class="ai-link" title="ChatGPT"><i class="fa-solid fa-comment-dots"></i></a>
+                <a href="#" class="ai-link" title="Grogk"><i class="fa-solid fa-robot"></i></a>
+                <a href="#" class="ai-link" title="perplexity.ai"><i class="fa-solid fa-sparkles"></i></a>
+            </div>
+
             <a href="select.html" 
                class="inline-flex items-center gap-3 bg-white text-primary-dark text-base font-semibold px-8 py-4 rounded-3xl hover:scale-105 transition shadow-xl">
                 <i class="fas fa-magic"></i>
