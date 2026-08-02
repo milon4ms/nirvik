@@ -35,23 +35,38 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.15);
-            color: white;
-            font-size: 18px;
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: white;
+            color: #333;
+            font-size: 22px;
             transition: all 0.3s ease;
             text-decoration: none;
-            border: 1px solid rgba(255,255,255,0.2);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border: 1px solid #e5e7eb;
         }
         .ai-link:hover {
-            background: rgba(255,255,255,0.3);
-            transform: scale(1.1);
-            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+            border-color: #00b8a9;
         }
-        .ai-link i {
-            font-size: 18px;
+        .ai-link img {
+            width: 28px;
+            height: 28px;
+            object-fit: contain;
+        }
+        /* জায়গা সেভ করতে ছোট স্ক্রিনে */
+        @media (max-width: 640px) {
+            .ai-link {
+                width: 42px;
+                height: 42px;
+                font-size: 18px;
+            }
+            .ai-link img {
+                width: 22px;
+                height: 22px;
+            }
         }
     </style>
 </head>
@@ -66,25 +81,53 @@
             <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-3">
                হোমিও চিকিৎসকের নির্ভীক ডিজিটাল অ্যাসিস্টেন্ট
             </h1>
-            <p class="text-base md:text-lg mb-4 opacity-95">
+            <p class="text-base md:text-lg mb-6 opacity-95">
                  কেসটেকিং ➜ রোগীলিপি জেনারেট ➜ AI অ্যানালাইসিস ➜ প্রেসক্রিপশন — মুহূর্তেই সম্পন্ন 
             </p>
-            
-            <!-- AI লিংক আইকন (ছবির মতো) -->
-            <div class="flex items-center justify-center gap-3 mb-6 flex-wrap">
-                <span class="text-sm font-medium opacity-80 mr-1">AI সহায়তা:</span>
-                <a href="#" class="ai-link" title="Geminir"><i class="fa-brands fa-google"></i></a>
-                <a href="#" class="ai-link" title="GPT"><i class="fa-solid fa-brain"></i></a>
-                <a href="#" class="ai-link" title="ChatGPT"><i class="fa-solid fa-comment-dots"></i></a>
-                <a href="#" class="ai-link" title="Grogk"><i class="fa-solid fa-robot"></i></a>
-                <a href="#" class="ai-link" title="perplexity.ai"><i class="fa-solid fa-sparkles"></i></a>
-            </div>
-
             <a href="select.html" 
                class="inline-flex items-center gap-3 bg-white text-primary-dark text-base font-semibold px-8 py-4 rounded-3xl hover:scale-105 transition shadow-xl">
                 <i class="fas fa-magic"></i>
                 কেসটেকিং শুরু করুন
             </a>
+        </div>
+    </section>
+
+    <!-- ==================== AI লিংক সেকশন (কেন নির্ভীক হোমিও এর উপরে) ==================== -->
+    <section class="py-8 bg-white/50 backdrop-blur-sm border-b border-gray-100">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="flex items-center justify-center gap-4 md:gap-6 flex-wrap">
+                <span class="text-sm font-semibold text-gray-500 uppercase tracking-wider mr-2">AI সহায়তা</span>
+                
+                <!-- Gemini -->
+                <a href="#" class="ai-link" title="Gemini">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/120px-Google_Gemini_logo.svg.png" alt="Gemini">
+                </a>
+                
+                <!-- ChatGPT -->
+                <a href="#" class="ai-link" title="ChatGPT">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png" alt="ChatGPT">
+                </a>
+                
+                <!-- Claude -->
+                <a href="#" class="ai-link" title="Claude">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Claude_AI_logo.svg/120px-Claude_AI_logo.svg.png" alt="Claude">
+                </a>
+                
+                <!-- Perplexity -->
+                <a href="#" class="ai-link" title="Perplexity AI">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Perplexity_AI_logo.svg/120px-Perplexity_AI_logo.svg.png" alt="Perplexity">
+                </a>
+                
+                <!-- DeepSeek -->
+                <a href="#" class="ai-link" title="DeepSeek">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/DeepSeek_logo.svg/120px-DeepSeek_logo.svg.png" alt="DeepSeek">
+                </a>
+                
+                <!-- Grok -->
+                <a href="#" class="ai-link" title="Grok">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/X_logo_2023.svg/120px-X_logo_2023.svg.png" alt="Grok">
+                </a>
+            </div>
         </div>
     </section>
 
