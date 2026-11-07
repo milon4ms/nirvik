@@ -1,0 +1,18 @@
+{
+  "id": "jwor",
+  "name": "জ্বর (Fever)",
+  "questions": [
+    {
+      "id": "jwor-01",
+      "stem": "ঠান্ডা লাগার পর হঠাৎ জ্বর, মুখ লাল, চোখ জ্বলজ্বলে। কোন ঔষধটি উপযুক্ত?",
+      "options": [
+        {"text": "Aconitum Napellus", "mid": "aconitum-napellus"},
+        {"text": "Belladonna", "mid": "belladonna"},
+        {"text": "Nux Vomica", "mid": "nux-vomica"},
+        {"text": "Pulsatilla", "mid": "pulsatilla"}
+      ],
+      "answer": "belladonna",
+      "explanation": "Belladonna-র ক্ষেত্রে হঠাৎ জ্বর, মুখ লাল ও চোখ জ্বলজ্বলে থাকে।"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>কুইজ চলছে...</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .header { display: flex; justify-content: space-between; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold; color: #555; }
+        .question-stem { font-size: 1.2rem; color: #333; margin-bottom: 20px; line-height: 1.5; }
+        .options-grid { display: flex; flex-direction: column; gap: 10px; }
+        .option-btn { padding: 15px; font-size: 1rem; border: 2px solid #ccc; border-radius: 8px; background: #fff; cursor: pointer; transition: 0.2s; text-align: left; color: #333;}
+        .option-btn:hover:not(:disabled) { background: #f0f8ff; border-color: #007bff; }
+        .option-btn.correct { background: #d4edda; border-color: #28a745; color: #155724; font-weight: bold;}
+        .option-btn.wrong { background: #f8d7da; border-color: #dc3545; color: #721c24; }
+        .feedback { margin-top: 20px; padding: 15px; border-radius: 8px; display: none; }
+        .feedback.show { display: block; }
+        .feedback.correct-box { background: #d4edda; border-left: 5px solid #28a745; }
+        .feedback.wrong-box { background: #f8d7da; border-left: 5px solid #dc3545; }
+        .next-btn { margin-top: 20px; width: 100%; padding: 15px; background: #007bff; color: white; font-size: 1.1rem; border: none; border-radius: 8px; cursor: pointer; display: none; }
+        .next-btn.show { display: block; }
+        .result-card { text-align: center; padding: 20px; }
+        .score-text { font-size: 3rem; color: #007bff; margin: 10px 0; }
+        .btn { padding: 10px 20px; text-decoration: none; border-radius: 5px; color: white; display: inline-block; margin: 10px; }
+        .btn-gray { background: #6c757d; }
+        .btn-blue { background: #007bff; border: none; cursor: pointer; font-size: 1rem;}
+    </style>
+</head>
+<body>
+
+    <div class="container" id="quiz-container">
+        <!-- জাভাস্ক্রিপ্ট দিয়ে এখানে প্রশ্ন লোড হবে -->
+        <div style="text-align: center; padding: 50px;">প্রশ্ন লোড হচ্ছে...</div>
+    </div>
+
+    <!-- কুইজ ইঞ্জিন স্ক্রিপ্ট -->
+    <script type="module" src="js/quiz-engine.js"></script>
+</body>
+</html>

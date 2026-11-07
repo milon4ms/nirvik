@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>হোমিওপ্যাথি কুইজ - Nirvik</title>
+    <!-- আপনার মেইন সাইটের CSS লিংক এখানে দিতে পারেন -->
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f7f6; margin: 0; padding: 20px; text-align: center; }
+        .header { display: flex; justify-content: space-between; align-items: center; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        .menu-grid { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .menu-card { background: #fff; padding: 40px 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 300px; text-decoration: none; color: #333; transition: transform 0.3s; border: 2px solid transparent; }
+        .menu-card:hover { transform: translateY(-5px); border-color: #007bff; }
+        .menu-card h2 { color: #007bff; margin-top: 0; }
+        .guest-banner { background: #ffeeba; color: #856404; padding: 10px; border-radius: 5px; margin-bottom: 20px; display: inline-block; }
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>কুইজ সেন্টার</h1>
+        <div id="auth-status">
+            <span id="user-email"></span>
+            <button id="login-btn" onclick="window.location.href='../index.html'">লগইন করুন</button>
+            <button id="logout-btn" class="hidden" onclick="handleLogout()">লগআউট</button>
+        </div>
+    </div>
+
+    <!-- গেস্টদের জন্য সতর্কবার্তা -->
+    <div id="guest-warning" class="guest-banner hidden">
+        আপনি গেস্ট হিসেবে আছেন। আপনার স্কোর সেভ হবে না। <b>লগইন করলে রেকর্ড সেভ হবে।</b>
+    </div>
+
+    <div class="menu-grid">
+        <a href="symptoms.html" class="menu-card">
+            <h2>🩺 রোগলক্ষণ ভিত্তিক কুইজ</h2>
+            <p>বিভিন্ন রোগের লক্ষণ দেখে সঠিক ঔষধ চিনুন (৫০টি কুইজ)</p>
+        </a>
+
+        <a href="medicines.html" class="menu-card">
+            <h2>💊 ঔষধ ভিত্তিক কুইজ</h2>
+            <p>A-Z অক্ষর অনুযায়ী ঔষধের কুইজ দিন (১০০টি ঔষধ)</p>
+        </a>
+    </div>
+
+    <!-- আপনার auth.js এবং UI লজিক -->
+    <script type="module">
+        import { checkAuthState, logoutUser } from './js/auth.js';
+
+        // UI আপডেট করার ফাংশন
+        checkAuthState((user) => {
+            const loginBtn = document.getElementById('login-btn');
+            const logoutBtn = document.getElementById('logout-btn');
+            const userEmail = document.getElementById('user-email');
+            const guestWarning = document.getElementById('guest-warning');
+
+            if (user) {
+                // লগইন করা আছে
+                loginBtn.classList.add('hidden');
+                logoutBtn.classList.remove('hidden');
+                userEmail.innerText = `স্বাগতম, ${user.email.split('@')[0]}`;
+                guestWarning.classList.add('hidden');
+            } else {
+                // গেস্ট মুড
+                loginBtn.classList.remove('hidden');
+                logoutBtn.classList.add('hidden');
+                userEmail.innerText = '';
+                guestWarning.classList.remove('hidden');
+            }
+        });
+
+        // লগআউট ফাংশনটি গ্লোবাল স্কোপে রাখা যাতে HTML থেকে কল করা যায়
+        window.handleLogout = () => {
+            if(confirm("আপনি কি লগআউট করতে চান?")) {
+                logoutUser();
+            }
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>সার্টিফিকেট</title>
+    <style>
+        body { font-family: 'Times New Roman', serif; background: #f4f4f4; padding: 20px; }
+        .cert-container { max-width: 800px; margin: auto; }
+        #certificate-template { background: #fff; padding: 40px; border: 10px solid #d4af37; text-align: center; position: relative; }
+        h1 { color: #d4af37; font-size: 3rem; margin-bottom: 10px; }
+        h2 { font-size: 2rem; color: #333; margin-bottom: 30px; }
+        p { font-size: 1.2rem; color: #555; line-height: 1.6; }
+        .name { font-size: 2rem; color: #007bff; font-weight: bold; border-bottom: 2px solid #333; display: inline-block; padding: 0 20px; margin: 20px 0; }
+        .btn-download { display: block; margin: 20px auto; padding: 15px 30px; background: #28a745; color: #fff; border: none; font-size: 1.2rem; cursor: pointer; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+    <div class="cert-container">
+        <div id="certificate-template">
+            <h1>সার্টিফিকেট</h1>
+            <h2>হোমিওপ্যাথি কুইজ মুল্যায়ন</h2>
+            <p>এই সার্টিফিকেটটি গর্বের সাথে প্রদান করা হলো</p>
+            <div class="name" id="user-name">ইউজারের নাম</div>
+            <p>তিনি সফলভাবে ৫০টি রোগলক্ষণ ভিত্তিক কুইজ সম্পন্ন করেছেন।</p>
+            <br><br>
+            <p>তারিখ: <span id="cert-date"></span></p>
+        </div>
+        
+        <button class="btn-download" onclick="downloadPDF()">PDF ডাউনলোড করুন</button>
+        <a href="index.html" style="display:block; text-align:center; margin-top:10px;">← ফিরে যান</a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script>
+        // আজকের তারিখ সেট করা
+        document.getElementById('cert-date').innerText = new Date().toLocaleDateString('bn-BD');
+
+        function downloadPDF() {
+            const element = document.getElementById('certificate-template');
+            html2pdf(element, {
+                margin: 0,
+                filename: 'Nirvik-Certificate.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' }
+            });
+        }
+    </script>
+</body>
+</html>
