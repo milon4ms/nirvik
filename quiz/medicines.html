@@ -24,21 +24,40 @@
         <p>লোড হচ্ছে...</p>
     </div>
 
-    <script type="module">
+       <script type="module">
+        import { getUserProgress } from './js/progress.js';
+        import { checkAuthState } from './js/auth.js';
+
         async function loadMedicines() {
             try {
                 const res = await fetch('./data/medicines/index.json');
                 const data = await res.json();
                 const container = document.getElementById('medicines-list');
-                container.innerHTML = ''; 
+                
+                checkAuthState(async (user) => {
+                    const progress = await getUserProgress();
+                    container.innerHTML = ''; 
 
-                data.forEach(med => {
-                    container.innerHTML += `
-                        <a href="play.html?type=med&id=${med.id}" class="card">
-                            <h3>${med.name}</h3>
-                            <p>${med.nameBn}</p>
-                        </a>
-                    `;
+                    data.forEach(med => {
+                        let resultHTML = '<p style="color: #999; font-size: 0.85rem; margin-top: 10px;">⚪ এখনো খেলা হয়নি</p>';
+                        const quizId = `med:${med.id}`;
+                        
+                        if (progress[quizId]) {
+                            const p = progress[quizId];
+                            let color = p.lastPct >= 40 ? '#28a745' : '#dc3545';
+                            resultHTML = `<p style="color: ${color}; font-weight: bold; margin-top: 10px; font-size: 0.9rem;">
+                                🏆 সর্বশেষ: ${p.lastCorrect}/${p.total} (${p.lastPct}%)
+                            </p>`;
+                        }
+
+                        container.innerHTML += `
+                            <a href="play.html?type=med&id=${med.id}" class="card">
+                                <h3>${med.name}</h3>
+                                <p style="font-size: 0.9rem; margin-bottom: 5px;">${med.nameBn}</p>
+                                ${resultHTML}
+                            </a>
+                        `;
+                    });
                 });
             } catch (err) {
                 document.getElementById('medicines-list').innerHTML = '<p>ডেটা লোড করা যায়নি!</p>';
