@@ -2,7 +2,7 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <title>সার্টিফিকেট</title>
+    <title>সার্টিফিকেট - Nirvik</title>
     <style>
         body { font-family: 'Times New Roman', serif; background: #f4f4f4; padding: 20px; }
         .cert-container { max-width: 800px; margin: auto; }
@@ -12,12 +12,17 @@
         p { font-size: 1.2rem; color: #555; line-height: 1.6; }
         .name { font-size: 2rem; color: #007bff; font-weight: bold; border-bottom: 2px solid #333; display: inline-block; padding: 0 20px; margin: 20px 0; }
         .btn-download { display: block; margin: 20px auto; padding: 15px 30px; background: #28a745; color: #fff; border: none; font-size: 1.2rem; cursor: pointer; border-radius: 5px; }
+        .error-msg { text-align: center; color: red; font-size: 1.2rem; font-weight: bold; margin-top: 50px;}
     </style>
 </head>
 <body>
 
-    <div class="cert-container">
-        <div id="certificate-template">
+    <div class="cert-container" id="main-container">
+        <!-- ডেটা লোড হওয়ার আগে এটি দেখাবে -->
+        <div id="loading-msg" style="text-align: center; font-size: 1.2rem;">আপনার রেকর্ড চেক করা হচ্ছে...</div>
+        
+        <!-- সার্টিফিকেট টেমপ্লেট (লুকানো থাকবে) -->
+        <div id="certificate-template" style="display: none;">
             <h1>সার্টিফিকেট</h1>
             <h2>হোমিওপ্যাথি কুইজ মুল্যায়ন</h2>
             <p>এই সার্টিফিকেটটি গর্বের সাথে প্রদান করা হলো</p>
@@ -27,16 +32,48 @@
             <p>তারিখ: <span id="cert-date"></span></p>
         </div>
         
-        <button class="btn-download" onclick="downloadPDF()">PDF ডাউনলোড করুন</button>
-        <a href="index.html" style="display:block; text-align:center; margin-top:10px;">← ফিরে যান</a>
+        <div id="action-btns" style="display: none; text-align: center;">
+            <button class="btn-download" onclick="downloadPDF()">PDF ডাউনলোড করুন</button>
+            <a href="index.html" style="display:block; margin-top:10px; color: #007bff;">← ফিরে যান</a>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    <script>
+    
+    <script type="module">
+        import { auth } from './js/firebase-config.js';
+        import { checkCertificateEligibility } from './js/progress.js';
+        import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
+
         // আজকের তারিখ সেট করা
         document.getElementById('cert-date').innerText = new Date().toLocaleDateString('bn-BD');
 
-        function downloadPDF() {
+        onAuthStateChanged(auth, async (user) => {
+            const loadingMsg = document.getElementById('loading-msg');
+            const certTemplate = document.getElementById('certificate-template');
+            const actionBtns = document.getElementById('action-btns');
+
+            if (!user) {
+                loadingMsg.innerHTML = "<p class='error-msg'>সার্টিফিকেট পেতে অনুগ্রহ করে লগইন করুন।</p><a href='index.html'>← ফিরে যান</a>";
+                return;
+            }
+
+            // সার্টিফিকেট পাওয়ার যোগ্যতা চেক করা
+            const isEligible = await checkCertificateEligibility();
+
+            if (isEligible) {
+                loadingMsg.style.display = 'none';
+                certTemplate.style.display = 'block';
+                actionBtns.style.display = 'block';
+                
+                // ইউজারের নাম বসানো
+                document.getElementById('user-name').innerText = user.displayName || user.email.split('@')[0];
+            } else {
+                loadingMsg.innerHTML = "<p class='error-msg'>দুঃখিত! সার্টিফিকেট পাওয়ার জন্য আপনাকে সবগুলো রোগলক্ষণ ভিত্তিক কুইজে অন্তত ৪০% স্কোর করতে হবে।</p><a href='index.html' style='display:block; text-align:center; margin-top:20px;'>← ফিরে যান</a>";
+            }
+        });
+
+        window.downloadPDF = function() {
             const element = document.getElementById('certificate-template');
             html2pdf(element, {
                 margin: 0,
