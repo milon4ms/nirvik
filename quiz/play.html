@@ -35,10 +35,10 @@
             background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
             background-size: 20px 20px;
             color: var(--text-main);
-            padding-bottom: 50px;
+            padding-bottom: 30px;
         }
 
-        /* 🟢 কমন হেডার নেভিগেশন */
+        /* কমন হেডার নেভিগেশন */
         .main-header {
             background: #fff;
             box-shadow: var(--shadow-sm);
@@ -77,6 +77,27 @@
         .nav-link.active {
             background: var(--primary);
             color: #fff;
+        }
+
+        /* 🟢 নতুন হেডিং এবং নির্দেশনা */
+        .page-heading-area {
+            text-align: center;
+            max-width: 650px;
+            margin: 0 auto 25px;
+            padding: 0 20px;
+        }
+
+        .page-heading {
+            color: var(--primary);
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .page-instruction {
+            color: var(--text-muted);
+            font-size: 1rem;
+            line-height: 1.5;
         }
 
         /* কুইজ মেইন কন্টেইনার */
@@ -227,23 +248,27 @@
             transition: 0.3s;
         }
 
-        .btn-gray { 
-            background: #6c757d; 
+        .btn-gray { background: #6c757d; }
+        .btn-gray:hover { background: #5a6268; }
+        .btn-blue { background: var(--primary); border: none; cursor: pointer; font-size: 1rem;}
+        .btn-blue:hover { background: var(--primary-hover); }
+
+        /* 🟢 নিচের লগইন নোটিশ */
+        .login-note {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 0.85rem;
+            color: #856404;
+            background: #fff3cd;
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: 1px solid #ffeeba;
+            display: inline-block;
+            width: 100%;
         }
 
-        .btn-gray:hover {
-            background: #5a6268;
-        }
-
-        .btn-blue { 
-            background: var(--primary); 
-            border: none; 
-            cursor: pointer; 
-            font-size: 1rem;
-        }
-
-        .btn-blue:hover {
-            background: var(--primary-hover);
+        .login-note i {
+            margin-right: 5px;
         }
 
         /* মোবাইল রেসপন্সিভ */
@@ -264,21 +289,29 @@
             }
             .question-stem { font-size: 1.1rem; }
             .score-text { font-size: 2.8rem; }
+            .page-heading { font-size: 1.5rem; }
+            .page-instruction { font-size: 0.9rem; }
         }
     </style>
 </head>
 <body>
 
-    <!-- 🟢 কমন হেডার মেনু -->
+    <!-- কমন হেডার মেনু -->
     <header class="main-header">
         <div class="nav-container">
             <a href="https://nirvik.mooo.com/" class="nav-link">নির্ভীক হোমিও</a>
             <a href="https://nirvik.mooo.com/quiz/index.html" class="nav-link">কুইজ</a>
             <a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">রোগলক্ষণ ভিত্তিক কুইজ</a>
-            <a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link">ঔষধ ভিত্তিক কুইজ</a>
+            <a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link active">ঔষধ ভিত্তিক কুইজ</a>
             <a href="https://nirvik.mooo.com/medica/index.html" class="nav-link">মেটেরিয়া মেডিকা</a>
         </div>
     </header>
+
+    <!-- 🟢 নতুন হেডিং এবং নির্দেশনা -->
+    <div class="page-heading-area">
+        <h2 class="page-heading">📝 কুইজ অনুশীলন</h2>
+        <p class="page-instruction">নিচের প্রশ্নটির সঠিক উত্তর এর উপর ক্লিক করুন। প্রতিটি সঠিক উত্তরের জন্য ১ নম্বর প্রদান করা হবে।</p>
+    </div>
 
     <!-- কুইজ কন্টেইনার -->
     <div class="quiz-container-wrapper">
@@ -289,9 +322,14 @@
                 প্রশ্ন লোড হচ্ছে...
             </div>
         </div>
+
+        <!-- 🟢 লগইন নোটিশ (সবার নিচে) -->
+        <div class="login-note">
+            <i class="fa-solid fa-circle-info"></i> কুইজের রেকর্ড সংরক্ষণ ও সার্টিফিকেট পেতে চাইলে লগইন করতে হবে।
+        </div>
     </div>
 
-    <!-- কুইজ ইঞ্জিন স্ক্রিপ্ট (আপনার আগের স্ক্রিপ্টটিই ব্যবহার করবেন) -->
+    <!-- কুইজ ইঞ্জিন স্ক্রিপ্ট -->
     <script type="module" src="js/quiz-engine.js"></script>
 </body>
 </html>
