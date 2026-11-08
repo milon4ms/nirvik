@@ -2,69 +2,237 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <title>রোগলক্ষণ ভিত্তিক কুইজ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>রোগলক্ষণ ভিত্তিক কুইজ - নির্ভীক হোমিও</title>
+    
+    <!-- গুগল ফন্ট এবং আইকন -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <style>
-        body { font-family: Arial, sans-serif; background: #f4f7f6; margin: 0; padding: 20px; text-align: center; }
-        .header { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        .list-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; max-width: 800px; margin: 0 auto; }
-        .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-decoration: none; color: #333; transition: 0.2s; border-left: 5px solid #007bff; }
-        .card:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(0,0,0,0.15); }
-        .card h3 { margin: 0 0 10px 0; font-size: 1.2rem; }
-        .card p { margin: 0; color: #777; font-size: 0.9rem; }
-        .back-btn { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #007bff; font-weight: bold; }
+        :root {
+            --primary: #4361ee;
+            --primary-hover: #3a0ca3;
+            --secondary: #4cc9f0;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-main: #2b2d42;
+            --text-muted: #6c757d;
+            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --radius: 10px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: var(--text-main);
+            padding-bottom: 50px;
+        }
+
+        /* হেডার নেভিগেশন */
+        .main-header {
+            background: #fff;
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 8px 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: #eef2ff;
+            color: var(--primary);
+        }
+
+        .nav-link.active {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        /* মেইন কন্টেইনার */
+        .page-title {
+            text-align: center;
+            margin: 30px 20px 10px;
+            color: var(--primary);
+            font-size: 1.8rem;
+        }
+
+        .page-subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-size: 1rem;
+            padding: 0 20px;
+        }
+
+        /* রোগলক্ষণ গ্রিড */
+        .symptoms-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 12px;
+        }
+
+        /* কার্ড ডিজাইন */
+        .symptom-card {
+            background: var(--card-bg);
+            border: 1px solid #edf2f7;
+            border-radius: var(--radius);
+            padding: 12px 10px;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .symptom-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary);
+            background: #f0f4ff;
+        }
+
+        /* বাংলা টেক্সট (বড়) */
+        .symptom-bn {
+            color: var(--text-main);
+            font-weight: 600;
+            font-size: 0.95rem;
+            line-height: 1.4;
+        }
+
+        /* ইংরেজি টেক্সট (ছোট ও হালকা) */
+        .symptom-en {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .symptom-card:hover .symptom-bn,
+        .symptom-card:hover .symptom-en {
+            color: var(--primary);
+        }
+
+        /* রেসপন্সিভ (মোবাইলের জন্য) */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 8px;
+            }
+            .nav-link {
+                width: 100%;
+                text-align: center;
+                padding: 6px 10px;
+            }
+            .symptoms-container {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 10px;
+            }
+            .page-title { font-size: 1.5rem; }
+        }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h2>🩺 রোগলক্ষণ ভিত্তিক কুইজ</h2>
-        <a href="index.html" class="back-btn">← হোমে ফিরে যান</a>
+
+    <!-- হেডার মেনু -->
+    <header class="main-header">
+        <div class="nav-container">
+            <a href="https://nirvik.mooo.com/" class="nav-link">নির্ভীক হোমিও</a>
+            <a href="https://nirvik.mooo.com/quiz/index.html" class="nav-link">কুইজ</a>
+            <a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link active">রোগলক্ষণ ভিত্তিক কুইজ</a>
+            <a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link">ঔষধ ভিত্তিক কুইজ</a>
+            <a href="https://nirvik.mooo.com/medica/index.html" class="nav-link">মেটেরিয়া মেডিকা</a>
+        </div>
+    </header>
+
+    <!-- মেইন কন্টেন্ট -->
+    <h1 class="page-title">🩺 রোগলক্ষণ ভিত্তিক কুইজ</h1>
+    <p class="page-subtitle">যে রোগ বা লক্ষণের কুইজ দিতে চান তার নামের উপর ক্লিক করুন</p>
+
+    <!-- গ্রিড কন্টেইনার -->
+    <div class="symptoms-container" id="symptoms-grid">
+        <!-- জাভাস্ক্রিপ্ট দিয়ে এখানে কার্ড তৈরি হবে -->
     </div>
-    
-    <div class="list-grid" id="symptoms-list">
-        <p>লোড হচ্ছে...</p>
-    </div>
 
-       <script type="module">
-        import { getUserProgress } from './js/progress.js';
-        import { checkAuthState } from './js/auth.js';
+    <script>
+        // আপনার দেওয়া রোগলক্ষণ এবং লিংকের লিস্ট
+        const symptomsList = [
+            { bn: "জ্বর সর্দি কাশি", en: "Fever Cold Cough", id: "Fever-Cold-Cough" },
+            { bn: "ব্যথা", en: "Pain", id: "Pain" },
+            { bn: "টিউমার", en: "Tumor", id: "Tumor" },
+            { bn: "ফোঁড়া", en: "Boil", id: "Boil" },
+            { bn: "প্রস্রাব গ্রন্থি শিরা", en: "Urinary Gland Vein", id: "Urinary-Gland-Vein" },
+            { bn: "রক্ত হাড় পেশী", en: "Blood Bone Muscle", id: "Blood-Bone-Muscle" },
+            { bn: "মানসিক রোগ সকল", en: "All Mental Diseases", id: "All-Mental-Diseases" },
+            { bn: "চর্মরোগ", en: "Skin Disease", id: "Skin-Disease" },
+            { bn: "মাথা", en: "Head", id: "Head" },
+            { bn: "চোখ", en: "Eye", id: "Eye" },
+            { bn: "কান", en: "Ear", id: "Ear" },
+            { bn: "নাক", en: "Nose", id: "Nose" },
+            { bn: "মুখ হইতে টুটি ও ঘাড়", en: "Mouth Throat and Neck", id: "Mouth-Throat-and-Neck" },
+            { bn: "দাঁত", en: "Teeth", id: "Teeth" },
+            { bn: "বুকের সমস্যা", en: "Chest Problems", id: "Chest-Problems" },
+            { bn: "হাতের সমস্যা", en: "Hand Problems", id: "Hand-Problems" },
+            { bn: "পিঠের সমস্যা", en: "Back Problems", id: "Back-Problems" },
+            { bn: "পাকস্থলী", en: "Stomach", id: "Stomach" },
+            { bn: "অর্শ", en: "Piles", id: "Piles" },
+            { bn: "মূত্রনালী", en: "Urinary Tract", id: "Urinary-Tract" },
+            { bn: "পা", en: "Leg", id: "Leg" },
+            { bn: "মল ও কৃমি", en: "Stool and Worms", id: "Stool-and-Worms" },
+            { bn: "মলদ্বার", en: "Anus", id: "Anus" },
+            { bn: "যৌনাঙ্গ পুরুষ", en: "Male Genitals", id: "Male-Genitals" },
+            { bn: "যৌনাঙ্গ নারী", en: "Female Genitals", id: "Female-Genitals" }
+        ];
 
-        async function loadSymptoms() {
-            try {
-                const res = await fetch('./data/symptoms/index.json');
-                const data = await res.json();
-                const container = document.getElementById('symptoms-list');
-                
-                // অথেনটিকেশন চেক করে প্রগ্রেস লোড করবে
-                checkAuthState(async (user) => {
-                    const progress = await getUserProgress();
-                    container.innerHTML = ''; 
+        const container = document.getElementById('symptoms-grid');
+        let htmlContent = '';
 
-                    data.forEach(sym => {
-                        let resultHTML = '<p style="color: #999; font-size: 0.85rem; margin-top: 10px;">⚪ এখনো খেলা হয়নি</p>';
-                        const quizId = `sym:${sym.id}`;
-                        
-                        if (progress[quizId]) {
-                            const p = progress[quizId];
-                            let color = p.lastPct >= 40 ? '#28a745' : '#dc3545';
-                            resultHTML = `<p style="color: ${color}; font-weight: bold; margin-top: 10px; font-size: 0.9rem;">
-                                🏆 সর্বশেষ: ${p.lastCorrect}/${p.total} (${p.lastPct}%)
-                            </p>`;
-                        }
+        // লুপ চালিয়ে কার্ড তৈরি করা
+        symptomsList.forEach(sym => {
+            htmlContent += `
+                <a href="play.html?type=sym&id=${sym.id}" class="symptom-card" target="_blank">
+                    <span class="symptom-bn">${sym.bn}</span>
+                    <span class="symptom-en">${sym.en}</span>
+                </a>
+            `;
+        });
 
-                        container.innerHTML += `
-                            <a href="play.html?type=sym&id=${sym.id}" class="card">
-                                <h3>${sym.name}</h3>
-                                ${resultHTML}
-                            </a>
-                        `;
-                    });
-                });
-            } catch (err) {
-                document.getElementById('symptoms-list').innerHTML = '<p>ডেটা লোড করা যায়নি!</p>';
-                console.error(err);
-            }
-        }
-        loadSymptoms();
+        container.innerHTML = htmlContent;
     </script>
 </body>
 </html>
