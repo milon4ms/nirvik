@@ -63,7 +63,7 @@
             text-decoration: none;
             color: var(--text-main);
             font-weight: 600;
-            font-size: 0.95rem;
+            font-size: 1rem;
             padding: 6px 12px;
             border-radius: 6px;
             transition: all 0.2s ease;
@@ -79,14 +79,14 @@
             color: #fff;
         }
 
-        /* মেইন ড্যাশবোর্ড গ্রিড */
+        /* 🟢 মেইন ড্যাশবোর্ড গ্রিড (ডান দিকের কলাম ছোট করা হয়েছে) */
         .dashboard-wrapper {
-            max-width: 1100px;
-            margin: 20px auto;
-            padding: 0 15px;
+            max-width: 1150px;
+            margin: 25px auto;
+            padding: 0 20px;
             display: grid;
-            grid-template-columns: 1.2fr 0.8fr; /* বাম দিক বড়, ডান দিক ছোট */
-            gap: 20px;
+            grid-template-columns: 2.5fr 1fr; /* বাম দিক বড়, ডান দিক ছোট */
+            gap: 25px;
             align-items: start;
         }
 
@@ -94,19 +94,19 @@
         .left-column {
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 20px;
         }
 
-        /* মেনু কার্ড (পাশাপাশি) */
+        /* 🟢 মেনু কার্ড (সাইজ বাড়ানো হয়েছে) */
         .menu-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 15px;
+            gap: 20px;
         }
 
         .menu-card {
             background: var(--card-bg);
-            padding: 15px;
+            padding: 25px 20px;
             border-radius: var(--radius);
             box-shadow: var(--shadow-sm);
             text-decoration: none;
@@ -127,20 +127,20 @@
         }
 
         .menu-card i {
-            font-size: 2rem;
-            margin-bottom: 8px;
+            font-size: 3rem; /* আইকন সাইজ বাড়ানো হলো */
+            margin-bottom: 12px;
             background: linear-gradient(45deg, var(--primary), var(--secondary));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        .menu-card h2 { font-size: 1.1rem; margin-bottom: 4px; color: var(--primary); }
-        .menu-card p { color: var(--text-muted); font-size: 0.8rem; }
+        .menu-card h2 { font-size: 1.4rem; margin-bottom: 6px; color: var(--primary); }
+        .menu-card p { color: var(--text-muted); font-size: 1rem; }
 
-        /* অগ্রগতি (Progress) বক্স */
+        /* 🟢 অগ্রগতি (Progress) বক্স (সাইজ বাড়ানো হয়েছে) */
         .progress-box {
             background: var(--card-bg);
-            padding: 15px 20px;
+            padding: 20px 25px;
             border-radius: var(--radius);
             box-shadow: var(--shadow-sm);
             border: 1px solid #e2e8f0;
@@ -150,11 +150,11 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
 
         .progress-header h3 {
-            font-size: 1rem;
+            font-size: 1.15rem;
             color: var(--text-main);
             display: flex;
             align-items: center;
@@ -164,19 +164,19 @@
         .progress-badge {
             background: #eef2ff;
             color: var(--primary);
-            padding: 2px 10px;
+            padding: 4px 12px;
             border-radius: 20px;
-            font-size: 0.8rem;
+            font-size: 0.95rem;
             font-weight: 700;
         }
 
         .progress-bar-bg {
             width: 100%;
-            height: 10px;
+            height: 12px;
             background: #e2e8f0;
             border-radius: 10px;
             overflow: hidden;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
         }
 
         .progress-bar-fill {
@@ -187,41 +187,42 @@
         }
 
         .progress-text {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             color: var(--text-muted);
             text-align: right;
+            font-weight: 500;
         }
 
-        /* সার্টিফিকেট সেকশন (কমপ্যাক্ট) */
+        /* 🟢 সার্টিফিকেট সেকশন (সাইজ বাড়ানো হয়েছে) */
         .cert-section {
             background: #fffcf2;
             border: 1px solid #ffeeba;
-            padding: 15px;
+            padding: 20px 25px;
             border-radius: var(--radius);
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 10px;
+            gap: 15px;
         }
 
         .cert-text h3 {
-            font-size: 0.95rem;
+            font-size: 1.15rem;
             color: #b58100;
-            margin-bottom: 2px;
+            margin-bottom: 5px;
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 8px;
         }
 
-        .cert-text p { font-size: 0.75rem; color: #856404; }
+        .cert-text p { font-size: 0.9rem; color: #856404; }
 
         .btn-cert {
             background: var(--primary);
             color: white;
-            padding: 8px 15px;
-            font-size: 0.85rem;
+            padding: 10px 20px;
+            font-size: 0.95rem;
             text-decoration: none;
-            border-radius: 6px;
+            border-radius: 8px;
             font-weight: 600;
             transition: 0.2s;
             white-space: nowrap;
@@ -230,27 +231,26 @@
         .btn-cert:hover { background: var(--primary-hover); }
         .btn-cert.disabled { background: #cbd5e1; pointer-events: none; }
 
-        /* ডান কলাম (সাম্প্রতিক রেকর্ড) */
+        /* 🟢 ডান কলাম (সাম্প্রতিক রেকর্ড) - সংকুচিত */
         .right-column {
             background: var(--card-bg);
             border-radius: var(--radius);
             box-shadow: var(--shadow-sm);
             border: 1px solid #e2e8f0;
             padding: 15px;
-            height: 100%;
-            max-height: 400px;
+            max-height: 450px;
             overflow-y: auto;
         }
 
         .recent-title {
-            font-size: 1rem;
+            font-size: 1.05rem;
             color: var(--text-main);
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             display: flex;
             align-items: center;
             gap: 8px;
             border-bottom: 1px solid #f1f5f9;
-            padding-bottom: 8px;
+            padding-bottom: 10px;
         }
 
         .recent-list { list-style: none; }
@@ -259,34 +259,41 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 8px 0;
+            padding: 10px 0;
             border-bottom: 1px solid #f1f5f9;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
         }
 
         .recent-item:last-child { border-bottom: none; }
 
-        .recent-name { font-weight: 600; color: var(--text-main); }
+        .recent-name { 
+            font-weight: 600; 
+            color: var(--text-main); 
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 120px; /* লেখা বড় হলে ডট ডট দেখাবে */
+        }
         
         .score-badge {
-            padding: 2px 8px;
+            padding: 3px 10px;
             border-radius: 12px;
             font-weight: 700;
-            font-size: 0.75rem;
+            font-size: 0.8rem;
         }
         .score-pass { background: #d1fae5; color: #065f46; }
         .score-fail { background: #fee2e2; color: #991b1b; }
 
         /* নিচের লগইন মেসেজ */
         .bottom-notice {
-            max-width: 1100px;
-            margin: 15px auto;
-            padding: 10px;
+            max-width: 1150px;
+            margin: 20px auto;
+            padding: 12px;
             text-align: center;
-            font-size: 0.85rem;
+            font-size: 0.95rem;
             color: #856404;
             background: #fff3cd;
-            border-radius: 6px;
+            border-radius: 8px;
             border: 1px solid #ffeeba;
         }
 
@@ -297,13 +304,16 @@
         }
 
         /* মোবাইল রেসপন্সিভ */
-        @media (max-width: 768px) {
+        @media (max-width: 900px) {
             .dashboard-wrapper {
-                grid-template-columns: 1fr; /* মোবাইলে এক কলাম */
+                grid-template-columns: 1fr; /* মোবাইল/ট্যাবে এক কলাম */
             }
-            .menu-grid { grid-template-columns: 1fr 1fr; }
-            .cert-section { flex-direction: column; text-align: center; }
             .right-column { max-height: none; }
+        }
+
+        @media (max-width: 600px) {
+            .menu-grid { grid-template-columns: 1fr; }
+            .cert-section { flex-direction: column; text-align: center; }
             .nav-container { flex-direction: column; gap: 5px; }
             .nav-link { width: 100%; text-align: center; }
         }
@@ -462,8 +472,8 @@
                         
                         html += `
                             <li class="recent-item">
-                                <span class="recent-name">${typeName}: ${item.id}</span>
-                                <span class="score-badge ${scoreClass}">${item.score}/${item.total} (${item.pct}%)</span>
+                                <span class="recent-name" title="${item.id}">${typeName}: ${item.id}</span>
+                                <span class="score-badge ${scoreClass}">${item.score}/${item.total}</span>
                             </li>
                         `;
                     });
