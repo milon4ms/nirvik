@@ -1,242 +1,242 @@
 [
-  {
-    "id": "abrot-med-01",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "শরীরের নিচের অংশের তুলনায় ওপরের অংশ বা মুখমণ্ডলে তীব্র শুষ্কতা ও বমিভাব", "mid": "sym-upper-emaciation"},
-      {"text": "উচ্চমাত্রার জ্বরে প্রলাপ বকা ও মুখ লাল হয়ে যাওয়া", "mid": "sym-belladonna-fever"},
-      {"text": "গরম খাবারে প্রচণ্ড বমি এবং বরফশীতল জল পানের তীব্র ইচ্ছা", "mid": "sym-phosphorus-cold"},
-      {"text": "রাতের বেলা হাড়ের ভেতর তীব্র ছিঁড়ে ফেলা ব্যথা", "mid": "sym-syphilinum-pain"}
-    ],
-    "answer": "sym-upper-emaciation",
-    "explanation": "Abrotanum-এর অন্যতম প্রধান লক্ষণ হলো শরীরের নিচের অংশের তুলনায় ওপরের অংশ বিশেষ করে মুখমণ্ডল ও গ্রীবা অঞ্চলে দ্রুত শুকিয়ে যাওয়া বা ক্ষয় হওয়া।"
-  },
-  {
-    "id": "abrot-med-02",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "শিশুদের পেটে কৃমির উপদ্রবের সাথে অর্শা বা পাইলসের সমস্যা ও কোষ্ঠকাঠিন্য", "mid": "sym-abrot-worms-piles"},
-      {"text": "জল খেলে সাথে সাথে পেটে তীব্র মোচড় দিয়ে বমি হওয়া", "mid": "sym-arsenic-vomit"},
-      {"text": "খাওয়ার পরপরই পেটে গ্যাস ও প্রচণ্ড ঢেকুর ওঠা", "mid": "sym-carbo-veg-gas"},
-      {"text": "নাভির চারপাশে কাটার মতো তীব্র ব্যথা ও ডায়রিয়া", "mid": "sym-colocynthis-pain"}
-    ],
-    "answer": "sym-abrot-worms-piles",
-    "explanation": "Abrotanum-এ শিশুদের কৃমির সংক্রমণের সাথে অর্শা (Piles) বা পাইলসের লক্ষণ এবং কোষ্ঠকাঠিন্যের বিশিষ্ট প্রকাশ দেখা যায়।"
-  },
-  {
-    "id": "abrot-med-03",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "হাত-পা বা ত্বকের ক্ষত থেকে প্রচুর পরিমাণে রক্ত ও পুঁজ মিশ্রিত স্রাব নির্গমন", "mid": "sym-abrot-ulcer-discharge"},
-      {"text": "ত্বক সম্পূর্ণ শুকনো ও মৃতবৎ দেখায়, কোনো রকম ঘাম হয় না", "mid": "sym-dry-skin-no-sweat"},
-      {"text": "ত্বকে তীব্র চুলকানি যা গরম পানিতে ধুলে সম্পূর্ণ উপশম হয়", "mid": "sym-itch-warm-relief"},
-      {"text": "ত্বকের ওপর পিত্ত বা আর্টিকেরিয়ার মতো লালচে চাকা চাকা দাগ", "mid": "sym-urticaria-rash"}
-    ],
-    "answer": "sym-abrot-ulcer-discharge",
-    "explanation": "Abrotanum-এর ক্ষেত্রে ক্ষত বা আলসার থেকে প্রচুর পরিমাণে রক্ত এবং পুঁজ বের হওয়ার প্রবণতা থাকে।"
-  },
-  {
-    "id": "abrot-med-04",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "বুকের ভেতর তীব্র টান ও হৃদপিণ্ডের গোলযোগের কারণে দুর্বলতা", "mid": "sym-abrot-heart-weak"},
-      {"text": "হৃদপিণ্ডে হঠাৎ তীব্র সূচ ফোটানোর মতো ব্যথা যা বাম দিকে শুলে বাড়ে", "mid": "sym-cactus-heart"},
-      {"text": "বুকের ওপর ভারী পাথর চেপে বসেছে এমন অনুভূতি ও শ্বাসকষ্ট", "mid": "sym-acon-chest"},
-      {"text": "দ্রুত সিঁড়ি দিয়ে উঠলে হাঁপিয়ে ওঠা ও হৃৎস্পন্দন বেড়ে যাওয়া", "mid": "sym-digitalis-palp"}
-    ],
-    "answer": "sym-abrot-heart-weak",
-    "explanation": "Abrotanum-এ হৃদপিণ্ডের কার্যক্ষমতা দুর্বল হয়ে যাওয়া এবং বুক ও নাড়ীর গতিতে অস্বস্তিকর অনুভূতি প্রকাশ পায়।"
-  },
-  {
-    "id": "abrot-med-05",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "রোগীর মেজাজ অত্যন্ত খিটখিটে, সে কাউকে সহ্য করতে পারে না এবং নিষ্ঠুর আচরণ করে", "mid": "sym-abrot-mood-cruel"},
-      {"text": "সর্বদা একা থাকতে চাওয়া এবং কারও সাথে কথা না বলে চুপচাপ বসে থাকা", "mid": "sym-nat-mur-silent"},
-      {"text": "নিজের ভবিষ্যৎ নিয়ে অতিরিক্ত দুশ্চিন্তা ও কান্নাকাটি করা", "mid": "sym-pulsatilla-weep"},
-      {"text": "ছোটখাটো বিষয়ে রেগে গিয়ে জিনিসপত্র ভাঙচুর করা", "mid": "sym-chamomilla-anger"}
-    ],
-    "answer": "sym-abrot-mood-cruel",
-    "explanation": "Abrotanum-এর মানসিক লক্ষণে রোগী অত্যন্ত খিটখিটে ও জিঘাংসাপরায়ণ বা নিষ্ঠুর প্রকৃতির হয়ে ওঠে, যা তার স্বভাবের পরিবর্তন নির্দেশ করে।"
-  },
-  {
-    "id": "abrot-med-06",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "বাত বা গাঁটের ব্যথার সাথে পর্যায়ক্রমে ডায়রিয়া বা পেটের অসুখের উপস্থিতি", "mid": "sym-abrot-rheum-diarr"},
-      {"text": "সকালে ঘুম থেকে ওঠার পর গাঁটে গাঁটে তীব্র শক্ত ভাব ও প্রদাহ", "mid": "sym-rhus-tox-joint"},
-      {"text": "আঙুলের ছোট জয়েন্টগুলোতে শক্ত গিট তৈরি হওয়া ও ব্যথা", "mid": "sym-calc-fluor-joint"},
-      {"text": "হাঁটুতে পানি জমা এবং সামান্য ঠান্ডায় ব্যথা বেড়ে যাওয়া", "mid": "sym-apis-knee"}
-    ],
-    "answer": "sym-abrot-rheum-diarr",
-    "explanation": "Abrotanum-এর একটি অন্যতম ক্লিনিক্যাল বৈশিষ্ট্য হলো রিউমাটিজম বা বাতের ব্যথার সাথে পর্যায়ক্রমে পেটের গোলযোগ বা ডায়রিয়া দেখা দেওয়া।"
-  },
-  {
-    "id": "abrot-med-07",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "অতিরিক্ত ক্ষুধা থাকা সত্ত্বেও শরীর দিন দিন শুকিয়ে যাওয়া ও দুর্বল হওয়া", "mid": "sym-abrot-marasmus"},
-      {"text": "খেলেই বমি হয়ে যাওয়া এবং কিছুতেই খাবার হজম না হওয়া", "mid": "sym-bryonia-digestion"},
-      {"text": "মিষ্টি জাতীয় খাবারের প্রতি চরম অরুচি ও মাংস খাওয়ার তীব্র ইচ্ছা", "mid": "sym-lycopodium-craving"},
-      {"text": "খাবারের নাম শুনলেই বমি ভাব হওয়া এবং খাবার দেখতে না পারা", "mid": "sym-colchicum-food"}
-    ],
-    "answer": "sym-abrot-marasmus",
-    "explanation": "Abrotanum-এ প্রচুর খাওয়ার পরেও রোগীর পুষ্টি হয় না এবং শরীর দিন দিন শীর্ণকায় ও দুর্বল হয়ে পড়ে (Marasmus)।"
-  },
-  {
-    "id": "abrot-med-08",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "অণ্ডথলি বা স্কোটামে শক্ত ফোলাভাব ও পানি জমার মতো অবস্থা", "mid": "sym-abrot-testis-swells"},
-      {"text": "অণ্ডকোষে তীব্র ঠান্ডা লাগার অনুভূতি ও স্পর্শকাতরতা", "mid": "sym-rhododendron-testis"},
-      {"text": "অণ্ডকোষের ভেতরে তীব্র মোচড় দেওয়া ব্যথা যা পেটের দিকে টানে", "mid": "sym-pulsatilla-testis"},
-      {"text": "প্রস্রাবের সময় অণ্ডকোষে জ্বালাপোড়া ও সুচ ফোটানোর মতো ব্যথা", "mid": "sym-cantharis-testis"}
-    ],
-    "answer": "sym-abrot-testis-swells",
-    "explanation": "Abrotanum-এর পুরুষদের শারীরিক লক্ষণে অণ্ডথলি বা স্কোটামের শক্ত ভাব এবং বিশেষ করে শিশুদের ক্ষেত্রে হাইড্রোসিল বা পানি জমার প্রবণতা দেখা যায়।"
-  },
-  {
-    "id": "abrot-med-09",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "পেটে গ্যাস জমে পেট ফুলে যাওয়া এবং মলদ্বারে টানটান ভাব", "mid": "sym-abrot-tympanites"},
-      {"text": "পেটের ভেতর সাপের মতো কিছু নড়ছে এমন অদ্ভুত অনুভূতি", "mid": "sym-crotalus-belly"},
-      {"text": "নাভির চারপাশে পাথর চাপা দেওয়ার মতো ভারী বোধ হওয়া", "mid": "sym-coloc-heavy"},
-      {"text": "পেটে প্রচণ্ড জ্বালাপোড়া যা বরফ ঠান্ডা জল খেলে কমে", "mid": "sym-phos-belly"}
-    ],
-    "answer": "sym-abrot-tympanites",
-    "explanation": "Abrotanum-এ পেটে বাতাস বা গ্যাস জমে পেট ফেঁপে যাওয়ার মতো লক্ষণ (Tympanites) প্রকাশ পায়।"
-  },
-  {
-    "id": "abrot-med-10",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "মুখের ত্বক কুঁচকে যাওয়া, চোখের চারপাশে নীলচে দাগ ও বয়স্কদের মতো চেহারা", "mid": "sym-abrot-old-face"},
-      {"text": "মুখমণ্ডল ফ্যাকাশে ও মোমের মতো সাদা হয়ে যাওয়া", "mid": "sym-arsen-face"},
-      {"text": "মুখের একপাশে তীব্র ব্যথা যা চোখের দিকে ছড়িয়ে পড়ে", "mid": "sym-spigelia-face"},
-      {"text": "মুখের ত্বকে ব্রণের সাথে অতিরিক্ত তৈলাক্ত ভাব ও কালচে দাগ", "mid": "sym-kali-brom-face"}
-    ],
-    "answer": "sym-abrot-old-face",
-    "explanation": "Abrotanum-এর শিশুদের বা রোগীদের মুখমণ্ডল দেখে বয়স্ক বা বৃদ্ধের মতো মনে হয়, কারণ ত্বক কুঁচকে যায় এবং চোখের চারপাশে বলিরেখা বা কালি পড়ে।"
-  },
-  {
-    "id": "abrot-med-11",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "নাক থেকে রক্তপাত এবং সেই সাথে মাথায় তীব্র ভারবোধ ও সর্দি", "mid": "sym-abrot-epistaxis"},
-      {"text": "নাকের ভেতরে ঘা হওয়া ও দুর্গন্ধযুক্ত সর্দি বের হওয়া", "mid": "sym-hydrastis-nose"},
-      {"text": "স্নায়বিক দুর্বলতার কারণে ক্রমাগত হাঁচি হওয়া ও নাক বন্ধ থাকা", "mid": "sym-sabadilla-nose"},
-      {"text": "ঠান্ডা বাতাসে নাক দিয়ে জল ঝরা এবং গন্ধশক্তি লোপ পাওয়া", "mid": "sym-allium-cep-nose"}
-    ],
-    "answer": "sym-abrot-epistaxis",
-    "explanation": "Abrotanum-এর লক্ষণাবলীতে নাক দিয়ে রক্ত পড়া (Epistaxis) এবং তৎসংহতি মাথা ভারী হওয়ার প্রবণতা রয়েছে।"
-  },
-  {
-    "id": "abrot-med-12",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "পা দুটো অবশ হয়ে যাওয়া বা চলাফেরায় অসম্ভব দুর্বলতা অনুভব করা", "mid": "sym-abrot-weak-legs"},
-      {"text": "পায়ের তালুতে প্রচণ্ড জ্বালা করার কারণে বিছানার বাইরে পা রাখা", "mid": "sym-sulphur-feet"},
-      {"text": "গোড়ালিতে তীব্র তীক্ষ্ণ ব্যথা যা সকালে মাটিতে পা রাখলে বাড়ে", "mid": "sym-ledum-pal-feet"},
-      {"text": "পায়ের পেশিতে ঘন ঘন ক্র্যাম্প ধরা এবং শক্ত হয়ে যাওয়া", "mid": "sym-cuprum-met-feet"}
-    ],
-    "answer": "sym-abrot-weak-legs",
-    "explanation": "Abrotanum-এর ক্ষেত্রে রোগীর নিচের অঙ্গ বা পায়ে মারাত্মক দুর্বলতা দেখা দেয়, যার ফলে হাঁটাচলা করতে কষ্ট হয়।"
-  },
-  {
-    "id": "abrot-med-13",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "মলদ্বারে চুলকানি ও অর্শ্বের বলয় ফুলে ওঠা, সাথে শ্লেষ্মাযুক্ত মলত্যাগ", "mid": "sym-abrot-rectum-piles"},
-      {"text": "মলত্যাগের সময় তীব্র জ্বালাপোড়া ও ঘণ্টার পর ঘণ্টা মলদ্বারে ব্যথা", "mid": "sym-nitric-acid-rectum"},
-      {"text": "মল শক্ত হওয়ার কারণে মলদ্বারে ফেটে গিয়ে রক্তপাত হওয়া", "mid": "sym-raphanus-rectum"},
-      {"text": "মলের সাথে প্রচুর পরিমাণে তাজা রক্ত যাওয়া ও পেটে মোচড় দেওয়া", "mid": "sym-merl-rectum"}
-    ],
-    "answer": "sym-abrot-rectum-piles",
-    "explanation": "Abrotanum-এ মলদ্বার সংক্রান্ত সমস্যা যেমন পাইলস বা অর্শ্বের ফুলে ওঠা এবং শ্লেষ্মা বা আমযুক্ত মল ত্যাগের লক্ষণ পাওয়া যায়।"
-  },
-  {
-    "id": "abrot-med-14",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "হাড়গুলোতে ব্যথা ও মনে হয় যেন হাড় ভেঙে টুকরো টুকরো হয়ে যাচ্ছে", "mid": "sym-abrot-bone-pain"},
-      {"text": "হাড়ের ভেতরে তীব্র দপদপে ব্যথা যা গরমে উপশম হয়", "mid": "sym-mercurius-bone"},
-      {"text": "হাড়ের প্রদাহ ও ফুলে গিয়ে শক্ত হয়ে যাওয়ার মতো দীর্ঘমেয়াদী সমস্যা", "mid": "sym-calc-phos-bone"},
-      {"text": "সন্ধিস্থলে তীব্র কটকট শব্দ হওয়া ও সামান্য নড়াচড়ায় ব্যথা", "mid": "sym-bryonia-bone"}
-    ],
-    "answer": "sym-abrot-bone-pain",
-    "explanation": "Abrotanum-এ অস্থির বা হাড়ের মধ্যে গভীর ধরনের ব্যথা এবং দুর্বলতার অনুভূতি প্রকাশ পায়।"
-  },
-  {
-    "id": "abrot-med-15",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "শীতকালে হাত-পায়ে ঠান্ডা লাগার অনুভূতি ও শরীরে গরম ভাব না থাকা", "mid": "sym-abrot-chilliness"},
-      {"text": "সর্বদা গায়ে প্রচণ্ড গরম বোধ হওয়া এবং ফ্যান বা বাতাসের প্রয়োজন হওয়া", "mid": "sym-iodum-heat"},
-      {"text": "শরীরের একপাশ ঠান্ডা এবং অন্যপাশ গরম অনুভূত হওয়া", "mid": "sym-china-chill"},
-      {"text": "হঠাৎ করে পুরো শরীরে তীব্র গরম ভাব ও ঘাম দিয়ে জ্বর আসা", "mid": "sym-ferrum-phos-fever"}
-    ],
-    "answer": "sym-abrot-chilliness",
-    "explanation": "Abrotanum-এর রোগীরা সাধারণত ঠান্ডাকাতর হয় এবং শীতকালে তাদের কষ্ট বেশি বৃদ্ধি পায়।"
-  },
-  {
-    "id": "abrot-med-16",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "সকালে ঘুম ভাঙার পর চরম অবসাদ ও অলসতা বোধ হওয়া", "mid": "sym-abrot-morning-fatigue"},
-      {"text": "বিকালে শরীরের তাপমাত্রা বৃদ্ধি পাওয়া ও ক্লান্তি আসা", "mid": "sym-lyco-evening"},
-      {"text": "মধ্যরাতে হঠাৎ ঘুম ভেঙে গিয়ে বুক ধড়ফড় করা", "mid": "sym-ars-midnight"},
-      {"text": "সারাদিন প্রাণবন্ত থাকলেও সন্ধ্যার পর হঠাৎ শক্তি হারিয়ে ফেলা", "mid": "sym-carb-veg-fatigue"}
-    ],
-    "answer": "sym-abrot-morning-fatigue",
-    "explanation": "Abrotanum-এর রোগীরা সকালবেলা ঘুম থেকে ওঠার সময় অত্যন্ত ক্লান্তি ও অবসাদ অনুভব করে।"
-  },
-  {
-    "id": "abrot-med-17",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "ত্বক শুষ্ক, ফ্যাকাশে এবং ঢিলেঢালা হয়ে ঝুলে পড়া", "mid": "sym-abrot-flabby-skin"},
-      {"text": "ত্বক অত্যন্ত টানটান, লালচে ও জলভরা ফোস্কার মতো হওয়া", "mid": "sym-rhus-tox-skin"},
-      {"text": "ত্বক তৈলাক্ত, পুরু এবং সহজে ঘাম ও ময়লা জমে যাওয়া", "mid": "sym-thuya-skin"},
-      {"text": "ত্বকে ছোট ছোট গুটি বা শক্ত আঁচিল গজিয়ে ওঠা", "mid": "sym-causticum-skin"}
-    ],
-    "answer": "sym-abrot-flabby-skin",
-    "explanation": "Abrotanum-এ শরীরের মাংসপেশি ও ত্বক শুকিয়ে যাওয়ার কারণে তা ঢিলেঢালা হয়ে ঝুলে পড়ে।"
-  },
-  {
-    "id": "abrot-med-18",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "অতিরিক্ত নড়াচড়া করলে বা ঠান্ডা বাতাসে লক্ষণগুলোর তীব্রতা বৃদ্ধি পাওয়া", "mid": "sym-abrot-agg-motion"},
-      {"text": "চলাফেরা করলে বা হাঁটাহাঁটি করলে সব কষ্ট উপশম হওয়া", "mid": "sym-pulsatilla-motion"},
-      {"text": "গরম জলে গোসল করলে বা গরম সেঁক নিলে ব্যথা বেড়ে যাওয়া", "mid": "sym-puls-warm"},
-      {"text": "খালি পায়ে হাঁটলে বা মাটি স্পর্শ করলে শারীরিক সমস্যা বৃদ্ধি পাওয়া", "mid": "sym-sepia-feet"}
-    ],
-    "answer": "sym-abrot-agg-motion",
-    "explanation": "Abrotanum-এর রোগ লক্ষণগুলো সাধারণত নড়াচড়া করলে এবং ঠান্ডা বাতাসের সংস্পর্শে এলে বৃদ্ধি পায়।"
-  },
-  {
-    "id": "abrot-med-19",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "হাতের কনুই ও হাঁটুর চর্মে শক্ত আঁশের মতো খোসা ওঠা ও চুলকানি", "mid": "sym-abrot-elbow-scale"},
-      {"text": "হাতের তালুতে গভীর ফাটল ধরা ও রক্তপাত হওয়া", "mid": "sym-petroleum-palm"},
-      {"text": "নখের কোণায় পুঁজ জমে ব্যথা হওয়া ও নখ নষ্ট হয়ে যাওয়া", "mid": "sym-silicea-nail"},
-      {"text": "হাঁটু ও কনুইয়ের চামড়া কালো হয়ে শক্ত হয়ে যাওয়া", "mid": "sym-graphites-joint"}
-    ],
-    "answer": "sym-abrot-elbow-scale",
-    "explanation": "Abrotanum-এ কনুই ও হাঁটুর চামড়ায় শুষ্কতা এবং আঁশের মতো খোসা ওঠার প্রবণতা দেখা দেয়।"
-  },
-  {
-    "id": "abrot-med-20",
-    "stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
-    "options": [
-      {"text": "পেটের কৃমির কারণে নাক চুলকানো এবং মুখ দিয়ে জল পড়া", "mid": "sym-abrot-worm-nose"},
-      {"text": "ঘুমের মধ্যে দাঁত কিড়মিড় করা ও মুখ দিয়ে ফেনা ওঠা", "mid": "sym-cina-teeth"},
-      {"text": "পেটে তীব্র ব্যথার কারণে কুঁকড়ে শুয়ে থাকা ও গোঙানো", "mid": "sym-coloc-cramp"},
-      {"text": "মিষ্টি খাওয়ার তীব্র ইচ্ছা এবং খেলেই পেটে ব্যথা হওয়া", "mid": "sym-argentum-sweet"}
-    ],
-    "answer": "sym-abrot-worm-nose",
-    "explanation": "Abrotanum-এ কৃমির সমস্যার সাথে নাক চুলকানো এবং মুখ থেকে লালা বা জল পড়ার মতো বৈশিষ্ট্যপূর্ণ লক্ষণ প্রকাশ পায়।"
-  }
+{
+"id": "abro-med-01",
+"stem": "নিচের কোনটি Abrotanum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "পা ফুলে যাওয়ার পর হৃদরোগের উপসর্গ দেখা দেয় (Metastasis)", "mid": "sym-metastasis-legs-heart"},
+{"text": "মাথার ত্বক খসখসে এবং চুল পড়ে যায়", "mid": "sym-scalp-dandruff"},
+{"text": "ঠান্ডা লাগলে গলা ব্যথা বাড়ে", "mid": "sym-throat-cold"},
+{"text": "ডান পাশে শিরশিরে ব্যথা", "mid": "sym-right-sided-pain"}
+],
+"answer": "sym-metastasis-legs-heart",
+"explanation": "Abrotanum-এর একটি প্রধান বৈশিষ্ট্য হলো রিউম্যাটিক সমস্যার স্থান পরিবর্তন, বিশেষ করে পা ফুলে যাওয়ার পর হৃদরোগের লক্ষণ প্রকাশ পাওয়া।"
+},
+{
+"id": "abro-med-02",
+"stem": "নিচের কোনটি Abrotanum-এর ক্ষুধার বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "অস্বাভাবিক ও প্রবল ক্ষুধা (Bulimia), কিন্তু খেলেও দুর্বলতা থাকে", "mid": "sym-appetite-bulimia"},
+{"text": "ক্ষুধা সম্পূর্ণ অভাব", "mid": "sym-appetite-loss"},
+{"text": "শুধুমাত্র তরল খাবারে ক্ষুধা", "mid": "sym-appetite-liquid"},
+{"text": "খাবারের গন্ধেই বমি ভাব হয়", "mid": "sym-appetite-nausea"}
+],
+"answer": "sym-appetite-bulimia",
+"explanation": "Abrotanum-এ রোগীর অস্বাভাবিক ও প্রবল ক্ষুধা থাকে, এমনকি সে খুব বেশি খায় কিন্তু শরীর দুর্বল ও কৃশ থাকে।"
+},
+{
+"id": "abro-med-03",
+"stem": "নিচের কোনটি Abrotanum-এর মলের বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "মল পাতলা, পানির মতো এবং অপরিহার্য তাড়নাযুক্ত", "mid": "sym-stool-watery-urgent"},
+{"text": "মল শক্ত এবং শুকনো", "mid": "sym-stool-hard"},
+{"text": "মলের সাথে রক্তপাত", "mid": "sym-stool-blood"},
+{"text": "মল সাদা এবং চকচকে", "mid": "sym-stool-white"}
+],
+"answer": "sym-stool-watery-urgent",
+"explanation": "Abrotanum-এ মল সাধারণত পাতলা, পানির মতো হয় এবং এর সাথে অপরিহার্য তাড়না থাকে।"
+},
+{
+"id": "abro-med-04",
+"stem": "নিচের কোনটি Abrotanum-এর মানসিক লক্ষণ?",
+"options": [
+{"text": "মানসিক অবসাদ, বিষণ্ণতা এবং আত্মহত্যার প্রবণতা", "mid": "sym-mental-depression"},
+{"text": "অতিরিক্ত আনন্দ এবং কথা বলতে ইচ্ছা", "mid": "sym-mental-joyful"},
+{"text": "ভুলে যাওয়ার প্রবণতা এবং বিভ্রান্তি", "mid": "sym-mental-confusion"},
+{"text": "রাগ এবং বিরক্তি", "mid": "sym-mental-anger"}
+],
+"answer": "sym-mental-depression",
+"explanation": "Abrotanum রোগীরা সাধারণত মানসিকভাবে অবসন্ন, বিষণ্ণ এবং আত্মহত্যার চিন্তা করতে পারেন।"
+},
+{
+"id": "abro-med-05",
+"stem": "নিচের কোনটি Abrotanum-এর শারীরিক গঠনের বৈশিষ্ট্য?",
+"options": [
+{"text": "শরীর কৃশ, দুর্বল এবং পেশী ক্ষয়প্রাপ্ত", "mid": "sym-emaciation"},
+{"text": "শরীর স্থূল এবং মোটা", "mid": "sym-obesity"},
+{"text": "শরীর স্বাভাবিক ও সুস্থ", "mid": "sym-normal-body"},
+{"text": "শরীর ফুলে যায় কিন্তু শক্ত থাকে", "mid": "sym-hard-swelling"}
+],
+"answer": "sym-emaciation",
+"explanation": "Abrotanum-এর একটি প্রধান লক্ষণ হলো শরীর কৃশ হয়ে যাওয়া এবং পেশী ক্ষয়প্রাপ্ত হওয়া, যদিও ক্ষুধা প্রবল থাকে।"
+},
+{
+"id": "abro-med-06",
+"stem": "নিচের কোনটি Abrotanum-এর জ্বরের বৈশিষ্ট্য?",
+"options": [
+{"text": "সন্ধ্যায় জ্বর বাড়ে এবং ঘাম হয় না", "mid": "sym-fever-evening-no-sweat"},
+{"text": "সকালে জ্বর বাড়ে এবং প্রচুর ঘাম হয়", "mid": "sym-fever-morning-sweat"},
+{"text": "জ্বর নেই, শুধু ঠান্ডা লাগে", "mid": "sym-fever-absent"},
+{"text": "জ্বর খুব উচ্চ এবং হ্যালুসিনেশন হয়", "mid": "sym-fever-high-delirium"}
+],
+"answer": "sym-fever-evening-no-sweat",
+"explanation": "Abrotanum-এ জ্বর সাধারণত সন্ধ্যায় বাড়ে এবং এই সময়ে ঘাম হয় না।"
+},
+{
+"id": "abro-med-07",
+"stem": "নিচের কোনটি Abrotanum-এর পেটের লক্ষণ?",
+"options": [
+{"text": "পেট ফাঁপা, গ্যাস্ট্রিক সমস্যা এবং ডকার ওঠে", "mid": "sym-abdomen-flatulence"},
+{"text": "পেটে তীব্র ব্যথা এবং বমি", "mid": "sym-abdomen-pain-vomit"},
+{"text": "পেট নরম এবং কোনো সমস্যা নেই", "mid": "sym-abdomen-normal"},
+{"text": "পেটে ভারী বোধ কিন্তু গ্যাস নেই", "mid": "sym-abdomen-heavy"}
+],
+"answer": "sym-abdomen-flatulence",
+"explanation": "Abrotanum-এ পেট ফাঁপা, গ্যাস্ট্রিক সমস্যা এবং ডকার ওঠা সাধারণ লক্ষণ।"
+},
+{
+"id": "abro-med-08",
+"stem": "নিচের কোনটি Abrotanum-এর থৃষ্টের বৈশিষ্ট্য?",
+"options": [
+{"text": "প্রবল থৃষ্ট, বিশেষ করে ঠান্ডা পানির জন্য", "mid": "sym-thirst-cold-water"},
+{"text": "থৃষ্ট নেই", "mid": "sym-thirst-absent"},
+{"text": "গরম পানি খেতে ইচ্ছা করে", "mid": "sym-thirst-hot-water"},
+{"text": "থৃষ্ট আছে কিন্তু পানি খেলে বমি হয়", "mid": "sym-thirst-vomit"}
+],
+"answer": "sym-thirst-cold-water",
+"explanation": "Abrotanum-এ রোগীর প্রবল থৃষ্ট থাকে এবং সে ঠান্ডা পানি খেতে পছন্দ করে।"
+},
+{
+"id": "abro-med-09",
+"stem": "নিচের কোনটি Abrotanum-এর চর্মরোগের লক্ষণ?",
+"options": [
+{"text": "ত্বক শুষ্ক, খসখসে এবং চুলকায়", "mid": "sym-skin-dry-itchy"},
+{"text": "ত্বকে ফোসকা পড়ে", "mid": "sym-skin-blister"},
+{"text": "ত্বক থেকে পুঁজ বের হয়", "mid": "sym-skin-pus"},
+{"text": "ত্বক নীলচে বর্ণ ধারণ করে", "mid": "sym-skin-blue"}
+],
+"answer": "sym-skin-dry-itchy",
+"explanation": "Abrotanum-এ ত্বক শুষ্ক, খসখসে হয় এবং চুলকানি হয়।"
+},
+{
+"id": "abro-med-10",
+"stem": "নিচের কোনটি Abrotanum-এর ঘুমের বৈশিষ্ট্য?",
+"options": [
+{"text": "ঘুমানো কঠিন, রাতে জেগে ওঠা এবং অস্থিরতা", "mid": "sym-sleep-disturbed"},
+{"text": "অতিরিক্ত ঘুম এবং গভীর ঘুম", "mid": "sym-sleep-deep"},
+{"text": "ঘুমের মধ্যে নাক ডাকা", "mid": "sym-sleep-snoring"},
+{"text": "ঘুমের কোনো সমস্যা নেই", "mid": "sym-sleep-normal"}
+],
+"answer": "sym-sleep-disturbed",
+"explanation": "Abrotanum রোগীদের ঘুমানো কঠিন হয়, তারা রাতে জেগে ওঠে এবং অস্থির থাকে।"
+},
+{
+"id": "abro-med-11",
+"stem": "নিচের কোনটি Abrotanum-এর কানের লক্ষণ?",
+"options": [
+{"text": "কানে ঝনঝন শব্দ এবং শোনার ক্ষমতা কমে যাওয়া", "mid": "sym-ear-tinnitus"},
+{"text": "কান থেকে পুঁজ বের হওয়া", "mid": "sym-ear-pus"},
+{"text": "কানে চুলকানি", "mid": "sym-ear-itch"},
+{"text": "কানে ভারী বোধ কিন্তু ব্যথা নেই", "mid": "sym-ear-heaviness"}
+],
+"answer": "sym-ear-tinnitus",
+"explanation": "Abrotanum-এ কানে ঝনঝন শব্দ হয় এবং শোনার ক্ষমতা কমে যেতে পারে।"
+},
+{
+"id": "abro-med-12",
+"stem": "নিচের কোনটি Abrotanum-এর চোখের লক্ষণ?",
+"options": [
+{"text": "চোখ লাল, জ্বলন্ত এবং আলোতে সংবেদনশীল", "mid": "sym-eye-red-photophobia"},
+{"text": "চোখ থেকে পানি পড়ে কিন্তু লাল নয়", "mid": "sym-eye-watery"},
+{"text": "চোখের পাতা ফুলে যায়", "mid": "sym-eye-lids-swollen"},
+{"text": "চোখে কোনো সমস্যা নেই", "mid": "sym-eye-normal"}
+],
+"answer": "sym-eye-red-photophobia",
+"explanation": "Abrotanum-তে চোখ লাল, জ্বলন্ত এবং আলোতে সংবেদনশীলতা দেখা যায়।"
+},
+{
+"id": "abro-med-13",
+"stem": "নিচের কোনটি Abrotanum-এর গলার লক্ষণ?",
+"options": [
+{"text": "গলা শুকনো, খসখসে এবং গিলতে কষ্ট হয়", "mid": "sym-throat-dry-swallow"},
+{"text": "গলা থেকে প্রচুর কফ বের হয়", "mid": "sym-throat-mucus"},
+{"text": "গলা ফুলে যায়", "mid": "sym-throat-swollen"},
+{"text": "গলায় কোনো ব্যথা নেই", "mid": "sym-throat-no-pain"}
+],
+"answer": "sym-throat-dry-swallow",
+"explanation": "Abrotanum-তে গলা শুকনো, খসখসে হয় এবং গিলতে কষ্ট হয়।"
+},
+{
+"id": "abro-med-14",
+"stem": "নিচের কোনটি Abrotanum-এর মূত্রতন্ত্রের লক্ষণ?",
+"options": [
+{"text": "মূত্রত্যাগে জ্বালাপোড়া এবং ঘন ঘন মূত্রত্যাগের ইচ্ছা", "mid": "sym-urinary-burning-frequency"},
+{"text": "মূত্রত্যাগ বন্ধ হয়ে যাওয়া", "mid": "sym-urinary-retention"},
+{"text": "মূত্রের রং স্বাভাবিক", "mid": "sym-urinary-normal"},
+{"text": "মূত্রের সাথে রক্ত পড়া", "mid": "sym-urinary-blood"}
+],
+"answer": "sym-urinary-burning-frequency",
+"explanation": "Abrotanum-তে মূত্রত্যাগে জ্বালাপোড়া এবং ঘন ঘন মূত্রত্যাগের ইচ্ছা দেখা যায়।"
+},
+{
+"id": "abro-med-15",
+"stem": "নিচের কোনটি Abrotanum-এর হৃদপিণ্ডের লক্ষণ?",
+"options": [
+{"text": "হৃদস্পন্দন দ্রুত এবং অনিয়মিত, বুকে চাপ অনুভূত হয়", "mid": "sym-heart-rapid-pressure"},
+{"text": "হৃদস্পন্দন ধীর এবং স্থির", "mid": "sym-heart-slow"},
+{"text": "হৃদপিণ্ডে কোনো ব্যথা নেই", "mid": "sym-heart-no-pain"},
+{"text": "হৃদস্পন্দন খুবই মৃদু", "mid": "sym-heart-faint"}
+],
+"answer": "sym-heart-rapid-pressure",
+"explanation": "Abrotanum-তে হৃদস্পন্দন দ্রুত ও অনিয়মিত হয় এবং বুকে চাপ অনুভূত হতে পারে, বিশেষ করে রিউম্যাটিক মেটাস্টাসিসের ক্ষেত্রে।"
+},
+{
+"id": "abro-med-16",
+"stem": "নিচের কোনটি Abrotanum-এর বৃদ্ধিকারী কারণ (Aggravation)?",
+"options": [
+{"text": "সন্ধ্যায়, ঠান্ডা বাতাসে এবং নড়াচড়ায়", "mid": "agg-evening-cold-motion"},
+{"text": "গরমে এবং বিশ্রামে", "mid": "agg-heat-rest"},
+{"text": "খাওয়ার পরে", "mid": "agg-after-eating"},
+{"text": "ঘুমের পরে", "mid": "agg-after-sleep"}
+],
+"answer": "agg-evening-cold-motion",
+"explanation": "Abrotanum-র লক্ষণগুলো সন্ধ্যায়, ঠান্ডা বাতাসে এবং নড়াচড়ায় বৃদ্ধি পায়।"
+},
+{
+"id": "abro-med-17",
+"stem": "নিচের কোনটি Abrotanum-এর উপশমকারী কারণ (Amelioration)?",
+"options": [
+{"text": "গরম আবরণ এবং বিশ্রামে", "mid": "amel-warm-rest"},
+{"text": "ঠান্ডা পানি পান করলে", "mid": "amel-cold-water"},
+{"text": "নড়াচড়া করলে", "mid": "amel-motion"},
+{"text": "আলোতে থাকলে", "mid": "amel-light"}
+],
+"answer": "amel-warm-rest",
+"explanation": "Abrotanum-র লক্ষণগুলো গরম আবরণ এবং বিশ্রামে উপশম পায়।"
+},
+{
+"id": "abro-med-18",
+"stem": "নিচের কোনটি Abrotanum-এর কাসির বৈশিষ্ট্য?",
+"options": [
+{"text": "শুকনো, খসখসে কাসি যা রাতে বাড়ে", "mid": "sym-cough-dry-night"},
+{"text": "কাসির সাথে প্রচুর কফ বের হয়", "mid": "sym-cough-productive"},
+{"text": "কাসি গরমে বাড়ে", "mid": "sym-cough-heat-aggr"},
+{"text": "কাসি দিনের বেলা বেশি হয়", "mid": "sym-cough-day-aggr"}
+],
+"answer": "sym-cough-dry-night",
+"explanation": "Abrotanum-তে কাসি শুকনো, খসখসে হয় এবং রাতে বেশি কষ্ট দেয়।"
+},
+{
+"id": "abro-med-19",
+"stem": "নিচের কোনটি Abrotanum-এর মাথার লক্ষণ?",
+"options": [
+{"text": "মাথায় ঝাঁঝরা ব্যথা, বিশেষ করে কপালে", "mid": "sym-head-tingling-forehead"},
+{"text": "মাথায় ভারী বোধ কিন্তু ব্যথা নেই", "mid": "sym-head-heaviness"},
+{"text": "মাথা ঠান্ডা থাকে", "mid": "sym-head-cold"},
+{"text": "মাথায় চুলকানি হয়", "mid": "sym-head-itch"}
+],
+"answer": "sym-head-tingling-forehead",
+"explanation": "Abrotanum-তে মাথায়, বিশেষ করে কপালে ঝাঁঝরা ব্যথা হয়।"
+},
+{
+"id": "abro-med-20",
+"stem": "নিচের কোনটি Abrotanum-এর সাধারণ অবস্থা (General)?",
+"options": [
+{"text": "রোগী দুর্বল, কৃশ এবং অস্থির", "mid": "sym-general-weak-emaciated"},
+{"text": "রোগী শক্তিশালী এবং সুস্থ", "mid": "sym-general-strong"},
+{"text": "রোগী সবসময় ঘুমিয়ে থাকে", "mid": "sym-general-sleepy"},
+{"text": "রোগী খেতে খুব ভালোবাসে কিন্তু মোটা হয়", "mid": "sym-general-fat"}
+],
+"answer": "sym-general-weak-emaciated",
+"explanation": "Abrotanum রোগীরা সাধারণত দুর্বল, কৃশ এবং অস্থির থাকে।"
+}
 ]
