@@ -3,38 +3,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>কুইজ চলছে...</title>
+    <title>কুইজ চলছে... - নির্ভীক হোমিও</title>
+    
+    <!-- গুগল ফন্ট এবং আইকন -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; margin: 0; padding: 20px; }
-        .container { max-width: 600px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        .header { display: flex; justify-content: space-between; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold; color: #555; }
-        .question-stem { font-size: 1.2rem; color: #333; margin-bottom: 20px; line-height: 1.5; }
-        .options-grid { display: flex; flex-direction: column; gap: 10px; }
-        .option-btn { padding: 15px; font-size: 1rem; border: 2px solid #ccc; border-radius: 8px; background: #fff; cursor: pointer; transition: 0.2s; text-align: left; color: #333;}
-        .option-btn:hover:not(:disabled) { background: #f0f8ff; border-color: #007bff; }
-        .option-btn.correct { background: #d4edda; border-color: #28a745; color: #155724; font-weight: bold;}
-        .option-btn.wrong { background: #f8d7da; border-color: #dc3545; color: #721c24; }
-        .feedback { margin-top: 20px; padding: 15px; border-radius: 8px; display: none; }
-        .feedback.show { display: block; }
-        .feedback.correct-box { background: #d4edda; border-left: 5px solid #28a745; }
-        .feedback.wrong-box { background: #f8d7da; border-left: 5px solid #dc3545; }
-        .next-btn { margin-top: 20px; width: 100%; padding: 15px; background: #007bff; color: white; font-size: 1.1rem; border: none; border-radius: 8px; cursor: pointer; display: none; }
-        .next-btn.show { display: block; }
-        .result-card { text-align: center; padding: 20px; }
-        .score-text { font-size: 3rem; color: #007bff; margin: 10px 0; }
-        .btn { padding: 10px 20px; text-decoration: none; border-radius: 5px; color: white; display: inline-block; margin: 10px; }
-        .btn-gray { background: #6c757d; }
-        .btn-blue { background: #007bff; border: none; cursor: pointer; font-size: 1rem;}
+        :root {
+            --primary: #4361ee;
+            --primary-hover: #3a0ca3;
+            --secondary: #4cc9f0;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-main: #2b2d42;
+            --text-muted: #6c757d;
+            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --radius: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: var(--text-main);
+            padding-bottom: 50px;
+        }
+
+        /* 🟢 কমন হেডার নেভিগেশন */
+        .main-header {
+            background: #fff;
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            margin-bottom: 30px;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 8px 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: #eef2ff;
+            color: var(--primary);
+        }
+
+        .nav-link.active {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        /* কুইজ মেইন কন্টেইনার */
+        .quiz-container-wrapper {
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .container {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+            border: 1px solid #edf2f7;
+        }
+
+        .quiz-header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #f1f3f5;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-weight: 700;
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        .question-stem {
+            font-size: 1.2rem;
+            color: var(--text-main);
+            margin-bottom: 25px;
+            line-height: 1.6;
+            font-weight: 600;
+        }
+
+        .options-grid { 
+            display: flex; 
+            flex-direction: column; 
+            gap: 12px; 
+        }
+
+        .option-btn { 
+            padding: 15px 20px; 
+            font-size: 1rem; 
+            border: 2px solid #e2e8f0; 
+            border-radius: 10px; 
+            background: #fff; 
+            cursor: pointer; 
+            transition: all 0.2s ease; 
+            text-align: left; 
+            color: var(--text-main); 
+            font-weight: 500;
+        }
+
+        .option-btn:hover:not(:disabled) { 
+            background: #f0f4ff; 
+            border-color: var(--primary); 
+            color: var(--primary);
+        }
+
+        .option-btn.correct { 
+            background: #d4edda; 
+            border-color: #28a745; 
+            color: #155724; 
+            font-weight: 700;
+        }
+
+        .option-btn.wrong { 
+            background: #f8d7da; 
+            border-color: #dc3545; 
+            color: #721c24; 
+        }
+
+        .feedback { 
+            margin-top: 25px; 
+            padding: 20px; 
+            border-radius: 10px; 
+            display: none; 
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .feedback.show { 
+            display: block; 
+        }
+
+        .feedback.correct-box { 
+            background: #d4edda; 
+            border-left: 6px solid #28a745; 
+            color: #155724;
+        }
+
+        .feedback.wrong-box { 
+            background: #f8d7da; 
+            border-left: 6px solid #dc3545; 
+            color: #721c24;
+        }
+
+        .next-btn { 
+            margin-top: 25px; 
+            width: 100%; 
+            padding: 16px; 
+            background: var(--primary); 
+            color: white; 
+            font-size: 1.1rem; 
+            font-weight: 600;
+            border: none; 
+            border-radius: 10px; 
+            cursor: pointer; 
+            display: none; 
+            transition: 0.3s;
+        }
+
+        .next-btn:hover {
+            background: var(--primary-hover);
+        }
+
+        .next-btn.show { 
+            display: block; 
+        }
+
+        /* রেজাল্ট কার্ড */
+        .result-card { 
+            text-align: center; 
+            padding: 10px 0; 
+        }
+
+        .result-card h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .score-text { 
+            font-size: 3.5rem; 
+            font-weight: 700;
+            margin: 15px 0; 
+        }
+
+        .btn { 
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            color: white; 
+            display: inline-block; 
+            margin: 10px; 
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn-gray { 
+            background: #6c757d; 
+        }
+
+        .btn-gray:hover {
+            background: #5a6268;
+        }
+
+        .btn-blue { 
+            background: var(--primary); 
+            border: none; 
+            cursor: pointer; 
+            font-size: 1rem;
+        }
+
+        .btn-blue:hover {
+            background: var(--primary-hover);
+        }
+
+        /* মোবাইল রেসপন্সিভ */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 8px;
+                padding: 10px;
+            }
+            .nav-link {
+                width: 100%;
+                text-align: center;
+                padding: 6px 10px;
+                font-size: 0.95rem;
+            }
+            .container {
+                padding: 20px;
+            }
+            .question-stem { font-size: 1.1rem; }
+            .score-text { font-size: 2.8rem; }
+        }
     </style>
 </head>
 <body>
 
-    <div class="container" id="quiz-container">
-        <!-- জাভাস্ক্রিপ্ট দিয়ে এখানে প্রশ্ন লোড হবে -->
-        <div style="text-align: center; padding: 50px;">প্রশ্ন লোড হচ্ছে...</div>
+    <!-- 🟢 কমন হেডার মেনু -->
+    <header class="main-header">
+        <div class="nav-container">
+            <a href="https://nirvik.mooo.com/" class="nav-link">নির্ভীক হোমিও</a>
+            <a href="https://nirvik.mooo.com/quiz/index.html" class="nav-link">কুইজ</a>
+            <a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">রোগলক্ষণ ভিত্তিক কুইজ</a>
+            <a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link">ঔষধ ভিত্তিক কুইজ</a>
+            <a href="https://nirvik.mooo.com/medica/index.html" class="nav-link">মেটেরিয়া মেডিকা</a>
+        </div>
+    </header>
+
+    <!-- কুইজ কন্টেইনার -->
+    <div class="quiz-container-wrapper">
+        <div class="container" id="quiz-container">
+            <!-- জাভাস্ক্রিপ্ট দিয়ে এখানে প্রশ্ন লোড হবে -->
+            <div style="text-align: center; padding: 40px; color: var(--text-muted);">
+                <i class="fa-solid fa-spinner fa-spin" style="font-size: 2rem; margin-bottom: 15px;"></i><br>
+                প্রশ্ন লোড হচ্ছে...
+            </div>
+        </div>
     </div>
 
-    <!-- কুইজ ইঞ্জিন স্ক্রিপ্ট -->
+    <!-- কুইজ ইঞ্জিন স্ক্রিপ্ট (আপনার আগের স্ক্রিপ্টটিই ব্যবহার করবেন) -->
     <script type="module" src="js/quiz-engine.js"></script>
 </body>
 </html>
