@@ -95,13 +95,15 @@
             line-height: 1.6;
         }
 
+        /* 🟢 ৩ কলামের গ্রিড লেআউট */
         .medicines-container {
             max-width: 900px;
             margin: 0 auto;
             padding: 0 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* ৩টি সমান কলাম */
+            gap: 15px;
+            align-items: start; /* ওপেন হলে যেন বক্স প্রসারিত না হয় */
         }
 
         /* অ্যাকর্ডিয়ন স্টাইল (A-Z) */
@@ -121,7 +123,7 @@
         .accordion-header {
             width: 100%;
             text-align: left;
-            padding: 15px 25px;
+            padding: 12px 15px; /* প্যাডিং কমানো হয়েছে */
             background: none;
             border: none;
             cursor: pointer;
@@ -135,24 +137,24 @@
             background: #f8faff;
         }
 
+        /* 🟢 বর্ণের সাইজ ছোট করা হয়েছে */
         .accordion-header .letter-badge {
             background: var(--primary);
             color: white;
-            width: 45px;
-            height: 45px;
+            width: 35px; 
+            height: 35px;
             display: flex;
             justify-content: center;
             align-items: center;
             border-radius: 50%;
-            font-size: 1.5rem;
+            font-size: 1.1rem; 
             font-weight: 700;
         }
 
         .accordion-header .icon {
             color: var(--text-muted);
             transition: transform 0.3s;
-            font-size: 1.2rem;
-            margin-right: 10px;
+            font-size: 1rem;
         }
 
         .accordion-item.active .accordion-header .icon {
@@ -168,28 +170,33 @@
         }
 
         .accordion-item.active .accordion-content {
-            max-height: 2000px; /* যথেষ্ট বড় ভ্যালু */
+            max-height: 2000px;
         }
 
+        /* 🟢 কলামের ভেতরে মেডিসিনের লিস্ট এক কলামে থাকবে */
         .medicine-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 15px;
-            padding: 20px;
+            grid-template-columns: 1fr; 
+            gap: 8px;
+            padding: 12px;
         }
 
         .medicine-link {
             display: block;
-            padding: 12px 15px;
+            padding: 8px 10px;
             background: #fff;
             border: 1px solid #e2e8f0;
-            border-radius: 8px;
+            border-radius: 6px;
             text-decoration: none;
             color: var(--text-main);
             font-weight: 500;
+            font-size: 0.85rem; /* ফন্ট সাইজ ছোট */
             transition: all 0.2s;
             text-align: center;
             text-transform: capitalize;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .medicine-link:hover {
@@ -200,7 +207,7 @@
             box-shadow: 0 4px 6px rgba(67, 97, 238, 0.1);
         }
 
-        /* রেসপন্সিভ */
+        /* রেসপন্সিভ (ট্যাবলেট ও মোবাইলের জন্য) */
         @media (max-width: 768px) {
             .nav-container {
                 flex-direction: column;
@@ -209,6 +216,15 @@
             .nav-link {
                 width: 100%;
                 text-align: center;
+            }
+            .medicines-container {
+                grid-template-columns: repeat(2, 1fr); /* ট্যাবলেটে ২ কলাম */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .medicines-container {
+                grid-template-columns: 1fr; /* মোবাইলে ১ কলাম */
             }
         }
     </style>
@@ -222,7 +238,7 @@
             <a href="https://nirvik.mooo.com/quiz/index.html" class="nav-link">কুইজ</a>
             <a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">রোগলক্ষণ ভিত্তিক কুইজ</a>
             <a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link active">ঔষধ ভিত্তিক কুইজ</a>
-            <a href="https://nirvik.mooo.com/medica/index.html" class="nav-link">মেটেরিয়া মেডিকা</a>
+            <a href="https://nirvik.mooo.com/medica/index.html" class="nav-link">মেটেরিয়া মেডিকা</a>
         </div>
     </header>
 
@@ -281,12 +297,12 @@
         let htmlContent = '';
 
         sortedLetters.forEach((letter, index) => {
-            const meds = groupedMedicines[letter].sort(); // প্রতিটি গ্রুপের ভেতরের ঔষধগুলোও সর্ট করা
+            const meds = groupedMedicines[letter].sort(); 
             
             let medLinksHTML = '';
             meds.forEach(med => {
                 medLinksHTML += `
-                    <a href="play.html?type=med&id=${med}" class="medicine-link" target="_blank">
+                    <a href="play.html?type=med&id=${med}" class="medicine-link" target="_blank" title="${formatName(med)}">
                         ${formatName(med)}
                     </a>
                 `;
@@ -295,7 +311,7 @@
             htmlContent += `
                 <div class="accordion-item">
                     <button class="accordion-header" onclick="toggleAccordion(this)">
-                        <div style="display: flex; align-items: center; gap: 15px;">
+                        <div style="display: flex; align-items: center;">
                             <span class="letter-badge">${letter}</span>
                         </div>
                         <i class="fa-solid fa-chevron-down icon"></i>
