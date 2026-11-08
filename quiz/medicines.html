@@ -2,69 +2,320 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <title>ঔষধ ভিত্তিক কুইজ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ঔষধ ভিত্তিক কুইজ - নির্ভীক হোমিও</title>
+    
+    <!-- গুগল ফন্ট এবং আইকন -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <style>
-        body { font-family: Arial, sans-serif; background: #f4f7f6; margin: 0; padding: 20px; text-align: center; }
-        .header { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        .list-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; max-width: 800px; margin: 0 auto; }
-        .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-decoration: none; color: #333; transition: 0.2s; border-left: 5px solid #28a745; }
-        .card:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(0,0,0,0.15); }
-        .card h3 { margin: 0 0 10px 0; font-size: 1.2rem; color: #007bff; }
-        .card p { margin: 0; color: #777; font-size: 0.9rem; }
-        .back-btn { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #007bff; font-weight: bold; }
+        :root {
+            --primary: #4361ee;
+            --primary-hover: #3a0ca3;
+            --secondary: #4cc9f0;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-main: #2b2d42;
+            --text-muted: #6c757d;
+            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --radius: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: var(--text-main);
+            padding-bottom: 50px;
+        }
+
+        /* হেডার নেভিগেশন */
+        .main-header {
+            background: #fff;
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 8px 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: #eef2ff;
+            color: var(--primary);
+        }
+
+        .nav-link.active {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        /* মেইন কন্টেইনার */
+        .page-title {
+            text-align: center;
+            margin: 40px 20px 10px;
+            color: var(--primary);
+            font-size: 2rem;
+        }
+
+        .page-subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+
+        .medicines-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        /* অ্যাকর্ডিয়ন স্টাইল (A-Z) */
+        .accordion-item {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            border: 1px solid #edf2f7;
+            transition: 0.3s;
+        }
+
+        .accordion-item:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .accordion-header {
+            width: 100%;
+            text-align: left;
+            padding: 15px 25px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s;
+        }
+
+        .accordion-header:hover {
+            background: #f8faff;
+        }
+
+        .accordion-header .letter-badge {
+            background: var(--primary);
+            color: white;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .accordion-header .icon {
+            color: var(--text-muted);
+            transition: transform 0.3s;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+
+        .accordion-item.active .accordion-header .icon {
+            transform: rotate(180deg);
+        }
+
+        /* অ্যাকর্ডিয়ন কন্টেন্ট (মেডিসিন লিস্ট) */
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out;
+            background: #fafbfc;
+        }
+
+        .accordion-item.active .accordion-content {
+            max-height: 2000px; /* যথেষ্ট বড় ভ্যালু */
+        }
+
+        .medicine-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .medicine-link {
+            display: block;
+            padding: 12px 15px;
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 500;
+            transition: all 0.2s;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        .medicine-link:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            background: #f0f4ff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(67, 97, 238, 0.1);
+        }
+
+        /* রেসপন্সিভ */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .nav-link {
+                width: 100%;
+                text-align: center;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h2>💊 ঔষধ ভিত্তিক কুইজ</h2>
-        <a href="index.html" class="back-btn">← হোমে ফিরে যান</a>
+
+    <!-- হেডার মেনু -->
+    <header class="main-header">
+        <div class="nav-container">
+            <a href="https://nirvik.mooo.com/" class="nav-link">নির্ভীক হোমিও</a>
+            <a href="https://nirvik.mooo.com/quiz/index.html" class="nav-link">কুইজ</a>
+            <a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">রোগলক্ষণ ভিত্তিক কুইজ</a>
+            <a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link active">ঔষধ ভিত্তিক কুইজ</a>
+            <a href="https://nirvik.mooo.com/medica/index.html" class="nav-link">মেটেরিয়া মেডিকা</a>
+        </div>
+    </header>
+
+    <!-- মেইন কন্টেন্ট -->
+    <h1 class="page-title">💊 ঔষধ ভিত্তিক কুইজ</h1>
+    <p class="page-subtitle">যে মেডিসিন এর কুইজ শুরু করতে চান তার নামের প্রথম অক্ষরে ক্লিক করুন এবং মেডিসিনের নামের উপর ক্লিক করুন <br>(যেমন S এ ক্লিক করে Sulphur)</p>
+
+    <div class="medicines-container" id="medicines-accordion">
+        <!-- জাভাস্ক্রিপ্ট দিয়ে এখানে A-Z অ্যাকর্ডিয়ন তৈরি হবে -->
     </div>
-    
-    <div class="list-grid" id="medicines-list">
-        <p>লোড হচ্ছে...</p>
-    </div>
 
-       <script type="module">
-        import { getUserProgress } from './js/progress.js';
-        import { checkAuthState } from './js/auth.js';
+    <script>
+        // আপনার দেওয়া ঔষধের লিস্ট
+        const medicineList = [
+            "abrotanum", "acid-phos", "acid-floric", "acid-nitricum", "aconite", "aethuja", "agnus-castus", "allium-cepa", "aloe-socotrina", "alumen", "alumina", "ambra-grisea", "ammonium-carbonicum", "anacardium", "anagallis-arvensis", "antim-crud", "aesculus-hippocastanum", "antim-tart", "apis-mel", "argentum-metallicum", "argentum-nitricum", "arnica-mont", "arsenic-album", "arsenicum-iodatum", "aurum-metallicum", "aurum-mur",
+            "bacillinum", "baryta-carbonica", "belladonna", "borax", "bryonia",
+            "calcarea-carb", "calcarea-fluor", "calcarea-phos", "calcarea-sulph", "calendula", "camp-officinarum", "cantharis", "capsisum", "carbo-veg", "causticum", "caulophyllum", "chamomilla", "cheledonium-majus", "china", "chlorum", "cimicifuga-racemosa", "cina", "cinaberis", "clematis-erecta", "colchicum", "colocynthis", "conium-maculatum", "croton-tiglium", "cuprum-metallicum",
+            "drosera", "dulcamara",
+            "ephrasia-officinalis",
+            "ferrum-phos",
+            "glonoine", "graphites",
+            "hamamelis", "helleborus-niger", "hepar-sulph", "hyoscyamus", "hypericum",
+            "ignatia", "iodium", "ipecac",
+            "justicia-adhatoda",
+            "lac-caninum", "lachesis", "ledum-palustre", "lycopodium",
+            "mag-carb", "mag-phos", "medorrhinum", "mercurius-vivus", "mezereum",
+            "natrum-carb", "natrum-mur", "natrum-phos", "natrum-sulph", "nux-vomica",
+            "opium",
+            "petroleum", "phosphorus", "phytolacca", "platinum-metallicum", "plumbum-metallicum", "podophyllum", "pulsatilla-nigricans", "pyrogenium",
+            "rush-tox", "ruta",
+            "sabina", "sanicula", "sanguinaria-can", "sarsaparilla-officinalis", "secale-cornutum", "selenium-metallicum", "senega-officinalis", "sepia-officinalis", "silicea", "spigelia-anthelmia", "spongia-tosta", "stannum-met", "staphisagria", "stramonium", "sulphur", "sulphur-iod", "syphilinum",
+            "thuja", "tuberculinum-bovimum",
+            "variolinum", "veratrum-album"
+        ];
 
-        async function loadMedicines() {
-            try {
-                const res = await fetch('./data/medicines/index.json');
-                const data = await res.json();
-                const container = document.getElementById('medicines-list');
-                
-                checkAuthState(async (user) => {
-                    const progress = await getUserProgress();
-                    container.innerHTML = ''; 
-
-                    data.forEach(med => {
-                        let resultHTML = '<p style="color: #999; font-size: 0.85rem; margin-top: 10px;">⚪ এখনো খেলা হয়নি</p>';
-                        const quizId = `med:${med.id}`;
-                        
-                        if (progress[quizId]) {
-                            const p = progress[quizId];
-                            let color = p.lastPct >= 40 ? '#28a745' : '#dc3545';
-                            resultHTML = `<p style="color: ${color}; font-weight: bold; margin-top: 10px; font-size: 0.9rem;">
-                                🏆 সর্বশেষ: ${p.lastCorrect}/${p.total} (${p.lastPct}%)
-                            </p>`;
-                        }
-
-                        container.innerHTML += `
-                            <a href="play.html?type=med&id=${med.id}" class="card">
-                                <h3>${med.name}</h3>
-                                <p style="font-size: 0.9rem; margin-bottom: 5px;">${med.nameBn}</p>
-                                ${resultHTML}
-                            </a>
-                        `;
-                    });
-                });
-            } catch (err) {
-                document.getElementById('medicines-list').innerHTML = '<p>ডেটা লোড করা যায়নি!</p>';
-                console.error(err);
-            }
+        // নাম সুন্দরভাবে দেখানোর জন্য (যেমন: acid-phos -> Acid Phos)
+        function formatName(name) {
+            return name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
         }
-        loadMedicines();
+
+        // অক্ষর অনুযায়ী গ্রুপ করা
+        const groupedMedicines = {};
+        medicineList.forEach(med => {
+            const firstLetter = med.charAt(0).toUpperCase();
+            if (!groupedMedicines[firstLetter]) {
+                groupedMedicines[firstLetter] = [];
+            }
+            groupedMedicines[firstLetter].push(med);
+        });
+
+        // অক্ষরগুলো সর্ট করা
+        const sortedLetters = Object.keys(groupedMedicines).sort();
+
+        // HTML তৈরি করা
+        const container = document.getElementById('medicines-accordion');
+        let htmlContent = '';
+
+        sortedLetters.forEach((letter, index) => {
+            const meds = groupedMedicines[letter].sort(); // প্রতিটি গ্রুপের ভেতরের ঔষধগুলোও সর্ট করা
+            
+            let medLinksHTML = '';
+            meds.forEach(med => {
+                medLinksHTML += `
+                    <a href="play.html?type=med&id=${med}" class="medicine-link" target="_blank">
+                        ${formatName(med)}
+                    </a>
+                `;
+            });
+
+            htmlContent += `
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <span class="letter-badge">${letter}</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="medicine-grid">
+                            ${medLinksHTML}
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+
+        container.innerHTML = htmlContent;
+
+        // অ্যাকর্ডিয়ন টগল করার ফাংশন
+        function toggleAccordion(button) {
+            const item = button.parentElement;
+            item.classList.toggle('active');
+        }
     </script>
 </body>
 </html>
