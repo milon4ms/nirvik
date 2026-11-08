@@ -6,7 +6,7 @@ import { saveProgress } from './progress.js';
 // URL থেকে ডেটা নেওয়া (যেমন: play.html?type=sym&id=jwor)
 const urlParams = new URLSearchParams(window.location.search);
 const quizType = urlParams.get('type'); // 'sym' অথবা 'med'
-const quizId = urlParams.get('id'); // 'jwor' অথবা 'aconitum-napellus'
+const quizId = urlParams.get('id'); // 'jwor' অথবা 'abrotanum'
 
 let questions = [];
 let currentIndex = 0;
@@ -23,25 +23,33 @@ async function loadQuizData() {
     const folder = quizType === 'sym' ? 'symptoms' : 'medicines';
     
     try {
-        // পাথ ঠিক করা হয়েছে: ./data/ (কারণ data ফোল্ডারটি quiz ফোল্ডারের ভেতরেই আছে)
+        // পাথ: ./data/ (কারণ data ফোল্ডারটি quiz ফোল্ডারের ভেতরেই আছে)
         const response = await fetch(`./data/${folder}/${quizId}.json`);
-        if (!response.ok) throw new Error("ফাইল পাওয়া যায়নি");
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
         const data = await response.json();
-        let rawQuestions = data.questions;
+        
+        // 🟢 এখানে আপডেট করা হয়েছে: 
+        // যদি ফাইলে সরাসরি অ্যারে থাকে [ ] তবে data নিবে। আর যদি { "questions": [ ] } থাকে তবে data.questions নিবে।
+        let rawQuestions = Array.isArray(data) ? data : data.questions;
+
+        if (!rawQuestions || !Array.isArray(rawQuestions)) {
+            throw new Error("JSON ফাইলের ফরম্যাট সঠিক নয়।");
+        }
 
         // প্রশ্ন শাফল (Shuffle) করা
         questions = shuffleArray(rawQuestions);
         
-        // যদি ২০টির বেশি থাকে, তবে প্রথম ২০টি নিবে। ২০ এর কম থাকলে যতগুলো আছে সবগুলো নিবে।
+        // যদি ২০টির বেশি থাকে, তবে প্রথম ২০টি নিবে।
         if (questions.length > 20) {
             questions = questions.slice(0, 20);
         }
 
         renderQuestion();
     } catch (error) {
-        document.getElementById('quiz-container').innerHTML = `<h3 style="color:red; text-align:center;">ডেটা লোড করতে সমস্যা হয়েছে! ফাইলটি খুঁজে পাওয়া যাচ্ছে না।</h3>`;
-        console.error(error);
+        // এরর মেসেজে আসল কারণটি দেখাবে
+        document.getElementById('quiz-container').innerHTML = `<h3 style="color:red; text-align:center;">ডেটা লোড করতে সমস্যা হয়েছে!<br><small>${error.message}</small></h3>`;
+        console.error("Quiz Load Error:", error);
     }
 }
 
