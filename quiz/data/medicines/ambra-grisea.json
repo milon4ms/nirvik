@@ -1,0 +1,246 @@
+[
+  {
+    "id": "ambra-med-01",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অন্যের উপস্থিতিতে মলত্যাগ করতে পারে না", "mid": "sym-inability-defecate-presence"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fever-fear"},
+      {"text": "অতিরিক্ত ঘাম, দুর্বলতা ও কাঁপুনি", "mid": "sym-sweat-weakness"},
+      {"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য", "mid": "sym-heavy-belly"}
+    ],
+    "answer": "sym-inability-defecate-presence",
+    "explanation": "Ambra Grisea-এর প্রধান লক্ষণ হলো অন্যের উপস্থিতিতে মলত্যাগ বা প্রস্রাব করতে না পারা।"
+  },
+  {
+    "id": "ambra-med-02",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"},
+      {"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়", "mid": "sym-cold-pain"},
+      {"text": "রাতে শোবার সময় কাশি বাড়ে", "mid": "sym-night-cough"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-music-aggravation",
+    "explanation": "Ambra Grisea-এর বৈশিষ্ট্য হলো সঙ্গীত সহ্য করতে না পারা; সঙ্গীত শুনলে রোগীর কষ্ট বেড়ে যায় এবং কান্নাকাটি শুরু করে।"
+  },
+  {
+    "id": "ambra-med-03",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্নায়বিক দুর্বলতা ও অকাল বার্ধক্য", "mid": "sym-nervous-weakness-senility"},
+      {"text": "অতিরিক্ত ঘাম, দুর্বলতা ও কাঁপুনি", "mid": "sym-sweat-weakness"},
+      {"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য", "mid": "sym-heavy-belly"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fever-fear"}
+    ],
+    "answer": "sym-nervous-weakness-senility",
+    "explanation": "Ambra Grisea স্নায়বিক দুর্বলতা ও অকাল বার্ধক্যে (Senility) বিশেষভাবে উপযোগী।"
+  },
+  {
+    "id": "ambra-med-04",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়", "mid": "sym-cold-pain"},
+      {"text": "রাতে শোবার সময় কাশি বাড়ে", "mid": "sym-night-cough"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-one-sided-sweat",
+    "explanation": "Ambra Grisea-এর বৈশিষ্ট্য হলো শরীরের একপাশে বা শুধুমাত্র আক্রান্ত স্থানে ঘাম হওয়া।"
+  },
+  {
+    "id": "ambra-med-05",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অপরিচিত লোক দেখলে বা কথা বললে কাশি বেড়ে যায়", "mid": "sym-cough-strangers-talking"},
+      {"text": "অতিরিক্ত ঘাম, দুর্বলতা ও কাঁপুনি", "mid": "sym-sweat-weakness"},
+      {"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য", "mid": "sym-heavy-belly"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fever-fear"}
+    ],
+    "answer": "sym-cough-strangers-talking",
+    "explanation": "Ambra Grisea-এর স্নায়বিক কাশি আশেপাশে অপরিচিত লোক দেখলে বা কথা বললে বেড়ে যায়।"
+  },
+  {
+    "id": "ambra-med-06",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অসংলগ্ন কথাবার্তা ও এক বিষয় থেকে দ্রুত অন্য বিষয়ে চলে যাওয়া", "mid": "sym-incoherent-speech"},
+      {"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়", "mid": "sym-cold-pain"},
+      {"text": "রাতে শোবার সময় কাশি বাড়ে", "mid": "sym-night-cough"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-incoherent-speech",
+    "explanation": "Ambra Grisea রোগী অসংলগ্ন কথাবার্তা বলে এবং দ্রুত এক বিষয় থেকে অন্য বিষয়ে চলে যায়।"
+  },
+  {
+    "id": "ambra-med-07",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যন্ত লজ্জাশীল ও একা থাকতে চায়", "mid": "sym-shy-seclusive"},
+      {"text": "অতিরিক্ত ঘাম, দুর্বলতা ও কাঁপুনি", "mid": "sym-sweat-weakness"},
+      {"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য", "mid": "sym-heavy-belly"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fever-fear"}
+    ],
+    "answer": "sym-shy-seclusive",
+    "explanation": "Ambra Grisea রোগী অত্যন্ত লজ্জাশীল ও অন্তর্মুখী এবং সবসময় একা থাকতে চায়।"
+  },
+  {
+    "id": "ambra-med-08",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়", "mid": "sym-cold-pain"},
+      {"text": "রাতে শোবার সময় কাশি বাড়ে", "mid": "sym-night-cough"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-flatulence-belching",
+    "explanation": "Ambra Grisea-এ পেটে প্রচুর বায়ু জমে এবং ঢেকুর ওঠে।"
+  },
+  {
+    "id": "ambra-med-09",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"},
+      {"text": "অতিরিক্ত ঘাম, দুর্বলতা ও কাঁপুনি", "mid": "sym-sweat-weakness"},
+      {"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য", "mid": "sym-heavy-belly"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fever-fear"}
+    ],
+    "answer": "sym-vertigo-deafness-elderly",
+    "explanation": "Ambra Grisea বৃদ্ধ ব্যক্তিদের মাথা ঘোরা ও কানে কম শোনার ক্ষেত্রে উপযোগী।"
+  },
+  {
+    "id": "ambra-med-10",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"},
+      {"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়", "mid": "sym-cold-pain"},
+      {"text": "রাতে শোবার সময় কাশি বাড়ে", "mid": "sym-night-cough"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-leucorrhoea-night",
+    "explanation": "Ambra Grisea-এ শ্বেতপ্রদর বা সাদা স্রাব কেবল রাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ambra-med-11",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অন্যের উপস্থিতিতে প্রস্রাব করতে পারে না", "mid": "sym-inability-urinate-presence"},
+      {"text": "অতিরিক্ত ঘাম, দুর্বলতা ও কাঁপুনি", "mid": "sym-sweat-weakness"},
+      {"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য", "mid": "sym-heavy-belly"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fever-fear"}
+    ],
+    "answer": "sym-inability-urinate-presence",
+    "explanation": "Ambra Grisea-এর রোগী অন্যের উপস্থিতিতে প্রস্রাব করতে পারে না।"
+  },
+  {
+    "id": "ambra-med-12",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"},
+      {"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়", "mid": "sym-cold-pain"},
+      {"text": "রাতে শোবার সময় কাশি বাড়ে", "mid": "sym-night-cough"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-bleeding-slight-cause",
+    "explanation": "Ambra Grisea-এর অন্যতম প্রধান লক্ষণ হলো সামান্য কারণে রক্তক্ষরণ।"
+  },
+  {
+    "id": "ambra-med-13",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চিন্তা ও কল্পনা এসে ব্যতিব্যস্ত করে তোলে", "mid": "sym-thoughts-obsession"},
+      {"text": "অতিরিক্ত ঘাম, দুর্বলতা ও কাঁপুনি", "mid": "sym-sweat-weakness"},
+      {"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য", "mid": "sym-heavy-belly"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fever-fear"}
+    ],
+    "answer": "sym-thoughts-obsession",
+    "explanation": "Ambra Grisea-এ চিন্তা ও কল্পনা রোগীকে ব্যতিব্যস্ত করে তোলে।"
+  },
+  {
+    "id": "ambra-med-14",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়", "mid": "sym-cold-pain"},
+      {"text": "রাতে শোবার সময় কাশি বাড়ে", "mid": "sym-night-cough"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-cough-talking-music",
+    "explanation": "Ambra Grisea-এ কথা বললে বা গান শুনলে কাশির বেগ বাড়ে।"
+  },
+  {
+    "id": "ambra-med-15",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"},
+      {"text": "অতিরিক্ত ঘাম, দুর্বলতা ও কাঁপুনি", "mid": "sym-sweat-weakness"},
+      {"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য", "mid": "sym-heavy-belly"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fever-fear"}
+    ],
+    "answer": "sym-loathing-of-life",
+    "explanation": "Ambra Grisea রোগী মানসিকভাবে অত্যন্ত অবসাদগ্রস্ত এবং জীবনের প্রতি বিতৃষ্ণা কাজ করে।"
+  },
+  {
+    "id": "ambra-med-16",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অপরিচিত লোকের সাথে কথা বলতে গেলে উত্তেজিত ও অস্থির হয়ে পড়া", "mid": "sym-excitement-strangers"},
+      {"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়", "mid": "sym-cold-pain"},
+      {"text": "রাতে শোবার সময় কাশি বাড়ে", "mid": "sym-night-cough"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-excitement-strangers",
+    "explanation": "Ambra Grisea-এ অপরিচিত লোকের সাথে কথা বলতে গেলে রোগী অত্যন্ত উত্তেজিত ও অস্থির হয়ে পড়ে।"
+  },
+  {
+    "id": "ambra-med-17",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "অতিরিক্ত ঘাম, দুর্বলতা ও কাঁপুনি", "mid": "sym-sweat-weakness"},
+      {"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য", "mid": "sym-heavy-belly"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fever-fear"}
+    ],
+    "answer": "sym-trembling-numbness",
+    "explanation": "Ambra Grisea-এ স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব হয়।"
+  },
+  {
+    "id": "ambra-med-18",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাশির সাথে শ্বাসকষ্ট ও বুক ধড়ফড়ানি", "mid": "sym-cough-dyspnoea-palpitation"},
+      {"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়", "mid": "sym-cold-pain"},
+      {"text": "রাতে শোবার সময় কাশি বাড়ে", "mid": "sym-night-cough"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-cough-dyspnoea-palpitation",
+    "explanation": "Ambra Grisea-এ কাশির সাথে শ্বাসকষ্ট এবং বুক ধড়ফড়ানি থাকতে পারে।"
+  },
+  {
+    "id": "ambra-med-19",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "অতিরিক্ত ঘাম, দুর্বলতা ও কাঁপুনি", "mid": "sym-sweat-weakness"},
+      {"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য", "mid": "sym-heavy-belly"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fever-fear"}
+    ],
+    "answer": "sym-warm-room-morning-agg",
+    "explanation": "Ambra Grisea-এর লক্ষণ উষ্ণ ঘরে এবং সকালে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ambra-med-20",
+    "stem": "নিচের কোনটি Ambra Grisea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"},
+      {"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়", "mid": "sym-cold-pain"},
+      {"text": "রাতে শোবার সময় কাশি বাড়ে", "mid": "sym-night-cough"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-open-air-cold-drink-amel",
+    "explanation": "Ambra Grisea-এর লক্ষণ মুক্ত বাতাসে, ঠান্ডা পানীয় পানে এবং দীর্ঘক্ষণ শুয়ে থাকলে উপশম হয়।"
+  }
+]
+
+
+
+

@@ -1,0 +1,246 @@
+[
+  {
+    "id": "antim-med-01",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বুকে প্রচুর কফ জমার ঘড়ঘড়ে শব্দ কিন্তু কফ উঠে না", "mid": "sym-rattling-mucus-retained"},
+      {"text": "অন্যের উপস্থিতিতে মলত্যাগ করতে পারে না", "mid": "sym-inability-defecate-presence"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"}
+    ],
+    "answer": "sym-rattling-mucus-retained",
+    "explanation": "Antim Tart-এর প্রধান লক্ষণ হলো বুকে প্রচুর কফ জমার ঘড়ঘড়ে শব্দ হওয়া সত্ত্বেও কফ খুব কম বের হয়।"
+  },
+  {
+    "id": "antim-med-02",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "স্নায়বিক দুর্বলতা ও অকাল বার্ধক্য", "mid": "sym-nervous-weakness-senility"},
+      {"text": "অসংলগ্ন কথাবার্তা ও এক বিষয় থেকে দ্রুত অন্য বিষয়ে চলে যাওয়া", "mid": "sym-incoherent-speech"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-drowsiness-debility",
+    "explanation": "Antim Tart-এ যেকোনো রোগের সাথে প্রবল ঘুম ঘুম ভাব ও চরম দুর্বলতা দেখা দেয়।"
+  },
+  {
+    "id": "antim-med-03",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বমি হওয়ার পর অত্যন্ত দুর্বল হয়ে পড়া ও ঘামতে থাকা", "mid": "sym-vomiting-weakness-sweat"},
+      {"text": "অত্যন্ত লজ্জাশীল ও একা থাকতে চায়", "mid": "sym-shy-seclusive"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"}
+    ],
+    "answer": "sym-vomiting-weakness-sweat",
+    "explanation": "Antim Tart-এ বমি ভাব থাকে এবং বমি হওয়ার পর রোগী অত্যন্ত দুর্বল হয়ে পড়ে ও ঘামতে থাকে।"
+  },
+  {
+    "id": "antim-med-04",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"},
+      {"text": "চিন্তা ও কল্পনা এসে ব্যতিব্যস্ত করে তোলে", "mid": "sym-thoughts-obsession"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"}
+    ],
+    "answer": "sym-white-coated-tongue",
+    "explanation": "Antim Tart-এ জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ দেখা যায়।"
+  },
+  {
+    "id": "antim-med-05",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"}
+    ],
+    "answer": "sym-cold-clammy-sweat",
+    "explanation": "Antim Tart-এ কপালে এবং শরীরে চটচটে ঠাণ্ডা ঘাম দেখা দেয়।"
+  },
+  {
+    "id": "antim-med-06",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"},
+      {"text": "অন্যের উপস্থিতিতে প্রস্রাব করতে পারে না", "mid": "sym-inability-urinate-presence"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"}
+    ],
+    "answer": "sym-child-irritable-touch-look",
+    "explanation": "Antim Tart-এ শিশু খুব খিটখিটে হয়; তাকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদতে থাকে।"
+  },
+  {
+    "id": "antim-med-07",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশু কোলে উঠতে চায় কিন্তু কাউকে কাছে আসতে দিতে চায় না", "mid": "sym-child-wants-lap-repels-approach"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-child-wants-lap-repels-approach",
+    "explanation": "Antim Tart-এ শিশুরা কোলে উঠতে চায় কিন্তু কাউকে কাছে আসতে দিতে চায় না।"
+  },
+  {
+    "id": "antim-med-08",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয়", "mid": "sym-fear-death-dyspnoea"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"},
+      {"text": "অপরিচিত লোকের সাথে কথা বলতে গেলে উত্তেজিত ও অস্থির হয়ে পড়া", "mid": "sym-excitement-strangers"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"}
+    ],
+    "answer": "sym-fear-death-dyspnoea",
+    "explanation": "Antim Tart-এ বিশেষ করে শ্বাসকষ্টের সময় মৃত্যুভয় থাকতে পারে।"
+  },
+  {
+    "id": "antim-med-09",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ফুসফুস শ্লেষ্মায় পূর্ণ কিন্তু রোগী তা বের করতে পারে না", "mid": "sym-lungs-full-mucus-cannot-expectorate"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"}
+    ],
+    "answer": "sym-lungs-full-mucus-cannot-expectorate",
+    "explanation": "Antim Tart-এ ফুসফুস শ্লেষ্মায় পূর্ণ থাকে কিন্তু রোগী তা বের করতে পারে না, ফলে দমবন্ধ ভাব তৈরি হয়।"
+  },
+  {
+    "id": "antim-med-10",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sour-apples"},
+      {"text": "অত্যন্ত লজ্জাশীল ও একা থাকতে চায়", "mid": "sym-shy-seclusive"},
+      {"text": "চিন্তা ও কল্পনা এসে ব্যতিব্যস্ত করে তোলে", "mid": "sym-thoughts-obsession"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"}
+    ],
+    "answer": "sym-craving-sour-apples",
+    "explanation": "Antim Tart-এ টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা দেখা যায়।"
+  },
+  {
+    "id": "antim-med-11",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বসন্তের মতো গুটি গুটি পুঁজপূর্ণ উদ্ভেদ", "mid": "sym-pustular-eruptions"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"}
+    ],
+    "answer": "sym-pustular-eruptions",
+    "explanation": "Antim Tart-এ চর্মে বসন্তের মতো গুটি গুটি উদ্ভেদ বের হয় যা পরে পুঁজপূর্ণ হতে পারে।"
+  },
+  {
+    "id": "antim-med-12",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখমণ্ডল ফ্যাকাশে, নাক বসে যাওয়া ও চোখ কোটরাগত", "mid": "sym-face-pale-sunken-eyes"},
+      {"text": "অন্যের উপস্থিতিতে মলত্যাগ করতে পারে না", "mid": "sym-inability-defecate-presence"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"}
+    ],
+    "answer": "sym-face-pale-sunken-eyes",
+    "explanation": "Antim Tart-এ মুখমণ্ডল ফ্যাকাশে বা নীলচে দেখায়, নাক বসে যায় এবং চোখ কোটরাগত হয়।"
+  },
+  {
+    "id": "antim-med-13",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"}
+    ],
+    "answer": "sym-lying-warm-agg",
+    "explanation": "Antim Tart-এর লক্ষণ শুয়ে থাকলে, গরমে, গরম ঘরে ও স্যাঁতসেঁতে আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "antim-med-14",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "অপরিচিত লোকের সাথে কথা বলতে গেলে উত্তেজিত ও অস্থির হয়ে পড়া", "mid": "sym-excitement-strangers"}
+    ],
+    "answer": "sym-sitting-up-expectoration-amel",
+    "explanation": "Antim Tart-এর লক্ষণ উঠে বসলে, কফ উঠে গেলে এবং ডানে কাত হয়ে শুলে উপশম হয়।"
+  },
+  {
+    "id": "antim-med-15",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শ্বাস নিতে কষ্ট ও ঘন ঘন শ্বাস প্রশ্বাস", "mid": "sym-dyspnoea-rapid-respiration"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-dyspnoea-rapid-respiration",
+    "explanation": "Antim Tart-এ ঘন ঘন শ্বাস প্রশ্বাস ও শ্বাস নিতে কষ্ট হয়।"
+  },
+  {
+    "id": "antim-med-16",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রেগে গেলে শিশুর কাশি হয়", "mid": "sym-cough-from-anger-child"},
+      {"text": "অত্যন্ত লজ্জাশীল ও একা থাকতে চায়", "mid": "sym-shy-seclusive"},
+      {"text": "চিন্তা ও কল্পনা এসে ব্যতিব্যস্ত করে তোলে", "mid": "sym-thoughts-obsession"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"}
+    ],
+    "answer": "sym-cough-from-anger-child",
+    "explanation": "Antim Tart-এ রেগে গেলে শিশুর কাশি হয়।"
+  },
+  {
+    "id": "antim-med-17",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঢেকুরে পচা ডিমের গন্ধ ও পিপাসা হীনতা", "mid": "sym-burping-rotten-egg-thirstless"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"}
+    ],
+    "answer": "sym-burping-rotten-egg-thirstless",
+    "explanation": "Antim Tart-এ ঢেকুরে পচা ডিমের গন্ধ এবং পিপাসা হীনতা দেখা যায়।"
+  },
+  {
+    "id": "antim-med-18",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেটে ভারবোধের সাথে শ্বাসকষ্ট", "mid": "sym-stomach-fullness-with-dyspnoea"},
+      {"text": "অন্যের উপস্থিতিতে প্রস্রাব করতে পারে না", "mid": "sym-inability-urinate-presence"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"}
+    ],
+    "answer": "sym-stomach-fullness-with-dyspnoea",
+    "explanation": "Antim Tart-এ পেটের গোলযোগের সাথে শ্বাসকষ্ট এবং পেটে ভারবোধ দেখা যায়।"
+  },
+  {
+    "id": "antim-med-19",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বুদ্ধিবৃত্তিক জড়তা ও কথা বলতে অনিচ্ছা", "mid": "sym-mental-sluggishness-reluctance-talk"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"}
+    ],
+    "answer": "sym-mental-sluggishness-reluctance-talk",
+    "explanation": "Antim Tart-এ বুদ্ধিবৃত্তিক জড়তা এবং কথা বলতে অনিচ্ছা দেখা যায়।"
+  },
+  {
+    "id": "antim-med-20",
+    "stem": "নিচের কোনটি Antim Tart-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"},
+      {"text": "অপরিচিত লোকের সাথে কথা বলতে গেলে উত্তেজিত ও অস্থির হয়ে পড়া", "mid": "sym-excitement-strangers"}
+    ],
+    "answer": "sym-evening-night-agg",
+    "explanation": "Antim Tart-এর লক্ষণ সন্ধ্যায় ও রাতে বৃদ্ধি পায়।"
+  }
+]
+
+
+
+

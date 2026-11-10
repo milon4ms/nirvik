@@ -1,0 +1,243 @@
+[
+  {
+    "id": "acidflor-med-01",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রোগী অত্যন্ত গরম কাতর; গরম ঘরে বা গরম আবহাওয়ায় কষ্ট বেড়ে যায়", "mid": "sym-hot-patient"},
+      {"text": "সবসময় ঠান্ডা কাতর; পায়ে ও হাতে ঠান্ডা লেগে থাকে", "mid": "sym-chilly-patient"},
+      {"text": "ঠান্ডা লাগার পর বারবার কাশি", "mid": "sym-cold-cough"},
+      {"text": "আর্দ্র আবহাওয়ায় সব লক্ষণ বৃদ্ধি পায়", "mid": "sym-damp-aggravation"}
+    ],
+    "answer": "sym-hot-patient",
+    "explanation": "Acid Fluoric-এর গুরুত্বপূর্ণ বৈশিষ্ট্য হলো রোগীর প্রচণ্ড গরম কাতরতা; গরম ঘরে বা গরম আবহাওয়ায় তার কষ্ট অনেক বেড়ে যায়।"
+  },
+  {
+    "id": "acidflor-med-02",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ মানসিক লক্ষণ?",
+    "options": [
+      {"text": "স্ত্রী-সন্তানসহ প্রিয়জনের প্রতি উদাসীন, কিন্তু অপরিচিত লোকের প্রতি প্রবল অনুরাগ", "mid": "sym-indifference-loved-ones"},
+      {"text": "ছোটখাটো কারণে অতিরিক্ত ক্রোধ ও অধৈর্য", "mid": "sym-anger-patience"},
+      {"text": "একাকীত্বে ভয় পায় এবং সবসময় সঙ্গ চায়", "mid": "sym-fear-loneliness"},
+      {"text": "মনে মনে অপরাধবোধে ভোগে ও কান্নাকাটি করে", "mid": "sym-guilt-remorse"}
+    ],
+    "answer": "sym-indifference-loved-ones",
+    "explanation": "Acid Fluoric-এর অদ্ভুত মানসিক লক্ষণ হলো রোগী তার স্ত্রী, সন্তান বা বন্ধুদের প্রতি উদাসীন থাকে, অথচ অপরিচিত বা বাইরের লোকের সাথে ভালো ব্যবহার করে।"
+  },
+  {
+    "id": "acidflor-med-03",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পায়ের শিরা ফুলে যাওয়া এবং তাতে আলসার বা ক্ষত হওয়ার প্রবণতা", "mid": "sym-varicose-ulcer"},
+      {"text": "সকালবেলা জয়েন্ট গুলো শক্ত হয়ে যাওয়া", "mid": "sym-morning-stiffness"},
+      {"text": "বৃষ্ণশিকলের আঘাতে পড়ার ভয়", "mid": "sym-fear-falling"},
+      {"text": "ঘুম থেকে উঠে জিভে পুরু সাদা আস্তরণ", "mid": "sym-tongue-coating"}
+    ],
+    "answer": "sym-varicose-ulcer",
+    "explanation": "Acid Fluoric শিরার স্ফীতি (Varicose veins) ও পায়ের শিরায় আলসার বা ক্ষত হওয়ার ক্ষেত্রে বিশেষভাবে উপযোগী।"
+  },
+  {
+    "id": "acidflor-med-04",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাড়ের পচন (ক্যারিস) এবং হাড় থেকে দুর্গন্ধযুক্ত রস নিঃসরণ", "mid": "sym-bone-caries"},
+      {"text": "হাড় ভাঙা রোগে হাড় শক্তপোক্ত হওয়া বিলম্বিত হওয়া", "mid": "sym-slow-union"},
+      {"text": "হাঁটু ও গোড়ালির জয়েন্টে পানি জমে ফোলা", "mid": "sym-joint-effusion"},
+      {"text": "ঠান্ডা কাতরতা ও ঘেমে যাওয়া", "mid": "sym-chilly-sweat"}
+    ],
+    "answer": "sym-bone-caries",
+    "explanation": "Acid Fluoric দেহের টিস্যু ও হাড়ের ধ্বংস সাধনকারী ঔষধ; বিশেষ করে দীর্ঘ হাড়ের ক্ষয় থেকে দুর্গন্ধযুক্ত রস বের হওয়া এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "acidflor-med-05",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নির্দিষ্ট স্থানে গোল গোল হয়ে চুল পড়ে যাওয়া (Alopecia Areata)", "mid": "sym-alopecia-areata"},
+      {"text": "চুলের গোড়ায় মাথার ত্বক লালচে ও চুলকায়", "mid": "sym-scalp-red-itch"},
+      {"text": "দাড়ি ঝরে যাওয়া ও চামড়া শুষ্ক হয়ে যাওয়া", "mid": "sym-beard-loss"},
+      {"text": "মাথার তালুর ঘামে চুলকানি বাড়ে", "mid": "sym-scalp-sweat-itch"}
+    ],
+    "answer": "sym-alopecia-areata",
+    "explanation": "Acid Fluoric-এ গোল গোল স্থানে চুল পড়ে যাওয়া (Alopecia Areata) দেখা যায় এবং নতুন চুল ওঠার সময় তা অত্যন্ত রুক্ষ ও ভঙ্গুর হয়।"
+  },
+  {
+    "id": "acidflor-med-06",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দাঁতের এনামেল নষ্ট হয়ে যাওয়া এবং দাঁত দ্রুত ক্ষয়ে যাওয়া", "mid": "sym-teeth-decay"},
+      {"text": "দাঁত উঠার সময় প্রচণ্ড জ্বর ও কাঁপুনি", "mid": "sym-dentition-fever"},
+      {"text": "দাঁতে কালো দাগ পড়া কিন্তু ব্যথা না থাকা", "mid": "sym-black-teeth"},
+      {"text": "মাড়ি ফুলে গিয়ে দাঁতের গোড়া উন্মুক্ত হওয়া", "mid": "sym-gum-recession"}
+    ],
+    "answer": "sym-teeth-decay",
+    "explanation": "Acid Fluoric-এ দাঁতের এনামেল নষ্ট হয়ে দাঁত দ্রুত ক্ষয়প্রাপ্ত হয়, এটি এর বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "acidflor-med-07",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পুরাতন ক্ষত লাল হয়ে ওঠে এবং পুনরায় ক্ষত হয়ে যায়", "mid": "sym-old-ulcer-red"},
+      {"text": "ক্ষতের গভীর থেকে হাড় পর্যন্ত ক্ষতিকর রস বের হয়", "mid": "sym-deep-ulcer-pus"},
+      {"text": "ক্ষতের চারপাশ নীলচে ও ঠান্ডা থাকে", "mid": "sym-cold-blue-ulcer"},
+      {"text": "সামান্য স্পর্শেই ক্ষত থেকে রক্তপাত শুরু হয়", "mid": "sym-bleeding-touch"}
+    ],
+    "answer": "sym-old-ulcer-red",
+    "explanation": "Acid Fluoric-এ পুরাতন ক্ষত আবার লাল হয়ে ওঠে এবং পুনরায় ক্ষতিগ্রস্ত হয়; স্রাব অত্যন্ত ক্ষতকর ও দুর্গন্ধযুক্ত হয়।"
+  },
+  {
+    "id": "acidflor-med-08",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা পানীয় পানের প্রবল ইচ্ছা", "mid": "sym-cold-drinks-desire"},
+      {"text": "মিষ্টি জিনিস খাওয়ার অতিরিক্ত লোভ", "mid": "sym-sweet-desire"},
+      {"text": "তেজপাতা বা মশলাদার খাবারের তীব্র আকাঙ্ক্ষা", "mid": "sym-spicy-desire"},
+      {"text": "ঠান্ডা খাবার খেলেই বমি হয়ে যাওয়া", "mid": "sym-cold-vomit"}
+    ],
+    "answer": "sym-cold-drinks-desire",
+    "explanation": "Acid Fluoric-এর পাকস্থলী-সংক্রান্ত বৈশিষ্ট্য হলো ঠান্ডা পানীয় পানের প্রবল ইচ্ছা।"
+  },
+  {
+    "id": "acidflor-med-09",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘামে শরীর চুলকায়", "mid": "sym-sweat-itching"},
+      {"text": "ঘাম অত্যন্ত দুর্গন্ধযুক্ত ও লেপটে থাকে", "mid": "sym-sweat-odor"},
+      {"text": "মাথার ঘামে সব লক্ষণ উপশম পায়", "mid": "sym-head-sweat-amel"},
+      {"text": "রাতে ঘামে ভিজে কাপড় শুকিয়ে যায়", "mid": "sym-night-sweat"}
+    ],
+    "answer": "sym-sweat-itching",
+    "explanation": "Acid Fluoric-এর একটি লক্ষণ হলো ঘামলে শরীরে চুলকানি হয়।"
+  },
+  {
+    "id": "acidflor-med-10",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রস্রাব বাঁধাপ্রাপ্ত হয়ে মাথা ব্যথা", "mid": "sym-urine-headache"},
+      {"text": "প্রস্রাবে জ্বালাপোড়া ও পুরু মলমল স্রাব", "mid": "sym-burning-urine"},
+      {"text": "ঘন ঘন প্রস্রাবের বেগ কিন্তু অল্প আসে", "mid": "sym-frequent-urine"},
+      {"text": "রাতে ঘুমের মধ্যে অজান্তে প্রস্রাব হয়ে যাওয়া", "mid": "sym-bedwetting"}
+    ],
+    "answer": "sym-urine-headache",
+    "explanation": "Acid Fluoric-এ প্রস্রাব বাঁধাপ্রাপ্ত হলে মাথা ব্যথা হয়, এটি এর চেনা লক্ষণগুলোর একটি।"
+  },
+  {
+    "id": "acidflor-med-11",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের মধ্য দিয়ে বাতাস যাওয়ার অনুভূতি", "mid": "sym-air-through-eyes"},
+      {"text": "চোখে চুলকানি ও প্রচণ্ড কান্না আসা", "mid": "sym-eye-tears"},
+      {"text": "চোখের পাতা ফোলা ও চেপে বসা", "mid": "sym-eyelid-swollen"},
+      {"text": "দুপুরবেলা চোখের সামনে ঝাপসা দেখা", "mid": "sym-blurred-vision"}
+    ],
+    "answer": "sym-air-through-eyes",
+    "explanation": "Acid Fluoric-এ চোখের মধ্য দিয়ে বাতাস যাওয়ার অদ্ভুত অনুভূতি হয়।"
+  },
+  {
+    "id": "acidflor-med-12",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর ক্ষেত্রে বৃদ্ধির কারণ?",
+    "options": [
+      {"text": "উত্তাপে, গরম ঘরে, রাতে এবং বিশ্রামে", "mid": "sym-agg-heat-night"},
+      {"text": "ঠান্ডা আবহাওয়ায় ও ভেজা বাতাসে", "mid": "sym-agg-cold-damp"},
+      {"text": "অতিরিক্ত চিনি খেলে ও দুপুরে", "mid": "sym-agg-sugar"},
+      {"text": "সকালে ঘুম থেকে ওঠার সময়", "mid": "sym-agg-morning"}
+    ],
+    "answer": "sym-agg-heat-night",
+    "explanation": "Acid Fluoric-এর লক্ষণ উত্তাপে, গরম ঘরে, রাতে, সকালে এবং বিশ্রামে থাকলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "acidflor-med-13",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর ক্ষেত্রে উপশমের কারণ?",
+    "options": [
+      {"text": "ঠান্ডায়, ঠান্ডা জলে ধুলে এবং শরীর ক্রমাগত নড়াচড়া করলে", "mid": "sym-amel-cold-motion"},
+      {"text": "গরম আঁচড়া দিলে ও গরম ঘরে শুয়ে", "mid": "sym-amel-warmth"},
+      {"text": "ভরপেট খেলে ও মিষ্টি খেলে", "mid": "sym-amel-eating"},
+      {"text": "মাথা উঁচু করে শুলে ও স্থির থাকলে", "mid": "sym-amel-rest"}
+    ],
+    "answer": "sym-amel-cold-motion",
+    "explanation": "Acid Fluoric-এর লক্ষণ ঠান্ডায়, ঠান্ডা জল দিয়ে ধুলে, মুক্ত বাতাসে হাঁটলে এবং শরীর ক্রমাগত নড়াচড়া করলে উপশম পায়।"
+  },
+  {
+    "id": "acidflor-med-14",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অতিরিক্ত যৌন ইচ্ছা ও লম্পট প্রবণতা", "mid": "sym-excessive-sexual-desire"},
+      {"text": "যৌন বিষয়ে সম্পূর্ণ অনীহা ও ঘৃণা", "mid": "sym-sexual-aversion"},
+      {"text": "যৌন চিন্তায় মন উদ্বেগগ্রস্ত থাকা", "mid": "sym-sexual-anxiety"},
+      {"text": "বিয়ের আগে অতিরিক্ত ভয় ও কাঁপুনি", "mid": "sym-nuptial-fear"}
+    ],
+    "answer": "sym-excessive-sexual-desire",
+    "explanation": "Acid Fluoric-এ অতিরিক্ত যৌন ইচ্ছা ও লম্পট প্রবণতা দেখা যায়।"
+  },
+  {
+    "id": "acidflor-med-15",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অন্ডকোষ ও পুংলিঙ্গের স্ফীতি", "mid": "sym-genital-swelling"},
+      {"text": "বাম অন্ডকোষে টান দিয়ে ব্যথা", "mid": "sym-left-testis-pain"},
+      {"text": "অন্ডকোষে পানি জমে ঝুলে যাওয়া", "mid": "sym-hydrocele"},
+      {"text": "পুংলিঙ্গে ফোলা ও চুলকানি", "mid": "sym-genital-itch"}
+    ],
+    "answer": "sym-genital-swelling",
+    "explanation": "Acid Fluoric-এ অন্ডকোষ ও পুংলিঙ্গের স্ফীতি এর বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "acidflor-med-16",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ সাধারণ লক্ষণ?",
+    "options": [
+      {"text": "অল্প বয়সে বার্ধক্যজনিত ক্ষয়, অকাল বার্ধক্য", "mid": "sym-premature-aging"},
+      {"text": "শিশুর মতো মোটা হয়ে ধীরে ধীরে বাড়া", "mid": "sym-childish-fat"},
+      {"text": "শরীরের প্রতিটি অঙ্গ নিজে নিজে কাঁপে", "mid": "sym-trembling-organs"},
+      {"text": "অতিরিক্ত দীর্ঘায়ু ও শক্তি বৃদ্ধি", "mid": "sym-vitality"}
+    ],
+    "answer": "sym-premature-aging",
+    "explanation": "Acid Fluoric গভীর ও দীর্ঘস্থায়ী ক্রিয়াশীল ঔষধ; অল্প বয়সে বার্ধক্যের মতো ক্ষয় প্রকাশ (অকাল বার্ধক্য) এর লক্ষণ।"
+  },
+  {
+    "id": "acidflor-med-17",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নখ বিকৃত, পুরু এবং খুব দ্রুত ভেঙে যাওয়া", "mid": "sym-nails-deformed"},
+      {"text": "নখের গোড়ায় চামড়া ফুলে লাল ও ব্যথাযুক্ত হওয়া", "mid": "sym-nail-fold-inflammation"},
+      {"text": "নখের ওপর সাদা দাগ পড়া", "mid": "sym-white-spots-nails"},
+      {"text": "নখ শক্ত হয়ে মোড়ানো", "mid": "sym-nails-hard-curved"}
+    ],
+    "answer": "sym-nails-deformed",
+    "explanation": "Acid Fluoric-এ নখ বিকৃত, পুরু হয় এবং খুব দ্রুত ভেঙে যায়।"
+  },
+  {
+    "id": "acidflor-med-18",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখে দুর্গন্ধ এবং প্রচুর লালা নিঃসরণ", "mid": "sym-mouth-odor-saliva"},
+      {"text": "মুখ শুকিয়ে জিভে ফাটল ধরা", "mid": "sym-dry-mouth"},
+      {"text": "মুখের ভেতর সাদা মলমল স্রাব জমা", "mid": "sym-mouth-thrush"},
+      {"text": "মুখের গায়ে পাতলা সোজা সাদা রেখা", "mid": "sym-mouth-lines"}
+    ],
+    "answer": "sym-mouth-odor-saliva",
+    "explanation": "Acid Fluoric-এ মুখে দুর্গন্ধ ও প্রচুর লালা নিঃসরণ হয়।"
+  },
+  {
+    "id": "acidflor-med-19",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চামড়ায় প্রচণ্ড চুলকানি, যা আগুনের উত্তাপে বৃদ্ধি পায়", "mid": "sym-itching-fire-heat"},
+      {"text": "গরম জলে গোসল করলে চুলকানি উপশম পায়", "mid": "sym-itching-warm-bath"},
+      {"text": "রাতে শুয়ে চুলকানি বাড়ে ও সরে গেলে কমে", "mid": "sym-itching-night"},
+      {"text": "চুলকানির সাথে জ্বলুনি ও ফোলা ভাব", "mid": "sym-itching-burning"}
+    ],
+    "answer": "sym-itching-fire-heat",
+    "explanation": "Acid Fluoric-এ চর্মে প্রচণ্ড চুলকানি থাকে যা আগুনের উত্তাপে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "acidflor-med-20",
+    "stem": "নিচের কোনটি Acid Fluoric (এসিড ফ্লোরিক)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রোগী প্রচুর খেতে পারে কিন্তু শরীর পুষ্ট হয় না", "mid": "sym-eats-much-emaciates"},
+      {"text": "অল্প খেলেই পেট ফুলে যায় ও গ্যাস হয়", "mid": "sym-bloating-gas"},
+      {"text": "সকালে খাবার গন্ধ পেলেই বমি ভাব", "mid": "sym-morning-nausea"},
+      {"text": "মিষ্টি খেলেই পেটে ব্যথা শুরু হয়", "mid": "sym-sugar-pain"}
+    ],
+    "answer": "sym-eats-much-emaciates",
+    "explanation": "Acid Fluoric-এ রোগী প্রচুর খেতে পারলেও শরীর পুষ্ট হয় না, এর সাথে অকাল বার্ধক্যজনিত ক্ষয়যুক্ত অবস্থা থাকে।"
+  }
+]
+

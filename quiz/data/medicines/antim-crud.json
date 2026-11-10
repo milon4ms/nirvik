@@ -1,0 +1,483 @@
+[
+  {
+    "id": "antim-crud-med-01",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জিহ্বার উপর মোটা, সাদা দুধের মতো প্রলেপ থাকে।",
+        "mid": "thick_milky_white_tongue"
+      },
+      {
+        "text": "জিহ্বা লাল, শুকনো এবং ফাটা।",
+        "mid": "red_dry_cracked_tongue"
+      },
+      {
+        "text": "জিহ্বা পরিষ্কার কিন্তু মুখে ধাতব স্বাদ।",
+        "mid": "clean_tongue_metallic_taste"
+      },
+      {
+        "text": "জিহ্বার পিছনে পীতাভ প্রলেপ।",
+        "mid": "yellow_coated_tongue_posterior"
+      }
+    ],
+    "answer": "thick_milky_white_tongue",
+    "explanation": "Antimonium Crudum-এর ‘হলমার্ক’ লক্ষণ হলো জিহ্বার উপর মোটা, সাদা দুধের মতো প্রলেপ (Milky white coated tongue)।"
+  },
+  {
+    "id": "antim-crud-med-02",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শিশু কাউকে তার দিকে তাকাতে বা স্পর্শ করতে দিতে চায় না।",
+        "mid": "cannot_bear_touch_looked_at"
+      },
+      {
+        "text": "শিশু একা থাকতে ভয় পায়।",
+        "mid": "fear_of_being_alone"
+      },
+      {
+        "text": "শিশু অতিরিক্ত কথা বলে।",
+        "mid": "excessive_talkativeness"
+      },
+      {
+        "text": "শিশু কোলে নিলে ঘুমিয়ে পড়ে।",
+        "mid": "sleeps_when_carried"
+      }
+    ],
+    "answer": "cannot_bear_touch_looked_at",
+    "explanation": "Antimonium Crudum-এ বিশেষ করে শিশুরা কাউকে তার দিকে তাকাতে বা স্পর্শ করতে দিতে চায় না, স্পর্শ করলে চিৎকার করে।"
+  },
+  {
+    "id": "antim-crud-med-03",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "টক ও অম্ল জাতীয় খাবার (যেমন আচার, ভিনেগার) খাওয়ার প্রবল ইচ্ছা।",
+        "mid": "longing_for_acids_pickles"
+      },
+      {
+        "text": "মিষ্টি ও মিষ্টান্ন খাওয়ার প্রবল ইচ্ছা।",
+        "mid": "longing_for_sweets"
+      },
+      {
+        "text": "কফি ও তিক্ত খাবারের প্রতি আসক্তি।",
+        "mid": "longing_for_coffee_bitter"
+      },
+      {
+        "text": "লবণাক্ত খাবারের প্রতি তীব্র আকর্ষণ।",
+        "mid": "longing_for_salt"
+      }
+    ],
+    "answer": "longing_for_acids_pickles",
+    "explanation": "Antimonium Crudum-এ রোগী প্রচুর পরিমাণে আচার, ভিনেগার বা টক জাতীয় খাবার খেতে পছন্দ করে, যদিও এগুলো তার ক্ষতি করে।"
+  },
+  {
+    "id": "antim-crud-med-04",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গোসল বা ঠান্ডা জলে স্নান করার প্রতি তীব্র অনিচ্ছা; ঠান্ডা জলে স্নান করলে শিশু কাঁদে।",
+        "mid": "aversion_to_cold_bathing"
+      },
+      {
+        "text": "গরম পানিতে স্নান করলে ত্বকে ফুসকুড়ি ওঠে।",
+        "mid": "rash_from_warm_bath"
+      },
+      {
+        "text": "বারবার স্নান করার বাধ্যবাধকতা অনুভব করে।",
+        "mid": "compulsive_bathing"
+      },
+      {
+        "text": "পানিতে ভয় (Hydrophobia)।",
+        "mid": "fear_of_water"
+      }
+    ],
+    "answer": "aversion_to_cold_bathing",
+    "explanation": "Antimonium Crudum-এ গোসল বা ঠান্ডা জলে স্নান করার প্রতি প্রবল অনিচ্ছা থাকে; ঠান্ডা জলে স্নান করলে শিশু কাঁদে এবং মাথাব্যথা হতে পারে।"
+  },
+  {
+    "id": "antim-crud-med-05",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়ের তলায় শক্ত, শিং-এর মতো কড়া (Corns/Callosities) জন্মায়, যা হাঁটলে প্রচণ্ড ব্যথা করে।",
+        "mid": "horny_corns_soles_painful"
+      },
+      {
+        "text": "পায়ের তলায় নরম, পিচ্ছিল ফোস্কা হয়।",
+        "mid": "soft_blisters_soles"
+      },
+      {
+        "text": "পায়ের তলায় চুলকানি হয়, ব্যথা নেই।",
+        "mid": "itching_soles_no_pain"
+      },
+      {
+        "text": "পায়ের তলায় ঘাম হয় কিন্তু কোনো কড়া নেই।",
+        "mid": "sweaty_soles_no_corns"
+      }
+    ],
+    "answer": "horny_corns_soles_painful",
+    "explanation": "Antimonium Crudum-এ পায়ের তলায় শক্ত, শিং-এর মতো কড়া (Corns/Callosities) জন্মায়, যা হাঁটলে বিশেষ করে পাথরের উপর চললে প্রচণ্ড ব্যথা করে।"
+  },
+  {
+    "id": "antim-crud-med-06",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নখ অত্যন্ত পুরু, কর্কশ, বিবর্ণ এবং সহজেই ফেটে যায় বা ভেঙে যায়।",
+        "mid": "thick_brittle_discolored_nails"
+      },
+      {
+        "text": "নখ অতিরিক্ত পাতলা ও নরম।",
+        "mid": "thin_soft_nails"
+      },
+      {
+        "text": "নখ দ্রুত বড় হয় কিন্তু ভেঙে যায় না।",
+        "mid": "fast_growing_strong_nails"
+      },
+      {
+        "text": "নখের নিচে রক্ত জমা হয়।",
+        "mid": "subungual_hemorrhage"
+      }
+    ],
+    "answer": "thick_brittle_discolored_nails",
+    "explanation": "Antimonium Crudum-এ নখ অত্যন্ত পুরু, কর্কশ, বিবর্ণ এবং সহজেই ফেটে যায় বা ভেঙে যায়।"
+  },
+  {
+    "id": "antim-crud-med-07",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নাকের পাতলা চামড়া ও ঠোঁটের কোণ ফেটে যায় এবং crust পড়ে।",
+        "mid": "cracks_nostrils_labial_commissures"
+      },
+      {
+        "text": "ঠোঁট শুকনো কিন্তু ফাটে না।",
+        "mid": "dry_lips_no_cracks"
+      },
+      {
+        "text": "নাকের ডগা লাল ও ফোলা।",
+        "mid": "red_swollen_nose_tip"
+      },
+      {
+        "text": "ঠোঁটের উপর ফোস্কা পড়ে।",
+        "mid": "blisters_on_lips"
+      }
+    ],
+    "answer": "cracks_nostrils_labial_commissures",
+    "explanation": "Antimonium Crudum-এ নাকের পাতা ও ঠোঁটের কোণ ফেটে যায় এবং সেখানে crust বা মামড়ি পড়ে।"
+  },
+  {
+    "id": "antim-crud-med-08",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ত্বকে একজিমা বা ফুসকুড়ি যার উপর হলুদাভ মামড়ি (Yellow crusts) পড়ে।",
+        "mid": "eczema_yellow_crusts"
+      },
+      {
+        "text": "ত্বকে সাদা আঁশযুক্ত দাগ।",
+        "mid": "white_scaly_patches"
+      },
+      {
+        "text": "ত্বকে লাল চাকা কিন্তু মামড়ি নেই।",
+        "mid": "red_spots_no_crusts"
+      },
+      {
+        "text": "ত্বকে রক্তমিশ্রিত ফোস্কা।",
+        "mid": "bloody_blisters"
+      }
+    ],
+    "answer": "eczema_yellow_crusts",
+    "explanation": "Antimonium Crudum-এ ত্বকে একজিমা বা ফুসকুড়ি হয় যার উপর হলুদাভ মামড়ি (Yellow crusts) পড়ে।"
+  },
+  {
+    "id": "antim-crud-med-09",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অতিরিক্ত ভোজন বা হজমশক্তি নষ্ট হওয়ার কারণে পেটের গোলযোগ, বমি বমি ভাব ও বমি।",
+        "mid": "gastric_complaints_from_overeating"
+      },
+      {
+        "text": "খালি পেটে পেটে জ্বালাপোড়া।",
+        "mid": "burning_stomach_empty"
+      },
+      {
+        "text": "মিষ্টি খাওয়ার পর পেটে অস্বস্তি।",
+        "mid": "discomfort_after_sweets"
+      },
+      {
+        "text": "পেটে ঠান্ডা অনুভূতি।",
+        "mid": "cold_sensation_stomach"
+      }
+    ],
+    "answer": "gastric_complaints_from_overeating",
+    "explanation": "Antimonium Crudum-এ বেশি খাওয়ার ফলে বা হজম শক্তি নষ্ট হওয়ার কারণে সৃষ্ট পেটের গোলযোগ, বমি বমি ভাব বা বমি হয়।"
+  },
+  {
+    "id": "antim-crud-med-10",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "উদারাময় (Diarrhoea) ও কোষ্ঠকাঠিন্য (Constipation) পর্যায়ক্রমে দেখা দেয়।",
+        "mid": "alternating_diarrhea_constipation"
+      },
+      {
+        "text": "শুধুমাত্র দীর্ঘস্থায়ী কোষ্ঠকাঠিন্য।",
+        "mid": "chronic_constipation_only"
+      },
+      {
+        "text": "শুধুমাত্র রাতে উদারাময়।",
+        "mid": "nocturnal_diarrhea_only"
+      },
+      {
+        "text": "মলত্যাগের পর তীব্র দুর্বলতা।",
+        "mid": "weakness_after_stool"
+      }
+    ],
+    "answer": "alternating_diarrhea_constipation",
+    "explanation": "Antimonium Crudum-এ উদারাময় ও কোষ্ঠকাঠিন্য পর্যায়ক্রমে (alternating) দেখা দেয়।"
+  },
+  {
+    "id": "antim-crud-med-11",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "উদারাময়ের সাথে শক্ত, পিণ্ডের মতো মল (Hard lumps) মিশ্রিত থাকে।",
+        "mid": "diarrhea_with_hard_lumps"
+      },
+      {
+        "text": "উদারাময়ের সাথে রক্ত ও শ্লেষ্মা।",
+        "mid": "diarrhea_with_blood_mucus"
+      },
+      {
+        "text": "উদারাময়ের সাথে অপরিপক্ক খাদ্যকণা।",
+        "mid": "diarrhea_with_undigested_food"
+      },
+      {
+        "text": "উদারাময়ের সাথে তীব্র পেটে মোচড়।",
+        "mid": "diarrhea_with_severe_colic"
+      }
+    ],
+    "answer": "diarrhea_with_hard_lumps",
+    "explanation": "Antimonium Crudum-এ উদারাময়ের সাথে শক্ত, পিণ্ডের মতো মল (Hard lumps) মিশ্রিত থাকে।"
+  },
+  {
+    "id": "antim-crud-med-12",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অত্যন্ত খিটখিটে, রাগী ও বিরক্তিকর মেজাজের হয়; ছোট বিষয়েও রেগে যায়।",
+        "mid": "peevish_irritable_sulky"
+      },
+      {
+        "text": "রোগী অতিরিক্ত হাসিখুশি ও প্রফুল্ল।",
+        "mid": "cheerful_and_happy"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ উদাসীন ও নির্বিকার।",
+        "mid": "apathetic_indifferent"
+      },
+      {
+        "text": "রোগী অতিরিক্ত ভীতু ও নির্ভরশীল।",
+        "mid": "fearful_dependent"
+      }
+    ],
+    "answer": "peevish_irritable_sulky",
+    "explanation": "Antimonium Crudum-এ রোগী অত্যন্ত খিটখিটে, রাগী মেজাজের হয়, ছোট বিষয়েও বিরক্ত হয় এবং কারও সাথে কথা বলতে চায় না।"
+  },
+  {
+    "id": "antim-crud-med-13",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চাঁদের আলোতে আবেগপ্রবণ হয়ে পড়া, বিশেষ করে প্রেমে বিফল হয়ে মুষড়ে পড়া।",
+        "mid": "sentimental_mood_moonlight"
+      },
+      {
+        "text": "সূর্যের আলোতে অতিরিক্ত উত্তেজনা।",
+        "mid": "excitement_in_sunlight"
+      },
+      {
+        "text": "অন্ধকারে ভয় পাওয়া।",
+        "mid": "fear_of_darkness"
+      },
+      {
+        "text": "একা থাকলে আনন্দ পাওয়া।",
+        "mid": "joy_when_alone"
+      }
+    ],
+    "answer": "sentimental_mood_moonlight",
+    "explanation": "Antimonium Crudum-এ বিশেষ করে তরুণ-তরুণীদের ক্ষেত্রে চাঁদের আলোতে খুব ভাবপ্রবণ হয়ে পড়ে এবং প্রেমে বিফল হয়ে অত্যন্ত মুষড়ে পড়ে।"
+  },
+  {
+    "id": "antim-crud-med-14",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জীবনের প্রতি বিতৃষ্ণা, হতাশা এবং আত্মহত্যার ইচ্ছা (বিশেষত ডুবে মরা)।",
+        "mid": "loathing_of_life_suicidal"
+      },
+      {
+        "text": "মৃত্যুর ভয় কিন্তু আত্মহত্যার চিন্তা নেই।",
+        "mid": "fear_of_death_no_suicide"
+      },
+      {
+        "text": "জীবনের প্রতি অতিরিক্ত আসক্তি।",
+        "mid": "great_love_for_life"
+      },
+      {
+        "text": "ভবিষ্যৎ নিয়ে সম্পূর্ণ আশাবাদী।",
+        "mid": "optimistic_about_future"
+      }
+    ],
+    "answer": "loathing_of_life_suicidal",
+    "explanation": "Antimonium Crudum-এ রোগী জীবনের প্রতি অত্যন্ত বিতৃষ্ণায় ভোগে, হতাশ হয় এবং অনেক সময় আত্মহত্যার ইচ্ছা (বিশেষত ডুবে মরা) জাগে।"
+  },
+  {
+    "id": "antim-crud-med-15",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নদীতে স্নান করার পর বা রোদে যাওয়ার পর মাথাব্যথা।",
+        "mid": "headache_after_river_bath_sun"
+      },
+      {
+        "text": "সকালে ঘুম থেকে উঠে মাথাব্যথা।",
+        "mid": "morning_headache"
+      },
+      {
+        "text": "ঠান্ডা বাতাসে মাথাব্যথা উপশম।",
+        "mid": "headache_ameliorated_cold_air"
+      },
+      {
+        "text": "মাথাব্যথার সাথে বমি।",
+        "mid": "headache_with_vomiting"
+      }
+    ],
+    "answer": "headache_after_river_bath_sun",
+    "explanation": "Antimonium Crudum-এ ঠান্ডা জলে (যেমন নদীতে) স্নান করার পর বা রোদের তাপে যাওয়ার পর মাথাব্যথা হয়।"
+  },
+  {
+    "id": "antim-crud-med-16",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "উত্তাপে (সূর্যের তাপ বা আগুনের তাপে), ঠান্ডা জলে স্নান করলে, টক খাবার খেলে এবং রাতে লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_heat_coldbath_acids_night"
+      },
+      {
+        "text": "ঠান্ডা বাতাসে এবং বিশ্রামে লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_cold_air_rest"
+      },
+      {
+        "text": "মিষ্টি খাবার খেলে লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_sweets"
+      },
+      {
+        "text": "সকালে লক্ষণ সবচেয়ে বেশি।",
+        "mid": "aggravation_morning"
+      }
+    ],
+    "answer": "aggravation_heat_coldbath_acids_night",
+    "explanation": "Antimonium Crudum-এর লক্ষণ উত্তাপে (সূর্য বা আগুন), ঠান্ডা জলে স্নান করলে, টক/অম্ল খাবারে এবং রাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "antim-crud-med-17",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মুক্ত বাতাসে এবং বিশ্রামে থাকলে লক্ষণ উপশম হয়।",
+        "mid": "amelioration_open_air_rest"
+      },
+      {
+        "text": "গরম ঘরে থাকলে লক্ষণ উপশম হয়।",
+        "mid": "amelioration_warm_room"
+      },
+      {
+        "text": "ব্যায়াম করলে লক্ষণ উপশম হয়।",
+        "mid": "amelioration_exercise"
+      },
+      {
+        "text": "টক খাবার খেলে লক্ষণ উপশম হয়।",
+        "mid": "amelioration_acids"
+      }
+    ],
+    "answer": "amelioration_open_air_rest",
+    "explanation": "Antimonium Crudum-এর লক্ষণ মুক্ত বাতাসে এবং বিশ্রামে থাকলে উপশম হয়।"
+  },
+  {
+    "id": "antim-crud-med-18",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটে প্রচণ্ড বায়ু জমে এবং অনবরত ঢেকুর ওঠে, যাতে খাবারের স্বাদ পাওয়া যায়।",
+        "mid": "constant_flatus_belching_taste_food"
+      },
+      {
+        "text": "ঢেকুরে দুর্গন্ধ থাকে।",
+        "mid": "foul_belching"
+      },
+      {
+        "text": "পেটে বায়ু জমে কিন্তু ঢেকুর ওঠে না।",
+        "mid": "flatus_without_belching"
+      },
+      {
+        "text": "ঢেকুরে টক স্বাদ পাওয়া যায়।",
+        "mid": "sour_belching"
+      }
+    ],
+    "answer": "constant_flatus_belching_taste_food",
+    "explanation": "Antimonium Crudum-এ পেটে প্রচণ্ড বায়ু জমে এবং অনবরত ঢেকুর ওঠে, যাতে খাবারের স্বাদ (taste of food) পাওয়া যায়।"
+  },
+  {
+    "id": "antim-crud-med-19",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পশ্চাৎ নাসিকা থেকে প্রচুর শ্লেষ্মা নির্গত হয়, যা হকিং (Hawking) করে বের করতে হয়।",
+        "mid": "profuse_mucus_posterior_nares_hawking"
+      },
+      {
+        "text": "নাক দিয়ে পাতলা সর্দি ঝরে।",
+        "mid": "watery_rhinorrhea"
+      },
+      {
+        "text": "নাক বন্ধ কিন্তু শ্লেষ্মা নেই।",
+        "mid": "nasal_blockage_no_mucus"
+      },
+      {
+        "text": "হাঁচি দিয়ে শ্লেষ্মা বের হয়।",
+        "mid": "sneezing_with_mucus"
+      }
+    ],
+    "answer": "profuse_mucus_posterior_nares_hawking",
+    "explanation": "Antimonium Crudum-এ পশ্চাৎ নাসিকা থেকে প্রচুর পরিমাণে শ্লেষ্মা নির্গত হয়, যা হকিং (Hawking) করে বের করতে হয়।"
+  },
+  {
+    "id": "antim-crud-med-20",
+    "stem": "নিচের কোনটি Antimonium Crudum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অতিরিক্ত গরম হয়ে গেলে কণ্ঠস্বর হারিয়ে যায় (Loss of voice)।",
+        "mid": "loss_of_voice_from_overheating"
+      },
+      {
+        "text": "সকালে ঘুম থেকে উঠে কণ্ঠস্বর ভাঙা।",
+        "mid": "morning_hoarseness"
+      },
+      {
+        "text": "ঠান্ডা লাগলে গলা ব্যথা।",
+        "mid": "sore_throat_from_cold"
+      },
+      {
+        "text": "কথা বলতে গেলে গলা শুকিয়ে যায়।",
+        "mid": "dry_throat_when_speaking"
+      }
+    ],
+    "answer": "loss_of_voice_from_overheating",
+    "explanation": "Antimonium Crudum-এ অতিরিক্ত গরম হয়ে গেলে (over-heating) কণ্ঠস্বর হারিয়ে যায়।"
+  }
+]
+

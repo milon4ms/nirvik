@@ -1,0 +1,483 @@
+[
+  {
+    "id": "alumen-med-01",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মল অত্যন্ত কঠিন, শুষ্ক এবং কালচে রঙের; নরম মল ত্যাগ করতেও রোগীকে অনেক বেগ পেতে হয়।",
+        "mid": "hard_dry_dark_stool"
+      },
+      {
+        "text": "ডায়রিয়া, বিশেষ করে সকালে ঘুম থেকে উঠে",
+        "mid": "morning_diarrhea"
+      },
+      {
+        "text": "মলত্যাগের পর তীব্র দুর্বলতা",
+        "mid": "weakness_after_stool"
+      },
+      {
+        "text": "মলে অপরিপক্ক খাদ্যকণা",
+        "mid": "undigested_food_stool"
+      }
+    ],
+    "answer": "hard_dry_dark_stool",
+    "explanation": "Alumen-এর প্রধান লক্ষণ হলো অত্যন্ত কঠিন, শুষ্ক ও কালচে মল, যা ত্যাগ করতে রোগীকে প্রচণ্ড বেগ পেতে হয়।"
+  },
+  {
+    "id": "alumen-med-02",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অনেকদিন মলত্যাগের ইচ্ছা থাকে না।",
+        "mid": "no_desire_for_stool"
+      },
+      {
+        "text": "বারবার ছোট ছোট মলত্যাগ হয়",
+        "mid": "frequent_small_stool"
+      },
+      {
+        "text": "মলত্যাগের আগে পেটে তীব্র ব্যথা",
+        "mid": "pain_before_stool"
+      },
+      {
+        "text": "রাতে মলত্যাগের প্রবল ইচ্ছা",
+        "mid": "nocturnal_stool_urge"
+      }
+    ],
+    "answer": "no_desire_for_stool",
+    "explanation": "Alumen-এ অনেকদিন মলত্যাগের ইচ্ছা থাকে না, যা এর বৈশিষ্ট্যপূর্ণ কোষ্ঠকাঠিন্যের লক্ষণ।"
+  },
+  {
+    "id": "alumen-med-03",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের বিভিন্ন গ্রন্থি বা টিস্যু (যেমন জিহ্বা, জরায়ু, স্তন) শক্ত হয়ে যাওয়া।",
+        "mid": "induration_glands"
+      },
+      {
+        "text": "গ্রন্থিগুলো নরম ও পিচ্ছিল হয়ে যাওয়া",
+        "mid": "soft_glands"
+      },
+      {
+        "text": "গ্রন্থিতে তীব্র জ্বালাপোড়া",
+        "mid": "burning_glands"
+      },
+      {
+        "text": "গ্রন্থি ফুলে যাওয়া কিন্তু শক্ত নয়",
+        "mid": "swollen_non_indurated_glands"
+      }
+    ],
+    "answer": "induration_glands",
+    "explanation": "Alumen শরীরের বিভিন্ন গ্রন্থি বা টিস্যু লোহার মতো শক্ত হয়ে যাওয়ার (Induration) প্রবণতায় অপ্রতিদ্বন্দ্বী।"
+  },
+  {
+    "id": "alumen-med-04",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "টাইফয়েড জ্বরে অন্ত্র থেকে প্রচুর পরিমাণে চাপ চাপ কালো রক্তপাত।",
+        "mid": "hemorrhage_typhoid"
+      },
+      {
+        "text": "নাক দিয়ে সামান্য রক্তপাত",
+        "mid": "mild_nosebleed"
+      },
+      {
+        "text": "মাসিকের সময় অতিরিক্ত রক্তপাত",
+        "mid": "heavy_menses"
+      },
+      {
+        "text": "মলদ্বার দিয়ে উজ্জ্বল লাল রক্তপাত",
+        "mid": "bright_rectal_bleeding"
+      }
+    ],
+    "answer": "hemorrhage_typhoid",
+    "explanation": "Alumen টাইফয়েড বা গুরুতর অসুস্থতায় অন্ত্র থেকে প্রচুর পরিমাণে চাপ চাপ কালো রক্তপাত রোধে অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "alumen-med-05",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হাত-পায়ের পেশীগুলো ধীরে ধীরে শুকিয়ে গিয়ে স্নায়বিক পক্ষাঘাতের দিকে ধাবিত হওয়া।",
+        "mid": "muscle_wasting_paralysis"
+      },
+      {
+        "text": "পেশীতে তীব্র খিঁচুনি",
+        "mid": "muscle_cramps"
+      },
+      {
+        "text": "পেশী শক্ত হয়ে যাওয়া কিন্তু দুর্বল নয়",
+        "mid": "muscle_stiffness"
+      },
+      {
+        "text": "পেশীতে ফ্যাসিকুলেশন",
+        "mid": "fasciculations"
+      }
+    ],
+    "answer": "muscle_wasting_paralysis",
+    "explanation": "Alumen-এ হাত-পায়ের পেশী ধীরে ধীরে শুকিয়ে গিয়ে স্নায়বিক পক্ষাঘাতের দিকে ধাবিত হয়।"
+  },
+  {
+    "id": "alumen-med-06",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ক্ষত বা আলসারে আলগা মাংস (Proud Flesh) গজিয়ে ওঠা এবং ক্ষতের চারপাশ শক্ত হয়ে যাওয়া।",
+        "mid": "proud_flesh"
+      },
+      {
+        "text": "ক্ষত দ্রুত শুকিয়ে যাওয়া",
+        "mid": "fast_healing_ulcer"
+      },
+      {
+        "text": "ক্ষত থেকে পুঁজ নির্গত হওয়া",
+        "mid": "pus_discharge"
+      },
+      {
+        "text": "ক্ষতের চারপাশ লাল ও ফোলা",
+        "mid": "red_swollen_wound"
+      }
+    ],
+    "answer": "proud_flesh",
+    "explanation": "Alumen-এ ক্ষত বা আলসারে আলগা মাংস (Proud Flesh) গজিয়ে ওঠা এবং ক্ষতের চারপাশ শক্ত হয়ে যাওয়া বিশেষ পরিচায়ক।"
+  },
+  {
+    "id": "alumen-med-07",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটে সিসা-ব্যথার (Lead Colic) মতো প্রচণ্ড মোচড়ানো ব্যথা, যা মনে হয় নাভিকে মেরুদণ্ডের দিকে টেনে ধরছে।",
+        "mid": "lead_colic_pain"
+      },
+      {
+        "text": "পেটে হালকা অস্বস্তি",
+        "mid": "mild_abdominal_discomfort"
+      },
+      {
+        "text": "পেটে জ্বালাপোড়া",
+        "mid": "burning_abdomen"
+      },
+      {
+        "text": "পেট ফুলে যাওয়া কিন্তু ব্যথা নেই",
+        "mid": "bloating_without_pain"
+      }
+    ],
+    "answer": "lead_colic_pain",
+    "explanation": "Alumen-এ পেটে সিসা-ব্যথার মতো প্রচণ্ড মোচড়ানো ব্যথা হয়, যা নাভিকে মেরুদণ্ডের দিকে টেনে ধরার অনুভূতি দেয়।"
+  },
+  {
+    "id": "alumen-med-08",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী মানসিকভাবে খুব ধীরস্থির এবং অবসাদগ্রস্ত থাকে।",
+        "mid": "mentally_slow_depressed"
+      },
+      {
+        "text": "অতিরিক্ত উচ্ছ্বাস ও উত্তেজনা",
+        "mid": "elation_excitement"
+      },
+      {
+        "text": "হঠাৎ রাগের outburst",
+        "mid": "sudden_anger"
+      },
+      {
+        "text": "ভয় ছাড়াই উদ্বেগ",
+        "mid": "anxiety_without_fear"
+      }
+    ],
+    "answer": "mentally_slow_depressed",
+    "explanation": "Alumen-এ রোগী মানসিকভাবে ধীরস্থির ও অবসাদগ্রস্ত থাকে।"
+  },
+  {
+    "id": "alumen-med-09",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কোনো কিছু মনে রাখার ক্ষমতা কমে যায় এবং রোগী সবসময় একপ্রকার আশঙ্কায় ভোগে।",
+        "mid": "poor_memory_apprehension"
+      },
+      {
+        "text": "অতীতের ঘটনা স্পষ্ট মনে থাকে",
+        "mid": "clear_remote_memory"
+      },
+      {
+        "text": "মনোযোগ বৃদ্ধি পায়",
+        "mid": "increased_focus"
+      },
+      {
+        "text": "ভবিষ্যৎ নিয়ে সম্পূর্ণ নিশ্চিন্ত",
+        "mid": "carefree_about_future"
+      }
+    ],
+    "answer": "poor_memory_apprehension",
+    "explanation": "Alumen-এ স্মৃতিশক্তি কমে যায় এবং রোগী সবসময় আশঙ্কায় ভোগে।"
+  },
+  {
+    "id": "alumen-med-10",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কোষ্ঠকাঠিন্য বৃদ্ধি পেলে রোগী খিটখিটে মেজাজের হয়ে পড়ে।",
+        "mid": "irritable_constipation"
+      },
+      {
+        "text": "ডায়রিয়ার সময় মেজাজ ভালো থাকে",
+        "mid": "good_mood_diarrhea"
+      },
+      {
+        "text": "সকালে অত্যন্ত প্রফুল্ল",
+        "mid": "morning_cheerfulness"
+      },
+      {
+        "text": "একাকী থাকতে ভালোবাসে",
+        "mid": "desire_solitude"
+      }
+    ],
+    "answer": "irritable_constipation",
+    "explanation": "Alumen-এ কোষ্ঠকাঠিন্য বাড়লে রোগী খিটখিটে মেজাজের হয়ে পড়ে।"
+  },
+  {
+    "id": "alumen-med-11",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গলার ভেতরটা অত্যন্ত শুকনো থাকে এবং মনে হয় যেন সংকুচিত হয়ে আসছে।",
+        "mid": "throat_dryness_constriction"
+      },
+      {
+        "text": "গলায় জ্বালাপোড়া",
+        "mid": "throat_burning"
+      },
+      {
+        "text": "গলায় খোঁচা দেওয়ার মতো ব্যথা",
+        "mid": "throat_sticking_pain"
+      },
+      {
+        "text": "গলায় কফ জমে থাকা",
+        "mid": "throat_mucus"
+      }
+    ],
+    "answer": "throat_dryness_constriction",
+    "explanation": "Alumen-এ গলার ভেতরটা শুকনো থাকে এবং সংকুচিত হয়ে আসার অনুভূতি হয়।"
+  },
+  {
+    "id": "alumen-med-12",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "টনসিল ফুলে শক্ত হয়ে যাওয়া এবং দীর্ঘস্থায়ী গলার ব্যথা।",
+        "mid": "tonsils_swollen_indurated"
+      },
+      {
+        "text": "টনসিল ফুলে যাওয়া কিন্তু নরম",
+        "mid": "soft_swollen_tonsils"
+      },
+      {
+        "text": "গলায় ধাতব স্বাদ",
+        "mid": "metallic_taste_throat"
+      },
+      {
+        "text": "গলার ব্যথা যা গরম পানীয়তে উপশম হয়",
+        "mid": "throat_pain_warm_drinks"
+      }
+    ],
+    "answer": "tonsils_swollen_indurated",
+    "explanation": "Alumen-এ টনসিল ফুলে শক্ত হয়ে যায় এবং দীর্ঘস্থায়ী গলার ব্যথা থাকে।"
+  },
+  {
+    "id": "alumen-med-13",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দীর্ঘস্থায়ী গলার ব্যথা, যেখানে গলা শুকনো ও সংকুচিত মনে হয়।",
+        "mid": "chronic_sore_throat"
+      },
+      {
+        "text": "তীব্র, হঠাৎ শুরু হওয়া গলার ব্যথা",
+        "mid": "sudden_severe_sore_throat"
+      },
+      {
+        "text": "গলার ব্যথা যা গরম পানীয়তে বাড়ে",
+        "mid": "throat_pain_aggravated_by_warm_drinks"
+      },
+      {
+        "text": "গলায় ফোলা কিন্তু ব্যথা নেই",
+        "mid": "painless_throat_swelling"
+      }
+    ],
+    "answer": "chronic_sore_throat",
+    "explanation": "Alumen দীর্ঘস্থায়ী গলার ব্যথায় উপযোগী, যেখানে গলা শুকনো ও সংকুচিত অনুভূত হয়।"
+  },
+  {
+    "id": "alumen-med-14",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটে প্রচণ্ড বায়ু জমে এবং মোচড়ানো ব্যথা (Colic) হয়।",
+        "mid": "abdominal_gas_colic"
+      },
+      {
+        "text": "পেটে হালকা গ্যাস, ব্যথা ছাড়া",
+        "mid": "mild_gas_no_pain"
+      },
+      {
+        "text": "পেটে জ্বালাপোড়া ও অম্লতা",
+        "mid": "epigastric_burning"
+      },
+      {
+        "text": "পেট ফুলে যাওয়া, তবে মোচড়ানো ব্যথা নেই",
+        "mid": "bloating_no_colic"
+      }
+    ],
+    "answer": "abdominal_gas_colic",
+    "explanation": "Alumen-এ পেটে প্রচণ্ড বায়ু জমে এবং মোচড়ানো ব্যথা (Colic) হয়।"
+  },
+  {
+    "id": "alumen-med-15",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "বমি বমি ভাব এবং অম্ল ঢেকুর ওঠে।",
+        "mid": "nausea_acid_eructations"
+      },
+      {
+        "text": "বমি হওয়া ছাড়া বমি বমি ভাব",
+        "mid": "nausea_without_vomiting"
+      },
+      {
+        "text": "মিষ্টি স্বাদের ঢেকুর",
+        "mid": "sweet_eructations"
+      },
+      {
+        "text": "বমির পর তীব্র দুর্বলতা",
+        "mid": "weakness_after_vomiting"
+      }
+    ],
+    "answer": "nausea_acid_eructations",
+    "explanation": "Alumen-এ বমি বমি ভাব এবং অম্ল ঢেকুর ওঠে।"
+  },
+  {
+    "id": "alumen-med-16",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মলত্যাগের পর দীর্ঘক্ষণ মলদ্বারে প্রচণ্ড ব্যথা বা জ্বালা থাকে।",
+        "mid": "rectal_pain_after_stool"
+      },
+      {
+        "text": "মলত্যাগের আগে মলদ্বারে ব্যথা",
+        "mid": "pain_before_stool_rectal"
+      },
+      {
+        "text": "মলদ্বারে চুলকানি",
+        "mid": "rectal_itching"
+      },
+      {
+        "text": "মলত্যাগের পর মলদ্বার ঠান্ডা অনুভূত হওয়া",
+        "mid": "cold_sensation_rectum"
+      }
+    ],
+    "answer": "rectal_pain_after_stool",
+    "explanation": "Alumen-এ মলত্যাগের পর দীর্ঘক্ষণ মলদ্বারে প্রচণ্ড ব্যথা বা জ্বালা থাকে।"
+  },
+  {
+    "id": "alumen-med-17",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়ুপথে ফিশার বা ক্ষত হতে পারে।",
+        "mid": "anal_fissures"
+      },
+      {
+        "text": "পায়ুপথে ফোলা কিন্তু ক্ষত নেই",
+        "mid": "anal_swelling_no_fissure"
+      },
+      {
+        "text": "পায়ুপথে জ্বালাপোড়া ছাড়া ফাটল",
+        "mid": "painless_fissure"
+      },
+      {
+        "text": "পায়ুপথে রক্তপাত ছাড়া ব্যথা",
+        "mid": "anal_pain_no_bleeding"
+      }
+    ],
+    "answer": "anal_fissures",
+    "explanation": "Alumen-এ পায়ুপথে ফিশার বা ক্ষত হতে পারে, যা মলত্যাগের পর ব্যথা ও জ্বালার সাথে সম্পর্কিত।"
+  },
+  {
+    "id": "alumen-med-18",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জরায়ুর নিচের অংশ (Cervix) শক্ত হয়ে যাওয়া।",
+        "mid": "cervix_indurated"
+      },
+      {
+        "text": "জরায়ু নরম ও প্রসারিত",
+        "mid": "soft_enlarged_uterus"
+      },
+      {
+        "text": "জরায়ুতে তীব্র জ্বালাপোড়া",
+        "mid": "burning_uterus"
+      },
+      {
+        "text": "জরায়ুতে ফোলা কিন্তু শক্ত নয়",
+        "mid": "swollen_non_indurated_uterus"
+      }
+    ],
+    "answer": "cervix_indurated",
+    "explanation": "Alumen-এ জরায়ুর নিচের অংশ (Cervix) শক্ত হয়ে যাওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "alumen-med-19",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রচুর পরিমাণে শ্বেতপ্রদর বা সাদা স্রাব নির্গত হওয়া।",
+        "mid": "profuse_leucorrhea"
+      },
+      {
+        "text": "স্বল্প পরিমাণে হলুদ স্রাব",
+        "mid": "scanty_yellow_discharge"
+      },
+      {
+        "text": "রক্তমিশ্রিত স্রাব",
+        "mid": "bloody_discharge"
+      },
+      {
+        "text": "স্রাব ছাড়া যোনিতে শুষ্কতা",
+        "mid": "vaginal_dryness"
+      }
+    ],
+    "answer": "profuse_leucorrhea",
+    "explanation": "Alumen-এ প্রচুর পরিমাণে শ্বেতপ্রদর বা সাদা স্রাব নির্গত হয়।"
+  },
+  {
+    "id": "alumen-med-20",
+    "stem": "নিচের কোনটি Alumen-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চামড়া অত্যন্ত রুক্ষ এবং ফাটল ধরা; সামান্য আঘাতেই ক্ষত হওয়ার প্রবণতা।",
+        "mid": "skin_rough_cracked"
+      },
+      {
+        "text": "চামড়া অতিরিক্ত তৈলাক্ত",
+        "mid": "oily_skin"
+      },
+      {
+        "text": "চামড়ায় চুলকানি ছাড়া লাল দাগ",
+        "mid": "red_spots_no_itching"
+      },
+      {
+        "text": "চামড়া নরম ও মসৃণ",
+        "mid": "soft_smooth_skin"
+      }
+    ],
+    "answer": "skin_rough_cracked",
+    "explanation": "Alumen-এ চামড়া অত্যন্ত রুক্ষ ও ফাটল ধরা, এবং সামান্য আঘাতেই ক্ষত হওয়ার প্রবণতা থাকে।"
+  }
+]
+

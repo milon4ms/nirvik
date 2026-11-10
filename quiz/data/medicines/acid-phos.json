@@ -1,0 +1,242 @@
+[
+{
+"id": "acid-phos-med-01",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "শোক, প্রিয়জনের মৃত্যু বা প্রেমে ব্যর্থতার পর উদাসীনতা, পরিবার ও কাজের প্রতি আগ্রহ হারিয়ে ফেলা", "mid": "sym-grief-indifference"},
+{"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম", "mid": "sym-fear-fever"},
+{"text": "রাতে অস্থিরতা, মৃত্যুভয় ও অল্প অল্প করে বারবার পানি পানের ইচ্ছা", "mid": "sym-restlessness-night"},
+{"text": "সামান্য কথায় রাগ, সকালে কোষ্ঠকাঠিন্য ও অতিরিক্ত কাজের চাপে অসুস্থতা", "mid": "sym-anger-constipation"}
+],
+"answer": "sym-grief-indifference",
+"explanation": "Acid Phos এর প্রধান মানসিক লক্ষণ হলো শোকের পর উদাসীনতা ও আগ্রহ হারিয়ে ফেলা।"
+},
+{
+"id": "acid-phos-med-02",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "অকারণে অতিরিক্ত কথা বলা, এক প্রসঙ্গ থেকে আরেক প্রসঙ্গে চলে যাওয়া", "mid": "sym-loquacious"},
+{"text": "প্রচণ্ড পিপাসা, ঠান্ডা পানি পানের ইচ্ছা ও অন্ধকারে ভয়", "mid": "sym-thirst-cold"},
+{"text": "কথা বলতে অনিচ্ছা, প্রশ্নের উত্তর দিতে দেরি করা ও খুব সংক্ষেপে উত্তর দেওয়া", "mid": "sym-unwilling-talk"},
+{"text": "পায়ের তলা জ্বালা, গরমে বৃদ্ধি ও সকালে ঘুম থেকে উঠে পায়খানার বেগ", "mid": "sym-burning-soles"}
+],
+"answer": "sym-unwilling-talk",
+"explanation": "Acid Phos রোগী কথা বলতে চায় না, প্রশ্নের উত্তর দিতে দেরি করে ও সংক্ষেপে উত্তর দেয়।"
+},
+{
+"id": "acid-phos-med-03",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "পরীক্ষা বা মঞ্চে ওঠার ভয়, হাত পা কাঁপা ও চোখের পাতা ভারী হয়ে আসা", "mid": "sym-stage-fear-trembling"},
+{"text": "স্মৃতিশক্তি হ্রাস, সঠিক শব্দ খুঁজে না পাওয়া", "mid": "sym-memory-loss-word"},
+{"text": "শরীরে ছুরি দিয়ে খোঁচানোর মতো ব্যথা, নড়াচড়ায় বৃদ্ধি ও বিশ্রামে উপশম", "mid": "sym-stitching-pain-motion"},
+{"text": "মাথায় ঘাম, ডিম খাওয়ার ইচ্ছা ও শিশুদের দাঁত ওঠা দেরি হওয়া", "mid": "sym-sweaty-head-eggs"}
+],
+"answer": "sym-memory-loss-word",
+"explanation": "Acid Phos এ স্মৃতিশক্তি কমে যায়, রোগী সঠিক শব্দ খুঁজে পায় না।"
+},
+{
+"id": "acid-phos-med-04",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "বিকেল ৪টা থেকে রাত ৮টা পর্যন্ত বৃদ্ধি, পেটে বায়ু ও মিষ্টি খাওয়ার ইচ্ছা", "mid": "sym-evening-aggravation-flatulence"},
+{"text": "খোলা বাতাসে ভালো লাগা, কান্নার ভাব ও পিপাসাহীনতা", "mid": "sym-open-air-weeping"},
+{"text": "পায়ের পাতা ঘামা, ঠান্ডা লাগা ও কাঁটার মতো ব্যথা", "mid": "sym-sweaty-feet-splinter"},
+{"text": "দ্রুত লম্বা হওয়া কিশোর কিশোরীদের শারীরিক ও মানসিক দুর্বলতা, শক্তি না পাওয়া", "mid": "sym-rapid-growth-weakness"}
+],
+"answer": "sym-rapid-growth-weakness",
+"explanation": "দ্রুত লম্বা হওয়া কিশোর কিশোরীদের শারীরিক ও মানসিক দুর্বলতায় Acid Phos উপযোগী।"
+},
+{
+"id": "acid-phos-med-05",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "হঠাৎ প্রচণ্ড ধড়ফড়ানি মাথা ব্যথা, মুখ লাল ও চোখের মণি বড় হয়ে যাওয়া", "mid": "sym-throbbing-headache-red"},
+{"text": "লিঙ্গ শিথিলতা, ঘুমের মধ্যে স্বপ্নদোষ ও সামান্য উত্তেজনায় বীর্যপাত", "mid": "sym-seminal-loss-weak-penis"},
+{"text": "জ্বালাকর ব্যথা, গরমে উপশম ও মধ্যরাতে বৃদ্ধি", "mid": "sym-burning-pain-heat"},
+{"text": "চাপা রাগ, চোখে অঞ্জনি বারবার হওয়া ও মূত্রথলিতে জ্বালা", "mid": "sym-suppressed-anger-stye"}
+],
+"answer": "sym-seminal-loss-weak-penis",
+"explanation": "Acid Phos এ লিঙ্গ শিথিলতা, স্বপ্নদোষ ও সামান্য উত্তেজনায় বীর্যপাত হয়।"
+},
+{
+"id": "acid-phos-med-06",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "সকালে বিছানা থেকে উঠিয়েই পায়খানার বেগ, পেটে গড়গড় শব্দ", "mid": "sym-morning-diarrhoea-bed"},
+{"text": "আর্দ্র আবহাওয়ায় বৃদ্ধি, বিশ্রামে জড়তা ও নড়াচড়ায় উপশম", "mid": "sym-damp-restlessness-motion"},
+{"text": "মল বা প্রস্রাবের সময় কোথ দিলে বীর্যপাত হওয়া", "mid": "sym-straining-emission"},
+{"text": "অল্প ঠান্ডাতেই সর্দি, পায়ে দুর্গন্ধযুক্ত ঘাম ও শীতকাতরতা", "mid": "sym-cold-susceptibility-sweat"}
+],
+"answer": "sym-straining-emission",
+"explanation": "Acid Phos এ মল বা প্রস্রাবের সময় কোথ দিলে বীর্যপাত হয়।"
+},
+{
+"id": "acid-phos-med-07",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "মিলনের পর ক্লান্তি, মেরুদণ্ড ও কোমরে জ্বালা, মাথা ঘোরা ও মাথা ব্যথা", "mid": "sym-post-coition-exhaustion"},
+{"text": "মিলনের পর অস্থিরতা ও উদ্বেগ, রাতে ঘুম না হওয়া", "mid": "sym-post-coition-anxiety"},
+{"text": "খাওয়ার পর পেট ফাঁপা, ঢেকুরে উপশম না হওয়া ও কোষ্ঠকাঠিন্য", "mid": "sym-flatulence-belching"},
+{"text": "গলায় কিছু আটকে থাকার অনুভূতি, দীর্ঘশ্বাস ফেলা ও বিপরীতধর্মী লক্ষণ", "mid": "sym-globus-sighing"}
+],
+"answer": "sym-post-coition-exhaustion",
+"explanation": "Acid Phos এ মিলনের পর ক্লান্তি, মেরুদণ্ড ও কোমরে জ্বালা, মাথা ঘোরা ও মাথা ব্যথা হয়।"
+},
+{
+"id": "acid-phos-med-08",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "প্রস্রাবে জ্বালা, বারবার প্রস্রাবের বেগ ও প্রস্রাবের শেষে রক্ত", "mid": "sym-dysuria-blood"},
+{"text": "প্রস্রাব গাঢ় হলুদ, দুর্গন্ধযুক্ত ও পরিমাণে কম হওয়া", "mid": "sym-dark-urine-scanty"},
+{"text": "প্রস্রাবের সময় কোমরে ব্যথা, বমি বমি ভাব ও শীত করে জ্বর আসা", "mid": "sym-renal-colic-vomiting"},
+{"text": "প্রস্রাব দুধের মতো সাদা বা ঘোলাটে হওয়া, তাতে প্রচুর ফসফেট থাকা", "mid": "sym-milky-urine-phosphate"}
+],
+"answer": "sym-milky-urine-phosphate",
+"explanation": "Acid Phos এর প্রস্রাব দুধের মতো সাদা বা ঘোলাটে হয় ও তাতে প্রচুর ফসফেট থাকে।"
+},
+{
+"id": "acid-phos-med-09",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "রক্তমিশ্রিত আমাশয়, পেটে মোচড় ও বারবার বেগ কিন্তু অল্প মল", "mid": "sym-dysentery-tenesmus"},
+{"text": "যন্ত্রণাহীন উদরাময়, পাতলা পায়খানা হলেও তেমন দুর্বল বোধ না করা", "mid": "sym-painless-diarrhoea-no-weakness"},
+{"text": "টক ঢেকুর, পেট ভারী লাগা ও চর্বিযুক্ত খাবারে বৃদ্ধি", "mid": "sym-sour-eructation-fat"},
+{"text": "পায়খানার পর জ্বালা, মলদ্বারে চুলকানি ও কোষ্ঠকাঠিন্য", "mid": "sym-anal-burning-itching"}
+],
+"answer": "sym-painless-diarrhoea-no-weakness",
+"explanation": "Acid Phos এ যন্ত্রণাহীন উদরাময় হয়, পাতলা পায়খানা হলেও রোগী তেমন দুর্বল বোধ করে না।"
+},
+{
+"id": "acid-phos-med-10",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "ঘুমের মধ্যে দাঁত কিড়মিড় করা, চমকে ওঠা ও ভয় পাওয়া", "mid": "sym-teeth-grinding-night"},
+{"text": "ঘুম থেকে উঠে মাথা ভারী লাগা, দিনে ঘুমালে বৃদ্ধি", "mid": "sym-heavy-after-sleep-day"},
+{"text": "অল্প সময় ঘুমালে দুর্বলতা দূর হওয়া ও ভালো লাগা", "mid": "sym-short-sleep-relief"},
+{"text": "রাতে ঘুম না হওয়া, মন অস্থির ও সকালে ক্লান্তি", "mid": "sym-sleepless-anxiety"}
+],
+"answer": "sym-short-sleep-relief",
+"explanation": "Acid Phos এ অল্প সময় ঘুমালে দুর্বলতা দূর হয় ও ভালো লাগে।"
+},
+{
+"id": "acid-phos-med-11",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "মাথায় ভারী বোধ, মনে হওয়া মাথার উপর কোনো ওজন রাখা আছে", "mid": "sym-heavy-head-weight"},
+{"text": "মাথায় দপদপানি ব্যথা, আলো ও শব্দে বৃদ্ধি ও ঠান্ডায় উপশম", "mid": "sym-throbbing-light-sound"},
+{"text": "মাথা ঘোরা, কানে ভোঁ ভোঁ শব্দ ও বমি বমি ভাব", "mid": "sym-vertigo-tinnitus-nausea"},
+{"text": "মাথায় টাক, চুলকানি ও মাথার তালুতে ঘাম", "mid": "sym-scalp-sweat-bald"}
+],
+"answer": "sym-heavy-head-weight",
+"explanation": "Acid Phos এ মাথায় ভারী বোধ হয়, মনে হয় মাথার উপর ওজন রাখা আছে।"
+},
+{
+"id": "acid-phos-med-12",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "চোখ লাল, আলো সহ্য না হওয়া ও চোখ দিয়ে পানি পড়া", "mid": "sym-red-eyes-photophobia"},
+{"text": "চোখে বালি পড়ার মতো অনুভূতি, শুষ্কতা ও চুলকানি", "mid": "sym-sandy-eyes-dry"},
+{"text": "চোখের পাতা ফোলা, আঠালো পিচুটি ও সকালে চোখ খুলতে কষ্ট", "mid": "sym-sticky-eyes-morning"},
+{"text": "চোখ কোটরগত হয়ে পড়া, চোখের চারপাশে নীল দাগ ও দৃষ্টিশক্তি ক্ষীণ হওয়া", "mid": "sym-sunken-eyes-blue"}
+],
+"answer": "sym-sunken-eyes-blue",
+"explanation": "Acid Phos এ চোখ কোটরগত হয়, চারপাশে নীল দাগ পড়ে ও দৃষ্টিশক্তি ক্ষীণ হয়।"
+},
+{
+"id": "acid-phos-med-13",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "চুল উঠে গোল গোল টাক পড়া, নখ ভঙ্গুর হওয়া", "mid": "sym-alopecia-spots-brittle"},
+{"text": "অল্প বয়সে চুল পেকে যাওয়া ও পড়ে যাওয়া, টাইফয়েডের পর চুল পড়া", "mid": "sym-premature-greying-typhoid"},
+{"text": "মাথায় খুশকি, চুলকানি ও চুল রুক্ষ হয়ে যাওয়া", "mid": "sym-dandruff-itching-rough"},
+{"text": "চুল পড়ার সঙ্গে মাথায় ঘাম ও ঠান্ডা লাগার প্রবণতা", "mid": "sym-hair-fall-sweat-cold"}
+],
+"answer": "sym-premature-greying-typhoid",
+"explanation": "Acid Phos এ অল্প বয়সে চুল পাকে ও পড়ে, টাইফয়েডের পর চুল পড়ার প্রবণতা থাকে।"
+},
+{
+"id": "acid-phos-med-14",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "গাঁটে গাঁটে ব্যথা, ফোলা ও ঠান্ডা সেঁকে উপশম", "mid": "sym-joint-swelling-cold"},
+{"text": "কোমরে ব্যথা, সামনে ঝুঁকলে বৃদ্ধি ও শক্ত বিছানায় উপশম", "mid": "sym-low-back-bending-hard-bed"},
+{"text": "হাড়ের পর্দায় ব্যথা, মনে হওয়া হাড়ের উপর স্ক্র্যাপার দিয়ে ঘষা হচ্ছে", "mid": "sym-periosteum-scraping-pain"},
+{"text": "হাড় ভাঙার মতো ব্যথা, জ্বর ও সারা শরীরে কামড়ানি", "mid": "sym-bone-breaking-fever"}
+],
+"answer": "sym-periosteum-scraping-pain",
+"explanation": "Acid Phos এ হাড়ের পর্দায় ব্যথা হয়, মনে হয় হাড়ের উপর স্ক্র্যাপার দিয়ে ঘষা হচ্ছে।"
+},
+{
+"id": "acid-phos-med-15",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "চামড়া শুষ্ক থাকা", "mid": "sym-dry-skin"},
+{"text": "চামড়া নোংরা, ফাটা ও গরম পানিতে ধুলে চুলকানি বৃদ্ধি", "mid": "sym-dirty-cracked-skin"},
+{"text": "চামড়ায় ফোসকা, চুলকানি ও রাতে বৃদ্ধি", "mid": "sym-vesicular-itching-night"},
+{"text": "চামড়া তৈলাক্ত, ব্রণ ও মুখে ঘাম", "mid": "sym-oily-skin-acne"}
+],
+"answer": "sym-dry-skin",
+"explanation": "Acid Phos এ চামড়া শুষ্ক থাকে।"
+},
+{
+"id": "acid-phos-med-16",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "ঠান্ডা বাতাসে বৃদ্ধি, গরমে উপশম ও বিশ্রামে বৃদ্ধি", "mid": "sym-cold-aggravation-rest"},
+{"text": "ভোরবেলা বৃদ্ধি, খোলা বাতাসে উপশম ও নড়াচড়ায় বৃদ্ধি", "mid": "sym-morning-aggravation-open-air"},
+{"text": "পূর্ণিমায় বৃদ্ধি, মিষ্টি খেলে বৃদ্ধি ও বিকেলে বৃদ্ধি", "mid": "sym-full-moon-sweets-evening"},
+{"text": "মানসিক পরিশ্রমে, কথা বললে ও রাতে লক্ষণ বৃদ্ধি পাওয়া", "mid": "sym-mental-exertion-talking-night"}
+],
+"answer": "sym-mental-exertion-talking-night",
+"explanation": "Acid Phos এ মানসিক পরিশ্রমে, কথা বললে ও রাতে লক্ষণ বৃদ্ধি পায়।"
+},
+{
+"id": "acid-phos-med-17",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "ভয় পেলে বৃদ্ধি, ঝড় বৃষ্টিতে বৃদ্ধি ও একা থাকলে বৃদ্ধি", "mid": "sym-fear-storm-alone"},
+{"text": "শোক, দুঃখ ও বীর্যক্ষয়ের কারণে লক্ষণ বৃদ্ধি পাওয়া", "mid": "sym-grief-seminal-aggravation"},
+{"text": "রাগ চাপা দিলে বৃদ্ধি, সান্ত্বনায় বৃদ্ধি ও স্পর্শে বৃদ্ধি", "mid": "sym-suppressed-anger-consolation"},
+{"text": "মাসিকের আগে বৃদ্ধি, গরম ঘরে বৃদ্ধি ও সকালে বৃদ্ধি", "mid": "sym-premenstrual-heat-morning"}
+],
+"answer": "sym-grief-seminal-aggravation",
+"explanation": "Acid Phos এ শোক, দুঃখ ও বীর্যক্ষয়ের কারণে লক্ষণ বৃদ্ধি পায়।"
+},
+{
+"id": "acid-phos-med-18",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "ঠান্ডা বাতাসে ভালো লাগা, চুপচাপ শুয়ে থাকলে ভালো লাগা", "mid": "sym-cold-air-rest-relief"},
+{"text": "চাপ দিলে ভালো লাগা, শক্ত করে বাঁধলে ভালো লাগা", "mid": "sym-pressure-binding-relief"},
+{"text": "উষ্ণতায় ও নড়াচড়া করলে সাময়িকভাবে ভালো লাগা", "mid": "sym-warmth-motion-relief"},
+{"text": "ঘাম হলে ভালো লাগা, বমি হলে ভালো লাগা", "mid": "sym-sweat-vomiting-relief"}
+],
+"answer": "sym-warmth-motion-relief",
+"explanation": "Acid Phos এ উষ্ণতায় ও নড়াচড়া করলে সাময়িকভাবে ভালো লাগে।"
+},
+{
+"id": "acid-phos-med-19",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "শীতকাতরতা, প্রধানত ডান পার্শ্বে রোগ আক্রমণ করা", "mid": "sym-chilly-right-side"},
+{"text": "গরমকাতরতা, বাম পার্শ্বে রোগ আক্রমণ করা", "mid": "sym-hot-left-side"},
+{"text": "শীত ও গরম দুটোতেই কাতরতা, রাতে ঘাম হওয়া", "mid": "sym-hot-cold-sweat"},
+{"text": "গরমে ঘাম না হওয়া, ঠান্ডা পানি খেতে ভালো লাগা", "mid": "sym-no-sweat-cold-drink"}
+],
+"answer": "sym-chilly-right-side",
+"explanation": "Acid Phos রোগী শীতকাতর, রোগ প্রধানত ডান পার্শ্বে আক্রমণ করে।"
+},
+{
+"id": "acid-phos-med-20",
+"stem": "নিচের কোনটি Acid Phos এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "অল্প পরিশ্রমেই হাঁপানি, বুকে চাপ ও শ্বাসকষ্ট", "mid": "sym-exertional-asthma-chest"},
+{"text": "হঠাৎ মাথা ঘোরা, পড়ে যাওয়া ও খিঁচুনি", "mid": "sym-sudden-vertigo-fall"},
+{"text": "খাওয়ার পরপরই বমি, পেটে জ্বালা ও টক পানি ওঠা", "mid": "sym-vomiting-acidity-burning"},
+{"text": "দীর্ঘস্থায়ী উদরাময়, অতিরিক্ত ঘাম বা জৈব রস ক্ষয়ের পর শারীরিক ও মানসিক দুর্বলতা", "mid": "sym-fluid-loss-weakness"}
+],
+"answer": "sym-fluid-loss-weakness",
+"explanation": "Acid Phos এ দীর্ঘস্থায়ী উদরাময়, অতিরিক্ত ঘাম বা জৈব রস ক্ষয়ের পর শারীরিক ও মানসিক দুর্বলতা আসে।"
+}
+]

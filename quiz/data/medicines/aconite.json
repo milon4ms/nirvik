@@ -1,0 +1,242 @@
+[
+  {
+    "id": "acon-med-01",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হঠাৎ ঝড়ের বেগে রোগ আক্রমণ করা, তীব্রভাবে শুরু হওয়া ও দ্রুত চলে যাওয়া", "mid": "sym-sudden-onset-storm"},
+      {"text": "ধীরে ধীরে রোগ শুরু হওয়া, দীর্ঘদিন ধরে দুর্বলতা ও ওজন কমে যাওয়া", "mid": "sym-slow-onset-weakness"},
+      {"text": "সকাল ১১টায় দুর্বলতা, মিষ্টি খাওয়ার ইচ্ছা ও রোদে মাথা ব্যথা", "mid": "sym-morning-weakness-sweet"},
+      {"text": "অল্প পরিশ্রমেই হাঁপানি, বুকে চাপ ও রাতে শ্বাসকষ্ট", "mid": "sym-exertional-asthma-chest"}
+    ],
+    "answer": "sym-sudden-onset-storm",
+    "explanation": "Aconite এর রোগ ঝড়ের বেগে হঠাৎ আসে, তীব্রভাবে শুরু হয় ও দ্রুত চলে যায়।"
+  },
+  {
+    "id": "acon-med-02",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মৃত্যু নিয়ে উদাসীন থাকা, কারো সঙ্গে কথা বলতে না চাওয়া", "mid": "sym-indifference-death"},
+      {"text": "মৃত্যুভয় নেই, কিন্তু ভূতের ভয় ও অন্ধকারে ভয় পাওয়া", "mid": "sym-ghost-dark-fear"},
+      {"text": "মৃত্যুভয়ে আতঙ্কিত থাকা, নিজের মৃত্যুর দিন বা তারিখ বলে দেওয়া", "mid": "sym-fear-death-predicts"},
+      {"text": "চাপা রাগ, চোখে বারবার অঞ্জনি হওয়া ও মূত্রথলিতে জ্বালা", "mid": "sym-suppressed-anger-stye"}
+    ],
+    "answer": "sym-fear-death-predicts",
+    "explanation": "Aconite রোগী মৃত্যুভয়ে আতঙ্কিত থাকে, এমনকি নিজের মৃত্যুর দিন বা তারিখ বলে দেয়।"
+  },
+  {
+    "id": "acon-med-03",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শুয়ে থাকলে ভালো লাগা, নড়াচড়ায় ব্যথা বৃদ্ধি ও চুপচাপ থাকতে চাওয়া", "mid": "sym-rest-better-motion-worse"},
+      {"text": "প্রচণ্ড অস্থিরতা, ব্যথায় ছটফট করা, এপাশ ওপাশ করা ও স্থির থাকতে না পারা", "mid": "sym-restlessness-tossing"},
+      {"text": "দিনে ঘুমালে ভালো লাগা, রাতে ঘুম না হওয়া ও মন খারাপ থাকা", "mid": "sym-day-sleep-better"},
+      {"text": "এক জায়গায় বসে থাকতে ভালো লাগা, ঠান্ডা পানি পানে বৃদ্ধি", "mid": "sym-sitting-better-cold-worse"}
+    ],
+    "answer": "sym-restlessness-tossing",
+    "explanation": "Aconite এ প্রচণ্ড শারীরিক ও মানসিক অস্থিরতা থাকে, রোগী ব্যথায় ছটফট করে ও এপাশ ওপাশ করে।"
+  },
+  {
+    "id": "acon-med-04",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভেজা ঠান্ডা আবহাওয়ায় বৃদ্ধি, বিশ্রামে জড়তা ও নড়াচড়ায় উপশম", "mid": "sym-damp-cold-rest-stiffness"},
+      {"text": "আর্দ্র আবহাওয়ায় হাঁপানি বৃদ্ধি, রাতে শ্বাসকষ্ট ও বসে থাকলে উপশম", "mid": "sym-humid-asthma-night"},
+      {"text": "সমুদ্রের বাতাসে বৃদ্ধি, লবণ খাওয়ার ইচ্ছা ও রোদে মাথা ব্যথা", "mid": "sym-sea-air-salt-sun"},
+      {"text": "শুকনো ঠান্ডা বাতাস বা ড্রাফট লেগে হঠাৎ রোগ হওয়া", "mid": "sym-dry-cold-wind-cause"}
+    ],
+    "answer": "sym-dry-cold-wind-cause",
+    "explanation": "Aconite এর রোগ শুকনো ঠান্ডা বাতাস বা ড্রাফট লাগার পর হঠাৎ শুরু হয়।"
+  },
+  {
+    "id": "acon-med-05",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পিপাসাহীনতা, খোলা বাতাসে ভালো লাগা ও কান্নার ভাব", "mid": "sym-thirstless-open-air"},
+      {"text": "প্রচণ্ড তৃষ্ণা, প্রচুর পরিমাণে ঠান্ডা পানি পান করার ইচ্ছা", "mid": "sym-intense-thirst-cold-water"},
+      {"text": "অল্প অল্প করে বারবার গরম পানি খাওয়ার ইচ্ছা, মধ্যরাতে বৃদ্ধি", "mid": "sym-sips-warm-water-midnight"},
+      {"text": "ঠান্ডা পানি পানে বমি, গরম পানিতে উপশম ও পেটে জ্বালা", "mid": "sym-cold-water-vomiting"}
+    ],
+    "answer": "sym-intense-thirst-cold-water",
+    "explanation": "Aconite এ প্রচণ্ড তৃষ্ণা থাকে, রোগী প্রচুর পরিমাণে ঠান্ডা পানি পান করতে চায়।"
+  },
+  {
+    "id": "acon-med-06",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভয় পেলে পেট খারাপ হওয়া, বারবার পায়খানা ও পেটে মোচড়", "mid": "sym-fear-diarrhoea-colic"},
+      {"text": "রোদে ঘোরার পর জ্বর, মাথা ব্যথা ও বমি বমি ভাব", "mid": "sym-sun-fever-headache"},
+      {"text": "ভয়, আতঙ্ক বা দুঃসংবাদের পর হঠাৎ জ্বর আসা", "mid": "sym-fever-fear"},
+      {"text": "কাঁপুনি দিয়ে জ্বর, নির্দিষ্ট সময়ে জ্বর আসা", "mid": "sym-intermittent-fever-chill"}
+    ],
+    "answer": "sym-fever-fear",
+    "explanation": "Aconite এর প্রধান লক্ষণ হলো ভয় বা আতঙ্কের পর হঠাৎ জ্বর আসা।"
+  },
+  {
+    "id": "acon-med-07",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জ্বরে চামড়া শুকনো ও গরম থাকা, ঘাম না হওয়া, ঘাম হলে রোগ কমে যাওয়া", "mid": "sym-dry-hot-skin-no-sweat"},
+      {"text": "জ্বরে প্রচুর ঘাম, ঘামে দুর্গন্ধ ও ভোরবেলা ঘামে ভিজে যাওয়া", "mid": "sym-fever-profuse-sweat"},
+      {"text": "জ্বরে হাত পা ঠান্ডা, মুখ ফ্যাকাশে ও ঠোঁট নীল হয়ে যাওয়া", "mid": "sym-fever-cold-limbs-pale"},
+      {"text": "জ্বরে সারা শরীরে ফুসকুড়ি, চুলকানি ও গলা ব্যথা", "mid": "sym-fever-rash-itching"}
+    ],
+    "answer": "sym-dry-hot-skin-no-sweat",
+    "explanation": "Aconite জ্বরে চামড়া শুকনো ও গরম থাকে, ঘাম হয় না, ঘাম শুরু হওয়া মানেই কাজ শেষ হওয়া।"
+  },
+  {
+    "id": "acon-med-08",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উদ্বেগ ও রাগ, সামান্য কথায় রেগে যাওয়া ও কোষ্ঠকাঠিন্য", "mid": "sym-anxiety-anger-constipation"},
+      {"text": "উদ্বেগ ও ভয়, তবে সান্ত্বনা পেলে ভালো লাগা ও কান্না করা", "mid": "sym-anxiety-consolation-weeping"},
+      {"text": "উদ্বেগ নেই, সবকিছুর প্রতি উদাসীনতা ও কথা বলতে অনিচ্ছা", "mid": "sym-no-anxiety-indifference"},
+      {"text": "প্রতিটি লক্ষণের সঙ্গে গভীর উদ্বেগ, মনে করা আর বাঁচবে না, মৃত্যু আসন্ন", "mid": "sym-anxiety-will-not-survive"}
+    ],
+    "answer": "sym-anxiety-will-not-survive",
+    "explanation": "Aconite এ প্রতিটি লক্ষণের সঙ্গে গভীর উদ্বেগ থাকে, রোগী মনে করে সে আর বাঁচবে না।"
+  },
+  {
+    "id": "acon-med-09",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "একা থাকতে ভয়, অন্ধকারে ভয় ও সঙ্গী চাওয়া", "mid": "sym-fear-alone-dark"},
+      {"text": "জনসমাগমে যেতে ভয়, রাস্তা পার হতে ভয় পাওয়া", "mid": "sym-agoraphobia-crowd-road"},
+      {"text": "উঁচু জায়গায় ভয়, নিচে তাকালে মাথা ঘোরা", "mid": "sym-fear-height-vertigo"},
+      {"text": "পানি দেখলে ভয়, পানি খেতে ভয় পাওয়া", "mid": "sym-fear-water-drinking"}
+    ],
+    "answer": "sym-agoraphobia-crowd-road",
+    "explanation": "Aconite রোগী জনসমাগমে যেতে ভয় পায়, রাস্তা পার হতে ভয় পায়।"
+  },
+  {
+    "id": "acon-med-10",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কষ্ট পেলেও নীরবে কাঁদা, সান্ত্বনায় বৃদ্ধি ও লবণ খাওয়ার ইচ্ছা", "mid": "sym-silent-weeping-consolation"},
+      {"text": "কষ্টে রাগ করা, জিনিসপত্র ছুঁড়ে ফেলা ও চিৎকার করা", "mid": "sym-pain-anger-throwing"},
+      {"text": "মানসিক যন্ত্রণায় চিৎকার করে কাঁদা ও বিলাপ করা", "mid": "sym-crying-lamentation-pain"},
+      {"text": "কষ্টে চুপ হয়ে যাওয়া, কারো সঙ্গে কথা না বলা ও ঘুমিয়ে পড়া", "mid": "sym-pain-silent-sleep"}
+    ],
+    "answer": "sym-crying-lamentation-pain",
+    "explanation": "Aconite এ মানসিক যন্ত্রণায় রোগী চিৎকার করে কাঁদে ও বিলাপ করে।"
+  },
+  {
+    "id": "acon-med-11",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উদ্বেগের সঙ্গে বুক ধড়ফড়ানি, নাড়ি দ্রুত, শক্ত ও পূর্ণ থাকা", "mid": "sym-palpitation-bounding-pulse"},
+      {"text": "নাড়ি ধীর, দুর্বল ও অনিয়মিত, সামান্য পরিশ্রমে ক্লান্তি", "mid": "sym-slow-weak-pulse"},
+      {"text": "নাড়ি দ্রুত কিন্তু দুর্বল, বুকে চাপ ও শ্বাসকষ্ট", "mid": "sym-fast-weak-pulse-chest"},
+      {"text": "বুক ধড়ফড়ানি খাওয়ার পর বৃদ্ধি, পেট ফাঁপা ও ঢেকুর", "mid": "sym-palpitation-after-eating"}
+    ],
+    "answer": "sym-palpitation-bounding-pulse",
+    "explanation": "Aconite এ উদ্বেগের সঙ্গে বুক ধড়ফড়ানি হয়, নাড়ি দ্রুত, শক্ত ও পূর্ণ থাকে।"
+  },
+  {
+    "id": "acon-med-12",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডান হাতে ব্যথা, ভারী বোধ ও হাত তুলতে কষ্ট", "mid": "sym-right-arm-pain-heavy"},
+      {"text": "দুই হাতে ঘাম, ঠান্ডা লাগা ও আঙুলে কাঁপুনি", "mid": "sym-hands-sweat-trembling"},
+      {"text": "হাতে পায়ে জ্বালা, গরম পানিতে ধুলে বৃদ্ধি ও চুলকানি", "mid": "sym-limbs-burning-warm-water"},
+      {"text": "বাম হাতে অবশ বা ঝিনঝিন বোধ হওয়া", "mid": "sym-left-arm-numb-tingling"}
+    ],
+    "answer": "sym-left-arm-numb-tingling",
+    "explanation": "Aconite এ বাম হাতে অবশ বা ঝিনঝিন বোধ হতে পারে।"
+  },
+  {
+    "id": "acon-med-13",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাশির সঙ্গে প্রচুর কফ, বুকে ঘড়ঘড় শব্দ ও সকালে বৃদ্ধি", "mid": "sym-cough-profuse-phlegm"},
+      {"text": "হঠাৎ ঠান্ডা লেগে শুকনো, ঘড়ঘড়ে বা খুসখুসে কাশি, ক্রুপের মতো কাশি", "mid": "sym-croupy-cough-dry"},
+      {"text": "শুকনো কাশি, গলায় সুড়সুড়ি ও ঠান্ডা বাতাসে বৃদ্ধি", "mid": "sym-dry-cough-tickling"},
+      {"text": "কাশির সঙ্গে রক্ত, বুকে ব্যথা ও ওজন কমে যাওয়া", "mid": "sym-cough-blood-weight-loss"}
+    ],
+    "answer": "sym-croupy-cough-dry",
+    "explanation": "Aconite এ হঠাৎ ঠান্ডা লেগে শুকনো, ঘড়ঘড়ে বা খুসখুসে কাশি হয়, ক্রুপের মতো কাশি।"
+  },
+  {
+    "id": "acon-med-14",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শ্বাস ছাড়ার সময় কষ্ট বৃদ্ধি, শুয়ে থাকলে বৃদ্ধি ও বসলে উপশম", "mid": "sym-expiration-worse-lying"},
+      {"text": "শ্বাসকষ্ট রাতে বৃদ্ধি, হাঁপানি ও বুকে শোঁ শোঁ শব্দ", "mid": "sym-asthma-night-wheeze"},
+      {"text": "শ্বাসকষ্ট, বিশেষ করে শ্বাস নেওয়ার সময় কষ্ট বৃদ্ধি পাওয়া", "mid": "sym-dyspnoea-inspiration-worse"},
+      {"text": "শ্বাসকষ্ট পরিশ্রমে বৃদ্ধি, বুকে চাপ ও কাশির সঙ্গে কফ", "mid": "sym-dyspnoea-exertion-phlegm"}
+    ],
+    "answer": "sym-dyspnoea-inspiration-worse",
+    "explanation": "Aconite এ শ্বাসকষ্ট হয়, বিশেষ করে শ্বাস নেওয়ার সময় কষ্ট বাড়ে।"
+  },
+  {
+    "id": "acon-med-15",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অসহ্য যন্ত্রণাদায়ক ব্যথা, ব্যথার চোটে পাগল প্রায় হয়ে যাওয়া, সঙ্গে ঝিনঝিন বা অসাড়তা", "mid": "sym-intolerable-pain-mad"},
+      {"text": "ব্যথা ধীরে ধীরে বৃদ্ধি, চাপ দিলে উপশম ও বিশ্রামে উপশম", "mid": "sym-pain-slow-pressure-better"},
+      {"text": "ব্যথা এক জায়গা থেকে আরেক জায়গায় ঘুরে বেড়ানো, ঠান্ডায় বৃদ্ধি", "mid": "sym-pain-wandering-cold"},
+      {"text": "ব্যথা রাতে বৃদ্ধি, গরম সেঁকে উপশম ও নড়াচড়ায় বৃদ্ধি", "mid": "sym-pain-night-warm-better"}
+    ],
+    "answer": "sym-intolerable-pain-mad",
+    "explanation": "Aconite এ ব্যথা অসহ্য হয়, ব্যথার চোটে রোগী প্রায় পাগল হয়ে যায়, সঙ্গে ঝিনঝিন বা অসাড়তা থাকে।"
+  },
+  {
+    "id": "acon-med-16",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখ সবসময় লাল, গরম ও ঘামযুক্ত থাকা", "mid": "sym-face-always-red-hot"},
+      {"text": "মুখ ফ্যাকাশে, ঠোঁট সাদা ও রক্তশূন্যতা", "mid": "sym-face-pale-anaemia"},
+      {"text": "মুখে হলুদ ছোপ, নাকের উপর ঘামের মতো দাগ", "mid": "sym-face-yellow-saddle"},
+      {"text": "শোয়া অবস্থায় মুখ লাল থাকা, উঠে বসলে মুখ ফ্যাকাশে হয়ে যাওয়া ও মাথা ঘোরা", "mid": "sym-face-red-lying-pale-sitting"}
+    ],
+    "answer": "sym-face-red-lying-pale-sitting",
+    "explanation": "Aconite এ শোয়া অবস্থায় মুখ লাল থাকে, উঠে বসলে তা ফ্যাকাশে হয়ে যায় ও মাথা ঘোরে।"
+  },
+  {
+    "id": "acon-med-17",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকালে ঘুম থেকে উঠে বৃদ্ধি, রোদে বৃদ্ধি ও বিকেলে উপশম", "mid": "sym-morning-sun-worse"},
+      {"text": "সন্ধ্যায় ও রাতে, বিশেষ করে মাঝরাতে লক্ষণ বৃদ্ধি পাওয়া", "mid": "sym-evening-night-midnight-worse"},
+      {"text": "দুপুরে বৃদ্ধি, খাওয়ার পর বৃদ্ধি ও রাতে উপশম", "mid": "sym-noon-after-eating-worse"},
+      {"text": "ভোর ৩টায় বৃদ্ধি, ঠান্ডা পানিতে বৃদ্ধি ও গরমে উপশম", "mid": "sym-3am-cold-water-worse"}
+    ],
+    "answer": "sym-evening-night-midnight-worse",
+    "explanation": "Aconite এ সন্ধ্যায় ও রাতে, বিশেষ করে মাঝরাতে লক্ষণ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "acon-med-18",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা ঘরে বৃদ্ধি, গরমে উপশম ও চাপ দিলে উপশম", "mid": "sym-cold-room-warm-better"},
+      {"text": "খোলা বাতাসে বৃদ্ধি, ঠান্ডা বাতাসে বৃদ্ধি ও ঘরে থাকলে উপশম", "mid": "sym-open-air-cold-worse"},
+      {"text": "উষ্ণ ঘরে ও আক্রান্ত পার্শ্বে শুলে কষ্ট বৃদ্ধি পাওয়া", "mid": "sym-warm-room-affected-side-worse"},
+      {"text": "ভেজা বিছানায় বৃদ্ধি, বৃষ্টিতে ভিজলে বৃদ্ধি ও শুকনো জায়গায় উপশম", "mid": "sym-wet-bed-rain-worse"}
+    ],
+    "answer": "sym-warm-room-affected-side-worse",
+    "explanation": "Aconite এ উষ্ণ ঘরে ও আক্রান্ত পার্শ্বে শুলে কষ্ট বাড়ে।"
+  },
+  {
+    "id": "acon-med-19",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুক্ত বাতাসে, বিশ্রামে ও ঘাম হলে ভালো লাগা", "mid": "sym-open-air-rest-sweat-better"},
+      {"text": "গরম ঘরে ভালো লাগা, চাপ দিলে ভালো লাগা ও শুয়ে থাকলে ভালো লাগা", "mid": "sym-warm-room-pressure-better"},
+      {"text": "ঠান্ডা পানি খেলে ভালো লাগা, অন্ধকার ঘরে ভালো লাগা", "mid": "sym-cold-water-dark-better"},
+      {"text": "নড়াচড়া করলে ভালো লাগা, ভেজা আবহাওয়ায় ভালো লাগা", "mid": "sym-motion-wet-better"}
+    ],
+    "answer": "sym-open-air-rest-sweat-better",
+    "explanation": "Aconite এ মুক্ত বাতাসে, বিশ্রামে ও ঘাম হলে ভালো লাগে।"
+  },
+  {
+    "id": "acon-med-20",
+    "stem": "নিচের কোনটি Aconite এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমকাতরতা, রোগ প্রধানত ডান পার্শ্বে আক্রমণ করা", "mid": "sym-hot-right-side"},
+      {"text": "শীত ও গরম দুটোতেই কাতরতা, রাতে ঘাম হওয়া", "mid": "sym-both-hot-cold-night-sweat"},
+      {"text": "গরমে ঘাম না হওয়া, ঠান্ডা পানি খেতে ভালো লাগা", "mid": "sym-no-sweat-cold-drink"},
+      {"text": "শীতকাতরতা, রোগ প্রধানত বাম পার্শ্বে আক্রমণ করা", "mid": "sym-chilly-left-side"}
+    ],
+    "answer": "sym-chilly-left-side",
+    "explanation": "Aconite রোগী সাধারণত শীতকাতর, রোগ প্রধানত বাম পার্শ্বে আক্রমণ করে।"
+  }
+]

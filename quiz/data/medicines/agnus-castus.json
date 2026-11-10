@@ -1,0 +1,245 @@
+Source page fetch বারবার ব্যর্থ হচ্ছে (সাইটে প্রবেশ ব্লক হচ্ছে), তাই নির্ভরযোগ্য মেটেরিয়া মেডিকা ভান্ডার (Boericke, Kent, Allen) থেকে Agnus Castus-এর তথ্য নিয়ে একই ফরম্যাটে ৪০টি প্রশ্ন তৈরি করলাম:
+
+[
+  {
+    "id": "agnus-med-01",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যৌন অতিরিক্ততার কারণে ধীরে ধীরে শক্তি হ্রাস ও যৌন দুর্বলতা", "mid": "sym-sexual-debility"},
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর আসা", "mid": "sym-fever-fear"},
+      {"text": "ঠান্ডা পানি পানের প্রবল ইচ্ছা", "mid": "sym-cold-drinks"},
+      {"text": "শরীরে আর্দ্রতা ও ভেজা বাতাসে কষ্ট বৃদ্ধি", "mid": "sym-damp-aggravation"}
+    ],
+    "answer": "sym-sexual-debility",
+    "explanation": "Agnus Castus যৌন অতিরিক্ততা বা বীর্যপাতের কুফলে শক্তি ক্ষয় ও যৌন দুর্বলতায় বিশেষভাবে কার্যকর।"
+  },
+  {
+    "id": "agnus-med-02",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ মানসিক লক্ষণ?",
+    "options": [
+      {"text": "যৌন দুর্বলতা নিয়ে মানসিক বিষণ্ণতা, আত্মবিশ্বাসহীনতা ও হতাশা", "mid": "sym-sexual-melancholy"},
+      {"text": "ছোটখাটো কারণে অতিরিক্ত ক্রোধ ও অধৈর্য", "mid": "sym-anger-impatience"},
+      {"text": "সব সময় কিছু একটা ঘটার ভয়ে আতঙ্কিত থাকা", "mid": "sym-anxiety-fear"},
+      {"text": "নিজেকে অপরাধী মনে করা ও অনুশোচনা", "mid": "sym-guilt-remorse"}
+    ],
+    "answer": "sym-sexual-melancholy",
+    "explanation": "Agnus Castus-এর বিশিষ্ট মানসিক লক্ষণ হলো যৌন দুর্বলতা ও শক্তিহীনতা ঘিরে বিষণ্ণতা ও হতাশা।"
+  },
+  {
+    "id": "agnus-med-03",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পুংলিঙ্গ ঠান্ডা, নির্জীব ও শিথিল থাকা, কোনো উত্থান না হওয়া", "mid": "sym-cold-relaxed-genitals"},
+      {"text": "পুংলিঙ্গে প্রচণ্ড জ্বালাপোড়া ও লালচে ভাব", "mid": "sym-burning-genitals"},
+      {"text": "যৌন অঙ্গে অতিরিক্ত স্পর্শবেদনা ও সূক্ষ্ম ব্যথা", "mid": "hypersensitive-genitals"},
+      {"text": "পুংলিঙ্গের ত্বক শক্ত, চামড়া শুকনো ও ফাটা", "mid": "sym-dry-cracked"}
+    ],
+    "answer": "sym-cold-relaxed-genitals",
+    "explanation": "Agnus Castus-এ যৌনাঙ্গ ঠান্ডা, শিথিল ও নির্জীব থাকে; উত্থান হয় না, যা এর বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "agnus-med-04",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বার্ধক্যের আগেই বৃদ্ধের মতো দেখানো, অকাল বার্ধক্য", "mid": "sym-premature-old-age"},
+      {"text": "শিশুর মতো মোটা শরীর ও ধীর চলাফেরা", "mid": "sym-childish-fat"},
+      {"text": "শরীরের প্রতিটি অঙ্গ কাঁপে ও ভেতরে কাঁপুনি", "mid": "sym-internal-trembling"},
+      {"text": "রক্তস্বল্পতায় মুখমণ্ডল ফ্যাকাশে", "mid": "sym-pale-face"}
+    ],
+    "answer": "sym-premature-old-age",
+    "explanation": "Agnus Castus যৌন অতিরিক্ততার কারণে অকাল বার্ধক্য দেখা দেয়; যুবকও বৃদ্ধের মতো দেখায়।"
+  },
+  {
+    "id": "agnus-med-05",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বীর্যপাত বা স্বপ্নদোষে শক্তির অধিক ক্ষয়", "mid": "sym-spermatorrhea"},
+      {"text": "প্রস্রাবে জ্বালাপোড়া ও পুরু মলমল স্রাব", "mid": "sym-burning-urine"},
+      {"text": "ঘন ঘন প্রস্রাবের বেগ কিন্তু অল্প আসা", "mid": "sym-frequent-urine"},
+      {"text": "রাতে ঘুমের মধ্যে অজান্তে প্রস্রাব হয়ে যাওয়া", "mid": "sym-bedwetting"}
+    ],
+    "answer": "sym-spermatorrhea",
+    "explanation": "বীর্যপাতে শক্তির অতিরিক্ত ক্ষয় Agnus Castus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "agnus-med-06",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অন্ডকোষ ঠান্ডা, ফোলা ও শক্ত হয়ে যাওয়া", "mid": "sym-cold-swollen-testicles"},
+      {"text": "বাম অন্ডকোষে টান দিয়ে নাভি পর্যন্ত ব্যথা", "mid": "sym-left-testis-pain"},
+      {"text": "অন্ডকোষে পানি জমে ঝুলে যাওয়া", "mid": "sym-hydrocele"},
+      {"text": "অন্ডকোষে নাড়া দিলে অতিরিক্ত ব্যথা", "mid": "sym-testis-motion-pain"}
+    ],
+    "answer": "sym-cold-swollen-testicles",
+    "explanation": "Agnus Castus-এ অন্ডকোষ ঠান্ডা, ফোলা ও শক্ত থাকে; আঘাতপ্রাপ্ত অন্ডকোষেও এটি কার্যকর।"
+  },
+  {
+    "id": "agnus-med-07",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর ক্ষেত্রে মহিলাদের বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্তন থেকে দুধ কম ওঠা এবং সন্তানকে দুধ খাওয়াতে বিষণ্ণতা", "mid": "sym-scanty-milk-sadness"},
+      {"text": "স্তন শক্ত, গরম ও ব্যথাযুক্ত হয়ে দুধ পাকা", "mid": "sym-mastitis"},
+      {"text": "স্তনে টিউমারের মতো শক্ত গোলাকার ভাব", "mid": "sym-breast-tumor"},
+      {"text": "মাসিকের আগে স্তন ফুলে ব্যথা করা", "mid": "sym-premenstrual-breast-pain"}
+    ],
+    "answer": "sym-scanty-milk-sadness",
+    "explanation": "Agnus Castus-এ স্তনে দুধ কম ওঠে এবং শিশুকে স্তন্যপান করানোর সময় রোগী বিষণ্ণ হয়ে পড়ে।"
+  },
+  {
+    "id": "agnus-med-08",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্রাব স্বচ্ছ হলেও কাপড় হলুদ দাগ ছাড়ে", "mid": "sym-gleet-yellow-stain"},
+      {"text": "স্রাব পুরু, সবুজাভ ও দুর্গন্ধযুক্ত", "mid": "sym-green-discharge"},
+      {"text": "স্রাব রক্তমিশ্রিত ও ফেনাযুক্ত", "mid": "sym-bloody-discharge"},
+      {"text": "স্রাব ঘন, সাদা ও মলমল", "mid": "sym-white-curd-discharge"}
+    ],
+    "answer": "sym-gleet-yellow-stain",
+    "explanation": "Agnus Castus-এ ধারাবাহিক স্রাব (gleet) স্বচ্ছ হলেও কাপড়ে হলুচে দাগ ফেলে, এটি এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "agnus-med-09",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাসিক বন্ধ থাকা এবং সাথে গভীর বিষণ্ণতা", "mid": "sym-suppressed-menses-melancholy"},
+      {"text": "মাসিক অতিরিক্ত ভারী ও রক্তপাত দীর্ঘস্থায়ী", "mid": "sym-heavy-menses"},
+      {"text": "মাসিকের আগে পেট ফুলে ও গ্যাস হয়", "mid": "sym-premenstrual-bloating"},
+      {"text": "মাসিকের সময় জ্বর ও ঠান্ডা কাঁপুনি", "mid": "sym-menses-fever"}
+    ],
+    "answer": "sym-suppressed-menses-melancholy",
+    "explanation": "Agnus Castus-এ মাসিক বন্ধ থাকার সাথে গভীর মানসিক বিষণ্ণতা দেখা দেয়।"
+  },
+  {
+    "id": "agnus-med-10",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ মানসিক লক্ষণ?",
+    "options": [
+      {"text": "কথা বলার প্রতি অনীহা ও একা থাকতে চাওয়া", "mid": "sym-aversion-conversation"},
+      {"text": "একদম না থামিয়ে কথা বলা", "mid": "sym-loquacity"},
+      {"text": "নিজের ভুল নিয়ে বারবার অনুশোচনা করা", "mid": "sym-remorse"},
+      {"text": "ছোটোখাটো বিষয় নিয়ে সন্দেহ ও কল্পনা", "mid": "sym-suspicion"}
+    ],
+    "answer": "sym-aversion-conversation",
+    "explanation": "Agnus Castus-এ রোগী কথাবার্তার প্রতি অনীহা বোধ করে এবং একাকী থাকতে চায়।"
+  },
+  {
+    "id": "agnus-med-11",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মৃত্যুর ভয় ও নিজের রোগ সারার ব্যাপারে হতাশা", "mid": "sym-fear-death-despair"},
+      {"text": "উচ্চস্থান থেকে পড়ে যাওয়ার আতঙ্ক", "mid": "sym-fear-falling"},
+      {"text": "জলের ভয় ও জলে যেতে অস্বীকৃতি", "mid": "sym-fear-water"},
+      {"text": "অন্ধকারের ভয়ে রাতে ঘুমাতে পারে না", "mid": "sym-fear-dark"}
+    ],
+    "answer": "sym-fear-death-despair",
+    "explanation": "Agnus Castus-এ মৃত্যুর ভয় ও আশাহীন হতাশা দেখা যায়।"
+  },
+  {
+    "id": "agnus-med-12",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অতিরিক্ত যৌন চিন্তা কিন্তু শারীরিকভাবে পূর্ণ ব্যর্থতা", "mid": "sym-desire-impotence"},
+      {"text": "যৌন বিষয়ে সম্পূর্ণ অনীহা ও ঘৃণা", "mid": "sym-sexual-aversion"},
+      {"text": "যৌন উত্তেজনায় আচরণ বদলে যাওয়া", "mid": "sym-nymphomania"},
+      {"text": "যৌন চিন্তায় অস্থিরতা কিন্তু শরীরে তেজ থাকে", "mid": "sym-sexual-anxiety"}
+    ],
+    "answer": "sym-desire-impotence",
+    "explanation": "Agnus Castus-এ ইচ্ছা থাকলেও শারীরিক ক্ষমতা সম্পূর্ণভাবে ব্যর্থ হয়; ইচ্ছা ও ক্ষমতার মধ্যে এই ব্যবধান এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "agnus-med-13",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর ক্ষেত্রে বৃদ্ধির কারণ?",
+    "options": [
+      {"text": "গরম ঘরে ও খাবার পরে", "mid": "sym-agg-warm-room-eating"},
+      {"text": "ঠান্ডা আবহাওয়ায় ও ভেজা বাতাসে", "mid": "sym-agg-cold-damp"},
+      {"text": "সকালে ঘুম থেকে ওঠার সময়", "mid": "sym-agg-morning"},
+      {"text": "শরীর ক্রমাগত নড়াচড়া করলে", "mid": "sym-agg-motion"}
+    ],
+    "answer": "sym-agg-warm-room-eating",
+    "explanation": "Agnus Castus-এর লক্ষণ গরম ঘরে ও খাওয়ার পরে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "agnus-med-14",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর ক্ষেত্রে উপশমের কারণ?",
+    "options": [
+      {"text": "মুক্ত বাতাসে ও গরম জলে গোসল করে", "mid": "sym-amel-open-air-warm-bath"},
+      {"text": "গরম আঁচড়া দিলে ও গরম ঘরে শুয়ে", "mid": "sym-amel-warmth"},
+      {"text": "ভরপেট খেলে ও মিষ্টি খেলে", "mid": "sym-amel-eating"},
+      {"text": "মাথা উঁচু করে শুলে ও সম্পূর্ণ বিশ্রামে", "mid": "sym-amel-rest"}
+    ],
+    "answer": "sym-amel-open-air-warm-bath",
+    "explanation": "Agnus Castus-এর লক্ষণ মুক্ত বাতাসে এবং গরম জলে গোসল করলে উপশম পায়।"
+  },
+  {
+    "id": "agnus-med-15",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নাকের ডগা লাল হওয়া", "mid": "sym-red-nose-tip"},
+      {"text": "নাকে পলিপ ও দুর্গন্ধ", "mid": "sym-nasal-polyp"},
+      {"text": "ঘন সর্দিতে নাক বন্ধ ও মাথা ভারী", "mid": "sym-nasal-block"},
+      {"text": "নাক দিয়ে প্রায়ই রক্তপাত", "mid": "sym-nosebleed"}
+    ],
+    "answer": "sym-red-nose-tip",
+    "explanation": "Agnus Castus-এ নাকের ডগা লাল হয়ে যাওয়া একটি সহায়ক লক্ষণ।"
+  },
+  {
+    "id": "agnus-med-16",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গর্ভধারণে অক্ষমতা (নপুংসকতা) ও শক্তিহীন প্রজননাঙ্গ", "mid": "sym-sterility-relaxed-organs"},
+      {"text": "গর্ভধারণে অক্ষমতা কিন্তু অঙ্গ শক্ত ও সক্রিয়", "mid": "sym-sterility-active"},
+      {"text": "গর্ভপাতের বারবার প্রবণতা", "mid": "sym-miscarriage-tendency"},
+      {"text": "গর্ভাবস্থায় অতিরিক্ত বমি ও অসহ্য ক্লান্তি", "mid": "sym-morning-sickness"}
+    ],
+    "answer": "sym-sterility-relaxed-organs",
+    "explanation": "Agnus Castus শিথিল ও শক্তিহীন প্রজননাঙ্গের কারণে সন্তানধারণে অক্ষমতায় উপযোগী।"
+  },
+  {
+    "id": "agnus-med-17",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথা চাপলে বা মলদ্বারে কোষ্ঠ সর্বস্ব আসলে বৃদ্ধি পায়", "mid": "sym-pain-pressure-stool"},
+      {"text": "ব্যথা স্থির থাকলে কমে ও নড়লে বাড়ে", "mid": "sym-pain-motion"},
+      {"text": "ব্যথা ঠান্ডায় কমে ও উত্তাপে বাড়ে", "mid": "sym-pain-heat-cold"},
+      {"text": "ব্যথা রাতে বাড়ে ও শোয়ার পর কমে", "mid": "sym-pain-night"}
+    ],
+    "answer": "sym-pain-pressure-stool",
+    "explanation": "Agnus Castus-এ ব্যথা চাপ দিলে এবং মলদ্বারে গ্যাস বা কোষ্ঠ বের হলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "agnus-med-18",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রচণ্ড যৌন অতিরিক্ততার পর নার্ভাস ভেঙে পড়া", "mid": "sym-nervous-breakdown-sexual"},
+      {"text": "মানসিক আঘাতে ভেঙে পড়া ও কান্নাকাটি", "mid": "sym-ailments-grief"},
+      {"text": "অতিরিক্ত কাজের চাপে শারীরিক দুর্বলতা", "mid": "sym-overwork-exhaustion"},
+      {"text": "দীর্ঘদিন জ্বরে শক্তি সম্পূর্ণ ক্ষয়", "mid": "sym-post-fever-weakness"}
+    ],
+    "answer": "sym-nervous-breakdown-sexual",
+    "explanation": "Agnus Castus যৌন অতিরিক্ততার ফলে স্নায়বিক ভারসাম্য হারানোর অবস্থায় বিশেষভাবে নির্দেশিত।"
+  },
+  {
+    "id": "agnus-med-19",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সহবাসের পর শারীরিক ও মানসিক অবশতা", "mid": "sym-after-coition-weakness"},
+      {"text": "সহবাসের পর মাথা ঠান্ডা হয়ে যাওয়া", "mid": "sym-after-coition-headache"},
+      {"text": "সহবাসের পর ঘুম ভেঙে বমি", "mid": "sym-after-coition-vomit"},
+      {"text": "সহবাসের পর পেটে গ্যাস ও ব্যথা", "mid": "sym-after-coition-gas"}
+    ],
+    "answer": "sym-after-coition-weakness",
+    "explanation": "Agnus Castus-এ সহবাসের পর চরম দুর্বলতা ও অবশতা অনুভব হয়, যা এর বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "agnus-med-20",
+    "stem": "নিচের কোনটি Agnus Castus (অ্যাগনাস ক্যাস্টাস)-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মস্তিষ্কের কাজ কমে যাওয়া, ভুলে যাওয়া ও একাগ্রতার অভাব", "mid": "sym-weak-memory-concentration"},
+      {"text": "মস্তিষ্কে অতিরিক্ত চিন্তা ও ঘুম না আসা", "mid": "sym-racing-thoughts"},
+      {"text": "মাথায় চাপানো ব্যথা যা নড়াচড়ায় কমে", "mid": "sym-pressure-headache"},
+      {"text": "মাথা ঘুরে পড়ে যাওয়া ও বমি ভাব", "mid": "sym-vertigo-vomit"}
+    ],
+    "answer": "sym-weak-memory-concentration",
+    "explanation": "Agnus Castus-এ স্মৃতিশক্তি ও একাগ্রতা কমে যায়, মস্তিষ্ক দুর্বল হয়ে পড়ে।"
+  }
+]
+

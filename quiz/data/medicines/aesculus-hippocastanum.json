@@ -1,0 +1,242 @@
+[
+  {
+    "id": "aesculus-med-01",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলদ্বারে ছোট ছোট কাঠি বা সলকা বিঁধে থাকার মতো অনুভূতি, প্লাগ ঢোকানো মনে হওয়া", "mid": "sym-rectum-sticks-plug"},
+      {"text": "মলদ্বার থেকে রক্তমিশ্রিত স্রাব, মলত্যাগের সময় জ্বালা ও মলদ্বার বাইরে বেরিয়ে আসা", "mid": "sym-rectum-bleeding-prolapse"},
+      {"text": "মলদ্বারে চুলকানি, রাতে বৃদ্ধি ও কৃমির কারণে চুলকানি", "mid": "sym-rectum-itching-worms"},
+      {"text": "মলদ্বারে ফাটা, মলত্যাগের সময় প্রচণ্ড ব্যথা ও রক্তপাত", "mid": "sym-rectum-fissure-bleeding"}
+    ],
+    "answer": "sym-rectum-sticks-plug",
+    "explanation": "Aesculus Hippocastanum এর সবচেয়ে পরিচায়ক লক্ষণ হলো মলদ্বারে কাঠি বিঁধে থাকার মতো অনুভূতি।"
+  },
+  {
+    "id": "aesculus-med-02",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রক্তপাতযুক্ত অর্শ, মলত্যাগের সময় প্রচুর টাটকা রক্তপাত ও দুর্বলতা", "mid": "sym-bleeding-piles-weakness"},
+      {"text": "শুষ্ক অর্শ, রক্তপাত খুব কম বা নেই, কিন্তু তীব্র ব্যথা ও অস্বস্তি", "mid": "sym-dry-piles-no-bleeding"},
+      {"text": "অর্শে রস ঝরা, ভেজা ভাব ও চুলকানি", "mid": "sym-piles-oozing-itching"},
+      {"text": "অর্শের সঙ্গে আমাশয়, পেটে মোচড় ও বারবার বেগ", "mid": "sym-piles-dysentery-colic"}
+    ],
+    "answer": "sym-dry-piles-no-bleeding",
+    "explanation": "Aesculus Hippocastanum এর অর্শ শুষ্ক থাকে, রক্তপাত খুব কম হয় কিন্তু ব্যথা তীব্র থাকে।"
+  },
+  {
+    "id": "aesculus-med-03",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মল ছোট ছোট গুটির মতো, ছাগলের নাদির মতো, অনেকদিন পরপর হওয়া", "mid": "sym-stool-goat-like"},
+      {"text": "মল পাতলা, জলের মতো, হঠাৎ বেগে বেরিয়ে যাওয়া", "mid": "sym-stool-watery-sudden"},
+      {"text": "মল খুব বড়, শক্ত ও শুষ্ক, কষ্টে বের হওয়া", "mid": "sym-stool-large-hard-dry"},
+      {"text": "মল নরম কিন্তু বেগ দিলেও বের হতে চায় না, বারবার ব্যর্থ বেগ", "mid": "sym-stool-soft-ineffectual"}
+    ],
+    "answer": "sym-stool-large-hard-dry",
+    "explanation": "Aesculus Hippocastanum এ মল খুব বড়, শক্ত ও শুষ্ক হয়, কষ্টে বের হয়।"
+  },
+  {
+    "id": "aesculus-med-04",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কোমর ব্যথা, সামনে ঝুঁকলে বৃদ্ধি ও শক্ত বিছানায় উপশম", "mid": "sym-back-bending-hard-bed"},
+      {"text": "কোমর ব্যথা, ঠান্ডা ভেজা আবহাওয়ায় বৃদ্ধি ও নড়াচড়ায় উপশম", "mid": "sym-back-damp-motion-better"},
+      {"text": "কোমর ব্যথা, মাসিকের সময় বৃদ্ধি ও চাপ দিলে উপশম", "mid": "sym-back-menses-pressure"},
+      {"text": "অর্শ বা কোষ্ঠকাঠিন্যের সঙ্গে স্যাক্রাম ও কোমরের নিচে প্রচণ্ড ব্যথা, মনে হওয়া কোমর ভেঙে যাবে", "mid": "sym-sacrum-pain-piles"}
+    ],
+    "answer": "sym-sacrum-pain-piles",
+    "explanation": "Aesculus Hippocastanum এ অর্শের সঙ্গে স্যাক্রামে প্রচণ্ড ব্যথা থাকে, মনে হয় কোমর ভেঙে যাবে।"
+  },
+  {
+    "id": "aesculus-med-05",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাঁটতে গেলে হাঁটুতে ব্যথা, সিঁড়ি দিয়ে উঠতে কষ্ট ও ফোলা", "mid": "sym-knee-pain-stairs"},
+      {"text": "স্যাক্রো ইলিয়াক অঞ্চল দুর্বল লাগা, সোজা হয়ে দাঁড়াতে বা হাঁটতে কষ্ট হওয়া", "mid": "sym-sacroiliac-weakness-standing"},
+      {"text": "দাঁড়ালে মাথা ঘোরা, চোখে অন্ধকার দেখা ও বসলে উপশম", "mid": "sym-standing-vertigo-dark"},
+      {"text": "হাঁটলে পায়ের গোড়ালিতে ব্যথা, সকালে প্রথম পা ফেলতে কষ্ট", "mid": "sym-heel-pain-morning-step"}
+    ],
+    "answer": "sym-sacroiliac-weakness-standing",
+    "explanation": "Aesculus Hippocastanum এ স্যাক্রো ইলিয়াক অঞ্চল দুর্বল হয়, রোগী সোজা হয়ে দাঁড়াতে বা হাঁটতে কষ্ট পায়।"
+  },
+  {
+    "id": "aesculus-med-06",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরে শূন্যতা বোধ, মাথা হালকা লাগা ও কানে ভোঁ ভোঁ শব্দ", "mid": "sym-body-emptiness-tinnitus"},
+      {"text": "শিরা ও অঙ্গে রক্ত জমে পূর্ণতা বোধ, মনে হওয়া অঙ্গ ফুলে ফেটে যাবে", "mid": "sym-fullness-veins-bursting"},
+      {"text": "শরীরে জ্বালা, গরমে বৃদ্ধি ও ঠান্ডায় উপশম", "mid": "sym-body-burning-heat"},
+      {"text": "শরীরে কাঁপুনি, দুর্বলতা ও ঘাম হওয়া", "mid": "sym-body-trembling-sweat"}
+    ],
+    "answer": "sym-fullness-veins-bursting",
+    "explanation": "Aesculus Hippocastanum এ শিরায় রক্ত জমে পূর্ণতা বোধ হয়, মনে হয় অঙ্গ ফুলে ফেটে যাবে।"
+  },
+  {
+    "id": "aesculus-med-07",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিরা শক্ত হয়ে যাওয়া, স্পর্শে ব্যথা ও জ্বর থাকা", "mid": "sym-veins-hard-tender-fever"},
+      {"text": "পায়ে পানি জমা, চাপ দিলে গর্ত হয়ে থাকা ও রাতে বৃদ্ধি", "mid": "sym-legs-oedema-pitting"},
+      {"text": "শিরা ফুলে যাওয়া, ভেরিকোজ ভেইন, পায়ে ভারী বোধ ও টাটানি ব্যথা", "mid": "sym-varicose-veins-heavy"},
+      {"text": "পায়ে লাল দাগ, চুলকানি ও গরমে বৃদ্ধি", "mid": "sym-legs-red-spots-itching"}
+    ],
+    "answer": "sym-varicose-veins-heavy",
+    "explanation": "Aesculus Hippocastanum ভেরিকোজ ভেইন ও শিরায় রক্ত জমার ক্ষেত্রে উপকারী, পায়ে ভারী বোধ থাকে।"
+  },
+  {
+    "id": "aesculus-med-08",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "তলপেটে খালি বোধ, খেলে ভালো লাগা ও সকাল ১১টায় দুর্বলতা", "mid": "sym-abdomen-empty-11am"},
+      {"text": "তলপেটে ও শ্রোণী অঞ্চলে রক্ত জমে ভারী বোধ ও চাপ অনুভূতি", "mid": "sym-pelvic-congestion-heavy"},
+      {"text": "তলপেটে মোচড়, আমাশয় ও বারবার পায়খানার বেগ", "mid": "sym-abdomen-colic-dysentery"},
+      {"text": "তলপেটে ছুরি দিয়ে খোঁচানোর মতো ব্যথা, নড়াচড়ায় বৃদ্ধি", "mid": "sym-abdomen-stitching-motion"}
+    ],
+    "answer": "sym-pelvic-congestion-heavy",
+    "explanation": "Aesculus Hippocastanum এ শ্রোণী অঞ্চলে রক্ত জমে ভারী বোধ ও চাপ অনুভূতি হয়।"
+  },
+  {
+    "id": "aesculus-med-09",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলদ্বার খালি বোধ হওয়া, মলত্যাগের পরও বেগ থাকা", "mid": "sym-rectum-empty-tenesmus"},
+      {"text": "মলদ্বার সবসময় ভারী বোধ হওয়া, পূর্ণতা অনুভূতি", "mid": "sym-rectum-heavy-fullness"},
+      {"text": "মলদ্বারে শীতলতা বোধ, ঠান্ডা লাগা ও অসাড়তা", "mid": "sym-rectum-cold-numb"},
+      {"text": "মলদ্বারে স্পন্দন, ধড়ফড়ানি অনুভূতি ও জ্বর", "mid": "sym-rectum-throbbing-fever"}
+    ],
+    "answer": "sym-rectum-heavy-fullness",
+    "explanation": "Aesculus Hippocastanum এ মলদ্বার সবসময় ভারী বোধ হয়, পূর্ণতা অনুভূতি থাকে।"
+  },
+  {
+    "id": "aesculus-med-10",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলত্যাগের আগে পেটে মোচড়, মলত্যাগের পরপরই ব্যথা কমে যাওয়া", "mid": "sym-stool-colic-relief-after"},
+      {"text": "মলত্যাগের পর মলদ্বারে আরাম, ঠান্ডা লাগা ও ঘুম পাওয়া", "mid": "sym-stool-relief-sleepy"},
+      {"text": "মলত্যাগের সময় ও পরে মলদ্বারে দীর্ঘক্ষণ জ্বালা ও কামড়ানো ব্যথা থাকা", "mid": "sym-burning-after-stool-long"},
+      {"text": "মলত্যাগের সময় মলদ্বারে চুলকানি, রাতে বৃদ্ধি ও ঘাম হওয়া", "mid": "sym-stool-itching-night-sweat"}
+    ],
+    "answer": "sym-burning-after-stool-long",
+    "explanation": "Aesculus Hippocastanum এ মলত্যাগের সময় ও পরে মলদ্বারে দীর্ঘক্ষণ জ্বালা ও কামড়ানো ব্যথা থাকে।"
+  },
+  {
+    "id": "aesculus-med-11",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শ্লৈষ্মিক ঝিল্লি থেকে প্রচুর সাদা স্রাব, আঠালো ভাব ও দুর্গন্ধ", "mid": "sym-mucous-white-discharge"},
+      {"text": "শ্লৈষ্মিক ঝিল্লি অত্যন্ত শুষ্ক হয়ে যাওয়া, সঙ্গে জ্বালা ও টাটানি ব্যথা", "mid": "sym-mucous-dry-burning-sore"},
+      {"text": "মুখে প্রচুর লালা, মিষ্টি স্বাদ ও জিভে সাদা প্রলেপ", "mid": "sym-mouth-saliva-sweet"},
+      {"text": "নাক দিয়ে প্রচুর পানি পড়া, হাঁচি ও চোখ দিয়ে পানি পড়া", "mid": "sym-nose-watery-sneezing"}
+    ],
+    "answer": "sym-mucous-dry-burning-sore",
+    "explanation": "Aesculus Hippocastanum এ শ্লৈষ্মিক ঝিল্লি অত্যন্ত শুষ্ক হয়, সঙ্গে জ্বালা ও টাটানি ব্যথা থাকে।"
+  },
+  {
+    "id": "aesculus-med-12",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অতিরিক্ত খুশি, বেশি কথা বলা ও এক বিষয় থেকে আরেক বিষয়ে চলে যাওয়া", "mid": "sym-cheerful-loquacious"},
+      {"text": "বিষণ্ণ ও বিষাদগ্রস্ত মেজাজ, খিটখিটে ভাব, কারো সঙ্গে কথা বলতে না চাওয়া", "mid": "sym-gloomy-depressed-irritable"},
+      {"text": "ভয় ও উদ্বেগ, মৃত্যুভয় ও অস্থিরতা", "mid": "sym-fear-anxiety-death"},
+      {"text": "হাসিখুশি থাকা, গান গাইতে চাওয়া ও সবার সঙ্গে মিশতে চাওয়া", "mid": "sym-happy-singing-social"}
+    ],
+    "answer": "sym-gloomy-depressed-irritable",
+    "explanation": "Aesculus Hippocastanum রোগী বিষণ্ণ ও বিষাদগ্রস্ত থাকে, মেজাজ খিটখিটে হয় ও কথা বলতে চায় না।"
+  },
+  {
+    "id": "aesculus-med-13",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘুম থেকে উঠে মাথা ভারী লাগা, দিনে ঘুমালে বৃদ্ধি", "mid": "sym-waking-heavy-head-day-sleep"},
+      {"text": "ঘুম থেকে উঠে ক্ষুধা লাগা, খেলে ভালো লাগা", "mid": "sym-waking-hunger-eating"},
+      {"text": "ঘুম থেকে ওঠার পর অত্যন্ত বিভ্রান্ত বোধ করা", "mid": "sym-confusion-on-waking"},
+      {"text": "ঘুম থেকে উঠে কাশি, গলায় কফ জমে থাকা", "mid": "sym-waking-cough-phlegm"}
+    ],
+    "answer": "sym-confusion-on-waking",
+    "explanation": "Aesculus Hippocastanum এ ঘুম থেকে ওঠার পর রোগী অত্যন্ত বিভ্রান্ত বোধ করে।"
+  },
+  {
+    "id": "aesculus-med-14",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিক শান্তি, সবকিছু ভালো লাগা ও ঘুম ভালো হওয়া", "mid": "sym-mental-calm-sleep"},
+      {"text": "মানসিক অস্থিরতা বোধ, মনে হওয়া কোনো অমঙ্গল ঘটবে", "mid": "sym-restlessness-foreboding-evil"},
+      {"text": "মানসিক অস্থিরতা, তবে সঙ্গী পেলে ভালো লাগা ও কান্না করা", "mid": "sym-restlessness-company-weeping"},
+      {"text": "মানসিক জড়তা, কোনো কিছু মনে না থাকা ও ঘুমিয়ে পড়া", "mid": "sym-mental-dull-sleepy"}
+    ],
+    "answer": "sym-restlessness-foreboding-evil",
+    "explanation": "Aesculus Hippocastanum এ মানসিক অস্থিরতা থাকে, মনে হয় কোনো অমঙ্গল ঘটবে।"
+  },
+  {
+    "id": "aesculus-med-15",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যকৃৎ অঞ্চলে ভারী বোধ হওয়া ও টাটানি ব্যথা, পোর্টাল রক্ত চলাচলে বাধা", "mid": "sym-liver-heavy-sore-portal"},
+      {"text": "যকৃৎ অঞ্চলে ছুরি দিয়ে খোঁচানোর মতো ব্যথা, শ্বাস নিলে বৃদ্ধি", "mid": "sym-liver-stitching-breathing"},
+      {"text": "যকৃৎ অঞ্চলে জ্বালা, টক ঢেকুর ও বমি বমি ভাব", "mid": "sym-liver-burning-sour"},
+      {"text": "যকৃৎ বড় হয়ে যাওয়া, জ্বর ও হলুদ প্রস্রাব", "mid": "sym-liver-enlarged-fever-yellow"}
+    ],
+    "answer": "sym-liver-heavy-sore-portal",
+    "explanation": "Aesculus Hippocastanum এ যকৃৎ অঞ্চলে ভারী বোধ ও টাটানি ব্যথা থাকে, পোর্টাল রক্ত চলাচলে বাধা দূর করে।"
+  },
+  {
+    "id": "aesculus-med-16",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলায় প্রচুর কফ, বারবার কাশি ও গলা পরিষ্কার করতে চাওয়া", "mid": "sym-throat-phlegm-cough"},
+      {"text": "গলা অত্যন্ত শুষ্ক ও লাল দেখা, ঢোক গেলার সময় গলায় কিছু আটকে আছে মনে হওয়া", "mid": "sym-throat-dry-lump-swallowing"},
+      {"text": "গলায় পুঁজ, ঢোক গিলতে প্রচণ্ড ব্যথা ও জ্বর", "mid": "sym-throat-pus-fever"},
+      {"text": "গলায় শীতলতা, ঠান্ডা পানি খেতে ভালো লাগা ও কণ্ঠ পরিষ্কার থাকা", "mid": "sym-throat-cold-clear"}
+    ],
+    "answer": "sym-throat-dry-lump-swallowing",
+    "explanation": "Aesculus Hippocastanum এ গলা অত্যন্ত শুষ্ক ও লাল দেখায়, ঢোক গেলার সময় গলায় কিছু আটকে আছে মনে হয়।"
+  },
+  {
+    "id": "aesculus-med-17",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কণ্ঠস্বর সম্পূর্ণ বন্ধ হয়ে যাওয়া, কথা বলতে না পারা", "mid": "sym-voice-loss-complete"},
+      {"text": "কণ্ঠস্বর কর্কশ হয়ে যাওয়া", "mid": "sym-voice-hoarse"},
+      {"text": "কণ্ঠস্বর চিকন হয়ে যাওয়া, জোরে কথা বললে বৃদ্ধি", "mid": "sym-voice-thin-loud"},
+      {"text": "কণ্ঠে কোনো পরিবর্তন নেই, তবে কানে ব্যথা ও জ্বর", "mid": "sym-voice-normal-ear-fever"}
+    ],
+    "answer": "sym-voice-hoarse",
+    "explanation": "Aesculus Hippocastanum এ অনেক সময় কণ্ঠস্বর কর্কশ হয়ে যায়।"
+  },
+  {
+    "id": "aesculus-med-18",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকালে ভালো লাগা, মলত্যাগের পর ভালো লাগা ও দাঁড়ালে ভালো লাগা", "mid": "sym-morning-stool-standing-better"},
+      {"text": "রাতে বৃদ্ধি, গরম ঘরে বৃদ্ধি ও আক্রান্ত পাশে শুলে বৃদ্ধি", "mid": "sym-night-warm-room-worse"},
+      {"text": "সকালে ঘুম থেকে ওঠার পর, মলত্যাগের পর, দাঁড়িয়ে থাকলে ও চলাফেরা করলে এবং শীতকালে কষ্ট বৃদ্ধি পাওয়া", "mid": "sym-aggravation-morning-stool-standing-winter"},
+      {"text": "খাওয়ার পর বৃদ্ধি, বিকেলে বৃদ্ধি ও ভোর ৩টায় বৃদ্ধি", "mid": "sym-after-eating-evening-3am"}
+    ],
+    "answer": "sym-aggravation-morning-stool-standing-winter",
+    "explanation": "Aesculus Hippocastanum এ সকালে ঘুম থেকে ওঠার পর, মলত্যাগের পর, দাঁড়ালে ও চলাফেরা করলে এবং শীতকালে কষ্ট বাড়ে।"
+  },
+  {
+    "id": "aesculus-med-19",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরম ঘরে আরাম, চাপ দিলে আরাম ও শক্ত করে বাঁধলে আরাম", "mid": "sym-warm-room-pressure-better"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা আবহাওয়ায় কিছুটা আরাম বোধ করা, বিশ্রামে ভালো লাগা", "mid": "sym-amelioration-open-air-cool-rest"},
+      {"text": "ঠান্ডা বাতাসে বৃদ্ধি, খোলা বাতাসে বৃদ্ধি ও ঘরে থাকলে আরাম", "mid": "sym-cold-air-open-air-worse"},
+      {"text": "নড়াচড়া করলে আরাম, ভেজা আবহাওয়ায় আরাম ও গরমে আরাম", "mid": "sym-motion-wet-warm-better"}
+    ],
+    "answer": "sym-amelioration-open-air-cool-rest",
+    "explanation": "Aesculus Hippocastanum এ মুক্ত বাতাসে ও ঠান্ডা আবহাওয়ায় কিছুটা আরাম বোধ হয়, বিশ্রামেও ভালো লাগে।"
+  },
+  {
+    "id": "aesculus-med-20",
+    "stem": "নিচের কোনটি Aesculus Hippocastanum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমকাতরতা, প্রধানত বাম পার্শ্বে আক্রমণ", "mid": "sym-hot-left-side"},
+      {"text": "শীত ও গরম দুটোতেই কাতরতা, রাতে ঘাম হওয়া", "mid": "sym-both-hot-cold-night-sweat"},
+      {"text": "শীতকাতরতা, যকৃৎ সংক্রান্ত প্রভাবে প্রধানত ডান পার্শ্বে আক্রমণ", "mid": "sym-chilly-right-side-liver"},
+      {"text": "গরমে ঘাম না হওয়া, ঠান্ডা পানি খেতে ভালো লাগা", "mid": "sym-no-sweat-cold-drink"}
+    ],
+    "answer": "sym-chilly-right-side-liver",
+    "explanation": "Aesculus Hippocastanum রোগী শীতকাতর, যকৃৎ সংক্রান্ত প্রভাবে প্রধানত ডান পার্শ্বে আক্রমণ করে।"
+  }
+]

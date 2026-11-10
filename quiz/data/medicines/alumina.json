@@ -1,0 +1,242 @@
+[
+  {
+    "id": "alum-med-01",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কোষ্ঠকাঠিন্য, কয়েকদিন মলত্যাগ না করলেও কোনো বেগ আসে না, ইচ্ছাও থাকে না", "mid": "sym-alum-no-urge-constipation"},
+      {"text": "অল্পতেই ঘাম, টক গন্ধযুক্ত ঘামে বালিশ ভিজে যায়", "mid": "sym-sweat-sour-calc"},
+      {"text": "ভয় পেয়ে পাতলা পায়খানা ও কাঁপুনি", "mid": "sym-diarrhea-fear-gels"},
+      {"text": "জ্বালাপোড়া ঠান্ডা প্রয়োগে উপশম", "mid": "sym-burning-cold-amel-ars"}
+    ],
+    "answer": "sym-alum-no-urge-constipation",
+    "explanation": "Alumina-এর প্রধান লক্ষণ হলো অন্ত্রের পক্ষাঘাত সদৃশ অলসতা, কয়েকদিনেও মলবেগ আসে না।"
+  },
+  {
+    "id": "alum-med-02",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নরম মল ত্যাগ করতেও প্রচণ্ড কুন্থন দিতে হয়", "mid": "sym-alum-soft-stool-straining"},
+      {"text": "মলত্যাগের পর সব কষ্টের উপশম", "mid": "sym-stool-amel-nux"},
+      {"text": "দিনে বহুবার অল্প অল্প মলত্যাগ", "mid": "sym-frequent-small-stool"},
+      {"text": "আমযুক্ত পিচ্ছিল মল", "mid": "sym-mucus-stool-merc"}
+    ],
+    "answer": "sym-alum-soft-stool-straining",
+    "explanation": "Alumina-তে নরম মলও বের করতে প্রচণ্ড কুন্থন লাগে, এটি এর অদ্ভুত বৈশিষ্ট্য।"
+  },
+  {
+    "id": "alum-med-03",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কয়লা, চুন, পেন্সিল, কাঁচা চাল, শুকনো চা পাতা খাওয়ার প্রবল ইচ্ছা", "mid": "sym-alum-pica-chalk-coal"},
+      {"text": "মাংস খাওয়ার তীব্র আকাঙ্ক্ষা", "mid": "sym-craving-meat"},
+      {"text": "ডিম খাওয়ার প্রবল ইচ্ছা", "mid": "sym-craving-egg-calc"},
+      {"text": "লবণ ও ধূমায়িত মাংসের আকাঙ্ক্ষা", "mid": "sym-craving-salt"}
+    ],
+    "answer": "sym-alum-pica-chalk-coal",
+    "explanation": "Alumina-তে অপাচ্য জিনিস যেমন কয়লা, চুন, পেন্সিল, কাঁচা চাল খাওয়ার অস্বাভাবিক ইচ্ছা থাকে।"
+  },
+  {
+    "id": "alum-med-04",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরের সমস্ত শ্লৈষ্মিক ঝিল্লি অত্যন্ত শুষ্ক, ঘাম প্রায় হয় না", "mid": "sym-alum-dry-mucous-no-sweat"},
+      {"text": "অতিরিক্ত ঘাম, বিশেষ করে মাথায় ও বুকে", "mid": "sym-profuse-sweat"},
+      {"text": "সর্বশরীরে তৈলাক্ত ঘাম", "mid": "sym-oily-sweat"},
+      {"text": "জ্বরের সময় প্রচুর ঘামে উপশম", "mid": "sym-sweat-amel-fever"}
+    ],
+    "answer": "sym-alum-dry-mucous-no-sweat",
+    "explanation": "Alumina-এর চরিত্রগত লক্ষণ হলো সর্বত্র শুষ্কতা, শ্লৈষ্মিক ঝিল্লি শুকনো এবং ঘাম প্রায় অনুপস্থিত।"
+  },
+  {
+    "id": "alum-med-05",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাঁটার সময় মনে হয় শূন্যে বা নরম তুলোর ওপর হাঁটছে, চোখ বন্ধ করলে টলমল করে", "mid": "sym-alum-walking-air-ataxia"},
+      {"text": "হাঁটলে বুকে ধড়ফড়ানি ও মাথা ঘোরা", "mid": "sym-palpitation-walking"},
+      {"text": "হাঁটতে গেলে হাঁটু ভেঙে পড়ে", "mid": "sym-knee-gives-way"},
+      {"text": "হাঁটলে পায়ের তলায় জ্বালা", "mid": "sym-burning-sole-walk"}
+    ],
+    "answer": "sym-alum-walking-air-ataxia",
+    "explanation": "Alumina-তে স্নায়বিক বিশৃঙ্খলায় হাঁটার সময় শূন্যে হাঁটার অনুভূতি ও Ataxia দেখা যায়।"
+  },
+  {
+    "id": "alum-med-06",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সব কাজ ও চিন্তা খুব ধীরগতিতে, সময় যেন কাটতেই চায় না", "mid": "sym-alum-slow-time-passes-slowly"},
+      {"text": "সব কাজ খুব তাড়াহুড়া করে, সময় দ্রুত যায়", "mid": "sym-hurry-time-fast"},
+      {"text": "চিন্তা একদম বন্ধ হয়ে যায়", "mid": "sym-thought-stops"},
+      {"text": "অস্থিরতা, এক জায়গায় স্থির থাকতে পারে না", "mid": "sym-restless"}
+    ],
+    "answer": "sym-alum-slow-time-passes-slowly",
+    "explanation": "Alumina রোগীর সকল ক্রিয়া ও চিন্তা ধীর এবং সময় ধীরে কাটে বলে মনে হয়।"
+  },
+  {
+    "id": "alum-med-07",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বলার সময় মনে হয় অন্য কেউ কথা বলছে, আয়নায় নিজেকে চিনতে পারে না", "mid": "sym-alum-double-personality"},
+      {"text": "নিজেকে খুব বড় ও মহান মনে করে", "mid": "sym-delusion-great"},
+      {"text": "নিজেকে ছোট মনে করে, সবাই তাকে ঘৃণা করে", "mid": "sym-delusion-small"},
+      {"text": "মনে করে শরীর কাঁচের তৈরি", "mid": "sym-delusion-glass"}
+    ],
+    "answer": "sym-alum-double-personality",
+    "explanation": "Alumina-তে পরিচয় সংকট বা দ্বৈত ব্যক্তিত্বের বিভ্রম দেখা যায়।"
+  },
+  {
+    "id": "alum-med-08",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রক্ত বা ধারালো ছুরি দেখলে আত্মহত্যা বা অন্যকে আঘাত করার ইচ্ছা জাগে", "mid": "sym-alum-blood-knife-suicidal"},
+      {"text": "উঁচু জায়গা দেখলে লাফ দিতে ইচ্ছা করে", "mid": "sym-high-place-jump"},
+      {"text": "মৃত্যুভয় ও একা থাকতে ভয়", "mid": "sym-fear-death-alone"},
+      {"text": "অন্ধকারে ভয় পায়", "mid": "sym-fear-dark"}
+    ],
+    "answer": "sym-alum-blood-knife-suicidal",
+    "explanation": "Alumina-র মানসিক লক্ষণ হলো রক্ত বা ছুরি দেখলে হিংসাত্মক বা আত্মহত্যার আবেগ জাগা।"
+  },
+  {
+    "id": "alum-med-09",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকালে ঘুম থেকে ওঠার পর মেজাজ খুব খারাপ ও বিষণ্ণতা", "mid": "sym-alum-morning-depression"},
+      {"text": "সন্ধ্যায় একাকী থাকলে আনন্দিত", "mid": "sym-evening-joy"},
+      {"text": "গান শুনলে কান্না পায়", "mid": "sym-music-weep"},
+      {"text": "সান্ত্বনায় উপশম", "mid": "sym-consolation-amel"}
+    ],
+    "answer": "sym-alum-morning-depression",
+    "explanation": "Alumina রোগীর সকালে ঘুম ভাঙার পর বিষণ্ণতা ও খিটখিটে ভাব বৃদ্ধি পায়।"
+  },
+  {
+    "id": "alum-med-10",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্মৃতিশক্তি অত্যন্ত দুর্বল, মনে থাকতে চায় না", "mid": "sym-alum-weak-memory"},
+      {"text": "স্মৃতি খুব প্রখর, সব মনে থাকে", "mid": "sym-sharp-memory"},
+      {"text": "গণিতে খুব ভালো কিন্তু ভাষায় দুর্বল", "mid": "sym-math-good"},
+      {"text": "নাম মনে থাকে কিন্তু মুখ ভুলে যায়", "mid": "sym-name-remember"}
+    ],
+    "answer": "sym-alum-weak-memory",
+    "explanation": "Alumina-তে স্মৃতি দুর্বলতা একটি প্রধান মানসিক লক্ষণ।"
+  },
+  {
+    "id": "alum-med-11",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলার ভেতর দলা বা কাঠি আটকে আছে এমন অনুভূতি, গলা অত্যন্ত শুষ্ক", "mid": "sym-alum-plug-throat-dry"},
+      {"text": "গলায় জ্বলন্ত কয়লার মতো জ্বালা", "mid": "sym-burning-throat"},
+      {"text": "গলায় মাছের কাঁটা আটকে থাকার অনুভূতি", "mid": "sym-fish-bone-throat-hepar"},
+      {"text": "ঢোক গিলতে গেলে কানে ব্যথা", "mid": "sym-throat-ear-pain"}
+    ],
+    "answer": "sym-alum-plug-throat-dry",
+    "explanation": "Alumina-তে গলা শুষ্ক এবং ভেতরে কাঠি বা দলা আটকে থাকার অনুভূতি থাকে।"
+  },
+  {
+    "id": "alum-med-12",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আলু খেলে পেটের গোলযোগ বাড়ে, আলু সহ্য হয় না", "mid": "sym-alum-potato-aggravation"},
+      {"text": "পেঁয়াজে বৃদ্ধি", "mid": "sym-onion-agg-thuja"},
+      {"text": "দুধে বৃদ্ধি", "mid": "sym-milk-agg"},
+      {"text": "মাংস খেলে উপশম", "mid": "sym-meat-amel"}
+    ],
+    "answer": "sym-alum-potato-aggravation",
+    "explanation": "Alumina রোগীর আলু একদম সহ্য হয় না, খেলে হজমের গোলযোগ বাড়ে।"
+  },
+  {
+    "id": "alum-med-13",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শ্বেতপ্রদর প্রচুর, গোড়ালি পর্যন্ত গড়িয়ে পড়ে, ক্ষতকর ও চুলকানিযুক্ত", "mid": "sym-alum-leucorrhoea-ankle-acrid"},
+      {"text": "শ্বেতপ্রদর ডিমের সাদার মতো", "mid": "sym-leucorrhoea-egg-white-borax"},
+      {"text": "শ্বেতপ্রদর হলুদ ও সবুজ", "mid": "sym-leucorrhoea-yellow-sepia"},
+      {"text": "ঋতুস্রাবের পরিবর্তে শ্বেতপ্রদর", "mid": "sym-leucorrhoea-menses"}
+    ],
+    "answer": "sym-alum-leucorrhoea-ankle-acrid",
+    "explanation": "Alumina-র স্ত্রী লক্ষণে ক্ষতকর শ্বেতপ্রদর পায়ের গোড়ালি পর্যন্ত গড়িয়ে পড়ে।"
+  },
+  {
+    "id": "alum-med-14",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চামড়া শুকনো খসখসে, বিছানার গরমে চুলকানি বাড়ে, চুলকাতে চুলকাতে রক্ত বের করে", "mid": "sym-alum-dry-skin-bed-heat-itch"},
+      {"text": "চামড়া তৈলাক্ত ও ঘামে ভেজা", "mid": "sym-oily-skin"},
+      {"text": "ঠান্ডা বাতাসে চুলকানি বাড়ে", "mid": "sym-cold-air-itch"},
+      {"text": "গোসলে চুলকানি উপশম", "mid": "sym-bathing-amel-itch"}
+    ],
+    "answer": "sym-alum-dry-skin-bed-heat-itch",
+    "explanation": "Alumina-তে চর্ম শুষ্ক এবং বিছানার গরমে চুলকানি বৃদ্ধি পেয়ে রক্তপাত হয়।"
+  },
+  {
+    "id": "alum-med-15",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রস্রাব কষ্টকর, বেগ দিতে হয়, পক্ষাঘাত সদৃশ দুর্বলতা", "mid": "sym-alum-difficult-urination-paralytic"},
+      {"text": "প্রস্রাব আপনা-আপনি হয়ে যায়", "mid": "sym-involuntary-urine"},
+      {"text": "প্রস্রাবের সাথে জ্বালা ও কাটা ব্যথা", "mid": "sym-burning-urine"},
+      {"text": "রাতে বারবার প্রচুর প্রস্রাব", "mid": "sym-polyuria-night"}
+    ],
+    "answer": "sym-alum-difficult-urination-paralytic",
+    "explanation": "Alumina-তে প্রস্রাবেও পক্ষাঘাত সদৃশ দুর্বলতা, কষ্টকর প্রস্রাব হয়।"
+  },
+  {
+    "id": "alum-med-16",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: সকালে ঘুম থেকে উঠলে, শীতকালে, পূর্ণিমা বা অমাবস্যায়", "mid": "sym-alum-agg-morning-winter-new-full-moon"},
+      {"text": "বৃদ্ধি: ভেজা আবহাওয়ায় ও বিশ্রামে", "mid": "sym-agg-damp-rest-rhus"},
+      {"text": "বৃদ্ধি: গরমে ও দুপুরে", "mid": "sym-agg-heat-noon"},
+      {"text": "বৃদ্ধি: নড়াচড়ায়", "mid": "sym-agg-motion-bry"}
+    ],
+    "answer": "sym-alum-agg-morning-winter-new-full-moon",
+    "explanation": "Alumina-র বৃদ্ধি ঘটে সকালে, শীতকালে এবং পূর্ণিমা/অমাবস্যা তিথিতে।"
+  },
+  {
+    "id": "alum-med-17",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: খোলা বাতাসে, সন্ধ্যায়, ঠান্ডা জলে স্নানে", "mid": "sym-alum-amel-open-air-evening-cold-bath"},
+      {"text": "উপশম: গরম সেঁকে ও চাপে", "mid": "sym-amel-heat-pressure"},
+      {"text": "উপশম: শুয়ে থাকলে", "mid": "sym-amel-lying"},
+      {"text": "উপশম: মাথা নিচু করলে", "mid": "sym-amel-head-down"}
+    ],
+    "answer": "sym-alum-amel-open-air-evening-cold-bath",
+    "explanation": "Alumina-র উপশম হয় খোলা বাতাসে, সন্ধ্যাবেলায় এবং ঠান্ডা জলে গোসলে।"
+  },
+  {
+    "id": "alum-med-18",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যন্ত শীতকাতর, প্রধানত বাম পার্শ্ব আক্রান্ত", "mid": "sym-alum-chilly-left-sided"},
+      {"text": "অত্যন্ত গরমকাতর, ডান পার্শ্ব আক্রান্ত", "mid": "sym-hot-right-sided"},
+      {"text": "শীত গরম উভয়ই অসহ্য", "mid": "sym-both-chilly-hot"},
+      {"text": "পর্যায়ক্রমে বাম ও ডান পার্শ্ব", "mid": "sym-alternating-side"}
+    ],
+    "answer": "sym-alum-chilly-left-sided",
+    "explanation": "Alumina অত্যন্ত শীতকাতর ঔষধ এবং প্রধানত বাম দিকে ক্রিয়া করে।"
+  },
+  {
+    "id": "alum-med-19",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশু ও বসে কাজ করে এমন ব্যক্তিদের কোষ্ঠকাঠিন্য, মলদ্বারে ফিশার", "mid": "sym-alum-children-sedentary-fissure"},
+      {"text": "অতিরিক্ত মদ্যপায়ীদের কোষ্ঠকাঠিন্য", "mid": "sym-constip-drunkard-nux"},
+      {"text": "ভ্রমণে গেলে কোষ্ঠকাঠিন্য", "mid": "sym-constip-travel-plat"},
+      {"text": "গর্ভাবস্থায় কোষ্ঠকাঠিন্য", "mid": "sym-constip-pregnancy"}
+    ],
+    "answer": "sym-alum-children-sedentary-fissure",
+    "explanation": "Alumina শিশুদের এবং অলস বসে থাকা ব্যক্তিদের কোষ্ঠকাঠিন্যে অব্যর্থ, সাথে ফিশার হতে পারে।"
+  },
+  {
+    "id": "alum-med-20",
+    "stem": "নিচের কোনটি Alumina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিপূরক Bryonia, গভীর ক্রিয়াশীল দীর্ঘস্থায়ী ঔষধ", "mid": "sym-alum-complementary-bryonia-deep"},
+      {"text": "পরিপূরক Sulphur, স্বল্প ক্রিয়াশীল", "mid": "sym-complement-sulph"},
+      {"text": "Aconite-এর পর ভালো কাজ করে", "mid": "sym-follows-aconite"},
+      {"text": "শুধু তরুণ রোগে কার্যকর", "mid": "sym-acute-only"}
+    ],
+    "answer": "sym-alum-complementary-bryonia-deep",
+    "explanation": "Alumina একটি গভীর ও দীর্ঘ ক্রিয়াশীল ঔষধ, এর পরিপূরক Bryonia এবং Bryonia-র পরে এটি ভালো কাজ করে।"
+  }
+]

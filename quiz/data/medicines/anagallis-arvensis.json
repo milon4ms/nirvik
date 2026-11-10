@@ -1,0 +1,482 @@
+[
+  {
+    "id": "anac-med-01",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দ্বৈত ব্যক্তিত্ব বা দুটি ইচ্ছার দ্বন্দ্ব, মনে হয় যেন একজন ভালো এবং একজন মন্দ উপদেষ্টা আছে",
+        "mid": "sym-dual-personality"
+      },
+      {
+        "text": "অতিরিক্ত আনন্দময় এবং কথা বলতে ভালোবাসে",
+        "mid": "sym-talkative-happy"
+      },
+      {
+        "text": "ভয় এবং কম্পন যা ঠান্ডায় বেড়ে যায়",
+        "mid": "sym-fear-cold"
+      },
+      {
+        "text": "অতিরিক্ত সংবেদনশীলতা এবং সহজেই কেঁদে ফেলা",
+        "mid": "sym-sensitive-weeping"
+      }
+    ],
+    "answer": "sym-dual-personality",
+    "explanation": "Anacardium-এর সবচেয়ে গুরুত্বপূর্ণ মানসিক লক্ষণ হলো 'দ্বৈত ইচ্ছা' বা Dual Will। রোগী অনুভব করে যে তার মধ্যে দুটি সত্তা রয়েছে, একটি তাকে ভালো কাজ করতে বলে এবং অন্যটি মন্দ কাজ করতে বাধা দেয়।"
+  },
+  {
+    "id": "anac-med-02",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "খাবার খেলে সকল লক্ষণের উপশম হয়",
+        "mid": "sym-eating-relief"
+      },
+      {
+        "text": "খাবার খেলে লক্ষণগুলোর তীব্রতা বেড়ে যায়",
+        "mid": "sym-eating-aggravation"
+      },
+      {
+        "text": "ঠান্ডা পানি খেলে উপশম হয়",
+        "mid": "sym-cold-water-relief"
+      },
+      {
+        "text": "গরম পানি খেলে উপশম হয়",
+        "mid": "sym-hot-water-relief"
+      }
+    ],
+    "answer": "sym-eating-relief",
+    "explanation": "Anacardium-এর একটি অত্যন্ত গুরুত্বপূর্ণ মোডালিটি হলো 'খাবার খেলে উপশম' (Amelioration by eating)। ক্ষুধার সময় বা খালি পেটে লক্ষণগুলো, বিশেষ করে মানসিক অবসাদ এবং পেটের ব্যথা, বেড়ে যায়।"
+  },
+  {
+    "id": "anac-med-03",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "স্মৃতিশক্তি হ্রাস, বিশেষ করে সাম্প্রতিক ঘটনা মনে রাখতে পারা না",
+        "mid": "sym-memory-loss-recent"
+      },
+      {
+        "text": "অতীতের সব ঘটনা মনে থাকে কিন্তু নাম ভুলে যায়",
+        "mid": "sym-forgets-names"
+      },
+      {
+        "text": "স্মৃতিশক্তি স্বাভাবিক থাকে",
+        "mid": "sym-normal-memory"
+      },
+      {
+        "text": "শুধুমাত্র সংখ্যা মনে রাখতে কষ্ট হয়",
+        "mid": "sym-forgets-numbers"
+      }
+    ],
+    "answer": "sym-memory-loss-recent",
+    "explanation": "Anacardium-এ স্মৃতিশক্তি দুর্বল হয়ে যায়, বিশেষ করে পরীক্ষার আগে বা মানসিক চাপের সময়। রোগী সাম্প্রতিক ঘটনাগুলো ভুলে যায়।"
+  },
+  {
+    "id": "anac-med-04",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটে এমন অনুভূতি যেন পেটে খিল বা প্লাগ আটকে আছে",
+        "mid": "sym-stomach-plug"
+      },
+      {
+        "text": "পেটে পানি ঢলঢল শব্দ হয়",
+        "mid": "sym-abdominal-gurgling"
+      },
+      {
+        "text": "পেটে তীব্র জ্বালাপোড়া",
+        "mid": "sym-stomach-burning"
+      },
+      {
+        "text": "পেটে ঠান্ডা অনুভূতি",
+        "mid": "sym-stomach-cold"
+      }
+    ],
+    "answer": "sym-stomach-plug",
+    "explanation": "Anacardium-এর একটি নির্দিষ্ট লক্ষণ হলো পেটে (Epigastrium) কিছু আটকে থাকার অনুভূতি, যেন সেখানে একটি খিল (plug) বা পাথর বসে আছে।"
+  },
+  {
+    "id": "anac-med-05",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মলত্যাগের সময় অকার্যকর বেগ এবং মলদ্বারে বাধার অনুভূতি",
+        "mid": "sym-ineffective-urge"
+      },
+      {
+        "text": "অতিসার এবং মলদ্বারে জ্বালাপোড়া",
+        "mid": "sym-diarrhea-burning"
+      },
+      {
+        "text": "মল শুষ্ক এবং ছাগলের মতো গোলাকার",
+        "mid": "sym-dry-stool"
+      },
+      {
+        "text": "মলের সাথে রক্তপাত",
+        "mid": "sym-bloody-stool"
+      }
+    ],
+    "answer": "sym-ineffective-urge",
+    "explanation": "Anacardium-এ কোষ্ঠকাঠিন্য দেখা দেয় যেখানে মলত্যাগের ইচ্ছা থাকে কিন্তু মলদ্বারে যেন কিছু আটকে আছে বা পেশী দুর্বল হওয়ার কারণে মল বের করতে কষ্ট হয়।"
+  },
+  {
+    "id": "anac-med-06",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ক্রুরতা এবং প্রতিশোধপরায়ণ মনোভাব",
+        "mid": "sym-cruelty"
+      },
+      {
+        "text": "অতিরিক্ত দয়া এবং করুণা",
+        "mid": "sym-sympathy"
+      },
+      {
+        "text": "ভয় এবং নার্ভাসনেস",
+        "mid": "sym-nervousness"
+      },
+      {
+        "text": "উদাসীনতা এবং অবহেলা",
+        "mid": "sym-indifference"
+      }
+    ],
+    "answer": "sym-cruelty",
+    "explanation": "মানসিক স্তরে Anacardium রোগী ক্রুর হয়ে উঠতে পারে, প্রতিশোধ নিতে চায় এবং অন্যদের প্রতি সহানুভূতিহীন আচরণ করতে পারে।"
+  },
+  {
+    "id": "anac-med-07",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ত্বকে চুলকানি যা চুলকালে আরও বেড়ে যায় এবং রক্তপাত হয়",
+        "mid": "sym-skin-itch-worse-scratch"
+      },
+      {
+        "text": "ত্বকে ফোসকা যা গরম লাগে",
+        "mid": "sym-skin-blister"
+      },
+      {
+        "text": "ত্বক শুষ্ক এবং ফেটে যায়",
+        "mid": "sym-skin-cracked"
+      },
+      {
+        "text": "ত্বকে হলুদ দাগ",
+        "mid": "sym-skin-yellow"
+      }
+    ],
+    "answer": "sym-skin-itch-worse-scratch",
+    "explanation": "Anacardium-এর ত্বকের লক্ষণে তীব্র চুলকানি থাকে, যা চুলকালে আরও বেড়ে যায় এবং চুলকানোর স্থান থেকে রক্তপাত হতে পারে। এটি একজিমা বা ডার্মাটাইটিসের ক্ষেত্রে প্রযোজ্য।"
+  },
+  {
+    "id": "anac-med-08",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পরীক্ষার দুশ্চিন্তা এবং স্মৃতিশক্তি লোপ পাওয়া",
+        "mid": "sym-exam-anxiety"
+      },
+      {
+        "text": "পরীক্ষার আগে অতিরিক্ত আত্মবিশ্বাস",
+        "mid": "sym-exam-confidence"
+      },
+      {
+        "text": "পরীক্ষার হলে ঘুমিয়ে পড়া",
+        "mid": "sym-exam-sleep"
+      },
+      {
+        "text": "পরীক্ষার বিষয়ে সম্পূর্ণ উদাসীনতা",
+        "mid": "sym-exam-indifference"
+      }
+    ],
+    "answer": "sym-exam-anxiety",
+    "explanation": "Anacardium ছাত্রদের জন্য একটি গুরুত্বপূর্ণ ঔষধ, যারা পরীক্ষার দুশ্চিন্তায় ভোগে এবং মানসিক চাপের কারণে তাদের স্মৃতিশক্তি হারিয়ে ফেলে।"
+  },
+  {
+    "id": "anac-med-09",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পিঠে ব্যথা যা বসে থাকলে বেড়ে যায় এবং হাঁটলে বা ঝুঁকে পড়লে উপশম হয়",
+        "mid": "sym-back-pain-sitting"
+      },
+      {
+        "text": "পিঠে ব্যথা যা হাঁটলে বেড়ে যায়",
+        "mid": "sym-back-pain-walking"
+      },
+      {
+        "text": "পিঠে ব্যথা যা গরম কম্প্রেসে উপশম হয়",
+        "mid": "sym-back-pain-heat"
+      },
+      {
+        "text": "পিঠে ব্যথা যা ঠান্ডা কম্প্রেসে উপশম হয়",
+        "mid": "sym-back-pain-cold"
+      }
+    ],
+    "answer": "sym-back-pain-sitting",
+    "explanation": "Anacardium-এ পিঠে (বিশেষ করে কোমরে) ব্যথা থাকে যা বসে থাকলে বা বিশ্রামে বেড়ে যায় এবং হাঁটাচলা করলে বা নড়চড় করলে কিছুটা উপশম হয়।"
+  },
+  {
+    "id": "anac-med-10",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ক্ষুধা অত্যন্ত বেশি থাকে, খালি পেটে দুর্বলতা ও মাথা ঘোরা",
+        "mid": "sym-ravenous-hunger"
+      },
+      {
+        "text": "ক্ষুধা নেই এবং খাবার দেখলে বমি আসে",
+        "mid": "sym-no-appetite"
+      },
+      {
+        "text": "শুধুমাত্র মিষ্টি খেতে ইচ্ছা করে",
+        "mid": "sym-sweet-craving"
+      },
+      {
+        "text": "শুধুমাত্র টক খেতে ইচ্ছা করে",
+        "mid": "sym-sour-craving"
+      }
+    ],
+    "answer": "sym-ravenous-hunger",
+    "explanation": "Anacardium-এ রোগীর প্রচণ্ড ক্ষুধা থাকে। খালি পেটে থাকলে তারা অস্বস্তি, দুর্বলতা বা মানসিক অবসাদ বোধ করে, যা খাবার খেলে উপশম হয়।"
+  },
+  {
+    "id": "anac-med-11",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঘুমের মধ্যে কথা বলা এবং দাঁত কিড়মিড় করা",
+        "mid": "sym-sleep-talking-grinding"
+      },
+      {
+        "text": "ঘুমের মধ্যে হাঁটাচলা করা",
+        "mid": "sym-sleep-walking"
+      },
+      {
+        "text": "অতিরিক্ত ঘুম এবং lethargy",
+        "mid": "sym-excessive-sleep"
+      },
+      {
+        "text": "ঘুমাতে গেলেই দুঃস্বপ্ন দেখা",
+        "mid": "sym-nightmares"
+      }
+    ],
+    "answer": "sym-sleep-talking-grinding",
+    "explanation": "Anacardium রোগীরা ঘুমের মধ্যে প্রলাপ বকে বা কথা বলে এবং দাঁত কিড়মিড় করে (bruxism), যা বিশেষ করে শিশুদের ক্ষেত্রে দেখা যায়।"
+  },
+  {
+    "id": "anac-med-12",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চোখে ধোঁয়াটে বা ঝাপসা দেখা, যেন পর্দা দিয়ে দেখছে",
+        "mid": "sym-vision-cloudy"
+      },
+      {
+        "text": "চোখ লাল এবং জ্বালাপোড়া",
+        "mid": "sym-red-eyes"
+      },
+      {
+        "text": "চোখ থেকে পুঁজ বের হওয়া",
+        "mid": "sym-purulent-eyes"
+      },
+      {
+        "text": "চোখের পাতা ফুলে যাওয়া",
+        "mid": "sym-swollen-eyelids"
+      }
+    ],
+    "answer": "sym-vision-cloudy",
+    "explanation": "Anacardium-এর চোখের লক্ষণে দৃষ্টিশক্তি ঝাপসা হয়ে যেতে পারে, মনে হয় যেন চোখের সামনে ধোঁয়া বা মেঘ আছে।"
+  },
+  {
+    "id": "anac-med-13",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কানে শোঁ শোঁ শব্দ এবং বধিরতার অনুভূতি",
+        "mid": "sym-ear-ringing"
+      },
+      {
+        "text": "কান থেকে দুর্গন্ধযুক্ত পুঁজ বের হওয়া",
+        "mid": "sym-ear-discharge"
+      },
+      {
+        "text": "কানের পর্দা ফেটে যাওয়া",
+        "mid": "sym-perforated-drum"
+      },
+      {
+        "text": "কানে তীব্র ব্যথা যা রাতে বেড়ে যায়",
+        "mid": "sym-ear-pain-night"
+      }
+    ],
+    "answer": "sym-ear-ringing",
+    "explanation": "Anacardium-এ কানে বিভিন্ন শব্দ (Tinnitus) শোনা যায় এবং শোনার ক্ষমতা কমে যেতে পারে।"
+  },
+  {
+    "id": "anac-med-14",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গলায় কিছু আটকে থাকার অনুভূতি যা গিলে খাওয়া বা খাবার খেলে উপশম হয়",
+        "mid": "sym-throat-lump-relief-eating"
+      },
+      {
+        "text": "গলায় তীব্র জ্বালাপোড়া যা ঠান্ডা পানিতে উপশম হয়",
+        "mid": "sym-throat-burning"
+      },
+      {
+        "text": "গলা ফুলে যাওয়া এবং শ্বাসকষ্ট",
+        "mid": "sym-throat-swelling"
+      },
+      {
+        "text": "গলা থেকে দুর্গন্ধযুক্ত শ্লেষ্মা বের হওয়া",
+        "mid": "sym-throat-foul"
+      }
+    ],
+    "answer": "sym-throat-lump-relief-eating",
+    "explanation": "গলায় কিছু আটকে থাকার অনুভূতি (Globus sensation) Anacardium-এ দেখা যায়, যা খাবার খেলে বা গিলে খাওয়ার কাজ করলে উপশম পায়।"
+  },
+  {
+    "id": "anac-med-15",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হৃদপিণ্ডের স্পন্দন অনুভূত হয় এবং বুকে চাপের অনুভূতি",
+        "mid": "sym-heart-palpitation"
+      },
+      {
+        "text": "হৃদপিণ্ডের ব্যথা যা বাম বাহুতে ছড়িয়ে পড়ে",
+        "mid": "sym-heart-pain-arm"
+      },
+      {
+        "text": "হৃদপিণ্ডের গতি অত্যন্ত ধীর",
+        "mid": "sym-slow-heart"
+      },
+      {
+        "text": "হৃদপিণ্ডের গতি অত্যন্ত দ্রুত এবং অনিয়মিত",
+        "mid": "sym-fast-irregular-heart"
+      }
+    ],
+    "answer": "sym-heart-palpitation",
+    "explanation": "Anacardium-এ বুকে চাপের অনুভূতি এবং হৃদস্পন্দন অনুভূত হতে পারে, বিশেষ করে মানসিক উত্তেজনার সময়।"
+  },
+  {
+    "id": "anac-med-16",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়ে ফোলা এবং ভারী ভাব",
+        "mid": "sym-leg-swelling"
+      },
+      {
+        "text": "পায়ে ঝিনঝিন করা এবং অবশ ভাব",
+        "mid": "sym-leg-tingling"
+      },
+      {
+        "text": "পায়ে তীব্র ব্যথা যা হাঁটলে বেড়ে যায়",
+        "mid": "sym-leg-pain"
+      },
+      {
+        "text": "পায়ে ফোসকা পড়া",
+        "mid": "sym-leg-blister"
+      }
+    ],
+    "answer": "sym-leg-tingling",
+    "explanation": "Anacardium-এ পায়ে এবং হাতে ঝিনঝিন করা (tingling) এবং অবশ ভাব (numbness) দেখা যেতে পারে।"
+  },
+  {
+    "id": "anac-med-17",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মানসিকভাবে আত্মবিশ্বাসের অভাব এবং নিজেকে অযোগ্য মনে করা",
+        "mid": "sym-low-self-esteem"
+      },
+      {
+        "text": "অতিরিক্ত আত্মম্ভরিতা",
+        "mid": "sym-arrogance"
+      },
+      {
+        "text": "সবসময় হাসিখুশি থাকা",
+        "mid": "sym-cheerful"
+      },
+      {
+        "text": "কোনো কিছু নিয়ে চিন্তা না করা",
+        "mid": "sym-carefree"
+      }
+    ],
+    "answer": "sym-low-self-esteem",
+    "explanation": "Anacardium রোগীরা মানসিকভাবে দুর্বল হয়ে পড়ে, তাদের আত্মবিশ্বাস কমে যায় এবং তারা নিজেকে অযোগ্য বা অপরাধী মনে করতে পারে।"
+  },
+  {
+    "id": "anac-med-18",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথায় ব্যথা যা খাবার খেলে উপশম হয়",
+        "mid": "sym-headache-relief-eating"
+      },
+      {
+        "text": "মাথায় ব্যথা যা আলোয় বেড়ে যায়",
+        "mid": "sym-headache-light"
+      },
+      {
+        "text": "মাথায় ব্যথা যা ঠান্ডা কম্প্রেসে উপশম হয়",
+        "mid": "sym-headache-cold"
+      },
+      {
+        "text": "মাথায় ব্যথা যা নড়চড় করলে বেড়ে যায়",
+        "mid": "sym-headache-motion"
+      }
+    ],
+    "answer": "sym-headache-relief-eating",
+    "explanation": "Anacardium-এর মাথার ব্যথা বা অন্যান্য লক্ষণ খাবার খেলে উপশম পাওয়ার বিশেষ বৈশিষ্ট্য বহন করে।"
+  },
+  {
+    "id": "anac-med-19",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাবে শ্বেতকণা বা ঘোলাটে ভাব",
+        "mid": "sym-urine-cloudy"
+      },
+      {
+        "text": "প্রস্রাবে রক্তপাত",
+        "mid": "sym-urine-blood"
+      },
+      {
+        "text": "প্রস্রাব বন্ধ হয়ে যাওয়া",
+        "mid": "sym-urine-retention"
+      },
+      {
+        "text": "প্রস্রাবে তীব্র জ্বালাপোড়া",
+        "mid": "sym-urine-burning"
+      }
+    ],
+    "answer": "sym-urine-cloudy",
+    "explanation": "Anacardium-এ প্রস্রাব ঘোলাটে হতে পারে এবং তাতে শ্বেতকণা বা অধঃক্ষেপ থাকতে পারে।"
+  },
+  {
+    "id": "anac-med-20",
+    "stem": "নিচের কোনটি Anacardium Orientale-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দাঁতের গোড়ায় ব্যথা এবং মাড়ি থেকে রক্তপাত",
+        "mid": "sym-teeth-gum-bleeding"
+      },
+      {
+        "text": "দাঁত ভেঙে যাওয়া",
+        "mid": "sym-teeth-breaking"
+      },
+      {
+        "text": "দাঁত লম্বা মনে হওয়া",
+        "mid": "sym-teeth-long"
+      },
+      {
+        "text": "দাঁতে ঠান্ডা লাগা",
+        "mid": "sym-teeth-cold"
+      }
+    ],
+    "answer": "sym-teeth-gum-bleeding",
+    "explanation": "Anacardium-এ মাড়ি ফুলে যেতে পারে এবং দাঁতের গোড়া থেকে রক্তপাত হতে পারে, বিশেষ করে সকালে।"
+  }
+]

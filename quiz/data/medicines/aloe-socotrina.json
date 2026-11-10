@@ -1,0 +1,481 @@
+[
+{
+"id": "aloe-med-01",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বায়ু ত্যাগ বা প্রস্রাব করার সময় অনিচ্ছাকৃতভাবে মল নির্গত হওয়া",
+"mid": "sym-insecurity-rectum"
+},
+{
+"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম",
+"mid": "sym-fever-fear"
+},
+{
+"text": "উজ্জ্বল লাল রক্তক্ষরণ এবং পিপাসাহীনতা",
+"mid": "sym-phosphorus-bleed"
+},
+{
+"text": "প্যারালাইসিসের মতো ঠান্ডা ও অসাড় অনুভূতি",
+"mid": "sym-numbness-paralysis"
+}
+],
+"answer": "sym-insecurity-rectum",
+"explanation": "Aloe Socotrina-এর প্রধান লক্ষণ হলো মলদ্বার বা স্ফিংক্টারের ওপর নিয়ন্ত্রণ হারানো, ফলে বায়ু ত্যাগ বা প্রস্রাব করার সময় অনিচ্ছাকৃতভাবে মল নির্গত হয়ে যায়।"
+},
+{
+"id": "aloe-med-02",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "অর্শের বলিগুলো নীলচে রঙের এবং আঙুরের থোকার মতো ঝুলে থাকে",
+"mid": "sym-grapes-hemorrhoids"
+},
+{
+"text": "মাথা ব্যথার সাথে বমি বমি ভাব এবং পিত্ত বমি",
+"mid": "sym-bilious-headache"
+},
+{
+"text": "উচ্চ রক্তচাপের সাথে চরম অস্থিরতা ও প্রলাপ",
+"mid": "sym-high-bp"
+},
+{
+"text": "খাবারের পর পেটে প্রচণ্ড গ্যাস ও ঢেকুর ওঠা",
+"mid": "sym-gas-belching"
+}
+],
+"answer": "sym-grapes-hemorrhoids",
+"explanation": "Aloe Socotrina-এ অর্শের বলিগুলো নীলচে রঙের এবং আঙুরের থোকার মতো ঝুলে থাকে, যা অত্যন্ত চুলকায়।"
+},
+{
+"id": "aloe-med-03",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ভোরের দিকে (ভোর ৫টা নাগাদ) মলত্যাগের প্রচণ্ড বেগের কারণে বিছানা ছাড়তে বাধ্য হওয়া",
+"mid": "sym-morning-urgency"
+},
+{
+"text": "মধ্যরাতে হঠাৎ ঘুম ভেঙে পেটে তীব্র খিদে অনুভব হওয়া",
+"mid": "sym-midnight-hunger"
+},
+{
+"text": "সন্ধ্যায় জ্বর বৃদ্ধি পাওয়া এবং শরীর কাঁপতে থাকা",
+"mid": "sym-evening-fever"
+},
+{
+"text": "দুপুরে রোদে ঘুরলে তীব্র মাথাব্যথা শুরু হওয়া",
+"mid": "sym-sun-headache"
+}
+],
+"answer": "sym-morning-urgency",
+"explanation": "Aloe Socotrina-এর রোগীদের ভোরের দিকে (ভোর ৫টা নাগাদ) মলত্যাগের প্রচণ্ড বেগের কারণে দ্রুত বিছানা ছাড়তে বাধ্য হতে হয়।"
+},
+{
+"id": "aloe-med-04",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মলের সাথে প্রচুর পরিমাণে জেলীর মতো থকথকে আম বা শ্লেষ্মা নির্গত হওয়া",
+"mid": "sym-jelly-mucus"
+},
+{
+"text": "কালো রঙের রক্তযুক্ত পায়খানা ও চরম দুর্বলতা",
+"mid": "sym-black-stool"
+},
+{
+"text": "পায়খানার সাথে প্রচুর তাজা লাল রক্ত যাওয়া",
+"mid": "sym-bright-blood"
+},
+{
+"text": "পানির মতো পাতলা ও গন্ধহীন মল নির্গত হওয়া",
+"mid": "sym-watery-stool"
+}
+],
+"answer": "sym-jelly-mucus",
+"explanation": "Aloe Socotrina-এ মলের সাথে প্রচুর পরিমাণে জেলীর মতো থকথকে আম বা শ্লেষ্মা নির্গত হয়।"
+},
+{
+"id": "aloe-med-05",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "অর্শের বলি এবং মলদ্বারের জ্বালা ঠান্ডা জলের ঝাপটা দিলে উপশম হওয়া",
+"mid": "sym-cold-water-relief"
+},
+{
+"text": "গরম শেক দিলে পেটের ব্যথা ও মোচড় কমে যাওয়া",
+"mid": "sym-warm-relief"
+},
+{
+"text": "চলাফেরা করলে পিঠের ব্যথা সম্পূর্ণ সেরে যাওয়া",
+"mid": "sym-motion-relief"
+},
+{
+"text": "খোলা বাতাসে হাঁটাহাঁটি করলে মাথা ব্যথা কমে যাওয়া",
+"mid": "sym-open-air-relief"
+}
+],
+"answer": "sym-cold-water-relief",
+"explanation": "Aloe Socotrina-এ অর্শের বলি এবং মলদ্বারের জ্বালা ঠান্ডা জলের ঝাপটা দিলে বা ধুয়ে ফেললে উপশম হয়।"
+},
+{
+"id": "aloe-med-06",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগী অত্যন্ত অলস এবং কোনো প্রকার মানসিক বা শারীরিক পরিশ্রম করতে চায় না",
+"mid": "sym-indisposed-labor"
+},
+{
+"text": "সবসময় কাজকর্মে ব্যস্ত থাকা এবং একটুও স্থির না বসা",
+"mid": "sym-restless-activity"
+},
+{
+"text": "অতিরিক্ত চতুর ও সবার সাথে ঝগড়া করার প্রবৃত্তি",
+"mid": "sym-quarrelsome-mood"
+},
+{
+"text": "পরিচিত মানুষদের দেখলেই ভয় পেয়ে লুকিয়ে থাকা",
+"mid": "sym-fear-people"
+}
+],
+"answer": "sym-indisposed-labor",
+"explanation": "Aloe Socotrina-এর মানসিক লক্ষণ হলো রোগী অত্যন্ত অলস এবং কোনো প্রকার মানসিক বা শারীরিক পরিশ্রম করতে চায় না।"
+},
+{
+"id": "aloe-med-07",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "পেটের ভেতর গড়গড় শব্দ হওয়া এবং পেট মলে পূর্ণ আছে বলে মনে হওয়া",
+"mid": "sym-gurgling-abdomen"
+},
+{
+"text": "পেটে পাথর চাপা থাকার মতো ভারী ও শক্ত অনুভূতি",
+"mid": "sym-heavy-stone-belly"
+},
+{
+"text": "নাভির চারপাশে বরফের মতো ঠান্ডা লাগার অনুভূতি",
+"mid": "sym-cold-navel"
+},
+{
+"text": "পেটের ভেতর ছুঁচ ফোটার মতো তীব্র ও তীক্ষ্ণ ব্যথা",
+"mid": "sym-needle-pain"
+}
+],
+"answer": "sym-gurgling-abdomen",
+"explanation": "Aloe Socotrina-এ পেটের ভেতর গড়গড় শব্দ হয় এবং মনে হয় পেট যেন মলে পূর্ণ হয়ে আছে।"
+},
+{
+"id": "aloe-med-08",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মাথার যন্ত্রণার সাথে প্রায়ই পেটের গোলযোগ বা অর্শ যুক্ত থাকা",
+"mid": "sym-headache-hemorrhoids"
+},
+{
+"text": "মাথা ব্যথার সাথে এক চোখের দৃষ্টিশক্তি সাময়িক হারিয়ে যাওয়া",
+"mid": "sym-blind-headache"
+},
+{
+"text": "মাথা ঘোরার সাথে বমি এবং ঠান্ডা ঘাম হওয়া",
+"mid": "sym-vertigo-sweat"
+},
+{
+"text": "সকালে ঘুম থেকে উঠেই তীব্র কোমর ব্যথা শুরু হওয়া",
+"mid": "sym-morning-backache"
+}
+],
+"answer": "sym-headache-hemorrhoids",
+"explanation": "Aloe Socotrina-এর কপালে ভারী বোধ এবং মাথার যন্ত্রণার সাথে প্রায়ই পেটের গোলযোগ বা অর্শ যুক্ত থাকে।"
+},
+{
+"id": "aloe-med-09",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "যকৃৎ অঞ্চলে পূর্ণতা এবং টাটানি ব্যথা অনুভব হওয়া",
+"mid": "sym-liver-pain"
+},
+{
+"text": "পিত্তথলিতে পাথরজনিত তীব্র মোচড়ানো ব্যথা",
+"mid": "sym-gallbladder-colic"
+},
+{
+"text": "পাকস্থলীর মধ্যে জ্বলুনি ও এসিড রিফ্লাক্স হওয়া",
+"mid": "sym-stomach-burning"
+},
+{
+"text": "প্লীহা ফুলে শক্ত হয়ে যাওয়া ও ব্যথা করা",
+"mid": "sym-spleen-enlarged"
+}
+],
+"answer": "sym-liver-pain",
+"explanation": "Aloe Socotrina-এ যকৃৎ অঞ্চলে পূর্ণতা এবং টাটানি ব্যথা থাকে এবং এটি পোর্টাল রক্তসংবহনতন্ত্রের রক্তাধিক্য দূর করে।"
+},
+{
+"id": "aloe-med-10",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "খাওয়ার পরপরই মলত্যাগের তীব্র ইচ্ছা জাগা",
+"mid": "sym-urge-after-eating"
+},
+{
+"text": "খাবারের গন্ধেই বমি আসা এবং ক্ষুধা নষ্ট হয়ে যাওয়া",
+"mid": "sym-nausea-food-smell"
+},
+{
+"text": "খাওয়ার পর পেটে গ্যাস জমে বুক জ্বালা করা",
+"mid": "sym-heartburn-eating"
+},
+{
+"text": "খাদ্য গ্রহণের সাথে সাথেই পেটে প্রচণ্ড বায়ু তৈরি হওয়া",
+"mid": "sym-gas-formation"
+}
+],
+"answer": "sym-urge-after-eating",
+"explanation": "Aloe Socotrina-এর উদর সংক্রান্ত লক্ষণে খাওয়ার পরপরই মলত্যাগের ইচ্ছা জাগার প্রবণতা দেখা যায়।"
+},
+{
+"id": "aloe-med-11",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "গরম আবহাওয়ায় খুব ক্লান্ত ও অবসন্ন বোধ করা",
+"mid": "sym-hot-weather-fatigue"
+},
+{
+"text": "শীতকালে হাত-পা বরফের মতো ঠান্ডা হয়ে যাওয়া",
+"mid": "sym-winter-cold-hands"
+},
+{
+"text": "বর্ষাকালে জয়েন্টে জয়েন্টে তীব্র ব্যথা হওয়া",
+"mid": "sym-monsoon-joint-pain"
+},
+{
+"text": "রাতের বেলা ঠান্ডায় সর্দি-কাশি বেড়ে যাওয়া",
+"mid": "sym-night-cold-cough"
+}
+],
+"answer": "sym-hot-weather-fatigue",
+"explanation": "Aloe Socotrina গরম কাতর রোগী হওয়ায় গরম আবহাওয়ায় সে খুব ক্লান্ত ও অবসন্ন বোধ করে।"
+},
+{
+"id": "aloe-med-12",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মলত্যাগের আগে পেটে প্রচণ্ড মোচড়ানো ব্যথা হওয়া",
+"mid": "sym-colic-before-stool"
+},
+{
+"text": "মলত্যাগের সময় মূত্রথলিতে তীব্র জ্বালা করা",
+"mid": "sym-burning-urination"
+},
+{
+"text": "মলত্যাগের পর পেটে গ্যাসের ব্যথা বৃদ্ধি পাওয়া",
+"mid": "sym-gas-after-stool"
+},
+{
+"text": "কোষ্ঠকাঠিন্যের সাথে পেটে পাথর জমার মতো অনুভূতি",
+"mid": "sym-constipation-stone"
+}
+],
+"answer": "sym-colic-before-stool",
+"explanation": "Aloe Socotrina-এ মলত্যাগের আগে পেটে প্রচণ্ড মোচড়ানো ব্যথা হয় এবং মলত্যাগের পর রোগী অত্যন্ত দুর্বল হয়ে পড়ে।"
+},
+{
+"id": "aloe-med-13",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "দীর্ঘক্ষণ দাঁড়িয়ে থাকলে লক্ষণসমূহের বৃদ্ধি ঘটা",
+"mid": "sym-standing-aggravation"
+},
+{
+"text": "বিশ্রামে শুয়ে থাকলে কোমর ব্যথা বেড়ে যাওয়া",
+"mid": "sym-lying-backache"
+},
+{
+"text": "সকালে ঘুম থেকে উঠলে শরীর সতেজ বোধ করা",
+"mid": "sym-morning-refresh"
+},
+{
+"text": "চলাফেরা করলে পেটের মোচড় কমে যাওয়া",
+"mid": "sym-walking-relief"
+}
+],
+"answer": "sym-standing-aggravation",
+"explanation": "Aloe Socotrina-এর বৃদ্ধিতে ভোরে, গরম ও আর্দ্র আবহাওয়ায়, খাওয়ার পরপর এবং দীর্ঘক্ষণ দাঁড়িয়ে থাকলে সমস্যা বাড়ে।"
+},
+{
+"id": "aloe-med-14",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ঠান্ডা বাতাসে উপসর্গের উপশম হওয়া",
+"mid": "sym-cold-air-amelioration"
+},
+{
+"text": "গরম কাপড়ে মুড়ি দিলে সমস্ত ব্যথা কমে যাওয়া",
+"mid": "sym-warm-cloth-relief"
+},
+{
+"text": "রোদে ঘোরাফেরা করলে শরীর চাঙ্গা হওয়া",
+"mid": "sym-sun-energy"
+},
+{
+"text": "গরম পানি পান করলে পেট ব্যথা দূর হওয়া",
+"mid": "sym-warm-water-relief"
+}
+],
+"answer": "sym-cold-air-amelioration",
+"explanation": "Aloe Socotrina-এ ঠান্ডা বাতাসে, ঠান্ডা জল দিয়ে ধুলে এবং মল বা বায়ু ত্যাগ করলে উপশম পাওয়া যায়।"
+},
+{
+"id": "aloe-med-15",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "সালফারের সাথে গভীর পরিপূরক সম্পর্ক থাকা",
+"mid": "sym-complementary-sulphur"
+},
+{
+"text": "নাক্স ভমিকার সাথে সম্পূর্ণ বিপরীত প্রতিক্রিয়া দেখানো",
+"mid": "sym-nux-opposite"
+},
+{
+"text": "আকোনাইটের সাথে হুবহু মিলে যাওয়া লক্ষণ",
+"mid": "sym-aconite-match"
+},
+{
+"text": "বেলাডোনাকে বিষাক্ত করার ক্ষমতা রাখা",
+"mid": "sym-belladonna-antidote"
+}
+],
+"answer": "sym-complementary-sulphur",
+"explanation": "Aloe Socotrina-এর পরিপূরক ঔষধ হলো Sulphur (সালফার), যার পরে এটি খুব ভালো কাজ করে।"
+},
+{
+"id": "aloe-med-16",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "উদ্ভিদ জগত থেকে সংগৃহীত কমন অ্যালোস প্রকৃতির হওয়া",
+"mid": "sym-plant-source"
+},
+{
+"text": "খনিজ লবণের উৎস থেকে প্রস্তুত একটি শক্তিশালী এসিড",
+"mid": "sym-mineral-acid"
+},
+{
+"text": "সাপের বিষ থেকে সংগৃহীত একটি জৈব উপাদান",
+"mid": "sym-snake-venom"
+},
+{
+"text": "মৌমাছির হুল থেকে তৈরি হোমিওপ্যাথিক টিংচার",
+"mid": "sym-bee-stings"
+}
+],
+"answer": "sym-plant-source",
+"explanation": "Aloe Socotrina উদ্ভিদ জগত বা Common Aloes থেকে সংগৃহীত একটি হোমিওপ্যাথিক ঔষধ।"
+},
+{
+"id": "aloe-med-17",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "গরম কাতর প্রকৃতির রোগী হওয়া",
+"mid": "sym-hot-patient"
+},
+{
+"text": "প্রচণ্ড ঠান্ডা কাতর ও শীতে কষ্ট পাওয়া",
+"mid": "sym-chilly-patient"
+},
+{
+"text": "আবহাওয়ার পরিবর্তনে কোনো প্রভাব না পড়া",
+"mid": "sym-ambithermal-patient"
+},
+{
+"text": "সব ঋতুতে অতিরিক্ত ঘাম ও অস্বস্তি বোধ করা",
+"mid": "sym-sweaty-patient"
+}
+],
+"answer": "sym-hot-patient",
+"explanation": "Aloe Socotrina হলো গরম কাতর (Hot patient) প্রকৃতির ঔষধ।"
+},
+{
+"id": "aloe-med-18",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শরীরের প্রধানত বাম পার্শ্বে বেশি আক্রমণ করা",
+"mid": "sym-left-side"
+},
+{
+"text": "ডান পাশের ফুসফুস ও কানকে বেশি আক্রান্ত করা",
+"mid": "sym-right-side"
+},
+{
+"text": "মাঝখানের মেরুদণ্ড বরাবর ব্যথা সীমাবদ্ধ থাকা",
+"mid": "sym-spine-center"
+},
+{
+"text": "পুরো শরীরে সমানভাবে ছড়িয়ে পড়া",
+"mid": "sym-generalized-side"
+}
+],
+"answer": "sym-left-side",
+"explanation": "Aloe Socotrina-এর লক্ষণগুলো প্রধানত শরীরের বাম পার্শ্বে (Left side) বেশি প্রকাশ পায়।"
+},
+{
+"id": "aloe-med-19",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "সোরা (Psora) মায়াজম বা প্রবৃত্তি প্রধান হওয়া",
+"mid": "sym-psora-miasm"
+},
+{
+"text": "সিফিলিস মায়াজমের চরম ধ্বংসাত্মক লক্ষণ থাকা",
+"mid": "sym-syphilis-miasm"
+},
+{
+"text": "সাইকোটিক মায়াজমের ফলে টিউমার সৃষ্টি করা",
+"mid": "sym-sycotic-miasm"
+},
+{
+"text": "টিউবারকুলার মায়াজমের দ্রুত ক্ষয় রোগ ঘটানো",
+"mid": "sym-tubercular-miasm"
+}
+],
+"answer": "sym-psora-miasm",
+"explanation": "Aloe Socotrina মূলত সোরা (Psora) মায়াজমের অন্তর্ভুক্ত একটি গুরুত্বপূর্ণ হোমিওপ্যাথিক ঔষধ।"
+},
+{
+"id": "aloe-med-20",
+"stem": "নিচের কোনটি Aloe Socotrina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "নাভির চারপাশে ব্যথা যা চাপ দিলে বৃদ্ধি পায়",
+"mid": "sym-navel-pain-pressure"
+},
+{
+"text": "পেটে মৃদু চাপ দিলে ব্যথার সম্পূর্ণ উপশম হওয়া",
+"mid": "sym-pressure-relief-belly"
+},
+{
+"text": "শক্ত করে হাত দিয়ে চেপে ধরলে পেটের মোচড় কমা",
+"mid": "sym-tight-press-relief"
+},
+{
+"text": "পেটে গরম সেক দিলে নাভির ব্যথা মিলিয়ে যাওয়া",
+"mid": "sym-warmth-navel-relief"
+}
+],
+"answer": "sym-navel-pain-pressure",
+"explanation": "Aloe Socotrina-এর উদরে নাভির চারদিকে ব্যথা থাকে যা চাপ দিলে বৃদ্ধি পায়।"
+}],
