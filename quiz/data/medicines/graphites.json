@@ -1,2 +1,242 @@
 [
-  {"id":"graph−med−01","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"ত্বকেরফুসকুড়িথেকেআঠালো,মধুরমতোস্রাববেরহয়","mid":"graph−honey−discharge","text":"শুষ্কখোসাপড়ে,কোনোস্রাবনেই","mid":"ars−dry−eruption","text":"জ্বালাপোড়াফোসকা","mid":"canth−blister","text":"শুধুলালচেদাগ","mid":"bell−red−rash"],"answer":"graph−honey−discharge","explanation":"Graphites−এরত্বকরোগেআঠালো,মধুরমতোস্রাবএকটিপ্রধানলক্ষণ।","id":"graph−med−02","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"কোষ্ঠকাঠিন্য,মলবড়,শক্তওগিঁটযুক্ত","mid":"graph−knotty−stool","text":"ঘনঘনপাতলাপায়খানা","mid":"aloe−diarrhea","text":"রক্তমিশ্রিতআমাশয়","mid":"merc−dysentery","text":"মলত্যাগস্বাভাবিক","mid":"normal−stool"],"answer":"graph−knotty−stool","explanation":"বড়,শক্তওগিঁটযুক্তমলGraphites−এরক্লাসিকলক্ষণ।","id":"graph−med−03","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"স্থূলকায়নারী,বিলম্বিতমাসিকওকোষ্ঠকাঠিন্য","mid":"graph−obese−female","text":"রোগা,অস্থিরওতৃষ্ণার্ত","mid":"ars−thin","text":"উষ্ণরক্তেরকিশোরী","mid":"puls−puberty","text":"অত্যন্তকর্মচঞ্চলপুরুষ","mid":"nux−active"],"answer":"graph−obese−female","explanation":"Graphitesবিশেষতস্থূলকায়,কোষ্ঠকাঠিন্যযুক্তনারীদেরজন্যপরিচিত।","id":"graph−med−04","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"সিদ্ধান্তহীন,দ্বিধাগ্রস্তওভীতু","mid":"graph−indecisive","text":"অত্যন্তআত্মবিশ্বাসী","mid":"lach−confident","text":"ঝুঁকিনিতেভালোবাসে","mid":"tarent−bold","text":"রাগীওতাড়াহুড়োকরে","mid":"nux−hasty"],"answer":"graph−indecisive","explanation":"Graphitesরোগীপ্রায়ইদ্বিধাগ্রস্তওসিদ্ধান্তহীনহয়।","id":"graph−med−05","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"সঙ্গীতশুনলেকান্নাপায়","mid":"graph−music−weep","text":"সঙ্গীতশুনেআনন্দিতহয়","mid":"crocus−music","text":"সঙ্গীতঅপছন্দনয়","mid":"generic−music","text":"সঙ্গীতেঘুমিয়েপড়ে","mid":"opium−music"],"answer":"graph−music−weep","explanation":"সঙ্গীতশুনলেকান্নাচলেআসাGraphites−এরমানসিকলক্ষণ।","id":"graph−med−06","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"নখমোটা,ভঙ্গুরওবিকৃত","mid":"graph−deformed−nails","text":"নখঅত্যন্তমসৃণ","mid":"healthy−nails","text":"নখনীলচে","mid":"cupr−blue−nails","text":"নখেসাদাদাগ","mid":"calc−white−nails"],"answer":"graph−deformed−nails","explanation":"ভঙ্গুরওবিকৃতনখGraphites−এরগুরুত্বপূর্ণলক্ষণ।","id":"graph−med−07","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"আঙুল,ঠোঁট,স্তনবৃন্তবাপায়ুপথেফাটল","mid":"graph−fissures","text":"শুধুচুলকানি","mid":"sulph−itch","text":"শুধুফোলা","mid":"apis−swelling","text":"শুধুলালভাব","mid":"bell−redness"],"answer":"graph−fissures","explanation":"ত্বকওমিউকোকিউটেনিয়াসজংশনেফাটলGraphites−এরপরিচিতলক্ষণ।","id":"graph−med−08","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"কানে,আঙুলেরফাঁকেওত্বকেআঠালোস্রাবযুক্তএকজিমা","mid":"graph−moist−eczema","text":"শুষ্কসোরিয়াসিস","mid":"ars−psoriasis","text":"শুধুফোড়া","mid":"hepar−boil","text":"রোদের‍্যাশ","mid":"glon−rash"],"answer":"graph−moist−eczema","explanation":"MoisteczemawithstickydischargeGraphites−এরঅন্যতমkeynote।","id":"graph−med−09","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"Leucorrhoeaজ্বালাযুক্ত,দিনরাতস্রোতেরমতোবেরহয়","mid":"graph−leucorrhoea","text":"ঘনহলুদস্রাব","mid":"kali−sulph−discharge","text":"দুধেরমতোসাদাস্রাব","mid":"calc−leucorrhoea","text":"কোনস্রাবনেই","mid":"none−discharge"],"answer":"graph−leucorrhoea","explanation":"ExcoriatingleucorrhoeaGraphites−এরগুরুত্বপূর্ণনারী−রোগলক্ষণ।","id":"graph−med−10","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"ঠান্ডাবাতাসেসংবেদনশীল,সহজেসর্দিলাগে","mid":"graph−catches−cold","text":"ঠান্ডাবাতাসেভালোলাগে","mid":"puls−openair","text":"গরমেখারাপ","mid":"sulph−heat","text":"কোনআবহাওয়ারপ্রভাবনেই","mid":"generic−weather"],"answer":"graph−catches−cold","explanation":"Graphitesরোগীসহজেঠান্ডালাগেওড্রাফটেসংবেদনশীল।","id":"graph−med−11","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"শব্দপূর্ণপরিবেশেভালোশুনতেপায়","mid":"graph−hears−better−noise","text":"নীরবতায়ভালোশুনে","mid":"natmur−hearing","text":"সবসময়কানেশব্দ","mid":"china−tinnitus","text":"শ্রবণশক্তিস্বাভাবিক","mid":"normal−hearing"],"answer":"graph−hears−better−noise","explanation":"Noise−এhearingbetterহওয়াGraphites−এরঅদ্ভুতবৈশিষ্ট্য।","id":"graph−med−12","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"কপালেমাকড়সারজালেরমতোঅনুভূতি","mid":"graph−cobweb","text":"কপালেজ্বালা","mid":"ars−forehead","text":"কপালেঠান্ডাঅনুভূতি","mid":"sep−coldspot","text":"কপালেঘাম","mid":"calc−sweat"],"answer":"graph−cobweb","explanation":"CobwebsensationGraphites−এরএকটিবিখ্যাতkeynote।","id":"graph−med−13","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"মাসিকবিলম্বিত,অল্পওফ্যাকাশে","mid":"graph−late−menses","text":"মাসিকখুববেশি","mid":"sabina−profuse","text":"মাসিকআগেভাগেহয়","mid":"lach−early","text":"মাসিকব্যথাহীন","mid":"puls−painless"],"answer":"graph−late−menses","explanation":"DelayedandscantymensesGraphites−এরক্লাসিকবৈশিষ্ট্য।","id":"graph−med−14","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"প্রতিটিসামান্যআঘাতপেকেযায়","mid":"graph−suppurates","text":"আঘাতদ্রুতশুকিয়েযায়","mid":"arnica−heal","text":"শুধুকালশিটেপড়ে","mid":"arnica−bruise","text":"আঘাতেরক্তপাতহয়না","mid":"none−injury"],"answer":"graph−suppurates","explanation":"Unhealthyskin,everyinjurysuppuratesহলোGraphites−এরমূলবৈশিষ্ট্য।","id":"graph−med−15","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"দুঃখিত,মৃত্যুনিয়েচিন্তাকরে","mid":"graph−thinks−death","text":"ভবিষ্যৎনিয়েউদ্বিগ্ন","mid":"ars−anxiety","text":"অত্যন্তআনন্দিত","mid":"crocus−happy","text":"রাগীওঝগড়াটে","mid":"nux−angry"],"answer":"graph−thinks−death","explanation":"Sad,despondentএবংdeaththoughtsGraphites−এরমানসিকলক্ষণ।","id":"graph−med−16","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"চোখেরপাতায়ভেজা,ফাটলযুক্তএকজিমা","mid":"graph−lid−eczema","text":"চোখলালওগরম","mid":"bell−eyes","text":"চোখেশুষ্কতা","mid":"argn−dry−eye","text":"চোখেব্যথাহীনজলপড়া","mid":"euph−tears"],"answer":"graph−lid−eczema","explanation":"EczemaoflidsGraphites−এরএকটিগুরুত্বপূর্ণচক্ষুলক্ষণ।","id":"graph−med−17","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"দীর্ঘদিনেরদাগবাক্ষতআবারখুলেযায়","mid":"graph−old−scar","text":"ক্ষতদ্রুতসারে","mid":"calend−heal","text":"শুধুচুলকায়","mid":"sulph−itchscar","text":"দাগঅদৃশ্যহয়েযায়","mid":"none−scar"],"answer":"graph−old−scar","explanation":"OldscarsbreakingopenagainGraphites−এরবৈশিষ্ট্য।","id":"graph−med−18","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"মলত্যাগেরপরেপায়ুপথেজ্বালাওব্যথা","mid":"graph−anus−pain","text":"মলত্যাগেকোনোঅস্বস্তিনেই","mid":"normal−anus","text":"শুধুডায়রিয়া","mid":"podo−diarrhea","text":"রক্তপাতইপ্রধান","mid":"ham−bleed"],"answer":"graph−anus−pain","explanation":"Constipation−এরসঙ্গেanus−এsorenessGraphites−এরসাধারণলক্ষণ।","id":"graph−med−19","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"রাতেএবংমাসিকেরসময়উপসর্গবৃদ্ধি","mid":"graph−night−menses","text":"সকালেবৃদ্ধি","mid":"natmur−morning","text":"খোলাবাতাসেবৃদ্ধি","mid":"hep−openair","text":"খাওয়ারপরেবৃদ্ধি","mid":"nux−aftereat"],"answer":"graph−night−menses","explanation":"Graphites−এরঅনেকউপসর্গরাতেওমাসিকেরসময়বাড়ে।","id":"graph−med−20","stem":"নিচেরকোনটিGraphites−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"শিশুবেয়াদব,বকুনিশুনেহাসে","mid":"graph−impudent−child","text":"অত্যন্তভীতশিশু","mid":"stram−fear−child","text":"শান্তওভদ্রশিশু","mid":"calc−gentle−child","text":"অতিরিক্তকান্নাকাটিকরে","mid":"cham−cry−child"],"answer":"graph−impudent−child","explanation":"ImpudentchildrenlaughingatreprimandsGraphites−এরবৈশিষ্ট্য।"]\["id":"graph−sym−01","stem":"ত্বকেরফুসকুড়িথেকেআঠালো,মধুরমতোস্রাববেরহয়—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"Cantharis","mid":"cantharis","text":"Belladonna","mid":"belladonna"],"answer":"graphites","tags":\["eczema","skin"],"explanation":"Honey−likestickydischargeGraphites−এরএকটিপ্রধানkeynote।","id":"graph−sym−02","stem":"কোষ্ঠকাঠিন্য,মলবড়,শক্তওগিঁটযুক্ত—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Aloe","mid":"aloe","text":"Mercurius","mid":"mercurius","text":"Podophyllum","mid":"podophyllum"],"answer":"graphites","tags":\["constipation","stool"],"explanation":"LargeknottystoolGraphites−এরপরিচিতলক্ষণ।","id":"graph−sym−03","stem":"স্থূলকায়নারী,বিলম্বিতমাসিকওকোষ্ঠকাঠিন্য—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"Pulsatilla","mid":"pulsatilla","text":"NuxVomica","mid":"nux−vomica"],"answer":"graphites","tags":\["female","obesity"],"explanation":"Graphitesবিশেষতobese,constipatedwomen−এরজন্যপরিচিত।","id":"graph−sym−04","stem":"সিদ্ধান্তহীন,দ্বিধাগ্রস্তওভীতু—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Lachesis","mid":"lachesis","text":"Tarentula","mid":"tarentula","text":"NuxVomica","mid":"nux−vomica"],"answer":"graphites","tags":\["mind","indecision"],"explanation":"IndecisivenessGraphites−এরগুরুত্বপূর্ণমানসিকলক্ষণ।","id":"graph−sym−05","stem":"সঙ্গীতশুনলেকান্নাপায়—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Crocus","mid":"crocus","text":"Opium","mid":"opium","text":"NatrumMur","mid":"natrum−muriaticum"],"answer":"graphites","tags":\["mind","music"],"explanation":"MusiccausesweepinginGraphites।","id":"graph−sym−06","stem":"নখমোটা,ভঙ্গুরওবিকৃত—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"CalcareaCarbonica","mid":"calcarea−carbonica","text":"CuprumMetallicum","mid":"cuprum−metallicum","text":"AntimoniumCrudum","mid":"antimonium−crudum"],"answer":"graphites","tags":\["nails","skin"],"explanation":"DeformedbrittlenailsstronglysuggestGraphites।","id":"graph−sym−07","stem":"আঙুল,ঠোঁট,স্তনবৃন্তবাপায়ুপথেফাটল—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Sulphur","mid":"sulphur","text":"Apis","mid":"apis","text":"Belladonna","mid":"belladonna"],"answer":"graphites","tags":\["fissures","skin"],"explanation":"CharacteristicfissuresarecommoninGraphites।","id":"graph−sym−08","stem":"কানে,আঙুলেরফাঁকেওত্বকেআঠালোস্রাবযুক্তএকজিমা—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"HeparSulph","mid":"hepar−sulph","text":"Cantharis","mid":"cantharis","text":"ArsenicumAlbum","mid":"arsenicum−album"],"answer":"graphites","tags":\["eczema","discharge"],"explanation":"MoisteczemawithstickyexudationisclassicGraphites।","id":"graph−sym−09","stem":"Leucorrhoeaজ্বালাযুক্ত,দিনরাতস্রোতেরমতোবেরহয়—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"KaliSulph","mid":"kali−sulph","text":"CalcareaCarbonica","mid":"calcarea−carbonica","text":"Sepia","mid":"sepia"],"answer":"graphites","tags":\["leucorrhoea","female"],"explanation":"ExcoriatingleucorrhoeaindicatesGraphites।","id":"graph−sym−10","stem":"ঠান্ডাবাতাসেসংবেদনশীল,সহজেসর্দিলাগে—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Pulsatilla","mid":"pulsatilla","text":"Sulphur","mid":"sulphur","text":"NuxVomica","mid":"nux−vomica"],"answer":"graphites","tags":\["cold","generalities"],"explanation":"TakescoldeasilyisaGraphiteskeynote।","id":"graph−sym−11","stem":"শব্দপূর্ণপরিবেশেভালোশুনতেপায়—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"China","mid":"china","text":"NatrumMur","mid":"natrum−muriaticum","text":"NitricAcid","mid":"nitric−acid"],"answer":"graphites","tags":\["hearing","peculiar"],"explanation":"HearsbetterinanoiseisapeculiarGraphitessymptom।","id":"graph−sym−12","stem":"কপালেমাকড়সারজালেরমতোঅনুভূতি—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Borax","mid":"borax","text":"BarytaCarb","mid":"baryta−carb","text":"Ranunculus","mid":"ranunculus"],"answer":"graphites","tags":\["head","sensation"],"explanation":"CobwebsensationonforeheadisstronglyassociatedwithGraphites।","id":"graph−sym−13","stem":"মাসিকবিলম্বিত,অল্পওফ্যাকাশে—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Sabina","mid":"sabina","text":"Lachesis","mid":"lachesis","text":"Pulsatilla","mid":"pulsatilla"],"answer":"graphites","tags":\["menses","female"],"explanation":"LatescantymensesindicateGraphites।","id":"graph−sym−14","stem":"প্রতিটিসামান্যআঘাতপেকেযায়—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Arnica","mid":"arnica","text":"Calendula","mid":"calendula","text":"HeparSulph","mid":"hepar−sulph"],"answer":"graphites","tags":\["skin","suppuration"],"explanation":"EveryinjurysuppuratesisaGraphiteskeynote।","id":"graph−sym−15","stem":"দুঃখিত,মৃত্যুনিয়েচিন্তাকরে—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"Crocus","mid":"crocus","text":"NuxVomica","mid":"nux−vomica"],"answer":"graphites","tags":\["mind","depression"],"explanation":"ThinksofnothingbutdeathisfoundinGraphites।","id":"graph−sym−16","stem":"চোখেরপাতায়ভেজা,ফাটলযুক্তএকজিমা—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Belladonna","mid":"belladonna","text":"Euphrasia","mid":"euphrasia","text":"ArgentumNitricum","mid":"argentum−nitricum"],"answer":"graphites","tags":\["eyes","eczema"],"explanation":"EczemaofeyelidsischaracteristicofGraphites।","id":"graph−sym−17","stem":"দীর্ঘদিনেরদাগবাক্ষতআবারখুলেযায়—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Calendula","mid":"calendula","text":"Sulphur","mid":"sulphur","text":"HeparSulph","mid":"hepar−sulph"],"answer":"graphites","tags":\["scar","skin"],"explanation":"OldscarsreopeningpointstowardGraphites।","id":"graph−sym−18","stem":"মলত্যাগেরপরেপায়ুপথেজ্বালাওব্যথা—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Aloe","mid":"aloe","text":"Hamamelis","mid":"hamamelis","text":"Podophyllum","mid":"podophyllum"],"answer":"graphites","tags":\["anus","constipation"],"explanation":"SmartingsorenessafterstooloccursinGraphites।","id":"graph−sym−19","stem":"রাতেএবংমাসিকেরসময়উপসর্গবৃদ্ধি—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"NatrumMur","mid":"natrum−muriaticum","text":"HeparSulph","mid":"hepar−sulph","text":"NuxVomica","mid":"nux−vomica"],"answer":"graphites","tags":\["modalities","night"],"explanation":"NightandmensesaggravationareimportantGraphitesmodalities।","id":"graph−sym−20","stem":"শিশুবেয়াদব,বকুনিশুনেহাসে—কোনঔষধটিউপযুক্ত?","options":\["text":"Graphites","mid":"graphites","text":"Stramonium","mid":"stramonium","text":"CalcareaCarbonica","mid":"calcarea−carbonica","text":"Chamomilla","mid":"chamomilla"],"answer":"graphites","tags":\["children","behavior"],"explanation":"ImpudentchildrenlaughingatreprimandssuggestGraphites।"]{"id":"graph-med-01","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"ত্বকের ফুসকুড়ি থেকে আঠালো, মধুর মতো স্রাব বের হয়","mid":"graph-honey-discharge"},{"text":"শুষ্ক খোসা পড়ে, কোনো স্রাব নেই","mid":"ars-dry-eruption"},{"text":"জ্বালাপোড়া ফোসকা","mid":"canth-blister"},{"text":"শুধু লালচে দাগ","mid":"bell-red-rash"}],"answer":"graph-honey-discharge","explanation":"Graphites-এর ত্বক রোগে আঠালো, মধুর মতো স্রাব একটি প্রধান লক্ষণ।"},{"id":"graph-med-02","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"কোষ্ঠকাঠিন্য, মল বড়, শক্ত ও গিঁটযুক্ত","mid":"graph-knotty-stool"},{"text":"ঘন ঘন পাতলা পায়খানা","mid":"aloe-diarrhea"},{"text":"রক্তমিশ্রিত আমাশয়","mid":"merc-dysentery"},{"text":"মলত্যাগ স্বাভাবিক","mid":"normal-stool"}],"answer":"graph-knotty-stool","explanation":"বড়, শক্ত ও গিঁটযুক্ত মল Graphites-এর ক্লাসিক লক্ষণ।"},{"id":"graph-med-03","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"স্থূলকায় নারী, বিলম্বিত মাসিক ও কোষ্ঠকাঠিন্য","mid":"graph-obese-female"},{"text":"রোগা, অস্থির ও তৃষ্ণার্ত","mid":"ars-thin"},{"text":"উষ্ণ রক্তের কিশোরী","mid":"puls-puberty"},{"text":"অত্যন্ত কর্মচঞ্চল পুরুষ","mid":"nux-active"}],"answer":"graph-obese-female","explanation":"Graphites বিশেষত স্থূলকায়, কোষ্ঠকাঠিন্যযুক্ত নারীদের জন্য পরিচিত।"},{"id":"graph-med-04","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"সিদ্ধান্তহীন, দ্বিধাগ্রস্ত ও ভীতু","mid":"graph-indecisive"},{"text":"অত্যন্ত আত্মবিশ্বাসী","mid":"lach-confident"},{"text":"ঝুঁকি নিতে ভালোবাসে","mid":"tarent-bold"},{"text":"রাগী ও তাড়াহুড়ো করে","mid":"nux-hasty"}],"answer":"graph-indecisive","explanation":"Graphites রোগী প্রায়ই দ্বিধাগ্রস্ত ও সিদ্ধান্তহীন হয়।"},{"id":"graph-med-05","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"সঙ্গীত শুনলে কান্না পায়","mid":"graph-music-weep"},{"text":"সঙ্গীত শুনে আনন্দিত হয়","mid":"crocus-music"},{"text":"সঙ্গীত অপছন্দ নয়","mid":"generic-music"},{"text":"সঙ্গীতে ঘুমিয়ে পড়ে","mid":"opium-music"}],"answer":"graph-music-weep","explanation":"সঙ্গীত শুনলে কান্না চলে আসা Graphites-এর মানসিক লক্ষণ।"},{"id":"graph-med-06","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"নখ মোটা, ভঙ্গুর ও বিকৃত","mid":"graph-deformed-nails"},{"text":"নখ অত্যন্ত মসৃণ","mid":"healthy-nails"},{"text":"নখ নীলচে","mid":"cupr-blue-nails"},{"text":"নখে সাদা দাগ","mid":"calc-white-nails"}],"answer":"graph-deformed-nails","explanation":"ভঙ্গুর ও বিকৃত নখ Graphites-এর গুরুত্বপূর্ণ লক্ষণ।"},{"id":"graph-med-07","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"আঙুল, ঠোঁট, স্তনবৃন্ত বা পায়ুপথে ফাটল","mid":"graph-fissures"},{"text":"শুধু চুলকানি","mid":"sulph-itch"},{"text":"শুধু ফোলা","mid":"apis-swelling"},{"text":"শুধু লালভাব","mid":"bell-redness"}],"answer":"graph-fissures","explanation":"ত্বক ও মিউকোকিউটেনিয়াস জংশনে ফাটল Graphites-এর পরিচিত লক্ষণ।"},{"id":"graph-med-08","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"কানে, আঙুলের ফাঁকে ও ত্বকে আঠালো স্রাবযুক্ত একজিমা","mid":"graph-moist-eczema"},{"text":"শুষ্ক সোরিয়াসিস","mid":"ars-psoriasis"},{"text":"শুধু ফোড়া","mid":"hepar-boil"},{"text":"রোদে র‍্যাশ","mid":"glon-rash"}],"answer":"graph-moist-eczema","explanation":"Moist eczema with sticky discharge Graphites-এর অন্যতম keynote।"},{"id":"graph-med-09","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"Leucorrhoea জ্বালাযুক্ত, দিনরাত স্রোতের মতো বের হয়","mid":"graph-leucorrhoea"},{"text":"ঘন হলুদ স্রাব","mid":"kali-sulph-discharge"},{"text":"দুধের মতো সাদা স্রাব","mid":"calc-leucorrhoea"},{"text":"কোন স্রাব নেই","mid":"none-discharge"}],"answer":"graph-leucorrhoea","explanation":"Excoriating leucorrhoea Graphites-এর গুরুত্বপূর্ণ নারী-রোগ লক্ষণ।"},{"id":"graph-med-10","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"ঠান্ডা বাতাসে সংবেদনশীল, সহজে সর্দি লাগে","mid":"graph-catches-cold"},{"text":"ঠান্ডা বাতাসে ভালো লাগে","mid":"puls-openair"},{"text":"গরমে খারাপ","mid":"sulph-heat"},{"text":"কোন আবহাওয়ার প্রভাব নেই","mid":"generic-weather"}],"answer":"graph-catches-cold","explanation":"Graphites রোগী সহজে ঠান্ডা লাগে ও ড্রাফটে সংবেদনশীল।"},{"id":"graph-med-11","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"শব্দপূর্ণ পরিবেশে ভালো শুনতে পায়","mid":"graph-hears-better-noise"},{"text":"নীরবতায় ভালো শুনে","mid":"natmur-hearing"},{"text":"সবসময় কানে শব্দ","mid":"china-tinnitus"},{"text":"শ্রবণশক্তি স্বাভাবিক","mid":"normal-hearing"}],"answer":"graph-hears-better-noise","explanation":"Noise-এ hearing better হওয়া Graphites-এর অদ্ভুত বৈশিষ্ট্য।"},{"id":"graph-med-12","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"কপালে মাকড়সার জালের মতো অনুভূতি","mid":"graph-cobweb"},{"text":"কপালে জ্বালা","mid":"ars-forehead"},{"text":"কপালে ঠান্ডা অনুভূতি","mid":"sep-coldspot"},{"text":"কপালে ঘাম","mid":"calc-sweat"}],"answer":"graph-cobweb","explanation":"Cobweb sensation Graphites-এর একটি বিখ্যাত keynote।"},{"id":"graph-med-13","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"মাসিক বিলম্বিত, অল্প ও ফ্যাকাশে","mid":"graph-late-menses"},{"text":"মাসিক খুব বেশি","mid":"sabina-profuse"},{"text":"মাসিক আগেভাগে হয়","mid":"lach-early"},{"text":"মাসিক ব্যথাহীন","mid":"puls-painless"}],"answer":"graph-late-menses","explanation":"Delayed and scanty menses Graphites-এর ক্লাসিক বৈশিষ্ট্য।"},{"id":"graph-med-14","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"প্রতিটি সামান্য আঘাত পেকে যায়","mid":"graph-suppurates"},{"text":"আঘাত দ্রুত শুকিয়ে যায়","mid":"arnica-heal"},{"text":"শুধু কালশিটে পড়ে","mid":"arnica-bruise"},{"text":"আঘাতে রক্তপাত হয় না","mid":"none-injury"}],"answer":"graph-suppurates","explanation":"Unhealthy skin, every injury suppurates হলো Graphites-এর মূল বৈশিষ্ট্য।"},{"id":"graph-med-15","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"দুঃখিত, মৃত্যু নিয়ে চিন্তা করে","mid":"graph-thinks-death"},{"text":"ভবিষ্যৎ নিয়ে উদ্বিগ্ন","mid":"ars-anxiety"},{"text":"অত্যন্ত আনন্দিত","mid":"crocus-happy"},{"text":"রাগী ও ঝগড়াটে","mid":"nux-angry"}],"answer":"graph-thinks-death","explanation":"Sad, despondent এবং death thoughts Graphites-এর মানসিক লক্ষণ।"},{"id":"graph-med-16","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"চোখের পাতায় ভেজা, ফাটলযুক্ত একজিমা","mid":"graph-lid-eczema"},{"text":"চোখ লাল ও গরম","mid":"bell-eyes"},{"text":"চোখে শুষ্কতা","mid":"argn-dry-eye"},{"text":"চোখে ব্যথাহীন জল পড়া","mid":"euph-tears"}],"answer":"graph-lid-eczema","explanation":"Eczema of lids Graphites-এর একটি গুরুত্বপূর্ণ চক্ষু লক্ষণ।"},{"id":"graph-med-17","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"দীর্ঘদিনের দাগ বা ক্ষত আবার খুলে যায়","mid":"graph-old-scar"},{"text":"ক্ষত দ্রুত সারে","mid":"calend-heal"},{"text":"শুধু চুলকায়","mid":"sulph-itchscar"},{"text":"দাগ অদৃশ্য হয়ে যায়","mid":"none-scar"}],"answer":"graph-old-scar","explanation":"Old scars breaking open again Graphites-এর বৈশিষ্ট্য।"},{"id":"graph-med-18","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"মলত্যাগের পরে পায়ুপথে জ্বালা ও ব্যথা","mid":"graph-anus-pain"},{"text":"মলত্যাগে কোনো অস্বস্তি নেই","mid":"normal-anus"},{"text":"শুধু ডায়রিয়া","mid":"podo-diarrhea"},{"text":"রক্তপাতই প্রধান","mid":"ham-bleed"}],"answer":"graph-anus-pain","explanation":"Constipation-এর সঙ্গে anus-এ soreness Graphites-এর সাধারণ লক্ষণ।"},{"id":"graph-med-19","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"রাতে এবং মাসিকের সময় উপসর্গ বৃদ্ধি","mid":"graph-night-menses"},{"text":"সকালে বৃদ্ধি","mid":"natmur-morning"},{"text":"খোলা বাতাসে বৃদ্ধি","mid":"hep-openair"},{"text":"খাওয়ার পরে বৃদ্ধি","mid":"nux-aftereat"}],"answer":"graph-night-menses","explanation":"Graphites-এর অনেক উপসর্গ রাতে ও মাসিকের সময় বাড়ে।"},{"id":"graph-med-20","stem":"নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"শিশু বেয়াদব, বকুনি শুনে হাসে","mid":"graph-impudent-child"},{"text":"অত্যন্ত ভীত শিশু","mid":"stram-fear-child"},{"text":"শান্ত ও ভদ্র শিশু","mid":"calc-gentle-child"},{"text":"অতিরিক্ত কান্নাকাটি করে","mid":"cham-cry-child"}],"answer":"graph-impudent-child","explanation":"Impudent children laughing at reprimands Graphites-এর বৈশিষ্ট্য।"}]  
+  {
+    "id": "graph-med-01",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ত্বকের ফুসকুড়ি থেকে আঠালো, মধুর মতো স্রাব বের হয়", "mid": "graph-honey-discharge"},
+      {"text": "শুষ্ক খোসা পড়ে, কোনো স্রাব নেই", "mid": "ars-dry-eruption"},
+      {"text": "জ্বালাপোড়া ফোসকা", "mid": "canth-blister"},
+      {"text": "শুধু লালচে দাগ", "mid": "bell-red-rash"}
+    ],
+    "answer": "graph-honey-discharge",
+    "explanation": "Graphites-এর ত্বক রোগে আঠালো, মধুর মতো স্রাব একটি প্রধান লক্ষণ।"
+  },
+  {
+    "id": "graph-med-02",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কোষ্ঠকাঠিন্য, মল বড়, শক্ত ও গিঁটযুক্ত", "mid": "graph-knotty-stool"},
+      {"text": "ঘন ঘন পাতলা পায়খানা", "mid": "aloe-diarrhea"},
+      {"text": "রক্তমিশ্রিত আমাশয়", "mid": "merc-dysentery"},
+      {"text": "মলত্যাগ স্বাভাবিক", "mid": "normal-stool"}
+    ],
+    "answer": "graph-knotty-stool",
+    "explanation": "বড়, শক্ত ও গিঁটযুক্ত মল Graphites-এর ক্লাসিক লক্ষণ।"
+  },
+  {
+    "id": "graph-med-03",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্থূলকায় নারী, বিলম্বিত মাসিক ও কোষ্ঠকাঠিন্য", "mid": "graph-obese-female"},
+      {"text": "রোগা, অস্থির ও তৃষ্ণার্ত", "mid": "ars-thin"},
+      {"text": "উষ্ণ রক্তের কিশোরী", "mid": "puls-puberty"},
+      {"text": "অত্যন্ত কর্মচঞ্চল পুরুষ", "mid": "nux-active"}
+    ],
+    "answer": "graph-obese-female",
+    "explanation": "Graphites বিশেষত স্থূলকায়, কোষ্ঠকাঠিন্যযুক্ত নারীদের জন্য পরিচিত।"
+  },
+  {
+    "id": "graph-med-04",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সিদ্ধান্তহীন, দ্বিধাগ্রস্ত ও ভীতু", "mid": "graph-indecisive"},
+      {"text": "অত্যন্ত আত্মবিশ্বাসী", "mid": "lach-confident"},
+      {"text": "ঝুঁকি নিতে ভালোবাসে", "mid": "tarent-bold"},
+      {"text": "রাগী ও তাড়াহুড়ো করে", "mid": "nux-hasty"}
+    ],
+    "answer": "graph-indecisive",
+    "explanation": "Graphites রোগী প্রায়ই দ্বিধাগ্রস্ত ও সিদ্ধান্তহীন হয়।"
+  },
+  {
+    "id": "graph-med-05",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সঙ্গীত শুনলে কান্না পায়", "mid": "graph-music-weep"},
+      {"text": "সঙ্গীত শুনে আনন্দিত হয়", "mid": "crocus-music"},
+      {"text": "সঙ্গীত অপছন্দ নয়", "mid": "generic-music"},
+      {"text": "সঙ্গীতে ঘুমিয়ে পড়ে", "mid": "opium-music"}
+    ],
+    "answer": "graph-music-weep",
+    "explanation": "সঙ্গীত শুনলে কান্না চলে আসা Graphites-এর মানসিক লক্ষণ।"
+  },
+  {
+    "id": "graph-med-06",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নখ মোটা, ভঙ্গুর ও বিকৃত", "mid": "graph-deformed-nails"},
+      {"text": "নখ অত্যন্ত মসৃণ", "mid": "healthy-nails"},
+      {"text": "নখ নীলচে", "mid": "cupr-blue-nails"},
+      {"text": "নখে সাদা দাগ", "mid": "calc-white-nails"}
+    ],
+    "answer": "graph-deformed-nails",
+    "explanation": "ভঙ্গুর ও বিকৃত নখ Graphites-এর গুরুত্বপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "graph-med-07",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আঙুল, ঠোঁট, স্তনবৃন্ত বা পায়ুপথে ফাটল", "mid": "graph-fissures"},
+      {"text": "শুধু চুলকানি", "mid": "sulph-itch"},
+      {"text": "শুধু ফোলা", "mid": "apis-swelling"},
+      {"text": "শুধু লালভাব", "mid": "bell-redness"}
+    ],
+    "answer": "graph-fissures",
+    "explanation": "ত্বক ও মিউকোকিউটেনিয়াস জংশনে ফাটল Graphites-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "graph-med-08",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কানে, আঙুলের ফাঁকে ও ত্বকে আঠালো স্রাবযুক্ত একজিমা", "mid": "graph-moist-eczema"},
+      {"text": "শুষ্ক সোরিয়াসিস", "mid": "ars-psoriasis"},
+      {"text": "শুধু ফোড়া", "mid": "hepar-boil"},
+      {"text": "রোদে র‍্যাশ", "mid": "glon-rash"}
+    ],
+    "answer": "graph-moist-eczema",
+    "explanation": "Moist eczema with sticky discharge Graphites-এর অন্যতম keynote।"
+  },
+  {
+    "id": "graph-med-09",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "Leucorrhoea জ্বালাযুক্ত, দিনরাত স্রোতের মতো বের হয়", "mid": "graph-leucorrhoea"},
+      {"text": "ঘন হলুদ স্রাব", "mid": "kali-sulph-discharge"},
+      {"text": "দুধের মতো সাদা স্রাব", "mid": "calc-leucorrhoea"},
+      {"text": "কোন স্রাব নেই", "mid": "none-discharge"}
+    ],
+    "answer": "graph-leucorrhoea",
+    "explanation": "Excoriating leucorrhoea Graphites-এর গুরুত্বপূর্ণ নারী-রোগ লক্ষণ।"
+  },
+  {
+    "id": "graph-med-10",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা বাতাসে সংবেদনশীল, সহজে সর্দি লাগে", "mid": "graph-catches-cold"},
+      {"text": "ঠান্ডা বাতাসে ভালো লাগে", "mid": "puls-openair"},
+      {"text": "গরমে খারাপ", "mid": "sulph-heat"},
+      {"text": "কোন আবহাওয়ার প্রভাব নেই", "mid": "generic-weather"}
+    ],
+    "answer": "graph-catches-cold",
+    "explanation": "Graphites রোগী সহজে ঠান্ডা লাগে ও ড্রাফটে সংবেদনশীল।"
+  },
+  {
+    "id": "graph-med-11",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শব্দপূর্ণ পরিবেশে ভালো শুনতে পায়", "mid": "graph-hears-better-noise"},
+      {"text": "নীরবতায় ভালো শুনে", "mid": "natmur-hearing"},
+      {"text": "সবসময় কানে শব্দ", "mid": "china-tinnitus"},
+      {"text": "শ্রবণশক্তি স্বাভাবিক", "mid": "normal-hearing"}
+    ],
+    "answer": "graph-hears-better-noise",
+    "explanation": "Noise-এ hearing better হওয়া Graphites-এর অদ্ভুত বৈশিষ্ট্য।"
+  },
+  {
+    "id": "graph-med-12",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কপালে মাকড়সার জালের মতো অনুভূতি", "mid": "graph-cobweb"},
+      {"text": "কপালে জ্বালা", "mid": "ars-forehead"},
+      {"text": "কপালে ঠান্ডা অনুভূতি", "mid": "sep-coldspot"},
+      {"text": "কপালে ঘাম", "mid": "calc-sweat"}
+    ],
+    "answer": "graph-cobweb",
+    "explanation": "Cobweb sensation Graphites-এর একটি বিখ্যাত keynote।"
+  },
+  {
+    "id": "graph-med-13",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাসিক বিলম্বিত, অল্প ও ফ্যাকাশে", "mid": "graph-late-menses"},
+      {"text": "মাসিক খুব বেশি", "mid": "sabina-profuse"},
+      {"text": "মাসিক আগেভাগে হয়", "mid": "lach-early"},
+      {"text": "মাসিক ব্যথাহীন", "mid": "puls-painless"}
+    ],
+    "answer": "graph-late-menses",
+    "explanation": "Delayed and scanty menses Graphites-এর ক্লাসিক বৈশিষ্ট্য।"
+  },
+  {
+    "id": "graph-med-14",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রতিটি সামান্য আঘাত পেকে যায়", "mid": "graph-suppurates"},
+      {"text": "আঘাত দ্রুত শুকিয়ে যায়", "mid": "arnica-heal"},
+      {"text": "শুধু কালশিটে পড়ে", "mid": "arnica-bruise"},
+      {"text": "আঘাতে রক্তপাত হয় না", "mid": "none-injury"}
+    ],
+    "answer": "graph-suppurates",
+    "explanation": "Unhealthy skin, every injury suppurates হলো Graphites-এর মূল বৈশিষ্ট্য।"
+  },
+  {
+    "id": "graph-med-15",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দুঃখিত, মৃত্যু নিয়ে চিন্তা করে", "mid": "graph-thinks-death"},
+      {"text": "ভবিষ্যৎ নিয়ে উদ্বিগ্ন", "mid": "ars-anxiety"},
+      {"text": "অত্যন্ত আনন্দিত", "mid": "crocus-happy"},
+      {"text": "রাগী ও ঝগড়াটে", "mid": "nux-angry"}
+    ],
+    "answer": "graph-thinks-death",
+    "explanation": "Sad, despondent এবং death thoughts Graphites-এর মানসিক লক্ষণ।"
+  },
+  {
+    "id": "graph-med-16",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের পাতায় ভেজা, ফাটলযুক্ত একজিমা", "mid": "graph-lid-eczema"},
+      {"text": "চোখ লাল ও গরম", "mid": "bell-eyes"},
+      {"text": "চোখে শুষ্কতা", "mid": "argn-dry-eye"},
+      {"text": "চোখে ব্যথাহীন জল পড়া", "mid": "euph-tears"}
+    ],
+    "answer": "graph-lid-eczema",
+    "explanation": "Eczema of lids Graphites-এর একটি গুরুত্বপূর্ণ চক্ষু লক্ষণ।"
+  },
+  {
+    "id": "graph-med-17",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দীর্ঘদিনের দাগ বা ক্ষত আবার খুলে যায়", "mid": "graph-old-scar"},
+      {"text": "ক্ষত দ্রুত সারে", "mid": "calend-heal"},
+      {"text": "শুধু চুলকায়", "mid": "sulph-itchscar"},
+      {"text": "দাগ অদৃশ্য হয়ে যায়", "mid": "none-scar"}
+    ],
+    "answer": "graph-old-scar",
+    "explanation": "Old scars breaking open again Graphites-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "graph-med-18",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলত্যাগের পরে পায়ুপথে জ্বালা ও ব্যথা", "mid": "graph-anus-pain"},
+      {"text": "মলত্যাগে কোনো অস্বস্তি নেই", "mid": "normal-anus"},
+      {"text": "শুধু ডায়রিয়া", "mid": "podo-diarrhea"},
+      {"text": "রক্তপাতই প্রধান", "mid": "ham-bleed"}
+    ],
+    "answer": "graph-anus-pain",
+    "explanation": "Constipation-এর সঙ্গে anus-এ soreness Graphites-এর সাধারণ লক্ষণ।"
+  },
+  {
+    "id": "graph-med-19",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতে এবং মাসিকের সময় উপসর্গ বৃদ্ধি", "mid": "graph-night-menses"},
+      {"text": "সকালে বৃদ্ধি", "mid": "natmur-morning"},
+      {"text": "খোলা বাতাসে বৃদ্ধি", "mid": "hep-openair"},
+      {"text": "খাওয়ার পরে বৃদ্ধি", "mid": "nux-aftereat"}
+    ],
+    "answer": "graph-night-menses",
+    "explanation": "Graphites-এর অনেক উপসর্গ রাতে ও মাসিকের সময় বাড়ে।"
+  },
+  {
+    "id": "graph-med-20",
+    "stem": "নিচের কোনটি Graphites-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশু বেয়াদব, বকুনি শুনে হাসে", "mid": "graph-impudent-child"},
+      {"text": "অত্যন্ত ভীত শিশু", "mid": "stram-fear-child"},
+      {"text": "শান্ত ও ভদ্র শিশু", "mid": "calc-gentle-child"},
+      {"text": "অতিরিক্ত কান্নাকাটি করে", "mid": "cham-cry-child"}
+    ],
+    "answer": "graph-impudent-child",
+    "explanation": "Impudent children laughing at reprimands Graphites-এর বৈশিষ্ট্য।"
+  }
+]
