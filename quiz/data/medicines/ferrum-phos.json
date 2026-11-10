@@ -1,0 +1,246 @@
+[
+  {
+    "id": "ferrum-phos-med-01",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্বপ্রকার জ্বরের প্রথম অবস্থায় উপযোগী", "mid": "sym-first-stage-of-all-fevers"},
+      {"text": "পিচকিরির মতো সজোরে মলত্যাগ", "mid": "sym-stool-expelled-with-gush"},
+      {"text": "ঋতুস্রাবের সঙ্গে ব্যথা বৃদ্ধি, যত স্রাব তত ব্যথা", "mid": "sym-dysmenorrhoea-pain-with-flow"},
+      {"text": "শরীরের এক অঙ্গের পক্ষাঘাত, বিশেষত ডান অঙ্গের", "mid": "sym-one-sided-paralysis-right"}
+    ],
+    "answer": "sym-first-stage-of-all-fevers",
+    "explanation": "Ferrum Phos সর্বপ্রকার জ্বরের প্রথম অবস্থায় দেওয়া হয়।"
+  },
+  {
+    "id": "ferrum-phos-med-02",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রদাহিত স্থান উত্তপ্ত, লাল, দপদপানি ও বেদনাযুক্ত", "mid": "sym-inflamed-part-hot-red-throbbing-painful"},
+      {"text": "খাওয়া বা জল পান করার পরপরই মলত্যাগের প্রচণ্ড বেগ", "mid": "sym-diarrhoea-immediately-after-eating-drinking"},
+      {"text": "ডিম্বকোষ বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট", "mid": "sym-dyspnoea-palpitation-from-uterine-cause"},
+      {"text": "মানসিক আঘাতের ফলে পক্ষাঘাত", "mid": "sym-paralysis-from-mental-shock"}
+    ],
+    "answer": "sym-inflamed-part-hot-red-throbbing-painful",
+    "explanation": "Ferrum Phos-এ প্রদাহিত স্থান উত্তপ্ত, লাল বর্ণ, দপদপানি ও বেদনাযুক্ত হলে দেওয়া হয়।"
+  },
+  {
+    "id": "ferrum-phos-med-03",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আয়রনের অভাব ও রক্তে লোহিত কণিকার অভাব", "mid": "sym-anaemia-iron-deficiency"},
+      {"text": "স্তন্যদানকালে স্তন থেকে পিঠ পর্যন্ত টান লাগার মতো ব্যথা", "mid": "sym-pain-nipple-to-back-during-nursing"},
+      {"text": "হার্টবিট বন্ধ হয়ে যাওয়ার উপক্রম বোধ", "mid": "sym-sensation-heart-will-stop"},
+      {"text": "বহুদিন স্থায়ী দুঃখ ভোগে হওয়া রোগ", "mid": "sym-ailments-from-long-standing-grief"}
+    ],
+    "answer": "sym-anaemia-iron-deficiency",
+    "explanation": "Ferrum Phos আয়রনের অভাব ও রক্তে লোহিত কণিকার অভাবজনিত রক্তাল্পনায় উপযোগী।"
+  },
+  {
+    "id": "ferrum-phos-med-04",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেশীতে আঘাত, পেশী শিথিল, স্ফীত ও রক্ত জমাট", "mid": "sym-muscle-injury-swollen-bruised"},
+      {"text": "লাল ও চুলকানিযুক্ত ফোস্কা, বিশেষত অণ্ডকোষের চামড়ায়", "mid": "sym-vesicles-itching-scrotum"},
+      {"text": "অত্যন্ত বিমর্ষ, সন্দেহযুক্ত ও বিপদের ভয়", "mid": "sym-depressed-suspicious-fear-danger"},
+      {"text": "বসে পায়খানা করলে কষ্ট, না দাঁড়ালে মলত্যাগে অসুবিধা", "mid": "sym-difficult-defecation-must-stand"}
+    ],
+    "answer": "sym-muscle-injury-swollen-bruised",
+    "explanation": "Ferrum Phos-এ পেশীতে আঘাত, পেশী শিথিল, স্ফীত ও রক্ত জমাট বাঁধার ক্ষেত্রে উপযোগী।"
+  },
+  {
+    "id": "ferrum-phos-med-05",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অস্ত্রের আঘাতে বা হঠাৎ নাক দিয়ে উজ্জ্বল লাল রক্তস্রাব", "mid": "sym-bright-red-hemorrhage-nose"},
+      {"text": "চর্মরোগে ঠান্ডা জলের ঝাপটায় আরাম", "mid": "sym-skin-ameliorated-by-cold-water"},
+      {"text": "ইদুরের দৃশ্য দেখে ভয়, সর্বদা কথা বলে, নিজেকে আঘাত করে", "mid": "sym-fear-rats-loquacity-self-injury"},
+      {"text": "বারবার প্রসাবের বেগ, অসাড়ে প্রসাব আসে", "mid": "sym-frequent-urge-numbness"}
+    ],
+    "answer": "sym-bright-red-hemorrhage-nose",
+    "explanation": "Ferrum Phos-এ অস্ত্রের আঘাতে রক্তস্রাব এবং হঠাৎ নাক দিয়ে উজ্জ্বল লাল রক্তস্রাব হয়।"
+  },
+  {
+    "id": "ferrum-phos-med-06",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অজীর্ণ ও খাদ্যের সাথে বমি", "mid": "sym-indigestion-vomiting-food"},
+      {"text": "পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ", "mid": "sym-alternating-diarrhoea-cough-skin"},
+      {"text": "স্নায়ুলোপ পেয়ে উন্মাদ হলে উপযোগী", "mid": "sym-insanity-after-nerve-injury"},
+      {"text": "সঙ্গমের পর মূত্রত্যাগকালে মূত্রনালীতে জ্বালা", "mid": "sym-burning-urethra-after-coition"}
+    ],
+    "answer": "sym-indigestion-vomiting-food",
+    "explanation": "Ferrum Phos-এ অজীর্ণ ও খাদ্যের সাথে বমি হয়।"
+  },
+  {
+    "id": "ferrum-phos-med-07",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্বরভঙ্গ ও প্রসবের পর ভ্যাদাল ব্যথা, সঞ্চালনে বৃদ্ধি ঠান্ডায় উপশম", "mid": "sym-hoarseness-after-pains-worse-motion-better-cold"},
+      {"text": "শুইলে কাশি বৃদ্ধি", "mid": "sym-cough-lying-down-agg"},
+      {"text": "কাজকর্ম করার পর মাংসপেশির ব্যথায় উপশম", "mid": "sym-muscle-pain-ameliorated-by-exercise"},
+      {"text": "শীতকাতরতা, বর্ষা ও বৃষ্টির দিনে ভালো থাকা", "mid": "sym-chilly-better-in-rainy-weather"}
+    ],
+    "answer": "sym-hoarseness-after-pains-worse-motion-better-cold",
+    "explanation": "Ferrum Phos-এ স্বরভঙ্গ, মাথাব্যথা ও প্রসবের পর ভ্যাদাল ব্যথা হয়; সঞ্চালনে বৃদ্ধি পায় ও ঠান্ডায় উপশম হয়।"
+  },
+  {
+    "id": "ferrum-phos-med-08",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রক্তাল্পনায় ফ্যাকাশে চেহারা ও সহজে ক্লান্তি", "mid": "sym-pale-face-easy-fatigue-anaemia"},
+      {"text": "দিনে ফ্যাকাশে প্রসাব, সাদা তলানি; রাতে ফেনা ও চর্বি", "mid": "sym-urine-pale-sediment-day-frothy-fat-night"},
+      {"text": "আঙুলের কাজ করা ব্যক্তিদের পিঠে ব্যথা", "mid": "sym-back-pain-finger-work"},
+      {"text": "বিষন্নতা, নৈরাশ্য ও আশঙ্কা", "mid": "sym-depression-despair-apprehension"}
+    ],
+    "answer": "sym-pale-face-easy-fatigue-anaemia",
+    "explanation": "Ferrum Phos ফ্যাকাশে চেহারার রোগী যারা সহজেই ক্লান্ত হয়ে পড়ে তাদের জন্য শ্রেষ্ঠ টনিক।"
+  },
+  {
+    "id": "ferrum-phos-med-09",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দ্রুত কিন্তু স্পর্শে দুর্বল নাড়ি", "mid": "sym-rapid-weak-pulse"},
+      {"text": "মনে হয় বড় অসুখ হয়েছে ও আর বাঁচবে না", "mid": "sym-fear-serious-illness-death"},
+      {"text": "জ্বরে মাথাকে বড় মনে করা ও দপদপ করা", "mid": "sym-head-large-bursting-pulsating"},
+      {"text": "নিদ্রাকালে অস্থিরতা", "mid": "sym-restlessness-during-sleep"}
+    ],
+    "answer": "sym-rapid-weak-pulse",
+    "explanation": "Ferrum Phos-এ রোগীর নাড়ির গতি খুব দ্রুত থাকে কিন্তু তা স্পর্শে খুব দুর্বল অনুভূত হয়।"
+  },
+  {
+    "id": "ferrum-phos-med-10",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জয়েন্ট ও মাংসপেশিতে কামড়ানো ব্যথা, নড়াচড়ায় বৃদ্ধি", "mid": "sym-cramping-pain-joints-muscles-worse-motion"},
+      {"text": "খিটখিটে মেজাজ ও সামান্য কারণেই বিরক্তি", "mid": "sym-irritable-slight-cause"},
+      {"text": "শারীরিক ও মানসিক লক্ষণ পর্যায়ক্রমে আসা", "mid": "sym-alternating-physical-mental-symptoms"},
+      {"text": "শরীর ছিড়ে ফেলার মতো ব্যথা, উত্তাপে উপশম", "mid": "sym-tearing-pain-heat-amelioration"}
+    ],
+    "answer": "sym-cramping-pain-joints-muscles-worse-motion",
+    "explanation": "Ferrum Phos-এ শরীরের বিভিন্ন জয়েন্টে বা মাংসপেশিতে কামড়ানো ব্যথা হয় যা নড়াচড়া করলে বাড়ে।"
+  },
+  {
+    "id": "ferrum-phos-med-11",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিকভাবে অত্যন্ত সংবেদনশীল ও খিটখিটে", "mid": "sym-oversensitive-irritable"},
+      {"text": "মানসিক অস্থিরতা ও একা থাকার ভয়", "mid": "sym-restlessness-fear-of-being-alone"},
+      {"text": "বড় বড় মাংসপেশির বাতের ব্যথা বা কামড়ানো ব্যথা", "mid": "sym-large-muscles-rheumatic-cramping-pain"},
+      {"text": "লিভারের নিচে চেপে ধরার মতো ব্যথা", "mid": "sym-pressing-pain-under-liver"}
+    ],
+    "answer": "sym-oversensitive-irritable",
+    "explanation": "Ferrum Phos-এ রোগী মানসিকভাবে অত্যন্ত সংবেদনশীল এবং খিটখিটে মেজাজের হয়।"
+  },
+  {
+    "id": "ferrum-phos-med-12",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্য কারণেই বিচলিত হয়ে পড়া ও সর্বদা উত্তেজনা", "mid": "sym-excitable-slight-cause"},
+      {"text": "পেটের ভেতর সারাক্ষণ গড়গড় শব্দ", "mid": "sym-gurgling-abdomen"},
+      {"text": "জরায়ুর সমস্যা কমলে বাতের ব্যথা বেড়ে যাওয়া", "mid": "sym-uterine-symptoms-relieved-rheumatic-increased"},
+      {"text": "পোড়া দাগ আবার পেকে যাওয়া ও ব্যথা হওয়া", "mid": "sym-old-burns-reopen-painful"}
+    ],
+    "answer": "sym-excitable-slight-cause",
+    "explanation": "Ferrum Phos-এ রোগী সবসময় উত্তেজিত থাকে এবং সামান্য কারণেই বিচলিত হয়ে পড়ে।"
+  },
+  {
+    "id": "ferrum-phos-med-13",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বলতে বা কাজে মনোযোগ দিতে অনিচ্ছা", "mid": "sym-aversion-to-talk-and-mental-work"},
+      {"text": "অত্যন্ত পাতলা হলুদাভ মল প্রচুর পরিমাণে নির্গত হওয়া", "mid": "sym-watery-yellow-profuse-stool"},
+      {"text": "মাথার ওপর কালো মেঘ ঝুলে আছে এমন অনুভূতি", "mid": "sym-sensation-black-cloud-over-head"},
+      {"text": "একজিমায় প্রচুর রস নির্গত হওয়া ও চারপাশের চামড়া লাল হয়ে ফুলে যাওয়া", "mid": "sym-eczema-oozing-red-swollen"}
+    ],
+    "answer": "sym-aversion-to-talk-and-mental-work",
+    "explanation": "Ferrum Phos-এ রোগী কথা বলতে বা কোনো কাজে মনোযোগ দিতে অনিচ্ছা প্রকাশ করে।"
+  },
+  {
+    "id": "ferrum-phos-med-14",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতে ঘুমের মধ্যে অস্থিরতা ও আবল-তাবল বকা", "mid": "sym-restless-sleep-delirious-talk"},
+      {"text": "স্তনবৃন্তের ভেতরে তীব্র ব্যথা যা পিঠের স্ক্যাপুলা পর্যন্ত ছড়ায়", "mid": "sym-nipple-pain-radiating-to-scapula"},
+      {"text": "গর্ভাবস্থার শেষে জরায়ুর আক্ষেপিক ব্যথা ও বারবার গর্ভপাতের প্রবণতা", "mid": "sym-abortion-tendency-uterine-spasms"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"}
+    ],
+    "answer": "sym-restless-sleep-delirious-talk",
+    "explanation": "Ferrum Phos-এ রাতে ঘুমের মধ্যে অস্থিরতা এবং আবল-তাবল বকার প্রবণতা থাকতে পারে।"
+  },
+  {
+    "id": "ferrum-phos-med-15",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জ্বরের প্রাথমিক অবস্থায় গাল দুটো লাল হওয়া", "mid": "sym-flushed-face-early-fever"},
+      {"text": "সারাক্ষণ কান্নাকাটি ও পাগল হয়ে যাওয়ার ভয়", "mid": "sym-weeping-fear-of-insanity"},
+      {"text": "টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sour-apples"},
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয়", "mid": "sym-fear-death-dyspnoea"}
+    ],
+    "answer": "sym-flushed-face-early-fever",
+    "explanation": "Ferrum Phos-এ জ্বরের প্রাথমিক অবস্থায় গায়ের তাপমাত্রা খুব বেশি থাকে না কিন্তু গাল দুটো লাল হয়ে থাকে।"
+  },
+  {
+    "id": "ferrum-phos-med-16",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কানের ভেতর দপদপানি ব্যথা ও কান লাল হয়ে ফুলে যাওয়া", "mid": "sym-ear-throbbing-pain-red-swollen"},
+      {"text": "প্রচুর কথা বলার প্রবণতা, এক বিষয় থেকে অন্য বিষয়ে অনবরত কথা বলা", "mid": "sym-loquacity"},
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-ear-throbbing-pain-red-swollen",
+    "explanation": "Ferrum Phos-এ কানের ভেতর দপদপানি ব্যথা এবং কান লাল হয়ে ফুলে যায়; শিশুদের কান ব্যথায় এটি প্রাথমিক ঔষধ।"
+  },
+  {
+    "id": "ferrum-phos-med-17",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্দিতে নাক বন্ধ ও বুকে ব্যথাযুক্ত কাশি", "mid": "sym-coryza-nasal-blocking-painful-cough"},
+      {"text": "খাওয়া বা পান করার পরপরই, গরমে ও রাতে বৃদ্ধি", "mid": "sym-after-eating-heat-night-agg"},
+      {"text": "নিচের দিকে নামার গতিতে বৃদ্ধি", "mid": "sym-downward-motion-agg"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"}
+    ],
+    "answer": "sym-coryza-nasal-blocking-painful-cough",
+    "explanation": "Ferrum Phos-এ সর্দি লেগে নাক বন্ধ হয়ে যাওয়া বা বুকে ব্যথাযুক্ত কাশি হয়।"
+  },
+  {
+    "id": "ferrum-phos-med-18",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলা লাল হয়ে ফুলে যাওয়া ও গিলতে কষ্ট হওয়া", "mid": "sym-throat-red-swollen-difficult-swallowing"},
+      {"text": "ঘুমের পর ও মৃদু চাপে উপশম", "mid": "sym-sleep-and-gentle-pressure-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও শরীর ঠান্ডা রাখলে উপশম", "mid": "sym-open-air-cooling-amel"}
+    ],
+    "answer": "sym-throat-red-swollen-difficult-swallowing",
+    "explanation": "Ferrum Phos-এ গলার ভেতর লাল হয়ে ফুলে যায় এবং গিলতে কষ্ট হয় (Tonsillitis-এর প্রথম অবস্থা)।"
+  },
+  {
+    "id": "ferrum-phos-med-19",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাত ৪টা থেকে ৬টার মধ্যে বৃদ্ধি", "mid": "sym-worse-4-to-6-am"},
+      {"text": "শুষ্ক ও ঠান্ডা আবহাওয়ায় বৃদ্ধি, আর্দ্র আবহাওয়ায় উপশম", "mid": "sym-dry-cold-agg-damp-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও শরীর ঠান্ডা রাখলে উপশম", "mid": "sym-open-air-cooling-amel"}
+    ],
+    "answer": "sym-worse-4-to-6-am",
+    "explanation": "Ferrum Phos-এর লক্ষণ রাতে বিশেষত রাত ৪টা থেকে ৬টার মধ্যে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ferrum-phos-med-20",
+    "stem": "নিচের কোনটি Ferrum Phos-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বিশ্রামে, ঠান্ডার প্রয়োগে ও ধীরে হাঁটলে উপশম", "mid": "sym-rest-cold-application-slow-walking-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও শরীর ঠান্ডা রাখলে উপশম", "mid": "sym-open-air-cooling-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"}
+    ],
+    "answer": "sym-rest-cold-application-slow-walking-amel",
+    "explanation": "Ferrum Phos-এর লক্ষণ বিশ্রামে, ঠান্ডার প্রয়োগে এবং ধীরে ধীরে হাঁটলে উপশম হয়।"
+  }
+]
+
+
+
+

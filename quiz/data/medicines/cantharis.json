@@ -1,0 +1,483 @@
+[
+  {
+    "id": "cantharis-med-01",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাবের অনবরত বেগ, কিন্তু কয়েক ফোঁটা প্রস্রাবের সাথে রক্ত যায় এবং তীব্র জ্বালা হয়।",
+        "mid": "constant_urge_scanty_bloody_urine_burning"
+      },
+      {
+        "text": "প্রস্রাব বন্ধ হয়ে যাওয়া (Retention) কিন্তু কোনো জ্বালা বা ব্যথা নেই।",
+        "mid": "painless_retention_of_urine"
+      },
+      {
+        "text": "প্রচুর পরিমাণে প্রস্রাব হওয়া এবং প্রস্রাবের সাথে চিনির উপস্থিতি।",
+        "mid": "polyuria_with_glycosuria"
+      },
+      {
+        "text": "প্রস্রাবের সাথে পাথর বা বালির মতো কণা নির্গত হওয়া।",
+        "mid": "urine_with_gravel_sand"
+      }
+    ],
+    "answer": "constant_urge_scanty_bloody_urine_burning",
+    "explanation": "Cantharis-এর প্রধান লক্ষণ হলো প্রস্রাবের অনবরত বেগ, সামান্য কয়েক ফোঁটা প্রস্রাবের সাথে রক্ত (Hematuria) এবং প্রস্রাবনালীতে অসহ্য জ্বালা।"
+  },
+  {
+    "id": "cantharis-med-02",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "আগুনে পুড়ে যাওয়া বা কোনো কারণে চামড়ায় বড় বড় জলপূর্ণ ফোস্কা পড়া।",
+        "mid": "large_watery_blisters_from_burns"
+      },
+      {
+        "text": "ত্বকে শুষ্ক, আঁশযুক্ত সাদা প্যাচ।",
+        "mid": "dry_scaly_white_patches"
+      },
+      {
+        "text": "ত্বকে ছোট ছোট লাল চাকা যা চুলকায়।",
+        "mid": "small_red_itching_wheals"
+      },
+      {
+        "text": "ত্বকে ব্যথাহীন, শক্ত গ্রন্থি।",
+        "mid": "painless_hard_glands"
+      }
+    ],
+    "answer": "large_watery_blisters_from_burns",
+    "explanation": "Cantharis আগুনে পুড়ে যাওয়া বা চামড়ায় বড় বড় জলপূর্ণ ফোস্কা পড়লে শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "cantharis-med-03",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রচণ্ড পিপাসা কিন্তু জল পান করতে গেলে গলার সংকোচন বা মূত্রনালীর যন্ত্রণা বেড়ে যায় বলে রোগী জল পান করতে ভয় পায়।",
+        "mid": "intense_thirst_fear_of_water_hydrophobia_like"
+      },
+      {
+        "text": "পিপাসা নেই এবং জল পান করতে কোনো অসুবিধা নেই।",
+        "mid": "no_thirst_normal_water_intake"
+      },
+      {
+        "text": "শুধুমাত্র মিষ্টি পানীয় পান করার প্রবল ইচ্ছা।",
+        "mid": "longing_for_sweet_drinks"
+      },
+      {
+        "text": "জল পান করলে বমি বমি ভাব হয় কিন্তু গলায় সংকোচন নেই।",
+        "mid": "nausea_from_water_no_throat_constriction"
+      }
+    ],
+    "answer": "intense_thirst_fear_of_water_hydrophobia_like",
+    "explanation": "Cantharis-এ প্রচণ্ড পিপাসা থাকে কিন্তু জল পান করতে গেলে গলার সংকোচন বা মূত্রনালীর যন্ত্রণা বেড়ে যায় বলে রোগী জল পান করতে ভয় পায় (Hydrophobia-like symptoms)।"
+  },
+  {
+    "id": "cantharis-med-04",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অত্যন্ত অস্থির, রাগী এবং যন্ত্রণার চোটে চিৎকার করে ও ছটফট করে।",
+        "mid": "extreme_restlessness_anger_screaming_tossing"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ নির্বিকার ও উদাসীন।",
+        "mid": "apathetic_indifferent"
+      },
+      {
+        "text": "রোগী অতিরিক্ত শান্ত ও ধীরস্থির।",
+        "mid": "calm_and_slow"
+      },
+      {
+        "text": "রোগী একা থাকতে ভালোবাসে এবং নড়াচড়া করে না।",
+        "mid": "desire_solitude_no_motion"
+      }
+    ],
+    "answer": "extreme_restlessness_anger_screaming_tossing",
+    "explanation": "Cantharis-এর মানসিক লক্ষণে রোগী অত্যন্ত অস্থির এবং রাগী মেজাজের হয়; যন্ত্রণার চোটে সে চিৎকার করে এবং ছটফট করে।"
+  },
+  {
+    "id": "cantharis-med-05",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রসাব করার সময় পায়খানার বেগ আসা।",
+        "mid": "urge_for_stool_during_urination"
+      },
+      {
+        "text": "প্রসাব করার সময় কোনো পায়খানার বেগ হয় না।",
+        "mid": "no_stool_urge_during_urination"
+      },
+      {
+        "text": "শুধুমাত্র সকালে পায়খানার বেগ আসা।",
+        "mid": "morning_stool_urge_only"
+      },
+      {
+        "text": "পায়খানার বেগ আসলে প্রস্রাব বন্ধ হয়ে যাওয়া।",
+        "mid": "urine_retention_during_stool_urge"
+      }
+    ],
+    "answer": "urge_for_stool_during_urination",
+    "explanation": "Cantharis-এ প্রসাব করার সময় পায়খানার বেগ আসা একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "cantharis-med-06",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়খানার সাথে রক্ত যায় এবং মলদ্বারে জ্বালা হয়।",
+        "mid": "bloody_stool_with_rectal_burning"
+      },
+      {
+        "text": "পায়খানা শুষ্ক ও কঠিন, রক্ত নেই।",
+        "mid": "dry_hard_stool_no_blood"
+      },
+      {
+        "text": "উদারাময়ের সাথে অপরিপক্ক খাদ্যকণা।",
+        "mid": "diarrhea_with_undigested_food"
+      },
+      {
+        "text": "কোষ্ঠকাঠিন্য এবং মলদ্বারে চুলকানি।",
+        "mid": "constipation_with_rectal_itching"
+      }
+    ],
+    "answer": "bloody_stool_with_rectal_burning",
+    "explanation": "Cantharis-এ পায়খানার সাথে রক্ত যায় এবং মলদ্বারে জ্বালা হয়।"
+  },
+  {
+    "id": "cantharis-med-07",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গলার ভেতরটা অত্যন্ত লাল ও ফুলে যায়; গিলতে গেলে মনে হয় যেন গলার চামড়া ছিলে গেছে।",
+        "mid": "red_swollen_throat_feels_skin_stripped"
+      },
+      {
+        "text": "গলা শুকনো কিন্তু লাল বা ফোলা নয়।",
+        "mid": "dry_throat_no_redness_swelling"
+      },
+      {
+        "text": "গলায় খোঁচা দেওয়ার মতো ব্যথা কিন্তু গিলতে অসুবিধা নেই।",
+        "mid": "sticking_pain_throat_no_dysphagia"
+      },
+      {
+        "text": "টনসিল ফুলে শক্ত হয়ে যাওয়া কিন্তু লাল নয়।",
+        "mid": "hard_swollen_tonsils_not_red"
+      }
+    ],
+    "answer": "red_swollen_throat_feels_skin_stripped",
+    "explanation": "Cantharis-এ গলার ভেতরটা অত্যন্ত লাল ও ফুলে যায় এবং গিলতে গেলে প্রচণ্ড কষ্ট হয়, মনে হয় যেন গলার চামড়া ছিলে গেছে।"
+  },
+  {
+    "id": "cantharis-med-08",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাব করার আগে, সময় এবং পরে মূত্রনালীতে অসহ্য কাটাকাটা ব্যথা ও জ্বালা।",
+        "mid": "intolerable_cutting_burning_before_during_after_urination"
+      },
+      {
+        "text": "শুধুমাত্র প্রস্রাব করার পর হালকা অস্বস্তি।",
+        "mid": "mild_discomfort_only_after_urination"
+      },
+      {
+        "text": "প্রস্রাব করার সময় কোনো ব্যথা নেই।",
+        "mid": "no_pain_during_urination"
+      },
+      {
+        "text": "প্রস্রাবের আগে তীব্র ব্যথা কিন্তু পরে আরাম।",
+        "mid": "severe_pain_before_relief_after"
+      }
+    ],
+    "answer": "intolerable_cutting_burning_before_during_after_urination",
+    "explanation": "Cantharis-এ প্রস্রাব করার আগে, সময় এবং পরে মূত্রনালীতে অসহ্য কাটাকাটা ব্যথা ও জ্বালা হয়।"
+  },
+  {
+    "id": "cantharis-med-09",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটের ভেতর আগুনের মতো জ্বালা এবং বমির সাথে রক্ত বা শ্লেষ্মা নির্গত হওয়া।",
+        "mid": "burning_in_stomach_vomiting_blood_mucus"
+      },
+      {
+        "text": "পেটে হালকা অস্বস্তি এবং বমি ছাড়া অম্লতা।",
+        "mid": "mild_discomfort_no_vomiting_acidity"
+      },
+      {
+        "text": "পেটে ঠান্ডা অনুভূতি এবং বমি বমি ভাব।",
+        "mid": "cold_sensation_stomach_nausea"
+      },
+      {
+        "text": "পেট ফুলে যাওয়া কিন্তু জ্বালা বা বমি নেই।",
+        "mid": "bloating_no_burning_no_vomiting"
+      }
+    ],
+    "answer": "burning_in_stomach_vomiting_blood_mucus",
+    "explanation": "Cantharis-এ পেটের ভেতর আগুনের মতো জ্বালা হয় এবং বমি বমি ভাবের সাথে অনেক সময় বমির সাথে রক্ত বা শ্লেষ্মা নির্গত হয়।"
+  },
+  {
+    "id": "cantharis-med-10",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জরায়ুর প্রদাহ এবং মাসিক চলাকালীন মূত্রনালীতে জ্বালা।",
+        "mid": "uterine_inflammation_urinary_burning_during_menses"
+      },
+      {
+        "text": "শুধুমাত্র মাসিকের সময় তলপেটে ব্যথা, মূত্রনালীতে জ্বালা নেই।",
+        "mid": "dysmenorrhea_no_urinary_burning"
+      },
+      {
+        "text": "জরায়ু শক্ত হয়ে যাওয়া কিন্তু প্রদাহ নেই।",
+        "mid": "uterine_induration_no_inflammation"
+      },
+      {
+        "text": "শ্বেতপ্রদর কিন্তু জ্বালা বা প্রদাহ নেই।",
+        "mid": "leucorrhea_no_burning_inflammation"
+      }
+    ],
+    "answer": "uterine_inflammation_urinary_burning_during_menses",
+    "explanation": "Cantharis-এ জরায়ুর প্রদাহ এবং মাসিক চলাকালীন মূত্রনালীতে জ্বালা হয়।"
+  },
+  {
+    "id": "cantharis-med-11",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগীর মধ্যে কামোন্মাদনা (Sexual excitement) দেখা দেয়।",
+        "mid": "sexual_excitement"
+      },
+      {
+        "text": "যৌন ইচ্ছা সম্পূর্ণ লোপ পাওয়া।",
+        "mid": "complete_loss_of_sexual_desire"
+      },
+      {
+        "text": "শুধুমাত্র বিরক্তি ও রাগ, কোনো যৌন উত্তেজনা নেই।",
+        "mid": "irritability_no_sexual_excitement"
+      },
+      {
+        "text": "যৌন উত্তেজনা但没有相关的身体症状।",
+        "mid": "sexual_excitement_without_physical_symptoms"
+      }
+    ],
+    "answer": "sexual_excitement",
+    "explanation": "Cantharis-এর মানসিক লক্ষণে অনেক সময় রোগীর মধ্যে কামোন্মাদনা (Sexual excitement) দেখা দেয়।"
+  },
+  {
+    "id": "cantharis-med-12",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "তীব্র যন্ত্রণার কারণে রোগী প্রলাপ বকে এবং অনেক সময় মারমুখী হয়ে ওঠে।",
+        "mid": "delirium_violent_from_severe_pain"
+      },
+      {
+        "text": "রোগী শান্ত থাকে এবং কোনো প্রলাপ বকে না।",
+        "mid": "calm_no_delirium"
+      },
+      {
+        "text": "রোগী অতিরিক্ত হাসিখুশি ও প্রফুল্ল।",
+        "mid": "cheerful_and_happy"
+      },
+      {
+        "text": "রোগী ভীতু ও একাকীত্বে ভয় পায়।",
+        "mid": "fearful_afraid_of_being_alone"
+      }
+    ],
+    "answer": "delirium_violent_from_severe_pain",
+    "explanation": "Cantharis-এ তীব্র যন্ত্রণার কারণে রোগী প্রলাপ বকে এবং অনেক সময় মারমুখী হয়ে ওঠে।"
+  },
+  {
+    "id": "cantharis-med-13",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "উজ্জ্বল বস্তু বা জলের নড়াচড়া দেখলে রোগীর উপসর্গ বা খিঁচুনি বেড়ে যায়।",
+        "mid": "aggravation_from_bright_objects_moving_water"
+      },
+      {
+        "text": "অন্ধকারে উপসর্গ বেড়ে যায়।",
+        "mid": "aggravation_in_darkness"
+      },
+      {
+        "text": "শব্দে উপসর্গ বেড়ে যায়।",
+        "mid": "aggravation_from_noise"
+      },
+      {
+        "text": "একা থাকলে উপসর্গ বেড়ে যায়।",
+        "mid": "aggravation_when_alone"
+      }
+    ],
+    "answer": "aggravation_from_bright_objects_moving_water",
+    "explanation": "Cantharis-এ উজ্জ্বল বস্তু বা জলের নড়াচড়া দেখলে রোগীর উপসর্গ বা খিঁচুনি বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "cantharis-med-14",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় প্রস্রাব করার সময় বা পরে, কফি পান করলে, ঠান্ডা জল পান করলে এবং স্পর্শ করলে।",
+        "mid": "aggravation_urination_coffee_cold_water_touch"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরম পানীয় পান করলে এবং উষ্ণ আবহাওয়ায়।",
+        "mid": "aggravation_warm_drinks_warm_weather"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় প্রস্রাব করার সময় এবং স্পর্শ করলে।",
+        "mid": "amelioration_urination_touch"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র রাতে।",
+        "mid": "aggravation_only_at_night"
+      }
+    ],
+    "answer": "aggravation_urination_coffee_cold_water_touch",
+    "explanation": "Cantharis-এর লক্ষণ প্রস্রাব করার সময় বা পরে, কফি পান করলে, ঠান্ডা জল পান করলে এবং স্পর্শ করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "cantharis-med-15",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় ঘষলে বা মালিশ করলে এবং স্থির হয়ে শুয়ে থাকলে।",
+        "mid": "amelioration_rubbing_lying_still"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় চলাফেরা করলে এবং স্পর্শ করলে।",
+        "mid": "amelioration_motion_touch"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় ঘষলে বা মালিশ করলে।",
+        "mid": "aggravation_rubbing_massage"
+      },
+      {
+        "text": "ঘষলে বা শুয়ে থাকলে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_rubbing_lying"
+      }
+    ],
+    "answer": "amelioration_rubbing_lying_still",
+    "explanation": "Cantharis-এর লক্ষণ ঘষলে বা মালিশ করলে এবং স্থির হয়ে শুয়ে থাকলে উপশম হয়।"
+  },
+  {
+    "id": "cantharis-med-16",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের ভেতরে ও বাইরে আগুনের মতো তীব্র জ্বালা, বিশেষত মূত্রাশয় এবং অন্ত্রে।",
+        "mid": "intense_burning_inside_outside_bladder_intestines"
+      },
+      {
+        "text": "শরীরে হালকা অস্বস্তি, জ্বালা নেই।",
+        "mid": "mild_discomfort_no_burning"
+      },
+      {
+        "text": "শরীরে ঠান্ডা অনুভূতি এবং কাঁপুনি।",
+        "mid": "cold_sensation_chills"
+      },
+      {
+        "text": "শরীরে ব্যথাহীন ফোলা।",
+        "mid": "painless_swelling"
+      }
+    ],
+    "answer": "intense_burning_inside_outside_bladder_intestines",
+    "explanation": "Cantharis-এর প্রধান লক্ষণ হলো শরীরের ভেতরে ও বাইরে আগুনের মতো তীব্র জ্বালা, বিশেষ করে মূত্রাশয় এবং অন্ত্রে।"
+  },
+  {
+    "id": "cantharis-med-17",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রতি ফোঁটা প্রস্রাবের সাথে মনে হয় যেন গরম জল বা এসিড বের হচ্ছে।",
+        "mid": "urine_feels_like_hot_water_acid"
+      },
+      {
+        "text": "প্রস্রাব ঠান্ডা এবং স্বাভাবিক অনুভূত হয়।",
+        "mid": "urine_feels_normal_cold"
+      },
+      {
+        "text": "প্রস্রাবের সাথে জ্বালা নেই কিন্তু ঘন ঘন বেগ।",
+        "mid": "frequent_urge_no_burning"
+      },
+      {
+        "text": "প্রস্রাবের রং পরিষ্কার এবং কোনো জ্বালা নেই।",
+        "mid": "clear_urine_no_burning"
+      }
+    ],
+    "answer": "urine_feels_like_hot_water_acid",
+    "explanation": "Cantharis-এ প্রতি ফোঁটা প্রস্রাবের সাথে মনে হয় যেন গরম জল বা এসিড বের হচ্ছে।"
+  },
+  {
+    "id": "cantharis-med-18",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রধানত ডান পার্শ্বে আধিক্য দেখা যায়।",
+        "mid": "right_sided_predominance"
+      },
+      {
+        "text": "প্রধানত বাম পার্শ্বে আধিক্য দেখা যায়।",
+        "mid": "left_sided_predominance"
+      },
+      {
+        "text": "উভয় পার্শ্বে সমান আধিক্য।",
+        "mid": "equally_bilateral"
+      },
+      {
+        "text": "কোনো নির্দিষ্ট পার্শ্ব নেই।",
+        "mid": "no_sidedness"
+      }
+    ],
+    "answer": "right_sided_predominance",
+    "explanation": "Cantharis-এ প্রধানত ডান পার্শ্বে আধিক্য (Right side) দেখা যায়।"
+  },
+  {
+    "id": "cantharis-med-19",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীর predominantly শীতকাতর (Chilly)।",
+        "mid": "predominantly_chilly"
+      },
+      {
+        "text": "শরীর predominantly উষ্ণকাতর (Hot patient)।",
+        "mid": "predominantly_hot_patient"
+      },
+      {
+        "text": "শরীরে কোনো তাপমাত্রার প্রতি সংবেদনশীলতা নেই।",
+        "mid": "no_thermal_sensitivity"
+      },
+      {
+        "text": "শুধুমাত্র গরমে উপসর্গ বাড়ে।",
+        "mid": "aggravation_only_from_heat"
+      }
+    ],
+    "answer": "predominantly_chilly",
+    "explanation": "Cantharis প্রধানত শীতকাতর (Chilly) ঔষধ।"
+  },
+  {
+    "id": "cantharis-med-20",
+    "stem": "নিচের কোনটি Cantharis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পোড়া ক্ষতে মাদার টিংচার (Q) জলের সাথে মিশিয়ে বাহ্যিকভাবে ব্যবহার করলে দ্রুত আরাম পাওয়া যায়।",
+        "mid": "mother_tincture_external_use_for_burns"
+      },
+      {
+        "text": "পোড়া ক্ষতে শুধুমাত্র উচ্চ শক্তি (২০০) মুখে খেতে হয়, বাহ্যিক ব্যবহার নিষিদ্ধ।",
+        "mid": "high_potency_orally_only_for_burns"
+      },
+      {
+        "text": "পোড়া ক্ষতে কোনো প্রকারে ব্যবহার করা যায় না।",
+        "mid": "cannot_be_used_for_burns_at_all"
+      },
+      {
+        "text": "পোড়া ক্ষতে শুধুমাত্র 3x শক্তি বাহ্যিকভাবে ব্যবহার করা যায়।",
+        "mid": "only_3x_external_use_for_burns"
+      }
+    ],
+    "answer": "mother_tincture_external_use_for_burns",
+    "explanation": "Cantharis-এর মাদার টিংচার (Q) জলের সাথে মিশিয়ে পোড়া ক্ষেত্রে বাহ্যিকভাবে ব্যবহার করলে দ্রুত আরাম পাওয়া যায়।"
+  }
+]
+

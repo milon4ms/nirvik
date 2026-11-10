@@ -1,0 +1,242 @@
+[
+  {
+    "id": "natp-med-01",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অম্লনাশক মহা ঔষধ, টক ঢেকুর, টক বমি, অম্লের কারণে অজীর্ণ", "mid": "sym-natp-antacid-sour-eruct-vomit-indigestion"},
+      {"text": "ক্ষার আধিক্য", "mid": "sym-alkalinity-excess"},
+      {"text": "মিষ্টি ঢেকুর", "mid": "sym-sweet-eructation"},
+      {"text": "ঢেকুর নেই", "mid": "sym-no-eructation"}
+    ],
+    "answer": "sym-natp-antacid-sour-eruct-vomit-indigestion",
+    "explanation": "Natrum Phos অম্লনাশক মহা ঔষধ, টক ঢেকুর ও টক বমি থাকে।"
+  },
+  {
+    "id": "natp-med-02",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জিহ্বার গোড়ায় ও তালুতে মাখন বা পনিরের মতো গাঢ় হলুদ আস্তরণ", "mid": "sym-natp-tongue-base-yellow-buttery-coating"},
+      {"text": "জিহ্বা সাদা", "mid": "sym-white-tongue"},
+      {"text": "জিহ্বা লাল", "mid": "sym-red-tongue"},
+      {"text": "জিহ্বা পরিষ্কার", "mid": "sym-clean-tongue"}
+    ],
+    "answer": "sym-natp-tongue-base-yellow-buttery-coating",
+    "explanation": "Natrum Phos-এর প্রধান নির্দেশক হলো গাঢ় হলুদ আস্তরণ।"
+  },
+  {
+    "id": "natp-med-03",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকল স্রাব হলুদ, ঘন, টক গন্ধযুক্ত মল", "mid": "sym-natp-all-discharges-yellow-thick-sour-stool"},
+      {"text": "স্রাব সাদা", "mid": "sym-white-discharge"},
+      {"text": "স্রাব স্বচ্ছ", "mid": "sym-transparent-discharge"},
+      {"text": "স্রাব নেই", "mid": "sym-no-discharge"}
+    ],
+    "answer": "sym-natp-all-discharges-yellow-thick-sour-stool",
+    "explanation": "Natrum Phos-এ সব স্রাব হলুদ ও ঘন হয়।"
+  },
+  {
+    "id": "natp-med-04",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অম্লের কারণে বাত, গেঁটে বাত, সন্ধিবাত", "mid": "sym-natp-rheumatism-gout-due-acidity"},
+      {"text": "ঠান্ডায় বাত", "mid": "sym-rheumatism-cold"},
+      {"text": "আঘাতে বাত", "mid": "sym-rheumatism-injury"},
+      {"text": "বাত নেই", "mid": "sym-no-rheumatism"}
+    ],
+    "answer": "sym-natp-rheumatism-gout-due-acidity",
+    "explanation": "Natrum Phos-এ অম্লের কারণে বাত হয়।"
+  },
+  {
+    "id": "natp-med-05",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ছোট কৃমি, দাঁত কিড়মিড়, বিছানায় প্রস্রাব, ট্যারা দৃষ্টি", "mid": "sym-natp-small-worms-teeth-grinding-enuresis-squint"},
+      {"text": "বড় কৃমি", "mid": "sym-large-worms"},
+      {"text": "কৃমি নেই", "mid": "sym-no-worms"},
+      {"text": "শুধু কৃমির ভয়", "mid": "sym-fear-worms-only"}
+    ],
+    "answer": "sym-natp-small-worms-teeth-grinding-enuresis-squint",
+    "explanation": "Natrum Phos-এ অম্লজনিত কৃমি ও তার উপসর্গ থাকে।"
+  },
+  {
+    "id": "natp-med-06",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘুমের মাঝে চমকে ওঠা, সামান্য শব্দে চমকায়", "mid": "sym-natp-startled-sleep-noise"},
+      {"text": "ঘুম গভীর", "mid": "sym-deep-sleep"},
+      {"text": "ঘুমে চমকায় না", "mid": "sym-no-startle-sleep"},
+      {"text": "ঘুম হয় না", "mid": "sym-sleepless"}
+    ],
+    "answer": "sym-natp-startled-sleep-noise",
+    "explanation": "Natrum Phos রাতে সামান্য শব্দে চমকে ওঠে।"
+  },
+  {
+    "id": "natp-med-07",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অম্লের কারণে বীর্য তরল ও স্বপ্নদোষ, পিঠ ও পায়ে দুর্বলতা", "mid": "sym-natp-seminal-thin-nocturnal-emission-weak-back-legs"},
+      {"text": "বীর্য ঘন", "mid": "sym-thick-semen"},
+      {"text": "স্বপ্নদোষ নেই", "mid": "sym-no-nocturnal-emission"},
+      {"text": "বীর্যে কোনো সমস্যা নেই", "mid": "sym-no-semen-issue"}
+    ],
+    "answer": "sym-natp-seminal-thin-nocturnal-emission-weak-back-legs",
+    "explanation": "Natrum Phos-এ অম্লের কারণে বীর্য তরল ও স্বপ্নদোষ হয়।"
+  },
+  {
+    "id": "natp-med-08",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুত্রথলিতে পাথর", "mid": "sym-natp-bladder-stone"},
+      {"text": "কিডনিতে পাথর", "mid": "sym-kidney-stone"},
+      {"text": "পাথর নেই", "mid": "sym-no-stone"},
+      {"text": "পিত্তথলিতে পাথর", "mid": "sym-gallbladder-stone"}
+    ],
+    "answer": "sym-natp-bladder-stone",
+    "explanation": "Natrum Phos-এ মুত্রথলিতে পাথর হতে পারে।"
+  },
+  {
+    "id": "natp-med-09",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশু নাকে হাত দেয়, রাতে দাঁত কিড়মিড় করে", "mid": "sym-natp-child-picks-nose-grinds-teeth-night"},
+      {"text": "শিশু নাকে হাত দেয় না", "mid": "sym-no-nose-picking"},
+      {"text": "শিশু দাঁত কিড়মিড় করে না", "mid": "sym-no-teeth-grinding"},
+      {"text": "শিশু সুস্থ", "mid": "sym-child-healthy"}
+    ],
+    "answer": "sym-natp-child-picks-nose-grinds-teeth-night",
+    "explanation": "Natrum Phos-এ শিশু নাকে হাত দেয় ও দাঁত কিড়মিড় করে।"
+  },
+  {
+    "id": "natp-med-10",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথার তালুতে প্রচণ্ড তাপ, চোখের সামনে ঝিলিক", "mid": "sym-natp-vertex-hot-flashing-eyes"},
+      {"text": "মাথা ঠান্ডা", "mid": "sym-head-cold"},
+      {"text": "চোখে কোনো ঝিলিক নেই", "mid": "sym-no-eye-flashing"},
+      {"text": "মাথায় তাপ নেই", "mid": "sym-no-head-heat"}
+    ],
+    "answer": "sym-natp-vertex-hot-flashing-eyes",
+    "explanation": "Natrum Phos-এ মাথার তালুতে তাপ ও চোখে ঝিলিক থাকে।"
+  },
+  {
+    "id": "natp-med-11",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখ থেকে ঘন হলুদ আঠালো স্রাব, সকালে পাতা জুড়ে থাকে", "mid": "sym-natp-eye-yellow-sticky-lids-agglutinated-morning"},
+      {"text": "চোখ থেকে স্বচ্ছ জল", "mid": "sym-clear-watery-eye"},
+      {"text": "চোখ শুকনো", "mid": "sym-dry-eyes"},
+      {"text": "চোখে কোনো স্রাব নেই", "mid": "sym-no-eye-discharge"}
+    ],
+    "answer": "sym-natp-eye-yellow-sticky-lids-agglutinated-morning",
+    "explanation": "Natrum Phos-এ চোখ থেকে হলুদ আঠালো স্রাব বের হয়।"
+  },
+  {
+    "id": "natp-med-12",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খাওয়ার পর বুক জ্বালা ও পেটে গ্যাস", "mid": "sym-natp-heartburn-gas-after-eating"},
+      {"text": "খাওয়ার পর আরাম", "mid": "sym-amel-after-eating"},
+      {"text": "বুক জ্বালা নেই", "mid": "sym-no-heartburn"},
+      {"text": "গ্যাস নেই", "mid": "sym-no-gas"}
+    ],
+    "answer": "sym-natp-heartburn-gas-after-eating",
+    "explanation": "Natrum Phos-এ খাওয়ার পর বুক জ্বালা ও গ্যাস হয়।"
+  },
+  {
+    "id": "natp-med-13",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুদের টক গন্ধযুক্ত ডায়রিয়া, মল সবুজ বা হলুদ", "mid": "sym-natp-child-diarrhea-sour-odor-green-yellow"},
+      {"text": "মল গন্ধহীন", "mid": "sym-odorless-stool"},
+      {"text": "মল শক্ত", "mid": "sym-hard-stool"},
+      {"text": "ডায়রিয়া নেই", "mid": "sym-no-diarrhea"}
+    ],
+    "answer": "sym-natp-child-diarrhea-sour-odor-green-yellow",
+    "explanation": "Natrum Phos-এ টক গন্ধযুক্ত ডায়রিয়া হয়।"
+  },
+  {
+    "id": "natp-med-14",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলত্যাগের পর মলদ্বারে চুলকানি", "mid": "sym-natp-itching-anus-after-stool"},
+      {"text": "মলদ্বারে চুলকানি নেই", "mid": "sym-no-anus-itch"},
+      {"text": "মলদ্বারে ব্যথা", "mid": "sym-anus-pain"},
+      {"text": "মলদ্বারে জ্বালা", "mid": "sym-anus-burning"}
+    ],
+    "answer": "sym-natp-itching-anus-after-stool",
+    "explanation": "Natrum Phos-এ মলত্যাগের পর মলদ্বারে চুলকানি হয়।"
+  },
+  {
+    "id": "natp-med-15",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাল্পনিক ভয়, মনে হয় বিপদ ঘটবে, রাতে একা থাকতে ভয়", "mid": "sym-natp-imaginary-fear-danger-night-alone"},
+      {"text": "কোনো ভয় নেই", "mid": "sym-no-fear"},
+      {"text": "সবসময় সাহসী", "mid": "sym-always-brave"},
+      {"text": "একা থাকতে ভালো লাগে", "mid": "sym-likes-alone"}
+    ],
+    "answer": "sym-natp-imaginary-fear-danger-night-alone",
+    "explanation": "Natrum Phos রোগী কাল্পনিক ভয়ে ভোগে ও রাতে একা ভয় পায়।"
+  },
+  {
+    "id": "natp-med-16",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: চিনি মিষ্টি, দুধ, বজ্রপাতের সময়, মানসিক উত্তেজনায়", "mid": "sym-natp-agg-sugar-milk-thunderstorm-mental-excitement"},
+      {"text": "বৃদ্ধি: টক খাবারে", "mid": "sym-agg-sour-food"},
+      {"text": "বৃদ্ধি: খোলা বাতাসে", "mid": "sym-agg-open-air"},
+      {"text": "বৃদ্ধি: ঠান্ডায়", "mid": "sym-agg-cold"}
+    ],
+    "answer": "sym-natp-agg-sugar-milk-thunderstorm-mental-excitement",
+    "explanation": "Natrum Phos-এ মিষ্টি, দুধ, বজ্রপাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "natp-med-17",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: খোলা বাতাসে ও ঠান্ডা প্রয়োগে", "mid": "sym-natp-amel-open-air-cold-application"},
+      {"text": "উপশম: গরমে", "mid": "sym-amel-heat"},
+      {"text": "উপশম: মিষ্টি খেলে", "mid": "sym-amel-sugar"},
+      {"text": "উপশম: দুধে", "mid": "sym-amel-milk"}
+    ],
+    "answer": "sym-natp-amel-open-air-cold-application",
+    "explanation": "Natrum Phos খোলা বাতাসে ও ঠান্ডায় উপশম পায়।"
+  },
+  {
+    "id": "natp-med-18",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শীতকাতর, উভয় পার্শ্ব, সোরা ও সাইকোসিস মায়াজম", "mid": "sym-natp-chilly-both-sides-psora-sycotic"},
+      {"text": "গরমকাতর", "mid": "sym-hot"},
+      {"text": "উভয়কাতর", "mid": "sym-ambithermal"},
+      {"text": "শুধু সিফিলিটিক", "mid": "sym-only-syphilitic"}
+    ],
+    "answer": "sym-natp-chilly-both-sides-psora-sycotic",
+    "explanation": "Natrum Phos শীতকাতর, উভয় পার্শ্ব ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "natp-med-19",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিপূরক Robinia, Calc Carb, সদৃশ Rheum", "mid": "sym-natp-complementary-robinia-calc-similar-rheum"},
+      {"text": "পরিপূরক Sulphur", "mid": "sym-complement-sulphur"},
+      {"text": "পরিপূরক Bryonia", "mid": "sym-complement-bryonia"},
+      {"text": "কোনো সম্পর্ক নেই", "mid": "sym-no-relation"}
+    ],
+    "answer": "sym-natp-complementary-robinia-calc-similar-rheum",
+    "explanation": "Natrum Phos-এর পরিপূরক Robinia ও সদৃশ Rheum।"
+  },
+  {
+    "id": "natp-med-20",
+    "stem": "নিচের কোনটি Natrum Phosphoricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিক অবসাদ ও কাজে অনীহা", "mid": "sym-natp-mental-depression-aversion-work"},
+      {"text": "খুব উৎসাহী", "mid": "sym-very-enthusiastic"},
+      {"text": "কাজে খুব আগ্রহী", "mid": "sym-very-interested-work"},
+      {"text": "অবসাদ নেই", "mid": "sym-no-depression"}
+    ],
+    "answer": "sym-natp-mental-depression-aversion-work",
+    "explanation": "Natrum Phos রোগী মানসিক অবসাদ ও কাজে অনীহা বোধ করে।"
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "id": "arsenicum-iod-med-01",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্বপ্রকার স্রাব তীক্ষ্ণ ও হাজানিযুক্ত, ত্বক তুলে ফেলে", "mid": "sym-acrid-discharge-excoriation"},
+      {"text": "অন্যের উপস্থিতিতে মলত্যাগ করতে পারে না", "mid": "sym-inability-defecate-presence"},
+      {"text": "বুকে প্রচুর কফ জমার ঘড়ঘড়ে শব্দ কিন্তু কফ উঠে না", "mid": "sym-rattling-mucus-retained"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"}
+    ],
+    "answer": "sym-acrid-discharge-excoriation",
+    "explanation": "Arsenicum Iodatum-এর প্রধান লক্ষণ হলো সর্বপ্রকার স্রাব তীক্ষ্ণ, গরম, পাতলা ও হাজানিযুক্ত হয় এবং যেখানে লাগে সে স্থানের চামড়া তুলে ফেলে।"
+  },
+  {
+    "id": "arsenicum-iod-med-02",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভালো খাওয়া-দাওয়া সত্ত্বেও দিন দিন শুকিয়ে যাওয়া", "mid": "sym-emaciation-despite-eating"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"}
+    ],
+    "answer": "sym-emaciation-despite-eating",
+    "explanation": "Arsenicum Iodatum-এ রোগী ভালো খাওয়া-দাওয়া করা সত্ত্বেও দিন দিন শুকিয়ে যায় (Marasmus)।"
+  },
+  {
+    "id": "arsenicum-iod-med-03",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আক্রান্ত স্থানের চামড়া বড় বড় আঁশের মতো উঠে যায়", "mid": "sym-exfoliation-scales"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "স্নায়বিক দুর্বলতা ও অকাল বার্ধক্য", "mid": "sym-nervous-weakness-senility"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-exfoliation-scales",
+    "explanation": "Arsenicum Iodatum-এর অনন্য লক্ষণ হলো চর্মরোগে আক্রান্ত স্থানের চামড়া বড় বড় আঁশের মতো উঠে যায়।"
+  },
+  {
+    "id": "arsenicum-iod-med-04",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘাড়ের গ্রন্থি পাথরের মতো শক্ত হয়ে ফুলে যাওয়া", "mid": "sym-glandular-induration"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"}
+    ],
+    "answer": "sym-glandular-induration",
+    "explanation": "Arsenicum Iodatum-এ ঘাড়ের বা শরীরের অন্যান্য স্থানের গ্রন্থিগুলো পাথরের মতো শক্ত হয়ে ফুলে যায়।"
+  },
+  {
+    "id": "arsenicum-iod-med-05",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্য পরিশ্রমে প্রচণ্ড ক্লান্তি ও হৃদস্পন্দন বৃদ্ধি", "mid": "sym-slight-exertion-fatigue-palpitation"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"},
+      {"text": "অসংলগ্ন কথাবার্তা ও এক বিষয় থেকে দ্রুত অন্য বিষয়ে চলে যাওয়া", "mid": "sym-incoherent-speech"}
+    ],
+    "answer": "sym-slight-exertion-fatigue-palpitation",
+    "explanation": "Arsenicum Iodatum-এ রোগী সামান্য পরিশ্রমেই প্রচণ্ড ক্লান্ত হয়ে পড়ে এবং তার হৃদস্পন্দন বেড়ে যায়।"
+  },
+  {
+    "id": "arsenicum-iod-med-06",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবসময় কিছু একটা করার তাগিদ অনুভব করা", "mid": "sym-restless-busy-compulsion"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"},
+      {"text": "শিশু কোলে উঠতে চায় কিন্তু কাউকে কাছে আসতে দিতে চায় না", "mid": "sym-child-wants-lap-repels-approach"}
+    ],
+    "answer": "sym-restless-busy-compulsion",
+    "explanation": "Arsenicum Iodatum-এ রোগী অত্যন্ত চঞ্চল ও ব্যস্তবাগীশ হয় এবং সবসময় কিছু একটা করার তাগিদ অনুভব করে।"
+  },
+  {
+    "id": "arsenicum-iod-med-07",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খিটখিটে মেজাজ ও পড়াশোনা বা মানসিক কাজে অনিচ্ছা", "mid": "sym-irritable-aversion-mental-work"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"},
+      {"text": "চিন্তা ও কল্পনা এসে ব্যতিব্যস্ত করে তোলে", "mid": "sym-thoughts-obsession"},
+      {"text": "অত্যন্ত লজ্জাশীল ও একা থাকতে চায়", "mid": "sym-shy-seclusive"}
+    ],
+    "answer": "sym-irritable-aversion-mental-work",
+    "explanation": "Arsenicum Iodatum-এ রোগীর খিটখিটে মেজাজ এবং পড়াশোনা বা মানসিক কাজ করতে অনিচ্ছা দেখা যায়।"
+  },
+  {
+    "id": "arsenicum-iod-med-08",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আসন্ন কোনো বিপদের আশঙ্কা বা উৎকণ্ঠা", "mid": "sym-anticipatory-anxiety"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"}
+    ],
+    "answer": "sym-anticipatory-anxiety",
+    "explanation": "Arsenicum Iodatum-এ আসন্ন কোনো বিপদের আশঙ্কা বা উৎকণ্ঠা দেখা যায়।"
+  },
+  {
+    "id": "arsenicum-iod-med-09",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরম ও হাজানিযুক্ত সর্দির সাথে অনবরত হাঁচি", "mid": "sym-acrid-coryza-sneezing"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "বসন্তের মতো গুটি গুটি পুঁজপূর্ণ উদ্ভেদ", "mid": "sym-pustular-eruptions"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-acrid-coryza-sneezing",
+    "explanation": "Arsenicum Iodatum-এ নাসিকার সর্দিস্রাব গরম ও হাজানিযুক্ত এবং নতুন ও পুরাতন সেই সঙ্গে অনবরত হাঁচি হয়।"
+  },
+  {
+    "id": "arsenicum-iod-med-10",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্দির সাথে বুকের ভেতর ঘড়ঘড়ানি শব্দ", "mid": "sym-coryza-with-rattling-chest"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-coryza-with-rattling-chest",
+    "explanation": "Arsenicum Iodatum-এ সর্দির সাথে হাঁচি এবং বুকের ভেতর ঘড়ঘড়ানি শব্দ হয়।"
+  },
+  {
+    "id": "arsenicum-iod-med-11",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাছের আঁশের মতো চামড়া ওঠা ও নিচে কাঁচা ক্ষত", "mid": "sym-psoriasis-fish-scale-raw-wound"},
+      {"text": "অন্যের উপস্থিতিতে প্রস্রাব করতে পারে না", "mid": "sym-inability-urinate-presence"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"}
+    ],
+    "answer": "sym-psoriasis-fish-scale-raw-wound",
+    "explanation": "Arsenicum Iodatum সোরিয়াসিস ও একজিমার ক্ষেত্রে কার্যকর যখন আক্রান্ত স্থান থেকে মাছের আঁশের মতো চামড়া ওঠে এবং নিচে কাঁচা ক্ষত দেখা দেয়।"
+  },
+  {
+    "id": "arsenicum-iod-med-12",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি ও দমবন্ধ ভাব", "mid": "sym-stairs-palpitation-dyspnoea"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"}
+    ],
+    "answer": "sym-stairs-palpitation-dyspnoea",
+    "explanation": "Arsenicum Iodatum-এ হৃদপেশির দুর্বলতায় সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি এবং দমবন্ধ ভাব হয়।"
+  },
+  {
+    "id": "arsenicum-iod-med-13",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্ষুধার্ত বোধ করা সত্ত্বেও খাওয়ার পর পেটে অস্বস্তি", "mid": "sym-hungry-but-stomach-discomfort-after-eating"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"}
+    ],
+    "answer": "sym-hungry-but-stomach-discomfort-after-eating",
+    "explanation": "Arsenicum Iodatum-এ রোগী ক্ষুধার্ত বোধ করে সত্ত্বেও খাওয়ার পর পেটে অস্বস্তি হয়।"
+  },
+  {
+    "id": "arsenicum-iod-med-14",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খাওয়ার পর পরই মলত্যাগের ইচ্ছা", "mid": "sym-defecation-urge-after-eating"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"}
+    ],
+    "answer": "sym-defecation-urge-after-eating",
+    "explanation": "Arsenicum Iodatum-এ খাওয়ার পর পরই মলত্যাগের ইচ্ছা হয়।"
+  },
+  {
+    "id": "arsenicum-iod-med-15",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-heat-warm-room-agg",
+    "explanation": "Arsenicum Iodatum-এর লক্ষণ গরমে, গরম ঘরে, বদ্ধ বাতাসে, পরিশ্রম করলে এবং তামাকের ধোঁয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arsenicum-iod-med-16",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খোলা বাতাসে ও বিশ্রামে উপশম", "mid": "sym-open-air-rest-amel"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"},
+      {"text": "খাওয়া-দাওয়ায় উপশম", "mid": "sym-eating-amelioration"}
+    ],
+    "answer": "sym-open-air-rest-amel",
+    "explanation": "Arsenicum Iodatum-এর লক্ষণ খোলা বাতাসে এবং বিশ্রামে উপশম হয়।"
+  },
+  {
+    "id": "arsenicum-iod-med-17",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা ভালোবাসে কিন্তু সহ্য করতে পারে না (গরমকাতর)", "mid": "sym-desires-cold-but-cannot-bear"},
+      {"text": "টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sour-apples"},
+      {"text": "সর্বপ্রকার স্রাব তীক্ষ্ণ ও হাজানিযুক্ত, ত্বক তুলে ফেলে", "mid": "sym-acrid-discharge-excoriation"},
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয়", "mid": "sym-fear-death-dyspnoea"}
+    ],
+    "answer": "sym-desires-cold-but-cannot-bear",
+    "explanation": "Arsenicum Iodatum-এ রোগী গরমকাতর; সে ঠান্ডা ভালোবাসে কিন্তু ঠান্ডা তার সহ্য হয় না।"
+  },
+  {
+    "id": "arsenicum-iod-med-18",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্ষুধার সময় খেতে না পেলে লক্ষণ বৃদ্ধি, আহারে উপশম", "mid": "sym-hunger-agg-eating-amel"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"}
+    ],
+    "answer": "sym-hunger-agg-eating-amel",
+    "explanation": "Arsenicum Iodatum-এ ক্ষুধার সময় খেতে না পেলে লক্ষণ বৃদ্ধি পায় এবং আহারে উপশম হয়।"
+  },
+  {
+    "id": "arsenicum-iod-med-19",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যক্ষ্মা ও ক্যান্সারের পরিণত অবস্থায় উপযোগী", "mid": "sym-tuberculosis-cancer-late-stage"},
+      {"text": "বসন্তের মতো গুটি গুটি পুঁজপূর্ণ উদ্ভেদ", "mid": "sym-pustular-eruptions"},
+      {"text": "ঢেকুরে পচা ডিমের গন্ধ ও পিপাসা হীনতা", "mid": "sym-burping-rotten-egg-thirstless"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"}
+    ],
+    "answer": "sym-tuberculosis-cancer-late-stage",
+    "explanation": "Arsenicum Iodatum যক্ষ্মা ও ক্যান্সারের পরিণত অবস্থায় বিশেষভাবে উপযোগী।"
+  },
+  {
+    "id": "arsenicum-iod-med-20",
+    "stem": "নিচের কোনটি Arsenicum Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্দিস্রাবে দুর্গন্ধ", "mid": "sym-offensive-discharge"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"}
+    ],
+    "answer": "sym-offensive-discharge",
+    "explanation": "Arsenicum Iodatum-এ সর্বপ্রকার স্রাব দুর্গন্ধযুক্ত হয়।"
+  }
+]
+
+
+
+

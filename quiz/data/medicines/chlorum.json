@@ -1,0 +1,504 @@
+[
+  {
+    "id": "chlor-med-01",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্বরযন্ত্রের আক্ষেপে আকস্মিক শ্বাসকষ্ট, শ্বাস গ্রহণ অবাধ কিন্তু ত্যাগ বাধাপ্রাপ্ত", "mid": "sym-chlor-spasm-glottis-insp-free-exp-obstructed"},
+      {"text": "শ্বাস গ্রহণ বাধাপ্রাপ্ত, ত্যাগ অবাধ", "mid": "sym-insp-obstructed-exp-free"},
+      {"text": "শ্বাস-প্রশ্বাস উভয়ই অবাধ", "mid": "sym-both-free"},
+      {"text": "শ্বাসকষ্ট নেই", "mid": "sym-no-dyspnea"}
+    ],
+    "answer": "sym-chlor-spasm-glottis-insp-free-exp-obstructed",
+    "explanation": "Chlorum-এর প্রধান লক্ষণ হলো গ্লটিসের স্প্যাজম, শ্বাস নিতে পারে কিন্তু ছাড়তে পারে না।"
+  },
+  {
+    "id": "chlor-med-02",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্মৃতিশক্তির দুর্বলতা, বিশেষত নাম মনে রাখতে পারে না", "mid": "sym-chlor-memory-weak-names"},
+      {"text": "স্মৃতি খুব প্রখর", "mid": "sym-sharp-memory"},
+      {"text": "শুধু স্থান ভুলে যায়", "mid": "sym-forgets-places"},
+      {"text": "শুধু তারিখ ভুলে যায়", "mid": "sym-forgets-dates"}
+    ],
+    "answer": "sym-chlor-memory-weak-names",
+    "explanation": "Chlorum-এ নাম ভুলে যাওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "chlor-med-03",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাঁপানিতে তীব্র স্বরযন্ত্রের আক্ষেপ কমিয়ে দেয়", "mid": "sym-chlor-asthma-larynx-spasm-relieves"},
+      {"text": "হাঁপানি বাড়ায়", "mid": "sym-asthma-aggravates"},
+      {"text": "হাঁপানিতে কোনো কাজ নেই", "mid": "sym-no-asthma-action"},
+      {"text": "শুধু সর্দিতে কাজ করে", "mid": "sym-only-coryza"}
+    ],
+    "answer": "sym-chlor-asthma-larynx-spasm-relieves",
+    "explanation": "Chlorum হাঁপানিতে স্বরযন্ত্রের আক্ষেপ কমায়।"
+  },
+  {
+    "id": "chlor-med-04",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নিদ্রার উপক্রমে শ্বাসকষ্ট বৃদ্ধি", "mid": "sym-chlor-dyspnea-on-going-to-sleep-agg"},
+      {"text": "নিদ্রায় শ্বাসকষ্ট কমে", "mid": "sym-dyspnea-amel-sleep"},
+      {"text": "ঘুমে কোনো শ্বাসকষ্ট নেই", "mid": "sym-no-dyspnea-sleep"},
+      {"text": "জেগে থাকলে শ্বাসকষ্ট বাড়ে", "mid": "sym-dyspnea-agg-waking"}
+    ],
+    "answer": "sym-chlor-dyspnea-on-going-to-sleep-agg",
+    "explanation": "Chlorum-এ ঘুমের উপক্রমে স্বরযন্ত্রের আক্ষেপ বাড়ে।"
+  },
+  {
+    "id": "chlor-med-05",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নাক দিয়ে অত্যন্ত ঝাল ও তরল সর্দি, চামড়া ছিলে যায়, অনবরত হাঁচি", "mid": "sym-chlor-acrid-coryza-excoriating-sneezing"},
+      {"text": "নাক দিয়ে মিষ্টি সর্দি", "mid": "sym-sweet-coryza"},
+      {"text": "সর্দি ঘন ও হলুদ", "mid": "sym-thick-yellow-coryza"},
+      {"text": "সর্দি নেই", "mid": "sym-no-coryza"}
+    ],
+    "answer": "sym-chlor-acrid-coryza-excoriating-sneezing",
+    "explanation": "Chlorum-এ ঝাল তরল সর্দি চামড়া ছিলে ফেলে।"
+  },
+  {
+    "id": "chlor-med-06",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখ, গলা ও ফুসফুসে আগুনের মতো জ্বালা", "mid": "sym-chlor-burning-mouth-throat-lungs"},
+      {"text": "মুখে ঠান্ডা অনুভূতি", "mid": "sym-cold-mouth"},
+      {"text": "গলায় কোনো জ্বালা নেই", "mid": "sym-no-burning-throat"},
+      {"text": "ফুসফুসে ঠান্ডা লাগে", "mid": "sym-cold-lungs"}
+    ],
+    "answer": "sym-chlor-burning-mouth-throat-lungs",
+    "explanation": "Chlorum-এ মুখ, গলা ও ফুসফুসে তীব্র জ্বালা বোধ হয়।"
+  },
+  {
+    "id": "chlor-med-07",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শ্বাস বন্ধ হয়ে যাওয়ার ভয়ে প্রচণ্ড আতঙ্ক, মুখ নীল বা ফোলা", "mid": "sym-chlor-fear-suffocation-blue-puffy-face"},
+      {"text": "শ্বাসকষ্টে কোনো ভয় নেই", "mid": "sym-no-fear-dyspnea"},
+      {"text": "শ্বাসকষ্টে আনন্দিত", "mid": "sym-joyful-dyspnea"},
+      {"text": "শ্বাসকষ্টে হাসে", "mid": "sym-laugh-dyspnea"}
+    ],
+    "answer": "sym-chlor-fear-suffocation-blue-puffy-face",
+    "explanation": "Chlorum-এ শ্বাস বন্ধ হওয়ার আতঙ্কে মুখ নীল ও ফোলা দেখায়।"
+  },
+  {
+    "id": "chlor-med-08",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হঠাৎ দম বন্ধ হয়ে আসার মতো কাশি, স্বর বসে যাওয়া, ফুসফুসে ধোঁয়া ঢোকার অনুভূতি", "mid": "sym-chlor-sudden-choking-cough-aphonia-smoke-lungs"},
+      {"text": "শুকনো কাশি নেই", "mid": "sym-no-dry-cough"},
+      {"text": "কাশিতে প্রচুর কফ", "mid": "sym-cough-profuse-expectoration"},
+      {"text": "কাশি শুধু দিনে", "mid": "sym-cough-day-only"}
+    ],
+    "answer": "sym-chlor-sudden-choking-cough-aphonia-smoke-lungs",
+    "explanation": "Chlorum-এ হঠাৎ দম বন্ধ কাশি, স্বরভঙ্গ ও ধোঁয়ার অনুভূতি থাকে।"
+  },
+  {
+    "id": "chlor-med-09",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখ ও গলায় ছোট সাদা ক্ষত, প্রচণ্ড দুর্গন্ধ", "mid": "sym-chlor-aphthous-ulcers-mouth-fetid"},
+      {"text": "মুখে কোনো ক্ষত নেই", "mid": "sym-no-mouth-ulcer"},
+      {"text": "মুখে লাল ক্ষত", "mid": "sym-red-mouth-ulcer"},
+      {"text": "মুখে কালো ক্ষত", "mid": "sym-black-mouth-ulcer"}
+    ],
+    "answer": "sym-chlor-aphthous-ulcers-mouth-fetid",
+    "explanation": "Chlorum-এ মুখে সাদা অ্যাপথাস ক্ষত ও দুর্গন্ধ থাকে।"
+  },
+  {
+    "id": "chlor-med-10",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নাকের ভেতর কাঁচা ক্ষত বোধ, প্রচণ্ড সুড়সুড়ি", "mid": "sym-chlor-nose-raw-tickling"},
+      {"text": "নাকে কোনো অনুভূতি নেই", "mid": "sym-no-nose-sensation"},
+      {"text": "নাকে ঠান্ডা অনুভূতি", "mid": "sym-cold-nose"},
+      {"text": "নাকে সুগন্ধ", "mid": "sym-fragrant-nose"}
+    ],
+    "answer": "sym-chlor-nose-raw-tickling",
+    "explanation": "Chlorum-এ নাকের ভেতর কাঁচা ক্ষত ও সুড়সুড়ি থাকে।"
+  },
+  {
+    "id": "chlor-med-11",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চামড়া অত্যন্ত শুষ্ক, চুলকানি ঘষলে বাড়ে", "mid": "sym-chlor-skin-dry-itching-agg-rubbing"},
+      {"text": "চামড়া তৈলাক্ত", "mid": "sym-oily-skin"},
+      {"text": "চুলকানি ঘষলে কমে", "mid": "sym-itching-amel-rubbing"},
+      {"text": "চামড়ায় কোনো উদ্ভেদ নেই", "mid": "sym-no-skin-eruption"}
+    ],
+    "answer": "sym-chlor-skin-dry-itching-agg-rubbing",
+    "explanation": "Chlorum-এ চর্ম শুষ্ক ও চুলকানি ঘষলে বাড়ে।"
+  },
+  {
+    "id": "chlor-med-12",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয় প্রবল", "mid": "sym-chlor-fear-death-during-dyspnea"},
+      {"text": "মৃত্যুভয় নেই", "mid": "sym-no-death-fear"},
+      {"text": "মৃত্যু কামনা করে", "mid": "sym-desires-death"},
+      {"text": "মৃত্যু নিয়ে হাসে", "mid": "sym-laugh-death"}
+    ],
+    "answer": "sym-chlor-fear-death-during-dyspnea",
+    "explanation": "Chlorum-এ শ্বাসকষ্টের সময় মৃত্যুভয় প্রবল থাকে।"
+  },
+  {
+    "id": "chlor-med-13",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিকভাবে খিটখিটে ও রাগী", "mid": "sym-chlor-irritable-angry"},
+      {"text": "খুব শান্ত ও ধৈর্যশীল", "mid": "sym-calm-patient"},
+      {"text": "সবসময় আনন্দিত", "mid": "sym-always-joyful"},
+      {"text": "কথা বলতে ভালোবাসে", "mid": "sym-talkative"}
+    ],
+    "answer": "sym-chlor-irritable-angry",
+    "explanation": "Chlorum রোগী খিটখিটে ও রাগী হয়।"
+  },
+  {
+    "id": "chlor-med-14",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবসময় মনে করে বিপদ আসন্ন", "mid": "sym-chlor-presentiment-danger-impending"},
+      {"text": "কোনো বিপদের ভয় নেই", "mid": "sym-no-danger-fear"},
+      {"text": "সবসময় নিরাপদ বোধ করে", "mid": "sym-feels-safe"},
+      {"text": "বিপদকে স্বাগত জানায়", "mid": "sym-welcomes-danger"}
+    ],
+    "answer": "sym-chlor-presentiment-danger-impending",
+    "explanation": "Chlorum রোগী মনে করে বিপদ আসন্ন।"
+  },
+  {
+    "id": "chlor-med-15",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: মধ্যরাতের পর ১২টা-২টা, শোয়া অবস্থায়, গরম ঘরে", "mid": "sym-chlor-agg-after-midnight-lying-warm-room"},
+      {"text": "বৃদ্ধি: সকালে ও খোলা বাতাসে", "mid": "sym-agg-morning-open-air"},
+      {"text": "বৃদ্ধি: ঠান্ডা বাতাসে", "mid": "sym-agg-cold-air"},
+      {"text": "বৃদ্ধি: নড়াচড়ায়", "mid": "sym-agg-motion"}
+    ],
+    "answer": "sym-chlor-agg-after-midnight-lying-warm-room",
+    "explanation": "Chlorum-এ মধ্যরাতের পর, শুয়ে ও গরম ঘরে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "chlor-med-16",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: খোলা বাতাসে ও নড়াচড়া করলে", "mid": "sym-chlor-amel-open-air-motion"},
+      {"text": "উপশম: গরম ঘরে", "mid": "sym-amel-warm-room"},
+      {"text": "উপশম: শুয়ে থাকলে", "mid": "sym-amel-lying"},
+      {"text": "উপশম: রাতে", "mid": "sym-amel-night"}
+    ],
+    "answer": "sym-chlor-amel-open-air-motion",
+    "explanation": "Chlorum খোলা বাতাসে ও নড়াচড়ায় উপশম পায়।"
+  },
+  {
+    "id": "chlor-med-17",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রধানত শীতকাতর, সোরা ও সাইকোসিস মায়াজম", "mid": "sym-chlor-chilly-psora-sycotic"},
+      {"text": "গরমকাতর", "mid": "sym-hot"},
+      {"text": "উভয়কাতর", "mid": "sym-both"},
+      {"text": "সিফিলিটিক মায়াজম", "mid": "sym-syphilitic-only"}
+    ],
+    "answer": "sym-chlor-chilly-psora-sycotic",
+    "explanation": "Chlorum শীতকাতর এবং সোরা-সাইকোটিক মায়াজম।"
+  },
+  {
+    "id": "chlor-med-18",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্লোরিন গ্যাস শ্বাসে গেলে প্রতিষেধক অ্যামোনিয়া শোঁকা", "mid": "sym-chlor-antidote-ammonia-inhalation"},
+      {"text": "প্রতিষেধক কফি", "mid": "sym-antidote-coffee"},
+      {"text": "প্রতিষেধক ক্যাম্ফর", "mid": "sym-antidote-camphor"},
+      {"text": "কোনো প্রতিষেধক নেই", "mid": "sym-no-antidote"}
+    ],
+    "answer": "sym-chlor-antidote-ammonia-inhalation",
+    "explanation": "Chlorum গ্যাসে ক্ষতিতে অ্যামোনিয়া শোঁকা উপশম দেয়।"
+  },
+  {
+    "id": "chlor-med-19",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সদৃশ: Bromium, Mephitis, Natrum Mur", "mid": "sym-chlor-similar-bromium-mephitis-nat-mur"},
+      {"text": "সদৃশ: Sulphur, Pulsatilla", "mid": "sym-similar-sulph-puls"},
+      {"text": "সদৃশ: Nux Vomica", "mid": "sym-similar-nux"},
+      {"text": "কোনো সদৃশ নেই", "mid": "sym-no-similar"}
+    ],
+    "answer": "sym-chlor-similar-bromium-mephitis-nat-mur",
+    "explanation": "Chlorum-এর সদৃশ Bromium, Mephitis ও Natrum Mur।"
+  },
+  {
+    "id": "chlor-med-20",
+    "stem": "নিচের কোনটি Chlorum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জলীয় দ্রবণ পচনশীল ক্ষত বা আলসারে বাহ্যিক ব্যবহার", "mid": "sym-chlor-water-external-putrid-ulcer"},
+      {"text": "শুধু অভ্যন্তরীণ ব্যবহার", "mid": "sym-only-internal"},
+      {"text": "বাহ্যিক ব্যবহার নিষেধ", "mid": "sym-no-external"},
+      {"text": "শুধু মলম হিসেবে", "mid": "sym-only-ointment"}
+    ],
+    "answer": "sym-chlor-water-external-putrid-ulcer",
+    "explanation": "Chlorum water পচনশীল ক্ষতে বাহ্যিকভাবে ব্যবহৃত হয়।"
+  }
+]
+[
+  {
+    "id": "chlor-sym-01",
+    "stem": "স্বরযন্ত্রের আক্ষেপে আকস্মিক শ্বাসকষ্ট, শ্বাস গ্রহণ অবাধ কিন্তু ত্যাগ বাধাপ্রাপ্ত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Bromium", "mid": "bromium"},
+      {"text": "Mephitis", "mid": "mephitis"},
+      {"text": "Spongia Tosta", "mid": "spongia-tosta"}
+    ],
+    "answer": "chlorum",
+    "tags": ["respiratory", "glottis", "spasm", "dyspnea"],
+    "explanation": "Chlorum-এ গ্লটিস স্প্যাজমে শ্বাস নিতে পারে কিন্তু ছাড়তে পারে না।"
+  },
+  {
+    "id": "chlor-sym-02",
+    "stem": "স্মৃতিশক্তির দুর্বলতা, বিশেষত নাম মনে রাখতে পারে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Anacardium Orientale", "mid": "anacardium-orientale"},
+      {"text": "Lycopodium", "mid": "lycopodium"},
+      {"text": "Baryta Carbonica", "mid": "baryta-carbonica"}
+    ],
+    "answer": "chlorum",
+    "tags": ["mind", "memory", "names"],
+    "explanation": "Chlorum-এ নাম ভুলে যাওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "chlor-sym-03",
+    "stem": "হাঁপানিতে তীব্র স্বরযন্ত্রের আক্ষেপ কমিয়ে দেয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Arsenicum Album", "mid": "arsenicum-album"},
+      {"text": "Ipecacuanha", "mid": "ipecacuanha"},
+      {"text": "Antimonium Tartaricum", "mid": "antimonium-tartaricum"}
+    ],
+    "answer": "chlorum",
+    "tags": ["asthma", "larynx", "spasm"],
+    "explanation": "Chlorum হাঁপানিতে স্বরযন্ত্রের আক্ষেপ কমায়।"
+  },
+  {
+    "id": "chlor-sym-04",
+    "stem": "নিদ্রার উপক্রমে শ্বাসকষ্ট বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Lachesis", "mid": "lachesis"},
+      {"text": "Grindelia", "mid": "grindelia"},
+      {"text": "Aralia Racemosa", "mid": "aralia-racemosa"}
+    ],
+    "answer": "chlorum",
+    "tags": ["sleep", "dyspnea", "aggravation", "larynx"],
+    "explanation": "Chlorum-এ ঘুমের উপক্রমে শ্বাসকষ্ট বাড়ে।"
+  },
+  {
+    "id": "chlor-sym-05",
+    "stem": "নাক দিয়ে অত্যন্ত ঝাল ও তরল সর্দি, চামড়া ছিলে যায়, অনবরত হাঁচি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Allium Cepa", "mid": "allium-cepa"},
+      {"text": "Arsenicum Album", "mid": "arsenicum-album"},
+      {"text": "Arum Triphyllum", "mid": "arum-triphyllum"}
+    ],
+    "answer": "chlorum",
+    "tags": ["nose", "coryza", "acrid", "sneezing"],
+    "explanation": "Chlorum-এ ঝাল সর্দি চামড়া ছিলে ফেলে।"
+  },
+  {
+    "id": "chlor-sym-06",
+    "stem": "মুখ, গলা ও ফুসফুসে আগুনের মতো জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Cantharis", "mid": "cantharis"},
+      {"text": "Capsicum", "mid": "capsicum"},
+      {"text": "Arsenicum Album", "mid": "arsenicum-album"}
+    ],
+    "answer": "chlorum",
+    "tags": ["burning", "mouth", "throat", "lungs"],
+    "explanation": "Chlorum-এ মুখ, গলা ও ফুসফুসে জ্বালা থাকে।"
+  },
+  {
+    "id": "chlor-sym-07",
+    "stem": "শ্বাস বন্ধ হয়ে যাওয়ার ভয়ে প্রচণ্ড আতঙ্ক, মুখ নীল বা ফোলা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Aconitum Napellus", "mid": "aconitum-napellus"},
+      {"text": "Arsenicum Album", "mid": "arsenicum-album"},
+      {"text": "Spongia Tosta", "mid": "spongia-tosta"}
+    ],
+    "answer": "chlorum",
+    "tags": ["fear", "suffocation", "cyanosis", "face"],
+    "explanation": "Chlorum-এ শ্বাস বন্ধ হওয়ার আতঙ্কে মুখ নীল হয়।"
+  },
+  {
+    "id": "chlor-sym-08",
+    "stem": "হঠাৎ দম বন্ধ হয়ে আসার মতো কাশি, স্বর বসে যাওয়া, ফুসফুসে ধোঁয়া ঢোকার অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Bromium", "mid": "bromium"},
+      {"text": "Spongia Tosta", "mid": "spongia-tosta"},
+      {"text": "Hepar Sulphur", "mid": "hepar-sulphur"}
+    ],
+    "answer": "chlorum",
+    "tags": ["cough", "aphonia", "smoke", "lungs"],
+    "explanation": "Chlorum-এ দম বন্ধ কাশি ও ধোঁয়ার অনুভূতি থাকে।"
+  },
+  {
+    "id": "chlor-sym-09",
+    "stem": "মুখ ও গলায় ছোট সাদা ক্ষত, প্রচণ্ড দুর্গন্ধ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Borax", "mid": "borax"},
+      {"text": "Mercurius Solubilis", "mid": "mercurius-solubilis"},
+      {"text": "Nitricum Acidum", "mid": "nitricum-acidum"}
+    ],
+    "answer": "chlorum",
+    "tags": ["mouth", "aphthae", "ulcer", "fetid"],
+    "explanation": "Chlorum-এ সাদা ক্ষত ও দুর্গন্ধ থাকে।"
+  },
+  {
+    "id": "chlor-sym-10",
+    "stem": "নাকের ভেতর কাঁচা ক্ষত বোধ, প্রচণ্ড সুড়সুড়ি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Arum Triphyllum", "mid": "arum-triphyllum"},
+      {"text": "Allium Cepa", "mid": "allium-cepa"},
+      {"text": "Sabadilla", "mid": "sabadilla"}
+    ],
+    "answer": "chlorum",
+    "tags": ["nose", "raw", "tickling"],
+    "explanation": "Chlorum-এ নাকে কাঁচা ক্ষত ও সুড়সুড়ি থাকে।"
+  },
+  {
+    "id": "chlor-sym-11",
+    "stem": "চামড়া অত্যন্ত শুষ্ক, চুলকানি ঘষলে বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Sulphur", "mid": "sulphur"},
+      {"text": "Psorinum", "mid": "psorinum"},
+      {"text": "Alumina", "mid": "alumina"}
+    ],
+    "answer": "chlorum",
+    "tags": ["skin", "dry", "itching", "rubbing-agg"],
+    "explanation": "Chlorum-এ চর্ম শুষ্ক ও ঘষলে চুলকানি বাড়ে।"
+  },
+  {
+    "id": "chlor-sym-12",
+    "stem": "শ্বাসকষ্টের সময় মৃত্যুভয় প্রবল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Aconitum Napellus", "mid": "aconitum-napellus"},
+      {"text": "Arsenicum Album", "mid": "arsenicum-album"},
+      {"text": "Lachesis", "mid": "lachesis"}
+    ],
+    "answer": "chlorum",
+    "tags": ["mind", "fear-death", "dyspnea"],
+    "explanation": "Chlorum-এ শ্বাসকষ্টে মৃত্যুভয় প্রবল।"
+  },
+  {
+    "id": "chlor-sym-13",
+    "stem": "মানসিকভাবে খিটখিটে ও রাগী — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Chamomilla", "mid": "chamomilla"},
+      {"text": "Nux Vomica", "mid": "nux-vomica"},
+      {"text": "Bryonia", "mid": "bryonia"}
+    ],
+    "answer": "chlorum",
+    "tags": ["mind", "irritable", "angry"],
+    "explanation": "Chlorum রোগী খিটখিটে ও রাগী।"
+  },
+  {
+    "id": "chlor-sym-14",
+    "stem": "সবসময় মনে করে বিপদ আসন্ন — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Argentum Nitricum", "mid": "argentum-nitricum"},
+      {"text": "Aconitum", "mid": "aconitum-napellus"},
+      {"text": "Arsenicum Album", "mid": "arsenicum-album"}
+    ],
+    "answer": "chlorum",
+    "tags": ["mind", "presentiment", "danger"],
+    "explanation": "Chlorum-এ বিপদ আসন্ন মনে হয়।"
+  },
+  {
+    "id": "chlor-sym-15",
+    "stem": "মধ্যরাতের পর ১২টা-২টা, শোয়া অবস্থায়, গরম ঘরে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Arsenicum Album", "mid": "arsenicum-album"},
+      {"text": "Kali Carbonicum", "mid": "kali-carbonicum"},
+      {"text": "Natrum Sulphuricum", "mid": "natrum-sulphuricum"}
+    ],
+    "answer": "chlorum",
+    "tags": ["aggravation", "midnight", "lying", "warm-room"],
+    "explanation": "Chlorum-এ মধ্যরাতের পর, শুয়ে ও গরম ঘরে বৃদ্ধি।"
+  },
+  {
+    "id": "chlor-sym-16",
+    "stem": "খোলা বাতাসে ও নড়াচড়া করলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Pulsatilla", "mid": "pulsatilla"},
+      {"text": "Natrum Muriaticum", "mid": "natrum-muriaticum"},
+      {"text": "Sepia", "mid": "sepia"}
+    ],
+    "answer": "chlorum",
+    "tags": ["amelioration", "open-air", "motion"],
+    "explanation": "Chlorum খোলা বাতাসে ও নড়াচড়ায় ভালো থাকে।"
+  },
+  {
+    "id": "chlor-sym-17",
+    "stem": "প্রধানত শীতকাতর, সোরা ও সাইকোসিস মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Sulphur", "mid": "sulphur"},
+      {"text": "Thuja", "mid": "thuja"},
+      {"text": "Natrum Sulphuricum", "mid": "natrum-sulphuricum"}
+    ],
+    "answer": "chlorum",
+    "tags": ["generalities", "chilly", "miasm"],
+    "explanation": "Chlorum শীতকাতর ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "chlor-sym-18",
+    "stem": "ক্লোরিন গ্যাস শ্বাসে গেলে প্রতিষেধক অ্যামোনিয়া শোঁকা — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Bromium", "mid": "bromium"},
+      {"text": "Iodium", "mid": "iodium"},
+      {"text": "Chlorum", "mid": "chlorum"}
+    ],
+    "answer": "chlorum",
+    "tags": ["antidote", "ammonia", "gas"],
+    "explanation": "Chlorum গ্যাসে অ্যামোনিয়া প্রতিষেধক।"
+  },
+  {
+    "id": "chlor-sym-19",
+    "stem": "সদৃশ: Bromium, Mephitis, Natrum Mur — এই সদৃশ সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Iodium", "mid": "iodium"},
+      {"text": "Bromium", "mid": "bromium"},
+      {"text": "Spongia", "mid": "spongia"}
+    ],
+    "answer": "chlorum",
+    "tags": ["relationship", "similar", "bromium", "natrum-mur"],
+    "explanation": "Chlorum-এর সদৃশ Bromium, Mephitis ও Natrum Mur।"
+  },
+  {
+    "id": "chlor-sym-20",
+    "stem": "জলীয় দ্রবণ পচনশীল ক্ষত বা আলসারে বাহ্যিক ব্যবহার — এই ব্যবহার কোন ঔষধের?",
+    "options": [
+      {"text": "Chlorum", "mid": "chlorum"},
+      {"text": "Calendula", "mid": "calendula"},
+      {"text": "Echinacea", "mid": "echinacea"},
+      {"text": "Arnica", "mid": "arnica"}
+    ],
+    "answer": "chlorum",
+    "tags": ["external", "putrid", "ulcer", "lotion"],
+    "explanation": "Chlorum water পচনশীল ক্ষতে বাহ্যিকভাবে ব্যবহৃত হয়।"
+  }
+]

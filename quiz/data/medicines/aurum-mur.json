@@ -1,0 +1,483 @@
+[
+  {
+    "id": "aur-mur-med-01",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জীবনের প্রতি বিতৃষ্ণা জন্মে, কিন্তু আত্মহত্যার ইচ্ছা তত প্রবল হয় না।",
+        "mid": "disgust_for_life_suicidal_not_strong"
+      },
+      {
+        "text": "জীবনের প্রতি তীব্র বিতৃষ্ণা এবং প্রবল আত্মহত্যার ইচ্ছা।",
+        "mid": "intense_suicidal_disposition"
+      },
+      {
+        "text": "মৃত্যুর ভয় কিন্তু জীবনের প্রতি বিতৃষ্ণা নেই।",
+        "mid": "fear_of_death_no_disgust"
+      },
+      {
+        "text": "জীবনের প্রতি অতিরিক্ত আসক্তি ও মৃত্যুভয়।",
+        "mid": "great_love_for_life_fear_death"
+      }
+    ],
+    "answer": "disgust_for_life_suicidal_not_strong",
+    "explanation": "Aurum Muriaticum-এ রোগীর জীবনের প্রতি বিতৃষ্ণা জন্মে, কিন্তু আত্মহত্যার ইচ্ছা তত প্রবল হয় না (তুলনামূলকভাবে Aurum metallicum-এ প্রবল)।"
+  },
+  {
+    "id": "aur-mur-med-02",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "বিশেষত ঘাড়ের এবং কুঁচকির গ্রন্থি শক্ত হয়ে ফুলে যাওয়া।",
+        "mid": "hard_swollen_glands_neck_groin"
+      },
+      {
+        "text": "গ্রন্থি নরম ও পিচ্ছিল হয়ে ফুলে যাওয়া।",
+        "mid": "soft_swollen_glands"
+      },
+      {
+        "text": "গ্রন্থি ফুলে যাওয়া কিন্তু শক্ত নয়।",
+        "mid": "swollen_non_indurated_glands"
+      },
+      {
+        "text": "শুধুমাত্র টনসিল ফুলে যাওয়া, গ্রন্থি নয়।",
+        "mid": "only_tonsils_swollen"
+      }
+    ],
+    "answer": "hard_swollen_glands_neck_groin",
+    "explanation": "Aurum Muriaticum-এ বিশেষত ঘাড়ের এবং কুঁচকির গ্রন্থি শক্ত হয়ে ফুলে যাওয়া একটি প্রধান লক্ষণ।"
+  },
+  {
+    "id": "aur-mur-med-03",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নাক দিয়ে দুর্গন্ধযুক্ত হলদেটে পুঁজ নির্গত হওয়া এবং নাকের হাড়ের ক্ষয়।",
+        "mid": "ozena_fetid_yellow_pus_nasal_caries"
+      },
+      {
+        "text": "নাক দিয়ে পরিষ্কার, পাতলা স্রাব।",
+        "mid": "clear_watery_rhinorrhea"
+      },
+      {
+        "text": "নাক বন্ধ কিন্তু কোনো স্রাব নেই।",
+        "mid": "nasal_blockage_no_discharge"
+      },
+      {
+        "text": "নাকে শুষ্ক মামড়ি, পুঁজ নেই।",
+        "mid": "dry_crusts_nose_no_pus"
+      }
+    ],
+    "answer": "ozena_fetid_yellow_pus_nasal_caries",
+    "explanation": "Aurum Muriaticum-এ নাক দিয়ে দুর্গন্ধযুক্ত হলদেটে পুঁজ নির্গত হয় এবং নাকের হাড় ক্ষয় হয়ে যাওয়ার উপক্রম হয়।"
+  },
+  {
+    "id": "aur-mur-med-04",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জরায়ু শক্ত হয়ে যাওয়া (Induration) এবং সেখানে তীব্র জ্বালা ও চুলকানি।",
+        "mid": "uterine_induration_burning_itching"
+      },
+      {
+        "text": "জরায়ু নরম ও প্রসারিত হওয়া।",
+        "mid": "soft_enlarged_uterus"
+      },
+      {
+        "text": "জরায়ুতে তীব্র ব্যথা কিন্তু শক্ত নয়।",
+        "mid": "uterine_pain_no_induration"
+      },
+      {
+        "text": "জরায়ু স্বাভাবিক কিন্তু যোনিতে শুষ্কতা।",
+        "mid": "normal_uterus_vaginal_dryness"
+      }
+    ],
+    "answer": "uterine_induration_burning_itching",
+    "explanation": "Aurum Muriaticum-এ জরায়ু শক্ত হয়ে যাওয়া (Induration) এবং সেখানে তীব্র জ্বালা ও চুলকানি একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "aur-mur-med-05",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হৃদপিণ্ডের ধড়ফড়ানি এবং উচ্চ রক্তচাপের প্রবণতা।",
+        "mid": "palpitation_hypertension_tendency"
+      },
+      {
+        "text": "হৃদস্পন্দন ধীর এবং রক্তচাপ কম।",
+        "mid": "bradycardia_hypotension"
+      },
+      {
+        "text": "হৃদপিণ্ডের পেশি শক্ত হয়ে যাওয়া।",
+        "mid": "stiff_heart_muscle"
+      },
+      {
+        "text": "বুকে চাপ কিন্তু ধড়ফড়ানি নেই।",
+        "mid": "chest_pressure_no_palpitation"
+      }
+    ],
+    "answer": "palpitation_hypertension_tendency",
+    "explanation": "Aurum Muriaticum-এ হৃদপিণ্ডের ধড়ফড়ানি এবং উচ্চ রক্তচাপের প্রবণতা দেখা যায়।"
+  },
+  {
+    "id": "aur-mur-med-06",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের বিভিন্ন স্থানে বিশেষত জননাঙ্গে আঁচিল হওয়ার প্রবণতা।",
+        "mid": "warts_especially_genitals"
+      },
+      {
+        "text": "শুধুমাত্র মুখে আঁচিল।",
+        "mid": "warts_only_on_face"
+      },
+      {
+        "text": "আঁচিল ছাড়া ত্বকে শুষ্ক প্যাচ।",
+        "mid": "dry_patches_no_warts"
+      },
+      {
+        "text": "ত্বকে ছোট ছোট পুঁজভরা ফোস্কা।",
+        "mid": "pustular_blisters"
+      }
+    ],
+    "answer": "warts_especially_genitals",
+    "explanation": "Aurum Muriaticum-এ শরীরের বিভিন্ন স্থানে বিশেষত জননাঙ্গে আঁচিল (Warts) হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "aur-mur-med-07",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পারদ (Mercury) অপব্যবহারের ফলে সৃষ্ট কুফল বা বংশগত সিফিলিস দোষে অব্যর্থ।",
+        "mid": "syphilitic_miasm_mercury_abuse"
+      },
+      {
+        "text": "শুধুমাত্র সোরিয়াসিসে কার্যকর।",
+        "mid": "psoriasis_only"
+      },
+      {
+        "text": "গনোরিয়ার তীব্র পর্যায়ে প্রধান।",
+        "mid": "acute_gonorrhea"
+      },
+      {
+        "text": "সিফিলিসের প্রাথমিক কাণ্ডে (Chancre) প্রধান।",
+        "mid": "primary_syphilitic_chancre"
+      }
+    ],
+    "answer": "syphilitic_miasm_mercury_abuse",
+    "explanation": "Aurum Muriaticum পারদ (Mercury) অপব্যবহারের ফলে সৃষ্ট কুফল বা বংশগত সিফিলিস দোষে (Syphilitic Miasm) অব্যর্থ।"
+  },
+  {
+    "id": "aur-mur-med-08",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অত্যন্ত উদ্বিগ্ন ও অস্থির প্রকৃতির, এক জায়গায় স্থির থাকতে পারে না।",
+        "mid": "anxious_restless_cannot_stay_still"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ নির্বিকার ও উদাসীন।",
+        "mid": "apathetic_indifferent"
+      },
+      {
+        "text": "রোগী অতিরিক্ত শান্ত ও ধীরস্থির।",
+        "mid": "calm_and_slow"
+      },
+      {
+        "text": "রোগী একা থাকতে ভালোবাসে, অস্থিরতা নেই।",
+        "mid": "desire_solitude_no_restlessness"
+      }
+    ],
+    "answer": "anxious_restless_cannot_stay_still",
+    "explanation": "Aurum Muriaticum-এ রোগী অত্যন্ত উদ্বিগ্ন ও অস্থির প্রকৃতির হয়, এক জায়গায় স্থির থাকতে পারে না।"
+  },
+  {
+    "id": "aur-mur-med-09",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "Aurum metallicum-এর মতো বিষণ্ণতা থাকলেও রোগী বেশি খিটখিটে এবং রাগী হয়।",
+        "mid": "more_irritable_angry_than_aurum_met"
+      },
+      {
+        "text": "Aurum metallicum-এর চেয়ে কম খিটখিটে।",
+        "mid": "less_irritable_than_aurum_met"
+      },
+      {
+        "text": "সম্পূর্ণ শান্ত, রাগ নেই।",
+        "mid": "calm_no_anger"
+      },
+      {
+        "text": "অতিরিক্ত হাসিখুশি ও প্রফুল্ল।",
+        "mid": "cheerful_and_happy"
+      }
+    ],
+    "answer": "more_irritable_angry_than_aurum_met",
+    "explanation": "Aurum Muriaticum-এ Aurum metallicum-এর মতো বিষণ্ণতা থাকে, তবে রোগী আরও বেশি খিটখিটে এবং রাগী হয়।"
+  },
+  {
+    "id": "aur-mur-med-10",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথার হাড়ের ভেতর যন্ত্রণা।",
+        "mid": "pain_inside_bones_of_skull"
+      },
+      {
+        "text": "মাথার ত্বকে চুলকানি।",
+        "mid": "itching_scalp"
+      },
+      {
+        "text": "মাথার বাইরের অংশে জ্বালাপোড়া।",
+        "mid": "burning_outer_head"
+      },
+      {
+        "text": "মাথা হালকা ব্যথা, অস্পষ্ট।",
+        "mid": "vague_mild_headache"
+      }
+    ],
+    "answer": "pain_inside_bones_of_skull",
+    "explanation": "Aurum Muriaticum-এ মাথার হাড়ের ভেতর যন্ত্রণা (Pain in the bones of the skull) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "aur-mur-med-11",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাড়ি ফুলে যায় এবং মুখ থেকে দুর্গন্ধ আসে।",
+        "mid": "swollen_gums_foul_breath"
+      },
+      {
+        "text": "মাড়ি শুকনো কিন্তু ফোলা নেই।",
+        "mid": "dry_gums_no_swelling"
+      },
+      {
+        "text": "মুখে মিষ্টি স্বাদ।",
+        "mid": "sweet_taste_in_mouth"
+      },
+      {
+        "text": "জিহ্বা পরিষ্কার, দুর্গন্ধ নেই।",
+        "mid": "clean_tongue_no_odor"
+      }
+    ],
+    "answer": "swollen_gums_foul_breath",
+    "explanation": "Aurum Muriaticum-এ মাড়ি ফুলে যায় এবং মুখ থেকে দুর্গন্ধ আসে।"
+  },
+  {
+    "id": "aur-mur-med-12",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জিহ্বায় ক্ষত বা জ্বালা হতে পারে।",
+        "mid": "ulcers_or_burning_on_tongue"
+      },
+      {
+        "text": "জিহ্বা মোটা সাদা প্রলেপে ঢাকা।",
+        "mid": "thick_white_coated_tongue"
+      },
+      {
+        "text": "জিহ্বা লাল ও শুকনো, ক্ষত নেই।",
+        "mid": "red_dry_tongue_no_ulcer"
+      },
+      {
+        "text": "জিহ্বা ফাটা কিন্তু জ্বালা নেই।",
+        "mid": "cracked_tongue_no_burning"
+      }
+    ],
+    "answer": "ulcers_or_burning_on_tongue",
+    "explanation": "Aurum Muriaticum-এ জিহ্বায় ক্ষত বা জ্বালা হতে পারে।"
+  },
+  {
+    "id": "aur-mur-med-13",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হার্টের কপাটিকার সমস্যা বা হার্ট বড় হয়ে যাওয়া (Hypertrophy)।",
+        "mid": "valvular_disease_hypertrophy"
+      },
+      {
+        "text": "হার্টের পেশি পাতলা হয়ে যাওয়া।",
+        "mid": "thinning_of_heart_muscle"
+      },
+      {
+        "text": "পেরিকார্ডিয়ামে তরল জমা।",
+        "mid": "pericardial_effusion"
+      },
+      {
+        "text": "হার্টের কোনো গঠনগত পরিবর্তন নেই।",
+        "mid": "no_structural_heart_change"
+      }
+    ],
+    "answer": "valvular_disease_hypertrophy",
+    "explanation": "Aurum Muriaticum-এ হার্টের কপাটিকার সমস্যা বা হার্ট বড় হয়ে যাওয়া (Hypertrophy) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "aur-mur-med-14",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জরায়ুর টিউমার বা ফাইব্রয়েডের ক্ষেত্রে এটি একটি চমৎকার ঔষধ।",
+        "mid": "excellent_for_uterine_tumors_fibroids"
+      },
+      {
+        "text": "শুধুমাত্র ওভারিয়ান সিস্টে কার্যকর।",
+        "mid": "only_ovarian_cysts"
+      },
+      {
+        "text": "জরায়ুর ক্যান্সারে প্রধান।",
+        "mid": "uterine_cancer_primary"
+      },
+      {
+        "text": "শুধুমাত্র মাসিকের ব্যথায় কার্যকর।",
+        "mid": "only_dysmenorrhea"
+      }
+    ],
+    "answer": "excellent_for_uterine_tumors_fibroids",
+    "explanation": "Aurum Muriaticum জরায়ুর টিউমার বা ফাইব্রয়েডের (Uterine Fibroids) ক্ষেত্রে একটি চমৎকার ঔষধ।"
+  },
+  {
+    "id": "aur-mur-med-15",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জরায়ুর মুখে ক্ষত এবং যোনিপথে অসহ্য চুলকানি।",
+        "mid": "cervical_ulcer_intolerable_vaginal_itching"
+      },
+      {
+        "text": "জরায়ুর মুখে ক্ষত কিন্তু চুলকানি নেই।",
+        "mid": "cervical_ulcer_no_itching"
+      },
+      {
+        "text": "যোনিতে শুষ্কতা, কোনো ক্ষত নেই।",
+        "mid": "vaginal_dryness_no_ulcer"
+      },
+      {
+        "text": "শ্বেতপ্রদর কিন্তু চুলকানি নেই।",
+        "mid": "leucorrhea_no_itching"
+      }
+    ],
+    "answer": "cervical_ulcer_intolerable_vaginal_itching",
+    "explanation": "Aurum Muriaticum-এ জরায়ুর মুখে ক্ষত এবং যোনিপথে অসহ্য চুলকানি (Intolerable vaginal itching) হয়।"
+  },
+  {
+    "id": "aur-mur-med-16",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হাত ও পায়খানার দ্বারের কাছে বড় বড় আঁচিল।",
+        "mid": "large_warts_hands_anal_region"
+      },
+      {
+        "text": "শুধুমাত্র মুখে ছোট আঁচিল।",
+        "mid": "small_warts_only_on_face"
+      },
+      {
+        "text": "আঁচিল ছাড়া ত্বকে সাদা দাগ।",
+        "mid": "white_patches_no_warts"
+      },
+      {
+        "text": "পায়ের তলায় শক্ত কড়া (Corns)।",
+        "mid": "horny_corns_soles"
+      }
+    ],
+    "answer": "large_warts_hands_anal_region",
+    "explanation": "Aurum Muriaticum-এ শরীরের বিভিন্ন স্থানে বিশেষত হাত ও পায়খানার দ্বারের (Anal region) কাছে বড় বড় আঁচিল হয়।"
+  },
+  {
+    "id": "aur-mur-med-17",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ত্বকের ওপর লালচে ছোপ বা সিফিলিটিক উদ্ভেদ।",
+        "mid": "red_spots_syphilitic_eruptions"
+      },
+      {
+        "text": "ত্বকে শুষ্ক, আঁশযুক্ত সোরিয়াসিস।",
+        "mid": "dry_scaly_psoriasis"
+      },
+      {
+        "text": "ত্বকে ছোট ছোট পুঁজভরা ফোস্কা।",
+        "mid": "pustular_blisters_skin"
+      },
+      {
+        "text": "ত্বকে চুলকানি ছাড়া সাদা দাগ।",
+        "mid": "white_patches_no_itching"
+      }
+    ],
+    "answer": "red_spots_syphilitic_eruptions",
+    "explanation": "Aurum Muriaticum-এ ত্বকের ওপর লালচে ছোপ বা সিফিলিটিক উদ্ভেদ (Syphilitic eruptions) দেখা যায়।"
+  },
+  {
+    "id": "aur-mur-med-18",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শীতকালে, ঠাণ্ডা স্যাঁতসেঁতে আবহাওয়ায়, বিশ্রামে এবং রাতে।",
+        "mid": "aggravation_winter_damp_cold_rest_night"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরমে ও চলাফেরায়।",
+        "mid": "aggravation_heat_motion"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় শীতকালে ও বিশ্রামে।",
+        "mid": "amelioration_winter_rest"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র সকালে।",
+        "mid": "aggravation_only_morning"
+      }
+    ],
+    "answer": "aggravation_winter_damp_cold_rest_night",
+    "explanation": "Aurum Muriaticum-এর লক্ষণ শীতকালে, ঠাণ্ডা স্যাঁতসেঁতে আবহাওয়ায়, বিশ্রামে এবং রাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "aur-mur-med-19",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় গরমে, উষ্ণ আবহাওয়ায় এবং চলাফেরা করলে।",
+        "mid": "amelioration_warmth_warm_weather_motion"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় ঠাণ্ডায় ও বিশ্রামে।",
+        "mid": "amelioration_cold_rest"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরমে ও চলাফেরায়।",
+        "mid": "aggravation_warmth_motion"
+      },
+      {
+        "text": "গরমে বা চলাফেরায় কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_warmth_motion"
+      }
+    ],
+    "answer": "amelioration_warmth_warm_weather_motion",
+    "explanation": "Aurum Muriaticum-এর লক্ষণ গরমে, উষ্ণ আবহাওয়ায় এবং চলাফেরা করলে উপশম হয়।"
+  },
+  {
+    "id": "aur-mur-med-20",
+    "stem": "নিচের কোনটি Aurum Muriaticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পার্শ্বগতভাবে বাম দিকে আধিক্য দেখা যায়।",
+        "mid": "left_sided_predominance"
+      },
+      {
+        "text": "শুধুমাত্র ডান দিকে আধিক্য।",
+        "mid": "right_sided_only"
+      },
+      {
+        "text": "উভয় দিকে সমান।",
+        "mid": "equally_bilateral"
+      },
+      {
+        "text": "কোনো নির্দিষ্ট পার্শ্ব নেই।",
+        "mid": "no_sidedness"
+      }
+    ],
+    "answer": "left_sided_predominance",
+    "explanation": "Aurum Muriaticum-এ পার্শ্বগতভাবে বাম দিকে আধিক্য (Left-sided predominance) দেখা যায়।"
+  }
+]
+

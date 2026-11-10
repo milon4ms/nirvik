@@ -1,0 +1,245 @@
+[
+  {
+    "id": "causticum-med-01",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরের এক অঙ্গের পক্ষাঘাত, বিশেষত ডান অঙ্গের", "mid": "sym-one-sided-paralysis-right"},
+      {"text": "ফোড়া ফেটে যাওয়ার পর ঘন হলুদ ও দলা দলা পুঁজ নির্গত হওয়া", "mid": "sym-thick-yellow-lumpy-pus"},
+      {"text": "নিচের দিকে নামার ভয়, শিশু সিঁড়ি দিয়ে নামতে গেলে মাকে জড়িয়ে ধরে", "mid": "sym-fear-downward-motion"},
+      {"text": "সর্বপ্রকার স্রাব তীক্ষ্ণ ও হাজানিযুক্ত, ত্বক তুলে ফেলে", "mid": "sym-acrid-discharge-excoriation"}
+    ],
+    "answer": "sym-one-sided-paralysis-right",
+    "explanation": "Causticum-এর প্রধান লক্ষণ হলো শরীরের এক অঙ্গের পক্ষাঘাত, বিশেষত ডান অঙ্গের পক্ষাঘাত।"
+  },
+  {
+    "id": "causticum-med-02",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিক আঘাতের ফলে পক্ষাঘাত", "mid": "sym-paralysis-from-mental-shock"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"}
+    ],
+    "answer": "sym-paralysis-from-mental-shock",
+    "explanation": "Causticum-এ মানসিক আঘাতের ফলে পক্ষাঘাত হতে পারে।"
+  },
+  {
+    "id": "causticum-med-03",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বহুদিন স্থায়ী দুঃখ ভোগে হওয়া রোগ", "mid": "sym-ailments-from-long-standing-grief"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "স্নায়বিক দুর্বলতা ও অকাল বার্ধক্য", "mid": "sym-nervous-weakness-senility"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-ailments-from-long-standing-grief",
+    "explanation": "Causticum বহুদিন স্থায়ী দুঃখ ভোগে হওয়া রোগের ক্ষেত্রে উপযোগী।"
+  },
+  {
+    "id": "causticum-med-04",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বসে পায়খানা করলে কষ্ট, না দাঁড়ালে মলত্যাগে অসুবিধা", "mid": "sym-difficult-defecation-must-stand"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"}
+    ],
+    "answer": "sym-difficult-defecation-must-stand",
+    "explanation": "Causticum-এ বসে পায়খানা করলে কষ্ট হয়; রোগী দাঁড়ালে মলত্যাগে কিছুটা আরাম পায়।"
+  },
+  {
+    "id": "causticum-med-05",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বারবার প্রসাবের বেগ, অসাড়ে প্রসাব আসে", "mid": "sym-frequent-urge-numbness"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"},
+      {"text": "অসংলগ্ন কথাবার্তা ও এক বিষয় থেকে দ্রুত অন্য বিষয়ে চলে যাওয়া", "mid": "sym-incoherent-speech"}
+    ],
+    "answer": "sym-frequent-urge-numbness",
+    "explanation": "Causticum-এ বারবার প্রসাবের বেগ হয় এবং অসাড়ে প্রসাব আসে।"
+  },
+  {
+    "id": "causticum-med-06",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সঙ্গমের পর মূত্রত্যাগকালে মূত্রনালীতে জ্বালা", "mid": "sym-burning-urethra-after-coition"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"},
+      {"text": "শিশু কোলে উঠতে চায় কিন্তু কাউকে কাছে আসতে দিতে চায় না", "mid": "sym-child-wants-lap-repels-approach"}
+    ],
+    "answer": "sym-burning-urethra-after-coition",
+    "explanation": "Causticum-এ সঙ্গমের পর মূত্রত্যাগকালে মূত্রনালীতে জ্বালা হয়।"
+  },
+  {
+    "id": "causticum-med-07",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শীতকাতরতা, বর্ষা ও বৃষ্টির দিনে ভালো থাকা", "mid": "sym-chilly-better-in-rainy-weather"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"},
+      {"text": "চিন্তা ও কল্পনা এসে ব্যতিব্যস্ত করে তোলে", "mid": "sym-thoughts-obsession"},
+      {"text": "অত্যন্ত লজ্জাশীল ও একা থাকতে চায়", "mid": "sym-shy-seclusive"}
+    ],
+    "answer": "sym-chilly-better-in-rainy-weather",
+    "explanation": "Causticum-এ রোগী শীতকাতর এবং বর্ষা ও বৃষ্টির দিনে ভালো থাকে।"
+  },
+  {
+    "id": "causticum-med-08",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বিষন্নতা, নৈরাশ্য ও আশঙ্কা", "mid": "sym-depression-despair-apprehension"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"}
+    ],
+    "answer": "sym-depression-despair-apprehension",
+    "explanation": "Causticum-এ বিষন্নতা, নৈরাশ্য ও আশঙ্কা দেখা যায়।"
+  },
+  {
+    "id": "causticum-med-09",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নিদ্রাকালে অস্থিরতা", "mid": "sym-restlessness-during-sleep"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "বসন্তের মতো গুটি গুটি পুঁজপূর্ণ উদ্ভেদ", "mid": "sym-pustular-eruptions"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-restlessness-during-sleep",
+    "explanation": "Causticum-এ নিদ্রাকালে অস্থিরতা দেখা যায়।"
+  },
+  {
+    "id": "causticum-med-10",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীর ছিড়ে ফেলার মতো ব্যথা, উত্তাপে উপশম", "mid": "sym-tearing-pain-heat-amelioration"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-tearing-pain-heat-amelioration",
+    "explanation": "Causticum-এ শরীর ছিড়ে ফেলার মতো ব্যথা হয় যা উত্তাপে উপশম হয়।"
+  },
+  {
+    "id": "causticum-med-11",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডান কোমরে ভিভর সুই ফোটানোর মতো ব্যথা", "mid": "sym-stitching-pain-right-loin"},
+      {"text": "অন্যের উপস্থিতিতে প্রস্রাব করতে পারে না", "mid": "sym-inability-urinate-presence"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"}
+    ],
+    "answer": "sym-stitching-pain-right-loin",
+    "explanation": "Causticum-এ ডান কোমরে ভিভর সুই ফোটানোর মতো ব্যথা হয়।"
+  },
+  {
+    "id": "causticum-med-12",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লিভারের নিচে চেপে ধরার মতো ব্যথা", "mid": "sym-pressing-pain-under-liver"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"}
+    ],
+    "answer": "sym-pressing-pain-under-liver",
+    "explanation": "Causticum-এ লিভারের নিচে চেপে ধরার মতো ব্যথা হয়।"
+  },
+  {
+    "id": "causticum-med-13",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পোড়া দাগ আবার পেকে যাওয়া ও ব্যথা হওয়া", "mid": "sym-old-burns-reopen-painful"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"}
+    ],
+    "answer": "sym-old-burns-reopen-painful",
+    "explanation": "Causticum-এ পোড়া দাগ আবার পেকে যায় ও ব্যথা হয়।"
+  },
+  {
+    "id": "causticum-med-14",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাশি বা হাঁচি দিলে অজান্তে প্রস্রাব বেরিয়ে যাওয়া", "mid": "sym-involuntary-urine-cough-sneeze"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"}
+    ],
+    "answer": "sym-involuntary-urine-cough-sneeze",
+    "explanation": "Causticum-এ রোগী যখনই কাশে বা হাঁচি দেয়, অজান্তেই কয়েক ফোঁটা প্রস্রাব বেরিয়ে যায়।"
+  },
+  {
+    "id": "causticum-med-15",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলায় কাঁচা মাংসের মতো ক্ষত বোধ ও জ্বালা", "mid": "sym-raw-meat-sensation-throat"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-raw-meat-sensation-throat",
+    "explanation": "Causticum-এ গলা বা মূত্রনালীতে মনে হয় যেন চামড়া ছিলে গেছে এবং কাঁচা মাংসের মতো জ্বালা করছে।"
+  },
+  {
+    "id": "causticum-med-16",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অল্প কফ কিন্তু তুলতে কষ্ট, ঠান্ডা জল পানে কাশিতে আরাম", "mid": "sym-scanty-sputum-difficult-expectoration"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"},
+      {"text": "খাওয়া-দাওয়ায় উপশম", "mid": "sym-eating-amelioration"}
+    ],
+    "answer": "sym-scanty-sputum-difficult-expectoration",
+    "explanation": "Causticum-এ কফ গলার ভেতর ঘড়ঘড় করে কিন্তু রোগী তা তুলে ফেলতে পারে না; সামান্য ঠান্ডা জল পান করলে কাশিতে আরাম বোধ হয়।"
+  },
+  {
+    "id": "causticum-med-17",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের পাতা, নাকের ডগা বা আঙুলের ডগায় রক্তপাতপ্রবণ বড় আঁচিল", "mid": "sym-large-bleeding-warts"},
+      {"text": "টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sour-apples"},
+      {"text": "সর্বপ্রকার স্রাব তীক্ষ্ণ ও হাজানিযুক্ত, ত্বক তুলে ফেলে", "mid": "sym-acrid-discharge-excoriation"},
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয়", "mid": "sym-fear-death-dyspnoea"}
+    ],
+    "answer": "sym-large-bleeding-warts",
+    "explanation": "Causticum-এ বিশেষত চোখের পাতা, নাকের ডগা বা আঙুলের ডগায় বড় ও রক্তপাতপ্রবণ আঁচিল হয়।"
+  },
+  {
+    "id": "causticum-med-18",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অন্যের দুঃখ-কষ্ট দেখে অত্যন্ত কাতর হয়ে পড়া", "mid": "sym-highly-sympathetic"},
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-highly-sympathetic",
+    "explanation": "Causticum-এ রোগী অন্যের দুঃখ-কষ্ট দেখে অত্যন্ত কাতর হয়ে পড়ে এবং অন্যের প্রতি অবিচার দেখলে প্রতিবাদী হয়ে ওঠে।"
+  },
+  {
+    "id": "causticum-med-19",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কুকুর ও অন্ধকারকে প্রচণ্ড ভয়", "mid": "sym-fear-dogs-darkness"},
+      {"text": "নিচের দিকে নামার গতিতে বৃদ্ধি", "mid": "sym-downward-motion-agg"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"}
+    ],
+    "answer": "sym-fear-dogs-darkness",
+    "explanation": "Causticum-এ রোগী কুকুর বা অন্ধকারকে প্রচণ্ড ভয় পায়।"
+  },
+  {
+    "id": "causticum-med-20",
+    "stem": "নিচের কোনটি Causticum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শুষ্ক ও ঠান্ডা আবহাওয়ায় বৃদ্ধি, আর্দ্র আবহাওয়ায় উপশম", "mid": "sym-dry-cold-agg-damp-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও শরীর ঠান্ডা রাখলে উপশম", "mid": "sym-open-air-cooling-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"}
+    ],
+    "answer": "sym-dry-cold-agg-damp-amel",
+    "explanation": "Causticum-এর লক্ষণ শুষ্ক ও পরিষ্কার ঠান্ডা আবহাওয়ায় বৃদ্ধি পায় এবং স্যাঁতসেঁতে বা আর্দ্র আবহাওয়ায় উপশম হয়।"
+  }
+]
+
+
+

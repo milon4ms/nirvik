@@ -1,0 +1,484 @@
+
+[
+  {
+    "id": "dulc-med-01",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গরম আবহাওয়ার পর হঠাৎ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায় অসুস্থ হয়ে পড়া।",
+        "mid": "ailments_from_sudden_change_heat_to_cold_damp"
+      },
+      {
+        "text": "শুধুমাত্র শুষ্ক ও গরম আবহাওয়ায় লক্ষণ বৃদ্ধি পাওয়া।",
+        "mid": "aggravation_only_in_dry_hot_weather"
+      },
+      {
+        "text": "ঠান্ডা থেকে গরমে গেলে অসুস্থতা বেড়ে যাওয়া।",
+        "mid": "ailments_from_change_cold_to_heat"
+      },
+      {
+        "text": "আবহাওয়ার পরিবর্তনে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_weather_change"
+      }
+    ],
+    "answer": "ailments_from_sudden_change_heat_to_cold_damp",
+    "explanation": "Dulcamara-এর প্রধান বৈশিষ্ট্য হলো—গরম আবহাওয়ার পর হঠাৎ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায় অসুস্থ হয়ে পড়া (Ailments from sudden change from heat to cold)।"
+  },
+  {
+    "id": "dulc-med-02",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ভিজে মাটিতে হাঁটা বা বর্ষায় ভেজার ফলে বাতের ব্যথা বা ডায়রিয়া হওয়া।",
+        "mid": "ailments_from_walking_on_wet_ground_rain"
+      },
+      {
+        "text": "শুকনো মাটিতে হাঁটলে বাতের ব্যথা উপশম হওয়া।",
+        "mid": "amelioration_from_walking_on_dry_ground"
+      },
+      {
+        "text": "গরম জলে স্নান করলে ডায়রিয়া হওয়া।",
+        "mid": "diarrhea_from_warm_bath"
+      },
+      {
+        "text": "ভিজা মাটির সাথে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_with_wet_ground"
+      }
+    ],
+    "answer": "ailments_from_walking_on_wet_ground_rain",
+    "explanation": "Dulcamara-এ ভিজে মাটিতে হাঁটা, বর্ষায় ভেজা বা ঠান্ডা ঘরে বসবাসের ফলে যদি বাতের ব্যথা বা ডায়রিয়া হয়, তবে এটি শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "dulc-med-03",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "বর্ষাকালে শরীরে বড় বড় আমবাত (Urticaria) বা চড়চড়ানি উদ্ভেদ দেখা দেওয়া।",
+        "mid": "urticaria_eruptions_in_rainy_season"
+      },
+      {
+        "text": "শুধুমাত্র শীতকালে ত্বকে শুষ্ক eczema হওয়া।",
+        "mid": "dry_eczema_only_in_winter"
+      },
+      {
+        "text": "গরমে ত্বকে লাল চাকা হওয়া যা ঠান্ডায় উপশম হয়।",
+        "mid": "red_wheals_in_heat_relieved_by_cold"
+      },
+      {
+        "text": "ত্বকে কোনো উদ্ভেদ হয় না।",
+        "mid": "no_skin_eruptions"
+      }
+    ],
+    "answer": "urticaria_eruptions_in_rainy_season",
+    "explanation": "Dulcamara-এ বর্ষাকালে শরীরে বড় বড় আমবাত (Urticaria) বা চড়চড়ানি উদ্ভেদ দেখা দেওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "dulc-med-04",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাব ঘোলাটে বা দুধের মতো সাদা হয় এবং প্রস্রাবের সাথে শ্লেষ্মা নির্গত হয়।",
+        "mid": "turbid_milky_urine_with_mucus"
+      },
+      {
+        "text": "প্রস্রাব পরিষ্কার এবং স্বচ্ছ থাকে।",
+        "mid": "clear_transparent_urine"
+      },
+      {
+        "text": "প্রস্রাবের সাথে রক্ত যায়।",
+        "mid": "hematuria"
+      },
+      {
+        "text": "প্রস্রাবের পরিমাণ অতিরিক্ত বেড়ে যায়।",
+        "mid": "polyuria"
+      }
+    ],
+    "answer": "turbid_milky_urine_with_mucus",
+    "explanation": "Dulcamara-এ প্রস্রাব ঘোলাটে বা দুধের মতো সাদা হয়, অনেক সময় প্রস্রাবের সাথে শ্লেষ্মা নির্গত হয়।"
+  },
+  {
+    "id": "dulc-med-05",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হাতের তালুতে বা আঙুলে চ্যাপ্টা ও বড় আঁচিল।",
+        "mid": "flat_large_warts_palms_fingers"
+      },
+      {
+        "text": "শুধুমাত্র মুখে ছোট আঁচিল।",
+        "mid": "small_warts_only_on_face"
+      },
+      {
+        "text": "পায়ের তলায় শক্ত কড়া (Corns)।",
+        "mid": "horny_corns_soles"
+      },
+      {
+        "text": "আঁচিল ছাড়া ত্বকে শুষ্ক প্যাচ।",
+        "mid": "dry_patches_no_warts"
+      }
+    ],
+    "answer": "flat_large_warts_palms_fingers",
+    "explanation": "Dulcamara-এ হাতের তালুতে বা আঙুলে চ্যাপ্টা ও বড় আঁচিল (Warts) হয়।"
+  },
+  {
+    "id": "dulc-med-06",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী মানসিকভাবে অত্যন্ত খিটখিটে এবং একগুঁয়ে প্রকৃতির হয়।",
+        "mid": "irritable_obstinate_mentally"
+      },
+      {
+        "text": "রোগী অতিরিক্ত শান্ত ও ধৈর্যশীল থাকে।",
+        "mid": "calm_and_patient"
+      },
+      {
+        "text": "রোগী হাসিখুশি ও প্রফুল্ল থাকে।",
+        "mid": "cheerful_and_happy"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ নির্বিকার ও উদাসীন।",
+        "mid": "apathetic_indifferent"
+      }
+    ],
+    "answer": "irritable_obstinate_mentally",
+    "explanation": "Dulcamara-এ রোগী মানসিকভাবে অত্যন্ত খিটখিটে এবং একগুঁয়ে প্রকৃতির হয়।"
+  },
+  {
+    "id": "dulc-med-07",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী খুব সহজেই রেগে যায় এবং অনেক সময় অন্যকে গালাগাল করতে দ্বিধা করে না।",
+        "mid": "easily_angered_scolds_others"
+      },
+      {
+        "text": "রাগ করলেও কাউকে কিছু বলে না।",
+        "mid": "angry_but_does_not_speak"
+      },
+      {
+        "text": "রাগের পর অতিরিক্ত কান্নাকাটি করে।",
+        "mid": "weeps_after_anger"
+      },
+      {
+        "text": "রাগে কোনো সমস্যা নেই।",
+        "mid": "no_anger_issue"
+      }
+    ],
+    "answer": "easily_angered_scolds_others",
+    "explanation": "Dulcamara-এ রোগী খুব সহজেই রেগে যায় এবং অনেক সময় অন্যকে গালাগাল করতে দ্বিধা করে না।"
+  },
+  {
+    "id": "dulc-med-08",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী যা চায় তা তৎক্ষণাৎ পেতে চায়, না পেলে অস্থির হয়ে পড়ে।",
+        "mid": "wants_things_immediately_restless_if_not"
+      },
+      {
+        "text": "রোগী ধৈর্য ধরে অপেক্ষা করতে পারে।",
+        "mid": "can_wait_patiently"
+      },
+      {
+        "text": "রোগীর কোনো ইচ্ছাই জাগে না।",
+        "mid": "no_desires"
+      },
+      {
+        "text": "রোগী যা চায় তা পেলেও অস্থির থাকে।",
+        "mid": "restless_even_after_getting"
+      }
+    ],
+    "answer": "wants_things_immediately_restless_if_not",
+    "explanation": "Dulcamara-এ রোগী যা চায় তা তৎক্ষণাৎ পেতে চায়, না পেলে অস্থির হয়ে পড়ে।"
+  },
+  {
+    "id": "dulc-med-09",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নাক বন্ধ হয়ে যাওয়া (Stuffy cold), বিশেষ করে বৃষ্টিতে ভিজলে।",
+        "mid": "stuffy_cold_after_getting_wet"
+      },
+      {
+        "text": "নাক দিয়ে পাতলা সর্দি ঝরা, যা বৃষ্টিতে ভিজলে কমে।",
+        "mid": "watery_rhinorrhea_better_after_rain"
+      },
+      {
+        "text": "নাকে শুষ্ক মামড়ি, কোনো সর্দি নেই।",
+        "mid": "dry_crusts_no_coryza"
+      },
+      {
+        "text": "হাঁচি দিয়ে সর্দি বের হওয়া।",
+        "mid": "sneezing_with_coryza"
+      }
+    ],
+    "answer": "stuffy_cold_after_getting_wet",
+    "explanation": "Dulcamara-এ নাক বন্ধ হয়ে যাওয়া (Stuffy cold), বিশেষ করে বৃষ্টিতে ভিজলে—এটি একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "dulc-med-10",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঠান্ডা লাগার ফলে ডায়রিয়া, মল সবুজ রঙের এবং মলের সাথে শ্লেষ্মা থাকে।",
+        "mid": "diarrhea_from_cold_green_stool_with_mucus"
+      },
+      {
+        "text": "গরমে ডায়রিয়া, মল হলুদ এবং শ্লেষ্মা ছাড়া।",
+        "mid": "diarrhea_in_heat_yellow_stool_no_mucus"
+      },
+      {
+        "text": "কোষ্ঠকাঠিন্য, মল শুষ্ক ও কঠিন।",
+        "mid": "constipation_dry_hard_stool"
+      },
+      {
+        "text": "মলে অপরিপক্ক খাদ্যকণা।",
+        "mid": "undigested_food_stool"
+      }
+    ],
+    "answer": "diarrhea_from_cold_green_stool_with_mucus",
+    "explanation": "Dulcamara-এ ঠান্ডা লাগার ফলে ডায়রিয়া হয়, মল সবুজ রঙের এবং মলের সাথে শ্লেষ্মা থাকে।"
+  },
+  {
+    "id": "dulc-med-11",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "বাতের ব্যথা (Rheumatism) যা ঠান্ডা ও ভিজে আবহাওয়ায় প্রচণ্ড বাড়ে।",
+        "mid": "rheumatism_aggravated_by_cold_damp_weather"
+      },
+      {
+        "text": "বাতের ব্যথা যা গরম ও শুষ্ক আবহাওয়ায় বাড়ে।",
+        "mid": "rheumatism_aggravated_by_hot_dry_weather"
+      },
+      {
+        "text": "ব্যথা শুধুমাত্র সকালে হয়।",
+        "mid": "pain_only_in_morning"
+      },
+      {
+        "text": "ব্যথা বিশ্রামে উপশম হয়।",
+        "mid": "pain_relieved_by_rest"
+      }
+    ],
+    "answer": "rheumatism_aggravated_by_cold_damp_weather",
+    "explanation": "Dulcamara-এ বাতের ব্যথা (Rheumatism) ঠান্ডা ও ভিজে আবহাওয়ায় প্রচণ্ড বাড়ে।"
+  },
+  {
+    "id": "dulc-med-12",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নড়াচড়া করলে ব্যথার উপশম হয় (Rhus Tox-এর মতো)।",
+        "mid": "pain_ameliorated_by_motion_like_rhus_tox"
+      },
+      {
+        "text": "নড়াচড়া করলে ব্যথা বেড়ে যায় (Bryonia-এর মতো)।",
+        "mid": "pain_aggravated_by_motion_like_bryonia"
+      },
+      {
+        "text": "বিশ্রামে ব্যথা উপশম হয়।",
+        "mid": "pain_relieved_by_rest"
+      },
+      {
+        "text": "নড়াচড়ায় কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_motion"
+      }
+    ],
+    "answer": "pain_ameliorated_by_motion_like_rhus_tox",
+    "explanation": "Dulcamara-এ নড়াচড়া করলে ব্যথার উপশম হয় (Rhus Tox-এর মতো)।"
+  },
+  {
+    "id": "dulc-med-13",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঋতুস্রাব খুব দেরিতে হয় এবং পরিমাণে কম।",
+        "mid": "menses_late_and_scanty"
+      },
+      {
+        "text": "ঋতুস্রাব খুব তাড়াতাড়ি হয় এবং পরিমাণে বেশি।",
+        "mid": "menses_early_and_profuse"
+      },
+      {
+        "text": "ঋতুস্রাব নিয়মিত এবং স্বাভাবিক।",
+        "mid": "menses_regular_normal"
+      },
+      {
+        "text": "ঋতুস্রাবের সাথে তীব্র ব্যথা।",
+        "mid": "menses_with_severe_pain"
+      }
+    ],
+    "answer": "menses_late_and_scanty",
+    "explanation": "Dulcamara-এ ঋতুস্রাব খুব দেরিতে হয় এবং পরিমাণে কম।"
+  },
+  {
+    "id": "dulc-med-14",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঋতুস্রাব বন্ধ হয়ে গেলে শরীরে চর্মরোগ দেখা দিতে পারে।",
+        "mid": "skin_eruptions_when_menses_suppressed"
+      },
+      {
+        "text": "ঋতুস্রাব শুরু হলে চর্মরোগ উপশম হয়।",
+        "mid": "skin_eruptions_ameliorated_when_menses_start"
+      },
+      {
+        "text": "ঋতুস্রাবের সাথে চর্মরোগের কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_menses_skin"
+      },
+      {
+        "text": "ঋতুস্রাবের আগে ত্বক শুষ্ক হয়ে যায়।",
+        "mid": "dry_skin_before_menses"
+      }
+    ],
+    "answer": "skin_eruptions_when_menses_suppressed",
+    "explanation": "Dulcamara-এ ঋতুস্রাব বন্ধ হয়ে গেলে শরীরে চর্মরোগ দেখা দিতে পারে।"
+  },
+  {
+    "id": "dulc-med-15",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায়, রাতে এবং বিশ্রামে।",
+        "mid": "aggravation_cold_damp_night_rest"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরম ও শুষ্ক আবহাওয়ায় এবং চলাফেরায়।",
+        "mid": "aggravation_hot_dry_motion"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় ঠান্ডায় ও বিশ্রামে।",
+        "mid": "amelioration_cold_rest"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র সকালে।",
+        "mid": "aggravation_only_morning"
+      }
+    ],
+    "answer": "aggravation_cold_damp_night_rest",
+    "explanation": "Dulcamara-এর লক্ষণ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায়, রাতে এবং বিশ্রামে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "dulc-med-16",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় নড়াচড়ায় এবং উষ্ণতায়।",
+        "mid": "amelioration_motion_warmth"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় বিশ্রামে এবং ঠান্ডায়।",
+        "mid": "amelioration_rest_cold"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় উষ্ণতায় এবং নড়াচড়ায়।",
+        "mid": "aggravation_warmth_motion"
+      },
+      {
+        "text": "নড়াচড়ায় বা উষ্ণতায় কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_motion_warmth"
+      }
+    ],
+    "answer": "amelioration_motion_warmth",
+    "explanation": "Dulcamara-এর লক্ষণ নড়াচড়ায় এবং উষ্ণতায় উপশম হয় (কিছু সূত্রে উল্লেখ আছে)।"
+  },
+  {
+    "id": "dulc-med-17",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথায় আঘাতজনিত কারণে চুল পড়া এবং মাথার ত্বকে মোটা মামড়ি পড়া।",
+        "mid": "hair_loss_thick_crusts_scalp"
+      },
+      {
+        "text": "মাথার ত্বক পরিষ্কার এবং চুল ঘন।",
+        "mid": "clean_scalp_thick_hair"
+      },
+      {
+        "text": "শুধুমাত্র মাথায় চুলকানি।",
+        "mid": "itching_scalp_only"
+      },
+      {
+        "text": "মাথার ত্বকে ছোট ছোট পুঁজভরা ফোস্কা।",
+        "mid": "pustular_blisters_scalp"
+      }
+    ],
+    "answer": "hair_loss_thick_crusts_scalp",
+    "explanation": "Dulcamara-এ মাথার ত্বকে মোটা মামড়ি (Thick crusts) পড়ে, যার ফলে চুল পড়ে যায়।"
+  },
+  {
+    "id": "dulc-med-18",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঠান্ডা বাতাস বা ঠান্ডা জল শরীরে লাগলে জিহ্বা ও চোয়াল অবশ হয়ে যাওয়া।",
+        "mid": "tongue_jaws_numb_from_cold_air_water"
+      },
+      {
+        "text": "গরম কিছু খেলে জিহ্বা জ্বালাপোড়া।",
+        "mid": "burning_tongue_from_hot_food"
+      },
+      {
+        "text": "জিহ্বা শুষ্ক কিন্তু কোনো অবশতা নেই।",
+        "mid": "dry_tongue_no_numbness"
+      },
+      {
+        "text": "চোয়ালে ব্যথা কিন্তু অবশতা নেই।",
+        "mid": "jaw_pain_no_numbness"
+      }
+    ],
+    "answer": "tongue_jaws_numb_from_cold_air_water",
+    "explanation": "Dulcamara-এ ঠান্ডা বাতাস বা ঠান্ডা জল শরীরে লাগলে জিহ্বা ও চোয়াল অবশ (Lame) হয়ে যেতে পারে।"
+  },
+  {
+    "id": "dulc-med-19",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাব করার সময় মূত্রনালীতে জ্বালাপোড়া এবং প্রস্রাব ঘোলাটে ও সাদা।",
+        "mid": "burning_in_meatus_turbid_white_urine"
+      },
+      {
+        "text": "প্রস্রাব করার সময় কোনো জ্বালা নেই।",
+        "mid": "no_burning_during_urination"
+      },
+      {
+        "text": "প্রস্রাব পরিষ্কার এবং হলুদ।",
+        "mid": "clear_yellow_urine"
+      },
+      {
+        "text": "প্রস্রাব বন্ধ হয়ে যাওয়া (Retention)।",
+        "mid": "urine_retention"
+      }
+    ],
+    "answer": "burning_in_meatus_turbid_white_urine",
+    "explanation": "Dulcamara-এ প্রস্রাব করার সময় মূত্রনালীতে জ্বালাপোড়া (Burning in the meatus while urinating) হয় এবং প্রস্রাব ঘোলাটে ও সাদা থাকে।"
+  },
+  {
+    "id": "dulc-med-20",
+    "stem": "নিচের কোনটি Dulcamara-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঘাম চাপা দেওয়ার ফলে শোথ (Dropsical swelling) হওয়া।",
+        "mid": "dropsical_swelling_after_suppressed_sweat"
+      },
+      {
+        "text": "ঘাম হওয়ার পর শরীরে জ্বালাপোড়া।",
+        "mid": "burning_after_sweat"
+      },
+      {
+        "text": "ঘামের কোনো সমস্যা নেই।",
+        "mid": "no_sweat_issue"
+      },
+      {
+        "text": "শুধুমাত্র রাতে ঘাম হয়।",
+        "mid": "night_sweats_only"
+      }
+    ],
+    "answer": "dropsical_swelling_after_suppressed_sweat",
+    "explanation": "Dulcamara-এ ঘাম চাপা দেওয়ার ফলে শোথ (Dropsical swelling after suppressed sweat) হতে পারে।"
+  }
+]
+

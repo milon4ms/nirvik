@@ -1,0 +1,242 @@
+[
+  {
+    "id": "aurum-med-01",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গভীর বিষণ্ণতা, জীবনে বিতৃষ্ণা, আত্মহত্যার ইচ্ছা, উঁচু থেকে লাফ দিতে চায়", "mid": "sym-aurum-suicidal-deep-depression"},
+      {"text": "জীবনকে খুব ভালোবাসে, আত্মহত্যার কথা ভাবেও না", "mid": "sym-loves-life"},
+      {"text": "সামান্য কারণে হাসি", "mid": "sym-laughing-easy"},
+      {"text": "সবসময় আনন্দিত ও প্রফুল্ল", "mid": "sym-cheerful-always"}
+    ],
+    "answer": "sym-aurum-suicidal-deep-depression",
+    "explanation": "Aurum Metallicum-এর সবচেয়ে শক্তিশালী লক্ষণ হলো গভীর বিষণ্ণতা ও আত্মহত্যার প্রবণতা।"
+  },
+  {
+    "id": "aurum-med-02",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অস্থি ও গ্রন্থির পচন, বিশেষ করে নাক, তালু ও দীর্ঘ হাড়ে রাতে প্রচণ্ড ব্যথা", "mid": "sym-aurum-caries-bones-night-pain"},
+      {"text": "হাড়ে কোনো ব্যথা নেই", "mid": "sym-no-bone-pain"},
+      {"text": "হাড় নরম হয়ে যায়", "mid": "sym-bone-softening"},
+      {"text": "হাড়ে দিনে ব্যথা বাড়ে", "mid": "sym-bone-pain-day"}
+    ],
+    "answer": "sym-aurum-caries-bones-night-pain",
+    "explanation": "Aurum-এ অস্থির ক্যারিস ও রাতে হাড়ের ভেতর তীব্র ব্যথা হয়।"
+  },
+  {
+    "id": "aurum-med-03",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উচ্চ রক্তচাপ, হৃদপিণ্ড ২-৩ সেকেন্ড বন্ধ থেকে আবার দ্রুত চলে, এনজাইনা", "mid": "sym-aurum-heart-stop-then-fast-hypertension"},
+      {"text": "নিম্ন রক্তচাপ, হৃদপিণ্ড দুর্বল", "mid": "sym-low-bp-weak-heart"},
+      {"text": "হৃদপিণ্ডে কোনো লক্ষণ নেই", "mid": "sym-no-heart-symptom"},
+      {"text": "হৃদপিণ্ড শুধু দিনে বাড়ে", "mid": "sym-heart-day-agg"}
+    ],
+    "answer": "sym-aurum-heart-stop-then-fast-hypertension",
+    "explanation": "Aurum-এ হৃদপিণ্ড বন্ধ হয়ে যাওয়ার অনুভূতি, হাইপারট্রফি ও উচ্চ রক্তচাপ থাকে।"
+  },
+  {
+    "id": "aurum-med-04",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পারদ ব্যবহারের কুফলে হাড়ের ক্ষয় ও স্নায়বিক দুর্বলতা", "mid": "sym-aurum-mercury-abuse-bad-effects"},
+      {"text": "পারদে উপশম হয়", "mid": "sym-mercury-amel"},
+      {"text": "পারদ সহ্য হয়", "mid": "sym-mercury-tolerate"},
+      {"text": "পারদের সাথে কোনো সম্পর্ক নেই", "mid": "sym-no-mercury-relation"}
+    ],
+    "answer": "sym-aurum-mercury-abuse-bad-effects",
+    "explanation": "Aurum পারদের অপব্যবহার জনিত হাড়ের রোগে অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "aurum-med-05",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নাকের হাড়ে পচন, দুর্গন্ধযুক্ত পুঁজযুক্ত স্রাব, ওজেনা", "mid": "sym-aurum-ozena-caries-nasal"},
+      {"text": "নাকে পাতলা জল ঝরে", "mid": "sym-thin-nasal-discharge"},
+      {"text": "নাকে কোনো গন্ধ নেই", "mid": "sym-no-nasal-odor"},
+      {"text": "নাক শুকনো থাকে", "mid": "sym-nasal-dry-only"}
+    ],
+    "answer": "sym-aurum-ozena-caries-nasal",
+    "explanation": "Aurum-এ নাকের হাড়ে পচন ও দুর্গন্ধযুক্ত ওজেনা থাকে।"
+  },
+  {
+    "id": "aurum-med-06",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্য বিরুদ্ধাচরণ সহ্য করতে পারে না, প্রচণ্ড রেগে যায়", "mid": "sym-aurum-anger-contradiction"},
+      {"text": "বিরুদ্ধাচরণে হাসে", "mid": "sym-laugh-contradiction"},
+      {"text": "সবসময় শান্ত থাকে", "mid": "sym-always-calm"},
+      {"text": "প্রতিবাদে কাঁদে", "mid": "sym-weep-contradiction"}
+    ],
+    "answer": "sym-aurum-anger-contradiction",
+    "explanation": "Aurum রোগী সামান্য প্রতিবাদ সহ্য করতে পারে না, রেগে যায়।"
+  },
+  {
+    "id": "aurum-med-07",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ধর্মীয় বিষণ্ণতা, মনে করে অনেক বড় পাপ করেছে", "mid": "sym-aurum-religious-melancholy-sins"},
+      {"text": "ধর্মে বিশ্বাস নেই", "mid": "sym-no-faith"},
+      {"text": "নিজেকে দেবতা মনে করে", "mid": "sym-delusion-god"},
+      {"text": "ধর্ম নিয়ে কোনো চিন্তা নেই", "mid": "sym-no-religious-thought"}
+    ],
+    "answer": "sym-aurum-religious-melancholy-sins",
+    "explanation": "Aurum-এ ধর্মীয় উম্মাদনা ও পাপবোধের বিষণ্ণতা দেখা যায়।"
+  },
+  {
+    "id": "aurum-med-08",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখে আলোকচ্ছটা, অর্ধেক বস্তু দেখা, দিনের আলো অসহ্য", "mid": "sym-aurum-half-vision-photophobia"},
+      {"text": "রাতে ভালো দেখে", "mid": "sym-night-vision-good"},
+      {"text": "চোখে কোনো সমস্যা নেই", "mid": "sym-no-eye-issue"},
+      {"text": "চোখে শুধু চুলকানি", "mid": "sym-eye-itch-only"}
+    ],
+    "answer": "sym-aurum-half-vision-photophobia",
+    "explanation": "Aurum-এ আলোক সংবেদনশীলতা ও হেমি-ভিশন থাকে।"
+  },
+  {
+    "id": "aurum-med-09",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অণ্ডকোষ ফুলে শক্ত হয়ে যাওয়া, জরায়ু শক্ত ও নিচে নেমে আসা", "mid": "sym-aurum-testis-indurated-uterus-prolapse-hard"},
+      {"text": "অণ্ডকোষ ছোট হয়ে যায়", "mid": "sym-testis-small"},
+      {"text": "জরায়ুতে কোনো সমস্যা নেই", "mid": "sym-no-uterine-issue"},
+      {"text": "জননেন্দ্রিয়ে শুধু চুলকানি", "mid": "sym-genital-itch-only"}
+    ],
+    "answer": "sym-aurum-testis-indurated-uterus-prolapse-hard",
+    "explanation": "Aurum-এ অণ্ডকোষ ও জরায়ুর ইন্ডুরেশন হয়।"
+  },
+  {
+    "id": "aurum-med-10",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত রাতে, শীতকালে, মানসিক পরিশ্রমে", "mid": "sym-aurum-agg-night-winter-mental-work"},
+      {"text": "বৃদ্ধি: দিনে ও গরমে", "mid": "sym-agg-day-heat"},
+      {"text": "বৃদ্ধি: আহারের পর", "mid": "sym-agg-after-eating"},
+      {"text": "বৃদ্ধি: বিশ্রামে", "mid": "sym-agg-rest"}
+    ],
+    "answer": "sym-aurum-agg-night-winter-mental-work",
+    "explanation": "Aurum-এ রাতে সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত কষ্ট বাড়ে।"
+  },
+  {
+    "id": "aurum-med-11",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: মুক্ত বাতাসে, গান শুনলে, উষ্ণতায়", "mid": "sym-aurum-amel-open-air-music-warmth"},
+      {"text": "উপশম: ঠান্ডা জলে", "mid": "sym-amel-cold-water"},
+      {"text": "উপশম: অন্ধকারে", "mid": "sym-amel-dark"},
+      {"text": "উপশম: শুয়ে থাকলে", "mid": "sym-amel-lying"}
+    ],
+    "answer": "sym-aurum-amel-open-air-music-warmth",
+    "explanation": "Aurum মুক্ত বাতাসে, মিউজিকে ও উষ্ণতায় উপশম বোধ করে।"
+  },
+  {
+    "id": "aurum-med-12",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভ্রমণশীল ব্যথা, মাথা যন্ত্রণা রাতে বৃদ্ধি", "mid": "sym-aurum-wandering-pain-headache-night"},
+      {"text": "একই জায়গায় স্থির ব্যথা", "mid": "sym-fixed-pain"},
+      {"text": "ব্যথা নেই", "mid": "sym-no-pain"},
+      {"text": "ব্যথা দিনে বাড়ে", "mid": "sym-pain-day-agg"}
+    ],
+    "answer": "sym-aurum-wandering-pain-headache-night",
+    "explanation": "Aurum-এ ভ্রমণশীল ব্যথা ও রাতে মাথা যন্ত্রণা বাড়ে।"
+  },
+  {
+    "id": "aurum-med-13",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘুমে জোরে কেঁদে ওঠে, চোর ডাকাতের স্বপ্ন দেখে", "mid": "sym-aurum-cry-sleep-dreams-thieves"},
+      {"text": "ঘুমে হাসে", "mid": "sym-laugh-sleep"},
+      {"text": "স্বপ্ন দেখে না", "mid": "sym-no-dreams"},
+      {"text": "ঘুম গভীর ও শান্ত", "mid": "sym-deep-peaceful-sleep"}
+    ],
+    "answer": "sym-aurum-cry-sleep-dreams-thieves",
+    "explanation": "Aurum-এ ঘুমে কেঁদে ওঠা ও চোর ডাকাতের স্বপ্ন থাকে।"
+  },
+  {
+    "id": "aurum-med-14",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্ষুধা বেশি, খেয়ে তৃপ্তি নেই", "mid": "sym-aurum-hunger-increased-no-satisfaction"},
+      {"text": "ক্ষুধা একদম নেই", "mid": "sym-no-hunger"},
+      {"text": "অল্প খেলেই পেট ভরে যায়", "mid": "sym-full-small-quantity"},
+      {"text": "ক্ষুধা শুধু রাতে", "mid": "sym-hunger-night-only"}
+    ],
+    "answer": "sym-aurum-hunger-increased-no-satisfaction",
+    "explanation": "Aurum-এ ক্ষুধা বেশি কিন্তু খেয়ে তৃপ্তি হয় না।"
+  },
+  {
+    "id": "aurum-med-15",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কানে দুর্গন্ধযুক্ত পুঁজ স্রাব", "mid": "sym-aurum-ear-fetid-pus"},
+      {"text": "কানে পরিষ্কার জল ঝরে", "mid": "sym-ear-clear-water"},
+      {"text": "কানে কোনো স্রাব নেই", "mid": "sym-no-ear-discharge"},
+      {"text": "কানে শুধু চুলকানি", "mid": "sym-ear-itch-only"}
+    ],
+    "answer": "sym-aurum-ear-fetid-pus",
+    "explanation": "Aurum-এ কানে দুর্গন্ধযুক্ত পুঁজ স্রাব হয়।"
+  },
+  {
+    "id": "aurum-med-16",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপদংশ হেতু মাথার চুল ওঠা", "mid": "sym-aurum-syphilitic-hair-fall"},
+      {"text": "টাক মাথায় চুল গজায়", "mid": "sym-hair-growth-bald"},
+      {"text": "চুল খুব ঘন", "mid": "sym-thick-hair"},
+      {"text": "চুলে খুশকি", "mid": "sym-dandruff"}
+    ],
+    "answer": "sym-aurum-syphilitic-hair-fall",
+    "explanation": "Aurum-এ সিফিলিস জনিত কারণে চুল পড়ে।"
+  },
+  {
+    "id": "aurum-med-17",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রধানত শীতকাতর কিন্তু মুক্ত বাতাস পছন্দ করে, ডান পার্শ্ব, সিফিলিটিক মায়াজম", "mid": "sym-aurum-chilly-likes-open-air-right-syphilitic"},
+      {"text": "গরমকাতর বাম পার্শ্ব", "mid": "sym-hot-left"},
+      {"text": "উভয়কাতর", "mid": "sym-both-hot-cold"},
+      {"text": "সোরা মায়াজম", "mid": "sym-psora-only"}
+    ],
+    "answer": "sym-aurum-chilly-likes-open-air-right-syphilitic",
+    "explanation": "Aurum শীতকাতর হলেও খোলা বাতাস পছন্দ করে, ডান পার্শ্ব ও সিফিলিটিক মায়াজম।"
+  },
+  {
+    "id": "aurum-med-18",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাতের তালুতে চুলকানি, মুখে উদ্ভেদ", "mid": "sym-aurum-palm-itch-face-eruption"},
+      {"text": "হাতের তালুতে ঘাম", "mid": "sym-palm-sweat"},
+      {"text": "মুখে কোনো উদ্ভেদ নেই", "mid": "sym-no-face-eruption"},
+      {"text": "পায়ের তলায় চুলকানি", "mid": "sym-sole-itch"}
+    ],
+    "answer": "sym-aurum-palm-itch-face-eruption",
+    "explanation": "Aurum-এ হাতের তালুতে চুলকানি ও মুখে উদ্ভেদ থাকে।"
+  },
+  {
+    "id": "aurum-med-19",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হৃদস্পন্দনের সাথে মৃত্যুভয় ও আতঙ্ক", "mid": "sym-aurum-fear-death-with-palpitation"},
+      {"text": "হৃদস্পন্দনে আনন্দ", "mid": "sym-joy-palpitation"},
+      {"text": "হৃদস্পন্দন টের পায় না", "mid": "sym-no-palpitation-feel"},
+      {"text": "হৃদস্পন্দন শুধু দিনে", "mid": "sym-palpitation-day-only"}
+    ],
+    "answer": "sym-aurum-fear-death-with-palpitation",
+    "explanation": "Aurum-এ হৃদস্পন্দনের সাথে মৃত্যুভয় যুক্ত থাকে।"
+  },
+  {
+    "id": "aurum-med-20",
+    "stem": "নিচের কোনটি Aurum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিপূরক Syphilinum, সদৃশ Mercurius, Nitric Acid", "mid": "sym-aurum-complementary-syphilinum"},
+      {"text": "পরিপূরক Bryonia", "mid": "sym-complement-bryonia"},
+      {"text": "পরিপূরক Sulphur", "mid": "sym-complement-sulphur"},
+      {"text": "কোনো সম্পর্ক নেই", "mid": "sym-no-relation"}
+    ],
+    "answer": "sym-aurum-complementary-syphilinum",
+    "explanation": "Aurum-এর পরিপূরক Syphilinum এবং সদৃশ Mercurius।"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "caps-med-01",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ শুষ্ক গরম জ্বর আসা", "mid": "sym-acon-fear-fever"},
+      {"text": "শরীরের প্রতিটি ছিদ্রে ও শ্লেষ্মাঝিল্লিতে মরিচ পোড়ার মতো তীব্র জ্বালা", "mid": "sym-caps-burning-mucous"},
+      {"text": "মিষ্টি খেতে প্রবল ইচ্ছা ও ঠান্ডা পানি খেলেই বমি হওয়া", "mid": "sym-phos-sweet-vomit"},
+      {"text": "চামড়ায় শুষ্ক চুলকানি, চুলকালে রক্ত বের হওয়া", "mid": "sym-ars-dry-itching"}
+    ],
+    "answer": "sym-caps-burning-mucous",
+    "explanation": "Capsicum Annuum এ শরীরের প্রতিটি ছিদ্রে বা শ্লেষ্মাঝিল্লিতে মরিচ পোড়ার মতো তীব্র জ্বালা অনুভূত হয়।"
+  },
+  {
+    "id": "caps-med-02",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাড়ি থেকে দূরে গেলেই আনন্দ পাওয়া ও বাড়ি ফিরতে না চাওয়া", "mid": "sym-away-happy"},
+      {"text": "একা থাকতে ভালো লাগা ও কারো সাথে কথা বলতে না চাওয়া", "mid": "sym-alone-prefer"},
+      {"text": "নিজেকে খুব বড় মনে করা ও অহংকার করা", "mid": "sym-platina-pride"},
+      {"text": "গৃহকাতরতা, বাড়ি থেকে দূরে থাকায় মন খারাপ ও তার ফলে অসুখ", "mid": "sym-caps-homesickness"}
+    ],
+    "answer": "sym-caps-homesickness",
+    "explanation": "Capsicum Annuum এর অনন্য লক্ষণ হলো গৃহকাতরতা, বাড়ির জন্য মন খারাপ করা এবং সেই মন খারাপের ফলে অসুখ দেখা দেওয়া।"
+  },
+  {
+    "id": "caps-med-03",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মোটা, থলথলে, অলস প্রকৃতি, শরীরে তাপ উৎপাদন ক্ষমতা কম", "mid": "sym-caps-fat-flabby-lazy"},
+      {"text": "খুব চঞ্চল ও সারাদিন ছুটে বেড়াতে চাওয়া", "mid": "sym-restless-run"},
+      {"text": "লম্বা, রোগা ও প্রচুর শক্তি থাকা", "mid": "sym-tall-thin-strong"},
+      {"text": "শরীরে প্রচুর তাপ উৎপাদন হওয়া ও গরম সহ্য না হওয়া", "mid": "sym-heat-production-hot"}
+    ],
+    "answer": "sym-caps-fat-flabby-lazy",
+    "explanation": "Capsicum Annuum রোগী সাধারণত মোটা, থলথলে এবং অলস প্রকৃতির হয়, এদের শরীরে তাপ উৎপাদনের ক্ষমতা কম থাকে।"
+  },
+  {
+    "id": "caps-med-04",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কানের পেছনে গ্রন্থি ফুলে পুঁজ হওয়া", "mid": "sym-hepar-gland-abscess"},
+      {"text": "কানে পানি জমে ভারী লাগা ও কম শোনা", "mid": "sym-ear-water-heavy"},
+      {"text": "কানের পেছনের হাড় ফুলে যাওয়া, প্রচণ্ড ব্যথা ও স্পর্শকাতরতা", "mid": "sym-caps-mastoid-swelling"},
+      {"text": "কানে ভোঁ ভোঁ শব্দ ও মাথা ঘোরা", "mid": "sym-ear-buzz-vertigo"}
+    ],
+    "answer": "sym-caps-mastoid-swelling",
+    "explanation": "Capsicum Annuum এ কানের পেছনের হাড় ফুলে যায় এবং সেখানে প্রচণ্ড ব্যথা ও স্পর্শকাতরতা থাকে।"
+  },
+  {
+    "id": "caps-med-05",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলত্যাগের পর ঘুম পাওয়া ও ক্লান্ত লাগা", "mid": "sym-stool-sleepy"},
+      {"text": "মলত্যাগ বা প্রস্রাবের পরপরই প্রচণ্ড পিপাসা পাওয়া", "mid": "sym-caps-thirst-after-stool-urine"},
+      {"text": "প্রস্রাবের পর পিপাসা একদম কমে যাওয়া", "mid": "sym-urine-thirst-less"},
+      {"text": "সারাদিন পিপাসা না লাগা ও পানি খেতে ইচ্ছা না করা", "mid": "sym-no-thirst"}
+    ],
+    "answer": "sym-caps-thirst-after-stool-urine",
+    "explanation": "Capsicum Annuum এ মলত্যাগ বা প্রস্রাব করার পরপরই প্রচণ্ড পিপাসা পাওয়া যায়।"
+  },
+  {
+    "id": "caps-med-06",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবসময় হাসিখুশি থাকা ও সবকিছু মনে রাখা", "mid": "sym-cheerful-good-memory"},
+      {"text": "তোতলানো ও কথা বলতে গিয়ে আটকে যাওয়া", "mid": "sym-stramonium-stammer"},
+      {"text": "অতিরিক্ত সাহসী হওয়া ও বিপদকে ভয় না পাওয়া", "mid": "sym-opium-fearless"},
+      {"text": "খিটখিটে ও সহজেই রেগে যাওয়া", "mid": "sym-caps-irritable-angry"}
+    ],
+    "answer": "sym-caps-irritable-angry",
+    "explanation": "Capsicum Annuum রোগী অত্যন্ত খিটখিটে এবং সহজেই রেগে যায়।"
+  },
+  {
+    "id": "caps-med-07",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাড়ির কথা ভেবে বিষণ্ণতা ও রাতে ঘুমাতে না পারা", "mid": "sym-caps-home-sad-sleepless"},
+      {"text": "বাড়ির কথা ভেবে আনন্দ পাওয়া ও ভালো ঘুম হওয়া", "mid": "sym-home-happy-sleep"},
+      {"text": "রাতে গভীর ঘুম হওয়া ও সকালে সতেজ লাগা", "mid": "sym-deep-sleep-fresh"},
+      {"text": "অন্ধকারে ভূতের ভয় ও একা ঘুমাতে না পারা", "mid": "sym-stramonium-dark-fear"}
+    ],
+    "answer": "sym-caps-home-sad-sleepless",
+    "explanation": "Capsicum Annuum রোগী বাড়ির কথা ভেবে বিষণ্ণতায় ভোগে এবং রাতে ঘুমাতে পারে না।"
+  },
+  {
+    "id": "caps-med-08",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবসময় নড়াচড়া করতে চাওয়া ও এক জায়গায় বসতে না পারা", "mid": "sym-always-move"},
+      {"text": "সারাদিন বাইরে ঘুরতে চাওয়া ও ঘরে থাকতে না চাওয়া", "mid": "sym-outdoor-wander"},
+      {"text": "সবসময় এক জায়গায় বসে থাকতে পছন্দ, নড়াচড়া করতে চায় না", "mid": "sym-caps-sit-still-no-motion"},
+      {"text": "কাজে প্রচুর উৎসাহ ও সারাদিন কাজ করতে চাওয়া", "mid": "sym-work-enthusiasm"}
+    ],
+    "answer": "sym-caps-sit-still-no-motion",
+    "explanation": "Capsicum Annuum রোগী সবসময় এক জায়গায় বসে থাকতে পছন্দ করে, নড়াচড়া করতে চায় না।"
+  },
+  {
+    "id": "caps-med-09",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অপমান সহ্য করে হাসিমুখে থাকা ও ভুলে যাওয়া", "mid": "sym-insult-forgive"},
+      {"text": "সামান্য বিরক্তি বা অপমানে আত্মহত্যার চিন্তা আসা", "mid": "sym-caps-suicidal-insult"},
+      {"text": "মৃত্যুর কথা ভাবলেই প্রচণ্ড ভয় পাওয়া", "mid": "sym-death-fear"},
+      {"text": "সবসময় আনন্দিত থাকা ও মৃত্যু নিয়ে চিন্তা না করা", "mid": "sym-cheerful-no-death-thought"}
+    ],
+    "answer": "sym-caps-suicidal-insult",
+    "explanation": "Capsicum Annuum এ সামান্য বিরক্তি বা অপমানে আত্মহত্যার চিন্তা আসতে পারে।"
+  },
+  {
+    "id": "caps-med-10",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কানে ব্যথা ছাড়াই কম শোনা ও কানে পানি জমা", "mid": "sym-ear-no-pain-water"},
+      {"text": "কানে চুলকানি ও সাদা খুসকির মতো ময়লা জমা", "mid": "sym-ear-itching-dandruff"},
+      {"text": "কানে কোনো ব্যথা না থাকা, শুধু ভোঁ ভোঁ শব্দ হওয়া", "mid": "sym-ear-only-buzz"},
+      {"text": "কানে প্রচণ্ড ব্যথা ও কানের পর্দা লাল হয়ে যাওয়া", "mid": "sym-caps-ear-pain-red-drum"}
+    ],
+    "answer": "sym-caps-ear-pain-red-drum",
+    "explanation": "Capsicum Annuum এ কানে প্রচণ্ড ব্যথা হয় এবং কানের পর্দা লাল হয়ে যায়।"
+  },
+  {
+    "id": "caps-med-11",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলার ভেতর লাল ও গরম মরিচ লাগানোর মতো জ্বালা", "mid": "sym-caps-throat-red-pepper-burn"},
+      {"text": "গলায় শুষ্ক কাশি ও গলা শুকিয়ে যাওয়া", "mid": "sym-throat-dry-cough"},
+      {"text": "গলায় কাঁটা বিঁধে থাকার মতো অনুভূতি ও গিলতে কষ্ট", "mid": "sym-throat-splinter"},
+      {"text": "গলা ঠান্ডা লাগা ও ঠান্ডা পানি খেলে উপশম হওয়া", "mid": "sym-throat-cold-relief"}
+    ],
+    "answer": "sym-caps-throat-red-pepper-burn",
+    "explanation": "Capsicum Annuum এ গলার ভেতর লাল হয় এবং গরম মরিচ লাগানোর মতো জ্বালা হয়।"
+  },
+  {
+    "id": "caps-med-12",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ধূমপান করলে গলা ভালো লাগা ও কাশি কমে যাওয়া", "mid": "sym-smoke-soothe"},
+      {"text": "মদ খেলে গলার ব্যথা সম্পূর্ণ সেরে যাওয়া", "mid": "sym-drink-cure-throat"},
+      {"text": "ধূমপায়ী বা মদ্যপায়ীর গলার যন্ত্রণা", "mid": "sym-caps-smoker-drinker-throat"},
+      {"text": "ধূমপায়ীদের কখনো গলা ব্যথা না হওয়া", "mid": "sym-smoker-no-throat-pain"}
+    ],
+    "answer": "sym-caps-smoker-drinker-throat",
+    "explanation": "Capsicum Annuum যারা ধূমপায়ী বা মদ্যপায়ী, তাদের গলার যন্ত্রণায় খুব ভালো কাজ করে।"
+  },
+  {
+    "id": "caps-med-13",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আমাশয় ছাড়া শক্ত, শুকনো পায়খানা হওয়া", "mid": "sym-hard-dry-stool"},
+      {"text": "আমাশয়, মলের সাথে লাল শ্লেষ্মা যাওয়া", "mid": "sym-caps-dysentery-red-mucus"},
+      {"text": "মলের সাথে কালো রক্ত যাওয়া ও পেটে মোচড় না থাকা", "mid": "sym-black-blood-stool"},
+      {"text": "পায়খানা পানির মতো পাতলা ও দুর্গন্ধহীন হওয়া", "mid": "sym-watery-odourless-stool"}
+    ],
+    "answer": "sym-caps-dysentery-red-mucus",
+    "explanation": "Capsicum Annuum এ আমাশয় হয় যেখানে মলের সাথে লাল শ্লেষ্মা যায়।"
+  },
+  {
+    "id": "caps-med-14",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলত্যাগের সময় ও পরে মলদ্বারে ঠান্ডা অনুভূতি হওয়া", "mid": "sym-anus-cold-stool"},
+      {"text": "মলত্যাগের পর সম্পূর্ণ আরাম লাগা ও কোনো জ্বালা না থাকা", "mid": "sym-stool-complete-relief"},
+      {"text": "মলদ্বারে চুলকানি কিন্তু কোনো জ্বালা না থাকা", "mid": "sym-anus-itch-no-burn"},
+      {"text": "মলত্যাগের সময় ও পরে মলদ্বারে তীব্র জ্বালা থাকা", "mid": "sym-caps-anus-burn-stool"}
+    ],
+    "answer": "sym-caps-anus-burn-stool",
+    "explanation": "Capsicum Annuum এ মলত্যাগের সময় ও পরে মলদ্বারে তীব্র জ্বালা থাকে।"
+  },
+  {
+    "id": "caps-med-15",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাশির সময় মনে হওয়া বুক ফেটে যাবে", "mid": "sym-caps-cough-chest-burst"},
+      {"text": "কাশির সময় বুকে কোনো ব্যথা না লাগা ও আরাম লাগা", "mid": "sym-cough-no-chest-pain"},
+      {"text": "কাশি দিলে মাথা হালকা লাগা ও ভালো লাগা", "mid": "sym-cough-head-light"},
+      {"text": "দিনে কাশি বাড়া, রাতে সম্পূর্ণ বন্ধ থাকা", "mid": "sym-cough-day-only"}
+    ],
+    "answer": "sym-caps-cough-chest-burst",
+    "explanation": "Capsicum Annuum এ কাশির সময় মনে হয় যেন বুক ফেটে যাবে।"
+  },
+  {
+    "id": "caps-med-16",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাশির ঝাকুনিতে শুধু গলায় ব্যথা হওয়া, অন্য কোথাও না হওয়া", "mid": "sym-cough-only-throat-pain"},
+      {"text": "কাশি দিলে সারা শরীরে আরাম লাগা ও ব্যথা কমে যাওয়া", "mid": "sym-cough-body-relief"},
+      {"text": "কাশির প্রতিটি ঝাকুনিতে দূরের অঙ্গে, যেমন কানে বা কোমরে ব্যথা", "mid": "sym-caps-cough-distant-pain"},
+      {"text": "কাশির সময় পেটে মোচড় দেওয়া ও বমি হওয়া", "mid": "sym-cough-belly-vomit"}
+    ],
+    "answer": "sym-caps-cough-distant-pain",
+    "explanation": "Capsicum Annuum এ কাশির প্রতিটি ঝাকুনিতে শরীরের কোনো দূরে অঙ্গে, যেমন কানে বা কোমরে ব্যথা অনুভূত হয়।"
+  },
+  {
+    "id": "caps-med-17",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রস্রাবের সময় কোনো জ্বালা না থাকা ও আরাম লাগা", "mid": "sym-urine-no-burn"},
+      {"text": "প্রস্রাবের নালীতে জ্বালা, প্রস্রাবের সময় জ্বলন্ত কয়লা রাখার মতো অনুভূতি", "mid": "sym-caps-urine-burning-coal"},
+      {"text": "প্রস্রাবের সময় ঠান্ডা অনুভূতি হওয়া ও উপশম লাগা", "mid": "sym-urine-cold-relief"},
+      {"text": "প্রস্রাব করতে গিয়ে বারবার প্রস্রাবের বেগ আসা কিন্তু জ্বালা না থাকা", "mid": "sym-urine-frequent-no-burn"}
+    ],
+    "answer": "sym-caps-urine-burning-coal",
+    "explanation": "Capsicum Annuum এ প্রস্রাবের নালীতে জ্বালা হয় এবং প্রস্রাব ত্যাগের সময় মনে হয় যেন জ্বলন্ত কয়লা রাখা হয়েছে।"
+  },
+  {
+    "id": "caps-med-18",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পানি পান করলে শরীর গরম হওয়া ও ঘাম হওয়া", "mid": "sym-drink-warm-sweat"},
+      {"text": "ঠান্ডা পানি খেলে সব লক্ষণ সেরে যাওয়া ও আরাম লাগা", "mid": "sym-cold-water-cure"},
+      {"text": "পানি খেতে একদম ইচ্ছা না করা ও পানি দেখলেই ভয় পাওয়া", "mid": "sym-water-fear"},
+      {"text": "পানি পান মাত্র শীত ও কম্পন হওয়া, ভিতরে জ্বালা থাকা সত্ত্বেও খুব শীতার্ত", "mid": "sym-caps-drink-chill-shiver"}
+    ],
+    "answer": "sym-caps-drink-chill-shiver",
+    "explanation": "Capsicum Annuum এ পানি পান মাত্র শীত ও কম্পন হয়, ভিতরে জ্বালা থাকা সত্ত্বেও রোগী খুব শীতার্ত থাকে।"
+  },
+  {
+    "id": "caps-med-19",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খোলা বাতাসে, ঠান্ডায়, স্পর্শে ও খাওয়ার পর বৃদ্ধি", "mid": "sym-caps-agg-openair-cold-touch-eating"},
+      {"text": "গরমে ও রোদে বৃদ্ধি, ঠান্ডায় উপশম হওয়া", "mid": "sym-pulsatilla-agg-heat"},
+      {"text": "বিশ্রামে বৃদ্ধি, নড়াচড়া করলে উপশম হওয়া", "mid": "sym-rhus-agg-rest"},
+      {"text": "শুধু দুপুরে বৃদ্ধি, রাতে উপশম হওয়া", "mid": "sym-nux-agg-noon"}
+    ],
+    "answer": "sym-caps-agg-openair-cold-touch-eating",
+    "explanation": "Capsicum Annuum এ খোলা বাতাসে, ঠান্ডায়, স্পর্শ করলে এবং খাওয়ার পর বৃদ্ধি হয়।"
+  },
+  {
+    "id": "caps-med-20",
+    "stem": "নিচের কোনটি Capsicum Annuum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা বাতাসে উপশম ও গরম ঘরে বৃদ্ধি হওয়া", "mid": "sym-pulsatilla-amel-coldair"},
+      {"text": "ঠান্ডা পানি দিলে উপশম ও গরমে বৃদ্ধি হওয়া", "mid": "sym-ars-amel-coldwater"},
+      {"text": "গরমে, খাওয়ার সময় ও ক্রমাগত নড়াচড়ায় উপশম", "mid": "sym-caps-amel-heat-eating-motion"},
+      {"text": "ভিজে ঠান্ডা আবহাওয়ায় উপশম ও শুষ্ক গরমে বৃদ্ধি হওয়া", "mid": "sym-damp-cold-amel"}
+    ],
+    "answer": "sym-caps-amel-heat-eating-motion",
+    "explanation": "Capsicum Annuum এ গরমে, খাওয়ার সময় এবং ক্রমাগত নড়াচড়া করলে উপশম হয়।"
+  }
+]

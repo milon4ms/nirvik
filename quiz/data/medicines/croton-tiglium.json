@@ -1,0 +1,247 @@
+[
+  {
+    "id": "croton-med-01",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পিচকিরির মতো সজোরে মলত্যাগ", "mid": "sym-stool-expelled-with-gush"},
+      {"text": "ঋতুস্রাবের সঙ্গে ব্যথা বৃদ্ধি, যত স্রাব তত ব্যথা", "mid": "sym-dysmenorrhoea-pain-with-flow"},
+      {"text": "শরীরের এক অঙ্গের পক্ষাঘাত, বিশেষত ডান অঙ্গের", "mid": "sym-one-sided-paralysis-right"},
+      {"text": "ফোড়া ফেটে যাওয়ার পর ঘন হলুদ ও দলা দলা পুঁজ নির্গত হওয়া", "mid": "sym-thick-yellow-lumpy-pus"}
+    ],
+    "answer": "sym-stool-expelled-with-gush",
+    "explanation": "Croton Tiglium-এর প্রধানতম লক্ষণ হলো মলত্যাগের সময় মনে হয় যেন পিচকিরির মতো সজোরে মল বের হচ্ছে।"
+  },
+  {
+    "id": "croton-med-02",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খাওয়া বা জল পান করার পরপরই মলত্যাগের প্রচণ্ড বেগ", "mid": "sym-diarrhoea-immediately-after-eating-drinking"},
+      {"text": "ডিম্বকোষ বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট", "mid": "sym-dyspnoea-palpitation-from-uterine-cause"},
+      {"text": "মানসিক আঘাতের ফলে পক্ষাঘাত", "mid": "sym-paralysis-from-mental-shock"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"}
+    ],
+    "answer": "sym-diarrhoea-immediately-after-eating-drinking",
+    "explanation": "Croton Tiglium-এ সামান্য কিছু আহার করলে বা জল পান করার সাথে সাথেই মলত্যাগের প্রচণ্ড বেগ আসে।"
+  },
+  {
+    "id": "croton-med-03",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্তন্যদানকালে স্তন থেকে পিঠ পর্যন্ত টান লাগার মতো ব্যথা", "mid": "sym-pain-nipple-to-back-during-nursing"},
+      {"text": "হার্টবিট বন্ধ হয়ে যাওয়ার উপক্রম বোধ", "mid": "sym-sensation-heart-will-stop"},
+      {"text": "বহুদিন স্থায়ী দুঃখ ভোগে হওয়া রোগ", "mid": "sym-ailments-from-long-standing-grief"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"}
+    ],
+    "answer": "sym-pain-nipple-to-back-during-nursing",
+    "explanation": "Croton Tiglium-এ স্তন্যদানকারী মহিলার শিশু দুধ পান করলে মনে হয় যেন স্তন থেকে পিঠের দিকে দড়ি দিয়ে টানছে।"
+  },
+  {
+    "id": "croton-med-04",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লাল ও চুলকানিযুক্ত ফোস্কা, বিশেষত অণ্ডকোষের চামড়ায়", "mid": "sym-vesicles-itching-scrotum"},
+      {"text": "অত্যন্ত বিমর্ষ, সন্দেহযুক্ত ও বিপদের ভয়", "mid": "sym-depressed-suspicious-fear-danger"},
+      {"text": "বসে পায়খানা করলে কষ্ট, না দাঁড়ালে মলত্যাগে অসুবিধা", "mid": "sym-difficult-defecation-must-stand"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"}
+    ],
+    "answer": "sym-vesicles-itching-scrotum",
+    "explanation": "Croton Tiglium-এ শরীরের চামড়ায় অত্যন্ত লাল ও চুলকানিযুক্ত ফোস্কা হয়, বিশেষত অণ্ডকোষের চামড়ায় একজিমা বা চুলকানিতে কার্যকর।"
+  },
+  {
+    "id": "croton-med-05",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চর্মরোগে ঠান্ডা জলের ঝাপটায় আরাম", "mid": "sym-skin-ameliorated-by-cold-water"},
+      {"text": "ইদুরের দৃশ্য দেখে ভয়, সর্বদা কথা বলে, নিজেকে আঘাত করে", "mid": "sym-fear-rats-loquacity-self-injury"},
+      {"text": "বারবার প্রসাবের বেগ, অসাড়ে প্রসাব আসে", "mid": "sym-frequent-urge-numbness"},
+      {"text": "স্নায়বিক দুর্বলতা ও অকাল বার্ধক্য", "mid": "sym-nervous-weakness-senility"}
+    ],
+    "answer": "sym-skin-ameliorated-by-cold-water",
+    "explanation": "Croton Tiglium-এ চর্মরোগের জায়গায় সামান্য হাত দিলে ব্যথা লাগে, কিন্তু ঠান্ডা জলের ঝাপটা দিলে আরাম বোধ হয়।"
+  },
+  {
+    "id": "croton-med-06",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ", "mid": "sym-alternating-diarrhoea-cough-skin"},
+      {"text": "স্নায়ুলোপ পেয়ে উন্মাদ হলে উপযোগী", "mid": "sym-insanity-after-nerve-injury"},
+      {"text": "সঙ্গমের পর মূত্রত্যাগকালে মূত্রনালীতে জ্বালা", "mid": "sym-burning-urethra-after-coition"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"}
+    ],
+    "answer": "sym-alternating-diarrhoea-cough-skin",
+    "explanation": "Croton Tiglium-এ পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ দেখা যায়।"
+  },
+  {
+    "id": "croton-med-07",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শুইলে কাশি বৃদ্ধি", "mid": "sym-cough-lying-down-agg"},
+      {"text": "কাজকর্ম করার পর মাংসপেশির ব্যথায় উপশম", "mid": "sym-muscle-pain-ameliorated-by-exercise"},
+      {"text": "শীতকাতরতা, বর্ষা ও বৃষ্টির দিনে ভালো থাকা", "mid": "sym-chilly-better-in-rainy-weather"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"}
+    ],
+    "answer": "sym-cough-lying-down-agg",
+    "explanation": "Croton Tiglium-এ কাশি শুইলেই বৃদ্ধি পায়।"
+  },
+  {
+    "id": "croton-med-08",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দিনে ফ্যাকাশে প্রসাব, সাদা তলানি; রাতে ফেনা ও চর্বি", "mid": "sym-urine-pale-sediment-day-frothy-fat-night"},
+      {"text": "আঙুলের কাজ করা ব্যক্তিদের পিঠে ব্যথা", "mid": "sym-back-pain-finger-work"},
+      {"text": "বিষন্নতা, নৈরাশ্য ও আশঙ্কা", "mid": "sym-depression-despair-apprehension"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"}
+    ],
+    "answer": "sym-urine-pale-sediment-day-frothy-fat-night",
+    "explanation": "Croton Tiglium-এ প্রসাব দিনে ফ্যাকাশে ও সাদা তলানি পড়ে, রাতে প্রসাবে ফেনা ওঠে ও চর্বি ভাসে।"
+  },
+  {
+    "id": "croton-med-09",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনে হয় বড় অসুখ হয়েছে ও আর বাঁচবে না", "mid": "sym-fear-serious-illness-death"},
+      {"text": "জ্বরে মাথাকে বড় মনে করা ও দপদপ করা", "mid": "sym-head-large-bursting-pulsating"},
+      {"text": "নিদ্রাকালে অস্থিরতা", "mid": "sym-restlessness-during-sleep"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"}
+    ],
+    "answer": "sym-fear-serious-illness-death",
+    "explanation": "Croton Tiglium-এ রোগী সবসময় মনে করে তার কোনো বড় অসুখ হয়েছে এবং সে আর বাঁচবে না।"
+  },
+  {
+    "id": "croton-med-10",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খিটখিটে মেজাজ ও সামান্য কারণেই বিরক্তি", "mid": "sym-irritable-slight-cause"},
+      {"text": "শারীরিক ও মানসিক লক্ষণ পর্যায়ক্রমে আসা", "mid": "sym-alternating-physical-mental-symptoms"},
+      {"text": "শরীর ছিড়ে ফেলার মতো ব্যথা, উত্তাপে উপশম", "mid": "sym-tearing-pain-heat-amelioration"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"}
+    ],
+    "answer": "sym-irritable-slight-cause",
+    "explanation": "Croton Tiglium-এ খিটখিটে মেজাজ এবং সামান্য কারণেই বিরক্তি প্রকাশ পায়।"
+  },
+  {
+    "id": "croton-med-11",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিক অস্থিরতা ও একা থাকার ভয়", "mid": "sym-restlessness-fear-of-being-alone"},
+      {"text": "বড় বড় মাংসপেশির বাতের ব্যথা বা কামড়ানো ব্যথা", "mid": "sym-large-muscles-rheumatic-cramping-pain"},
+      {"text": "লিভারের নিচে চেপে ধরার মতো ব্যথা", "mid": "sym-pressing-pain-under-liver"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"}
+    ],
+    "answer": "sym-restlessness-fear-of-being-alone",
+    "explanation": "Croton Tiglium-এ মানসিক অস্থিরতা এবং একা থাকার ভয় কাজ করে।"
+  },
+  {
+    "id": "croton-med-12",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেটের ভেতর সারাক্ষণ গড়গড় শব্দ", "mid": "sym-gurgling-abdomen"},
+      {"text": "জরায়ুর সমস্যা কমলে বাতের ব্যথা বেড়ে যাওয়া", "mid": "sym-uterine-symptoms-relieved-rheumatic-increased"},
+      {"text": "পোড়া দাগ আবার পেকে যাওয়া ও ব্যথা হওয়া", "mid": "sym-old-burns-reopen-painful"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-gurgling-abdomen",
+    "explanation": "Croton Tiglium-এ পেটের ভেতর সারাক্ষণ গড়গড় শব্দ হয়।"
+  },
+  {
+    "id": "croton-med-13",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যন্ত পাতলা হলুদাভ মল প্রচুর পরিমাণে নির্গত হওয়া", "mid": "sym-watery-yellow-profuse-stool"},
+      {"text": "মাথার ওপর কালো মেঘ ঝুলে আছে এমন অনুভূতি", "mid": "sym-sensation-black-cloud-over-head"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"}
+    ],
+    "answer": "sym-watery-yellow-profuse-stool",
+    "explanation": "Croton Tiglium-এ মল অত্যন্ত পাতলা, হলুদাভ এবং প্রচুর পরিমাণে নির্গত হয়।"
+  },
+  {
+    "id": "croton-med-14",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "একজিমায় প্রচুর রস নির্গত হওয়া ও চারপাশের চামড়া লাল হয়ে ফুলে যাওয়া", "mid": "sym-eczema-oozing-red-swollen"},
+      {"text": "সারা শরীরে লাঠি দিয়ে পিটিয়েছে এমন স্পর্শকাতরতা", "mid": "sym-soreness-as-if-beaten"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"}
+    ],
+    "answer": "sym-eczema-oozing-red-swollen",
+    "explanation": "Croton Tiglium-এ একজিমায় প্রচুর রস নির্গত হয় এবং চারপাশের চামড়া লাল হয়ে ফুলে যায়; স্পর্শ করলে বা ঘষলে প্রচণ্ড জ্বালা করে।"
+  },
+  {
+    "id": "croton-med-15",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্তনবৃন্তের ভেতরে তীব্র ব্যথা যা পিঠের স্ক্যাপুলা পর্যন্ত ছড়ায়", "mid": "sym-nipple-pain-radiating-to-scapula"},
+      {"text": "গর্ভাবস্থার শেষে জরায়ুর আক্ষেপিক ব্যথা ও বারবার গর্ভপাতের প্রবণতা", "mid": "sym-abortion-tendency-uterine-spasms"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"},
+      {"text": "খাওয়া-দাওয়ায় উপশম", "mid": "sym-eating-amelioration"}
+    ],
+    "answer": "sym-nipple-pain-radiating-to-scapula",
+    "explanation": "Croton Tiglium-এ স্তনবৃন্তের ভেতরে তীব্র ব্যথা হয় যা পিঠের পেছনের হাড়ের (Scapula) দিকে ছড়িয়ে পড়ে।"
+  },
+  {
+    "id": "croton-med-16",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের মণির ওপর ঘা ও চোখ দিয়ে গরম জল পড়া", "mid": "sym-corneal-ulcer-hot-lachrymation"},
+      {"text": "সারাক্ষণ কান্নাকাটি ও পাগল হয়ে যাওয়ার ভয়", "mid": "sym-weeping-fear-of-insanity"},
+      {"text": "টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sour-apples"},
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয়", "mid": "sym-fear-death-dyspnoea"}
+    ],
+    "answer": "sym-corneal-ulcer-hot-lachrymation",
+    "explanation": "Croton Tiglium-এ চোখের মণির ওপর ঘা (Ulcer of Cornea) হয় এবং চোখ দিয়ে গরম জল পড়ে।"
+  },
+  {
+    "id": "croton-med-17",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কলেরার মতো অবস্থায় হঠাৎ জীবনীশক্তি কমে যাওয়া", "mid": "sym-cholera-like-sudden-collapse"},
+      {"text": "প্রচুর কথা বলার প্রবণতা, এক বিষয় থেকে অন্য বিষয়ে অনবরত কথা বলা", "mid": "sym-loquacity"},
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-cholera-like-sudden-collapse",
+    "explanation": "Croton Tiglium কলেরার মতো অবস্থায় যখন হঠাৎ করে জীবনীশক্তি কমে যায় তখন কার্যকরী।"
+  },
+  {
+    "id": "croton-med-18",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খাওয়া বা পান করার পরপরই, গরমে ও রাতে বৃদ্ধি", "mid": "sym-after-eating-heat-night-agg"},
+      {"text": "নিচের দিকে নামার গতিতে বৃদ্ধি", "mid": "sym-downward-motion-agg"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"}
+    ],
+    "answer": "sym-after-eating-heat-night-agg",
+    "explanation": "Croton Tiglium-এর লক্ষণ খাওয়া বা পান করার পরপরই, গরমে, রাতে এবং স্পর্শ করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "croton-med-19",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘুমের পর ও মৃদু চাপে উপশম", "mid": "sym-sleep-and-gentle-pressure-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও শরীর ঠান্ডা রাখলে উপশম", "mid": "sym-open-air-cooling-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"}
+    ],
+    "answer": "sym-sleep-and-gentle-pressure-amel",
+    "explanation": "Croton Tiglium-এর লক্ষণ ঘুমের পর, মৃদু চাপে এবং ঠান্ডা জলের প্রয়োগে (চর্মরোগে) উপশম হয়।"
+  },
+  {
+    "id": "croton-med-20",
+    "stem": "নিচের কোনটি Croton Tiglium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চর্মরোগে ভয়ানক চুলকানি, জ্বালা ও ব্যথা", "mid": "sym-skin-violent-itching-burning-pain"},
+      {"text": "শুষ্ক ও ঠান্ডা আবহাওয়ায় বৃদ্ধি, আর্দ্র আবহাওয়ায় উপশম", "mid": "sym-dry-cold-agg-damp-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও শরীর ঠান্ডা রাখলে উপশম", "mid": "sym-open-air-cooling-amel"}
+    ],
+    "answer": "sym-skin-violent-itching-burning-pain",
+    "explanation": "Croton Tiglium-এ চর্মরোগে ভয়ানক চুলকানি, জ্বালা ও ব্যথা হয়।"
+  }
+]
+
+
+
+
+

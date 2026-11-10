@@ -1,0 +1,242 @@
+[
+  {
+    "id": "hepar-med-01",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অতিরিক্ত গরমকাতর, গরম সহ্য করতে পারে না", "mid": "sym-hot-sensitive"},
+      {"text": "অতিরিক্ত শীতকাতর, সামান্য ঠান্ডা বাতাস সহ্য করতে পারে না, হাত পা কম্বলের বাইরে বের করলেও কষ্ট বাড়ে, জানলা দরজা বন্ধ করে দেয়", "mid": "sym-hepar-very-chilly"},
+      {"text": "ঠান্ডা বাতাসে ভালো লাগে, জানলা খুলে দেয়", "mid": "sym-cold-air-enjoy"},
+      {"text": "ঠান্ডা বা গরমে কোনো পরিবর্তন হয় না", "mid": "sym-temp-no-change"}
+    ],
+    "answer": "sym-hepar-very-chilly",
+    "explanation": "Hepar Sulph হোমিওপ্যাথির অন্যতম শীর্ষস্থানীয় শীতকাতর ঔষধ, রোগী সামান্য ঠান্ডা বাতাস সহ্য করতে পারে না, হাত পা কম্বলের বাইরে বের করলেও কষ্ট বাড়ে।"
+  },
+  {
+    "id": "hepar-med-02",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্দি রাতে ওঠে, দিনে ওঠে না", "mid": "sym-coryza-night-only"},
+      {"text": "সর্দি কখনো লাগে না", "mid": "sym-coryza-never"},
+      {"text": "সর্দি শুধু গরমে লাগে, ঠান্ডায় লাগে না", "mid": "sym-coryza-heat-only"},
+      {"text": "প্রায়শই সর্দি লাগে, রাতে সর্দি ওঠে না কেবল দিনে ওঠে", "mid": "sym-hepar-coryza-day-only"}
+    ],
+    "answer": "sym-hepar-coryza-day-only",
+    "explanation": "Hepar Sulph এ প্রায়শই সর্দি লাগে, রাতে সর্দি ওঠে না কেবল দিনে ওঠে।"
+  },
+  {
+    "id": "hepar-med-03",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা লেগে সাংঘাতিক কাশি", "mid": "sym-hepar-cold-severe-cough"},
+      {"text": "ঠান্ডা লাগলে কাশি সম্পূর্ণ সেরে যায়", "mid": "sym-cold-cough-cured"},
+      {"text": "গরম লাগলে সাংঘাতিক কাশি হয়", "mid": "sym-heat-severe-cough"},
+      {"text": "কাশি কখনো হয় না, শুধু সর্দি হয়", "mid": "sym-no-cough-only-coryza"}
+    ],
+    "answer": "sym-hepar-cold-severe-cough",
+    "explanation": "Hepar Sulph এ ঠান্ডা লেগে সাংঘাতিক কাশি হয়।"
+  },
+  {
+    "id": "hepar-med-04",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্পর্শে কোনো অনুভূতি না থাকা, রাগ কখনো না হওয়া", "mid": "sym-touch-no-feeling-no-anger"},
+      {"text": "রাগ হলে হেসে ফেলা ও সব ভুলে যাওয়া", "mid": "sym-anger-laugh-forget"},
+      {"text": "অতিরিক্ত স্পর্শকাতর, অল্পেই রাগে, রেগে সন্তানকে মেরে ফেলতে পারে", "mid": "sym-hepar-touch-sensitive-anger-kill-child"},
+      {"text": "সন্তানকে খুব ভালোবাসা, কখনো রাগ না করা", "mid": "sym-love-child-never-angry"}
+    ],
+    "answer": "sym-hepar-touch-sensitive-anger-kill-child",
+    "explanation": "Hepar Sulph রোগী অতিরিক্ত স্পর্শকাতর, অল্পেই রাগে, রেগে সন্তানকে মেরে ফেলতে পারে।"
+  },
+  {
+    "id": "hepar-med-05",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ধীরে সুস্থে কথা বলা ও কাজ করা, কখনো তাড়াহুড়ো না করা", "mid": "sym-slow-talk-work"},
+      {"text": "সহজে ক্ষিপ্ত হয়, হট করে কাজ করে, তাড়াহুড়ো করে কথা বলে ও কাজ করে", "mid": "sym-hepar-hasty-impulsive"},
+      {"text": "কাজে কোনো উৎসাহ না থাকা, সারাদিন শুয়ে থাকা", "mid": "sym-no-work-lie-down"},
+      {"text": "ক্ষিপ্ত হলে চুপ হয়ে যাওয়া ও কেঁদে ফেলা", "mid": "sym-anger-silent-cry"}
+    ],
+    "answer": "sym-hepar-hasty-impulsive",
+    "explanation": "Hepar Sulph রোগী সহজে ক্ষিপ্ত হয়, হট করে কাজ করে, তাড়াহুড়ো করে কথা বলে এবং কাজ করে।"
+  },
+  {
+    "id": "hepar-med-06",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ফোড়া কখনো পুঁজ হয় না, শুকনো থাকে", "mid": "sym-abscess-never-pus"},
+      {"text": "ফোড়া হলে নিজে নিজে সেরে যায়, পুঁজ জমে না", "mid": "sym-abscess-self-cure"},
+      {"text": "ফোড়ায় পুঁজ জমলে ব্যথা কমে যায় ও আরাম লাগে", "mid": "sym-abscess-pus-relief"},
+      {"text": "পুঁজ জমিবার প্রবণতা, ফোড়া পুঁজযুক্ত হলে বা ফেটে পুঁজ বের করতে হলে হিপার", "mid": "sym-hepar-pus-tendency-abscess"}
+    ],
+    "answer": "sym-hepar-pus-tendency-abscess",
+    "explanation": "Hepar Sulph এ পুঁজ জমিবার প্রবণতা থাকে, ফোড়া পুঁজযুক্ত হলে বা ফেটে পুঁজ বের করতে হলে হিপার দিতে হয়।"
+  },
+  {
+    "id": "hepar-med-07",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্ষত পুঁজযুক্ত হলে, দুর্গন্ধ থাকলে, স্পর্শকাতরতা থাকলে হিপার", "mid": "sym-hepar-wound-pus-foul-sensitive"},
+      {"text": "ক্ষত শুকনো, কোনো গন্ধ নেই, স্পর্শে আরাম লাগে", "mid": "sym-wound-dry-no-smell-touch-relief"},
+      {"text": "ক্ষত হলে দ্রুত শুকিয়ে যায়, পুঁজ হয় না", "mid": "sym-wound-quick-dry-no-pus"},
+      {"text": "ক্ষতে দুর্গন্ধ থাকলেও ব্যথা থাকে না", "mid": "sym-wound-foul-no-pain"}
+    ],
+    "answer": "sym-hepar-wound-pus-foul-sensitive",
+    "explanation": "Hepar Sulph এ ক্ষত পুঁজযুক্ত হলে, দুর্গন্ধ থাকলে, স্পর্শকাতরতা থাকলে হিপার দিতে হয়।"
+  },
+  {
+    "id": "hepar-med-08",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মূত্র ত্যাগের পর সম্পূর্ণ খালি মনে হওয়া", "mid": "sym-urine-empty-feeling"},
+      {"text": "মূত্র ত্যাগের পর কাপড়ে কখনো ফোঁটা না লাগা", "mid": "sym-urine-no-drops"},
+      {"text": "মূত্র ত্যাগ শেষে মনে হয় একটু রয়ে গেল, কাপড়ে ফোঁটা ফোঁটা লাগে", "mid": "sym-hepar-urine-remains-drops"},
+      {"text": "মূত্র ত্যাগ করতে গিয়ে মূত্র একদম বন্ধ হয়ে যাওয়া", "mid": "sym-urine-stopped"}
+    ],
+    "answer": "sym-hepar-urine-remains-drops",
+    "explanation": "Hepar Sulph এ মূত্র ত্যাগ শেষে মনে হয় একটু রয়ে গেল, কাপড়ে ফোঁটা ফোঁটা লাগে।"
+  },
+  {
+    "id": "hepar-med-09",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘাম একদম হয় না, শরীর শুকনো থাকে", "mid": "sym-no-sweat-dry"},
+      {"text": "অতিরিক্ত ঘাম, শরীর বা ঘাম থেকে পচা পনিরের মতো টক দুর্গন্ধ", "mid": "sym-hepar-excess-sweat-rotten-cheese"},
+      {"text": "ঘাম থেকে ফুলের মতো সুগন্ধ আসা", "mid": "sym-sweat-flower-smell"},
+      {"text": "ঘাম হলে শরীর ঠান্ডা লাগা ও আরাম পাওয়া", "mid": "sym-sweat-cool-relief"}
+    ],
+    "answer": "sym-hepar-excess-sweat-rotten-cheese",
+    "explanation": "Hepar Sulph এ অতিরিক্ত ঘাম হয়, শরীর বা ঘাম থেকে পচা পনিরের মতো টক দুর্গন্ধ নির্গত হয়।"
+  },
+  {
+    "id": "hepar-med-10",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলায় কোনো ব্যথা না থাকা, শুধু শুকনো কাশি", "mid": "sym-throat-no-pain-dry-cough"},
+      {"text": "গলায় জ্বালাপোড়া, কাঁটার অনুভূতি না থাকা", "mid": "sym-throat-burn-no-splinter"},
+      {"text": "গলা ঠান্ডা লাগা ও ঠান্ডা পানি খেলে উপশম", "mid": "sym-throat-cold-relief"},
+      {"text": "গলায় মাছের কাঁটা ফোটার মতো ব্যথা", "mid": "sym-hepar-throat-fishbone-pain"}
+    ],
+    "answer": "sym-hepar-throat-fishbone-pain",
+    "explanation": "Hepar Sulph এ গলায় মাছের কাঁটা ফোটার মতো ব্যথা হয়।"
+  },
+  {
+    "id": "hepar-med-11",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আগুনের স্বপ্ন দেখা, টক ঝাল খাবার ইচ্ছা", "mid": "sym-hepar-fire-dream-sour-spicy-desire"},
+      {"text": "পানির স্বপ্ন দেখা, মিষ্টি খাবার ইচ্ছা", "mid": "sym-water-dream-sweet-desire"},
+      {"text": "স্বপ্ন একদম দেখে না, টক খাবার অপছন্দ", "mid": "sym-no-dream-sour-dislike"},
+      {"text": "আগুন দেখলেই ভয় পাওয়া, ঝাল খেতে না চাওয়া", "mid": "sym-fire-fear-spicy-dislike"}
+    ],
+    "answer": "sym-hepar-fire-dream-sour-spicy-desire",
+    "explanation": "Hepar Sulph রোগী আগুনের স্বপ্ন দেখে এবং টক ঝাল খাবার ইচ্ছা করে।"
+  },
+  {
+    "id": "hepar-med-12",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নিম্ন শক্তিতে পুঁজ শুকিয়ে ফেলে, উচ্চ শক্তিতে পুঁজ তৈরি করে", "mid": "sym-low-dry-high-make-pus"},
+      {"text": "সব শক্তিতে পুঁজ তৈরি করে, কখনো শুকায় না", "mid": "sym-all-make-pus-never-dry"},
+      {"text": "নিম্ন শক্তিতে পুঁজ তৈরি করে, উচ্চ শক্তিতে পুঁজ শুকিয়ে ফেলে", "mid": "sym-hepar-low-make-high-dry-pus"},
+      {"text": "সব শক্তিতে পুঁজ শুকিয়ে ফেলে, কখনো তৈরি করে না", "mid": "sym-all-dry-never-make"}
+    ],
+    "answer": "sym-hepar-low-make-high-dry-pus",
+    "explanation": "Hepar Sulph নিম্ন শক্তিতে পুঁজ তৈরি করে এবং উচ্চ শক্তিতে পুঁজ শুকিয়ে ফেলে।"
+  },
+  {
+    "id": "hepar-med-13",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আক্রান্ত স্থানে কোনো ব্যথা না থাকা, স্পর্শে আরাম", "mid": "sym-affected-no-pain-touch-relief"},
+      {"text": "আক্রান্ত স্থানে কাঁটা ফোটার মতো ব্যথা, কাপড় স্পর্শ করলেও যন্ত্রণায় চিৎকার", "mid": "sym-hepar-splinter-pain-cloth-scream"},
+      {"text": "কাপড় স্পর্শ করলে ব্যথা কমে যাওয়া", "mid": "sym-cloth-touch-pain-less"},
+      {"text": "আক্রান্ত স্থানে জ্বালাপোড়া, কাঁটার অনুভূতি না থাকা", "mid": "sym-affected-burn-no-splinter"}
+    ],
+    "answer": "sym-hepar-splinter-pain-cloth-scream",
+    "explanation": "Hepar Sulph এ আক্রান্ত স্থানে কাঁটা ফোটার মতো ব্যথা হয়, আক্রান্ত স্থান এত স্পর্শকাতর যে কাপড় স্পর্শ করলেও যন্ত্রণায় চিৎকার করে ওঠে।"
+  },
+  {
+    "id": "hepar-med-14",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনে সবসময় সন্তোষ থাকা, দুঃখের কথায় হাসি পাওয়া", "mid": "sym-mind-content-laugh-sad"},
+      {"text": "কখনো কাঁদে না, সবসময় শক্ত থাকে", "mid": "sym-never-cry-strong"},
+      {"text": "বিরক্তি না থাকা, সবাইকে ভালোবাসা", "mid": "sym-no-irritation-love-all"},
+      {"text": "মনে সবসময় অসন্তোষ ও বিরক্তি, সামান্য দুঃখের কথায় কেঁদে ফেলে", "mid": "sym-hepar-discontent-irritation-cry-sad"}
+    ],
+    "answer": "sym-hepar-discontent-irritation-cry-sad",
+    "explanation": "Hepar Sulph রোগীর মনে সবসময় অসন্তোষ ও বিরক্তি কাজ করে, সামান্য দুঃখের কথায় সে কেঁদে ফেলে।"
+  },
+  {
+    "id": "hepar-med-15",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "টনসিল ফুলে যাওয়া, গলার কাঁটা ফোটার ব্যথা কানে ছড়িয়ে পড়ে, গিলতে গেলে প্রচণ্ড কষ্ট", "mid": "sym-hepar-tonsil-swollen-splinter-ear-swallow-pain"},
+      {"text": "টনসিল না ফোলা, গলায় ব্যথা কানে না ছড়ানো", "mid": "sym-tonsil-no-swelling-no-ear"},
+      {"text": "গিলতে গেলে আরাম লাগা ও ব্যথা কমে যাওয়া", "mid": "sym-swallow-relief"},
+      {"text": "গলার ব্যথা শুধু গলায় থাকা, কানে না যাওয়া", "mid": "sym-throat-pain-only"}
+    ],
+    "answer": "sym-hepar-tonsil-swollen-splinter-ear-swallow-pain",
+    "explanation": "Hepar Sulph এ টনসিল ফুলে যায় এবং গলার ভেতর কাঁটা ফোটার মতো ব্যথা কানে ছড়িয়ে পড়ে, গিলতে গেলে প্রচণ্ড কষ্ট হয়।"
+  },
+  {
+    "id": "hepar-med-16",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আঘাত লাগলেও ঘা হয় না, ক্ষত দ্রুত শুকিয়ে যায়", "mid": "sym-injury-no-sore-quick-heal"},
+      {"text": "পুরোনো ক্ষত থেকে পরিষ্কার পানি বের হওয়া, কোনো গন্ধ না থাকা", "mid": "sym-old-wound-clear-no-smell"},
+      {"text": "সামান্য আঘাতেই ঘা হয়ে যায়, পুরোনো ক্ষত থেকে দুর্গন্ধযুক্ত রস বা পুঁজ বের হয়", "mid": "sym-hepar-slight-injury-sore-old-wound-foul-pus"},
+      {"text": "ক্ষত হলে ব্যথা না থাকা ও স্পর্শে আরাম লাগা", "mid": "sym-wound-no-pain-touch-relief"}
+    ],
+    "answer": "sym-hepar-slight-injury-sore-old-wound-foul-pus",
+    "explanation": "Hepar Sulph এ সামান্য আঘাতেই ঘা হয়ে যায়, পুরোনো ক্ষত থেকে দুর্গন্ধযুক্ত রস বা পুঁজ বের হয়।"
+  },
+  {
+    "id": "hepar-med-17",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "একজিমা ও ব্রণে কোনো কাজ না করা", "mid": "sym-eczema-acne-no-action"},
+      {"text": "একজিমা ও বয়ঃসন্ধিকালের ব্রণে শ্রেষ্ঠ", "mid": "sym-hepar-eczema-acne-adolescent-best"},
+      {"text": "শুধু বয়স্কদের ব্রণে কাজ করা, কিশোরদের ব্রণে না করা", "mid": "sym-acne-old-only"},
+      {"text": "চামড়ার রোগে কাজ না করা, শুধু পেটের রোগে কাজ করা", "mid": "sym-skin-no-action-belly-only"}
+    ],
+    "answer": "sym-hepar-eczema-acne-adolescent-best",
+    "explanation": "Hepar Sulph একজিমা এবং বয়ঃসন্ধিকালের ব্রণ এর জন্য শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "hepar-med-18",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাশি দিনে বৃদ্ধি, রাতে কমে যাওয়া", "mid": "sym-cough-day-agg-night-less"},
+      {"text": "কাশির শব্দ শুকনো, কফ সহজে উঠে যাওয়া", "mid": "sym-cough-dry-easy-expectoration"},
+      {"text": "কাশি হলে কফ প্রচুর উঠে যাওয়া ও আরাম লাগা", "mid": "sym-cough-much-mucus-relief"},
+      {"text": "রাতে বা ঠান্ডায় কাশি বৃদ্ধি, কাশির শব্দ ঘড়ঘড়ে কিন্তু কফ সহজে উঠতে চায় না", "mid": "sym-hepar-cough-night-cold-rattling-no-expectoration"}
+    ],
+    "answer": "sym-hepar-cough-night-cold-rattling-no-expectoration",
+    "explanation": "Hepar Sulph এ রাতে বা ঠান্ডায় কাশি বৃদ্ধি পায়, কাশির শব্দ ঘড়ঘড়ে কিন্তু কফ সহজে উঠতে চায় না।"
+  },
+  {
+    "id": "hepar-med-19",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কানের ভেতর পুঁজ জমা, কান পাকা, দুর্গন্ধযুক্ত পুঁজ নির্গত হয়", "mid": "sym-hepar-ear-pus-otitis-foul"},
+      {"text": "কানে পুঁজ না জমা, কান পরিষ্কার থাকা", "mid": "sym-ear-no-pus-clean"},
+      {"text": "কান থেকে পরিষ্কার পানি পড়া, কোনো গন্ধ না থাকা", "mid": "sym-ear-clear-water-no-smell"},
+      {"text": "কানে ব্যথা না থাকা, শুধু কম শোনা", "mid": "sym-ear-no-pain-only-deaf"}
+    ],
+    "answer": "sym-hepar-ear-pus-otitis-foul",
+    "explanation": "Hepar Sulph এ কানের ভেতর পুঁজ জমা বা কান পাকা রোগ হয়, যা থেকে দুর্গন্ধযুক্ত পুঁজ নির্গত হয়।"
+  },
+  {
+    "id": "hepar-med-20",
+    "stem": "নিচের কোনটি Hepar Sulph এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডায় উপশম, গরমে বৃদ্ধি হওয়া", "mid": "sym-cold-amel-heat-agg"},
+      {"text": "স্পর্শে উপশম, নড়াচড়ায় উপশম হওয়া", "mid": "sym-touch-motion-amel"},
+      {"text": "ঠান্ডা বাতাসে, স্পর্শে, রাতে, নড়াচড়ায় ও কাপড় না থাকলে বৃদ্ধি, গরমে, ঢেকে রাখলে ও আর্দ্র আবহাওয়ায় উপশম", "mid": "sym-hepar-agg-cold-touch-night-motion-uncovered-amel-warm-covered-humid"},
+      {"text": "রাতে উপশম, দিনে বৃদ্ধি হওয়া", "mid": "sym-night-amel-day-agg"}
+    ],
+    "answer": "sym-hepar-agg-cold-touch-night-motion-uncovered-amel-warm-covered-humid",
+    "explanation": "Hepar Sulph এ ঠান্ডা বাতাসে, স্পর্শে, রাতে, নড়াচড়ায় এবং শরীরে কাপড় না থাকলে বৃদ্ধি হয়, গরমে, শরীর ঢেকে রাখলে এবং আর্দ্র আবহাওয়ায় উপশম হয়।"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "verat-med-01",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কপালে শীতল ঘাম এবং শরীর বরফের মতো ঠান্ডা হয়ে যাওয়া।",
+        "mid": "cold_sweat_forehead_cold_body"
+      },
+      {
+        "text": "শরীরে প্রচণ্ড জ্বর এবং কপালে শুষ্কতা।",
+        "mid": "high_fever_dry_forehead"
+      },
+      {
+        "text": "শরীর গরম কিন্তু হাত-পা ঠান্ডা।",
+        "mid": "warm_body_cold_extremities"
+      },
+      {
+        "text": "শুধুমাত্র মাথায় ঘাম, শরীর স্বাভাবিক।",
+        "mid": "head_sweat_only_body_normal"
+      }
+    ],
+    "answer": "cold_sweat_forehead_cold_body",
+    "explanation": "Veratrum Album-এর সর্বপ্রধান লক্ষণ হলো কপালে শীতল ঘাম এবং শরীর বরফের মতো ঠান্ডা হয়ে যাওয়া。[reference:0]"
+  },
+  {
+    "id": "verat-med-02",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রচুর পরিমাণে চাল ধোয়া পানির মতো মলত্যাগ এবং সাথে প্রচণ্ড বমি।",
+        "mid": "rice_water_diarrhea_violent_vomiting"
+      },
+      {
+        "text": "কোষ্ঠকাঠিন্য এবং বমি বমি ভাব।",
+        "mid": "constipation_nausea"
+      },
+      {
+        "text": "মল শুষ্ক ও কঠিন, বমি নেই।",
+        "mid": "dry_hard_stool_no_vomiting"
+      },
+      {
+        "text": "শুধুমাত্র বমি, ডায়রিয়া নেই।",
+        "mid": "vomiting_only_no_diarrhea"
+      }
+    ],
+    "answer": "rice_water_diarrhea_violent_vomiting",
+    "explanation": "Veratrum Album-এ প্রচুর পরিমাণে চাল ধোয়া পানির মতো মলত্যাগ এবং সাথে প্রচণ্ড বমি হয়। কলেরার এটি একটি প্রধান ঔষধ。[reference:1]"
+  },
+  {
+    "id": "verat-med-03",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রচুর পরিমাণে অত্যন্ত ঠান্ডা পানি পান করার ইচ্ছা।",
+        "mid": "intense_thirst_cold_water"
+      },
+      {
+        "text": "পিপাসা নেই এবং পানি পান করতে ভয় পায়।",
+        "mid": "no_thirst_fear_of_water"
+      },
+      {
+        "text": "শুধুমাত্র গরম পানীয় পান করার ইচ্ছা।",
+        "mid": "desire_for_hot_drinks"
+      },
+      {
+        "text": "পিপাসা সামান্য, পানি পান করলে বমি হয়।",
+        "mid": "slight_thirst_vomiting_after_water"
+      }
+    ],
+    "answer": "intense_thirst_cold_water",
+    "explanation": "Veratrum Album-এ তীব্র পানি পিপাসা থাকে; প্রচুর পরিমাণে অত্যন্ত ঠান্ডা পানি পান করার ইচ্ছা থাকে。[reference:2]"
+  },
+  {
+    "id": "verat-med-04",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হাত ও পায়ের বিশেষ করে কাফ মাসলে প্রচণ্ড খিঁচুনি।",
+        "mid": "severe_cramps_calf_muscles"
+      },
+      {
+        "text": "পেশীতে কোনো খিঁচুনি হয় না।",
+        "mid": "no_muscle_cramps"
+      },
+      {
+        "text": "শুধুমাত্র হাতের পেশীতে হালকা টান।",
+        "mid": "mild_hand_muscle_tension"
+      },
+      {
+        "text": "পেশী শিথিল ও দুর্বল।",
+        "mid": "muscle_relaxation_weakness"
+      }
+    ],
+    "answer": "severe_cramps_calf_muscles",
+    "explanation": "Veratrum Album-এ হাত ও পায়ের বিশেষ করে কাফ মাসলে প্রচণ্ড খিঁচুনি (Cramps) হয়。[reference:3]"
+  },
+  {
+    "id": "verat-med-05",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী মনে করে সে অনেক বড় অপরাধী এবং বিষণ্ণ থাকে।",
+        "mid": "delusion_of_being_a_great_criminal_depression"
+      },
+      {
+        "text": "রোগী মনে করে সে সম্পূর্ণ নির্দোষ এবং আনন্দিত।",
+        "mid": "delusion_of_innocence_and_cheerful"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ উদাসীন ও নির্বিকার।",
+        "mid": "apathetic_indifferent"
+      },
+      {
+        "text": "রোগী অতিরিক্ত আত্মবিশ্বাসী।",
+        "mid": "overconfident"
+      }
+    ],
+    "answer": "delusion_of_being_a_great_criminal_depression",
+    "explanation": "Veratrum Album-এ রোগী বিষণ্ণতা এবং মনে করে সে অনেক বড় অপরাধী。[reference:4]"
+  },
+  {
+    "id": "verat-med-06",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "উন্মাদনা বা প্রলাপ বকা; রোগী অবিরত কথা বলে, কখনো প্রার্থনা করে আবার কখনো অন্যকে গালি দেয়।",
+        "mid": "delirium_talks_prays_curses"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ নীরব থাকে এবং কোনো কথা বলে না।",
+        "mid": "complete_silence_no_talking"
+      },
+      {
+        "text": "রোগী শুধুমাত্র গান গায়।",
+        "mid": "sings_only"
+      },
+      {
+        "text": "রোগী অতিরিক্ত ঘুমায়।",
+        "mid": "excessive_sleep"
+      }
+    ],
+    "answer": "delirium_talks_prays_curses",
+    "explanation": "Veratrum Album-এ উন্মাদনা বা প্রলাপ বকা; রোগী অবিরত কথা বলে, কখনো প্রার্থনা করে আবার কখনো অন্যকে গালি দেয়。[reference:5]"
+  },
+  {
+    "id": "verat-med-07",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অস্থির থাকে এবং নিজের পোশাক বা কাগজ ছিঁড়ে ফেলার প্রবণতা দেখায়।",
+        "mid": "restlessness_tearing_clothes_paper"
+      },
+      {
+        "text": "রোগী শান্ত হয়ে বসে থাকে এবং কিছু ছিঁড়ে না।",
+        "mid": "calm_and_sits_quietly_no_tearing"
+      },
+      {
+        "text": "রোগী শুধুমাত্র কাগজ ছিঁড়ে, পোশাক নয়।",
+        "mid": "tears_paper_only_not_clothes"
+      },
+      {
+        "text": "রোগী অতিরিক্ত ঘুমায় এবং অস্থির নয়।",
+        "mid": "sleeps_excessively_not_restless"
+      }
+    ],
+    "answer": "restlessness_tearing_clothes_paper",
+    "explanation": "Veratrum Album-এ রোগী অস্থির থাকে এবং নিজের পোশাক বা কাগজ ছিঁড়ে ফেলার প্রবণতা দেখায়。[reference:6]"
+  },
+  {
+    "id": "verat-med-08",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী একাকী থাকতে পারে না, আবার লোকজন পাশে থাকলে কথা বলে না।",
+        "mid": "cannot_be_alone_but_silent_when_people_around"
+      },
+      {
+        "text": "রোগী সবসময় একা থাকতে ভালোবাসে।",
+        "mid": "desire_to_be_alone"
+      },
+      {
+        "text": "রোগী লোকজনের সাথে সবসময় কথা বলে।",
+        "mid": "talks_constantly_with_people"
+      },
+      {
+        "text": "একা বা লোকজনের সাথে থাকার কোনো পার্থক্য নেই।",
+        "mid": "no_difference_alone_or_with_people"
+      }
+    ],
+    "answer": "cannot_be_alone_but_silent_when_people_around",
+    "explanation": "Veratrum Album-এ রোগী একাকী থাকতে পারেনা, আবার লোকজন পাশে থাকলে কথা বলেনা。[reference:7]"
+  },
+  {
+    "id": "verat-med-09",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগীনি নিজেকে গর্ভবতী ভাবে এবং ভাবে শীঘ্রই সন্তান প্রসব করবে।",
+        "mid": "delusion_of_being_pregnant_and_soon_to_deliver"
+      },
+      {
+        "text": "রোগীনি মনে করে সে গর্ভবতী নয়।",
+        "mid": "delusion_of_not_being_pregnant"
+      },
+      {
+        "text": "রোগীনি গর্ভাবস্থা সম্পর্কে কোনো চিন্তা করে না।",
+        "mid": "no_thoughts_about_pregnancy"
+      },
+      {
+        "text": "শুধুমাত্র পুরুষরা নিজেকে গর্ভবতী ভাবে।",
+        "mid": "delusion_of_pregnancy_in_males_only"
+      }
+    ],
+    "answer": "delusion_of_being_pregnant_and_soon_to_deliver",
+    "explanation": "Veratrum Album-এ রোগীনি নিজেকে গর্ভবতী ভাবে এবং ভাবে শীঘ্রই সন্তান প্রসব করবে。[reference:8]"
+  },
+  {
+    "id": "verat-med-10",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "উম্মাদ অবস্থায় রোগী নিজের কাপড় খোলে এবং অশ্লীল ব্যবহার ও কামুক ভাব দেখায়।",
+        "mid": "delirium_exposes_clothes_obscene_sexual"
+      },
+      {
+        "text": "রোগী লজ্জাশীল এবং কাপড় খোলে না।",
+        "mid": "modest_does_not_expose"
+      },
+      {
+        "text": "রোগী শুধুমাত্র নিজের কাপড় ছিঁড়ে, খোলে না।",
+        "mid": "tears_clothes_but_does_not_expose"
+      },
+      {
+        "text": "উম্মাদ অবস্থায় কোনো যৌন লক্ষণ নেই।",
+        "mid": "no_sexual_symptoms_in_delirium"
+      }
+    ],
+    "answer": "delirium_exposes_clothes_obscene_sexual",
+    "explanation": "Veratrum Album-এ উম্মাদ অবস্থায় রোগী নিজের কাপড় খোলে, অশ্লীল ব্যবহার ও কামুক ভাব দেখায় এবং আদি রসের কথা বলে。[reference:9]"
+  },
+  {
+    "id": "verat-med-11",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেট ব্যথার সাথে মনে হয় পেটের ভেতরটা বরফ হয়ে আছে।",
+        "mid": "abdominal_pain_ice_cold_inside"
+      },
+      {
+        "text": "পেটে তীব্র জ্বালাপোড়া হয়।",
+        "mid": "burning_abdomen"
+      },
+      {
+        "text": "পেটে কোনো ব্যথা বা অস্বস্তি নেই।",
+        "mid": "no_abdominal_pain"
+      },
+      {
+        "text": "পেটে হালকা উষ্ণতা অনুভূত হয়।",
+        "mid": "mild_warmth_in_abdomen"
+      }
+    ],
+    "answer": "abdominal_pain_ice_cold_inside",
+    "explanation": "Veratrum Album-এ পেট ব্যথার সাথে মনে হয় পেটের ভেতরটা বরফ হয়ে আছে。[reference:10]"
+  },
+  {
+    "id": "verat-med-12",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মলত্যাগের পর চরম দুর্বলতা অনুভব করা।",
+        "mid": "extreme_weakness_after_stool"
+      },
+      {
+        "text": "মলত্যাগের পর শক্তি বৃদ্ধি পাওয়া।",
+        "mid": "increased_energy_after_stool"
+      },
+      {
+        "text": "মলত্যাগের পর কোনো পরিবর্তন হয় না।",
+        "mid": "no_change_after_stool"
+      },
+      {
+        "text": "মলত্যাগের আগে দুর্বলতা, পরে আরাম।",
+        "mid": "weakness_before_stool_relief_after"
+      }
+    ],
+    "answer": "extreme_weakness_after_stool",
+    "explanation": "Veratrum Album-এ মলত্যাগের পর চরম দুর্বলতা অনুভব করা হয়。[reference:11]"
+  },
+  {
+    "id": "verat-med-13",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হার্টের দুর্বলতা এবং অল্প নড়াচড়াতেও দমবন্ধ ভাব বা মূর্ছা যাওয়ার অবস্থা।",
+        "mid": "heart_weakness_dyspnea_fainting_on_slight_motion"
+      },
+      {
+        "text": "হার্ট শক্তিশালী এবং নড়াচড়ায় কোনো সমস্যা নেই।",
+        "mid": "strong_heart_no_problem_on_motion"
+      },
+      {
+        "text": "শুধুমাত্র বিশ্রামে দমবন্ধ ভাব।",
+        "mid": "dyspnea_only_at_rest"
+      },
+      {
+        "text": "হার্টের কোনো দুর্বলতা নেই।",
+        "mid": "no_heart_weakness"
+      }
+    ],
+    "answer": "heart_weakness_dyspnea_fainting_on_slight_motion",
+    "explanation": "Veratrum Album-এ হার্টের দুর্বলতা এবং অল্প নড়াচড়াতেও দমবন্ধ ভাব বা মূর্ছা যাওয়ার অবস্থা হয়。[reference:12]"
+  },
+  {
+    "id": "verat-med-14",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথা ঘোরা যা নড়াচড়া করলে বা মাথা তুললে বৃদ্ধি পায় এবং মাথার তালু বরফের মতো ঠান্ডা থাকে।",
+        "mid": "vertigo_worse_motion_rising_cold_vertex"
+      },
+      {
+        "text": "মাথা ঘোরা যা শুয়ে থাকলে বাড়ে।",
+        "mid": "vertigo_worse_lying_down"
+      },
+      {
+        "text": "মাথার তালু গরম থাকে।",
+        "mid": "hot_vertex"
+      },
+      {
+        "text": "মাথা ঘোরা কোনো অবস্থাতেই বাড়ে না।",
+        "mid": "no_vertigo_aggravation"
+      }
+    ],
+    "answer": "vertigo_worse_motion_rising_cold_vertex",
+    "explanation": "Veratrum Album-এ মাথা ঘোরা হয় যা নড়াচড়া করলে বা মাথা তুললে বৃদ্ধি পায়; মাথার তালু বরফের মতো ঠান্ডা থাকে。[reference:13]"
+  },
+  {
+    "id": "verat-med-15",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঋতুস্রাবের সময় প্রচণ্ড পেট ব্যথা এবং সাথে বমি ও শীতল ঘাম।",
+        "mid": "dysmenorrhea_with_vomiting_cold_sweat"
+      },
+      {
+        "text": "ঋতুস্রাবের সময় কোনো ব্যথা বা বমি হয় না।",
+        "mid": "no_pain_or_vomiting_during_menses"
+      },
+      {
+        "text": "ঋতুস্রাবের সময় শুধুমাত্র পেট ব্যথা, বমি নেই।",
+        "mid": "only_abdominal_pain_no_vomiting"
+      },
+      {
+        "text": "ঋতুস্রাবের সময় গরম ঘাম হয়।",
+        "mid": "warm_sweat_during_menses"
+      }
+    ],
+    "answer": "dysmenorrhea_with_vomiting_cold_sweat",
+    "explanation": "Veratrum Album-এ ঋতুস্রাবের সময় প্রচণ্ড পেট ব্যথা এবং সাথে বমি ও শীতল ঘাম হয়。[reference:14]"
+  },
+  {
+    "id": "verat-med-16",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় নড়াচড়া করলে, খাওয়ার পর, মলত্যাগের সময় এবং গরমে।",
+        "mid": "aggravation_motion_after_eating_during_stool_heat"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় নড়াচড়ায়, খাওয়ার পর এবং গরমে।",
+        "mid": "amelioration_motion_after_eating_heat"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় বিশ্রামে এবং ঠান্ডায়।",
+        "mid": "aggravation_rest_cold"
+      },
+      {
+        "text": "নড়াচড়া বা খাওয়ার সাথে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_motion_food"
+      }
+    ],
+    "answer": "aggravation_motion_after_eating_during_stool_heat",
+    "explanation": "Veratrum Album-এর লক্ষণ নড়াচড়া করলে, খাওয়ার পর, মলত্যাগের সময় এবং গরমে বৃদ্ধি পায়。[reference:15]"
+  },
+  {
+    "id": "verat-med-17",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় হাঁটলে।",
+        "mid": "amelioration_from_walking"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় হাঁটলে।",
+        "mid": "aggravation_from_walking"
+      },
+      {
+        "text": "হাঁটার সাথে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_with_walking"
+      },
+      {
+        "text": "শুধুমাত্র দৌড়ালে উপশম হয়।",
+        "mid": "amelioration_only_from_running"
+      }
+    ],
+    "answer": "amelioration_from_walking",
+    "explanation": "Veratrum Album-এর লক্ষণ হাঁটলে উপশম হয়。[reference:16]"
+  },
+  {
+    "id": "verat-med-18",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "এটি কলেরা বা ওলাউঠা রোগের একটি প্রধান ঔষধ।",
+        "mid": "chief_remedy_for_cholera"
+      },
+      {
+        "text": "এটি শুধুমাত্র সর্দি-কাশির ঔষধ।",
+        "mid": "only_for_cold_cough"
+      },
+      {
+        "text": "এটি শুধুমাত্র ত্বকের চর্মরোগের ঔষধ।",
+        "mid": "only_for_skin_diseases"
+      },
+      {
+        "text": "এটি কোনো সংক্রামক রোগে কাজ করে না।",
+        "mid": "no_effect_on_infectious_diseases"
+      }
+    ],
+    "answer": "chief_remedy_for_cholera",
+    "explanation": "Veratrum Album কলেরা বা ওলাউঠা রোগের একটি প্রধান ঔষধ。[reference:17]"
+  },
+  {
+    "id": "verat-med-19",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের ভেতরে জ্বালা অনুভূত হয় কিন্তু বাইরে থেকে শরীর ঠান্ডা।",
+        "mid": "burning_internally_cold_externally"
+      },
+      {
+        "text": "শরীরের ভেতরে এবং বাইরে উভয়ই ঠান্ডা।",
+        "mid": "cold_internally_and_externally"
+      },
+      {
+        "text": "শরীরের ভেতরে এবং বাইরে উভয়ই গরম।",
+        "mid": "hot_internally_and_externally"
+      },
+      {
+        "text": "শরীরের ভেতরে ঠান্ডা কিন্তু বাইরে গরম।",
+        "mid": "cold_internally_hot_externally"
+      }
+    ],
+    "answer": "burning_internally_cold_externally",
+    "explanation": "Veratrum Album-এ শরীরের ভেতরে জ্বালা অনুভূত হয় কিন্তু বাইরে থেকে শরীর ঠান্ডা থাকে。[reference:18]"
+  },
+  {
+    "id": "verat-med-20",
+    "stem": "নিচের কোনটি Veratrum Album-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সামান্য পরিশ্রমেই নাড়ি অত্যন্ত ক্ষীণ ও দ্রুত হয় এবং হাত-পা নীল হয়ে যায়।",
+        "mid": "weak_rapid_pulse_cyanosis_on_slight_exertion"
+      },
+      {
+        "text": "নাড়ি শক্তিশালী এবং হাত-পা গোলাপি।",
+        "mid": "strong_pulse_pink_extremities"
+      },
+      {
+        "text": "নাড়ি ধীর এবং হাত-পা লাল।",
+        "mid": "slow_pulse_red_extremities"
+      },
+      {
+        "text": "নাড়ি বা ত্বকের রঙে কোনো পরিবর্তন হয় না।",
+        "mid": "no_change_in_pulse_or_skin_color"
+      }
+    ],
+    "answer": "weak_rapid_pulse_cyanosis_on_slight_exertion",
+    "explanation": "Veratrum Album-এ নাড়ি অত্যন্ত ক্ষীণ ও দ্রুত হয়, হাত-পা নীল হয়ে যায় এবং শরীর হিমাঙ্গ বা অত্যন্ত শীতল হয়ে পড়ে。[reference:19]"
+  }
+]

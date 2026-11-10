@@ -1,0 +1,481 @@
+[
+{
+"id": "argn-med-01",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগী সবসময় তাড়াহুড়ো করে এবং মনে করে সময় খুব ধীরে চলছে",
+"mid": "sym-hurry-time-slow"
+},
+{
+"text": "হাতের তালু এবং আঙুলে শুষ্ক, খসখসে উদ্ভেদ ও ফেটে যাওয়ার প্রবণতা",
+"mid": "sym-palms-dry-skin"
+},
+{
+"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম",
+"mid": "sym-fever-fear"
+},
+{
+"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য",
+"mid": "sym-heavy-belly"
+}
+],
+"answer": "sym-hurry-time-slow",
+"explanation": "Argentum Nitricum-এর প্রধান লক্ষণ হলো রোগী সবসময় তাড়াহুড়ো করে এবং সে মনে করে সময় খুব ধীরে চলছে (Time passes too slowly)।"
+},
+{
+"id": "argn-med-02",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "গুরুত্বপূর্ণ ঘটনার আগে উৎকণ্ঠা ও শঙ্কা এবং এর ফলে ডায়রিয়া হওয়া",
+"mid": "sym-anticipation-diarrhea"
+},
+{
+"text": "জল স্পর্শ করলে বা জলে হাত দিলে চর্মরোগ বা কষ্ট বৃদ্ধি পাওয়া",
+"mid": "sym-water-aggravation"
+},
+{
+"text": "গরম জলের শেক দিলে চর্মরোগের জ্বালা সম্পূর্ণ নিবারণ হওয়া",
+"mid": "sym-warm-water-relief"
+},
+{
+"text": "ঘাম হলে সারা শরীরের চুলকানি তৎক্ষণাৎ কমে যাওয়া",
+"mid": "sym-sweat-relief"
+}
+],
+"answer": "sym-anticipation-diarrhea",
+"explanation": "Argentum Nitricum-এ গুরুত্বপূর্ণ ঘটনা, পরীক্ষা বা ইন্টারভ্যুর আগে রোগী প্রচণ্ড উদ্বিগ্ন হয় এবং এর ফলে ডায়রিয়া দেখা দেয়।"
+},
+{
+"id": "argn-med-03",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মিষ্টি খেতে খুব পছন্দ করা, কিন্তু মিষ্টি খেলে পেটের সমস্যা বেড়ে যাওয়া",
+"mid": "sym-sweet-craving-agg"
+},
+{
+"text": "শরীরের বিভিন্ন স্থানে, বিশেষ করে আঙুলের ভাঁজে প্রচণ্ড চুলকানি ও সুড়সুড়ি",
+"mid": "sym-itching-fingers"
+},
+{
+"text": "রাতের বেলা বিছানায় গেলে সারা গায়ে পিঁপড়ে হাঁটার মতো অনুভূতি",
+"mid": "sym-ants-crawling"
+},
+{
+"text": "সকালে ঘুম থেকে উঠেই সর্বাঙ্গে তীব্র হুল ফোটার মতো ব্যথা",
+"mid": "sym-stabbing-pain"
+}
+],
+"answer": "sym-sweet-craving-agg",
+"explanation": "Argentum Nitricum-এর অন্যতম মূল লক্ষণ হলো রোগী মিষ্টি খেতে অত্যন্ত পছন্দ করে, কিন্তু মিষ্টি খেলে তার পেটের সমস্যা বা অসুখ বেড়ে যায়।"
+},
+{
+"id": "argn-med-04",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "পেটে প্রচুর বায়ু জমে এবং তা সশব্দে ও তীব্র বেগে ঢেকুর আকারে বেরিয়ে আসা",
+"mid": "sym-loud-belching"
+},
+{
+"text": "প্রস্রাব ত্যাগের সময় এবং পরে লিঙ্গমুণ্ডে প্রচণ্ড জ্বালা ও সুড়সুড়ি হওয়া",
+"mid": "sym-urinary-burning"
+},
+{
+"text": "প্রস্রাবের বেগ আটকে রাখলে মূত্রথলিতে তীব্র সংকোচন ব্যথা",
+"mid": "sym-bladder-spasm"
+},
+{
+"text": "প্রস্রাবের রঙ কুচকুচে কালো ও দুর্গন্ধযুক্ত হওয়া",
+"mid": "sym-dark-urine"
+}
+],
+"answer": "sym-loud-belching",
+"explanation": "Argentum Nitricum-এ পেটে প্রচুর বায়ু জমে এবং তা সশব্দে ও তীব্র বেগে ঢেকুর (Belching) আকারে বেরিয়ে আসে।"
+},
+{
+"id": "argn-med-05",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "গলায় বা ক্ষতের স্থানে মাছের কাঁটা বা ফালি বিঁধে আছে এমন অনুভূতি হওয়া",
+"mid": "sym-splinter-throat"
+},
+{
+"text": "প্রস্রাবের ধারা অনেক সময় দ্বিখণ্ডিত বা দুই ভাগে বিভক্ত হওয়া",
+"mid": "sym-split-stream"
+},
+{
+"text": "প্রস্রাব করার সময় তলপেটে প্রচণ্ড চাপ ও ব্যথা অনুভূত হওয়া",
+"mid": "sym-pelvic-pressure"
+},
+{
+"text": "সারাদিনে মাত্র একবার অত্যন্ত স্বল্প পরিমাণে প্রস্রাব হওয়া",
+"mid": "sym-scanty-urine"
+}
+],
+"answer": "sym-splinter-throat",
+"explanation": "Argentum Nitricum-এ গলায় বা ক্ষতের স্থানে মনে হয় যেন একটা মাছের কাঁটা বা ফালি বিঁধে আছে (Splinter-like sensation)।"
+},
+{
+"id": "argn-med-06",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "উঁচু দালান ভেঙে পড়বে বা উঁচু স্থান থেকে পড়ে যাওয়ার অমূলক ভয় থাকা",
+"mid": "sym-fear-heights"
+},
+{
+"text": "রোগী মানসিকভাবে বেশ প্রফুল্ল থাকে এবং প্রচুর কথা বলতে পছন্দ করে",
+"mid": "sym-liveliness-talkative"
+},
+{
+"text": "কাউের সাথে কথা না বলে সারাদিন চুপচাপ একা বসে থাকা",
+"mid": "sym-silent-depression"
+},
+{
+"text": "কথা বলার সময় বারবার শব্দ ভুলে যাওয়া ও বিভ্রান্ত হওয়া",
+"mid": "sym-confusion-speech"
+}
+],
+"answer": "sym-fear-heights",
+"explanation": "Argentum Nitricum-এর মানসিক লক্ষণে রোগী উঁচু দালান ভেঙে পড়বে কিংবা উঁচু স্থান থেকে পড়ে যাওয়ার মতো আজব আশঙ্কায় ভোগে।"
+},
+{
+"id": "argn-med-07",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "চোখ দিয়ে প্রচুর ঘন, হলদেটে পুঁজ নির্গত হওয়া",
+"mid": "sym-thick-yellow-pus-eyes"
+},
+{
+"text": "ত্বকে শক্ত ও শুষ্ক আঁচিল যা থেকে রক্তপাত হয়",
+"mid": "sym-hard-bleeding-warts"
+},
+{
+"text": "পায়ের তালুতে বেদনাদায়ক কড়া বা কর্ন হওয়া",
+"mid": "sym-corns-feet"
+},
+{
+"text": "ত্বকে বাদামী রঙের মেচেতা বা তিল ভেসে ওঠা",
+"mid": "sym-brown-spots"
+}
+],
+"answer": "sym-thick-yellow-pus-eyes",
+"explanation": "Argentum Nitricum-এর চোখ সংক্রান্ত লক্ষণে চোখ থেকে প্রচুর পরিমাণে ঘন, হলদেটে পুঁজ নির্গত হয়।"
+},
+{
+"id": "argn-med-08",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মল সবুজ রঙের (সিদ্ধ করা পালং শাকের মতো) এবং বায়ুসহ নির্গত হওয়া",
+"mid": "sym-green-stool"
+},
+{
+"text": "ঘাড়ে ও পেছনের মাথায় ভারী বস্তু চাপা থাকার মতো অনুভূতি",
+"mid": "sym-heavy-occiput"
+},
+{
+"text": "মাথা ঘোরার সাথে বমি ভাব এবং চারপাশ ঘুরে যাওয়া",
+"mid": "sym-vertigo-nausea"
+},
+{
+"text": "রোদের মধ্যে গেলে কপালে সূঁচ ফোটার মতো তীব্র ব্যথা",
+"mid": "sym-sun-headache-needle"
+}
+],
+"answer": "sym-green-stool",
+"explanation": "Argentum Nitricum-এ মিষ্টি খাওয়ার পর ডায়রিয়া হয় এবং মল সবুজ রঙের (সিদ্ধ করা পালং শাকের মতো) ও বায়ুসহ নির্গত হয়।"
+},
+{
+"id": "argn-med-09",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "খোলা বাতাসে (Open air) উপসর্গের উপশম হওয়া",
+"mid": "sym-open-air-amelioration"
+},
+{
+"text": "চা পান করার সাথে সাথে পেটের গ্যাস বৃদ্ধি পাওয়া",
+"mid": "sym-tea-gas"
+},
+{
+"text": "মিষ্টি জাতীয় খাবার খেলে মাথাব্যথা তীব্র হওয়া",
+"mid": "sym-sweet-headache"
+},
+{
+"text": "দুধ ও ল্যাকটিক খাবার খেলে বমি ভাব হওয়া",
+"mid": "sym-milk-nausea"
+}
+],
+"answer": "sym-open-air-amelioration",
+"explanation": "Argentum Nitricum-এ খোলা বাতাসে (Open air) গেলে শারীরিক ও মানসিক উপসর্গের যথেষ্ট উপশম পাওয়া যায়।"
+},
+{
+"id": "argn-med-10",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "খনিজ (Silver Nitrate / Lunar Caustic) উৎস থেকে প্রস্তুত হওয়া",
+"mid": "sym-mineral-source"
+},
+{
+"text": "মৌমাছির হুল থেকে সংগৃহীত বিষাক্ত উপাদান",
+"mid": "sym-bee-poison"
+},
+{
+"text": "উদ্ভিদ জগত থেকে সংগৃহীত একটি সুনির্দিষ্ট লতা",
+"mid": "sym-plant-vine"
+},
+{
+"text": "সাপের বিষ থেকে প্রস্তুত হোমিওপ্যাথিক টিংচার",
+"mid": "sym-snake-venom"
+}
+],
+"answer": "sym-mineral-source",
+"explanation": "Argentum Nitricum খনিজ (Silver Nitrate / Lunar Caustic) থেকে প্রস্তুত একটি অত্যন্ত গুরুত্বপূর্ণ হোমিওপ্যাথিক ঔষধ।"
+},
+{
+"id": "argn-med-11",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "গরমকাতর (Hot patient) প্রকৃতির রোগী হওয়া",
+"mid": "sym-hot-patient"
+},
+{
+"text": "শীতকাতর (Chilly) প্রকৃতির রোগী হওয়া",
+"mid": "sym-chilly-patient"
+},
+{
+"text": "উভয় আবহাওয়াতেই সমানভাবে সহ্য ক্ষমতা থাকা",
+"mid": "sym-ambithermal"
+},
+{
+"text": "অতিরিক্ত গরমে ও শীতে উভয়তেই অসুস্থ হওয়া",
+"mid": "sym-extreme-weather"
+}
+],
+"answer": "sym-hot-patient",
+"explanation": "Argentum Nitricum হলো গরমকাতর (Hot patient) প্রকৃতির একটি হোমিওপ্যাথিক ঔষধ।"
+},
+{
+"id": "argn-med-12",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শরীরের প্রধানত বাম পার্শ্বে (Left side) বেশি ক্রিয়াশীল হওয়া",
+"mid": "sym-left-side"
+},
+{
+"text": "ডান পাশের ফুসফুস ও কানকে বেশি আক্রান্ত করা",
+"mid": "sym-right-side"
+},
+{
+"text": "শরীরের উভয় পাশে সমানভাবে লক্ষণ প্রকাশ করা",
+"mid": "sym-bilateral"
+},
+{
+"text": "মুখের কেবল ডান অংশে ব্যথা সীমাবদ্ধ থাকা",
+"mid": "sym-right-face"
+}
+],
+"answer": "sym-left-side",
+"explanation": "Argentum Nitricum-এর লক্ষণগুলো প্রধানত শরীরের বাম পার্শ্বে (Left side) বেশি ক্রিয়াশীল ও প্রকাশ পায়।"
+},
+{
+"id": "argn-med-13",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "সোরিক, সাইকোটিক ও সিফিলিটিক (Mixed) মায়াজমের অন্তর্ভুক্ত হওয়া",
+"mid": "sym-mixed-miasm"
+},
+{
+"text": "শুধুমাত্র সিফিলিস মায়াজমের ধ্বংসাত্মক ক্ষত সৃষ্টি করা",
+"mid": "sym-syphilis-miasm"
+},
+{
+"text": "সাইকোটিক মায়াজমের টিউমার গঠন করা",
+"mid": "sym-sycotic-miasm"
+},
+{
+"text": "টিউবারকুলার মায়াজমের দ্রুত ক্ষয় রোগ ঘটানো",
+"mid": "sym-tubercular-miasm"
+}
+],
+"answer": "sym-mixed-miasm",
+"explanation": "Argentum Nitricum সোরিক, সাইকোটিক ও সিফিলিটিক—এই তিনটি মায়াজমের মিশ্রণে (Mixed miasm) কাজ করে।"
+},
+{
+"id": "argn-med-14",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "পেট ফুলে ঢোল হয়ে থাকা এবং ঢেকুর তুললে সাময়িক আরাম পাওয়া",
+"mid": "sym-stomach-bloated-belch"
+},
+{
+"text": "পাকস্থলীতে তীব্র জ্বালাপোড়া ও ঘা হয়ে যাওয়ার অনুভূতি",
+"mid": "sym-stomach-ulcer"
+},
+{
+"text": "নাভির চারপাশে সুচালো ব্যথা যা ভাজ হলে কমে",
+"mid": "sym-navel-colic"
+},
+{
+"text": "কোষ্ঠকাঠিন্যের সাথে পেটে পাথর জমার মতো ভারী বোধ",
+"mid": "sym-stone-belly"
+}
+],
+"answer": "sym-stomach-bloated-belch",
+"explanation": "Argentum Nitricum-এর পাকস্থলীতে পেট ফুলে ঢোল হয়ে থাকে এবং ঢেকুর তুললে রোগী সাময়িক আরাম পায়।"
+},
+{
+"id": "argn-med-15",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "Natrum Mur-এর সাথে গভীর পরিপূরক সম্পর্ক থাকা",
+"mid": "sym-complementary-nat-mur"
+},
+{
+"text": "Aconite ও Belladonna-এর সাথে হুবহু মিলে যাওয়া",
+"mid": "sym-aconite-match"
+},
+{
+"text": "Nux Vomica-এর সম্পূর্ণ বিপরীত ক্রিয়া দেখানো",
+"mid": "sym-nux-opposite"
+},
+{
+"text": "Arsenicum Album-এর পরিপূরক হিসেবে কাজ করা",
+"mid": "sym-arsenic-complement"
+}
+],
+"answer": "sym-complementary-nat-mur",
+"explanation": "Argentum Nitricum-এর পরিপূরক (Complementary) ঔষধ হলো Natrum Mur, যার সাথে এর গভীর সম্পর্ক রয়েছে।"
+},
+{
+"id": "argn-med-16",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মানসিক লক্ষণের প্রাধান্য থাকলে ২০০ বা তার উচ্চ শক্তি বিরল মাত্রায় কার্যকর",
+"mid": "sym-high-potency-mental"
+},
+{
+"text": "শুধুমাত্র ১x বা মাদার টিংচারে একক মাত্রা প্রয়োগ করা",
+"mid": "sym-mother-tincture-only"
+},
+{
+"text": "কেবলমাত্র ৫০ মিলিেসিমাল শক্তিতে ব্যবহার বাধ্যতামূলক",
+"mid": "sym-lm-potency"
+},
+{
+"text": "উচ্চ শক্তিতে শুধুমাত্র চর্মরোগের জন্য নির্ধারিত",
+"mid": "sym-skin-high"
+}
+],
+"answer": "sym-high-potency-mental",
+"explanation": "Argentum Nitricum-এ মানসিক লক্ষণের প্রাধান্য থাকলে ২০০ বা তার উচ্চ শক্তি (১M) বিরল মাত্রায় অধিক কার্যকর হয়।"
+},
+{
+"id": "argn-med-17",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "সঙ্গমের চিন্তা করলেই পুরুষাঙ্গ বা লিঙ্গ শিথিল হয়ে যাওয়া",
+"mid": "sym-sexual-weakness"
+},
+{
+"text": "সারাদিন প্রচণ্ড কান্নাকাটি করা ও কাউকে কাছে না ঘেঁষতে দেওয়া",
+"mid": "sym-weeping-mood"
+},
+{
+"text": "সবসময় ভয় পাওয়া যে তার বড় কোনো মারাত্মক রোগ হয়েছে",
+"mid": "sym-hypochondriasis"
+},
+{
+"text": "কারো সাথে মিশতে না পেরে গভীর কোণঠাসা জীবন কাটানো",
+"mid": "sym-isolation"
+}
+],
+"answer": "sym-sexual-weakness",
+"explanation": "Argentum Nitricum-এর পুরুষ জননেন্দ্রিয় লক্ষণে ধ্বজভঙ্গ বা যৌন অক্ষমতা দেখা যায়, যেখানে সঙ্গমের কথা চিন্তা করলেই লিঙ্গ শিথিল হয়ে যায়।"
+},
+{
+"id": "argn-med-18",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "স্মৃতিশক্তি অত্যন্ত দুর্বল এবং মানসিকভাবে সবসময় ক্লান্ত থাকা",
+"mid": "sym-memory-weakness"
+},
+{
+"text": "অতিরিক্ত আনন্দে আত্মহারা হয়ে রাতভর গান গাওয়া",
+"mid": "sym-overjoyed"
+},
+{
+"text": "স্মৃতিশক্তি সম্পূর্ণ লোপ পাওয়া এবং কাউকে চিনতে না পারা",
+"mid": "sym-memory-loss"
+},
+{
+"text": "ঘুমের মধ্যে হেঁটে বেড়ানো এবং অদ্ভুত স্বপ্ন দেখা",
+"mid": "sym-somnambulism"
+}
+],
+"answer": "sym-memory-weakness",
+"explanation": "Argentum Nitricum-এর মানসিক লক্ষণে রোগীর স্মৃতিশক্তি অত্যন্ত দুর্বল থাকে এবং সে মানসিকভাবে সবসময় ক্লান্ত বোধ করে।"
+},
+{
+"id": "argn-med-19",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "জোরে চাপ দিলে (Hard pressure) শারীরিক ব্যথার উপশম হওয়া",
+"mid": "sym-hard-pressure-relief"
+},
+{
+"text": "চলাফেরা করলে সমস্ত ব্যথা ও চুলকানি ম্যাজিকের মতো গায়েব হওয়া",
+"mid": "sym-motion-relief"
+},
+{
+"text": "দৌড়াদৌড়ি করলে শরীরের স্নায়বিক দুর্বলতা দূর হওয়া",
+"mid": "sym-running-relief"
+},
+{
+"text": "উচিৎ কাজ করার সময় শুয়ে থাকলে কষ্ট বৃদ্ধি পাওয়া",
+"mid": "sym-lying-worse"
+}
+],
+"answer": "sym-hard-pressure-relief",
+"explanation": "Argentum Nitricum-এ জোরে চাপ দিলে (Hard pressure) বিভিন্ন শারীরিক ব্যথার উপশম লক্ষ্য করা যায়।"
+},
+{
+"id": "argn-med-20",
+"stem": "নিচের কোনটি Argentum Nitricum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বাম কাতে শুলে হার্টবিট শুরু হওয়া বা সমস্যা বৃদ্ধি পাওয়া",
+"mid": "sym-left-side-lying-worse"
+},
+{
+"text": "পেট খালি থাকলে পেটে প্রচণ্ড মোচড়ানো ব্যথা শুরু হওয়া",
+"mid": "sym-empty-stomach-pain"
+},
+{
+"text": "খাওয়ার পরপরই বমি হয়ে সমস্ত ক্লান্তি দূর হওয়া",
+"mid": "sym-vomiting-relief"
+},
+{
+"text": "ভারী খাবার খাওয়ার পর মনের জোর বৃদ্ধি পাওয়া",
+"mid": "sym-heavy-food-energy"
+}
+],
+"answer": "sym-left-side-lying-worse",
+"explanation": "Argentum Nitricum-এর রোগীর অন্যতম লক্ষণ হলো সে বামপাশে শুইতে পারে না, শুলেই হার্টবিট বা বুক ধড়ফড় শুরু হয়।"
+},

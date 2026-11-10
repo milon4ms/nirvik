@@ -1,0 +1,484 @@
+
+[
+  {
+    "id": "colch-med-01",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রান্না করা খাবার, বিশেষ করে মাছ বা মাংসের গন্ধে প্রচণ্ড বমি ভাব এবং অজ্ঞান হয়ে যাওয়ার মতো অবস্থা।",
+        "mid": "nausea_from_smell_of_cooking_food"
+      },
+      {
+        "text": "খাবারের গন্ধে ক্ষুধা বৃদ্ধি এবং বেশি খাওয়ার প্রবণতা।",
+        "mid": "increased_appetite_from_food_smell"
+      },
+      {
+        "text": "শুধুমাত্র মিষ্টি খাবারের গন্ধে বমি ভাব।",
+        "mid": "nausea_only_from_sweet_smell"
+      },
+      {
+        "text": "খাবারের গন্ধে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_food_smell"
+      }
+    ],
+    "answer": "nausea_from_smell_of_cooking_food",
+    "explanation": "Colchicum-এর সবচেয়ে শক্তিশালী লক্ষণ হলো রান্না করা খাবারের গন্ধে, বিশেষ করে মাছ বা মাংসের গন্ধে প্রচণ্ড বমি ভাব হয় এবং রোগী অজ্ঞান হয়ে যেতে পারে।"
+  },
+  {
+    "id": "colch-med-02",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়ের বুড়ো আঙুলের গিঁট ফুলে লাল হয়ে যাওয়া এবং প্রচণ্ড ব্যথা, যা সামান্য স্পর্শ বা নাড়াচাড়ায় অসহনীয় হয়ে ওঠে।",
+        "mid": "gout_big_toe_swollen_red_intolerable_touch"
+      },
+      {
+        "text": "হাতের আঙুলের গিঁটে ব্যথা যা চাপ দিলে উপশম হয়।",
+        "mid": "finger_joint_pain_relieved_by_pressure"
+      },
+      {
+        "text": "কাঁধের গিঁটে ব্যথা যা গরম সেঁক পেলে বাড়ে।",
+        "mid": "shoulder_joint_pain_aggravated_by_warmth"
+      },
+      {
+        "text": "হাঁটুর গিঁটে ফোলা কিন্তু ব্যথা নেই।",
+        "mid": "knee_joint_swelling_painless"
+      }
+    ],
+    "answer": "gout_big_toe_swollen_red_intolerable_touch",
+    "explanation": "Colchicum গেঁটে বাতের জন্য একটি প্রধান ঔষধ, বিশেষত পায়ের বুড়ো আঙুলের গিঁট ফুলে লাল হয়ে যাওয়া এবং প্রচণ্ড ব্যথায় সামান্য স্পর্শও অসহনীয় হয়।"
+  },
+  {
+    "id": "colch-med-03",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ব্যথা এক গিঁট থেকে অন্য গিঁটে বা এক অঙ্গ থেকে অন্য অঙ্গে ঘুরে বেড়ায় (Shifting pains)।",
+        "mid": "shifting_pains_joints_organs"
+      },
+      {
+        "text": "ব্যথা সর্বদা একই স্থানে স্থির থাকে।",
+        "mid": "fixed_pain_single_location"
+      },
+      {
+        "text": "ব্যথা শুধুমাত্র বাম দিকে থাকে।",
+        "mid": "pain_only_left_sided"
+      },
+      {
+        "text": "ব্যথা একই সাথে সব অঙ্গে অনুভূত হয়।",
+        "mid": "simultaneous_pain_all_organs"
+      }
+    ],
+    "answer": "shifting_pains_joints_organs",
+    "explanation": "Colchicum-এর বাতের ব্যথা গাট থেকে গাটে, একস্থান থেকে অন্য স্থানে ভ্রমণ করে (Shifting pains)।"
+  },
+  {
+    "id": "colch-med-04",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটে প্রচুর গ্যাস জমে এবং মনে হয় পেট ফেটে যাবে, যা টাইফয়েড বা আমাশয়ের পরবর্তী পেট ফাঁপায় খুব কার্যকর।",
+        "mid": "abdominal_distension_after_typhoid_dysentery"
+      },
+      {
+        "text": "পেটে হালকা অস্বস্তি কিন্তু কোনো গ্যাস বা ফোলা নেই।",
+        "mid": "mild_abdominal_discomfort_no_gas"
+      },
+      {
+        "text": "পেট শুকনো ও কঠিন, গ্যাস নেই।",
+        "mid": "dry_hard_abdomen_no_gas"
+      },
+      {
+        "text": "পেটে ব্যথা যা খালি পেটে উপশম হয়।",
+        "mid": "abdominal_pain_relieved_by_empty_stomach"
+      }
+    ],
+    "answer": "abdominal_distension_after_typhoid_dysentery",
+    "explanation": "Colchicum-এ পেটে প্রচুর গ্যাস জমে এবং মনে হয় পেট ফেটে যাবে; এটি টাইফয়েড বা আমাশয়ের পরবর্তী পেট ফাঁপায় খুব কার্যকর।"
+  },
+  {
+    "id": "colch-med-05",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "আমাশয় যেখানে মলত্যাগের সময় অত্যন্ত কুঁথুনি থাকে এবং মলের সাথে সাদা শ্লেষ্মা নির্গত হয়।",
+        "mid": "dysentery_tenesmus_white_mucus"
+      },
+      {
+        "text": "উদারাময় যেখানে মল সম্পূর্ণ জলীয় এবং কোনো শ্লেষ্মা নেই।",
+        "mid": "watery_diarrhea_no_mucus"
+      },
+      {
+        "text": "কোষ্ঠকাঠিন্য যেখানে মল শুষ্ক ও কঠিন।",
+        "mid": "constipation_dry_hard_stool"
+      },
+      {
+        "text": "মলে অপরিপক্ক খাদ্যকণা।",
+        "mid": "undigested_food_stool"
+      }
+    ],
+    "answer": "dysentery_tenesmus_white_mucus",
+    "explanation": "Colchicum-এ আমাশয় হয় যেখানে মলত্যাগের সময় অত্যন্ত কুঁথুনি (Tenesmus) থাকে এবং মলের সাথে সাদা শ্লেষ্মা নির্গত হয়।"
+  },
+  {
+    "id": "colch-med-06",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাব অত্যন্ত কম হয়, কালচে রঙের এবং প্রস্রাবে কালচে গুঁড়োর মতো তলানি পড়ে।",
+        "mid": "scanty_dark_urine_sediment"
+      },
+      {
+        "text": "প্রস্রাব প্রচুর পরিমাণে এবং পরিষ্কার হয়।",
+        "mid": "profuse_clear_urine"
+      },
+      {
+        "text": "প্রস্রাবের সাথে রক্ত যায় কিন্তু ব্যথা নেই।",
+        "mid": "painless_hematuria"
+      },
+      {
+        "text": "প্রস্রাব ঘন ঘন হয় এবং হালকা রঙের।",
+        "mid": "frequent_light_colored_urine"
+      }
+    ],
+    "answer": "scanty_dark_urine_sediment",
+    "explanation": "Colchicum-এ প্রস্রাব অত্যন্ত কম হয়, কালচে রঙের এবং প্রস্রাবে কালচে গুঁড়োর মতো তলানি পড়ে।"
+  },
+  {
+    "id": "colch-med-07",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হার্টের চারপাশের ঝিল্লিতে প্রদাহ (Pericarditis) এবং নাড়ির গতি অত্যন্ত দ্রুত ও দুর্বল।",
+        "mid": "pericarditis_rapid_weak_pulse"
+      },
+      {
+        "text": "হার্টের ভেতরের আস্তরণে প্রদাহ (Endocarditis) প্রধান।",
+        "mid": "endocarditis_main"
+      },
+      {
+        "text": "নাড়ি ধীর এবং শক্ত।",
+        "mid": "slow_strong_pulse"
+      },
+      {
+        "text": "হার্টের কোনো প্রদাহ নেই কিন্তু ধড়ফড়ানি আছে।",
+        "mid": "palpitation_no_inflammation"
+      }
+    ],
+    "answer": "pericarditis_rapid_weak_pulse",
+    "explanation": "Colchicum-এ হার্টের চারপাশের ঝিল্লিতে প্রদাহ (Pericarditis) হয়, নাড়ির গতি অত্যন্ত দ্রুত এবং দুর্বল থাকে।"
+  },
+  {
+    "id": "colch-med-08",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী যন্ত্রণার কারণে অত্যন্ত খিটখিটে এবং বিরক্ত থাকে, সামান্য কারণেই কান্নাকাটি করে।",
+        "mid": "irritable_tearful_from_pain"
+      },
+      {
+        "text": "রোগী অতিরিক্ত শান্ত ও ধৈর্যশীল থাকে।",
+        "mid": "calm_and_patient"
+      },
+      {
+        "text": "রোগী হাসিখুশি ও প্রফুল্ল থাকে।",
+        "mid": "cheerful_and_happy"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ নির্বিকার ও উদাসীন।",
+        "mid": "apathetic_indifferent"
+      }
+    ],
+    "answer": "irritable_tearful_from_pain",
+    "explanation": "Colchicum-এ যন্ত্রণার কারণে রোগী অত্যন্ত খিটখিটে ও বিরক্ত থাকে এবং সামান্য কারণেই কান্নাকাটি করে।"
+  },
+  {
+    "id": "colch-med-09",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "আলো, শব্দ, কড়া গন্ধ বা স্পর্শে রোগী অত্যন্ত সংবেদনশীল (Hypersensitive) হয়ে পড়ে।",
+        "mid": "hypersensitive_to_light_sound_smell_touch"
+      },
+      {
+        "text": "শব্দ বা আলোতে কোনো অসুবিধা হয় না।",
+        "mid": "no_sensitivity_to_light_sound"
+      },
+      {
+        "text": "শুধুমাত্র স্পর্শে সংবেদনশীলতা থাকে।",
+        "mid": "sensitive_only_to_touch"
+      },
+      {
+        "text": "গন্ধে কোনো সমস্যা হয় না।",
+        "mid": "no_sensitivity_to_smell"
+      }
+    ],
+    "answer": "hypersensitive_to_light_sound_smell_touch",
+    "explanation": "Colchicum-এ বাহ্যিক উদ্দীপনা যেমন আলো, শব্দ, কড়া গন্ধ বা স্পর্শে রোগী অত্যন্ত সংবেদনশীল (Hypersensitive) হয়ে পড়ে।"
+  },
+  {
+    "id": "colch-med-10",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "স্মৃতিশক্তি কিছুটা লোপ পাওয়া এবং রোগী কোনো কাজে মন বসাতে না পারা।",
+        "mid": "poor_memory_cannot_concentrate"
+      },
+      {
+        "text": "স্মৃতিশক্তি অতিরিক্ত প্রখর এবং মনোযোগ বৃদ্ধি।",
+        "mid": "sharp_memory_increased_focus"
+      },
+      {
+        "text": "শুধুমাত্র দূরের ঘটনা মনে রাখতে সমস্যা।",
+        "mid": "poor_remote_memory_only"
+      },
+      {
+        "text": "মনোযোগে কোনো সমস্যা নেই।",
+        "mid": "no_concentration_problem"
+      }
+    ],
+    "answer": "poor_memory_cannot_concentrate",
+    "explanation": "Colchicum-এ স্মৃতিশক্তি কিছুটা লোপ পায় এবং রোগী কোনো কাজে মন বসাতে পারে না।"
+  },
+  {
+    "id": "colch-med-11",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটের ভেতর বরফের মতো ঠান্ডা অনুভূতি অথবা প্রচণ্ড জ্বালা।",
+        "mid": "ice_cold_or_burning_sensation_stomach"
+      },
+      {
+        "text": "পেটে হালকা উষ্ণতা অনুভূত হয়।",
+        "mid": "mild_warmth_in_stomach"
+      },
+      {
+        "text": "পেটে কোনো তাপমাত্রার অনুভূতি নেই।",
+        "mid": "no_temperature_sensation_stomach"
+      },
+      {
+        "text": "পেটে শুধুমাত্র ব্যথা, ঠান্ডা বা জ্বালা নেই।",
+        "mid": "pain_only_no_cold_burning"
+      }
+    ],
+    "answer": "ice_cold_or_burning_sensation_stomach",
+    "explanation": "Colchicum-এ পেটের ভেতর বরফের মতো ঠান্ডা অনুভূতি হতে পারে অথবা প্রচণ্ড জ্বালা করতে পারে।"
+  },
+  {
+    "id": "colch-med-12",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মুখ ফ্যাকাশে দেখায় এবং চোয়াল অনেক সময় শক্ত হয়ে যায়।",
+        "mid": "pale_face_stiff_jaws"
+      },
+      {
+        "text": "মুখ লাল এবং চোয়াল শিথিল।",
+        "mid": "red_face_relaxed_jaws"
+      },
+      {
+        "text": "মুখে হলুদ আভা এবং চোয়ালে ব্যথা।",
+        "mid": "yellow_face_jaw_pain"
+      },
+      {
+        "text": "মুখ স্বাভাবিক রঙের এবং চোয়ালে কোনো সমস্যা নেই।",
+        "mid": "normal_face_no_jaw_issue"
+      }
+    ],
+    "answer": "pale_face_stiff_jaws",
+    "explanation": "Colchicum-এ মুখ ফ্যাকাশে দেখায় এবং চোয়াল অনেক সময় শক্ত হয়ে যায়।"
+  },
+  {
+    "id": "colch-med-13",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরে শোথ বা ফোলা ভাব থাকে, বিশেষত প্রস্রাব কম হওয়ার সাথে সম্পর্কিত।",
+        "mid": "edema_with_scanty_urine"
+      },
+      {
+        "text": "শরীরে শুষ্কতা, কোনো ফোলা নেই।",
+        "mid": "dryness_no_edema"
+      },
+      {
+        "text": "শুধুমাত্র পায়ে ফোলা, প্রস্রাব স্বাভাবিক।",
+        "mid": "leg_edema_normal_urine"
+      },
+      {
+        "text": "শরীরে ফোলা কিন্তু প্রস্রাব বেশি।",
+        "mid": "edema_with_profuse_urine"
+      }
+    ],
+    "answer": "edema_with_scanty_urine",
+    "explanation": "Colchicum-এ মুত্র সল্পতা, শরীরে শোথ ও ফোলা থাকে।"
+  },
+  {
+    "id": "colch-med-14",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সমস্ত শরীরে স্পর্শে অতি সংবেদনশীলতা; আক্রান্ত স্থানে ব্যথা শীতে সুই ফোটানো এবং গরমে ছিঁড়ে ফেলার মতো অনুভূত হয়।",
+        "mid": "hyperesthesia_touch_pain_stinging_cold_tearing_heat"
+      },
+      {
+        "text": "স্পর্শে কোনো ব্যথা হয় না।",
+        "mid": "no_pain_on_touch"
+      },
+      {
+        "text": "শীতে ব্যথা কমে এবং গরমে বাড়ে।",
+        "mid": "pain_relieved_by_cold_aggravated_by_heat"
+      },
+      {
+        "text": "ব্যথা শুধুমাত্র জ্বালাপোড়ার মতো।",
+        "mid": "pain_only_burning_type"
+      }
+    ],
+    "answer": "hyperesthesia_touch_pain_stinging_cold_tearing_heat",
+    "explanation": "Colchicum-এ সমস্ত শরীরে স্পর্শ অনুভূতি তীব্র, আক্রান্ত স্থানে ব্যথা শীতে সুই ফোটানো এবং গরমে ছিঁড়ে ফেলার মতো হয়।"
+  },
+  {
+    "id": "colch-med-15",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হাতের নখের নিচে ঝিমঝিম অনুভূতি।",
+        "mid": "tingling_under_fingernails"
+      },
+      {
+        "text": "নখের নিচে তীব্র জ্বালাপোড়া।",
+        "mid": "burning_under_nails"
+      },
+      {
+        "text": "নখ শুষ্ক ও ভঙ্গুর।",
+        "mid": "dry_brittle_nails"
+      },
+      {
+        "text": "নখের নিচে কোনো অনুভূতি নেই।",
+        "mid": "no_sensation_under_nails"
+      }
+    ],
+    "answer": "tingling_under_fingernails",
+    "explanation": "Colchicum-এ হাতের নখের নিচে ঝিমঝিম অনুভূতি হয়।"
+  },
+  {
+    "id": "colch-med-16",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে।",
+        "mid": "aggravation_food_smell_touch_motion_after_midnight_autumn"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরমে এবং সকালে।",
+        "mid": "aggravation_heat_morning"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় নড়াচড়ায় এবং স্পর্শে।",
+        "mid": "amelioration_motion_touch"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র বসন্তকালে।",
+        "mid": "aggravation_only_spring"
+      }
+    ],
+    "answer": "aggravation_food_smell_touch_motion_after_midnight_autumn",
+    "explanation": "Colchicum-এর লক্ষণ খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "colch-med-17",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় সামনের দিকে ঝুঁকে বসলে, কুঁকড়ে শুলে এবং বিশ্রামে।",
+        "mid": "amelioration_bending_forward_curled_up_rest"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় সোজা হয়ে বসলে এবং নড়াচড়ায়।",
+        "mid": "amelioration_sitting_erect_motion"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় বিশ্রামে এবং কুঁকড়ে শুলে।",
+        "mid": "aggravation_rest_curled_up"
+      },
+      {
+        "text": "ভঙ্গিতে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_posture"
+      }
+    ],
+    "answer": "amelioration_bending_forward_curled_up_rest",
+    "explanation": "Colchicum-এর লক্ষণ সামনের দিকে ঝুঁকে বসলে, কুঁকড়ে শুলে এবং বিশ্রামে উপশম হয়।"
+  },
+  {
+    "id": "colch-med-18",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অত্যন্ত শীতকাতর (Chilly)।",
+        "mid": "very_chilly_patient"
+      },
+      {
+        "text": "রোগী অত্যন্ত উষ্ণকাতর (Hot patient)।",
+        "mid": "very_hot_patient"
+      },
+      {
+        "text": "রোগীর কোনো তাপমাত্রা সংবেদনশীলতা নেই।",
+        "mid": "no_thermal_sensitivity"
+      },
+      {
+        "text": "রোগী শুধুমাত্র গরমে অস্বস্তি বোধ করে।",
+        "mid": "discomfort_only_in_heat"
+      }
+    ],
+    "answer": "very_chilly_patient",
+    "explanation": "Colchicum একটি অত্যন্ত শীতকাতর (Chilly) ঔষধ।"
+  },
+  {
+    "id": "colch-med-19",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পার্শ্বগতভাবে বাম দিকে বেশি কাজ করে।",
+        "mid": "left_sided_predominance"
+      },
+      {
+        "text": "পার্শ্বগতভাবে ডান দিকে বেশি কাজ করে।",
+        "mid": "right_sided_predominance"
+      },
+      {
+        "text": "উভয় দিকে সমানভাবে কাজ করে।",
+        "mid": "equally_bilateral"
+      },
+      {
+        "text": "কোনো নির্দিষ্ট পার্শ্ব নেই।",
+        "mid": "no_sidedness"
+      }
+    ],
+    "answer": "left_sided_predominance",
+    "explanation": "Colchicum পার্শ্বগতভাবে বাম দিকে বেশি কাজ করে।"
+  },
+  {
+    "id": "colch-med-20",
+    "stem": "নিচের কোনটি Colchicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরে ব্যথার সাথে সাথে অত্যন্ত দুর্বলতা এবং মৃত্যুভয়ের মতো Collapse অবস্থা।",
+        "mid": "prostration_collapse_with_pain"
+      },
+      {
+        "text": "ব্যথা ছাড়া শুধুমাত্র দুর্বলতা।",
+        "mid": "weakness_without_pain"
+      },
+      {
+        "text": "শরীরে শক্তি বৃদ্ধি এবং ব্যথা।",
+        "mid": "increased_energy_with_pain"
+      },
+      {
+        "text": "কোনো দুর্বলতা বা Collapse নেই।",
+        "mid": "no_prostration_collapse"
+      }
+    ],
+    "answer": "prostration_collapse_with_pain",
+    "explanation": "Colchicum-এ ব্যথার সাথে সাথে অত্যন্ত দুর্বলতা এবং Collapse-এর মতো অবস্থা দেখা যায়।"
+  }
+]
+

@@ -1,0 +1,484 @@
+```json
+[
+  {
+    "id": "plat-med-01",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী নিজেকে অন্যদের চেয়ে অনেক বড় ও শ্রেষ্ঠ মনে করে এবং চারপাশের মানুষ ও বস্তুকে তুচ্ছ ভাবে।",
+        "mid": "pride_arrogance_superiority"
+      },
+      {
+        "text": "রোগী নিজেকে অত্যন্ত হীন ও অযোগ্য মনে করে এবং সবার কাছে ক্ষমা চায়।",
+        "mid": "self_depreciation_inferiority"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ উদাসীন ও নির্বিকার, কোনো কিছুতে আগ্রহ নেই।",
+        "mid": "apathy_indifference"
+      },
+      {
+        "text": "রোগী অতিরিক্ত ভীতু ও নির্ভরশীল, একা থাকতে ভয় পায়।",
+        "mid": "fearful_dependent"
+      }
+    ],
+    "answer": "pride_arrogance_superiority",
+    "explanation": "Platinum Metallicum-এর প্রধান মানসিক লক্ষণ হলো অত্যন্ত গর্ব, অহংকার ও শ্রেষ্ঠত্ববোধ; রোগী নিজেকে অন্যদের চেয়ে বড় মনে করে এবং অন্যদের নগণ্য ভাবে।"
+  },
+  {
+    "id": "plat-med-02",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগীর কাছে সবকিছু এবং সবাইকে স্বাভাবিকের চেয়ে ছোট মনে হয় (Illusion of size)।",
+        "mid": "illusion_everything_small"
+      },
+      {
+        "text": "রোগীর কাছে সবকিছু স্বাভাবিকের চেয়ে অনেক বড় মনে হয়।",
+        "mid": "illusion_everything_large"
+      },
+      {
+        "text": "রোগী মনে করে তার শরীর হালকা হয়ে গেছে।",
+        "mid": "delusion_body_is_light"
+      },
+      {
+        "text": "রোগী কোনো প্রকার বিভ্রমে ভোগে না।",
+        "mid": "no_delusions"
+      }
+    ],
+    "answer": "illusion_everything_small",
+    "explanation": "Platinum Metallicum-এ একটি বৈশিষ্ট্যপূর্ণ বিভ্রম (Illusion of size) থাকে, যেখানে রোগীর কাছে তার চারপাশের মানুষ ও বস্তুগুলো অত্যন্ত ছোট এবং নগণ্য মনে হয়।"
+  },
+  {
+    "id": "plat-med-03",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "যখন শারীরিক লক্ষণ (যেমন ব্যথা) থাকে তখন মানসিক লক্ষণ থাকে না, আবার মানসিক উদ্বেগ বাড়লে শারীরিক কষ্ট কমে যায়।",
+        "mid": "alternation_mental_physical_symptoms"
+      },
+      {
+        "text": "শারীরিক ও মানসিক লক্ষণ সর্বদা একসাথে থাকে।",
+        "mid": "simultaneous_mental_physical_symptoms"
+      },
+      {
+        "text": "শুধুমাত্র শারীরিক লক্ষণ থাকে, কোনো মানসিক লক্ষণ নেই।",
+        "mid": "only_physical_symptoms"
+      },
+      {
+        "text": "শুধুমাত্র মানসিক লক্ষণ থাকে, কোনো শারীরিক লক্ষণ নেই।",
+        "mid": "only_mental_symptoms"
+      }
+    ],
+    "answer": "alternation_mental_physical_symptoms",
+    "explanation": "Platinum Metallicum-এর একটি প্রধান বৈশিষ্ট্য হলো শারীরিক ও মানসিক লক্ষণের পর্যায়বৃত্তি—শারীরিক লক্ষণ থাকলে মানসিক লক্ষণ চলে যায় এবং মানসিক লক্ষণ বাড়লে শারীরিক কষ্ট কমে যায়।"
+  },
+  {
+    "id": "plat-med-04",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের বিভিন্ন অঙ্গে, বিশেষত মুখে বা মাথায় অসাড়তা বা অবশ ভাব (Numbness) অনুভূত হয়।",
+        "mid": "numbness_face_head"
+      },
+      {
+        "text": "শরীরের বিভিন্ন অঙ্গে তীব্র জ্বালাপোড়া হয়।",
+        "mid": "burning_in_various_parts"
+      },
+      {
+        "text": "শরীরের বিভিন্ন অঙ্গে খিঁচুনি হয়।",
+        "mid": "convulsions_in_various_parts"
+      },
+      {
+        "text": "শরীরের কোনো অসাড়তা বা অবশ ভাব নেই।",
+        "mid": "no_numbness"
+      }
+    ],
+    "answer": "numbness_face_head",
+    "explanation": "Platinum Metallicum-এ শরীরের বিভিন্ন অঙ্গে, বিশেষত মুখে বা মাথায় অসাড়তা বা অবশ ভাব (Numbness) অনুভূত হয়।"
+  },
+  {
+    "id": "plat-med-05",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নারীদের জননেন্দ্রিয়ের অস্বাভাবিক উত্তেজনা এবং সামান্য স্পর্শও সহ্য করতে না পারা।",
+        "mid": "uterine_hyperexcitability_intolerance_to_touch"
+      },
+      {
+        "text": "নারীদের জননেন্দ্রিয় সম্পূর্ণ অসাড় ও সংবেদনশীলতাহীন।",
+        "mid": "numbness_genitalia"
+      },
+      {
+        "text": "শুধুমাত্র মাসিকের সময় তলপেটে ব্যথা, কোনো অতিসংবেদনশীলতা নেই।",
+        "mid": "dysmenorrhea_only_no_sensitivity"
+      },
+      {
+        "text": "জননেন্দ্রিয়ের কোনো অস্বাভাবিকতা নেই।",
+        "mid": "no_genital_abnormality"
+      }
+    ],
+    "answer": "uterine_hyperexcitability_intolerance_to_touch",
+    "explanation": "Platinum Metallicum-এ নারীদের জননেন্দ্রিয়ের অস্বাভাবিক উত্তেজনা ও অতিসংবেদনশীলতা থাকে; সামান্য স্পর্শও অসহনীয় হয়।"
+  },
+  {
+    "id": "plat-med-06",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ব্যথা বা কষ্ট ধীরে ধীরে শুরু হয় এবং ধীরে ধীরে চলে যায়।",
+        "mid": "pain_increases_and_decreases_slowly"
+      },
+      {
+        "text": "ব্যথা হঠাৎ শুরু হয় এবং হঠাৎ চলে যায়।",
+        "mid": "sudden_onset_and_offset_of_pain"
+      },
+      {
+        "text": "ব্যথা একস্থানে স্থির থাকে, কখনো বাড়ে না বা কমে না।",
+        "mid": "fixed_pain_no_change"
+      },
+      {
+        "text": "ব্যথার কোনো নির্দিষ্ট ধরন নেই।",
+        "mid": "no_specific_pain_pattern"
+      }
+    ],
+    "answer": "pain_increases_and_decreases_slowly",
+    "explanation": "Platinum Metallicum-এর একটি বৈশিষ্ট্যপূর্ণ লক্ষণ হলো ব্যথা ধীরে ধীরে বৃদ্ধি পায় এবং ধীরে ধীরে কমে (যেমন Stannum Metallicum-এও দেখা যায়)।"
+  },
+  {
+    "id": "plat-med-07",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কোষ্ঠকাঠিন্য, যেখানে মল নরম কিন্তু আঠালো (কাদার মতো) এবং সহজে নির্গত হয় না।",
+        "mid": "constipation_soft_sticky_clay_like_stool"
+      },
+      {
+        "text": "কোষ্ঠকাঠিন্য, যেখানে মল শুষ্ক ও কঠিন।",
+        "mid": "constipation_dry_hard_stool"
+      },
+      {
+        "text": "উদারাময়, যেখানে মল সম্পূর্ণ জলীয়।",
+        "mid": "watery_diarrhea"
+      },
+      {
+        "text": "মলত্যাগে কোনো সমস্যা নেই।",
+        "mid": "normal_stool"
+      }
+    ],
+    "answer": "constipation_soft_sticky_clay_like_stool",
+    "explanation": "Platinum Metallicum-এ কোষ্ঠকাঠিন্য হয়, যেখানে মল নরম কিন্তু কাদার মতো আঠালো এবং সহজে নির্গত হয় না; এটি বিশেষত ভ্রমণকারীদের ক্ষেত্রে দেখা যায়।"
+  },
+  {
+    "id": "plat-med-08",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "বসে থাকলে ত্রিকাস্থি (Sacrum) ও অনুত্রিকাস্থিতে (Coccyx) অসাড়তা বা অবশ ভাব অনুভূত হয়।",
+        "mid": "numbness_sacrum_coccyx_while_sitting"
+      },
+      {
+        "text": "বসে থাকলে ত্রিকাস্থিতে তীব্র জ্বালাপোড়া হয়।",
+        "mid": "burning_sacrum_while_sitting"
+      },
+      {
+        "text": "শোয়া অবস্থায় ত্রিকাস্থিতে ব্যথা হয়।",
+        "mid": "pain_sacrum_while_lying"
+      },
+      {
+        "text": "ত্রিকাস্থিতে কোনো অসাড়তা বা ব্যথা নেই।",
+        "mid": "no_sacral_symptoms"
+      }
+    ],
+    "answer": "numbness_sacrum_coccyx_while_sitting",
+    "explanation": "Platinum Metallicum-এ বসে থাকলে ত্রিকাস্থি ও অনুত্রিকাস্থিতে অসাড়তা (Numbness) অনুভূত হয়।"
+  },
+  {
+    "id": "plat-med-09",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগীর মৃত্যুভয় থাকে এবং মনে করে তার মৃত্যু খুব নিকটে।",
+        "mid": "dread_of_death_near"
+      },
+      {
+        "text": "রোগীর মৃত্যুভয় নেই বরং জীবনের প্রতি অতিরিক্ত আসক্তি।",
+        "mid": "no_fear_of_death_love_for_life"
+      },
+      {
+        "text": "রোগী মনে করে সে অমর।",
+        "mid": "delusion_of_immortality"
+      },
+      {
+        "text": "মৃত্যু সম্পর্কে কোনো চিন্তা নেই।",
+        "mid": "no_thoughts_of_death"
+      }
+    ],
+    "answer": "dread_of_death_near",
+    "explanation": "Platinum Metallicum-এ রোগীর মৃত্যুভয় থাকে এবং মনে করে তার মৃত্যু খুব নিকটে।"
+  },
+  {
+    "id": "plat-med-10",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হিস্টিরিয়া বা মানসিক ভারসাম্যহীনতার প্রবণতা।",
+        "mid": "hysteria_mental_imbalance"
+      },
+      {
+        "text": "অতিরিক্ত শান্ত ও ধৈর্যশীল মেজাজ।",
+        "mid": "calm_and_patient"
+      },
+      {
+        "text": "সম্পূর্ণ নির্বিকার ও উদাসীনতা।",
+        "mid": "apathy_indifference_mood"
+      },
+      {
+        "text": "অতিরিক্ত হাসিখুশি ও প্রফুল্ল মেজাজ।",
+        "mid": "cheerful_and_happy"
+      }
+    ],
+    "answer": "hysteria_mental_imbalance",
+    "explanation": "Platinum Metallicum-এ হিস্টিরিয়া বা মানসিক ভারসাম্যহীনতার প্রবণতা দেখা যায়।"
+  },
+  {
+    "id": "plat-med-11",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নারীদের যৌন ইচ্ছা অতিশয় প্রবল (Nymphomania), কিন্তু সহবাসের সময় যোনিতে ব্যথা অনুভব করে।",
+        "mid": "nymphomania_painful_coitus"
+      },
+      {
+        "text": "যৌন ইচ্ছা সম্পূর্ণ লোপ পাওয়া।",
+        "mid": "loss_of_sexual_desire"
+      },
+      {
+        "text": "যৌন ইচ্ছা স্বাভাবিক, কোনো অস্বাভাবিকতা নেই।",
+        "mid": "normal_sexual_desire"
+      },
+      {
+        "text": "শুধুমাত্র পুরুষদের যৌন ইচ্ছা প্রবল।",
+        "mid": "increased_sexual_desire_males_only"
+      }
+    ],
+    "answer": "nymphomania_painful_coitus",
+    "explanation": "Platinum Metallicum-এ নারীদের যৌন ইচ্ছা অতিশয় প্রবল থাকে, কিন্তু স্বামী সহবাসের সময় যোনিতে ব্যথা পায়।"
+  },
+  {
+    "id": "plat-med-12",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঋতুস্রাব অত্যন্ত বেশি (Menorrhagia) হয় এবং রক্ত কালো ও চাপ চাপ থাকে।",
+        "mid": "menorrhagia_black_clotted_blood"
+      },
+      {
+        "text": "ঋতুস্রাব খুব কম হয় এবং রক্ত হালকা লাল।",
+        "mid": "scanty_light_red_menses"
+      },
+      {
+        "text": "ঋতুস্রাব সম্পূর্ণ বন্ধ হয়ে গেছে।",
+        "mid": "amenorrhea"
+      },
+      {
+        "text": "ঋতুস্রাব স্বাভাবিক পরিমাণে ও রঙের।",
+        "mid": "normal_menses"
+      }
+    ],
+    "answer": "menorrhagia_black_clotted_blood",
+    "explanation": "Platinum Metallicum-এ ঋতুস্রাব অত্যন্ত বেশি হয় (Menorrhagia), রক্ত কালো এবং চাপ চাপ থাকে।"
+  },
+  {
+    "id": "plat-med-13",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জরায়ুর স্থানচ্যুতি বা নিচে নেমে আসার অনুভূতি হয়।",
+        "mid": "sensation_uterine_prolapse"
+      },
+      {
+        "text": "জরায়ু শক্ত হয়ে যাওয়া (Induration)।",
+        "mid": "uterine_induration"
+      },
+      {
+        "text": "জরায়ুতে তীব্র জ্বালাপোড়া হয়।",
+        "mid": "burning_uterus"
+      },
+      {
+        "text": "জরায়ু স্বাভাবিক অবস্থায় আছে।",
+        "mid": "normal_uterus"
+      }
+    ],
+    "answer": "sensation_uterine_prolapse",
+    "explanation": "Platinum Metallicum-এ জরায়ুর স্থানচ্যুতি বা নিচে নেমে আসার অনুভূতি হয়।"
+  },
+  {
+    "id": "plat-med-14",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মানসিক লক্ষণ প্রকাশ পেলে শারীরিক লক্ষণ চলে যায়।",
+        "mid": "mental_symptoms_appear_physical_disappear"
+      },
+      {
+        "text": "শারীরিক লক্ষণ প্রকাশ পেলে মানসিক লক্ষণ আরও বাড়ে।",
+        "mid": "physical_symptoms_aggravate_mental"
+      },
+      {
+        "text": "মানসিক ও শারীরিক লক্ষণ একসাথে বৃদ্ধি পায়।",
+        "mid": "both_mental_physical_increase_together"
+      },
+      {
+        "text": "মানসিক ও শারীরিক লক্ষণের মধ্যে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_mental_physical"
+      }
+    ],
+    "answer": "mental_symptoms_appear_physical_disappear",
+    "explanation": "Platinum Metallicum-এ মানসিক লক্ষণ প্রকাশ পেলে শারীরিক লক্ষণ চলে যায়—এটি একটি বৈশিষ্ট্যপূর্ণ পর্যায়বৃত্তি।"
+  },
+  {
+    "id": "plat-med-15",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সম্পূর্ণ শরীরে কম্পন (Tremulousness) অনুভূত হয়।",
+        "mid": "tremulousness_all_over"
+      },
+      {
+        "text": "শরীরে কোনো কম্পন নেই।",
+        "mid": "no_tremor"
+      },
+      {
+        "text": "শুধুমাত্র হাত কাঁপে, শরীর নয়।",
+        "mid": "tremor_only_hands"
+      },
+      {
+        "text": "শরীরে খিঁচুনি হয় কিন্তু কম্পন নেই।",
+        "mid": "convulsions_no_tremor"
+      }
+    ],
+    "answer": "tremulousness_all_over",
+    "explanation": "Platinum Metallicum-এ সম্পূর্ণ শরীরে কম্পন (Tremulousness) অনুভূত হয়।"
+  },
+  {
+    "id": "plat-med-16",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় বসে থাকলে, দাঁড়ালে এবং সন্ধ্যার দিকে।",
+        "mid": "aggravation_sitting_standing_evening"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় চলাফেরায় এবং সকালে।",
+        "mid": "aggravation_motion_morning"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় বসে থাকলে এবং সন্ধ্যায়।",
+        "mid": "amelioration_sitting_evening"
+      },
+      {
+        "text": "বসা বা দাঁড়ানোর সাথে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_posture"
+      }
+    ],
+    "answer": "aggravation_sitting_standing_evening",
+    "explanation": "Platinum Metallicum-এর লক্ষণ বসে থাকলে, দাঁড়ালে এবং সন্ধ্যার দিকে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "plat-med-17",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় খোলা বাতাসে চলাফেরা করলে এবং শরীর সামনের দিকে বাঁকালে।",
+        "mid": "amelioration_open_air_motion_bending_forward"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় ঘরে থাকলে এবং বিশ্রামে।",
+        "mid": "amelioration_indoor_rest"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় খোলা বাতাসে এবং চলাফেরায়।",
+        "mid": "aggravation_open_air_motion"
+      },
+      {
+        "text": "খোলা বাতাসে বা চলাফেরায় কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_open_air_motion"
+      }
+    ],
+    "answer": "amelioration_open_air_motion_bending_forward",
+    "explanation": "Platinum Metallicum-এর লক্ষণ খোলা বাতাসে চলাফেরা করলে এবং শরীর সামনের দিকে বাঁকালে উপশম হয়।"
+  },
+  {
+    "id": "plat-med-18",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "এটি Palladium-এর সাথে পরিপূরক (Complementary) সম্পর্কযুক্ত।",
+        "mid": "complementary_to_palladium"
+      },
+      {
+        "text": "এটি Pulsatilla-এর সাথে পরিপূরক।",
+        "mid": "complementary_to_pulsatilla"
+      },
+      {
+        "text": "এটি Belladonna-এর সাথে পরিপূরক।",
+        "mid": "complementary_to_belladonna"
+      },
+      {
+        "text": "কোনো ঔষধের সাথে পরিপূরক সম্পর্ক নেই।",
+        "mid": "no_complementary_relationship"
+      }
+    ],
+    "answer": "complementary_to_palladium",
+    "explanation": "Platinum Metallicum-এর পরিপূরক (Complementary) ঔষধ হলো Palladium।"
+  },
+  {
+    "id": "plat-med-19",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "Pulsatilla এবং Spigelia এই ঔষধের প্রতিষেধক (Antidote)।",
+        "mid": "antidoted_by_pulsatilla_spigelia"
+      },
+      {
+        "text": "Nux Vomica এবং Bryonia এই ঔষধের প্রতিষেধক।",
+        "mid": "antidoted_by_nux_bryonia"
+      },
+      {
+        "text": "Arnica Montana এবং Rhus Toxicodendron এই ঔষধের প্রতিষেধক।",
+        "mid": "antidoted_by_arnica_rhus"
+      },
+      {
+        "text": "এই ঔষধের কোনো প্রতিষেধক নেই।",
+        "mid": "no_antidote"
+      }
+    ],
+    "answer": "antidoted_by_pulsatilla_spigelia",
+    "explanation": "Platinum Metallicum-এর প্রতিষেধক (Antidote) হলো Pulsatilla এবং Spigelia।"
+  },
+  {
+    "id": "plat-med-20",
+    "stem": "নিচের কোনটি Platinum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথায় এবং গালে এক ধরনের অদ্ভুত অসাড়তা বা টানটান ভাব (Tension) অনুভূত হয়, মনে হয় যেন মাথাটি সাঁড়াশি দিয়ে চেপে ধরা হয়েছে।",
+        "mid": "numbness_tension_head_cheeks_vice_like"
+      },
+      {
+        "text": "মাথায় তীব্র ঝাঁঝালো ব্যথা হয়, যা ঠান্ডা বাতাসে বাড়ে।",
+        "mid": "sharp_headache_cold_air"
+      },
+      {
+        "text": "মাথায় কোনো অসাড়তা বা টানটান ভাব নেই।",
+        "mid": "no_head_numbness_tension"
+      },
+      {
+        "text": "শুধুমাত্র মাথার পেছনে ভারী বোধ হয়।",
+        "mid": "heaviness_occiput_only"
+      }
+    ],
+    "answer": "numbness_tension_head_cheeks_vice_like",
+    "explanation": "Platinum Metallicum-এ মাথায় ও গালে অসাড়তা বা টানটান ভাব (Tension) হয়; মনে হয় যেন মাথাটি সাঁড়াশি দিয়ে চেপে ধরা হয়েছে।"
+  }
+]
+

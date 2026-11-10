@@ -1,0 +1,243 @@
+[
+  {
+    "id": "lac-can-med-01",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লক্ষণ এক পাশ থেকে অন্য পাশে পরিবর্তিত হওয়া", "mid": "sym-alternating-sides"},
+      {"text": "কামোন্মাদ, কাপড় খুলে গোপন অঙ্গ দেখানো", "mid": "sym-erotic-mania-naked-exposing"},
+      {"text": "সর্বপ্রকার জ্বরের প্রথম অবস্থায় উপযোগী", "mid": "sym-first-stage-of-all-fevers"},
+      {"text": "পিচকিরির মতো সজোরে মলত্যাগ", "mid": "sym-stool-expelled-with-gush"}
+    ],
+    "answer": "sym-alternating-sides",
+    "explanation": "Lac Caninum-এর সবচেয়ে গুরুত্বপূর্ণ বৈশিষ্ট্য হলো লক্ষণ এক পাশ থেকে অন্য পাশে পরিবর্তিত হওয়া।"
+  },
+  {
+    "id": "lac-can-med-02",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলব্যথা যা এক পাশ থেকে অন্য পাশে যায়", "mid": "sym-sore-throat-alternating-sides"},
+      {"text": "যৌন অঙ্গে বারবার হাত দেওয়া ও অশ্লীল গান গাওয়া", "mid": "sym-masturbation-obscene-songs"},
+      {"text": "আয়রনের অভাব ও রক্তে লোহিত কণিকার অভাব", "mid": "sym-anaemia-iron-deficiency"},
+      {"text": "প্রদাহিত স্থান উত্তপ্ত, লাল, দপদপানি ও বেদনাযুক্ত", "mid": "sym-inflamed-part-hot-red-throbbing-painful"}
+    ],
+    "answer": "sym-sore-throat-alternating-sides",
+    "explanation": "Lac Caninum-এ গলব্যথা এক পাশ থেকে অন্য পাশে যায়।"
+  },
+  {
+    "id": "lac-can-med-03",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খুব ভুলো মন ও অমনোযোগী, লেখার সময় ভুল করা", "mid": "sym-forgetful-inattentive-mistakes-writing"},
+      {"text": "রাতে শোয়ার পর আক্ষেপকর কাশি, উঠে বসলে উপশম", "mid": "sym-convulsive-cough-lying-down-night"},
+      {"text": "স্তন্যদানকালে স্তন থেকে পিঠ পর্যন্ত টান লাগার মতো ব্যথা", "mid": "sym-pain-nipple-to-back-during-nursing"},
+      {"text": "হার্টবিট বন্ধ হয়ে যাওয়ার উপক্রম বোধ", "mid": "sym-sensation-heart-will-stop"}
+    ],
+    "answer": "sym-forgetful-inattentive-mistakes-writing",
+    "explanation": "Lac Caninum-এ রোগী খুব ভুলো ও অমনোযোগী হয় এবং লেখার সময় ভুল করে।"
+  },
+  {
+    "id": "lac-can-med-04",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নিজেকে নীচু ও অযোগ্য মনে করা, হতাশা", "mid": "sym-feels-worthless-inferior-depressed"},
+      {"text": "গলায় চুলকানি, মনে হয় আলজিহ্বা দীর্ঘ হয়েছে", "mid": "sym-tickling-throat-sensation-elongated-uvula"},
+      {"text": "পেশীতে আঘাত, পেশী শিথিল, স্ফীত ও রক্ত জমাট", "mid": "sym-muscle-injury-swollen-bruised"},
+      {"text": "লাল ও চুলকানিযুক্ত ফোস্কা, বিশেষত অণ্ডকোষের চামড়ায়", "mid": "sym-vesicles-itching-scrotum"}
+    ],
+    "answer": "sym-feels-worthless-inferior-depressed",
+    "explanation": "Lac Caninum-এ রোগী নিজেকে নীচু, অযোগ্য ও ঘৃণ্য মনে করে এবং হতাশায় ভোগে।"
+  },
+  {
+    "id": "lac-can-med-05",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্তনে ব্যথা, ফোলা (Mastitis) ও দুধ শুকিয়ে যাওয়া", "mid": "sym-mastitis-breast-pain-milk-suppression"},
+      {"text": "হিংসা, সন্দেহপ্রবণতা ও বিরবির করে বকা", "mid": "sym-jealousy-suspicion-muttering"},
+      {"text": "অস্ত্রের আঘাতে বা হঠাৎ নাক দিয়ে উজ্জ্বল লাল রক্তস্রাব", "mid": "sym-bright-red-hemorrhage-nose"},
+      {"text": "চর্মরোগে ঠান্ডা জলের ঝাপটায় আরাম", "mid": "sym-skin-ameliorated-by-cold-water"}
+    ],
+    "answer": "sym-mastitis-breast-pain-milk-suppression",
+    "explanation": "Lac Caninum-এ স্তনে ব্যথা, ফোলা (Mastitis) এবং দুধ শুকিয়ে যাওয়ার সমস্যা হয়।"
+  },
+  {
+    "id": "lac-can-med-06",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাসিকের আগে ও সময়ে লক্ষণ বৃদ্ধি", "mid": "sym-worse-before-and-during-menses"},
+      {"text": "স্বামী বা স্ত্রীর চরিত্রে সন্দেহ প্রকাশ", "mid": "sym-suspicion-of-spouse-fidelity"},
+      {"text": "অজীর্ণ ও খাদ্যের সাথে বমি", "mid": "sym-indigestion-vomiting-food"},
+      {"text": "পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ", "mid": "sym-alternating-diarrhoea-cough-skin"}
+    ],
+    "answer": "sym-worse-before-and-during-menses",
+    "explanation": "Lac Caninum-এর লক্ষণ মাসিকের আগে ও সময়ে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "lac-can-med-07",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সাপ দেখার ভয় বা অদ্ভুত দৃষ্টিভ্রম", "mid": "sym-fear-of-snakes-visions"},
+      {"text": "কাল্পনিক দৃশ্য দেখা ও কাল্পনিক অত্যাচারের অভিযোগ", "mid": "sym-hallucinations-complains-of-persecution"},
+      {"text": "স্বরভঙ্গ ও প্রসবের পর ভ্যাদাল ব্যথা, সঞ্চালনে বৃদ্ধি ঠান্ডায় উপশম", "mid": "sym-hoarseness-after-pains-worse-motion-better-cold"},
+      {"text": "শুইলে কাশি বৃদ্ধি", "mid": "sym-cough-lying-down-agg"}
+    ],
+    "answer": "sym-fear-of-snakes-visions",
+    "explanation": "Lac Caninum-এ রোগীর সাপ দেখার ভয় বা অদ্ভুত দৃষ্টিভ্রম (Visions of snakes) হয়।"
+  },
+  {
+    "id": "lac-can-med-08",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরের বিভিন্ন অংশে উড়ন্ত ব্যথা", "mid": "sym-wandering-pains"},
+      {"text": "কেউ তাকে বিষ প্রয়োগ করবে এমন ধারণা", "mid": "sym-fear-of-being-poisoned"},
+      {"text": "রক্তাল্পনায় ফ্যাকাশে চেহারা ও সহজে ক্লান্তি", "mid": "sym-pale-face-easy-fatigue-anaemia"},
+      {"text": "দিনে ফ্যাকাশে প্রসাব, সাদা তলানি; রাতে ফেনা ও চর্বি", "mid": "sym-urine-pale-sediment-day-frothy-fat-night"}
+    ],
+    "answer": "sym-wandering-pains",
+    "explanation": "Lac Caninum-এ শরীরের বিভিন্ন অংশে উড়ন্ত ব্যথা হয়।"
+  },
+  {
+    "id": "lac-can-med-09",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথাব্যথা যা পাশ পরিবর্তন করে", "mid": "sym-headache-alternating-sides"},
+      {"text": "অত্যধিক প্রফুল্লতা, প্রত্যেক বিষয়ে হাস্যরস ও উচ্চস্বরে হাসা", "mid": "sym-excessive-mirth-laughing-loudly"},
+      {"text": "দ্রুত কিন্তু স্পর্শে দুর্বল নাড়ি", "mid": "sym-rapid-weak-pulse"},
+      {"text": "মনে হয় বড় অসুখ হয়েছে ও আর বাঁচবে না", "mid": "sym-fear-serious-illness-death"}
+    ],
+    "answer": "sym-headache-alternating-sides",
+    "explanation": "Lac Caninum-এ মাথাব্যথা এক পাশ থেকে অন্য পাশে পরিবর্তিত হয়।"
+  },
+  {
+    "id": "lac-can-med-10",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাগের আক্রমণ ও একা থাকতে ভয়", "mid": "sym-fits-of-anger-fear-of-being-alone"},
+      {"text": "অতিরিক্ত নিদ্রা ও বিছানা খোঁটা", "mid": "sym-excessive-sleep-picking-bedclothes"},
+      {"text": "জয়েন্ট ও মাংসপেশিতে কামড়ানো ব্যথা, নড়াচড়ায় বৃদ্ধি", "mid": "sym-cramping-pain-joints-muscles-worse-motion"},
+      {"text": "খিটখিটে মেজাজ ও সামান্য কারণেই বিরক্তি", "mid": "sym-irritable-slight-cause"}
+    ],
+    "answer": "sym-fits-of-anger-fear-of-being-alone",
+    "explanation": "Lac Caninum-এ অস্থিরতা, রাগের আক্রমণ এবং একা থাকতে ভয় দেখা যায়।"
+  },
+  {
+    "id": "lac-can-med-11",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গিলতে কষ্ট ও গলা ফুলে যাওয়া", "mid": "sym-difficult-swallowing-swollen-throat"},
+      {"text": "উত্তেজনাপ্রবণ, খিটখিটে ও পেশিসমূহের খিঁচুনি", "mid": "sym-excitable-irritable-muscle-twitching"},
+      {"text": "মানসিকভাবে অত্যন্ত সংবেদনশীল ও খিটখিটে", "mid": "sym-oversensitive-irritable"},
+      {"text": "মানসিক অস্থিরতা ও একা থাকার ভয়", "mid": "sym-restlessness-fear-of-being-alone"}
+    ],
+    "answer": "sym-difficult-swallowing-swollen-throat",
+    "explanation": "Lac Caninum-এ গলব্যথার সাথে গিলতে কষ্ট ও গলা ফুলে যাওয়া দেখা যায়।"
+  },
+  {
+    "id": "lac-can-med-12",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডিপথেরিয়ার মতো গলার অবস্থা", "mid": "sym-diphtheritic-throat-condition"},
+      {"text": "অসাড়ে মলমূত্র ত্যাগ", "mid": "sym-involuntary-stool-urine"},
+      {"text": "সামান্য কারণেই বিচলিত হয়ে পড়া ও সর্বদা উত্তেজনা", "mid": "sym-excitable-slight-cause"},
+      {"text": "পেটের ভেতর সারাক্ষণ গড়গড় শব্দ", "mid": "sym-gurgling-abdomen"}
+    ],
+    "answer": "sym-diphtheritic-throat-condition",
+    "explanation": "Lac Caninum-এ গলব্যথা ডিপথেরিয়ার মতো অবস্থা ধারণ করতে পারে।"
+  },
+  {
+    "id": "lac-can-med-13",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আত্মসম্মানবোধ কম, নিজেকে তুচ্ছ মনে করা", "mid": "sym-low-self-esteem-feels-wretched"},
+      {"text": "অত্যন্ত পিপাসা কিন্তু পানি পানে অনিহা", "mid": "sym-intense-thirst-aversion-to-water"},
+      {"text": "কথা বলতে বা কাজে মনোযোগ দিতে অনিচ্ছা", "mid": "sym-aversion-to-talk-and-mental-work"},
+      {"text": "অত্যন্ত পাতলা হলুদাভ মল প্রচুর পরিমাণে নির্গত হওয়া", "mid": "sym-watery-yellow-profuse-stool"}
+    ],
+    "answer": "sym-low-self-esteem-feels-wretched",
+    "explanation": "Lac Caninum-এ রোগীর আত্মসম্মানবোধ কম থাকে এবং নিজেকে তুচ্ছ মনে করে।"
+  },
+  {
+    "id": "lac-can-med-14",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্পর্শে ও গরমে বৃদ্ধি", "mid": "sym-worse-touch-and-heat"},
+      {"text": "বস্ত্রহীন থাকার প্রবণতা, নগ্ন হতে লজ্জা না পাওয়া", "mid": "sym-immodesty-wants-to-be-naked"},
+      {"text": "রাতে ঘুমের মধ্যে অস্থিরতা ও আবল-তাবল বকা", "mid": "sym-restless-sleep-delirious-talk"},
+      {"text": "স্তনবৃন্তের ভেতরে তীব্র ব্যথা যা পিঠের স্ক্যাপুলা পর্যন্ত ছড়ায়", "mid": "sym-nipple-pain-radiating-to-scapula"}
+    ],
+    "answer": "sym-worse-touch-and-heat",
+    "explanation": "Lac Caninum-এর লক্ষণ স্পর্শে ও গরমে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "lac-can-med-15",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খোলা বাতাসে, ঠান্ডা প্রয়োগে ও বিশ্রামে উপশম", "mid": "sym-open-air-cold-application-rest-amel"},
+      {"text": "মাংসপেশির অনবরত কাঁপুনি ও ঝাঁকুনি", "mid": "sym-twitching-jerking-muscles"},
+      {"text": "জ্বরের প্রাথমিক অবস্থায় গাল দুটো লাল হওয়া", "mid": "sym-flushed-face-early-fever"},
+      {"text": "সারাক্ষণ কান্নাকাটি ও পাগল হয়ে যাওয়ার ভয়", "mid": "sym-weeping-fear-of-insanity"}
+    ],
+    "answer": "sym-open-air-cold-application-rest-amel",
+    "explanation": "Lac Caninum-এর লক্ষণ খোলা বাতাসে, ঠান্ডা প্রয়োগে এবং বিশ্রামে উপশম হয়।"
+  },
+  {
+    "id": "lac-can-med-16",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনোযোগ ধরে রাখতে না পারা", "mid": "sym-cannot-sustain-attention"},
+      {"text": "প্রচণ্ড বকবক ও অশ্লীল কথা বলা", "mid": "sym-loquacity-obscene-talk"},
+      {"text": "কানের ভেতর দপদপানি ব্যথা ও কান লাল হয়ে ফুলে যাওয়া", "mid": "sym-ear-throbbing-pain-red-swollen"},
+      {"text": "প্রচুর কথা বলার প্রবণতা, এক বিষয় থেকে অন্য বিষয়ে অনবরত কথা বলা", "mid": "sym-loquacity"}
+    ],
+    "answer": "sym-cannot-sustain-attention",
+    "explanation": "Lac Caninum-এ রোগী মনোযোগ ধরে রাখতে পারে না।"
+  },
+  {
+    "id": "lac-can-med-17",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হতাশা ও কান্নার প্রবণতা", "mid": "sym-depression-weeping-tendency"},
+      {"text": "অন্ধকারে ভয়, মনে হয় কেউ তাড়া করছে ও কাল্পনিক জিনিসের সাথে কথা বলা", "mid": "sym-fear-darkness-pursued-talks-to-imaginary"},
+      {"text": "সর্দিতে নাক বন্ধ ও বুকে ব্যথাযুক্ত কাশি", "mid": "sym-coryza-nasal-blocking-painful-cough"},
+      {"text": "খাওয়া বা পান করার পরপরই, গরমে ও রাতে বৃদ্ধি", "mid": "sym-after-eating-heat-night-agg"}
+    ],
+    "answer": "sym-depression-weeping-tendency",
+    "explanation": "Lac Caninum-এ হতাশা ও কান্নার প্রবণতা দেখা যায়।"
+  },
+  {
+    "id": "lac-can-med-18",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরে দুর্বলতা ও উড়ন্ত ব্যথা", "mid": "sym-weakness-wandering-pains"},
+      {"text": "প্রেমের ব্যর্থতা বা ঈর্ষা থেকে মানসিক রোগ", "mid": "sym-mental-disease-from-love-disappointment-jealousy"},
+      {"text": "গলা লাল হয়ে ফুলে যাওয়া ও গিলতে কষ্ট হওয়া", "mid": "sym-throat-red-swollen-difficult-swallowing"},
+      {"text": "ঘুমের পর ও মৃদু চাপে উপশম", "mid": "sym-sleep-and-gentle-pressure-amel"}
+    ],
+    "answer": "sym-weakness-wandering-pains",
+    "explanation": "Lac Caninum-এ শরীরের বিভিন্ন অংশে উড়ন্ত ব্যথা এবং দুর্বলতা দেখা যায়।"
+  },
+  {
+    "id": "lac-can-med-19",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্তনে ফোলা ও ব্যথার সাথে মাসিকজনিত সম্পর্ক", "mid": "sym-mastitis-related-to-menses"},
+      {"text": "চোখ বড় বড় করে তাকিয়ে থাকা ও সব কিছু বড় বা রঙিন দেখা", "mid": "sym-staring-eyes-objects-look-large-colored"},
+      {"text": "রাত ৪টা থেকে ৬টার মধ্যে বৃদ্ধি", "mid": "sym-worse-4-to-6-am"},
+      {"text": "শুষ্ক ও ঠান্ডা আবহাওয়ায় বৃদ্ধি, আর্দ্র আবহাওয়ায় উপশম", "mid": "sym-dry-cold-agg-damp-amel"}
+    ],
+    "answer": "sym-mastitis-related-to-menses"},
+  {
+    "id": "lac-can-med-20",
+    "stem": "নিচের কোনটি Lac Caninum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লক্ষণ ও ব্যথার পাশ পরিবর্তন ও স্থানান্তর", "mid": "sym-symptoms-shift-sides"},
+      {"text": "রাতে, শোয়ার পর, ঋতুস্রাবের সময় ও মানসিক উত্তেজনায় বৃদ্ধি", "mid": "sym-night-lying-menses-excitement-agg"},
+      {"text": "বিশ্রামে, ঠান্ডার প্রয়োগে ও ধীরে হাঁটলে উপশম", "mid": "sym-rest-cold-application-slow-walking-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"}
+    ],
+    "answer": "sym-symptoms-shift-sides",
+    "explanation": "Lac Caninum-এর সবচেয়ে গুরুত্বপূর্ণ বৈশিষ্ট্য হলো ব্যথা বা লক্ষণ এক পাশ থেকে অন্য পাশে স্থানান্তরিত হওয়া।"
+  }
+]
+
+
+

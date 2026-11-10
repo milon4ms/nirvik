@@ -1,0 +1,482 @@
+[
+  {
+    "id": "arnica-mont-med-01",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সারা শরীরে থেঁতলে যাওয়ার মতো ব্যথা, মনে হয় যেন কেউ লাঠি দিয়ে পিটিয়েছে।",
+        "mid": "bruised_sensation_all_over"
+      },
+      {
+        "text": "শরীরে জ্বালাপোড়া ও পোড়া ফোস্কা।",
+        "mid": "burning_blisters"
+      },
+      {
+        "text": "মাথার তীব্র ঝাঁঝালো ব্যথা, যা ঠান্ডা বাতাসে বাড়ে।",
+        "mid": "sharp_headache_cold_air"
+      },
+      {
+        "text": "পেশীতে টান ধরার মতো ব্যথা, যা গরম সেঁক পেলে উপশম হয়।",
+        "mid": "cramping_muscle_pain_warm_application"
+      }
+    ],
+    "answer": "bruised_sensation_all_over",
+    "explanation": "Arnica Montana-এর প্রধান লক্ষণ হলো সারা শরীরে থেঁতলে যাওয়ার মতো ব্যথা (Bruised Sensation), মনে হয় যেন কেউ লাঠি দিয়ে পিটিয়েছে।"
+  },
+  {
+    "id": "arnica-mont-med-02",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী যেখানেই শোয়, বিছানা তার কাছে খুব শক্ত মনে হয় এবং সে বারবার শোয়ার জায়গা পরিবর্তন করে।",
+        "mid": "bed_feels_hard_tossing"
+      },
+      {
+        "text": "রোগী বিছানায় শুয়ে থাকলে আরাম পায় এবং নড়াচড়া করতে চায় না।",
+        "mid": "amelioration_lying_still"
+      },
+      {
+        "text": "রোগী শুধুমাত্র নরম গদিতে ঘুমাতে পারে।",
+        "mid": "sleeps_only_on_soft_bed"
+      },
+      {
+        "text": "রোগী একবার শুয়ে পড়লে গভীর ঘুমে আচ্ছন্ন থাকে।",
+        "mid": "deep_sleep_after_lying"
+      }
+    ],
+    "answer": "bed_feels_hard_tossing",
+    "explanation": "Arnica Montana-এ ব্যথার কারণে রোগীর কাছে বিছানা শক্ত মনে হয়; সে যেখানেই শোয়, মনে হয় সেই জায়গাটি খুব শক্ত এবং বারবার শোয়ার জায়গা পরিবর্তন করে।"
+  },
+  {
+    "id": "arnica-mont-med-03",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী গুরুতর অসুস্থ বা অচৈতন্য হওয়া সত্ত্বেও প্রশ্ন করলে বলে, \"আমি ভালো আছি, আমার কোনো অসুখ নেই।\"",
+        "mid": "sensation_of_wellness"
+      },
+      {
+        "text": "রোগী তার অসুস্থতা সম্পর্কে অতিরিক্ত সচেতন এবং বারবার ডাক্তার ডাকতে চায়।",
+        "mid": "overly_conscious_of_illness"
+      },
+      {
+        "text": "রোগী অসুস্থতার কথা স্বীকার করে এবং বিশ্রাম নিতে চায়।",
+        "mid": "acknowledges_illness_and_rests"
+      },
+      {
+        "text": "রোগী অচৈতন্য অবস্থায় কোনো প্রশ্নের উত্তর দিতে পারে না।",
+        "mid": "cannot_answer_when_unconscious"
+      }
+    ],
+    "answer": "sensation_of_wellness",
+    "explanation": "Arnica Montana-এ রোগী গুরুতর অসুস্থতা বা অচৈতন্য অবস্থাতেও প্রশ্ন করলে বলে, \"আমি ভালো আছি, আমার কোনো অসুখ নেই\" (Sensation of wellness)।"
+  },
+  {
+    "id": "arnica-mont-med-04",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জ্বরের সময় মাথা ও মুখমণ্ডল গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে।",
+        "mid": "head_hot_body_cold"
+      },
+      {
+        "text": "সারা শরীর সমানভাবে গরম থাকে।",
+        "mid": "uniformly_hot_body"
+      },
+      {
+        "text": "হাত-পা গরম কিন্তু মাথা ঠান্ডা।",
+        "mid": "warm_extremities_cold_head"
+      },
+      {
+        "text": "শরীরের একপাশ গরম ও অন্যপাশ ঠান্ডা।",
+        "mid": "one_side_hot_other_cold"
+      }
+    ],
+    "answer": "head_hot_body_cold",
+    "explanation": "Arnica Montana-এ মাথা ও মুখমণ্ডল বেশ গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে।"
+  },
+  {
+    "id": "arnica-mont-med-05",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "আঘাতের ফলে ত্বকের নিচে রক্ত জমে কালো বা নীল দাগ (কালশিটে) পড়া।",
+        "mid": "ecchymosis_black_blue_spots"
+      },
+      {
+        "text": "ত্বকে লাল চাকা ও চুলকানি।",
+        "mid": "red_wheals_itching"
+      },
+      {
+        "text": "ত্বকে শুষ্ক, আঁশযুক্ত সাদা দাগ।",
+        "mid": "dry_scaly_white_patches"
+      },
+      {
+        "text": "ত্বকে ছোট ছোট পুঁজভরা ফোস্কা।",
+        "mid": "small_pustular_blisters"
+      }
+    ],
+    "answer": "ecchymosis_black_blue_spots",
+    "explanation": "Arnica Montana-এ আঘাতের ফলে ত্বকের নিচে রক্ত জমে কালো বা নীল হয়ে যাওয়া (Ecchymosis) বা কালশিটে পড়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "arnica-mont-med-06",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী খুব বিষণ্ণ থাকে এবং একা থাকতে চায়।",
+        "mid": "depressed_desire_to_be_alone"
+      },
+      {
+        "text": "রোগী অতিরিক্ত প্রফুল্ল এবং জনসমাগম পছন্দ করে।",
+        "mid": "cheerful_likes_crowds"
+      },
+      {
+        "text": "রোগী ভীতু ও একাকীত্বে ভয় পায়।",
+        "mid": "fearful_afraid_of_being_alone"
+      },
+      {
+        "text": "রোগী উদাসীন ও নির্বিকার।",
+        "mid": "apathetic_indifferent"
+      }
+    ],
+    "answer": "depressed_desire_to_be_alone",
+    "explanation": "Arnica Montana-এর মানসিক লক্ষণে রোগী খুব বিষণ্ণ থাকে এবং একা থাকতে চায়।"
+  },
+  {
+    "id": "arnica-mont-med-07",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কেউ তার দিকে এগিয়ে এলে রোগী ভয় পায়, পাছে কেউ তাকে স্পর্শ করলে ব্যথা বেড়ে যায়।",
+        "mid": "fear_of_being_touched"
+      },
+      {
+        "text": "স্পর্শ করলে রোগী আরাম বোধ করে।",
+        "mid": "touch_ameliorates"
+      },
+      {
+        "text": "রোগী নিজে থেকে বারবার অন্যের স্পর্শ কামনা করে।",
+        "mid": "desires_touch"
+      },
+      {
+        "text": "স্পর্শে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_touch"
+      }
+    ],
+    "answer": "fear_of_being_touched",
+    "explanation": "Arnica Montana-এ স্পর্শাতঙ্ক (Fear of being touched) থাকে; কেউ তার দিকে এগিয়ে আসলে সে ভয় পায়, পাছে কেউ তাকে স্পর্শ করলে তার ব্যথা বেড়ে যায়।"
+  },
+  {
+    "id": "arnica-mont-med-08",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী কোনো বিষয়ে মনোযোগ দিতে পারে না এবং প্রশ্নের উত্তর দেওয়ার পর পুনরায় অচৈতন্য হয়ে পড়ে।",
+        "mid": "cannot_concentrate_answers_then_unconscious"
+      },
+      {
+        "text": "রোগী অতিরিক্ত মনোযোগী এবং দীর্ঘ সময় কথোপকথনে সক্রিয় থাকে।",
+        "mid": "very_attentive_long_conversation"
+      },
+      {
+        "text": "রোগী প্রশ্নের উত্তর দিতে অস্বীকার করে।",
+        "mid": "refuses_to_answer"
+      },
+      {
+        "text": "রোগী একবার প্রশ্ন শুনলে তা দীর্ঘদিন মনে রাখে।",
+        "mid": "remembers_questions_long"
+      }
+    ],
+    "answer": "cannot_concentrate_answers_then_unconscious",
+    "explanation": "Arnica Montana-এ রোগী কোনো বিষয়ে মনোযোগ দিতে পারে না এবং উত্তর দেওয়ার পর পুনরায় অচৈতন্য হয়ে পড়ে।"
+  },
+  {
+    "id": "arnica-mont-med-09",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পড়ে যাওয়া, ভোঁতা অস্ত্রের আঘাত, মচকানো বা পেশির অতিরিক্ত ব্যবহারের ফলে সৃষ্ট ব্যথায় এটি প্রধান ঔষধ।",
+        "mid": "trauma_falls_blunt_injury_sprain_overexertion"
+      },
+      {
+        "text": "শুধুমাত্র হাড় ভাঙার ব্যথায় এটি প্রধান ঔষধ।",
+        "mid": "bone_fracture_pain"
+      },
+      {
+        "text": "শুধুমাত্র পোড়া ও স্ক্যাল্ডে এটি প্রধান ঔষধ।",
+        "mid": "burns_scalds"
+      },
+      {
+        "text": "শুধুমাত্র কাটা ও ছেঁড়া ক্ষতে এটি প্রধান ঔষধ।",
+        "mid": "cuts_lacerations"
+      }
+    ],
+    "answer": "trauma_falls_blunt_injury_sprain_overexertion",
+    "explanation": "Arnica Montana আঘাত (Trauma)—পড়ে যাওয়া, ভোঁতা অস্ত্রের আঘাত, মচকানো বা পেশির অতিরিক্ত ব্যবহারের ফলে সৃষ্ট ব্যথায় প্রধান ঔষধ।"
+  },
+  {
+    "id": "arnica-mont-med-10",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অতিরিক্ত শারীরিক পরিশ্রমের ফলে হৃদপিণ্ডের পেশি দুর্বল হয়ে যাওয়া, বাম বাহুতে ব্যথা এবং দমবন্ধ ভাব।",
+        "mid": "athletes_heart_left_arm_pain_dyspnea"
+      },
+      {
+        "text": "হৃদপিণ্ডের পেশি শক্ত হয়ে যাওয়া এবং বুকে চাপ।",
+        "mid": "stiff_heart_muscle_chest_pressure"
+      },
+      {
+        "text": "হৃদস্পন্দন অনিয়মিত কিন্তু দুর্বলতা নেই।",
+        "mid": "irregular_heartbeat_no_weakness"
+      },
+      {
+        "text": "ডান বাহুতে ব্যথা এবং হৃদপিণ্ডের পেশি মোটা হয়ে যাওয়া।",
+        "mid": "right_arm_pain_thick_heart_muscle"
+      }
+    ],
+    "answer": "athletes_heart_left_arm_pain_dyspnea",
+    "explanation": "Arnica Montana-এ অতিরিক্ত শারীরিক পরিশ্রমের ফলে হৃদপিণ্ডের পেশি দুর্বল হয়ে যাওয়া (Athlete's Heart), বাম বাহুতে ব্যথা এবং দমবন্ধ ভাব একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "arnica-mont-med-11",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নিঃশ্বাসে ও ঢেকুরে পচা ডিমের মতো গন্ধ।",
+        "mid": "belching_rotten_egg_smell"
+      },
+      {
+        "text": "ঢেকুরে মিষ্টি স্বাদ।",
+        "mid": "sweet_belching"
+      },
+      {
+        "text": "নিঃশ্বাসে দুর্গন্ধ নেই কিন্তু পেটে জ্বালাপোড়া।",
+        "mid": "no_bad_breath_epigastric_burning"
+      },
+      {
+        "text": "ঢেকুরে টক স্বাদ এবং খাবারের স্বাদ।",
+        "mid": "sour_belching_taste_of_food"
+      }
+    ],
+    "answer": "belching_rotten_egg_smell",
+    "explanation": "Arnica Montana-এ নিঃশ্বাসে ও ঢেকুরে পচা ডিমের মতো গন্ধ (Belching like rotten eggs) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "arnica-mont-med-12",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটে প্রচণ্ড শূলানি ব্যথা।",
+        "mid": "severe_abdominal_colic"
+      },
+      {
+        "text": "পেটে হালকা অস্বস্তি, ব্যথা নেই।",
+        "mid": "mild_abdominal_discomfort_no_pain"
+      },
+      {
+        "text": "পেট ফুলে যাওয়া কিন্তু মোচড়ানো ব্যথা নেই।",
+        "mid": "bloating_without_colic"
+      },
+      {
+        "text": "পেটে জ্বালাপোড়া ও অম্লতা।",
+        "mid": "epigastric_burning_acidity"
+      }
+    ],
+    "answer": "severe_abdominal_colic",
+    "explanation": "Arnica Montana-এ পেটে প্রচণ্ড শূলানি ব্যথা (Severe abdominal colic) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "arnica-mont-med-13",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ছোট ছোট অত্যন্ত যন্ত্রণাদায়ক ফোড়া (Boils) একের পর এক উঠতে থাকে।",
+        "mid": "succession_of_painful_boils"
+      },
+      {
+        "text": "একটি বড়, ব্যথাহীন ফোড়া।",
+        "mid": "single_large_painless_boil"
+      },
+      {
+        "text": "ত্বকে চুলকানি ছাড়া লাল দাগ।",
+        "mid": "red_spots_no_itching"
+      },
+      {
+        "text": "ত্বকে শুষ্ক, আঁশযুক্ত ডার্মাটাইটিস।",
+        "mid": "dry_scaly_dermatitis"
+      }
+    ],
+    "answer": "succession_of_painful_boils",
+    "explanation": "Arnica Montana-এ ছোট ছোট অত্যন্ত যন্ত্রণাদায়ক ফোড়া (Boils) একের পর এক উঠতে থাকে।"
+  },
+  {
+    "id": "arnica-mont-med-14",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রসবের পর জরায়ুর ক্ষত ও রক্তক্ষরণ বন্ধ করতে এটি অত্যন্ত দ্রুত কাজ করে।",
+        "mid": "post_delivery_uterine_wounds_hemorrhage"
+      },
+      {
+        "text": "প্রসবের আগে জরায়ুর সংকোচন বাড়াতে এটি প্রধান ঔষধ।",
+        "mid": "augments_uterine_contractions_before_delivery"
+      },
+      {
+        "text": "মাসিকের সময় অতিরিক্ত ব্যথা উপশমে এটি প্রধান ঔষধ।",
+        "mid": "dysmenorrhea_relief"
+      },
+      {
+        "text": "শ্বেতপ্রদর বন্ধ করতে এটি প্রধান ঔষধ।",
+        "mid": "leucorrhea_relief"
+      }
+    ],
+    "answer": "post_delivery_uterine_wounds_hemorrhage",
+    "explanation": "Arnica Montana প্রসবের পর জরায়ুর ক্ষত ও রক্তক্ষরণ বন্ধ করতে অত্যন্ত দ্রুত কাজ করে।"
+  },
+  {
+    "id": "arnica-mont-med-15",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় স্পর্শ করলে।",
+        "mid": "aggravation_from_touch"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় স্পর্শ করলে।",
+        "mid": "amelioration_from_touch"
+      },
+      {
+        "text": "স্পর্শে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_touch_modality"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র ঠান্ডা বাতাসে।",
+        "mid": "aggravation_only_from_cold_air"
+      }
+    ],
+    "answer": "aggravation_from_touch",
+    "explanation": "Arnica Montana-এর লক্ষণ স্পর্শ করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arnica-mont-med-16",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় নড়াচড়া করলে।",
+        "mid": "aggravation_from_motion"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় নড়াচড়া করলে।",
+        "mid": "amelioration_from_motion"
+      },
+      {
+        "text": "নড়াচড়ায় কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_motion"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র বিশ্রামে।",
+        "mid": "aggravation_only_from_rest"
+      }
+    ],
+    "answer": "aggravation_from_motion",
+    "explanation": "Arnica Montana-এর লক্ষণ নড়াচড়া করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arnica-mont-med-17",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় বিশ্রামে থাকলে।",
+        "mid": "aggravation_from_rest"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় বিশ্রামে থাকলে।",
+        "mid": "amelioration_from_rest"
+      },
+      {
+        "text": "বিশ্রামে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_rest"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র ব্যায়ামে।",
+        "mid": "aggravation_only_from_exercise"
+      }
+    ],
+    "answer": "aggravation_from_rest",
+    "explanation": "Arnica Montana-এর লক্ষণ বিশ্রামে থাকলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arnica-mont-med-18",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় মদ পান করলে।",
+        "mid": "aggravation_from_alcohol"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় মদ পান করলে।",
+        "mid": "amelioration_from_alcohol"
+      },
+      {
+        "text": "মদ পানে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_alcohol"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র কফি পান করলে।",
+        "mid": "aggravation_only_from_coffee"
+      }
+    ],
+    "answer": "aggravation_from_alcohol",
+    "explanation": "Arnica Montana-এর লক্ষণ মদ পান করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arnica-mont-med-19",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় আর্দ্র ঠান্ডায়।",
+        "mid": "aggravation_from_damp_cold"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় আর্দ্র ঠান্ডায়।",
+        "mid": "amelioration_from_damp_cold"
+      },
+      {
+        "text": "আর্দ্র ঠান্ডায় কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_damp_cold"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র শুষ্ক গরমে।",
+        "mid": "aggravation_only_from_dry_heat"
+      }
+    ],
+    "answer": "aggravation_from_damp_cold",
+    "explanation": "Arnica Montana-এর লক্ষণ আর্দ্র ঠান্ডায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arnica-mont-med-20",
+    "stem": "নিচের কোনটি Arnica Montana-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় মাথা নিচু করে শুয়ে থাকলে এবং খোলা বাতাসে।",
+        "mid": "amelioration_head_low_open_air"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় মাথা নিচু করে শুয়ে থাকলে এবং খোলা বাতাসে।",
+        "mid": "aggravation_head_low_open_air"
+      },
+      {
+        "text": "মাথা নিচু করে শুয়ে থাকলে বা খোলা বাতাসে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_head_low_open_air"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় শুধুমাত্র গরম ঘরে।",
+        "mid": "amelioration_only_in_warm_room"
+      }
+    ],
+    "answer": "amelioration_head_low_open_air",
+    "explanation": "Arnica Montana-এর লক্ষণ মাথা নিচু করে শুয়ে থাকলে এবং খোলা বাতাসে উপশম হয়।"
+  }
+]

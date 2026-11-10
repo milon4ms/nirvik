@@ -1,0 +1,242 @@
+[
+  {
+    "id": "thuja-med-01",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আঁচিল, উদ্ভেদ, টিউমার ও ঘাম, সাইকোসিসের যম", "mid": "sym-thuja-warts-excrescences-tumor-sycosis-king"},
+      {"text": "আঁচিল নেই", "mid": "sym-no-warts"},
+      {"text": "টিউমার নেই", "mid": "sym-no-tumor"},
+      {"text": "সাইকোসিস নেই", "mid": "sym-no-sycosis"}
+    ],
+    "answer": "sym-thuja-warts-excrescences-tumor-sycosis-king",
+    "explanation": "Thuja আঁচিল ও সাইকোসিসের প্রধান ঔষধ।"
+  },
+  {
+    "id": "thuja-med-02",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের পাতার টিউমার", "mid": "sym-thuja-eyelid-tumor"},
+      {"text": "চোখে টিউমার নেই", "mid": "sym-no-eye-tumor"},
+      {"text": "চোখ স্বাভাবিক", "mid": "sym-normal-eye"},
+      {"text": "পাতায় কোনো সমস্যা নেই", "mid": "sym-no-lid-issue"}
+    ],
+    "answer": "sym-thuja-eyelid-tumor",
+    "explanation": "Thuja চোখের পাতার টিউমারে কার্যকর।"
+  },
+  {
+    "id": "thuja-med-03",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "টিকা ও বসন্তের পর যে কোনো উপসর্গ", "mid": "sym-thuja-ill-effects-vaccination-smallpox"},
+      {"text": "টিকায় কোনো কুফল নেই", "mid": "sym-no-ill-vaccination"},
+      {"text": "বসন্তের পর ভালো থাকে", "mid": "sym-better-after-smallpox"},
+      {"text": "টিকা সহ্য হয়", "mid": "sym-vaccination-tolerated"}
+    ],
+    "answer": "sym-thuja-ill-effects-vaccination-smallpox",
+    "explanation": "Thuja টিকা নেওয়ার কুফলে প্রথম পছন্দ।"
+  },
+  {
+    "id": "thuja-med-04",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম দিকের রোগী, শীতকাতর, ঠান্ডা ও বর্ষায় বৃদ্ধি", "mid": "sym-thuja-left-sided-chilly-cold-rainy-agg"},
+      {"text": "ডান দিকের রোগী", "mid": "sym-right-sided-patient"},
+      {"text": "গরমকাতর", "mid": "sym-hot"},
+      {"text": "ঠান্ডায় উপশম", "mid": "sym-amel-cold"}
+    ],
+    "answer": "sym-thuja-left-sided-chilly-cold-rainy-agg",
+    "explanation": "Thuja বাম পার্শ্ব ও শীতকাতর।"
+  },
+  {
+    "id": "thuja-med-05",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভেজা জায়গা ও পানি সহ্য হয় না, রসবাত হয়", "mid": "sym-thuja-damp-place-water-intolerant-rheumatism"},
+      {"text": "ভেজা জায়গা পছন্দ করে", "mid": "sym-likes-damp"},
+      {"text": "পানি সহ্য হয়", "mid": "sym-water-tolerated"},
+      {"text": "রসবাত নেই", "mid": "sym-no-rheumatism"}
+    ],
+    "answer": "sym-thuja-damp-place-water-intolerant-rheumatism",
+    "explanation": "Thuja ভেজা জায়গা সহ্য করতে পারে না।"
+  },
+  {
+    "id": "thuja-med-06",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দাঁতের গোড়ার দিকে ক্ষয়, উপরের দিকে ভালো", "mid": "sym-thuja-teeth-decay-root-good-crown"},
+      {"text": "দাঁতের উপরে ক্ষয়", "mid": "sym-decay-crown"},
+      {"text": "দাঁত মজবুত", "mid": "sym-strong-teeth"},
+      {"text": "দাঁতে ক্ষয় নেই", "mid": "sym-no-teeth-decay"}
+    ],
+    "answer": "sym-thuja-teeth-decay-root-good-crown",
+    "explanation": "Thuja-এ দাঁতের গোড়ায় ক্ষয় হয়।"
+  },
+  {
+    "id": "thuja-med-07",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথায় সাদা খুশকি, চুল পড়া", "mid": "sym-thuja-white-dandruff-hair-fall"},
+      {"text": "খুশকি নেই", "mid": "sym-no-dandruff"},
+      {"text": "চুল ঘন", "mid": "sym-thick-hair"},
+      {"text": "মাথা পরিষ্কার", "mid": "sym-clean-scalp"}
+    ],
+    "answer": "sym-thuja-white-dandruff-hair-fall",
+    "explanation": "Thuja-এ সাদা খুশকি ও চুল পড়া থাকে।"
+  },
+  {
+    "id": "thuja-med-08",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথার শিরদাড়া বাঁকা, সামনে ঝুঁকে দাঁড়ায়, সোজা শুলে স্নায়ুশূল কমে", "mid": "sym-thuja-spine-curved-bends-forward-neuralgia-amel-straight"},
+      {"text": "শিরদাড়া সোজা", "mid": "sym-spine-straight"},
+      {"text": "সামনে ঝোঁকে না", "mid": "sym-no-bending-forward"},
+      {"text": "সোজা শুলে বৃদ্ধি", "mid": "sym-agg-straight-lying"}
+    ],
+    "answer": "sym-thuja-spine-curved-bends-forward-neuralgia-amel-straight",
+    "explanation": "Thuja-এ শিরদাড়া বাঁকা ও সোজা শুলে স্নায়ুশূল কমে।"
+  },
+  {
+    "id": "thuja-med-09",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনে হয় শরীর কাচের তৈরি, ভেঙে যাবে, পেটে জীবিত প্রাণী আছে", "mid": "sym-thuja-delusion-glass-body-animal-abdomen"},
+      {"text": "শরীর শক্ত মনে হয়", "mid": "sym-body-hard-delusion"},
+      {"text": "পেটে কিছু নেই মনে হয়", "mid": "sym-no-animal-abdomen"},
+      {"text": "কাল্পনিক অনুভূতি নেই", "mid": "sym-no-delusion"}
+    ],
+    "answer": "sym-thuja-delusion-glass-body-animal-abdomen",
+    "explanation": "Thuja-এ কাচের শরীর ও পেটে প্রাণী অনুভূতি থাকে।"
+  },
+  {
+    "id": "thuja-med-10",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনে হয় অপরিচিত লোক পাশে শুয়ে আছে, শরীর আত্মা থেকে পৃথক", "mid": "sym-thuja-stranger-beside-body-separated-soul"},
+      {"text": "একা মনে হয়", "mid": "sym-feels-alone"},
+      {"text": "শরীর আত্মা একসাথে মনে হয়", "mid": "sym-body-soul-together"},
+      {"text": "অপরিচিত অনুভূতি নেই", "mid": "sym-no-stranger-feel"}
+    ],
+    "answer": "sym-thuja-stranger-beside-body-separated-soul",
+    "explanation": "Thuja-এ অপরিচিত লোক পাশে ও শরীর আত্মা পৃথক অনুভূতি থাকে।"
+  },
+  {
+    "id": "thuja-med-11",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বদ্ধমূল ধারণা ও স্বপ্নবহুল নিদ্রা, বদমেজাজ একগুঁয়ে বাঁচতে চায় না", "mid": "sym-thuja-fixed-idea-dreamful-sleep-ill-tempered-obstinate"},
+      {"text": "ধারণা পরিবর্তনশীল", "mid": "sym-changeable-ideas"},
+      {"text": "স্বপ্ন নেই", "mid": "sym-no-dreams"},
+      {"text": "মেজাজ ভালো", "mid": "sym-good-temper"}
+    ],
+    "answer": "sym-thuja-fixed-idea-dreamful-sleep-ill-tempered-obstinate",
+    "explanation": "Thuja-এ বদ্ধমূল ধারণা ও স্বপ্নবহুল নিদ্রা থাকে।"
+  },
+  {
+    "id": "thuja-med-12",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গনোরিয়ার পাতলা স্রাব, গনোরিয়ায় ধ্বজভঙ্গ, প্রস্রাবে জ্বালা", "mid": "sym-thuja-gonorrhea-thin-discharge-impotency-burning-urine"},
+      {"text": "গনোরিয়া নেই", "mid": "sym-no-gonorrhea"},
+      {"text": "প্রস্রাবে জ্বালা নেই", "mid": "sym-no-burning-urine"},
+      {"text": "ধ্বজভঙ্গ নেই", "mid": "sym-no-impotency"}
+    ],
+    "answer": "sym-thuja-gonorrhea-thin-discharge-impotency-burning-urine",
+    "explanation": "Thuja গনোরিয়া ও তার পরবর্তী সমস্যায় কার্যকর।"
+  },
+  {
+    "id": "thuja-med-13",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আঁচিল নরম, সহজে রক্তপাত, ডুমুরের মতো মাংসল উপবৃদ্ধি", "mid": "sym-thuja-warts-soft-bleed-easily-fig-like"},
+      {"text": "আঁচিল শক্ত", "mid": "sym-hard-warts"},
+      {"text": "আঁচিলে রক্তপাত নেই", "mid": "sym-no-bleed-warts"},
+      {"text": "উপবৃদ্ধি নেই", "mid": "sym-no-excrescence"}
+    ],
+    "answer": "sym-thuja-warts-soft-bleed-easily-fig-like",
+    "explanation": "Thuja-এ আঁচিল নরম ও সহজে রক্তপাত হয়।"
+  },
+  {
+    "id": "thuja-med-14",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘাম শুধু আবৃত অংশে, অনাবৃত অংশে নয়, মিষ্টি দুর্গন্ধ", "mid": "sym-thuja-sweat-covered-parts-only-sweet-offensive"},
+      {"text": "ঘাম সব জায়গায়", "mid": "sym-sweat-all-over"},
+      {"text": "ঘাম শুধু অনাবৃত অংশে", "mid": "sym-sweat-uncovered-only"},
+      {"text": "ঘামে গন্ধ নেই", "mid": "sym-odorless-sweat"}
+    ],
+    "answer": "sym-thuja-sweat-covered-parts-only-sweet-offensive",
+    "explanation": "Thuja-এ ঘাম শুধু আবৃত অংশে হয়।"
+  },
+  {
+    "id": "thuja-med-15",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নখ বিকৃত ভঙ্গুর, ত্বকে বাদামী কালচে ছোপ", "mid": "sym-thuja-nails-brittle-deformed-brown-patches"},
+      {"text": "নখ সুন্দর", "mid": "sym-beautiful-nails"},
+      {"text": "ত্বক পরিষ্কার", "mid": "sym-clear-skin"},
+      {"text": "ছোপ নেই", "mid": "sym-no-patches"}
+    ],
+    "answer": "sym-thuja-nails-brittle-deformed-brown-patches",
+    "explanation": "Thuja-এ নখ ভঙ্গুর ও ত্বকে বাদামী ছোপ থাকে।"
+  },
+  {
+    "id": "thuja-med-16",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রস্রাবের পর কয়েক ফোঁটা রয়ে গেছে মনে হয়", "mid": "sym-thuja-urine-feels-drops-remain"},
+      {"text": "প্রস্রাবে তৃপ্তি", "mid": "sym-satisfied-urine"},
+      {"text": "প্রস্রাব স্বাভাবিক", "mid": "sym-normal-urine"},
+      {"text": "প্রস্রাব আটকে থাকে", "mid": "sym-retention-urine"}
+    ],
+    "answer": "sym-thuja-urine-feels-drops-remain",
+    "explanation": "Thuja-এ প্রস্রাবের পর ফোঁটা রয়ে গেছে মনে হয়।"
+  },
+  {
+    "id": "thuja-med-17",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: সকালে, ঠান্ডায়, আর্দ্র আবহাওয়ায়, টিকা, চা, রাতে বিছানার গরমে", "mid": "sym-thuja-agg-morning-cold-damp-vaccination-tea-night-bed-heat"},
+      {"text": "বৃদ্ধি: গরমে", "mid": "sym-agg-heat"},
+      {"text": "বৃদ্ধি: শুষ্ক আবহাওয়ায়", "mid": "sym-agg-dry-weather"},
+      {"text": "বৃদ্ধি: ডান পাশে শুলে", "mid": "sym-agg-right-lying"}
+    ],
+    "answer": "sym-thuja-agg-morning-cold-damp-vaccination-tea-night-bed-heat",
+    "explanation": "Thuja-এ সকালে, ঠান্ডা, আর্দ্রতা, টিকা ও চায়ে বৃদ্ধি।"
+  },
+  {
+    "id": "thuja-med-18",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: গরমে, ডান পাশে শুলে ও শুষ্ক আবহাওয়ায়", "mid": "sym-thuja-amel-heat-right-lying-dry-weather"},
+      {"text": "উপশম: ঠান্ডায়", "mid": "sym-amel-cold"},
+      {"text": "উপশম: ভেজা আবহাওয়ায়", "mid": "sym-amel-damp"},
+      {"text": "উপশম: বাম পাশে শুলে", "mid": "sym-amel-left-lying"}
+    ],
+    "answer": "sym-thuja-amel-heat-right-lying-dry-weather",
+    "explanation": "Thuja গরমে, ডান পাশে শুলে ও শুষ্ক আবহাওয়ায় ভালো থাকে।"
+  },
+  {
+    "id": "thuja-med-19",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকালে নাস্তার পর পেট ফাঁপা ও কুন্থনসহ মলত্যাগ", "mid": "sym-thuja-bloated-breakfast-tenesmus-stool"},
+      {"text": "নাস্তার পর ভালো থাকে", "mid": "sym-better-after-breakfast"},
+      {"text": "পেট ফাঁপা নেই", "mid": "sym-no-bloating"},
+      {"text": "কুন্থন নেই", "mid": "sym-no-tenesmus"}
+    ],
+    "answer": "sym-thuja-bloated-breakfast-tenesmus-stool",
+    "explanation": "Thuja-এ সকালে নাস্তার পর পেট ফাঁপা ও কুন্থন থাকে।"
+  },
+  {
+    "id": "thuja-med-20",
+    "stem": "নিচের কোনটি Thuja Occidentalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিপূরক Medorrhinum Sabina Silicea, উৎস চিরহরিৎ গাছ", "mid": "sym-thuja-complementary-med-sab-sil-source-evergreen"},
+      {"text": "পরিপূরক Sulphur", "mid": "sym-complement-sulphur"},
+      {"text": "পরিপূরক Bryonia", "mid": "sym-complement-bryonia"},
+      {"text": "উৎস খনিজ", "mid": "sym-source-mineral"}
+    ],
+    "answer": "sym-thuja-complementary-med-sab-sil-source-evergreen",
+    "explanation": "Thuja-এর পরিপূরক Medorrhinum, Sabina ও উৎস চিরহরিৎ গাছ।"
+  }
+]

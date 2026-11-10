@@ -1,0 +1,242 @@
+[
+  {
+    "id": "carbo-med-01",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জীবনীশক্তি চরম হ্রাস, নাড়ি নেই, বরফের মতো ঠান্ডা, মৃতসঞ্জীবনী", "mid": "sym-carbo-corpse-reviver-collapse"},
+      {"text": "জ্বর খুব বেশি, গরম শরীর", "mid": "sym-high-fever-hot"},
+      {"text": "শক্তি খুব বেশি", "mid": "sym-high-energy"},
+      {"text": "নাড়ি দ্রুত ও শক্ত", "mid": "sym-pulse-fast-hard"}
+    ],
+    "answer": "sym-carbo-corpse-reviver-collapse",
+    "explanation": "Carbo Veg কে Corpse Reviver বলা হয়, জীবনীশক্তি চরম হ্রাসে ব্যবহৃত হয়।"
+  },
+  {
+    "id": "carbo-med-02",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীর ঠান্ডা তবুও প্রচণ্ড বাতাস চায়, কাছ থেকে জোরে বাতাস করতে বলে", "mid": "sym-carbo-desire-fanning-cold-body"},
+      {"text": "বাতাস সহ্য হয় না", "mid": "sym-air-intolerant"},
+      {"text": "গরম বাতাস চায়", "mid": "sym-wants-hot-air"},
+      {"text": "বাতাসে ভয় পায়", "mid": "sym-fear-air"}
+    ],
+    "answer": "sym-carbo-desire-fanning-cold-body",
+    "explanation": "Carbo Veg-এ শরীর ঠান্ডা থাকলেও রোগী জোরে বাতাস চায়।"
+  },
+  {
+    "id": "carbo-med-03",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেটের উপরিভাগে গ্যাস জমে ঢোলের মতো ফোলা, সামান্য খেলেই ভার বোধ", "mid": "sym-carbo-upper-abdomen-gas-drum"},
+      {"text": "পেটের নিচের অংশে গ্যাস", "mid": "sym-lower-abdomen-gas-lyco"},
+      {"text": "পুরো পেটে গ্যাস সমানভাবে", "mid": "sym-whole-abdomen-gas-china"},
+      {"text": "পেটে গ্যাস নেই", "mid": "sym-no-gas"}
+    ],
+    "answer": "sym-carbo-upper-abdomen-gas-drum",
+    "explanation": "Carbo Veg-এ উপর পেটে গ্যাস জমে ঢোলের মতো ফোলে।"
+  },
+  {
+    "id": "carbo-med-04",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঢেকুর উঠলে সাময়িক আরাম", "mid": "sym-carbo-amel-eructation"},
+      {"text": "ঢেকুরে বৃদ্ধি", "mid": "sym-agg-eructation"},
+      {"text": "ঢেকুর হয় না", "mid": "sym-no-eructation"},
+      {"text": "ঢেকুরে বমি আসে", "mid": "sym-vomit-eructation"}
+    ],
+    "answer": "sym-carbo-amel-eructation",
+    "explanation": "Carbo Veg-এ ঢেকুরে গ্যাস বের হলে আরাম হয়।"
+  },
+  {
+    "id": "carbo-med-05",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিরায় রক্ত চলাচল ধীর, শরীর নীলাভ বা কালচে, venous congestion", "mid": "sym-carbo-venous-congestion-bluish"},
+      {"text": "ধমনীতে রক্ত দ্রুত চলে", "mid": "sym-arterial-fast"},
+      {"text": "শরীর লাল হয়ে যায়", "mid": "sym-body-red"},
+      {"text": "রক্ত চলাচল স্বাভাবিক", "mid": "sym-circulation-normal"}
+    ],
+    "answer": "sym-carbo-venous-congestion-bluish",
+    "explanation": "Carbo Veg-এ শিরার রক্ত চলাচল ধীর হয়ে নীলাভ দেখায়।"
+  },
+  {
+    "id": "carbo-med-06",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা নিঃশ্বাস, ঠান্ডা জিহ্বা, ঠান্ডা ঘাম, স্বরভঙ্গ", "mid": "sym-carbo-cold-breath-tongue-sweat-hoarseness"},
+      {"text": "গরম নিঃশ্বাস ও গরম জিহ্বা", "mid": "sym-hot-breath-tongue"},
+      {"text": "ঘাম গরম", "mid": "sym-hot-sweat"},
+      {"text": "স্বর পরিষ্কার", "mid": "sym-clear-voice"}
+    ],
+    "answer": "sym-carbo-cold-breath-tongue-sweat-hoarseness",
+    "explanation": "Carbo Veg-এ ঠান্ডা নিঃশ্বাস, ঠান্ডা জিহ্বা ও স্বরভঙ্গ থাকে।"
+  },
+  {
+    "id": "carbo-med-07",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দুর্গন্ধযুক্ত বায়ু, ঢেকুর ও মলদ্বার দিয়ে বায়ু নিঃসরণে আরাম", "mid": "sym-carbo-offensive-flatus-amel-passing"},
+      {"text": "বায়ু গন্ধহীন", "mid": "sym-flatus-odorless"},
+      {"text": "বায়ু নিঃসরণে বৃদ্ধি", "mid": "sym-agg-flatus"},
+      {"text": "বায়ু হয় না", "mid": "sym-no-flatus"}
+    ],
+    "answer": "sym-carbo-offensive-flatus-amel-passing",
+    "explanation": "Carbo Veg-এ দুর্গন্ধযুক্ত বায়ু নিঃসরণে আরাম হয়।"
+  },
+  {
+    "id": "carbo-med-08",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রক্তস্রাব বেগে নয় চুয়ে চুয়ে বের হয়", "mid": "sym-carbo-bleeding-oozing-not-gushing"},
+      {"text": "রক্ত ফিনকি দিয়ে বের হয়", "mid": "sym-bleeding-gushing"},
+      {"text": "রক্ত জমাট বাঁধে না", "mid": "sym-blood-not-clot"},
+      {"text": "রক্তপাত নেই", "mid": "sym-no-bleeding"}
+    ],
+    "answer": "sym-carbo-bleeding-oozing-not-gushing",
+    "explanation": "Carbo Veg-এ রক্ত চুয়ে চুয়ে বের হয়।"
+  },
+  {
+    "id": "carbo-med-09",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অতীত কাহিনী: অমুক ঘটনার পর আর স্বাস্থ্য ভালো হলো না", "mid": "sym-carbo-never-well-since-event"},
+      {"text": "সবসময় সুস্থ", "mid": "sym-always-healthy"},
+      {"text": "জন্ম থেকেই অসুস্থ", "mid": "sym-sick-since-birth"},
+      {"text": "কোনো ঘটনার সাথে সম্পর্ক নেই", "mid": "sym-no-relation-event"}
+    ],
+    "answer": "sym-carbo-never-well-since-event",
+    "explanation": "Carbo Veg-এ রোগী বলে একটি ঘটনার পর আর সুস্থ হয়নি।"
+  },
+  {
+    "id": "carbo-med-10",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অন্ধকার ও ভূতের ভয়", "mid": "sym-carbo-fear-dark-ghosts"},
+      {"text": "আলোর ভয়", "mid": "sym-fear-light"},
+      {"text": "একা থাকতে ভালো লাগে", "mid": "sym-likes-alone"},
+      {"text": "ভয় নেই", "mid": "sym-no-fear"}
+    ],
+    "answer": "sym-carbo-fear-dark-ghosts",
+    "explanation": "Carbo Veg অন্ধকার ও ভূতের ভয় পায়।"
+  },
+  {
+    "id": "carbo-med-11",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চর্বিযুক্ত খাবার, দুধ, পচা খাবারে গ্যাস বাড়ে", "mid": "sym-carbo-agg-fat-milk-decayed-food"},
+      {"text": "চর্বিতে উপশম", "mid": "sym-amel-fat"},
+      {"text": "দুধে উপশম", "mid": "sym-amel-milk"},
+      {"text": "সব খাবার সহ্য হয়", "mid": "sym-all-food-tolerated"}
+    ],
+    "answer": "sym-carbo-agg-fat-milk-decayed-food",
+    "explanation": "Carbo Veg-এ চর্বি, দুধ ও পচা খাবারে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "carbo-med-12",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দীর্ঘস্থায়ী স্বরভঙ্গ বিকেলে বাড়ে", "mid": "sym-carbo-chronic-hoarseness-evening-agg"},
+      {"text": "সকালে স্বরভঙ্গ বাড়ে", "mid": "sym-hoarseness-morning-agg"},
+      {"text": "স্বরভঙ্গ নেই", "mid": "sym-no-hoarseness"},
+      {"text": "স্বরভঙ্গ রাতে বাড়ে", "mid": "sym-hoarseness-night-agg"}
+    ],
+    "answer": "sym-carbo-chronic-hoarseness-evening-agg",
+    "explanation": "Carbo Veg-এ দীর্ঘস্থায়ী স্বরভঙ্গ বিকেলে বাড়ে।"
+  },
+  {
+    "id": "carbo-med-13",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নাড়ি দুর্বল, সুতোর মতো, অনিয়মিত, খাওয়ার পর বুক ধড়ফড়ানি বাড়ে", "mid": "sym-carbo-pulse-thready-irregular-palp-after-eating"},
+      {"text": "নাড়ি শক্ত ও দ্রুত", "mid": "sym-pulse-hard-fast"},
+      {"text": "নাড়ি স্বাভাবিক", "mid": "sym-pulse-normal"},
+      {"text": "বুক ধড়ফড়ানি নেই", "mid": "sym-no-palpitation"}
+    ],
+    "answer": "sym-carbo-pulse-thready-irregular-palp-after-eating",
+    "explanation": "Carbo Veg-এ নাড়ি থ্রেডি ও অনিয়মিত এবং খাওয়ার পর ধড়ফড়ানি বাড়ে।"
+  },
+  {
+    "id": "carbo-med-14",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখ ফ্যাকাশে নীলাভ, ঠান্ডা ঘামে ভেজা, চোখ বসে যাওয়া, কালচে দাগ", "mid": "sym-carbo-face-pale-bluish-cold-sweat-sunken-eyes"},
+      {"text": "মুখ লাল ও গরম", "mid": "sym-face-red-hot"},
+      {"text": "মুখে ঘাম নেই", "mid": "sym-no-face-sweat"},
+      {"text": "চোখ উজ্জ্বল", "mid": "sym-bright-eyes"}
+    ],
+    "answer": "sym-carbo-face-pale-bluish-cold-sweat-sunken-eyes",
+    "explanation": "Carbo Veg-এ মুখ ফ্যাকাশে নীলাভ, ঠান্ডা ঘাম ও চোখ বসে যায়।"
+  },
+  {
+    "id": "carbo-med-15",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: বিকেল ৪টা থেকে ৮টা, শুয়ে থাকলে, আর্দ্র আবহাওয়ায়", "mid": "sym-carbo-agg-4-8pm-lying-damp"},
+      {"text": "বৃদ্ধি: সকালে", "mid": "sym-agg-morning"},
+      {"text": "বৃদ্ধি: খোলা বাতাসে", "mid": "sym-agg-open-air"},
+      {"text": "বৃদ্ধি: বসে থাকলে", "mid": "sym-agg-sitting"}
+    ],
+    "answer": "sym-carbo-agg-4-8pm-lying-damp",
+    "explanation": "Carbo Veg-এ বিকেলে ৪-৮টায়, শুয়ে থাকলে ও আর্দ্রতায় বৃদ্ধি।"
+  },
+  {
+    "id": "carbo-med-16",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: বাতাস করলে, ঠান্ডা বাতাসে, মাথা উঁচু করে রাখলে", "mid": "sym-carbo-amel-fanning-cold-air-head-high"},
+      {"text": "উপশম: গরম বাতাসে", "mid": "sym-amel-hot-air"},
+      {"text": "উপশম: শুয়ে থাকলে", "mid": "sym-amel-lying"},
+      {"text": "উপশম: মাথা নিচু করলে", "mid": "sym-amel-head-low"}
+    ],
+    "answer": "sym-carbo-amel-fanning-cold-air-head-high",
+    "explanation": "Carbo Veg বাতাস করলে ও মাথা উঁচুতে উপশম পায়।"
+  },
+  {
+    "id": "carbo-med-17",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অর্শে শিরা ফুলে নীল, প্রচুর চুলকানি ও জ্বালা", "mid": "sym-carbo-hemorrhoids-blue-burning-itching"},
+      {"text": "অর্শে রক্তপাত বেশি", "mid": "sym-hemorrhoids-bleeding-more"},
+      {"text": "অর্শে কোনো ব্যথা নেই", "mid": "sym-no-piles-pain"},
+      {"text": "অর্শ শুকনো", "mid": "sym-dry-piles"}
+    ],
+    "answer": "sym-carbo-hemorrhoids-blue-burning-itching",
+    "explanation": "Carbo Veg-এ অর্শ নীল, জ্বালা ও চুলকানিযুক্ত।"
+  },
+  {
+    "id": "carbo-med-18",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্মৃতিশক্তি দুর্বল, কথা বলার সময় খেই হারিয়ে ফেলে", "mid": "sym-carbo-memory-weak-loses-thread-talk"},
+      {"text": "স্মৃতি প্রখর", "mid": "sym-sharp-memory"},
+      {"text": "কথা বলতে ভালোবাসে", "mid": "sym-loves-talking"},
+      {"text": "কথা স্পষ্ট", "mid": "sym-clear-speech"}
+    ],
+    "answer": "sym-carbo-memory-weak-loses-thread-talk",
+    "explanation": "Carbo Veg-এ স্মৃতি দুর্বল ও কথা বলার সময় খেই হারায়।"
+  },
+  {
+    "id": "carbo-med-19",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যন্ত শীতকাতর কিন্তু বাতাস চায়, ডান পার্শ্ব, সোরা মায়াজম", "mid": "sym-carbo-very-chilly-wants-air-right-psora"},
+      {"text": "গরমকাতর বাম পার্শ্ব", "mid": "sym-hot-left"},
+      {"text": "উভয়কাতর", "mid": "sym-both-chilly-hot"},
+      {"text": "সিফিলিটিক মায়াজম", "mid": "sym-miasm-syphilitic"}
+    ],
+    "answer": "sym-carbo-very-chilly-wants-air-right-psora",
+    "explanation": "Carbo Veg অত্যন্ত শীতকাতর কিন্তু বাতাস চায়, ডান পার্শ্ব ও সোরা।"
+  },
+  {
+    "id": "carbo-med-20",
+    "stem": "নিচের কোনটি Carbo Vegetabilis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিপূরক Kali Carb, সদৃশ Lycopodium ও China", "mid": "sym-carbo-complementary-kali-carb-similar-lyco-china"},
+      {"text": "পরিপূরক Sulphur", "mid": "sym-complement-sulphur"},
+      {"text": "পরিপূরক Bryonia", "mid": "sym-complement-bryonia"},
+      {"text": "কোনো সম্পর্ক নেই", "mid": "sym-no-relation"}
+    ],
+    "answer": "sym-carbo-complementary-kali-carb-similar-lyco-china",
+    "explanation": "Carbo Veg-এর পরিপূরক Kali Carb এবং সদৃশ Lycopodium, China।"
+  }
+]

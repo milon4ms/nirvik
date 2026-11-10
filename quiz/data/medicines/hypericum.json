@@ -1,0 +1,242 @@
+[
+  {
+    "id": "hyper-med-01",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্নায়ুতে আঘাতের শ্রেষ্ঠ ঔষধ, আঙুলের ডগা, মেরুদণ্ডে আঘাত", "mid": "sym-hyper-nerve-injury-best-fingertip-spine"},
+      {"text": "হাড় ভাঙার শ্রেষ্ঠ ঔষধ", "mid": "sym-best-fracture"},
+      {"text": "মাংসপেশীর আঘাতে শ্রেষ্ঠ", "mid": "sym-best-muscle-injury"},
+      {"text": "চোখের আঘাতে শ্রেষ্ঠ", "mid": "sym-best-eye-injury"}
+    ],
+    "answer": "sym-hyper-nerve-injury-best-fingertip-spine",
+    "explanation": "Hypericum স্নায়ু সমৃদ্ধ স্থানে আঘাতের জন্য শ্রেষ্ঠ, Arnica of nerves।"
+  },
+  {
+    "id": "hyper-med-02",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আঘাতপ্রাপ্ত স্থান থেকে ব্যথা স্নায়ু বরাবর উপরের দিকে ছড়ায়", "mid": "sym-hyper-pain-shoots-up-along-nerve"},
+      {"text": "ব্যথা নিচের দিকে ছড়ায়", "mid": "sym-pain-shoots-down"},
+      {"text": "ব্যথা এক জায়গায় স্থির", "mid": "sym-pain-fixed"},
+      {"text": "ব্যথা নেই", "mid": "sym-no-pain"}
+    ],
+    "answer": "sym-hyper-pain-shoots-up-along-nerve",
+    "explanation": "Hypericum-এ ব্যথা স্নায়ু বরাবর উপর দিকে যায়।"
+  },
+  {
+    "id": "hyper-med-03",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "তীব্র সূঁচালো অসহ্য ব্যথা, টাটানি", "mid": "sym-hyper-intense-shooting-intolerable-soreness"},
+      {"text": "ভোঁতা ব্যথা", "mid": "sym-dull-pain"},
+      {"text": "জ্বালাকর ব্যথা", "mid": "sym-burning-pain"},
+      {"text": "চুলকানিযুক্ত ব্যথা", "mid": "sym-itchy-pain"}
+    ],
+    "answer": "sym-hyper-intense-shooting-intolerable-soreness",
+    "explanation": "Hypericum-এ তীব্র সূঁচালো ও টাটানি ব্যথা থাকে।"
+  },
+  {
+    "id": "hyper-med-04",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ধারালো বা মরচে ধরা লোহায় কেটে গেলে ধনুষ্টংকার প্রতিরোধে কার্যকর", "mid": "sym-hyper-tetanus-prevention-rusty-iron"},
+      {"text": "ধনুষ্টংকার বাড়ায়", "mid": "sym-increases-tetanus"},
+      {"text": "ধনুষ্টংকারে কোনো কাজ নেই", "mid": "sym-no-tetanus-action"},
+      {"text": "শুধু পোড়ায় কাজ করে", "mid": "sym-only-burn"}
+    ],
+    "answer": "sym-hyper-tetanus-prevention-rusty-iron",
+    "explanation": "Hypericum ধনুষ্টংকার প্রতিরোধে কার্যকর।"
+  },
+  {
+    "id": "hyper-med-05",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিরদাঁড়া বা কক্সিক্সে আঘাত, পক্ষাঘাতের মতো অবস্থা", "mid": "sym-hyper-spine-coccyx-injury-paralysis"},
+      {"text": "শিরদাঁড়ায় কোনো সমস্যা নেই", "mid": "sym-no-spine-issue"},
+      {"text": "শুধু ঘাড়ে ব্যথা", "mid": "sym-only-neck-pain"},
+      {"text": "শিরদাঁড়া বাঁকা হয়ে যায়", "mid": "sym-spine-curved"}
+    ],
+    "answer": "sym-hyper-spine-coccyx-injury-paralysis",
+    "explanation": "Hypericum শিরদাঁড়া ও কক্সিক্সে আঘাতে কার্যকর।"
+  },
+  {
+    "id": "hyper-med-06",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দাঁত তোলা বা অপারেশনের পর স্নায়বিক ব্যথা থেকে যায়", "mid": "sym-hyper-post-extraction-surgical-neuralgic-pain"},
+      {"text": "অপারেশনের পর ব্যথা নেই", "mid": "sym-no-post-op-pain"},
+      {"text": "দাঁত তোলার আগে ব্যথা", "mid": "sym-pain-before-extraction"},
+      {"text": "অপারেশনে রক্তপাত বেশি", "mid": "sym-bleeding-after-surgery"}
+    ],
+    "answer": "sym-hyper-post-extraction-surgical-neuralgic-pain",
+    "explanation": "Hypericum অপারেশন পরবর্তী স্নায়বিক ব্যথায় কার্যকর।"
+  },
+  {
+    "id": "hyper-med-07",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আবহাওয়া পরিবর্তনে স্নায়ুশূল বৃদ্ধি", "mid": "sym-hyper-neuralgia-weather-change-agg"},
+      {"text": "আবহাওয়ায় কোনো প্রভাব নেই", "mid": "sym-no-weather-effect"},
+      {"text": "গরমে স্নায়ুশূল কমে", "mid": "sym-neuralgia-amel-heat"},
+      {"text": "ঠান্ডায় স্নায়ুশূল কমে", "mid": "sym-neuralgia-amel-cold"}
+    ],
+    "answer": "sym-hyper-neuralgia-weather-change-agg",
+    "explanation": "Hypericum-এ আবহাওয়া পরিবর্তনে স্নায়ুশূল বাড়ে।"
+  },
+  {
+    "id": "hyper-med-08",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অর্শে প্রচণ্ড ব্যথা, রক্তপাত, টাটানি", "mid": "sym-hyper-hemorrhoids-pain-bleeding-soreness"},
+      {"text": "অর্শে কোনো ব্যথা নেই", "mid": "sym-no-piles-pain"},
+      {"text": "অর্শ শুকনো", "mid": "sym-dry-piles"},
+      {"text": "অর্শে শুধু চুলকানি", "mid": "sym-piles-itch-only"}
+    ],
+    "answer": "sym-hyper-hemorrhoids-pain-bleeding-soreness",
+    "explanation": "Hypericum অর্শে ব্যথা ও টাটানিতে কার্যকর।"
+  },
+  {
+    "id": "hyper-med-09",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাশি রাত ৬-১০টায় বৃদ্ধি, গয়ারে উপশম, কুয়াশা ঝড়ের পূর্বে হাঁপানি", "mid": "sym-hyper-cough-6-10pm-amel-expect-fog-storm-asthma"},
+      {"text": "কাশি সকালে বৃদ্ধি", "mid": "sym-cough-morning-agg"},
+      {"text": "কাশি নেই", "mid": "sym-no-cough"},
+      {"text": "হাঁপানি গরমে বাড়ে", "mid": "sym-asthma-heat-agg"}
+    ],
+    "answer": "sym-hyper-cough-6-10pm-amel-expect-fog-storm-asthma",
+    "explanation": "Hypericum-এ কাশি সন্ধ্যা ৬-১০টায় বাড়ে ও কুয়াশায় হাঁপানি বাড়ে।"
+  },
+  {
+    "id": "hyper-med-10",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কেউ যেন শূন্যে ধরে রেখেছে, নিচে পড়ে যাওয়ার ভয়", "mid": "sym-hyper-lifted-air-fear-falling"},
+      {"text": "মাটিতে শক্তভাবে দাঁড়িয়ে আছে মনে হয়", "mid": "sym-feels-grounded"},
+      {"text": "পড়ে যাওয়ার ভয় নেই", "mid": "sym-no-fear-falling"},
+      {"text": "উঁচুতে উঠতে ভালো লাগে", "mid": "sym-likes-height"}
+    ],
+    "answer": "sym-hyper-lifted-air-fear-falling",
+    "explanation": "Hypericum-এ শূন্যে ধরে রাখা ও পড়ে যাওয়ার ভয় থাকে।"
+  },
+  {
+    "id": "hyper-med-11",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লিখতে ভুল করে, যা বলার ছিল ভুলে যায়", "mid": "sym-hyper-writing-mistakes-forgets-what-to-say"},
+      {"text": "লেখা নির্ভুল", "mid": "sym-perfect-writing"},
+      {"text": "কিছু ভোলে না", "mid": "sym-forgets-nothing"},
+      {"text": "বলতে ভুল করে না", "mid": "sym-no-speech-error"}
+    ],
+    "answer": "sym-hyper-writing-mistakes-forgets-what-to-say",
+    "explanation": "Hypericum-এ লিখতে ভুল ও কথা ভুলে যাওয়া থাকে।"
+  },
+  {
+    "id": "hyper-med-12",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথায় হাতুড়ি দিয়ে পেটানোর মতো ব্যথা, মস্তিষ্ক বড় মনে হয়", "mid": "sym-hyper-hammering-head-brain-large"},
+      {"text": "মাথায় কোনো ব্যথা নেই", "mid": "sym-no-head-pain"},
+      {"text": "মাথা ছোট মনে হয়", "mid": "sym-head-small"},
+      {"text": "মাথা হালকা লাগে", "mid": "sym-head-light"}
+    ],
+    "answer": "sym-hyper-hammering-head-brain-large",
+    "explanation": "Hypericum-এ মাথায় হাতুড়ি পেটানোর ব্যথা ও মস্তিষ্ক বড় মনে হয়।"
+  },
+  {
+    "id": "hyper-med-13",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দরজায় আঙুল চাপা বা নখ উপড়ে গেলে জাদুর মতো কাজ করে", "mid": "sym-hyper-finger-squeezed-nail-torn-magic"},
+      {"text": "আঙুলের আঘাতে কোনো কাজ নেই", "mid": "sym-no-finger-action"},
+      {"text": "নখে কোনো কাজ নেই", "mid": "sym-no-nail-action"},
+      {"text": "আঙুলে শুধু ফোলা কমায়", "mid": "sym-only-swelling-finger"}
+    ],
+    "answer": "sym-hyper-finger-squeezed-nail-torn-magic",
+    "explanation": "Hypericum আঙুল চাপা ও নখ উপড়ানোতে অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "hyper-med-14",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মেরুদণ্ড স্পর্শে কুঁকড়ে যায়, পিঠের নিচে টান ব্যথা", "mid": "sym-hyper-spine-touch-sensitivity-lower-back-dragging"},
+      {"text": "মেরুদণ্ডে কোনো ব্যথা নেই", "mid": "sym-no-spine-pain"},
+      {"text": "মেরুদণ্ডে শুধু চুলকানি", "mid": "sym-spine-itch-only"},
+      {"text": "মেরুদণ্ড স্পর্শে আরাম", "mid": "sym-spine-touch-amel"}
+    ],
+    "answer": "sym-hyper-spine-touch-sensitivity-lower-back-dragging",
+    "explanation": "Hypericum-এ মেরুদণ্ড স্পর্শে তীব্র ব্যথা হয়।"
+  },
+  {
+    "id": "hyper-med-15",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘুমে চমকে ওঠে, উঁচু থেকে পড়ে যাচ্ছে মনে হয়", "mid": "sym-hyper-startled-sleep-falling-high"},
+      {"text": "ঘুম গভীর ও শান্ত", "mid": "sym-deep-peaceful-sleep"},
+      {"text": "ঘুমে চমকে ওঠে না", "mid": "sym-no-startle-sleep"},
+      {"text": "ঘুমে হাসে", "mid": "sym-laugh-sleep"}
+    ],
+    "answer": "sym-hyper-startled-sleep-falling-high",
+    "explanation": "Hypericum-এ ঘুমে চমকে ওঠে ও পড়ে যাওয়ার স্বপ্ন দেখে।"
+  },
+  {
+    "id": "hyper-med-16",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বিমর্ষ ও হতাশ, প্রচণ্ড ব্যথায় ভুল বকা", "mid": "sym-hyper-melancholy-depressed-delirium-pain"},
+      {"text": "সবসময় আনন্দিত", "mid": "sym-always-cheerful"},
+      {"text": "হতাশা নেই", "mid": "sym-no-depression"},
+      {"text": "ভুল বকে না", "mid": "sym-no-delirium"}
+    ],
+    "answer": "sym-hyper-melancholy-depressed-delirium-pain",
+    "explanation": "Hypericum রোগী বিমর্ষ ও ব্যথায় ভুল বকতে পারে।"
+  },
+  {
+    "id": "hyper-med-17",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: কুয়াশা, স্যাঁতসেঁতে, স্পর্শে, ঠান্ডায়, নড়াচড়ায়", "mid": "sym-hyper-agg-fog-damp-touch-cold-motion"},
+      {"text": "বৃদ্ধি: শুষ্ক গরমে", "mid": "sym-agg-dry-hot"},
+      {"text": "বৃদ্ধি: বিশ্রামে", "mid": "sym-agg-rest"},
+      {"text": "বৃদ্ধি: খোলা বাতাসে", "mid": "sym-agg-open-air"}
+    ],
+    "answer": "sym-hyper-agg-fog-damp-touch-cold-motion",
+    "explanation": "Hypericum-এ কুয়াশা, স্যাঁতসেঁতে, স্পর্শ, ঠান্ডা ও নড়াচড়ায় বৃদ্ধি।"
+  },
+  {
+    "id": "hyper-med-18",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: মাথা পেছনে হেলালে ও শান্ত শুয়ে থাকলে", "mid": "sym-hyper-amel-bending-head-back-lying-quiet"},
+      {"text": "উপশম: মাথা সামনে ঝুঁকালে", "mid": "sym-amel-bending-head-forward"},
+      {"text": "উপশম: নড়াচড়ায়", "mid": "sym-amel-motion"},
+      {"text": "উপশম: ঠান্ডায়", "mid": "sym-amel-cold"}
+    ],
+    "answer": "sym-hyper-amel-bending-head-back-lying-quiet",
+    "explanation": "Hypericum মাথা পেছনে হেলালে ও শান্ত শুয়ে উপশম পায়।"
+  },
+  {
+    "id": "hyper-med-19",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শীতকাতর, ডান পার্শ্বে বেশি, সোরা ও সিফিলিটিক মায়াজম", "mid": "sym-hyper-chilly-right-psora-syphilitic"},
+      {"text": "গরমকাতর বাম পার্শ্ব", "mid": "sym-hot-left"},
+      {"text": "উভয়কাতর", "mid": "sym-both-hot-cold"},
+      {"text": "শুধু সাইকোটিক", "mid": "sym-only-sycotic"}
+    ],
+    "answer": "sym-hyper-chilly-right-psora-syphilitic",
+    "explanation": "Hypericum শীতকাতর, ডান পার্শ্ব বেশি ও সোরা-সিফিলিটিক।"
+  },
+  {
+    "id": "hyper-med-20",
+    "stem": "নিচের কোনটি Hypericum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিপূরক Arnica, সদৃশ Ledum, Ruta, Mag Phos", "mid": "sym-hyper-complementary-arnica-similar-ledum-ruta"},
+      {"text": "পরিপূরক Sulphur", "mid": "sym-complement-sulphur"},
+      {"text": "পরিপূরক Bryonia", "mid": "sym-complement-bryonia"},
+      {"text": "কোনো সম্পর্ক নেই", "mid": "sym-no-relation"}
+    ],
+    "answer": "sym-hyper-complementary-arnica-similar-ledum-ruta",
+    "explanation": "Hypericum-এর পরিপূরক Arnica এবং সদৃশ Ledum, Ruta।"
+  }
+]

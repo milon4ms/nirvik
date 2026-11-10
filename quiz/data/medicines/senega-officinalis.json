@@ -1,0 +1,482 @@
+[
+{
+"id": "sene-med-01",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "কাশতে কাশতে হাঁচি হওয়া এবং হাঁচি হলে কাশি বন্ধ হয়ে যাওয়া",
+"mid": "sym-cough-sneezing-stop"
+},
+{
+"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম হওয়া",
+"mid": "sym-fever-fear"
+},
+{
+"text": "সূর্যের তাপে গেলেই তীব্র মাথাব্যথা দেখা দেওয়া",
+"mid": "sym-sun-heat"
+},
+{
+"text": "আর্দ্র আবহাওয়ায় সমস্ত শারীরিক কষ্ট বৃদ্ধি পাওয়া",
+"mid": "sym-damp-weather-agg"
+}
+],
+"answer": "sym-cough-sneezing-stop",
+"explanation": "Senega-এর একটি বিশেষ অদ্ভুত নির্দেশক লক্ষণ হলো কাশতে কাশতে হাঁচি আসা এবং হাঁচি হওয়া মাত্রই কাশি বন্ধ হয়ে যাওয়া।"
+},
+{
+"id": "sene-med-02",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ফুসফুসে প্রচুর কফ জমা ও ঘড়ঘড় শব্দ হওয়া কিন্তু আঠালো কফ বের হতে কষ্ট হওয়া",
+"mid": "sym-rattling-mucus-difficult-expectoration"
+},
+{
+"text": "শুষ্ক কাশি যা রাতে শুয়ে থাকলে সম্পূর্ণ উপশম হয়",
+"mid": "sym-dry-cough-night-relief"
+},
+{
+"text": "কোনো কফ না থাকা কিন্তু বুকে বরফের মতো ঠান্ডা অনুভূতি হওয়া",
+"mid": "sym-chest-coldness-no-cough"
+},
+{
+"text": "কাশি দিলে তলপেটে ও পায়ের কুঁচকিতে তীব্র ব্যথা হওয়া",
+"mid": "sym-cough-groin-pain"
+}
+],
+"answer": "sym-rattling-mucus-difficult-expectoration",
+"explanation": "Senega-এ ফুসফুসে শ্লেষ্মার প্রচুর ঘড়ঘড়ানি থাকে, কিন্তু কফ অত্যন্ত আঠালো হওয়ায় তা বের করতে রোগী অত্যন্ত কষ্ট পায়।"
+},
+{
+"id": "sene-med-03",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বুকের কোনো ক্ষুদ্র স্থানে বা নির্দিষ্ট অংশে জ্বালাপোড়া ও সূঁচ ফোঁটানোর মতো ব্যথা হওয়া",
+"mid": "sym-chest-spot-burning-stitching"
+},
+{
+"text": "পিঠের মেরুদণ্ডে বরফ রাখার মতো তীব্র ঠান্ডা অনুভূতি হওয়া",
+"mid": "sym-spine-ice-cold"
+},
+{
+"text": "পায়ের তলায় অনবরত সুই ফোটার মতো ব্যথা এবং চুলকানি",
+"mid": "sym-sole-stitching-itching"
+},
+{
+"text": "মাথার তালুতে হাতুড়ি পেটানোর মতো দপদপে ব্যথা হওয়া",
+"mid": "sym-throbbing-head-pain"
+}
+],
+"answer": "sym-chest-spot-burning-stitching",
+"explanation": "Senega-এর শারীরিক লক্ষণে বুকের কোনো ক্ষুদ্র বা নির্দিষ্ট স্থানে জ্বালা এবং সূঁচ ফোঁটানোর মতো ব্যথা অনুভূত হয়।"
+},
+{
+"id": "sene-med-04",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বুকের ওপর ভারী কোনো পাথর রাখা হয়েছে বা বুকটি সংকীর্ণ হয়ে গেছে এমন ভারবোধ",
+"mid": "sym-chest-heavy-stone-sensation"
+},
+{
+"text": "বুকের ভেতর হালকা ও ফাঁকা মনে হওয়া যেন ফুসফুস নেই",
+"mid": "sym-chest-empty-sensation"
+},
+{
+"text": "হৃদপিণ্ড ডান পাশে সরে গেছে এমন কাল্পনিক অনুভূতি",
+"mid": "sym-heart-displaced-right"
+},
+{
+"text": "শ্বাস নেওয়ার সময় বুকে বাতাস না গিয়ে পানি ঢুকে যাচ্ছে মনে হওয়া",
+"mid": "sym-water-in-lung-feeling"
+}
+],
+"answer": "sym-chest-heavy-stone-sensation",
+"explanation": "Senega-এর রোগী মনে করে তার বুকের ওপর ভারী পাথর চেপে আছে অথবা বুকটি খুব সংকীর্ণ হয়ে পড়েছে।"
+},
+{
+"id": "sene-med-05",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "চোখের পেশির দুর্বলতা বা পক্ষাঘাতের কারণে একটি বস্তু দুটি দেখা (Diplopia)",
+"mid": "sym-diplopia-eye-muscle-paresis"
+},
+{
+"text": "চোখের তারার সংকোচন ও রাতে সম্পূর্ণ অন্ধ হয়ে যাওয়া",
+"mid": "sym-pupil-contraction-night-blind"
+},
+{
+"text": "চোখ লাল হয়ে অনবরত রক্ত মিশ্রিত জল ঝরা",
+"mid": "sym-bloody-tears-red-eye"
+},
+{
+"text": "চোখের পাতা অনবরত কাঁপতে থাকা ও আলোর প্রতি অতিরিক্ত সংবেদনশীলতা",
+"mid": "sym-photophobia-twitching"
+}
+],
+"answer": "sym-diplopia-eye-muscle-paresis",
+"explanation": "Senega চোখের পেশির দুর্বলতায় অত্যন্ত নির্দেশিত; চোখের পেশির পক্ষাঘাতের কারণে রোগী Diplopia বা জোড়া দৃশ্য দেখে।"
+},
+{
+"id": "sene-med-06",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "অতীতের অনেক পূর্বের গুরুত্বহীন বা তুচ্ছ কথা হঠাৎ স্মরণে আসা",
+"mid": "sym-recalling-past-trivial-matters"
+},
+{
+"text": "নিজের নাম ও কাছের স্বজনদের পরিচয় সম্পূর্ণ ভুলে যাওয়া",
+"mid": "sym-total-amnesia-relatives"
+},
+{
+"text": "ভবিষ্যত ঘটনার পূর্বাভাস পাওয়ার অলৌকিক ক্ষমতা দাবি করা",
+"mid": "sym-clairvoyance-future"
+},
+{
+"text": "সব সময় নিজেকে রাজা বা ঈশ্বর বলে মনে করা",
+"mid": "sym-delusion-king-god"
+}
+],
+"answer": "sym-recalling-past-trivial-matters",
+"explanation": "Senega-এর মানসিক লক্ষণে দেখা যায় রোগী অতীতের অনেক আগের তুচ্ছ ও গুরুত্বহীন باتیں সহজে মনে করতে পারে।"
+},
+{
+"id": "sene-med-07",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "অপমান, অপদস্থ হওয়া বা মর্মবেদনার কারণে অসুস্থতা দেখা দেওয়া",
+"mid": "sym-illness-from-mortification-insult"
+},
+{
+"text": "অতিরিক্ত আনন্দ ও হঠাৎ প্রাপ্তি থেকে মানসিক ব্যাধি হওয়া",
+"mid": "sym-illness-from-excessive-joy"
+},
+{
+"text": "বৃষ্টির পানিতে পা ভিজিয়ে জ্বর আসা",
+"mid": "sym-fever-wet-feet"
+},
+{
+"text": "অতিরিক্ত মিষ্টি খাবার খাওয়ার পর পেটে গ্যাস হওয়া",
+"mid": "sym-gas-after-sweets"
+}
+],
+"answer": "sym-illness-from-mortification-insult",
+"explanation": "Senega-এ অপমানিত হওয়া, অপদস্থ হওয়া বা তীব্র মনোকষ্ট/মর্মবেদনার কুফল থেকে বিভিন্ন রোগ লক্ষণ দেখা দিতে পারে।"
+},
+{
+"id": "sene-med-08",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "অক্ষিপুট প্রদাহ, চোখের পাতা শুষ্ক এবং মামড়ি বা আঁশ যুক্ত হওয়া",
+"mid": "sym-blepharitis-crusty-eyelids"
+},
+{
+"text": "চোখের পাতা সম্পূর্ণ মসৃণ ও জলপূর্ণ ভোসকার মতো হওয়া",
+"mid": "sym-eyelids-smooth-blisters"
+},
+{
+"text": "চোখের পাতায় তীব্র চুলকানি কিন্তু কোনো ফুসকুড়ি বা আঁশ না থাকা",
+"mid": "sym-itching-eyelids-no-crust"
+},
+{
+"text": "চোখের কোণে হলুদ রঙের শক্ত টিউমার গজানো",
+"mid": "sym-eye-corner-tumor"
+}
+],
+"answer": "sym-blepharitis-crusty-eyelids",
+"explanation": "Senega চোখের পাতার প্রদাহ বা Blepharitis-এ দারুণ কাজ করে; যেখানে অক্ষিপুট শুষ্ক ও মামড়িযুক্ত হয়ে থাকে।"
+},
+{
+"id": "sene-med-09",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগী মেজাজে ঝগড়াটে প্রকৃতির হওয়া এবং সন্ধ্যাবেলায় শুয়েই ঘুমিয়ে পড়া",
+"mid": "sym-quarrelsome-sleepy-evening"
+},
+{
+"text": "রোগী সব সময় গান গায় এবং সারারাত জেগে থাকে",
+"mid": "sym-singing-sleepless-night"
+},
+{
+"text": "সকালে ঘুম থেকে ওঠার পর অত্যন্ত হাসিখুশি থাকা",
+"mid": "sym-morning-cheerful-mood"
+},
+{
+"text": "একস্থানে চুপচাপ বসে থেকে কারো সাথে কোনো কথা না বলা",
+"mid": "sym-silent-mutism-all-day"
+}
+],
+"answer": "sym-quarrelsome-sleepy-evening",
+"explanation": "Senega রোগীর মনস্তত্ত্ব বেশ ঝগড়াটে প্রকৃতির এবং সে সন্ধ্যার দিকে শুয়ে পড়লেই গভীর নিদ্রায় আচ্ছন্ন হয়।"
+},
+{
+"id": "sene-med-10",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বৃদ্ধ ব্যক্তিদের ফুসফুসের দুর্বলতা, ক্রনিক ব্রঙ্কাইটিস ও হাঁপানিতে বিশেষ কার্যকরী",
+"mid": "sym-elderly-asthma-bronchitis"
+},
+{
+"text": "কেবলমাত্র নবজাতক শিশুদের কোষ্ঠকাঠিন্যের জন্য নির্দিষ্ট ওষুধ",
+"mid": "sym-infant-constipation-only"
+},
+{
+"text": "তরুণী মেয়েদের অনিয়মিত ঋতুস্রাবের প্রধান ও একমাত্র ওষুধ",
+"mid": "sym-young-female-menses"
+},
+{
+"text": "কৈশোরের ব্রন ও মেচেতার চিকিৎসায় ব্যবহৃত চর্মরোগের ওষুধ",
+"mid": "sym-puberty-acne-remedy"
+}
+],
+"answer": "sym-elderly-asthma-bronchitis",
+"explanation": "Senega বয়স্ক বা বৃদ্ধ ব্যক্তিদের কফজ রোগ, অ্যাজমা বা ব্রঙ্কাইটিসে ফুসফুসের কফ বের করতে মহাঔষধ হিসেবে কাজ করে।"
+},
+{
+"id": "sene-med-11",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "কাশি দিলে বুকে প্রচণ্ড ব্যথা হওয়া, যা কাশির শেষে বহুগুণ বৃদ্ধি পাওয়া",
+"mid": "sym-cough-chest-pain-worse-after"
+},
+{
+"text": "কাশি দেওয়ার সাথে সাথে বুকের ব্যথা সম্পূর্ণ হাওয়া হয়ে যাওয়া",
+"mid": "sym-cough-relief-chest-pain"
+},
+{
+"text": "কাশি কেবল ভোরে আসা এবং সারা দিন কোনো অস্বস্তি না থাকা",
+"mid": "sym-morning-cough-only"
+},
+{
+"text": "মিষ্টি পানীয় পান করলে কাশির প্রকোপ কমে যাওয়া",
+"mid": "sym-sweet-drink-cough-relief"
+}
+],
+"answer": "sym-cough-chest-pain-worse-after",
+"explanation": "Senega-এ কাশি দিলে বুকে বুক-ফাটা ব্যথা হয় এবং কাশির ক্রিয়া শেষ হওয়ার পর সেই ব্যথার অনুভূতি আরও তীব্র হয়।"
+},
+{
+"id": "sene-med-12",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "গভীর শ্বাস গ্রহণ করলে (Deep inhalation) এবং মাথা পেছনের দিকে হেলিয়ে রাখলে উপশম",
+"mid": "sym-amel-deep-inhalation-head-back"
+},
+{
+"text": "সামনের দিকে কুঁজো হয়ে বসলে এবং ঠান্ডা পানিতে গোসল করলে আরাম লাগা",
+"mid": "sym-amel-bent-forward-cold-bath"
+},
+{
+"text": "দ্রুত হাঁটাচলা করলে এবং চিৎকার করে কথা বললে সুস্থ বোধ করা",
+"mid": "sym-amel-fast-walk-talking"
+},
+{
+"text": "গরম স্যুপ পান করলে এবং পিঠের ওপর ভর দিয়ে শুলে আরাম পাওয়া",
+"mid": "sym-amel-hot-soup-supine"
+}
+],
+"answer": "sym-amel-deep-inhalation-head-back",
+"explanation": "Senega-এর শ্বাসকষ্ট ও বুকের কষ্টগুলো গভীরভাবে শ্বাস নিলে এবং মাথা পেছনের দিকে কাত/হেলিয়ে রাখলে কমে।"
+},
+{
+"id": "sene-med-13",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ক্যালকেরিয়া কার্ব (Calcarea Carb) এই ওষুধের প্রধান পরিপূরক (Complementary)",
+"mid": "sym-calcarea-carb-complementary"
+},
+{
+"text": "সেপিয়া এবং থুজা এর একমাত্র কমপ্লিমেন্টারি ওষুধ",
+"mid": "sym-sepia-thuja-comp"
+},
+{
+"text": "রাসটক্স ও সালফার এর পরিপূরক হিসেবে কাজ করে",
+"mid": "sym-rhustox-sulphur-comp"
+},
+{
+"text": "লাইকোপোডিয়াম এর কার্যকারিতা সম্পন্ন করার একমাত্র ওষুধ",
+"mid": "sym-lyco-complementary"
+}
+],
+"answer": "sym-calcarea-carb-complementary",
+"explanation": "Senega-এর ক্রিয়া সম্পন্ন করতে পরিপূরক বা Complementary ওষুধ হিসেবে Calcarea Carb ব্যবহৃত হয়।"
+},
+{
+"id": "sene-med-14",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বেলাডোনা (Belladonna) এবং ব্রায়োনিয়া (Bryonia) এর প্রতিষেধক (Antidote)",
+"mid": "sym-belladonna-bryonia-antidote"
+},
+{
+"text": "একোনাইট ও ক্যামফোর এর একমাত্র শক্তিশালী এন্টিডোট",
+"mid": "sym-aconite-camphora-antidote"
+},
+{
+"text": "নাক্স ভমিকা এর সব ক্ষতিকর প্রভাব সাথে সাথে দূর করে",
+"mid": "sym-nux-vomica-antidote"
+},
+{
+"text": "পালসেটিলা ও আর্সেনিক এর প্রতিক্রিয়া প্রতিরোধ করে",
+"mid": "sym-puls-arsenic-antidote"
+}
+],
+"answer": "sym-belladonna-bryonia-antidote",
+"explanation": "Senega-এর অপব্যবহার বা প্রতিক্রিয়ার প্রতিষেধক (Antidote) হিসেবে Belladonna এবং Bryonia কার্যকর।"
+},
+{
+"id": "sene-med-15",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "এর সাধারণ নাম Snake-root এবং ল্যাটিন নাম Polygala senega",
+"mid": "sym-snake-root-plant-source"
+},
+{
+"text": "এটি সমুদ্রের বিশেষ খনিজ লবণ থেকে সংগৃহীত উপাদান",
+"mid": "sym-sea-salt-source"
+},
+{
+"text": "এটি সাপের বিষ থেকে প্রস্তুত অত্যন্ত মারাত্মক বিষাক্ত ওষুধ",
+"mid": "sym-snake-venom-nosode"
+},
+{
+"text": "এটি প্রাণীর হরমোন থেকে তৈরি বায়োকেমিক পদার্থ",
+"mid": "sym-animal-gland-source"
+}
+],
+"answer": "sym-snake-root-plant-source",
+"explanation": "Senega Officinalis-এর সাধারণ নাম Snake-root এবং উদ্ভিদগত ল্যাটিন নাম Polygala senega।"
+},
+{
+"id": "sene-med-16",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগীর কাতরতা শীতকাতর (ঠান্ডা বাতাস ও ঠান্ডা প্রয়োগ সহ্য হয় না)",
+"mid": "sym-chilly-cold-intolerant"
+},
+{
+"text": "রোগী অত্যন্ত গরমকাতর এবং সর্বদাই বরফজল পছন্দ করে",
+"mid": "sym-hot-patient-ice-water"
+},
+{
+"text": "আবহাওয়ার কোনো প্রভাবে অসুস্থ হয় না এবং কাতরতাহীন",
+"mid": "sym-no-thermal-sensitivity"
+},
+{
+"text": "কেবলমাত্র শরৎকালে প্রচণ্ড গরম অনুভব করে",
+"mid": "sym-autumn-hot-only"
+}
+],
+"answer": "sym-chilly-cold-intolerant",
+"explanation": "Senega রোগী মূলত শীতকাতর; ঠান্ডা বাতাস বা ঠান্ডার প্রভাবে তার শারীরিক কষ্ট ও শ্বাসকষ্ট বাড়ে।"
+},
+{
+"id": "sene-med-17",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শরীরের বাম পাশে বেশি কাজ করে এবং মায়াজম সোরা (Psora) ও সাইকোসিস (Sycosis)",
+"mid": "sym-left-sided-psora-sycosis"
+},
+{
+"text": "শরীরের ডান পাশে কাজ করে এবং মায়াজম বিশুদ্ধ সিফিলিস",
+"mid": "sym-right-sided-syphilis"
+},
+{
+"text": "উভয় পাশে সমান কাজ করে এবং এটি কোনো মায়াজমের অধীন নয়",
+"mid": "sym-both-sides-non-miasmatic"
+},
+{
+"text": "আড়াআড়িভাবে কাজ করে এবং এটি টিউবারকুলার মায়াজম",
+"mid": "sym-crossed-tubercular"
+}
+],
+"answer": "sym-left-sided-psora-sycosis",
+"explanation": "Senega শরীরের বাম পাশে (Left-sided) বেশি কাজ করে এবং এটি সোরা ও সাইকোসিস মায়াজম দ্বারা পরিচালিত।"
+},
+{
+"id": "sene-med-18",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "প্রস্রাবের পরিমাণ খুব কম হওয়া এবং প্রস্রাবে সাদা শ্লেষ্মা বা তলা জমা",
+"mid": "sym-scanty-urine-white-sediment"
+},
+{
+"text": "প্রস্রাব প্রচুর পরিমাণে নির্গত হওয়া ও রঙ সম্পূর্ণ পানির মতো পরিষ্কার থাকা",
+"mid": "sym-profuse-clear-urine"
+},
+{
+"text": "প্রস্রাবে তীব্র মিষ্টি গন্ধ ও শর্করা নির্গত হওয়া",
+"mid": "sym-sweet-smell-diabetes"
+},
+{
+"text": "প্রস্রাবের সাথে লাল রঙের রক্তের বড় বড় চাকা জমা",
+"mid": "sym-bloody-clots-urine"
+}
+],
+"answer": "sym-scanty-urine-white-sediment",
+"explanation": "Senega-এর মূত্রযন্ত্রের লক্ষণে প্রস্রাবের পরিমাণ হ্রাস পায় এবং প্রস্রাবের তলানিতে সাদা শ্লেষ্মা থিতিয়ে থাকে।"
+},
+{
+"id": "sene-med-19",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ফুসফুসে জমে থাকা ঘন কফ তরল করে বের করার জন্য মাদার টিংচার (Q) বেশ উপযোগী",
+"mid": "sym-mother-tincture-expectorant"
+},
+{
+"text": "যেকোনো কাশের জন্য কেবলমাত্র ১এম শক্তি সেবন করা বাধ্যতামূলক",
+"mid": "sym-only-1m-potency"
+},
+{
+"text": "মাদার টিংচার সেবন সম্পূর্ণ নিষিদ্ধ এবং বিষতুল্য",
+"mid": "sym-mother-tincture-banned"
+},
+{
+"text": "কেবলমাত্র ৫০ সহস্রতম পদ্ধতি ছাড়া সেনেগা প্রয়োগ করা যায় না",
+"mid": "sym-50-millesimal-only"
+}
+],
+"answer": "sym-mother-tincture-expectorant",
+"explanation": "বোরিকের মতে ফুসফুসে ঘন জমে থাকা কফ আলগা করে বের করে দেওয়ার কাজে Senega Q (মাদার টিংচার) দারুণ ফলপ্রসূ।"
+},
+{
+"id": "sene-med-20",
+"stem": "নিচের কোনটি Senega-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বৃদ্ধি: বিশ্রামে থাকলে, ঠান্ডা বাতাসে, হাঁটাচলা করার সময় এবং কথা বললে",
+"mid": "sym-agg-rest-cold-walk-talking"
+},
+{
+"text": "বৃদ্ধি: শুষ্ক গরম ঘরে, চিত হয়ে শুলে এবং ফলমূল খেলে",
+"mid": "sym-agg-warm-room-fruits"
+},
+{
+"text": "বৃদ্ধি: গভীর শ্বাস নিলে, নিস্তব্ধতায় থাকলে এবং মাথা হেলিয়ে রাখলে",
+"mid": "sym-agg-deep-breath-silence"
+},
+{
+"text": "বৃদ্ধি: দুপুর ১২টায় এবং গরম চা পান করলে",
+"mid": "sym-agg-noon-hot-tea"
+}
+],
+"answer": "sym-agg-rest-cold-walk-talking",
+"explanation": "Senega-এর উপসর্গ বা কষ্টগুলো বিশ্রামে, ঠান্ডা বাতাসে, হাঁটার সময় এবং কথা বলার সময় বৃদ্ধি পায়।"
+}
+]

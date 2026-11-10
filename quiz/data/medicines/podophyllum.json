@@ -1,0 +1,242 @@
+[
+  {
+    "id": "podo-med-01",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডায়রিয়া, প্রচুর দুর্গন্ধযুক্ত মল পিচকারীর মতো বের হয়", "mid": "sym-podo-diarrhea-offensive-profuse-gushing"},
+      {"text": "কোষ্ঠকাঠিন্য", "mid": "sym-constipation"},
+      {"text": "মল শক্ত", "mid": "sym-hard-stool"},
+      {"text": "মল গন্ধহীন", "mid": "sym-odorless-stool"}
+    ],
+    "answer": "sym-podo-diarrhea-offensive-profuse-gushing",
+    "explanation": "Podophyllum-এ প্রচুর দুর্গন্ধযুক্ত মল পিচকারীর মতো বের হয়।"
+  },
+  {
+    "id": "podo-med-02",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকালে ব্যথা ছাড়া প্রচুর মল বের হয়, ভোর থেকে সকাল ১০টা", "mid": "sym-podo-morning-painless-profuse-morning"},
+      {"text": "রাতে ডায়রিয়া", "mid": "sym-night-diarrhea"},
+      {"text": "সকালে কোষ্ঠকাঠিন্য", "mid": "sym-morning-constipation"},
+      {"text": "সারাদিন ডায়রিয়া", "mid": "sym-all-day-diarrhea"}
+    ],
+    "answer": "sym-podo-morning-painless-profuse-morning",
+    "explanation": "Podophyllum-এ সকালবেলা ব্যথাহীন প্রচুর মল হয়।"
+  },
+  {
+    "id": "podo-med-03",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পর্যায়ক্রমে ডায়রিয়া ও কোষ্ঠবদ্ধতা, কোষ্ঠে মাথাব্যথা বৃদ্ধি", "mid": "sym-podo-alternate-diarrhea-constipation-headache-constip"},
+      {"text": "সবসময় ডায়রিয়া", "mid": "sym-always-diarrhea"},
+      {"text": "সবসময় কোষ্ঠকাঠিন্য", "mid": "sym-always-constipation"},
+      {"text": "মাথাব্যথা নেই", "mid": "sym-no-headache"}
+    ],
+    "answer": "sym-podo-alternate-diarrhea-constipation-headache-constip",
+    "explanation": "Podophyllum-এ ডায়রিয়া ও কোষ্ঠবদ্ধতা পর্যায়ক্রমে আসে।"
+  },
+  {
+    "id": "podo-med-04",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলদ্বার বাইরে বের হয়, সামান্য পরিশ্রম বা কাশিতেও", "mid": "sym-podo-prolapse-anus-slight-exertion-cough"},
+      {"text": "মলদ্বার ভেতরে থাকে", "mid": "sym-no-prolapse-anus"},
+      {"text": "মলদ্বারে কোনো সমস্যা নেই", "mid": "sym-no-anus-issue"},
+      {"text": "মলদ্বার শুধু ব্যথা", "mid": "sym-anus-pain-only"}
+    ],
+    "answer": "sym-podo-prolapse-anus-slight-exertion-cough",
+    "explanation": "Podophyllum-এ মলদ্বার বাইরে বেরিয়ে আসে।"
+  },
+  {
+    "id": "podo-med-05",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রসবের পর জরায়ু শিথিলতা ও স্থানচ্যুতি", "mid": "sym-podo-prolapse-uterus-after-delivery"},
+      {"text": "জরায়ু শক্ত", "mid": "sym-uterus-hard"},
+      {"text": "জরায়ুতে কোনো সমস্যা নেই", "mid": "sym-no-uterus-issue"},
+      {"text": "জরায়ু ছোট", "mid": "sym-uterus-small"}
+    ],
+    "answer": "sym-podo-prolapse-uterus-after-delivery",
+    "explanation": "Podophyllum-এ প্রসবের পর জরায়ু প্রল্যাপস হয়।"
+  },
+  {
+    "id": "podo-med-06",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায়", "mid": "sym-podo-right-ovary-pain-thigh"},
+      {"text": "বাম ওভারিতে ব্যথা", "mid": "sym-left-ovary-pain"},
+      {"text": "ওভারিতে কোনো ব্যথা নেই", "mid": "sym-no-ovary-pain"},
+      {"text": "উভয় ওভারিতে ব্যথা", "mid": "sym-both-ovary-pain"}
+    ],
+    "answer": "sym-podo-right-ovary-pain-thigh",
+    "explanation": "Podophyllum-এ ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায়।"
+  },
+  {
+    "id": "podo-med-07",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লিভারে ব্যথা মালিশে ও পেটের উপর ভর দিয়ে শুলে উপশম", "mid": "sym-podo-liver-pain-amel-rubbing-lying-prone"},
+      {"text": "লিভারে ব্যথা মালিশে বৃদ্ধি", "mid": "sym-liver-pain-agg-rubbing"},
+      {"text": "লিভারে কোনো ব্যথা নেই", "mid": "sym-no-liver-pain"},
+      {"text": "লিভারে ব্যথা শুয়ে বৃদ্ধি", "mid": "sym-liver-pain-agg-lying"}
+    ],
+    "answer": "sym-podo-liver-pain-amel-rubbing-lying-prone",
+    "explanation": "Podophyllum-এ লিভার ব্যথা মালিশে ও উপুড় শুলে কমে।"
+  },
+  {
+    "id": "podo-med-08",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখে লালা পড়ে, দুর্গন্ধ, জিহ্বা বড় চওড়া দাঁতের ছাপ", "mid": "sym-podo-salivation-fetor-tongue-broad-tooth-prints"},
+      {"text": "মুখ শুকনো", "mid": "sym-dry-mouth"},
+      {"text": "জিহ্বা পরিষ্কার", "mid": "sym-clean-tongue"},
+      {"text": "মুখে কোনো গন্ধ নেই", "mid": "sym-no-mouth-odor"}
+    ],
+    "answer": "sym-podo-salivation-fetor-tongue-broad-tooth-prints",
+    "explanation": "Podophyllum-এ লালা, দুর্গন্ধ ও জিহ্বায় দাঁতের ছাপ থাকে।"
+  },
+  {
+    "id": "podo-med-09",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মল পচা মড়ার মতো দুর্গন্ধযুক্ত, এত বেশি যে অবাক লাগে", "mid": "sym-podo-stool-putrid-corpse-odor-huge"},
+      {"text": "মল গন্ধহীন", "mid": "sym-odorless-stool"},
+      {"text": "মল সামান্য", "mid": "sym-scanty-stool"},
+      {"text": "মল সুগন্ধযুক্ত", "mid": "sym-fragrant-stool"}
+    ],
+    "answer": "sym-podo-stool-putrid-corpse-odor-huge",
+    "explanation": "Podophyllum-এ মল পচা মড়ার মতো গন্ধযুক্ত ও প্রচুর।"
+  },
+  {
+    "id": "podo-med-10",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দাঁত ওঠার সময় ও গ্রীষ্মকালীন ডায়রিয়া", "mid": "sym-podo-dentition-summer-diarrhea"},
+      {"text": "শীতকালীন ডায়রিয়া", "mid": "sym-winter-diarrhea"},
+      {"text": "ডায়রিয়া নেই", "mid": "sym-no-diarrhea"},
+      {"text": "দাঁত ওঠায় কোষ্ঠকাঠিন্য", "mid": "sym-constipation-dentition"}
+    ],
+    "answer": "sym-podo-dentition-summer-diarrhea",
+    "explanation": "Podophyllum দাঁত ওঠা ও গ্রীষ্মকালীন ডায়রিয়ায় কার্যকর।"
+  },
+  {
+    "id": "podo-med-11",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘুমে দাঁত কিড়মিড় ও মাথা এপাশ-ওপাশ নাড়া", "mid": "sym-podo-teeth-grinding-head-rolling-sleep"},
+      {"text": "ঘুম শান্ত", "mid": "sym-peaceful-sleep"},
+      {"text": "দাঁত কিড়মিড় নেই", "mid": "sym-no-teeth-grinding"},
+      {"text": "মাথা নাড়ে না", "mid": "sym-no-head-rolling"}
+    ],
+    "answer": "sym-podo-teeth-grinding-head-rolling-sleep",
+    "explanation": "Podophyllum-এ শিশুরা ঘুমে দাঁত কিড়মিড় ও মাথা নাড়ে।"
+  },
+  {
+    "id": "podo-med-12",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলত্যাগের পর অত্যন্ত ক্লান্ত ও অবসন্ন", "mid": "sym-podo-great-exhaustion-after-stool"},
+      {"text": "মলত্যাগের পর শক্তি বাড়ে", "mid": "sym-energy-after-stool"},
+      {"text": "ক্লান্তি নেই", "mid": "sym-no-exhaustion"},
+      {"text": "মলত্যাগের পর আরাম", "mid": "sym-comfort-after-stool"}
+    ],
+    "answer": "sym-podo-great-exhaustion-after-stool",
+    "explanation": "Podophyllum-এ মলত্যাগের পর প্রচণ্ড ক্লান্তি থাকে।"
+  },
+  {
+    "id": "podo-med-13",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনে করে শীঘ্রই মারা যাবে বা অসুখ সারবে না", "mid": "sym-podo-thinks-will-die-incurable"},
+      {"text": "মনে করে সুস্থ হয়ে যাবে", "mid": "sym-thinks-will-recover"},
+      {"text": "মৃত্যুভয় নেই", "mid": "sym-no-death-fear"},
+      {"text": "সুস্থ মনে করে", "mid": "sym-thinks-healthy"}
+    ],
+    "answer": "sym-podo-thinks-will-die-incurable",
+    "explanation": "Podophyllum রোগী মনে করে সে মারা যাবে বা সারবে না।"
+  },
+  {
+    "id": "podo-med-14",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লিভারের সমস্যায় বিষণ্ণ ও খিটখিটে, কথা বলতে অনিচ্ছা, একাকী পছন্দ", "mid": "sym-podo-liver-depressed-irritable-aves-talk-likes-alone"},
+      {"text": "খুব মিশুক", "mid": "sym-very-sociable"},
+      {"text": "কথা বলতে পছন্দ করে", "mid": "sym-likes-talk"},
+      {"text": "বিষণ্ণতা নেই", "mid": "sym-no-depression"}
+    ],
+    "answer": "sym-podo-liver-depressed-irritable-aves-talk-likes-alone",
+    "explanation": "Podophyllum লিভার সমস্যায় বিষণ্ণ ও একাকী থাকতে পছন্দ করে।"
+  },
+  {
+    "id": "podo-med-15",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পিত্তবমির প্রবণতা", "mid": "sym-podo-bilious-vomiting-tendency"},
+      {"text": "বমি নেই", "mid": "sym-no-vomiting"},
+      {"text": "শুধু টক বমি", "mid": "sym-only-sour-vomit"},
+      {"text": "বমি রক্তযুক্ত", "mid": "sym-bloody-vomit"}
+    ],
+    "answer": "sym-podo-bilious-vomiting-tendency",
+    "explanation": "Podophyllum-এ পিত্তবমি হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "podo-med-16",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: ভোরে ও সকালে, গরম আবহাওয়ায়, দাঁত ওঠার সময়", "mid": "sym-podo-agg-early-morning-hot-weather-dentition"},
+      {"text": "বৃদ্ধি: রাতে", "mid": "sym-agg-night"},
+      {"text": "বৃদ্ধি: ঠান্ডায়", "mid": "sym-agg-cold"},
+      {"text": "বৃদ্ধি: সন্ধ্যায়", "mid": "sym-agg-evening"}
+    ],
+    "answer": "sym-podo-agg-early-morning-hot-weather-dentition",
+    "explanation": "Podophyllum-এ ভোরে, সকালে, গরমে ও দাঁত ওঠায় বৃদ্ধি।"
+  },
+  {
+    "id": "podo-med-17",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: সন্ধ্যায়, পেটের উপর ভর দিয়ে উপুড় শুলে, মালিশে", "mid": "sym-podo-amel-evening-lying-prone-rubbing"},
+      {"text": "উপশম: সকালে", "mid": "sym-amel-morning"},
+      {"text": "উপশম: গরমে", "mid": "sym-amel-heat"},
+      {"text": "উপশম: ঠান্ডায়", "mid": "sym-amel-cold"}
+    ],
+    "answer": "sym-podo-amel-evening-lying-prone-rubbing",
+    "explanation": "Podophyllum সন্ধ্যায়, উপুড় শুলে ও মালিশে উপশম পায়।"
+  },
+  {
+    "id": "podo-med-18",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমকাতর, ডান পার্শ্বে বেশি, সোরা ও সাইকোসিস", "mid": "sym-podo-hot-right-psora-sycotic"},
+      {"text": "শীতকাতর", "mid": "sym-chilly"},
+      {"text": "উভয়কাতর", "mid": "sym-ambithermal"},
+      {"text": "বাম পার্শ্ব বেশি", "mid": "sym-left-more"}
+    ],
+    "answer": "sym-podo-hot-right-psora-sycotic",
+    "explanation": "Podophyllum গরমকাতর, ডান পার্শ্ব বেশি ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "podo-med-19",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সদৃশ Aloe Soc (সকালে ডায়রিয়া), Chelidonium (লিভার), Merc Sol (জিহ্বায় দাঁতের ছাপ)", "mid": "sym-podo-similar-aloe-chel-merc"},
+      {"text": "সদৃশ Sulphur", "mid": "sym-similar-sulphur"},
+      {"text": "সদৃশ Pulsatilla", "mid": "sym-similar-pulsatilla"},
+      {"text": "কোনো সদৃশ নেই", "mid": "sym-no-similar"}
+    ],
+    "answer": "sym-podo-similar-aloe-chel-merc",
+    "explanation": "Podophyllum-এর সদৃশ Aloe, Chelidonium ও Merc Sol।"
+  },
+  {
+    "id": "podo-med-20",
+    "stem": "নিচের কোনটি Podophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলের সাথে প্রচুর বায়ু নিঃসরণ", "mid": "sym-podo-flatus-with-stool-profuse"},
+      {"text": "বায়ু নেই", "mid": "sym-no-flatus"},
+      {"text": "বায়ু সামান্য", "mid": "sym-scanty-flatus"},
+      {"text": "বায়ু দুর্গন্ধহীন", "mid": "sym-odorless-flatus"}
+    ],
+    "answer": "sym-podo-flatus-with-stool-profuse",
+    "explanation": "Podophyllum-এ মলের সাথে প্রচুর বায়ু বের হয়।"
+  }
+]

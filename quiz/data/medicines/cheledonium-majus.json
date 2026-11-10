@@ -1,0 +1,483 @@
+[
+  {
+    "id": "chel-med-01",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ডান কাঁধের পিঠের হাড়ের (Right scapula) নিচের কোণে একটানা ব্যথা।",
+        "mid": "pain_under_right_scapula"
+      },
+      {
+        "text": "বাম কাঁধের পিঠের হাড়ের নিচে ব্যথা।",
+        "mid": "pain_under_left_scapula"
+      },
+      {
+        "text": "কাঁধের ব্যথা যা বিশ্রামে উপশম হয়।",
+        "mid": "shoulder_pain_ameliorated_by_rest"
+      },
+      {
+        "text": "কাঁধের ব্যথা যা শুধুমাত্র রাতে হয়।",
+        "mid": "nocturnal_shoulder_pain"
+      }
+    ],
+    "answer": "pain_under_right_scapula",
+    "explanation": "Chelidonium Majus-এর একটি নিশ্চিত পরিচায়ক লক্ষণ হলো ডান দিকের পিঠের হাড়ের (Right Scapula) নিচের কোণে একটানা ব্যথা।"
+  },
+  {
+    "id": "chel-med-02",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অত্যন্ত গরম পানীয় বা ফুটন্ত গরম দুধ পান করতে চায় এবং এতে আরাম বোধ করে।",
+        "mid": "desire_for_very_hot_drinks"
+      },
+      {
+        "text": "রোগী ঠান্ডা পানীয় পান করতে ভালোবাসে।",
+        "mid": "desire_for_cold_drinks"
+      },
+      {
+        "text": "গরম পানীয় পান করলে ব্যথা বেড়ে যায়।",
+        "mid": "aggravation_from_hot_drinks"
+      },
+      {
+        "text": "পানীয়ের প্রতি সম্পূর্ণ অনীহা।",
+        "mid": "aversion_to_drinks"
+      }
+    ],
+    "answer": "desire_for_very_hot_drinks",
+    "explanation": "Chelidonium Majus-এ রোগী অত্যন্ত গরম পানীয় বা ফুটন্ত গরম দুধ পান করতে চায় এবং এতে সে বেশ আরাম বোধ করে।"
+  },
+  {
+    "id": "chel-med-03",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের চামড়া, চোখের সাদা অংশ, জিহ্বা এবং প্রস্রাব অত্যন্ত হলুদ বর্ণ ধারণ করে।",
+        "mid": "yellow_discoloration_skin_eyes_tongue_urine"
+      },
+      {
+        "text": "শরীরের চামড়া, চোখ ও জিহ্বা সাদাটে এবং প্রস্রাব পরিষ্কার।",
+        "mid": "pale_skin_eyes_tongue_clear_urine"
+      },
+      {
+        "text": "শুধুমাত্র ত্বক লাল এবং প্রস্রাব গাঢ় বাদামী।",
+        "mid": "red_skin_dark_brown_urine"
+      },
+      {
+        "text": "চোখের সাদা অংশ নীলাভ এবং জিহ্বা লাল।",
+        "mid": "bluish_sclera_red_tongue"
+      }
+    ],
+    "answer": "yellow_discoloration_skin_eyes_tongue_urine",
+    "explanation": "Chelidonium Majus-এ শরীরের চামড়া, চোখের সাদা অংশ, জিহ্বা এবং প্রস্রাব অত্যন্ত হলুদ বর্ণ ধারণ করে (জন্ডিসের লক্ষণ)।"
+  },
+  {
+    "id": "chel-med-04",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জিহ্বা প্রশস্ত এবং তার ওপর হলুদাভ আস্তরণ পড়ে, যার কিনারে দাঁতের ছাপ দেখা যায়।",
+        "mid": "broad_tongue_yellow_coating_teeth_marks"
+      },
+      {
+        "text": "জিহ্বা সরু এবং লাল, কোনো আস্তরণ নেই।",
+        "mid": "narrow_red_tongue_no_coating"
+      },
+      {
+        "text": "জিহ্বা সাদা প্রলেপে ঢাকা এবং ফাটা।",
+        "mid": "white_coated_cracked_tongue"
+      },
+      {
+        "text": "জিহ্বা শুষ্ক ও কালচে, দাঁতের ছাপ নেই।",
+        "mid": "dry_dark_tongue_no_teeth_marks"
+      }
+    ],
+    "answer": "broad_tongue_yellow_coating_teeth_marks",
+    "explanation": "Chelidonium Majus-এ জিহ্বা প্রশস্ত হয় এবং তার ওপর হলুদাভ আস্তরণ পড়ে, যার কিনারে দাঁতের ছাপ দেখা যেতে পারে।"
+  },
+  {
+    "id": "chel-med-05",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কোষ্ঠকাঠিন্য, যেখানে মল ভেড়ার লাদির মতো গোল গোল এবং ছোট হয়।",
+        "mid": "constipation_sheep_like_stool"
+      },
+      {
+        "text": "উদারাময়, যেখানে মল পাতলা ও জলীয়।",
+        "mid": "watery_diarrhea"
+      },
+      {
+        "text": "মলত্যাগের পর তীব্র দুর্বলতা।",
+        "mid": "weakness_after_stool"
+      },
+      {
+        "text": "মলে অপরিপক্ক খাদ্যকণা।",
+        "mid": "undigested_food_stool"
+      }
+    ],
+    "answer": "constipation_sheep_like_stool",
+    "explanation": "Chelidonium Majus-এ কোষ্ঠকাঠিন্য হয়, যেখানে মল ভেড়ার লাদির মতো গোল গোল এবং ছোট হয়।"
+  },
+  {
+    "id": "chel-med-06",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাব গাঢ় হলুদ বা বিয়ারের মতো রঙের হয়।",
+        "mid": "dark_yellow_beer_colored_urine"
+      },
+      {
+        "text": "প্রস্রাব পরিষ্কার ও বর্ণহীন।",
+        "mid": "clear_colorless_urine"
+      },
+      {
+        "text": "প্রস্রাবে রক্ত থাকে।",
+        "mid": "hematuria"
+      },
+      {
+        "text": "প্রস্রাব ঘন ঘন হয় এবং পরিমাণ বেশি।",
+        "mid": "frequent_profuse_urination"
+      }
+    ],
+    "answer": "dark_yellow_beer_colored_urine",
+    "explanation": "Chelidonium Majus-এ প্রস্রাব গাঢ় হলুদ বা বিয়ারের মতো রঙের হয়।"
+  },
+  {
+    "id": "chel-med-07",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ডান দিকের ফুসফুসে ব্যথা বা নিউমোনিয়া, যা লিভারের গোলযোগের সাথে যুক্ত থাকে।",
+        "mid": "right_lung_pain_pneumonia_with_liver"
+      },
+      {
+        "text": "বাম দিকের ফুসফুসে ব্যথা।",
+        "mid": "left_lung_pain"
+      },
+      {
+        "text": "শ্বাসকষ্ট ছাড়া শুধুমাত্র শুকনো কাশি।",
+        "mid": "dry_cough_no_dyspnea"
+      },
+      {
+        "text": "কফ সহজে তোলা যায়।",
+        "mid": "easy_expectoration"
+      }
+    ],
+    "answer": "right_lung_pain_pneumonia_with_liver",
+    "explanation": "Chelidonium Majus-এ ডান দিকের ফুসফুসে ব্যথা বা নিউমোনিয়া (Pneumonia) হতে পারে, যা লিভারের গোলযোগের সাথে যুক্ত থাকে।"
+  },
+  {
+    "id": "chel-med-08",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কাশির সময় কফ তোলা খুব কঠিন হয়।",
+        "mid": "difficult_expectoration"
+      },
+      {
+        "text": "কফ সহজে এবং প্রচুর পরিমাণে বের হয়।",
+        "mid": "easy_profuse_expectoration"
+      },
+      {
+        "text": "কফ中没有任何疼痛。",
+        "mid": "no_pain_with_cough"
+      },
+      {
+        "text": "কাশি শুধুমাত্র সকালে হয়।",
+        "mid": "morning_cough_only"
+      }
+    ],
+    "answer": "difficult_expectoration",
+    "explanation": "Chelidonium Majus-এ কাশির সময় কফ তোলা খুব কঠিন হয়।"
+  },
+  {
+    "id": "chel-med-09",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চামড়া শুষ্ক, হলুদ এবং চুলকানিযুক্ত।",
+        "mid": "dry_yellow_itching_skin"
+      },
+      {
+        "text": "চামড়া তৈলাক্ত এবং মসৃণ।",
+        "mid": "oily_smooth_skin"
+      },
+      {
+        "text": "চামড়ায় ছোট ছোট পুঁজভরা ফোস্কা।",
+        "mid": "pustular_blisters"
+      },
+      {
+        "text": "চামড়া নরম ও গোলাপি।",
+        "mid": "soft_pink_skin"
+      }
+    ],
+    "answer": "dry_yellow_itching_skin",
+    "explanation": "Chelidonium Majus-এ চামড়া শুষ্ক, হলুদ এবং চুলকানিযুক্ত হয়।"
+  },
+  {
+    "id": "chel-med-10",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী মানসিকভাবে অত্যন্ত অবসাদগ্রস্ত এবং বিমর্ষ থাকে।",
+        "mid": "mentally_depressed_despondent"
+      },
+      {
+        "text": "রোগী অতিরিক্ত প্রফুল্ল এবং হাসিখুশি।",
+        "mid": "cheerful_and_happy"
+      },
+      {
+        "text": "রোগী অত্যন্ত রাগী ও মারমুখী।",
+        "mid": "angry_and_violent"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ নির্বিকার ও উদাসীন।",
+        "mid": "apathetic_indifferent"
+      }
+    ],
+    "answer": "mentally_depressed_despondent",
+    "explanation": "Chelidonium Majus-এ রোগী মানসিকভাবে অত্যন্ত অবসাদগ্রস্ত এবং বিমর্ষ থাকে।"
+  },
+  {
+    "id": "chel-med-11",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অলসতা এবং কোনো কাজকর্মে অনিহা দেখা যায়।",
+        "mid": "laziness_aversion_to_work"
+      },
+      {
+        "text": "অতিরিক্ত পরিশ্রম করার প্রবণতা।",
+        "mid": "tendency_to_overwork"
+      },
+      {
+        "text": "কাজে অত্যন্ত মনোযোগী।",
+        "mid": "very_attentive_to_work"
+      },
+      {
+        "text": "বিশ্রাম নিতে অনীহা।",
+        "mid": "aversion_to_rest"
+      }
+    ],
+    "answer": "laziness_aversion_to_work",
+    "explanation": "Chelidonium Majus-এ অলসতা এবং কোনো কাজকর্মে অনিহা দেখা যায়।"
+  },
+  {
+    "id": "chel-med-12",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লিভারের গোলযোগের কারণে রোগী অত্যন্ত খিটখিটে মেজাজের হয়ে পড়ে।",
+        "mid": "irritable_due_to_liver_disorder"
+      },
+      {
+        "text": "লিভারের গোলযোগে রোগী শান্ত ও ধৈর্যশীল থাকে।",
+        "mid": "calm_patient_with_liver_disorder"
+      },
+      {
+        "text": "খিটখিটে মেজাজ শুধুমাত্র সকালে।",
+        "mid": "irritability_only_morning"
+      },
+      {
+        "text": "লিভারের রোগে মেজাজের কোনো পরিবর্তন হয় না।",
+        "mid": "no_mood_change_in_liver_disease"
+      }
+    ],
+    "answer": "irritable_due_to_liver_disorder",
+    "explanation": "Chelidonium Majus-এ লিভারের গোলযোগের কারণে রোগী অত্যন্ত খিটখিটে মেজাজের হয়ে পড়ে।"
+  },
+  {
+    "id": "chel-med-13",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী মনে করে সে হয়তো পাগল হয়ে যাবে বা তার কোনো বড় রোগ হয়েছে।",
+        "mid": "fear_of_going_insane_or_serious_disease"
+      },
+      {
+        "text": "রোগী মনে করে সে সম্পূর্ণ সুস্থ।",
+        "mid": "sensation_of_wellness"
+      },
+      {
+        "text": "রোগী মৃত্যুর ভয়ে ভীত।",
+        "mid": "fear_of_death"
+      },
+      {
+        "text": "রোগী ভবিষ্যৎ নিয়ে সম্পূর্ণ নিশ্চিন্ত।",
+        "mid": "carefree_about_future"
+      }
+    ],
+    "answer": "fear_of_going_insane_or_serious_disease",
+    "explanation": "Chelidonium Majus-এ রোগী মনে করে সে হয়তো পাগল হয়ে যাবে বা তার কোনো বড় রোগ হয়েছে।"
+  },
+  {
+    "id": "chel-med-14",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লিভারে আঘাত লাগার মতো অনুভূতি হয়।",
+        "mid": "sensation_of_injury_to_liver"
+      },
+      {
+        "text": "লিভারে হালকা অস্বস্তি, ব্যথা নেই।",
+        "mid": "mild_liver_discomfort_no_pain"
+      },
+      {
+        "text": "লিভার স্বাভাবিক অনুভূত হয়।",
+        "mid": "normal_liver_sensation"
+      },
+      {
+        "text": "লিভারে জ্বালাপোড়া হয়।",
+        "mid": "burning_in_liver"
+      }
+    ],
+    "answer": "sensation_of_injury_to_liver",
+    "explanation": "Chelidonium Majus-এ লিভারে আঘাত লাগার মতো অনুভূতি হয়।"
+  },
+  {
+    "id": "chel-med-15",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "এক পা ঠান্ডা এবং অপর পা গরম।",
+        "mid": "one_foot_cold_other_hot"
+      },
+      {
+        "text": "উভয় পা সমানভাবে গরম।",
+        "mid": "both_feet_equally_hot"
+      },
+      {
+        "text": "উভয় পা সমানভাবে ঠান্ডা।",
+        "mid": "both_feet_equally_cold"
+      },
+      {
+        "text": "পায়ে কোনো তাপমাত্রার পার্থক্য নেই।",
+        "mid": "no_temperature_difference_feet"
+      }
+    ],
+    "answer": "one_foot_cold_other_hot",
+    "explanation": "Chelidonium Majus-এ এক পা ঠান্ডা এবং অপর পা গরম অনুভূত হয়।"
+  },
+  {
+    "id": "chel-med-16",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পর্যায়ক্রমে কোষ্ঠকাঠিন্য ও উদারাময় দেখা দেয়।",
+        "mid": "alternating_constipation_diarrhea"
+      },
+      {
+        "text": "শুধুমাত্র দীর্ঘস্থায়ী কোষ্ঠকাঠিন্য।",
+        "mid": "chronic_constipation_only"
+      },
+      {
+        "text": "শুধুমাত্র উদারাময়।",
+        "mid": "diarrhea_only"
+      },
+      {
+        "text": "মলত্যাগে কোনো সমস্যা নেই।",
+        "mid": "normal_bowel_movement"
+      }
+    ],
+    "answer": "alternating_constipation_diarrhea",
+    "explanation": "Chelidonium Majus-এ পর্যায়ক্রমে কোষ্ঠকাঠিন্য ও উদারাময় দেখা দেয়।"
+  },
+  {
+    "id": "chel-med-17",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথা ঘোরার সাথে জন্ডিস বা পেটের গোলমাল থাকে।",
+        "mid": "vertigo_with_jaundice_or_stomach_disorder"
+      },
+      {
+        "text": "মাথা ঘোরা শুধুমাত্র খালি পেটে।",
+        "mid": "vertigo_only_on_empty_stomach"
+      },
+      {
+        "text": "মাথা ঘোরা সাথে বমি।",
+        "mid": "vertigo_with_vomiting"
+      },
+      {
+        "text": "মাথা ঘোরা শুধুমাত্র শোয়ার সময়।",
+        "mid": "vertigo_only_lying_down"
+      }
+    ],
+    "answer": "vertigo_with_jaundice_or_stomach_disorder",
+    "explanation": "Chelidonium Majus-এ মাথা ঘোরার সাথে জন্ডিস বা পেটের গোলমাল থাকতে পারে।"
+  },
+  {
+    "id": "chel-med-18",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী চর্বিযুক্ত খাবার সহ্য করতে পারে না।",
+        "mid": "intolerance_to_fatty_food"
+      },
+      {
+        "text": "চর্বিযুক্ত খাবার খেলে আরাম বোধ করে।",
+        "mid": "fatty_food_ameliorates"
+      },
+      {
+        "text": "চর্বিযুক্ত খাবারে কোনো সমস্যা নেই।",
+        "mid": "no_problem_with_fatty_food"
+      },
+      {
+        "text": "শুধুমাত্র মিষ্টি খাবার সহ্য করতে পারে না।",
+        "mid": "intolerance_to_sweets_only"
+      }
+    ],
+    "answer": "intolerance_to_fatty_food",
+    "explanation": "Chelidonium Majus-এ রোগী চর্বিযুক্ত খাবার সহ্য করতে পারে না।"
+  },
+  {
+    "id": "chel-med-19",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গরম খেলে লিভার, পাকস্থলি ও বুকের রোগ উপশম হয়।",
+        "mid": "warm_food_ameliorates_liver_stomach_chest"
+      },
+      {
+        "text": "গরম খেলে উপসর্গ বেড়ে যায়।",
+        "mid": "warm_food_aggravates"
+      },
+      {
+        "text": "গরম বা ঠান্ডা খাবারে কোনো পার্থক্য হয় না।",
+        "mid": "no_effect_of_warm_food"
+      },
+      {
+        "text": "ঠান্ডা খেলে আরাম বোধ করে।",
+        "mid": "cold_food_ameliorates"
+      }
+    ],
+    "answer": "warm_food_ameliorates_liver_stomach_chest",
+    "explanation": "Chelidonium Majus-এ গরম খেলে লিভার, পাকস্থলি ও বুকের রোগ উপশম হয়।"
+  },
+  {
+    "id": "chel-med-20",
+    "stem": "নিচের কোনটি Chelidonium Majus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জিহ্বার স্বাদ তিতা এবং উপরে হলুদ আস্তরণ পরে।",
+        "mid": "bitter_taste_yellow_coated_tongue"
+      },
+      {
+        "text": "জিহ্বার স্বাদ মিষ্টি এবং কোনো আস্তরণ নেই।",
+        "mid": "sweet_taste_clean_tongue"
+      },
+      {
+        "text": "জিহ্বায় ধাতব স্বাদ এবং লাল রঙ।",
+        "mid": "metallic_taste_red_tongue"
+      },
+      {
+        "text": "জিহ্বা শুষ্ক কিন্তু স্বাদ স্বাভাবিক।",
+        "mid": "dry_tongue_normal_taste"
+      }
+    ],
+    "answer": "bitter_taste_yellow_coated_tongue",
+    "explanation": "Chelidonium Majus-এ জিহ্বার স্বাদ তিতা এবং উপরে হলুদ আস্তরণ পরে।"
+  }
+]
+

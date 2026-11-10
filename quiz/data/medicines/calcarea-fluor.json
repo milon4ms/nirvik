@@ -1,0 +1,483 @@
+[
+  {
+    "id": "calc-fluor-med-01",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের টিস্যু বা রক্তনালীর স্থিতিস্থাপকতা নষ্ট হয়ে যাওয়া (যেমন ভ্যারিকোজ ভেইন বা ঝুলে পড়া ত্বক)।",
+        "mid": "loss_of_elasticity_tissues_veins"
+      },
+      {
+        "text": "শরীরের টিস্যু অতিরিক্ত শক্ত হয়ে যাওয়া কিন্তু স্থিতিস্থাপকতা অটুট থাকা।",
+        "mid": "excessive_tissue_hardness_with_elasticity"
+      },
+      {
+        "text": "শরীরের টিস্যুতে তীব্র জ্বালাপোড়া ও পোড়া ফোস্কা।",
+        "mid": "burning_blisters_tissues"
+      },
+      {
+        "text": "শরীরের টিস্যুতে ছোট ছোট পুঁজভরা ফোড়া।",
+        "mid": "pustular_boils_tissues"
+      }
+    ],
+    "answer": "loss_of_elasticity_tissues_veins",
+    "explanation": "Calcarea Fluorica-এর প্রধান পরিচায়ক হলো শরীরের পেশী বা রক্তনালীর স্থিতিস্থাপকতা নষ্ট হয়ে যাওয়া (Loss of Elasticity), যা ভ্যারিকোজ ভেইন বা ঝুলে পড়া চামড়ায় প্রকাশ পায়।"
+  },
+  {
+    "id": "calc-fluor-med-02",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের গ্রন্থি বা টিউমার পাথরের মতো শক্ত (Stony hard) হয়ে যাওয়া।",
+        "mid": "stony_hard_glands_tumors"
+      },
+      {
+        "text": "গ্রন্থি বা টিউমার নরম ও পিচ্ছিল হয়ে যাওয়া।",
+        "mid": "soft_slimy_glands_tumors"
+      },
+      {
+        "text": "গ্রন্থি ফুলে যাওয়া কিন্তু শক্ত নয়।",
+        "mid": "swollen_non_indurated_glands"
+      },
+      {
+        "text": "শুধুমাত্র ত্বকের নিচে ছোট ছোট গোটা, যা ব্যথাহীন।",
+        "mid": "small_painless_subcutaneous_nodules"
+      }
+    ],
+    "answer": "stony_hard_glands_tumors",
+    "explanation": "Calcarea Fluorica-এ শরীরের যেকোনো স্থানে গ্রন্থি বা টিউমার যদি পাথরের মতো শক্ত (Stony hard) হয়, তবে এটি প্রথম সারির ঔষধ।"
+  },
+  {
+    "id": "calc-fluor-med-03",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হাড়ের ওপর নতুন হাড় গজানো বা হাড়ের অস্বাভাবিক বৃদ্ধি (Exostosis)।",
+        "mid": "exostosis_bone_overgrowth"
+      },
+      {
+        "text": "হাড় ক্ষয় হয়ে যাওয়া (Osteoporosis) কিন্তু নতুন হাড় গজানো নয়।",
+        "mid": "osteoporosis_bone_loss"
+      },
+      {
+        "text": "হাড় নরম হয়ে যাওয়া (Osteomalacia)।",
+        "mid": "osteomalacia_soft_bones"
+      },
+      {
+        "text": "শুধুমাত্র হাড় ভেঙে যাওয়া (Fracture)।",
+        "mid": "bone_fracture_only"
+      }
+    ],
+    "answer": "exostosis_bone_overgrowth",
+    "explanation": "Calcarea Fluorica-এ হাড়ের ওপর নতুন হাড় গজানো (Exostosis) বা হাড়ের অস্বাভাবিক বৃদ্ধি এবং হাড়ের উপরিভাগ অমসৃণ হয়ে যাওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "calc-fluor-med-04",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দাঁতের এনামেল নষ্ট হয়ে যাওয়া, দাঁত আলগা হয়ে যাওয়া বা দাঁতে গর্ত হওয়ার প্রবণতা।",
+        "mid": "enamel_destruction_loose_teeth_caries"
+      },
+      {
+        "text": "দাঁত অতিরিক্ত সাদা ও শক্ত হওয়া।",
+        "mid": "excessively_white_hard_teeth"
+      },
+      {
+        "text": "দাঁত উঠতে দেরি হওয়া কিন্তু এনামেল অটুট থাকা।",
+        "mid": "delayed_teething_with_intact_enamel"
+      },
+      {
+        "text": "শুধুমাত্র মাড়ি থেকে রক্তপাত, দাঁত অটুট।",
+        "mid": "bleeding_gums_intact_teeth"
+      }
+    ],
+    "answer": "enamel_destruction_loose_teeth_caries",
+    "explanation": "Calcarea Fluorica-এ দাঁতের এনামেল নষ্ট হয়ে যাওয়া, দাঁত আলগা হয়ে যাওয়া বা দাঁতে গর্ত হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "calc-fluor-med-05",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শিরার প্রসারণ (Varicose veins) এবং রক্তস্রাবী অর্শ (Bleeding piles)।",
+        "mid": "varicose_veins_bleeding_piles"
+      },
+      {
+        "text": "শিরা সংকুচিত হয়ে যাওয়া (Vasoconstriction)।",
+        "mid": "vasoconstriction_narrow_veins"
+      },
+      {
+        "text": "অর্শ কিন্তু রক্তস্রাব নেই।",
+        "mid": "non_bleeding_piles"
+      },
+      {
+        "text": "শুধুমাত্র ধমনীর প্রসারণ (Aneurysm)।",
+        "mid": "arterial_aneurysm_only"
+      }
+    ],
+    "answer": "varicose_veins_bleeding_piles",
+    "explanation": "Calcarea Fluorica-এ শিরার প্রসারণ এবং রক্ত চলাচলে বাধার ফলে সৃষ্ট রক্তস্রাবী অর্শ বা পায়ের শিরা ফুলে যাওয়া (Varicose veins) হয়।"
+  },
+  {
+    "id": "calc-fluor-med-06",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী সবসময় আর্থিক অভাব বা দারিদ্র্যের ভয়ে (Fear of poverty) তটস্থ থাকে।",
+        "mid": "fear_of_poverty_financial_ruin"
+      },
+      {
+        "text": "রোগী অতিরিক্ত ধনী হওয়ার ভয়ে ভোগে।",
+        "mid": "fear_of_becoming_wealthy"
+      },
+      {
+        "text": "রোগী অর্থ সম্পর্কে সম্পূর্ণ উদাসীন।",
+        "mid": "indifferent_about_money"
+      },
+      {
+        "text": "রোগী ভবিষ্যৎ নিয়ে সম্পূর্ণ নিশ্চিন্ত।",
+        "mid": "carefree_about_future_finances"
+      }
+    ],
+    "answer": "fear_of_poverty_financial_ruin",
+    "explanation": "Calcarea Fluorica-এর মানসিক লক্ষণে রোগী সবসময় আর্থিক অভাব বা দারিদ্র্যের ভয়ে (Fear of poverty) তটস্থ থাকে।"
+  },
+  {
+    "id": "calc-fluor-med-07",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সিদ্ধান্তহীনতা এবং খিটখিটে মেজাজ।",
+        "mid": "indecisiveness_irritable_mood"
+      },
+      {
+        "text": "অতিরিক্ত আত্মবিশ্বাস এবং শান্ত মেজাজ।",
+        "mid": "overconfidence_calm_mood"
+      },
+      {
+        "text": "দ্রুত সিদ্ধান্ত গ্রহণের ক্ষমতা।",
+        "mid": "quick_decision_making"
+      },
+      {
+        "text": "সম্পূর্ণ উদাসীন ও নির্বিকার।",
+        "mid": "apathetic_indifferent"
+      }
+    ],
+    "answer": "indecisiveness_irritable_mood",
+    "explanation": "Calcarea Fluorica-এ রোগীর সিদ্ধান্তহীনতা এবং খিটখিটে মেজাজ (Indecisiveness and irritable mood) দেখা যায়।"
+  },
+  {
+    "id": "calc-fluor-med-08",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মনে হয় যেন কোনো অমঙ্গল ঘটবে, এই ভেবে মানসিকভাবে অস্থির থাকা।",
+        "mid": "sense_of_impending_misfortune_restlessness"
+      },
+      {
+        "text": "ভবিষ্যৎ নিয়ে সম্পূর্ণ আশাবাদী ও শান্ত।",
+        "mid": "optimistic_calm_about_future"
+      },
+      {
+        "text": "শুধুমাত্র শারীরিক অসুস্থতা নিয়ে চিন্তা।",
+        "mid": "worries_only_about_physical_illness"
+      },
+      {
+        "text": "কোনো মানসিক অস্থিরতা নেই।",
+        "mid": "no_mental_restlessness"
+      }
+    ],
+    "answer": "sense_of_impending_misfortune_restlessness",
+    "explanation": "Calcarea Fluorica-এ মনে হয় যেন কোনো অমঙ্গল ঘটবে, এই ভেবে রোগী মানসিকভাবে অস্থির থাকে।"
+  },
+  {
+    "id": "calc-fluor-med-09",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পিঠের বা কোমরের হাড়ের বৃদ্ধি (Spinal exostosis)।",
+        "mid": "spinal_exostosis"
+      },
+      {
+        "text": "পিঠের হাড় ক্ষয় হয়ে যাওয়া (Spinal osteoporosis)।",
+        "mid": "spinal_osteoporosis"
+      },
+      {
+        "text": "শুধুমাত্র পিঠে ব্যথা, হাড়ের কোনো পরিবর্তন নেই।",
+        "mid": "back_pain_no_bone_change"
+      },
+      {
+        "text": "পিঠের হাড় নরম হয়ে যাওয়া।",
+        "mid": "softening_of_spinal_bones"
+      }
+    ],
+    "answer": "spinal_exostosis",
+    "explanation": "Calcarea Fluorica-এ পিঠের বা কোমরের হাড়ের বৃদ্ধি (Spinal exostosis) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "calc-fluor-med-10",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গেঁটে বাত বা সন্ধিবাত যেখানে গিঁটগুলো শক্ত হয়ে ফুলে যায়।",
+        "mid": "gout_arthritis_hard_swollen_joints"
+      },
+      {
+        "text": "সন্ধি নরম ও পিচ্ছিল হয়ে যাওয়া।",
+        "mid": "soft_slimy_joints"
+      },
+      {
+        "text": "শুধুমাত্র পেশীতে খিঁচুনি, সন্ধি স্বাভাবিক।",
+        "mid": "muscle_cramps_normal_joints"
+      },
+      {
+        "text": "সন্ধিতে তীব্র জ্বালাপোড়া, ফোলা ছাড়া।",
+        "mid": "burning_joints_no_swelling"
+      }
+    ],
+    "answer": "gout_arthritis_hard_swollen_joints",
+    "explanation": "Calcarea Fluorica-এ গেঁটে বাত বা সন্ধিবাত হয় যেখানে গিঁটগুলো শক্ত হয়ে ফুলে যায়।"
+  },
+  {
+    "id": "calc-fluor-med-11",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লুম্বাগো বা কোমরের দীর্ঘস্থায়ী ব্যথা যা নড়াচড়া করলে বাড়ে।",
+        "mid": "chronic_lumbago_worse_motion"
+      },
+      {
+        "text": "কোমরের ব্যথা যা বিশ্রামে বাড়ে।",
+        "mid": "lumbago_worse_rest"
+      },
+      {
+        "text": "কোমরের ব্যথা যা শুধুমাত্র সকালে হয়।",
+        "mid": "morning_lumbago_only"
+      },
+      {
+        "text": "কোমরে ব্যথা নেই কিন্তু শক্ত হয়ে যাওয়া।",
+        "mid": "stiff_lower_back_no_pain"
+      }
+    ],
+    "answer": "chronic_lumbago_worse_motion",
+    "explanation": "Calcarea Fluorica-এ লুম্বাগো বা কোমরের দীর্ঘস্থায়ী ব্যথা হয় যা নড়াচড়া করলে বাড়ে।"
+  },
+  {
+    "id": "calc-fluor-med-12",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চোখের পাতায় শক্ত অঞ্জনি (Styes) বা টিউমার।",
+        "mid": "hard_styes_eyelid_tumors"
+      },
+      {
+        "text": "চোখের পাতায় নরম, পিচ্ছিল ফোলা।",
+        "mid": "soft_slimy_eyelid_swelling"
+      },
+      {
+        "text": "শুধুমাত্র চোখের পাতায় চুলকানি।",
+        "mid": "itching_eyelids_only"
+      },
+      {
+        "text": "চোখের পাতায় জ্বালাপোড়া, ফোলা ছাড়া।",
+        "mid": "burning_eyelids_no_swelling"
+      }
+    ],
+    "answer": "hard_styes_eyelid_tumors",
+    "explanation": "Calcarea Fluorica-এ চোখের পাতায় শক্ত অঞ্জনি (Styes) বা টিউমার হয়।"
+  },
+  {
+    "id": "calc-fluor-med-13",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জরায়ুর স্থানচ্যুতি (Prolapse) এবং জরায়ুর পেশী শিথিল হয়ে যাওয়া।",
+        "mid": "uterine_prolapse_lax_muscles"
+      },
+      {
+        "text": "জরায়ু শক্ত হয়ে যাওয়া (Induration)।",
+        "mid": "uterine_induration"
+      },
+      {
+        "text": "জরায়ুতে তীব্র জ্বালাপোড়া।",
+        "mid": "burning_uterus"
+      },
+      {
+        "text": "শুধুমাত্র জরায়ুতে টিউমার, স্থানচ্যুতি নেই।",
+        "mid": "uterine_tumor_no_prolapse"
+      }
+    ],
+    "answer": "uterine_prolapse_lax_muscles",
+    "explanation": "Calcarea Fluorica-এ জরায়ুর স্থানচ্যুতি (Prolapse) এবং জরায়ুর পেশী শিথিল হয়ে যাওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "calc-fluor-med-14",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "স্তনে শক্ত, ব্যথাহীন টিউমার।",
+        "mid": "hard_painless_breast_tumor"
+      },
+      {
+        "text": "স্তনে নরম, ব্যথাযুক্ত ফোলা।",
+        "mid": "soft_painful_breast_swelling"
+      },
+      {
+        "text": "স্তনে তীব্র জ্বালাপোড়া, টিউমার ছাড়া।",
+        "mid": "burning_breast_no_tumor"
+      },
+      {
+        "text": "শুধুমাত্র স্তনে দুধের প্রবাহ বন্ধ হয়ে যাওয়া।",
+        "mid": "suppressed_lactation_only"
+      }
+    ],
+    "answer": "hard_painless_breast_tumor",
+    "explanation": "Calcarea Fluorica-এ স্তনে শক্ত, ব্যথাহীন টিউমার (Hard, painless tumor in breast) হয়।"
+  },
+  {
+    "id": "calc-fluor-med-15",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চামড়া অত্যন্ত খসখসে এবং ফেটে যায়; শক্ত কড়া (Corns) বা আঁচিল যা খুব কঠিন।",
+        "mid": "rough_cracked_skin_hard_corns_warts"
+      },
+      {
+        "text": "চামড়া অতিরিক্ত তৈলাক্ত ও মসৃণ।",
+        "mid": "oily_smooth_skin"
+      },
+      {
+        "text": "চামড়ায় নরম, পিচ্ছিল ফোস্কা।",
+        "mid": "soft_slimy_blisters_skin"
+      },
+      {
+        "text": "চামড়ায় ছোট ছোট পুঁজভরা ফোড়া।",
+        "mid": "pustular_boils_skin"
+      }
+    ],
+    "answer": "rough_cracked_skin_hard_corns_warts",
+    "explanation": "Calcarea Fluorica-এ চামড়া অত্যন্ত খসখসে এবং ফেটে যায়, এবং শক্ত কড়া (Corns) বা খুব কঠিন আঁচিল হয়।"
+  },
+  {
+    "id": "calc-fluor-med-16",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দুর্দমনীয় কোষ্ঠবদ্ধতা সহ উদরী পীড়া, মল জমে থাকে এবং অনেকক্ষণ কুন্থন দিতে হয়।",
+        "mid": "obstinate_constipation_abdominal_affection_straining"
+      },
+      {
+        "text": "উদারাময় (Diarrhoea) সহ পেটে মোচড়।",
+        "mid": "diarrhea_with_colic"
+      },
+      {
+        "text": "কোষ্ঠকাঠিন্য কিন্তু পেটে কোনো অস্বস্তি নেই।",
+        "mid": "constipation_no_abdominal_discomfort"
+      },
+      {
+        "text": "শুধুমাত্র পেটে বায়ু জমা, কোষ্ঠকাঠিন্য নেই।",
+        "mid": "abdominal_gas_no_constipation"
+      }
+    ],
+    "answer": "obstinate_constipation_abdominal_affection_straining",
+    "explanation": "Calcarea Fluorica-এ দুর্দমনীয় কোষ্ঠবদ্ধতা সহ উদরী পীড়া হয়, মল জমে থাকে এবং অনেকক্ষণ কুন্থন দিতে হয়।"
+  },
+  {
+    "id": "calc-fluor-med-17",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অন্ডকোষে জল জমা (Hydrocele) এবং কঠিনতা সহ যেকোনো প্রকার অন্ডকোষের পীড়া।",
+        "mid": "hydrocele_hard_testes_affections"
+      },
+      {
+        "text": "অন্ডকোষ নরম ও পিচ্ছিল হয়ে যাওয়া।",
+        "mid": "soft_slimy_testes"
+      },
+      {
+        "text": "শুধুমাত্র অন্ডকোষে জ্বালাপোড়া, ফোলা ছাড়া।",
+        "mid": "burning_testes_no_swelling"
+      },
+      {
+        "text": "অন্ডকোষে ব্যথা কিন্তু জল জমা নেই।",
+        "mid": "testicular_pain_no_hydrocele"
+      }
+    ],
+    "answer": "hydrocele_hard_testes_affections",
+    "explanation": "Calcarea Fluorica-এ অন্ডকোষে জল জমা (Hydrocele) এবং কঠিনতা সহ যেকোনো প্রকার অন্ডকোষের পীড়া হয়।"
+  },
+  {
+    "id": "calc-fluor-med-18",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অন্ত্রবৃদ্ধি বা হার্নিয়ার (Hernia) সেরা ঔষধ।",
+        "mid": "best_remedy_for_hernia"
+      },
+      {
+        "text": "শুধুমাত্র পেট ফুলে যাওয়া, হার্নিয়া নয়।",
+        "mid": "abdominal_bloating_not_hernia"
+      },
+      {
+        "text": "শুধুমাত্র পেটে ব্যথা, হার্নিয়া নেই।",
+        "mid": "abdominal_pain_no_hernia"
+      },
+      {
+        "text": "শুধুমাত্র অন্ত্রের প্রদাহ (Enteritis)।",
+        "mid": "enteritis_only"
+      }
+    ],
+    "answer": "best_remedy_for_hernia",
+    "explanation": "Calcarea Fluorica অন্ত্রবৃদ্ধি বা হার্নিয়ার (Hernia) সেরা ঔষধ।"
+  },
+  {
+    "id": "calc-fluor-med-19",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দ্রুত দাঁত ক্ষয় এবং ছানির (Cataract) অতি উৎকৃষ্ট মহৌষধ।",
+        "mid": "rapid_dental_decay_best_for_cataract"
+      },
+      {
+        "text": "দাঁত ক্ষয় না হয়ে বরং দাঁত মজবুত হওয়া।",
+        "mid": "strengthening_teeth_no_decay"
+      },
+      {
+        "text": "শুধুমাত্র চোখের ছানি, দাঁত অটুট।",
+        "mid": "cataract_only_teeth_intact"
+      },
+      {
+        "text": "শুধুমাত্র দাঁতের ক্ষয়, ছানি নেই।",
+        "mid": "dental_decay_only_no_cataract"
+      }
+    ],
+    "answer": "rapid_dental_decay_best_for_cataract",
+    "explanation": "Calcarea Fluorica দ্রুত দাঁত ক্ষয় এবং ছানির (Cataract) অতি উৎকৃষ্ট মহৌষধ।"
+  },
+  {
+    "id": "calc-fluor-med-20",
+    "stem": "নিচের কোনটি Calcarea Fluorica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় বিশ্রামে, আবহাওয়ার পরিবর্তনে এবং ঠান্ডা ও আর্দ্র পরিবেশে।",
+        "mid": "aggravation_rest_weather_change_cold_damp"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরমে ও চলাফেরায়।",
+        "mid": "aggravation_heat_motion"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় বিশ্রামে ও ঠান্ডায়।",
+        "mid": "amelioration_rest_cold"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র রাতে।",
+        "mid": "aggravation_only_at_night"
+      }
+    ],
+    "answer": "aggravation_rest_weather_change_cold_damp",
+    "explanation": "Calcarea Fluorica-এর লক্ষণ বিশ্রাম নিলে, আবহাওয়ার পরিবর্তনে এবং ঠান্ডা ও আর্দ্র পরিবেশে বৃদ্ধি পায়।"
+  }
+]
+

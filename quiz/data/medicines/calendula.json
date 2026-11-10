@@ -1,0 +1,242 @@
+[
+  {
+    "id": "calen-med-01",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্বশ্রেষ্ঠ হোমিওপ্যাথিক অ্যান্টিসেপটিক, কাটা-ছেঁড়া ও থেঁতলে যাওয়া ক্ষতের জন্য শ্রেষ্ঠ", "mid": "sym-calen-best-antiseptic-lacerated-wound"},
+      {"text": "শুধু হাড় ভাঙার জন্য শ্রেষ্ঠ", "mid": "sym-only-fracture"},
+      {"text": "শুধু স্নায়ুর আঘাতের জন্য শ্রেষ্ঠ", "mid": "sym-only-nerve-injury"},
+      {"text": "আঘাতে কোনো কাজ করে না", "mid": "sym-no-injury-action"}
+    ],
+    "answer": "sym-calen-best-antiseptic-lacerated-wound",
+    "explanation": "Calendula হলো সর্বশ্রেষ্ঠ অ্যান্টিসেপটিক এবং কাটা-ছেঁড়া ক্ষতে শ্রেষ্ঠ।"
+  },
+  {
+    "id": "calen-med-02",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্ষতস্থানে পুঁজ হওয়া রোধ করে ও স্বাস্থ্যকর নতুন মাংস গজাতে সাহায্য করে", "mid": "sym-calen-prevents-suppuration-healthy-granulation"},
+      {"text": "ক্ষতে পুঁজ বাড়ায়", "mid": "sym-increases-pus"},
+      {"text": "ক্ষত শুকাতে দেরি করায়", "mid": "sym-delays-healing"},
+      {"text": "ক্ষতে কোনো প্রভাব নেই", "mid": "sym-no-effect-wound"}
+    ],
+    "answer": "sym-calen-prevents-suppuration-healthy-granulation",
+    "explanation": "Calendula পুঁজ হওয়া রোধ করে ও দ্রুত গ্রানুলেশন তৈরি করে।"
+  },
+  {
+    "id": "calen-med-03",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অস্ত্রোপচার পরবর্তী ক্ষতে ইনফেকশন রোধ ও ব্যথা কমাতে অপ্রতিদ্বন্দ্বী", "mid": "sym-calen-post-surgical-infection-pain"},
+      {"text": "অপারেশনের আগে ব্যবহার করা হয়", "mid": "sym-before-surgery-only"},
+      {"text": "অপারেশনে কোনো কাজ নেই", "mid": "sym-no-surgical-use"},
+      {"text": "শুধু জ্বর কমায়", "mid": "sym-only-fever"}
+    ],
+    "answer": "sym-calen-post-surgical-infection-pain",
+    "explanation": "Calendula সার্জারির পর ইনফেকশন রোধে ও ব্যথা কমাতে শ্রেষ্ঠ।"
+  },
+  {
+    "id": "calen-med-04",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যান্ত্রিক আঘাত জনিত রক্তক্ষরণ বন্ধ করতে কার্যকর", "mid": "sym-calen-traumatic-hemorrhage-stop"},
+      {"text": "নাক থেকে আপনা-আপনি রক্তপাত", "mid": "sym-spontaneous-epistaxis"},
+      {"text": "জরায়ু থেকে হরমোন জনিত রক্তপাত", "mid": "sym-hormonal-bleeding"},
+      {"text": "রক্ত পাতলা করে", "mid": "sym-thins-blood"}
+    ],
+    "answer": "sym-calen-traumatic-hemorrhage-stop",
+    "explanation": "Calendula আঘাত জনিত রক্তপাত বন্ধ করতে মহৌষধ।"
+  },
+  {
+    "id": "calen-med-05",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দাঁত তোলার পর রক্তক্ষরণ বন্ধ করে ও মাড়ির ক্ষত শুকায়", "mid": "sym-calen-tooth-extraction-bleeding"},
+      {"text": "দাঁতের ব্যথা বাড়ায়", "mid": "sym-increases-tooth-pain"},
+      {"text": "দাঁতে কোনো কাজ করে না", "mid": "sym-no-dental-action"},
+      {"text": "দাঁত নড়বড়ে করে", "mid": "sym-loosens-teeth"}
+    ],
+    "answer": "sym-calen-tooth-extraction-bleeding",
+    "explanation": "Calendula দাঁত তোলার পর রক্তপাত বন্ধে চমৎকার।"
+  },
+  {
+    "id": "calen-med-06",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শব্দে অত্যন্ত সংবেদনশীল, সামান্য শব্দে চমকে ওঠে", "mid": "sym-calen-sensitive-noise-startled"},
+      {"text": "শব্দে কোনো অনুভূতি নেই", "mid": "sym-no-noise-sensitivity"},
+      {"text": "গান শুনতে ভালোবাসে", "mid": "sym-loves-music"},
+      {"text": "শব্দে ঘুম ভালো হয়", "mid": "sym-sleep-better-noise"}
+    ],
+    "answer": "sym-calen-sensitive-noise-startled",
+    "explanation": "Calendula রোগী শব্দে অত্যন্ত সংবেদনশীল।"
+  },
+  {
+    "id": "calen-med-07",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবসময় ভয় থাকে যে বড় ক্ষতি হবে, আঘাতের ভয়", "mid": "sym-calen-fear-being-hurt-injury"},
+      {"text": "কোনো ভয় নেই", "mid": "sym-no-fear"},
+      {"text": "মৃত্যু ভয় নেই", "mid": "sym-no-death-fear"},
+      {"text": "ভিড়ের ভয়", "mid": "sym-fear-crowd"}
+    ],
+    "answer": "sym-calen-fear-being-hurt-injury",
+    "explanation": "Calendula রোগী মনে করে তার বড় ক্ষতি হবে।"
+  },
+  {
+    "id": "calen-med-08",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খোলা ক্ষত, পোড়া ক্ষত ও প্রচণ্ড ব্যথাযুক্ত আলসার", "mid": "sym-calen-open-burn-ulcer-painful"},
+      {"text": "বন্ধ ক্ষত", "mid": "sym-closed-wound"},
+      {"text": "ব্যথাহীন আলসার", "mid": "sym-painless-ulcer"},
+      {"text": "চুলকানিযুক্ত ক্ষত", "mid": "sym-itchy-wound"}
+    ],
+    "answer": "sym-calen-open-burn-ulcer-painful",
+    "explanation": "Calendula খোলা, পোড়া ও ব্যথাযুক্ত আলসারে ব্যবহৃত হয়।"
+  },
+  {
+    "id": "calen-med-09",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্ষতস্থানে গ্যাংগ্রিন হওয়া রোধ করে", "mid": "sym-calen-prevents-gangrene"},
+      {"text": "গ্যাংগ্রিন বাড়ায়", "mid": "sym-increases-gangrene"},
+      {"text": "গ্যাংগ্রিনে কোনো কাজ নেই", "mid": "sym-no-gangrene-action"},
+      {"text": "শুধু গ্যাংগ্রিনের ব্যথা কমায়", "mid": "sym-only-gangrene-pain"}
+    ],
+    "answer": "sym-calen-prevents-gangrene",
+    "explanation": "Calendula ক্ষতে গ্যাংগ্রিন হওয়া রোধ করে।"
+  },
+  {
+    "id": "calen-med-10",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখে আঘাত বা ছানি অপারেশনের পর বাহ্যিক ও অভ্যন্তরীণ ব্যবহার", "mid": "sym-calen-eye-injury-cataract-surgery"},
+      {"text": "চোখে শুধু চুলকানি", "mid": "sym-eye-itch-only"},
+      {"text": "চোখে কোনো কাজ নেই", "mid": "sym-no-eye-action"},
+      {"text": "চোখে পুঁজ", "mid": "sym-eye-pus"}
+    ],
+    "answer": "sym-calen-eye-injury-cataract-surgery",
+    "explanation": "Calendula চোখের আঘাত ও ছানি অপারেশনের পর কার্যকর।"
+  },
+  {
+    "id": "calen-med-11",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কানে কম শোনা যা মেঘলা আবহাওয়ায় বাড়ে, কানে ঘা বা পুঁজ", "mid": "sym-calen-deafness-damp-agg-ear-ulcer"},
+      {"text": "কানে ভালো শোনে", "mid": "sym-good-hearing"},
+      {"text": "কানে শুধু ভোঁ ভোঁ শব্দ", "mid": "sym-tinnitus-only"},
+      {"text": "কানে কোনো সমস্যা নেই", "mid": "sym-no-ear-issue"}
+    ],
+    "answer": "sym-calen-deafness-damp-agg-ear-ulcer",
+    "explanation": "Calendula-তে মেঘলা আবহাওয়ায় বধিরতা বাড়ে।"
+  },
+  {
+    "id": "calen-med-12",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জরায়ুর ক্ষত ও রক্তক্ষরণ, প্রস্রাবের পর জ্বালাপোড়া", "mid": "sym-calen-uterine-ulcer-bleeding-burning-after-urine"},
+      {"text": "জরায়ুতে কোনো সমস্যা নেই", "mid": "sym-no-uterine-issue"},
+      {"text": "জরায়ু বড় হয়ে যায়", "mid": "sym-uterus-enlarged"},
+      {"text": "জরায়ু ছোট হয়ে যায়", "mid": "sym-uterus-small"}
+    ],
+    "answer": "sym-calen-uterine-ulcer-bleeding-burning-after-urine",
+    "explanation": "Calendula জরায়ুর ক্ষত ও প্রস্রাব পরবর্তী জ্বালায় ব্যবহৃত হয়।"
+  },
+  {
+    "id": "calen-med-13",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: মেঘলা বা স্যাঁতসেঁতে আবহাওয়ায়, নড়াচড়ায়, রাতে", "mid": "sym-calen-agg-damp-cloudy-motion-night"},
+      {"text": "বৃদ্ধি: শুষ্ক আবহাওয়ায়", "mid": "sym-agg-dry-weather"},
+      {"text": "বৃদ্ধি: বিশ্রামে", "mid": "sym-agg-rest"},
+      {"text": "বৃদ্ধি: গরমে", "mid": "sym-agg-heat"}
+    ],
+    "answer": "sym-calen-agg-damp-cloudy-motion-night",
+    "explanation": "Calendula-র বৃদ্ধি মেঘলা, স্যাঁতসেঁতে, নড়াচড়া ও রাতে।"
+  },
+  {
+    "id": "calen-med-14",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: স্থির হয়ে শুয়ে থাকলে ও উষ্ণতায়", "mid": "sym-calen-amel-lying-still-warmth"},
+      {"text": "উপশম: ঠান্ডায়", "mid": "sym-amel-cold"},
+      {"text": "উপশম: নড়াচড়ায়", "mid": "sym-amel-motion"},
+      {"text": "উপশম: মেঘলা আবহাওয়ায়", "mid": "sym-amel-cloudy"}
+    ],
+    "answer": "sym-calen-amel-lying-still-warmth",
+    "explanation": "Calendula স্থির শুয়ে থাকলে ও উষ্ণতায় উপশম পায়।"
+  },
+  {
+    "id": "calen-med-15",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শীতকাতর, মুক্ত বাতাস সহ্য হয় না, শীতবোধ", "mid": "sym-calen-chilly-open-air-intolerant"},
+      {"text": "গরমকাতর, খোলা বাতাস পছন্দ", "mid": "sym-hot-likes-open-air"},
+      {"text": "উভয়কাতর", "mid": "sym-both-chilly-hot"},
+      {"text": "শীতকাতর নয়", "mid": "sym-not-chilly"}
+    ],
+    "answer": "sym-calen-chilly-open-air-intolerant",
+    "explanation": "Calendula শীতকাতর ও মুক্ত বাতাস সহ্য হয় না।"
+  },
+  {
+    "id": "calen-med-16",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিক অবসাদ ও দুশ্চিন্তা, বিশেষ করে আঘাতের পর", "mid": "sym-calen-depression-anxiety-after-injury"},
+      {"text": "আঘাতের পর আনন্দিত", "mid": "sym-joyful-after-injury"},
+      {"text": "আঘাতে কোনো মানসিক লক্ষণ নেই", "mid": "sym-no-mental-after-injury"},
+      {"text": "আঘাতের পর সাহসী", "mid": "sym-brave-after-injury"}
+    ],
+    "answer": "sym-calen-depression-anxiety-after-injury",
+    "explanation": "Calendula-তে আঘাতের পর মানসিক অবসাদ ও দুশ্চিন্তা থাকে।"
+  },
+  {
+    "id": "calen-med-17",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মেজাজ খিটখিটে, কারো সাথে কথা বলতে ভালো লাগে না", "mid": "sym-calen-irritable-averse-talk"},
+      {"text": "খুব মিশুক ও গল্পপ্রিয়", "mid": "sym-sociable-talkative"},
+      {"text": "সবসময় হাসিখুশি", "mid": "sym-always-cheerful"},
+      {"text": "একা থাকতে ভয়", "mid": "sym-fear-alone"}
+    ],
+    "answer": "sym-calen-irritable-averse-talk",
+    "explanation": "Calendula রোগী খিটখিটে ও কথা বলতে অনিচ্ছুক।"
+  },
+  {
+    "id": "calen-med-18",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাহ্যিক ব্যবহারে মাদার টিংচার Q বা ১ ভাগ টিংচার ১০ ভাগ জলে লোশন", "mid": "sym-calen-external-q-lotion"},
+      {"text": "শুধু উচ্চ শক্তি ১M", "mid": "sym-only-high-potency"},
+      {"text": "শুধু ৩০ শক্তি", "mid": "sym-only-30"},
+      {"text": "বাহ্যিক ব্যবহার নিষেধ", "mid": "sym-no-external-use"}
+    ],
+    "answer": "sym-calen-external-q-lotion",
+    "explanation": "Calendula বাহ্যিকভাবে মাদার টিংচার লোশন হিসেবে সবচেয়ে কার্যকর।"
+  },
+  {
+    "id": "calen-med-19",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সদৃশ: Arnica, Hypericum, Ledum, Hamamelis", "mid": "sym-calen-similar-arnica-hypericum-ledum-hamamelis"},
+      {"text": "সদৃশ: Sulphur, Pulsatilla", "mid": "sym-similar-sulph-puls"},
+      {"text": "সদৃশ: Nux Vomica", "mid": "sym-similar-nux"},
+      {"text": "কোনো সদৃশ নেই", "mid": "sym-no-similar"}
+    ],
+    "answer": "sym-calen-similar-arnica-hypericum-ledum-hamamelis",
+    "explanation": "Calendula-র সদৃশ Arnica, Hypericum, Ledum ও Hamamelis।"
+  },
+  {
+    "id": "calen-med-20",
+    "stem": "নিচের কোনটি Calendula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উৎস উদ্ভিদ গাঁদা ফুল, সোরা মায়াজম", "mid": "sym-calen-source-marigold-miasm-psora"},
+      {"text": "উৎস খনিজ", "mid": "sym-source-mineral"},
+      {"text": "উৎস প্রাণীজ", "mid": "sym-source-animal"},
+      {"text": "মায়াজম সিফিলিটিক", "mid": "sym-miasm-syphilitic"}
+    ],
+    "answer": "sym-calen-source-marigold-miasm-psora",
+    "explanation": "Calendula উদ্ভিদ গাঁদা ফুল থেকে তৈরি, সোরা মায়াজম।"
+  }
+]

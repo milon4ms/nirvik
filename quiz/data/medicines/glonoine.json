@@ -1,0 +1,242 @@
+[
+  {
+    "id": "glon-med-01",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রক্ত প্রচণ্ড বেগে মাথা ও হৃদপিণ্ডে প্রবাহিত, মাথা দপদপ করে", "mid": "sym-glon-blood-rush-head-heart-throb"},
+      {"text": "রক্ত নিচের দিকে নামে", "mid": "sym-blood-downward"},
+      {"text": "রক্ত চলাচল স্বাভাবিক", "mid": "sym-blood-normal"},
+      {"text": "রক্ত চলাচল ধীর", "mid": "sym-blood-slow"}
+    ],
+    "answer": "sym-glon-blood-rush-head-heart-throb",
+    "explanation": "Glonoine-এ রক্ত হঠাৎ মাথা ও হৃদপিণ্ডে ছুটে যায় ও দপদপ করে।"
+  },
+  {
+    "id": "glon-med-02",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সূর্যের আলোতে রোগ বৃদ্ধি, টুপি বা ঘোমটা অসহ্য", "mid": "sym-glon-agg-sun-hat-intolerable"},
+      {"text": "সূর্যের আলোতে উপশম", "mid": "sym-amel-sun"},
+      {"text": "টুপি পরতে ভালো লাগে", "mid": "sym-likes-hat"},
+      {"text": "সূর্যে কোনো প্রভাব নেই", "mid": "sym-no-sun-effect"}
+    ],
+    "answer": "sym-glon-agg-sun-hat-intolerable",
+    "explanation": "Glonoine-এ রোদে বৃদ্ধি ও মাথার আবরণ অসহ্য হয়।"
+  },
+  {
+    "id": "glon-med-03",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথা বড় মনে হয়, উঁচু বালিশ চায়, দুই হাতে মাথা চেপে ধরে", "mid": "sym-glon-head-large-high-pillow-press-hands"},
+      {"text": "মাথা ছোট মনে হয়", "mid": "sym-head-small"},
+      {"text": "নিচু বালিশ চায়", "mid": "sym-low-pillow-wants"},
+      {"text": "মাথা চেপে ধরলে বৃদ্ধি", "mid": "sym-agg-pressing-head"}
+    ],
+    "answer": "sym-glon-head-large-high-pillow-press-hands",
+    "explanation": "Glonoine-এ মাথা বড় মনে হয়, উঁচু বালিশ চায় ও হাতে চেপে ধরে।"
+  },
+  {
+    "id": "glon-med-04",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মেজাজ খিটখিটে, প্রতিবাদ সহ্য হয় না, অল্পে উত্তেজিত", "mid": "sym-glon-irritable-contradiction-intolerant-excited"},
+      {"text": "মেজাজ খুব শান্ত", "mid": "sym-very-calm"},
+      {"text": "প্রতিবাদে আনন্দিত", "mid": "sym-joy-contradiction"},
+      {"text": "উত্তেজিত হয় না", "mid": "sym-not-excited"}
+    ],
+    "answer": "sym-glon-irritable-contradiction-intolerant-excited",
+    "explanation": "Glonoine রোগী খিটখিটে ও প্রতিবাদ সহ্য করতে পারে না।"
+  },
+  {
+    "id": "glon-med-05",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিচিত রাস্তা মনে রাখতে পারে না, পরিচিত লোককে অপরিচিত মনে হয়", "mid": "sym-glon-forgets-road-strangers-familiar"},
+      {"text": "সব রাস্তা মনে থাকে", "mid": "sym-remembers-all-roads"},
+      {"text": "সব লোককে চিনতে পারে", "mid": "sym-recognizes-all"},
+      {"text": "স্মৃতি প্রখর", "mid": "sym-sharp-memory"}
+    ],
+    "answer": "sym-glon-forgets-road-strangers-familiar",
+    "explanation": "Glonoine-এ পরিচিত রাস্তা ও লোক ভুলে যাওয়ার বিভ্রান্তি থাকে।"
+  },
+  {
+    "id": "glon-med-06",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সারা দেহে শিরার স্পন্দন, বুকে ধড়ফড়ানি, নাড়ি পূর্ণ ও দ্রুত", "mid": "sym-glon-pulsation-whole-body-palp-full-pulse"},
+      {"text": "নাড়ি দুর্বল ও ধীর", "mid": "sym-pulse-weak-slow"},
+      {"text": "শিরায় স্পন্দন নেই", "mid": "sym-no-venous-pulsation"},
+      {"text": "বুকে ধড়ফড়ানি নেই", "mid": "sym-no-palpitation"}
+    ],
+    "answer": "sym-glon-pulsation-whole-body-palp-full-pulse",
+    "explanation": "Glonoine-এ সারা শরীরে দপদপানি ও পূর্ণ দ্রুত নাড়ি থাকে।"
+  },
+  {
+    "id": "glon-med-07",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথা গরম, মুখ লাল ফুলে ওঠা", "mid": "sym-glon-head-hot-face-red-swollen"},
+      {"text": "মাথা ঠান্ডা", "mid": "sym-head-cold"},
+      {"text": "মুখ ফ্যাকাশে", "mid": "sym-face-pale"},
+      {"text": "মুখে কোনো পরিবর্তন নেই", "mid": "sym-no-face-change"}
+    ],
+    "answer": "sym-glon-head-hot-face-red-swollen",
+    "explanation": "Glonoine-এ রক্ত মাথায় উঠে মাথা গরম ও মুখ লাল ফুলে যায়।"
+  },
+  {
+    "id": "glon-med-08",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রোদে ঘোরাঘুরি বা আগুনের তাপে মাথায় রক্ত ওঠা, সানস্ট্রোক", "mid": "sym-glon-sunstroke-fire-heat"},
+      {"text": "ঠান্ডায় মাথায় রক্ত ওঠা", "mid": "sym-cold-congestion-head"},
+      {"text": "রোদে ভালো লাগে", "mid": "sym-likes-sun"},
+      {"text": "আগুনের তাপে উপশম", "mid": "sym-amel-fire-heat"}
+    ],
+    "answer": "sym-glon-sunstroke-fire-heat",
+    "explanation": "Glonoine সানস্ট্রোক ও আগুনের তাপে মাথায় রক্ত ওঠায় এক নম্বর ঔষধ।"
+  },
+  {
+    "id": "glon-med-09",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথা নিচু করলে ব্যথা প্রচণ্ড বাড়ে", "mid": "sym-glon-agg-bending-head-down"},
+      {"text": "মাথা নিচু করলে উপশম", "mid": "sym-amel-bending-head-down"},
+      {"text": "মাথা নিচু করলে কোনো প্রভাব নেই", "mid": "sym-no-effect-bending-head"},
+      {"text": "মাথা উঁচু করলে বৃদ্ধি", "mid": "sym-agg-head-high"}
+    ],
+    "answer": "sym-glon-agg-bending-head-down",
+    "explanation": "Glonoine-এ মাথা নিচু করলে ব্যথা বাড়ে।"
+  },
+  {
+    "id": "glon-med-10",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথা ব্যথায় মনে হয় খুলি ছোট হয়ে মস্তিষ্ক ফেটে বের হবে", "mid": "sym-glon-skull-small-brain-burst"},
+      {"text": "মাথা হালকা লাগে", "mid": "sym-head-light"},
+      {"text": "মাথায় কোনো চাপ নেই", "mid": "sym-no-head-pressure"},
+      {"text": "মাথা ঠান্ডা লাগে", "mid": "sym-head-cold-feel"}
+    ],
+    "answer": "sym-glon-skull-small-brain-burst",
+    "explanation": "Glonoine-এ মনে হয় খুলি ছোট ও মস্তিষ্ক ফেটে বের হবে।"
+  },
+  {
+    "id": "glon-med-11",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনে করে হার্ট বন্ধ হয়ে যাবে, আতঙ্কিত", "mid": "sym-glon-fear-heart-stop"},
+      {"text": "হার্ট নিয়ে কোনো ভয় নেই", "mid": "sym-no-heart-fear"},
+      {"text": "হার্ট ভালো আছে মনে করে", "mid": "sym-thinks-heart-good"},
+      {"text": "হার্টের কথা ভাবে না", "mid": "sym-no-heart-thought"}
+    ],
+    "answer": "sym-glon-fear-heart-stop",
+    "explanation": "Glonoine রোগী আতঙ্কিত ও মনে করে হার্ট বন্ধ হয়ে যাবে।"
+  },
+  {
+    "id": "glon-med-12",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সময়ের জ্ঞান হারায়, কয়েক সেকেন্ড কয়েক ঘণ্টা মনে হয়", "mid": "sym-glon-loses-time-sense"},
+      {"text": "সময়ের জ্ঞান স্বাভাবিক", "mid": "sym-time-normal"},
+      {"text": "সময় দ্রুত যায় মনে হয়", "mid": "sym-time-fast"},
+      {"text": "সময়ের হিসাব ভালো পারে", "mid": "sym-good-time-sense"}
+    ],
+    "answer": "sym-glon-loses-time-sense",
+    "explanation": "Glonoine-এ সময়ের জ্ঞান হারিয়ে যায়।"
+  },
+  {
+    "id": "glon-med-13",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভুল জায়গায় চলে যায়, মানসিক বিভ্রান্তি", "mid": "sym-glon-goes-wrong-place-confusion"},
+      {"text": "সঠিক জায়গায় যায়", "mid": "sym-goes-right-place"},
+      {"text": "রাস্তা ভুলে না", "mid": "sym-no-road-confusion"},
+      {"text": "বিভ্রান্তি নেই", "mid": "sym-no-confusion"}
+    ],
+    "answer": "sym-glon-goes-wrong-place-confusion",
+    "explanation": "Glonoine মানসিক বিভ্রান্তিতে ভুল জায়গায় চলে যায়।"
+  },
+  {
+    "id": "glon-med-14",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বুক ধড়ফড়ানি গলা পর্যন্ত অনুভূত, শ্বাসকষ্ট", "mid": "sym-glon-palp-throat-dyspnea"},
+      {"text": "বুকে কোনো ধড়ফড়ানি নেই", "mid": "sym-no-palpitation-chest"},
+      {"text": "শ্বাসকষ্ট নেই", "mid": "sym-no-dyspnea"},
+      {"text": "গলায় কোনো অনুভূতি নেই", "mid": "sym-no-throat-sensation"}
+    ],
+    "answer": "sym-glon-palp-throat-dyspnea",
+    "explanation": "Glonoine-এ ধড়ফড়ানি গলা পর্যন্ত ওঠে ও শ্বাসকষ্ট হয়।"
+  },
+  {
+    "id": "glon-med-15",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মেনোপজে মাথায় রক্ত ওঠা ও মাথা ঘোরা", "mid": "sym-glon-menopause-congestion-vertigo"},
+      {"text": "মেনোপজে কোনো সমস্যা নেই", "mid": "sym-no-menopause-issue"},
+      {"text": "মেনোপজে ঠান্ডা লাগে", "mid": "sym-cold-menopause"},
+      {"text": "মেনোপজে শুধু গরম লাগা", "mid": "sym-only-hot-flash"}
+    ],
+    "answer": "sym-glon-menopause-congestion-vertigo",
+    "explanation": "Glonoine মেনোপজে মাথায় রক্ত ওঠা ও মাথা ঘোরায় ব্যবহৃত হয়।"
+  },
+  {
+    "id": "glon-med-16",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের সামনে আগুনের স্ফুলিঙ্গ দেখা", "mid": "sym-glon-sparks-before-eyes"},
+      {"text": "চোখে অন্ধকার দেখা", "mid": "sym-dark-before-eyes"},
+      {"text": "চোখে কোনো দর্শন বিভ্রম নেই", "mid": "sym-no-visual-illusion"},
+      {"text": "চোখে শুধু জল পড়ে", "mid": "sym-only-lachrymation"}
+    ],
+    "answer": "sym-glon-sparks-before-eyes",
+    "explanation": "Glonoine-এ চোখের সামনে আগুনের স্ফুলিঙ্গ দেখা যায়।"
+  },
+  {
+    "id": "glon-med-17",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: সূর্যের আলোতে, আগুনের তাপে, চুলে তেল লাগালে, মদ পানে", "mid": "sym-glon-agg-sun-fire-oil-hair-alcohol"},
+      {"text": "বৃদ্ধি: ঠান্ডা বাতাসে", "mid": "sym-agg-cold-air"},
+      {"text": "বৃদ্ধি: খোলা বাতাসে", "mid": "sym-agg-open-air"},
+      {"text": "বৃদ্ধি: মাথা উঁচু করলে", "mid": "sym-agg-head-high"}
+    ],
+    "answer": "sym-glon-agg-sun-fire-oil-hair-alcohol",
+    "explanation": "Glonoine-এ রোদ, আগুনের তাপ, চুলে তেল ও মদে বৃদ্ধি।"
+  },
+  {
+    "id": "glon-med-18",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: খোলা বাতাসে, মাথা উঁচু করে, ঠান্ডা জল প্রয়োগে", "mid": "sym-glon-amel-open-air-head-high-cold-water"},
+      {"text": "উপশম: রোদে", "mid": "sym-amel-sun"},
+      {"text": "উপশম: আগুনের তাপে", "mid": "sym-amel-fire-heat"},
+      {"text": "উপশম: মাথা নিচু করলে", "mid": "sym-amel-head-low"}
+    ],
+    "answer": "sym-glon-amel-open-air-head-high-cold-water",
+    "explanation": "Glonoine খোলা বাতাসে, মাথা উঁচু ও ঠান্ডা জলে উপশম পায়।"
+  },
+  {
+    "id": "glon-med-19",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমকাতর, উৎস রাসায়নিক নাইট্রোগ্লিসারিন, সোরা মায়াজম", "mid": "sym-glon-hot-source-nitroglycerine-psora"},
+      {"text": "শীতকাতর", "mid": "sym-chilly"},
+      {"text": "উভয়কাতর", "mid": "sym-both"},
+      {"text": "সিফিলিটিক মায়াজম", "mid": "sym-syphilitic-only"}
+    ],
+    "answer": "sym-glon-hot-source-nitroglycerine-psora",
+    "explanation": "Glonoine গরমকাতর, উৎস নাইট্রোগ্লিসারিন ও সোরা মায়াজম।"
+  },
+  {
+    "id": "glon-med-20",
+    "stem": "নিচের কোনটি Glonoine-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সদৃশ Belladonna, Amyl Nitrosum, Mellilotus", "mid": "sym-glon-similar-bell-amyl-melli"},
+      {"text": "সদৃশ Sulphur", "mid": "sym-similar-sulphur"},
+      {"text": "সদৃশ Pulsatilla", "mid": "sym-similar-pulsatilla"},
+      {"text": "কোনো সদৃশ নেই", "mid": "sym-no-similar"}
+    ],
+    "answer": "sym-glon-similar-bell-amyl-melli",
+    "explanation": "Glonoine-এর সদৃশ Belladonna, Amyl Nit ও Mellilotus।"
+  }
+]

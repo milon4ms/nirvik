@@ -1,0 +1,482 @@
+[
+{
+"id": "sani-med-01",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "নিচে নামার সময় (Downward motion) তীব্র আতঙ্ক বা পড়ে যাওয়ার ভয় বোধ করা",
+"mid": "sym-downward-motion-fear"
+},
+{
+"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম হওয়া",
+"mid": "sym-fever-fear"
+},
+{
+"text": "সূর্যের তাপে গেলেই মাথাব্যথা ও অসুস্থতা দেখা দেওয়া",
+"mid": "sym-sun-heat"
+},
+{
+"text": "আর্দ্র বা স্যাঁতসেঁতে আবহাওয়ায় সমস্ত রোগের প্রাবল্য বৃদ্ধি পাওয়া",
+"mid": "sym-damp-weather-agg"
+}
+],
+"answer": "sym-downward-motion-fear",
+"explanation": "Sanicula-এর প্রধান একটি বৈশিষ্ট্যপূর্ণ লক্ষণ হলো নিম্নগতিতে বা নিচের দিকে নামার সময় আতঙ্ক ও পড়ে যাওয়ার ভয় হওয়া (যেমন: Borax-এর মতো)।"
+},
+{
+"id": "sani-med-02",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মলত্যাগের সময় মল অর্ধেক বেরিয়ে আবার ভেতরে ঢুকে যাওয়ার প্রবণতা (Retracting stool)",
+"mid": "sym-stool-receding-partly"
+},
+{
+"text": "প্রাতঃকালে যন্ত্রণাহীন পিচকারির মতো তরল মলত্যাগ হওয়া",
+"mid": "sym-painless-gushing-stool"
+},
+{
+"text": "কেবলমাত্র রাতে ঘুমানোর সময় অনৈচ্ছিক মলত্যাগ হওয়া",
+"mid": "sym-involuntary-night-stool"
+},
+{
+"text": "মলত্যাগের পূর্বে পেটে প্রচন্ড ঠান্ডা বোধ হওয়া",
+"mid": "sym-stool-coldness"
+}
+],
+"answer": "sym-stool-receding-partly",
+"explanation": "Sanicula-এর কোষ্ঠকাঠিন্যে মল ত্যাগের সময় মল কিছুটা নির্গত হয়ে পুনরায় ভেতরে ঢুকে যায় (যেমন: Silicea, Thuja)।"
+},
+{
+"id": "sani-med-03",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ঘুমের সময় মাথায় প্রচুর ঘাম হওয়া যা বালিশ ভিজিয়ে দেয় এবং পায়ে তীব্র দুর্গন্ধযুক্ত ঘাম",
+"mid": "sym-head-sweat-offensive-feet"
+},
+{
+"text": "শরীর বরফের মতো ঠান্ডা থাকলেও ঘাম না হওয়া",
+"mid": "sym-cold-body-no-sweat"
+},
+{
+"text": "কেবলমাত্র সকালে ঘুম থেকে উঠলে হাতের তালু ঘামে ভিজে যাওয়া",
+"mid": "sym-morning-palm-sweat"
+},
+{
+"text": "গরমের দিনে কুঁচকি ছাড়া শরীরের কোথাও ঘাম না হওয়া",
+"mid": "sym-groin-sweat-only"
+}
+],
+"answer": "sym-head-sweat-offensive-feet",
+"explanation": "Sanicula-এর বিশেষ লক্ষণ হলো ঘুমানোর সময় মাথায় প্রচুর ঘাম হওয়া এবং পায়ের পাতায় অত্যন্ত দুর্গন্ধযুক্ত ঘাম হওয়া।"
+},
+{
+"id": "sani-med-04",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "প্রচুর খাওয়া সত্ত্বেও শিশু দিন দিন শুকিয়ে যাওয়া (Emaciation), বিশেষ করে ঘাড়ের অংশ",
+"mid": "sym-emaciation-neck-eating"
+},
+{
+"text": "খাবার না খাওয়ার কারণে শরীর স্থূল ও মোটা হয়ে যাওয়া",
+"mid": "sym-obesity-fasting"
+},
+{
+"text": "কেবলমাত্র উরু ও পেটের অংশ অতিরিক্ত মোটা হওয়া",
+"mid": "sym-fat-thighs-abdomen"
+},
+{
+"text": "খাবারের সাথে সাথে সারা শরীর ফুলে জল জমে যাওয়া",
+"mid": "sym-edema-after-food"
+}
+],
+"answer": "sym-emaciation-neck-eating",
+"explanation": "Sanicula-এর শিশুরে রিকেটস বা শুকিয়ে যাওয়ার প্রবণতা (Marasmus) দেখা যায়; শিশু প্রচুর খায় কিন্তু ঘাড় ও শরীর শুকিয়ে যায়।"
+},
+{
+"id": "sani-med-05",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "জিহবার ওপর ক্ষত বা দাদ হওয়া এবং জ্বালা করার কারণে রোগী জিব বাইরে বের করে রাখা",
+"mid": "sym-tongue-ulcer-ringworm-protruded"
+},
+{
+"text": "জিহবা মসৃণ, লাল এবং অগ্রভাগে লাল ত্রিকোণাকার দাগ থাকা",
+"mid": "sym-tongue-red-triangle"
+},
+{
+"text": "জিহবার ওপর সাদা দইয়ের মতো প্রলেপ ও নোনা স্বাদ থাকা",
+"mid": "sym-tongue-white-salt"
+},
+{
+"text": "জিহবা সম্পূর্ণ শুকনো কিন্তু পিপাসাহীনতা থাকা",
+"mid": "sym-tongue-dry-thirstless"
+}
+],
+"answer": "sym-tongue-ulcer-ringworm-protruded",
+"explanation": "Sanicula-এর রোগীর জিবের ওপর ক্ষত বা দাদ হয় এবং প্রচণ্ড জ্বালার কারণে রোগী প্রায়ই জিব বের করে রাখে।"
+},
+{
+"id": "sani-med-06",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "গাড়িতে বা যানবাহনে চড়লে বমি ও মাথা ঘোরার উপসর্গ দেখা দেওয়া (Car sickness)",
+"mid": "sym-riding-car-sickness"
+},
+{
+"text": "গাড়িতে চড়লে শারীরিক সমস্ত যন্ত্রণার তাৎক্ষণিক উপশম হওয়া",
+"mid": "sym-car-riding-amel"
+},
+{
+"text": "বিমানের উড্ডয়ন ছাড়া অন্য কোনো বাহনে বমি না হওয়া",
+"mid": "sym-flight-vomit-only"
+},
+{
+"text": "হাঁটাহাঁটি করার সময় বমি হওয়া কিন্তু গাড়িতে উঠলে ভালো বোধ করা",
+"mid": "sym-walking-vomit-car-better"
+}
+],
+"answer": "sym-riding-car-sickness",
+"explanation": "Sanicula-এর অন্যতম গুরুত্বপূর্ণ লক্ষণ হলো গাড়িতে চড়লে বা যানবাহনে ভ্রমণ করলে বমি ভাব ও অসুস্থতা হওয়া।"
+},
+{
+"id": "sani-med-07",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগী অত্যন্ত খিটখিটে, লবণ প্রিয় এবং কেউ তাকে আদরে বা সান্ত্বনা দিলে আরও রেগে যাওয়া",
+"mid": "sym-consolation-anger-salt-desire"
+},
+{
+"text": "সান্ত্বনা পেলে রোগী অত্যন্ত শান্ত হয় এবং কাঁদা বন্ধ করে",
+"mid": "sym-consolation-amel-weeping"
+},
+{
+"text": "লবণাক্ত খাবারের প্রতি তীব্র অনীহা ও মিষ্টি প্রিয়তা থাকা",
+"mid": "sym-salt-aversion-sweet"
+},
+{
+"text": "সব সময় একা থাকতে ভয় পাওয়া এবং অপরিচিতদের কাছে সাহায্য চাওয়া",
+"mid": "sym-help-strangers-fear"
+}
+],
+"answer": "sym-consolation-anger-salt-desire",
+"explanation": "Sanicula-এর মানসিক গঠনে খিটখিটে স্বভাব, লবণ খাওয়ার ইচ্ছা এবং সান্ত্বনা দিলে রাগ বাড়ার লক্ষণ রয়েছে।"
+},
+{
+"id": "sani-med-08",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মলের রঙ ও প্রকৃতি প্রতিবার বা বার বার পরিবর্তন হওয়া (Variable stool)",
+"mid": "sym-changeable-variable-stool"
+},
+{
+"text": "মল সব সময় একই রকম শক্ত ও কালো গোলার মতো হওয়া",
+"mid": "sym-constant-hard-black-stool"
+},
+{
+"text": "শুধুমাত্র সকালে পানি পানের পর রক্তযুক্ত মলত্যাগ হওয়া",
+"mid": "sym-bloody-morning-stool"
+},
+{
+"text": "মলত্যাগের সময় কোনো গন্ধ না থাকা এবং সবুজ ফেনা বের হওয়া",
+"mid": "sym-frothy-green-odorless-stool"
+}
+],
+"answer": "sym-changeable-variable-stool",
+"explanation": "Sanicula-কে মলের পরিবর্তনশীলতার জন্য 'ম্যাজিক ড্রাগ' বলা হয়; এর মলের রং ও রূপ ঘনঘন পাল্টে যায়।"
+},
+{
+"id": "sani-med-09",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "স্ত্রী জননেন্দ্রিয় থেকে নির্গত স্রাবে পচা মাছের মতো তীব্র দুর্গন্ধ থাকা",
+"mid": "sym-discharge-fishy-odor"
+},
+{
+"text": "স্রাব সম্পূর্ণ গন্ধহীন এবং পানির মতো পরিষ্কার হওয়া",
+"mid": "sym-odorless-watery-discharge"
+},
+{
+"text": "স্রাবে মিষ্টি মধু বা ফুলের গন্ধ থাকা",
+"mid": "sym-sweet-honey-discharge"
+},
+{
+"text": "স্রাবে প্রখর রসুনের গন্ধ পাওয়া যাওয়া",
+"mid": "sym-garlic-odor-discharge"
+}
+],
+"answer": "sym-discharge-fishy-odor",
+"explanation": "Sanicula-এর সাদা স্রাব বা অন্যান্য জননেন্দ্রিয়ের স্রাবে পচা মাছের ন্যায় (fishy odor) দুর্গন্ধ থাকে।"
+},
+{
+"id": "sani-med-10",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "জরায়ু নিচে নেমে আসার অনুভূতি হওয়া এবং মনে করা হাত দিয়ে চেপে না ধরলে সব বের হয়ে আসবে",
+"mid": "sym-bearing-down-hold-up"
+},
+{
+"text": "জরায়ুর অংশে তীব্র বরফের মতো ঠান্ডা অনুভব করা",
+"mid": "sym-cold-u-terine-sensation"
+},
+{
+"text": "পেটের ভেতর জরায়ু উপরের দিকে ঠেলে ওঠার তীব্র ব্যথা",
+"mid": "sym-upward-pushing-pain"
+},
+{
+"text": "কেবলমাত্র চিত হয়ে শুলে জরায়ু ব্যথার উপশম হওয়া",
+"mid": "sym-supine-uterine-relief"
+}
+],
+"answer": "sym-bearing-down-hold-up",
+"explanation": "Sanicula-এ জরায়ুর স্থানচ্যুতির লক্ষণ থাকে (Down-ward pressure), যেখানে রোগী মনে করে হাত দিয়ে না চাপলে অঙ্গপ্রত্যঙ্গ বেরিয়ে আসবে।"
+},
+{
+"id": "sani-med-11",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মাথায় প্রচুর খুশকি, চুল পড়ে যাওয়া এবং উকুন হওয়ার প্রবণতা থাকা",
+"mid": "sym-head-dandruff-lice-hairfall"
+},
+{
+"text": "মাথার ত্বক অত্যন্ত তৈলাক্ত হওয়া কিন্তু চুলকানি বা খুশকি না থাকা",
+"mid": "sym-oily-scalp-no-dandruff"
+},
+{
+"text": "মাথার চুল রাতারাতি সম্পূর্ণ সাদা হয়ে যাওয়া",
+"mid": "sym-rapid-graying-hair"
+},
+{
+"text": "মাথার তালুতে শক্ত মাংসপিণ্ড গজানো",
+"mid": "sym-scalp-polypus"
+}
+],
+"answer": "sym-head-dandruff-lice-hairfall",
+"explanation": "Sanicula-এর মাথার ত্বকে প্রচুর খুশকি জমে এবং উকুনের উপদ্রব দেখা দেয়।"
+},
+{
+"id": "sani-med-12",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "পেরিনিয়াম (Perineum) প্রদেশে বা গুহ্যদ্বার ও জননেন্দ্রিয়ের মধ্যবর্তী স্থানে ব্যথা অনুভব হওয়া",
+"mid": "sym-perineum-pain"
+},
+{
+"text": "কোমর ও পিঠের হাড়ে বিদ্যুৎ চমকানোর মতো স্পন্দন হওয়া",
+"mid": "sym-spine-electric-throb"
+},
+{
+"text": "কেবলমাত্র বুকের ছাতি বা পাঁজরে সুই ফোটার মতো ব্যথা",
+"mid": "sym-chest-stitching-pain"
+},
+{
+"text": "কনুইয়ের গিঁটে তীব্র জ্বালাপোড়া ও ফোলা ভাব থাকা",
+"mid": "sym-elbow-joint-swelling"
+}
+],
+"answer": "sym-perineum-pain",
+"explanation": "Sanicula-এর একটি উল্লেখযোগ্য শারীরিক লক্ষণ হলো পেরিনিয়াম অঞ্চলে (Perineum) ব্যথা থাকা।"
+},
+{
+"id": "sani-med-13",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "জল বা দুধ পান করার কিছুক্ষণ পরেই তা টক বমি হয়ে বের হয়ে যাওয়া",
+"mid": "sym-vomit-sour-after-milk-water"
+},
+{
+"text": "ঠান্ডা পানি পান করার সাথে সাথে তা পেটে সুমিষ্ট লাগা",
+"mid": "sym-sweet-water-stomach"
+},
+{
+"text": "দুধ পান করলে শরীরের সব রোগ সাথে সাথে সেরে যাওয়া",
+"mid": "sym-milk-cures-all"
+},
+{
+"text": "খাবার খাওয়ার ৬ ঘণ্টা পর কেবল সকালে বমি হওয়া",
+"mid": "sym-delayed-morning-vomit"
+}
+],
+"answer": "sym-vomit-sour-after-milk-water",
+"explanation": "Sanicula-এর পাকস্থলী দুর্বল থাকে; দুধ বা জল পান করার কিছুক্ষণ পর তা টক হিসেবে বমি হয়ে যায়।"
+},
+{
+"id": "sani-med-14",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগী মনে করে তার যোনি বা স্ত্রী অঙ্গ অস্বাভাবিক বড় হয়ে গেছে",
+"mid": "sym-sensation-enlarged-vagina"
+},
+{
+"text": "রোগী মনে করে তার পুরো শরীর কাঁচের তৈরি এবং ভেঙে যাবে",
+"mid": "sym-glass-body-delusion"
+},
+{
+"text": "রোগী মনে করে তার পা দুটি শূন্যে ভেসে রয়েছে",
+"mid": "sym-floating-legs-sensation"
+},
+{
+"text": "রোগী মনে করে তার মস্তিষ্ক কাঠের মতো শক্ত হয়ে গেছে",
+"mid": "sym-wooden-brain-delusion"
+}
+],
+"answer": "sym-sensation-enlarged-vagina",
+"explanation": "Sanicula-এ স্ত্রীর অদ্ভুত অনুভূতি থাকে যে তার যোনি বা প্রজনন অঙ্গ প্রসারিত/বড় (enlarged vagina) হয়েছে।"
+},
+{
+"id": "sani-med-15",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বৃদ্ধি: দুধ পান করলে, নড়াচড়া করলে, খাওয়ার পর এবং ঝড়ের পূর্বে",
+"mid": "sym-agg-milk-motion-eating-storm"
+},
+{
+"text": "বৃদ্ধি: শুষ্ক বাতাসে, খালি পেটে বিশ্রাম নিলে এবং রাতে ঘুমালে",
+"mid": "sym-agg-dry-air-fasting-rest"
+},
+{
+"text": "বৃদ্ধি: গরম সেঁক নিলে, মিষ্টি খেলে এবং খোলা বাতাসে হাঁটলে",
+"mid": "sym-agg-heat-sweets-openair"
+},
+{
+"text": "বৃদ্ধি: পিঠের ওপর ভর দিয়ে শুলে এবং সকালে ঘুম থেকে উঠলে",
+"mid": "sym-agg-supine-morning"
+}
+],
+"answer": "sym-agg-milk-motion-eating-storm",
+"explanation": "Sanicula-এর কষ্ট বা রোগলক্ষণ দুধ খেলে, নড়াচড়া করলে, আহারের পর এবং ঝড়ের পূর্ব মুহূর্তে বৃদ্ধি পায়।"
+},
+{
+"id": "sani-med-16",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "উপশম: খোলা বাতাসে, অন্ধকারে বিশ্রাম নিলে এবং শরীর সামনের দিকে বাঁকালে",
+"mid": "sym-amel-openair-darkrest-bentforward"
+},
+{
+"text": "উপশম: গরম ঘরে শুয়ে থাকলে এবং অতিরিক্ত আহার গ্রহণ করলে",
+"mid": "sym-amel-warmroom-overeating"
+},
+{
+"text": "উপশম: প্রখর রোদে হাঁটাহাঁটি করলে এবং পিঠ সোজা করে দাঁড়ালে",
+"mid": "sym-amel-sunwalk-straight"
+},
+{
+"text": "উপশম: গরম দুধ পানে এবং প্রদীপের প্রখর আলোতে থাকলে",
+"mid": "sym-amel-warmmilk-brightlight"
+}
+],
+"answer": "sym-amel-openair-darkrest-bentforward",
+"explanation": "Sanicula রোগীর উপসর্গগুলো খোলা বাতাসে, অন্ধকারে শান্তিতে বিশ্রাম নিলে এবং শরীর সামনের দিকে বাঁকালে উপশম হয়।"
+},
+{
+"id": "sani-med-17",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "সিলিসিয়া (Silicea) এই ওষুধের প্রধান পরিপূরক (Complementary) ওষুধ",
+"mid": "sym-silicea-complementary"
+},
+{
+"text": "বেলাডোনা এর একমাত্র কমপ্লিমেন্টারি ওষুধ",
+"mid": "sym-belladonna-comp"
+},
+{
+"text": "সালফার ও রাসটক্স এর প্রধান পরিপূরক ওষুধ হিসেবে বিবেচিত",
+"mid": "sym-sulphur-rhustox-comp"
+},
+{
+"text": "সেপিয়া এবং নাক্স ভমিকা এর কমপ্লিমেন্টারি",
+"mid": "sym-sepia-nux-comp"
+}
+],
+"answer": "sym-silicea-complementary",
+"explanation": "Sanicula-এর প্রধান পরিপূরক বা Complementary ওষুধ হলো Silicea।"
+},
+{
+"id": "sani-med-18",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ক্যামফোরা (Camphora) এই ওষুধের প্রতিষেধক (Antidote) হিসেবে কাজ করে",
+"mid": "sym-camphora-antidote"
+},
+{
+"text": "একোনাইট এর অপব্যবহার সম্পূর্ণ দূর করে",
+"mid": "sym-aconite-antidote"
+},
+{
+"text": "কফিয়া ক্রুডা এর ক্রিয়া বিনষ্ট করে",
+"mid": "sym-coffea-antidote"
+},
+{
+"text": "মার্শাল সল এর একমাত্র প্রধান এন্টিডোট",
+"mid": "sym-mercurius-antidote"
+}
+],
+"answer": "sym-camphora-antidote",
+"explanation": "Sanicula-এর অতিরিক্ত প্রতিক্রিয়া বা ক্রিয়ার প্রতিষেধক (Antidote) ওষুধ হলো Camphora।"
+},
+{
+"id": "sani-med-19",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "আমেরিকার ওটোয়া খনি থেকে প্রাপ্ত খনিজ জল (Sanicula Water) থেকে এটি প্রস্তুত",
+"mid": "sym-mineral-water-source"
+},
+{
+"text": "এটি একটি বিশেষ বিষাক্ত সাপের বিষ থেকে তৈরি নোসোড",
+"mid": "sym-snake-venom-source"
+},
+{
+"text": "এটি হিমালয় পর্বতের বিরল অ্যানিমোন ফুল থেকে সংগৃহীত",
+"mid": "sym-himalayan-flower-source"
+},
+{
+"text": "এটি বিশুদ্ধ খনিজ লোহা বা ফেরাম থেকে প্রাপ্ত উপাদান",
+"mid": "sym-iron-mineral-source"
+}
+],
+"answer": "sym-mineral-water-source",
+"explanation": "Sanicula Aqua-এর মূল উৎস হলো খনিজ জল (Sanicula Water), যা ওটোয়ার খনিজ জলধারা থেকে সংগৃহীত।"
+},
+{
+"id": "sani-med-20",
+"stem": "নিচের কোনটি Sanicula-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "এর প্রধান মায়াজম সোরা (Psora) ও সাইকোসিস (Sycosis)",
+"mid": "sym-psora-sycosis-miasm"
+},
+{
+"text": "এটি কেবল বিশুদ্ধ সিফিলিস মায়াজমের ওপর কাজ করে",
+"mid": "sym-syphilis-only-miasm"
+},
+{
+"text": "এটি টিউবারকুলার মায়াজমের একমাত্র রাজকীয় ওষুধ",
+"mid": "sym-tubercular-only-miasm"
+},
+{
+"text": "এটি মায়াজমহীন সুস্থ মানবদেহের টিস্যু টনিক",
+"mid": "sym-non-miasmatic-tonic"
+}
+],
+"answer": "sym-psora-sycosis-miasm",
+"explanation": "Sanicula Aqua ওষুধটি প্রধানত সোরা (Psora) ও সাইকোসিস (Sycosis) মায়াজমের আওতাভুক্ত।"
+}
+]

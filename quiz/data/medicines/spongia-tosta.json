@@ -1,0 +1,245 @@
+[
+  {
+    "id": "spongia-med-01",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "একেবারে শুকনো কাশি, কোনো কফ ওঠে না", "mid": "sym-dry-cough-no-expectoration"},
+      {"text": "বুকে প্রচুর কফ জমার ঘড়ঘড়ে শব্দ কিন্তু কফ উঠে না", "mid": "sym-rattling-mucus-retained"},
+      {"text": "সর্বপ্রকার স্রাব তীক্ষ্ণ ও হাজানিযুক্ত, ত্বক তুলে ফেলে", "mid": "sym-acrid-discharge-excoriation"},
+      {"text": "অন্যের উপস্থিতিতে মলত্যাগ করতে পারে না", "mid": "sym-inability-defecate-presence"}
+    ],
+    "answer": "sym-dry-cough-no-expectoration",
+    "explanation": "Spongia-এর প্রধান লক্ষণ হলো শ্বাসতন্ত্রের চরম শুষ্কতা; কাশি একেবারে শুকনো, কোনো কফ ওঠে না।"
+  },
+  {
+    "id": "spongia-med-02",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাশি বা শ্বাসের শব্দ করাত দিয়ে কাঠ কাটার মতো", "mid": "sym-sawing-respiration-cough"},
+      {"text": "কাশির সাথে গলায় ঘর ঘর শব্দ", "mid": "sym-rattling-mucus-retained"},
+      {"text": "কাশি শুইলেই বৃদ্ধি", "mid": "sym-cough-lying-down-agg"},
+      {"text": "রাতে শোবার পর আক্ষেপকর কাশি, উঠে বসলে উপশম", "mid": "sym-convulsive-cough-lying-down-night"}
+    ],
+    "answer": "sym-sawing-respiration-cough",
+    "explanation": "Spongia-তে কাশি বা শ্বাস-প্রশ্বাসের শব্দ অনেকটা করাত দিয়ে শুকনো কাঠ কাটার মতো (Sawing sound) হয়।"
+  },
+  {
+    "id": "spongia-med-03",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাঝরাতে ঘুম ভেঙে দম আটকে আসা ও আতঙ্ক", "mid": "sym-suffocative-attack-midnight-panic"},
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয়", "mid": "sym-fear-death-dyspnoea"},
+      {"text": "রাতে শোবার পর আক্ষেপকর কাশি", "mid": "sym-convulsive-cough-lying-down-night"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"}
+    ],
+    "answer": "sym-suffocative-attack-midnight-panic",
+    "explanation": "Spongia-তে হঠাৎ মাঝরাতে ঘুম ভেঙে যায় এবং মনে হয় দম আটকে আসছে; রোগী ভীষণ আতঙ্কিত হয়ে পড়ে।"
+  },
+  {
+    "id": "spongia-med-04",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "থাইরয়েড গ্রন্থি (Goitre) ও অণ্ডকোষ ফুলে শক্ত হয়ে যাওয়া", "mid": "sym-goitre-orchitis-induration"},
+      {"text": "ঘাড়ের গ্রন্থি পাথরের মতো শক্ত হয়ে ফুলে যাওয়া", "mid": "sym-glandular-induration"},
+      {"text": "স্তনে ব্যথা, ফোলা (Mastitis)", "mid": "sym-mastitis-breast-pain-milk-suppression"},
+      {"text": "কানের চারপাশে উদ্ভেদসহ চুলকানি", "mid": "sym-eruption-around-ear-itching"}
+    ],
+    "answer": "sym-goitre-orchitis-induration",
+    "explanation": "Spongia-তে শরীরের বিভিন্ন গ্রন্থি, বিশেষত থাইরয়েড (Goitre) এবং অণ্ডকোষ ফুলে শক্ত হয়ে যায়।"
+  },
+  {
+    "id": "spongia-med-05",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কুকুরের ডাকের মতো বার্কিং কাশি ও স্বরভঙ্গ", "mid": "sym-barking-cough-hoarseness"},
+      {"text": "সর্দি বা কাশির শেষে ঘন হলুদ কফ", "mid": "sym-thick-yellow-sputum-late-stage"},
+      {"text": "শুইলে কাশি বৃদ্ধি", "mid": "sym-cough-lying-down-agg"},
+      {"text": "কাশির সাথে শ্বাসকষ্ট ও বুক ধড়ফড়ানি", "mid": "sym-cough-dyspnoea-palpitation"}
+    ],
+    "answer": "sym-barking-cough-hoarseness",
+    "explanation": "Spongia ল্যারিঞ্জাইটিস বা স্বরভঙ্গের জন্য অপ্রতিদ্বন্দ্বী; কাশি অনেকটা কুকুরের ডাকের মতো (Barking cough)।"
+  },
+  {
+    "id": "spongia-med-06",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলার ভেতর প্রদাহ, সর্বদা গলাব্যথা ও খ্যাকারি দেওয়া", "mid": "sym-laryngitis-constant-sore-throat-hawking"},
+      {"text": "গলায় চুলকানি, মনে হয় আলজিহ্বা দীর্ঘ হয়েছে", "mid": "sym-tickling-throat-sensation-elongated-uvula"},
+      {"text": "গলা লাল হয়ে ফুলে যাওয়া ও গিলতে কষ্ট", "mid": "sym-throat-red-swollen-difficult-swallowing"},
+      {"text": "গিলতে কষ্ট ও গলা ফুলে যাওয়া", "mid": "sym-difficult-swallowing-swollen-throat"}
+    ],
+    "answer": "sym-laryngitis-constant-sore-throat-hawking",
+    "explanation": "Spongia-তে গলার ভেতর প্রদাহ হয়, সর্বদা গলাব্যথা থাকে এবং রোগী খ্যাকারি দেয়।"
+  },
+  {
+    "id": "spongia-med-07",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "টেনশনে কাশি আসে, ঘাম হলে কাশি, গরম খেলে কাশি কমে", "mid": "sym-cough-from-excitement-sweat-better-warm-drinks"},
+      {"text": "রেগে গেলে শিশুর কাশি হয়", "mid": "sym-cough-from-anger-child"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "রাতে শোবার পর আক্ষেপকর কাশি", "mid": "sym-convulsive-cough-lying-down-night"}
+    ],
+    "answer": "sym-cough-from-excitement-sweat-better-warm-drinks",
+    "explanation": "Spongia-তে টেনশনে কাশি আসে, ঘাম হয়ে কাশি হয় এবং গরম খেলে কাশি কমে।"
+  },
+  {
+    "id": "spongia-med-08",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নিদ্রাকালে রোগ বৃদ্ধি, ঘুম থেকে জেগে দম বন্ধ হয়", "mid": "sym-worse-during-sleep-wakes-with-suffocation"},
+      {"text": "নিদ্রাকালে অস্থিরতা", "mid": "sym-restlessness-during-sleep"},
+      {"text": "রাতে ঘুমের মধ্যে অস্থিরতা ও আবল-তাবল বকা", "mid": "sym-restless-sleep-delirious-talk"},
+      {"text": "অতিরিক্ত নিদ্রা ও বিছানা খোঁটা", "mid": "sym-excessive-sleep-picking-bedclothes"}
+    ],
+    "answer": "sym-worse-during-sleep-wakes-with-suffocation",
+    "explanation": "Spongia-তে নিদ্রাকালে রোগ বৃদ্ধি পায় এবং ঘুম থেকে জেগে দম বন্ধ হয়ে আসে।"
+  },
+  {
+    "id": "spongia-med-09",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উদ্ভেদ ছাড়া সর্বত্র চুলকানি", "mid": "sym-itching-without-eruption"},
+      {"text": "চর্মরোগে ভয়ানক চুলকানি, জ্বালা ও ব্যথা", "mid": "sym-skin-violent-itching-burning-pain"},
+      {"text": "হাতের তালুতে ও আঙ্গুলে জ্বালাযুক্ত একজিমা", "mid": "sym-eczema-palms-fingers-burning"},
+      {"text": "মাছের আঁশের মতো চামড়া ওঠা ও নিচে কাঁচা ক্ষত", "mid": "sym-psoriasis-fish-scale-raw-wound"}
+    ],
+    "answer": "sym-itching-without-eruption",
+    "explanation": "Spongia-তে উদ্ভেদ ছাড়াই সর্বত্র চুলকানি হয়।"
+  },
+  {
+    "id": "spongia-med-10",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অণ্ডকোষ প্রদাহ, ব্যথাযুক্ত ও স্ফিত", "mid": "sym-orchitis-painful-swollen"},
+      {"text": "স্তনবৃন্তের ভেতরে তীব্র ব্যথা", "mid": "sym-nipple-pain-radiating-to-scapula"},
+      {"text": "নারীদের ডিম্বাশয়ে তীব্র সূঁচ ফোটানো ব্যথা", "mid": "sym-ovarian-stitching-pain-uterine-inflammation"},
+      {"text": "স্তনে ব্যথা, ফোলা (Mastitis)", "mid": "sym-mastitis-breast-pain-milk-suppression"}
+    ],
+    "answer": "sym-orchitis-painful-swollen",
+    "explanation": "Spongia-তে অণ্ডকোষ প্রদাহ হয়, যা ব্যথাযুক্ত ও স্ফিত থাকে।"
+  },
+  {
+    "id": "spongia-med-11",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বুক ধড়ফড়ানি, বুকের মধ্যে সাঁই সাঁই শব্দ ও বুকে ব্যথা", "mid": "sym-palpitation-whistling-chest-pain"},
+      {"text": "মনে হয় হৃদপিণ্ড আকারে বড় হয়ে গেছে", "mid": "sym-heart-feels-enlarged-hears-heartbeat"},
+      {"text": "হার্টবিট বন্ধ হয়ে যাওয়ার উপক্রম বোধ", "mid": "sym-sensation-heart-will-stop"},
+      {"text": "সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি ও দমবন্ধ ভাব", "mid": "sym-stairs-palpitation-dyspnoea"}
+    ],
+    "answer": "sym-palpitation-whistling-chest-pain",
+    "explanation": "Spongia-তে শ্বাসকষ্ট, বুক ধড়ফড়ানি, বুকের মধ্যে সাঁই সাঁই শব্দ ও বুকে ব্যথা হয়।"
+  },
+  {
+    "id": "spongia-med-12",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শুয়ে থাকলে শ্বাসকষ্ট বেড়ে যায়, মাথা নিচু করে বসলে উপশম", "mid": "sym-dyspnoea-lying-worse-sitting-bent-forward"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "বিশ্রামে ও রাতে বৃদ্ধি, নড়াচড়ায় উপশম", "mid": "sym-worse-rest-night-better-motion-warmth"},
+      {"text": "শুইলে কাশি বৃদ্ধি", "mid": "sym-cough-lying-down-agg"}
+    ],
+    "answer": "sym-dyspnoea-lying-worse-sitting-bent-forward",
+    "explanation": "Spongia-তে শুয়ে থাকলে শ্বাসকষ্ট বেড়ে যায় এবং মাথা নিচু করে বসলে উপশম হয়।"
+  },
+  {
+    "id": "spongia-med-13",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মিষ্টি জিনিসের প্রবল আকাঙ্ক্ষা", "mid": "sym-craving-sweets"},
+      {"text": "লবণ খাওয়ার প্রবল ইচ্ছা", "mid": "sym-craving-salt"},
+      {"text": "টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sour-apples"},
+      {"text": "মিষ্টি, নোনতা, টক ও কাঁচা কুচো বরফ খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sweets-salt-sour-ice"}
+    ],
+    "answer": "sym-craving-sweets",
+    "explanation": "Spongia-তে রোগীর মিষ্টি খাওয়ার প্রতি প্রবল ইচ্ছা থাকে।"
+  },
+  {
+    "id": "spongia-med-14",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মৃত্যুভয় ও হার্টের রোগের কারণে হঠাৎ আতঙ্ক", "mid": "sym-fear-death-cardiac-panic"},
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয়", "mid": "sym-fear-death-dyspnoea"},
+      {"text": "বিপদের ভয় ও মৃত্যুর ভয়", "mid": "sym-fear-of-danger-death"},
+      {"text": "মনে হয় বড় অসুখ হয়েছে ও আর বাঁচবে না", "mid": "sym-fear-serious-illness-death"}
+    ],
+    "answer": "sym-fear-death-cardiac-panic",
+    "explanation": "Spongia-তে মৃত্যুভয় এবং হার্টের রোগের কারণে হঠাৎ আতঙ্কিত হওয়া দেখা যায়।"
+  },
+  {
+    "id": "spongia-med-15",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যন্ত খিটখিটে মেজাজ ও সামান্য বিষয়ে কান্নার প্রবণতা", "mid": "sym-irritable-weeping-slight-cause"},
+      {"text": "সহজেই রেগে যাওয়া ও খিটখিটে মেজাজ", "mid": "sym-irritable-quarrelsome"},
+      {"text": "খিটখিটে মেজাজ ও সামান্য কারণেই বিরক্তি", "mid": "sym-irritable-slight-cause"},
+      {"text": "সামান্যতেই ক্ষিপ্ত হওয়া ও সহানুভূতিতে বিরক্তি", "mid": "sym-irritable-aversion-to-sympathy"}
+    ],
+    "answer": "sym-irritable-weeping-slight-cause",
+    "explanation": "Spongia-তে রোগী অত্যন্ত খিটখিটে মেজাজের হয় এবং সামান্য বিষয়ে কান্না করার প্রবণতা থাকে।"
+  },
+  {
+    "id": "spongia-med-16",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতের বেলায় উৎকণ্ঠা ও অস্থিরতা বৃদ্ধি", "mid": "sym-anxiety-restlessness-night"},
+      {"text": "নিদ্রাকালে অস্থিরতা", "mid": "sym-restlessness-during-sleep"},
+      {"text": "মানসিক অস্থিরতা ও একা থাকার ভয়", "mid": "sym-restlessness-fear-of-being-alone"},
+      {"text": "রাতে ঘুমের মধ্যে অস্থিরতা ও আবল-তাবল বকা", "mid": "sym-restless-sleep-delirious-talk"}
+    ],
+    "answer": "sym-anxiety-restlessness-night",
+    "explanation": "Spongia-তে রাতের বেলায় উৎকণ্ঠা এবং অস্থিরতা বৃদ্ধি পায়।"
+  },
+  {
+    "id": "spongia-med-17",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাঝরাতের আগে, শোবার সময় ও মাথা নিচু করে শুলে বৃদ্ধি", "mid": "sym-worse-before-midnight-lying-head-low"},
+      {"text": "রাতে, শোয়ার পর, ঋতুস্রাবের সময় ও মানসিক উত্তেজনায় বৃদ্ধি", "mid": "sym-night-lying-menses-excitement-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"},
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"}
+    ],
+    "answer": "sym-worse-before-midnight-lying-head-low",
+    "explanation": "Spongia-এর লক্ষণ মাঝরাতের আগে, শোবার সময়, মাথা নিচু করে শুলে, ঘরের গরমে ও ঠান্ডা বাতাসে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "spongia-med-18",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরম খাবার বা পানীয় পান করলে উপশম", "mid": "sym-better-warm-drinks"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"},
+      {"text": "খোলা বাতাসে ও বিশ্রামে উপশম", "mid": "sym-open-air-rest-amel"},
+      {"text": "খোলা বাতাসে, ঠান্ডা প্রয়োগে ও বিশ্রামে উপশম", "mid": "sym-open-air-cold-application-rest-amel"}
+    ],
+    "answer": "sym-better-warm-drinks",
+    "explanation": "Spongia-এর লক্ষণ গরম খাবার বা পানীয় পান করলে উপশম হয়।"
+  },
+  {
+    "id": "spongia-med-19",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথা নিচু করে বসলে ও সামান্য কিছু আহার করলে উপশম", "mid": "sym-better-bending-head-forward-eating"},
+      {"text": "খাওয়া-দাওয়ায় উপশম", "mid": "sym-eating-amelioration"},
+      {"text": "ক্ষুধার সময় খেতে না পেলে বৃদ্ধি, আহারে উপশম", "mid": "sym-hunger-agg-eating-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"}
+    ],
+    "answer": "sym-better-bending-head-forward-eating",
+    "explanation": "Spongia-এর লক্ষণ মাথা নিচু করে বসলে এবং সামান্য কিছু আহার করলে উপশম হয়।"
+  },
+  {
+    "id": "spongia-med-20",
+    "stem": "নিচের কোনটি Spongia Tosta-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা ও মুক্ত বাতাস পছন্দ ও প্রবল ক্ষুধা", "mid": "sym-desire-cold-open-air-hunger"},
+      {"text": "ঠান্ডা ভালোবাসে কিন্তু সহ্য করতে পারে না", "mid": "sym-desires-cold-but-cannot-bear"},
+      {"text": "শীতকাতরতা, বর্ষা ও বৃষ্টির দিনে ভালো থাকা", "mid": "sym-chilly-better-in-rainy-weather"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"}
+    ],
+    "answer": "sym-desire-cold-open-air-hunger",
+    "explanation": "Spongia-তে রোগী ঠান্ডা ও মুক্ত বাতাস পছন্দ করে এবং প্রবল ক্ষুধা থাকে।"
+  }
+]
+
+
+

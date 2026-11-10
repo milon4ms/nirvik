@@ -1,0 +1,482 @@
+[
+  {
+    "id": "argm-med-01",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কণ্ঠনালীতে সংকোচনের অনুভূতি এবং কথা বলার সময় গলা আটকে যাওয়া",
+        "mid": "sym-throat-constriction"
+      },
+      {
+        "text": "গলায় কাঁটার মতো ব্যথা যা কানে ছড়িয়ে পড়ে",
+        "mid": "sym-throat-stitching"
+      },
+      {
+        "text": "গলা ফুলে যাওয়া এবং শ্বাসকষ্ট",
+        "mid": "sym-throat-swelling"
+      },
+      {
+        "text": "গলা থেকে দুর্গন্ধযুক্ত শ্লেষ্মা বের হওয়া",
+        "mid": "sym-throat-foul"
+      }
+    ],
+    "answer": "sym-throat-constriction",
+    "explanation": "Argentum Metallicum-এর প্রধান লক্ষণ হলো কণ্ঠনালীতে (Larynx) সংকোচনের অনুভূতি, যেন গলা চেপে ধরা হয়েছে। রোগী কথা বলতে চাইলে গলা আটকে যায় বা স্বর ভেঙে যায়।"
+  },
+  {
+    "id": "argm-med-02",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "স্বরভঙ্গ (Aphonia) বা গলার স্বর সম্পূর্ণ বন্ধ হয়ে যাওয়া, বিশেষ করে সকালে",
+        "mid": "sym-aphonia-morning"
+      },
+      {
+        "text": "গলা দিয়ে চিৎকার করার মতো শব্দ বের হওয়া",
+        "mid": "sym-shouting-voice"
+      },
+      {
+        "text": "গলা খুব ভারী এবং মোটা শব্দ হওয়া",
+        "mid": "sym-deep-voice"
+      },
+      {
+        "text": "গলা থেকে মিষ্টি গন্ধ বের হওয়া",
+        "mid": "sym-sweet-breath"
+      }
+    ],
+    "answer": "sym-aphonia-morning",
+    "explanation": "Argentum Metallicum-এ সকালে ঘুম থেকে উঠলে গলার স্বর বন্ধ হয়ে যেতে পারে (Aphonia)। এটি গায়ক বা যাদের গলার ওপর বেশি চাপ পড়ে তাদের জন্য একটি গুরুত্বপূর্ণ ঔষধ।"
+  },
+  {
+    "id": "argm-med-03",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কাশি শুকনো এবং কর্কশ, যা কথা বললে বেড়ে যায়",
+        "mid": "sym-dry-cough-talking"
+      },
+      {
+        "text": "কাশির সাথে প্রচুর পাতলা শ্লেষ্মা বের হয়",
+        "mid": "sym-productive-cough"
+      },
+      {
+        "text": "কাশি রাতে বেড়ে যায় এবং গরম দুধ খেলে উপশম হয়",
+        "mid": "sym-night-cough-milk"
+      },
+      {
+        "text": "কাশি পেটের ব্যথার সাথে যুক্ত",
+        "mid": "sym-abdominal-cough"
+      }
+    ],
+    "answer": "sym-dry-cough-talking",
+    "explanation": "Argentum Metallicum-এ কাশি শুকনো, কর্কশ এবং কথা বলার চেষ্টা করলে বা গলার ওপর চাপ দিলে বেড়ে যায়।"
+  },
+  {
+    "id": "argm-med-04",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মানসিক অবসাদ এবং বিষণ্ণতা, কোনো কাজ করতে ইচ্ছা না করা",
+        "mid": "sym-mental-depression"
+      },
+      {
+        "text": "অতিরিক্ত উত্তেজনা এবং কথা বলার ইচ্ছা",
+        "mid": "sym-talkative"
+      },
+      {
+        "text": "ভয় এবং আতঙ্ক",
+        "mid": "sym-fear-anxiety"
+      },
+      {
+        "text": "ক্রুরতা এবং প্রতিশোধপরায়ণ মনোভাব",
+        "mid": "sym-cruelty"
+      }
+    ],
+    "answer": "sym-mental-depression",
+    "explanation": "Argentum Metallicum-এ মানসিক অবসাদ দেখা দেয়। রোগী বিষণ্ণ থাকে, কোনো কাজে আগ্রহ হারায় এবং একাকী থাকতে পছন্দ করে।"
+  },
+  {
+    "id": "argm-med-05",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথায় ব্যথা যা গরম আবহাওয়ায় বেড়ে যায়",
+        "mid": "sym-headache-heat"
+      },
+      {
+        "text": "মাথায় ব্যথা যা ঠান্ডা কম্প্রেসে উপশম হয়",
+        "mid": "sym-headache-cold-relief"
+      },
+      {
+        "text": "মাথায় ব্যথা যা নড়চড় করলে বেড়ে যায়",
+        "mid": "sym-headache-motion"
+      },
+      {
+        "text": "মাথায় ব্যথা যা খাবার খেলে উপশম হয়",
+        "mid": "sym-headache-eating"
+      }
+    ],
+    "answer": "sym-headache-heat",
+    "explanation": "Argentum Metallicum-এ মাথার ব্যথা গরম আবহাওয়ায় বা গরম ঘরে বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "argm-med-06",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চোখের পাতা ফুলে যায় এবং লাল হয়ে যায়",
+        "mid": "sym-eyelid-swelling"
+      },
+      {
+        "text": "চোখ থেকে পুঁজ বের হয়",
+        "mid": "sym-purulent-eyes"
+      },
+      {
+        "text": "চোখে ধোঁয়াটে দেখা",
+        "mid": "sym-cloudy-vision"
+      },
+      {
+        "text": "চোখ গর্তে ঢুকে যায়",
+        "mid": "sym-sunken-eyes"
+      }
+    ],
+    "answer": "sym-eyelid-swelling",
+    "explanation": "Argentum Metallicum-এ চোখের পাতা ফুলে যেতে পারে এবং চোখ লাল ও জ্বালাপোড়াযুক্ত হতে পারে।"
+  },
+  {
+    "id": "argm-med-07",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নাক থেকে রক্তপাত",
+        "mid": "sym-nose-bleed"
+      },
+      {
+        "text": "নাক বন্ধ থাকা এবং হাঁচি",
+        "mid": "sym-nasal-congestion"
+      },
+      {
+        "text": "নাকের গোড়ায় ব্যথা",
+        "mid": "sym-nose-root-pain"
+      },
+      {
+        "text": "নাক থেকে দুর্গন্ধযুক্ত স্রাব",
+        "mid": "sym-foul-nasal-discharge"
+      }
+    ],
+    "answer": "sym-nose-bleed",
+    "explanation": "Argentum Metallicum-এ নাক থেকে রক্তপাত হতে পারে, বিশেষ করে যদি নাকের মিউকাস মেমব্রেন দুর্বল থাকে।"
+  },
+  {
+    "id": "argm-med-08",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটে গ্যাস জমা এবং ঢেকুর তোলা",
+        "mid": "sym-flatulence"
+      },
+      {
+        "text": "পেটে তীব্র ব্যথা যা বাম পাশে বেশি",
+        "mid": "sym-left-abdominal-pain"
+      },
+      {
+        "text": "পেটে ঠান্ডা অনুভূতি",
+        "mid": "sym-cold-stomach"
+      },
+      {
+        "text": "পেটে ক্ষুধার তীব্র অনুভূতি",
+        "mid": "sym-hunger"
+      }
+    ],
+    "answer": "sym-flatulence",
+    "explanation": "Argentum Metallicum-এ পেটে গ্যাস জমা এবং ঢেকুর তোলা একটি সাধারণ লক্ষণ।"
+  },
+  {
+    "id": "argm-med-09",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাবে জ্বালাপোড়া এবং ঘনঘন প্রস্রাব",
+        "mid": "sym-urinary-burning"
+      },
+      {
+        "text": "প্রস্রাব বন্ধ হয়ে যাওয়া",
+        "mid": "sym-retention"
+      },
+      {
+        "text": "প্রস্রাবে রক্ত পড়া",
+        "mid": "sym-hematuria"
+      },
+      {
+        "text": "প্রস্রাবের রং কালো হয়ে যাওয়া",
+        "mid": "sym-black-urine"
+      }
+    ],
+    "answer": "sym-urinary-burning",
+    "explanation": "Argentum Metallicum-তে প্রস্রাবের নালীতে জ্বালাপোড়া এবং ঘনঘন প্রস্রাবের বেগ হতে পারে।"
+  },
+  {
+    "id": "argm-med-10",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ত্বকে চুলকানি এবং লাল দানা",
+        "mid": "sym-skin-itch"
+      },
+      {
+        "text": "ত্বক শুষ্ক এবং ফেটে যায়",
+        "mid": "sym-dry-skin"
+      },
+      {
+        "text": "ত্বকে ফোসকা পড়া",
+        "mid": "sym-blister"
+      },
+      {
+        "text": "ত্বক হলুদ হয়ে যাওয়া",
+        "mid": "sym-jaundice"
+      }
+    ],
+    "answer": "sym-skin-itch",
+    "explanation": "Argentum Metallicum-তে ত্বকে চুলকানি এবং লাল দানা বা র‍্যাশ দেখা যেতে পারে।"
+  },
+  {
+    "id": "argm-med-11",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঘুমের মধ্যে কথা বলা",
+        "mid": "sym-sleep-talking"
+      },
+      {
+        "text": "অনিদ্রা এবং রাতে জেগে থাকা",
+        "mid": "sym-insomnia"
+      },
+      {
+        "text": "অতিরিক্ত ঘুম এবং অবসাদ",
+        "mid": "sym-sleepiness"
+      },
+      {
+        "text": "দুঃস্বপ্ন দেখা",
+        "mid": "sym-nightmares"
+      }
+    ],
+    "answer": "sym-insomnia",
+    "explanation": "Argentum Metallicum-তে রাতে ঘুমের ব্যাঘাত ঘটতে পারে, বিশেষ করে মানসিক উত্তেজনার কারণে।"
+  },
+  {
+    "id": "argm-med-12",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কানে ব্যথা যা চিবানোর সময় বেড়ে যায়",
+        "mid": "sym-ear-pain-chewing"
+      },
+      {
+        "text": "কান থেকে পুঁজ বের হওয়া",
+        "mid": "sym-otorrhea"
+      },
+      {
+        "text": "কানে শোঁ শোঁ শব্দ হওয়া",
+        "mid": "sym-tinnitus"
+      },
+      {
+        "text": "কানের পর্দা ফেটে যাওয়া",
+        "mid": "sym-perforation"
+      }
+    ],
+    "answer": "sym-tinnitus",
+    "explanation": "Argentum Metallicum-তে কানে শোঁ শোঁ শব্দ (Tinnitus) হতে পারে।"
+  },
+  {
+    "id": "argm-med-13",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দাঁতে ব্যথা যা ঠান্ডা পানিতে বেড়ে যায়",
+        "mid": "sym-tooth-cold"
+      },
+      {
+        "text": "দাঁতে ব্যথা যা গরম পানিতে বেড়ে যায়",
+        "mid": "sym-tooth-heat"
+      },
+      {
+        "text": "দাঁতে ব্যথা যা বাতাসে বেড়ে যায়",
+        "mid": "sym-tooth-air"
+      },
+      {
+        "text": "দাঁতে ব্যথা যা চিবালে বেড়ে যায়",
+        "mid": "sym-tooth-chewing"
+      }
+    ],
+    "answer": "sym-tooth-cold",
+    "explanation": "Argentum Metallicum-তে দাঁতে ব্যথা হতে পারে যা ঠান্ডা সংস্পর্শে বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "argm-med-14",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পিঠে ব্যথা যা নড়চড় করলে বেড়ে যায়",
+        "mid": "sym-back-pain-motion"
+      },
+      {
+        "text": "পিঠে ব্যথা যা বিশ্রামে বেড়ে যায়",
+        "mid": "sym-back-pain-rest"
+      },
+      {
+        "text": "পিঠে ব্যথা যা গরম কম্প্রেসে ভালো লাগে",
+        "mid": "sym-back-pain-heat"
+      },
+      {
+        "text": "পিঠে ব্যথা যা ঠান্ডা কম্প্রেসে ভালো লাগে",
+        "mid": "sym-back-pain-cold"
+      }
+    ],
+    "answer": "sym-back-pain-motion",
+    "explanation": "Argentum Metallicum-তে পিঠে ব্যথা হতে পারে যা নড়চড় করলে বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "argm-med-15",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হাতে কাঁপুনি",
+        "mid": "sym-hand-tremor"
+      },
+      {
+        "text": "হাতে দুর্বলতা",
+        "mid": "sym-hand-weakness"
+      },
+      {
+        "text": "হাতে ফুসকুড়ি",
+        "mid": "sym-hand-rash"
+      },
+      {
+        "text": "হাতে ঝিনঝিন করা",
+        "mid": "sym-hand-tingling"
+      }
+    ],
+    "answer": "sym-hand-tremor",
+    "explanation": "Argentum Metallicum-তে হাতে কাঁপুনি (Tremor) দেখা যেতে পারে, বিশেষ করে মানসিক উত্তেজনার সময়।"
+  },
+  {
+    "id": "argm-med-16",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়ে ফোলা",
+        "mid": "sym-foot-swelling"
+      },
+      {
+        "text": "পায়ে ঝিনঝিন করা",
+        "mid": "sym-foot-tingling"
+      },
+      {
+        "text": "পায়ে ব্যথা যা হাঁটলে বেড়ে যায়",
+        "mid": "sym-foot-pain-walking"
+      },
+      {
+        "text": "পা ঠান্ডা হয়ে যাওয়া",
+        "mid": "sym-cold-feet"
+      }
+    ],
+    "answer": "sym-foot-swelling",
+    "explanation": "Argentum Metallicum-তে পায়ে ফোলা দেখা যেতে পারে।"
+  },
+  {
+    "id": "argm-med-17",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জিহ্বা সাদা আবরণযুক্ত এবং মুখ থেকে দুর্গন্ধ",
+        "mid": "sym-coated-tongue"
+      },
+      {
+        "text": "জিহ্বা পরিষ্কার এবং লাল",
+        "mid": "sym-clean-tongue"
+      },
+      {
+        "text": "জিহ্বা কাঁপতে থাকে",
+        "mid": "sym-trembling-tongue"
+      },
+      {
+        "text": "জিহ্বায় ফাটল ধরে",
+        "mid": "sym-cracked-tongue"
+      }
+    ],
+    "answer": "sym-coated-tongue",
+    "explanation": "Argentum Metallicum-তে জিহ্বায় সাদা আবরণ দেখা যেতে পারে।"
+  },
+  {
+    "id": "argm-med-18",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হৃদপিণ্ডের স্পন্দন অনুভূত হয় এবং বুকে চাপের অনুভূতি",
+        "mid": "sym-heart-palpitation"
+      },
+      {
+        "text": "হৃদপিণ্ডের ব্যথা যা বাম বাহুতে ছড়িয়ে পড়ে",
+        "mid": "sym-heart-pain-arm"
+      },
+      {
+        "text": "হৃদপিণ্ডের গতি অত্যন্ত ধীর",
+        "mid": "sym-slow-heart"
+      },
+      {
+        "text": "হৃদপিণ্ডের গতি অত্যন্ত দ্রুত এবং অনিয়মিত",
+        "mid": "sym-fast-irregular-heart"
+      }
+    ],
+    "answer": "sym-heart-palpitation",
+    "explanation": "Argentum Metallicum-এ বুকে চাপের অনুভূতি এবং হৃদস্পন্দন অনুভূত হতে পারে।"
+  },
+  {
+    "id": "argm-med-19",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের ডান পাশের লক্ষণগুলো বেশি প্রকট",
+        "mid": "sym-right-sided"
+      },
+      {
+        "text": "শরীরের বাম পাশের লক্ষণগুলো বেশি প্রকট",
+        "mid": "sym-left-sided"
+      },
+      {
+        "text": "শরীরের যে কোনো পাশে সমানভাবে লক্ষণ দেখা দেয়",
+        "mid": "sym-bilateral"
+      },
+      {
+        "text": "লক্ষণগুলো স্থান পরিবর্তন করে",
+        "mid": "sym-wandering"
+      }
+    ],
+    "answer": "sym-right-sided",
+    "explanation": "Argentum Metallicum সাধারণত শরীরের ডান পাশে বেশি প্রভাব ফেলে।"
+  },
+  {
+    "id": "argm-med-20",
+    "stem": "নিচের কোনটি Argentum Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঠান্ডা বাতাসে লক্ষণের উপশম হয়",
+        "mid": "sym-cold-relief"
+      },
+      {
+        "text": "গরম ঘরে বা গরম আবহাওয়ায় লক্ষণের তীব্রতা বেড়ে যায়",
+        "mid": "sym-warm-room-aggravation"
+      },
+      {
+        "text": "ব্যায়াম করলে লক্ষণের উপশম হয়",
+        "mid": "sym-motion-relief"
+      },
+      {
+        "text": "খাবার খেলে লক্ষণের উপশম হয়",
+        "mid": "sym-eating-relief"
+      }
+    ],
+    "answer": "sym-warm-room-aggravation",
+    "explanation": "Argentum Metallicum-র লক্ষণগুলো গরম ঘরে বা উষ্ণ তাপে বেড়ে যেতে পারে।"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "iodium-med-01",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রচুর খেলে শরীর মোটা হয়ে যাওয়া", "mid": "sym-eat-much-become-fat"},
+      {"text": "প্রচণ্ড ক্ষুধা কিন্তু শরীর শুকিয়ে যাওয়া, প্রচুর আহার করেও দিন দিন কঙ্কালের মতো শুকিয়ে যাওয়া", "mid": "sym-iodium-hunger-emaciation-eating-well"},
+      {"text": "ক্ষুধা না থাকা ও শরীর শুকিয়ে যাওয়া", "mid": "sym-no-hunger-emaciation"},
+      {"text": "অল্প খেলেও শরীর ভারী লাগা", "mid": "sym-little-eat-heavy-body"}
+    ],
+    "answer": "sym-iodium-hunger-emaciation-eating-well",
+    "explanation": "Iodium এর সবচেয়ে বড় বৈশিষ্ট্য প্রচণ্ড ক্ষুধা কিন্তু শরীর শুকিয়ে যাওয়া, রোগী প্রচুর আহার করে কিন্তু দিন দিন কঙ্কালের মতো শুকিয়ে যায়।"
+  },
+  {
+    "id": "iodium-med-02",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গ্রন্থি একদম অনুভব করা যায় না, কোনো ফোলা থাকে না", "mid": "sym-gland-no-feel"},
+      {"text": "গ্রন্থি নরম থাকা ও ব্যথা না থাকা", "mid": "sym-gland-soft-no-pain"},
+      {"text": "শুধু একটা গ্রন্থি ফোলা, বাকি সব স্বাভাবিক", "mid": "sym-one-gland-swollen"},
+      {"text": "গ্রন্থি ফুলে যাওয়া ও শক্ত হওয়া, থাইরয়েড, মেসেন্টারিক বা স্তন গ্রন্থি ফুলে শক্ত হওয়া, গলগণ্ড", "mid": "sym-iodium-gland-swollen-hard-goitre"}
+    ],
+    "answer": "sym-iodium-gland-swollen-hard-goitre",
+    "explanation": "Iodium এ শরীরের বিভিন্ন গ্রন্থি যেমন থাইরয়েড, মেসেন্টারিক বা স্তন গ্রন্থি ফুলে শক্ত হয়ে যায়, এটি গলগণ্ড রোগের প্রধান ঔষধ।"
+  },
+  {
+    "id": "iodium-med-03",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অস্থিরতা ও উত্তাপ, এক মুহূর্ত স্থির হয়ে বসতে পারে না, সবসময় কিছু করতে চায়, শরীর থেকে প্রচণ্ড উত্তাপ বের হয়", "mid": "sym-iodium-restless-heat-cannot-sit"},
+      {"text": "সবসময় স্থির হয়ে বসে থাকতে ভালো লাগা", "mid": "sym-like-sit-still"},
+      {"text": "শরীর ঠান্ডা থাকা ও অস্থিরতা না থাকা", "mid": "sym-body-cold-no-restless"},
+      {"text": "কাজ করতে একদম ইচ্ছা না করা", "mid": "sym-no-desire-work"}
+    ],
+    "answer": "sym-iodium-restless-heat-cannot-sit",
+    "explanation": "Iodium রোগী এক মুহূর্ত স্থির হয়ে বসতে পারে না, সবসময় কিছু না কিছু করতে চায় এবং তার শরীর থেকে প্রচণ্ড উত্তাপ বের হয়।"
+  },
+  {
+    "id": "iodium-med-04",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খোলা বাতাসে কষ্ট বাড়া, গরম ঘরে আরাম", "mid": "sym-open-air-worse-warm-room-better"},
+      {"text": "ঠান্ডা বাতাস সহ্য করতে না পারা, জানলা বন্ধ করে দেওয়া", "mid": "sym-cold-air-intolerant-close-window"},
+      {"text": "খোলা বাতাসে আরাম, অত্যন্ত গরমকাতর, গরম ঘরে থাকতে পারে না, খোলা ঠান্ডা বাতাসে ঘুরে বেড়ালে আরাম", "mid": "sym-iodium-open-air-relief-hot-patient"},
+      {"text": "গরম বা ঠান্ডায় কোনো পরিবর্তন না হওয়া", "mid": "sym-heat-cold-no-change"}
+    ],
+    "answer": "sym-iodium-open-air-relief-hot-patient",
+    "explanation": "Iodium রোগী অত্যন্ত গরমকাতর, গরম ঘরে থাকতে পারে না এবং খোলা ঠান্ডা বাতাসে ঘুরে বেড়ালে খুব আরাম বোধ করে।"
+  },
+  {
+    "id": "iodium-med-05",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাজে ব্যস্ত থাকলে দুশ্চিন্তা বাড়া", "mid": "sym-busy-anxiety-increase"},
+      {"text": "কাজে ব্যস্ত থাকার প্রবণতা, ব্যস্ত না থাকলে দুশ্চিন্তা বেড়ে যাবে মনে করা", "mid": "sym-iodium-busy-work-anxiety-if-idle"},
+      {"text": "কাজ না করলে মন শান্ত থাকা", "mid": "sym-idle-calm-mind"},
+      {"text": "সারাদিন শুয়ে থাকতে ভালো লাগা", "mid": "sym-like-lie-down-all-day"}
+    ],
+    "answer": "sym-iodium-busy-work-anxiety-if-idle",
+    "explanation": "Iodium রোগী মনে করে সে যদি কাজে ব্যস্ত না থাকে, তবে তার দুশ্চিন্তা বেড়ে যাবে।"
+  },
+  {
+    "id": "iodium-med-06",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিকভাবে খুব শান্ত ও ধৈর্যশীল থাকা", "mid": "sym-mind-calm-patient"},
+      {"text": "কখনো রাগ না হওয়া ও সব সহ্য করা", "mid": "sym-never-angry-tolerate-all"},
+      {"text": "মন সবসময় আনন্দে থাকা", "mid": "sym-mind-always-happy"},
+      {"text": "মানসিকভাবে অত্যন্ত অস্থির ও খিটখিটে মেজাজ", "mid": "sym-iodium-mental-restless-irritable"}
+    ],
+    "answer": "sym-iodium-mental-restless-irritable",
+    "explanation": "Iodium রোগী মানসিকভাবে অত্যন্ত অস্থির এবং খিটখিটে মেজাজের হয়।"
+  },
+  {
+    "id": "iodium-med-07",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অনির্দিষ্ট ভয়, মনে করা খারাপ কিছু ঘটবে", "mid": "sym-iodium-indefinite-fear-bad-happen"},
+      {"text": "কোনো ভয় না থাকা, সবসময় সাহসী থাকা", "mid": "sym-no-fear-always-brave"},
+      {"text": "নির্দিষ্ট জিনিসে ভয় পাওয়া, যেমন উঁচু জায়গা", "mid": "sym-fear-high-place"},
+      {"text": "ভয় পেলে হেসে ফেলা", "mid": "sym-fear-laugh"}
+    ],
+    "answer": "sym-iodium-indefinite-fear-bad-happen",
+    "explanation": "Iodium রোগীর মধ্যে এক প্রকার অনির্দিষ্ট ভয় কাজ করে, সে মনে করে তার খারাপ কিছু ঘটবে।"
+  },
+  {
+    "id": "iodium-med-08",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাউকে মারার ইচ্ছা কখনো না জাগা", "mid": "sym-never-desire-kill"},
+      {"text": "সবাইকে ভালোবাসতে ইচ্ছা করা", "mid": "sym-desire-love-all"},
+      {"text": "কাউকে মারার বা হিংস্র কাজ করার ইচ্ছা জাগা, নিয়ন্ত্রণ করার চেষ্টা করা", "mid": "sym-iodium-desire-kill-violent-control"},
+      {"text": "রাগ হলে নিজেকে আঘাত করার ইচ্ছা হওয়া", "mid": "sym-anger-hurt-self"}
+    ],
+    "answer": "sym-iodium-desire-kill-violent-control",
+    "explanation": "Iodium এ অনেক সময় কাউকে মারার বা হিংস্র কাজ করার ইচ্ছা জাগে, যদিও রোগী তা নিয়ন্ত্রণ করার চেষ্টা করে।"
+  },
+  {
+    "id": "iodium-med-09",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খুব ধীরে কাজ করতে চাওয়া ও ধৈর্য ধরা", "mid": "sym-work-slow-patient"},
+      {"text": "খুব দ্রুত কাজ করতে চাওয়া, তাড়াহুড়ো ও অধৈর্য", "mid": "sym-iodium-hurry-impatient-fast-work"},
+      {"text": "কাজ ফেলে রাখতে ভালো লাগা", "mid": "sym-like-delay-work"},
+      {"text": "কাজে কোনো তাড়াহুড়ো না থাকা", "mid": "sym-work-no-hurry"}
+    ],
+    "answer": "sym-iodium-hurry-impatient-fast-work",
+    "explanation": "Iodium রোগী সবসময় খুব দ্রুত কাজ করতে চায়, তার মধ্যে তাড়াহুড়ো ও অধৈর্য থাকে।"
+  },
+  {
+    "id": "iodium-med-10",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "থাইরয়েড শুকিয়ে ছোট হয়ে যাওয়া ও বুক ধড়ফড়ানি না থাকা", "mid": "sym-thyroid-shrunk-no-palpitation"},
+      {"text": "থাইরয়েডে কোনো সমস্যা না থাকা, শুধু গলা ব্যথা", "mid": "sym-thyroid-no-problem-throat-pain"},
+      {"text": "বুক ধড়ফড়ানি ছাড়াই থাইরয়েড ফোলা", "mid": "sym-thyroid-swollen-no-palpitation"},
+      {"text": "থাইরয়েড গ্রন্থি ফুলে বড় হওয়া, সাথে বুক ধড়ফড়ানি ও শরীর ঘামানোর প্রবণতা", "mid": "sym-iodium-thyroid-enlarged-palpitation-sweat"}
+    ],
+    "answer": "sym-iodium-thyroid-enlarged-palpitation-sweat",
+    "explanation": "Iodium এ থাইরয়েড গ্রন্থি ফুলে বড় হয়, যার সাথে বুক ধড়ফড়ানি এবং শরীর ঘামানোর প্রবণতা থাকে।"
+  },
+  {
+    "id": "iodium-med-11",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলায় সুড়সুড়ি ও শুকনো কাশি, গলার ভেতর কিছু আটকে আছে মনে হওয়া", "mid": "sym-iodium-throat-tickling-dry-cough-stuck"},
+      {"text": "গলায় কোনো সুড়সুড়ি না থাকা, ভেজা কাশি", "mid": "sym-throat-no-tickling-wet-cough"},
+      {"text": "কাশির সাথে প্রচুর কফ ওঠা", "mid": "sym-cough-much-mucus"},
+      {"text": "গলায় কিছু আটকে থাকার অনুভূতি না থাকা", "mid": "sym-throat-no-stuck-feeling"}
+    ],
+    "answer": "sym-iodium-throat-tickling-dry-cough-stuck",
+    "explanation": "Iodium এ গলায় অত্যন্ত সুড়সুড়ি এবং শুকনো কাশি হয়, মনে হয় গলার ভেতর কোনো কিছু আটকে আছে।"
+  },
+  {
+    "id": "iodium-med-12",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা জল খেলে কাশি বাড়া", "mid": "sym-cold-water-cough-worse"},
+      {"text": "খোলা বাতাসে কাশি বাড়া, ঘরে থাকলে উপশম", "mid": "sym-open-air-cough-worse-room-better"},
+      {"text": "ঠান্ডা জল খেলে বা খোলা বাতাসে কাশির উপশম হয়", "mid": "sym-iodium-cough-relief-cold-water-open-air"},
+      {"text": "গরম জল খেলে কাশির উপশম", "mid": "sym-warm-water-cough-relief"}
+    ],
+    "answer": "sym-iodium-cough-relief-cold-water-open-air",
+    "explanation": "Iodium এ ঠান্ডা জল খেলে বা খোলা বাতাসে কাশির উপশম হয়।"
+  },
+  {
+    "id": "iodium-med-13",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হৃদপিণ্ড স্বাভাবিক লাগা, কোনো চাপ অনুভব না করা", "mid": "sym-heart-normal-no-pressure"},
+      {"text": "হৃদপিণ্ড কেউ চেপে ধরেছে মনে হওয়া", "mid": "sym-iodium-heart-squeezed"},
+      {"text": "হৃদপিণ্ড বড় হয়ে যাওয়ার মতো অনুভূতি", "mid": "sym-heart-enlarged-feeling"},
+      {"text": "বুকের ভেতর শূন্য লাগা", "mid": "sym-chest-empty-feeling"}
+    ],
+    "answer": "sym-iodium-heart-squeezed",
+    "explanation": "Iodium রোগী মনে করে তার হৃদপিণ্ডটি কেউ চেপে ধরেছে।"
+  },
+  {
+    "id": "iodium-med-14",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিশ্রম করলে বুক ধড়ফড়ানি কমে যাওয়া", "mid": "sym-exertion-palpitation-less"},
+      {"text": "সিঁড়ি দিয়ে উঠলে কোনো ধড়ফড়ানি না হওয়া", "mid": "sym-stairs-no-palpitation"},
+      {"text": "বিশ্রামে বুক ধড়ফড়ানি বাড়া, পরিশ্রমে কমা", "mid": "sym-rest-palpitation-exertion-less"},
+      {"text": "সামান্য পরিশ্রমে বা সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি বেড়ে যাওয়া", "mid": "sym-iodium-palpitation-slight-exertion-stairs"}
+    ],
+    "answer": "sym-iodium-palpitation-slight-exertion-stairs",
+    "explanation": "Iodium এ সামান্য পরিশ্রমে বা সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি বেড়ে যায়।"
+  },
+  {
+    "id": "iodium-med-15",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্তন গ্রন্থি শুকিয়ে ছোট হয়ে যাওয়া", "mid": "sym-iodium-breast-atrophy-small"},
+      {"text": "স্তন গ্রন্থি ফুলে বড় হয়ে যাওয়া ও ব্যথা করা", "mid": "sym-breast-swollen-painful"},
+      {"text": "স্তনে কোনো পরিবর্তন না হওয়া", "mid": "sym-breast-no-change"},
+      {"text": "স্তনে পুঁজ জমা ও ফুলে যাওয়া", "mid": "sym-breast-pus-swollen"}
+    ],
+    "answer": "sym-iodium-breast-atrophy-small",
+    "explanation": "Iodium এ স্তন গ্রন্থি শুকিয়ে ছোট হয়ে যায়।"
+  },
+  {
+    "id": "iodium-med-16",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঋতুস্রাবের সময় শক্তি বেড়ে যাওয়া", "mid": "sym-menses-energy-increase"},
+      {"text": "ঋতুস্রাবের সময় কোনো দুর্বলতা না থাকা", "mid": "sym-menses-no-weakness"},
+      {"text": "ঋতুস্রাবের সময় প্রচণ্ড দুর্বলতা", "mid": "sym-iodium-menses-great-weakness"},
+      {"text": "ঋতুস্রাব বন্ধ হলে দুর্বলতা বাড়া", "mid": "sym-menses-stop-weakness-increase"}
+    ],
+    "answer": "sym-iodium-menses-great-weakness",
+    "explanation": "Iodium এ ঋতুস্রাবের সময় প্রচণ্ড দুর্বলতা হয়।"
+  },
+  {
+    "id": "iodium-med-17",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শক্তিশালী, পরিশ্রম করলেও ঘাম হয় না", "mid": "sym-strong-no-sweat-exertion"},
+      {"text": "দুর্বল, অল্প পরিশ্রমে প্রচুর ঘাম", "mid": "sym-iodium-weak-slight-exertion-much-sweat"},
+      {"text": "অল্প পরিশ্রমে ঘাম কমে যাওয়া", "mid": "sym-slight-exertion-less-sweat"},
+      {"text": "পরিশ্রম করলে শক্তি বেড়ে যাওয়া", "mid": "sym-exertion-energy-increase"}
+    ],
+    "answer": "sym-iodium-weak-slight-exertion-much-sweat",
+    "explanation": "Iodium রোগী দুর্বল, অল্প পরিশ্রমে প্রচুর ঘাম হয়।"
+  },
+  {
+    "id": "iodium-med-18",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বলতে একদম ইচ্ছা না করা", "mid": "sym-no-desire-talk"},
+      {"text": "সবসময় চুপ থাকা ও নিজেকে ভালোবাসা", "mid": "sym-always-silent-love-self"},
+      {"text": "আত্মহত্যার চিন্তা কখনো না আসা, জীবনকে ভালোবাসা", "mid": "sym-never-suicide-love-life"},
+      {"text": "বাচালতা, আত্মহত্যার ইচ্ছা", "mid": "sym-iodium-loquacious-suicidal-desire"}
+    ],
+    "answer": "sym-iodium-loquacious-suicidal-desire",
+    "explanation": "Iodium এ বাচালতা থাকে এবং আত্মহত্যার ইচ্ছা দেখা যায়।"
+  },
+  {
+    "id": "iodium-med-19",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমে, গরম ঘরে, বিশ্রাম নিলে ও আহার না করলে বৃদ্ধি", "mid": "sym-iodium-agg-warm-room-rest-fasting"},
+      {"text": "ঠান্ডায় বৃদ্ধি, গরমে উপশম", "mid": "sym-cold-agg-warm-amel"},
+      {"text": "আহার করলে বৃদ্ধি, খালি পেটে উপশম", "mid": "sym-eating-agg-fasting-amel"},
+      {"text": "চলাফেরা করলে বৃদ্ধি, বিশ্রামে উপশম", "mid": "sym-motion-agg-rest-amel"}
+    ],
+    "answer": "sym-iodium-agg-warm-room-rest-fasting",
+    "explanation": "Iodium এ গরমে, গরম ঘরে, বিশ্রাম নিলে এবং আহার না করলে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "iodium-med-20",
+    "stem": "নিচের কোনটি Iodium এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আহার করলে বৃদ্ধি, ঠান্ডা বাতাসে বৃদ্ধি", "mid": "sym-eating-cold-agg"},
+      {"text": "বিশ্রামে উপশম, গরম ঘরে উপশম", "mid": "sym-rest-warm-room-amel"},
+      {"text": "আহার করলে, খোলা ও ঠান্ডা বাতাসে ও চলাফেরা করলে উপশম", "mid": "sym-iodium-amel-eating-open-cold-air-motion"},
+      {"text": "খালি পেটে উপশম, গরমে উপশম", "mid": "sym-fasting-warm-amel"}
+    ],
+    "answer": "sym-iodium-amel-eating-open-cold-air-motion",
+    "explanation": "Iodium এ আহার করলে, খোলা ও ঠান্ডা বাতাসে এবং চলাফেরা করলে উপশম হয়।"
+  }
+]

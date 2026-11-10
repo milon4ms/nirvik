@@ -1,0 +1,242 @@
+[
+  {
+    "id": "syphilinum-med-01",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শুধু সোরা মায়াজমের ঔষধ, সিফিলিসের সাথে সম্পর্ক নেই", "mid": "sym-psora-only-no-syphilis"},
+      {"text": "সিফিলিস ও সাইকোসিসের ঔষধ, প্রধান সিফিলিটিক মায়াজম", "mid": "sym-syphilinum-syphilis-sycosis-syphilitic-miasm"},
+      {"text": "শুধু টিউবারকুলার মায়াজমের ঔষধ", "mid": "sym-tubercular-only"},
+      {"text": "কোনো মায়াজমের ঔষধ নয়, শুধু সর্দি কাশির ঔষধ", "mid": "sym-no-miasm-coryza-cough-only"}
+    ],
+    "answer": "sym-syphilinum-syphilis-sycosis-syphilitic-miasm",
+    "explanation": "Syphilinum সিফিলিস ও সাইকোসিসের ঔষধ, প্রধান সিফিলিটিক মায়াজমের ঔষধ।"
+  },
+  {
+    "id": "syphilinum-med-02",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপযুক্ত ঔষধ সবসময় কাজ করে, কখনো ব্যর্থ হয় না", "mid": "sym-indicated-always-works-never-fails"},
+      {"text": "বংশগত রোগে কখনো ব্যবহার করা হয় না", "mid": "sym-hereditary-never-used"},
+      {"text": "বংশগত উপদংশে নতুন রোগের চিকিৎসায় কাজ করে", "mid": "sym-hereditary-new-disease-only"},
+      {"text": "বংশগত উপদংশ, উপযুক্ত ঔষধের ব্যর্থতা", "mid": "sym-syphilinum-hereditary-syphilis-indicated-remedy-failure"}
+    ],
+    "answer": "sym-syphilinum-hereditary-syphilis-indicated-remedy-failure",
+    "explanation": "Syphilinum এ বংশগত উপদংশ থাকে, উপযুক্ত ঔষধের ব্যর্থতায় এটি ব্যবহৃত হয়।"
+  },
+  {
+    "id": "syphilinum-med-03",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কষ্ট রাত্রে বৃদ্ধি, কষ্ট সন্ধ্যায় আরম্ভ হয়, শেষ রাত পর্যন্ত থাকে, সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত বৃদ্ধি, সূর্যাস্তে ব্যথা শুরু হয়, সারা রাত তীব্র থাকে, সূর্যোদয়ে কমে যায়", "mid": "sym-syphilinum-night-worse-sunset-sunrise"},
+      {"text": "কষ্ট দিনে বৃদ্ধি পায়, রাতে কমে যায়", "mid": "sym-day-worse-night-less"},
+      {"text": "কষ্ট সন্ধ্যায় শুরু হয়ে রাত ৯টায় কমে যায়", "mid": "sym-evening-start-9pm-less"},
+      {"text": "কষ্ট সারাদিন একই থাকে, রাত দিনে কোনো পার্থক্য নেই", "mid": "sym-pain-all-day-same-no-diff"}
+    ],
+    "answer": "sym-syphilinum-night-worse-sunset-sunrise",
+    "explanation": "Syphilinum এ কষ্ট রাত্রে বৃদ্ধি পায়, কষ্ট সন্ধ্যায় আরম্ভ হয়, শেষ রাত পর্যন্ত থাকে, সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত বৃদ্ধি পায়।"
+  },
+  {
+    "id": "syphilinum-med-04",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘুম খুব ভালো হয়, ক্ষুধা খুব বেশি থাকে", "mid": "sym-sleep-good-hunger-more"},
+      {"text": "ঘুম কম হলেও ক্ষুধা ঠিক থাকে", "mid": "sym-sleep-less-hunger-ok"},
+      {"text": "অনিদ্রা ও অক্ষুধা", "mid": "sym-syphilinum-insomnia-loss-appetite"},
+      {"text": "ঘুম বেশি হয়, ক্ষুধা কম থাকে", "mid": "sym-sleep-more-hunger-less"}
+    ],
+    "answer": "sym-syphilinum-insomnia-loss-appetite",
+    "explanation": "Syphilinum এ অনিদ্রা ও অক্ষুধা থাকে।"
+  },
+  {
+    "id": "syphilinum-med-05",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীর লম্বা হয়ে যায়, পক্ষাঘাত কখনো হয় না", "mid": "sym-body-tall-no-paralysis"},
+      {"text": "খর্বতা ও পক্ষাঘাত", "mid": "sym-syphilinum-dwarfism-paralysis"},
+      {"text": "শরীর মোটা হয়ে যায়, পেশি শক্ত থাকে", "mid": "sym-body-fat-muscle-strong"},
+      {"text": "খর্বতা থাকে কিন্তু পক্ষাঘাত থাকে না", "mid": "sym-dwarfism-no-paralysis"}
+    ],
+    "answer": "sym-syphilinum-dwarfism-paralysis",
+    "explanation": "Syphilinum এ খর্বতা ও পক্ষাঘাত থাকে।"
+  },
+  {
+    "id": "syphilinum-med-06",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গর্ভ সবসময় ঠিক থাকে, কখনো নষ্ট হয় না", "mid": "sym-pregnancy-always-ok-never-abort"},
+      {"text": "একবার গর্ভ নষ্ট হলে আর গর্ভ আসে না", "mid": "sym-abort-once-no-pregnancy"},
+      {"text": "গর্ভপাতের সাথে এই ঔষধের কোনো সম্পর্ক নেই", "mid": "sym-abortion-no-relation"},
+      {"text": "স্ত্রীলোকের বারবার গর্ভ নষ্ট হয়", "mid": "sym-syphilinum-repeated-abortion-women"}
+    ],
+    "answer": "sym-syphilinum-repeated-abortion-women",
+    "explanation": "Syphilinum এ স্ত্রীলোকের বারবার গর্ভ নষ্ট হয়।"
+  },
+  {
+    "id": "syphilinum-med-07",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখ নাক চর্ম যৌনাঙ্গে ক্ষত ও দুর্গন্ধ, সিফিলিটিক ক্ষত ব্যথাহীন কিন্তু গভীর, মহিলাদের ক্ষেত্রে প্রচুর দুর্গন্ধযুক্ত সাদা স্রাব", "mid": "sym-syphilinum-ulcer-foul-mouth-nose-skin-genital-chancre-leucorrhoea"},
+      {"text": "মুখ নাক চর্মে কোনো ক্ষত থাকে না, কোনো দুর্গন্ধ থাকে না", "mid": "sym-mouth-nose-skin-no-ulcer-no-smell"},
+      {"text": "যৌনাঙ্গে ক্ষত ব্যথাযুক্ত ও অগভীর থাকে", "mid": "sym-genital-ulcer-painful-shallow"},
+      {"text": "মহিলাদের সাদা স্রাব গন্ধহীন ও অল্প হয়", "mid": "sym-leucorrhoea-odorless-little"}
+    ],
+    "answer": "sym-syphilinum-ulcer-foul-mouth-nose-skin-genital-chancre-leucorrhoea",
+    "explanation": "Syphilinum এ মুখ নাক চর্ম যৌনাঙ্গে ক্ষত ও দুর্গন্ধ থাকে, সিফিলিটিক ক্ষত ব্যথাহীন কিন্তু গভীর হয়, মহিলাদের ক্ষেত্রে প্রচুর দুর্গন্ধযুক্ত সাদা স্রাব হয়।"
+  },
+  {
+    "id": "syphilinum-med-08",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথা হঠাৎ বাড়ে ও হঠাৎ কমে", "mid": "sym-pain-sudden-up-sudden-down"},
+      {"text": "ব্যথা ধীরে ধীরে বাড়ে ও হঠাৎ কমে", "mid": "sym-pain-gradual-up-sudden-down"},
+      {"text": "ব্যথা ধীরে ধীরে বাড়ে ধীরে ধীরে কমে", "mid": "sym-syphilinum-pain-gradual-up-gradual-down"},
+      {"text": "ব্যথা সবসময় একই রকম থাকে, বাড়ে কমে না", "mid": "sym-pain-always-same-no-change"}
+    ],
+    "answer": "sym-syphilinum-pain-gradual-up-gradual-down",
+    "explanation": "Syphilinum এ ব্যথা ধীরে ধীরে বাড়ে ধীরে ধীরে কমে।"
+  },
+  {
+    "id": "syphilinum-med-09",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকালে খুব সতেজ ও শক্তিশালী লাগে", "mid": "sym-morning-fresh-strong"},
+      {"text": "সকালে অবসাদ ও দুর্বলতা", "mid": "sym-syphilinum-morning-exhaustion-weakness"},
+      {"text": "সকালে কোনো অবসাদ থাকে না, রাতে অবসাদ থাকে", "mid": "sym-morning-no-exhaustion-night-only"},
+      {"text": "সকালে শক্তি বেড়ে যায়, দুর্বলতা থাকে না", "mid": "sym-morning-energy-up-no-weak"}
+    ],
+    "answer": "sym-syphilinum-morning-exhaustion-weakness",
+    "explanation": "Syphilinum এ সকালে অবসাদ ও দুর্বলতা থাকে।"
+  },
+  {
+    "id": "syphilinum-med-10",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখে লালা কম থাকে, ঘুমালে লালা পড়ে না", "mid": "sym-mouth-less-saliva-sleep-no-drool"},
+      {"text": "মুখ শুকনো থাকে, বালিশ শুকনো থাকে", "mid": "sym-mouth-dry-pillow-dry"},
+      {"text": "লালা শুধু দিনে পড়ে, ঘুমালে পড়ে না", "mid": "sym-saliva-day-only-sleep-no"},
+      {"text": "মুখে থুথু জমে খুব, ঘুমালে লালা পড়ে, প্রচণ্ড লালা নিঃসরণ হয়, ঘুমের সময় মুখ থেকে প্রচুর লালা পড়ে বালিশ ভিজে যায়", "mid": "sym-syphilinum-saliva-much-drool-sleep-pillow-wet"}
+    ],
+    "answer": "sym-syphilinum-saliva-much-drool-sleep-pillow-wet",
+    "explanation": "Syphilinum এ মুখে থুথু জমে খুব, ঘুমালে লালা পড়ে, ঘুমের সময় মুখ থেকে প্রচুর লালা পড়ে বালিশ ভিজে যায়।"
+  },
+  {
+    "id": "syphilinum-med-11",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাদক খাওয়ার প্রবল ইচ্ছা", "mid": "sym-syphilinum-intense-desire-intoxicants"},
+      {"text": "মাদক একদম পছন্দ করে না, গন্ধও সহ্য হয় না", "mid": "sym-intoxicant-dislike-smell-intolerant"},
+      {"text": "মাদক খেতে চায় না, শুধু মিষ্টি খেতে চায়", "mid": "sym-no-intoxicant-sweet-only"},
+      {"text": "মাদকের ইচ্ছা মাঝে মাঝে হয়, প্রবল হয় না", "mid": "sym-intoxicant-desire-sometimes-not-intense"}
+    ],
+    "answer": "sym-syphilinum-intense-desire-intoxicants",
+    "explanation": "Syphilinum এ মাদক খাওয়ার প্রবল ইচ্ছা থাকে।"
+  },
+  {
+    "id": "syphilinum-med-12",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মন সবসময় স্থির থাকে, পাগল হওয়ার কোনো ভয় নেই", "mid": "sym-mind-stable-no-fear-mad"},
+      {"text": "মানসিক ভারসাম্য সবসময় ঠিক থাকে", "mid": "sym-mental-balance-always-ok"},
+      {"text": "রোগীর ধারণা সে পাগল হয়ে যাবে, বদ্ধ উন্মাদের মতো আচরণ, মানসিক ভারসাম্যহীনতা", "mid": "sym-syphilinum-delusion-mad-fixed-mania-imbalance"},
+      {"text": "পাগল হওয়ার ভয় নেই, শুধু মৃত্যুর ভয় আছে", "mid": "sym-no-fear-mad-death-fear-only"}
+    ],
+    "answer": "sym-syphilinum-delusion-mad-fixed-mania-imbalance",
+    "explanation": "Syphilinum এ রোগীর ধারণা সে পাগল হয়ে যাবে, বদ্ধ উন্মাদের মতো আচরণ হয়, মানসিক ভারসাম্যহীনতা থাকে।"
+  },
+  {
+    "id": "syphilinum-med-13",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চুল ঘন হয়ে যায়, দাঁত শক্ত হয়ে যায়", "mid": "sym-hair-thick-teeth-strong"},
+      {"text": "চুল পড়ে, দাঁত পড়ে", "mid": "sym-syphilinum-hair-fall-teeth-fall"},
+      {"text": "চুল পড়ে কিন্তু দাঁত পড়ে না", "mid": "sym-hair-fall-teeth-no"},
+      {"text": "দাঁত পড়ে কিন্তু চুল পড়ে না", "mid": "sym-teeth-fall-hair-no"}
+    ],
+    "answer": "sym-syphilinum-hair-fall-teeth-fall",
+    "explanation": "Syphilinum এ চুল পড়ে, দাঁত পড়ে।"
+  },
+  {
+    "id": "syphilinum-med-14",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরে কোনো উদ্ভেদ থাকে না, চর্ম পরিষ্কার থাকে", "mid": "sym-skin-no-eruption-clean"},
+      {"text": "শরীরে লাল উদ্ভেদ থাকে, তামার মতো নয়", "mid": "sym-body-red-eruption-not-copper"},
+      {"text": "শুধু মুখে একজিমা হয়, শরীরে হয় না", "mid": "sym-face-eczema-only-no-body"},
+      {"text": "শরীরে তামার মতো উদ্ভেদ দেখা যায়, একজিমা হয়", "mid": "sym-syphilinum-copper-eruption-eczema"}
+    ],
+    "answer": "sym-syphilinum-copper-eruption-eczema",
+    "explanation": "Syphilinum এ শরীরে তামার মতো উদ্ভেদ দেখা যায়, একজিমা হয়।"
+  },
+  {
+    "id": "syphilinum-med-15",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "একটার পর একটা ফোড়া ওঠে", "mid": "sym-syphilinum-boil-after-boil"},
+      {"text": "ফোড়া একবার উঠলে আর ওঠে না", "mid": "sym-boil-once-never-again"},
+      {"text": "ফোড়া কখনো ওঠে না, শুধু ঘামাচি ওঠে", "mid": "sym-boil-never-prickly-only"},
+      {"text": "ফোড়া উঠলেও ব্যথা থাকে না", "mid": "sym-boil-no-pain"}
+    ],
+    "answer": "sym-syphilinum-boil-after-boil",
+    "explanation": "Syphilinum এ একটার পর একটা ফোড়া ওঠে।"
+  },
+  {
+    "id": "syphilinum-med-16",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্মৃতিশক্তি খুব ভালো থাকে, নিজের নামও মনে থাকে", "mid": "sym-memory-good-own-name-remember"},
+      {"text": "মাঝে মাঝে তারিখ ভুলে যায়, নাম মনে থাকে", "mid": "sym-date-forget-name-remember"},
+      {"text": "ভয়ঙ্কর স্মৃতিভ্রম, পরিচিত মানুষের নাম, তারিখ এমনকি নিজের নামও ভুলে যেতে পারে", "mid": "sym-syphilinum-terrible-forgetfulness-names-dates-own-name"},
+      {"text": "স্মৃতিভ্রম থাকলেও নিজের নাম মনে থাকে", "mid": "sym-forgetfulness-own-name-remember"}
+    ],
+    "answer": "sym-syphilinum-terrible-forgetfulness-names-dates-own-name",
+    "explanation": "Syphilinum এ ভয়ঙ্কর স্মৃতিভ্রম থাকে, রোগী পরিচিত মানুষের নাম, তারিখ এমনকি নিজের নামও ভুলে যেতে পারে।"
+  },
+  {
+    "id": "syphilinum-med-17",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাত ধুতে চায় না, ময়লা পছন্দ করে", "mid": "sym-no-wash-dirt-enjoy"},
+      {"text": "অত্যধিক ধৌতকরণের প্রবণতা, বারবার হাত ধুতে চায়, মনে করে শরীরে জীবাণু লেগে আছে", "mid": "sym-syphilinum-excessive-washing-germophobia"},
+      {"text": "দিনে একবার হাত ধোয়, বেশি ধুতে চায় না", "mid": "sym-wash-once-no-more"},
+      {"text": "জীবাণুর ভয় নেই, হাত ধোয়ার ইচ্ছা নেই", "mid": "sym-no-germ-fear-no-wash"}
+    ],
+    "answer": "sym-syphilinum-excessive-washing-germophobia",
+    "explanation": "Syphilinum এ অত্যধিক ধৌতকরণের প্রবণতা থাকে, রোগী বারবার হাত ধুতে চায়, মনে করে তার শরীরে জীবাণু লেগে আছে।"
+  },
+  {
+    "id": "syphilinum-med-18",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাড় শক্ত থাকে, কোনো ক্ষয় হয় না", "mid": "sym-bone-strong-no-decay"},
+      {"text": "নাকের হাড় মোটা হয়ে যায়, তালুর হাড় শক্ত হয়", "mid": "sym-nose-bone-thick-palate-strong"},
+      {"text": "হাড়ে কোনো ক্ষত হয় না, শুধু পেশিতে ব্যথা হয়", "mid": "sym-bone-no-ulcer-muscle-only"},
+      {"text": "অস্থির ক্ষয়, হাড়ের বিশেষ করে নাকের বা তালুর হাড়ের ক্ষয়, পচনশীল ক্ষত, মাথার খুলিতে প্রচণ্ড যন্ত্রণা, মনে হয় মাথার হাড় ফেটে যাবে, দীর্ঘস্থায়ী চোখের প্রদাহ, রাতে চোখের যন্ত্রণা বৃদ্ধি, জিহ্বা ফাটা ফাটা, তাতে দাঁতের ছাপ থাকে", "mid": "sym-syphilinum-bone-caries-nose-palate-skull-pain-iritis-tongue-cracked-teeth-marks"}
+    ],
+    "answer": "sym-syphilinum-bone-caries-nose-palate-skull-pain-iritis-tongue-cracked-teeth-marks",
+    "explanation": "Syphilinum এ অস্থির ক্ষয় হয়, নাকের বা তালুর হাড়ের ক্ষয় ও পচনশীল ক্ষত হয়, মাথার খুলিতে প্রচণ্ড যন্ত্রণা হয়, দীর্ঘস্থায়ী চোখের প্রদাহ ও রাতে চোখের যন্ত্রণা বৃদ্ধি হয়, জিহ্বা ফাটা ফাটা হয় ও তাতে দাঁতের ছাপ থাকে।"
+  },
+  {
+    "id": "syphilinum-med-19",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চরম হতাশা, আরোগ্য লাভের আশা পরিত্যাগ করা, আত্মহত্যা করার প্রবল ইচ্ছা থাকা সত্ত্বেও অন্ধকারের ভয়", "mid": "sym-syphilinum-despair-hopeless-suicidal-desire-fear-dark"},
+      {"text": "মন সবসময় আশায় ভরা থাকে, হতাশা থাকে না", "mid": "sym-mind-hopeful-no-despair"},
+      {"text": "আত্মহত্যার ইচ্ছা নেই, অন্ধকার ভালো লাগে", "mid": "sym-no-suicidal-dark-enjoy"},
+      {"text": "হতাশা থাকলেও আরোগ্যের আশা থাকে", "mid": "sym-despair-hope-remains"}
+    ],
+    "answer": "sym-syphilinum-despair-hopeless-suicidal-desire-fear-dark",
+    "explanation": "Syphilinum এ চরম হতাশা থাকে, আরোগ্য লাভের আশা পরিত্যাগ করে, আত্মহত্যা করার প্রবল ইচ্ছা থাকা সত্ত্বেও অন্ধকারের ভয় থাকে।"
+  },
+  {
+    "id": "syphilinum-med-20",
+    "stem": "নিচের কোনটি Syphilinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সমুদ্র তীরে উপশম, গ্রীষ্মকালে উপশম, দিনে বৃদ্ধি, ঠান্ডা বাতাসে বৃদ্ধি", "mid": "sym-seashore-amel-summer-amel-day-agg-cold-agg"},
+      {"text": "নড়াচড়া করলে বৃদ্ধি, দিনের বেলা বৃদ্ধি", "mid": "sym-motion-agg-day-agg"},
+      {"text": "সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত, সমুদ্র তীরে ও গ্রীষ্মকালে বৃদ্ধি, দিনের বেলা, নড়াচড়া করলে ও ঠান্ডা বাতাসে উপশম", "mid": "sym-syphilinum-agg-sunset-sunrise-seashore-summer-amel-day-motion-cold-air"},
+      {"text": "রাতে উপশম, সমুদ্র তীরে বৃদ্ধি হয় না", "mid": "sym-night-amel-seashore-no-agg"}
+    ],
+    "answer": "sym-syphilinum-agg-sunset-sunrise-seashore-summer-amel-day-motion-cold-air",
+    "explanation": "Syphilinum এ সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত, সমুদ্র তীরে এবং গ্রীষ্মকালে বৃদ্ধি হয়, দিনের বেলা, নড়াচড়া করলে এবং ঠান্ডা বাতাসে উপশম হয়।"
+  }
+]

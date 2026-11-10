@@ -1,0 +1,244 @@
+[
+  {
+    "id": "medorrhinum-med-01",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে ঘুমানো", "mid": "sym-knee-chest-position-sleep"},
+      {"text": "লক্ষণ এক পাশ থেকে অন্য পাশে পরিবর্তিত হওয়া", "mid": "sym-alternating-sides"},
+      {"text": "কামোন্মাদ, কাপড় খুলে গোপন অঙ্গ দেখানো", "mid": "sym-erotic-mania-naked-exposing"},
+      {"text": "সর্বপ্রকার জ্বরের প্রথম অবস্থায় উপযোগী", "mid": "sym-first-stage-of-all-fevers"}
+    ],
+    "answer": "sym-knee-chest-position-sleep",
+    "explanation": "Medorrhinum-এর প্রধান লক্ষণ হলো রোগী বা শিশু উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে (Knee-chest position) ঘুমায়।"
+  },
+  {
+    "id": "medorrhinum-med-02",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পায়ের তলায় প্রচণ্ড জ্বালা, রাতে বিছানার বাইরে পা বের করে রাখে", "mid": "sym-burning-soles-feet-out-of-bed"},
+      {"text": "গলব্যথা যা এক পাশ থেকে অন্য পাশে যায়", "mid": "sym-sore-throat-alternating-sides"},
+      {"text": "যৌন অঙ্গে বারবার হাত দেওয়া ও অশ্লীল গান গাওয়া", "mid": "sym-masturbation-obscene-songs"},
+      {"text": "প্রদাহিত স্থান উত্তপ্ত, লাল, দপদপানি ও বেদনাযুক্ত", "mid": "sym-inflamed-part-hot-red-throbbing-painful"}
+    ],
+    "answer": "sym-burning-soles-feet-out-of-bed",
+    "explanation": "Medorrhinum-এ পায়ের তলায় প্রচণ্ড জ্বালাভাব হয় এবং রাতে রোগী বিছানার বাইরে পা বের করে রাখে।"
+  },
+  {
+    "id": "medorrhinum-med-03",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সময় খুব ধীরে চলে মনে হওয়া ও সব কাজে চরম তাড়াহুড়ো", "mid": "sym-time-passes-slowly-great-hurry"},
+      {"text": "খুব ভুলো মন ও অমনোযোগী, লেখার সময় ভুল করা", "mid": "sym-forgetful-inattentive-mistakes-writing"},
+      {"text": "রাতে শোয়ার পর আক্ষেপকর কাশি, উঠে বসলে উপশম", "mid": "sym-convulsive-cough-lying-down-night"},
+      {"text": "স্তন্যদানকালে স্তন থেকে পিঠ পর্যন্ত টান লাগার মতো ব্যথা", "mid": "sym-pain-nipple-to-back-during-nursing"}
+    ],
+    "answer": "sym-time-passes-slowly-great-hurry",
+    "explanation": "Medorrhinum-এ রোগীর মনে হয় সময় যেন কাটছেই না, অথচ সে সব কাজে চরম তাড়াহুড়ো করে।"
+  },
+  {
+    "id": "medorrhinum-med-04",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বলার সময় নাম বা পরিচিত শব্দ ভুলে যাওয়া", "mid": "sym-forgets-names-words-while-talking"},
+      {"text": "নিজেকে নীচু ও অযোগ্য মনে করা, হতাশা", "mid": "sym-feels-worthless-inferior-depressed"},
+      {"text": "গলায় চুলকানি, মনে হয় আলজিহ্বা দীর্ঘ হয়েছে", "mid": "sym-tickling-throat-sensation-elongated-uvula"},
+      {"text": "পেশীতে আঘাত, পেশী শিথিল, স্ফীত ও রক্ত জমাট", "mid": "sym-muscle-injury-swollen-bruised"}
+    ],
+    "answer": "sym-forgets-names-words-while-talking",
+    "explanation": "Medorrhinum-এ দুর্বল স্মৃতিশক্তি থাকে; রোগী কথা বলার সময় নাম বা অতি পরিচিত শব্দ ভুলে যায়।"
+  },
+  {
+    "id": "medorrhinum-med-05",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সমুদ্রতীরে উপশম", "mid": "sym-amelioration-at-seashore"},
+      {"text": "স্তনে ব্যথা, ফোলা (Mastitis) ও দুধ শুকিয়ে যাওয়া", "mid": "sym-mastitis-breast-pain-milk-suppression"},
+      {"text": "হিংসা, সন্দেহপ্রবণতা ও বিরবির করে বকা", "mid": "sym-jealousy-suspicion-muttering"},
+      {"text": "অস্ত্রের আঘাতে বা হঠাৎ নাক দিয়ে উজ্জ্বল লাল রক্তস্রাব", "mid": "sym-bright-red-hemorrhage-nose"}
+    ],
+    "answer": "sym-amelioration-at-seashore",
+    "explanation": "Medorrhinum-এর লক্ষণ সমুদ্রের ঠাণ্ডা ও আর্দ্র বাতাসে জাদুর মতো কমে যায়।"
+  },
+  {
+    "id": "medorrhinum-med-06",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি", "mid": "sym-worse-sunrise-to-sunset"},
+      {"text": "মাসিকের আগে ও সময়ে লক্ষণ বৃদ্ধি", "mid": "sym-worse-before-and-during-menses"},
+      {"text": "স্বামী বা স্ত্রীর চরিত্রে সন্দেহ প্রকাশ", "mid": "sym-suspicion-of-spouse-fidelity"},
+      {"text": "অজীর্ণ ও খাদ্যের সাথে বমি", "mid": "sym-indigestion-vomiting-food"}
+    ],
+    "answer": "sym-worse-sunrise-to-sunset",
+    "explanation": "Medorrhinum-এর লক্ষণ সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি পায় এবং রাতে বা সন্ধ্যায় রোগী ভালো থাকে।"
+  },
+  {
+    "id": "medorrhinum-med-07",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মিষ্টি, নোনতা, টক ও কাঁচা কুচো বরফ খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sweets-salt-sour-ice"},
+      {"text": "সাপ দেখার ভয় বা অদ্ভুত দৃষ্টিভ্রম", "mid": "sym-fear-of-snakes-visions"},
+      {"text": "কাল্পনিক দৃশ্য দেখা ও কাল্পনিক অত্যাচারের অভিযোগ", "mid": "sym-hallucinations-complains-of-persecution"},
+      {"text": "স্বরভঙ্গ ও প্রসবের পর ভ্যাদাল ব্যথা, সঞ্চালনে বৃদ্ধি ঠান্ডায় উপশম", "mid": "sym-hoarseness-after-pains-worse-motion-better-cold"}
+    ],
+    "answer": "sym-craving-sweets-salt-sour-ice",
+    "explanation": "Medorrhinum-এ মিষ্টি, নুন, টক, কাঁচা কুচো বরফ এবং ঠান্ডা জলের প্রতি তীব্র লোভ থাকে।"
+  },
+  {
+    "id": "medorrhinum-med-08",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চাপা পড়া প্রমেহের পর বাতের ব্যথা, হৃদরোগ বা হাঁপানি", "mid": "sym-suppressed-gonorrhoea-sequelae"},
+      {"text": "শরীরের বিভিন্ন অংশে উড়ন্ত ব্যথা", "mid": "sym-wandering-pains"},
+      {"text": "কেউ তাকে বিষ প্রয়োগ করবে এমন ধারণা", "mid": "sym-fear-of-being-poisoned"},
+      {"text": "রক্তাল্পনায় ফ্যাকাশে চেহারা ও সহজে ক্লান্তি", "mid": "sym-pale-face-easy-fatigue-anaemia"}
+    ],
+    "answer": "sym-suppressed-gonorrhoea-sequelae",
+    "explanation": "Medorrhinum অতীতে প্রমেহ বা গণোরিয়ার স্রাব চাপা দেওয়ার পর থেকে বাতের ব্যথা, হৃদরোগ বা হাঁপানি দেখা দিলে গভীর ক্রিয়াশীল।"
+  },
+  {
+    "id": "medorrhinum-med-09",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পায়ের গোড়ালিতে সূঁচ ফোটার মতো ব্যথা ও জ্বালা", "mid": "sym-heel-pain-burning-stitching"},
+      {"text": "মাথাব্যথা যা পাশ পরিবর্তন করে", "mid": "sym-headache-alternating-sides"},
+      {"text": "অত্যধিক প্রফুল্লতা, প্রত্যেক বিষয়ে হাস্যরস ও উচ্চস্বরে হাসা", "mid": "sym-excessive-mirth-laughing-loudly"},
+      {"text": "দ্রুত কিন্তু স্পর্শে দুর্বল নাড়ি", "mid": "sym-rapid-weak-pulse"}
+    ],
+    "answer": "sym-heel-pain-burning-stitching",
+    "explanation": "Medorrhinum-এ পায়ের তলায় ও গোড়ালিতে তীব্র সূঁচ ফোটার মতো ব্যথা ও জ্বালা থাকে।"
+  },
+  {
+    "id": "medorrhinum-med-10",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চরম তাড়াহুড়োপ্রবণতা, মনে হয় সময়ের পেছনে পড়ে যাচ্ছে", "mid": "sym-impulsive-hurried-feeling-behind-time"},
+      {"text": "রাগের আক্রমণ ও একা থাকতে ভয়", "mid": "sym-fits-of-anger-fear-of-being-alone"},
+      {"text": "অতিরিক্ত নিদ্রা ও বিছানা খোঁটা", "mid": "sym-excessive-sleep-picking-bedclothes"},
+      {"text": "জয়েন্ট ও মাংসপেশিতে কামড়ানো ব্যথা, নড়াচড়ায় বৃদ্ধি", "mid": "sym-cramping-pain-joints-muscles-worse-motion"}
+    ],
+    "answer": "sym-impulsive-hurried-feeling-behind-time",
+    "explanation": "Medorrhinum-এ রোগী চরম তাড়াহুড়োপ্রবণ এবং সবসময় মনে করে সে সময়ের পেছনে পড়ে যাচ্ছে।"
+  },
+  {
+    "id": "medorrhinum-med-11",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনে হয় কেউ পেছনে দাঁড়িয়ে আছে বা সে উন্মাদ হয়ে যাবে", "mid": "sym-feels-someone-behind-fear-insanity"},
+      {"text": "গিলতে কষ্ট ও গলা ফুলে যাওয়া", "mid": "sym-difficult-swallowing-swollen-throat"},
+      {"text": "উত্তেজনাপ্রবণ, খিটখিটে ও পেশিসমূহের খিঁচুনি", "mid": "sym-excitable-irritable-muscle-twitching"},
+      {"text": "মানসিকভাবে অত্যন্ত সংবেদনশীল ও খিটখিটে", "mid": "sym-oversensitive-irritable"}
+    ],
+    "answer": "sym-feels-someone-behind-fear-insanity",
+    "explanation": "Medorrhinum-এ রোগীর মনে হয় কেউ তার পেছনে দাঁড়িয়ে আছে অথবা সে উন্মাদ হয়ে যাবে।"
+  },
+  {
+    "id": "medorrhinum-med-12",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্যতেই ক্ষিপ্ত হওয়া ও সহানুভূতিতে বিরক্তি", "mid": "sym-irritable-aversion-to-sympathy"},
+      {"text": "অসাড়ে মলমূত্র ত্যাগ", "mid": "sym-involuntary-stool-urine"},
+      {"text": "সামান্য কারণেই বিচলিত হয়ে পড়া ও সর্বদা উত্তেজনা", "mid": "sym-excitable-slight-cause"},
+      {"text": "পেটের ভেতর সারাক্ষণ গড়গড় শব্দ", "mid": "sym-gurgling-abdomen"}
+    ],
+    "answer": "sym-irritable-aversion-to-sympathy",
+    "explanation": "Medorrhinum-এ তীব্র খিটখিটে মেজাজ থাকে, সামান্যতেই রোগী ক্ষিপ্ত হয় এবং সহানুভূতি জানালে বিরক্তি প্রকাশ করে।"
+  },
+  {
+    "id": "medorrhinum-med-13",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বংশগত সাইকোটিক হাঁপানি, ভোরে বৃদ্ধি, উপুড় হয়ে শুলে আরাম", "mid": "sym-hereditary-asthma-worse-early-morning-better-lying-face-down"},
+      {"text": "অত্যন্ত পিপাসা কিন্তু পানি পানে অনিহা", "mid": "sym-intense-thirst-aversion-to-water"},
+      {"text": "কথা বলতে বা কাজে মনোযোগ দিতে অনিচ্ছা", "mid": "sym-aversion-to-talk-and-mental-work"},
+      {"text": "অত্যন্ত পাতলা হলুদাভ মল প্রচুর পরিমাণে নির্গত হওয়া", "mid": "sym-watery-yellow-profuse-stool"}
+    ],
+    "answer": "sym-hereditary-asthma-worse-early-morning-better-lying-face-down",
+    "explanation": "Medorrhinum বংশগত সাইকোটিক হাঁপানিতে কার্যকর; গভীর রাতে বা ভোরের দিকে শ্বাসকষ্ট বাড়ে এবং উপুড় হয়ে শুলে আরাম পায়।"
+  },
+  {
+    "id": "medorrhinum-med-14",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রস্রাবে তীব্র ঝাল ও দুর্গন্ধ", "mid": "sym-urine-burning-offensive"},
+      {"text": "বস্ত্রহীন থাকার প্রবণতা, নগ্ন হতে লজ্জা না পাওয়া", "mid": "sym-immodesty-wants-to-be-naked"},
+      {"text": "রাতে ঘুমের মধ্যে অস্থিরতা ও আবল-তাবল বকা", "mid": "sym-restless-sleep-delirious-talk"},
+      {"text": "স্তনবৃন্তের ভেতরে তীব্র ব্যথা যা পিঠের স্ক্যাপুলা পর্যন্ত ছড়ায়", "mid": "sym-nipple-pain-radiating-to-scapula"}
+    ],
+    "answer": "sym-urine-burning-offensive",
+    "explanation": "Medorrhinum-এ প্রস্রাবে তীব্র ঝাল ও দুর্গন্ধ থাকে।"
+  },
+  {
+    "id": "medorrhinum-med-15",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুদের রাতে বিছানায় মূত্রত্যাগ", "mid": "sym-bed-wetting-children"},
+      {"text": "মাংসপেশির অনবরত কাঁপুনি ও ঝাঁকুনি", "mid": "sym-twitching-jerking-muscles"},
+      {"text": "জ্বরের প্রাথমিক অবস্থায় গাল দুটো লাল হওয়া", "mid": "sym-flushed-face-early-fever"},
+      {"text": "সারাক্ষণ কান্নাকাটি ও পাগল হয়ে যাওয়ার ভয়", "mid": "sym-weeping-fear-of-insanity"}
+    ],
+    "answer": "sym-bed-wetting-children",
+    "explanation": "Medorrhinum-এ শিশুদের রাত্রে বিছানায় মূত্রত্যাগ (Bed-wetting) হয়।"
+  },
+  {
+    "id": "medorrhinum-med-16",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নারীদের ডিম্বাশয়ে তীব্র সূঁচ ফোটানো ব্যথা ও জরায়ুপ্রদাহ", "mid": "sym-ovarian-stitching-pain-uterine-inflammation"},
+      {"text": "প্রচণ্ড বকবক ও অশ্লীল কথা বলা", "mid": "sym-loquacity-obscene-talk"},
+      {"text": "কানের ভেতর দপদপানি ব্যথা ও কান লাল হয়ে ফুলে যাওয়া", "mid": "sym-ear-throbbing-pain-red-swollen"},
+      {"text": "প্রচুর কথা বলার প্রবণতা, এক বিষয় থেকে অন্য বিষয়ে অনবরত কথা বলা", "mid": "sym-loquacity"}
+    ],
+    "answer": "sym-ovarian-stitching-pain-uterine-inflammation",
+    "explanation": "Medorrhinum-এ নারীদের ডিম্বাশয়ে তীব্র সূঁচ ফোটানো ব্যথা ও জরায়ুপ্রদাহ দেখা যায়।"
+  },
+  {
+    "id": "medorrhinum-med-17",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্রনিক বাতের ব্যথায় গাঁট ফুলে শক্ত ও বিকৃত হওয়া", "mid": "sym-chronic-rheumatism-swollen-deformed-joints"},
+      {"text": "অন্ধকারে ভয়, মনে হয় কেউ তাড়া করছে ও কাল্পনিক জিনিসের সাথে কথা বলা", "mid": "sym-fear-darkness-pursued-talks-to-imaginary"},
+      {"text": "সর্দিতে নাক বন্ধ ও বুকে ব্যথাযুক্ত কাশি", "mid": "sym-coryza-nasal-blocking-painful-cough"},
+      {"text": "খাওয়া বা পান করার পরপরই, গরমে ও রাতে বৃদ্ধি", "mid": "sym-after-eating-heat-night-agg"}
+    ],
+    "answer": "sym-chronic-rheumatism-swollen-deformed-joints",
+    "explanation": "Medorrhinum-এ ক্রনিক বাতের ব্যথায় গাঁটগুলো ফুলে শক্ত ও বিকৃত হয়ে যায়; সমুদ্রের পাড়ে গেলে ব্যথা কমে।"
+  },
+  {
+    "id": "medorrhinum-med-18",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুদের মলদ্বারের চারপাশ লাল হয়ে ছাল ওঠা ও মলত্যাগে চুলকানি", "mid": "sym-red-excoriated-anus-itching-stool"},
+      {"text": "প্রেমের ব্যর্থতা বা ঈর্ষা থেকে মানসিক রোগ", "mid": "sym-mental-disease-from-love-disappointment-jealousy"},
+      {"text": "গলা লাল হয়ে ফুলে যাওয়া ও গিলতে কষ্ট হওয়া", "mid": "sym-throat-red-swollen-difficult-swallowing"},
+      {"text": "ঘুমের পর ও মৃদু চাপে উপশম", "mid": "sym-sleep-and-gentle-pressure-amel"}
+    ],
+    "answer": "sym-red-excoriated-anus-itching-stool",
+    "explanation": "Medorrhinum-এ শিশুদের মলদ্বারের চারপাশ লাল হয়ে ছাল উঠে যায় এবং মলত্যাগের সময় প্রচণ্ড চুলকানি ও জ্বালা হয়।"
+  },
+  {
+    "id": "medorrhinum-med-19",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রোগের কথা ভাবলে রোগ বৃদ্ধি", "mid": "sym-complaints-worse-from-thinking-about-them"},
+      {"text": "চোখ বড় বড় করে তাকিয়ে থাকা ও সব কিছু বড় বা রঙিন দেখা", "mid": "sym-staring-eyes-objects-look-large-colored"},
+      {"text": "রাত ৪টা থেকে ৬টার মধ্যে বৃদ্ধি", "mid": "sym-worse-4-to-6-am"},
+      {"text": "শুষ্ক ও ঠান্ডা আবহাওয়ায় বৃদ্ধি, আর্দ্র আবহাওয়ায় উপশম", "mid": "sym-dry-cold-agg-damp-amel"}
+    ],
+    "answer": "sym-complaints-worse-from-thinking-about-them",
+    "explanation": "Medorrhinum-এর লক্ষণ চিন্তা করলে, অর্থাৎ রোগের কথা ভাবলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "medorrhinum-med-20",
+    "stem": "নিচের কোনটি Medorrhinum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উদ্বেগ ও বিষণ্ণতা, মনে হয় কোনো অমঙ্গল ঘটবে বা বড় অপরাধ করেছে", "mid": "sym-anxiety-depression-fear-misfortune-guilt"},
+      {"text": "রাতে, শোয়ার পর, ঋতুস্রাবের সময় ও মানসিক উত্তেজনায় বৃদ্ধি", "mid": "sym-night-lying-menses-excitement-agg"},
+      {"text": "বিশ্রামে, ঠান্ডার প্রয়োগে ও ধীরে হাঁটলে উপশম", "mid": "sym-rest-cold-application-slow-walking-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"}
+    ],
+    "answer": "sym-anxiety-depression-fear-misfortune-guilt",
+    "explanation": "Medorrhinum-এ উদ্বেগ ও বিষণ্ণতা থাকে; সবসময় মনে হয় কোনো অমঙ্গল ঘটতে চলেছে অথবা সে কোনো বড় অপরাধ করেছে।"
+  }
+]
+
+

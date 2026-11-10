@@ -1,0 +1,242 @@
+[
+  {
+    "id": "baryta-med-01",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শারীরিকভাবে খর্বকায় ও মানসিকভাবে অপরিণত, বয়সের তুলনায় বৃদ্ধি কম", "mid": "sym-baryta-dwarfish-undeveloped"},
+      {"text": "শারীরিকভাবে লম্বা ও বুদ্ধিমান", "mid": "sym-tall-intelligent"},
+      {"text": "দ্রুত বেড়ে ওঠে", "mid": "sym-fast-growth"},
+      {"text": "বয়সের তুলনায় বেশি বুদ্ধি", "mid": "sym-precocious"}
+    ],
+    "answer": "sym-baryta-dwarfish-undeveloped",
+    "explanation": "Baryta Carbonica-তে শিশু শারীরিক ও মানসিকভাবে খর্বকায় থাকে।"
+  },
+  {
+    "id": "baryta-med-02",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘাড় ও থুতনির গ্রন্থি ও টনসিল সহজেই ফুলে শক্ত হয়ে যায়", "mid": "sym-baryta-glands-tonsils-swell-hard"},
+      {"text": "গ্রন্থি একদম ফোলে না", "mid": "sym-no-gland-swelling"},
+      {"text": "গ্রন্থি ফুলে পেকে যায় ও ফেটে যায়", "mid": "sym-gland-suppurate-burst"},
+      {"text": "শুধু কুঁচকির গ্রন্থি ফোলে", "mid": "sym-inguinal-gland-only"}
+    ],
+    "answer": "sym-baryta-glands-tonsils-swell-hard",
+    "explanation": "Baryta Carbonica-তে টনসিল ও লিম্ফ গ্ল্যান্ড সহজে ফুলে শক্ত হয়।"
+  },
+  {
+    "id": "baryta-med-03",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অকাল বার্ধক্য, অল্প বয়সে বৃদ্ধের মতো, বৃদ্ধ বয়সে শিশুর মতো আচরণ", "mid": "sym-baryta-premature-old-age-second-childhood"},
+      {"text": "সবসময় তরুণ দেখায়", "mid": "sym-always-young-look"},
+      {"text": "বয়স অনুযায়ী স্বাভাবিক", "mid": "sym-age-normal"},
+      {"text": "শুধু বৃদ্ধদের রোগ", "mid": "sym-only-old-age"}
+    ],
+    "answer": "sym-baryta-premature-old-age-second-childhood",
+    "explanation": "Baryta-তে অকাল বার্ধক্য ও বৃদ্ধ বয়সে second childhood দেখা যায়।"
+  },
+  {
+    "id": "baryta-med-04",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অপরিচিত লোক দেখলে ভয় পায় ও লুকিয়ে পড়ে, লজ্জাশীলতা", "mid": "sym-baryta-fear-strangers-hides-bashful"},
+      {"text": "অপরিচিতদের সাথে মিশতে ভালোবাসে", "mid": "sym-loves-strangers"},
+      {"text": "সবার সামনে কথা বলতে ভালোবাসে", "mid": "sym-loves-public-speaking"},
+      {"text": "ভিড় পছন্দ করে", "mid": "sym-loves-crowd"}
+    ],
+    "answer": "sym-baryta-fear-strangers-hides-bashful",
+    "explanation": "Baryta Carbonica রোগী লজ্জাশীল ও অপরিচিত লোকের ভয়ে লুকায়।"
+  },
+  {
+    "id": "baryta-med-05",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পড়াশোনায় অমনোযোগী, শিখতে অনেক সময় লাগে, স্মৃতিশক্তির অভাব", "mid": "sym-baryta-dull-learning-memory-weak"},
+      {"text": "পড়াশোনায় অত্যন্ত মেধাবী", "mid": "sym-very-brilliant-study"},
+      {"text": "একবার পড়লেই মনে থাকে", "mid": "sym-once-read-remember"},
+      {"text": "গণিতে খুব ভালো", "mid": "sym-good-math"}
+    ],
+    "answer": "sym-baryta-dull-learning-memory-weak",
+    "explanation": "Baryta-তে স্মৃতিশক্তি দুর্বল ও শেখার ক্ষমতা কম থাকে।"
+  },
+  {
+    "id": "baryta-med-06",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্য ঠান্ডাতেই টনসিল ফুলে পুঁজ হওয়ার প্রবণতা", "mid": "sym-baryta-tonsil-cold-quinsy"},
+      {"text": "ঠান্ডায় টনসিল ভালো থাকে", "mid": "sym-tonsil-better-cold"},
+      {"text": "টনসিল কখনো ফোলে না", "mid": "sym-never-tonsil-swelling"},
+      {"text": "টনসিল কেটে ফেলতে হয়", "mid": "sym-tonsillectomy-needed"}
+    ],
+    "answer": "sym-baryta-tonsil-cold-quinsy",
+    "explanation": "Baryta-তে সামান্য ঠান্ডাতেই টনসিল ফুলে quinsy হয়।"
+  },
+  {
+    "id": "baryta-med-07",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুদের মুখ দিয়ে অনবরত লালা ঝরে", "mid": "sym-baryta-drooling-children"},
+      {"text": "মুখ একদম শুকনো থাকে", "mid": "sym-mouth-dry"},
+      {"text": "লালা ঘন ও হলুদ", "mid": "sym-saliva-thick-yellow"},
+      {"text": "লালা মিষ্টি স্বাদ", "mid": "sym-saliva-sweet"}
+    ],
+    "answer": "sym-baryta-drooling-children",
+    "explanation": "Baryta শিশুদের মুখ দিয়ে লালা পড়া একটি লক্ষণ।"
+  },
+  {
+    "id": "baryta-med-08",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সিদ্ধান্তহীনতা, আত্মবিশ্বাসের অভাব, দ্বিধাদ্বন্দ্ব", "mid": "sym-baryta-indecisive-lack-confidence"},
+      {"text": "অত্যন্ত আত্মবিশ্বাসী", "mid": "sym-very-confident"},
+      {"text": "দ্রুত সিদ্ধান্ত নেয়", "mid": "sym-quick-decision"},
+      {"text": "নেতৃত্ব দিতে ভালোবাসে", "mid": "sym-loves-leadership"}
+    ],
+    "answer": "sym-baryta-indecisive-lack-confidence",
+    "explanation": "Baryta রোগী সিদ্ধান্তহীনতায় ভোগে ও আত্মবিশ্বাস কম।"
+  },
+  {
+    "id": "baryta-med-09",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "টনসিল এত বড় যে শক্ত খাবার গিলতে পারে না", "mid": "sym-baryta-tonsil-huge-cannot-swallow-solid"},
+      {"text": "তরল খাবার গিলতে পারে না", "mid": "sym-cannot-swallow-liquid"},
+      {"text": "গিলতে কোনো কষ্ট নেই", "mid": "sym-no-dysphagia"},
+      {"text": "শুধু ঠান্ডা খাবার গিলতে পারে", "mid": "sym-only-cold-food-swallow"}
+    ],
+    "answer": "sym-baryta-tonsil-huge-cannot-swallow-solid",
+    "explanation": "Baryta-তে টনসিল এত বড় হয় যে শক্ত খাবার গিলতে কষ্ট হয়।"
+  },
+  {
+    "id": "baryta-med-10",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধ বয়সের উচ্চ রক্তচাপ ও ধমনীর কাঠিন্য, arteriosclerosis", "mid": "sym-baryta-old-age-hypertension-arteriosclerosis"},
+      {"text": "অল্প বয়সে নিম্ন রক্তচাপ", "mid": "sym-young-low-bp"},
+      {"text": "রক্তচাপ সবসময় স্বাভাবিক", "mid": "sym-bp-always-normal"},
+      {"text": "রক্তচাপ বাড়ে না", "mid": "sym-no-hypertension"}
+    ],
+    "answer": "sym-baryta-old-age-hypertension-arteriosclerosis",
+    "explanation": "Baryta বৃদ্ধদের উচ্চ রক্তচাপ ও ধমনীর কাঠিন্যে ব্যবহৃত হয়।"
+  },
+  {
+    "id": "baryta-med-11",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুদের পেট বড় ও শক্ত, হাত-পা শুকনো, pot-bellied", "mid": "sym-baryta-pot-bellied-thin-limbs"},
+      {"text": "পেট ছোট ও পাতলা", "mid": "sym-small-belly"},
+      {"text": "সারা শরীর মোটা", "mid": "sym-whole-body-fat"},
+      {"text": "পেটে কোনো সমস্যা নেই", "mid": "sym-no-abdomen-issue"}
+    ],
+    "answer": "sym-baryta-pot-bellied-thin-limbs",
+    "explanation": "Baryta শিশুদের পেট বড় শক্ত কিন্তু অঙ্গ শুকনো থাকে।"
+  },
+  {
+    "id": "baryta-med-12",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পায়ের ঘাম অত্যন্ত দুর্গন্ধযুক্ত, অবদমনে রোগ বাড়ে", "mid": "sym-baryta-foot-sweat-fetid-suppression-agg"},
+      {"text": "পায়ে ঘাম হয় না", "mid": "sym-no-foot-sweat"},
+      {"text": "পায়ের ঘাম সুগন্ধযুক্ত", "mid": "sym-foot-sweat-fragrant"},
+      {"text": "হাতে ঘাম বেশি", "mid": "sym-hand-sweat-more"}
+    ],
+    "answer": "sym-baryta-foot-sweat-fetid-suppression-agg",
+    "explanation": "Baryta-তে পায়ের ঘাম দুর্গন্ধযুক্ত এবং চাপা পড়লে রোগ বাড়ে।"
+  },
+  {
+    "id": "baryta-med-13",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: ঠান্ডায়, ভেজা আবহাওয়ায়, বাম পাশে শুলে, মাথা ধুলে", "mid": "sym-baryta-agg-cold-wet-left-side-washing-head"},
+      {"text": "বৃদ্ধি: গরমে ও শুষ্ক আবহাওয়ায়", "mid": "sym-agg-heat-dry"},
+      {"text": "বৃদ্ধি: দিনে", "mid": "sym-agg-day"},
+      {"text": "বৃদ্ধি: খোলা বাতাসে", "mid": "sym-agg-open-air"}
+    ],
+    "answer": "sym-baryta-agg-cold-wet-left-side-washing-head",
+    "explanation": "Baryta-র বৃদ্ধি ঠান্ডা, ভেজা, বাম পাশে শোয়া ও মাথা ধোয়ায়।"
+  },
+  {
+    "id": "baryta-med-14",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: খোলা বাতাসে, অন্যমনস্ক থাকলে", "mid": "sym-baryta-amel-open-air-diverted"},
+      {"text": "উপশম: ঠান্ডা বাতাসে বৃদ্ধি", "mid": "sym-amel-cold-agg"},
+      {"text": "উপশম: বদ্ধ ঘরে", "mid": "sym-amel-closed-room"},
+      {"text": "উপশম: ভেজা আবহাওয়ায়", "mid": "sym-amel-wet-weather"}
+    ],
+    "answer": "sym-baryta-amel-open-air-diverted",
+    "explanation": "Baryta খোলা বাতাসে ও অন্যমনস্ক থাকলে উপশম বোধ করে।"
+  },
+  {
+    "id": "baryta-med-15",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চরম শীতকাতর, প্রধানত বাম পার্শ্বে কাজ করে", "mid": "sym-baryta-very-chilly-left-sided"},
+      {"text": "গরমকাতর, ডান পার্শ্ব", "mid": "sym-hot-right"},
+      {"text": "উভয়কাতর", "mid": "sym-both-chilly-hot"},
+      {"text": "শীতকাতর নয়", "mid": "sym-not-chilly"}
+    ],
+    "answer": "sym-baryta-very-chilly-left-sided",
+    "explanation": "Baryta চরম শীতকাতর ও বাম পার্শ্বে বেশি কাজ করে।"
+  },
+  {
+    "id": "baryta-med-16",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ধাতুগত গন্ডমালা দোষ ও সর্দি প্রবণতা", "mid": "sym-baryta-scrofulous-coryza-tendency"},
+      {"text": "গন্ডমালা দোষ নেই", "mid": "sym-no-scrofula"},
+      {"text": "সর্দি হয় না", "mid": "sym-no-coryza"},
+      {"text": "গরমে সর্দি বাড়ে", "mid": "sym-coryza-heat-agg"}
+    ],
+    "answer": "sym-baryta-scrofulous-coryza-tendency",
+    "explanation": "Baryta-তে গন্ডমালা ধাতু ও বারবার সর্দি লাগার প্রবণতা থাকে।"
+  },
+  {
+    "id": "baryta-med-17",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম পাশে শুলে রোগ বৃদ্ধি", "mid": "sym-baryta-agg-lying-left-side"},
+      {"text": "ডান পাশে শুলে বৃদ্ধি", "mid": "sym-agg-right-side-lying"},
+      {"text": "বাম পাশে শুলে উপশম", "mid": "sym-amel-left-side-lying"},
+      {"text": "শোয়ায় কোনো প্রভাব নেই", "mid": "sym-no-effect-lying"}
+    ],
+    "answer": "sym-baryta-agg-lying-left-side",
+    "explanation": "Baryta-তে বাম পাশে শুলে কষ্ট বাড়ে।"
+  },
+  {
+    "id": "baryta-med-18",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিপূরক Dulcamara, সদৃশ Calcarea Carb, Silicea", "mid": "sym-baryta-complementary-dulcamara-similar-calc-sil"},
+      {"text": "পরিপূরক Bryonia", "mid": "sym-complement-bryonia"},
+      {"text": "পরিপূরক Sulphur", "mid": "sym-complement-sulphur"},
+      {"text": "কোনো সম্পর্ক নেই", "mid": "sym-no-relation"}
+    ],
+    "answer": "sym-baryta-complementary-dulcamara-similar-calc-sil",
+    "explanation": "Baryta-র পরিপূরক Dulcamara এবং সদৃশ Calcarea Carb।"
+  },
+  {
+    "id": "baryta-med-19",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অঙ্গসমূহ দূরে দূরে মনে হয়, আকার বড় মনে হয়", "mid": "sym-baryta-limbs-far-large"},
+      {"text": "অঙ্গ ছোট মনে হয়", "mid": "sym-limbs-small"},
+      {"text": "অঙ্গ ভারী মনে হয় না", "mid": "sym-no-heaviness"},
+      {"text": "অঙ্গে কোনো অনুভূতি নেই", "mid": "sym-no-limb-sensation"}
+    ],
+    "answer": "sym-baryta-limbs-far-large",
+    "explanation": "Baryta-তে অঙ্গ দূরে বা বড় মনে হওয়ার অদ্ভুত অনুভূতি থাকতে পারে।"
+  },
+  {
+    "id": "baryta-med-20",
+    "stem": "নিচের কোনটি Baryta Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অপরিচিত মানুষের সামনে আসলে বৃদ্ধি, মাথা ধুলে বৃদ্ধি", "mid": "sym-baryta-agg-strangers-washing-head"},
+      {"text": "অপরিচিতদের সামনে উপশম", "mid": "sym-amel-strangers"},
+      {"text": "মাথা ধুলে উপশম", "mid": "sym-amel-washing-head"},
+      {"text": "মানুষের সামনে কোনো প্রভাব নেই", "mid": "sym-no-effect-people"}
+    ],
+    "answer": "sym-baryta-agg-strangers-washing-head",
+    "explanation": "Baryta-তে অপরিচিতদের সামনে ও মাথা ধুলে বৃদ্ধি ঘটে।"
+  }
+]

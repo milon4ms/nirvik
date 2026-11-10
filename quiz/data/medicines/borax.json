@@ -1,0 +1,246 @@
+[
+  {
+    "id": "borax-med-01",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নিচের দিকে নামার ভয়, শিশু সিঁড়ি দিয়ে নামতে গেলে মাকে জড়িয়ে ধরে", "mid": "sym-fear-downward-motion"},
+      {"text": "অন্যের উপস্থিতিতে মলত্যাগ করতে পারে না", "mid": "sym-inability-defecate-presence"},
+      {"text": "বুকে প্রচুর কফ জমার ঘড়ঘড়ে শব্দ কিন্তু কফ উঠে না", "mid": "sym-rattling-mucus-retained"},
+      {"text": "সর্বপ্রকার স্রাব তীক্ষ্ণ ও হাজানিযুক্ত, ত্বক তুলে ফেলে", "mid": "sym-acrid-discharge-excoriation"}
+    ],
+    "answer": "sym-fear-downward-motion",
+    "explanation": "Borax-এর সবচেয়ে অদ্ভুত ও গুরুত্বপূর্ণ লক্ষণ হলো নিচের দিকে নামার ভয়; শিশু সিঁড়ি দিয়ে নামতে গেলে বা নিচে নামানো হলে ভয়ে মাকে জড়িয়ে ধরে।"
+  },
+  {
+    "id": "borax-med-02",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যেকোনো আকস্মিক শব্দে চমকে ওঠা", "mid": "sym-startles-at-sound"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"}
+    ],
+    "answer": "sym-startles-at-sound",
+    "explanation": "Borax-এ শব্দভীতি আছে; রোগী যেকোনো শব্দে, এমনকি দূরে বাজ পড়লে বা কাগজের শব্দে চমকে ওঠে।"
+  },
+  {
+    "id": "borax-med-03",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশু নিদ্রিত বা দোলনায় চড়া অবস্থায় চমকে ওঠে", "mid": "sym-startles-during-sleep-rocking"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "স্নায়বিক দুর্বলতা ও অকাল বার্ধক্য", "mid": "sym-nervous-weakness-senility"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-startles-during-sleep-rocking",
+    "explanation": "Borax-এ শিশু নিদ্রিত অবস্থায় বা দোলনায় চড়া অবস্থায় হঠাৎ চমকে ওঠে।"
+  },
+  {
+    "id": "borax-med-04",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুর মুখে, প্রসাব নালীতে ও মলদ্বারে ঘা", "mid": "sym-aphthae-mouth-urinary-rectal"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"}
+    ],
+    "answer": "sym-aphthae-mouth-urinary-rectal",
+    "explanation": "Borax-এ শিশুর মুখে, প্রসাব নালীতে ও মলদ্বারে ঘা হয়।"
+  },
+  {
+    "id": "borax-med-05",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলমুত্র ত্যাগের পূর্বে কাঁদা", "mid": "sym-cries-before-defecation-urination"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"},
+      {"text": "অসংলগ্ন কথাবার্তা ও এক বিষয় থেকে দ্রুত অন্য বিষয়ে চলে যাওয়া", "mid": "sym-incoherent-speech"}
+    ],
+    "answer": "sym-cries-before-defecation-urination",
+    "explanation": "Borax-এ শিশু মলমুত্র ত্যাগের পূর্বে কাঁদে।"
+  },
+  {
+    "id": "borax-med-06",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশু যখন দুধ খায়, বোটায় গড়ম লাগে", "mid": "sym-griping-during-nursing"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"},
+      {"text": "শিশু কোলে উঠতে চায় কিন্তু কাউকে কাছে আসতে দিতে চায় না", "mid": "sym-child-wants-lap-repels-approach"}
+    ],
+    "answer": "sym-griping-during-nursing",
+    "explanation": "Borax-এ শিশু যখন দুধ খায় তখন বোটায় গড়ম লাগে।"
+  },
+  {
+    "id": "borax-med-07",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রচুর শ্বেতপ্রদর, ডিমের সাদা অংশের মতো, রানের উপর দিয়ে গড়িয়ে পড়ে", "mid": "sym-leucorrhoea-egg-white"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"},
+      {"text": "চিন্তা ও কল্পনা এসে ব্যতিব্যস্ত করে তোলে", "mid": "sym-thoughts-obsession"},
+      {"text": "অত্যন্ত লজ্জাশীল ও একা থাকতে চায়", "mid": "sym-shy-seclusive"}
+    ],
+    "answer": "sym-leucorrhoea-egg-white",
+    "explanation": "Borax-এ প্রচুর শ্বেতপ্রদর হয় যা ডিমের সাদা অংশের মতো, রানের উপর দিয়ে গড়িয়ে পড়ে এবং গড়ম লাগে।"
+  },
+  {
+    "id": "borax-med-08",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথার চুল ও ভ্রুর চুল জটা লাগা", "mid": "sym-hair-matted-plica"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"}
+    ],
+    "answer": "sym-hair-matted-plica",
+    "explanation": "Borax-এ মাথার চুল ও ভ্রুর চুল পরস্পরের সাথে জট পাকিয়ে যায় (Plica Polonica)।"
+  },
+  {
+    "id": "borax-med-09",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জড়ায়ুর যোনীপথ দিয়ে বের হওয়ার অনুভূতি", "mid": "sym-sensation-womb-escape-vagina"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "বসন্তের মতো গুটি গুটি পুঁজপূর্ণ উদ্ভেদ", "mid": "sym-pustular-eruptions"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-sensation-womb-escape-vagina",
+    "explanation": "Borax-এ জড়ায়ু যোনীপথ দিয়ে বের হয়ে যাওয়ার অনুভূতি হয়।"
+  },
+  {
+    "id": "borax-med-10",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্বপ্নে স্বামীর সাথে যৌনমিলন দেখা", "mid": "sym-dreams-sexual-intercourse"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-dreams-sexual-intercourse",
+    "explanation": "Borax-এ রোগী স্বপ্নে স্বামীর সাথে যৌনমিলন দেখে।"
+  },
+  {
+    "id": "borax-med-11",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখের ভেতর সাদাটে ক্ষত, মুখ অত্যন্ত গরম ও স্পর্শে রক্তপাত", "mid": "sym-aphthae-hot-mouth-bleeding"},
+      {"text": "অন্যের উপস্থিতিতে প্রস্রাব করতে পারে না", "mid": "sym-inability-urinate-presence"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"}
+    ],
+    "answer": "sym-aphthae-hot-mouth-bleeding",
+    "explanation": "Borax-এ মুখের ভেতর সাদাটে ক্ষত হয়, মুখ অত্যন্ত গরম থাকে এবং ক্ষতে সামান্য স্পর্শ করলে রক্তপাত হতে পারে।"
+  },
+  {
+    "id": "borax-med-12",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কানে শোঁ শোঁ শব্দ ও চুলকানি, ঘন পুঁজ নির্গমন", "mid": "sym-ear-tinnitus-itching-pus"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"}
+    ],
+    "answer": "sym-ear-tinnitus-itching-pus",
+    "explanation": "Borax-এ কানে শোঁ শোঁ শব্দ ও চুলকানি হয় এবং কান দিয়ে ঘন পুঁজ নির্গত হতে পারে।"
+  },
+  {
+    "id": "borax-med-13",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতে চোখের পাতা আঠার মতো জুড়ে থাকা", "mid": "sym-eyelids-gummed-night"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"}
+    ],
+    "answer": "sym-eyelids-gummed-night",
+    "explanation": "Borax-এ চোখের পাতার কিনারা লাল হয়ে যায় এবং রাতে চোখের পাতা আঠার মতো জুড়ে থাকে।"
+  },
+  {
+    "id": "borax-med-14",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের পল্লব ভেতরের দিকে বেঁকে যাওয়া (Entropion)", "mid": "sym-entropion"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"}
+    ],
+    "answer": "sym-entropion",
+    "explanation": "Borax-এ চোখের পল্লব ভেতরের দিকে বেঁকে যায় (Entropion)।"
+  },
+  {
+    "id": "borax-med-15",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খাওয়ার পরেই পেটে ব্যথা ও ডায়রিয়া, বিশেষত ফল খেলে", "mid": "sym-diarrhoea-after-eating-fruit"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-diarrhoea-after-eating-fruit",
+    "explanation": "Borax-এ খাওয়ার পরেই পেটে ব্যথা এবং ডায়রিয়া হওয়ার প্রবণতা থাকে, বিশেষ করে ফল খাওয়ার পর সমস্যা বাড়ে।"
+  },
+  {
+    "id": "borax-med-16",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্য আঘাতেই ক্ষত ও পুঁজ জন্মানো (Unhealthy skin)", "mid": "sym-unhealthy-skin-pus"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"},
+      {"text": "খাওয়া-দাওয়ায় উপশম", "mid": "sym-eating-amelioration"}
+    ],
+    "answer": "sym-unhealthy-skin-pus",
+    "explanation": "Borax-এ সামান্য আঘাতেই ক্ষত সৃষ্টি হয় এবং সেখানে পুঁজ জন্মে (Unhealthy skin)।"
+  },
+  {
+    "id": "borax-med-17",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাতের তালুতে ও আঙ্গুলে জ্বালাযুক্ত একজিমা", "mid": "sym-eczema-palms-fingers-burning"},
+      {"text": "টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sour-apples"},
+      {"text": "সর্বপ্রকার স্রাব তীক্ষ্ণ ও হাজানিযুক্ত, ত্বক তুলে ফেলে", "mid": "sym-acrid-discharge-excoriation"},
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয়", "mid": "sym-fear-death-dyspnoea"}
+    ],
+    "answer": "sym-eczema-palms-fingers-burning",
+    "explanation": "Borax-এ হাতের তালুতে এবং আঙ্গুলে জ্বালাযুক্ত একজিমা দেখা দেয়।"
+  },
+  {
+    "id": "borax-med-18",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নিচের দিকে নামার গতিতে বৃদ্ধি", "mid": "sym-downward-motion-agg"},
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-downward-motion-agg",
+    "explanation": "Borax-এর লক্ষণ নিচের দিকে নামার গতিতে, আকস্মিক শব্দে, গরম আবহাওয়ায় এবং ফল (বিশেষত নাশপাতি) খেলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "borax-med-19",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও বিশ্রামে উপশম", "mid": "sym-open-air-rest-amel"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"}
+    ],
+    "answer": "sym-pressure-evening-amel",
+    "explanation": "Borax-এর লক্ষণ জোরে চাপ দিলে, সন্ধ্যার দিকে এবং ঠান্ডা আবহাওয়ায় উপশম হয়।"
+  },
+  {
+    "id": "borax-med-20",
+    "stem": "নিচের কোনটি Borax-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুরা ঘুমের মধ্যে হঠাৎ চিৎকার করে ওঠা ও পাশের ব্যক্তিকে আঁকড়ে ধরা", "mid": "sym-screams-sleep-clutches"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"}
+    ],
+    "answer": "sym-screams-sleep-clutches",
+    "explanation": "Borax-এ শিশুরা ঘুমের মধ্যে হঠাৎ চিৎকার করে ওঠে এবং পাশের ব্যক্তিকে আঁকড়ে ধরে।"
+  }
+]
+
+
+
+

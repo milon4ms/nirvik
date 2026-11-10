@@ -1,0 +1,482 @@
+[
+{
+"id": "rhus-med-01",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বিশ্রামে ব্যথা ও আড়ষ্টতা বৃদ্ধি পাওয়া এবং ক্রমাগত নড়াচড়া করলে (Continued motion) উপশম হওয়া",
+"mid": "sym-rest-agg-motion-amel"
+},
+{
+"text": "নড়াচড়া করলে তীব্র ব্যথা বাড়ে এবং সম্পূর্ণ বিশ্রামে শুয়ে থাকলে আরাম বোধ হয়",
+"mid": "sym-motion-agg-rest-amel"
+},
+{
+"text": "দিনের বেলায় শরীর কর্মক্ষম থাকা এবং রাতের বেলা সম্পূর্ণ ব্যথা দূর হওয়া",
+"mid": "sym-day-active-night-well"
+},
+{
+"text": "হাঁটাহাঁটি করার সময় হঠাৎ পায়ের গিঁট আটকে যাওয়া ও অবশ হয়ে যাওয়া",
+"mid": "sym-walking-joint-lock"
+}
+],
+"answer": "sym-rest-agg-motion-amel",
+"explanation": "Rhus Tox-এর সবচেয়ে বড় নির্দেশক হলো বিশ্রামে ও প্রথম নড়াচড়ায় কষ্ট বাড়লেও ক্রমাগত নড়াচড়া করলে ব্যথা ও আড়ষ্টতা কমে যায়।"
+},
+{
+"id": "rhus-med-02",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগী অত্যন্ত শারীরিক ও মানসিক অস্থিরতা অনুভব করা এবং বিছানায় এপাশ-ওপাশ করা",
+"mid": "sym-extreme-restlessness"
+},
+{
+"text": "শরীরে চরম অবসাদ ও পক্ষাঘাতগ্রস্তের মতো সম্পূর্ণ স্থবির হয়ে থাকা",
+"mid": "sym-extreme-paralytic-lethargy"
+},
+{
+"text": "এক জায়গায় স্থির হয়ে বসে গভীর ধ্যান বা চিন্তায় মগ্ন থাকা",
+"mid": "sym-deep-meditative-stillness"
+},
+{
+"text": "ঘুমের মধ্যে কথা বলা এবং শরীর একদম না নড়ানো",
+"mid": "sym-sleep-talking-still"
+}
+],
+"answer": "sym-extreme-restlessness",
+"explanation": "Rhus Tox রোগী চরম অস্থিরতার শিকার হয়, সে এক জায়গায় স্থির থাকতে পারে না এবং বিছানায় ঘন ঘন এপাশ-ওপাশ করে।"
+},
+{
+"id": "rhus-med-03",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বৃষ্টিতে ভেজা, ঘাম শরীরে বসে যাওয়া বা স্যাঁতসেঁতে আবহাওয়ায় থাকার ফলে অসুস্থ হওয়া",
+"mid": "sym-getting-wet-damp-illness"
+},
+{
+"text": "প্রচণ্ড গরমে দীর্ঘ সময় রোদে ঘোরাঘুরি করার ফলে জ্বর ও মাথাব্যথা হওয়া",
+"mid": "sym-sunstroke-heat-fever"
+},
+{
+"text": "শীতকালে অতিরিক্ত তুষারপাত ও ঠান্ডার সংস্পর্শে এসে নিউমোনিয়া হওয়া",
+"mid": "sym-snow-cold-pneumonia"
+},
+{
+"text": "শুকনো ও ধূলিময় বায়ুতে শ্বাসকষ্ট ও এলার্জিক সর্দি দেখা দেওয়া",
+"mid": "sym-dusty-dry-air-asthma"
+}
+],
+"answer": "sym-getting-wet-damp-illness",
+"explanation": "বৃষ্টিতে ভেজা, ঘাম শরীরে বসে যাওয়া কিংবা স্যাঁতসেঁতে আবহাওয়ার প্রভাবে উদ্ভূত বিভিন্ন রোগের চিকিৎসায় Rhus Tox শ্রেষ্ঠ ওষুধ।"
+},
+{
+"id": "rhus-med-04",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "জিহবা শুকনো ও সাদাটে হলেও ডগায় বা অগ্রভাগে স্পষ্ট একটি ত্রিকোণাকার লাল চিহ্ন থাকা",
+"mid": "sym-tongue-red-triangle-tip"
+},
+{
+"text": "জিহবা সম্পূর্ণ মসৃণ, লাল এবং কোনো আস্তরণ বা দাগ না থাকা",
+"mid": "sym-tongue-smooth-red"
+},
+{
+"text": "জিহবার পেছনের অংশে নোংরা বাদামী আস্তরণ ও তিতা স্বাদ থাকা",
+"mid": "sym-tongue-brown-back"
+},
+{
+"text": "জিহবায় দইয়ের মতো সাদা প্রলেপ ও মিষ্টি নোনা স্বাদ লাগা",
+"mid": "sym-tongue-white-coat"
+}
+],
+"answer": "sym-tongue-red-triangle-tip",
+"explanation": "Rhus Tox রোগীর জিব শুকনো ও সাদা থাকে, তবে এর একটি অনন্য বৈশিষ্ট্য হলো জিবের ডগায় ত্রিভুজের মতো লাল দাগ দেখা যায়।"
+},
+{
+"id": "rhus-med-05",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগী চরম শীতকাতর হওয়া, খোলা বাতাস সহ্য করতে না পারা এবং গরম প্রয়োগে আরাম পাওয়া",
+"mid": "sym-chilly-warm-application-amel"
+},
+{
+"text": "রোগী চরম গরমকাতর হওয়া এবং ঠান্ডা পানিতে গোসল করলে উপশম হওয়া",
+"mid": "sym-hot-patient-cold-water"
+},
+{
+"text": "উভয় আবহাওয়া সমানভাবে সহ্য করা এবং কোনো বিশেষ কাতরতা না থাকা",
+"mid": "sym-ambivert-no-thermal"
+},
+{
+"text": "শুধুমাত্র বসন্তকালে অতিরিক্ত গরম অনুভব করা ও শীত পছন্দ করা",
+"mid": "sym-spring-hot-preference"
+}
+],
+"answer": "sym-chilly-warm-application-amel",
+"explanation": "Rhus Tox অত্যন্ত শীতকাতর প্রকৃতির ওষুধ, এরা ঠান্ডা ও খোলা বাতাস সহ্য করতে পারে না এবং গরম শেক বা কাপড়ে আরাম পায়।"
+},
+{
+"id": "rhus-med-06",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "চর্মে লালচে ফুসকুড়ি বা রসযুক্ত ফোস্কা (Vesicles) ওঠা এবং প্রচণ্ড চুলকানি ও জ্বালাপোড়া হওয়া",
+"mid": "sym-vesicular-eruptions-itching"
+},
+{
+"text": "ত্বক সম্পূর্ণ শুষ্ক, চামড়া ওঠা এবং কোনো চুলকানি বা রস না থাকা",
+"mid": "sym-dry-scaly-skin-no-itch"
+},
+{
+"text": "ত্বকে শক্ত ও বেদনাদায়ক গিট বা টিউমার সদৃশ ফোঁড়া তৈরি হওয়া",
+"mid": "sym-hard-painful-boils"
+},
+{
+"text": "হাতের তালুতে হলুদ রঙের পুঁজভরা দীর্ঘস্থায়ী ক্ষত সৃষ্টি হওয়া",
+"mid": "sym-yellow-pus-palms"
+}
+],
+"answer": "sym-vesicular-eruptions-itching",
+"explanation": "Rhus Tox-এর চর্মরোগে আমবাত বা ছোট ছোট রসযুক্ত ফোস্কা (vesicular eruption) দেখা দেয় যাতে প্রচণ্ড চুলকানি হয়।"
+},
+{
+"id": "rhus-med-07",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "স্বপ্নে অতিরিক্ত শারীরিক পরিশ্রম, সাঁতার কাটা বা নৌকা চালানোর দৃশ্য দেখা",
+"mid": "sym-dreams-labor-swimming"
+},
+{
+"text": "স্বপ্নে হিংস্র বন্য প্রাণী দ্বারা আক্রান্ত হওয়ার ভয়ংকর দৃশ্য দেখা",
+"mid": "sym-dreams-wild-animals"
+},
+{
+"text": "স্বপ্নে উঁচুতে উঠে নিচে পড়ে যাওয়ার তীব্র আতঙ্ক অনুভব করা",
+"mid": "sym-dreams-falling-height"
+},
+{
+"text": "স্বপne আত্মীয়স্বজনের মৃত্যুসংবাদ শুনে অঝোরে কান্না করা",
+"mid": "sym-dreams-death-weeping"
+}
+],
+"answer": "sym-dreams-labor-swimming",
+"explanation": "Rhus Tox রোগীর মানসিক লক্ষণের একটি মজার বৈশিষ্ট্য হলো এরা স্বপ্নে অতিরিক্ত পরিশ্রম, সাঁতার কাটা বা নৌকা চালানোর স্বপ্ন দেখে।"
+},
+{
+"id": "rhus-med-08",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "অতিরিক্ত শারীরিক ক্লান্তি বা পেশিতে টান লাগার ফলে (Sprain or strain) পেশি ও লিগামেন্টে ব্যথা",
+"mid": "sym-sprain-strain-ligament-pain"
+},
+{
+"text": "হাড় ভেঙে যাওয়ার পর ক্যালসিয়াম ঘাটতিজনিত দীর্ঘস্থায়ী তীব্র ব্যথা",
+"mid": "sym-bone-fracture-healing-pain"
+},
+{
+"text": "স্নায়ুর দীর্ঘস্থায়ী অবশ ভাব ও পেশির শক্তি সম্পূর্ণ হ্রাস পাওয়া",
+"mid": "sym-nerve-paralysis-weakness"
+},
+{
+"text": "হাঁটুর জয়েন্টে তরুণাস্থি ক্ষয় হয়ে ঘষা লাগার রিউম্যাটিক সমস্যা",
+"mid": "sym-knee-cartilage-friction"
+}
+],
+"answer": "sym-sprain-strain-ligament-pain",
+"explanation": "ভারী জিনিস তোলা বা অতিরিক্ত ব্যায়ামের ফলে পেশি বা লিগামেন্টে টান বা মচকানোর (sprain/strain) কুফল দূর করতে এটি অত্যন্ত কার্যকর।"
+},
+{
+"id": "rhus-med-09",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ব্রায়োনিয়া (Bryonia) এই ওষুধের পরিপূরক (Complementary) হিসেবে কাজ করা",
+"mid": "sym-bryonia-complementary"
+},
+{
+"text": "পালসেটিলা এর প্রধান কমপ্লিমেন্টারি ওষুধ হিসেবে নির্দেশিত হওয়া",
+"mid": "sym-pulsatilla-comp"
+},
+{
+"text": "সাইলিসিয়া ও কেলি মিউর এর একমাত্র পরিপূরক ওষুধ হিসেবে গণ্য হওয়া",
+"mid": "sym-silicea-kali-comp"
+},
+{
+"text": "সেপিয়া এবং ল্যাকেসিস এর সাথে এর কমপ্লিমেন্টারি সম্পর্ক থাকা",
+"mid": "sym-sepia-lachesis-comp"
+}
+],
+"answer": "sym-bryonia-complementary",
+"explanation": "Rhus Tox-এর প্রধান পরিপূরক (Complementary) ওষুধগুলোর মধ্যে Bryonia অন্যতম।"
+},
+{
+"id": "rhus-med-10",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ক্যামফোরা, বেলাডোনা বা ব্রায়োনিয়া এর প্রতিষেধক (Antidote) হিসেবে কাজ করা",
+"mid": "sym-camphora-belladonna-antidote"
+},
+{
+"text": "নাক্স ভমিকা ও একোনাইট এর অপব্যবহার সম্পূর্ণরূপে দূর করা",
+"mid": "sym-nux-aconite-antidote"
+},
+{
+"text": "আর্সেনিক অ্যালবাম ও সালফার এর ক্রিয়া বিনষ্ট করা",
+"mid": "sym-arsenic-sulphur-antidote"
+},
+{
+"text": "থুজা ও মার্ক সল এর পার্শ্বপ্রতিক্রিয়া নিউট্রালাইজ করা",
+"mid": "sym-thuja-mercsol-antidote"
+}
+],
+"answer": "sym-camphora-antidote",
+"explanation": "Rhus Tox-এর অপใหญ่ বা প্রতিক্রিয়ার প্রতিষেধক (Antidote) হিসেবে Camphora, Belladonna এবং Bryonia ব্যবহৃত হয়।"
+},
+{
+"id": "rhus-med-11",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "এর ল্যাটিন নাম Poison Ivy এবং উৎস উদ্ভিদজাত (বিষ লতা)",
+"mid": "sym-poison-ivy-plant-source"
+},
+{
+"text": "এটি খনিজ লবণ থেকে পরীক্ষিত একটি রাসায়নিক উপাদান",
+"mid": "sym-mineral-salt-source"
+},
+{
+"text": "এটি প্রাণিজ জগৎ থেকে সংগৃহীত বিশেষ ভেষজ নির্যাস",
+"mid": "sym-animal-venom-source"
+},
+{
+"text": "এটি বিভিন্ন সংক্রামক ব্যাধির নোসোড থেকে প্রস্তুত",
+"mid": "sym-nosode-source-plant"
+}
+],
+"answer": "sym-poison-ivy-plant-source",
+"explanation": "Rhus Toxicodendron-এর সাধারণ নাম Poison Ivy এবং এটি উদ্ভিদ জগতের বিষ লতা থেকে প্রস্তুত করা হয়।"
+},
+{
+"id": "rhus-med-12",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "এর মায়াজম সোরা (Psora) ও সাইকোসিস (Sycosis) এবং বাম পাশে ও আড়াআড়িভাবে কাজ করা",
+"mid": "sym-psora-sycosis-left-crossed"
+},
+{
+"text": "এটি বিশুদ্ধ সিফিলিস মায়াজম ও সম্পূর্ণ ডান পাশের লক্ষণপ্রবণ",
+"mid": "sym-syphilis-right-sided"
+},
+{
+"text": "এটি টিউবারকুলার মায়াজমের ওষুধ যা ফুসফুসে বিশেষভাবে আক্রমণ করে",
+"mid": "sym-tubercular-lung-miasm"
+},
+{
+"text": "এটি কোনো নির্দিষ্ট মায়াজমের আওতাভুক্ত নয়",
+"mid": "sym-non-miasmatic-remedy"
+}
+],
+"answer": "sym-psora-sycosis-left-crossed",
+"explanation": "Rhus Tox-এর মায়াজম সোরা ও সাইকোসিস এবং এটি শরীরের বাম পাশে এবং আড়াআড়িভাবে (যেমন বাম হাত ও ডান পা) বেশি কাজ করে।"
+},
+{
+"id": "rhus-med-13",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ক্ষুধা থাকা সত্ত্বেও খাওয়ার কোনো ইচ্ছা বা রুচি না থাকা",
+"mid": "sym-hunger-no-appetite"
+},
+{
+"text": "খাবারের নাম শুনলেই বমি ভাব এবং ক্ষুধা সম্পূর্ণ লোপ পাওয়া",
+"mid": "sym-nausea-food-name"
+},
+{
+"text": "অতিরিক্ত ক্ষুধা ও মিষ্টি খাবার খাওয়ার তীব্র আসক্তি থাকা",
+"mid": "sym-excessive-hunger-sweet"
+},
+{
+"text": "केवल খালি পেটে তীব্র যন্ত্রণাদায়ক খিদে অনুভব করা",
+"mid": "sym-hunger-empty-stomach"
+}
+],
+"answer": "sym-hunger-no-appetite",
+"explanation": "Rhus Tox রোগীর পাকস্থলীর অদ্ভুত লক্ষণ হলো পেটে ক্ষুধা অনুভব হলেও খাবার গ্রহণের তেমন কোনো ইচ্ছা বা রুচি থাকে না।"
+},
+{
+"id": "rhus-med-14",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মাথা ভারী বোধ হওয়া এবং মনে হওয়া মস্তিষ্কের ভেতর জল নড়াচড়া করছে",
+"mid": "sym-head-heavy-water-slosh"
+},
+{
+"text": "মাথার ভেতরে তীব্র হাতুড়ি পেটানোর মতো দপদপে ব্যথা হওয়া",
+"mid": "sym-hammering-headache-throb"
+},
+{
+"text": "সকালে ঘুম থেকে উঠেই সম্পূর্ণ মাথা শূন্য ও ফাঁকা লাগা",
+"mid": "sym-morning-empty-head"
+},
+{
+"text": "কাজের চাপে মাথার তালুতে বরফ রাখার মতো ঠান্ডা অনুভূতি",
+"mid": "sym-cold-vertex-sensation"
+}
+],
+"answer": "sym-head-heavy-water-slosh",
+"explanation": "Rhus Tox-এর মাথাব্যথায় রোগীর মাথা ভারী লাগে এবং নড়াচড়া করলে মনে হয় মস্তিষ্কের ভেতরে যেন জল ছলকে নড়ছে।"
+},
+{
+"id": "rhus-med-15",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "টাইফয়েড জ্বরে রোগীর চরম অস্থিরতা, প্রলাপ বকা এবং সমস্ত হাড় ও পেশিতে প্রচণ্ড ব্যথা",
+"mid": "sym-typhoid-restless-delirium"
+},
+{
+"text": "জ্বরের সময় ঘাম না হওয়া এবং সারা গায়ে আগুন জ্বলার মতো তাপ থাকা",
+"mid": "sym-dry-hot-fever-no-sweat"
+},
+{
+"text": "প্রতি ২৪ ঘণ্টা পর পর ঘড়ি ধরে নির্দিষ্ট সময়ে কাঁপুনি দিয়ে জ্বর আসা",
+"mid": "sym-periodic-chill-fever"
+},
+{
+"text": "সন্ধ্যাবেলা জ্বর বৃদ্ধি পাওয়া এবং সকালে ঘুম ভাঙলে সম্পূর্ণ সুস্থ বোধ করা",
+"mid": "sym-evening-fever-morning-well"
+}
+],
+"answer": "sym-typhoid-restless-delirium",
+"explanation": "Rhus Tox টাইফয়েড জ্বরের একটি অত্যন্ত গুরুত্বপূর্ণ ওষুধ, যেখানে রোগী চরম অস্থির ও প্রলাপ বকে এবং পেশিতে তীব্র ব্যথা থাকে।"
+},
+{
+"id": "rhus-med-16",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগী মারাত্মক আশঙ্কা ও ভয়ে থাকা যে কেউ তাকে বিষ প্রয়োগ করবে বা ক্ষতি করবে",
+"mid": "sym-fear-poisoned-anxiety"
+},
+{
+"text": "নিজের ভবিষ্যৎ জীবনের সফলতা নিয়ে অতিরিক্ত আত্মবিশ্বাসী হওয়া",
+"mid": "sym-overconfident-future"
+},
+{
+"text": "কাউকে বিশ্বাস না করা এবং সবার প্রতি চরম প্রতিহিংসাপরায়ণ হওয়া",
+"mid": "sym-suspicious-revengeful"
+},
+{
+"text": "অপরিচিত মানুষের ভিড়ে হঠাৎ আনন্দিত হয়ে গান গাওয়া",
+"mid": "sym-happy-singing-crowd"
+}
+],
+"answer": "sym-fear-poisoned-anxiety",
+"explanation": "Rhus Tox মানসিক লক্ষণে রোগীর মধ্যে একধরনের ভীতি কাজ করে যে কেউ তাকে বিষ খাইয়ে মেরে ফেলতে পারে বা ক্ষতি করতে চায়।"
+},
+{
+"id": "rhus-med-17",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বৃদ্ধি: বিশ্রামে, প্রথম নড়াচড়ায়, রাতে, ঠান্ডা ও আর্দ্র আবহাওয়ায় এবং পিঠের ওপর ভর দিয়ে শুলে",
+"mid": "sym-agg-rest-first-move-damp"
+},
+{
+"text": "বৃদ্ধি: উন্মুক্ত বাতাসে, সকালে ঘুম থেকে ওঠার পর এবং মিষ্টি খাবার খেলে",
+"mid": "sym-agg-open-air-morning"
+},
+{
+"text": "বৃদ্ধি: গরম প্রয়োগে, ডান পাশে শুলে এবং হালকা হাঁটাচলা করলে",
+"mid": "sym-agg-warm-right-side"
+},
+{
+"text": "বৃদ্ধি: শুকনো আবহাওয়ায়, খাবার খাওয়ার পর এবং রোদ পোহালে",
+"mid": "sym-agg-dry-weather-eating"
+}
+],
+"answer": "sym-agg-rest-first-move-damp",
+"explanation": "Rhus Tox-এর সমস্ত রোগলক্ষণ ও কষ্ট বিশ্রামে, প্রথম নড়াচড়ায়, রাতে এবং আর্দ্র ও ঠান্ডা আবহাওয়ায় বৃদ্ধি পায়।"
+},
+{
+"id": "rhus-med-18",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "উপশম: ক্রমাগত নড়াচড়া করলে, গরম প্রয়োগে, শুষ্ক আবহাওয়ায় এবং শরীর প্রসারিত করলে",
+"mid": "sym-amel-cont-motion-warm-dry"
+},
+{
+"text": "উপশম: সম্পূর্ণ বিশ্রামে শুয়ে থাকলে এবং ঠান্ডা পানি দিয়ে গা মুছলে",
+"mid": "sym-amel-complete-rest-cold"
+},
+{
+"text": "উপশম: স্যাঁতসেঁতে ঘরে অবস্থান করলে এবং ভারী পোশাক গায়ে জড়িয়ে রাখলে",
+"mid": "sym-amel-damp-room-heavy-clothes"
+},
+{
+"text": "উপশম: পেট ভরে খাবার খাওয়ার পর এবং কুঁজো হয়ে বসে থাকলে",
+"mid": "sym-amel-heavy-meal-bent"
+}
+],
+"answer": "sym-amel-cont-motion-warm-dry",
+"explanation": "Rhus Tox রোগীর উপশম ঘটে যখন সে ক্রমাগত নড়াচড়া করে, গরম সেঁক নেয় এবং শুষ্ক আবহাওয়ায় থাকে।"
+},
+{
+"id": "rhus-med-19",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "চর্মরোগে নিম্ন শক্তি এবং বাতের ব্যথায় উচ্চ শক্তি অধিক ফলপ্রসূ হওয়া",
+"mid": "sym-potency-skin-low-joint-high"
+},
+{
+"text": "সকল প্রকার রোগে কেবলমাত্র নিম্ন শক্তি ৩x বা ৬x ব্যবহার করা",
+"mid": "sym-potency-always-low"
+},
+{
+"text": "উচ্চ শক্তি কখনোই বাতের ব্যথায় প্রয়োগ করা নিষিদ্ধ হওয়া",
+"mid": "sym-potency-high-forbidden"
+},
+{
+"text": "চর্মরোগ ও বাত উভয় ক্ষেত্রেই কেবল ১এম শক্তি নির্দিষ্ট নিয়ম মেনে খাওয়া",
+"mid": "sym-potency-only-1m"
+}
+],
+"answer": "sym-potency-skin-low-joint-high",
+"explanation": "ডাঃ বোরিকের নির্দেশ অনুসারে Rhus Tox চর্মরোগে নিম্ন শক্তিতে এবং বাতের তীব্র ব্যথায় উচ্চ শক্তিতে অধিক ফলপ্রসূ হয়।"
+},
+{
+"id": "rhus-med-20",
+"stem": "নিচের কোনটি Rhus Tox-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রাসটক্স এবং ব্রায়োনিয়া পরস্পর শত্রুভাবাপন্ন ঔষধ (Inimical) হওয়ায় সাবধানে ব্যবহার করা",
+"mid": "sym-rhus-bryonia-inimical"
+},
+{
+"text": "রাসটক্স এবং বেলাডোনা একসাথে মিশ্রিত করে খাওয়া বাধ্যতামূলক",
+"mid": "sym-rhus-belladonna-mix"
+},
+{
+"text": "রাসটক্সের সাথে আর্সেনিক অ্যালবাম কখনই একসাথে কাজ করে না",
+"mid": "sym-rhus-arsenic-zero"
+},
+{
+"text": "রাসটক্স এবং পালসেটিলা একটি অপরটির পরম শত্রু ও বিষতুল্য",
+"mid": "sym-rhus-puls-enemy"
+}
+],
+"answer": "sym-rhus-bryonia-inimical",
+"explanation": "হোমিওপ্যাথি মতে Rhus Tox এবং Bryonia পরস্পর শত্রুভাবাপন্ন (Inimical) ওষুধ, তাই একটির পর অন্যটি প্রয়োগে সতর্কতা দরকার।"
+}
+]

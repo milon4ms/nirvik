@@ -1,0 +1,247 @@
+[
+  {
+    "id": "calc-sulph-med-01",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ফোড়া ফেটে যাওয়ার পর ঘন হলুদ ও দলা দলা পুঁজ নির্গত হওয়া", "mid": "sym-thick-yellow-lumpy-pus"},
+      {"text": "নিচের দিকে নামার ভয়, শিশু সিঁড়ি দিয়ে নামতে গেলে মাকে জড়িয়ে ধরে", "mid": "sym-fear-downward-motion"},
+      {"text": "সর্বপ্রকার স্রাব তীক্ষ্ণ ও হাজানিযুক্ত, ত্বক তুলে ফেলে", "mid": "sym-acrid-discharge-excoriation"},
+      {"text": "বুকে প্রচুর কফ জমার ঘড়ঘড়ে শব্দ কিন্তু কফ উঠে না", "mid": "sym-rattling-mucus-retained"}
+    ],
+    "answer": "sym-thick-yellow-lumpy-pus",
+    "explanation": "Calcarea Sulph পুঁজের তৃতীয় অবস্থায় ব্যবহৃত হয়, যখন ফোড়া ফেটে যাওয়ার পর ঘন, হলুদ ও দলা দলা পুঁজ নির্গত হতে থাকে।"
+  },
+  {
+    "id": "calc-sulph-med-02",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্ষত সহজে শুকায় না, অনবরত হলুদ পুঁজ নির্গত হয়", "mid": "sym-wound-slow-healing-yellow-pus"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"}
+    ],
+    "answer": "sym-wound-slow-healing-yellow-pus",
+    "explanation": "Calcarea Sulph-এ শরীরের যেকোনো স্থানের ক্ষত সহজে শুকাতে চায় না এবং অনবরত হলুদ পুঁজ নির্গত হতে থাকে।"
+  },
+  {
+    "id": "calc-sulph-med-03",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চর্মরোগের ওপর হলুদাভ মামড়ি পড়া", "mid": "sym-yellow-crusts-skin"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "স্নায়বিক দুর্বলতা ও অকাল বার্ধক্য", "mid": "sym-nervous-weakness-senility"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-yellow-crusts-skin",
+    "explanation": "Calcarea Sulph-এ চর্মরোগের ওপর হলুদাভ মামড়ি বা ক্রাস্ট পড়ে।"
+  },
+  {
+    "id": "calc-sulph-med-04",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখ থেকে ঘন হলুদ পিঁচুটি পড়া", "mid": "sym-yellow-thick-eye-discharge"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"}
+    ],
+    "answer": "sym-yellow-thick-eye-discharge",
+    "explanation": "Calcarea Sulph-এ চোখ থেকে ঘন হলুদ স্রাব বা পিঁচুটি পড়ে।"
+  },
+  {
+    "id": "calc-sulph-med-05",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কান পেকে দুর্গন্ধযুক্ত হলুদ পুঁজ নির্গত হওয়া", "mid": "sym-ear-offensive-yellow-pus"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"},
+      {"text": "অসংলগ্ন কথাবার্তা ও এক বিষয় থেকে দ্রুত অন্য বিষয়ে চলে যাওয়া", "mid": "sym-incoherent-speech"}
+    ],
+    "answer": "sym-ear-offensive-yellow-pus",
+    "explanation": "Calcarea Sulph-এ কান পেকে দুর্গন্ধযুক্ত হলুদ পুঁজ নির্গত হয়।"
+  },
+  {
+    "id": "calc-sulph-med-06",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কানের চারপাশে উদ্ভেদসহ চুলকানি", "mid": "sym-eruption-around-ear-itching"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"},
+      {"text": "শিশু কোলে উঠতে চায় কিন্তু কাউকে কাছে আসতে দিতে চায় না", "mid": "sym-child-wants-lap-repels-approach"}
+    ],
+    "answer": "sym-eruption-around-ear-itching",
+    "explanation": "Calcarea Sulph-এ কানের চারপাশে উদ্ভেদসহ চুলকানি দেখা যায়।"
+  },
+  {
+    "id": "calc-sulph-med-07",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্দি বা কাশির শেষে ঘন হলুদ কফ", "mid": "sym-thick-yellow-sputum-late-stage"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"},
+      {"text": "চিন্তা ও কল্পনা এসে ব্যতিব্যস্ত করে তোলে", "mid": "sym-thoughts-obsession"},
+      {"text": "অত্যন্ত লজ্জাশীল ও একা থাকতে চায়", "mid": "sym-shy-seclusive"}
+    ],
+    "answer": "sym-thick-yellow-sputum-late-stage",
+    "explanation": "Calcarea Sulph সর্দি বা কাশির শেষ অবস্থায় উপযোগী, যখন কফ ঘন ও হলুদ হয়ে আসে।"
+  },
+  {
+    "id": "calc-sulph-med-08",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জিহবা কাদার মতো ল্যাপ্টানো, গোড়ার দিকে হলুদ", "mid": "sym-tongue-clayey-yellow-base"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"}
+    ],
+    "answer": "sym-tongue-clayey-yellow-base",
+    "explanation": "Calcarea Sulph-এ জিহবা কাদার মতো ল্যাপ্টানো থাকে এবং গোড়ার দিকে হলুদ দেখায়।"
+  },
+  {
+    "id": "calc-sulph-med-09",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলের সাথে রক্ত আসা", "mid": "sym-blood-in-stool"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "বসন্তের মতো গুটি গুটি পুঁজপূর্ণ উদ্ভেদ", "mid": "sym-pustular-eruptions"},
+      {"text": "সামান্য পরিশ্রমে যোনিপথ দিয়ে রক্তপাত", "mid": "sym-uterine-bleeding-exertion"}
+    ],
+    "answer": "sym-blood-in-stool",
+    "explanation": "Calcarea Sulph-এ মলের সাথে রক্ত আসে।"
+  },
+  {
+    "id": "calc-sulph-med-10",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের পাতা নাচা", "mid": "sym-twitching-eyelids"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-twitching-eyelids",
+    "explanation": "Calcarea Sulph-এ চোখের পাতা নাচে।"
+  },
+  {
+    "id": "calc-sulph-med-11",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘন সাদা লিউকোরিয়া", "mid": "sym-thick-white-leucorrhoea"},
+      {"text": "অন্যের উপস্থিতিতে প্রস্রাব করতে পারে না", "mid": "sym-inability-urinate-presence"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"}
+    ],
+    "answer": "sym-thick-white-leucorrhoea",
+    "explanation": "Calcarea Sulph-এ ঘন সাদা লিউকোরিয়া বা শ্বেতপ্রদর হয়।"
+  },
+  {
+    "id": "calc-sulph-med-12",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মতের অমিল হলে সহ্য করতে না পারা, পরিবর্তনশীল মন", "mid": "sym-intolerant-of-contradiction"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"}
+    ],
+    "answer": "sym-intolerant-of-contradiction",
+    "explanation": "Calcarea Sulph-এ মন পরিবর্তনশীল এবং মতের অমিল হলে রোগী তা সহ্য করতে পারে না।"
+  },
+  {
+    "id": "calc-sulph-med-13",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বিপদের ভয় ও মৃত্যুর ভয়", "mid": "sym-fear-of-danger-death"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"},
+      {"text": "সঙ্গীত শুনলে কষ্ট বেড়ে যায় ও কান্নাকাটি শুরু করে", "mid": "sym-music-aggravation"}
+    ],
+    "answer": "sym-fear-of-danger-death",
+    "explanation": "Calcarea Sulph-এ বিপদের ভয় ও মৃত্যুর ভয় দেখা যায়।"
+  },
+  {
+    "id": "calc-sulph-med-14",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সহজেই রেগে যাওয়া ও খিটখিটে মেজাজ", "mid": "sym-irritable-quarrelsome"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"}
+    ],
+    "answer": "sym-irritable-quarrelsome",
+    "explanation": "Calcarea Sulph-এ রোগী সাধারণত খুব সহজেই রেগে যায় এবং মেজাজ খিটখিটে থাকে।"
+  },
+  {
+    "id": "calc-sulph-med-15",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবসময় অসন্তুষ্টি, মনে হয় যা পাচ্ছে তা যথেষ্ট নয়", "mid": "sym-dissatisfied-nothing-enough"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-dissatisfied-nothing-enough",
+    "explanation": "Calcarea Sulph-এ সবসময় এক প্রকার অসন্তুষ্টি কাজ করে; রোগী মনে করে সে যা পাচ্ছে তা যথেষ্ট নয়।"
+  },
+  {
+    "id": "calc-sulph-med-16",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হলুদ পুঁজযুক্ত ব্রণ", "mid": "sym-acne-yellow-pus"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"},
+      {"text": "খাওয়া-দাওয়ায় উপশম", "mid": "sym-eating-amelioration"}
+    ],
+    "answer": "sym-acne-yellow-pus",
+    "explanation": "Calcarea Sulph ব্রণের সমস্যায় অত্যন্ত কার্যকরী, বিশেষত যেখানে হলুদ পুঁজ থাকে।"
+  },
+  {
+    "id": "calc-sulph-med-17",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুদের মাথায় খুশকি বা একজিমা হয়ে হলুদাভ আঁশ ওঠা", "mid": "sym-scalp-dandruff-eczema-yellow-scales"},
+      {"text": "টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sour-apples"},
+      {"text": "সর্বপ্রকার স্রাব তীক্ষ্ণ ও হাজানিযুক্ত, ত্বক তুলে ফেলে", "mid": "sym-acrid-discharge-excoriation"},
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয়", "mid": "sym-fear-death-dyspnoea"}
+    ],
+    "answer": "sym-scalp-dandruff-eczema-yellow-scales",
+    "explanation": "Calcarea Sulph-এ শিশুদের মাথায় খুশকি বা একজিমা হয়ে হলুদাভ আঁশ ওঠে।"
+  },
+  {
+    "id": "calc-sulph-med-18",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অর্শ বা ফিস্টুলার ক্ষত থেকে অনবরত পুঁজ ঝরা", "mid": "sym-piles-fistula-pus"},
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-piles-fistula-pus",
+    "explanation": "Calcarea Sulph মলদ্বারের অর্শ বা ফিস্টুলার ক্ষেত্রে উপযোগী, যেখান থেকে অনবরত পুঁজ ঝরে।"
+  },
+  {
+    "id": "calc-sulph-med-19",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরম ঘরে, পরিশ্রমে ও জলে ভিজলে বৃদ্ধি", "mid": "sym-warm-room-exertion-wetting-agg"},
+      {"text": "নিচের দিকে নামার গতিতে বৃদ্ধি", "mid": "sym-downward-motion-agg"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-warm-room-exertion-wetting-agg",
+    "explanation": "Calcarea Sulph-এর লক্ষণ গরম ঘর বা গরম আবহাওয়ায়, পরিশ্রম করলে এবং জলে ভিজলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "calc-sulph-med-20",
+    "stem": "নিচের কোনটি Calcarea Sulph-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খোলা বাতাসে ও শরীর ঠান্ডা রাখলে উপশম", "mid": "sym-open-air-cooling-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও বিশ্রামে উপশম", "mid": "sym-open-air-rest-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"}
+    ],
+    "answer": "sym-open-air-cooling-amel",
+    "explanation": "Calcarea Sulph-এর লক্ষণ খোলা বাতাসে এবং শরীর ঠান্ডা রাখলে উপশম হয়।"
+  }
+]
+
+
+
+
+

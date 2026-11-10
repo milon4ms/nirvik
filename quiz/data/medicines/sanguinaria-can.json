@@ -1,0 +1,242 @@
+[
+  {
+    "id": "sanguinaria-med-01",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম দিকে মাথাব্যথা, কপাল থেকে শুরু হয়ে বাম চোখে স্থির হয়", "mid": "sym-left-headache-forehead-left-eye"},
+      {"text": "ডান দিকের মাথাব্যথা, ঘাড় থেকে শুরু হয়ে মাথার ওপর দিয়ে এসে ডান চোখের ওপর স্থির হয়", "mid": "sym-sanguinaria-right-headache-occiput-right-eye"},
+      {"text": "পুরো মাথা জুড়ে সমানভাবে ব্যথা, কোনো দিকে প্রাধান্য নেই", "mid": "sym-whole-head-equal-pain"},
+      {"text": "মাথাব্যথা শুধু কপালে হয়, ঘাড়ে ব্যথা হয় না", "mid": "sym-headache-forehead-only-no-neck"}
+    ],
+    "answer": "sym-sanguinaria-right-headache-occiput-right-eye",
+    "explanation": "Sanguinaria Canadensis এ মাথাব্যথা প্রধানত ডান দিকে হয় এবং এটি ঘাড়ের দিক থেকে শুরু হয়ে মাথার ওপর দিয়ে এসে ডান চোখের ওপর স্থির হয়।"
+  },
+  {
+    "id": "sanguinaria-med-02",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথাব্যথা হলে পাকস্থলী ভালো থাকে, ক্ষুধা বেড়ে যায়", "mid": "sym-headache-stomach-good-hunger-increase"},
+      {"text": "মাথাব্যথা শুধু ঠান্ডা লাগলে হয়, পাকস্থলীর সাথে সম্পর্ক নেই", "mid": "sym-headache-cold-only-no-stomach"},
+      {"text": "মাথাব্যথা হলে পেটে কোনো গোলযোগ থাকে না", "mid": "sym-headache-no-stomach-trouble"},
+      {"text": "পাকস্থলির গোলযোগে মাথাব্যথা", "mid": "sym-sanguinaria-gastric-headache"}
+    ],
+    "answer": "sym-sanguinaria-gastric-headache",
+    "explanation": "Sanguinaria Canadensis এ পাকস্থলির গোলযোগে মাথাব্যথা হয়।"
+  },
+  {
+    "id": "sanguinaria-med-03",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ইনফ্লুয়েঞ্জা সংশ্লিষ্ট কাশি, যক্ষ্মারোগ", "mid": "sym-sanguinaria-influenza-cough-tuberculosis"},
+      {"text": "ইনফ্লুয়েঞ্জা হলে কাশি হয় না, শুধু জ্বর হয়", "mid": "sym-influenza-no-cough-fever-only"},
+      {"text": "যক্ষ্মারোগে কাশি একদম থাকে না", "mid": "sym-tb-no-cough"},
+      {"text": "কাশি শুধু সর্দিতে হয়, ইনফ্লুয়েঞ্জায় হয় না", "mid": "sym-cough-coryza-only-no-influenza"}
+    ],
+    "answer": "sym-sanguinaria-influenza-cough-tuberculosis",
+    "explanation": "Sanguinaria Canadensis এ ইনফ্লুয়েঞ্জা সংশ্লিষ্ট কাশি ও যক্ষ্মারোগ দেখা যায়।"
+  },
+  {
+    "id": "sanguinaria-med-04",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নাকে কোনো ক্ষত থাকে না, স্রাব পরিষ্কার ও গন্ধহীন থাকে", "mid": "sym-nose-no-ulcer-clear-odorless"},
+      {"text": "নাক দিয়ে শুধু পানি পড়ে, হলুদ স্রাব হয় না", "mid": "sym-nose-water-only-no-yellow"},
+      {"text": "নাকের মধ্যে পঁচনশীল ক্ষত, সাথে প্রচুর পরিমাণে দুর্গন্ধময় হলদেটে স্রাব, পলিপাস বা ক্রনিক সর্দিতে নাক দিয়ে দুর্গন্ধযুক্ত হলুদ বা সবুজ স্রাব", "mid": "sym-sanguinaria-nose-putrid-ulcer-foul-yellow-green"},
+      {"text": "নাক বন্ধ থাকে কিন্তু কোনো স্রাব বের হয় না", "mid": "sym-nose-blocked-no-discharge"}
+    ],
+    "answer": "sym-sanguinaria-nose-putrid-ulcer-foul-yellow-green",
+    "explanation": "Sanguinaria Canadensis এ নাকের মধ্যে পঁচনশীল ক্ষত থাকে, সাথে প্রচুর পরিমাণে দুর্গন্ধময় হলদেটে স্রাব হয়, পলিপাস বা ক্রনিক সর্দিতে নাক দিয়ে দুর্গন্ধযুক্ত হলুদ বা সবুজ স্রাব বের হয়।"
+  },
+  {
+    "id": "sanguinaria-med-05",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাত পায়ে কোনো জ্বালা থাকে না, সবসময় ঠান্ডা লাগে", "mid": "sym-limbs-no-burn-always-cold"},
+      {"text": "হাত পা সহ শরীরের বিভিন্ন স্থানে জ্বালা, হাতের তালু ও পায়ের তলায় প্রচণ্ড জ্বালা, ঠান্ডা জায়গায় রাখতে চায় বা লেপের বাইরে বের করে রাখে", "mid": "sym-sanguinaria-burning-palms-soles-cold-place-outside-quilt"},
+      {"text": "শুধু পেটে জ্বালা করে, হাত পায়ে জ্বালা করে না", "mid": "sym-belly-burn-only-no-limbs"},
+      {"text": "জ্বালা হলে গরম জায়গায় রাখতে চায়, লেপের ভেতরে রাখে", "mid": "sym-burn-warm-place-inside-quilt"}
+    ],
+    "answer": "sym-sanguinaria-burning-palms-soles-cold-place-outside-quilt",
+    "explanation": "Sanguinaria Canadensis এ হাত পা সহ শরীরের বিভিন্ন স্থানে জ্বালা হয়, হাতের তালু ও পায়ের তলায় প্রচণ্ড জ্বালা হয়, রোগী তা ঠান্ডা জায়গায় রাখতে চায় বা লেপের বাইরে বের করে রাখে।"
+  },
+  {
+    "id": "sanguinaria-med-06",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আলো ও শব্দ ভালো লাগে, আলোর দিকে তাকালে আরাম লাগে", "mid": "sym-light-sound-enjoy-look-relief"},
+      {"text": "আলো শব্দে কোনো পরিবর্তন হয় না", "mid": "sym-light-sound-no-change"},
+      {"text": "শব্দ সহ্য হয় কিন্তু আলো সহ্য হয় না", "mid": "sym-sound-ok-light-intolerant"},
+      {"text": "আলো শব্দ অসহ্য, আলোর দিকে তাকালে বৃদ্ধি হয়", "mid": "sym-sanguinaria-light-sound-intolerable-look-worse"}
+    ],
+    "answer": "sym-sanguinaria-light-sound-intolerable-look-worse",
+    "explanation": "Sanguinaria Canadensis এ আলো ও শব্দ অসহ্য লাগে, আলোর দিকে তাকালে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "sanguinaria-med-07",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডানে শুইতে পারে না, ডান পাশে শুলে বৃদ্ধি হয়", "mid": "sym-sanguinaria-cannot-lie-right-right-lying-worse"},
+      {"text": "ডান পাশে শুলে আরাম লাগে ও ঘুম ভালো হয়", "mid": "sym-right-lying-relief-good-sleep"},
+      {"text": "বাম পাশে শুলে বৃদ্ধি হয়, ডান পাশে শুলে উপশম হয়", "mid": "sym-left-lying-worse-right-amel"},
+      {"text": "যেকোনো পাশে শুলেই সমান আরাম লাগে", "mid": "sym-any-side-equal-relief"}
+    ],
+    "answer": "sym-sanguinaria-cannot-lie-right-right-lying-worse",
+    "explanation": "Sanguinaria Canadensis রোগী ডানে শুইতে পারে না, ডান পাশে শুলে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "sanguinaria-med-08",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গাল সবসময় ফ্যাকাশে থাকে, কোনো লাল আভা থাকে না", "mid": "sym-cheek-pale-no-red"},
+      {"text": "পুরো মুখ লাল হয়ে যায়, গালে নির্দিষ্ট লাল আভা থাকে না", "mid": "sym-whole-face-red-no-spot"},
+      {"text": "গালে চক্রাকার রক্তিমাভা, বিকেলের দিকে গালের হাড়ের ওপর নির্দিষ্ট গোল লাল আভা", "mid": "sym-sanguinaria-circular-red-cheek-afternoon-cheek-bone"},
+      {"text": "গালে লাল আভা সকালে বেশি থাকে, বিকেলে থাকে না", "mid": "sym-cheek-red-morning-no-afternoon"}
+    ],
+    "answer": "sym-sanguinaria-circular-red-cheek-afternoon-cheek-bone",
+    "explanation": "Sanguinaria Canadensis এ গালে চক্রাকার রক্তিমাভা দেখা যায়, বিশেষ করে বিকেলের দিকে গালের হাড়ের ওপর নির্দিষ্ট গোল লাল আভা দেখা যায়।"
+  },
+  {
+    "id": "sanguinaria-med-09",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্দি হলে কোষ্ঠকাঠিন্য হয়, ডাইরিয়া হয় না", "mid": "sym-coryza-constipation-no-diarrhea"},
+      {"text": "সর্দি হয়ে ডাইরিয়া হয়, উদরাময়ে উপশম হয়", "mid": "sym-sanguinaria-coryza-diarrhea-diarrhea-amel"},
+      {"text": "সর্দি হলে পেট ভালো থাকে, কোনো ডাইরিয়া হয় না", "mid": "sym-coryza-belly-good-no-diarrhea"},
+      {"text": "ডাইরিয়া হলে সর্দি বেড়ে যায়", "mid": "sym-diarrhea-coryza-worse"}
+    ],
+    "answer": "sym-sanguinaria-coryza-diarrhea-diarrhea-amel",
+    "explanation": "Sanguinaria Canadensis এ সর্দি হয়ে ডাইরিয়া হয় এবং উদরাময়ে উপশম হয়।"
+  },
+  {
+    "id": "sanguinaria-med-10",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঢেকুর উঠলে কাশি বেড়ে যায়", "mid": "sym-belch-cough-worse"},
+      {"text": "ঢেকুর উঠলে কোনো পরিবর্তন হয় না", "mid": "sym-belch-no-change"},
+      {"text": "কাশি হলে ঢেকুর বন্ধ হয়ে যায়", "mid": "sym-cough-belch-stop"},
+      {"text": "ঢেকুরে কাশি উপশম হয়", "mid": "sym-sanguinaria-belch-cough-amel"}
+    ],
+    "answer": "sym-sanguinaria-belch-cough-amel",
+    "explanation": "Sanguinaria Canadensis এ ঢেকুরে কাশি উপশম হয়।"
+  },
+  {
+    "id": "sanguinaria-med-11",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পিত্তবমিতে উপশম, বমি করলে মাথাব্যথার উপশম হয়", "mid": "sym-sanguinaria-bilious-vomit-amel-headache-vomit-amel"},
+      {"text": "বমি করলে মাথাব্যথা বেড়ে যায়", "mid": "sym-vomit-headache-worse"},
+      {"text": "বমি হলে কোনো উপশম হয় না, মাথাব্যথা একই থাকে", "mid": "sym-vomit-no-relief-headache-same"},
+      {"text": "পিত্তবমি হলে পেট ব্যথা বেড়ে যায়", "mid": "sym-bilious-vomit-belly-worse"}
+    ],
+    "answer": "sym-sanguinaria-bilious-vomit-amel-headache-vomit-amel",
+    "explanation": "Sanguinaria Canadensis এ পিত্তবমিতে উপশম হয়, বমি করলে মাথাব্যথার উপশম হয়।"
+  },
+  {
+    "id": "sanguinaria-med-12",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথাব্যথা প্রতিদিন একই সময়ে হয়, সাপ্তাহিক ছন্দ নেই", "mid": "sym-headache-daily-no-weekly"},
+      {"text": "মাথাব্যথা মাসে একবার হয়", "mid": "sym-headache-monthly-once"},
+      {"text": "পর্যায়বৃত্তিক মাথাব্যথা, প্রতি সাত দিন অন্তর, সাপ্তাহিক, একে American Sick Headache বলা হয়", "mid": "sym-sanguinaria-periodic-headache-every-seven-days-american-sick"},
+      {"text": "মাথাব্যথা কখনোই নিয়ম মেনে আসে না", "mid": "sym-headache-no-regular-pattern"}
+    ],
+    "answer": "sym-sanguinaria-periodic-headache-every-seven-days-american-sick",
+    "explanation": "Sanguinaria Canadensis এ পর্যায়বৃত্তিক মাথাব্যথা হয়, প্রতি সাত দিন অন্তর মাথাব্যথা হওয়ার প্রবণতা থাকে, একে American Sick Headache বলা হয়।"
+  },
+  {
+    "id": "sanguinaria-med-13",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথা রাতে শুরু হয়, সকালে তীব্র হয়, দুপুরে কমে যায়", "mid": "sym-pain-night-morning-severe-noon-less"},
+      {"text": "সূর্যের গতির সাথে ব্যথার সম্পর্ক, সকালে শুরু হয়, দুপুরে তীব্র হয়, সূর্যাস্তের সাথে সাথে কমে যায়", "mid": "sym-sanguinaria-pain-sun-course-morning-noon-sunset-less"},
+      {"text": "ব্যথা সারাদিন একই রকম থাকে, সূর্যের সাথে সম্পর্ক নেই", "mid": "sym-pain-all-day-same-no-sun"},
+      {"text": "ব্যথা সূর্যাস্তের পর শুরু হয়, সকালে কমে যায়", "mid": "sym-pain-sunset-start-morning-less"}
+    ],
+    "answer": "sym-sanguinaria-pain-sun-course-morning-noon-sunset-less",
+    "explanation": "Sanguinaria Canadensis এ ব্যথা সকালে শুরু হয়, দুপুরে তীব্র হয় এবং সূর্যাস্তের সাথে সাথে কমে যায়।"
+  },
+  {
+    "id": "sanguinaria-med-14",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মন সবসময় শান্ত থাকে, অসুস্থতার সময়ও কথা বলতে ভালো লাগে", "mid": "sym-mind-calm-sick-like-talk"},
+      {"text": "অসুস্থতার সময় সবাইকে ডেকে গল্প করতে চায়", "mid": "sym-sick-call-all-story"},
+      {"text": "মন আনন্দে থাকে, কখনো নিস্তেজ লাগে না", "mid": "sym-mind-happy-never-dull"},
+      {"text": "অত্যন্ত খিটখিটে ও খামখেয়ালী মেজাজ, অসুস্থতার সময় কারো সাথে কথা বলতে চায় না, অত্যন্ত নিস্তেজ অনুভব করে", "mid": "sym-sanguinaria-irritable-capricious-no-talk-dull-sick"}
+    ],
+    "answer": "sym-sanguinaria-irritable-capricious-no-talk-dull-sick",
+    "explanation": "Sanguinaria Canadensis রোগী অত্যন্ত খিটখিটে এবং খামখেয়ালী মেজাজের হয়ে পড়ে, অসুস্থতার সময় সে কারো সাথে কথা বলতে চায় না এবং অত্যন্ত নিস্তেজ অনুভব করে।"
+  },
+  {
+    "id": "sanguinaria-med-15",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কোনো কিছুর গন্ধে বা মানসিক উত্তেজনায় মাথাব্যথা শুরু হয়", "mid": "sym-sanguinaria-smell-mental-excitement-headache-start"},
+      {"text": "গন্ধে মাথাব্যথা কমে যায়, উত্তেজনায় মাথাব্যথা কমে", "mid": "sym-smell-excitement-headache-less"},
+      {"text": "গন্ধ বা উত্তেজনায় মাথাব্যথার কোনো পরিবর্তন হয় না", "mid": "sym-smell-excitement-no-change"},
+      {"text": "শুধু শব্দে মাথাব্যথা শুরু হয়, গন্ধে হয় না", "mid": "sym-noise-only-headache-no-smell"}
+    ],
+    "answer": "sym-sanguinaria-smell-mental-excitement-headache-start",
+    "explanation": "Sanguinaria Canadensis এ অনেক সময় কোনো কিছুর গন্ধে বা মানসিক উত্তেজনায় মাথাব্যথা শুরু হয়।"
+  },
+  {
+    "id": "sanguinaria-med-16",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথা হালকা লাগে, রক্তাধিক্য থাকে না", "mid": "sym-head-light-no-congestion"},
+      {"text": "মাথায় কোনো চাপ অনুভব হয় না", "mid": "sym-head-no-pressure"},
+      {"text": "মাথার শিরার রক্তাধিক্যের ফলে মনে হয় মাথা ফেটে যাবে", "mid": "sym-sanguinaria-head-congestion-feel-burst"},
+      {"text": "মাথা ফেটে যাওয়ার অনুভূতি কখনো হয় না", "mid": "sym-head-never-burst-feeling"}
+    ],
+    "answer": "sym-sanguinaria-head-congestion-feel-burst",
+    "explanation": "Sanguinaria Canadensis এ মাথার শিরার রক্তাধিক্যের ফলে মনে হয় মাথা ফেটে যাবে।"
+  },
+  {
+    "id": "sanguinaria-med-17",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভেজা কাশি, দিনে বাড়ে, কাশির সময় বায়ু নিঃসরণ হয় না, কফ গন্ধহীন থাকে", "mid": "sym-wet-cough-day-no-flatus-odorless"},
+      {"text": "শুকনো কাশি, রাতে বাড়ে, কাশি দিলে মনে হয় বুক ফেটে যাবে, কাশির সময় বায়ু নিঃসরণ করে ফেলে, কফ অত্যন্ত দুর্গন্ধযুক্ত", "mid": "sym-sanguinaria-dry-cough-night-chest-burst-flatus-foul-sputum"},
+      {"text": "কাশি হলে বুকে আরাম লাগে, কফ পরিষ্কার থাকে", "mid": "sym-cough-chest-relief-clear-sputum"},
+      {"text": "কাশি শুধু সকালে হয়, রাতে হয় না", "mid": "sym-cough-morning-only-no-night"}
+    ],
+    "answer": "sym-sanguinaria-dry-cough-night-chest-burst-flatus-foul-sputum",
+    "explanation": "Sanguinaria Canadensis এ শুকনো কাশি হয়, যা রাতে বাড়ে এবং কাশি দিলে মনে হয় বুক ফেটে যাবে, কাশির সময় রোগী অনেক সময় বায়ু নিঃসরণ করে ফেলে, কফ অত্যন্ত দুর্গন্ধযুক্ত থাকে।"
+  },
+  {
+    "id": "sanguinaria-med-18",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পাকস্থলীতে কোনো জ্বালা বা শূন্যতা বোধ থাকে না", "mid": "sym-stomach-no-burn-no-emptiness"},
+      {"text": "ঝাল খাবার একদম পছন্দ করে না, মিষ্টি খেতে চায়", "mid": "sym-spicy-dislike-sweet-desire"},
+      {"text": "পেট ভরা থাকে, খাওয়ার ইচ্ছা থাকে না", "mid": "sym-belly-full-no-appetite"},
+      {"text": "পাকস্থলীতে জ্বালা ও অত্যন্ত শূন্যতা বোধ, ঝাল বা মশলাযুক্ত খাবার খাওয়ার তীব্র ইচ্ছা", "mid": "sym-sanguinaria-stomach-burn-emptiness-spicy-desire"}
+    ],
+    "answer": "sym-sanguinaria-stomach-burn-emptiness-spicy-desire",
+    "explanation": "Sanguinaria Canadensis এ পাকস্থলীতে জ্বালা ও অত্যন্ত শূন্যতা বোধ হয়, রোগী ঝাল বা মশলাযুক্ত খাবার খাওয়ার তীব্র ইচ্ছা প্রকাশ করে।"
+  },
+  {
+    "id": "sanguinaria-med-19",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডান কাঁধের ব্যথা, ডান কাঁধের পেশিতে প্রচণ্ড ব্যথা, ডান হাত ওপরে তুলতে বা পেছন দিকে নিতে পারে না, রাতে বিছানায় এপাশ ওপাশ করলে ব্যথা বাড়ে", "mid": "sym-sanguinaria-right-shoulder-pain-cannot-raise-back-night-tossing-worse"},
+      {"text": "বাম কাঁধে ব্যথা, বাম হাত তুলতে পারে না", "mid": "sym-left-shoulder-pain-cannot-raise"},
+      {"text": "কাঁধে ব্যথা নেই, হাত সহজে ওপরে তোলা যায়", "mid": "sym-shoulder-no-pain-hand-raise-easy"},
+      {"text": "ডান কাঁধে ব্যথা থাকলেও রাতে এপাশ ওপাশ করলে কমে যায়", "mid": "sym-right-shoulder-night-tossing-less"}
+    ],
+    "answer": "sym-sanguinaria-right-shoulder-pain-cannot-raise-back-night-tossing-worse",
+    "explanation": "Sanguinaria Canadensis এ ডান কাঁধের পেশিতে প্রচণ্ড ব্যথা হয়, রোগী ডান হাত ওপরে তুলতে বা পেছন দিকে নিতে পারে না, রাতে বিছানায় এপাশ ওপাশ করলে ব্যথা বাড়ে।"
+  },
+  {
+    "id": "sanguinaria-med-20",
+    "stem": "নিচের কোনটি Sanguinaria Canadensis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম পাশে শুলে বৃদ্ধি, নড়াচড়ায় উপশম, অন্ধকারে বৃদ্ধি, ঘুমে বৃদ্ধি", "mid": "sym-left-lying-agg-motion-amel-dark-agg-sleep-agg"},
+      {"text": "বমি করলে বৃদ্ধি, অন্ধকার ঘরে শুলে বৃদ্ধি, প্রস্রাব ত্যাগে বৃদ্ধি", "mid": "sym-vomit-agg-dark-agg-urine-agg"},
+      {"text": "ডান পাশে শুলে, নড়াচড়া করলে, আলোর দিকে তাকালে, কড়া গন্ধে ও দুপুর বেলায় বৃদ্ধি, বমি করলে, অন্ধকার ঘরে শুয়ে থাকলে, ঘুমিয়ে পড়লে ও প্রচুর পরিমাণে প্রস্রাব ত্যাগ করলে উপশম", "mid": "sym-sanguinaria-agg-right-motion-light-smell-noon-amel-vomit-dark-sleep-urine"},
+      {"text": "দুপুরে উপশম, কড়া গন্ধে উপশম, আলোতে উপশম", "mid": "sym-noon-amel-smell-amel-light-amel"}
+    ],
+    "answer": "sym-sanguinaria-agg-right-motion-light-smell-noon-amel-vomit-dark-sleep-urine",
+    "explanation": "Sanguinaria Canadensis এ ডান পাশে শুলে, নড়াচড়া করলে, আলোর দিকে তাকালে, কড়া গন্ধে এবং দুপুর বেলায় বৃদ্ধি হয়, বমি করলে, অন্ধকার ঘরে শুয়ে থাকলে, ঘুমিয়ে পড়লে এবং প্রচুর পরিমাণে প্রস্রাব ত্যাগ করলে উপশম হয়।"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "lach-med-01",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম পার্শ্বীয় লক্ষণ, বাম থেকে ডানে যায়", "mid": "sym-lach-left-to-right"},
+      {"text": "ডান পার্শ্বীয়, ডান থেকে বামে যায়", "mid": "sym-right-to-left"},
+      {"text": "উভয় পার্শ্বে একসাথে শুরু", "mid": "sym-both-sides-together"},
+      {"text": "পার্শ্ব পরিবর্তন হয় না", "mid": "sym-no-side-change"}
+    ],
+    "answer": "sym-lach-left-to-right",
+    "explanation": "Lachesis-এর লক্ষণ বাম পাশে শুরু হয়ে ডানে যায়।"
+  },
+  {
+    "id": "lach-med-02",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলা স্পর্শে অত্যন্ত সংবেদনশীল, গলায় ফোলা নীলচে, খালি গিললে ব্যথা বাড়ে", "mid": "sym-lach-throat-touch-sensitive-empty-swallow-agg"},
+      {"text": "গলায় স্পর্শে আরাম", "mid": "sym-throat-touch-amel"},
+      {"text": "গলায় কোনো সংবেদনশীলতা নেই", "mid": "sym-no-throat-sensitivity"},
+      {"text": "শক্ত খাবার গিলতে বেশি কষ্ট", "mid": "sym-solid-swallow-worse"}
+    ],
+    "answer": "sym-lach-throat-touch-sensitive-empty-swallow-agg",
+    "explanation": "Lachesis-এ গলা স্পর্শে অসহ্য ও খালি গিললে ব্যথা বাড়ে।"
+  },
+  {
+    "id": "lach-med-03",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অতিরিক্ত কথা বলা, বিষয় থেকে বিষয়ে ঘুরে", "mid": "sym-lach-loquacity-jumps-topics"},
+      {"text": "কথা বলতে চায় না", "mid": "sym-averse-talk"},
+      {"text": "অল্প কথা বলে", "mid": "sym-few-words"},
+      {"text": "কথা বলতে ভয় পায়", "mid": "sym-fear-talk"}
+    ],
+    "answer": "sym-lach-loquacity-jumps-topics",
+    "explanation": "Lachesis রোগী অতিরিক্ত কথা বলে ও বিষয় থেকে বিষয়ে যায়।"
+  },
+  {
+    "id": "lach-med-04",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঈর্ষা, সন্দেহপ্রবণ, ধর্মীয় উন্মাদনা", "mid": "sym-lach-jealous-suspicious-religious-mania"},
+      {"text": "উদার ও বিশ্বাসী", "mid": "sym-generous-trusting"},
+      {"text": "ঈর্ষা নেই", "mid": "sym-no-jealousy"},
+      {"text": "সন্দেহ নেই", "mid": "sym-no-suspicion"}
+    ],
+    "answer": "sym-lach-jealous-suspicious-religious-mania",
+    "explanation": "Lachesis-এ ঈর্ষা, সন্দেহ ও ধর্মীয় উন্মাদনা থাকে।"
+  },
+  {
+    "id": "lach-med-05",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাসিক শুরু হলে অনেক লক্ষণ উপশম হয়", "mid": "sym-lach-amel-menses-begins"},
+      {"text": "মাসিকে বৃদ্ধি", "mid": "sym-agg-menses"},
+      {"text": "মাসিকে কোনো প্রভাব নেই", "mid": "sym-no-effect-menses"},
+      {"text": "মাসিক বন্ধ হলে উপশম", "mid": "sym-amel-menses-stop"}
+    ],
+    "answer": "sym-lach-amel-menses-begins",
+    "explanation": "Lachesis-এ মাসিক শুরু হলে উপশম হয়।"
+  },
+  {
+    "id": "lach-med-06",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘুমের পর সব লক্ষণ বৃদ্ধি পায়", "mid": "sym-lach-agg-after-sleep"},
+      {"text": "ঘুমের পর উপশম", "mid": "sym-amel-after-sleep"},
+      {"text": "ঘুমে কোনো প্রভাব নেই", "mid": "sym-no-effect-sleep"},
+      {"text": "ঘুমে লক্ষণ থাকে না", "mid": "sym-no-symptom-sleep"}
+    ],
+    "answer": "sym-lach-agg-after-sleep",
+    "explanation": "Lachesis-এ ঘুমের পর অবনতি ঘটে।"
+  },
+  {
+    "id": "lach-med-07",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরে নীল-বেগুনি দাগ, সহজে রক্তপাত, পচনশীলতা", "mid": "sym-lach-blue-purple-spots-hemorrhage-septic"},
+      {"text": "শরীরে লাল দাগ", "mid": "sym-red-spots"},
+      {"text": "রক্তপাত হয় না", "mid": "sym-no-hemorrhage"},
+      {"text": "শরীরে কোনো দাগ নেই", "mid": "sym-no-spots"}
+    ],
+    "answer": "sym-lach-blue-purple-spots-hemorrhage-septic",
+    "explanation": "Lachesis-এ নীল-বেগুনি দাগ ও সহজে রক্তপাত হয়।"
+  },
+  {
+    "id": "lach-med-08",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যধিক সংবেদনশীলতা, স্পর্শ অসহ্য", "mid": "sym-lach-hyperaesthesia-touch-intolerant"},
+      {"text": "সংবেদনশীলতা কম", "mid": "sym-low-sensitivity"},
+      {"text": "স্পর্শে আরাম", "mid": "sym-touch-amel"},
+      {"text": "কোনো অনুভূতি নেই", "mid": "sym-no-sensation"}
+    ],
+    "answer": "sym-lach-hyperaesthesia-touch-intolerant",
+    "explanation": "Lachesis-এ অত্যধিক সংবেদনশীলতা ও স্পর্শ অসহ্য।"
+  },
+  {
+    "id": "lach-med-09",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নিজেকে বিষাক্ত মনে করা বা অন্যকে বিষ দেওয়ার ভয়", "mid": "sym-lach-thinks-poisoned-fear-poisoning-others"},
+      {"text": "নিজেকে সুস্থ মনে করে", "mid": "sym-thinks-healthy"},
+      {"text": "বিষের ভয় নেই", "mid": "sym-no-poison-fear"},
+      {"text": "বিষ পছন্দ করে", "mid": "sym-likes-poison"}
+    ],
+    "answer": "sym-lach-thinks-poisoned-fear-poisoning-others",
+    "explanation": "Lachesis-এ নিজে বিষাক্ত ও অন্যকে বিষ দেওয়ার ভয় থাকে।"
+  },
+  {
+    "id": "lach-med-10",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জিহ্বা কাঁপে", "mid": "sym-lach-tongue-trembles"},
+      {"text": "জিহ্বা স্থির", "mid": "sym-tongue-steady"},
+      {"text": "জিহ্বায় কোনো সমস্যা নেই", "mid": "sym-no-tongue-issue"},
+      {"text": "জিহ্বা লাল", "mid": "sym-tongue-red"}
+    ],
+    "answer": "sym-lach-tongue-trembles",
+    "explanation": "Lachesis-এ জিহ্বা কাঁপে।"
+  },
+  {
+    "id": "lach-med-11",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হৃদস্পন্দন অনিয়মিত, বাম পাশে চাপ", "mid": "sym-lach-heart-irregular-left-pressure"},
+      {"text": "হৃদস্পন্দন নিয়মিত", "mid": "sym-heart-regular"},
+      {"text": "ডান পাশে চাপ", "mid": "sym-right-pressure-heart"},
+      {"text": "হৃদপিণ্ডে কোনো সমস্যা নেই", "mid": "sym-no-heart-issue"}
+    ],
+    "answer": "sym-lach-heart-irregular-left-pressure",
+    "explanation": "Lachesis-এ হৃদস্পন্দন অনিয়মিত ও বাম পাশে চাপ থাকে।"
+  },
+  {
+    "id": "lach-med-12",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথাব্যথা বাম পাশে, চাপ অনুভূতি", "mid": "sym-lach-headache-left-pressure"},
+      {"text": "মাথাব্যথা ডান পাশে", "mid": "sym-headache-right"},
+      {"text": "মাথাব্যথা নেই", "mid": "sym-no-headache"},
+      {"text": "মাথায় হালকা অনুভূতি", "mid": "sym-head-light-feel"}
+    ],
+    "answer": "sym-lach-headache-left-pressure",
+    "explanation": "Lachesis-এ বাম পাশে মাথাব্যথা ও চাপ থাকে।"
+  },
+  {
+    "id": "lach-med-13",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: গরমে, স্পর্শে, ঘুমের পর, সকালে, বাম পাশে শুলে", "mid": "sym-lach-agg-heat-touch-sleep-morning-left-lying"},
+      {"text": "বৃদ্ধি: ঠান্ডায়", "mid": "sym-agg-cold"},
+      {"text": "বৃদ্ধি: খোলা বাতাসে", "mid": "sym-agg-open-air"},
+      {"text": "বৃদ্ধি: মাসিক শুরু হলে", "mid": "sym-agg-menses-start"}
+    ],
+    "answer": "sym-lach-agg-heat-touch-sleep-morning-left-lying",
+    "explanation": "Lachesis-এ গরমে, স্পর্শে, ঘুমের পর, সকালে ও বাম পাশে শুলে বৃদ্ধি।"
+  },
+  {
+    "id": "lach-med-14",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: মাসিক শুরু হলে, খোলা বাতাসে, ঠান্ডা পানীয়ে", "mid": "sym-lach-amel-menses-open-air-cold-drinks"},
+      {"text": "উপশম: গরমে", "mid": "sym-amel-heat"},
+      {"text": "উপশম: ঘুমের পর", "mid": "sym-amel-after-sleep"},
+      {"text": "উপশম: স্পর্শে", "mid": "sym-amel-touch"}
+    ],
+    "answer": "sym-lach-amel-menses-open-air-cold-drinks",
+    "explanation": "Lachesis মাসিক শুরু, খোলা বাতাস ও ঠান্ডা পানীয়ে উপশম পায়।"
+  },
+  {
+    "id": "lach-med-15",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমকাতর, উৎস বুশমাস্টার সাপের বিষ", "mid": "sym-lach-hot-source-bushmaster-venom"},
+      {"text": "শীতকাতর", "mid": "sym-chilly"},
+      {"text": "উভয়কাতর", "mid": "sym-both-hot-cold"},
+      {"text": "উৎস উদ্ভিদ", "mid": "sym-source-plant"}
+    ],
+    "answer": "sym-lach-hot-source-bushmaster-venom",
+    "explanation": "Lachesis গরমকাতর ও সাপের বিষ থেকে তৈরি।"
+  },
+  {
+    "id": "lach-med-16",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাসিকে রক্তপাত বেশি, কিন্তু উপশম হয়", "mid": "sym-lach-menses-profuse-but-amel"},
+      {"text": "মাসিকে রক্তপাত কম", "mid": "sym-menses-scanty"},
+      {"text": "মাসিকে রক্তপাত নেই", "mid": "sym-no-menses-bleeding"},
+      {"text": "মাসিকে বৃদ্ধি", "mid": "sym-menses-agg"}
+    ],
+    "answer": "sym-lach-menses-profuse-but-amel",
+    "explanation": "Lachesis-এ মাসিকে রক্ত বেশি কিন্তু উপশম হয়।"
+  },
+  {
+    "id": "lach-med-17",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মৃত্যুর ভয় কিন্তু মৃত্যুকে ভয় পায় না, অদ্ভুত দ্বন্দ্ব", "mid": "sym-lach-fear-death-but-not-afraid"},
+      {"text": "মৃত্যুভয় নেই", "mid": "sym-no-death-fear"},
+      {"text": "মৃত্যু কামনা করে", "mid": "sym-desires-death"},
+      {"text": "মৃত্যু নিয়ে হাসে", "mid": "sym-laugh-death"}
+    ],
+    "answer": "sym-lach-fear-death-but-not-afraid",
+    "explanation": "Lachesis-এ মৃত্যুভয় আছে কিন্তু মৃত্যুকে ভয় পায় না, এমন দ্বন্দ্ব।"
+  },
+  {
+    "id": "lach-med-18",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অস্থিরতা, রাগ ও হিংস্রতা", "mid": "sym-lach-restless-angry-violent"},
+      {"text": "শান্ত ও ধৈর্যশীল", "mid": "sym-calm-patient"},
+      {"text": "অস্থিরতা নেই", "mid": "sym-no-restlessness"},
+      {"text": "রাগ নেই", "mid": "sym-no-anger"}
+    ],
+    "answer": "sym-lach-restless-angry-violent",
+    "explanation": "Lachesis রোগী অস্থির, রাগী ও হিংস্র হতে পারে।"
+  },
+  {
+    "id": "lach-med-19",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মদ খেলে বৃদ্ধি", "mid": "sym-lach-agg-alcohol"},
+      {"text": "মদে উপশম", "mid": "sym-amel-alcohol"},
+      {"text": "মদে কোনো প্রভাব নেই", "mid": "sym-no-effect-alcohol"},
+      {"text": "মদ পছন্দ করে না", "mid": "sym-averse-alcohol"}
+    ],
+    "answer": "sym-lach-agg-alcohol",
+    "explanation": "Lachesis-এ মদ পানে বৃদ্ধি ঘটে।"
+  },
+  {
+    "id": "lach-med-20",
+    "stem": "নিচের কোনটি Lachesis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিপূরক Lycopodium, Hepar Sulph, সদৃশ Apis, Crotalus", "mid": "sym-lach-complementary-lyco-hepar-similar-apis-crot"},
+      {"text": "পরিপূরক Sulphur", "mid": "sym-complement-sulphur"},
+      {"text": "পরিপূরক Bryonia", "mid": "sym-complement-bryonia"},
+      {"text": "কোনো সম্পর্ক নেই", "mid": "sym-no-relation"}
+    ],
+    "answer": "sym-lach-complementary-lyco-hepar-similar-apis-crot",
+    "explanation": "Lachesis-এর পরিপূরক Lycopodium ও সদৃশ Apis, Crotalus।"
+  }
+]

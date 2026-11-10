@@ -1,0 +1,483 @@
+[
+  {
+    "id": "sars-med-01",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাবের শেষে তীব্র জ্বালা ও ব্যথা, বিশেষত শেষ কয়েক ফোঁটার সাথে।",
+        "mid": "pain_at_end_of_urination"
+      },
+      {
+        "text": "প্রস্রাবের শুরুতে তীব্র ব্যথা, শেষে আরাম।",
+        "mid": "pain_at_beginning_of_urination"
+      },
+      {
+        "text": "প্রস্রাবের সময় কোনো ব্যথা হয় না।",
+        "mid": "no_pain_during_urination"
+      },
+      {
+        "text": "প্রস্রাবের পর মূত্রথলিতে আরাম বোধ হয়।",
+        "mid": "relief_after_urination"
+      }
+    ],
+    "answer": "pain_at_end_of_urination",
+    "explanation": "Sarsaparilla Officinalis-এর সবচেয়ে গুরুত্বপূর্ণ লক্ষণ হলো প্রস্রাব শেষ হওয়ার ঠিক পরেই মূত্রনালীতে অসহ্য জ্বালা ও ব্যথা হয়, বিশেষত শেষ কয়েক ফোঁটা প্রস্রাবের সাথে。"
+  },
+  {
+    "id": "sars-med-02",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "বসে প্রস্রাব করতে না পারা, কিন্তু দাঁড়িয়ে প্রস্রাব করলে সহজে নির্গত হয়।",
+        "mid": "cannot_urinate_sitting_can_standing"
+      },
+      {
+        "text": "দাঁড়িয়ে প্রস্রাব করতে না পারা, কিন্তু বসে প্রস্রাব করা সহজ।",
+        "mid": "cannot_urinate_standing_can_sitting"
+      },
+      {
+        "text": "শুধুমাত্র শোয়া অবস্থায় প্রস্রাব হয়।",
+        "mid": "urination_only_while_lying"
+      },
+      {
+        "text": "প্রস্রাবের ভঙ্গিতে কোনো পার্থক্য নেই।",
+        "mid": "no_postural_difference_in_urination"
+      }
+    ],
+    "answer": "cannot_urinate_sitting_can_standing",
+    "explanation": "Sarsaparilla Officinalis-এ রোগী বসে প্রস্রাব করতে পারে না; ফোঁটা ফোঁটা প্রস্রাব পড়ে। কিন্তু দাঁড়িয়ে প্রস্রাব করলে অনায়াসে প্রস্রাব নির্গত হয়。"
+  },
+  {
+    "id": "sars-med-03",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাবের সাথে সাদা বা ধূসর বর্ণের বালুকণা (Urinary sand) নির্গত হওয়া।",
+        "mid": "urinary_sand_gravel"
+      },
+      {
+        "text": "প্রস্রাবের সাথে রক্তের চাপ চাপ কালো গুচ্ছ নির্গত হওয়া।",
+        "mid": "dark_clotted_blood_in_urine"
+      },
+      {
+        "text": "প্রস্রাব ঘোলাটে এবং দুর্গন্ধযুক্ত, কিন্তু কোনো বালুকণা নেই।",
+        "mid": "turbid_foul_urine_no_sand"
+      },
+      {
+        "text": "প্রস্রাব সম্পূর্ণ পরিষ্কার এবং বালুকণামুক্ত।",
+        "mid": "clear_urine_no_sand"
+      }
+    ],
+    "answer": "urinary_sand_gravel",
+    "explanation": "Sarsaparilla Officinalis-এ প্রস্রাবের সাথে সাদা বা ধূসর বর্ণের বালুকণা (Urinary sand/gravel) নির্গত হয়। কিডনিতে পাথর হওয়ার প্রবণতায় এটি মহৌষধ。"
+  },
+  {
+    "id": "sars-med-04",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের চামড়া কুঁচকে যাওয়া এবং শিশুকে বৃদ্ধের মতো দেখানো।",
+        "mid": "wrinkled_skin_child_looks_old"
+      },
+      {
+        "text": "শরীরের চামড়া অতিরিক্ত মসৃণ ও টানটান থাকা।",
+        "mid": "smooth_tight_skin"
+      },
+      {
+        "text": "শুধুমাত্র মুখের চামড়া কুঁচকে যাওয়া।",
+        "mid": "wrinkles_only_on_face"
+      },
+      {
+        "text": "চামড়া কুঁচকে যাওয়া শুধুমাত্র বয়স্কদের মধ্যে দেখা যায়।",
+        "mid": "wrinkles_only_in_elderly"
+      }
+    ],
+    "answer": "wrinkled_skin_child_looks_old",
+    "explanation": "Sarsaparilla Officinalis-এ শরীরের চামড়া কুঁচকে যায়, বিশেষত শিশুদের ক্ষেত্রে, ফলে শিশুকে বৃদ্ধের মতো দেখায়。"
+  },
+  {
+    "id": "sars-med-05",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "বসন্তকালে ত্বকের চুলকানি ও চর্মরোগ বৃদ্ধি পাওয়া।",
+        "mid": "skin_itching_worse_in_spring"
+      },
+      {
+        "text": "শীতকালে ত্বকের চর্মরোগ বৃদ্ধি পাওয়া।",
+        "mid": "skin_eruptions_worse_in_winter"
+      },
+      {
+        "text": "গ্রীষ্মকালে ত্বকের সমস্যা সম্পূর্ণ বন্ধ হয়ে যাওয়া।",
+        "mid": "skin_problems_disappear_in_summer"
+      },
+      {
+        "text": "ঋতু পরিবর্তনের সাথে ত্বকের কোনো সম্পর্ক নেই।",
+        "mid": "no_seasonal_variation_in_skin"
+      }
+    ],
+    "answer": "skin_itching_worse_in_spring",
+    "explanation": "Sarsaparilla Officinalis-এ প্রতি বছর বসন্তকাল এলে চর্মরোগ বা চুলকানি বৃদ্ধি পায়。"
+  },
+  {
+    "id": "sars-med-06",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথার চাঁদি থেকে চোখ পর্যন্ত তীরের আঘাতের মতো ব্যথা।",
+        "mid": "shooting_pain_from_occiput_to_eyes"
+      },
+      {
+        "text": "কপাল থেকে মাথার পেছন পর্যন্ত ব্যথা।",
+        "mid": "pain_from_front_to_occiput"
+      },
+      {
+        "text": "শুধুমাত্র চোখের চারপাশে ব্যথা।",
+        "mid": "pain_around_eyes_only"
+      },
+      {
+        "text": "মাথায় কোনো নির্দিষ্ট ধরনের ব্যথা নেই।",
+        "mid": "no_specific_headache_pattern"
+      }
+    ],
+    "answer": "shooting_pain_from_occiput_to_eyes",
+    "explanation": "Sarsaparilla Officinalis-এ মাথার চাঁদি (Occiput) থেকে চোখ পর্যন্ত তীরের আঘাত পাওয়ার মতো শুটিং ব্যথা হয়。"
+  },
+  {
+    "id": "sars-med-07",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শুকনো, খসখসে ত্বক এবং হাত-পায়ের চামড়া ফেটে যাওয়া।",
+        "mid": "dry_rough_skin_cracks_hands_feet"
+      },
+      {
+        "text": "তৈলাক্ত, মসৃণ ত্বক এবং কোনো ফাটল না থাকা।",
+        "mid": "oily_smooth_skin_no_cracks"
+      },
+      {
+        "text": "শুধুমাত্র মুখের ত্বক শুষ্ক এবং ফাটা।",
+        "mid": "dry_cracked_skin_only_on_face"
+      },
+      {
+        "text": "ত্বকে কোনো শুষ্কতা বা ফাটল নেই।",
+        "mid": "no_dryness_no_cracks"
+      }
+    ],
+    "answer": "dry_rough_skin_cracks_hands_feet",
+    "explanation": "Sarsaparilla Officinalis-এ ত্বক শুষ্ক, খসখসে এবং হাত-পায়ের চামড়া ফাটা ফাটা হয়。"
+  },
+  {
+    "id": "sars-med-08",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ডান দিকের কিডনি থেকে নিচের দিকে ছড়িয়ে পড়া অসহনীয় ব্যথা (Right-sided renal colic)।",
+        "mid": "right_sided_renal_colic_pain_downwards"
+      },
+      {
+        "text": "বাম দিকের কিডনিতে ব্যথা যা উপরের দিকে ছড়ায়।",
+        "mid": "left_sided_renal_pain_upwards"
+      },
+      {
+        "text": "উভয় কিডনিতে সমান ব্যথা।",
+        "mid": "bilateral_equal_renal_pain"
+      },
+      {
+        "text": "কিডনিতে ব্যথা নেই, শুধুমাত্র মূত্রথলিতে ব্যথা।",
+        "mid": "no_kidney_pain_only_bladder"
+      }
+    ],
+    "answer": "right_sided_renal_colic_pain_downwards",
+    "explanation": "Sarsaparilla Officinalis ডান দিকের রেনাল কোলিকে (Right-sided renal colic) কার্যকর, যেখানে ব্যথা ডান কিডনি থেকে নিচের দিকে অসহনীয়ভাবে ছড়িয়ে পড়ে。"
+  },
+  {
+    "id": "sars-med-09",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং দুঃখী প্রকৃতির হয়।",
+        "mid": "depressed_irritable_sad"
+      },
+      {
+        "text": "রোগী অতিরিক্ত হাসিখুশি ও প্রফুল্ল থাকে।",
+        "mid": "cheerful_and_happy"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ নির্বিকার ও উদাসীন থাকে।",
+        "mid": "apathetic_indifferent"
+      },
+      {
+        "text": "রোগী অত্যন্ত শান্ত ও ধৈর্যশীল থাকে।",
+        "mid": "calm_and_patient"
+      }
+    ],
+    "answer": "depressed_irritable_sad",
+    "explanation": "Sarsaparilla Officinalis-এর মানসিক লক্ষণে রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং দুঃখী প্রকৃতির হয়。"
+  },
+  {
+    "id": "sars-med-10",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ব্যথার সময় রোগী অত্যন্ত অস্থির হয়ে পড়ে এবং চিৎকার করে।",
+        "mid": "restlessness_screaming_during_pain"
+      },
+      {
+        "text": "ব্যথার সময় রোগী শান্ত ও নীরব থাকে।",
+        "mid": "calm_and_silent_during_pain"
+      },
+      {
+        "text": "ব্যথার সময় রোগী ঘুমিয়ে পড়ে।",
+        "mid": "sleeps_during_pain"
+      },
+      {
+        "text": "ব্যথার সাথে কোনো মানসিক প্রতিক্রিয়া নেই।",
+        "mid": "no_mental_reaction_to_pain"
+      }
+    ],
+    "answer": "restlessness_screaming_during_pain",
+    "explanation": "Sarsaparilla Officinalis-এ ব্যথার সময় রোগী অত্যন্ত অস্থির হয়ে পড়ে এবং চিৎকার করে。"
+  },
+  {
+    "id": "sars-med-11",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মানসিক পরিশ্রম করলে শারীরিক কষ্টগুলো বেড়ে যায়।",
+        "mid": "physical_complaints_worse_from_mental_exertion"
+      },
+      {
+        "text": "মানসিক পরিশ্রম করলে শারীরিক কষ্ট কমে যায়।",
+        "mid": "physical_complaints_better_from_mental_exertion"
+      },
+      {
+        "text": "মানসিক পরিশ্রমের সাথে শারীরিক লক্ষণের কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_mental_exertion_physical"
+      },
+      {
+        "text": "শুধুমাত্র শারীরিক পরিশ্রমে কষ্ট বাড়ে।",
+        "mid": "complaints_worse_from_physical_exertion_only"
+      }
+    ],
+    "answer": "physical_complaints_worse_from_mental_exertion",
+    "explanation": "Sarsaparilla Officinalis-এ মানসিক পরিশ্রম করলে রোগীর শারীরিক কষ্টগুলো বেড়ে যায়。"
+  },
+  {
+    "id": "sars-med-12",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মেয়েদের স্তনের বোঁটা ভিতরে ঢুকে যায় (Retracted nipples)।",
+        "mid": "retracted_nipples_females"
+      },
+      {
+        "text": "স্তনের বোঁটা অতিরিক্ত বড় হয়ে যায়।",
+        "mid": "enlarged_nipples"
+      },
+      {
+        "text": "স্তনে কোনো পরিবর্তন হয় না।",
+        "mid": "no_breast_change"
+      },
+      {
+        "text": "শুধুমাত্র বাম স্তনের বোঁটা ভিতরে ঢোকে।",
+        "mid": "left_nipple_retracted_only"
+      }
+    ],
+    "answer": "retracted_nipples_females",
+    "explanation": "Sarsaparilla Officinalis-এ মেয়েদের স্তনের বোঁটা ভিতরে ঢুকে যায় (Retracted nipples)।"
+  },
+  {
+    "id": "sars-med-13",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মূত্রথলি ফুলে ওঠা এবং其上 হাত দিলে ব্যথা পাওয়া।",
+        "mid": "swollen_bladder_painful_to_touch"
+      },
+      {
+        "text": "মূত্রথলি সংকুচিত এবং স্পর্শে কোনো ব্যথা নেই।",
+        "mid": "contracted_bladder_not_tender"
+      },
+      {
+        "text": "মূত্রথলিতে কোনো ফোলা বা ব্যথা নেই।",
+        "mid": "no_bladder_swelling_or_pain"
+      },
+      {
+        "text": "শুধুমাত্র প্রস্রাব করার সময় মূত্রথলিতে চাপ অনুভূত হয়।",
+        "mid": "pressure_on_bladder_only_during_urination"
+      }
+    ],
+    "answer": "swollen_bladder_painful_to_touch",
+    "explanation": "Sarsaparilla Officinalis-এ অনেক সময় মূত্রথলি ফুলে ওঠে এবং其上 হাত দিলে ব্যথা পাওয়া যায়。"
+  },
+  {
+    "id": "sars-med-14",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়ের নিচের অংশে শিরা ফুলে যাওয়া (Varicose veins) এবং ত্বকে নীলচে দাগ পড়া।",
+        "mid": "varicose_veins_blue_spots_legs"
+      },
+      {
+        "text": "শুধুমাত্র হাতের শিরা ফুলে যাওয়া।",
+        "mid": "varicose_veins_arms_only"
+      },
+      {
+        "text": "শিরা সংকুচিত হয়ে যাওয়া এবং ত্বক ফ্যাকাশে হওয়া।",
+        "mid": "constricted_veins_pale_skin"
+      },
+      {
+        "text": "শিরায় কোনো সমস্যা নেই।",
+        "mid": "no_vein_problems"
+      }
+    ],
+    "answer": "varicose_veins_blue_spots_legs",
+    "explanation": "Sarsaparilla Officinalis-এ শিরার দুর্বলতা ও প্রসারণ ঘটে, যার ফলে পায়ে ভ্যারিকোজ ভেইন এবং ত্বকে নীলচে দাগ (Blue spots) দেখা দেয়।"
+  },
+  {
+    "id": "sars-med-15",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটে গ্যাস জমে এবং টক স্বাদের খাবার বমি হওয়া।",
+        "mid": "flatulence_sour_vomiting"
+      },
+      {
+        "text": "পেটে গ্যাস জমে কিন্তু বমি হয় না।",
+        "mid": "flatulence_no_vomiting"
+      },
+      {
+        "text": "শুধুমাত্র মিষ্টি স্বাদের খাবার বমি হওয়া।",
+        "mid": "sweet_vomiting_only"
+      },
+      {
+        "text": "পেটে কোনো গ্যাস বা বমির সমস্যা নেই।",
+        "mid": "no_gas_no_vomiting"
+      }
+    ],
+    "answer": "flatulence_sour_vomiting",
+    "explanation": "Sarsaparilla Officinalis-এ পেটে গ্যাস জমে (Flatulence) এবং টক স্বাদের খাবার বমি হয়。"
+  },
+  {
+    "id": "sars-med-16",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঠান্ডা কিছু খেলে বা ঠান্ডা বাতাস লাগলে লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_from_cold_food_air"
+      },
+      {
+        "text": "গরম কিছু খেলে বা গরম আবহাওয়ায় লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_from_warm_food_weather"
+      },
+      {
+        "text": "ঠান্ডা বা গরমে কোনো পার্থক্য হয় না।",
+        "mid": "no_effect_of_cold_or_heat"
+      },
+      {
+        "text": "শুধুমাত্র গরম পানীয়তে উপশম হয়।",
+        "mid": "amelioration_from_warm_drinks_only"
+      }
+    ],
+    "answer": "aggravation_from_cold_food_air",
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ ঠান্ডা কিছু খেলে বা ঠান্ডা বাতাস লাগলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sars-med-17",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "বসন্তকালে এবং স্যাঁতসেঁতে ঠান্ডা আবহাওয়ায় লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_spring_damp_cold_weather"
+      },
+      {
+        "text": "গ্রীষ্মকালে এবং শুষ্ক গরম আবহাওয়ায় লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_summer_dry_hot_weather"
+      },
+      {
+        "text": "শরৎকালে এবং শুষ্ক ঠান্ডা আবহাওয়ায় লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_autumn_dry_cold_weather"
+      },
+      {
+        "text": "আবহাওয়ার সাথে লক্ষণের কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_with_weather"
+      }
+    ],
+    "answer": "aggravation_spring_damp_cold_weather",
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ বসন্তকালে এবং স্যাঁতসেঁতে ঠান্ডা আবহাওয়ায় বৃদ্ধি পায়。"
+  },
+  {
+    "id": "sars-med-18",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ভিনেগার খেলে লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_from_vinegar"
+      },
+      {
+        "text": "ভিনেগার খেলে লক্ষণ উপশম হয়।",
+        "mid": "amelioration_from_vinegar"
+      },
+      {
+        "text": "ভিনেগারের সাথে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_with_vinegar"
+      },
+      {
+        "text": "শুধুমাত্র টক ফল খেলে উপশম হয়।",
+        "mid": "amelioration_from_sour_fruits_only"
+      }
+    ],
+    "answer": "aggravation_from_vinegar",
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ ভিনেগার খেলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sars-med-19",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ক্যাম্ফর (Camphor)-এর গন্ধে লক্ষণ উপশম হয়।",
+        "mid": "amelioration_from_smelling_camphor"
+      },
+      {
+        "text": "ক্যাম্ফরের গন্ধে লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_from_smelling_camphor"
+      },
+      {
+        "text": "ক্যাম্ফরের সাথে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_with_camphor"
+      },
+      {
+        "text": "শুধুমাত্র ক্যাম্ফর খেলে উপশম হয়।",
+        "mid": "amelioration_from_ingesting_camphor"
+      }
+    ],
+    "answer": "amelioration_from_smelling_camphor",
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ ক্যাম্ফর (Camphor) শুঁকলে উপশম হয়।"
+  },
+  {
+    "id": "sars-med-20",
+    "stem": "নিচের কোনটি Sarsaparilla Officinalis-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পারদ (Mercury)-এর অপব্যবহারজনিত দোষে (Mercurial miasm) এটি একটি প্রধান প্রতিষেধক।",
+        "mid": "antidote_to_mercury_miasm"
+      },
+      {
+        "text": "পারদ (Mercury)-এর সাথে এর কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_with_mercury"
+      },
+      {
+        "text": "শুধুমাত্র সিফিলিসের প্রাথমিক পর্যায়ে ব্যবহৃত হয়।",
+        "mid": "only_for_primary_syphilis"
+      },
+      {
+        "text": "শুধুমাত্র সাইকোসিসে (Sycosis) ব্যবহৃত হয়।",
+        "mid": "only_for_sycosis"
+      }
+    ],
+    "answer": "antidote_to_mercury_miasm",
+    "explanation": "Sarsaparilla Officinalis পারদ (Mercury)-এর অপব্যবহারজনিত দোষে (Mercurial miasm) একটি প্রধান প্রতিষেধক (Antidote) হিসেবে কাজ করে。"
+  }
+]
+```

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "conium-med-01",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গ্রন্থি পাথরের মতো শক্ত, বিশেষ করে আঘাতের পর স্তন ও অণ্ডকোষে", "mid": "sym-conium-induration-stony-after-injury"},
+      {"text": "গ্রন্থি নরম ও গরম", "mid": "sym-gland-soft-hot"},
+      {"text": "গ্রন্থি পেকে ফেটে যায়", "mid": "sym-gland-suppurates-bursts"},
+      {"text": "গ্রন্থিতে কোনো পরিবর্তন নেই", "mid": "sym-no-gland-change"}
+    ],
+    "answer": "sym-conium-induration-stony-after-injury",
+    "explanation": "Conium-এ গ্রন্থি আঘাতের পর পাথরের মতো শক্ত হয়।"
+  },
+  {
+    "id": "conium-med-02",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শয়নকালে এপাশ-ওপাশ ফিরলে মাথা ঘোরা", "mid": "sym-conium-vertigo-lying-turning"},
+      {"text": "দাঁড়ালে মাথা ঘোরা", "mid": "sym-vertigo-standing"},
+      {"text": "মাথা ঘোরা নেই", "mid": "sym-no-vertigo"},
+      {"text": "বসে থাকলে মাথা ঘোরা", "mid": "sym-vertigo-sitting"}
+    ],
+    "answer": "sym-conium-vertigo-lying-turning",
+    "explanation": "Conium-এ শুয়ে এপাশ-ওপাশ ফিরলে মাথা ঘোরে, এটি বিশিষ্ট লক্ষণ।"
+  },
+  {
+    "id": "conium-med-03",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঊর্ধ্বগামী পক্ষাঘাত, পা থেকে শুরু হয়ে উপরে যায়", "mid": "sym-conium-ascending-paralysis-feet-up"},
+      {"text": "অধোগামী পক্ষাঘাত, উপর থেকে নিচে", "mid": "sym-descending-paralysis"},
+      {"text": "এক পাশে পক্ষাঘাত", "mid": "sym-hemiplegia"},
+      {"text": "পক্ষাঘাত নেই", "mid": "sym-no-paralysis"}
+    ],
+    "answer": "sym-conium-ascending-paralysis-feet-up",
+    "explanation": "Conium-এ পক্ষাঘাত নিচ থেকে উপরে অগ্রসর হয়।"
+  },
+  {
+    "id": "conium-med-04",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রস্রাব থেমে থেমে বের হয়, বারবার ধারা বন্ধ ও শুরু", "mid": "sym-conium-intermittent-urine-flow"},
+      {"text": "প্রস্রাব অবিরাম বের হয়", "mid": "sym-continuous-urine-flow"},
+      {"text": "প্রস্রাব বন্ধ হয়ে যায়", "mid": "sym-urine-suppressed"},
+      {"text": "প্রস্রাবে কোনো সমস্যা নেই", "mid": "sym-no-urinary-issue"}
+    ],
+    "answer": "sym-conium-intermittent-urine-flow",
+    "explanation": "Conium-এ প্রস্রাবের ধারা থেমে থেমে বের হয়।"
+  },
+  {
+    "id": "conium-med-05",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রদাহ ছাড়াই তীব্র আলোকাতঙ্ক", "mid": "sym-conium-photophobia-without-inflammation"},
+      {"text": "প্রদাহের সাথে আলোকাতঙ্ক", "mid": "sym-photophobia-with-inflammation"},
+      {"text": "আলোতে ভালো লাগে", "mid": "sym-likes-light"},
+      {"text": "আলোতে কোনো সমস্যা নেই", "mid": "sym-no-photophobia"}
+    ],
+    "answer": "sym-conium-photophobia-without-inflammation",
+    "explanation": "Conium-এ প্রদাহ ছাড়াই তীব্র আলো অসহ্য হয়।"
+  },
+  {
+    "id": "conium-med-06",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যৌন ইচ্ছা দমনের কুফল", "mid": "sym-conium-bad-effects-suppressed-sexual-desire"},
+      {"text": "যৌন ইচ্ছা দমনে উপশম", "mid": "sym-amel-suppressed-sex"},
+      {"text": "যৌন ইচ্ছা নেই", "mid": "sym-no-sexual-desire"},
+      {"text": "যৌন ইচ্ছা স্বাভাবিক", "mid": "sym-normal-sex-desire"}
+    ],
+    "answer": "sym-conium-bad-effects-suppressed-sexual-desire",
+    "explanation": "Conium যৌন ইচ্ছা দমনের কুফলে কার্যকর।"
+  },
+  {
+    "id": "conium-med-07",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পুরুষের কাম চিন্তা সর্বদা কিন্তু মিলনে অক্ষম, স্ত্রী স্পর্শে লিঙ্গ শীতল", "mid": "sym-conium-desire-thought-impotency-cold-on-touch"},
+      {"text": "পুরুষের কাম ইচ্ছা নেই", "mid": "sym-no-male-desire"},
+      {"text": "মিলনে অত্যন্ত শক্তিশালী", "mid": "sym-very-potent"},
+      {"text": "কাম চিন্তা নেই", "mid": "sym-no-sexual-thought"}
+    ],
+    "answer": "sym-conium-desire-thought-impotency-cold-on-touch",
+    "explanation": "Conium পুরুষের কাম চিন্তা থাকে কিন্তু মিলনে অক্ষম ও শীতলতা থাকে।"
+  },
+  {
+    "id": "conium-med-08",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্তনে শক্তভাব, রজস্রাবের সময় ফুলে ও ব্যথা", "mid": "sym-conium-breast-hard-menses-swollen-painful"},
+      {"text": "স্তনে কোনো ব্যথা নেই", "mid": "sym-no-breast-pain"},
+      {"text": "স্তন ছোট হয়ে যায়", "mid": "sym-breast-small"},
+      {"text": "স্তনে শুধু চুলকানি", "mid": "sym-breast-itch-only"}
+    ],
+    "answer": "sym-conium-breast-hard-menses-swollen-painful",
+    "explanation": "Conium-এ স্তন শক্ত ও মাসিকের সময় ফুলে ব্যথা হয়।"
+  },
+  {
+    "id": "conium-med-09",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্মৃতিশক্তি হ্রাস বিশেষ করে বৃদ্ধদের", "mid": "sym-conium-memory-loss-especially-old"},
+      {"text": "স্মৃতি প্রখর", "mid": "sym-sharp-memory"},
+      {"text": "স্মৃতি শুধু তরুণদের কমে", "mid": "sym-memory-loss-young-only"},
+      {"text": "স্মৃতি স্বাভাবিক", "mid": "sym-memory-normal"}
+    ],
+    "answer": "sym-conium-memory-loss-especially-old",
+    "explanation": "Conium-এ বৃদ্ধদের স্মৃতিশক্তি হ্রাস পায়।"
+  },
+  {
+    "id": "conium-med-10",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নিদ্রাকালে ঘর্ম", "mid": "sym-conium-sweat-during-sleep"},
+      {"text": "জেগে থাকলে ঘাম", "mid": "sym-sweat-waking"},
+      {"text": "ঘাম হয় না", "mid": "sym-no-sweat"},
+      {"text": "দিনে ঘাম", "mid": "sym-sweat-day"}
+    ],
+    "answer": "sym-conium-sweat-during-sleep",
+    "explanation": "Conium-এ নিদ্রাকালে ঘাম হয়।"
+  },
+  {
+    "id": "conium-med-11",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নাকের পলিপাস, সহজে রক্ত পড়ে", "mid": "sym-conium-nasal-polyp-bleeds-easily"},
+      {"text": "নাকে পলিপাস নেই", "mid": "sym-no-nasal-polyp"},
+      {"text": "নাকে পলিপাস কিন্তু রক্ত পড়ে না", "mid": "sym-polyp-no-bleed"},
+      {"text": "নাকে শুধু সর্দি", "mid": "sym-only-coryza-nose"}
+    ],
+    "answer": "sym-conium-nasal-polyp-bleeds-easily",
+    "explanation": "Conium-এ নাকের পলিপাস ও সহজে রক্তপাত হয়।"
+  },
+  {
+    "id": "conium-med-12",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখ থেকে জল পড়ে, আলোকাতঙ্ক", "mid": "sym-conium-lachrymation-photophobia"},
+      {"text": "চোখ শুকনো", "mid": "sym-dry-eyes"},
+      {"text": "চোখে পুঁজ", "mid": "sym-pus-eyes"},
+      {"text": "চোখে কোনো সমস্যা নেই", "mid": "sym-no-eye-issue"}
+    ],
+    "answer": "sym-conium-lachrymation-photophobia",
+    "explanation": "Conium-এ চোখ থেকে জল পড়ে ও আলোকাতঙ্ক থাকে।"
+  },
+  {
+    "id": "conium-med-13",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উদাসীনতা, কোনো কাজে আগ্রহ নেই, একা থাকতে ভয় কিন্তু সঙ্গও পছন্দ নয়", "mid": "sym-conium-indifferent-fear-alone-yet-averse-company"},
+      {"text": "খুব আগ্রহী ও মিশুক", "mid": "sym-very-interested-sociable"},
+      {"text": "একা থাকতে ভালো লাগে", "mid": "sym-likes-alone"},
+      {"text": "সঙ্গ পছন্দ করে", "mid": "sym-likes-company"}
+    ],
+    "answer": "sym-conium-indifferent-fear-alone-yet-averse-company",
+    "explanation": "Conium রোগী উদাসীন, একা ভয় পায় কিন্তু সঙ্গও পছন্দ করে না।"
+  },
+  {
+    "id": "conium-med-14",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দীর্ঘস্থায়ী শোকের কুফল", "mid": "sym-conium-bad-effects-prolonged-grief"},
+      {"text": "শোকে কোনো প্রভাব নেই", "mid": "sym-no-effect-grief"},
+      {"text": "শোকে আনন্দিত", "mid": "sym-joyful-grief"},
+      {"text": "শোক ভুলে যায়", "mid": "sym-forgets-grief"}
+    ],
+    "answer": "sym-conium-bad-effects-prolonged-grief",
+    "explanation": "Conium দীর্ঘস্থায়ী শোকের কুফলে কার্যকর।"
+  },
+  {
+    "id": "conium-med-15",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতে শোয়ার পর শুষ্ক কাশি ও দমবন্ধ ভাব, বৃদ্ধদের বেশি", "mid": "sym-conium-dry-cough-after-lying-night-old"},
+      {"text": "দিনে কাশি বাড়ে", "mid": "sym-cough-day-agg"},
+      {"text": "কাশি নেই", "mid": "sym-no-cough"},
+      {"text": "কাশিতে প্রচুর কফ", "mid": "sym-cough-profuse-expectoration"}
+    ],
+    "answer": "sym-conium-dry-cough-after-lying-night-old",
+    "explanation": "Conium-এ রাতে শোয়ার পর শুষ্ক কাশি ও দমবন্ধ ভাব, বৃদ্ধদের বেশি।"
+  },
+  {
+    "id": "conium-med-16",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: রাতে, শুয়ে থাকলে, মাথা ঘোরালে, অবিবাহিত বা সংযমীদের ক্ষেত্রে", "mid": "sym-conium-agg-night-lying-turning-head-celibate"},
+      {"text": "বৃদ্ধি: দিনে ও নড়াচড়ায়", "mid": "sym-agg-day-motion"},
+      {"text": "বৃদ্ধি: খোলা বাতাসে", "mid": "sym-agg-open-air"},
+      {"text": "বৃদ্ধি: গরমে", "mid": "sym-agg-heat"}
+    ],
+    "answer": "sym-conium-agg-night-lying-turning-head-celibate",
+    "explanation": "Conium-এ রাতে, শুয়ে, মাথা ঘোরালে ও সংযমীদের ক্ষেত্রে বৃদ্ধি।"
+  },
+  {
+    "id": "conium-med-17",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: অন্ধকার ঘরে, নড়াচড়ায় (কাশি বাদে), চাপ দিলে", "mid": "sym-conium-amel-dark-room-motion-pressure"},
+      {"text": "উপশম: আলোতে", "mid": "sym-amel-light"},
+      {"text": "উপশম: বিশ্রামে", "mid": "sym-amel-rest"},
+      {"text": "উপশম: গরমে", "mid": "sym-amel-heat"}
+    ],
+    "answer": "sym-conium-amel-dark-room-motion-pressure",
+    "explanation": "Conium অন্ধকার ঘরে, নড়াচড়ায় ও চাপে উপশম পায়।"
+  },
+  {
+    "id": "conium-med-18",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শীতকাতর, ডান পার্শ্ব বেশি, ত্রি-মায়াজমেটিক", "mid": "sym-conium-chilly-right-trimiasmatic"},
+      {"text": "গরমকাতর বাম পার্শ্ব", "mid": "sym-hot-left"},
+      {"text": "উভয়কাতর", "mid": "sym-both-hot-cold"},
+      {"text": "শুধু সোরা", "mid": "sym-only-psora"}
+    ],
+    "answer": "sym-conium-chilly-right-trimiasmatic",
+    "explanation": "Conium শীতকাতর, ডান পার্শ্ব বেশি ও ত্রি-মায়াজমেটিক।"
+  },
+  {
+    "id": "conium-med-19",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিপূরক Asterias Rubens, Causticum, সদৃশ Baryta Carb, Phytolacca", "mid": "sym-conium-complementary-asterias-causticum"},
+      {"text": "পরিপূরক Sulphur", "mid": "sym-complement-sulphur"},
+      {"text": "পরিপূরক Bryonia", "mid": "sym-complement-bryonia"},
+      {"text": "কোনো সম্পর্ক নেই", "mid": "sym-no-relation"}
+    ],
+    "answer": "sym-conium-complementary-asterias-causticum",
+    "explanation": "Conium-এর পরিপূরক Asterias Rubens, Causticum এবং সদৃশ Baryta Carb।"
+  },
+  {
+    "id": "conium-med-20",
+    "stem": "নিচের কোনটি Conium Maculatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের পাতার পক্ষাঘাত", "mid": "sym-conium-ptosis-eyelid-paralysis"},
+      {"text": "চোখের পাতা ফুলে যাওয়া", "mid": "sym-eyelid-swelling"},
+      {"text": "চোখের পাতায় চুলকানি", "mid": "sym-eyelid-itching"},
+      {"text": "চোখের পাতায় কোনো সমস্যা নেই", "mid": "sym-no-eyelid-issue"}
+    ],
+    "answer": "sym-conium-ptosis-eyelid-paralysis",
+    "explanation": "Conium-এ চোখের পাতার পক্ষাঘাত (ptosis) দেখা যায়।"
+  }
+]

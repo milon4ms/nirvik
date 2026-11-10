@@ -1,0 +1,242 @@
+[
+  {
+    "id": "merc-med-01",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উভয়কাতর, শীত ও গরম কোনোটিই সহ্য হয় না, মানবিক থার্মোমিটার", "mid": "sym-merc-ambithermal-human-thermometer"},
+      {"text": "শুধু শীতকাতর", "mid": "sym-only-chilly"},
+      {"text": "শুধু গরমকাতর", "mid": "sym-only-hot"},
+      {"text": "কাতরতা নেই", "mid": "sym-no-thermal"}
+    ],
+    "answer": "sym-merc-ambithermal-human-thermometer",
+    "explanation": "Mercurius Vivus উভয়কাতর, মানবিক থার্মোমিটার বলা হয়।"
+  },
+  {
+    "id": "merc-med-02",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রচণ্ড লালাঝরা, ঘুমে বা কথা বলার সময় দুর্গন্ধযুক্ত লালায় বালিশ ভেজে", "mid": "sym-merc-profuse-salivation-offensive-pillow-wet"},
+      {"text": "মুখ শুকনো", "mid": "sym-dry-mouth"},
+      {"text": "লালা কম", "mid": "sym-less-saliva"},
+      {"text": "লালা গন্ধহীন", "mid": "sym-odorless-saliva"}
+    ],
+    "answer": "sym-merc-profuse-salivation-offensive-pillow-wet",
+    "explanation": "Merc Vivus-এ প্রচণ্ড দুর্গন্ধযুক্ত লালা ঝরে।"
+  },
+  {
+    "id": "merc-med-03",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জিহ্বা মোটা থলথলে, ফ্যাকাশে ভেজা, দুপাশে দাঁতের দাগ", "mid": "sym-merc-tongue-thick-flabby-moist-tooth-prints"},
+      {"text": "জিহ্বা সরু ও লাল", "mid": "sym-tongue-thin-red"},
+      {"text": "জিহ্বা শুকনো", "mid": "sym-tongue-dry"},
+      {"text": "জিহ্বায় কোনো দাগ নেই", "mid": "sym-no-tooth-mark"}
+    ],
+    "answer": "sym-merc-tongue-thick-flabby-moist-tooth-prints",
+    "explanation": "Merc Vivus-এ জিহ্বা থলথলে ও দাঁতের দাগ থাকে।"
+  },
+  {
+    "id": "merc-med-04",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতে ও বিছানার গরমে প্রতিটি কষ্ট তীব্র হয়", "mid": "sym-merc-agg-night-bed-heat"},
+      {"text": "রাতে উপশম", "mid": "sym-amel-night"},
+      {"text": "বিছানার গরমে উপশম", "mid": "sym-amel-bed-heat"},
+      {"text": "রাতে কোনো কষ্ট নেই", "mid": "sym-no-complaint-night"}
+    ],
+    "answer": "sym-merc-agg-night-bed-heat",
+    "explanation": "Merc Vivus-এ রাতে ও বিছানার গরমে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "merc-med-05",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘাম, মুখ, মল, প্রস্রাব ও ক্ষত থেকে তীব্র পচা দুর্গন্ধ", "mid": "sym-merc-offensive-discharges-sweat-stool-urine-ulcer"},
+      {"text": "নিঃসরণ গন্ধহীন", "mid": "sym-odorless-discharges"},
+      {"text": "নিঃসরণ সুগন্ধযুক্ত", "mid": "sym-fragrant-discharges"},
+      {"text": "নিঃসরণ নেই", "mid": "sym-no-discharge"}
+    ],
+    "answer": "sym-merc-offensive-discharges-sweat-stool-urine-ulcer",
+    "explanation": "Merc Vivus-এ সব নিঃসরণ দুর্গন্ধযুক্ত।"
+  },
+  {
+    "id": "merc-med-06",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরে দ্রুত ক্ষত ও আলসার তৈরি, পুঁজ পড়ে", "mid": "sym-merc-ulceration-suppurative-tendency"},
+      {"text": "ক্ষত হয় না", "mid": "sym-no-ulcer"},
+      {"text": "ক্ষত শুকনো", "mid": "sym-dry-ulcer"},
+      {"text": "ক্ষতে পুঁজ নেই", "mid": "sym-no-pus-ulcer"}
+    ],
+    "answer": "sym-merc-ulceration-suppurative-tendency",
+    "explanation": "Merc Vivus-এ ক্ষত ও পুঁজ প্রবণতা থাকে।"
+  },
+  {
+    "id": "merc-med-07",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলত্যাগের সময় বা পরে তীব্র কোঁথানি, মনে হয় আরও মল রয়ে গেছে", "mid": "sym-merc-tenesmus-never-get-done"},
+      {"text": "মলত্যাগে কোঁথানি নেই", "mid": "sym-no-tenesmus"},
+      {"text": "মলত্যাগে সম্পূর্ণ তৃপ্তি", "mid": "sym-complete-relief-stool"},
+      {"text": "মলত্যাগ সহজ", "mid": "sym-easy-stool"}
+    ],
+    "answer": "sym-merc-tenesmus-never-get-done",
+    "explanation": "Merc Vivus-এ Never-get-done অনুভূতি ও কোঁথানি থাকে।"
+  },
+  {
+    "id": "merc-med-08",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রচণ্ড ঘাম হয় কিন্তু ঘামে কষ্ট কমে না, বরং বাড়ে", "mid": "sym-merc-sweat-profuse-no-relief-agg"},
+      {"text": "ঘামে উপশম", "mid": "sym-sweat-amel"},
+      {"text": "ঘাম হয় না", "mid": "sym-no-sweat"},
+      {"text": "ঘাম গন্ধহীন", "mid": "sym-sweat-odorless"}
+    ],
+    "answer": "sym-merc-sweat-profuse-no-relief-agg",
+    "explanation": "Merc Vivus-এ ঘামে কষ্ট বাড়ে, কমে না।"
+  },
+  {
+    "id": "merc-med-09",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জিহ্বা ভেজা তবুও প্রচণ্ড তৃষ্ণা", "mid": "sym-merc-moist-tongue-intense-thirst"},
+      {"text": "জিহ্বা ভেজা তৃষ্ণা নেই", "mid": "sym-moist-tongue-no-thirst"},
+      {"text": "জিহ্বা শুকনো ও তৃষ্ণা", "mid": "sym-dry-tongue-thirst"},
+      {"text": "তৃষ্ণা নেই", "mid": "sym-no-thirst"}
+    ],
+    "answer": "sym-merc-moist-tongue-intense-thirst",
+    "explanation": "Merc Vivus-এ জিহ্বা ভেজা কিন্তু তৃষ্ণা থাকে।"
+  },
+  {
+    "id": "merc-med-10",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখে ঘা, মাড়ি ফুলে রক্ত পড়া, দাঁত নড়া, ধাতব পচা দুর্গন্ধ", "mid": "sym-merc-mouth-ulcer-gums-bleed-loose-teeth-metallic-fetor"},
+      {"text": "মুখে কোনো ঘা নেই", "mid": "sym-no-mouth-ulcer"},
+      {"text": "মাড়ি শক্ত", "mid": "sym-gums-hard"},
+      {"text": "দাঁত মজবুত", "mid": "sym-teeth-strong"}
+    ],
+    "answer": "sym-merc-mouth-ulcer-gums-bleed-loose-teeth-metallic-fetor",
+    "explanation": "Merc Vivus-এ মুখে ঘা, মাড়ি থেকে রক্ত ও ধাতব দুর্গন্ধ থাকে।"
+  },
+  {
+    "id": "merc-med-11",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "টনসিল পেকে পুঁজ, গিলতে কান পর্যন্ত ব্যথা, কালচে লাল", "mid": "sym-merc-quinsy-ear-pain-swallowing-dark-red"},
+      {"text": "টনসিলে কোনো পুঁজ নেই", "mid": "sym-no-quinsy-pus"},
+      {"text": "গিলতে ব্যথা নেই", "mid": "sym-no-pain-swallowing"},
+      {"text": "টনসিল ফ্যাকাশে", "mid": "sym-tonsil-pale"}
+    ],
+    "answer": "sym-merc-quinsy-ear-pain-swallowing-dark-red",
+    "explanation": "Merc Vivus-এ টনসিল পেকে পুঁজ ও কানে ব্যথা ছড়ায়।"
+  },
+  {
+    "id": "merc-med-12",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আমাশয় মল রক্ত ও পিচ্ছিল শ্লেষ্মা যুক্ত, মলদ্বার ঝুলে পড়ার অনুভূতি", "mid": "sym-merc-dysentery-blood-slime-prolapse-feel"},
+      {"text": "মল শক্ত", "mid": "sym-hard-stool"},
+      {"text": "মলে রক্ত নেই", "mid": "sym-no-blood-stool"},
+      {"text": "মলদ্বার শক্ত", "mid": "sym-anus-tight"}
+    ],
+    "answer": "sym-merc-dysentery-blood-slime-prolapse-feel",
+    "explanation": "Merc Vivus আমাশয়ে রক্ত-শ্লেষ্মা ও মলদ্বার ঝুলে পড়ার অনুভূতি থাকে।"
+  },
+  {
+    "id": "merc-med-13",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লসিকা গ্রন্থি ফুলে শক্ত, সহজে পেকে পুঁজ", "mid": "sym-merc-glands-swollen-hard-suppurate"},
+      {"text": "গ্রন্থি ফোলে না", "mid": "sym-no-gland-swelling"},
+      {"text": "গ্রন্থি নরম", "mid": "sym-glands-soft"},
+      {"text": "গ্রন্থিতে পুঁজ হয় না", "mid": "sym-no-gland-suppur"}
+    ],
+    "answer": "sym-merc-glands-swollen-hard-suppurate",
+    "explanation": "Merc Vivus-এ গ্রন্থি ফুলে শক্ত ও পুঁজ হয়।"
+  },
+  {
+    "id": "merc-med-14",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অস্থির, ধীরগতি, উদাসীন, প্রশ্নের উত্তর দিতে সময় নেয়, স্মৃতি দুর্বল", "mid": "sym-merc-restless-slow-indifferent-memory-weak"},
+      {"text": "খুব দ্রুত উত্তর দেয়", "mid": "sym-quick-answer"},
+      {"text": "স্মৃতি প্রখর", "mid": "sym-sharp-memory"},
+      {"text": "অস্থিরতা নেই", "mid": "sym-no-restlessness"}
+    ],
+    "answer": "sym-merc-restless-slow-indifferent-memory-weak",
+    "explanation": "Merc Vivus রোগী অস্থির, ধীর ও স্মৃতি দুর্বল।"
+  },
+  {
+    "id": "merc-med-15",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হঠাৎ ধারালো অস্ত্র দেখলে কাটার ইচ্ছা, আত্মহত্যা বা আঘাতের উন্মাদনা", "mid": "sym-merc-impulse-cut-sharp-weapon-suicide-homicide"},
+      {"text": "আত্মহত্যার ইচ্ছা নেই", "mid": "sym-no-suicidal"},
+      {"text": "কাউকে আঘাত করার ইচ্ছা নেই", "mid": "sym-no-homicidal"},
+      {"text": "ধারালো অস্ত্র ভয় পায় না", "mid": "sym-no-fear-sharp-weapon"}
+    ],
+    "answer": "sym-merc-impulse-cut-sharp-weapon-suicide-homicide",
+    "explanation": "Merc Vivus-এ ধারালো অস্ত্র দেখলে কাটার উন্মাদনা থাকে।"
+  },
+  {
+    "id": "merc-med-16",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: রাতে, বিছানার গরমে, স্যাঁতসেঁতে, ঘামলে, ডান পাশে শুলে", "mid": "sym-merc-agg-night-bed-heat-damp-sweat-right-lying"},
+      {"text": "বৃদ্ধি: দিনে ও ঠান্ডায়", "mid": "sym-agg-day-cold"},
+      {"text": "বৃদ্ধি: খোলা বাতাসে", "mid": "sym-agg-open-air"},
+      {"text": "বৃদ্ধি: বিশ্রামে", "mid": "sym-agg-rest"}
+    ],
+    "answer": "sym-merc-agg-night-bed-heat-damp-sweat-right-lying",
+    "explanation": "Merc Vivus-এ রাতে, বিছানার গরমে, ঘামলে ও ডান পাশে শুলে বৃদ্ধি।"
+  },
+  {
+    "id": "merc-med-17",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: মাঝারি তাপমাত্রায়, বিশ্রামে, ক্ষত উন্মুক্ত রাখলে", "mid": "sym-merc-amel-moderate-temp-rest-open-air-sore"},
+      {"text": "উপশম: গরমে", "mid": "sym-amel-heat"},
+      {"text": "উপশম: ঠান্ডায়", "mid": "sym-amel-cold"},
+      {"text": "উপশম: রাতে", "mid": "sym-amel-night"}
+    ],
+    "answer": "sym-merc-amel-moderate-temp-rest-open-air-sore",
+    "explanation": "Merc Vivus মাঝারি তাপমাত্রা ও বিশ্রামে উপশম পায়।"
+  },
+  {
+    "id": "merc-med-18",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উৎস খনিজ তরল পারদ, ডান পার্শ্ব, সিফিলিটিক মায়াজমের রাজা", "mid": "sym-merc-source-mercury-right-syphilitic-king"},
+      {"text": "উৎস উদ্ভিদ", "mid": "sym-source-plant"},
+      {"text": "উৎস প্রাণীজ", "mid": "sym-source-animal"},
+      {"text": "সোরা মায়াজম", "mid": "sym-miasm-psora-only"}
+    ],
+    "answer": "sym-merc-source-mercury-right-syphilitic-king",
+    "explanation": "Merc Vivus পারদ থেকে তৈরি, সিফিলিটিক মায়াজমের প্রধান ঔষধ।"
+  },
+  {
+    "id": "merc-med-19",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অনুগামী Belladonna, Hepar Sulph, শত্রুভাবাপন্ন Silicea", "mid": "sym-merc-follows-bell-hepar-inimical-silicea"},
+      {"text": "অনুগামী Sulphur", "mid": "sym-follows-sulphur"},
+      {"text": "শত্রুভাবাপন্ন Pulsatilla", "mid": "sym-inimical-puls"},
+      {"text": "কোনো সম্পর্ক নেই", "mid": "sym-no-relation"}
+    ],
+    "answer": "sym-merc-follows-bell-hepar-inimical-silicea",
+    "explanation": "Merc Vivus-এর পর Hepar Sulph ভালো কাজ করে, Silicea শত্রুভাবাপন্ন।"
+  },
+  {
+    "id": "merc-med-20",
+    "stem": "নিচের কোনটি Mercurius Vivus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পুঁজ পাকাতে নিম্ন শক্তি 3X-6, বসাতে উচ্চ শক্তি 200+", "mid": "sym-merc-potency-low-suppurate-high-absorb"},
+      {"text": "সব ক্ষেত্রে উচ্চ শক্তি", "mid": "sym-all-high-potency"},
+      {"text": "সব ক্ষেত্রে নিম্ন শক্তি", "mid": "sym-all-low-potency"},
+      {"text": "শক্তির কোনো পার্থক্য নেই", "mid": "sym-no-potency-difference"}
+    ],
+    "answer": "sym-merc-potency-low-suppurate-high-absorb",
+    "explanation": "Merc Vivus-এ পুঁজ পাকাতে নিম্ন শক্তি ও বসাতে উচ্চ শক্তি ব্যবহৃত হয়।"
+  }
+]

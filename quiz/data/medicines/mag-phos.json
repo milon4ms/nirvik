@@ -1,0 +1,242 @@
+[
+  {
+    "id": "magphos-med-01",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্য ব্যথায় কোনো কাজ না করা, শুধু জ্বরে কাজ করা", "mid": "sym-slight-pain-no-action-fever-only"},
+      {"text": "মহানিবারক ব্যথা নাশক, তীব্র ব্যথার অন্যতম শ্রেষ্ঠ ঔষধ", "mid": "sym-magphos-great-pain-reliever"},
+      {"text": "ব্যথা বাড়িয়ে দেওয়া, ব্যথা কমাতে না পারা", "mid": "sym-pain-increase-no-relief"},
+      {"text": "শুধু মাথাব্যথায় কাজ করা, অন্য ব্যথায় কাজ না করা", "mid": "sym-headache-only-no-other-pain"}
+    ],
+    "answer": "sym-magphos-great-pain-reliever",
+    "explanation": "Magnesia Phosphorica মহানিবারক ব্যথা নাশক, তীব্র ব্যথার অন্যতম শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "magphos-med-02",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা সেঁক দিলে ব্যথা কমে, গরমে ব্যথা বাড়ে", "mid": "sym-cold-foment-relief-heat-worse"},
+      {"text": "গরম বা ঠান্ডায় ব্যথার কোনো পরিবর্তন হয় না", "mid": "sym-heat-cold-no-change"},
+      {"text": "ঠান্ডা জল পান করলে ব্যথা কমে যায়", "mid": "sym-cold-water-pain-relief"},
+      {"text": "গরম সেঁক দিলে বা গরম জল পান করলে ব্যথা জাদুর মতো কমে যায়", "mid": "sym-magphos-warm-foment-hot-water-relief"}
+    ],
+    "answer": "sym-magphos-warm-foment-hot-water-relief",
+    "explanation": "Magnesia Phosphorica এ যেকোনো ব্যথা গরম সেঁক দিলে বা গরম জল পানে জাদুর মতো কমে যায়।"
+  },
+  {
+    "id": "magphos-med-03",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চাপ দিলে উপশম, পেটে বা অঙ্গে তীব্র ব্যথা চেপে ধরলে বা দ্বিগুণ হয়ে কুঁকড়ে বসলে কমে", "mid": "sym-magphos-pressure-relief-bend-double"},
+      {"text": "চাপ দিলে ব্যথা বেড়ে যায়, ছুঁলেই চিৎকার করে", "mid": "sym-pressure-worse-touch-scream"},
+      {"text": "সোজা হয়ে শুলে ব্যথা কমে, কুঁকড়ে বসলে ব্যথা বাড়ে", "mid": "sym-straight-relief-bend-worse"},
+      {"text": "চাপ দিলে কোনো পরিবর্তন হয় না, শুধু গরমে কমে", "mid": "sym-pressure-no-change-heat-only"}
+    ],
+    "answer": "sym-magphos-pressure-relief-bend-double",
+    "explanation": "Magnesia Phosphorica এ পেটে বা অঙ্গে তীব্র ব্যথা চেপে ধরলে বা দ্বিগুণ হয়ে কুঁকড়ে বসলে কমে।"
+  },
+  {
+    "id": "magphos-med-04",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রধানত শরীরের বাম দিকের স্নায়ু ও পেশিতে রোগাক্রমণ বেশি হয়", "mid": "sym-left-side-attack-more"},
+      {"text": "দুই দিকেই সমানভাবে রোগাক্রমণ হয়, কোনো দিকের প্রাধান্য নেই", "mid": "sym-both-side-equal"},
+      {"text": "ডানপার্শ্বীয় আক্রমণ, প্রধানত শরীরের ডান দিকের স্নায়ু ও পেশিতে রোগাক্রমণ বেশি হয়", "mid": "sym-magphos-right-side-attack"},
+      {"text": "শুধু শরীরের মাঝখানে ব্যথা হয়, পাশে ব্যথা হয় না", "mid": "sym-middle-only-no-side"}
+    ],
+    "answer": "sym-magphos-right-side-attack",
+    "explanation": "Magnesia Phosphorica এ ডানপার্শ্বীয় আক্রমণ বেশি, প্রধানত শরীরের ডান দিকের স্নায়ু ও পেশিতে রোগাক্রমণ হয়।"
+  },
+  {
+    "id": "magphos-med-05",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেশি সবসময় নরম থাকা, কখনো খিঁচুনি না হওয়া", "mid": "sym-muscle-soft-no-cramp"},
+      {"text": "আকস্মিক ও তীব্র আক্ষেপ, পেশির খিঁচুনি, ধনুষ্টঙ্কার, হাত পায়ের আঙুল হঠাৎ বেঁকে যাওয়া, লেখকদের হাতের আঙুল অবশ বা খিট লেগে যাওয়া, পা কামড়ানো", "mid": "sym-magphos-sudden-cramp-writers-cramp-leg-cramp"},
+      {"text": "ধীরে ধীরে ব্যথা আসা ও ধীরে ধীরে চলে যাওয়া", "mid": "sym-pain-slow-come-go"},
+      {"text": "আক্ষেপ ছাড়াই শুধু ব্যথা হওয়া, পেশি নড়াচড়া স্বাভাবিক থাকা", "mid": "sym-pain-no-cramp-normal-muscle"}
+    ],
+    "answer": "sym-magphos-sudden-cramp-writers-cramp-leg-cramp",
+    "explanation": "Magnesia Phosphorica এ আকস্মিক ও তীব্র আক্ষেপ হয়, পেশির খিঁচুনি, ধনুষ্টঙ্কার, হাত পায়ের আঙুল হঠাৎ বেঁকে যায়, লেখকদের হাতের আঙুল অবশ বা খিট লেগে যায়, পা কামড়ায়।"
+  },
+  {
+    "id": "magphos-med-06",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমকাতর, গরম বাতাস সহ্য করতে পারে না", "mid": "sym-hot-sensitive"},
+      {"text": "ঠান্ডা বাতাসে ভালো লাগে, ঠান্ডা জল খেতে পছন্দ করে", "mid": "sym-cold-air-enjoy-cold-water-like"},
+      {"text": "ঠান্ডা বা গরমে কোনো পরিবর্তন হয় না", "mid": "sym-temp-no-change"},
+      {"text": "প্রচণ্ড শীতকাতর, ঠান্ডা বাতাস বা ঠান্ডা জল একদম সহ্য করতে পারে না", "mid": "sym-magphos-very-chilly-cold-intolerant"}
+    ],
+    "answer": "sym-magphos-very-chilly-cold-intolerant",
+    "explanation": "Magnesia Phosphorica রোগী প্রচণ্ড শীতকাতর এবং ঠান্ডা বাতাস বা ঠান্ডা জল একদম সহ্য করতে পারে না।"
+  },
+  {
+    "id": "magphos-med-07",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঋতুস্রাবের সময় তলপেটে অসহ্য মোচড়ানি ব্যথা", "mid": "sym-magphos-dysmenorrhea-cramping-lower-abdomen"},
+      {"text": "ঋতুস্রাবের সময় কোনো ব্যথা না হওয়া", "mid": "sym-menses-no-pain"},
+      {"text": "ঋতুস্রাবের সময় শুধু মাথাব্যথা হওয়া, পেটে ব্যথা না হওয়া", "mid": "sym-menses-headache-only"},
+      {"text": "ঋতুস্রাবের পর তলপেটে ব্যথা হওয়া, সময়ে ব্যথা না হওয়া", "mid": "sym-menses-after-pain"}
+    ],
+    "answer": "sym-magphos-dysmenorrhea-cramping-lower-abdomen",
+    "explanation": "Magnesia Phosphorica এ ডিসমেনোরিয়া বা কষ্টরজ হয়, ঋতুস্রাবের সময় তলপেটে অসহ্য মোচড়ানি ব্যথা হয়।"
+  },
+  {
+    "id": "magphos-med-08",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গিলতে গেলে খাদ্যনালী স্বাভাবিক থাকা, কোনো আটকে যাওয়ার অনুভূতি না থাকা", "mid": "sym-swallow-normal-no-obstruction"},
+      {"text": "গিলতে গেলে গলায় ব্যথা হওয়া কিন্তু খাদ্যনালীতে আটকে না যাওয়া", "mid": "sym-swallow-throat-pain-no-block"},
+      {"text": "খাদ্যনালীর আক্ষেপ, গিলতে গেলে খাদ্যনালী সংকুচিত হয়ে আটকে যাওয়ার অনুভূতি", "mid": "sym-magphos-oesophagus-spasm-swallow-blocked"},
+      {"text": "গিলতে গেলে বমি হওয়া ও খাবার ফিরে আসা", "mid": "sym-swallow-vomit-food-return"}
+    ],
+    "answer": "sym-magphos-oesophagus-spasm-swallow-blocked",
+    "explanation": "Magnesia Phosphorica এ খাদ্যনালীর আক্ষেপ হয়, কোনো কিছু গিলতে গেলে খাদ্যনালী সংকুচিত হয়ে আটকে যাওয়ার অনুভূতি হয়।"
+  },
+  {
+    "id": "magphos-med-09",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হালকা চিনচিনে ব্যথা, নড়াচড়ায় বাড়া", "mid": "sym-mild-pricking-pain-motion-worse"},
+      {"text": "স্নায়ুশূল, তীরবিদ্ধবৎ, ছিন্নকারী বা বিদ্যুৎচমকের মতো ব্যথা, সাথে পেশিতে খিঁচুনি বা আড়ষ্টতা", "mid": "sym-magphos-neuralgia-shooting-tearing-lightning-cramp"},
+      {"text": "ব্যথা ধীরে ধীরে আসে, ধীরে ধীরে যায়", "mid": "sym-pain-slow-come-go"},
+      {"text": "ব্যথা ছাড়াই শুধু পেশি আড়ষ্ট থাকা", "mid": "sym-no-pain-only-stiffness"}
+    ],
+    "answer": "sym-magphos-neuralgia-shooting-tearing-lightning-cramp",
+    "explanation": "Magnesia Phosphorica এ শরীরের যেকোনো অংশের স্নায়ুর তীব্র তীরবিদ্ধবৎ, ছিন্নকারী বা বিদ্যুৎচমকের মতো ব্যথা হয়, সাথে পেশিতে খিঁচুনি বা আড়ষ্টতা থাকে।"
+  },
+  {
+    "id": "magphos-med-10",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা প্রয়োগে ব্যথা কমে যাওয়া ও আরাম লাগা", "mid": "sym-cold-application-relief"},
+      {"text": "ঠান্ডা প্রয়োগে কোনো পরিবর্তন না হওয়া", "mid": "sym-cold-no-change"},
+      {"text": "ঠান্ডা প্রয়োগে গরম লাগা ও ঘাম হওয়া", "mid": "sym-cold-warm-sweat"},
+      {"text": "ঠান্ডা প্রয়োগে ব্যথা চরম আকার ধারণ করে", "mid": "sym-magphos-cold-application-worst"}
+    ],
+    "answer": "sym-magphos-cold-application-worst",
+    "explanation": "Magnesia Phosphorica এ ঠান্ডা প্রয়োগে রোগ বা ব্যথা চরম আকার ধারণ করে।"
+  },
+  {
+    "id": "magphos-med-11",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেটের ব্যথায় সামনের দিকে ঝুঁকে পেটের সাথে হাত বা বালিশ চেপে ধরে দ্বিগুণ হয়ে পড়ে থাকা", "mid": "sym-magphos-colic-bend-double-press-pillow"},
+      {"text": "পেটের ব্যথায় পেছন দিকে বেঁকে শুলে উপশম", "mid": "sym-colic-bend-back-relief"},
+      {"text": "পেটের ব্যথায় সোজা হয়ে শুলে উপশম", "mid": "sym-colic-straight-relief"},
+      {"text": "পেটের ব্যথায় দৌড়াদৌড়ি করা ও চিৎকার করা", "mid": "sym-colic-run-shout"}
+    ],
+    "answer": "sym-magphos-colic-bend-double-press-pillow",
+    "explanation": "Magnesia Phosphorica এ পেটের ব্যথায় রোগী যন্ত্রণায় সামনের দিকে ঝুঁকে পেটের সাথে হাত বা বালিশ চেপে ধরে দ্বিগুণ হয়ে পড়ে থাকে।"
+  },
+  {
+    "id": "magphos-med-12",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথা থাকলেও শারীরিকভাবে শক্তিশালী থাকা ও মন প্রফুল্ল থাকা", "mid": "sym-pain-strong-cheerful"},
+      {"text": "ব্যথা ছাড়াই ক্লান্তি ও অবসাদ থাকা", "mid": "sym-no-pain-tired"},
+      {"text": "ক্লান্তি ও অবসাদ, দীর্ঘস্থায়ী স্নায়বিক ব্যথার কারণে শারীরিকভাবে দুর্বল ও মানসিকভাবে ভেঙে পড়া", "mid": "sym-magphos-fatigue-prostration-chronic-neuralgia"},
+      {"text": "ব্যথা হলে শক্তি বেড়ে যাওয়া ও কাজে উৎসাহ বাড়া", "mid": "sym-pain-energy-increase"}
+    ],
+    "answer": "sym-magphos-fatigue-prostration-chronic-neuralgia",
+    "explanation": "Magnesia Phosphorica এ দীর্ঘস্থায়ী স্নায়বিক ব্যথার কারণে রোগী শারীরিকভাবে দুর্বল ও মানসিকভাবে ভেঙে পড়ে, ক্লান্তি ও অবসাদ থাকে।"
+  },
+  {
+    "id": "magphos-med-13",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যন্ত্রণা থাকলেও সবসময় হাসিখুশি থাকা", "mid": "sym-pain-cheerful"},
+      {"text": "অসহ্য যন্ত্রণার কারণে সারাক্ষণ হতাশ ও বিলাপ করা", "mid": "sym-magphos-despair-lamentation-intolerable-pain"},
+      {"text": "যন্ত্রণা হলে চুপ হয়ে যাওয়া ও ঘুমিয়ে পড়া", "mid": "sym-pain-silent-sleep"},
+      {"text": "যন্ত্রণা হলে গান গাইতে ইচ্ছা করা", "mid": "sym-pain-desire-sing"}
+    ],
+    "answer": "sym-magphos-despair-lamentation-intolerable-pain",
+    "explanation": "Magnesia Phosphorica এ অসহ্য যন্ত্রণার কারণে রোগী সারাক্ষণ হতাশ ও বিলাপ করতে থাকে।"
+  },
+  {
+    "id": "magphos-med-14",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বলতে ভালো লাগা ও রোগ নিয়ে কোনো চিন্তা না করা", "mid": "sym-like-talk-no-worry"},
+      {"text": "সবার সাথে গল্প করতে চাওয়া ও আনন্দে থাকা", "mid": "sym-talk-all-happy"},
+      {"text": "রোগ নিয়ে দুশ্চিন্তা থাকলেও কথা বলতে ভালো লাগা", "mid": "sym-worry-like-talk"},
+      {"text": "কথা বলতে অনিচ্ছা, নিজের রোগ নিয়ে মাত্রাতিরিক্ত দুশ্চিন্তা করা", "mid": "sym-magphos-aversion-talk-anxiety-disease"}
+    ],
+    "answer": "sym-magphos-aversion-talk-anxiety-disease",
+    "explanation": "Magnesia Phosphorica রোগী কথা বলতে অনিচ্ছা প্রকাশ করে এবং নিজের রোগ নিয়ে মাত্রাতিরিক্ত দুশ্চিন্তা করে।"
+  },
+  {
+    "id": "magphos-med-15",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিক খিটখিটে ভাব, সামান্য শব্দ বা আলোতেও বিরক্ত ও উত্তেজিত হওয়া", "mid": "sym-magphos-irritable-slight-noise-light"},
+      {"text": "শব্দ বা আলোতে কোনো বিরক্তি না হওয়া, সব সহ্য করা", "mid": "sym-noise-light-no-irritation"},
+      {"text": "শব্দ শুনলে ভালো লাগা ও আলোতে আরাম পাওয়া", "mid": "sym-noise-light-enjoy"},
+      {"text": "সবসময় শান্ত থাকা ও কোনো উত্তেজনা না থাকা", "mid": "sym-always-calm-no-excitement"}
+    ],
+    "answer": "sym-magphos-irritable-slight-noise-light",
+    "explanation": "Magnesia Phosphorica এ মানসিক খিটখিটে ভাব থাকে, সামান্য শব্দ বা আলোতেও রোগী বিরক্ত ও উত্তেজিত হয়ে ওঠে।"
+  },
+  {
+    "id": "magphos-med-16",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্মৃতিশক্তি খুব ভালো থাকা ও যেকোনো বিষয়ে মনোযোগ দিতে পারা", "mid": "sym-memory-good-concentration-good"},
+      {"text": "স্মৃতিশক্তি স্বাভাবিক থাকা, মনোযোগে কোনো কষ্ট না হওয়া", "mid": "sym-memory-normal-no-concentration-problem"},
+      {"text": "স্মৃতিশক্তি দুর্বল, মানসিকভাবে কোনো বিষয়ে মনোযোগ দিতে কষ্ট হওয়া", "mid": "sym-magphos-weak-memory-concentration-difficult"},
+      {"text": "সবকিছু মনে থাকা কিন্তু কথা বলতে কষ্ট হওয়া", "mid": "sym-memory-good-speech-difficult"}
+    ],
+    "answer": "sym-magphos-weak-memory-concentration-difficult",
+    "explanation": "Magnesia Phosphorica এ স্মৃতিশক্তি দুর্বল হয়ে পড়ে এবং মানসিকভাবে কোনো বিষয়ে মনোযোগ দিতে কষ্ট হয়।"
+  },
+  {
+    "id": "magphos-med-17",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম দিকের মুখের স্নায়ুশূল, গরম জলে দাঁতের ব্যথা বাড়া", "mid": "sym-left-facial-neuralgia-warm-worse"},
+      {"text": "ডান দিকের মুখের স্নায়ুশূল, ঠান্ডা জল মুখে দিলে দাঁতের ব্যথা তীব্র হয়, গরম জল মুখে রাখলে উপশম হয়", "mid": "sym-magphos-right-facial-neuralgia-cold-tooth-worse-warm-relief"},
+      {"text": "মুখে কোনো স্নায়ুশূল না থাকা, শুধু দাঁতে পোকা লাগা", "mid": "sym-no-facial-neuralgia-tooth-decay"},
+      {"text": "দাঁতের ব্যথায় ঠান্ডা ও গরমে কোনো পরিবর্তন না হওয়া", "mid": "sym-tooth-pain-temp-no-change"}
+    ],
+    "answer": "sym-magphos-right-facial-neuralgia-cold-tooth-worse-warm-relief",
+    "explanation": "Magnesia Phosphorica এ ডান দিকের মুখের স্নায়ুশূল হয়, ঠান্ডা জল মুখে দিলে দাঁতের ব্যথা তীব্র হয়, কিন্তু গরম জল মুখে রাখলে উপশম হয়।"
+  },
+  {
+    "id": "magphos-med-18",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেটে বায়ু না জমা, পেট হালকা থাকা", "mid": "sym-no-gas-light-belly"},
+      {"text": "বায়ু নিষ্কাশনে আরাম হওয়া ও ফাঁপ কমে যাওয়া", "mid": "sym-flatus-relief"},
+      {"text": "মোচড়ানি ব্যথা ছাড়াই শুধু পেট ফাঁপা থাকা", "mid": "sym-belly-only-no-cramp"},
+      {"text": "পেটে প্রচণ্ড বায়ু জমে ফাঁপ ধরা, বায়ু নিষ্কাশনে কোনো আরাম হয় না, মোচড়ানি ব্যথার সাথে জল বমি", "mid": "sym-magphos-belly-gas-no-relief-flatus-water-vomit"}
+    ],
+    "answer": "sym-magphos-belly-gas-no-relief-flatus-water-vomit",
+    "explanation": "Magnesia Phosphorica এ পেটে প্রচণ্ড বায়ু জমে ফাঁপ ধরে এবং বায়ু নিষ্কাশনে কোনো আরাম হয় না, মোচড়ানি ব্যথার সাথে জল বমি হতে পারে।"
+  },
+  {
+    "id": "magphos-med-19",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঋতুস্রাব শুরু হওয়ার ঠিক আগে তলপেটে প্রচণ্ড খামচানি বা মোচড়ানি ব্যথা, স্রাব পরিষ্কারভাবে প্রবাহিত হলে কমে", "mid": "sym-magphos-menses-before-cramp-flow-relief"},
+      {"text": "ঋতুস্রাব চলাকালীন তলপেটে ব্যথা বাড়া, স্রাব প্রবাহিত হলে আরো বাড়া", "mid": "sym-menses-during-pain-flow-worse"},
+      {"text": "ঋতুস্রাবের আগে কোনো ব্যথা না হওয়া, পরে ব্যথা হওয়া", "mid": "sym-menses-before-no-pain-after-pain"},
+      {"text": "ঋতুস্রাবের সময় পেটে কোনো ব্যথা না হওয়া", "mid": "sym-menses-no-belly-pain"}
+    ],
+    "answer": "sym-magphos-menses-before-cramp-flow-relief",
+    "explanation": "Magnesia Phosphorica এ ঋতুস্রাব শুরু হওয়ার ঠিক আগে তলপেটে প্রচণ্ড খামচানি বা মোচড়ানি ব্যথা শুরু হয় যা স্রাব পরিষ্কারভাবে প্রবাহিত হলে কমে।"
+  },
+  {
+    "id": "magphos-med-20",
+    "stem": "নিচের কোনটি Magnesia Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম দিকে, গরমে, চাপে ও কুঁকড়ে বসলে বৃদ্ধি, ঠান্ডায় উপশম", "mid": "sym-left-warm-pressure-bend-agg-cold-amel"},
+      {"text": "স্পর্শে উপশম, রাতে ঢেকে থাকলে বৃদ্ধি", "mid": "sym-touch-amel-night-covered-agg"},
+      {"text": "ডান দিকে, ঠান্ডা বাতাসে, ঠান্ডা জলে ধুলে বা স্নান করলে, স্পর্শে ও রাতে বিছানায় উন্মুক্ত থাকলে বৃদ্ধি, গরম সেঁক, চাপ, কুঁকড়ে বসা বা ঘষলে উপশম", "mid": "sym-magphos-agg-right-cold-washing-touch-night-uncovered-amel-warm-pressure-bend-rub"},
+      {"text": "ঠান্ডা জলে স্নান করলে উপশম, গরম সেঁক দিলে বৃদ্ধি", "mid": "sym-cold-bath-amel-warm-foment-agg"}
+    ],
+    "answer": "sym-magphos-agg-right-cold-washing-touch-night-uncovered-amel-warm-pressure-bend-rub",
+    "explanation": "Magnesia Phosphorica এ শরীরের ডান দিকে, ঠান্ডা বাতাসে, ঠান্ডা জলে ধুলে বা স্নান করলে, স্পর্শ করলে এবং রাতে বিছানায় উন্মুক্ত থাকলে বৃদ্ধি হয়, উষ্ণতা বা গরম সেঁক, চাপ, কুঁকড়ে বসা বা ঘষলে উপশম হয়।"
+  }
+]

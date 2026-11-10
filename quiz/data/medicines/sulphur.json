@@ -1,0 +1,481 @@
+[
+  {
+    "id": "sul-med-01",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের বিভিন্ন রন্ধ্রপথ (যেমন ঠোঁট, মলদ্বার, যোনি) উজ্জ্বল লালবর্ণ হওয়া এবং হাত-পা ও তালুতে জ্বালা করা",
+        "mid": "sym-red-orifices-burning-palms"
+      },
+      {
+        "text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম",
+        "mid": "sym-fever-fear"
+      },
+      {
+        "text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য",
+        "mid": "sym-heavy-belly"
+      },
+      {
+        "text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়",
+        "mid": "sym-cold-pain"
+      }
+    ],
+    "answer": "sym-red-orifices-burning-palms",
+    "explanation": "Sulphur-এর অন্যতম প্রধান চারিত্রিক লক্ষণ হলো শরীরের সমস্ত প্রাকৃতিক রন্ধ্রের প্রান্তভাগ লালচে হওয়া এবং মাথার চাঁদি, হাতের তালু ও পায়ের তলায় তীব্র জ্বালাপোড়া।"
+  },
+  {
+    "id": "sul-med-02",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রতিদিন বেলা ১১টার সময় প্রচণ্ড ক্ষুধা ও পেটে দুর্বলতাবোধ (11 AM hunger and sinking sensation)",
+        "mid": "sym-11am-hunger-sinking"
+      },
+      {
+        "text": "জল স্পর্শ করলে বা জলে হাত দিলে চর্মরোগ বা কষ্ট বৃদ্ধি পাওয়া",
+        "mid": "sym-water-aggravation"
+      },
+      {
+        "text": "গরম জলের শেক দিলে চর্মরোগের জ্বালা সম্পূর্ণ নিবারণ হওয়া",
+        "mid": "sym-warm-water-relief"
+      },
+      {
+        "text": "ঘাম হলে সারা শরীরের চুলকানি তৎক্ষণাৎ কমে যাওয়া",
+        "mid": "sym-sweat-relief"
+      }
+    ],
+    "answer": "sym-11am-hunger-sinking",
+    "explanation": "Sulphur-এর রোগীদের পাকস্থলীতে প্রতিদিন সকাল ১১টার দিকে এক ধরণের অসহ্য ক্ষুধা এবং পেটে খালী খালী ভাব বা গর্তের অনুভূতি দেখা দেয়।"
+  },
+  {
+    "id": "sul-med-03",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চুলকানিযুক্ত চর্মরোগ যা চুলকালে প্রথমে আরাম পেলেও পরবর্তীতে জ্বালাপোড়া ও খসখসে ভাব সৃষ্টি হয়",
+        "mid": "sym-itching-scratching-burning"
+      },
+      {
+        "text": "একটু পরপর সামান্য কয়েক ফোঁটা ঠান্ডা পানি পান করার ইচ্ছা",
+        "mid": "sym-thirst-sip-water"
+      },
+      {
+        "text": "প্রচণ্ড ডায়রিয়া থাকা সত্ত্বেও একেবারেই পিপাসা না থাকা",
+        "mid": "sym-thirstless-fever"
+      },
+      {
+        "text": "শুধুমাত্র বরফ মুখে দিয়ে চুষে খাওয়ার ব্যাকুলতা",
+        "mid": "sym-ice-craving"
+      }
+    ],
+    "answer": "sym-itching-scratching-burning",
+    "explanation": "Sulphur-এর চর্মরোগে চুলকানি অত্যন্ত আরামদায়ক মনে হলেও চুলকানোর পর সেখানে তীব্র জ্বালা ও পোড়ানি সৃষ্টি হয়।"
+  },
+  {
+    "id": "sul-med-04",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগীর চরম অপরিচ্ছন্নতা, গোসল করতে চরম অনিচ্ছা এবং জল লাগলে চর্মরোগ বৃদ্ধি পাওয়া",
+        "mid": "sym-filthy-aversion-to-bathing"
+      },
+      {
+        "text": "প্রস্রাব ত্যাগের সময় এবং পরে লিঙ্গমুণ্ডে প্রচণ্ড জ্বালা ও সুড়সুড়ি হওয়া",
+        "mid": "sym-urinary-burning"
+      },
+      {
+        "text": "প্রস্রাবের বেগ আটকে রাখলে মূত্রথলিতে তীব্র সংকোচন ব্যথা",
+        "mid": "sym-bladder-spasm"
+      },
+      {
+        "text": "প্রস্রাবের রঙ কুচকুচে কালো ও দুর্গন্ধযুক্ত হওয়া",
+        "mid": "sym-dark-urine"
+      }
+    ],
+    "answer": "sym-filthy-aversion-to-bathing",
+    "explanation": "Sulphur-এর রোগী দেখতে প্রায়ই অগোছালো, ময়লাটে ও অপরিচ্ছন্ন হয় এবং সে গোসল করতে বা গায়ে জল লাগাতে অপছন্দ করে।"
+  },
+  {
+    "id": "sul-med-05",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীর দুর্বল ও রুগ্ন, পেট মোটা, সোজা হয়ে দাঁড়াতে না পেরে কুঁজো হয়ে চলাফেরা করা",
+        "mid": "sym-stooping- postura-thin-body-pot-belly"
+      },
+      {
+        "text": "প্রস্রাবের ধারা অনেক সময় দ্বিখণ্ডিত বা দুই ভাগে বিভক্ত হওয়া",
+        "mid": "sym-split-stream"
+      },
+      {
+        "text": "প্রস্রাব করার সময় তলপেটে প্রচণ্ড চাপ ও ব্যথা অনুভূত হওয়া",
+        "mid": "sym-pelvic-pressure"
+      },
+      {
+        "text": "সারাদিনে মাত্র একবার অত্যন্ত স্বল্প পরিমাণে প্রস্রাব হওয়া",
+        "mid": "sym-scanty-urine"
+      }
+    ],
+    "answer": "sym-stooping- postura-thin-body-pot-belly",
+    "explanation": "Sulphur-এর দৈহিক গঠনে দেখা যায় রোগী চিকন কিন্তু পেট কিছুটা ফোলা এবং সোজা হয়ে দাঁড়াতে না পেরে ঝুঁকে বা কুঁজো হয়ে হাঁটে।"
+  },
+  {
+    "id": "sul-med-06",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দার্শনিক চিন্তায় বিভোর থাকা, নিজেকে অত্যন্ত বুদ্ধিমান ও পন্ডিত মনে করা কিন্তু বাস্তবে অগোছালো থাকা",
+        "mid": "sym-philosophical-ragged-theorizing"
+      },
+      {
+        "text": "রোগী মানসিকভাবে বেশ প্রফুল্ল থাকে এবং প্রচুর কথা বলতে পছন্দ করে",
+        "mid": "sym-liveliness-talkative"
+      },
+      {
+        "text": "কাউের সাথে কথা না বলে সারাদিন চুপচাপ একা বসে থাকা",
+        "mid": "sym-silent-depression"
+      },
+      {
+        "text": "কথা বলার সময় বারবার শব্দ ভুলে যাওয়া ও বিভ্রান্ত হওয়া",
+        "mid": "sym-confusion-speech"
+      }
+    ],
+    "answer": "sym-philosophical-ragged-theorizing",
+    "explanation": "Sulphur-এর মানসিকতায় দর্শন, বিজ্ঞান ও ধর্ম নিয়ে উচ্চমার্গীয় চিন্তাভাবনা থাকে, কিন্তু সে নিজে খুবই অগোছালো ও নোংরা স্বভাবের হয়।"
+  },
+  {
+    "id": "sul-med-07",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়ের তালু অতিরিক্ত গরম হওয়ার কারণে রাতে বিছানায় শুয়ে তালু কম্বলের বা লেপের বাইরে বের করে রাখা",
+        "mid": "sym-burning-soles-out-of-bed"
+      },
+      {
+        "text": "ত্বকে শক্ত ও শুষ্ক আঁচিল যা থেকে রক্তপাত হয়",
+        "mid": "sym-hard-bleeding-warts"
+      },
+      {
+        "text": "পায়ের তালুতে বেদনাদায়ক কড়া বা কর্ন হওয়া",
+        "mid": "sym-corns-feet"
+      },
+      {
+        "text": "ত্বকে বাদামী রঙের মেচেতা বা তিল ভেসে ওঠা",
+        "mid": "sym-brown-spots"
+      }
+    ],
+    "answer": "sym-burning-soles-out-of-bed",
+    "explanation": "Sulphur-এর রোগীদের পায়ের তলায় এত বেশি জ্বালা ও উত্তাপ থাকে যে সে ঘুমানোর সময় পা বিছানার বাইরে ঠান্ডা বাতাসে বা ঠান্ডার খোঁজে বের করে রাখে।"
+  },
+  {
+    "id": "sul-med-08",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মিষ্টি জাতীয় খাবারের প্রতি তীব্র আকর্ষণ এবং দুধ বা ল্যাকটিক খাবারে প্রবল অরুচি",
+        "mid": "sym-craving-sweets-aversion-milk"
+      },
+      {
+        "text": "ঘাড়ে ও পেছনের মাথায় ভারী বস্তু চাপা থাকার মতো অনুভূতি",
+        "mid": "sym-heavy-occiput"
+      },
+      {
+        "text": "মাথা ঘোরার সাথে বমি ভাব এবং চারপাশ ঘুরে যাওয়া",
+        "mid": "sym-vertigo-nausea"
+      },
+      {
+        "text": "রোদের মধ্যে গেলে কপালে সূঁচ ফোটার মতো তীব্র ব্যথা",
+        "mid": "sym-sun-headache-needle"
+      }
+    ],
+    "answer": "sym-craving-sweets-aversion-milk",
+    "explanation": "Sulphur খাদ্যাভ্যাসে মিষ্টি পছন্দ করে কিন্তু দুধ খেলে তার পেটের গোলমাল ও বদহজম দেখা দেয়।"
+  },
+  {
+    "id": "sul-med-09",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সকালের দিকে হঠাৎ মলত্যাগের বেগে ঘুম ভেঙে যাওয়া এবং মলত্যাগের সময় মলদ্বারে তীব্র জ্বালা",
+        "mid": "sym-morning-diarrhea-rushing-burning"
+      },
+      {
+        "text": "চা পান করার সাথে সাথে পেটের গ্যাস বৃদ্ধি পাওয়া",
+        "mid": "sym-tea-gas"
+      },
+      {
+        "text": "মিষ্টি জাতীয় খাবার খেলে মাথাব্যথা তীব্র হওয়া",
+        "mid": "sym-sweet-headache"
+      },
+      {
+        "text": "দুধ ও ল্যাকটিক খাবার খেলে বমি ভাব হওয়া",
+        "mid": "sym-milk-nausea"
+      }
+    ],
+    "answer": "sym-morning-diarrhea-rushing-burning",
+    "explanation": "Sulphur-এর উদরাময় বা কোষ্ঠকাঠিন্যের রোগীরা সকালবেলা ঘুম থেকে ওঠার সাথে সাথে তাড়া খেয়ে মলত্যাগে যায় এবং মলদ্বারে প্রদাহ থাকে।"
+  },
+  {
+    "id": "sul-med-10",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অন্যান্য ভালো নির্বাচিত ঔষধ ব্যর্থ হলে বা রোগ ক্রনিক রূপ নিলে প্রতিক্রিয়া জাগাতে রিঅ্যাকশনাল হিসেবে কাজ করা",
+        "mid": "sym-great-anti-psoric-reactional"
+      },
+      {
+        "text": "মৌমাছির হুল থেকে সংগৃহীত বিষাক্ত উপাদান",
+        "mid": "sym-bee-poison"
+      },
+      {
+        "text": "খনিজ লবণের সংমিশ্রণে তৈরি কৃত্রিম রাসায়নিক",
+        "mid": "sym-mineral-chemical"
+      },
+      {
+        "text": "সাপের বিষ থেকে প্রস্তুত হোমিওপ্যাথিক টিংচার",
+        "mid": "sym-snake-venom"
+      }
+    ],
+    "answer": "sym-great-anti-psoric-reactional",
+    "explanation": "Sulphur হলো সোরা রাজ বা 'King of Psorics', যা স্থবির বা অকার্যকর জীবনীশক্তিতে প্রতিক্রিয়া জাগানোর জন্য অন্যতম সেরা ঔষধ।"
+  },
+  {
+    "id": "sul-med-11",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রকৃতিতে প্রাপ্ত বিশুদ্ধ মৌল গন্ধক বা Sulphur থেকে প্রস্তুত হওয়া",
+        "mid": "sym-elemental-source-sulphur"
+      },
+      {
+        "text": "গরম কাতর প্রকৃতির রোগী হওয়া",
+        "mid": "sym-hot-patient"
+      },
+      {
+        "text": "উভয় আবহাওয়াতেই সমানভাবে সহ্য ক্ষমতা থাকা",
+        "mid": "sym-ambithermal"
+      },
+      {
+        "text": "অতিরিক্ত গরমে ও শীতে উভয়তেই অসুস্থ হওয়া",
+        "mid": "sym-extreme-weather"
+      }
+    ],
+    "answer": "sym-elemental-source-sulphur",
+    "explanation": "Sulphur খনিজ বা অধাতব মৌল গন্ধক থেকে প্রস্তুতকৃত একটি মৌলিক হোমিওপ্যাথিক উপাদান।"
+  },
+  {
+    "id": "sul-med-12",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রধানত উষ্ণ প্রকৃতির বা গরমকাতর (Hot patient) হওয়া",
+        "mid": "sym-hot-patient-nature"
+      },
+      {
+        "text": "বাম পাশের ফুসফুস ও কানকে বেশি আক্রান্ত করা",
+        "mid": "sym-left-side"
+      },
+      {
+        "text": "শরীরের উভয় পাশে সমানভাবে লক্ষণ প্রকাশ করা",
+        "mid": "sym-bilateral"
+      },
+      {
+        "text": "মুখের কেবল বাম অংশে ব্যথা সীমাবদ্ধ থাকা",
+        "mid": "sym-left-face"
+      }
+    ],
+    "answer": "sym-hot-patient-nature",
+    "explanation": "Sulphur ধাতুগতভাবে চরম উষ্ণ বা গরমকাতর প্রকৃতির, ফলে উত্তাপ তার জন্য অসহ্য।"
+  },
+  {
+    "id": "sul-med-13",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের সমস্ত মলমূত্র, ঘাম এবং নিঃশ্বাসে তীব্র দুর্গন্ধ থাকা",
+        "mid": "sym-offensive-discharges-sweat-breath"
+      },
+      {
+        "text": "সিফিলিস মায়াজমের ধ্বংসাত্মক ক্ষত সৃষ্টি করা",
+        "mid": "sym-syphilis-miasm"
+      },
+      {
+        "text": "সাইকোটিক মায়াজমের টিউমার গঠন করা",
+        "mid": "sym-sycotic-miasm"
+      },
+      {
+        "text": "টিউবারকুলার মায়াজমের দ্রুত ক্ষয় রোগ ঘটানো",
+        "mid": "sym-tubercular-miasm"
+      }
+    ],
+    "answer": "sym-offensive-discharges-sweat-breath",
+    "explanation": "Sulphur-এর রোগীদের শরীর থেকে নির্গত ঘাম, মুখের নিঃশ্বাস এবং মলমূত্র অত্যন্ত উগ্র ও দুর্গন্ধযুক্ত হয়।"
+  },
+  {
+    "id": "sul-med-14",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সোরিক (Psoric) মায়াজমের প্রধান বা রাজা (King of Psorics) হিসেবে গণ্য হওয়া",
+        "mid": "sym-king-of-psorics"
+      },
+      {
+        "text": "পাকস্থলীতে তীব্র জ্বাালাপোড়া ও ঘা হয়ে যাওয়ার অনুভূতি",
+        "mid": "sym-stomach-ulcer"
+      },
+      {
+        "text": "নাভির চারপাশে সুচালো ব্যথা যা ভাজ হলে কমে",
+        "mid": "sym-navel-colic"
+      },
+      {
+        "text": "কোষ্ঠকাঠিন্যের সাথে পেটে পাথর জমার মতো ভারী বোধ",
+        "mid": "sym-stone-belly"
+      }
+    ],
+    "answer": "sym-king-of-psorics",
+    "explanation": "হোমিওপ্যাথিতে সোরিক মায়াজমের সবচেয়ে শক্তিশালী ও মূল প্রতিনিধি বা 'কিং অব সোরিকস' বলা হয় সালফারকে।"
+  },
+  {
+    "id": "sul-med-15",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "Calcarea Carbonica এবং Lycopodium-এর সাথে পরিপূরক (Complementary) সম্পর্ক থাকা",
+        "mid": "sym-complementary-calc-lyco"
+      },
+      {
+        "text": "Aconite ও Belladonna-এর সাথে হুবহু মিলে যাওয়া",
+        "mid": "sym-aconite-match"
+      },
+      {
+        "text": "Nux Vomica-এর সম্পূর্ণ বিপরীত ক্রিয়া দেখানো",
+        "mid": "sym-nux-opposite"
+      },
+      {
+        "text": "Arsenicum Album-এর পরিপূরক হিসেবে কাজ করা",
+        "mid": "sym-arsenic-complement"
+      }
+    ],
+    "answer": "sym-complementary-calc-lyco",
+    "explanation": "Sulphur-এর গভীর ক্রিয়ার ত্রয়ী ও পরিপূরক তালিকায় ক্যালকেরিয়া কার্ব ও লাইকোপোডিয়াম অত্যন্ত ওতপ্রোতভাবে জড়িত।"
+  },
+  {
+    "id": "sul-med-16",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "Nux Vomica এবং Mercurius দ্বারা এর ক্রিয়া প্রতিষেধিত (Antidoted) হওয়া",
+        "mid": "sym-antidoted-nux-merc"
+      },
+      {
+        "text": "শুধুমাত্র ১০০০ বা উচ্চ শক্তিতে একক মাত্রা প্রয়োগ করা",
+        "mid": "sym-high-potency"
+      },
+      {
+        "text": "কেবলমাত্র ৫০ মিলিেসিমাল শক্তিতে ব্যবহার বাধ্যতামূলক",
+        "mid": "sym-lm-potency"
+      },
+      {
+        "text": "উচ্চ শক্তিতে শুধুমাত্র চর্মরোগের জন্য নির্ধারিত",
+        "mid": "sym-skin-high"
+      }
+    ],
+    "answer": "sym-antidoted-nux-merc",
+    "explanation": "Sulphur-এর অপপ্রয়োগ বা অতিরিক্ত প্রতিক্রিয়ায় ন্স ভমিকা বা মার্কসল প্রতিষেধক হিসেবে কাজ করে।"
+  },
+  {
+    "id": "sul-med-17",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গরম বাতাসে, বিছানায় শুলে এবং সকালের দিকে উপসর্গের তীব্র বৃদ্ধি ঘটা",
+        "mid": "sym-aggravation-warmth-bed-morning"
+      },
+      {
+        "text": "সারাদিন প্রচণ্ড কান্নাকাটি করা ও কাউকে কাছে না ঘেঁষতে দেওয়া",
+        "mid": "sym-weeping-mood"
+      },
+      {
+        "text": "সবসময় ভয় পাওয়া যে তার বড় কোনো মারাত্মক রোগ হয়েছে",
+        "mid": "sym-hypochondriasis"
+      },
+      {
+        "text": "কারো সাথে মিশতে না পেরে গভীর কোণঠাসা জীবন কাটানো",
+        "mid": "sym-isolation"
+      }
+    ],
+    "answer": "sym-aggravation-warmth-bed-morning",
+    "explanation": "Sulphur-এর ব্যথা বা চর্মরোগের কষ্ট বিছানার উত্তাপে এবং সকালের দিকে মারাত্মকভাবে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sul-med-18",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঠান্ডা বাতাসে, খোলা বাতাসে এবং শুষ্ক উষ্ণ আবহাওয়ায় উপশম বোধ করা",
+        "mid": "sym-amelioration-cold-open-air"
+      },
+      {
+        "text": "অতিরিক্ত আনন্দে আত্মহারা হয়ে রাতভর গান গাওয়া",
+        "mid": "sym-overjoyed"
+      },
+      {
+        "text": "স্মৃতিশক্তি সম্পূর্ণ লোপ পাওয়া এবং কাউকে চিনতে না পারা",
+        "mid": "sym-memory-loss"
+      },
+      {
+        "text": "ঘুমের মধ্যে হেঁটে বেড়ানো এবং অদ্ভুত স্বপ্ন দেখা",
+        "mid": "sym-somnambulism"
+      }
+    ],
+    "answer": "sym-amelioration-cold-open-air",
+    "explanation": "Sulphur গরমকাতর হওয়ায় ঠান্ডা মুক্ত বাতাসের সংস্পর্শে এলে শারীরিক অস্বস্তি কম অনুভব করে।"
+  },
+  {
+    "id": "sul-med-19",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দীর্ঘস্থায়ী চর্মরোগ মলম বা বাহ্যিক ঔষধে দমনের ইতিহাস থাকা",
+        "mid": "sym-history-suppressed-skin-eruptions"
+      },
+      {
+        "text": "চলাফেরা করলে সমস্ত ব্যথা ও চুলকানি ম্যাজিকের মতো গায়েব হওয়া",
+        "mid": "sym-motion-relief"
+      },
+      {
+        "text": "দৌড়াদৌড়ি করলে শরীরের স্নায়বিক দুর্বলতা দূর হওয়া",
+        "mid": "sym-running-relief"
+      },
+      {
+        "text": "উচিৎ কাজ করার সময় শুয়ে থাকলে কষ্ট বৃদ্ধি পাওয়া",
+        "mid": "sym-lying-worse"
+      }
+    ],
+    "answer": "sym-history-suppressed-skin-eruptions",
+    "explanation": "Sulphur এমন একটি ওষুধ যা অতীতে চর্মরোগ বাহ্যিক মলম দিয়ে দাবিয়ে ফেলার ফলে উদ্ভূত অভ্যন্তরীণ ক্রনিক রোগে সবচেয়ে বেশি নির্দেশিত হয়।"
+  },
+  {
+    "id": "sul-med-20",
+    "stem": "নিচের কোনটি Sulphur-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দিনের বেলা তন্দ্রাচ্ছন্ন ভাব কিন্তু রাতে বিছানায় গেলে অনিদ্রা (Sleepy by day, sleepless at night)",
+        "mid": "sym-sleepy-day-sleepless-night"
+      },
+      {
+        "text": "ঘণ্টায় ঘণ্টায় ১০ ফোঁটা করে মাদার টিংচার সেবন করা বাধ্যতামূলক",
+        "mid": "sym-hourly-mother-tincture"
+      },
+      {
+        "text": "প্রতিবার কাশির পর ঔষধ পুনরাবৃত্তি করা আবশ্যক",
+        "mid": "sym-repeat-after-cough"
+      },
+      {
+        "text": "শুধুমাত্র বায়োকেমিক শক্তিতে দুধের সাথে সেবনযোগ্য",
+        "mid": "sym-biochemic-milk"
+      }
+    ],
+    "answer": "sym-sleepy-day-sleepless-night",
+    "explanation": "Sulphur-এর ঘুমের ছন্দে বিপর্যয় থাকে—দিনের বেলা বা সন্ধ্যার আগে প্রচণ্ড ঘুম পায়, কিন্তু রাতে শুলে ঘুম আসে না।"
+  }]

@@ -1,0 +1,483 @@
+[
+  {
+    "id": "petr-med-01",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শীতকালে ত্বক অত্যন্ত শুষ্ক, খসখসে ও ফেটে যায় এবং ফাটা স্থান থেকে রক্তপাত হয়।",
+        "mid": "winter_skin_cracks_bleeding"
+      },
+      {
+        "text": "গরমকালে ত্বক ফেটে যায় এবং রক্তপাত হয়।",
+        "mid": "summer_skin_cracks_bleeding"
+      },
+      {
+        "text": "ত্বক অতিরিক্ত তৈলাক্ত ও মসৃণ থাকে।",
+        "mid": "oily_smooth_skin"
+      },
+      {
+        "text": "ত্বকে শুধুমাত্র লাল চাকা হয়, ফাটা বা রক্তপাত নেই।",
+        "mid": "red_wheals_no_cracks"
+      }
+    ],
+    "answer": "winter_skin_cracks_bleeding",
+    "explanation": "Petroleum-এর অন্যতম প্রধান বৈশিষ্ট্য হলো শীতকালে ত্বক শুষ্ক, খসখসে ও ফেটে যাওয়া এবং ফাটা স্থান থেকে রক্ত বা রস নির্গত হওয়া।[reference:0]"
+  },
+  {
+    "id": "petr-med-02",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গাড়ি, নৌকা বা ট্রেনে চড়লে মাথা ঘোরা এবং বমি বমি ভাব হওয়া।",
+        "mid": "motion_sickness_vertigo_nausea"
+      },
+      {
+        "text": "স্থির বসে থাকলে মাথা ঘোরা।",
+        "mid": "vertigo_at_rest"
+      },
+      {
+        "text": "শুধুমাত্র উঁচু স্থান থেকে তাকালে মাথা ঘোরা।",
+        "mid": "vertigo_from_height"
+      },
+      {
+        "text": "গাড়িতে চড়লে কোনো অসুবিধা হয় না।",
+        "mid": "no_motion_sickness"
+      }
+    ],
+    "answer": "motion_sickness_vertigo_nausea",
+    "explanation": "Petroleum গাড়ি, নৌকা বা ট্রেনে চড়লে মাথা ঘোরা ও বমি বমি ভাব (Motion Sickness)-এর জন্য একটি প্রধান ঔষধ।[reference:1]"
+  },
+  {
+    "id": "petr-med-03",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রচণ্ড ক্ষুধা, খাওয়ার পরপরই আবার ক্ষুধা লাগে এবং পেট খালি খালি মনে হয়।",
+        "mid": "ravenous_hunger_emptiness_not_relieved_by_eating"
+      },
+      {
+        "text": "খাওয়ার পর ক্ষুধা সম্পূর্ণ বন্ধ হয়ে যায়।",
+        "mid": "loss_of_appetite_after_eating"
+      },
+      {
+        "text": "শুধুমাত্র সকালে ক্ষুধা লাগে।",
+        "mid": "morning_hunger_only"
+      },
+      {
+        "text": "পেট ভরা থাকলেও ক্ষুধা লাগে না।",
+        "mid": "no_hunger_even_when_empty"
+      }
+    ],
+    "answer": "ravenous_hunger_emptiness_not_relieved_by_eating",
+    "explanation": "Petroleum-এ প্রচণ্ড ক্ষুধা থাকে; খাওয়ার পরও রোগী মনে করে পেট খালি, এবং রাতে ক্ষুধার জ্বালায় ঘুম ভেঙে যায়।[reference:2]"
+  },
+  {
+    "id": "petr-med-04",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগীর একটি অদ্ভুত বিভ্রম (Delusion) হয় যে তার পাশে অন্য কেউ শুয়ে আছে বা তার অঙ্গগুলো দ্বিগুণ হয়ে গেছে।",
+        "mid": "delusion_someone_lying_beside_double_body"
+      },
+      {
+        "text": "রোগী মনে করে সে সম্পূর্ণ সুস্থ।",
+        "mid": "delusion_of_wellness"
+      },
+      {
+        "text": "রোগী মনে করে তার শরীর হালকা হয়ে গেছে।",
+        "mid": "delusion_body_is_light"
+      },
+      {
+        "text": "রোগী কোনো বিভ্রমে ভোগে না।",
+        "mid": "no_delusions"
+      }
+    ],
+    "answer": "delusion_someone_lying_beside_double_body",
+    "explanation": "Petroleum-এ একটি অদ্ভুত বিভ্রম কাজ করে যে রোগীর পাশে অন্য কেউ শুয়ে আছে অথবা তার শরীরের অঙ্গগুলো দ্বিগুণ হয়ে গেছে।[reference:3]"
+  },
+  {
+    "id": "petr-med-05",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ডায়রিয়া শুধুমাত্র দিনের বেলা হয়, রাতে হয় না।",
+        "mid": "diarrhea_only_during_day"
+      },
+      {
+        "text": "ডায়রিয়া শুধুমাত্র রাতে হয়, দিনে হয় না।",
+        "mid": "diarrhea_only_at_night"
+      },
+      {
+        "text": "ডায়রিয়া সর্বদা রক্তমিশ্রিত।",
+        "mid": "bloody_diarrhea_always"
+      },
+      {
+        "text": "ডায়রিয়ার সাথে তীব্র কোষ্ঠকাঠিন্য।",
+        "mid": "diarrhea_with_constipation"
+      }
+    ],
+    "answer": "diarrhea_only_during_day",
+    "explanation": "Petroleum-এ ডায়রিয়া সাধারণত শুধুমাত্র দিনের বেলা হওয়ার প্রবণতা থাকে; রাতে সাধারণত হয় না।[reference:4]"
+  },
+  {
+    "id": "petr-med-06",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়ে অত্যন্ত দুর্গন্ধযুক্ত ঘাম হয়।",
+        "mid": "offensive_sweat_on_feet"
+      },
+      {
+        "text": "পায়ে ঘাম হয় না, শুষ্ক থাকে।",
+        "mid": "dry_feet_no_sweat"
+      },
+      {
+        "text": "শুধুমাত্র হাতে দুর্গন্ধযুক্ত ঘাম হয়।",
+        "mid": "offensive_sweat_on_hands_only"
+      },
+      {
+        "text": "শরীরে কোনো দুর্গন্ধ নেই।",
+        "mid": "no_body_odor"
+      }
+    ],
+    "answer": "offensive_sweat_on_feet",
+    "explanation": "Petroleum-এ পায়ে দুর্গন্ধযুক্ত ঘাম দেখা দেয়।[reference:5]"
+  },
+  {
+    "id": "petr-med-07",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "স্মৃতিশক্তি অত্যন্ত দুর্বল; রোগী পরিচিত রাস্তা ভুলে যায়।",
+        "mid": "weak_memory_forgets_familiar_streets"
+      },
+      {
+        "text": "স্মৃতিশক্তি প্রখর; কিছুই ভুলে না।",
+        "mid": "sharp_memory_no_forgetfulness"
+      },
+      {
+        "text": "শুধুমাত্র নাম ভুলে যায়, রাস্তা মনে থাকে।",
+        "mid": "forgets_names_remembers_streets"
+      },
+      {
+        "text": "স্মৃতিতে কোনো সমস্যা নেই।",
+        "mid": "no_memory_problem"
+      }
+    ],
+    "answer": "weak_memory_forgets_familiar_streets",
+    "explanation": "Petroleum-এ স্মৃতিশক্তি দুর্বল থাকে; রোগী অনেক সময় পরিচিত রাস্তা ভুলে যায়।[reference:6]"
+  },
+  {
+    "id": "petr-med-08",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগীর মৃত্যুভয় থাকে এবং মনে করে তার মৃত্যু খুব নিকটে, তাই সে মৃত্যুর প্রস্তুতি নেয়।",
+        "mid": "fear_of_death_prepares_for_it"
+      },
+      {
+        "text": "রোগীর মৃত্যুভয় নেই বরং জীবনের প্রতি অতিরিক্ত আসক্তি।",
+        "mid": "no_fear_of_death_love_for_life"
+      },
+      {
+        "text": "রোগী মনে করে সে অমর।",
+        "mid": "delusion_of_immortality"
+      },
+      {
+        "text": "মৃত্যু সম্পর্কে কোনো চিন্তা নেই।",
+        "mid": "no_thoughts_of_death"
+      }
+    ],
+    "answer": "fear_of_death_prepares_for_it",
+    "explanation": "Petroleum-এ রোগীর মৃত্যুভয় থাকে এবং মনে করে তার মৃত্যু খুব নিকটবর্তী, সেজন্য সে মৃত্যুর প্রস্তুতি নেয়।[reference:7]"
+  },
+  {
+    "id": "petr-med-09",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী সামান্য কারণেই মনে আঘাত পায় এবং সবকিছুতেই বিরক্তি প্রকাশ করে।",
+        "mid": "easily_offended_irritable"
+      },
+      {
+        "text": "রোগী অত্যন্ত শান্ত ও ধৈর্যশীল; সহজে বিরক্ত হয় না।",
+        "mid": "calm_patient_not_irritated"
+      },
+      {
+        "text": "রোগী অতিরিক্ত হাসিখুশি ও প্রফুল্ল।",
+        "mid": "cheerful_and_happy"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ উদাসীন ও নির্বিকার।",
+        "mid": "apathetic_indifferent"
+      }
+    ],
+    "answer": "easily_offended_irritable",
+    "explanation": "Petroleum-এ রোগী সামান্য কারণেই মনে আঘাত পায় এবং সবকিছুতেই বিরক্তি প্রকাশ করে।[reference:8]"
+  },
+  {
+    "id": "petr-med-10",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চামড়া অত্যন্ত নোংরা, খসখসে এবং শক্ত হয়ে যায়; কানের পেছনে একজিমা হয়।",
+        "mid": "dirty_rough_hard_skin_eczema_behind_ears"
+      },
+      {
+        "text": "চামড়া অতিরিক্ত নরম, মসৃণ ও তৈলাক্ত।",
+        "mid": "soft_smooth_oily_skin"
+      },
+      {
+        "text": "শুধুমাত্র মুখে একজিমা হয়।",
+        "mid": "eczema_only_on_face"
+      },
+      {
+        "text": "ত্বকে কোনো একজিমা বা খসখসে ভাব নেই।",
+        "mid": "no_eczema_no_roughness"
+      }
+    ],
+    "answer": "dirty_rough_hard_skin_eczema_behind_ears",
+    "explanation": "Petroleum-এ চামড়া অত্যন্ত নোংরা, খসখসে ও শক্ত হয়ে যায় এবং কানের পেছনে বা আঙুলের খাঁজে একজিমা হওয়ার প্রবণতা থাকে।[reference:9]"
+  },
+  {
+    "id": "petr-med-11",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথার পেছনে (Occiput) ভারী বোধ এবং ব্যথা হয়।",
+        "mid": "heaviness_pain_occiput"
+      },
+      {
+        "text": "মাথার সামনের অংশে (Frontal) তীব্র ব্যথা।",
+        "mid": "severe_pain_frontal"
+      },
+      {
+        "text": "মাথার যেকোনো স্থানে হালকা ব্যথা।",
+        "mid": "mild_headache_anywhere"
+      },
+      {
+        "text": "মাথায় কোনো ব্যথা বা ভারী বোধ নেই।",
+        "mid": "no_headache_heaviness"
+      }
+    ],
+    "answer": "heaviness_pain_occiput",
+    "explanation": "Petroleum-এ মাথার পেছনে (Occiput) ভারী বোধ এবং ব্যথা হয়।[reference:10]"
+  },
+  {
+    "id": "petr-med-12",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কানের ভেতর অত্যন্ত চুলকানি এবং কানের পর্দা শুষ্ক হয়ে যায়, কানে কম শোনা (Deafness) হতে পারে।",
+        "mid": "itching_ear_dry_tympanum_deafness"
+      },
+      {
+        "text": "কানে কোনো চুলকানি বা শুষ্কতা নেই।",
+        "mid": "no_ear_itching_dryness"
+      },
+      {
+        "text": "শুধুমাত্র কানে ব্যথা হয়, চুলকানি নেই।",
+        "mid": "ear_pain_no_itching"
+      },
+      {
+        "text": "কান সর্বদা ভেজা ও পুঁজযুক্ত।",
+        "mid": "wet_pus_in_ears"
+      }
+    ],
+    "answer": "itching_ear_dry_tympanum_deafness",
+    "explanation": "Petroleum-এ কানের ভেতর অত্যন্ত চুলকানি হয়, কানের পর্দা শুষ্ক হয়ে যায় এবং কানে কম শোনার (Deafness) প্রবণতা থাকে।[reference:11]"
+  },
+  {
+    "id": "petr-med-13",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শীতকালে, গাড়িতে বা নৌকায় চড়লে, ঝড়ের আগে এবং খালি পেটে।",
+        "mid": "aggravation_winter_motion_before_storm_empty_stomach"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় শীতকালে, গাড়িতে চড়লে এবং খালি পেটে।",
+        "mid": "amelioration_winter_motion_empty_stomach"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরমকালে এবং খাওয়ার পর।",
+        "mid": "aggravation_summer_after_eating"
+      },
+      {
+        "text": "আবহাওয়া বা খাবারের সাথে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_weather_food"
+      }
+    ],
+    "answer": "aggravation_winter_motion_before_storm_empty_stomach",
+    "explanation": "Petroleum-এর লক্ষণ শীতকালে, গাড়ি/নৌকায় চড়লে, ঝড়ের আগে, মানসিক পরিশ্রমে এবং খালি পেটে বৃদ্ধি পায়।[reference:12]"
+  },
+  {
+    "id": "petr-med-14",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় গরমকালে, আহার করলে এবং উষ্ণ আবহাওয়ায়।",
+        "mid": "amelioration_summer_eating_warm_weather"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় শীতকালে এবং খালি পেটে।",
+        "mid": "amelioration_winter_empty_stomach"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরমকালে এবং খাওয়ার পর।",
+        "mid": "aggravation_summer_after_eating"
+      },
+      {
+        "text": "গরমে বা খাওয়ার পর কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_summer_eating"
+      }
+    ],
+    "answer": "amelioration_summer_eating_warm_weather",
+    "explanation": "Petroleum-এর লক্ষণ গরমকালে, আহার করলে বা পেট ভরা থাকলে এবং উষ্ণ আবহাওয়ায় উপশম হয়।[reference:13]"
+  },
+  {
+    "id": "petr-med-15",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পাকস্থলীতে সবসময় একটি খালি খালি ভাব (Gawing feeling) থাকে, যা খেলে সাময়িকভাবে উপশম হয়।",
+        "mid": "empty_feeling_stomach_relieved_by_eating"
+      },
+      {
+        "text": "পাকস্থলীতে সবসময় ভরা ভরা ভাব থাকে।",
+        "mid": "fullness_in_stomach_always"
+      },
+      {
+        "text": "পাকস্থলীতে জ্বালাপোড়া হয়, খেলে বাড়ে।",
+        "mid": "burning_stomach_worse_by_eating"
+      },
+      {
+        "text": "পাকস্থলীতে কোনো অস্বস্তি নেই।",
+        "mid": "no_stomach_discomfort"
+      }
+    ],
+    "answer": "empty_feeling_stomach_relieved_by_eating",
+    "explanation": "Petroleum-এ পাকস্থলীতে সবসময় খালি খালি ভাব (Gawing feeling) থাকে, এবং আহার করলে সাময়িকভাবে কষ্টের উপশম হয়।[reference:14]"
+  },
+  {
+    "id": "petr-med-16",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মল অত্যন্ত দুর্গন্ধযুক্ত এবং দেখতে কালচে রঙের হয়।",
+        "mid": "offensive_dark_stool"
+      },
+      {
+        "text": "মল গন্ধহীন এবং হালকা রঙের।",
+        "mid": "odorless_light_stool"
+      },
+      {
+        "text": "মল শুষ্ক এবং কঠিন, গন্ধহীন।",
+        "mid": "dry_hard_odorless_stool"
+      },
+      {
+        "text": "মলে কোনো অস্বাভাবিকতা নেই।",
+        "mid": "normal_stool"
+      }
+    ],
+    "answer": "offensive_dark_stool",
+    "explanation": "Petroleum-এ মল অত্যন্ত দুর্গন্ধযুক্ত এবং দেখতে কালচে রঙের হয়।[reference:15]"
+  },
+  {
+    "id": "petr-med-17",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হাতের তালু, পায়ের তলা এবং আঙুলের ডগা ফেটে গভীর ক্ষতের সৃষ্টি হয়।",
+        "mid": "deep_cracks_palms_soles_fingertips"
+      },
+      {
+        "text": "শুধুমাত্র মুখের চামড়া ফেটে যায়।",
+        "mid": "cracks_only_on_face"
+      },
+      {
+        "text": "শরীরের যেকোনো স্থানে ফাটা কিন্তু হাত-পা নয়।",
+        "mid": "cracks_anywhere_but_hands_feet"
+      },
+      {
+        "text": "ত্বকে কোনো ফাটা বা ক্ষত হয় না।",
+        "mid": "no_cracks_no_wounds"
+      }
+    ],
+    "answer": "deep_cracks_palms_soles_fingertips",
+    "explanation": "Petroleum-এ হাতের তালু, পায়ের তলা এবং আঙুলের ডগা ফেটে গভীর ক্ষতের সৃষ্টি হয় এবং তা থেকে রক্ত বা রস পড়ে।[reference:16]"
+  },
+  {
+    "id": "petr-med-18",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথা ঘোরা যা গাড়িতে চড়লে বা নিচু হলে বাড়ে।",
+        "mid": "vertigo_worse_in_car_or_stooping"
+      },
+      {
+        "text": "মাথা ঘোরা যা শোয়ার সময় কমে।",
+        "mid": "vertigo_relieved_by_lying_down"
+      },
+      {
+        "text": "শুধুমাত্র সকালে মাথা ঘোরা।",
+        "mid": "vertigo_only_in_morning"
+      },
+      {
+        "text": "মাথা ঘোরা কোনো অবস্থাতেই বাড়ে না।",
+        "mid": "no_vertigo_aggravation"
+      }
+    ],
+    "answer": "vertigo_worse_in_car_or_stooping",
+    "explanation": "Petroleum-এ মাথা ঘোরা হয় যা গাড়িতে চড়লে বা নিচু হলে বাড়ে।[reference:17]"
+  },
+  {
+    "id": "petr-med-19",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী চরম শীতকাতর (অত্যন্ত ঠান্ডা অসহিষ্ণু)।",
+        "mid": "extremely_chilly_patient"
+      },
+      {
+        "text": "রোগী অত্যন্ত উষ্ণকাতর (গরম অসহিষ্ণু)।",
+        "mid": "extremely_hot_patient"
+      },
+      {
+        "text": "রোগীর কোনো তাপমাত্রা সংবেদনশীলতা নেই।",
+        "mid": "no_thermal_sensitivity"
+      },
+      {
+        "text": "রোগী শুধুমাত্র গরমে অস্বস্তি বোধ করে।",
+        "mid": "discomfort_only_in_heat"
+      }
+    ],
+    "answer": "extremely_chilly_patient",
+    "explanation": "Petroleum একটি শীতকাতর (Chilly) ঔষধ; রোগী চরম ঠান্ডা সহ্য করতে পারে না।[reference:18]"
+  },
+  {
+    "id": "petr-med-20",
+    "stem": "নিচের কোনটি Petroleum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "বিষন্নতার সাথে দৃষ্টিশক্তি হ্রাস পায়।",
+        "mid": "depression_with_diminished_vision"
+      },
+      {
+        "text": "বিষন্নতা কিন্তু দৃষ্টিশক্তি স্বাভাবিক।",
+        "mid": "depression_normal_vision"
+      },
+      {
+        "text": "দৃষ্টিশক্তি হ্রাস কিন্তু কোনো বিষন্নতা নেই।",
+        "mid": "diminished_vision_no_depression"
+      },
+      {
+        "text": "বিষন্নতা বা দৃষ্টিশক্তি হ্রাস কোনোটাই নেই।",
+        "mid": "no_depression_no_vision_problem"
+      }
+    ],
+    "answer": "depression_with_diminished_vision",
+    "explanation": "Petroleum-এ বিষন্নতার সাথে দৃষ্টিশক্তি হ্রাস (Depression with dim vision) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।[reference:19]"
+  }
+]
+

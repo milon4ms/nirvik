@@ -1,0 +1,481 @@
+[
+{
+"id": "cham-med-01",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "যন্ত্রণার প্রতি চরম সংবেদনশীলতা, সামান্য ব্যথাও সহ্য করতে না পেরে চিৎকার করা",
+"mid": "sym-hypersensitive-pain"
+},
+{
+"text": "ঘুমের সময় মাথায় প্রচুর টক গন্ধযুক্ত ঘাম হওয়া এবং বালিশ ভিজে যাওয়া",
+"mid": "sym-head-sweat-pillow"
+},
+{
+"text": "সেদ্ধ ডিম এবং অপাচ্য জিনিস খাওয়ার প্রবল ইচ্ছা",
+"mid": "sym-craving-eggs-indigestible"
+},
+{
+"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য",
+"mid": "sym-heavy-belly"
+}
+],
+"answer": "sym-hypersensitive-pain",
+"explanation": "Chamomilla-এর প্রধান লক্ষণ হলো যন্ত্রণার প্রতি রোগী অত্যন্ত সংবেদনশীল থাকে, সামান্য ব্যথাও সহ্য করতে পারে না এবং যন্ত্রণায় চিৎকার করে ওঠে।"
+},
+{
+"id": "cham-med-02",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শিশু সারাক্ষণ কোলে থাকতে চাওয়া এবং তাকে নিয়ে ঘুরে বেড়ালে শান্ত হওয়া",
+"mid": "sym-child-carried-relief"
+},
+{
+"text": "জল স্পর্শ করলে বা জলে হাত দিলে চর্মরোগ বা কষ্ট বৃদ্ধি পাওয়া",
+"mid": "sym-water-aggravation"
+},
+{
+"text": "গরম জলের শেক দিলে চর্মরোগের জ্বালা সম্পূর্ণ নিবারণ হওয়া",
+"mid": "sym-warm-water-relief"
+},
+{
+"text": "ঘাম হলে সারা শরীরের চুলকানি তৎক্ষণাৎ কমে যাওয়া",
+"mid": "sym-sweat-relief"
+}
+],
+"answer": "sym-child-carried-relief",
+"explanation": "Chamomilla-এ শিশু সারাক্ষণ কোলে থাকতে চায় এবং তাকে কোলে নিয়ে ঘুরে বেড়ালে বা চাপরালে সে শান্ত হয়।"
+},
+{
+"id": "cham-med-03",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "যন্ত্রণার সময় একটি গাল লাল ও গরম থাকা এবং অন্যটি ফ্যাকাশে ও ঠান্ডা থাকা",
+"mid": "sym-one-cheek-red-other-pale"
+},
+{
+"text": "একটু পরপর সামান্য কয়েক ফোঁটা ঠান্ডা পানি পান করার ইচ্ছা",
+"mid": "sym-thirst-sip-water"
+},
+{
+"text": "প্রচণ্ড ডায়রিয়া থাকা সত্ত্বেও একেবারেই পিপাসা না থাকা",
+"mid": "sym-thirstless-fever"
+},
+{
+"text": "শুধুমাত্র বরফ মুখে দিয়ে চুষে খাওয়ার ব্যাকুলতা",
+"mid": "sym-ice-craving"
+}
+],
+"answer": "sym-one-cheek-red-other-pale",
+"explanation": "Chamomilla-এর অন্যতম মূল লক্ষণ হলো যন্ত্রণার সময় রোগীর একটি গাল লাল ও গরম থাকে, আর অন্য গালটি বিবর্ণ ও ঠান্ডা থাকে।"
+},
+{
+"id": "cham-med-04",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "দাঁত ওঠার সময় শিশুদের ডায়রিয়া, জ্বর বা খিটখিটে মেজাজ দেখা দেওয়া",
+"mid": "sym-teething-diarrhea-fever"
+},
+{
+"text": "প্রস্রাব ত্যাগের সময় এবং পরে লিঙ্গমুণ্ডে প্রচণ্ড জ্বালা ও সুড়সুড়ি হওয়া",
+"mid": "sym-urinary-burning"
+},
+{
+"text": "প্রস্রাবের বেগ আটকে রাখলে মূত্রথলিতে তীব্র সংকোচন ব্যথা",
+"mid": "sym-bladder-spasm"
+},
+{
+"text": "প্রস্রাবের রঙ কুচকুচে কালো ও দুর্গন্ধযুক্ত হওয়া",
+"mid": "sym-dark-urine"
+}
+],
+"answer": "sym-teething-diarrhea-fever",
+"explanation": "Chamomilla শিশুদের দাঁত ওঠার সময়ের নানা কষ্ট যেমন ডায়রিয়া, জ্বর এবং চরম খিটখিটে মেজাজ দূর করতে অত্যন্ত কার্যকর।"
+},
+{
+"id": "cham-med-05",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শিশুদের মল সবুজ রঙের এবং গন্ধ পচা ডিমের মতো হওয়া",
+"mid": "sym-green-rotten-egg-stool"
+},
+{
+"text": "প্রস্রাবের ধারা অনেক সময় দ্বিখণ্ডিত বা দুই ভাগে বিভক্ত হওয়া",
+"mid": "sym-split-stream"
+},
+{
+"text": "প্রস্রাব করার সময় তলপেটে প্রচণ্ড চাপ ও ব্যথা অনুভূত হওয়া",
+"mid": "sym-pelvic-pressure"
+},
+{
+"text": "সারাদিনে মাত্র একবার অত্যন্ত স্বল্প পরিমাণে প্রস্রাব হওয়া",
+"mid": "sym-scanty-urine"
+}
+],
+"answer": "sym-green-rotten-egg-stool",
+"explanation": "Chamomilla-এর শিশুদের মলের বর্ণ সবুজ (কাটা পালং শাকের মতো) এবং গন্ধ পচা ডিমের মতো হয়ে থাকে।"
+},
+{
+"id": "cham-med-06",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগী অত্যন্ত রাগী, ঝগড়াটে ও খিটখিটে এবং চাওয়ার পর জিনিস ছুড়ে ফেলা",
+"mid": "sym-quarrelsome-throws-things"
+},
+{
+"text": "রোগী মানসিকভাবে বেশ প্রফুল্ল থাকে এবং প্রচুর কথা বলতে পছন্দ করে",
+"mid": "sym-liveliness-talkative"
+},
+{
+"text": "কাউের সাথে কথা না বলে সারাদিন চুপচাপ একা বসে থাকা",
+"mid": "sym-silent-depression"
+},
+{
+"text": "কথা বলার সময় বারবার শব্দ ভুলে যাওয়া ও বিভ্রান্ত হওয়া",
+"mid": "sym-confusion-speech"
+}
+],
+"answer": "sym-quarrelsome-throws-things",
+"explanation": "Chamomilla-এর মানসিক লক্ষণে রোগী অত্যন্ত ঝগড়াটে প্রকৃতির হয় এবং কোনো জিনিস চেয়ে পাওয়ার পর তা অবজ্ঞায় ছুড়ে ফেলে দেয়।"
+},
+{
+"id": "cham-med-07",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "কেউ তাকালে বা কথা বললে প্রচণ্ড বিরক্ত বোধ করা",
+"mid": "sym-annoyed-spoken-to"
+},
+{
+"text": "ত্বকে শক্ত ও শুষ্ক আঁচিল যা থেকে রক্তপাত হয়",
+"mid": "sym-hard-bleeding-warts"
+},
+{
+"text": "পায়ের তালুতে বেদনাদায়ক কড়া বা কর্ন হওয়া",
+"mid": "sym-corns-feet"
+},
+{
+"text": "ত্বকে বাদামী রঙের মেচেতা বা তিল ভেসে ওঠা",
+"mid": "sym-brown-spots"
+}
+],
+"answer": "sym-annoyed-spoken-to",
+"explanation": "Chamomilla-এর রোগী এতই সংবেদনশীল ও খিটখিটে যে কেউ তার দিকে তাকালে বা তার সাথে কথা বললে সে প্রচণ্ড বিরক্ত হয়।"
+},
+{
+"id": "cham-med-08",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "দাঁতে প্রচণ্ড ব্যথা যা রাতে বাড়ে এবং গরম পানীয় পানে বৃদ্ধি পায়",
+"mid": "sym-toothache-warmth-worse"
+},
+{
+"text": "ঘাড়ে ও পেছনের মাথায় ভারী বস্তু চাপা থাকার মতো অনুভূতি",
+"mid": "sym-heavy-occiput"
+},
+{
+"text": "মাথা ঘোরার সাথে বমি ভাব এবং চারপাশ ঘুরে যাওয়া",
+"mid": "sym-vertigo-nausea"
+},
+{
+"text": "রোদের মধ্যে গেলে কপালে সূঁচ ফোটার মতো তীব্র ব্যথা",
+"mid": "sym-sun-headache-needle"
+}
+],
+"answer": "sym-toothache-warmth-worse",
+"explanation": "Chamomilla-এ দাঁতে প্রচণ্ড ব্যথা হয় যা রাতে বৃদ্ধি পায় এবং গরম পানীয় বা গরম খাবারে ব্যথা আরও বেড়ে যায়।"
+},
+{
+"id": "cham-med-09",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রাগের পর পেটে প্রচণ্ড বায়ু জমা ও আক্ষেপিক ব্যথা হওয়া",
+"mid": "sym-colic-after-anger"
+},
+{
+"text": "চা পান করার সাথে সাথে পেটের গ্যাস বৃদ্ধি পাওয়া",
+"mid": "sym-tea-gas"
+},
+{
+"text": "মিষ্টি জাতীয় খাবার খেলে মাথাব্যথা তীব্র হওয়া",
+"mid": "sym-sweet-headache"
+},
+{
+"text": "দুধ ও ল্যাকটিক খাবার খেলে বমি ভাব হওয়া",
+"mid": "sym-milk-nausea"
+}
+],
+"answer": "sym-colic-after-anger",
+"explanation": "Chamomilla-এ রাগের ফলে বা রাগারাগির পর পেটে প্রচুর বায়ু জমে এবং মুচড়ানো বা আক্ষেপিক ব্যথা (Colic) শুরু হয়।"
+},
+{
+"id": "cham-med-10",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "উদ্ভিদ জগত বা জার্মান ক্যামোমাইল ফুল থেকে প্রস্তুত হওয়া",
+"mid": "sym-plant-source-chamomile"
+},
+{
+"text": "মৌমাছির হুল থেকে সংগৃহীত বিষাক্ত উপাদান",
+"mid": "sym-bee-poison"
+},
+{
+"text": "খনিজ লবণের সংমিশ্রণে তৈরি কৃত্রিম রাসায়নিক",
+"mid": "sym-mineral-chemical"
+},
+{
+"text": "সাপের বিষ থেকে প্রস্তুত হোমিওপ্যাথিক টিংচার",
+"mid": "sym-snake-venom"
+}
+],
+"answer": "sym-plant-source-chamomile",
+"explanation": "Chamomilla উদ্ভিদ জগত বা জার্মান ক্যামোমাইল ফুল (Matricaria chamomilla) থেকে প্রস্তুত করা হয়।"
+},
+{
+"id": "cham-med-11",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "গরম কাতর (Warm patient) প্রকৃতির রোগী হওয়া",
+"mid": "sym-warm-patient"
+},
+{
+"text": "অত্যন্ত শীতকাতর ও শীতে মারাত্মক কষ্ট পাওয়া",
+"mid": "sym-extreme-chilly"
+},
+{
+"text": "উভয় আবহাওয়াতেই সমানভাবে সহ্য ক্ষমতা থাকা",
+"mid": "sym-ambithermal"
+},
+{
+"text": "বর্ষাকালে জয়েন্টে জয়েন্টে তীব্র ব্যথা হওয়া",
+"mid": "sym-monsoon-joint-pain"
+}
+],
+"answer": "sym-warm-patient",
+"explanation": "Chamomilla মূলত গরম কাতর (Warm patient) প্রকৃতির একটি হোমিওপ্যাথিক ঔষধ।"
+},
+{
+"id": "cham-med-12",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শরীরের প্রধানত বাম পার্শ্বে (Left side) বেশি ক্রিয়াশীল হওয়া",
+"mid": "sym-left-side"
+},
+{
+"text": "ডান পাশের ফুসফুস ও কানকে বেশি আক্রান্ত করা",
+"mid": "sym-right-side"
+},
+{
+"text": "শরীরের উভয় পাশে সমানভাবে লক্ষণ প্রকাশ করা",
+"mid": "sym-bilateral"
+},
+{
+"text": "মুখের কেবল ডান অংশে ব্যথা সীমাবদ্ধ থাকা",
+"mid": "sym-right-face"
+}
+],
+"answer": "sym-left-side",
+"explanation": "Chamomilla-এর লক্ষণগুলো প্রধানত শরীরের বাম পার্শ্বে (Left side) বেশি প্রকাশ পায়।"
+},
+{
+"id": "cham-med-13",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "সোরা (Psora) মায়াজম বা প্রবৃত্তি প্রধান হওয়া",
+"mid": "sym-psora-miasm"
+},
+{
+"text": "সিফিলিস মায়াজমের ধ্বংসাত্মক ক্ষত সৃষ্টি করা",
+"mid": "sym-syphilis-miasm"
+},
+{
+"text": "সাইকোটিক মায়াজমের টিউমার গঠন করা",
+"mid": "sym-sycotic-miasm"
+},
+{
+"text": "টিউবারকুলার মায়াজমের দ্রুত ক্ষয় রোগ ঘটানো",
+"mid": "sym-tubercular-miasm"
+}
+],
+"answer": "sym-psora-miasm",
+"explanation": "Chamomilla মূলত সোরা (Psora) মায়াজমের অন্তর্ভুক্ত একটি অত্যন্ত গুরুত্বপূর্ণ হোমিওপ্যাথিক ঔষধ।"
+},
+{
+"id": "cham-med-14",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রাতে শোয়ার সময় শুষ্ক কাশি হওয়া, যা শিশু ঘুমিয়ে পড়লে কমে যাওয়া",
+"mid": "sym-cough-sleep-better"
+},
+{
+"text": "পাকস্থলীতে তীব্র জ্বালাপোড়া ও ঘা হয়ে যাওয়ার অনুভূতি",
+"mid": "sym-stomach-ulcer"
+},
+{
+"text": "নাভির চারপাশে সুচালো ব্যথা যা ভাজ হলে কমে",
+"mid": "sym-navel-colic"
+},
+{
+"text": "কোষ্ঠকাঠিন্যের সাথে পেটে পাথর জমার মতো ভারী বোধ",
+"mid": "sym-stone-belly"
+}
+],
+"answer": "sym-cough-sleep-better",
+"explanation": "Chamomilla-এ রাতে শোয়ার সময় শুষ্ক কাশি হয়, কিন্তু শিশু ঘুমিয়ে পড়লে কাশির বেগ অনেকাংশে কমে যায়।"
+},
+{
+"id": "cham-med-15",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "Belladonna ও Magnesium Phos-এর সাথে পরিপূরক সম্পর্ক থাকা",
+"mid": "sym-complementary-remedies"
+},
+{
+"text": "Aconite ও Gelsemium-এর সাথে হুবহু মিলে যাওয়া",
+"mid": "sym-aconite-match"
+},
+{
+"text": "Nux Vomica-এর সম্পূর্ণ বিপরীত ক্রিয়া দেখানো",
+"mid": "sym-nux-opposite"
+},
+{
+"text": "Arsenicum Album-এর পরিপূরক হিসেবে কাজ করা",
+"mid": "sym-arsenic-complement"
+}
+],
+"answer": "sym-complementary-remedies",
+"explanation": "Chamomilla-এর পরিপূরক (Complementary) ঔষধ হলো Belladonna এবং Magnesium Phos।"
+},
+{
+"id": "cham-med-16",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "কফি পান করলে এই ঔষধের কার্যকারিতা নষ্ট বা প্রতিষেধিত হওয়া",
+"mid": "sym-coffee-antidote"
+},
+{
+"text": "শুধুমাত্র ১০০০ বা উচ্চ শক্তিতে একক মাত্রা প্রয়োগ করা",
+"mid": "sym-high-potency"
+},
+{
+"text": "কেবলমাত্র ৫০ মিলিেসিমাল শক্তিতে ব্যবহার বাধ্যতামূলক",
+"mid": "sym-lm-potency"
+},
+{
+"text": "উচ্চ শক্তিতে শুধুমাত্র চর্মরোগের জন্য নির্ধারিত",
+"mid": "sym-skin-high"
+}
+],
+"answer": "sym-coffee-antidote",
+"explanation": "Chamomilla ব্যবহারের সময় কফি পান করা নিষেধ, কারণ কফি এর কার্যকারিতা নষ্ট (Antidote) করে দেয়।"
+},
+{
+"id": "cham-med-17",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ঋতুস্রাব অত্যন্ত যন্ত্রণাদায়ক হওয়া এবং রক্ত কালচে ও চাকা চাকা আসা",
+"mid": "sym-dysmenorrhea-dark-clots"
+},
+{
+"text": "সারাদিন প্রচণ্ড কান্নাকাটি করা ও কাউকে কাছে না ঘেঁষতে দেওয়া",
+"mid": "sym-weeping-mood"
+},
+{
+"text": "সবসময় ভয় পাওয়া যে তার বড় কোনো মারাত্মক রোগ হয়েছে",
+"mid": "sym-hypochondriasis"
+},
+{
+"text": "কারো সাথে মিশতে না পেরে গভীর কোণঠাসা জীবন কাটানো",
+"mid": "sym-isolation"
+}
+],
+"answer": "sym-dysmenorrhea-dark-clots",
+"explanation": "Chamomilla-এর স্ত্রী জননেন্দ্রিয় লক্ষণে ঋতুস্রাব অত্যন্ত যন্ত্রণাদায়ক হয় এবং রক্ত কালচে রঙের ও চাকা চাকা আকারে নির্গত হয়।"
+},
+{
+"id": "cham-med-18",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রাতে পায়ের তলা ও হাতের তলা জ্বালা করা এবং পা বিছানার বাইরে রাখা",
+"mid": "sym-burning-soles-uncover"
+},
+{
+"text": "অতিরিক্ত আনন্দে আত্মহারা হয়ে রাতভর গান গাওয়া",
+"mid": "sym-overjoyed"
+},
+{
+"text": "স্মৃতিশক্তি সম্পূর্ণ লোপ পাওয়া এবং কাউকে চিনতে না পারা",
+"mid": "sym-memory-loss"
+},
+{
+"text": "ঘুমের মধ্যে হেঁটে বেড়ানো এবং অদ্ভুত স্বপ্ন দেখা",
+"mid": "sym-somnambulism"
+}
+],
+"answer": "sym-burning-soles-uncover",
+"explanation": "Chamomilla-এর একটি চমৎকার লক্ষণ হলো রাতে পায়ের তলা ও হাতের তলায় জ্বালা করে এবং রোগী পা বিছানার চাদরের বাইরে বের করে রাখে।"
+},
+{
+"id": "cham-med-19",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "কোলে নিয়ে ঘুরে বেড়ালে (Being carried) কষ্টের উপশম হওয়া",
+"mid": "sym-carried-amelioration"
+},
+{
+"text": "চলাফেরা করলে সমস্ত ব্যথা ও চুলকানি ম্যাজিকের মতো গায়েব হওয়া",
+"mid": "sym-motion-relief"
+},
+{
+"text": "দৌড়াদৌড়ি করলে শরীরের স্নায়বিক দুর্বলতা দূর হওয়া",
+"mid": "sym-running-relief"
+},
+{
+"text": "উচিৎ কাজ করার সময় শুয়ে থাকলে কষ্ট বৃদ্ধি পাওয়া",
+"mid": "sym-lying-worse"
+}
+],
+"answer": "sym-carried-amelioration",
+"explanation": "Chamomilla-এ কোলে নিয়ে ঘুরে বেড়ালে (Being carried) শিশুর কান্না ও শারীরিক অস্বস্তির যথেষ্ট উপশম হয়।"
+},
+{
+"id": "cham-med-20",
+"stem": "নিচের কোনটি Chamomilla-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রাগের ফলে, রাতে, গরমে এবং কফি পান করলে রোগলক্ষণ বৃদ্ধি পাওয়া",
+"mid": "sym-anger-night-warmth-agg"
+},
+{
+"text": "পেট খালি থাকলে পেটে প্রচণ্ড মোচড়ানো ব্যথা শুরু হওয়া",
+"mid": "sym-empty-stomach-pain"
+},
+{
+"text": "খাওয়ার পরপরই বমি হয়ে সমস্ত ক্লান্তি দূর হওয়া",
+"mid": "sym-vomiting-relief"
+},
+{
+"text": "ভারী খাবার খাওয়ার পর মনের জোর বৃদ্ধি পাওয়া",
+"mid": "sym-heavy-food-energy"
+}
+],
+"answer": "sym-anger-night-warmth-agg",
+"explanation": "Chamomilla-এর বৃদ্ধি (Aggravation) ঘটে রাগের ফলে, রাতের বেলা, গরমে এবং কফি পান করলে।"
+}]

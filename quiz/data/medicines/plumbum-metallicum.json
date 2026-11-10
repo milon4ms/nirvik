@@ -1,0 +1,242 @@
+[
+  {
+    "id": "plumbum-med-01",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেশি শক্ত ও মোটা হয়ে যাওয়া, কখনো শুকিয়ে না যাওয়া", "mid": "sym-muscle-strong-thick-never-waste"},
+      {"text": "পক্ষাঘাত বা পক্ষাঘাত সদৃশ দুর্বলতা, মাংসপেশি শুকায়, বিশেষ করে হাত বা পক্ষাঘাতগ্রস্ত অঙ্গের পেশি শুকিয়ে যাওয়া", "mid": "sym-plumbum-paralysis-weakness-muscle-atrophy"},
+      {"text": "পেশিতে ব্যথা ছাড়াই শুধু চুলকানি থাকা", "mid": "sym-muscle-itching-only"},
+      {"text": "পক্ষাঘাত হলে পেশি ফুলে বড় হয়ে যাওয়া", "mid": "sym-paralysis-muscle-swollen"}
+    ],
+    "answer": "sym-plumbum-paralysis-weakness-muscle-atrophy",
+    "explanation": "Plumbum Metallicum এ পক্ষাঘাত বা পক্ষাঘাত সদৃশ দুর্বলতা থাকে, মাংসপেশি শুকায়, বিশেষ করে হাত বা পক্ষাঘাতগ্রস্ত অঙ্গের পেশি শুকিয়ে যায়।"
+  },
+  {
+    "id": "plumbum-med-02",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেট ফুলে সামনের দিকে বেরিয়ে আসা", "mid": "sym-belly-swollen-forward"},
+      {"text": "পেটে কোনো ব্যথা না থাকা, পেট স্বাভাবিক থাকা", "mid": "sym-belly-no-pain-normal"},
+      {"text": "পেটে হালকা ব্যথা, নড়াচড়ায় কমে যাওয়া", "mid": "sym-belly-mild-pain-motion-less"},
+      {"text": "নাভিমূলে উদরশূল বেদনা, মনে হয় উদরকে দড়ি দিয়ে মেরুদণ্ডের দিকে টানছে, পেট মনে হয় মেরুদণ্ডের সাথে লেগে যাচ্ছে", "mid": "sym-plumbum-umbilical-colic-pulled-spine"}
+    ],
+    "answer": "sym-plumbum-umbilical-colic-pulled-spine",
+    "explanation": "Plumbum Metallicum এ নাভিমূলে উদরশূল বেদনা হয়, মনে হয় উদরকে দড়ি দিয়ে মেরুদণ্ডের দিকে টানছে, পেট মনে হয় মেরুদণ্ডের সাথে লেগে যাচ্ছে।"
+  },
+  {
+    "id": "plumbum-med-03",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাড়ি প্রান্তে নীলবর্ণের রেখা, মাড়ি ফোলা, সিসা বিষক্রিয়ার চিহ্ন", "mid": "sym-plumbum-blue-line-gum-swollen-lead"},
+      {"text": "মাড়ি গোলাপি ও স্বাভাবিক থাকা, কোনো রেখা না থাকা", "mid": "sym-gum-pink-normal-no-line"},
+      {"text": "মাড়ি থেকে রক্ত পড়া কিন্তু কোনো রেখা না থাকা", "mid": "sym-gum-bleed-no-line"},
+      {"text": "মাড়ি সাদা হয়ে যাওয়া ও শুকিয়ে যাওয়া", "mid": "sym-gum-white-dry"}
+    ],
+    "answer": "sym-plumbum-blue-line-gum-swollen-lead",
+    "explanation": "Plumbum Metallicum এ মাড়ি প্রান্তে নীলবর্ণের রেখা দেখা যায়, মাড়ি ফোলা থাকে, এটি সিসা বিষক্রিয়ার প্রধান চিহ্ন।"
+  },
+  {
+    "id": "plumbum-med-04",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘুমের সময় সবসময় সোজা হয়ে শোয়া", "mid": "sym-sleep-straight-always"},
+      {"text": "ঘুমের সময় এক পাশে কাত হয়ে শোয়া", "mid": "sym-sleep-side-only"},
+      {"text": "নিদ্রার সময় অদ্ভুত পজিশনে ঘুমায়", "mid": "sym-plumbum-sleep-strange-position"},
+      {"text": "ঘুম একদম হয় না, সারারাত জেগে থাকে", "mid": "sym-no-sleep-awake-night"}
+    ],
+    "answer": "sym-plumbum-sleep-strange-position",
+    "explanation": "Plumbum Metallicum রোগী নিদ্রার সময় অদ্ভুত পজিশনে ঘুমায়।"
+  },
+  {
+    "id": "plumbum-med-05",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মল নরম ও পরিষ্কার, কোষ্ঠকাঠিন্য কখনো হয় না", "mid": "sym-stool-soft-no-constipation"},
+      {"text": "কোষ্ঠকাঠিন্য সহ পেট ব্যথা, ছাগলের নাদির মতো মল, মল অত্যন্ত শক্ত, কালো, ছোট ছোট গুটির মতো, মলদ্বার দিয়ে যেন কিছু ওপরের দিকে টেনে ধরা হচ্ছে", "mid": "sym-plumbum-constipation-goat-stool-black-hard-balls-pulled-up"},
+      {"text": "মল পাতলা ও পানির মতো, দিনে অনেকবার হয়", "mid": "sym-stool-watery-frequent"},
+      {"text": "কোষ্ঠকাঠিন্য থাকলেও পেটে কোনো ব্যথা থাকে না", "mid": "sym-constipation-no-belly-pain"}
+    ],
+    "answer": "sym-plumbum-constipation-goat-stool-black-hard-balls-pulled-up",
+    "explanation": "Plumbum Metallicum এ কোষ্ঠকাঠিন্য সহ পেট ব্যথা হয়, মল ছাগলের নাদির মতো, অত্যন্ত শক্ত, কালো ও ছোট ছোট গুটির মতো হয়, মলদ্বার দিয়ে যেন কিছু ওপরের দিকে টেনে ধরা হচ্ছে।"
+  },
+  {
+    "id": "plumbum-med-06",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মন সবসময় আনন্দে থাকে, কোনো ভয় থাকে না", "mid": "sym-mind-happy-no-fear"},
+      {"text": "ভয় পেলে হেসে ফেলা ও সাহস বেড়ে যাওয়া", "mid": "sym-fear-laugh-brave"},
+      {"text": "সবসময় রাগ থাকে, বিষণ্ণতা থাকে না", "mid": "sym-always-angry-no-depression"},
+      {"text": "বিষণ্ণতা, সাংঘাতিক কিছু ঘটার ভয়, উদাসীনতা", "mid": "sym-plumbum-depression-fear-dreadful-happen-indifference"}
+    ],
+    "answer": "sym-plumbum-depression-fear-dreadful-happen-indifference",
+    "explanation": "Plumbum Metallicum এ বিষণ্ণতা থাকে, সাংঘাতিক কিছু ঘটার ভয় থাকে, উদাসীনতা থাকে।"
+  },
+  {
+    "id": "plumbum-med-07",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনে হয় কেউ তাকে খুন করবে, মনে করে সে কোনো অপরাধ করেছে বা তাকে বিষ প্রয়োগ করা হবে", "mid": "sym-plumbum-delusion-killed-crime-poisoned"},
+      {"text": "মনে হয় সবাই তাকে ভালোবাসে ও সাহায্য করবে", "mid": "sym-delusion-loved-helped"},
+      {"text": "মনে হয় সে কোনো ভুল করেনি, সব ঠিক আছে", "mid": "sym-delusion-no-mistake-all-ok"},
+      {"text": "মনে হয় কেউ তার ক্ষতি করবে না, সবাই বন্ধু", "mid": "sym-delusion-no-harm-all-friend"}
+    ],
+    "answer": "sym-plumbum-delusion-killed-crime-poisoned",
+    "explanation": "Plumbum Metallicum রোগীর মনে হয় কেউ তাকে খুন করবে, সে মনে করে কোনো অপরাধ করেছে বা তাকে বিষ প্রয়োগ করা হবে।"
+  },
+  {
+    "id": "plumbum-med-08",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লক্ষণ সবসময় একই থাকে, কখনো বদলায় না", "mid": "sym-symptom-always-same-never-change"},
+      {"text": "একটি লক্ষণ ভালো হলে আর কোনো লক্ষণ আসে না", "mid": "sym-one-better-no-new"},
+      {"text": "পরিবর্তনশীলতা", "mid": "sym-plumbum-changeability"},
+      {"text": "শরীরের অবস্থা সবসময় স্থির থাকে", "mid": "sym-body-always-stable"}
+    ],
+    "answer": "sym-plumbum-changeability",
+    "explanation": "Plumbum Metallicum এ পরিবর্তনশীলতা দেখা যায়।"
+  },
+  {
+    "id": "plumbum-med-09",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কবজি শক্ত থাকে, হাত সহজে সোজা করা যায়", "mid": "sym-wrist-strong-hand-straight-easy"},
+      {"text": "কবজি ঝুলে পড়া, হাতের কবজি পক্ষাঘাতগ্রস্ত হয়ে ঝুলে পড়ে, হাত সোজা করা যায় না", "mid": "sym-plumbum-wrist-drop-cannot-straighten-hand"},
+      {"text": "কবজিতে শুধু ব্যথা থাকে, ঝুলে পড়ে না", "mid": "sym-wrist-pain-only-no-drop"},
+      {"text": "কবজি ফুলে যায় কিন্তু শক্তি ঠিক থাকে", "mid": "sym-wrist-swollen-strength-ok"}
+    ],
+    "answer": "sym-plumbum-wrist-drop-cannot-straighten-hand",
+    "explanation": "Plumbum Metallicum এ কবজি ঝুলে পড়ে, হাতের কবজি পক্ষাঘাতগ্রস্ত হয়ে ঝুলে পড়ে, হাত সোজা করা যায় না।"
+  },
+  {
+    "id": "plumbum-med-10",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্মৃতিশক্তি খুব ভালো থাকে, সঠিক শব্দ সহজে মনে পড়ে", "mid": "sym-memory-good-correct-word-easy"},
+      {"text": "কথা বলার সময় শব্দ ভুলে গেলেও দ্রুত মনে পড়ে", "mid": "sym-word-forget-quick-recall"},
+      {"text": "স্মৃতিশক্তি স্বাভাবিক থাকে, কথা বলতে কোনো কষ্ট হয় না", "mid": "sym-memory-normal-no-speech-problem"},
+      {"text": "স্মৃতিশক্তি অত্যন্ত দুর্বল, কথা বলার সময় সঠিক শব্দ খুঁজে পায় না", "mid": "sym-plumbum-weak-memory-cannot-find-word"}
+    ],
+    "answer": "sym-plumbum-weak-memory-cannot-find-word",
+    "explanation": "Plumbum Metallicum এ স্মৃতিশক্তি অত্যন্ত দুর্বল হয়ে পড়ে, রোগী কথা বলার সময় সঠিক শব্দ খুঁজে পায় না।"
+  },
+  {
+    "id": "plumbum-med-11",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিক পরিশ্রম করলে শারীরিক লক্ষণ বেড়ে যায়", "mid": "sym-plumbum-mental-exertion-physical-worse"},
+      {"text": "মানসিক পরিশ্রম করলে শারীরিক লক্ষণ কমে যায়", "mid": "sym-mental-exertion-physical-less"},
+      {"text": "মানসিক পরিশ্রমে শরীরে কোনো পরিবর্তন হয় না", "mid": "sym-mental-exertion-no-body-change"},
+      {"text": "শারীরিক পরিশ্রম করলে মানসিক লক্ষণ বেড়ে যায়, মানসিক পরিশ্রমে বাড়ে না", "mid": "sym-physical-exertion-mental-worse"}
+    ],
+    "answer": "sym-plumbum-mental-exertion-physical-worse",
+    "explanation": "Plumbum Metallicum এ মানসিক পরিশ্রম করলে শারীরিক লক্ষণগুলো বেড়ে যায়।"
+  },
+  {
+    "id": "plumbum-med-12",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মুখমণ্ডল লাল ও উজ্জ্বল থাকে, দিন দিন মোটা হয়ে যায়", "mid": "sym-face-red-bright-fat-day"},
+      {"text": "মুখমণ্ডল স্বাভাবিক থাকে, কোনো পরিবর্তন হয় না", "mid": "sym-face-normal-no-change"},
+      {"text": "মুখমণ্ডল ফ্যাকাশে, হলুদাভ, মৃত ব্যক্তির মতো দেখায়, মুখমণ্ডল দিন দিন রোগা হয়ে যায়", "mid": "sym-plumbum-face-pale-yellow-cadaverous-thin-day"},
+      {"text": "মুখমণ্ডল ফুলে যায় ও ব্যথা করে", "mid": "sym-face-swollen-painful"}
+    ],
+    "answer": "sym-plumbum-face-pale-yellow-cadaverous-thin-day",
+    "explanation": "Plumbum Metallicum এ মুখমণ্ডল ফ্যাকাশে, হলুদাভ এবং মৃত ব্যক্তির মতো দেখায়, মুখমণ্ডল দিন দিন রোগা হয়ে যায়।"
+  },
+  {
+    "id": "plumbum-med-13",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেটের চামড়া ও পেশি বাইরের দিকে ফুলে ওঠে", "mid": "sym-belly-skin-muscle-outward-swollen"},
+      {"text": "পেটের চামড়া ও পেশি ভেতরের দিকে টেনে ধরে, কলিক বা পেটব্যথা প্রচণ্ড তীব্র, আহার করলে ব্যথার উপশম হয়", "mid": "sym-plumbum-belly-retracted-colic-severe-eating-relief"},
+      {"text": "পেটব্যথা হালকা থাকে ও আহার করলে বেড়ে যায়", "mid": "sym-belly-mild-eating-worse"},
+      {"text": "পেটে কোনো টান অনুভব হয় না, পেট স্বাভাবিক থাকে", "mid": "sym-belly-no-pull-normal"}
+    ],
+    "answer": "sym-plumbum-belly-retracted-colic-severe-eating-relief",
+    "explanation": "Plumbum Metallicum এ পেটের চামড়া ও পেশি ভেতরের দিকে টেনে ধরে, কলিক বা পেটব্যথা প্রচণ্ড তীব্র হয়, আহার করলে এই ব্যথার উপশম হয়।"
+  },
+  {
+    "id": "plumbum-med-14",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলদ্বার ঢিলা হয়ে যায়, মল সহজে বের হয়ে যায়", "mid": "sym-anus-loose-stool-easy"},
+      {"text": "মল ত্যাগের বেগ না থাকলেও মল বের হয়ে যায়", "mid": "sym-no-urge-stool-out"},
+      {"text": "মলদ্বার ফুলে যায় ও ব্যথা করে", "mid": "sym-anus-swollen-painful"},
+      {"text": "মলদ্বার সংকুচিত হয়ে যায়, মল ত্যাগের বেগ থাকলেও মল বের হতে চায় না", "mid": "sym-plumbum-anus-constricted-urge-no-stool"}
+    ],
+    "answer": "sym-plumbum-anus-constricted-urge-no-stool",
+    "explanation": "Plumbum Metallicum এ মলদ্বার সংকুচিত হয়ে যায়, মল ত্যাগের বেগ থাকলেও মল বের হতে চায় না।"
+  },
+  {
+    "id": "plumbum-med-15",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরের বিভিন্ন অংশে পক্ষাঘাত, বিশেষ করে প্রসারণকারী পেশিগুলোর দুর্বলতা, হাত পা কাঁপা বা কম্পন", "mid": "sym-plumbum-paralysis-extensor-weakness-tremor"},
+      {"text": "শরীরের কোনো অংশে পক্ষাঘাত হয় না, পেশি শক্ত থাকে", "mid": "sym-no-paralysis-muscle-strong"},
+      {"text": "শুধু সংকোচনকারী পেশির দুর্বলতা থাকে, প্রসারণকারী পেশি ঠিক থাকে", "mid": "sym-flexor-weak-extensor-ok"},
+      {"text": "হাত পা কাঁপে না, পেশিতে কোনো কম্পন থাকে না", "mid": "sym-no-tremor-no-shake"}
+    ],
+    "answer": "sym-plumbum-paralysis-extensor-weakness-tremor",
+    "explanation": "Plumbum Metallicum এ শরীরের বিভিন্ন অংশে পক্ষাঘাত হয়, বিশেষ করে প্রসারণকারী পেশিগুলোর দুর্বলতা থাকে, হাত পা কাঁপা বা কম্পন হয়।"
+  },
+  {
+    "id": "plumbum-med-16",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কিডনি স্বাভাবিক থাকে, প্রস্রাব বেশি হয় ও রক্তচাপ কম থাকে", "mid": "sym-kidney-normal-urine-more-low-bp"},
+      {"text": "কিডনিতে পাথর হয় কিন্তু কার্যক্ষমতা ঠিক থাকে", "mid": "sym-kidney-stone-function-ok"},
+      {"text": "দীর্ঘস্থায়ী নেফ্রাইটিস বা কিডনির কার্যক্ষমতা কমে যাওয়া, উচ্চ রক্তচাপের সাথে মূত্রস্বল্পতা", "mid": "sym-plumbum-chronic-nephritis-kidney-failure-high-bp-oliguria"},
+      {"text": "প্রস্রাব বেশি হয় ও কিডনি ভালোভাবে কাজ করে", "mid": "sym-urine-more-kidney-good"}
+    ],
+    "answer": "sym-plumbum-chronic-nephritis-kidney-failure-high-bp-oliguria",
+    "explanation": "Plumbum Metallicum এ দীর্ঘস্থায়ী নেফ্রাইটিস বা কিডনির কার্যক্ষমতা কমে যায়, উচ্চ রক্তচাপের সাথে মূত্রস্বল্পতা থাকে।"
+  },
+  {
+    "id": "plumbum-med-17",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমকাতর, গরম সহ্য করতে পারে না", "mid": "sym-hot-sensitive"},
+      {"text": "শীতকাতর", "mid": "sym-plumbum-chilly"},
+      {"text": "ঠান্ডা বাতাসে ভালো লাগে, ঠান্ডা পছন্দ করে", "mid": "sym-cold-air-enjoy"},
+      {"text": "ঠান্ডা বা গরমে কোনো পরিবর্তন হয় না", "mid": "sym-temp-no-change"}
+    ],
+    "answer": "sym-plumbum-chilly",
+    "explanation": "Plumbum Metallicum রোগী শীতকাতর।"
+  },
+  {
+    "id": "plumbum-med-18",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শুধু ডান পাশে কাজ করে, বাম পাশে কোনো প্রভাব নেই", "mid": "sym-right-only-left-no-effect"},
+      {"text": "শুধু শরীরের মাঝখানে কাজ করে, পাশে কাজ করে না", "mid": "sym-middle-only-no-side"},
+      {"text": "দুই পাশে সমানভাবে কাজ করে, কোনো পাশের প্রাধান্য নেই", "mid": "sym-both-equal-no-side-dominance"},
+      {"text": "উভয় পাশে কাজ করে, তবে বাম পাশে এর প্রভাব বেশি স্পষ্ট", "mid": "sym-plumbum-both-side-left-more-marked"}
+    ],
+    "answer": "sym-plumbum-both-side-left-more-marked",
+    "explanation": "Plumbum Metallicum উভয় পাশে কাজ করে, তবে বাম পাশে এর প্রভাব বেশি স্পষ্ট।"
+  },
+  {
+    "id": "plumbum-med-19",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতে, নড়াচড়া করলে ও মানসিক পরিশ্রমে বৃদ্ধি", "mid": "sym-plumbum-agg-night-motion-mental-exertion"},
+      {"text": "দিনে, বিশ্রামে ও শারীরিক পরিশ্রমে বৃদ্ধি", "mid": "sym-day-rest-physical-agg"},
+      {"text": "রাতে উপশম, নড়াচড়ায় উপশম", "mid": "sym-night-motion-amel"},
+      {"text": "মানসিক পরিশ্রমে উপশম, রাতে উপশম", "mid": "sym-mental-night-amel"}
+    ],
+    "answer": "sym-plumbum-agg-night-motion-mental-exertion",
+    "explanation": "Plumbum Metallicum এ রাতে, নড়াচড়া করলে এবং মানসিক পরিশ্রমে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "plumbum-med-20",
+    "stem": "নিচের কোনটি Plumbum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হালকা ছুঁলেই উপশম, ঠান্ডা সেঁক দিলে উপশম", "mid": "sym-light-touch-cold-amel"},
+      {"text": "ঢিলা করে বেঁধে রাখলে উপশম, না ঘষলে উপশম", "mid": "sym-loose-bind-no-rub-amel"},
+      {"text": "জোরে চাপ দিলে, ঘষলে বা মালিশ করলে ও শক্ত কিছু দিয়ে বেঁধে রাখলে উপশম", "mid": "sym-plumbum-amel-hard-pressure-rub-massage-bind-tight"},
+      {"text": "চাপ দিলে বৃদ্ধি, ঘষলে বৃদ্ধি", "mid": "sym-pressure-rub-agg"}
+    ],
+    "answer": "sym-plumbum-amel-hard-pressure-rub-massage-bind-tight",
+    "explanation": "Plumbum Metallicum এ জোরে চাপ দিলে, ঘষলে বা মালিশ করলে এবং শক্ত কিছু দিয়ে বেঁধে রাখলে উপশম হয়।"
+  }
+]

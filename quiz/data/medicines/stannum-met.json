@@ -1,0 +1,488 @@
+[
+  {
+    "id": "stannum-med-01",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বুকের মধ্যে শূন্যবোধ বা দুর্বলতা", "mid": "sym-emptiness-weakness-chest"},
+      {"text": "একেবারে শুকনো কাশি, কোনো কফ ওঠে না", "mid": "sym-dry-cough-no-expectoration"},
+      {"text": "কাশি বা শ্বাসের শব্দ করাত দিয়ে কাঠ কাটার মতো", "mid": "sym-sawing-respiration-cough"},
+      {"text": "মাঝরাতে ঘুম ভেঙে দম আটকে আসা ও আতঙ্ক", "mid": "sym-suffocative-attack-midnight-panic"}
+    ],
+    "answer": "sym-emptiness-weakness-chest",
+    "explanation": "Stannum Met-এর প্রধান লক্ষণ হলো বুকের মধ্যে শূন্যবোধ বা দুর্বলতা অনুভব করা।"
+  },
+  {
+    "id": "stannum-med-02",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীর এত দুর্বল যে ধপ করে বসে পড়া", "mid": "sym-extreme-debility-sinks-down"},
+      {"text": "সামান্য পরিশ্রমে প্রচণ্ড ক্লান্তি ও হৃদস্পন্দন বৃদ্ধি", "mid": "sym-slight-exertion-fatigue-palpitation"},
+      {"text": "দুর্বলতা ও ভাঙা ভাঙা অনুভূতি", "mid": "sym-weakness-bruised-broken-sensation"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"}
+    ],
+    "answer": "sym-extreme-debility-sinks-down",
+    "explanation": "Stannum Met-এ শরীর এত দুর্বল হয়ে যায় যে রোগী ধপ করে বসে পড়ে।"
+  },
+  {
+    "id": "stannum-med-03",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বলার সময় দুর্বল অনুভূতি প্রকাশ ও বুকে খালি বোধ", "mid": "sym-weakness-on-talking-emptiness-chest"},
+      {"text": "বুদ্ধিবৃত্তিক জড়তা ও কথা বলতে অনিচ্ছা", "mid": "sym-mental-sluggishness-reluctance-talk"},
+      {"text": "কথা বলতে বা কাজে মনোযোগ দিতে অনিচ্ছা", "mid": "sym-aversion-to-talk-and-mental-work"},
+      {"text": "অত্যন্ত পিপাসা কিন্তু পানি পানে অনিহা", "mid": "sym-intense-thirst-aversion-to-water"}
+    ],
+    "answer": "sym-weakness-on-talking-emptiness-chest",
+    "explanation": "Stannum Met-এ কথা বলতে গেলে বা সামান্য পরিশ্রমে রোগী হাঁপিয়ে ওঠে এবং বুকে খালি বোধ করে।"
+  },
+  {
+    "id": "stannum-med-04",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বিষণ্ণতা ও ক্রন্দণশীলতা", "mid": "sym-depression-weeping"},
+      {"text": "অত্যধিক প্রফুল্লতা, প্রত্যেক বিষয়ে হাস্যরস ও উচ্চস্বরে হাসা", "mid": "sym-excessive-mirth-laughing-loudly"},
+      {"text": "খিটখিটে মেজাজ ও সামান্য বিষয়ে কান্নার প্রবণতা", "mid": "sym-irritable-weeping-slight-cause"},
+      {"text": "সারাক্ষণ কান্নাকাটি ও পাগল হয়ে যাওয়ার ভয়", "mid": "sym-weeping-fear-of-insanity"}
+    ],
+    "answer": "sym-depression-weeping",
+    "explanation": "Stannum Met-এ অত্যন্ত বিষণ্ণতা এবং মন মরা ভাব থাকে; রোগী সহজেই কেঁদে ফেলে।"
+  },
+  {
+    "id": "stannum-med-05",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যন্ত দুঃখভাব, সব সময় কান্না পায়, কাঁদলে আরও খারাপ লাগে", "mid": "sym-sadness-weeping-worse-from-weeping"},
+      {"text": "সান্ত্বনা দিলে রোগের বৃদ্ধি ও বিরক্তি", "mid": "sym-worse-from-consolation-irritability"},
+      {"text": "পুরানো শোক বারবার মনে করে বিষণ্ণ থাকা", "mid": "sym-dwells-on-old-grief-depression"},
+      {"text": "হতাশা ও কান্নার প্রবণতা", "mid": "sym-depression-weeping-tendency"}
+    ],
+    "answer": "sym-sadness-weeping-worse-from-weeping",
+    "explanation": "Stannum Met-এ অত্যন্ত দুঃখভাব থাকে, সব সময় কান্না পায় এবং কাঁদলে আরও খারাপ লাগে।"
+  },
+  {
+    "id": "stannum-med-06",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথা ধীরে ধীরে বৃদ্ধি পায়, ধীরে ধীরে কমে আসে এবং চেপে ধরলে উপশম", "mid": "sym-pain-gradual-increase-decrease-pressure-amelioration"},
+      {"text": "শরীর ছিড়ে ফেলার মতো ব্যথা, উত্তাপে উপশম", "mid": "sym-tearing-pain-heat-amelioration"},
+      {"text": "ডান কোমরে ভিভর সুই ফোটানোর মতো ব্যথা", "mid": "sym-stitching-pain-right-loin"},
+      {"text": "লিভারের নিচে চেপে ধরার মতো ব্যথা", "mid": "sym-pressing-pain-under-liver"}
+    ],
+    "answer": "sym-pain-gradual-increase-decrease-pressure-amelioration",
+    "explanation": "Stannum Met-এ যেকোনো যন্ত্রণা খুব ধীরে ধীরে বাড়তে থাকে এবং চূড়ান্তে পৌঁছানোর পর আবার খুব ধীরে ধীরে কমতে থাকে; চেপে ধরলে উপশম হয়।"
+  },
+  {
+    "id": "stannum-med-07",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম পার্শ্বে চেপে শয়নে উপশম", "mid": "sym-better-lying-on-left-side-pressure"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "বিশ্রামে ও রাতে বৃদ্ধি, নড়াচড়ায় উপশম", "mid": "sym-worse-rest-night-better-motion-warmth"},
+      {"text": "শুইলে কাশি বৃদ্ধি", "mid": "sym-cough-lying-down-agg"}
+    ],
+    "answer": "sym-better-lying-on-left-side-pressure",
+    "explanation": "Stannum Met-এ বাম পার্শ্বে চেপে শয়নে উপশম হয়।"
+  },
+  {
+    "id": "stannum-med-08",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "এক পা গুটিয়ে অন্য পা সোজা করে শোয়া", "mid": "sym-sleeps-one-leg-drawn-up-other-straight"},
+      {"text": "উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে ঘুমানো", "mid": "sym-knee-chest-position-sleep"},
+      {"text": "অতিরিক্ত নিদ্রা ও বিছানা খোঁটা", "mid": "sym-excessive-sleep-picking-bedclothes"},
+      {"text": "নিদ্রাকালে অস্থিরতা", "mid": "sym-restlessness-during-sleep"}
+    ],
+    "answer": "sym-sleeps-one-leg-drawn-up-other-straight",
+    "explanation": "Stannum Met-এ রোগী এক পা গুটিয়ে অন্য পা সোজা করে শোয়।"
+  },
+  {
+    "id": "stannum-med-09",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কফ পুঁজযুক্ত এবং কফের স্বাদ মিষ্টি", "mid": "sym-purulent-sweet-tasting-sputum"},
+      {"text": "সর্দি বা কাশির শেষে ঘন হলুদ কফ", "mid": "sym-thick-yellow-sputum-late-stage"},
+      {"text": "অল্প কফ কিন্তু তুলতে কষ্ট, ঠান্ডা জল পানে কাশিতে আরাম", "mid": "sym-scanty-sputum-difficult-expectoration"},
+      {"text": "কাশির সাথে শ্বাসকষ্ট ও বুক ধড়ফড়ানি", "mid": "sym-cough-dyspnoea-palpitation"}
+    ],
+    "answer": "sym-purulent-sweet-tasting-sputum",
+    "explanation": "Stannum Met-এ কাশির সাথে যে গলার শ্লেষ্মা বা কফ ওঠে তা পুঁজযুক্ত এবং তার স্বাদ খুব মিষ্টি হয়।"
+  },
+  {
+    "id": "stannum-med-10",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সিঁড়ি দিয়ে নামার সময় বেশি দুর্বলতা ও কষ্ট", "mid": "sym-weakness-descending-stairs"},
+      {"text": "সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি ও দমবন্ধ ভাব", "mid": "sym-stairs-palpitation-dyspnoea"},
+      {"text": "সামান্য পরিশ্রমে প্রচণ্ড ক্লান্তি ও হৃদস্পন্দন বৃদ্ধি", "mid": "sym-slight-exertion-fatigue-palpitation"},
+      {"text": "কাজকর্ম করার পর মাংসপেশির ব্যথায় উপশম", "mid": "sym-muscle-pain-ameliorated-by-exercise"}
+    ],
+    "answer": "sym-weakness-descending-stairs",
+    "explanation": "Stannum Met-এর রোগী সিঁড়ি দিয়ে নামার সময় বেশি দুর্বলতা ও কষ্ট অনুভব করে।"
+  },
+  {
+    "id": "stannum-med-11",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানুষের সাথে কথা বলতে বা মিশতে অনীহা", "mid": "sym-aversion-to-company-and-talking"},
+      {"text": "একা থাকতে পছন্দ ও মানুষের ভিড় অপছন্দ", "mid": "sym-prefers-solitude-aversion-to-crowds"},
+      {"text": "অপরিচিত লোকের সাথে কথা বলতে গেলে উত্তেজিত ও অস্থির হয়ে পড়া", "mid": "sym-excitement-strangers"},
+      {"text": "মানসিক অস্থিরতা ও একা থাকার ভয়", "mid": "sym-restlessness-fear-of-being-alone"}
+    ],
+    "answer": "sym-aversion-to-company-and-talking",
+    "explanation": "Stannum Met-এ রোগীর মানুষের সাথে কথা বলতে বা মিশতে অনীহা দেখা যায়।"
+  },
+  {
+    "id": "stannum-med-12",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খিটখিটে মেজাজ এবং সামান্য কারণেই অস্থির হয়ে পড়া", "mid": "sym-irritable-restless-slight-cause"},
+      {"text": "অত্যন্ত খিটখিটে মেজাজ ও সামান্য বিষয়ে কান্নার প্রবণতা", "mid": "sym-irritable-weeping-slight-cause"},
+      {"text": "সহজেই রেগে যাওয়া ও খিটখিটে মেজাজ", "mid": "sym-irritable-quarrelsome"},
+      {"text": "খিটখিটে মেজাজ ও সামান্য কারণেই বিরক্তি", "mid": "sym-irritable-slight-cause"}
+    ],
+    "answer": "sym-irritable-restless-slight-cause",
+    "explanation": "Stannum Met-এ খিটখিটে মেজাজ এবং সামান্য কারণেই অস্থির হয়ে পড়া দেখা যায়।"
+  },
+  {
+    "id": "stannum-med-13",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যক্ষ্মা বা ক্ষয়রোগে সবুজ বা হলুদাভ মিষ্টি কফ", "mid": "sym-phthisis-green-yellow-sweet-sputum"},
+      {"text": "যক্ষ্মা ও ক্যান্সারের পরিণত অবস্থায় উপযোগী", "mid": "sym-tuberculosis-cancer-late-stage"},
+      {"text": "বংশগত সাইকোটিক হাঁপানি", "mid": "sym-hereditary-asthma-worse-early-morning-better-lying-face-down"},
+      {"text": "পচা কফির মতো বমি ও মুখে পচা জলের স্বাদ", "mid": "sym-vomiting-putrid-taste-putrid-water"}
+    ],
+    "answer": "sym-phthisis-green-yellow-sweet-sputum",
+    "explanation": "Stannum Met যক্ষ্মা বা ক্ষয়রোগের (Phthisis) একটি মহৌষধ; প্রচুর পরিমাণে সবুজ বা হলুদাভ মিষ্টি কফ ওঠে।"
+  },
+  {
+    "id": "stannum-med-14",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বুক চেপে ধরলে কাশির আরাম", "mid": "sym-cough-ameliorated-by-pressure-on-chest"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও বিশ্রামে উপশম", "mid": "sym-open-air-rest-amel"}
+    ],
+    "answer": "sym-cough-ameliorated-by-pressure-on-chest",
+    "explanation": "Stannum Met-এ বুক চেপে ধরলে কাশির আরাম হয়।"
+  },
+  {
+    "id": "stannum-med-15",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জরায়ু বা জননেন্দ্রিয়ের শিথিলতা, হাঁটার সময় প্রচণ্ড দুর্বলতা", "mid": "sym-uterine-relaxation-weakness-walking"},
+      {"text": "যোনি শুষ্ক ও ফাটা ফাটা, সহবাসে কষ্ট", "mid": "sym-dry-vagina-painful-coition-delayed-menses"},
+      {"text": "জড়ায়ুর যোনীপথ দিয়ে বের হওয়ার অনুভূতি", "mid": "sym-sensation-womb-escape-vagina"},
+      {"text": "প্রচুর শ্বেতপ্রদর, ডিমের সাদা অংশের মতো", "mid": "sym-leucorrhoea-egg-white"}
+    ],
+    "answer": "sym-uterine-relaxation-weakness-walking",
+    "explanation": "Stannum Met-এ জরায়ু বা জননেন্দ্রিয়ের শিথিলতা হয় এবং হাঁটার সময় প্রচণ্ড দুর্বলতা অনুভব হয়।"
+  },
+  {
+    "id": "stannum-med-16",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুদের কৃমিজনিত সমস্যা, পেটে ব্যথা থাকলে শক্ত কিছুর ওপর পেট চেপে উপুড় হয়ে শুলে আরাম", "mid": "sym-worms-child-abdominal-pain-better-pressure-lying-face-down"},
+      {"text": "শিশু নিদ্রিত বা দোলনায় চড়া অবস্থায় চমকে ওঠে", "mid": "sym-startles-during-sleep-rocking"},
+      {"text": "শিশুর মুখে, প্রসাব নালীতে ও মলদ্বারে ঘা", "mid": "sym-aphthae-mouth-urinary-rectal"},
+      {"text": "শিশুদের রাতে বিছানায় মূত্রত্যাগ", "mid": "sym-bed-wetting-children"}
+    ],
+    "answer": "sym-worms-child-abdominal-pain-better-pressure-lying-face-down",
+    "explanation": "Stannum Met শিশুদের কৃমিজনিত সমস্যায় কার্যকর; পেটে ব্যথা থাকলে রোগী শক্ত কোনো কিছুর ওপর পেট চেপে উপুড় হয়ে শুলে আরাম পায়।"
+  },
+  {
+    "id": "stannum-med-17",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বললে, হাসলে ও গান গাইলে বৃদ্ধি", "mid": "sym-worse-talking-laughing-singing"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "রেগে গেলে শিশুর কাশি হয়", "mid": "sym-cough-from-anger-child"},
+      {"text": "টেনশনে কাশি আসে, ঘাম হলে কাশি", "mid": "sym-cough-from-excitement-sweat-better-warm-drinks"}
+    ],
+    "answer": "sym-worse-talking-laughing-singing",
+    "explanation": "Stannum Met-এর লক্ষণ কথা বললে, হাসলে, গান গাইলে এবং ডান পাশে শুলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "stannum-med-18",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডান পাশে শুলে বৃদ্ধি", "mid": "sym-worse-lying-on-right-side"},
+      {"text": "বাম পার্শ্বে চেপে শয়নে উপশম", "mid": "sym-better-lying-on-left-side-pressure"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "বিশ্রামে ও রাতে বৃদ্ধি, নড়াচড়ায় উপশম", "mid": "sym-worse-rest-night-better-motion-warmth"}
+    ],
+    "answer": "sym-worse-lying-on-right-side",
+    "explanation": "Stannum Met-এর লক্ষণ ডান পাশে শুলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "stannum-med-19",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আক্রান্ত স্থানে চাপ দিলে ও ধীরে ধীরে হাঁটলে উপশম", "mid": "sym-better-pressure-slow-walking"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "বিশ্রামে, ঠান্ডার প্রয়োগে ও ধীরে হাঁটলে উপশম", "mid": "sym-rest-cold-application-slow-walking-amel"},
+      {"text": "খোলা বাতাসে ও বিশ্রামে উপশম", "mid": "sym-open-air-rest-amel"}
+    ],
+    "answer": "sym-better-pressure-slow-walking",
+    "explanation": "Stannum Met-এর লক্ষণ আক্রান্ত স্থানে চাপ দিলে, কাশি দিলে (কফ উঠে গেলে) এবং ধীরে ধীরে হাঁটলে উপশম হয়।"
+  },
+  {
+    "id": "stannum-med-20",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শীতকাতর, বাম পার্শ্বে প্রাধান্য", "mid": "sym-chilly-left-sided"},
+      {"text": "গরমকাতর, ডান পার্শ্বে প্রাধান্য", "mid": "sym-hot-patient-right-sided"},
+      {"text": "শীতকাতরতা, বর্ষা ও বৃষ্টির দিনে ভালো থাকা", "mid": "sym-chilly-better-in-rainy-weather"},
+      {"text": "ঠান্ডা ভালোবাসে কিন্তু সহ্য করতে পারে না", "mid": "sym-desires-cold-but-cannot-bear"}
+    ],
+    "answer": "sym-chilly-left-sided",
+    "explanation": "Stannum Met-এ রোগী শীতকাতর এবং এর প্রভাব প্রধানত বাম পার্শ্বে দেখা যায়।"
+  }
+]
+
+
+```json
+[
+  {
+    "id": "stannum-med-01",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বুকের মধ্যে শূন্যবোধ বা দুর্বলতা", "mid": "sym-emptiness-weakness-chest"},
+      {"text": "একেবারে শুকনো কাশি, কোনো কফ ওঠে না", "mid": "sym-dry-cough-no-expectoration"},
+      {"text": "কাশি বা শ্বাসের শব্দ করাত দিয়ে কাঠ কাটার মতো", "mid": "sym-sawing-respiration-cough"},
+      {"text": "মাঝরাতে ঘুম ভেঙে দম আটকে আসা ও আতঙ্ক", "mid": "sym-suffocative-attack-midnight-panic"}
+    ],
+    "answer": "sym-emptiness-weakness-chest",
+    "explanation": "Stannum Met-এর প্রধান লক্ষণ হলো বুকের মধ্যে শূন্যবোধ বা দুর্বলতা অনুভব করা।"
+  },
+  {
+    "id": "stannum-med-02",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীর এত দুর্বল যে ধপ করে বসে পড়া", "mid": "sym-extreme-debility-sinks-down"},
+      {"text": "সামান্য পরিশ্রমে প্রচণ্ড ক্লান্তি ও হৃদস্পন্দন বৃদ্ধি", "mid": "sym-slight-exertion-fatigue-palpitation"},
+      {"text": "দুর্বলতা ও ভাঙা ভাঙা অনুভূতি", "mid": "sym-weakness-bruised-broken-sensation"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"}
+    ],
+    "answer": "sym-extreme-debility-sinks-down",
+    "explanation": "Stannum Met-এ শরীর এত দুর্বল হয়ে যায় যে রোগী ধপ করে বসে পড়ে।"
+  },
+  {
+    "id": "stannum-med-03",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বলার সময় দুর্বল অনুভূতি প্রকাশ ও বুকে খালি বোধ", "mid": "sym-weakness-on-talking-emptiness-chest"},
+      {"text": "বুদ্ধিবৃত্তিক জড়তা ও কথা বলতে অনিচ্ছা", "mid": "sym-mental-sluggishness-reluctance-talk"},
+      {"text": "কথা বলতে বা কাজে মনোযোগ দিতে অনিচ্ছা", "mid": "sym-aversion-to-talk-and-mental-work"},
+      {"text": "অত্যন্ত পিপাসা কিন্তু পানি পানে অনিহা", "mid": "sym-intense-thirst-aversion-to-water"}
+    ],
+    "answer": "sym-weakness-on-talking-emptiness-chest",
+    "explanation": "Stannum Met-এ কথা বলতে গেলে বা সামান্য পরিশ্রমে রোগী হাঁপিয়ে ওঠে এবং বুকে খালি বোধ করে।"
+  },
+  {
+    "id": "stannum-med-04",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বিষণ্ণতা ও ক্রন্দণশীলতা", "mid": "sym-depression-weeping"},
+      {"text": "অত্যধিক প্রফুল্লতা, প্রত্যেক বিষয়ে হাস্যরস ও উচ্চস্বরে হাসা", "mid": "sym-excessive-mirth-laughing-loudly"},
+      {"text": "খিটখিটে মেজাজ ও সামান্য বিষয়ে কান্নার প্রবণতা", "mid": "sym-irritable-weeping-slight-cause"},
+      {"text": "সারাক্ষণ কান্নাকাটি ও পাগল হয়ে যাওয়ার ভয়", "mid": "sym-weeping-fear-of-insanity"}
+    ],
+    "answer": "sym-depression-weeping",
+    "explanation": "Stannum Met-এ অত্যন্ত বিষণ্ণতা এবং মন মরা ভাব থাকে; রোগী সহজেই কেঁদে ফেলে।"
+  },
+  {
+    "id": "stannum-med-05",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যন্ত দুঃখভাব, সব সময় কান্না পায়, কাঁদলে আরও খারাপ লাগে", "mid": "sym-sadness-weeping-worse-from-weeping"},
+      {"text": "সান্ত্বনা দিলে রোগের বৃদ্ধি ও বিরক্তি", "mid": "sym-worse-from-consolation-irritability"},
+      {"text": "পুরানো শোক বারবার মনে করে বিষণ্ণ থাকা", "mid": "sym-dwells-on-old-grief-depression"},
+      {"text": "হতাশা ও কান্নার প্রবণতা", "mid": "sym-depression-weeping-tendency"}
+    ],
+    "answer": "sym-sadness-weeping-worse-from-weeping",
+    "explanation": "Stannum Met-এ অত্যন্ত দুঃখভাব থাকে, সব সময় কান্না পায় এবং কাঁদলে আরও খারাপ লাগে।"
+  },
+  {
+    "id": "stannum-med-06",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথা ধীরে ধীরে বৃদ্ধি পায়, ধীরে ধীরে কমে আসে এবং চেপে ধরলে উপশম", "mid": "sym-pain-gradual-increase-decrease-pressure-amelioration"},
+      {"text": "শরীর ছিড়ে ফেলার মতো ব্যথা, উত্তাপে উপশম", "mid": "sym-tearing-pain-heat-amelioration"},
+      {"text": "ডান কোমরে ভিভর সুই ফোটানোর মতো ব্যথা", "mid": "sym-stitching-pain-right-loin"},
+      {"text": "লিভারের নিচে চেপে ধরার মতো ব্যথা", "mid": "sym-pressing-pain-under-liver"}
+    ],
+    "answer": "sym-pain-gradual-increase-decrease-pressure-amelioration",
+    "explanation": "Stannum Met-এ যেকোনো যন্ত্রণা খুব ধীরে ধীরে বাড়তে থাকে এবং চূড়ান্তে পৌঁছানোর পর আবার খুব ধীরে ধীরে কমতে থাকে; চেপে ধরলে উপশম হয়।"
+  },
+  {
+    "id": "stannum-med-07",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম পার্শ্বে চেপে শয়নে উপশম", "mid": "sym-better-lying-on-left-side-pressure"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "বিশ্রামে ও রাতে বৃদ্ধি, নড়াচড়ায় উপশম", "mid": "sym-worse-rest-night-better-motion-warmth"},
+      {"text": "শুইলে কাশি বৃদ্ধি", "mid": "sym-cough-lying-down-agg"}
+    ],
+    "answer": "sym-better-lying-on-left-side-pressure",
+    "explanation": "Stannum Met-এ বাম পার্শ্বে চেপে শয়নে উপশম হয়।"
+  },
+  {
+    "id": "stannum-med-08",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "এক পা গুটিয়ে অন্য পা সোজা করে শোয়া", "mid": "sym-sleeps-one-leg-drawn-up-other-straight"},
+      {"text": "উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে ঘুমানো", "mid": "sym-knee-chest-position-sleep"},
+      {"text": "অতিরিক্ত নিদ্রা ও বিছানা খোঁটা", "mid": "sym-excessive-sleep-picking-bedclothes"},
+      {"text": "নিদ্রাকালে অস্থিরতা", "mid": "sym-restlessness-during-sleep"}
+    ],
+    "answer": "sym-sleeps-one-leg-drawn-up-other-straight",
+    "explanation": "Stannum Met-এ রোগী এক পা গুটিয়ে অন্য পা সোজা করে শোয়।"
+  },
+  {
+    "id": "stannum-med-09",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কফ পুঁজযুক্ত এবং কফের স্বাদ মিষ্টি", "mid": "sym-purulent-sweet-tasting-sputum"},
+      {"text": "সর্দি বা কাশির শেষে ঘন হলুদ কফ", "mid": "sym-thick-yellow-sputum-late-stage"},
+      {"text": "অল্প কফ কিন্তু তুলতে কষ্ট, ঠান্ডা জল পানে কাশিতে আরাম", "mid": "sym-scanty-sputum-difficult-expectoration"},
+      {"text": "কাশির সাথে শ্বাসকষ্ট ও বুক ধড়ফড়ানি", "mid": "sym-cough-dyspnoea-palpitation"}
+    ],
+    "answer": "sym-purulent-sweet-tasting-sputum",
+    "explanation": "Stannum Met-এ কাশির সাথে যে গলার শ্লেষ্মা বা কফ ওঠে তা পুঁজযুক্ত এবং তার স্বাদ খুব মিষ্টি হয়।"
+  },
+  {
+    "id": "stannum-med-10",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সিঁড়ি দিয়ে নামার সময় বেশি দুর্বলতা ও কষ্ট", "mid": "sym-weakness-descending-stairs"},
+      {"text": "সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি ও দমবন্ধ ভাব", "mid": "sym-stairs-palpitation-dyspnoea"},
+      {"text": "সামান্য পরিশ্রমে প্রচণ্ড ক্লান্তি ও হৃদস্পন্দন বৃদ্ধি", "mid": "sym-slight-exertion-fatigue-palpitation"},
+      {"text": "কাজকর্ম করার পর মাংসপেশির ব্যথায় উপশম", "mid": "sym-muscle-pain-ameliorated-by-exercise"}
+    ],
+    "answer": "sym-weakness-descending-stairs",
+    "explanation": "Stannum Met-এর রোগী সিঁড়ি দিয়ে নামার সময় বেশি দুর্বলতা ও কষ্ট অনুভব করে।"
+  },
+  {
+    "id": "stannum-med-11",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানুষের সাথে কথা বলতে বা মিশতে অনীহা", "mid": "sym-aversion-to-company-and-talking"},
+      {"text": "একা থাকতে পছন্দ ও মানুষের ভিড় অপছন্দ", "mid": "sym-prefers-solitude-aversion-to-crowds"},
+      {"text": "অপরিচিত লোকের সাথে কথা বলতে গেলে উত্তেজিত ও অস্থির হয়ে পড়া", "mid": "sym-excitement-strangers"},
+      {"text": "মানসিক অস্থিরতা ও একা থাকার ভয়", "mid": "sym-restlessness-fear-of-being-alone"}
+    ],
+    "answer": "sym-aversion-to-company-and-talking",
+    "explanation": "Stannum Met-এ রোগীর মানুষের সাথে কথা বলতে বা মিশতে অনীহা দেখা যায়।"
+  },
+  {
+    "id": "stannum-med-12",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খিটখিটে মেজাজ এবং সামান্য কারণেই অস্থির হয়ে পড়া", "mid": "sym-irritable-restless-slight-cause"},
+      {"text": "অত্যন্ত খিটখিটে মেজাজ ও সামান্য বিষয়ে কান্নার প্রবণতা", "mid": "sym-irritable-weeping-slight-cause"},
+      {"text": "সহজেই রেগে যাওয়া ও খিটখিটে মেজাজ", "mid": "sym-irritable-quarrelsome"},
+      {"text": "খিটখিটে মেজাজ ও সামান্য কারণেই বিরক্তি", "mid": "sym-irritable-slight-cause"}
+    ],
+    "answer": "sym-irritable-restless-slight-cause",
+    "explanation": "Stannum Met-এ খিটখিটে মেজাজ এবং সামান্য কারণেই অস্থির হয়ে পড়া দেখা যায়।"
+  },
+  {
+    "id": "stannum-med-13",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যক্ষ্মা বা ক্ষয়রোগে সবুজ বা হলুদাভ মিষ্টি কফ", "mid": "sym-phthisis-green-yellow-sweet-sputum"},
+      {"text": "যক্ষ্মা ও ক্যান্সারের পরিণত অবস্থায় উপযোগী", "mid": "sym-tuberculosis-cancer-late-stage"},
+      {"text": "বংশগত সাইকোটিক হাঁপানি", "mid": "sym-hereditary-asthma-worse-early-morning-better-lying-face-down"},
+      {"text": "পচা কফির মতো বমি ও মুখে পচা জলের স্বাদ", "mid": "sym-vomiting-putrid-taste-putrid-water"}
+    ],
+    "answer": "sym-phthisis-green-yellow-sweet-sputum",
+    "explanation": "Stannum Met যক্ষ্মা বা ক্ষয়রোগের (Phthisis) একটি মহৌষধ; প্রচুর পরিমাণে সবুজ বা হলুদাভ মিষ্টি কফ ওঠে।"
+  },
+  {
+    "id": "stannum-med-14",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বুক চেপে ধরলে কাশির আরাম", "mid": "sym-cough-ameliorated-by-pressure-on-chest"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও বিশ্রামে উপশম", "mid": "sym-open-air-rest-amel"}
+    ],
+    "answer": "sym-cough-ameliorated-by-pressure-on-chest",
+    "explanation": "Stannum Met-এ বুক চেপে ধরলে কাশির আরাম হয়।"
+  },
+  {
+    "id": "stannum-med-15",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জরায়ু বা জননেন্দ্রিয়ের শিথিলতা, হাঁটার সময় প্রচণ্ড দুর্বলতা", "mid": "sym-uterine-relaxation-weakness-walking"},
+      {"text": "যোনি শুষ্ক ও ফাটা ফাটা, সহবাসে কষ্ট", "mid": "sym-dry-vagina-painful-coition-delayed-menses"},
+      {"text": "জড়ায়ুর যোনীপথ দিয়ে বের হওয়ার অনুভূতি", "mid": "sym-sensation-womb-escape-vagina"},
+      {"text": "প্রচুর শ্বেতপ্রদর, ডিমের সাদা অংশের মতো", "mid": "sym-leucorrhoea-egg-white"}
+    ],
+    "answer": "sym-uterine-relaxation-weakness-walking",
+    "explanation": "Stannum Met-এ জরায়ু বা জননেন্দ্রিয়ের শিথিলতা হয় এবং হাঁটার সময় প্রচণ্ড দুর্বলতা অনুভব হয়।"
+  },
+  {
+    "id": "stannum-med-16",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুদের কৃমিজনিত সমস্যা, পেটে ব্যথা থাকলে শক্ত কিছুর ওপর পেট চেপে উপুড় হয়ে শুলে আরাম", "mid": "sym-worms-child-abdominal-pain-better-pressure-lying-face-down"},
+      {"text": "শিশু নিদ্রিত বা দোলনায় চড়া অবস্থায় চমকে ওঠে", "mid": "sym-startles-during-sleep-rocking"},
+      {"text": "শিশুর মুখে, প্রসাব নালীতে ও মলদ্বারে ঘা", "mid": "sym-aphthae-mouth-urinary-rectal"},
+      {"text": "শিশুদের রাতে বিছানায় মূত্রত্যাগ", "mid": "sym-bed-wetting-children"}
+    ],
+    "answer": "sym-worms-child-abdominal-pain-better-pressure-lying-face-down",
+    "explanation": "Stannum Met শিশুদের কৃমিজনিত সমস্যায় কার্যকর; পেটে ব্যথা থাকলে রোগী শক্ত কোনো কিছুর ওপর পেট চেপে উপুড় হয়ে শুলে আরাম পায়।"
+  },
+  {
+    "id": "stannum-med-17",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বললে, হাসলে ও গান গাইলে বৃদ্ধি", "mid": "sym-worse-talking-laughing-singing"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "রেগে গেলে শিশুর কাশি হয়", "mid": "sym-cough-from-anger-child"},
+      {"text": "টেনশনে কাশি আসে, ঘাম হলে কাশি", "mid": "sym-cough-from-excitement-sweat-better-warm-drinks"}
+    ],
+    "answer": "sym-worse-talking-laughing-singing",
+    "explanation": "Stannum Met-এর লক্ষণ কথা বললে, হাসলে, গান গাইলে এবং ডান পাশে শুলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "stannum-med-18",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডান পাশে শুলে বৃদ্ধি", "mid": "sym-worse-lying-on-right-side"},
+      {"text": "বাম পার্শ্বে চেপে শয়নে উপশম", "mid": "sym-better-lying-on-left-side-pressure"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "বিশ্রামে ও রাতে বৃদ্ধি, নড়াচড়ায় উপশম", "mid": "sym-worse-rest-night-better-motion-warmth"}
+    ],
+    "answer": "sym-worse-lying-on-right-side",
+    "explanation": "Stannum Met-এর লক্ষণ ডান পাশে শুলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "stannum-med-19",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আক্রান্ত স্থানে চাপ দিলে ও ধীরে ধীরে হাঁটলে উপশম", "mid": "sym-better-pressure-slow-walking"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "বিশ্রামে, ঠান্ডার প্রয়োগে ও ধীরে হাঁটলে উপশম", "mid": "sym-rest-cold-application-slow-walking-amel"},
+      {"text": "খোলা বাতাসে ও বিশ্রামে উপশম", "mid": "sym-open-air-rest-amel"}
+    ],
+    "answer": "sym-better-pressure-slow-walking",
+    "explanation": "Stannum Met-এর লক্ষণ আক্রান্ত স্থানে চাপ দিলে, কাশি দিলে (কফ উঠে গেলে) এবং ধীরে ধীরে হাঁটলে উপশম হয়।"
+  },
+  {
+    "id": "stannum-med-20",
+    "stem": "নিচের কোনটি Stannum Met-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শীতকাতর, বাম পার্শ্বে প্রাধান্য", "mid": "sym-chilly-left-sided"},
+      {"text": "গরমকাতর, ডান পার্শ্বে প্রাধান্য", "mid": "sym-hot-patient-right-sided"},
+      {"text": "শীতকাতরতা, বর্ষা ও বৃষ্টির দিনে ভালো থাকা", "mid": "sym-chilly-better-in-rainy-weather"},
+      {"text": "ঠান্ডা ভালোবাসে কিন্তু সহ্য করতে পারে না", "mid": "sym-desires-cold-but-cannot-bear"}
+    ],
+    "answer": "sym-chilly-left-sided",
+    "explanation": "Stannum Met-এ রোগী শীতকাতর এবং এর প্রভাব প্রধানত বাম পার্শ্বে দেখা যায়।"
+  }
+]
+

@@ -1,0 +1,245 @@
+[
+  {
+    "id": "cimicifuga-med-01",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঋতুস্রাবের সঙ্গে ব্যথা বৃদ্ধি, যত স্রাব তত ব্যথা", "mid": "sym-dysmenorrhoea-pain-with-flow"},
+      {"text": "শরীরের এক অঙ্গের পক্ষাঘাত, বিশেষত ডান অঙ্গের", "mid": "sym-one-sided-paralysis-right"},
+      {"text": "ফোড়া ফেটে যাওয়ার পর ঘন হলুদ ও দলা দলা পুঁজ নির্গত হওয়া", "mid": "sym-thick-yellow-lumpy-pus"},
+      {"text": "নিচের দিকে নামার ভয়, শিশু সিঁড়ি দিয়ে নামতে গেলে মাকে জড়িয়ে ধরে", "mid": "sym-fear-downward-motion"}
+    ],
+    "answer": "sym-dysmenorrhoea-pain-with-flow",
+    "explanation": "Cimicifuga Racemosa-এর প্রধান লক্ষণ হলো ঋতুস্রাবের সঙ্গে ব্যথা বৃদ্ধি পাওয়া; যত স্রাব তত ব্যথা।"
+  },
+  {
+    "id": "cimicifuga-med-02",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডিম্বকোষ বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট", "mid": "sym-dyspnoea-palpitation-from-uterine-cause"},
+      {"text": "মানসিক আঘাতের ফলে পক্ষাঘাত", "mid": "sym-paralysis-from-mental-shock"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"}
+    ],
+    "answer": "sym-dyspnoea-palpitation-from-uterine-cause",
+    "explanation": "Cimicifuga Racemosa-এ ডিম্বকোষের বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট হতে পারে।"
+  },
+  {
+    "id": "cimicifuga-med-03",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হার্টবিট বন্ধ হয়ে যাওয়ার উপক্রম বোধ", "mid": "sym-sensation-heart-will-stop"},
+      {"text": "বহুদিন স্থায়ী দুঃখ ভোগে হওয়া রোগ", "mid": "sym-ailments-from-long-standing-grief"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "স্নায়বিক দুর্বলতা ও অকাল বার্ধক্য", "mid": "sym-nervous-weakness-senility"}
+    ],
+    "answer": "sym-sensation-heart-will-stop",
+    "explanation": "Cimicifuga Racemosa-এ রোগীর হার্টবিট বন্ধ হয়ে যাওয়ার উপক্রম বোধ হয়।"
+  },
+  {
+    "id": "cimicifuga-med-04",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যন্ত বিমর্ষ, সন্দেহযুক্ত ও বিপদের ভয়", "mid": "sym-depressed-suspicious-fear-danger"},
+      {"text": "বসে পায়খানা করলে কষ্ট, না দাঁড়ালে মলত্যাগে অসুবিধা", "mid": "sym-difficult-defecation-must-stand"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"}
+    ],
+    "answer": "sym-depressed-suspicious-fear-danger",
+    "explanation": "Cimicifuga Racemosa-এ রোগী অত্যন্ত বিমর্ষ, সন্দেহযুক্ত এবং বিপদের ভয় করে।"
+  },
+  {
+    "id": "cimicifuga-med-05",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ইদুরের দৃশ্য দেখে ভয়, সর্বদা কথা বলে, নিজেকে আঘাত করে", "mid": "sym-fear-rats-loquacity-self-injury"},
+      {"text": "বারবার প্রসাবের বেগ, অসাড়ে প্রসাব আসে", "mid": "sym-frequent-urge-numbness"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "বৃদ্ধদের মাথা ঘোরা ও কানে কম শোনা", "mid": "sym-vertigo-deafness-elderly"}
+    ],
+    "answer": "sym-fear-rats-loquacity-self-injury",
+    "explanation": "Cimicifuga Racemosa-এ রোগী ইদুরের দৃশ্য দেখে ভয় পায়, সর্বদা কথা বলে এবং নিজেকে আঘাত করে।"
+  },
+  {
+    "id": "cimicifuga-med-06",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্নায়ুলোপ পেয়ে উন্মাদ হলে উপযোগী", "mid": "sym-insanity-after-nerve-injury"},
+      {"text": "সঙ্গমের পর মূত্রত্যাগকালে মূত্রনালীতে জ্বালা", "mid": "sym-burning-urethra-after-coition"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "জীবনের প্রতি বিতৃষ্ণা ও মানসিক অবসাদ", "mid": "sym-loathing-of-life"}
+    ],
+    "answer": "sym-insanity-after-nerve-injury",
+    "explanation": "Cimicifuga Racemosa স্নায়ুলোপ পেয়ে উম্মাদ হলে দেওয়া হয়।"
+  },
+  {
+    "id": "cimicifuga-med-07",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাজকর্ম করার পর মাংসপেশির ব্যথায় উপশম", "mid": "sym-muscle-pain-ameliorated-by-exercise"},
+      {"text": "শীতকাতরতা, বর্ষা ও বৃষ্টির দিনে ভালো থাকা", "mid": "sym-chilly-better-in-rainy-weather"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"}
+    ],
+    "answer": "sym-muscle-pain-ameliorated-by-exercise",
+    "explanation": "Cimicifuga Racemosa-এ কাজকর্ম করার পর মাংসপেশির ব্যথায় উপশম হয়।"
+  },
+  {
+    "id": "cimicifuga-med-08",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আঙুলের কাজ করা ব্যক্তিদের পিঠে ব্যথা", "mid": "sym-back-pain-finger-work"},
+      {"text": "বিষন্নতা, নৈরাশ্য ও আশঙ্কা", "mid": "sym-depression-despair-apprehension"},
+      {"text": "যেকোনো রোগের সাথে প্রবল তন্দ্রাচ্ছন্নতা ও অবসাদ", "mid": "sym-drowsiness-debility"},
+      {"text": "বসন্তের মতো গুটি গুটি পুঁজপূর্ণ উদ্ভেদ", "mid": "sym-pustular-eruptions"}
+    ],
+    "answer": "sym-back-pain-finger-work",
+    "explanation": "Cimicifuga Racemosa-এ যারা আঙুলের কাজ করে তাদের পিঠে ব্যথা হয়।"
+  },
+  {
+    "id": "cimicifuga-med-09",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জ্বরে মাথাকে বড় মনে করা ও দপদপ করা", "mid": "sym-head-large-bursting-pulsating"},
+      {"text": "নিদ্রাকালে অস্থিরতা", "mid": "sym-restlessness-during-sleep"},
+      {"text": "কপালে ও শরীরে চটচটে ঠাণ্ডা ঘাম", "mid": "sym-cold-clammy-sweat"},
+      {"text": "শ্বেতপ্রদর যা কেবল রাতে বৃদ্ধি পায়", "mid": "sym-leucorrhoea-night"}
+    ],
+    "answer": "sym-head-large-bursting-pulsating",
+    "explanation": "Cimicifuga Racemosa-এ জ্বরে রোগী মাথাটাকে বড় মনে করে এবং মাথায় দপদপ করে।"
+  },
+  {
+    "id": "cimicifuga-med-10",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শারীরিক ও মানসিক লক্ষণ পর্যায়ক্রমে আসা", "mid": "sym-alternating-physical-mental-symptoms"},
+      {"text": "শরীর ছিড়ে ফেলার মতো ব্যথা, উত্তাপে উপশম", "mid": "sym-tearing-pain-heat-amelioration"},
+      {"text": "অন্যের উপস্থিতিতে প্রস্রাব করতে পারে না", "mid": "sym-inability-urinate-presence"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"}
+    ],
+    "answer": "sym-alternating-physical-mental-symptoms",
+    "explanation": "Cimicifuga Racemosa-এ শারীরিক ও মানসিক লক্ষণ পর্যায়ক্রমে আসে।"
+  },
+  {
+    "id": "cimicifuga-med-11",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বড় বড় মাংসপেশির বাতের ব্যথা বা কামড়ানো ব্যথা", "mid": "sym-large-muscles-rheumatic-cramping-pain"},
+      {"text": "লিভারের নিচে চেপে ধরার মতো ব্যথা", "mid": "sym-pressing-pain-under-liver"},
+      {"text": "স্নায়বিক দুর্বলতার কারণে হাত-পা কাঁপা বা অবশ ভাব", "mid": "sym-trembling-numbness"},
+      {"text": "সামান্য কারণে রক্তক্ষরণ", "mid": "sym-bleeding-slight-cause"}
+    ],
+    "answer": "sym-large-muscles-rheumatic-cramping-pain",
+    "explanation": "Cimicifuga Racemosa বিশেষত বড় বড় মাংসপেশির বাতের ব্যথা বা কামড়ানো ব্যথায় অতুলনীয়।"
+  },
+  {
+    "id": "cimicifuga-med-12",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জরায়ুর সমস্যা কমলে বাতের ব্যথা বেড়ে যাওয়া", "mid": "sym-uterine-symptoms-relieved-rheumatic-increased"},
+      {"text": "পোড়া দাগ আবার পেকে যাওয়া ও ব্যথা হওয়া", "mid": "sym-old-burns-reopen-painful"},
+      {"text": "কথা বললে বা গান শুনলে কাশির বেগ বাড়ে", "mid": "sym-cough-talking-music"},
+      {"text": "শিশুকে স্পর্শ করলে বা তার দিকে তাকালে সে বিরক্ত হয় বা কাঁদে", "mid": "sym-child-irritable-touch-look"}
+    ],
+    "answer": "sym-uterine-symptoms-relieved-rheumatic-increased",
+    "explanation": "Cimicifuga Racemosa-এর অদ্ভুত লক্ষণ হলো জরায়ুর সমস্যা বা ঋতুস্রাবের কষ্ট কমে গেলে বাতের ব্যথা বা মানসিক কষ্ট বেড়ে যায়।"
+  },
+  {
+    "id": "cimicifuga-med-13",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথার ওপর কালো মেঘ ঝুলে আছে এমন অনুভূতি", "mid": "sym-sensation-black-cloud-over-head"},
+      {"text": "জিহ্বায় দুধের মতো সাদা পুরু প্রলেপ", "mid": "sym-white-coated-tongue"},
+      {"text": "একতরফা ঘাম", "mid": "sym-one-sided-sweat"},
+      {"text": "পেটে প্রচুর বায়ু জমা ও ঢেকুর ওঠা", "mid": "sym-flatulence-belching"}
+    ],
+    "answer": "sym-sensation-black-cloud-over-head",
+    "explanation": "Cimicifuga Racemosa-এ রোগী মনে করে তার মাথার ওপর একটি কালো মেঘ ঝুলে আছে এবং সবকিছু অন্ধকার দেখছে।"
+  },
+  {
+    "id": "cimicifuga-med-14",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সারা শরীরে লাঠি দিয়ে পিটিয়েছে এমন স্পর্শকাতরতা", "mid": "sym-soreness-as-if-beaten"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-soreness-as-if-beaten",
+    "explanation": "Cimicifuga Racemosa-এ সারা শরীরে মনে হয় যেন কেউ লাঠি দিয়ে পিটিয়েছে এবং মাংসপেশি অত্যন্ত স্পর্শকাতর হয়ে পড়ে।"
+  },
+  {
+    "id": "cimicifuga-med-15",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গর্ভাবস্থার শেষে জরায়ুর আক্ষেপিক ব্যথা ও বারবার গর্ভপাতের প্রবণতা", "mid": "sym-abortion-tendency-uterine-spasms"},
+      {"text": "মুক্ত বাতাসে ও ঠান্ডা পানীয় পানে উপশম", "mid": "sym-open-air-cold-drink-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"},
+      {"text": "খাওয়া-দাওয়ায় উপশম", "mid": "sym-eating-amelioration"}
+    ],
+    "answer": "sym-abortion-tendency-uterine-spasms",
+    "explanation": "Cimicifuga Racemosa গর্ভাবস্থার শেষের দিকে জরায়ুর আক্ষেপিক ব্যথায় এবং বারবার গর্ভপাত হওয়ার প্রবণতা কমাতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": "cimicifuga-med-16",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সারাক্ষণ কান্নাকাটি ও পাগল হয়ে যাওয়ার ভয়", "mid": "sym-weeping-fear-of-insanity"},
+      {"text": "টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sour-apples"},
+      {"text": "সর্বপ্রকার স্রাব তীক্ষ্ণ ও হাজানিযুক্ত, ত্বক তুলে ফেলে", "mid": "sym-acrid-discharge-excoriation"},
+      {"text": "শ্বাসকষ্টের সময় মৃত্যুভয়", "mid": "sym-fear-death-dyspnoea"}
+    ],
+    "answer": "sym-weeping-fear-of-insanity",
+    "explanation": "Cimicifuga Racemosa-এ রোগী অত্যন্ত বিষণ্ণ থাকে, সারাক্ষণ কান্নাকাটি করে এবং মনে করে সে পাগল হয়ে যাবে।"
+  },
+  {
+    "id": "cimicifuga-med-17",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রচুর কথা বলার প্রবণতা, এক বিষয় থেকে অন্য বিষয়ে অনবরত কথা বলা", "mid": "sym-loquacity"},
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"},
+      {"text": "শুয়ে থাকলে ও গরমে বৃদ্ধি", "mid": "sym-lying-warm-agg"},
+      {"text": "সন্ধ্যায় ও রাতে বৃদ্ধি", "mid": "sym-evening-night-agg"}
+    ],
+    "answer": "sym-loquacity",
+    "explanation": "Cimicifuga Racemosa-এ প্রচুর কথা বলার প্রবণতা থাকে; রোগী এক বিষয় থেকে অন্য বিষয়ে অনবরত কথা বলে যায়।"
+  },
+  {
+    "id": "cimicifuga-med-18",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঋতুস্রাবের সময় মানসিক অস্থিরতা ও উন্মাদনা", "mid": "sym-mental-restlessness-delirium-during-menses"},
+      {"text": "নিচের দিকে নামার গতিতে বৃদ্ধি", "mid": "sym-downward-motion-agg"},
+      {"text": "উষ্ণ ঘরে ও সকালে বৃদ্ধি", "mid": "sym-warm-room-morning-agg"},
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"}
+    ],
+    "answer": "sym-mental-restlessness-delirium-during-menses",
+    "explanation": "Cimicifuga Racemosa-এ ঋতুস্রাব বা প্রসবের সময় মানসিক অস্থিরতা ও উন্মাদনা দেখা দিতে পারে।"
+  },
+  {
+    "id": "cimicifuga-med-19",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঋতুস্রাব অত্যন্ত যন্ত্রণাদায়ক, রক্ত কালচে ও চাপ চাপ", "mid": "sym-painful-menses-dark-clotted-blood"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও শরীর ঠান্ডা রাখলে উপশম", "mid": "sym-open-air-cooling-amel"},
+      {"text": "উঠে বসলে ও কফ উঠে গেলে উপশম", "mid": "sym-sitting-up-expectoration-amel"}
+    ],
+    "answer": "sym-painful-menses-dark-clotted-blood",
+    "explanation": "Cimicifuga Racemosa-এ ঋতুস্রাব অত্যন্ত যন্ত্রণাদায়ক হয় এবং রক্ত কালচে ও চাপ চাপ হয়।"
+  },
+  {
+    "id": "cimicifuga-med-20",
+    "stem": "নিচের কোনটি Cimicifuga Racemosa-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘাড়ের পেছনের মাংসপেশি শক্ত হয়ে যাওয়া", "mid": "sym-stiffness-of-neck"},
+      {"text": "শুষ্ক ও ঠান্ডা আবহাওয়ায় বৃদ্ধি, আর্দ্র আবহাওয়ায় উপশম", "mid": "sym-dry-cold-agg-damp-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও শরীর ঠান্ডা রাখলে উপশম", "mid": "sym-open-air-cooling-amel"}
+    ],
+    "answer": "sym-stiffness-of-neck",
+    "explanation": "Cimicifuga Racemosa-এ ঘাড়ের পেছনের মাংসপেশি শক্ত হয়ে যায় (Stiffness of neck)।"
+  }
+]
+
+
+

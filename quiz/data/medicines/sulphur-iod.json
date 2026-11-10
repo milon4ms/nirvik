@@ -1,0 +1,484 @@
+
+[
+  {
+    "id": "sul-iod-med-01",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জিহ্বার অগ্রভাগ এবং কিনারা উজ্জ্বল লাল, যদিও পুরো জিহ্বা সাদা বা পুরু ময়লাযুক্ত প্রলেপে ঢাকা।",
+        "mid": "red_tip_edges_tongue_white_coated"
+      },
+      {
+        "text": "জিহ্বা সম্পূর্ণ লাল, শুকনো এবং ফাটা।",
+        "mid": "red_dry_cracked_tongue"
+      },
+      {
+        "text": "জিহ্বা মোটা সাদা প্রলেপে ঢাকা কিন্তু অগ্রভাগ স্বাভাবিক রঙের।",
+        "mid": "thick_white_coating_normal_tip"
+      },
+      {
+        "text": "জিহ্বা পরিষ্কার এবং কোনো প্রলেপ নেই।",
+        "mid": "clean_tongue_no_coating"
+      }
+    ],
+    "answer": "red_tip_edges_tongue_white_coated",
+    "explanation": "Sulphur Iodatum-এর একটি প্রধান লক্ষণ হলো জিহ্বার অগ্রভাগ ও কিনারা অস্বাভাবিক লাল থাকে, যদিও জিহ্বা পুরোটা সাদা বা পুরু ময়লাযুক্ত প্রলেপে ঢাকা থাকে।"
+  },
+  {
+    "id": "sul-iod-med-02",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের বিভিন্ন গ্রন্থি বা লসিকাগ্রন্থি ফুলে শক্ত হয়ে যাওয়া।",
+        "mid": "hard_swollen_glands_lymphatic"
+      },
+      {
+        "text": "গ্রন্থি নরম ও পিচ্ছিল হয়ে ফুলে যাওয়া।",
+        "mid": "soft_slimy_swollen_glands"
+      },
+      {
+        "text": "গ্রন্থি ফুলে যাওয়া কিন্তু শক্ত নয়।",
+        "mid": "swollen_non_indurated_glands"
+      },
+      {
+        "text": "শুধুমাত্র টনসিল ফুলে যাওয়া, গ্রন্থি নয়।",
+        "mid": "only_tonsils_swollen"
+      }
+    ],
+    "answer": "hard_swollen_glands_lymphatic",
+    "explanation": "Sulphur Iodatum প্রধানত গ্রন্থি স্ফীতি ও দীর্ঘস্থায়ী প্রদাহে ব্যবহৃত হয়; শরীরের বিভিন্ন গ্রন্থি বা লসিকাগ্রন্থি ফুলে শক্ত হয়ে যায়।"
+  },
+  {
+    "id": "sul-iod-med-03",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দীর্ঘস্থায়ী চর্মরোগ যা সহজে সারে না বা ঝুলে থাকে (Stubborn skin conditions)।",
+        "mid": "stubborn_chronic_skin_conditions"
+      },
+      {
+        "text": "ত্বকে হঠাৎ লাল চাকা উঠে কয়েক ঘণ্টায় সেরে যায়।",
+        "mid": "acute_transient_red_wheals"
+      },
+      {
+        "text": "শুধুমাত্র শীতকালে ত্বক শুষ্ক ও ফাটে।",
+        "mid": "dry_cracked_skin_winter_only"
+      },
+      {
+        "text": "ত্বকে কোনো চর্মরোগ হয় না।",
+        "mid": "no_skin_eruptions"
+      }
+    ],
+    "answer": "stubborn_chronic_skin_conditions",
+    "explanation": "Sulphur Iodatum দীর্ঘস্থায়ী চর্মরোগ বা ইনফেকশন যা সারছে না বা ঝুলে আছে (Stubborn skin conditions)-এ অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "sul-iod-med-04",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সামান্য পরিশ্রমেই রোগী ক্লান্ত হয়ে পড়ে এবং প্রচুর ঘাম হয়।",
+        "mid": "weakness_on_slight_exertion_sweating"
+      },
+      {
+        "text": "পরিশ্রম করলে শক্তি বৃদ্ধি পায়।",
+        "mid": "increased_energy_from_exertion"
+      },
+      {
+        "text": "শুধুমাত্র মানসিক পরিশ্রমে ক্লান্তি হয়।",
+        "mid": "fatigue_only_from_mental_work"
+      },
+      {
+        "text": "কোনো দুর্বলতা বা ঘাম হয় না।",
+        "mid": "no_weakness_no_sweat"
+      }
+    ],
+    "answer": "weakness_on_slight_exertion_sweating",
+    "explanation": "Sulphur Iodatum-এ প্রচণ্ড দুর্বলতা থাকে; সামান্য পরিশ্রমেই রোগী ক্লান্ত হয়ে পড়ে এবং প্রচুর ঘাম হয়।"
+  },
+  {
+    "id": "sul-iod-med-05",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "নাকের ভেতরে ক্ষত বা মামড়ি পড়ার প্রবণতা এবং দীর্ঘস্থায়ী সর্দি বা সাইনোসাইটিস।",
+        "mid": "nasal_ulcers_crusts_chronic_coryza_sinusitis"
+      },
+      {
+        "text": "নাক দিয়ে পরিষ্কার পাতলা সর্দি ঝরা।",
+        "mid": "clear_watery_rhinorrhea"
+      },
+      {
+        "text": "নাক বন্ধ কিন্তু কোনো ক্ষত বা মামড়ি নেই।",
+        "mid": "nasal_blockage_no_ulcers"
+      },
+      {
+        "text": "হাঁচি ছাড়া নাকের কোনো সমস্যা নেই।",
+        "mid": "no_nasal_problem_without_sneezing"
+      }
+    ],
+    "answer": "nasal_ulcers_crusts_chronic_coryza_sinusitis",
+    "explanation": "Sulphur Iodatum দীর্ঘস্থায়ী সর্দি বা সাইনোসাইটিসে ব্যবহৃত হয়; নাকের ভেতরে ক্ষত বা মামড়ি পড়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "sul-iod-med-06",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী মানসিকভাবে অস্থির থাকে এবং সবসময় কিছু একটা করার তাগিদ অনুভব করে।",
+        "mid": "mental_restlessness_urge_to_do_something"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ শান্ত ও ধৈর্যশীল থাকে।",
+        "mid": "calm_and_patient"
+      },
+      {
+        "text": "রোগী অতিরিক্ত হাসিখুশি ও প্রফুল্ল থাকে।",
+        "mid": "cheerful_and_happy"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ উদাসীন ও নির্বিকার।",
+        "mid": "apathetic_indifferent"
+      }
+    ],
+    "answer": "mental_restlessness_urge_to_do_something",
+    "explanation": "Sulphur Iodatum-এ রোগী মানসিকভাবে অস্থির থাকে এবং সবসময় কিছু একটা করার তাগিদ অনুভব করে (Iodum-এর প্রভাব)।"
+  },
+  {
+    "id": "sul-iod-med-07",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "খিটখিটে মেজাজ এবং সামান্য বিষয়ে বিরক্তি প্রকাশ।",
+        "mid": "irritable_on_trifles"
+      },
+      {
+        "text": "রোগী অত্যন্ত ধৈর্যশীল এবং সহজে বিরক্ত হয় না।",
+        "mid": "patient_not_easily_irritated"
+      },
+      {
+        "text": "রোগী শুধুমাত্র সকালে খিটখিটে থাকে।",
+        "mid": "irritable_only_in_morning"
+      },
+      {
+        "text": "খিটখিটে মেজাজের কোনো সমস্যা নেই।",
+        "mid": "no_irritability"
+      }
+    ],
+    "answer": "irritable_on_trifles",
+    "explanation": "Sulphur Iodatum-এ রোগী খিটখিটে মেজাজের হয় এবং সামান্য বিষয়ে বিরক্তি প্রকাশ করে।"
+  },
+  {
+    "id": "sul-iod-med-08",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কোনো নির্দিষ্ট কাজে দীর্ঘক্ষণ মনঃসংযোগ করতে পারে না।",
+        "mid": "cannot_concentrate_long"
+      },
+      {
+        "text": "অত্যন্ত দীর্ঘক্ষণ একাগ্রতার সাথে কাজ করতে পারে।",
+        "mid": "can_concentrate_for_long_hours"
+      },
+      {
+        "text": "শুধুমাত্র পড়াশোনায় মন বসাতে পারে না, অন্য কাজে পারে।",
+        "mid": "cannot_concentrate_on_studies_only"
+      },
+      {
+        "text": "মনঃসংযোগে কোনো সমস্যা নেই।",
+        "mid": "no_concentration_problem"
+      }
+    ],
+    "answer": "cannot_concentrate_long",
+    "explanation": "Sulphur Iodatum-এ রোগী কোনো নির্দিষ্ট কাজে দীর্ঘক্ষণ মনঃসংযোগ করতে পারে না।"
+  },
+  {
+    "id": "sul-iod-med-09",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মুখমণ্ডলের ব্রণ (Acne) এবং একজিমার ক্ষেত্রে চমৎকার কাজ করে।",
+        "mid": "acne_eczema_face"
+      },
+      {
+        "text": "শুধুমাত্র শরীরের অন্যান্য অংশে একজিমা হয়, মুখে নয়।",
+        "mid": "eczema_on_body_not_face"
+      },
+      {
+        "text": "মুখে কোনো ব্রণ বা একজিমা হয় না।",
+        "mid": "no_acne_or_eczema_on_face"
+      },
+      {
+        "text": "শুধুমাত্র শুষ্ক ত্বকের সমস্যায় কাজ করে।",
+        "mid": "only_for_dry_skin"
+      }
+    ],
+    "answer": "acne_eczema_face",
+    "explanation": "Sulphur Iodatum মুখমণ্ডলের ব্রণ (Acne), একজিমা এবং দাউদের ক্ষেত্রে চমৎকার কাজ করে।"
+  },
+  {
+    "id": "sul-iod-med-10",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চুলকানি যা ধুলে বা ভিজে আবহাওয়ায় বাড়ে।",
+        "mid": "itching_worse_scratching_damp_weather"
+      },
+      {
+        "text": "চুলকানি যা ধুলে কমে যায়।",
+        "mid": "itching_relieved_by_scratching"
+      },
+      {
+        "text": "চুলকানি শুধুমাত্র শুষ্ক আবহাওয়ায় হয়।",
+        "mid": "itching_only_in_dry_weather"
+      },
+      {
+        "text": "কোনো চুলকানি নেই।",
+        "mid": "no_itching"
+      }
+    ],
+    "answer": "itching_worse_scratching_damp_weather",
+    "explanation": "Sulphur Iodatum-এ চুলকানি থাকে যা ধুলে বা ভিজে আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sul-iod-med-11",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "টনসিল ফুলে যাওয়া।",
+        "mid": "swollen_tonsils"
+      },
+      {
+        "text": "টনসিল ছোট হয়ে যাওয়া।",
+        "mid": "atrophied_tonsils"
+      },
+      {
+        "text": "টনসিলে কোনো পরিবর্তন হয় না।",
+        "mid": "no_tonsil_change"
+      },
+      {
+        "text": "শুধুমাত্র গলায় ব্যথা, টনসিল ফোলা নেই।",
+        "mid": "sore_throat_no_tonsil_swelling"
+      }
+    ],
+    "answer": "swollen_tonsils",
+    "explanation": "Sulphur Iodatum-এ টনসিল ফুলে যাওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "sul-iod-med-12",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পাকস্থলী খালি খালি বোধ এবং খাওয়ার পরেও পেট ভরে না এমন অনুভূতি।",
+        "mid": "empty_stomach_not_relieved_by_eating"
+      },
+      {
+        "text": "খাওয়ার পর পেট ভরা এবং সন্তুষ্ট বোধ।",
+        "mid": "fullness_and_satisfaction_after_eating"
+      },
+      {
+        "text": "পেটে জ্বালাপোড়া হয়, খেলে বাড়ে।",
+        "mid": "burning_stomach_worse_by_eating"
+      },
+      {
+        "text": "পেটে কোনো অস্বস্তি নেই।",
+        "mid": "no_stomach_discomfort"
+      }
+    ],
+    "answer": "empty_stomach_not_relieved_by_eating",
+    "explanation": "Sulphur Iodatum-এ পাকস্থলী খালি খালি বোধ হয় এবং খাওয়ার পরেও পেট ভরে না এমন অনুভূতি থাকে।"
+  },
+  {
+    "id": "sul-iod-med-13",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরম ঘরে, নড়াচড়া করলে এবং পরিশ্রম করলে।",
+        "mid": "aggravation_warm_room_motion_exertion"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় গরম ঘরে এবং পরিশ্রমে।",
+        "mid": "amelioration_warm_room_exertion"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় খোলা বাতাসে এবং বিশ্রামে।",
+        "mid": "aggravation_open_air_rest"
+      },
+      {
+        "text": "আবহাওয়া বা পরিশ্রমের সাথে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_weather_exertion"
+      }
+    ],
+    "answer": "aggravation_warm_room_motion_exertion",
+    "explanation": "Sulphur Iodatum-এর লক্ষণ গরম ঘরে, নড়াচড়া করলে এবং পরিশ্রম করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sul-iod-med-14",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় খোলা বাতাসে এবং বিশ্রামে থাকলে।",
+        "mid": "amelioration_open_air_rest"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় গরম ঘরে এবং নড়াচড়ায়।",
+        "mid": "amelioration_warm_room_motion"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় খোলা বাতাসে এবং বিশ্রামে।",
+        "mid": "aggravation_open_air_rest"
+      },
+      {
+        "text": "খোলা বাতাসে বা বিশ্রামে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_open_air_rest"
+      }
+    ],
+    "answer": "amelioration_open_air_rest",
+    "explanation": "Sulphur Iodatum-এর লক্ষণ খোলা বাতাসে এবং বিশ্রামে থাকলে উপশম হয়।"
+  },
+  {
+    "id": "sul-iod-med-15",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী ঠান্ডা সহ্য করতে পারে না, উষ্ণতায় আরাম পায়।",
+        "mid": "cannot_bear_cold_amelioration_from_warmth"
+      },
+      {
+        "text": "রোগী গরম সহ্য করতে পারে না, ঠান্ডায় আরাম পায়।",
+        "mid": "cannot_bear_heat_amelioration_from_cold"
+      },
+      {
+        "text": "রোগীর কোনো তাপমাত্রা সংবেদনশীলতা নেই।",
+        "mid": "no_thermal_sensitivity"
+      },
+      {
+        "text": "রোগী শুধুমাত্র গরমে অস্বস্তি বোধ করে।",
+        "mid": "discomfort_only_in_heat"
+      }
+    ],
+    "answer": "cannot_bear_cold_amelioration_from_warmth",
+    "explanation": "Sulphur Iodatum-এ রোগী ঠান্ডা সহ্য করতে পারে না এবং উষ্ণতায় আরাম পায়।"
+  },
+  {
+    "id": "sul-iod-med-16",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "এটি Sulphur এবং Iodum-এর সাথে পরিপূরক (Complementary) সম্পর্কযুক্ত।",
+        "mid": "complementary_to_sulphur_iodum"
+      },
+      {
+        "text": "এটি Hepar Sulph-এর সাথে পরিপূরক।",
+        "mid": "complementary_to_hepar_sulph"
+      },
+      {
+        "text": "এটি Bryonia-এর সাথে পরিপূরক।",
+        "mid": "complementary_to_bryonia"
+      },
+      {
+        "text": "কোনো ঔষধের সাথে পরিপূরক সম্পর্ক নেই।",
+        "mid": "no_complementary_relationship"
+      }
+    ],
+    "answer": "complementary_to_sulphur_iodum",
+    "explanation": "Sulphur Iodatum-এর পরিপূরক (Complementary) ঔষধ হলো Sulphur এবং Iodum।"
+  },
+  {
+    "id": "sul-iod-med-17",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "Hepar Sulph এই ঔষধের প্রতিষেধক (Antidote)।",
+        "mid": "antidoted_by_hepar_sulph"
+      },
+      {
+        "text": "Nux Vomica এই ঔষধের প্রতিষেধক।",
+        "mid": "antidoted_by_nux_vomica"
+      },
+      {
+        "text": "Arnica Montana এই ঔষধের প্রতিষেধক।",
+        "mid": "antidoted_by_arnica"
+      },
+      {
+        "text": "এই ঔষধের কোনো প্রতিষেধক নেই।",
+        "mid": "no_antidote"
+      }
+    ],
+    "answer": "antidoted_by_hepar_sulph",
+    "explanation": "Sulphur Iodatum-এর প্রতিষেধক (Antidote) হলো Hepar Sulph।"
+  },
+  {
+    "id": "sul-iod-med-18",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দীর্ঘস্থায়ী শ্বাসনালীর রোগে এটি উপকারী।",
+        "mid": "useful_in_chronic_respiratory_diseases"
+      },
+      {
+        "text": "শুধুমাত্র তীব্র সর্দি-কাশিতে ব্যবহৃত হয়।",
+        "mid": "only_for_acute_cold_cough"
+      },
+      {
+        "text": "শ্বাসনালীর কোনো রোগে কাজ করে না।",
+        "mid": "no_effect_on_respiratory_diseases"
+      },
+      {
+        "text": "শুধুমাত্র হাঁপানিতে ব্যবহৃত হয়।",
+        "mid": "only_for_asthma"
+      }
+    ],
+    "answer": "useful_in_chronic_respiratory_diseases",
+    "explanation": "Sulphur Iodatum দীর্ঘদিনের চর্ম ও শ্বাসনালীর রোগে উপকারী।"
+  },
+  {
+    "id": "sul-iod-med-19",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দীর্ঘস্থায়ী প্রদাহে এটি ব্যবহৃত হয়।",
+        "mid": "used_in_chronic_inflammation"
+      },
+      {
+        "text": "শুধুমাত্র তীব্র প্রদাহে ব্যবহৃত হয়।",
+        "mid": "only_for_acute_inflammation"
+      },
+      {
+        "text": "প্রদাহে কোনো কাজ করে না।",
+        "mid": "no_effect_on_inflammation"
+      },
+      {
+        "text": "শুধুমাত্র জ্বরের প্রদাহে ব্যবহৃত হয়।",
+        "mid": "only_for_fever_inflammation"
+      }
+    ],
+    "answer": "used_in_chronic_inflammation",
+    "explanation": "Sulphur Iodatum প্রধানত গ্রন্থি স্ফীতি ও দীর্ঘস্থায়ী প্রদাহে ব্যবহৃত হয়।"
+  },
+  {
+    "id": "sul-iod-med-20",
+    "stem": "নিচের কোনটি Sulphur Iodatum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগীর ওজন কমে যায়, যদিও ক্ষুধা বেশি থাকতে পারে।",
+        "mid": "weight_loss_with_good_appetite"
+      },
+      {
+        "text": "রোগীর ওজন বৃদ্ধি পায় এবং ক্ষুধা কম থাকে।",
+        "mid": "weight_gain_with_poor_appetite"
+      },
+      {
+        "text": "ওজন ও ক্ষুধা উভয়ই স্বাভাবিক থাকে।",
+        "mid": "normal_weight_and_appetite"
+      },
+      {
+        "text": "শুধুমাত্র ক্ষুধা কমে যায়, ওজন অপরিবর্তিত থাকে।",
+        "mid": "only_loss_of_appetite_weight_normal"
+      }
+    ],
+    "answer": "weight_loss_with_good_appetite",
+    "explanation": "Sulphur Iodatum-এ রোগী খুব দুর্বল ও ওজন কমে যায়, যদিও ক্ষুধা বেশি থাকতে পারে।"
+  }
+]
+

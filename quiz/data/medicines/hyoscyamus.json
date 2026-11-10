@@ -1,0 +1,246 @@
+[
+  {
+    "id": "hyoscyamus-med-01",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কামোন্মাদ, কাপড় খুলে গোপন অঙ্গ দেখানো", "mid": "sym-erotic-mania-naked-exposing"},
+      {"text": "সর্বপ্রকার জ্বরের প্রথম অবস্থায় উপযোগী", "mid": "sym-first-stage-of-all-fevers"},
+      {"text": "প্রদাহিত স্থান উত্তপ্ত, লাল, দপদপানি ও বেদনাযুক্ত", "mid": "sym-inflamed-part-hot-red-throbbing-painful"},
+      {"text": "পিচকিরির মতো সজোরে মলত্যাগ", "mid": "sym-stool-expelled-with-gush"}
+    ],
+    "answer": "sym-erotic-mania-naked-exposing",
+    "explanation": "Hyoscyamus-এর প্রধান লক্ষণ হলো কামোন্মাদ, রোগী কাপড় খুলে গোপন অঙ্গ দেখায়।"
+  },
+  {
+    "id": "hyoscyamus-med-02",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যৌন অঙ্গে বারবার হাত দেওয়া ও অশ্লীল গান গাওয়া", "mid": "sym-masturbation-obscene-songs"},
+      {"text": "আয়রনের অভাব ও রক্তে লোহিত কণিকার অভাব", "mid": "sym-anaemia-iron-deficiency"},
+      {"text": "খাওয়া বা জল পান করার পরপরই মলত্যাগের প্রচণ্ড বেগ", "mid": "sym-diarrhoea-immediately-after-eating-drinking"},
+      {"text": "ডিম্বকোষ বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট", "mid": "sym-dyspnoea-palpitation-from-uterine-cause"}
+    ],
+    "answer": "sym-masturbation-obscene-songs",
+    "explanation": "Hyoscyamus-এ রোগী যৌন অঙ্গে বারবার হাত দেয় এবং অশ্লীল গান গায়।"
+  },
+  {
+    "id": "hyoscyamus-med-03",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতে শোয়ার পর আক্ষেপকর কাশি, উঠে বসলে উপশম", "mid": "sym-convulsive-cough-lying-down-night"},
+      {"text": "স্তন্যদানকালে স্তন থেকে পিঠ পর্যন্ত টান লাগার মতো ব্যথা", "mid": "sym-pain-nipple-to-back-during-nursing"},
+      {"text": "হার্টবিট বন্ধ হয়ে যাওয়ার উপক্রম বোধ", "mid": "sym-sensation-heart-will-stop"},
+      {"text": "বহুদিন স্থায়ী দুঃখ ভোগে হওয়া রোগ", "mid": "sym-ailments-from-long-standing-grief"}
+    ],
+    "answer": "sym-convulsive-cough-lying-down-night",
+    "explanation": "Hyoscyamus-এ রাতে শোয়ার পর আক্ষেপকর কাশি হয় যা উঠে বসলে উপশম হয়।"
+  },
+  {
+    "id": "hyoscyamus-med-04",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলায় চুলকানি, মনে হয় আলজিহ্বা দীর্ঘ হয়েছে", "mid": "sym-tickling-throat-sensation-elongated-uvula"},
+      {"text": "পেশীতে আঘাত, পেশী শিথিল, স্ফীত ও রক্ত জমাট", "mid": "sym-muscle-injury-swollen-bruised"},
+      {"text": "লাল ও চুলকানিযুক্ত ফোস্কা, বিশেষত অণ্ডকোষের চামড়ায়", "mid": "sym-vesicles-itching-scrotum"},
+      {"text": "অত্যন্ত বিমর্ষ, সন্দেহযুক্ত ও বিপদের ভয়", "mid": "sym-depressed-suspicious-fear-danger"}
+    ],
+    "answer": "sym-tickling-throat-sensation-elongated-uvula",
+    "explanation": "Hyoscyamus-এ গলায় চুলকানি হয় এবং মনে হয় যেন আলজিহ্বা দীর্ঘ হয়ে গেছে।"
+  },
+  {
+    "id": "hyoscyamus-med-05",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হিংসা, সন্দেহপ্রবণতা ও বিরবির করে বকা", "mid": "sym-jealousy-suspicion-muttering"},
+      {"text": "অস্ত্রের আঘাতে বা হঠাৎ নাক দিয়ে উজ্জ্বল লাল রক্তস্রাব", "mid": "sym-bright-red-hemorrhage-nose"},
+      {"text": "চর্মরোগে ঠান্ডা জলের ঝাপটায় আরাম", "mid": "sym-skin-ameliorated-by-cold-water"},
+      {"text": "ইদুরের দৃশ্য দেখে ভয়, সর্বদা কথা বলে, নিজেকে আঘাত করে", "mid": "sym-fear-rats-loquacity-self-injury"}
+    ],
+    "answer": "sym-jealousy-suspicion-muttering",
+    "explanation": "Hyoscyamus-এ রোগী হিংসা ও সন্দেহপ্রবণ হয় এবং বিরবির করে বকে।"
+  },
+  {
+    "id": "hyoscyamus-med-06",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্বামী বা স্ত্রীর চরিত্রে সন্দেহ প্রকাশ", "mid": "sym-suspicion-of-spouse-fidelity"},
+      {"text": "অজীর্ণ ও খাদ্যের সাথে বমি", "mid": "sym-indigestion-vomiting-food"},
+      {"text": "পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ", "mid": "sym-alternating-diarrhoea-cough-skin"},
+      {"text": "স্নায়ুলোপ পেয়ে উন্মাদ হলে উপযোগী", "mid": "sym-insanity-after-nerve-injury"}
+    ],
+    "answer": "sym-suspicion-of-spouse-fidelity",
+    "explanation": "Hyoscyamus-এ রোগী স্বামী বা স্ত্রীর চরিত্রে সন্দেহ প্রকাশ করে।"
+  },
+  {
+    "id": "hyoscyamus-med-07",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাল্পনিক দৃশ্য দেখা ও কাল্পনিক অত্যাচারের অভিযোগ", "mid": "sym-hallucinations-complains-of-persecution"},
+      {"text": "স্বরভঙ্গ ও প্রসবের পর ভ্যাদাল ব্যথা, সঞ্চালনে বৃদ্ধি ঠান্ডায় উপশম", "mid": "sym-hoarseness-after-pains-worse-motion-better-cold"},
+      {"text": "শুইলে কাশি বৃদ্ধি", "mid": "sym-cough-lying-down-agg"},
+      {"text": "কাজকর্ম করার পর মাংসপেশির ব্যথায় উপশম", "mid": "sym-muscle-pain-ameliorated-by-exercise"}
+    ],
+    "answer": "sym-hallucinations-complains-of-persecution",
+    "explanation": "Hyoscyamus-এ রোগী কাল্পনিক দৃশ্য দেখে এবং কাল্পনিক অত্যাচারের অভিযোগ করে।"
+  },
+  {
+    "id": "hyoscyamus-med-08",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কেউ তাকে বিষ প্রয়োগ করবে এমন ধারণা", "mid": "sym-fear-of-being-poisoned"},
+      {"text": "রক্তাল্পনায় ফ্যাকাশে চেহারা ও সহজে ক্লান্তি", "mid": "sym-pale-face-easy-fatigue-anaemia"},
+      {"text": "দিনে ফ্যাকাশে প্রসাব, সাদা তলানি; রাতে ফেনা ও চর্বি", "mid": "sym-urine-pale-sediment-day-frothy-fat-night"},
+      {"text": "আঙুলের কাজ করা ব্যক্তিদের পিঠে ব্যথা", "mid": "sym-back-pain-finger-work"}
+    ],
+    "answer": "sym-fear-of-being-poisoned",
+    "explanation": "Hyoscyamus-এ রোগীর ধারণা হয় যে কেউ তাকে বিষ প্রয়োগ করবে; তাই সে খাবার বা ঔষধ খেতে অস্বীকার করে।"
+  },
+  {
+    "id": "hyoscyamus-med-09",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যধিক প্রফুল্লতা, প্রত্যেক বিষয়ে হাস্যরস ও উচ্চস্বরে হাসা", "mid": "sym-excessive-mirth-laughing-loudly"},
+      {"text": "দ্রুত কিন্তু স্পর্শে দুর্বল নাড়ি", "mid": "sym-rapid-weak-pulse"},
+      {"text": "মনে হয় বড় অসুখ হয়েছে ও আর বাঁচবে না", "mid": "sym-fear-serious-illness-death"},
+      {"text": "জ্বরে মাথাকে বড় মনে করা ও দপদপ করা", "mid": "sym-head-large-bursting-pulsating"}
+    ],
+    "answer": "sym-excessive-mirth-laughing-loudly",
+    "explanation": "Hyoscyamus-এ রোগীর অত্যধিক প্রফুল্লতা থাকে; প্রত্যেক বিষয়ে হাস্যরস বোধ করে এবং উচ্চস্বরে হাসে।"
+  },
+  {
+    "id": "hyoscyamus-med-10",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অতিরিক্ত নিদ্রা ও বিছানা খোঁটা", "mid": "sym-excessive-sleep-picking-bedclothes"},
+      {"text": "জয়েন্ট ও মাংসপেশিতে কামড়ানো ব্যথা, নড়াচড়ায় বৃদ্ধি", "mid": "sym-cramping-pain-joints-muscles-worse-motion"},
+      {"text": "খিটখিটে মেজাজ ও সামান্য কারণেই বিরক্তি", "mid": "sym-irritable-slight-cause"},
+      {"text": "শারীরিক ও মানসিক লক্ষণ পর্যায়ক্রমে আসা", "mid": "sym-alternating-physical-mental-symptoms"}
+    ],
+    "answer": "sym-excessive-sleep-picking-bedclothes",
+    "explanation": "Hyoscyamus-এ রোগীর অতিরিক্ত নিদ্রা হয় এবং সে বিছানার চাদর বা বালিশ খোঁটে।"
+  },
+  {
+    "id": "hyoscyamus-med-11",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উত্তেজনাপ্রবণ, খিটখিটে ও পেশিসমূহের খিঁচুনি", "mid": "sym-excitable-irritable-muscle-twitching"},
+      {"text": "মানসিকভাবে অত্যন্ত সংবেদনশীল ও খিটখিটে", "mid": "sym-oversensitive-irritable"},
+      {"text": "মানসিক অস্থিরতা ও একা থাকার ভয়", "mid": "sym-restlessness-fear-of-being-alone"},
+      {"text": "বড় বড় মাংসপেশির বাতের ব্যথা বা কামড়ানো ব্যথা", "mid": "sym-large-muscles-rheumatic-cramping-pain"}
+    ],
+    "answer": "sym-excitable-irritable-muscle-twitching",
+    "explanation": "Hyoscyamus-এ রোগী উত্তেজনাপ্রবণ ও খিটখিটে হয় এবং পেশিসমূহে খিঁচুনি হয়।"
+  },
+  {
+    "id": "hyoscyamus-med-12",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অসাড়ে মলমূত্র ত্যাগ", "mid": "sym-involuntary-stool-urine"},
+      {"text": "সামান্য কারণেই বিচলিত হয়ে পড়া ও সর্বদা উত্তেজনা", "mid": "sym-excitable-slight-cause"},
+      {"text": "পেটের ভেতর সারাক্ষণ গড়গড় শব্দ", "mid": "sym-gurgling-abdomen"},
+      {"text": "জরায়ুর সমস্যা কমলে বাতের ব্যথা বেড়ে যাওয়া", "mid": "sym-uterine-symptoms-relieved-rheumatic-increased"}
+    ],
+    "answer": "sym-involuntary-stool-urine",
+    "explanation": "Hyoscyamus-এ রোগী অজান্তেই বিছানায় প্রস্রাব বা মলত্যাগ করে ফেলে, বিশেষত টাইফয়েড বা গুরুতর জ্বরের আচ্ছন্ন অবস্থায়।"
+  },
+  {
+    "id": "hyoscyamus-med-13",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যন্ত পিপাসা কিন্তু পানি পানে অনিহা", "mid": "sym-intense-thirst-aversion-to-water"},
+      {"text": "কথা বলতে বা কাজে মনোযোগ দিতে অনিচ্ছা", "mid": "sym-aversion-to-talk-and-mental-work"},
+      {"text": "অত্যন্ত পাতলা হলুদাভ মল প্রচুর পরিমাণে নির্গত হওয়া", "mid": "sym-watery-yellow-profuse-stool"},
+      {"text": "মাথার ওপর কালো মেঘ ঝুলে আছে এমন অনুভূতি", "mid": "sym-sensation-black-cloud-over-head"}
+    ],
+    "answer": "sym-intense-thirst-aversion-to-water",
+    "explanation": "Hyoscyamus-এ রোগীর অত্যন্ত পিপাসা হয় কিন্তু পানি পানে অনিহা থাকে।"
+  },
+  {
+    "id": "hyoscyamus-med-14",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বস্ত্রহীন থাকার প্রবণতা, নগ্ন হতে লজ্জা না পাওয়া", "mid": "sym-immodesty-wants-to-be-naked"},
+      {"text": "রাতে ঘুমের মধ্যে অস্থিরতা ও আবল-তাবল বকা", "mid": "sym-restless-sleep-delirious-talk"},
+      {"text": "স্তনবৃন্তের ভেতরে তীব্র ব্যথা যা পিঠের স্ক্যাপুলা পর্যন্ত ছড়ায়", "mid": "sym-nipple-pain-radiating-to-scapula"},
+      {"text": "গর্ভাবস্থার শেষে জরায়ুর আক্ষেপিক ব্যথা ও বারবার গর্ভপাতের প্রবণতা", "mid": "sym-abortion-tendency-uterine-spasms"}
+    ],
+    "answer": "sym-immodesty-wants-to-be-naked",
+    "explanation": "Hyoscyamus-এর অদ্ভুত ও প্রধান লক্ষণ হলো রোগী গায়ের কাপড় খুলে ফেলতে চায় এবং নগ্ন হতে লজ্জা বোধ করে না।"
+  },
+  {
+    "id": "hyoscyamus-med-15",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাংসপেশির অনবরত কাঁপুনি ও ঝাঁকুনি", "mid": "sym-twitching-jerking-muscles"},
+      {"text": "জ্বরের প্রাথমিক অবস্থায় গাল দুটো লাল হওয়া", "mid": "sym-flushed-face-early-fever"},
+      {"text": "সারাক্ষণ কান্নাকাটি ও পাগল হয়ে যাওয়ার ভয়", "mid": "sym-weeping-fear-of-insanity"},
+      {"text": "টক খাবার বা আপেল খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sour-apples"}
+    ],
+    "answer": "sym-twitching-jerking-muscles",
+    "explanation": "Hyoscyamus-এ হাত-পায়ের আঙুল বা শরীরের মাংসপেশি অনবরত কাঁপতে ও ঝাঁকুনি দিতে থাকে।"
+  },
+  {
+    "id": "hyoscyamus-med-16",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রচণ্ড বকবক ও অশ্লীল কথা বলা", "mid": "sym-loquacity-obscene-talk"},
+      {"text": "কানের ভেতর দপদপানি ব্যথা ও কান লাল হয়ে ফুলে যাওয়া", "mid": "sym-ear-throbbing-pain-red-swollen"},
+      {"text": "প্রচুর কথা বলার প্রবণতা, এক বিষয় থেকে অন্য বিষয়ে অনবরত কথা বলা", "mid": "sym-loquacity"},
+      {"text": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি", "mid": "sym-heat-warm-room-agg"}
+    ],
+    "answer": "sym-loquacity-obscene-talk",
+    "explanation": "Hyoscyamus-এ রোগী প্রচণ্ড বকবক করে এবং অনেক সময় অশ্লীল কথা বলে।"
+  },
+  {
+    "id": "hyoscyamus-med-17",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অন্ধকারে ভয়, মনে হয় কেউ তাড়া করছে ও কাল্পনিক জিনিসের সাথে কথা বলা", "mid": "sym-fear-darkness-pursued-talks-to-imaginary"},
+      {"text": "সর্দিতে নাক বন্ধ ও বুকে ব্যথাযুক্ত কাশি", "mid": "sym-coryza-nasal-blocking-painful-cough"},
+      {"text": "খাওয়া বা পান করার পরপরই, গরমে ও রাতে বৃদ্ধি", "mid": "sym-after-eating-heat-night-agg"},
+      {"text": "নিচের দিকে নামার গতিতে বৃদ্ধি", "mid": "sym-downward-motion-agg"}
+    ],
+    "answer": "sym-fear-darkness-pursued-talks-to-imaginary",
+    "explanation": "Hyoscyamus-এ রোগী অন্ধকারে ভয় পায়, মনে করে কেউ তাকে তাড়া করছে এবং অনেক সময় কাল্পনিক জিনিসের সাথে কথা বলে।"
+  },
+  {
+    "id": "hyoscyamus-med-18",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রেমের ব্যর্থতা বা ঈর্ষা থেকে মানসিক রোগ", "mid": "sym-mental-disease-from-love-disappointment-jealousy"},
+      {"text": "গলা লাল হয়ে ফুলে যাওয়া ও গিলতে কষ্ট হওয়া", "mid": "sym-throat-red-swollen-difficult-swallowing"},
+      {"text": "ঘুমের পর ও মৃদু চাপে উপশম", "mid": "sym-sleep-and-gentle-pressure-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"}
+    ],
+    "answer": "sym-mental-disease-from-love-disappointment-jealousy",
+    "explanation": "Hyoscyamus প্রেমের ব্যর্থতা বা ঈর্ষা থেকে দেখা দেওয়া মানসিক রোগ বা অসুস্থতার শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "hyoscyamus-med-19",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখ বড় বড় করে তাকিয়ে থাকা ও সব কিছু বড় বা রঙিন দেখা", "mid": "sym-staring-eyes-objects-look-large-colored"},
+      {"text": "রাত ৪টা থেকে ৬টার মধ্যে বৃদ্ধি", "mid": "sym-worse-4-to-6-am"},
+      {"text": "শুষ্ক ও ঠান্ডা আবহাওয়ায় বৃদ্ধি, আর্দ্র আবহাওয়ায় উপশম", "mid": "sym-dry-cold-agg-damp-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"}
+    ],
+    "answer": "sym-staring-eyes-objects-look-large-colored",
+    "explanation": "Hyoscyamus-এ রোগী চোখ বড় বড় করে তাকিয়ে থাকে এবং চোখের সামনে সব কিছু বড় বা রঙিন দেখে।"
+  },
+  {
+    "id": "hyoscyamus-med-20",
+    "stem": "নিচের কোনটি Hyoscyamus-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতে, শোয়ার পর, ঋতুস্রাবের সময় ও মানসিক উত্তেজনায় বৃদ্ধি", "mid": "sym-night-lying-menses-excitement-agg"},
+      {"text": "বিশ্রামে, ঠান্ডার প্রয়োগে ও ধীরে হাঁটলে উপশম", "mid": "sym-rest-cold-application-slow-walking-amel"},
+      {"text": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম", "mid": "sym-pressure-evening-amel"},
+      {"text": "খোলা বাতাসে ও শরীর ঠান্ডা রাখলে উপশম", "mid": "sym-open-air-cooling-amel"}
+    ],
+    "answer": "sym-night-lying-menses-excitement-agg",
+    "explanation": "Hyoscyamus-এর লক্ষণ রাতে, শোয়ার পর, ঋতুস্রাবের সময় এবং মানসিক উত্তেজনায় বৃদ্ধি পায়।"
+  }
+]
+
+
+
+

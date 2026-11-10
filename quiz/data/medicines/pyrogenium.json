@@ -1,0 +1,244 @@
+[
+  {
+    "id": "pyrogenium-med-01",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নাড়ির স্পন্দন ও উত্তাপের অসামঞ্জস্য", "mid": "sym-discordance-between-pulse-and-temperature"},
+      {"text": "লবণ খাওয়ার প্রবল ইচ্ছা", "mid": "sym-craving-salt"},
+      {"text": "উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে ঘুমানো", "mid": "sym-knee-chest-position-sleep"},
+      {"text": "পায়ের তলায় প্রচণ্ড জ্বালা, রাতে বিছানার বাইরে পা বের করে রাখে", "mid": "sym-burning-soles-feet-out-of-bed"}
+    ],
+    "answer": "sym-discordance-between-pulse-and-temperature",
+    "explanation": "Pyrogenium-এর সবচেয়ে অদ্ভুত ও প্রধান লক্ষণ হলো জ্বরের তুলনায় নাড়ির গতি অত্যন্ত দ্রুত হওয়া, অথবা নাড়ি স্বাভাবিক থাকলেও শরীরের তাপমাত্রা অনেক বেশি থাকা।"
+  },
+  {
+    "id": "pyrogenium-med-02",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বিছানা শক্ত মনে হওয়া, এক জায়গায় স্থির থাকতে না পারা", "mid": "sym-bed-feels-hard-cannot-lie-still"},
+      {"text": "কোষ্ঠকাঠিন্যের সাথে মাথাব্যথা", "mid": "sym-constipation-with-headache"},
+      {"text": "শ্লেষ্মাঝিল্লি থেকে স্রাব এবং অন্যত্র ঝিল্লীর শুষ্কতা", "mid": "sym-mucous-discharge-with-dryness-elsewhere"},
+      {"text": "মুখ তেলতেলে ও চকচকে, শরীর শীর্ণ", "mid": "sym-greasy-shiny-face-emaciation"}
+    ],
+    "answer": "sym-bed-feels-hard-cannot-lie-still",
+    "explanation": "Pyrogenium-এ রোগী মনে করে বিছানা অত্যন্ত শক্ত, ফলে সে এক জায়গায় স্থির থাকতে পারে না এবং ক্রমাগত এপাশ-ওপাশ করে।"
+  },
+  {
+    "id": "pyrogenium-med-03",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকল স্রাব—ঘাম, শ্বাস, বমি ও মল—অত্যন্ত পচা দুর্গন্ধযুক্ত", "mid": "sym-all-discharges-offensive"},
+      {"text": "স্কুলছাত্রীদের মাথাব্যথা, ঘুম থেকে উঠে মাথাব্যথা", "mid": "sym-headache-schoolgirls-on-waking"},
+      {"text": "যোনি শুষ্ক ও ফাটা ফাটা, সহবাসে কষ্ট, বিলম্বিত ঋতু", "mid": "sym-dry-vagina-painful-coition-delayed-menses"},
+      {"text": "ঠোঁটের পাশে জ্বরসিটা, জ্বর সকাল ১০-১১টায় আসে", "mid": "sym-fever-blisters-fever-10-11-am"}
+    ],
+    "answer": "sym-all-discharges-offensive",
+    "explanation": "Pyrogenium-এ শরীরের সমস্ত নিঃসরণ—ঘাম, শ্বাস-প্রশ্বাস, বমি এবং মল অত্যন্ত পচা দুর্গন্ধযুক্ত হয়।"
+  },
+  {
+    "id": "pyrogenium-med-04",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যন্ত্রণার কারণে অস্থিরতা, নড়াচড়ায় সাময়িক আরাম", "mid": "sym-restlessness-better-by-motion"},
+      {"text": "শীতকালে ঠোঁট, নখ ও চামড়া ফাটা, চামড়া দিয়ে স্বচ্ছ পানি বের হওয়া", "mid": "sym-cracks-lips-nails-skin-winter-clear-water"},
+      {"text": "সান্ত্বনা দিলে রোগের বৃদ্ধি ও বিরক্তি", "mid": "sym-worse-from-consolation-irritability"},
+      {"text": "মানচিত্রের মতো জিহ্বা, লাল লাল তালি বা দাগ", "mid": "sym-mapped-tongue"}
+    ],
+    "answer": "sym-restlessness-better-by-motion",
+    "explanation": "Pyrogenium-এ শারীরিক যন্ত্রণার কারণে রোগী অত্যন্ত অস্থির থাকে এবং নড়াচড়া করলে সাময়িকভাবে আরাম পায়।"
+  },
+  {
+    "id": "pyrogenium-med-05",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রক্তদূষণ বা সেপটিক জ্বর, জীবনীশক্তি দ্রুত কমে যাওয়া", "mid": "sym-sepsis-septic-fever-rapid-prostration"},
+      {"text": "রৌদ্রতাপে মাথাব্যথা, মনে হয় মাথার ভেতর হাতুড়ি দিয়ে পিটানো হচ্ছে", "mid": "sym-headache-from-sun-hammering"},
+      {"text": "কারো উপস্থিতিতে প্রস্রাব ত্যাগ করতে না পারা", "mid": "sym-inability-urinate-in-presence"},
+      {"text": "চাপা স্বভাব, নিজের দুঃখ কারো কাছে প্রকাশ না করা", "mid": "sym-reserved-does-not-disclose-grief"}
+    ],
+    "answer": "sym-sepsis-septic-fever-rapid-prostration",
+    "explanation": "Pyrogenium রক্তদূষণ বা সেপটিক জ্বরে উপযোগী, যেখানে জীবনীশক্তি দ্রুত কমে যায় এবং টাইফয়েডের মতো লক্ষণ দেখা দেয়।"
+  },
+  {
+    "id": "pyrogenium-med-06",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনে হয় শরীর আকারে খুব বড় বা অঙ্গগুলো ছড়িয়ে ছিটিয়ে আছে", "mid": "sym-feels-enlarged-scattered-limbs"},
+      {"text": "পুরানো শোক বারবার মনে করে বিষণ্ণ থাকা", "mid": "sym-dwells-on-old-grief-depression"},
+      {"text": "একা থাকতে পছন্দ ও মানুষের ভিড় অপছন্দ", "mid": "sym-prefers-solitude-aversion-to-crowds"},
+      {"text": "রক্তহীন মেয়েদের ক্রনিক মাথাব্যথা ও চোখের ওপর চাপ", "mid": "sym-anaemic-girls-chronic-headache-pressure-over-eyes"}
+    ],
+    "answer": "sym-feels-enlarged-scattered-limbs",
+    "explanation": "Pyrogenium-এ রোগী মনে করে সে আকারে অত্যন্ত বড় হয়ে গেছে অথবা তার শরীরের অঙ্গগুলো ছড়িয়ে ছিটিয়ে আছে।"
+  },
+  {
+    "id": "pyrogenium-med-07",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জ্বরের ঘোরে বিড়বিড় করে প্রলাপ, মনে হয় সে অনেক দূরে আছে", "mid": "sym-delirious-muttering-feels-far-away"},
+      {"text": "বই পড়লে বা সেলাইয়ের কাজ করলে দৃষ্টি ঝাপসা", "mid": "sym-blurred-vision-reading-sewing"},
+      {"text": "সর্দির শুরুতে জলের মতো তরল ও হাঁচি, পরে আঠালো স্রাব", "mid": "sym-coryza-watery-then-viscid-discharge"},
+      {"text": "ঠোঁটের কোণে ক্ষত ও নিচের ঠোঁট মাঝখানে ফেটে যাওয়া", "mid": "sym-cold-sores-cracked-lower-lip"}
+    ],
+    "answer": "sym-delirious-muttering-feels-far-away",
+    "explanation": "Pyrogenium-এ জ্বরের ঘোরে রোগী বিড়বিড় করে প্রলাপ বকে এবং মনে করে সে অনেক দূরে কোথাও আছে।"
+  },
+  {
+    "id": "pyrogenium-med-08",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জিহ্বা আগুনের মতো লাল, শুকনো ও চকচকে", "mid": "sym-tongue-fiery-red-dry-glazed"},
+      {"text": "ক্ষুধা বেশি থাকা সত্ত্বেও ঘাড়ের অংশ শীর্ণ হওয়া", "mid": "sym-hungry-but-emaciation-of-neck"},
+      {"text": "সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি", "mid": "sym-worse-sunrise-to-sunset"},
+      {"text": "মিষ্টি, নোনতা, টক ও কাঁচা কুচো বরফ খাওয়ার তীব্র ইচ্ছা", "mid": "sym-craving-sweets-salt-sour-ice"}
+    ],
+    "answer": "sym-tongue-fiery-red-dry-glazed",
+    "explanation": "Pyrogenium-এ জিহ্বা দেখতে আগুনের মতো লাল, শুকনো ও চকচকে হয়; অনেক সময় জিহ্বা ফাটা থাকতে পারে।"
+  },
+  {
+    "id": "pyrogenium-med-09",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পচা কফির মতো বমি ও মুখে পচা জলের স্বাদ", "mid": "sym-vomiting-putrid-taste-putrid-water"},
+      {"text": "চাপা পড়া প্রমেহের পর বাতের ব্যথা, হৃদরোগ বা হাঁপানি", "mid": "sym-suppressed-gonorrhoea-sequelae"},
+      {"text": "পায়ের গোড়ালিতে সূঁচ ফোটার মতো ব্যথা ও জ্বালা", "mid": "sym-heel-pain-burning-stitching"},
+      {"text": "মাথাব্যথা যা পাশ পরিবর্তন করে", "mid": "sym-headache-alternating-sides"}
+    ],
+    "answer": "sym-vomiting-putrid-taste-putrid-water",
+    "explanation": "Pyrogenium-এ পচা কফির মতো বমি হয় এবং মুখে পচা জলের মতো স্বাদ অনুভূত হয়।"
+  },
+  {
+    "id": "pyrogenium-med-10",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কোষ্ঠকাঠিন্য, মল বড়, কালো ও পচা গন্ধযুক্ত", "mid": "sym-constipation-large-black-offensive-stool"},
+      {"text": "চরম তাড়াহুড়োপ্রবণতা, মনে হয় সময়ের পেছনে পড়ে যাচ্ছে", "mid": "sym-impulsive-hurried-feeling-behind-time"},
+      {"text": "রাগের আক্রমণ ও একা থাকতে ভয়", "mid": "sym-fits-of-anger-fear-of-being-alone"},
+      {"text": "অতিরিক্ত নিদ্রা ও বিছানা খোঁটা", "mid": "sym-excessive-sleep-picking-bedclothes"}
+    ],
+    "answer": "sym-constipation-large-black-offensive-stool",
+    "explanation": "Pyrogenium-এ ভয়ানক কোষ্ঠকাঠিন্য হয় যেখানে মল বড়, কালো এবং পচা গন্ধযুক্ত।"
+  },
+  {
+    "id": "pyrogenium-med-11",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনে হয় হৃদপিণ্ড আকারে বড় হয়ে গেছে, কানে হৃদস্পন্দন শোনা", "mid": "sym-heart-feels-enlarged-hears-heartbeat"},
+      {"text": "মনে হয় কেউ পেছনে দাঁড়িয়ে আছে বা সে উন্মাদ হয়ে যাবে", "mid": "sym-feels-someone-behind-fear-insanity"},
+      {"text": "গিলতে কষ্ট ও গলা ফুলে যাওয়া", "mid": "sym-difficult-swallowing-swollen-throat"},
+      {"text": "উত্তেজনাপ্রবণ, খিটখিটে ও পেশিসমূহের খিঁচুনি", "mid": "sym-excitable-irritable-muscle-twitching"}
+    ],
+    "answer": "sym-heart-feels-enlarged-hears-heartbeat",
+    "explanation": "Pyrogenium-এ মনে হয় যেন হৃদপিণ্ডটি আকারে অনেক বড় হয়ে গেছে এবং হৃদস্পন্দন এত জোরে হয় যে রোগী তা কানে শুনতে পায়।"
+  },
+  {
+    "id": "pyrogenium-med-12",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রসবোত্তর জ্বর ও জরায়ু থেকে পচা দুর্গন্ধযুক্ত স্রাব", "mid": "sym-puerperal-fever-offensive-lochia"},
+      {"text": "সামান্যতেই ক্ষিপ্ত হওয়া ও সহানুভূতিতে বিরক্তি", "mid": "sym-irritable-aversion-to-sympathy"},
+      {"text": "অসাড়ে মলমূত্র ত্যাগ", "mid": "sym-involuntary-stool-urine"},
+      {"text": "সামান্য কারণেই বিচলিত হয়ে পড়া ও সর্বদা উত্তেজনা", "mid": "sym-excitable-slight-cause"}
+    ],
+    "answer": "sym-puerperal-fever-offensive-lochia",
+    "explanation": "Pyrogenium প্রসবোত্তর জ্বর বা সেপটিক অবস্থায় উপযোগী, যেখানে জরায়ু থেকে অত্যন্ত পচা দুর্গন্ধযুক্ত স্রাব নির্গত হয়।"
+  },
+  {
+    "id": "pyrogenium-med-13",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বিশ্রামে ও রাতে বৃদ্ধি, নড়াচড়ায় ও শরীর গরম রাখলে উপশম", "mid": "sym-worse-rest-night-better-motion-warmth"},
+      {"text": "বংশগত সাইকোটিক হাঁপানি, ভোরে বৃদ্ধি, উপুড় হয়ে শুলে আরাম", "mid": "sym-hereditary-asthma-worse-early-morning-better-lying-face-down"},
+      {"text": "অত্যন্ত পিপাসা কিন্তু পানি পানে অনিহা", "mid": "sym-intense-thirst-aversion-to-water"},
+      {"text": "কথা বলতে বা কাজে মনোযোগ দিতে অনিচ্ছা", "mid": "sym-aversion-to-talk-and-mental-work"}
+    ],
+    "answer": "sym-worse-rest-night-better-motion-warmth",
+    "explanation": "Pyrogenium-এর লক্ষণ বিশ্রামে থাকলে ও রাতে বৃদ্ধি পায় এবং নড়াচড়া করলে ও শরীর গরম রাখলে উপশম হয়।"
+  },
+  {
+    "id": "pyrogenium-med-14",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অনেক কথা বলা ও খুব ধনী ভাবা", "mid": "sym-talks-much-thinks-is-wealthy"},
+      {"text": "প্রস্রাবে তীব্র ঝাল ও দুর্গন্ধ", "mid": "sym-urine-burning-offensive"},
+      {"text": "বস্ত্রহীন থাকার প্রবণতা, নগ্ন হতে লজ্জা না পাওয়া", "mid": "sym-immodesty-wants-to-be-naked"},
+      {"text": "রাতে ঘুমের মধ্যে অস্থিরতা ও আবল-তাবল বকা", "mid": "sym-restless-sleep-delirious-talk"}
+    ],
+    "answer": "sym-talks-much-thinks-is-wealthy",
+    "explanation": "Pyrogenium-এ রোগী বেশি কথা বলে এবং মনে করে সে খুব ধনী।"
+  },
+  {
+    "id": "pyrogenium-med-15",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দপদপানি সহ মাথাব্যথা", "mid": "sym-throbbing-headache"},
+      {"text": "শিশুদের রাতে বিছানায় মূত্রত্যাগ", "mid": "sym-bed-wetting-children"},
+      {"text": "মাংসপেশির অনবরত কাঁপুনি ও ঝাঁকুনি", "mid": "sym-twitching-jerking-muscles"},
+      {"text": "জ্বরের প্রাথমিক অবস্থায় গাল দুটো লাল হওয়া", "mid": "sym-flushed-face-early-fever"}
+    ],
+    "answer": "sym-throbbing-headache",
+    "explanation": "Pyrogenium-এ দপদপানি সহ মাথাব্যথা হয়।"
+  },
+  {
+    "id": "pyrogenium-med-16",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীর টাটানো ও ছটফট করা, এপাশ-ওপাশ করা", "mid": "sym-body-sore-restless-tossing"},
+      {"text": "নারীদের ডিম্বাশয়ে তীব্র সূঁচ ফোটানো ব্যথা ও জরায়ুপ্রদাহ", "mid": "sym-ovarian-stitching-pain-uterine-inflammation"},
+      {"text": "প্রচণ্ড বকবক ও অশ্লীল কথা বলা", "mid": "sym-loquacity-obscene-talk"},
+      {"text": "কানের ভেতর দপদপানি ব্যথা ও কান লাল হয়ে ফুলে যাওয়া", "mid": "sym-ear-throbbing-pain-red-swollen"}
+    ],
+    "answer": "sym-body-sore-restless-tossing",
+    "explanation": "Pyrogenium-এ শরীর টাটানি হয়, রোগী ছটফট করে এবং এপাশ-ওপাশ করে।"
+  },
+  {
+    "id": "pyrogenium-med-17",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জিহবা ও বালিশ শক্ত মনে হওয়া", "mid": "sym-tongue-and-pillow-feel-hard"},
+      {"text": "ক্রনিক বাতের ব্যথায় গাঁট ফুলে শক্ত ও বিকৃত হওয়া", "mid": "sym-chronic-rheumatism-swollen-deformed-joints"},
+      {"text": "অন্ধকারে ভয়, মনে হয় কেউ তাড়া করছে ও কাল্পনিক জিনিসের সাথে কথা বলা", "mid": "sym-fear-darkness-pursued-talks-to-imaginary"},
+      {"text": "সর্দিতে নাক বন্ধ ও বুকে ব্যথাযুক্ত কাশি", "mid": "sym-coryza-nasal-blocking-painful-cough"}
+    ],
+    "answer": "sym-tongue-and-pillow-feel-hard",
+    "explanation": "Pyrogenium-এ জিহবা ও বালিশ শক্ত মনে হয়।"
+  },
+  {
+    "id": "pyrogenium-med-18",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দ্রুততর নাড়ি, ঘাড়ের শিরা ও হৃদপিণ্ডে প্রচণ্ড দপদপানি", "mid": "sym-rapid-pulse-throbbing-neck-heart"},
+      {"text": "শিশুদের মলদ্বারের চারপাশ লাল হয়ে ছাল ওঠা ও মলত্যাগে চুলকানি", "mid": "sym-red-excoriated-anus-itching-stool"},
+      {"text": "প্রেমের ব্যর্থতা বা ঈর্ষা থেকে মানসিক রোগ", "mid": "sym-mental-disease-from-love-disappointment-jealousy"},
+      {"text": "গলা লাল হয়ে ফুলে যাওয়া ও গিলতে কষ্ট হওয়া", "mid": "sym-throat-red-swollen-difficult-swallowing"}
+    ],
+    "answer": "sym-rapid-pulse-throbbing-neck-heart",
+    "explanation": "Pyrogenium-এ নাড়ি দ্রুততর হয় এবং ঘাড়ের শিরা ও হৃদপিণ্ডে প্রচণ্ড দপদপানি হয়।"
+  },
+  {
+    "id": "pyrogenium-med-19",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পানি পান করলে বমি", "mid": "sym-vomiting-after-drinking-water"},
+      {"text": "রোগের কথা ভাবলে রোগ বৃদ্ধি", "mid": "sym-complaints-worse-from-thinking-about-them"},
+      {"text": "চোখ বড় বড় করে তাকিয়ে থাকা ও সব কিছু বড় বা রঙিন দেখা", "mid": "sym-staring-eyes-objects-look-large-colored"},
+      {"text": "রাত ৪টা থেকে ৬টার মধ্যে বৃদ্ধি", "mid": "sym-worse-4-to-6-am"}
+    ],
+    "answer": "sym-vomiting-after-drinking-water",
+    "explanation": "Pyrogenium-এ পানি পান করলে বমি হয়।"
+  },
+  {
+    "id": "pyrogenium-med-20",
+    "stem": "নিচের কোনটি Pyrogenium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরের তাপ হঠাৎ বৃদ্ধি বা হ্রাস", "mid": "sym-sudden-rise-or-fall-of-temperature"},
+      {"text": "উদ্বেগ ও বিষণ্ণতা, মনে হয় কোনো অমঙ্গল ঘটবে বা বড় অপরাধ করেছে", "mid": "sym-anxiety-depression-fear-misfortune-guilt"},
+      {"text": "রাতে, শোয়ার পর, ঋতুস্রাবের সময় ও মানসিক উত্তেজনায় বৃদ্ধি", "mid": "sym-night-lying-menses-excitement-agg"},
+      {"text": "বিশ্রামে, ঠান্ডার প্রয়োগে ও ধীরে হাঁটলে উপশম", "mid": "sym-rest-cold-application-slow-walking-amel"}
+    ],
+    "answer": "sym-sudden-rise-or-fall-of-temperature",
+    "explanation": "Pyrogenium-এ শরীরের তাপ হঠাৎ বৃদ্ধি বা হ্রাস পায়।"
+  }
+]
+
+

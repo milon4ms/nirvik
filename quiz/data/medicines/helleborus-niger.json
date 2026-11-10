@@ -1,0 +1,484 @@
+
+[
+  {
+    "id": "hell-med-01",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী জ্ঞান হারায় বা অনুভূতি শূন্য হয়ে পড়ে এবং অর্ধনিমীলিত চোখে অর্থহীনভাবে তাকিয়ে থাকে।",
+        "mid": "unconsciousness_semi_closed_eyes_vacant_stare"
+      },
+      {
+        "text": "রোগী অতিরিক্ত সজাগ এবং সবকিছুতে তীব্রভাবে প্রতিক্রিয়া দেখায়।",
+        "mid": "hyper_alert_intense_reaction"
+      },
+      {
+        "text": "রোগী গভীর ঘুমে আচ্ছন্ন থাকে কিন্তু চোখ পুরোপুরি বন্ধ থাকে।",
+        "mid": "deep_sleep_eyes_fully_closed"
+      },
+      {
+        "text": "রোগী চোখ খোলা রাখে কিন্তু কোনো কিছু দেখতে পায় না।",
+        "mid": "eyes_open_but_cannot_see"
+      }
+    ],
+    "answer": "unconsciousness_semi_closed_eyes_vacant_stare",
+    "explanation": "Helleborus Niger-এর একটি প্রধান লক্ষণ হলো রোগী জ্ঞান হারায় বা অনুভূতি শূন্য হয়ে পড়ে এবং তার চোখ অর্ধনিমীলিত থাকে ও দৃষ্টি অর্থহীন শূন্য হয়ে যায়।"
+  },
+  {
+    "id": "hell-med-02",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অচেতন অবস্থায় শুয়ে থেকে অনবরত শরীরের একদিকের হাত বা পা নাড়াতে থাকে।",
+        "mid": "automatic_motion_of_one_arm_and_leg"
+      },
+      {
+        "text": "জ্ঞান থাকা অবস্থায় উভয় হাত-পা একসাথে নাড়ে।",
+        "mid": "conscious_motion_of_both_limbs"
+      },
+      {
+        "text": "অচেতন অবস্থায় শরীর সম্পূর্ণ নিশ্চল থাকে।",
+        "mid": "motionless_when_unconscious"
+      },
+      {
+        "text": "শুধুমাত্র মাথা নাড়ায়, হাত-পা নিশ্চল।",
+        "mid": "only_head_moves_limbs_still"
+      }
+    ],
+    "answer": "automatic_motion_of_one_arm_and_leg",
+    "explanation": "Helleborus Niger-এ রোগী অচেতন অবস্থায় শুয়ে থেকে অনবরত শরীরের একদিকের হাত বা পা নাড়াতে থাকে (Automatic motion of one arm and leg)।"
+  },
+  {
+    "id": "hell-med-03",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রস্রাব অত্যন্ত কম হয় এবং তার রঙ গাঢ়, অনেকটা কফির তলানির মতো।",
+        "mid": "scanty_dark_urine_coffee_ground_sediment"
+      },
+      {
+        "text": "প্রস্রাব প্রচুর পরিমাণে হয় এবং রঙ পরিষ্কার।",
+        "mid": "profuse_clear_urine"
+      },
+      {
+        "text": "প্রস্রাবের সাথে রক্ত যায় এবং তীব্র জ্বালা হয়।",
+        "mid": "hematuria_with_burning"
+      },
+      {
+        "text": "প্রস্রাব ঘন ঘন হয় কিন্তু রঙ স্বাভাবিক।",
+        "mid": "frequent_urine_normal_color"
+      }
+    ],
+    "answer": "scanty_dark_urine_coffee_ground_sediment",
+    "explanation": "Helleborus Niger-এ প্রস্রাব অত্যন্ত কম হয় এবং প্রস্রাবের রঙ গাঢ়, অনেকটা কফির তলানির মতো দেখায়।"
+  },
+  {
+    "id": "hell-med-04",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী যন্ত্রণায় বা আচ্ছন্ন অবস্থায় কপালের চামড়া কুঁচকে রাখে।",
+        "mid": "forehead_wrinkled_in_folds"
+      },
+      {
+        "text": "কপাল সম্পূর্ণ মসৃণ এবং কোনো ভাঁজ নেই।",
+        "mid": "smooth_forehead_no_wrinkles"
+      },
+      {
+        "text": "শুধুমাত্র ভ্রু কুঁচকে থাকে, কপাল নয়।",
+        "mid": "only_eyebrows_furrowed"
+      },
+      {
+        "text": "কপালে ভাঁজ শুধুমাত্র ঘুমের মধ্যে দেখা যায়।",
+        "mid": "forehead_wrinkles_only_during_sleep"
+      }
+    ],
+    "answer": "forehead_wrinkled_in_folds",
+    "explanation": "Helleborus Niger-এ রোগী যন্ত্রণায় বা আচ্ছন্ন অবস্থায় কপালের চামড়া কুঁচকে রাখে (Forehead wrinkled in folds)।"
+  },
+  {
+    "id": "hell-med-05",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী কোনো কিছু শুনলেও উত্তর দেয় না বা দিতে দেরি করে এবং ফ্যালফ্যাল করে তাকিয়ে থাকে।",
+        "mid": "mental_numbness_delayed_answers_vacant_stare"
+      },
+      {
+        "text": "রোগী অতিরিক্ত দ্রুত উত্তর দেয় এবং সবকিছু মনে রাখে।",
+        "mid": "quick_answers_good_memory"
+      },
+      {
+        "text": "রোগী প্রশ্নের উত্তর দিতে অস্বীকার করে এবং রাগ করে।",
+        "mid": "refuses_to_answer_angrily"
+      },
+      {
+        "text": "রোগী শুধুমাত্র চিৎকার করে কিন্তু প্রশ্ন বোঝে।",
+        "mid": "screams_but_understands_questions"
+      }
+    ],
+    "answer": "mental_numbness_delayed_answers_vacant_stare",
+    "explanation": "Helleborus Niger-এ মানসিক অসাড়তা থাকে; রোগী কোনো কিছু শুনলেও উত্তর দেয় না বা দিতে দেরি করে এবং ফ্যালফ্যাল করে তাকিয়ে থাকে।"
+  },
+  {
+    "id": "hell-med-06",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "এক প্রকার গভীর দুঃখবোধ যা থেকে রোগী নিস্তব্ধ হয়ে যায় এবং কোনো আনন্দদায়ক সংবাদেও সাড়া দেয় না।",
+        "mid": "profound_grief_silent_unresponsive_to_good_news"
+      },
+      {
+        "text": "রোগী অতিরিক্ত আনন্দিত এবং সবকিছুতে উচ্ছ্বসিত।",
+        "mid": "excessively_cheerful_and_excited"
+      },
+      {
+        "text": "রোগী শুধুমাত্র দুঃখ পায় কিন্তু কথা বলে ও সাড়া দেয়।",
+        "mid": "sad_but_talks_and_responds"
+      },
+      {
+        "text": "রোগী রাগী এবং সহজেই বিরক্ত হয়।",
+        "mid": "irritable_and_easily_angered"
+      }
+    ],
+    "answer": "profound_grief_silent_unresponsive_to_good_news",
+    "explanation": "Helleborus Niger-এ এক প্রকার গভীর দুঃখবোধ থাকে যা থেকে রোগী নিস্তব্ধ হয়ে যায়; সে কোনো আনন্দদায়ক সংবাদেও সাড়া দেয় না।"
+  },
+  {
+    "id": "hell-med-07",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী যা পড়ছে বা দেখছে তা মনে রাখতে পারে না, এমনকি নিজের নামও ভুলে যেতে পারে।",
+        "mid": "memory_loss_forgets_own_name"
+      },
+      {
+        "text": "রোগীর স্মৃতিশক্তি অতিরিক্ত প্রখর এবং সবকিছু মনে রাখে।",
+        "mid": "sharp_memory_remembers_everything"
+      },
+      {
+        "text": "রোগী শুধুমাত্র দূরের ঘটনা ভুলে যায়, সাম্প্রতিক মনে রাখে।",
+        "mid": "forgets_remote_remembers_recent"
+      },
+      {
+        "text": "রোগী শুধুমাত্র নাম ভুলে যায় কিন্তু পড়া মনে রাখে।",
+        "mid": "forgets_names_but_remembers_reading"
+      }
+    ],
+    "answer": "memory_loss_forgets_own_name",
+    "explanation": "Helleborus Niger-এ স্মৃতিশক্তি লোপ পায়; রোগী যা পড়ছে বা দেখছে তা মনে রাখতে পারে না, এমনকি নিজের নামও ভুলে যেতে পারে।"
+  },
+  {
+    "id": "hell-med-08",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথায় অসহ্য ভার বোধ হয় এবং রোগী বালিশে মাথা গুঁজে রাখতে চায় বা মাথা এপাশ-ওপাশ দোলায়।",
+        "mid": "heavy_head_buries_in_pillow_rolling_head"
+      },
+      {
+        "text": "মাথা হালকা বোধ হয় এবং রোগী মাথা উঁচু করে রাখতে চায়।",
+        "mid": "light_head_wants_to_keep_head_up"
+      },
+      {
+        "text": "মাথায় ব্যথা নেই কিন্তু চুলকানি হয়।",
+        "mid": "no_head_pain_but_itching"
+      },
+      {
+        "text": "মাথা স্থির থাকে এবং রোগী মাথা নাড়ায় না।",
+        "mid": "head_still_no_rolling"
+      }
+    ],
+    "answer": "heavy_head_buries_in_pillow_rolling_head",
+    "explanation": "Helleborus Niger-এ মাথায় অসহ্য ভার বোধ হয়, রোগী বালিশে মাথা গুঁজে রাখতে চায় এবং অনেক সময় মাথা এপাশ-ওপাশ দোলায় (Rolling the head)।"
+  },
+  {
+    "id": "hell-med-09",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মুখ দিয়ে প্রচুর লালা পড়ে এবং রোগী জল পান করার সময় মনে হয় যেন সে জল কামড়ে ধরছে বা গ্লাস কামড়ে ধরে।",
+        "mid": "profuse_saliva_bites_water_or_glass"
+      },
+      {
+        "text": "মুখ শুকনো থাকে এবং লালা একেবারেই নেই।",
+        "mid": "dry_mouth_no_saliva"
+      },
+      {
+        "text": "জল পান করার সময় রোগী ধীরে ধীরে পান করে।",
+        "mid": "drinks_water_slowly"
+      },
+      {
+        "text": "মুখে লালা থাকে কিন্তু জল পান করতে ভয় পায়।",
+        "mid": "saliva_present_but_fear_of_water"
+      }
+    ],
+    "answer": "profuse_saliva_bites_water_or_glass",
+    "explanation": "Helleborus Niger-এ মুখ দিয়ে প্রচুর লালা পড়ে। রোগী যখন জল পান করে, তখন মনে হয় যেন সে জল কামড়ে ধরছে (Drinks water greedily and bites the glass)।"
+  },
+  {
+    "id": "hell-med-10",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটে জল আসা (Ascites) বা শরীরের বিভিন্ন অঙ্গে শোথ (Dropsy) দেখা দেয়, যা হঠাৎ প্রস্রাব বন্ধ হওয়ার পর শুরু হয়।",
+        "mid": "ascites_dropsy_after_sudden_suppression_of_urine"
+      },
+      {
+        "text": "শোথ শুধুমাত্র প্রস্রাব বেশি হওয়ার কারণে হয়।",
+        "mid": "edema_due_to_profuse_urine"
+      },
+      {
+        "text": "শরীরে কোনো শোথ হয় না।",
+        "mid": "no_edema"
+      },
+      {
+        "text": "শোথ শুধুমাত্র পায়ে হয় এবং প্রস্রাব স্বাভাবিক।",
+        "mid": "leg_edema_only_urine_normal"
+      }
+    ],
+    "answer": "ascites_dropsy_after_sudden_suppression_of_urine",
+    "explanation": "Helleborus Niger-এ পেটে জল আসা (Ascites) বা শরীরের বিভিন্ন অঙ্গে শোথ (Dropsy) দেখা দেয়, যা হঠাৎ করে প্রস্রাব বন্ধ হওয়ার পর শুরু হয়।"
+  },
+  {
+    "id": "hell-med-11",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মলের সাথে প্রচুর শ্লেষ্মা নির্গত হয় যা দেখতে অনেকটা জেলি বা সাদা চর্বির মতো।",
+        "mid": "jelly_like_white_mucus_in_stool"
+      },
+      {
+        "text": "মল শুষ্ক এবং কঠিন, কোনো শ্লেষ্মা নেই।",
+        "mid": "dry_hard_stool_no_mucus"
+      },
+      {
+        "text": "মলের সাথে রক্ত যায় কিন্তু শ্লেষ্মা নেই।",
+        "mid": "bloody_stool_no_mucus"
+      },
+      {
+        "text": "মলে অপরিপক্ক খাদ্যকণা থাকে।",
+        "mid": "undigested_food_in_stool"
+      }
+    ],
+    "answer": "jelly_like_white_mucus_in_stool",
+    "explanation": "Helleborus Niger-এ মলের সাথে প্রচুর শ্লেষ্মা নির্গত হয় যা দেখতে অনেকটা জেলি বা সাদা চর্বির মতো।"
+  },
+  {
+    "id": "hell-med-12",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় বিকাল ৪টা থেকে রাত ৮টা পর্যন্ত, ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে।",
+        "mid": "aggravation_evening_4_to_8_cold_air_uncovering"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় সকালে এবং গরমে।",
+        "mid": "aggravation_morning_heat"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় ঠান্ডা বাতাসে এবং শরীর ঢেকে রাখলে।",
+        "mid": "amelioration_cold_air_covering"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র রাতে।",
+        "mid": "aggravation_only_at_night"
+      }
+    ],
+    "answer": "aggravation_evening_4_to_8_cold_air_uncovering",
+    "explanation": "Helleborus Niger-এর লক্ষণ বিকাল ৪টা থেকে রাত ৮টা পর্যন্ত, ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "hell-med-13",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় গরমে (Warmth) এবং শান্তভাবে শুয়ে থাকলে।",
+        "mid": "amelioration_warmth_lying_still"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় ঠান্ডায় এবং চলাফেরায়।",
+        "mid": "amelioration_cold_motion"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরমে এবং শুয়ে থাকলে।",
+        "mid": "aggravation_warmth_lying"
+      },
+      {
+        "text": "গরমে বা শুয়ে থাকলে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_warmth_lying"
+      }
+    ],
+    "answer": "amelioration_warmth_lying_still",
+    "explanation": "Helleborus Niger-এর লক্ষণ গরমে (Warmth) এবং শান্তভাবে শুয়ে থাকলে উপশম হয়।"
+  },
+  {
+    "id": "hell-med-14",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অত্যন্ত শীতকাতর (Very Chilly)।",
+        "mid": "very_chilly_patient"
+      },
+      {
+        "text": "রোগী অত্যন্ত উষ্ণকাতর (Hot patient)।",
+        "mid": "very_hot_patient"
+      },
+      {
+        "text": "রোগীর কোনো তাপমাত্রা সংবেদনশীলতা নেই।",
+        "mid": "no_thermal_sensitivity"
+      },
+      {
+        "text": "রোগী শুধুমাত্র গরমে অস্বস্তি বোধ করে।",
+        "mid": "discomfort_only_in_heat"
+      }
+    ],
+    "answer": "very_chilly_patient",
+    "explanation": "Helleborus Niger একটি অত্যন্ত শীতকাতর (Very Chilly) ঔষধ।"
+  },
+  {
+    "id": "hell-med-15",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের এক পার্শ্বে বিশেষ প্রভাব ফেলে।",
+        "mid": "one_sided_predominance"
+      },
+      {
+        "text": "শরীরের উভয় পার্শ্বে সমান প্রভাব ফেলে।",
+        "mid": "equally_bilateral"
+      },
+      {
+        "text": "শুধুমাত্র ডান দিকে প্রভাব ফেলে।",
+        "mid": "right_sided_only"
+      },
+      {
+        "text": "শুধুমাত্র বাম দিকে প্রভাব ফেলে।",
+        "mid": "left_sided_only"
+      }
+    ],
+    "answer": "one_sided_predominance",
+    "explanation": "Helleborus Niger শরীরের এক পার্শ্বে বিশেষ প্রভাব ফেলে (One-sided action)।"
+  },
+  {
+    "id": "hell-med-16",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মস্তিষ্কের জলসঞ্চয় (Hydrocephalus) বা ব্রেইন ফিভারের পরবর্তী আচ্ছন্ন অবস্থায় এটি শ্রেষ্ঠ ঔষধ।",
+        "mid": "best_for_hydrocephalus_post_meningitis_stupor"
+      },
+      {
+        "text": "শুধুমাত্র প্রাথমিক সর্দি-কাশিতে ব্যবহৃত হয়।",
+        "mid": "only_for_common_cold"
+      },
+      {
+        "text": "শুধুমাত্র ত্বকের চর্মরোগে ব্যবহৃত হয়।",
+        "mid": "only_for_skin_diseases"
+      },
+      {
+        "text": "শুধুমাত্র পেশির ব্যথায় ব্যবহৃত হয়।",
+        "mid": "only_for_muscle_pain"
+      }
+    ],
+    "answer": "best_for_hydrocephalus_post_meningitis_stupor",
+    "explanation": "Helleborus Niger মস্তিষ্কের জলসঞ্চয় (Hydrocephalus) বা ব্রেইন ফিভারের (Meningitis) পরবর্তী অবস্থায় যখন রোগী আচ্ছন্ন হয়ে পড়ে, তখন এটি শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "hell-med-17",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গভীর মনযোগ দিলে রোগ উপশম হয় এবং মনযোগ না দিলে পেশীর কাজ বন্ধ হয়।",
+        "mid": "amelioration_from_deep_attention_muscles_stop_without"
+      },
+      {
+        "text": "মনোযোগ দিলে রোগ বেড়ে যায়।",
+        "mid": "aggravation_from_attention"
+      },
+      {
+        "text": "মনোযোগের কোনো প্রভাব নেই।",
+        "mid": "no_effect_of_attention"
+      },
+      {
+        "text": "শুধুমাত্র অন্যমনস্ক থাকলে উপশম হয়।",
+        "mid": "amelioration_only_when_inattentive"
+      }
+    ],
+    "answer": "amelioration_from_deep_attention_muscles_stop_without",
+    "explanation": "Helleborus Niger-এ গভীর মনযোগ দিলে রোগ উপশম হয়, কিন্তু মনযোগ না দিলে পেশীর কাজ বন্ধ হয়ে যায়।"
+  },
+  {
+    "id": "hell-med-18",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অন্যমনস্কভাবে চলার সময় রোগী মাতালের মতো টলে।",
+        "mid": "staggering_like_drunk_when_inattentive"
+      },
+      {
+        "text": "সবসময় সোজা হয়ে চলে এবং টলে না।",
+        "mid": "walks_straight_no_staggering"
+      },
+      {
+        "text": "শুধুমাত্র ঘুমের মধ্যে টলে।",
+        "mid": "staggering_only_during_sleep"
+      },
+      {
+        "text": "চলার সময় কোনো সমস্যা নেই।",
+        "mid": "no_walking_problem"
+      }
+    ],
+    "answer": "staggering_like_drunk_when_inattentive",
+    "explanation": "Helleborus Niger-এ যখন রোগী অন্যমনস্ক ভাবে চলে তখন মাতালের মতো টলে।"
+  },
+  {
+    "id": "hell-med-19",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মস্তিষ্কের অসুস্থতায় Zincum Metallicum এর সাথে পরিপূরক (Complementary) সম্পর্ক রয়েছে।",
+        "mid": "complementary_to_zincum_metallicum_for_brain"
+      },
+      {
+        "text": "মস্তিষ্কের অসুস্থতায় Belladonna এর সাথে পরিপূরক।",
+        "mid": "complementary_to_belladonna_for_brain"
+      },
+      {
+        "text": "মস্তিষ্কের অসুস্থতায় Digitalis এর সাথে পরিপূরক।",
+        "mid": "complementary_to_digitalis_for_brain"
+      },
+      {
+        "text": "কোনো ঔষধের সাথে পরিপূরক সম্পর্ক নেই।",
+        "mid": "no_complementary_relationship"
+      }
+    ],
+    "answer": "complementary_to_zincum_metallicum_for_brain",
+    "explanation": "Helleborus Niger-এর পরিপূরক (Complementary) ঔষধ হলো Zincum Metallicum (মস্তিষ্কের অসুস্থতায়)।"
+  },
+  {
+    "id": "hell-med-20",
+    "stem": "নিচের কোনটি Helleborus Niger-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শোথ রোগে Apis Mellifica এবং মাথার সমস্যায় Belladonna এর সাথে সদৃশ (Similar)।",
+        "mid": "similar_to_apis_for_dropsy_belladonna_for_head"
+      },
+      {
+        "text": "শোথ রোগে Belladonna এবং মাথার সমস্যায় Apis এর সাথে সদৃশ।",
+        "mid": "similar_to_belladonna_for_dropsy_apis_for_head"
+      },
+      {
+        "text": "শুধুমাত্র Digitalis এর সাথে সদৃশ।",
+        "mid": "similar_only_to_digitalis"
+      },
+      {
+        "text": "কোনো ঔষধের সাথে সদৃশ সম্পর্ক নেই।",
+        "mid": "no_similar_relationship"
+      }
+    ],
+    "answer": "similar_to_apis_for_dropsy_belladonna_for_head",
+    "explanation": "Helleborus Niger শোথ রোগে Apis Mellifica এবং মাথার সমস্যায় Belladonna এর সাথে সদৃশ (Similar)।"
+  }
+]
+

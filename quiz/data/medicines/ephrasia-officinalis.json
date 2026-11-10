@@ -1,0 +1,242 @@
+[
+  {
+    "id": "euphrasia-med-01",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কানের রোগের জন্য বিখ্যাত, কানের প্রধান ঔষধ বলা হয়", "mid": "sym-ear-famous"},
+      {"text": "চোখের রোগের জন্য বিখ্যাত, চোখের ঔষধ বলা হয়", "mid": "sym-euphrasia-eye-medicine"},
+      {"text": "পেটের রোগের জন্য বিখ্যাত, পেটের প্রধান ঔষধ বলা হয়", "mid": "sym-belly-famous"},
+      {"text": "চামড়ার রোগের জন্য বিখ্যাত, চামড়ার প্রধান ঔষধ বলা হয়", "mid": "sym-skin-famous"}
+    ],
+    "answer": "sym-euphrasia-eye-medicine",
+    "explanation": "Euphrasia Officinalis প্রধানত চোখের রোগের জন্য বিখ্যাত, একে চোখের ঔষধ বলা হয়।"
+  },
+  {
+    "id": "euphrasia-med-02",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখ দিয়ে পানি পড়ে কিন্তু কোনো জ্বালা করে না", "mid": "sym-eye-water-no-burn"},
+      {"text": "চোখ একদম শুকনো থাকে, পানি পড়ে না", "mid": "sym-eye-dry-no-water"},
+      {"text": "চোখ দিয়ে পুঁজ পড়ে, পানি পড়ে না", "mid": "sym-eye-pus-no-water"},
+      {"text": "চোখ দিয়ে প্রচুর পানি পড়ে, পানি জ্বালাপোড়া করে", "mid": "sym-euphrasia-eye-water-burning"}
+    ],
+    "answer": "sym-euphrasia-eye-water-burning",
+    "explanation": "Euphrasia Officinalis এ চোখ দিয়ে প্রচুর পানি পড়ে, পানি জ্বালাপোড়া করে।"
+  },
+  {
+    "id": "euphrasia-med-03",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নাকের পানি জ্বালা করে না, নাকের সর্দি মৃদু", "mid": "sym-euphrasia-nasal-bland"},
+      {"text": "নাকের পানি খুব জ্বালা করে, চোখের পানি মৃদু", "mid": "sym-allium-nasal-acrid-eye-bland"},
+      {"text": "নাক ও চোখ দুই জায়গার পানিই খুব জ্বালা করে", "mid": "sym-both-acrid"},
+      {"text": "নাক দিয়ে সর্দি না ঝরে, শুধু চোখ দিয়ে পানি পড়ে", "mid": "sym-nose-no-discharge"}
+    ],
+    "answer": "sym-euphrasia-nasal-bland",
+    "explanation": "Euphrasia Officinalis এ নাক দিয়ে যে সর্দি ঝরে তা মৃদু, নাকে কোনো জ্বালা করে না।"
+  },
+  {
+    "id": "euphrasia-med-04",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের জল মিষ্টি লাগে ও চামড়া নরম করে", "mid": "sym-eye-water-sweet"},
+      {"text": "চোখের জল পড়লেই চোখের চারপাশে আরাম লাগে", "mid": "sym-eye-water-soothe"},
+      {"text": "চোখের জল ঝাল ও উগ্র, চোখের চারপাশের চামড়া ছিলে ফেলে", "mid": "sym-euphrasia-eye-water-acrid-excoriate"},
+      {"text": "চোখের জল ঘন ও সাদা, চামড়ায় কোনো ক্ষত করে না", "mid": "sym-eye-water-thick-white"}
+    ],
+    "answer": "sym-euphrasia-eye-water-acrid-excoriate",
+    "explanation": "Euphrasia Officinalis এ চোখ দিয়ে যে জল পড়ে তা অত্যন্ত ঝাল ও উগ্র, যা চোখের চারপাশের চামড়া ছিলে ফেলে।"
+  },
+  {
+    "id": "euphrasia-med-05",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখ সাদা ও স্বাভাবিক থাকা", "mid": "sym-eye-white-normal"},
+      {"text": "চোখ লাল ও ফুলে যাওয়া", "mid": "sym-euphrasia-eye-red-swollen"},
+      {"text": "চোখ হলুদ হয়ে যাওয়া ও পানি না পড়া", "mid": "sym-eye-yellow-no-water"},
+      {"text": "চোখ ছোট হয়ে যাওয়া ও ভেতরে ঢুকে যাওয়া", "mid": "sym-eye-small-sunken"}
+    ],
+    "answer": "sym-euphrasia-eye-red-swollen",
+    "explanation": "Euphrasia Officinalis এ চোখ লাল ও ফুলে যায়।"
+  },
+  {
+    "id": "euphrasia-med-06",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আলোতে থাকতে ভালো লাগা ও আলোতে চোখ খুলতে আরাম", "mid": "sym-light-enjoy"},
+      {"text": "অন্ধকারে চোখে ব্যথা বাড়া ও আলোতে উপশম", "mid": "sym-dark-pain-light-relief"},
+      {"text": "আলো বা অন্ধকারে কোনো পরিবর্তন না হওয়া", "mid": "sym-light-no-change"},
+      {"text": "আলো সহ্য হয় না", "mid": "sym-euphrasia-photophobia"}
+    ],
+    "answer": "sym-euphrasia-photophobia",
+    "explanation": "Euphrasia Officinalis এ রোগী আলো সহ্য করতে পারে না।"
+  },
+  {
+    "id": "euphrasia-med-07",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের ভেতর বালু পড়ার মতো খচখচ অনুভূতি", "mid": "sym-euphrasia-eye-sand-gritty"},
+      {"text": "চোখের ভেতর ঠান্ডা অনুভূতি ও আরাম লাগা", "mid": "sym-eye-cold-soothe"},
+      {"text": "চোখের ভেতর কিছু আটকে থাকার অনুভূতি না থাকা", "mid": "sym-eye-no-foreign-feeling"},
+      {"text": "চোখে সুড়সুড়ি দেওয়া কিন্তু খচখচ না করা", "mid": "sym-eye-tickling-no-grit"}
+    ],
+    "answer": "sym-euphrasia-eye-sand-gritty",
+    "explanation": "Euphrasia Officinalis এ চোখের ভেতর অনবরত খচখচ করে, মনে হয় যেন বালু ঢুকেছে।"
+  },
+  {
+    "id": "euphrasia-med-08",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আলোকিত ঘরে থাকতে পছন্দ করে ও অন্ধকারে ভয় পায়", "mid": "sym-light-room-fear-dark"},
+      {"text": "অন্ধকারে চোখে ব্যথা বাড়ে, তাই আলোতে থাকতে চায়", "mid": "sym-dark-pain-want-light"},
+      {"text": "অন্ধকার ঘরে থাকতে পছন্দ করে", "mid": "sym-euphrasia-dark-room-prefer"},
+      {"text": "ঘরের আলো নিয়ে কোনো পছন্দ অপছন্দ না থাকা", "mid": "sym-light-no-preference"}
+    ],
+    "answer": "sym-euphrasia-dark-room-prefer",
+    "explanation": "Euphrasia Officinalis রোগী অন্ধকারে বা অন্ধকার ঘরে থাকতে পছন্দ করে।"
+  },
+  {
+    "id": "euphrasia-med-09",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতে কাশি বাড়ে, দিনে সম্পূর্ণ বন্ধ থাকে", "mid": "sym-cough-night-agg-day-off"},
+      {"text": "সকালে বা দিনের বেলা কাশির আধিক্য, রাতে শুলে কাশি কমে", "mid": "sym-euphrasia-cough-day-morning-night-less"},
+      {"text": "সকালে কাশি থাকে না, শুধু সন্ধ্যায় কাশি হয়", "mid": "sym-cough-evening-only"},
+      {"text": "দিন রাত সমানভাবে কাশি থাকে, শুলে কোনো পরিবর্তন হয় না", "mid": "sym-cough-day-night-same"}
+    ],
+    "answer": "sym-euphrasia-cough-day-morning-night-less",
+    "explanation": "Euphrasia Officinalis এ কেবল দিনের বেলা বা সকালে কাশির আধিক্য থাকে, রাতে শুলে কাশি কমে যায়।"
+  },
+  {
+    "id": "euphrasia-med-10",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিকভাবে খুব চঞ্চল, সব কাজে প্রচুর উৎসাহ থাকে", "mid": "sym-mental-restless-enthusiasm"},
+      {"text": "সবসময় হাসিখুশি থাকা ও গান গাইতে ইচ্ছা করা", "mid": "sym-cheerful-sing"},
+      {"text": "মন সবসময় শান্ত থাকা ও কোনো বিরক্তি না থাকা", "mid": "sym-mind-calm-no-irritation"},
+      {"text": "মানসিকভাবে প্রসাদগ্রস্ত, কোনো কাজে উৎসাহ পায় না", "mid": "sym-euphrasia-mental-dull-no-enthusiasm"}
+    ],
+    "answer": "sym-euphrasia-mental-dull-no-enthusiasm",
+    "explanation": "Euphrasia Officinalis রোগী মানসিকভাবে অত্যন্ত প্রসাদগ্রস্ত থাকে এবং কোনো কাজে উৎসাহ পায় না।"
+  },
+  {
+    "id": "euphrasia-med-11",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "একা থাকতে ভয় পায়", "mid": "sym-euphrasia-fear-alone"},
+      {"text": "একা থাকতে ভালো লাগা ও সঙ্গী চায় না", "mid": "sym-alone-enjoy"},
+      {"text": "ভিড়ে ভয় পাওয়া ও একা থাকলে সাহস পাওয়া", "mid": "sym-crowd-fear-alone-brave"},
+      {"text": "একা বা দলবদ্ধ, কোনোটাতেই ভয় না লাগা", "mid": "sym-alone-no-fear"}
+    ],
+    "answer": "sym-euphrasia-fear-alone",
+    "explanation": "Euphrasia Officinalis রোগী একা থাকতে ভয় পায়।"
+  },
+  {
+    "id": "euphrasia-med-12",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবসময় শান্ত থাকা ও সামান্য বিষয়ে বিরক্ত না হওয়া", "mid": "sym-calm-no-irritation"},
+      {"text": "প্রশ্ন করলে হেসে উত্তর দেওয়া", "mid": "sym-answer-smiling"},
+      {"text": "খিটখিটে মেজাজ, সামান্য বিষয়ে বিরক্ত হওয়া", "mid": "sym-euphrasia-irritable-slight"},
+      {"text": "রাগ কখনো না হওয়া ও সব সহ্য করা", "mid": "sym-never-angry"}
+    ],
+    "answer": "sym-euphrasia-irritable-slight",
+    "explanation": "Euphrasia Officinalis এ খিটখিটে মেজাজ এবং সামান্য বিষয়ে বিরক্ত হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "euphrasia-med-13",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের পাতায় পুঁজ না জমা, সকালে চোখ পরিষ্কার থাকা", "mid": "sym-lid-no-pus-morning-clean"},
+      {"text": "চোখের পাতায় আঠালো পুঁজ জমে সকালে চোখ জুড়ে থাকা", "mid": "sym-euphrasia-lid-sticky-pus-morning-agglutinated"},
+      {"text": "চোখের পাতা শুকনো থাকা ও কোনো আঠালো ভাব না থাকা", "mid": "sym-lid-dry-no-sticky"},
+      {"text": "রাতে চোখ জুড়ে থাকা, সকালে পরিষ্কার হওয়া", "mid": "sym-eye-night-agglutinated-morning-clean"}
+    ],
+    "answer": "sym-euphrasia-lid-sticky-pus-morning-agglutinated",
+    "explanation": "Euphrasia Officinalis এ চোখের পাতায় আঠালো পুঁজ জমে সকালে চোখ জুড়ে থাকে।"
+  },
+  {
+    "id": "euphrasia-med-14",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখ ঘষতে একদম ইচ্ছা না করা", "mid": "sym-no-desire-rub-eye"},
+      {"text": "চোখ ঘষলে ব্যথা বাড়ে, তাই চোখে হাত দিতে ভয় পাওয়া", "mid": "sym-rub-eye-pain-fear"},
+      {"text": "চোখে চুলকানি থাকলেও ঘষতে ইচ্ছা না করা", "mid": "sym-itch-no-rub"},
+      {"text": "অনবরত চোখ ঘষতে ইচ্ছে করা", "mid": "sym-euphrasia-constant-rub-eye"}
+    ],
+    "answer": "sym-euphrasia-constant-rub-eye",
+    "explanation": "Euphrasia Officinalis এ অনবরত চোখ ঘষতে ইচ্ছে করে।"
+  },
+  {
+    "id": "euphrasia-med-15",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রচুর সর্দি ঝরে কিন্তু নাকে জ্বালা করে না, সর্দির সাথে হাঁচি", "mid": "sym-euphrasia-profuse-coryza-no-burn-sneezing"},
+      {"text": "সর্দি ঝরলেই নাকে তীব্র জ্বালা করা", "mid": "sym-coryza-nasal-burn"},
+      {"text": "সর্দি না ঝরে, নাক বন্ধ থাকা", "mid": "sym-coryza-none-nose-blocked"},
+      {"text": "হাঁচি ছাড়াই শুধু নাক দিয়ে পানি পড়া", "mid": "sym-water-no-sneeze"}
+    ],
+    "answer": "sym-euphrasia-profuse-coryza-no-burn-sneezing",
+    "explanation": "Euphrasia Officinalis এ প্রচুর সর্দি ঝরে কিন্তু তা নাকে কোনো জ্বালা করে না, সর্দির সাথে হাঁচি থাকে।"
+  },
+  {
+    "id": "euphrasia-med-16",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্দি সাধারণত দিনে বৃদ্ধি পায়, রাতে কমে যায়", "mid": "sym-coryza-day-agg-night-less"},
+      {"text": "সর্দি সকালে বৃদ্ধি পায়, রাতে থাকে না", "mid": "sym-coryza-morning-agg"},
+      {"text": "সর্দি সাধারণত রাতে বৃদ্ধি পায়", "mid": "sym-euphrasia-coryza-night-agg"},
+      {"text": "সর্দি দিন রাত সমান থাকে, সময়ের সাথে পরিবর্তন হয় না", "mid": "sym-coryza-constant"}
+    ],
+    "answer": "sym-euphrasia-coryza-night-agg",
+    "explanation": "Euphrasia Officinalis এ সর্দি সাধারণত রাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "euphrasia-med-17",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাশির সাথে কোনো শ্লেষ্মা না আসা, শুষ্ক কাশি", "mid": "sym-cough-dry-no-mucus"},
+      {"text": "দিনের বেলা আক্ষেপিক কাশি, কাশির সাথে প্রচুর শ্লেষ্মা, কাশির সময় চোখ দিয়ে জল পড়া", "mid": "sym-euphrasia-day-spasmodic-cough-mucus-eye-water"},
+      {"text": "কাশির সময় চোখ দিয়ে জল না পড়া, চোখ শুকনো থাকা", "mid": "sym-cough-no-eye-water"},
+      {"text": "রাতে আক্ষেপিক কাশি হওয়া, দিনে কাশি না হওয়া", "mid": "sym-cough-night-spasmodic"}
+    ],
+    "answer": "sym-euphrasia-day-spasmodic-cough-mucus-eye-water",
+    "explanation": "Euphrasia Officinalis এ দিনের বেলা আক্ষেপিক কাশি হয়, কাশির সাথে প্রচুর শ্লেষ্মা নির্গত হয়, কাশির সময় চোখ দিয়ে জল পড়তে পারে।"
+  },
+  {
+    "id": "euphrasia-med-18",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঋতুস্রাব দীর্ঘ সময় থাকে ও প্রচুর রক্তস্রাব হওয়া", "mid": "sym-menses-long-profuse"},
+      {"text": "ঋতুস্রাবের সময় চোখের সমস্যা সম্পূর্ণ সেরে যাওয়া", "mid": "sym-menses-eye-cured"},
+      {"text": "ঋতুস্রাব নিয়মিত হওয়া ও কোনো সমস্যা না থাকা", "mid": "sym-menses-regular-no-problem"},
+      {"text": "ঋতুস্রাব খুব অল্প সময় থাকে ও পরিমাণে কম, ঋতুস্রাবের সময় চোখের সমস্যা বা সর্দি বাড়া", "mid": "sym-euphrasia-menses-short-scanty-eye-coryza"}
+    ],
+    "answer": "sym-euphrasia-menses-short-scanty-eye-coryza",
+    "explanation": "Euphrasia Officinalis এ ঋতুস্রাব খুব অল্প সময় থাকে এবং পরিমাণে কম হয়, ঋতুস্রাবের সময় চোখের সমস্যা বা সর্দি বাড়তে পারে।"
+  },
+  {
+    "id": "euphrasia-med-19",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকালে, সূর্যের আলোতে, গরম ঘরে ও দক্ষিণে প্রবাহিত বাতাসে বৃদ্ধি", "mid": "sym-euphrasia-agg-morning-sun-warm-south-wind"},
+      {"text": "অন্ধকারে বৃদ্ধি, আলোতে উপশম হওয়া", "mid": "sym-dark-agg-light-amel"},
+      {"text": "ঠান্ডা বাতাসে বৃদ্ধি, গরম ঘরে উপশম হওয়া", "mid": "sym-cold-air-agg-warm-amel"},
+      {"text": "রাতে বৃদ্ধি, সকালে উপশম হওয়া", "mid": "sym-night-agg-morning-amel"}
+    ],
+    "answer": "sym-euphrasia-agg-morning-sun-warm-south-wind",
+    "explanation": "Euphrasia Officinalis এ সকালে, সূর্যের আলোতে, গরম ঘরে এবং দক্ষিণে প্রবাহিত বাতাসে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "euphrasia-med-20",
+    "stem": "নিচের কোনটি Euphrasia Officinalis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আলোতে উপশম, অন্ধকারে বৃদ্ধি হওয়া", "mid": "sym-light-amel-dark-agg"},
+      {"text": "কফি পান করলে বৃদ্ধি, চা পান করলে উপশম হওয়া", "mid": "sym-coffee-agg-tea-amel"},
+      {"text": "অন্ধকারে, কফি পান করলে ও রাতে শুলে ও খোলা বাতাসে উপশম", "mid": "sym-euphrasia-amel-dark-coffee-night-lying-open-air"},
+      {"text": "রাতে শুলে বৃদ্ধি, দিনে বসে থাকলে উপশম হওয়া", "mid": "sym-night-lying-agg-day-sit-amel"}
+    ],
+    "answer": "sym-euphrasia-amel-dark-coffee-night-lying-open-air",
+    "explanation": "Euphrasia Officinalis এ অন্ধকারে, কফি পান করলে এবং রাতে শুলে উপশম হয়, খোলা বাতাসে উপসর্গ কিছুটা কমে।"
+  }
+]

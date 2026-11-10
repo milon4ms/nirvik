@@ -1,0 +1,242 @@
+[
+  {
+    "id": "phosphorus-med-01",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খাটো মোটা চেহারা, ধীরে বাড়ে, বুদ্ধি কম", "mid": "sym-short-fat-slow-growth-low-intellect"},
+      {"text": "পাতলা একহারা চেহারা, দ্রুত বাড়ে লম্বা, দেখতে সুন্দর, তীক্ষ্ণ বুদ্ধি, লম্বা পাতলা ছিপছিপে, সামনের দিকে কিছুটা ঝুঁকে হাঁটে, চোখের পাতা লম্বা, চামড়া অত্যন্ত ফর্সা ও মসৃণ", "mid": "sym-phosphorus-tall-slender-stooped-fair-sharp"},
+      {"text": "মাঝারি চেহারা, স্বাভাবিক উচ্চতা, চামড়া কালো ও রুক্ষ", "mid": "sym-medium-normal-dark-rough"},
+      {"text": "লম্বা হলেও মোটা চেহারা, সামনের দিকে সোজা হয়ে হাঁটে", "mid": "sym-tall-fat-straight-walk"}
+    ],
+    "answer": "sym-phosphorus-tall-slender-stooped-fair-sharp",
+    "explanation": "Phosphorus রোগী লম্বা, পাতলা, ছিপছিপে এবং সামনের দিকে কিছুটা ঝুঁকে হাঁটে, চোখের পাতা লম্বা এবং চামড়া অত্যন্ত ফর্সা ও মসৃণ হয়, দেখতে সুন্দর ও তীক্ষ্ণ বুদ্ধি থাকে।"
+  },
+  {
+    "id": "phosphorus-med-02",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রক্তপাত কখনো হয় না, ক্ষত দ্রুত শুকিয়ে যায়", "mid": "sym-no-bleed-quick-heal"},
+      {"text": "সামান্য ক্ষতে অল্প রক্তপাত হয় ও দ্রুত বন্ধ হয়ে যায়", "mid": "sym-slight-wound-little-bleed-quick-stop"},
+      {"text": "রক্তপাত শুধু নাক দিয়ে হয়, অন্য কোনো ছিদ্র দিয়ে হয় না", "mid": "sym-bleed-nose-only"},
+      {"text": "রক্তস্রাবের প্রবণতা, শরীরের যেকোনো ছিদ্র দিয়ে সহজে রক্তপাত হয়, সামান্য ক্ষত থেকেও প্রচুর রক্তপাত হয় যা বন্ধ হতে চায় না", "mid": "sym-phosphorus-haemorrhagic-tendency-free-bleed"}
+    ],
+    "answer": "sym-phosphorus-haemorrhagic-tendency-free-bleed",
+    "explanation": "Phosphorus এ রক্তস্রাবের প্রবণতা থাকে, শরীরের যেকোনো ছিদ্র দিয়ে সহজে রক্তপাত হয়, সামান্য ক্ষত থেকেও প্রচুর রক্তপাত হয় যা বন্ধ হতে চায় না।"
+  },
+  {
+    "id": "phosphorus-med-03",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বুক ধড়ফড় করে", "mid": "sym-phosphorus-palpitation"},
+      {"text": "বুক সবসময় শান্ত থাকে, কখনো ধড়ফড় করে না", "mid": "sym-chest-calm-never-palpitation"},
+      {"text": "বুক ধড়ফড় করে শুধু ঘুমের মধ্যে", "mid": "sym-palpitation-sleep-only"},
+      {"text": "বুক ভারী লাগে কিন্তু ধড়ফড় করে না", "mid": "sym-chest-heavy-no-palpitation"}
+    ],
+    "answer": "sym-phosphorus-palpitation",
+    "explanation": "Phosphorus এ বুক ধড়ফড় করে।"
+  },
+  {
+    "id": "phosphorus-med-04",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্ষুধা কম থাকে, খেলেই পেট ভরে যায়", "mid": "sym-less-hunger-full-quick"},
+      {"text": "পেট সবসময় ভরা থাকে, খালি ভাব কখনো হয় না", "mid": "sym-belly-always-full-never-empty"},
+      {"text": "রাক্ষুসে ক্ষুধা, পেটে শূন্যবোধ, পেটে খালি খালি ভাব", "mid": "sym-phosphorus-ravenous-hunger-gone-feeling"},
+      {"text": "খাওয়ার ইচ্ছা থাকে না, পেটে ব্যথা থাকে", "mid": "sym-no-appetite-belly-pain"}
+    ],
+    "answer": "sym-phosphorus-ravenous-hunger-gone-feeling",
+    "explanation": "Phosphorus এ রাক্ষুসে ক্ষুধা থাকে, পেটে শূন্যবোধ বা খালি খালি ভাব অনুভূত হয়।"
+  },
+  {
+    "id": "phosphorus-med-05",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরের কোনো স্থানে জ্বালা থাকে না, সবসময় ঠান্ডা লাগে", "mid": "sym-no-burning-always-cold"},
+      {"text": "শরীরের নানা স্থান অল্প স্থান জুড়ে জ্বলে, মেরুদণ্ড জ্বালা করে", "mid": "sym-phosphorus-burning-spots-spine-burns"},
+      {"text": "পুরো শরীর জুড়ে সমানভাবে জ্বালা করে", "mid": "sym-whole-body-burn-even"},
+      {"text": "শুধু হাত পায়ে জ্বালা করে, মেরুদণ্ডে জ্বালা করে না", "mid": "sym-limbs-burn-spine-no-burn"}
+    ],
+    "answer": "sym-phosphorus-burning-spots-spine-burns",
+    "explanation": "Phosphorus এ শরীরের নানা স্থান অল্প স্থান জুড়ে জ্বলে, মেরুদণ্ড জ্বালা করে।"
+  },
+  {
+    "id": "phosphorus-med-06",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রধানত ডান পাশে রোগ হয়, ডান পাশে শুলে বৃদ্ধি পায়", "mid": "sym-right-side-disease-right-lying-worse"},
+      {"text": "দুই পাশেই সমানভাবে রোগ হয়, শোয়ার দিকে কোনো প্রভাব নেই", "mid": "sym-both-side-equal-lying-no-effect"},
+      {"text": "চেপে শুলে আরাম লাগে ও ঘুম ভালো হয়", "mid": "sym-pressure-lying-relief-good-sleep"},
+      {"text": "প্রধানত বাম পাশে রোগ হয়, বাম পাশে শুলে কাশি বাড়ে, চেপে শুতে পারে না", "mid": "sym-phosphorus-left-side-left-lying-cough-worse-cannot-lie-pressure"}
+    ],
+    "answer": "sym-phosphorus-left-side-left-lying-cough-worse-cannot-lie-pressure",
+    "explanation": "Phosphorus প্রধানত বামপার্শ্বীয় ঔষধ, বাম পাশে শুলে কাশি বাড়ে এবং রোগী চেপে শুতে পারে না।"
+  },
+  {
+    "id": "phosphorus-med-07",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যৌন উত্তেজনা খুব বেশি থাকে কিন্তু মিলনে শীতলতা আসে", "mid": "sym-phosphorus-sexual-excitement-high-coition-cold"},
+      {"text": "যৌন উত্তেজনা একদম থাকে না, মিলনে উষ্ণতা থাকে", "mid": "sym-no-sexual-excitement-coition-warm"},
+      {"text": "যৌন উত্তেজনা স্বাভাবিক থাকে ও মিলনে কোনো সমস্যা থাকে না", "mid": "sym-sexual-normal-no-problem"},
+      {"text": "যৌন উত্তেজনা কম থাকে কিন্তু মিলনে উত্তেজনা বেড়ে যায়", "mid": "sym-sexual-low-coition-high"}
+    ],
+    "answer": "sym-phosphorus-sexual-excitement-high-coition-cold",
+    "explanation": "Phosphorus এ ধ্বজভঙ্গের পূর্বে খুব কাম উত্তেজনা থাকে, কিন্তু মিলনে শীতলতা আসে।"
+  },
+  {
+    "id": "phosphorus-med-08",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "একা থাকতে ভালো লাগে, একা থাকলে সব লক্ষণ কমে যায়", "mid": "sym-like-alone-alone-less-symptom"},
+      {"text": "অন্ধকারে ভালো লাগে, ঝড় বৃষ্টির আগে মন শান্ত থাকে", "mid": "sym-dark-enjoy-storm-calm"},
+      {"text": "একা থাকলে, ঝড় বৃষ্টির পূর্বে, অন্ধকারে উৎকণ্ঠা ও অস্থিরতা, একা থাকতে পারে না, একাকীত্বে সব লক্ষণ বৃদ্ধি পায়", "mid": "sym-phosphorus-alone-storm-dark-anxiety-restless"},
+      {"text": "অন্ধকার বা ঝড়ে কোনো ভয় বা উৎকণ্ঠা থাকে না", "mid": "sym-dark-storm-no-fear"}
+    ],
+    "answer": "sym-phosphorus-alone-storm-dark-anxiety-restless",
+    "explanation": "Phosphorus রোগী একা থাকতে পারে না, একা থাকলে, ঝড় বৃষ্টির পূর্বে ও অন্ধকারে উৎকণ্ঠা ও অস্থিরতা হয়, একাকীত্বে সব লক্ষণ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "phosphorus-med-09",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরম জল খেতে ইচ্ছা করে, ঠান্ডা জল একদম সহ্য হয় না", "mid": "sym-warm-water-desire-cold-intolerant"},
+      {"text": "ঠান্ডা পানীয়ের তৃষ্ণা, প্রচুর ঠান্ডা জল বা বরফ খাওয়ার প্রবল ইচ্ছা, জল পাকস্থলীতে গিয়ে গরম হওয়ার সাথে সাথেই বমি হয়ে যায়", "mid": "sym-phosphorus-cold-drink-thirst-vomit-after-warm-stomach"},
+      {"text": "জল খেতে ইচ্ছা করে না, মুখ শুকনো থাকে", "mid": "sym-no-thirst-dry-mouth"},
+      {"text": "ঠান্ডা জল খেলে বমি হয় না, গরম জল খেলে বমি হয়", "mid": "sym-cold-water-no-vomit-warm-vomit"}
+    ],
+    "answer": "sym-phosphorus-cold-drink-thirst-vomit-after-warm-stomach",
+    "explanation": "Phosphorus এ প্রচুর ঠান্ডা জল বা বরফ খাওয়ার প্রবল ইচ্ছা থাকে, জল পাকস্থলীতে গিয়ে গরম হওয়ার সাথে সাথেই বমি হয়ে যায়।"
+  },
+  {
+    "id": "phosphorus-med-10",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "টক খাবার খাওয়ার ইচ্ছা, লবণ একদম পছন্দ করে না", "mid": "sym-sour-desire-salt-dislike"},
+      {"text": "মিষ্টি খেতে চায় না, শুধু ঝাল খেতে চায়", "mid": "sym-no-sweet-spicy-only"},
+      {"text": "কোনো খাবারের প্রতি বিশেষ ইচ্ছা থাকে না", "mid": "sym-no-food-desire"},
+      {"text": "মিষ্টি এবং নোনতা খাবার খাওয়ার ইচ্ছা", "mid": "sym-phosphorus-sweet-salty-desire"}
+    ],
+    "answer": "sym-phosphorus-sweet-salty-desire",
+    "explanation": "Phosphorus রোগীর মিষ্টি এবং নোনতা খাবার খাওয়ার ইচ্ছা থাকে।"
+  },
+  {
+    "id": "phosphorus-med-11",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামাজিক ও সহমর্মী, খুব মিশুক, অন্যের প্রতি সহানুভূতিশীল, নিজেও অন্যের সহানুভূতি ও সঙ্গ চায়", "mid": "sym-phosphorus-sociable-sympathetic-wants-sympathy-company"},
+      {"text": "একা থাকতে ভালো লাগে, কারো সাথে মিশতে চায় না", "mid": "sym-like-alone-no-mix"},
+      {"text": "অন্যের দুঃখে কোনো সহানুভূতি হয় না, নিজের কষ্টও কাউকে বলে না", "mid": "sym-no-sympathy-hide-sorrow"},
+      {"text": "সবার সাথে ঝগড়া করে, সহানুভূতি একদম পছন্দ করে না", "mid": "sym-quarrel-all-dislike-sympathy"}
+    ],
+    "answer": "sym-phosphorus-sociable-sympathetic-wants-sympathy-company",
+    "explanation": "Phosphorus রোগী খুব মিশুক এবং অন্যের প্রতি সহানুভূতিশীল, তবে সে নিজেও অন্যের সহানুভূতি এবং সঙ্গ চায়।"
+  },
+  {
+    "id": "phosphorus-med-12",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অন্ধকারে ভালো লাগে, বজ্রপাত দেখলে আনন্দ লাগে", "mid": "sym-dark-enjoy-thunder-joy"},
+      {"text": "অন্ধকারে কোনো ভয় লাগে না, বজ্রপাতে শান্ত থাকে", "mid": "sym-dark-no-fear-thunder-calm"},
+      {"text": "অন্ধকার ও বজ্রপাতে ভয়, অন্ধকার ও একাকী থাকতে ভয় পায়, বজ্রপাতের সময় অত্যন্ত আতঙ্কিত হয়ে পড়ে", "mid": "sym-phosphorus-fear-dark-thunderstorm-alone"},
+      {"text": "অন্ধকারে ভয় পায় কিন্তু বজ্রপাতে ভয় পায় না", "mid": "sym-dark-fear-thunder-no-fear"}
+    ],
+    "answer": "sym-phosphorus-fear-dark-thunderstorm-alone",
+    "explanation": "Phosphorus রোগী অন্ধকার এবং একাকী থাকতে ভয় পায়, বজ্রপাতের সময় অত্যন্ত আতঙ্কিত হয়ে পড়ে।"
+  },
+  {
+    "id": "phosphorus-med-13",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বুদ্ধি কম থাকে কিন্তু কখনো ক্লান্ত হয় না", "mid": "sym-low-intellect-never-tired"},
+      {"text": "অত্যন্ত বুদ্ধিমান ও উজ্জ্বল স্বভাব, তবে খুব দ্রুত ক্লান্ত হয়ে পড়ে", "mid": "sym-phosphorus-brilliant-intelligent-quick-tired"},
+      {"text": "বুদ্ধিমান কিন্তু ধীরে কাজ করে ও ক্লান্ত হয় না", "mid": "sym-intelligent-slow-never-tired"},
+      {"text": "উজ্জ্বল স্বভাব থাকে না, সবসময় মন খারাপ থাকে", "mid": "sym-no-bright-always-sad"}
+    ],
+    "answer": "sym-phosphorus-brilliant-intelligent-quick-tired",
+    "explanation": "Phosphorus রোগী অত্যন্ত বুদ্ধিমান এবং উজ্জ্বল স্বভাবের, তবে খুব দ্রুত ক্লান্ত হয়ে পড়ে।"
+  },
+  {
+    "id": "phosphorus-med-14",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চারপাশে সবকিছু স্পষ্ট দেখে, কোনো ছায়া দেখে না", "mid": "sym-see-clear-no-shadow"},
+      {"text": "ঘরের কোণে কেউ আছে বলে মনে হয় না", "mid": "sym-corner-no-one"},
+      {"text": "চোখে কম দেখে কিন্তু ছায়া দেখার অনুভূতি হয় না", "mid": "sym-poor-vision-no-shadow"},
+      {"text": "মনে হয় চারপাশে ছায়া দেখছে বা ঘরের কোণে কেউ দাঁড়িয়ে আছে", "mid": "sym-phosphorus-sees-shadows-someone-corner"}
+    ],
+    "answer": "sym-phosphorus-sees-shadows-someone-corner",
+    "explanation": "Phosphorus রোগীর মনে হয় চারপাশে ছায়া দেখছে বা ঘরের কোণে কেউ দাঁড়িয়ে আছে।"
+  },
+  {
+    "id": "phosphorus-med-15",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রোগ বাড়লে উদাসীন হয়ে পড়ে, কারো কথার উত্তর দিতে চায় না", "mid": "sym-phosphorus-indifferent-no-answer-worse"},
+      {"text": "রোগ বাড়লে আরো বেশি কথা বলে ও সবার উত্তর দেয়", "mid": "sym-worse-more-talk-answer-all"},
+      {"text": "রোগ বাড়লেও মন আনন্দে থাকে", "mid": "sym-worse-happy-mind"},
+      {"text": "রোগ বাড়লে সবাইকে ডেকে গল্প করতে চায়", "mid": "sym-worse-call-all-story"}
+    ],
+    "answer": "sym-phosphorus-indifferent-no-answer-worse",
+    "explanation": "Phosphorus এ রোগ বাড়লে রোগী উদাসীন হয়ে পড়ে এবং কারো কথার উত্তর দিতে চায় না।"
+  },
+  {
+    "id": "phosphorus-med-16",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথা ঘোরে না, সবসময় মাথা হালকা লাগে", "mid": "sym-no-vertigo-head-light"},
+      {"text": "মাথা ঘোরে শুধু ঘুমের মধ্যে", "mid": "sym-vertigo-sleep-only"},
+      {"text": "মাথা ঘোরা, বিশেষ করে শোয়া থেকে উঠলে বা আহারের পর, মনে হয় মস্তিষ্ক ক্লান্ত হয়ে গেছে", "mid": "sym-phosphorus-vertigo-rising-after-eating-brain-tired"},
+      {"text": "মাথা ঘোরে কিন্তু আহারের পর কমে যায়", "mid": "sym-vertigo-after-eating-less"}
+    ],
+    "answer": "sym-phosphorus-vertigo-rising-after-eating-brain-tired",
+    "explanation": "Phosphorus এ মাথা ঘোরা হয়, বিশেষ করে শোয়া থেকে উঠলে বা আহারের পর, মনে হয় মস্তিষ্ক ক্লান্ত হয়ে গেছে।"
+  },
+  {
+    "id": "phosphorus-med-17",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখে সবকিছু পরিষ্কার দেখে, কোনো কুয়াশা বা দাগ দেখে না", "mid": "sym-eye-clear-no-fog-spot"},
+      {"text": "চোখের সামনে কুয়াশা বা কালো দাগ দেখার মতো অনুভূতি, রেটিনার রক্তক্ষরণ রোধে কার্যকর", "mid": "sym-phosphorus-eye-fog-black-spot-retina-bleed"},
+      {"text": "চোখে আলো সহ্য হয় না কিন্তু কুয়াশা দেখে না", "mid": "sym-eye-photophobia-no-fog"},
+      {"text": "চোখ দিয়ে পানি পড়ে কিন্তু কুয়াশা দেখে না", "mid": "sym-eye-water-no-fog"}
+    ],
+    "answer": "sym-phosphorus-eye-fog-black-spot-retina-bleed",
+    "explanation": "Phosphorus এ চোখের সামনে কুয়াশা বা কালো দাগ দেখার মতো অনুভূতি হয়, রেটিনার রক্তক্ষরণ রোধে এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "phosphorus-med-18",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ফুসফুসের কোনো রোগের প্রবণতা নেই, কাশি হলে বুকে আরাম লাগে", "mid": "sym-no-lung-tendency-cough-relief"},
+      {"text": "কাশি হলে বুকে কোনো ভারবোধ বা জ্বালা থাকে না", "mid": "sym-cough-no-heaviness-burn"},
+      {"text": "শুধু সর্দির প্রবণতা থাকে, যক্ষ্মার প্রবণতা থাকে না", "mid": "sym-coryza-only-no-tb"},
+      {"text": "যক্ষ্মা বা নিউমোনিয়ার প্রবণতা, কাশির সময় বুকে ভারবোধ ও জ্বালা থাকে", "mid": "sym-phosphorus-tb-pneumonia-tendency-cough-chest-heaviness-burn"}
+    ],
+    "answer": "sym-phosphorus-tb-pneumonia-tendency-cough-chest-heaviness-burn",
+    "explanation": "Phosphorus এ যক্ষ্মা বা নিউমোনিয়ার প্রবণতা থাকে, কাশির সময় বুকে ভারবোধ এবং জ্বালা থাকে।"
+  },
+  {
+    "id": "phosphorus-med-19",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোয়ালের হাড়ের ক্ষয়, হাড়ের আবরক ঝিল্লির প্রদাহ", "mid": "sym-phosphorus-jaw-necrosis-periostitis"},
+      {"text": "চোয়ালের হাড় শক্ত থাকে, কোনো ক্ষয় হয় না", "mid": "sym-jaw-strong-no-decay"},
+      {"text": "হাড়ে কোনো প্রদাহ হয় না, শুধু পেশিতে ব্যথা হয়", "mid": "sym-bone-no-inflammation-muscle-only"},
+      {"text": "হাড় মোটা হয়ে যায় ও শক্ত হয়ে যায়", "mid": "sym-bone-thick-hard"}
+    ],
+    "answer": "sym-phosphorus-jaw-necrosis-periostitis",
+    "explanation": "Phosphorus এ চোয়ালের হাড়ের ক্ষয় হয়, হাড়ের আবরক ঝিল্লির প্রদাহ হয়।"
+  },
+  {
+    "id": "phosphorus-med-20",
+    "stem": "নিচের কোনটি Phosphorus এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকালে, ডান পাশে শুলে, গরম খাবারে বৃদ্ধি, বাম পাশে শুলে উপশম", "mid": "sym-morning-right-lying-warm-agg-left-amel"},
+      {"text": "বজ্রপাতে উপশম, আবহাওয়া পরিবর্তনে উপশম", "mid": "sym-thunder-amel-weather-change-amel"},
+      {"text": "সন্ধ্যায়, বাম পাশে শুলে, বজ্রপাতের সময়, আবহাওয়ার পরিবর্তনে ও গরম খাবার বা পানীয় গ্রহণ করলে বৃদ্ধি, ডান পাশে শুলে, অন্ধকার ঘরে বিশ্রামে, ঠান্ডা জল পানে ও ঘুমের পর উপশম", "mid": "sym-phosphorus-agg-evening-left-thunder-weather-warm-amel-right-dark-cold-sleep"},
+      {"text": "ঠান্ডা জল পানে বৃদ্ধি, ঘুমের পর বৃদ্ধি", "mid": "sym-cold-water-agg-sleep-agg"}
+    ],
+    "answer": "sym-phosphorus-agg-evening-left-thunder-weather-warm-amel-right-dark-cold-sleep",
+    "explanation": "Phosphorus এ সন্ধ্যায়, বাম পাশে শুলে, বজ্রপাতের সময়, আবহাওয়ার পরিবর্তনে এবং গরম খাবার বা পানীয় গ্রহণ করলে বৃদ্ধি হয়, ডান পাশে শুলে, অন্ধকার ঘরে বিশ্রামে, ঠান্ডা জল পানে এবং ঘুমের পর উপশম হয়।"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "colocynthis-med-01",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ শুষ্ক গরম জ্বর আসা", "mid": "sym-acon-fear-fever"},
+      {"text": "রাগ বা অপমানের ফলে ব্যথা", "mid": "sym-colocynthis-anger-indignation-pain"},
+      {"text": "মিষ্টি খেতে প্রবল ইচ্ছা ও ঠান্ডা পানি খেলেই বমি হওয়া", "mid": "sym-phos-sweet-vomit"},
+      {"text": "পায়ে জ্বালাপোড়া, রাতে বিছানা থেকে পা বের করে রাখা", "mid": "sym-sulph-burning-feet"}
+    ],
+    "answer": "sym-colocynthis-anger-indignation-pain",
+    "explanation": "Colocynthis এ প্রচণ্ড রাগ বা অপমানিত হওয়ার ফলে পেটে ব্যথা বা অন্য উপসর্গ দেখা দেয়।"
+  },
+  {
+    "id": "colocynthis-med-02",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হালকা চিনচিনে ব্যথা, নড়াচড়ায় বাড়া", "mid": "sym-mild-pricking-pain"},
+      {"text": "ব্যথা ধীরে ধীরে আসে, ধীরে ধীরে যায়", "mid": "sym-pain-slow-come-go"},
+      {"text": "ব্যথা শুধু রাতে হয়, দিনে থাকে না", "mid": "sym-pain-night-only"},
+      {"text": "ভয়ানক শূল ব্যথা, কেটে ফেলার মতো ব্যথা", "mid": "sym-colocynthis-cutting-colic-pain"}
+    ],
+    "answer": "sym-colocynthis-cutting-colic-pain",
+    "explanation": "Colocynthis এ ভয়ানক শূল ব্যথা হয়, কেটে ফেলার মতো ব্যথা অনুভূত হয়।"
+  },
+  {
+    "id": "colocynthis-med-03",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যন্ত্রণায় মুখ পাংশু হয়ে যাওয়া ও ব্যথায় রোগী দ্বিভাজ হয়ে যাওয়া", "mid": "sym-colocynthis-pale-face-bend-double"},
+      {"text": "যন্ত্রণায় মুখ লাল হয়ে যাওয়া ও সোজা হয়ে শোয়া", "mid": "sym-pain-red-face-straight"},
+      {"text": "ব্যথায় রোগী পেছন দিকে বেঁকে শোয়া", "mid": "sym-dioscorea-bend-backward"},
+      {"text": "ব্যথায় রোগী দৌড়াদৌড়ি করা ও চিৎকার করা", "mid": "sym-pain-run-shout"}
+    ],
+    "answer": "sym-colocynthis-pale-face-bend-double",
+    "explanation": "Colocynthis এ যন্ত্রণায় মুখ পাংশু হয়ে যায়, বেদনায় রোগী দ্বিভাজ হয়ে যায়।"
+  },
+  {
+    "id": "colocynthis-med-04",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরের ভিতরে বাইরে ফুলে যাওয়ার অনুভূতি", "mid": "sym-body-swelling-feeling"},
+      {"text": "শরীরে সুড়সুড়ি দেওয়ার অনুভূতি", "mid": "sym-body-tickling"},
+      {"text": "শরীরের ভিতরে বাইরে সংকোচন অনুভূতি", "mid": "sym-colocynthis-constriction-inside-outside"},
+      {"text": "শরীরে জ্বালাপোড়ার অনুভূতি", "mid": "sym-body-burning-feeling"}
+    ],
+    "answer": "sym-colocynthis-constriction-inside-outside",
+    "explanation": "Colocynthis এ শরীরের ভিতরে, বাইরে সংকোচন অনুভূতি হয়।"
+  },
+  {
+    "id": "colocynthis-med-05",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথায় শুরু থেকেই চাপ দিলে অসহ্য লাগা", "mid": "sym-pain-pressure-intolerable-start"},
+      {"text": "ব্যথার প্রথম অবস্থায় চাপ দিলে উপশম, অনেকদিন হলে চাপ দিলে অসহ্য লাগা", "mid": "sym-colocynthis-early-pressure-relief-late-intolerable"},
+      {"text": "ব্যথায় চাপ দিলে কখনোই কোনো পরিবর্তন না হওয়া", "mid": "sym-pressure-no-change"},
+      {"text": "ব্যথায় হালকা স্পর্শে উপশম, জোরে চাপে বৃদ্ধি", "mid": "sym-light-touch-relief-hard-worse"}
+    ],
+    "answer": "sym-colocynthis-early-pressure-relief-late-intolerable",
+    "explanation": "Colocynthis এ ব্যথার প্রথম অবস্থায় চাপ দিলে উপশম হয়, অনেকদিন হলে চাপ দিলে অসহ্য লাগে।"
+  },
+  {
+    "id": "colocynthis-med-06",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আহারের পর উপশম, মুখের স্বাদ মিষ্টি লাগা", "mid": "sym-eat-relief-sweet-taste"},
+      {"text": "খালি পেটে বৃদ্ধি, খেলে উপশম", "mid": "sym-empty-stomach-agg-eat-relief"},
+      {"text": "আহারের পর কোনো পরিবর্তন না হওয়া", "mid": "sym-eat-no-change"},
+      {"text": "আহারের পর বৃদ্ধি, মুখের স্বাদ তিতা লাগা", "mid": "sym-colocynthis-after-eat-agg-bitter-taste"}
+    ],
+    "answer": "sym-colocynthis-after-eat-agg-bitter-taste",
+    "explanation": "Colocynthis এ আহারের পর বৃদ্ধি হয়, মুখের স্বাদ তিতা লাগে।"
+  },
+  {
+    "id": "colocynthis-med-07",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথা সাধারণত 4 থেকে 9 দিন থাকে", "mid": "sym-colocynthis-pain-4-to-9-days"},
+      {"text": "ব্যথা কয়েক মিনিট থাকে, তারপর সম্পূর্ণ সেরে যায়", "mid": "sym-pain-minutes-gone"},
+      {"text": "ব্যথা সারাজীবন একটানা থাকে, কখনো কমে না", "mid": "sym-pain-lifelong-constant"},
+      {"text": "ব্যথা শুধু একদিন থাকে, পরদিন আর আসে না", "mid": "sym-pain-one-day-only"}
+    ],
+    "answer": "sym-colocynthis-pain-4-to-9-days",
+    "explanation": "Colocynthis এ ব্যথা সাধারণত 4 থেকে 9 দিন থাকে।"
+  },
+  {
+    "id": "colocynthis-med-08",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জোরে চাপে বৃদ্ধি, হালকা স্পর্শে উপশম", "mid": "sym-hard-pressure-worse-light-relief"},
+      {"text": "চাপ দিলে কোনো পরিবর্তন না হওয়া", "mid": "sym-pressure-no-change"},
+      {"text": "জোরে চাপে উপশম", "mid": "sym-colocynthis-hard-pressure-relief"},
+      {"text": "স্পর্শ করলেই উপশম, চাপ দিলেই ব্যথা", "mid": "sym-touch-relief-pressure-pain"}
+    ],
+    "answer": "sym-colocynthis-hard-pressure-relief",
+    "explanation": "Colocynthis এ যন্ত্রণার স্থানে জোরে চাপ দিলে রোগী আরাম বোধ করে।"
+  },
+  {
+    "id": "colocynthis-med-09",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডান দিকের সায়াটিকা, হিপ থেকে পা পর্যন্ত জ্বালা", "mid": "sym-right-sciatica-burning"},
+      {"text": "বাম দিকের সায়াটিকা, হিপ থেকে পা পর্যন্ত লোহার শিকল দিয়ে কষে বাঁধার মতো অনুভূতি", "mid": "sym-colocynthis-left-sciatica-iron-chain"},
+      {"text": "দুই পায়ে একসাথে সমান ব্যথা ও ফোলা", "mid": "sym-both-legs-equal-pain-swelling"},
+      {"text": "সায়াটিকায় হাঁটলে উপশম, বসলে বৃদ্ধি", "mid": "sym-sciatica-walk-relief-sit-worse"}
+    ],
+    "answer": "sym-colocynthis-left-sciatica-iron-chain",
+    "explanation": "Colocynthis এ বিশেষ করে বাম দিকের সায়াটিকা হয়, মনে হয় হিপ জয়েন্ট থেকে পায়ের নিচ পর্যন্ত লোহার শিকল দিয়ে কষে বাঁধা আছে।"
+  },
+  {
+    "id": "colocynthis-med-10",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথা ধীরে ধীরে বাড়ে ও ঘণ্টার পর ঘণ্টা থাকে", "mid": "sym-pain-slow-hours"},
+      {"text": "ব্যথা সবসময় একই তীব্রতায় স্থির থাকে", "mid": "sym-pain-constant-same"},
+      {"text": "ব্যথা শুধু ঘুমের মধ্যে আসে, জেগে থাকলে থাকে না", "mid": "sym-pain-sleep-only"},
+      {"text": "আক্ষেপিক বেদনা, হঠাৎ তীব্র খিঁচুনির মতো ব্যথা, হঠাৎ চলে যাওয়া", "mid": "sym-colocynthis-cramping-sudden-come-go"}
+    ],
+    "answer": "sym-colocynthis-cramping-sudden-come-go",
+    "explanation": "Colocynthis এ হঠাৎ তীব্র খিঁচুনির মতো আক্ষেপিক ব্যথা হয় এবং হঠাৎ করেই চলে যায়।"
+  },
+  {
+    "id": "colocynthis-med-11",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খিটখিটে ও রাগী মেজাজ, সামান্য বিরুদ্ধাচরণে প্রচণ্ড রেগে যাওয়া", "mid": "sym-colocynthis-irritable-angry-contradiction"},
+      {"text": "সবসময় হাসিখুশি থাকা ও সবকিছু মনে রাখা", "mid": "sym-cheerful-good-memory"},
+      {"text": "তোতলানো ও কথা বলতে গিয়ে আটকে যাওয়া", "mid": "sym-stramonium-stammer"},
+      {"text": "অতিরিক্ত সাহসী হওয়া ও বিপদকে ভয় না পাওয়া", "mid": "sym-opium-fearless"}
+    ],
+    "answer": "sym-colocynthis-irritable-angry-contradiction",
+    "explanation": "Colocynthis রোগী অত্যন্ত খিটখিটে এবং রাগী মেজাজের হয়, সামান্য বিরুদ্ধাচরণ করলে প্রচণ্ড রেগে যায়।"
+  },
+  {
+    "id": "colocynthis-med-12",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবার সাথে কথা বলতে চাওয়া ও গল্প করতে ভালো লাগা", "mid": "sym-talk-all-enjoy"},
+      {"text": "প্রশ্ন করলে হেসে উত্তর দেওয়া ও খুশি থাকা", "mid": "sym-answer-smiling"},
+      {"text": "কারো সাথে কথা বলতে না চাওয়া, উত্তর দিতে গেলে মেজাজ দেখানো", "mid": "sym-colocynthis-no-talk-answer-angry"},
+      {"text": "একা থাকতে ভয় পাওয়া ও সবসময় সঙ্গী চাওয়া", "mid": "sym-alone-fear-companion"}
+    ],
+    "answer": "sym-colocynthis-no-talk-answer-angry",
+    "explanation": "Colocynthis রোগী কারো সাথে কথা বলতে চায় না এবং উত্তর দিতে গেলে মেজাজ দেখায়।"
+  },
+  {
+    "id": "colocynthis-med-13",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মনের ভেতরে কোনো ক্ষোভ না থাকা, সব ভুলে যাওয়া", "mid": "sym-no-grudge-forget"},
+      {"text": "মনের ভেতরে ক্ষোভ বা চাপা অপমানবোধ", "mid": "sym-colocynthis-grudge-mortification"},
+      {"text": "অপমানিত হলে হেসে উড়িয়ে দেওয়া", "mid": "sym-insult-laugh-off"},
+      {"text": "সবার প্রশংসা পেতে চাওয়া ও অহংকার করা", "mid": "sym-praise-pride"}
+    ],
+    "answer": "sym-colocynthis-grudge-mortification",
+    "explanation": "Colocynthis এ মনের ভেতরে এক প্রকার ক্ষোভ বা চাপা অপমানবোধ রোগীকে শারীরিক ও মানসিকভাবে অস্থির করে তোলে।"
+  },
+  {
+    "id": "colocynthis-med-14",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেটে বায়ু না জমা, পেট সম্পূর্ণ হালকা থাকা", "mid": "sym-no-gas-light-belly"},
+      {"text": "পেটে ব্যথা হলে বায়ু ত্যাগ করলেই সম্পূর্ণ সেরে যাওয়া", "mid": "sym-gas-pass-full-cure"},
+      {"text": "পেটে ব্যথা ছাড়াই শুধু পেট ফাঁপা থাকা", "mid": "sym-belly-only-no-pain"},
+      {"text": "পেটে প্রচুর বায়ু জমে আক্ষেপিক ব্যথা, নাড়িভুঁড়ি জোরে নিংড়াচ্ছে বা পাথর দিয়ে ঘষছে মনে হওয়া", "mid": "sym-colocynthis-gas-cramp-wringing"}
+    ],
+    "answer": "sym-colocynthis-gas-cramp-wringing",
+    "explanation": "Colocynthis এ পেটে প্রচুর বায়ু জমে আক্ষেপিক ব্যথা হয়, মনে হয় নাড়িভুঁড়ি কেউ জোরে নিংড়াচ্ছে বা পাথর দিয়ে ঘষছে।"
+  },
+  {
+    "id": "colocynthis-med-15",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডিম্বাশয়ে তীব্র ব্যথা, রোগী কুঁকড়ে যায়, ঋতুস্রাব চলাকালীন পেটে যন্ত্রণা", "mid": "sym-colocynthis-ovary-pain-doubled-menses"},
+      {"text": "ডিম্বাশয়ে কোনো ব্যথা না থাকা, শুধু কোমরে ব্যথা", "mid": "sym-ovary-no-pain-back-only"},
+      {"text": "ঋতুস্রাবের সময় পেটে কোনো ব্যথা না হওয়া", "mid": "sym-menses-no-belly-pain"},
+      {"text": "ঋতুস্রাবের আগে শুধু মাথাব্যথা ও বমি হওয়া", "mid": "sym-menses-headache-vomit"}
+    ],
+    "answer": "sym-colocynthis-ovary-pain-doubled-menses",
+    "explanation": "Colocynthis এ ডিম্বাশয়ে তীব্র ব্যথা হয়, যার ফলে রোগী কুঁকড়ে যায়, ঋতুস্রাব চলাকালীন পেটে যন্ত্রণায় এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "colocynthis-med-16",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডান পাশের স্নায়বিক ব্যথা, অঙ্গ গরম লাগা", "mid": "sym-right-nerve-pain-warm"},
+      {"text": "স্নায়বিক ব্যথায় অঙ্গ শক্ত হয়ে যাওয়া ও নড়তে না পারা", "mid": "sym-nerve-pain-stiff"},
+      {"text": "বাম পাশের স্নায়বিক ব্যথা, যন্ত্রণার সাথে অঙ্গ অবশ হওয়ার অনুভূতি", "mid": "sym-colocynthis-left-nerve-pain-numb"},
+      {"text": "স্নায়বিক ব্যথা ছাড়াই শুধু অঙ্গ অবশ লাগা", "mid": "sym-nerve-no-pain-only-numb"}
+    ],
+    "answer": "sym-colocynthis-left-nerve-pain-numb",
+    "explanation": "Colocynthis মূলত বাম পাশের স্নায়বিক ব্যথায় কাজ করে, যন্ত্রণার সাথে অঙ্গটি অবশ হওয়ার অনুভূতি থাকতে পারে।"
+  },
+  {
+    "id": "colocynthis-med-17",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আমাশয়ের সাথে পেট ব্যথা মলত্যাগের পর সম্পূর্ণ কমে যাওয়া", "mid": "sym-dysentery-stool-relief"},
+      {"text": "আমাশয়ের সাথে প্রচণ্ড পেট ব্যথা যা মলত্যাগের পর বাড়ে", "mid": "sym-colocynthis-dysentery-pain-after-stool"},
+      {"text": "আমাশয় ছাড়া শুধু পেট ব্যথা হওয়া", "mid": "sym-no-dysentery-only-pain"},
+      {"text": "মলত্যাগের পর আরাম লাগা ও কোনো ব্যথা না থাকা", "mid": "sym-stool-complete-relief"}
+    ],
+    "answer": "sym-colocynthis-dysentery-pain-after-stool",
+    "explanation": "Colocynthis এ আমাশয়ের সাথে প্রচণ্ড পেট ব্যথা হয় যা মলত্যাগের পর বাড়ে।"
+  },
+  {
+    "id": "colocynthis-med-18",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রস্রাব পরিষ্কার, স্বাভাবিক গন্ধযুক্ত ও পাতলা", "mid": "sym-urine-clear-normal"},
+      {"text": "প্রস্রাবে রক্ত যাওয়া ও জ্বালাপোড়া করা", "mid": "sym-urine-blood-burn"},
+      {"text": "প্রস্রাব একদম বন্ধ হয়ে যাওয়া", "mid": "sym-urine-stopped"},
+      {"text": "প্রস্রাব দুর্গন্ধযুক্ত ও চটচটে হওয়া", "mid": "sym-colocynthis-urine-foul-sticky"}
+    ],
+    "answer": "sym-colocynthis-urine-foul-sticky",
+    "explanation": "Colocynthis এ প্রস্রাব দুর্গন্ধযুক্ত এবং চটচটে হতে পারে।"
+  },
+  {
+    "id": "colocynthis-med-19",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাগে, খাবার পর বিশেষ করে পনির বা ফল খেলে, বিকেল 4টের দিকে ও বিশ্রামে বৃদ্ধি", "mid": "sym-colocynthis-agg-anger-eat-cheese-fruit-4pm-rest"},
+      {"text": "গরমে ও রোদে বৃদ্ধি, ঠান্ডায় উপশম হওয়া", "mid": "sym-pulsatilla-agg-heat"},
+      {"text": "বিশ্রামে উপশম, নড়াচড়ায় বৃদ্ধি", "mid": "sym-rest-relief-motion-worse"},
+      {"text": "শুধু দুপুরে বৃদ্ধি, রাতে উপশম হওয়া", "mid": "sym-nux-agg-noon"}
+    ],
+    "answer": "sym-colocynthis-agg-anger-eat-cheese-fruit-4pm-rest",
+    "explanation": "Colocynthis এ রাগের ফলে, খাবার পর বিশেষ করে পনির বা ফল খেলে, বিকেল 4টের দিকে এবং বিশ্রামে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "colocynthis-med-20",
+    "stem": "নিচের কোনটি Colocynthis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা বাতাসে উপশম ও গরম ঘরে বৃদ্ধি হওয়া", "mid": "sym-pulsatilla-amel-coldair"},
+      {"text": "ঠান্ডা পানি দিলে উপশম ও গরমে বৃদ্ধি হওয়া", "mid": "sym-ars-amel-coldwater"},
+      {"text": "সামনে ঝুঁকে দ্বিভাঁজ হয়ে শুলে, জোরে চাপে, গরমে ও কফি পান করলে উপশম", "mid": "sym-colocynthis-amel-bend-double-pressure-heat-coffee"},
+      {"text": "পেছন দিকে বেঁকে শুলে উপশম, সামনে ঝুঁকলে বৃদ্ধি", "mid": "sym-dioscorea-bend-back-relief"}
+    ],
+    "answer": "sym-colocynthis-amel-bend-double-pressure-heat-coffee",
+    "explanation": "Colocynthis এ সামনের দিকে ঝুঁকে দ্বিভাঁজ হয়ে শুলে, জোরে চাপে, গরমে এবং কফি পান করলে উপশম হয়।"
+  }
+]

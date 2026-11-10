@@ -1,0 +1,484 @@
+
+[
+  {
+    "id": "ipecac-med-01",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অনবরত বমি ভাব, যা বমি হওয়ার পরেও কমে না।",
+        "mid": "persistent_nausea_not_relieved_by_vomiting"
+      },
+      {
+        "text": "বমি ভাব শুধুমাত্র সকালে, যা বমি হলে উপশম হয়।",
+        "mid": "morning_nausea_relieved_by_vomiting"
+      },
+      {
+        "text": "বমি ভাবের সাথে তীব্র পিপাসা।",
+        "mid": "nausea_with_intense_thirst"
+      },
+      {
+        "text": "বমি ভাব ছাড়া শুধুমাত্র পেটে ব্যথা।",
+        "mid": "abdominal_pain_without_nausea"
+      }
+    ],
+    "answer": "persistent_nausea_not_relieved_by_vomiting",
+    "explanation": "Ipecac-এর প্রধানতম লক্ষণ হলো অনবরত বমি ভাব (Persistent Nausea), যা বমি হওয়ার পরেও কমে না।"
+  },
+  {
+    "id": "ipecac-med-02",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রচণ্ড বমি ভাব বা পেটের অসুখ থাকা সত্ত্বেও জিহ্বা একদম পরিষ্কার থাকে।",
+        "mid": "clean_tongue_despite_nausea"
+      },
+      {
+        "text": "জিহ্বা মোটা সাদা প্রলেপে ঢাকা থাকে।",
+        "mid": "thick_white_coated_tongue"
+      },
+      {
+        "text": "জিহ্বা লাল, শুকনো এবং ফাটা।",
+        "mid": "red_dry_cracked_tongue"
+      },
+      {
+        "text": "জিহ্বায় হলুদ আস্তরণ থাকে।",
+        "mid": "yellow_coated_tongue"
+      }
+    ],
+    "answer": "clean_tongue_despite_nausea",
+    "explanation": "Ipecac-এ প্রচণ্ড বমি ভাব বা পেটের অসুখ থাকা সত্ত্বেও রোগীর জিহ্বা সাধারণত পরিষ্কার থাকে (Clean Tongue)।"
+  },
+  {
+    "id": "ipecac-med-03",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "যেকোনো দ্বার দিয়ে উজ্জ্বল লাল বর্ণের এবং প্রচুর রক্তপাত হওয়া।",
+        "mid": "bright_red_gushing_hemorrhage"
+      },
+      {
+        "text": "কালচে, জমাট বাঁধা রক্তপাত।",
+        "mid": "dark_clotted_bleeding"
+      },
+      {
+        "text": "সামান্য পরিমাণে রক্তপাত।",
+        "mid": "scanty_bleeding"
+      },
+      {
+        "text": "শুধুমাত্র নাক দিয়ে রক্তপাত।",
+        "mid": "nosebleed_only"
+      }
+    ],
+    "answer": "bright_red_gushing_hemorrhage",
+    "explanation": "Ipecac-এ যেকোনো দ্বার দিয়ে উজ্জ্বল লাল বর্ণের এবং প্রচুর রক্তপাত (Bright red, gushing blood) হয়।"
+  },
+  {
+    "id": "ipecac-med-04",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "অসুস্থ অবস্থায় বা জ্বরের সময় রোগীর একদম পিপাসা থাকে না।",
+        "mid": "absence_of_thirst_during_illness"
+      },
+      {
+        "text": "অসুস্থ অবস্থায় প্রচণ্ড পিপাসা থাকে।",
+        "mid": "intense_thirst_during_illness"
+      },
+      {
+        "text": "শুধুমাত্র গরম পানীয় পান করার ইচ্ছা।",
+        "mid": "desire_for_hot_drinks_only"
+      },
+      {
+        "text": "শুধুমাত্র ঠান্ডা পানীয় পান করার ইচ্ছা।",
+        "mid": "desire_for_cold_drinks_only"
+      }
+    ],
+    "answer": "absence_of_thirst_during_illness",
+    "explanation": "Ipecac-এ অসুস্থ অবস্থায় বা জ্বরের সময় রোগীর একদম পিপাসা থাকে না।"
+  },
+  {
+    "id": "ipecac-med-05",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কাশতে কাশতে রোগী নীল হয়ে যায় এবং দম বন্ধ হওয়ার মতো অবস্থা হয়।",
+        "mid": "suffocative_cough_turns_blue"
+      },
+      {
+        "text": "শুকনো কাশি, যা রাতে বাড়ে।",
+        "mid": "dry_cough_worse_at_night"
+      },
+      {
+        "text": "কাশির সাথে কফ সহজে বের হয়।",
+        "mid": "easy_expectoration_with_cough"
+      },
+      {
+        "text": "শুধুমাত্র সকালে কাশি হয়।",
+        "mid": "morning_cough_only"
+      }
+    ],
+    "answer": "suffocative_cough_turns_blue",
+    "explanation": "Ipecac-এ দমবন্ধ করা কাশি (Suffocative Cough) হয়; কাশতে কাশতে রোগী নীল হয়ে যায় এবং দম বন্ধ হওয়ার মতো অবস্থা হয়।"
+  },
+  {
+    "id": "ipecac-med-06",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অত্যন্ত খিটখিটে মেজাজের হয় এবং সবকিছুতেই বিরক্তি প্রকাশ করে।",
+        "mid": "irritable_and_discontented"
+      },
+      {
+        "text": "রোগী অতিরিক্ত শান্ত ও ধৈর্যশীল থাকে।",
+        "mid": "calm_and_patient"
+      },
+      {
+        "text": "রোগী হাসিখুশি ও প্রফুল্ল থাকে।",
+        "mid": "cheerful_and_happy"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ নির্বিকার ও উদাসীন।",
+        "mid": "apathetic_indifferent"
+      }
+    ],
+    "answer": "irritable_and_discontented",
+    "explanation": "Ipecac-এর মানসিক লক্ষণে রোগী অত্যন্ত খিটখিটে মেজাজের হয় এবং সবকিছুতেই বিরক্তি প্রকাশ করে।"
+  },
+  {
+    "id": "ipecac-med-07",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী কী চায় তা সে নিজেই জানে না; একটার পর একটা জিনিসের বায়না ধরে কিন্তু হাতে পেলে তা প্রত্যাখ্যান করে।",
+        "mid": "wants_things_then_rejects_them"
+      },
+      {
+        "text": "রোগী যা চায় তা তৎক্ষণাৎ পেতে চায় এবং পেলে খুশি হয়।",
+        "mid": "wants_things_immediately_and_is_happy"
+      },
+      {
+        "text": "রোগীর কোনো ইচ্ছাই জাগে না।",
+        "mid": "no_desires_at_all"
+      },
+      {
+        "text": "রোগী শুধুমাত্র মিষ্টি জিনিস চায়।",
+        "mid": "desires_only_sweets"
+      }
+    ],
+    "answer": "wants_things_then_rejects_them",
+    "explanation": "Ipecac-এ রোগী কী চায় তা সে নিজেই জানে না; একটার পর একটা জিনিসের বায়না ধরে কিন্তু হাতে পেলে তা প্রত্যাখ্যান করে।"
+  },
+  {
+    "id": "ipecac-med-08",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পাকস্থলীতে মনে হয় যেন নিচের দিকে ঝুলে পড়েছে।",
+        "mid": "relaxed_feeling_in_stomach"
+      },
+      {
+        "text": "পাকস্থলীতে তীব্র জ্বালাপোড়া হয়।",
+        "mid": "burning_in_stomach"
+      },
+      {
+        "text": "পাকস্থলী শক্ত হয়ে যায়।",
+        "mid": "hardness_of_stomach"
+      },
+      {
+        "text": "পাকস্থলীতে কোনো অনুভূতি হয় না।",
+        "mid": "no_sensation_in_stomach"
+      }
+    ],
+    "answer": "relaxed_feeling_in_stomach",
+    "explanation": "Ipecac-এ পাকস্থলীতে মনে হয় যেন নিচের দিকে ঝুলে পড়েছে (Relaxed feeling in the stomach)।"
+  },
+  {
+    "id": "ipecac-med-09",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "বুকে প্রচুর শ্লেষ্মা বা কফ জমে থাকে, যার ফলে ঘড়ঘড় শব্দ হয় কিন্তু কফ সহজে ওঠে না।",
+        "mid": "chest_mucus_rattling_difficult_expectoration"
+      },
+      {
+        "text": "বুকে কোনো শ্লেষ্মা জমে না।",
+        "mid": "no_mucus_in_chest"
+      },
+      {
+        "text": "কফ সহজে এবং প্রচুর পরিমাণে বের হয়।",
+        "mid": "easy_profuse_expectoration"
+      },
+      {
+        "text": "শুধুমাত্র শুকনো কাশি, কোনো কফ নেই।",
+        "mid": "dry_cough_no_sputum"
+      }
+    ],
+    "answer": "chest_mucus_rattling_difficult_expectoration",
+    "explanation": "Ipecac-এ বুকে প্রচুর শ্লেষ্মা বা কফ জমে থাকে, যার ফলে ঘড়ঘড় শব্দ হয় কিন্তু কফ সহজে ওঠে না।"
+  },
+  {
+    "id": "ipecac-med-10",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মল উজ্জ্বল সবুজ রঙের (ঘাসের মতো সবুজ), গাঁজানো বা ফেনা যুক্ত।",
+        "mid": "bright_green_fermented_frothy_stool"
+      },
+      {
+        "text": "মল শুষ্ক এবং কঠিন।",
+        "mid": "dry_hard_stool"
+      },
+      {
+        "text": "মল কালচে এবং জমাট বাঁধা।",
+        "mid": "dark_clotted_stool"
+      },
+      {
+        "text": "মলে অপরিপক্ক খাদ্যকণা থাকে।",
+        "mid": "undigested_food_in_stool"
+      }
+    ],
+    "answer": "bright_green_fermented_frothy_stool",
+    "explanation": "Ipecac-এ মল উজ্জ্বল সবুজ রঙের (ঘাসের মতো সবুজ), গাঁজানো বা ফেনা যুক্ত হয়।"
+  },
+  {
+    "id": "ipecac-med-11",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শিশুদের দাঁত ওঠার সময়কালীন ডায়রিয়া।",
+        "mid": "diarrhea_during_teething"
+      },
+      {
+        "text": "শিশুদের দাঁত ওঠার সময় কোষ্ঠকাঠিন্য।",
+        "mid": "constipation_during_teething"
+      },
+      {
+        "text": "দাঁত ওঠার সময় জ্বর।",
+        "mid": "fever_during_teething"
+      },
+      {
+        "text": "দাঁত ওঠার সময় কোনো সমস্যা হয় না।",
+        "mid": "no_problem_during_teething"
+      }
+    ],
+    "answer": "diarrhea_during_teething",
+    "explanation": "Ipecac শিশুদের দাঁত ওঠার সময়কালীন ডায়রিয়ায় কার্যকর।"
+  },
+  {
+    "id": "ipecac-med-12",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সবিরাম জ্বর বা ম্যালেরিয়া যেখানে প্রতিটি অবস্থায় বমি ভাব প্রধান লক্ষণ হিসেবে থাকে।",
+        "mid": "intermittent_fever_with_nausea"
+      },
+      {
+        "text": "জ্বর যেখানে কোনো বমি ভাব নেই।",
+        "mid": "fever_without_nausea"
+      },
+      {
+        "text": "শুধুমাত্র সন্ধ্যায় জ্বর হয়।",
+        "mid": "evening_fever_only"
+      },
+      {
+        "text": "জ্বরের সাথে তীব্র পিপাসা।",
+        "mid": "fever_with_intense_thirst"
+      }
+    ],
+    "answer": "intermittent_fever_with_nausea",
+    "explanation": "Ipecac-এ সবিরাম জ্বর বা ম্যালেরিয়া হয় যেখানে প্রতিটি অবস্থায় বমি ভাব প্রধান লক্ষণ হিসেবে থাকে।"
+  },
+  {
+    "id": "ipecac-med-13",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "খাবারের গন্ধে বমি ভাব বৃদ্ধি পায়।",
+        "mid": "aggravation_from_smell_of_food"
+      },
+      {
+        "text": "খাবারের গন্ধে বমি ভাব কমে।",
+        "mid": "amelioration_from_smell_of_food"
+      },
+      {
+        "text": "খাবারের গন্ধে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_food_smell"
+      },
+      {
+        "text": "শুধুমাত্র মিষ্টি গন্ধে বমি ভাব হয়।",
+        "mid": "nausea_only_from_sweet_smell"
+      }
+    ],
+    "answer": "aggravation_from_smell_of_food",
+    "explanation": "Ipecac-এর লক্ষণ খাবারের গন্ধে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ipecac-med-14",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "তামাকের গন্ধে লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_from_smell_of_tobacco"
+      },
+      {
+        "text": "তামাকের গন্ধে লক্ষণ উপশম হয়।",
+        "mid": "amelioration_from_smell_of_tobacco"
+      },
+      {
+        "text": "তামাকের গন্ধে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_tobacco_smell"
+      },
+      {
+        "text": "শুধুমাত্র তামাকের গন্ধে কাশি হয়।",
+        "mid": "cough_only_from_tobacco_smell"
+      }
+    ],
+    "answer": "aggravation_from_smell_of_tobacco",
+    "explanation": "Ipecac-এর লক্ষণ তামাকের গন্ধে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ipecac-med-15",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "আর্দ্র গরম আবহাওয়ায় লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_in_damp_hot_weather"
+      },
+      {
+        "text": "শুষ্ক ঠান্ডা আবহাওয়ায় লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_in_dry_cold_weather"
+      },
+      {
+        "text": "আর্দ্র গরম আবহাওয়ায় লক্ষণ উপশম হয়।",
+        "mid": "amelioration_in_damp_hot_weather"
+      },
+      {
+        "text": "আবহাওয়ার কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_weather"
+      }
+    ],
+    "answer": "aggravation_in_damp_hot_weather",
+    "explanation": "Ipecac-এর লক্ষণ আর্দ্র গরম আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ipecac-med-16",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রাতে লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_at_night"
+      },
+      {
+        "text": "সকালে লক্ষণ বৃদ্ধি পায়।",
+        "mid": "aggravation_in_morning"
+      },
+      {
+        "text": "রাতে লক্ষণ উপশম হয়।",
+        "mid": "amelioration_at_night"
+      },
+      {
+        "text": "রাতে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_at_night"
+      }
+    ],
+    "answer": "aggravation_at_night",
+    "explanation": "Ipecac-এর লক্ষণ রাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ipecac-med-17",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কাঁচা ফল, চর্বিযুক্ত খাবার বা মিষ্টি খাওয়ার ফলে পেটের অসুখ হয়।",
+        "mid": "stomach_disorder_from_raw_fruit_fatty_sweets"
+      },
+      {
+        "text": "কাঁচা ফল খেলে পেট ভালো হয়।",
+        "mid": "raw_fruit_relieves_stomach"
+      },
+      {
+        "text": "চর্বিযুক্ত খাবার খেলে কোনো সমস্যা হয় না।",
+        "mid": "no_problem_with_fatty_food"
+      },
+      {
+        "text": "মিষ্টি খেলে পেটে আরাম হয়।",
+        "mid": "sweets_relieve_stomach"
+      }
+    ],
+    "answer": "stomach_disorder_from_raw_fruit_fatty_sweets",
+    "explanation": "Ipecac-এ কাঁচা ফল, চর্বিযুক্ত খাবার বা মিষ্টি খাওয়ার ফলে পেটের অসুখ হয়।"
+  },
+  {
+    "id": "ipecac-med-18",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মুখে প্রচুর থু থু ওঠে।",
+        "mid": "profuse_salivation"
+      },
+      {
+        "text": "মুখ শুকনো থাকে, লালা নেই।",
+        "mid": "dry_mouth_no_saliva"
+      },
+      {
+        "text": "মুখে সামান্য লালা থাকে।",
+        "mid": "scanty_saliva"
+      },
+      {
+        "text": "লালার কোনো সমস্যা নেই।",
+        "mid": "no_saliva_problem"
+      }
+    ],
+    "answer": "profuse_salivation",
+    "explanation": "Ipecac-এ মুখে প্রচুর থু থু ওঠে।"
+  },
+  {
+    "id": "ipecac-med-19",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জ্বরে ঘাড়, পিঠ, হাতে প্রচণ্ড ব্যথা এবং সারা শরীরে থ্যাতলানো ব্যথা হয়।",
+        "mid": "fever_with_severe_body_aches"
+      },
+      {
+        "text": "জ্বরে কোনো শরীর ব্যথা নেই।",
+        "mid": "fever_without_body_ache"
+      },
+      {
+        "text": "শুধুমাত্র মাথায় ব্যথা হয়।",
+        "mid": "headache_only"
+      },
+      {
+        "text": "শুধুমাত্র পেটে ব্যথা হয়।",
+        "mid": "abdominal_pain_only"
+      }
+    ],
+    "answer": "fever_with_severe_body_aches",
+    "explanation": "Ipecac-এ জ্বরে ঘাড়, পিঠ, হাতে প্রচণ্ড ব্যথা এবং সারা শরীরে থ্যাতলানো ব্যথা হয়।"
+  },
+  {
+    "id": "ipecac-med-20",
+    "stem": "নিচের কোনটি Ipecac-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কাশির সাথে বমি হওয়া একটি সাধারণ লক্ষণ।",
+        "mid": "vomiting_with_cough"
+      },
+      {
+        "text": "কাশির সাথে কোনো বমি হয় না।",
+        "mid": "no_vomiting_with_cough"
+      },
+      {
+        "text": "শুধুমাত্র বমি হয়, কাশি নেই।",
+        "mid": "vomiting_only_no_cough"
+      },
+      {
+        "text": "কাশির সাথে রক্ত যায়।",
+        "mid": "hemoptysis_with_cough"
+      }
+    ],
+    "answer": "vomiting_with_cough",
+    "explanation": "Ipecac-এ কাশির সাথে বমি হওয়া একটি সাধারণ লক্ষণ।"
+  }
+]
+

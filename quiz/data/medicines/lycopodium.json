@@ -1,0 +1,481 @@
+[
+{
+"id": "lyc-med-01",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "লক্ষণসমূহ ডান পাশ থেকে শুরু হয়ে বাম পাশে স্থানান্তরিত হওয়া",
+"mid": "sym-right-to-left-direction"
+},
+{
+"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম",
+"mid": "sym-fever-fear"
+},
+{
+"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য",
+"mid": "sym-heavy-belly"
+},
+{
+"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়",
+"mid": "sym-cold-pain"
+}
+],
+"answer": "sym-right-to-left-direction",
+"explanation": "Lycopodium-এর সবচেয়ে প্রধান ও নির্দেশক লক্ষণ হলো রোগলক্ষণসমূহ শরীরের ডান পাশে শুরু হয়ে বাম পাশে ছড়িয়ে পড়ে (Right to Left)।"
+},
+{
+"id": "lyc-med-02",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "প্রতিদিন বিকাল ৪টা থেকে ৮টার মধ্যে সকল উপসর্গের তীব্র বৃদ্ধি ঘটা",
+"mid": "sym-4pm-8pm-aggravation"
+},
+{
+"text": "জল স্পর্শ করলে বা জলে হাত দিলে চর্মরোগ বা কষ্ট বৃদ্ধি পাওয়া",
+"mid": "sym-water-aggravation"
+},
+{
+"text": "গরম জলের শেক দিলে চর্মরোগের জ্বালা সম্পূর্ণ নিবারণ হওয়া",
+"mid": "sym-warm-water-relief"
+},
+{
+"text": "ঘাম হলে সারা শরীরের চুলকানি তৎক্ষণাৎ কমে যাওয়া",
+"mid": "sym-sweat-relief"
+}
+],
+"answer": "sym-4pm-8pm-aggravation",
+"explanation": "Lycopodium-এর একটি অত্যন্ত মূল্যবান ও গুরুত্বপূর্ণ সময়ভিত্তিক লক্ষণ হলো বিকাল ৪টা থেকে রাত ৮টার মধ্যে সকল কষ্টের বৃদ্ধি।"
+},
+{
+"id": "lyc-med-03",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "প্রবল ক্ষুধা থাকা সত্ত্বেও মাত্র কয়েক চামচ খাবার খেলেই পেট ফুলে পূর্ণ অনুভূত হওয়া",
+"mid": "sym-fullness-few-morsels"
+},
+{
+"text": "একটু পরপর সামান্য কয়েক ফোঁটা ঠান্ডা পানি পান করার ইচ্ছা",
+"mid": "sym-thirst-sip-water"
+},
+{
+"text": "প্রচণ্ড ডায়রিয়া থাকা সত্ত্বেও একেবারেই পিপাসা না থাকা",
+"mid": "sym-thirstless-fever"
+},
+{
+"text": "শুধুমাত্র বরফ মুখে দিয়ে চুষে খাওয়ার ব্যাকুলতা",
+"mid": "sym-ice-craving"
+}
+],
+"answer": "sym-fullness-few-morsels",
+"explanation": "Lycopodium-এর পাকস্থলীর প্রধান লক্ষণ হলো প্রবল ক্ষুধা নিয়ে খেতে বসে কয়েক মুখ খাওয়ার পরই পেট ভরে গেছে এমন তৃপ্তি/অস্বস্তি বোধ হওয়া।"
+},
+{
+"id": "lyc-med-04",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "ভেতরে আত্মবিশ্বাসের অভাব হলেও বাইরে অত্যন্ত দাম্ভিক, কর্তৃত্বপরায়ণ ও অহংকারী আচরণ করা",
+"mid": "sym-lack-confidence-tyrant"
+},
+{
+"text": "প্রস্রাব ত্যাগের সময় এবং পরে লিঙ্গমুণ্ডে প্রচণ্ড জ্বালা ও সুড়সুড়ি হওয়া",
+"mid": "sym-urinary-burning"
+},
+{
+"text": "প্রস্রাবের বেগ আটকে রাখলে মূত্রথলিতে তীব্র সংকোচন ব্যথা",
+"mid": "sym-bladder-spasm"
+},
+{
+"text": "প্রস্রাবের রঙ কুচকুচে কালো ও দুর্গন্ধযুক্ত হওয়া",
+"mid": "sym-dark-urine"
+}
+],
+"answer": "sym-lack-confidence-tyrant",
+"explanation": "Lycopodium-এর মানসিকতায় আত্মবিশ্বাসের গভীর অভাব থাকে, কিন্তু সে বাইরে অহংকারী ও কর্তৃত্বপরায়ণ ভাব দেখায় (Tyrant at home, coward outside)।"
+},
+{
+"id": "lyc-med-05",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "প্রস্রাব শুরু হওয়ার পূর্বে কোমরে প্রচণ্ড ব্যথা হওয়া, যা প্রস্রাব শুরু হলে কমে যায়",
+"mid": "sym-backache-before-urination"
+},
+{
+"text": "প্রস্রাবের ধারা অনেক সময় দ্বিখণ্ডিত বা দুই ভাগে বিভক্ত হওয়া",
+"mid": "sym-split-stream"
+},
+{
+"text": "প্রস্রাব করার সময় তলপেটে প্রচণ্ড চাপ ও ব্যথা অনুভূত হওয়া",
+"mid": "sym-pelvic-pressure"
+},
+{
+"text": "সারাদিনে মাত্র একবার অত্যন্ত স্বল্প পরিমাণে প্রস্রাব হওয়া",
+"mid": "sym-scanty-urine"
+}
+],
+"answer": "sym-backache-before-urination",
+"explanation": "Lycopodium-এ প্রস্রাব করার আগে কোমরে তীব্র ব্যথা অনুভূত হয় এবং প্রস্রাব নির্গত হওয়া শুরু হলে ব্যথা কমে যায়।"
+},
+{
+"id": "lyc-med-06",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শ্বাসকষ্ট বা ফুসফুসের প্রদাহের সময় নাকের পাখনা ফুলে ফুলে কাঁপা (Fan-like movement of alae nasi)",
+"mid": "sym-fan-like-movement-alae-nasi"
+},
+{
+"text": "রোগী মানসিকভাবে বেশ প্রফুল্ল থাকে এবং প্রচুর কথা বলতে পছন্দ করে",
+"mid": "sym-liveliness-talkative"
+},
+{
+"text": "কাউের সাথে কথা না বলে সারাদিন চুপচাপ একা বসে থাকা",
+"mid": "sym-silent-depression"
+},
+{
+"text": "কথা বলার সময় বারবার শব্দ ভুলে যাওয়া ও বিভ্রান্ত হওয়া",
+"mid": "sym-confusion-speech"
+}
+],
+"answer": "sym-fan-like-movement-alae-nasi",
+"explanation": "Lycopodium-এর একটি অত্যন্ত মূল্যবান শারীরিক চিহ্ন হলো শ্বাসকষ্টে নাকের পাখনা পাখার মতো ওঠা-নামা করা বা কাঁপা।"
+},
+{
+"id": "lyc-med-07",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শরীরের এক পা গরম এবং অপর পা বরফের মতো ঠান্ডা অনুভূতি হওয়া",
+"mid": "sym-one-foot-hot-other-cold"
+},
+{
+"text": "ত্বকে শক্ত ও শুষ্ক আঁচিল যা থেকে রক্তপাত হয়",
+"mid": "sym-hard-bleeding-warts"
+},
+{
+"text": "পায়ের তালুতে বেদনাদায়ক কড়া বা কর্ন হওয়া",
+"mid": "sym-corns-feet"
+},
+{
+"text": "ত্বকে বাদামী রঙের মেচেতা বা তিল ভেসে ওঠা",
+"mid": "sym-brown-spots"
+}
+],
+"answer": "sym-one-foot-hot-other-cold",
+"explanation": "Lycopodium-এ রক্তসংবহনের বিষমতার কারণে এক পা গরম এবং অন্য পা ঠান্ডা বোধ হওয়ার অদ্ভূত লক্ষণ পাওয়া যায়।"
+},
+{
+"id": "lyc-med-08",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রোগী একা থাকতে চায়, তবে পাশের ঘরে বা বাড়িতে লোকজনের উপস্থিতি স্বস্তি দেয়",
+"mid": "sym-wants-company-another-room"
+},
+{
+"text": "ঘাড়ে ও পেছনের মাথায় ভারী বস্তু চাপা থাকার মতো অনুভূতি",
+"mid": "sym-heavy-occiput"
+},
+{
+"text": "মাথা ঘোরার সাথে বমি ভাব এবং চারপাশ ঘুরে যাওয়া",
+"mid": "sym-vertigo-nausea"
+},
+{
+"text": "রোদের মধ্যে গেলে কপালে সূঁচ ফোটার মতো তীব্র ব্যথা",
+"mid": "sym-sun-headache-needle"
+}
+],
+"answer": "sym-wants-company-another-room",
+"explanation": "Lycopodium-এর মানসিকতায় একা থাকার তীব্র আকাঙ্ক্ষা থাকে, কিন্তু সম্পূর্ণ জনমানবহীন থাকা অপছন্দ করে—অন্য ঘরে কেউ থাকলে সে স্বস্তি পায়।"
+},
+{
+"id": "lyc-med-09",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "গরম খাবার ও পানীয় গ্রহণে পেটের ও গলার যাবতীয় উপসর্গের উপশম হওয়া",
+"mid": "sym-warm-food-drinks-relief"
+},
+{
+"text": "চা পান করার সাথে সাথে পেটের গ্যাস বৃদ্ধি পাওয়া",
+"mid": "sym-tea-gas"
+},
+{
+"text": "মিষ্টি জাতীয় খাবার খেলে মাথাব্যথা তীব্র হওয়া",
+"mid": "sym-sweet-headache"
+},
+{
+"text": "দুধ ও ল্যাকটিক খাবার খেলে বমি ভাব হওয়া",
+"mid": "sym-milk-nausea"
+}
+],
+"answer": "sym-warm-food-drinks-relief",
+"explanation": "Lycopodium-এর রোগী অত্যন্ত ঠান্ডা কাতর হওয়া সত্ত্বেও ঠান্ডা খাবার বা পানীয় সহ্য করতে পারে না; গরম খাবার বা পানীয়ে প্রশান্তি বোধ করে।"
+},
+{
+"id": "lyc-med-10",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "নতুন কোনো দায়িত্ব, বক্তৃতা বা পরীক্ষার আগে তীব্র প্রত্যাশা-উদ্বেগ (Anticipatory anxiety) হওয়া",
+"mid": "sym-anticipatory-anxiety"
+},
+{
+"text": "মৌমাছির হুল থেকে সংগৃহীত বিষাক্ত উপাদান",
+"mid": "sym-bee-poison"
+},
+{
+"text": "খনিজ লবণের সংমিশ্রণে তৈরি কৃত্রিম রাসায়নিক",
+"mid": "sym-mineral-chemical"
+},
+{
+"text": "সাপের বিষ থেকে প্রস্তুত হোমিওপ্যাথিক টিংচার",
+"mid": "sym-snake-venom"
+}
+],
+"answer": "sym-anticipatory-anxiety",
+"explanation": "Lycopodium-এর রোগী কোনো জনসমক্ষে বক্তব্য বা নতুন কাজ শুরু করার আগে ভয় ও দুশ্চিন্তায় ভোগে, যদিও কাজ শুরু করলে খুব ভালোভাবে তা করতে পারে।"
+},
+{
+"id": "lyc-med-11",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "উদ্ভিদ জগত বা ক্লাব মস (Club Moss)-এর রেনু বা স্পোর থেকে প্রস্তুত হওয়া",
+"mid": "sym-plant-source-club-moss"
+},
+{
+"text": "গরম কাতর প্রকৃতির রোগী হওয়া",
+"mid": "sym-hot-patient"
+},
+{
+"text": "উভয় আবহাওয়াতেই সমানভাবে সহ্য ক্ষমতা থাকা",
+"mid": "sym-ambithermal"
+},
+{
+"text": "অতিরিক্ত গরমে ও শীতে উভয়তেই অসুস্থ হওয়া",
+"mid": "sym-extreme-weather"
+}
+],
+"answer": "sym-plant-source-club-moss",
+"explanation": "Lycopodium clavatum উদ্ভিদ জগতের Club Moss নামক উদ্ভিদের হলুদ সূক্ষ্ম রেনু বা স্পোর থেকে প্রস্তুত করা হয়।"
+},
+{
+"id": "lyc-med-12",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মূলত শীতকাতর হলেও ঠান্ডা খাবার ও পানীয় অপছন্দ করা",
+"mid": "sym-chilly-aversion-cold-food"
+},
+{
+"text": "বাম পাশের ফুসফুস ও কানকে বেশি আক্রান্ত করা",
+"mid": "sym-left-side"
+},
+{
+"text": "শরীরের উভয় পাশে সমানভাবে লক্ষণ প্রকাশ করা",
+"mid": "sym-bilateral"
+},
+{
+"text": "মুখের কেবল বাম অংশে ব্যথা সীমাবদ্ধ থাকা",
+"mid": "sym-left-face"
+}
+],
+"answer": "sym-chilly-aversion-cold-food",
+"explanation": "Lycopodium ধাতুগতভাবে শীতকাতর এবং এটি ঠান্ডা বাতাস বা ঠান্ডা খাদ্যে বৃদ্ধি অনুভব করে।"
+},
+{
+"id": "lyc-med-13",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শরীরের ঊর্ধ্বাঙ্গ শুকনো ও শীর্ণ কিন্তু নিম্নাঙ্গ ফোলা বা আধা-জলযুক্ত হওয়া",
+"mid": "sym-upper-body-emaciated-lower-semi-dropsical"
+},
+{
+"text": "সিফিলিস মায়াজমের ধ্বংসাত্মক ক্ষত সৃষ্টি করা",
+"mid": "sym-syphilis-miasm"
+},
+{
+"text": "সাইকোটিক মায়াজমের টিউমার গঠন করা",
+"mid": "sym-sycotic-miasm"
+},
+{
+"text": "টিউবারকুলার মায়াজমের দ্রুত ক্ষয় রোগ ঘটানো",
+"mid": "sym-tubercular-miasm"
+}
+],
+"answer": "sym-upper-body-emaciated-lower-semi-dropsical",
+"explanation": "Lycopodium-এর দৈহিক গঠনে দেখা যায় রোগীর গলার চারপাশ ও ঊর্ধ্বাঙ্গ শুকিয়ে শীর্ণ হয়ে যায় কিন্তু নিচের অংশে ফোলা ভাব থাকে।"
+},
+{
+"id": "lyc-med-14",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "সোরা (Psora), সাইকোসিস (Sycotic) ও সিফিলিটিক — ত্রি-মায়াজমিক গভীর ক্রিয়া থাকা",
+"mid": "sym-tri-miasmatic-deep-acting"
+},
+{
+"text": "পাকস্থলীতে তীব্র জ্বাালাপোড়া ও ঘা হয়ে যাওয়ার অনুভূতি",
+"mid": "sym-stomach-ulcer"
+},
+{
+"text": "নাভির চারপাশে সুচালো ব্যথা যা ভাজ হলে কমে",
+"mid": "sym-navel-colic"
+},
+{
+"text": "কোষ্ঠকাঠিন্যের সাথে পেটে পাথর জমার মতো ভারী বোধ",
+"mid": "sym-stone-belly"
+}
+],
+"answer": "sym-tri-miasmatic-deep-acting",
+"explanation": "Lycopodium একটি অত্যন্ত গভীর ক্রিয়াশীল ধাতুগত ঔষধ যা সোরা, সাইকোসিস ও সিফিলিস তিনটি মায়াজমেই সমভাবে কার্যকরী।"
+},
+{
+"id": "lyc-med-15",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "Iodum-এর সাথে পরিপূরক (Complementary) সম্পর্ক থাকা",
+"mid": "sym-complementary-iodum"
+},
+{
+"text": "Aconite ও Belladonna-এর সাথে হুবহু মিলে যাওয়া",
+"mid": "sym-aconite-match"
+},
+{
+"text": "Nux Vomica-এর সম্পূর্ণ বিপরীত ক্রিয়া দেখানো",
+"mid": "sym-nux-opposite"
+},
+{
+"text": "Arsenicum Album-এর পরিপূরক হিসেবে কাজ করা",
+"mid": "sym-arsenic-complement"
+}
+],
+"answer": "sym-complementary-iodum",
+"explanation": "Lycopodium-এর পরিপূরক (Complementary) ঔষধের মধ্যে Iodum অত্যন্ত গুরুত্বপূর্ণ।"
+},
+{
+"id": "lyc-med-16",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "Calcarea Carbonica, Lycopodium ও Sulphur মিলে একটি বিখ্যাত হোমিওপ্যাথিক ত্রয়ী গঠন করা",
+"mid": "sym-calc-lyc-sulph-trio"
+},
+{
+"text": "শুধুমাত্র ১০০০ বা উচ্চ শক্তিতে একক মাত্রা প্রয়োগ করা",
+"mid": "sym-high-potency"
+},
+{
+"text": "কেবলমাত্র ৫০ মিলিেসিমাল শক্তিতে ব্যবহার বাধ্যতামূলক",
+"mid": "sym-lm-potency"
+},
+{
+"text": "উচ্চ শক্তিতে শুধুমাত্র চর্মরোগের জন্য নির্ধারিত",
+"mid": "sym-skin-high"
+}
+],
+"answer": "sym-calc-lyc-sulph-trio",
+"explanation": "হোমিওপ্যাথিতে Calcarea Carb - Lycopodium - Sulphur এই তিনটি ঔষধকে ক্রমান্বয়ে ব্যবহারের জন্য একটি অন্যতম প্রধান ত্রয়ী (Trio) মনে করা হয়।"
+},
+{
+"id": "lyc-med-17",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "পেঁয়াজ, রুটি, মদ ও তামাক সেবনে রোগ লক্ষণের মারাত্মক অবনতি ঘটা",
+"mid": "sym-bad-effects-onion-bread-alcohol"
+},
+{
+"text": "সারাদিন প্রচণ্ড কান্নাকাটি করা ও কাউকে কাছে না ঘেঁষতে দেওয়া",
+"mid": "sym-weeping-mood"
+},
+{
+"text": "সবসময় ভয় পাওয়া যে তার বড় কোনো মারাত্মক রোগ হয়েছে",
+"mid": "sym-hypochondriasis"
+},
+{
+"text": "কারো সাথে মিশতে না পেরে গভীর কোণঠাসা জীবন কাটানো",
+"mid": "sym-isolation"
+}
+],
+"answer": "sym-bad-effects-onion-bread-alcohol",
+"explanation": "Lycopodium-এর রোগী পেঁয়াজ, বাঁধাকপি, রুটি বা মদ খেলে পেটের গ্যাস ও হজমের সমস্যা ভয়াবহ আকার ধারণ করে।"
+},
+{
+"id": "lyc-med-18",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "প্রস্রাবে ইটের গুঁড়ার মতো লাল তলানি বা লাল বালি (Red sand) জমা থাকা",
+"mid": "sym-red-sand-urine"
+},
+{
+"text": "অতিরিক্ত আনন্দে আত্মহারা হয়ে রাতভর গান গাওয়া",
+"mid": "sym-overjoyed"
+},
+{
+"text": "স্মৃতিশক্তি সম্পূর্ণ লোপ পাওয়া এবং কাউকে চিনতে না পারা",
+"mid": "sym-memory-loss"
+},
+{
+"text": "ঘুমের মধ্যে হেঁটে বেড়ানো এবং অদ্ভুত স্বপ্ন দেখা",
+"mid": "sym-somnambulism"
+}
+],
+"answer": "sym-red-sand-urine",
+"explanation": "Lycopodium-এর প্রস্রাবে ইউরিক অ্যাসিডের আধিক্যের কারণে ইটের গুঁড়ার মতো লাল পদার্থ বা লাল বালি জমা দেখা যায়।"
+},
+{
+"id": "lyc-med-19",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "পেটের নিচের অংশে প্রচণ্ড বায়ু জমে গুরুগুরু বা গজগজ শব্দ হওয়া (Borborygmi)",
+"mid": "sym-flatulence-lower-abdomen-borborygmi"
+},
+{
+"text": "চলাফেরা করলে সমস্ত ব্যথা ও চুলকানি ম্যাজিকের মতো গায়েব হওয়া",
+"mid": "sym-motion-relief"
+},
+{
+"text": "দৌড়াদৌড়ি করলে শরীরের স্নায়বিক দুর্বলতা দূর হওয়া",
+"mid": "sym-running-relief"
+},
+{
+"text": "উচিৎ কাজ করার সময় শুয়ে থাকলে কষ্ট বৃদ্ধি পাওয়া",
+"mid": "sym-lying-worse"
+}
+],
+"answer": "sym-flatulence-lower-abdomen-borborygmi",
+"explanation": "Lycopodium-এ বিশেষ করে তলপেটে প্রচুর গ্যাস জমে এবং পেটের ভেতর গজগজ শব্দ হতে থাকে।"
+},
+{
+"id": "lyc-med-20",
+"stem": "নিচের কোনটি Lycopodium-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "স্মৃতিশক্তি দুর্বল হওয়া— কথা বলতে বা লিখতে গিয়ে শব্দ ও বর্ণ ভুলে যাওয়া",
+"mid": "sym-weak-memory-omits-words"
+},
+{
+"text": "ঘণ্টায় ঘণ্টায় ১০ ফোঁটা করে মাদার টিংচার সেবন করা বাধ্যতামূলক",
+"mid": "sym-hourly-mother-tincture"
+},
+{
+"text": "প্রতিবার কাশির পর ঔষধ পুনরাবৃত্তি করা আবশ্যক",
+"mid": "sym-repeat-after-cough"
+},
+{
+"text": "শুধুমাত্র বায়োকেমিক শক্তিতে দুধের সাথে সেবনযোগ্য",
+"mid": "sym-biochemic-milk"
+}
+],
+"answer": "sym-weak-memory-omits-words",
+"explanation": "Lycopodium-এ মস্তিষ্কের ক্লান্তি ও স্মৃতিহীনতার কারণে কথা বলার সময় উপযুক্ত শব্দ খুঁজে না পাওয়া বা লেখার সময় বর্ণ বাদ দেওয়ার লক্ষণ থাকে।"
+}]

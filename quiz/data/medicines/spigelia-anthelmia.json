@@ -1,0 +1,242 @@
+[
+  {
+    "id": "spigelia-med-01",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্নায়ুশূল থাকে না, শুধু পেশিতে ব্যথা থাকে", "mid": "sym-no-neuralgia-muscle-only"},
+      {"text": "স্নায়ুশূল, নড়াচড়ায় বৃদ্ধি, তীব্র স্নায়বিক যন্ত্রণা", "mid": "sym-spigelia-neuralgia-motion-worse"},
+      {"text": "নড়াচড়া করলে স্নায়ুশূল কমে যায়", "mid": "sym-neuralgia-motion-less"},
+      {"text": "স্নায়ুশূল শুধু বিশ্রামে হয়, নড়াচড়ায় হয় না", "mid": "sym-neuralgia-rest-only-no-motion"}
+    ],
+    "answer": "sym-spigelia-neuralgia-motion-worse",
+    "explanation": "Spigelia Anthelmia এ স্নায়ুশূল থাকে, নড়াচড়ায় বৃদ্ধি পায়, তীব্র স্নায়বিক যন্ত্রণা হয়।"
+  },
+  {
+    "id": "spigelia-med-02",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথা চোখ থেকে শুরু হয়ে মাথার পেছনে যায়", "mid": "sym-pain-eye-to-back-head"},
+      {"text": "ব্যথা শুধু কপালে থাকে, পেছনে যায় না", "mid": "sym-pain-forehead-only-no-back"},
+      {"text": "ব্যথা মাথার পাশ থেকে শুরু হয়ে ঘাড়ে যায়", "mid": "sym-pain-side-to-neck"},
+      {"text": "মাথার পিছন হতে ব্যথা আরম্ভ হয়, চক্ষু পর্যন্ত ছড়িয়ে যায়", "mid": "sym-spigelia-pain-back-head-to-eye"}
+    ],
+    "answer": "sym-spigelia-pain-back-head-to-eye",
+    "explanation": "Spigelia Anthelmia এ মাথার পিছন হতে ব্যথা আরম্ভ হয়, চক্ষু পর্যন্ত ছড়িয়ে যায়।"
+  },
+  {
+    "id": "spigelia-med-03",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বামদিকে রোগাক্রমণ, বায়ে শুইতে পারে না", "mid": "sym-spigelia-left-side-cannot-lie-left"},
+      {"text": "ডান দিকে রোগাক্রমণ, ডানে শুইতে পারে না", "mid": "sym-right-side-cannot-lie-right"},
+      {"text": "দুই দিকেই সমানভাবে রোগ হয়, শোয়ার দিকে প্রভাব নেই", "mid": "sym-both-side-equal-lying-no-effect"},
+      {"text": "বাম পাশে শুলে আরাম লাগে ও ঘুম ভালো হয়", "mid": "sym-left-lying-relief-good-sleep"}
+    ],
+    "answer": "sym-spigelia-left-side-cannot-lie-left",
+    "explanation": "Spigelia Anthelmia বামপার্শ্বীয় ঔষধ, বামদিকে রোগাক্রমণ হয়, রোগী বায়ে শুইতে পারে না।"
+  },
+  {
+    "id": "spigelia-med-04",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখে হালকা চিনচিনে ব্যথা, সুঁই ফোটানোর অনুভূতি নেই", "mid": "sym-eye-mild-prick-no-needle"},
+      {"text": "চোখে কোনো ব্যথা থাকে না, শুধু লাল থাকে", "mid": "sym-eye-no-pain-red-only"},
+      {"text": "সুই ফোটানো বেদনা, মনে হয় চোখের ভেতরে সুঁই ফোটানো হচ্ছে, চোখের পেছনে সুঁই বিঁধছে", "mid": "sym-spigelia-needle-pricking-eye-behind-eye"},
+      {"text": "চোখে চাপ দিলে ব্যথা কমে যায়", "mid": "sym-eye-pressure-relief"}
+    ],
+    "answer": "sym-spigelia-needle-pricking-eye-behind-eye",
+    "explanation": "Spigelia Anthelmia এ সুই ফোটানো বেদনা হয়, মনে হয় চোখের ভেতরে সুঁই ফোটানো হচ্ছে, চোখের পেছনে সুঁই বিঁধছে।"
+  },
+  {
+    "id": "spigelia-med-05",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বেদনা বাইরে থেকে ভিতরে ঠেলা মারে", "mid": "sym-pain-outside-to-inside"},
+      {"text": "বেদনা ভিতর থেকে বাইরে ঠেলা মারে", "mid": "sym-spigelia-pain-inside-to-outside"},
+      {"text": "বেদনা ওপর থেকে নিচে ঠেলা মারে", "mid": "sym-pain-top-to-bottom"},
+      {"text": "বেদনা কোনো দিকে ঠেলা মারে না, এক জায়গায় থাকে", "mid": "sym-pain-no-thrust-one-place"}
+    ],
+    "answer": "sym-spigelia-pain-inside-to-outside",
+    "explanation": "Spigelia Anthelmia এ বেদনা ভিতর থেকে বাইরে ঠেলা মারে।"
+  },
+  {
+    "id": "spigelia-med-06",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বেদনা ওপর থেকে নিচে ঠেলা মারে", "mid": "sym-pain-top-to-bottom"},
+      {"text": "বেদনা সামনে থেকে পেছনে ঠেলা মারে", "mid": "sym-pain-front-to-back"},
+      {"text": "বেদনা কোনো দিকে ঠেলা মারে না", "mid": "sym-pain-no-thrust"},
+      {"text": "বেদনা নিচ থেকে উপরে ঠেলা মারে", "mid": "sym-spigelia-pain-below-to-above"}
+    ],
+    "answer": "sym-spigelia-pain-below-to-above",
+    "explanation": "Spigelia Anthelmia এ বেদনা নিচ থেকে উপরে ঠেলা মারে।"
+  },
+  {
+    "id": "spigelia-med-07",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দাঁতের ব্যথা, ঠান্ডা পানি বা তামাক খেলে বৃদ্ধি, খাদ্য খেলে উপশম", "mid": "sym-spigelia-tooth-cold-water-tobacco-worse-eating-amel"},
+      {"text": "দাঁতের ব্যথা গরম পানি খেলে বৃদ্ধি পায়, খাদ্য খেলে বৃদ্ধি পায়", "mid": "sym-tooth-warm-worse-eating-worse"},
+      {"text": "দাঁতের ব্যথায় ঠান্ডা বা তামাকে কোনো পরিবর্তন হয় না", "mid": "sym-tooth-cold-tobacco-no-change"},
+      {"text": "দাঁতের ব্যথা খাদ্য খেলে বেড়ে যায়, ঠান্ডায় কমে যায়", "mid": "sym-tooth-eating-worse-cold-less"}
+    ],
+    "answer": "sym-spigelia-tooth-cold-water-tobacco-worse-eating-amel",
+    "explanation": "Spigelia Anthelmia এ দাঁতের ব্যথা হয়, ঠান্ডা পানি বা তামাক খেলে বৃদ্ধি পায়, খাদ্য খেলে উপশম হয়।"
+  },
+  {
+    "id": "spigelia-med-08",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শুষ্ক আবহাওয়ায় রোগ বৃদ্ধি পায়, বর্ষায় কমে যায়", "mid": "sym-dry-weather-worse-rain-less"},
+      {"text": "জলো হাওয়ায় রোগ কমে যায়, বর্ষায় আরাম লাগে", "mid": "sym-wet-air-less-rain-relief"},
+      {"text": "বর্ষায় বা জলো হাওয়ায় রোগ বৃদ্ধি পায়", "mid": "sym-spigelia-rain-wet-air-worse"},
+      {"text": "আবহাওয়ার পরিবর্তনে কোনো প্রভাব পড়ে না", "mid": "sym-weather-no-effect"}
+    ],
+    "answer": "sym-spigelia-rain-wet-air-worse",
+    "explanation": "Spigelia Anthelmia এ বর্ষায় বা জলো হাওয়ায় রোগ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "spigelia-med-09",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ধারালো জিনিস দেখলে ভালো লাগে, সুঁই দিয়ে খেলতে চায়", "mid": "sym-sharp-enjoy-needle-play"},
+      {"text": "আলপিন ও সুচের ভয়, ধারালো বা সুচালো জিনিসের প্রতি অহেতুক আতঙ্ক", "mid": "sym-spigelia-fear-pins-needles-sharp"},
+      {"text": "সুঁই দেখলে কোনো ভয় লাগে না, শান্ত থাকে", "mid": "sym-needle-no-fear-calm"},
+      {"text": "ধারালো জিনিসের ভয় নেই, শুধু অন্ধকারের ভয় আছে", "mid": "sym-sharp-no-fear-dark-only"}
+    ],
+    "answer": "sym-spigelia-fear-pins-needles-sharp",
+    "explanation": "Spigelia Anthelmia এ আলপিন ও সুচের ভয় থাকে, ধারালো বা সুচালো জিনিসের প্রতি অহেতুক আতঙ্ক থাকে।"
+  },
+  {
+    "id": "spigelia-med-10",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভবিষ্যৎ নিয়ে কোনো চিন্তা নেই, সবসময় নিশ্চিন্ত থাকে", "mid": "sym-future-no-worry-always-easy"},
+      {"text": "অমঙ্গলের ভয় নেই, সবসময় সাহসী থাকে", "mid": "sym-no-fear-misfortune-brave"},
+      {"text": "অতীত নিয়ে দুশ্চিন্তা থাকে, ভবিষ্যৎ নিয়ে থাকে না", "mid": "sym-past-worry-future-no"},
+      {"text": "ভবিষ্যতে অনিষ্ট হবে এরূপ আতঙ্ক, অস্থিরতা ও আসন্ন অমঙ্গলের ভয়", "mid": "sym-spigelia-fear-future-harm-restless-impending-evil"}
+    ],
+    "answer": "sym-spigelia-fear-future-harm-restless-impending-evil",
+    "explanation": "Spigelia Anthelmia এ ভবিষ্যতে অনিষ্ট হবে এরূপ আতঙ্ক থাকে, অস্থিরতা এবং আসন্ন কোনো অমঙ্গলের ভয় থাকে।"
+  },
+  {
+    "id": "spigelia-med-11",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বলতে তোতলায়", "mid": "sym-spigelia-stammering-speech"},
+      {"text": "কথা খুব দ্রুত ও স্পষ্টভাবে বলে", "mid": "sym-speech-fast-clear"},
+      {"text": "কথা বলতে কোনো কষ্ট হয় না, সবসময় স্পষ্ট বলে", "mid": "sym-speech-no-problem-clear"},
+      {"text": "কথা বলতে চায় না, সবসময় চুপ থাকে", "mid": "sym-no-talk-silent"}
+    ],
+    "answer": "sym-spigelia-stammering-speech",
+    "explanation": "Spigelia Anthelmia রোগী কথা বলতে তোতলায়।"
+  },
+  {
+    "id": "spigelia-med-12",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কৃমির কোনো উপদ্রব নেই, পেটে ব্যথা হয় না", "mid": "sym-no-worm-no-belly-pain"},
+      {"text": "পেটে ব্যথা থাকলেও কৃমির সাথে সম্পর্ক নেই", "mid": "sym-belly-pain-no-worm-relation"},
+      {"text": "কৃমি, নাভির চারপাশে কামড়ানো ব্যথা, কৃমিজনিত স্নায়বিক উত্তেজনা", "mid": "sym-spigelia-worms-navel-gnawing-nervous"},
+      {"text": "কৃমি হলে পেটে কোনো ব্যথা হয় না", "mid": "sym-worm-no-belly-pain"}
+    ],
+    "answer": "sym-spigelia-worms-navel-gnawing-nervous",
+    "explanation": "Spigelia Anthelmia এ কৃমির উপদ্রব থাকে, নাভির চারপাশে কামড়ানো ব্যথা হয় এবং কৃমিজনিত স্নায়বিক উত্তেজনা থাকে।"
+  },
+  {
+    "id": "spigelia-med-13",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হার্টবিট ধীরে হয়, নিজের কানে শোনা যায় না", "mid": "sym-heartbeat-slow-not-heard"},
+      {"text": "হার্টবিট অত্যাধিক, নিজ কানে শোনে, হৃদপিণ্ডের স্পন্দন এত জোরে হয় যে বাইরে থেকে দেখা যায় বা শোনা যায়", "mid": "sym-spigelia-heartbeat-violent-heard-visible-pulsation"},
+      {"text": "হার্টবিট স্বাভাবিক থাকে, কোনো অস্বাভাবিকতা নেই", "mid": "sym-heartbeat-normal-no-abnormal"},
+      {"text": "হার্টবিট মাঝে মাঝে বন্ধ হয়ে যায়", "mid": "sym-heartbeat-stop-sometimes"}
+    ],
+    "answer": "sym-spigelia-heartbeat-violent-heard-visible-pulsation",
+    "explanation": "Spigelia Anthelmia এ হার্টবিট অত্যাধিক হয়, নিজ কানে শোনে, হৃদপিণ্ডের স্পন্দন এত জোরে হয় যে তা বাইরে থেকে দেখা যায় বা শোনা যায়।"
+  },
+  {
+    "id": "spigelia-med-14",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নাড়ি শক্ত ও দ্রুত থাকে", "mid": "sym-pulse-strong-fast"},
+      {"text": "নাড়ি স্বাভাবিক থাকে, কোনো দুর্বলতা নেই", "mid": "sym-pulse-normal-no-weak"},
+      {"text": "নাড়ি মাঝে মাঝে পাওয়া যায় না", "mid": "sym-pulse-sometimes-absent"},
+      {"text": "নাড়ি দুর্বল", "mid": "sym-spigelia-pulse-weak"}
+    ],
+    "answer": "sym-spigelia-pulse-weak",
+    "explanation": "Spigelia Anthelmia এ নাড়ি দুর্বল থাকে।"
+  },
+  {
+    "id": "spigelia-med-15",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের নড়াচড়ায় কষ্ট, চোখ নাড়ালে যন্ত্রণা বৃদ্ধি পায়, মনে হয় চোখ দুটি কোটর থেকে বড় হয়ে গেছে, তীব্র যন্ত্রণাসহ চোখ লাল হয়ে যাওয়া", "mid": "sym-spigelia-eye-motion-pain-eyes-enlarged-red-iritis"},
+      {"text": "চোখ নাড়ালে আরাম লাগে, চোখ স্বাভাবিক থাকে", "mid": "sym-eye-motion-relief-normal"},
+      {"text": "চোখ নাড়ালে কোনো পরিবর্তন হয় না", "mid": "sym-eye-motion-no-change"},
+      {"text": "চোখ লাল হয় কিন্তু কোনো যন্ত্রণা থাকে না", "mid": "sym-eye-red-no-pain"}
+    ],
+    "answer": "sym-spigelia-eye-motion-pain-eyes-enlarged-red-iritis",
+    "explanation": "Spigelia Anthelmia এ চোখ নাড়ালে যন্ত্রণার তীব্রতা বৃদ্ধি পায়, মনে হয় চোখ দুটি কোটর থেকে বড় হয়ে গেছে, তীব্র যন্ত্রণাসহ চোখ লাল হয়ে যায়।"
+  },
+  {
+    "id": "spigelia-med-16",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শরীরে স্পর্শ সহ্য হয়, মাথার চামড়ায় হাত দিলে আরাম লাগে", "mid": "sym-touch-tolerated-scalp-relief"},
+      {"text": "স্পর্শে কোনো পরিবর্তন হয় না", "mid": "sym-touch-no-change"},
+      {"text": "সমস্ত শরীর অত্যন্ত স্পর্শকাতর, বিশেষ করে মাথার চামড়ায় হাত দিলেই যন্ত্রণা হয়", "mid": "sym-spigelia-whole-body-sensitive-scalp-touch-pain"},
+      {"text": "শুধু হাতে স্পর্শকাতরতা থাকে, মাথায় থাকে না", "mid": "sym-hand-sensitive-scalp-no"}
+    ],
+    "answer": "sym-spigelia-whole-body-sensitive-scalp-touch-pain",
+    "explanation": "Spigelia Anthelmia এ সমস্ত শরীর অত্যন্ত স্পর্শকাতর থাকে, বিশেষ করে মাথার চামড়ায় হাত দিলেই যন্ত্রণা হয়।"
+  },
+  {
+    "id": "spigelia-med-17",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্য শব্দ বা গোলমালে অত্যন্ত বিরক্ত হওয়া", "mid": "sym-spigelia-slight-noise-irritated"},
+      {"text": "গোলমালে ভালো লাগে, শব্দে আনন্দ পায়", "mid": "sym-noise-enjoy-happy"},
+      {"text": "শব্দে কোনো বিরক্তি হয় না, শান্ত থাকে", "mid": "sym-noise-no-irritation-calm"},
+      {"text": "জোরে শব্দে বিরক্ত হয় কিন্তু সামান্য শব্দে হয় না", "mid": "sym-loud-noise-irritated-slight-no"}
+    ],
+    "answer": "sym-spigelia-slight-noise-irritated",
+    "explanation": "Spigelia Anthelmia রোগী সামান্য শব্দ বা গোলমালে অত্যন্ত বিরক্ত হয়।"
+  },
+  {
+    "id": "spigelia-med-18",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডান পাশের মুখমণ্ডলে যন্ত্রণা, সূর্যাস্তের সঙ্গে শুরু হয়, সূর্যোদয়ের সঙ্গে কমে", "mid": "sym-right-face-pain-sunset-start-sunrise-less"},
+      {"text": "মুখমণ্ডলে কোনো যন্ত্রণা নেই", "mid": "sym-face-no-pain"},
+      {"text": "মুখমণ্ডলে যন্ত্রণা সারাদিন একই থাকে, সূর্যের সাথে সম্পর্ক নেই", "mid": "sym-face-pain-all-day-no-sun"},
+      {"text": "বাম পাশের মুখমণ্ডলে অসহ্য যন্ত্রণা, সূর্যোদয়ের সঙ্গে শুরু হয়, সূর্যাস্তের সঙ্গে কমে যায়", "mid": "sym-spigelia-left-face-pain-sunrise-start-sunset-less"}
+    ],
+    "answer": "sym-spigelia-left-face-pain-sunrise-start-sunset-less",
+    "explanation": "Spigelia Anthelmia এ বাম পাশের মুখমণ্ডলে অসহ্য যন্ত্রণা হয়, যা সূর্যোদয়ের সঙ্গে শুরু হয় এবং সূর্যাস্তের সঙ্গে কমে যায়।"
+  },
+  {
+    "id": "spigelia-med-19",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হৃৎস্পন্দনের সাথে প্রচণ্ড শ্বাসকষ্ট ও বাম বাহু অবশ হয়ে যাওয়া, এনজিনা পেক্টোরিসে কার্যকর", "mid": "sym-spigelia-palpitation-dyspnoea-left-arm-numb-angina"},
+      {"text": "হৃৎস্পন্দনের সময় শ্বাসকষ্ট হয় না, বাহু স্বাভাবিক থাকে", "mid": "sym-palpitation-no-dyspnoea-arm-normal"},
+      {"text": "শ্বাসকষ্ট হলে হৃৎস্পন্দন কমে যায়", "mid": "sym-dyspnoea-palpitation-less"},
+      {"text": "বাম বাহু অবশ হয় কিন্তু শ্বাসকষ্ট হয় না", "mid": "sym-left-arm-numb-no-dyspnoea"}
+    ],
+    "answer": "sym-spigelia-palpitation-dyspnoea-left-arm-numb-angina",
+    "explanation": "Spigelia Anthelmia এ হৃৎস্পন্দনের সাথে প্রচণ্ড শ্বাসকষ্ট হয় এবং বাম বাহু অবশ হয়ে যায়, এনজিনা পেক্টোরিসে এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "spigelia-med-20",
+    "stem": "নিচের কোনটি Spigelia Anthelmia এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ডান পাশে শুলে বৃদ্ধি, স্পর্শে উপশম, গোলমালে উপশম", "mid": "sym-right-lying-agg-touch-amel-noise-amel"},
+      {"text": "মাথা নিচু করে রাখলে উপশম, বাম পাশে শুলে উপশম", "mid": "sym-head-low-amel-left-lying-amel"},
+      {"text": "নড়াচড়া করলে, স্পর্শ করলে, গোলমালে ও সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি, ডান পাশে ফিরে শুলে ও মাথা উঁচু করে রাখলে উপশম", "mid": "sym-spigelia-agg-motion-touch-noise-sun-amel-right-lying-head-high"},
+      {"text": "সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত উপশম, নড়াচড়ায় উপশম", "mid": "sym-sun-period-amel-motion-amel"}
+    ],
+    "answer": "sym-spigelia-agg-motion-touch-noise-sun-amel-right-lying-head-high",
+    "explanation": "Spigelia Anthelmia এ নড়াচড়া করলে, স্পর্শ করলে, গোলমালে এবং সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি হয়, ডান পাশে ফিরে শুলে এবং মাথা উঁচু করে রাখলে উপশম হয়।"
+  }
+]

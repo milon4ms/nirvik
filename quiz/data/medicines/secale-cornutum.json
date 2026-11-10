@@ -1,0 +1,481 @@
+[
+  {
+    "id": "sec-med-01",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীর বরফের মতো ঠান্ডা হলেও অভ্যন্তরীণ তীব্র জ্বালাপোড়া এবং গায়ের কাপড় সম্পূর্ণ অনাবৃত রাখার ব্যাকুলতা (Uncovering is a must)",
+        "mid": "sym-burning-uncovering-cold-body"
+      },
+      {
+        "text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম",
+        "mid": "sym-fever-fear"
+      },
+      {
+        "text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য",
+        "mid": "sym-heavy-belly"
+      },
+      {
+        "text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়",
+        "mid": "sym-cold-pain"
+      }
+    ],
+    "answer": "sym-burning-uncovering-cold-body",
+    "explanation": "Secale Cornutum-এর প্রধানতম লক্ষণ হলো রোগীর গায়ে হাত দিলে বরফের মতো ঠান্ডা লাগে, কিন্তু সে নিজে ভেতরে তীব্র জ্বালাপোড়া অনুভব করে এবং হাড়কাঁপানো শীতেও গায়ে কোনো বস্ত্র রাখতে চায় না।"
+  },
+  {
+    "id": "sec-med-02",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "জরায়ু বা শরীরের যেকোনো অংশ থেকে কালচে, পাতলা, জমাট-নাবাঁধা ও দুর্গন্ধযুক্ত রক্তস্রাব হওয়া",
+        "mid": "sym-dark-thin-noncoagulable-hemorrhage"
+      },
+      {
+        "text": "জল স্পর্শ করলে বা জলে হাত দিলে চর্মরোগ বা কষ্ট বৃদ্ধি পাওয়া",
+        "mid": "sym-water-aggravation"
+      },
+      {
+        "text": "গরম জলের শেক দিলে চর্মরোগের জ্বালা সম্পূর্ণ নিবারণ হওয়া",
+        "mid": "sym-warm-water-relief"
+      },
+      {
+        "text": "ঘাম হলে সারা শরীরের চুলকানি তৎক্ষণাৎ কমে যাওয়া",
+        "mid": "sym-sweat-relief"
+      }
+    ],
+    "answer": "sym-dark-thin-noncoagulable-hemorrhage",
+    "explanation": "Secale Cornutum-এ শরীরের যেকোনো উন্মুক্ত দ্বার বা জরায়ু থেকে নির্গত রক্ত কালচে, তরল পাতলা, দুর্গন্ধময় এবং জমাট বাঁধে না (Non-coagulable)।"
+  },
+  {
+    "id": "sec-med-03",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরের প্রান্তীয় অংশ যেমন আঙুল বা পায়ে রক্ত সঞ্চালন হ্রাস পেয়ে পচনশীলতা বা শুষ্ক গ্যাংরিন (Dry Gangrene) হওয়া",
+        "mid": "sym-dry-gangrene-extremities"
+      },
+      {
+        "text": "একটু পরপর সামান্য কয়েক ফোঁটা ঠান্ডা পানি পান করার ইচ্ছা",
+        "mid": "sym-thirst-sip-water"
+      },
+      {
+        "text": "প্রচণ্ড ডায়রিয়া থাকা সত্ত্বেও একেবারেই পিপাসা না থাকা",
+        "mid": "sym-thirstless-fever"
+      },
+      {
+        "text": "শুধুমাত্র বরফ মুখে দিয়ে চুষে খাওয়ার ব্যাকুলতা",
+        "mid": "sym-ice-craving"
+      }
+    ],
+    "answer": "sym-dry-gangrene-extremities",
+    "explanation": "Secale Cornutum পচনশীলতা বা শুষ্ক গ্যাংরিনের (Dry Gangrene) অত্যন্ত নির্ভরযোগ্য মহৌষধ, বিশেষ করে বয়স্কদের বা রক্তনালী সংকোচনে।"
+  },
+  {
+    "id": "sec-med-04",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মলদ্বার পক্ষাঘাতগ্রস্তের মতো সম্পূর্ণ হাঁ হয়ে খোলা থাকা (Anus stands wide open)",
+        "mid": "sym-anus-wide-open"
+      },
+      {
+        "text": "প্রস্রাব ত্যাগের সময় এবং পরে লিঙ্গমুণ্ডে প্রচণ্ড জ্বালা ও সুড়সুড়ি হওয়া",
+        "mid": "sym-urinary-burning"
+      },
+      {
+        "text": "প্রস্রাবের বেগ আটকে রাখলে মূত্রথলিতে তীব্র সংকোচন ব্যথা",
+        "mid": "sym-bladder-spasm"
+      },
+      {
+        "text": "প্রস্রাবের রঙ কুচকুচে কালো ও দুর্গন্ধযুক্ত হওয়া",
+        "mid": "sym-dark-urine"
+      }
+    ],
+    "answer": "sym-anus-wide-open",
+    "explanation": "Secale Cornutum-এ অনৈচ্ছিক অন্ত্রের শিথিলতা বা পক্ষাঘাতের কারণে মলদ্বার সর্বদা ফাঁক হয়ে বা প্রসারিত হয়ে খোলা অবস্থায় থাকে (Anus stands wide open)।"
+  },
+  {
+    "id": "sec-med-05",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ত্বকের নিচে বা শরীরের বিভিন্ন অঙ্গে পিঁপড়ে হাঁটার মতো অস্বস্তিকর অনুভূতি (Formication)",
+        "mid": "sym-formication-tingling-skin"
+      },
+      {
+        "text": "প্রস্রাবের ধারা অনেক সময় দ্বিখণ্ডিত বা দুই ভাগে বিভক্ত হওয়া",
+        "mid": "sym-split-stream"
+      },
+      {
+        "text": "প্রস্রাব করার সময় তলপেটে প্রচণ্ড চাপ ও ব্যথা অনুভূত হওয়া",
+        "mid": "sym-pelvic-pressure"
+      },
+      {
+        "text": "সারাদিনে মাত্র একবার অত্যন্ত স্বল্প পরিমাণে প্রস্রাব হওয়া",
+        "mid": "sym-scanty-urine"
+      }
+    ],
+    "answer": "sym-formication-tingling-skin",
+    "explanation": "Secale Cornutum-এ স্নায়বিক বৈকল্যের দরুন হাত-পায়ে ঝিঁঝিঁ ধরা এবং ত্বকের উপর পিঁপড়ে হাঁটার মতো অনুভূতি প্রবল হয়।"
+  },
+  {
+    "id": "sec-med-06",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রসবের পর বা গর্ভপাতের পর জরায়ু সংকুচিত না হয়ে শিথিল হয়ে পড়ে থাকা এবং অনবরত কালো রক্তস্রাব হওয়া",
+        "mid": "sym-uterine-atony-hemorrhage"
+      },
+      {
+        "text": "রোগী মানসিকভাবে বেশ প্রফুল্ল থাকে এবং প্রচুর কথা বলতে পছন্দ করে",
+        "mid": "sym-liveliness-talkative"
+      },
+      {
+        "text": "কাউের সাথে কথা না বলে সারাদিন চুপচাপ একা বসে থাকা",
+        "mid": "sym-silent-depression"
+      },
+      {
+        "text": "কথা বলার সময় বারবার শব্দ ভুলে যাওয়া ও বিভ্রান্ত হওয়া",
+        "mid": "sym-confusion-speech"
+      }
+    ],
+    "answer": "sym-uterine-atony-hemorrhage",
+    "explanation": "Secale Cornutum-এ প্রসূতির জরায়ু শিথিল ও পক্ষাঘাতগ্রস্ত হওয়ায় তা স্বাভাবিক অবস্থায় ফিরতে পারে না এবং অনবরত কালচে রক্ত নির্গত হয়।"
+  },
+  {
+    "id": "sec-med-07",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রবল রাক্ষুসে ক্ষুধা থাকা সত্ত্বেও শরীরের মাংস ক্ষয় হয়ে রোগী শীর্ণকায় হয়ে যাওয়া",
+        "mid": "sym-voracious-appetite-emaciation"
+      },
+      {
+        "text": "ত্বকে শক্ত ও শুষ্ক আঁচিল যা থেকে রক্তপাত হয়",
+        "mid": "sym-hard-bleeding-warts"
+      },
+      {
+        "text": "পায়ের তালুতে বেদনাদায়ক কড়া বা কর্ন হওয়া",
+        "mid": "sym-corns-feet"
+      },
+      {
+        "text": "ত্বকে বাদামী রঙের মেচেতা বা তিল ভেসে ওঠা",
+        "mid": "sym-brown-spots"
+      }
+    ],
+    "answer": "sym-voracious-appetite-emaciation",
+    "explanation": "Secale Cornutum-এর রোগী প্রচুর পরিমাণে খায় (রাক্ষুসে ক্ষুধা), অথচ তার শরীর দিন দিন শুকাতে থাকে ও মাংসপেশির ক্ষয় ঘটে।"
+  },
+  {
+    "id": "sec-med-08",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "যেকোনো ধরণের উত্তাপ, গরম ঘর বা শরীর ঢেকে রাখলে শারীরিক উপসর্গসমূহের মারাত্মক বৃদ্ধি ঘটা",
+        "mid": "sym-heat-covering-aggravation"
+      },
+      {
+        "text": "ঘাড়ে ও পেছনের মাথায় ভারী বস্তু চাপা থাকার মতো অনুভূতি",
+        "mid": "sym-heavy-occiput"
+      },
+      {
+        "text": "মাথা ঘোরার সাথে বমি ভাব এবং চারপাশ ঘুরে যাওয়া",
+        "mid": "sym-vertigo-nausea"
+      },
+      {
+        "text": "রোদের মধ্যে গেলে কপালে সূঁচ ফোটার মতো তীব্র ব্যথা",
+        "mid": "sym-sun-headache-needle"
+      }
+    ],
+    "answer": "sym-heat-covering-aggravation",
+    "explanation": "Secale Cornutum-এ বাইরের যেকোনো উত্তাপ, গরম ঘর বা শরীরে কাপড় জড়ালে সব রোগ লক্ষণ বাড়ে।"
+  },
+  {
+    "id": "sec-med-09",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঠান্ডা বাতাস, ঠান্ডা শীতল প্রয়োগ, গায়ের কাপড় অনাবৃত করা এবং ঠান্ডা জল পানে উপশম লাভ করা",
+        "mid": "sym-cold-air-uncovering-cold-water-relief"
+      },
+      {
+        "text": "চা পান করার সাথে সাথে পেটের গ্যাস বৃদ্ধি পাওয়া",
+        "mid": "sym-tea-gas"
+      },
+      {
+        "text": "মিষ্টি জাতীয় খাবার খেলে মাথাব্যথা তীব্র হওয়া",
+        "mid": "sym-sweet-headache"
+      },
+      {
+        "text": "দুধ ও ল্যাকটিক খাবার খেলে বমি ভাব হওয়া",
+        "mid": "sym-milk-nausea"
+      }
+    ],
+    "answer": "sym-cold-air-uncovering-cold-water-relief",
+    "explanation": "Secale Cornutum-এর রোগী তীব্র গরমকাতর হওয়ায় উন্মুক্ত ঠান্ডা বাতাস, বরফ/ঠান্ডা পানি প্রয়োগ ও বস্ত্র খুলে ফেললে প্রশান্তি পায়।"
+  },
+  {
+    "id": "sec-med-10",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চামড়া কুঁচকানো, নোংরা, সিয়াটিক বা নীলচে বর্ণ ধারণ করা",
+        "mid": "sym-skin-shrivelled-withered-livid"
+      },
+      {
+        "text": "মৌমাছির হুল থেকে সংগৃহীত বিষাক্ত উপাদান",
+        "mid": "sym-bee-poison"
+      },
+      {
+        "text": "খনিজ লবণের সংমিশ্রণে তৈরি কৃত্রিম রাসায়নিক",
+        "mid": "sym-mineral-chemical"
+      },
+      {
+        "text": "সাপের বিষ থেকে প্রস্তুত হোমিওপ্যাথিক টিংচার",
+        "mid": "sym-snake-venom"
+      }
+    ],
+    "answer": "sym-skin-shrivelled-withered-livid",
+    "explanation": "Secale Cornutum-এ ত্বক অত্যন্ত শুষ্ক, বলিরেখাযুক্ত, কুঁচকানো এবং দেখতে কালচে বা নীল বর্ণ দেখায়।"
+  },
+  {
+    "id": "sec-med-11",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ছত্রাক বা রাই শস্যের ওপর জন্ম নেওয়া ভেষজ (Ergot of Rye) থেকে প্রস্তুত হওয়া",
+        "mid": "sym-fungus-source-ergot-rye"
+      },
+      {
+        "text": "গরম কাতর প্রকৃতির রোগী হওয়া",
+        "mid": "sym-hot-patient"
+      },
+      {
+        "text": "উভয় আবহাওয়াতেই সমানভাবে সহ্য ক্ষমতা থাকা",
+        "mid": "sym-ambithermal"
+      },
+      {
+        "text": "অতিরিক্ত গরমে ও শীতে উভয়তেই অসুস্থ হওয়া",
+        "mid": "sym-extreme-weather"
+      }
+    ],
+    "answer": "sym-fungus-source-ergot-rye",
+    "explanation": "Secale Cornutum রাই শস্যের (Rye) উপর জন্ম নেওয়া এক প্রকার বিশেষ ছত্রাক (Claviceps purpurea) থেকে প্রস্তুত।"
+  },
+  {
+    "id": "sec-med-12",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চরম গরমকাতর প্রকৃতির হওয়ায় উত্তাপ মোটেও সহ্য করতে না পারা",
+        "mid": "sym-extremely-hot-patient"
+      },
+      {
+        "text": "বাম পাশের ফুসফুস ও কানকে বেশি আক্রান্ত করা",
+        "mid": "sym-left-side"
+      },
+      {
+        "text": "শরীরের উভয় পাশে সমানভাবে লক্ষণ প্রকাশ করা",
+        "mid": "sym-bilateral"
+      },
+      {
+        "text": "মুখের কেবল বাম অংশে ব্যথা সীমাবদ্ধ থাকা",
+        "mid": "sym-left-face"
+      }
+    ],
+    "answer": "sym-extremely-hot-patient",
+    "explanation": "Secale Cornutum ধাতুগত দিক থেকে অত্যন্ত গরমকাতর (Hot patient)।"
+  },
+  {
+    "id": "sec-med-13",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগলক্ষণ ডান পাশ থেকে শুরু হয়ে বাম পাশে স্থানান্তরিত হওয়ার প্রবণতা থাকা",
+        "mid": "sym-right-to-left-side"
+      },
+      {
+        "text": "সিফিলিস মায়াজমের ধ্বংসাত্মক ক্ষত সৃষ্টি করা",
+        "mid": "sym-syphilis-miasm"
+      },
+      {
+        "text": "সাইকোটিক মায়াজমের টিউমার গঠন করা",
+        "mid": "sym-sycotic-miasm"
+      },
+      {
+        "text": "টিউবারকুলার মায়াজমের দ্রুত ক্ষয় রোগ ঘটানো",
+        "mid": "sym-tubercular-miasm"
+      }
+    ],
+    "answer": "sym-right-to-left-side",
+    "explanation": "Secale Cornutum-এর কষ্ট বা লক্ষণগুলো দেহের ডান দিক থেকে বাম দিকগামী হতে পারে।"
+  },
+  {
+    "id": "sec-med-14",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সিফিলিটিক (Syphilitic) মায়াজম— পচনশীলতা ও ধ্বংসাত্মক পরিবর্তনের জন্য সুপরিচিত",
+        "mid": "sym-syphilitic-miasm-gangrenous"
+      },
+      {
+        "text": "পাকস্থলীতে তীব্র জ্বাালাপোড়া ও ঘা হয়ে যাওয়ার অনুভূতি",
+        "mid": "sym-stomach-ulcer"
+      },
+      {
+        "text": "নাভির চারপাশে সুচালো ব্যথা যা ভাজ হলে কমে",
+        "mid": "sym-navel-colic"
+      },
+      {
+        "text": "কোষ্ঠকাঠিন্যের সাথে পেটে পাথর জমার মতো ভারী বোধ",
+        "mid": "sym-stone-belly"
+      }
+    ],
+    "answer": "sym-syphilitic-miasm-gangrenous",
+    "explanation": "Secale Cornutum পচন, রক্ত ক্ষয় ও কোষের ধ্বংসাত্মক ক্রিয়ার কারণে সিফিলিটিক মায়াজমের অধীন।"
+  },
+  {
+    "id": "sec-med-15",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "Camphora এবং Opium দ্বারা এর ক্ষতিকর ক্রিয়া প্রতিষেধিত (Antidoted) হওয়া",
+        "mid": "sym-antidote-camphora-opium"
+      },
+      {
+        "text": "Aconite ও Belladonna-এর সাথে হুবহু মিলে যাওয়া",
+        "mid": "sym-aconite-match"
+      },
+      {
+        "text": "Nux Vomica-এর সম্পূর্ণ বিপরীত ক্রিয়া দেখানো",
+        "mid": "sym-nux-opposite"
+      },
+      {
+        "text": "Arsenicum Album-এর পরিপূরক হিসেবে কাজ করা",
+        "mid": "sym-arsenic-complement"
+      }
+    ],
+    "answer": "sym-antidote-camphora-opium",
+    "explanation": "Secale Cornutum-এর অতি-প্রতিক্রিয়া Camphora বা Opium দ্বারা প্রশমিত বা প্রতিষেধিত হয়।"
+  },
+  {
+    "id": "sec-med-16",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "Arsenicum Album-এর সাথে জ্বালাপোড়ার ক্ষেত্রে গভীর সদৃশতা থাকলেও কাতরতার দিক থেকে সম্পূর্ণ বিপরীত হওয়া",
+        "mid": "sym-arsenic-similar-burning-opposite-thermal"
+      },
+      {
+        "text": "শুধুমাত্র ১০০০ বা উচ্চ শক্তিতে একক মাত্রা প্রয়োগ করা",
+        "mid": "sym-high-potency"
+      },
+      {
+        "text": "কেবলমাত্র ৫০ মিলিেসিমাল শক্তিতে ব্যবহার বাধ্যতামূলক",
+        "mid": "sym-lm-potency"
+      },
+      {
+        "text": "উচ্চ শক্তিতে শুধুমাত্র চর্মরোগের জন্য নির্ধারিত",
+        "mid": "sym-skin-high"
+      }
+    ],
+    "answer": "sym-arsenic-similar-burning-opposite-thermal",
+    "explanation": "Arsenicum এবং Secale উভয়েই তীব্র জ্বালা থাকলেও Arsenic গরমে উপশম পায় (শীতকাতর) এবং Secale ঠান্ডায় উপশম পায় (গরমকাতর)।"
+  },
+  {
+    "id": "sec-med-17",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চোখ বসে যাওয়া, ফ্যাকাশে ও নীলচে মুখমণ্ডল (Hippocratic face) দেখা দেওয়া",
+        "mid": "sym-hippocratic-face-sunken-eyes"
+      },
+      {
+        "text": "সারাদিন প্রচণ্ড কান্নাকাটি করা ও কাউকে কাছে না ঘেঁষতে দেওয়া",
+        "mid": "sym-weeping-mood"
+      },
+      {
+        "text": "সবসময় ভয় পাওয়া যে তার বড় কোনো মারাত্মক রোগ হয়েছে",
+        "mid": "sym-hypochondriasis"
+      },
+      {
+        "text": "কারো সাথে মিশতে না পেরে গভীর কোণঠাসা জীবন কাটানো",
+        "mid": "sym-isolation"
+      }
+    ],
+    "answer": "sym-hippocratic-face-sunken-eyes",
+    "explanation": "Secale Cornutum-এ রোগীর মূর্ছা বা রক্তপাতের চরম অবস্থায় চোখ বসে যায় এবং মুখমণ্ডল নীলচে ফ্যাকাশে (Hippocratic face) রূপ নেয়।"
+  },
+  {
+    "id": "sec-med-18",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "টকের প্রতি প্রবল আকাঙ্ক্ষা এবং অদম্য জলের পিপাসা থাকা",
+        "mid": "sym-craving-sour-unquenchable-thirst"
+      },
+      {
+        "text": "অতিরিক্ত আনন্দে আত্মহারা হয়ে রাতভর গান গাওয়া",
+        "mid": "sym-overjoyed"
+      },
+      {
+        "text": "স্মৃতিশক্তি সম্পূর্ণ লোপ পাওয়া এবং কাউকে চিনতে না পারা",
+        "mid": "sym-memory-loss"
+      },
+      {
+        "text": "ঘুমের মধ্যে হেঁটে বেড়ানো এবং অদ্ভুত স্বপ্ন দেখা",
+        "mid": "sym-somnambulism"
+      }
+    ],
+    "answer": "sym-craving-sour-unquenchable-thirst",
+    "explanation": "Secale Cornutum-এর পাকস্থলীর লক্ষণে টক স্বাদের জিনিসের বিশেষ ইচ্ছা এবং প্রবল তৃষ্ণা উপস্থিত থাকে।"
+  },
+  {
+    "id": "sec-med-19",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হাত-পায়ের আঙুল অবশ হয়ে যাওয়া এবং রোগীর পা লেপের বাইরে অনাবৃত রাখার ইচ্ছা",
+        "mid": "sym-numbness-fingers-feet-outside-covers"
+      },
+      {
+        "text": "চলাফেরা করলে সমস্ত ব্যথা ও চুলকানি ম্যাজিকের মতো গায়েব হওয়া",
+        "mid": "sym-motion-relief"
+      },
+      {
+        "text": "দৌড়াদৌড়ি করলে শরীরের স্নায়বিক দুর্বলতা দূর হওয়া",
+        "mid": "sym-running-relief"
+      },
+      {
+        "text": "উচিৎ কাজ করার সময় শুয়ে থাকলে কষ্ট বৃদ্ধি পাওয়া",
+        "mid": "sym-lying-worse"
+      }
+    ],
+    "answer": "sym-numbness-fingers-feet-outside-covers",
+    "explanation": "Secale Cornutum-এ হাত-পায়ের প্রান্ত অবশ হয় এবং পায়ের পাতার জ্বালায় রোগী শোয়ার সময় পা কাঁথার বা লেপের বাইরে রেখে ঘুমায়।"
+  },
+  {
+    "id": "sec-med-20",
+    "stem": "নিচের কোনটি Secale Cornutum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গর্ভবতী অবস্থায় ব্যবহারে গর্ভপাতের ঝুঁকি তৈরি হওয়া",
+        "mid": "sym-abortion-risk-pregnancy"
+      },
+      {
+        "text": "ঘণ্টায় ঘণ্টায় ১০ ফোঁটা করে মাদার টিংচার সেবন করা বাধ্যতামূলক",
+        "mid": "sym-hourly-mother-tincture"
+      },
+      {
+        "text": "প্রতিবার কাশির পর ঔষধ পুনরাবৃত্তি করা আবশ্যক",
+        "mid": "sym-repeat-after-cough"
+      },
+      {
+        "text": "শুধুমাত্র বায়োকেমিক শক্তিতে দুধের সাথে সেবনযোগ্য",
+        "mid": "sym-biochemic-milk"
+      }
+    ],
+    "answer": "sym-abortion-risk-pregnancy",
+    "explanation": "Secale Cornutum গর্ভাশয় সংকোচন ঘটায় বলে গর্ভাবস্থায় অনভিজ্ঞ চিকিৎসায় প্রয়োগ করলে অকাল গর্ভপাত ঘটাতে পারে।"
+  }]

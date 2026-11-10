@@ -1,0 +1,242 @@
+[
+  {
+    "id": "sab-med-01",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নারীদের অতিরিক্ত ও অনিয়মিত রক্তস্রাব, উজ্জ্বল লাল জমাটসহ", "mid": "sym-sab-excess-irregular-bleed-bright-red-clotted"},
+      {"text": "স্রাব কম ও ফ্যাকাশে", "mid": "sym-scanty-pale-bleed"},
+      {"text": "স্রাব নেই", "mid": "sym-no-bleed"},
+      {"text": "স্রাব বাদামী", "mid": "sym-brown-bleed"}
+    ],
+    "answer": "sym-sab-excess-irregular-bleed-bright-red-clotted",
+    "explanation": "Sabina-এ উজ্জ্বল লাল জমাটসহ অতিরিক্ত রক্তস্রাব হয়।"
+  },
+  {
+    "id": "sab-med-02",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কোমর থেকে সামনে কুঁচকি পর্যন্ত ব্যথা ছড়ায়, স্যাক্রাম থেকে পিউবিস", "mid": "sym-sab-pain-sacrum-to-pubes"},
+      {"text": "কুঁচকি থেকে কোমর পর্যন্ত ব্যথা", "mid": "sym-pain-pubes-to-sacrum"},
+      {"text": "ব্যথা শুধু কোমরে", "mid": "sym-pain-only-sacrum"},
+      {"text": "ব্যথা নেই", "mid": "sym-no-pain"}
+    ],
+    "answer": "sym-sab-pain-sacrum-to-pubes",
+    "explanation": "Sabina-এর ব্যথা স্যাক্রাম থেকে পিউবিস পর্যন্ত যায়, সবচেয়ে বড় পরিচায়ক।"
+  },
+  {
+    "id": "sab-med-03",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "নড়াচড়ায় রক্তস্রাব ও ব্যথা বেড়ে যায়", "mid": "sym-sab-motion-agg-bleed-pain"},
+      {"text": "নড়াচড়ায় উপশম", "mid": "sym-motion-amel"},
+      {"text": "নড়াচড়ায় কোনো প্রভাব নেই", "mid": "sym-no-effect-motion"},
+      {"text": "বিশ্রামে বৃদ্ধি", "mid": "sym-rest-agg"}
+    ],
+    "answer": "sym-sab-motion-agg-bleed-pain",
+    "explanation": "Sabina-এ সামান্য নড়াচড়ায় রক্তস্রাব ও ব্যথা বাড়ে।"
+  },
+  {
+    "id": "sab-med-04",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গর্ভপাতের ঝুঁকি, অভ্যাসগত গর্ভপাত, বিশেষত ৩য় মাসে", "mid": "sym-sab-abortion-risk-habitual-3rd-month"},
+      {"text": "গর্ভপাতের ঝুঁকি নেই", "mid": "sym-no-abortion-risk"},
+      {"text": "গর্ভপাত প্রথম মাসে", "mid": "sym-abortion-1st-month"},
+      {"text": "গর্ভপাত প্রতিরোধ করে না", "mid": "sym-no-prevent-abortion"}
+    ],
+    "answer": "sym-sab-abortion-risk-habitual-3rd-month",
+    "explanation": "Sabina তৃতীয় মাসে গর্ভপাত প্রবণতায় শ্রেষ্ঠ।"
+  },
+  {
+    "id": "sab-med-05",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সঙ্গীত অসহ্য, স্নায়বিক উত্তেজনা ও কষ্ট বাড়ে", "mid": "sym-sab-music-intolerable-agg"},
+      {"text": "সঙ্গীত পছন্দ করে", "mid": "sym-likes-music"},
+      {"text": "সঙ্গীতে উপশম", "mid": "sym-music-amel"},
+      {"text": "সঙ্গীতে কোনো প্রভাব নেই", "mid": "sym-no-effect-music"}
+    ],
+    "answer": "sym-sab-music-intolerable-agg",
+    "explanation": "Sabina রোগী সঙ্গীত সহ্য করতে পারে না।"
+  },
+  {
+    "id": "sab-med-06",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গেঁটে বাত ও জরায়ুর লক্ষণ পর্যায়ক্রমে বাড়ে কমে", "mid": "sym-sab-gout-uterine-alternate"},
+      {"text": "শুধু বাত", "mid": "sym-only-gout"},
+      {"text": "শুধু জরায়ুর সমস্যা", "mid": "sym-only-uterine"},
+      {"text": "পর্যায়ক্রম নেই", "mid": "sym-no-alternation"}
+    ],
+    "answer": "sym-sab-gout-uterine-alternate",
+    "explanation": "Sabina-এ বাত ও জরায়ু লক্ষণ পর্যায়ক্রমে আসে।"
+  },
+  {
+    "id": "sab-med-07",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জরায়ু থেকে ভার বা পিণ্ড নিচে নেমে আসার অনুভূতি", "mid": "sym-sab-uterus-bearing-down-lump"},
+      {"text": "জরায়ু উপরে টান", "mid": "sym-uterus-pulled-up"},
+      {"text": "জরায়ুতে কোনো অনুভূতি নেই", "mid": "sym-no-uterus-feeling"},
+      {"text": "জরায়ু হালকা", "mid": "sym-uterus-light"}
+    ],
+    "answer": "sym-sab-uterus-bearing-down-lump",
+    "explanation": "Sabina-এ জরায়ু থেকে ভার নিচে নামার অনুভূতি থাকে।"
+  },
+  {
+    "id": "sab-med-08",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রসব বা গর্ভপাতের পর অতিরিক্ত রক্তস্রাব", "mid": "sym-sab-hemorrhage-after-delivery-abortion"},
+      {"text": "প্রসবের পর রক্তস্রাব কম", "mid": "sym-less-bleed-after-delivery"},
+      {"text": "প্রসবের পর রক্তস্রাব নেই", "mid": "sym-no-bleed-after-delivery"},
+      {"text": "গর্ভপাতের পর রক্তস্রাব নেই", "mid": "sym-no-bleed-after-abortion"}
+    ],
+    "answer": "sym-sab-hemorrhage-after-delivery-abortion",
+    "explanation": "Sabina প্রসব বা গর্ভপাতের পর অতিরিক্ত রক্তস্রাবে কার্যকর।"
+  },
+  {
+    "id": "sab-med-09",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলদ্বারে তীরের মতো বিঁধানো ব্যথা, অর্শ থেকে উজ্জ্বল লাল রক্ত", "mid": "sym-sab-anus-stitching-piles-bright-red-bleed"},
+      {"text": "মলদ্বারে কোনো ব্যথা নেই", "mid": "sym-no-anus-pain"},
+      {"text": "অর্শ থেকে কালো রক্ত", "mid": "sym-piles-dark-blood"},
+      {"text": "মলদ্বারে শুধু চুলকানি", "mid": "sym-anus-itch-only"}
+    ],
+    "answer": "sym-sab-anus-stitching-piles-bright-red-bleed",
+    "explanation": "Sabina-এ মলদ্বারে তীরবৎ ব্যথা ও উজ্জ্বল লাল রক্তপাত হয়।"
+  },
+  {
+    "id": "sab-med-10",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ছোট হাড়ের গিঁটে বাত, আঙুল ফুলে লাল চকচকে, গোড়ালিতে ব্যথা", "mid": "sym-sab-small-joints-gout-finger-red-shiny-heel-pain"},
+      {"text": "বড় গিঁটে বাত", "mid": "sym-large-joint-gout"},
+      {"text": "গিঁটে কোনো ফোলা নেই", "mid": "sym-no-joint-swelling"},
+      {"text": "গোড়ালিতে ব্যথা নেই", "mid": "sym-no-heel-pain"}
+    ],
+    "answer": "sym-sab-small-joints-gout-finger-red-shiny-heel-pain",
+    "explanation": "Sabina ছোট গিঁটের বাতে কার্যকর, আঙুল লাল ফুলে যায়।"
+  },
+  {
+    "id": "sab-med-11",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "যৌনাঙ্গে ডুমুরের মতো আঁচিল, চুলকায় ও জ্বালা করে", "mid": "sym-sab-fig-warts-genital-itch-burn"},
+      {"text": "আঁচিল নেই", "mid": "sym-no-warts"},
+      {"text": "আঁচিল শুকনো", "mid": "sym-dry-warts"},
+      {"text": "আঁচিলে চুলকানি নেই", "mid": "sym-warts-no-itch"}
+    ],
+    "answer": "sym-sab-fig-warts-genital-itch-burn",
+    "explanation": "Sabina-এ যৌনাঙ্গে ডুমুরের মতো আঁচিল হয়।"
+  },
+  {
+    "id": "sab-med-12",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খিটখিটে ও অস্থির, একা থাকতে ভয়, অবাস্তব চিন্তা", "mid": "sym-sab-irritable-restless-fear-alone-fanciful-thoughts"},
+      {"text": "শান্ত ও স্থির", "mid": "sym-calm-steady"},
+      {"text": "একা থাকতে ভালো লাগে", "mid": "sym-likes-alone"},
+      {"text": "বাস্তব চিন্তা", "mid": "sym-realistic-thoughts"}
+    ],
+    "answer": "sym-sab-irritable-restless-fear-alone-fanciful-thoughts",
+    "explanation": "Sabina রোগী খিটখিটে, অস্থির ও একা ভয় পায়।"
+  },
+  {
+    "id": "sab-med-13",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সঙ্গীত শুনলে মনে চাপ ও বিষণ্ণতা বাড়ে", "mid": "sym-sab-music-depression-pressure"},
+      {"text": "সঙ্গীতে আনন্দ বাড়ে", "mid": "sym-music-joy"},
+      {"text": "সঙ্গীতে কোনো প্রভাব নেই", "mid": "sym-no-music-effect"},
+      {"text": "সঙ্গীত পছন্দ করে", "mid": "sym-likes-music"}
+    ],
+    "answer": "sym-sab-music-depression-pressure",
+    "explanation": "Sabina-এ সঙ্গীতে বিষণ্ণতা ও চাপ বাড়ে।"
+  },
+  {
+    "id": "sab-med-14",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঋতুস্রাব অনেকদিন ধরে চলে, প্রচুর", "mid": "sym-sab-menses-prolonged-profuse"},
+      {"text": "ঋতুস্রাব অল্প দিন", "mid": "sym-menses-short"},
+      {"text": "ঋতুস্রাব কম", "mid": "sym-menses-scanty"},
+      {"text": "ঋতুস্রাব নেই", "mid": "sym-no-menses"}
+    ],
+    "answer": "sym-sab-menses-prolonged-profuse",
+    "explanation": "Sabina-এ ঋতুস্রাব অনেকদিন ধরে প্রচুর হয়।"
+  },
+  {
+    "id": "sab-med-15",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: সামান্য নড়াচড়া, গরম ঘর, গরম আবহাওয়া, সঙ্গীত", "mid": "sym-sab-agg-least-motion-hot-room-weather-music"},
+      {"text": "বৃদ্ধি: ঠান্ডা বাতাসে", "mid": "sym-agg-cold-air"},
+      {"text": "বৃদ্ধি: খোলা বাতাসে", "mid": "sym-agg-open-air"},
+      {"text": "বৃদ্ধি: বিশ্রামে", "mid": "sym-agg-rest"}
+    ],
+    "answer": "sym-sab-agg-least-motion-hot-room-weather-music",
+    "explanation": "Sabina-এ নড়াচড়া, গরম ঘর ও সঙ্গীতে বৃদ্ধি।"
+  },
+  {
+    "id": "sab-med-16",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: ঠান্ডা খোলা বাতাসে ও ব্যথার স্থান ঠান্ডা রাখলে", "mid": "sym-sab-amel-cool-open-air-cold-part"},
+      {"text": "উপশম: গরমে", "mid": "sym-amel-heat"},
+      {"text": "উপশম: গরম ঘরে", "mid": "sym-amel-warm-room"},
+      {"text": "উপশম: সঙ্গীতে", "mid": "sym-amel-music"}
+    ],
+    "answer": "sym-sab-amel-cool-open-air-cold-part",
+    "explanation": "Sabina ঠান্ডা খোলা বাতাসে উপশম পায়।"
+  },
+  {
+    "id": "sab-med-17",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমকাতর, উভয় পার্শ্ব, সাইকোসিস ও সোরা মায়াজম", "mid": "sym-sab-hot-both-sides-sycotic-psora"},
+      {"text": "শীতকাতর", "mid": "sym-chilly"},
+      {"text": "উভয়কাতর", "mid": "sym-ambithermal"},
+      {"text": "বাম পার্শ্ব বেশি", "mid": "sym-left-more"}
+    ],
+    "answer": "sym-sab-hot-both-sides-sycotic-psora",
+    "explanation": "Sabina গরমকাতর, উভয় পার্শ্ব ও সাইকোটিক।"
+  },
+  {
+    "id": "sab-med-18",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পরিপূরক Thuja, সদৃশ Secale, Trillium, Ipecac, Millefolium", "mid": "sym-sab-complementary-thuja-similar-secale-trillium"},
+      {"text": "পরিপূরক Sulphur", "mid": "sym-complement-sulphur"},
+      {"text": "পরিপূরক Bryonia", "mid": "sym-complement-bryonia"},
+      {"text": "কোনো সম্পর্ক নেই", "mid": "sym-no-relation"}
+    ],
+    "answer": "sym-sab-complementary-thuja-similar-secale-trillium",
+    "explanation": "Sabina-এর পরিপূরক Thuja ও সদৃশ Secale, Trillium।"
+  },
+  {
+    "id": "sab-med-19",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উৎস উদ্ভিদ Savin ঝোপ, Juniperus Sabina", "mid": "sym-sab-source-savin-juniperus"},
+      {"text": "উৎস খনিজ", "mid": "sym-source-mineral"},
+      {"text": "উৎস প্রাণীজ", "mid": "sym-source-animal"},
+      {"text": "উৎস নোসোড", "mid": "sym-source-nosode"}
+    ],
+    "answer": "sym-sab-source-savin-juniperus",
+    "explanation": "Sabina Savin ঝোপ উদ্ভিদ থেকে তৈরি।"
+  },
+  {
+    "id": "sab-med-20",
+    "stem": "নিচের কোনটি Sabina-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "তীব্র রক্তস্রাবে নিম্ন শক্তি 3X-6 ঘনঘন, গর্ভপাত প্রতিরোধে উচ্চ শক্তি", "mid": "sym-sab-potency-low-hemorrhage-high-abortion-prevention"},
+      {"text": "সব ক্ষেত্রে নিম্ন শক্তি", "mid": "sym-all-low-potency"},
+      {"text": "সব ক্ষেত্রে উচ্চ শক্তি", "mid": "sym-all-high-potency"},
+      {"text": "শক্তির পার্থক্য নেই", "mid": "sym-no-potency-diff"}
+    ],
+    "answer": "sym-sab-potency-low-hemorrhage-high-abortion-prevention",
+    "explanation": "Sabina-এ তীব্র রক্তস্রাবে নিম্ন ও গর্ভপাত প্রতিরোধে উচ্চ শক্তি ব্যবহৃত হয়।"
+  }
+]

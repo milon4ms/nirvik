@@ -1,0 +1,483 @@
+
+[
+  {
+    "id": "sil-med-01",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরে বিদ্যমান পুঁজকে দ্রুত পাকিয়ে বের করে দেওয়া বা শুকিয়ে ফেলার প্রবণতা।",
+        "mid": "suppurative_tendency_pus_formation"
+      },
+      {
+        "text": "পুঁজ তৈরি হতে না দেওয়া এবং ক্ষত শুকিয়ে যাওয়া।",
+        "mid": "prevention_of_pus_formation"
+      },
+      {
+        "text": "শুধুমাত্র ত্বকের বাইরের অংশে ফোস্কা পড়া।",
+        "mid": "blisters_only_on_skin_surface"
+      },
+      {
+        "text": "ক্ষত থেকে রক্তপাত বন্ধ করতে না পারা।",
+        "mid": "inability_to_stop_bleeding"
+      }
+    ],
+    "answer": "suppurative_tendency_pus_formation",
+    "explanation": "Silicea-এর প্রধান পরিচায়ক লক্ষণ হলো শরীরের যেকোনো স্থানে পুঁজ হওয়ার প্রবণতা থাকলে তা দ্রুত পাকিয়ে বের করে দেয় অথবা শুকিয়ে ফেলে।"
+  },
+  {
+    "id": "sil-med-02",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীরে গেঁথে থাকা সুঁই, মাছের কাঁটা বা স্প্লিন্টার স্বতঃস্ফূর্তভাবে বের করে দেওয়ার ক্ষমতা।",
+        "mid": "expulsion_of_foreign_bodies"
+      },
+      {
+        "text": "শরীরে বিদেশি বস্তু প্রবেশে তীব্র প্রদাহ ও পুঁজ সৃষ্টি।",
+        "mid": "intense_inflammation_pus_from_foreign_body"
+      },
+      {
+        "text": "বিজাতীয় বস্তু শরীরে থাকলে কোনো লক্ষণ প্রকাশ না পাওয়া।",
+        "mid": "no_symptoms_from_foreign_body"
+      },
+      {
+        "text": "শুধুমাত্র ত্বকের নিচে থাকা বস্তু অপসারণে অক্ষমতা।",
+        "mid": "inability_to_remove_subcutaneous_object"
+      }
+    ],
+    "answer": "expulsion_of_foreign_bodies",
+    "explanation": "Silicea-এর অদ্ভুত ক্ষমতা হলো শরীরে গেঁথে থাকা সুঁই, মাছের কাঁটা বা স্প্লিন্টার বের করে দেওয়া।"
+  },
+  {
+    "id": "sil-med-03",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কোষ্ঠকাঠিন্য যেখানে মলের অর্ধেকটা বের হয়ে আবার ভেতরে ঢুকে যায়।",
+        "mid": "receding_stool_bashful_stool"
+      },
+      {
+        "text": "উদারাময় যেখানে মল সম্পূর্ণ জলীয়।",
+        "mid": "watery_diarrhea"
+      },
+      {
+        "text": "কোষ্ঠকাঠিন্য যেখানে মল শুষ্ক ও কঠিন।",
+        "mid": "constipation_dry_hard_stool"
+      },
+      {
+        "text": "মলত্যাগের পর তীব্র দুর্বলতা।",
+        "mid": "weakness_after_stool"
+      }
+    ],
+    "answer": "receding_stool_bashful_stool",
+    "explanation": "Silicea-এ কোষ্ঠকাঠিন্যের একটি অনন্য লক্ষণ হলো মলদ্বার দিয়ে মলের অর্ধেকটা বের হয়ে আবার ভেতরে ঢুকে যায়, যাকে 'Bashful Stool' বলা হয়।"
+  },
+  {
+    "id": "sil-med-04",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী সুঁই বা পিন দেখলে আতঙ্কিত হয়ে পড়ে (Pin-dread)।",
+        "mid": "pin_dread_fear_of_pins"
+      },
+      {
+        "text": "রোগী সুঁই দিয়ে সেলাই করতে ভালোবাসে।",
+        "mid": "love_for_needlework"
+      },
+      {
+        "text": "সুই বা পিনের প্রতি কোনো ভয় নেই।",
+        "mid": "no_fear_of_pins"
+      },
+      {
+        "text": "শুধুমাত্র মাছের কাঁটার ভয় থাকে।",
+        "mid": "fear_of_fish_bones_only"
+      }
+    ],
+    "answer": "pin_dread_fear_of_pins",
+    "explanation": "Silicea-এর একটি 특이한 মানসিক লক্ষণ হলো রোগী সুঁই বা পিন দেখলে আতঙ্কিত হয়ে পড়ে এবং সেগুলো নিয়ে অতিরিক্ত চিন্তা করে।"
+  },
+  {
+    "id": "sil-med-05",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "আত্মবিশ্বাসের অভাব; রোগী নতুন কোনো কাজ শুরু করতে ভয় পায় এবং মনে করে সে পারবে না।",
+        "mid": "lack_of_self_confidence_fear_of_new_tasks"
+      },
+      {
+        "text": "অতিরিক্ত আত্মবিশ্বাস এবং সব কাজে সফল হওয়ার দৃঢ় বিশ্বাস।",
+        "mid": "overconfidence_and_certainty_of_success"
+      },
+      {
+        "text": "নতুন কাজে কোনো ভয় বা দ্বিধা নেই।",
+        "mid": "no_fear_or_hesitation_in_new_tasks"
+      },
+      {
+        "text": "শুধুমাত্র শারীরিক পরিশ্রমে ভয় পায়।",
+        "mid": "fear_only_of_physical_exertion"
+      }
+    ],
+    "answer": "lack_of_self_confidence_fear_of_new_tasks",
+    "explanation": "Silicea-এ রোগী মানসিকভাবে অত্যন্ত দুর্বল এবং নতুন কোনো কাজ শুরু করতে ভয় পায়; মনে করে সে পারবে না।"
+  },
+  {
+    "id": "sil-med-06",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়ের পাতায় অত্যন্ত দুর্গন্ধযুক্ত ঘাম হয়, যা দানা বেঁধে বন্ধ হলে মারাত্মক অসুস্থতা তৈরি করে।",
+        "mid": "offensive_foot_sweat_suppression_causes_illness"
+      },
+      {
+        "text": "পায়ে ঘাম হয় না, শুষ্ক থাকে।",
+        "mid": "dry_feet_no_sweat"
+      },
+      {
+        "text": "পায়ের ঘাম সুগন্ধযুক্ত এবং কোনো সমস্যা করে না।",
+        "mid": "fragrant_foot_sweat_no_problem"
+      },
+      {
+        "text": "শুধুমাত্র হাতে দুর্গন্ধযুক্ত ঘাম হয়।",
+        "mid": "offensive_sweat_on_hands_only"
+      }
+    ],
+    "answer": "offensive_foot_sweat_suppression_causes_illness",
+    "explanation": "Silicea-এ পায়ের পাতায় অত্যন্ত দুর্গন্ধযুক্ত ঘাম হয় এবং সেই ঘাম দানা বেঁধে বন্ধ হলে মারাত্মক অসুস্থতা তৈরি হয়।"
+  },
+  {
+    "id": "sil-med-07",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথাব্যথা ঘাড় থেকে শুরু হয়ে চোখের ওপর (সাধারণত ডান চোখে) এসে স্থির হয়।",
+        "mid": "headache_from_neck_to_right_eye"
+      },
+      {
+        "text": "মাথাব্যথা কপাল থেকে শুরু হয়ে মাথার পেছনে যায়।",
+        "mid": "headache_from_front_to_occiput"
+      },
+      {
+        "text": "মাথাব্যথা শুধুমাত্র মাথার চাঁদিতে স্থির থাকে।",
+        "mid": "headache_fixed_at_vertex_only"
+      },
+      {
+        "text": "মাথাব্যথা সমগ্র মাথায় ছড়িয়ে পড়ে।",
+        "mid": "headache_generalized_all_over"
+      }
+    ],
+    "answer": "headache_from_neck_to_right_eye",
+    "explanation": "Silicea-এ মাথাব্যথা ঘাড় থেকে শুরু হয়ে চোখের ওপর (সাধারণত ডান চোখে) এসে স্থির হয়।"
+  },
+  {
+    "id": "sil-med-08",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "হাড়ের ক্ষয় (Caries) এবং গ্ল্যান্ড ফুলে শক্ত হয়ে যাওয়া বা পেকে যাওয়া।",
+        "mid": "bone_caries_glandular_suppuration"
+      },
+      {
+        "text": "হাড় মজবুত হওয়া এবং গ্ল্যান্ড স্বাভাবিক থাকা।",
+        "mid": "strong_bones_normal_glands"
+      },
+      {
+        "text": "শুধুমাত্র পেশীতে ব্যথা, হাড় ও গ্ল্যান্ড স্বাভাবিক।",
+        "mid": "muscle_pain_bones_glands_normal"
+      },
+      {
+        "text": "গ্ল্যান্ড ফুলে নরম ও পিচ্ছিল হয়ে যাওয়া।",
+        "mid": "soft_slimy_glandular_swelling"
+      }
+    ],
+    "answer": "bone_caries_glandular_suppuration",
+    "explanation": "Silicea হাড়ের ক্ষয় এবং গ্ল্যান্ড ফুলে শক্ত হয়ে যাওয়া বা পেকে যাওয়ার ক্ষেত্রে প্রধান ঔষধ।"
+  },
+  {
+    "id": "sil-med-09",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সামান্য আঁচড় লাগলেই সেখানে পুঁজ হয়; আঙুলহাড়া (Whitlow) বা নখের কোণ পাকার সমস্যা।",
+        "mid": "pus_formation_from_minor_scratches_whitlow"
+      },
+      {
+        "text": "সামান্য আঁচড় লাগলে দ্রুত শুকিয়ে যায়, পুঁজ হয় না।",
+        "mid": "minor_scratches_heal_without_pus"
+      },
+      {
+        "text": "নখের কোণে কোনো সমস্যা হয় না।",
+        "mid": "no_problem_at_nail_corners"
+      },
+      {
+        "text": "শুধুমাত্র বড় ক্ষতে পুঁজ হয়।",
+        "mid": "pus_only_in_large_wounds"
+      }
+    ],
+    "answer": "pus_formation_from_minor_scratches_whitlow",
+    "explanation": "Silicea-এ সামান্য আঁচড় লাগলেই সেখানে পুঁজ হয়; আঙুলহাড়া (Whitlow) বা নখের কোণ পাকার সমস্যায় এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "sil-med-10",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শিশুদের রিকেট; শিশুরা দেরিতে হাঁটতে শেখে এবং মাথার খুলির হাড় ঠিকমতো জোড়া লাগে না।",
+        "mid": "rickets_delayed_walking_cranial_sutures"
+      },
+      {
+        "text": "শিশুরা খুব তাড়াতাড়ি হাঁটতে শেখে এবং হাড় দ্রুত জোড়া লাগে।",
+        "mid": "early_walking_fast_bone_union"
+      },
+      {
+        "text": "শিশুদের হাড় অতিরিক্ত মোটা ও শক্ত হয়ে যায়।",
+        "mid": "thick_hard_bones_in_children"
+      },
+      {
+        "text": "শিশুদের শুধুমাত্র দাঁত ওঠতে দেরি হয়, হাড় স্বাভাবিক।",
+        "mid": "delayed_teething_only_bones_normal"
+      }
+    ],
+    "answer": "rickets_delayed_walking_cranial_sutures",
+    "explanation": "Silicea শিশুদের রিকেটে কার্যকর; শিশুরা দেরিতে হাঁটতে শেখে, মাথার খুলির হাড় ঠিকমতো জোড়া লাগে না এবং শরীর শীর্ণ হয়ে যায়।"
+  },
+  {
+    "id": "sil-med-11",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় নতুন চাঁদের সময় (অমাবস্যা), ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে।",
+        "mid": "aggravation_new_moon_cold_air_uncovering"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় নতুন চাঁদের সময় এবং ঠান্ডা বাতাসে।",
+        "mid": "amelioration_new_moon_cold_air"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় পূর্ণিমায় এবং গরমে।",
+        "mid": "aggravation_full_moon_heat"
+      },
+      {
+        "text": "চাঁদের সাথে লক্ষণের কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_with_moon"
+      }
+    ],
+    "answer": "aggravation_new_moon_cold_air_uncovering",
+    "explanation": "Silicea-এর লক্ষণ নতুন চাঁদের সময় (অমাবস্যা), ঠান্ডা বাতাসে, শরীর উন্মুক্ত করলে, ভিজে আবহাওয়ায় এবং মানসিক পরিশ্রমে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sil-med-12",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় মাথা বা আক্রান্ত স্থান গরম কাপড় দিয়ে জড়িয়ে রাখলে (Profuse wrapping up) এবং উষ্ণতায়।",
+        "mid": "amelioration_warm_wrapping_heat"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় ঠান্ডা বাতাসে এবং শরীর খোলা রাখলে।",
+        "mid": "amelioration_cold_air_uncovering"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় গরম কাপড় জড়িয়ে রাখলে এবং উষ্ণতায়।",
+        "mid": "aggravation_warm_wrapping_heat"
+      },
+      {
+        "text": "গরম বা ঠান্ডায় কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_of_heat_or_cold"
+      }
+    ],
+    "answer": "amelioration_warm_wrapping_heat",
+    "explanation": "Silicea-এর লক্ষণ মাথা বা আক্রান্ত স্থান গরম কাপড় দিয়ে জড়িয়ে রাখলে, উষ্ণতায় এবং গ্রীষ্মকালে উপশম হয়।"
+  },
+  {
+    "id": "sil-med-13",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অত্যন্ত শীতকাতর (Extremely Chilly)।",
+        "mid": "extremely_chilly_patient"
+      },
+      {
+        "text": "রোগী অত্যন্ত উষ্ণকাতর (Hot patient)।",
+        "mid": "extremely_hot_patient"
+      },
+      {
+        "text": "রোগীর কোনো তাপমাত্রা সংবেদনশীলতা নেই।",
+        "mid": "no_thermal_sensitivity"
+      },
+      {
+        "text": "রোগী শুধুমাত্র গরমে অস্বস্তি বোধ করে।",
+        "mid": "discomfort_only_in_heat"
+      }
+    ],
+    "answer": "extremely_chilly_patient",
+    "explanation": "Silicea একটি অত্যন্ত শীতকাতর (Chilly) ঔষধ।"
+  },
+  {
+    "id": "sil-med-14",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পার্শ্বগতভাবে প্রধানত ডান দিকে কাজ করে।",
+        "mid": "right_sided_predominance"
+      },
+      {
+        "text": "পার্শ্বগতভাবে প্রধানত বাম দিকে কাজ করে।",
+        "mid": "left_sided_predominance"
+      },
+      {
+        "text": "উভয় দিকে সমানভাবে কাজ করে।",
+        "mid": "equally_bilateral"
+      },
+      {
+        "text": "কোনো নির্দিষ্ট পার্শ্ব নেই।",
+        "mid": "no_sidedness"
+      }
+    ],
+    "answer": "right_sided_predominance",
+    "explanation": "Silicea পার্শ্বগতভাবে প্রধানত ডান দিকে কাজ করে।"
+  },
+  {
+    "id": "sil-med-15",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী স্বভাবে শান্ত ও লাজুক হলেও নিজের মতামতে অটল থাকে (স্থির সংকল্প কিন্তু লাজুক)।",
+        "mid": "shy_but_obstinate_fixed_ideas"
+      },
+      {
+        "text": "রোগী অত্যন্ত চঞ্চল এবং সহজেই মত পরিবর্তন করে।",
+        "mid": "restless_and_changeable_opinions"
+      },
+      {
+        "text": "রোগী অত্যন্ত আক্রমণাত্মক এবং তর্কপ্রবণ।",
+        "mid": "aggressive_and_argumentative"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ উদাসীন ও নির্বিকার।",
+        "mid": "apathetic_indifferent"
+      }
+    ],
+    "answer": "shy_but_obstinate_fixed_ideas",
+    "explanation": "Silicea-এ রোগী স্বভাবে শান্ত ও লাজুক হলেও নিজের মতামতে অটল থাকে (স্থির সংকল্প কিন্তু লাজুক)।"
+  },
+  {
+    "id": "sil-med-16",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "সামান্য পড়াশোনা বা বুদ্ধিবৃত্তিক কাজ করলেই রোগী মানসিকভাবে ক্লান্ত হয়ে পড়ে।",
+        "mid": "mental_fatigue_from_slight_intellectual_work"
+      },
+      {
+        "text": "বুদ্ধিবৃত্তিক কাজ করলে রোগীর শক্তি বৃদ্ধি পায়।",
+        "mid": "increased_energy_from_intellectual_work"
+      },
+      {
+        "text": "মানসিক কাজে কোনো ক্লান্তি অনুভূত হয় না।",
+        "mid": "no_mental_fatigue"
+      },
+      {
+        "text": "শুধুমাত্র শারীরিক পরিশ্রমে ক্লান্তি হয়।",
+        "mid": "fatigue_only_from_physical_exertion"
+      }
+    ],
+    "answer": "mental_fatigue_from_slight_intellectual_work",
+    "explanation": "Silicea-এ সামান্য পড়াশোনা বা বুদ্ধিবৃত্তিক কাজ করলেই রোগী মানসিকভাবে ক্লান্ত হয়ে পড়ে।"
+  },
+  {
+    "id": "sil-med-17",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঘুমের সময় মাথায় প্রচুর ঘাম হয়, যা বালিশ ভিজিয়ে দেয় (বিশেষত শিশুদের ক্ষেত্রে)।",
+        "mid": "profuse_head_sweat_during_sleep_wetting_pillow"
+      },
+      {
+        "text": "ঘুমের সময় মাথায় ঘাম হয় না।",
+        "mid": "no_head_sweat_during_sleep"
+      },
+      {
+        "text": "শুধুমাত্র জাগ্রত অবস্থায় মাথায় ঘাম হয়।",
+        "mid": "head_sweat_only_when_awake"
+      },
+      {
+        "text": "শরীরের অন্যান্য অংশে ঘাম হয় কিন্তু মাথায় নয়।",
+        "mid": "sweat_on_other_parts_not_head"
+      }
+    ],
+    "answer": "profuse_head_sweat_during_sleep_wetting_pillow",
+    "explanation": "Silicea-এ ঘুমের সময় মাথায় প্রচুর ঘাম হয়, যা বালিশ ভিজিয়ে দেয় (বিশেষ করে শিশুদের ক্ষেত্রে)।"
+  },
+  {
+    "id": "sil-med-18",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "চোখে বারবার অঞ্জনি (Styes) হওয়ার প্রবণতা।",
+        "mid": "recurrent_styes_on_eyes"
+      },
+      {
+        "text": "চোখে কোনো অঞ্জনি হয় না।",
+        "mid": "no_styes_on_eyes"
+      },
+      {
+        "text": "শুধুমাত্র একবার অঞ্জনি হয়ে স্থায়ীভাবে সেরে যায়।",
+        "mid": "single_stye_heals_permanently"
+      },
+      {
+        "text": "অঞ্জনি শুধুমাত্র বাম চোখে হয়।",
+        "mid": "styes_only_on_left_eye"
+      }
+    ],
+    "answer": "recurrent_styes_on_eyes",
+    "explanation": "Silicea-এ চোখে বারবার অঞ্জনি (Styes) হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "sil-med-19",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পায়ের ঘা লোপ পেয়ে ছানি পড়া এবং দৃষ্টিশক্তি কমে যাওয়া।",
+        "mid": "suppressed_foot_ulcer_leading_to_cataract"
+      },
+      {
+        "text": "পায়ের ঘা থেকে দৃষ্টিশক্তি বৃদ্ধি পাওয়া।",
+        "mid": "foot_ulcer_improves_vision"
+      },
+      {
+        "text": "পায়ের ঘা এবং চোখের সমস্যার মধ্যে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_foot_ulcer_eye_problem"
+      },
+      {
+        "text": "শুধুমাত্র ছানি পড়া, পায়ের ঘা নয়।",
+        "mid": "cataract_only_no_foot_ulcer"
+      }
+    ],
+    "answer": "suppressed_foot_ulcer_leading_to_cataract",
+    "explanation": "Silicea-এ পায়ের ঘা লোপ পেয়ে ছানি পড়া এবং দৃষ্টিশক্তি কমে যাওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "sil-med-20",
+    "stem": "নিচের কোনটি Silicea-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী সর্বদা কামচিন্তায় মগ্ন থাকে এবং মিলনের পর অত্যন্ত দুর্বলতা ও মুখমণ্ডল ফ্যাকাশে হয়ে যায়।",
+        "mid": "sexual_thoughts_weakness_after_coitus_pale_face"
+      },
+      {
+        "text": "যৌন ইচ্ছা সম্পূর্ণ লোপ পাওয়া।",
+        "mid": "complete_loss_of_sexual_desire"
+      },
+      {
+        "text": "মিলনের পর শক্তি বৃদ্ধি পাওয়া।",
+        "mid": "increased_energy_after_coitus"
+      },
+      {
+        "text": "যৌন চিন্তার সাথে কোনো শারীরিক দুর্বলতা নেই।",
+        "mid": "no_physical_weakness_with_sexual_thoughts"
+      }
+    ],
+    "answer": "sexual_thoughts_weakness_after_coitus_pale_face",
+    "explanation": "Silicea-এ রোগী সর্বদা কামচিন্তায় মগ্ন থাকে; মিলনের পর অত্যন্ত দুর্বলতা, মুখমণ্ডল ফ্যাকাশে এবং বানরের মতো অস্থিসার শূন্যতা অনুভূত হয়।"
+  }
+]

@@ -1,0 +1,484 @@
+
+[
+  {
+    "id": "mag-carb-med-01",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শরীর, ঘাম, মল ও বমি থেকে তীব্র টক গন্ধ বের হওয়া।",
+        "mid": "sour_smell_body_sweat_stool_vomit"
+      },
+      {
+        "text": "শরীর থেকে মিষ্টি গন্ধ বের হওয়া।",
+        "mid": "sweet_smell_from_body"
+      },
+      {
+        "text": "ঘামে দুর্গন্ধ কিন্তু মল গন্ধহীন।",
+        "mid": "foul_sweat_odorless_stool"
+      },
+      {
+        "text": "শরীর থেকে কোনো গন্ধ বের না হওয়া।",
+        "mid": "no_body_odor"
+      }
+    ],
+    "answer": "sour_smell_body_sweat_stool_vomit",
+    "explanation": "Magnesia Carbonica-এর প্রধান পরিচায়ক লক্ষণ হলো রোগীর শরীর, ঘাম, মল ও বমি থেকে তীব্র টক গন্ধ বের হওয়া।"
+  },
+  {
+    "id": "mag-carb-med-02",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শিশুরা দুধ পান করলেই বমি করে বা অজীর্ণ মল ত্যাগ করে।",
+        "mid": "milk_intolerance_vomiting_undigested_stool"
+      },
+      {
+        "text": "শিশুরা দুধ পান করলে আরাম বোধ করে।",
+        "mid": "milk_ameliorates_children"
+      },
+      {
+        "text": "দুধ পান করলে কোষ্ঠকাঠিন্য হয়।",
+        "mid": "milk_causes_constipation"
+      },
+      {
+        "text": "দুধ পান করলে কোনো সমস্যা হয় না।",
+        "mid": "no_problem_with_milk"
+      }
+    ],
+    "answer": "milk_intolerance_vomiting_undigested_stool",
+    "explanation": "Magnesia Carbonica-এ শিশুরা দুধ সহ্য করতে পারে না; দুধ পান করলেই বমি করে বা অজীর্ণ মল ত্যাগ করে।"
+  },
+  {
+    "id": "mag-carb-med-03",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মল সবুজ রঙের, পুকুরের সবুজ শ্যাওলা বা ব্যাঙের ডিমের মতো।",
+        "mid": "green_stool_like_pond_scum_frog_spawn"
+      },
+      {
+        "text": "মল কালচে এবং শক্ত।",
+        "mid": "dark_hard_stool"
+      },
+      {
+        "text": "মল হলুদ এবং জলীয়।",
+        "mid": "yellow_watery_stool"
+      },
+      {
+        "text": "মল সাদাটে এবং শুষ্ক।",
+        "mid": "pale_dry_stool"
+      }
+    ],
+    "answer": "green_stool_like_pond_scum_frog_spawn",
+    "explanation": "Magnesia Carbonica-এ শিশুদের উদরাময়ে মল সম্পূর্ণ সবুজ এবং পানির ওপর ব্যাঙের ডিম বা পুকুরের শ্যাওলার মতো ভেসে থাকে।"
+  },
+  {
+    "id": "mag-carb-med-04",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মলের সাথে সাদা রঙের চর্বির মতো টুকরো (দুধের অজীর্ণ অংশ) নির্গত হয়।",
+        "mid": "white_fatty_lumps_in_stool_undigested_milk"
+      },
+      {
+        "text": "মলে রক্ত ও শ্লেষ্মা থাকে।",
+        "mid": "blood_and_mucus_in_stool"
+      },
+      {
+        "text": "মলে অপরিপক্ক খাদ্যকণা থাকে।",
+        "mid": "undigested_food_in_stool"
+      },
+      {
+        "text": "মলে কোনো অস্বাভাবিক উপাদান থাকে না।",
+        "mid": "no_abnormal_component_in_stool"
+      }
+    ],
+    "answer": "white_fatty_lumps_in_stool_undigested_milk",
+    "explanation": "Magnesia Carbonica-এ মলের সাথে সাদা রঙের চর্বির মতো টুকরো (দুধের অজীর্ণ অংশ) নির্গত হয়।"
+  },
+  {
+    "id": "mag-carb-med-05",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "গর্ভবতী নারীদের দাঁতের ব্যথা, যা রাতে বিছানার গরমে বৃদ্ধি পায়।",
+        "mid": "pregnancy_toothache_worse_night_bed_heat"
+      },
+      {
+        "text": "গর্ভবতী নারীদের দাঁতের ব্যথা, যা ঠান্ডা পানিতে উপশম হয়।",
+        "mid": "pregnancy_toothache_relieved_by_cold_water"
+      },
+      {
+        "text": "শুধুমাত্র শিশুদের দাঁত ওঠার ব্যথা।",
+        "mid": "teething_pain_in_children_only"
+      },
+      {
+        "text": "দাঁতের ব্যথা যা দিনের বেলা বেশি হয়।",
+        "mid": "toothache_worse_during_day"
+      }
+    ],
+    "answer": "pregnancy_toothache_worse_night_bed_heat",
+    "explanation": "Magnesia Carbonica গর্ভাবস্থায় নারীদের দাঁতের ব্যথায় কার্যকর; এই ব্যথা সাধারণত রাতে শুতে গেলে বা বিছানার গরমে বেড়ে যায়।"
+  },
+  {
+    "id": "mag-carb-med-06",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ঋতুস্রাবের রক্ত আলকাতরার মতো কালো, চটচটে এবং রাতে বেশি নিঃসৃত হয়।",
+        "mid": "black_tarry_sticky_menses_worse_at_night"
+      },
+      {
+        "text": "ঋতুস্রাবের রক্ত উজ্জ্বল লাল এবং দিনে বেশি হয়।",
+        "mid": "bright_red_menses_worse_during_day"
+      },
+      {
+        "text": "ঋতুস্রাবের রক্ত পাতলা ও জলীয়।",
+        "mid": "thin_watery_menses"
+      },
+      {
+        "text": "ঋতুস্রাবের রক্ত স্বাভাবিক রঙের ও পরিমাণের।",
+        "mid": "normal_menses"
+      }
+    ],
+    "answer": "black_tarry_sticky_menses_worse_at_night",
+    "explanation": "Magnesia Carbonica-এ ঋতুস্রাবের রক্ত অত্যন্ত চটচটে, আলকাতরার মতো কালো এবং রাতে শুয়ে থাকলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "mag-carb-med-07",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মিষ্টি ও অম্ল খাবার পছন্দ কিন্তু মাংসে তীব্র অনিচ্ছা।",
+        "mid": "desire_sweets_acids_aversion_meat"
+      },
+      {
+        "text": "মাংস খাওয়ার প্রবল ইচ্ছা।",
+        "mid": "desire_for_meat"
+      },
+      {
+        "text": "মিষ্টি খাবারে অনীহা।",
+        "mid": "aversion_to_sweets"
+      },
+      {
+        "text": "অম্ল খাবারে অনীহা।",
+        "mid": "aversion_to_acids"
+      }
+    ],
+    "answer": "desire_sweets_acids_aversion_meat",
+    "explanation": "Magnesia Carbonica-এ রোগীর মিষ্টি ও অম্ল খাবার পছন্দ কিন্তু মাংসে তীব্র অনিচ্ছা থাকে।"
+  },
+  {
+    "id": "mag-carb-med-08",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী অত্যন্ত উদ্বিগ্ন এবং খিটখিটে স্বভাবের হয়, বিশেষ করে একাকী থাকতে ভয় পায়।",
+        "mid": "anxious_irritable_fear_of_being_alone"
+      },
+      {
+        "text": "রোগী অতিরিক্ত শান্ত ও ধৈর্যশীল।",
+        "mid": "calm_and_patient"
+      },
+      {
+        "text": "রোগী হাসিখুশি ও প্রফুল্ল।",
+        "mid": "cheerful_and_happy"
+      },
+      {
+        "text": "রোগী সম্পূর্ণ নির্বিকার ও উদাসীন।",
+        "mid": "apathetic_indifferent"
+      }
+    ],
+    "answer": "anxious_irritable_fear_of_being_alone",
+    "explanation": "Magnesia Carbonica-এ রোগী অত্যন্ত উদ্বিগ্ন এবং খিটখিটে স্বভাবের হয়, ছোটখাটো বিষয়েও ভয় পায়, বিশেষ করে একাকী থাকতে ভয় পায়।"
+  },
+  {
+    "id": "mag-carb-med-09",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শিশুরা সারাক্ষণ ঘ্যানঘ্যান করে এবং কোনো কিছুতেই সন্তুষ্ট হতে চায় না।",
+        "mid": "whining_children_dissatisfied"
+      },
+      {
+        "text": "শিশুরা শান্ত থাকে এবং সহজে সন্তুষ্ট হয়।",
+        "mid": "calm_easily_satisfied_children"
+      },
+      {
+        "text": "শিশুরা অতিরিক্ত হাসিখুশি থাকে।",
+        "mid": "cheerful_children"
+      },
+      {
+        "text": "শিশুরা একা থাকতে ভালোবাসে।",
+        "mid": "children_like_solitude"
+      }
+    ],
+    "answer": "whining_children_dissatisfied",
+    "explanation": "Magnesia Carbonica-এ শিশুরা সারাক্ষণ ঘ্যানঘ্যান করে এবং কোনো কিছুতেই সন্তুষ্ট হতে চায় না।"
+  },
+  {
+    "id": "mag-carb-med-10",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "পেটে প্রচণ্ড মোচড়ানি ব্যথা, যা সামনের দিকে ঝুঁকে বসলে বা চাপ দিলে কমে।",
+        "mid": "abdominal_colic_relieved_by_bending_forward_pressure"
+      },
+      {
+        "text": "পেটে ব্যথা, যা সোজা হয়ে বসলে কমে।",
+        "mid": "abdominal_pain_relieved_by_sitting_erect"
+      },
+      {
+        "text": "পেটে জ্বালাপোড়া, যা ঠান্ডা পানিতে কমে।",
+        "mid": "burning_stomach_relieved_by_cold_water"
+      },
+      {
+        "text": "পেটে কোনো ব্যথা বা অস্বস্তি নেই।",
+        "mid": "no_abdominal_pain"
+      }
+    ],
+    "answer": "abdominal_colic_relieved_by_bending_forward_pressure",
+    "explanation": "Magnesia Carbonica-এ পেটে প্রচণ্ড মোচড়ানি ব্যথা হয়, যা সামনের দিকে ঝুঁকে বসলে বা চাপ দিলে কিছুটা কমে।"
+  },
+  {
+    "id": "mag-carb-med-11",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দুধ পানের পর টক বমি হওয়া।",
+        "mid": "sour_vomiting_after_milk"
+      },
+      {
+        "text": "দুধ পানের পর বমি বমি ভাব কিন্তু বমি হয় না।",
+        "mid": "nausea_after_milk_no_vomiting"
+      },
+      {
+        "text": "খালি পেটে বমি হওয়া।",
+        "mid": "vomiting_on_empty_stomach"
+      },
+      {
+        "text": "বমির সাথে রক্ত যাওয়া।",
+        "mid": "vomiting_with_blood"
+      }
+    ],
+    "answer": "sour_vomiting_after_milk",
+    "explanation": "Magnesia Carbonica-এ দুধ পানের পর টক বমি হওয়া একটি বিশেষ লক্ষণ।"
+  },
+  {
+    "id": "mag-carb-med-12",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "কোষ্ঠকাঠিন্যে মল শুষ্ক, শক্ত এবং মাটির মতো গুটি গুটি হয়।",
+        "mid": "constipation_dry_hard_lumpy_stool_like_clay"
+      },
+      {
+        "text": "কোষ্ঠকাঠিন্যে মল নরম এবং পিচ্ছিল।",
+        "mid": "constipation_soft_slimy_stool"
+      },
+      {
+        "text": "ডায়রিয়ায় মল শুষ্ক এবং কঠিন।",
+        "mid": "diarrhea_dry_hard_stool"
+      },
+      {
+        "text": "মলে কোনো সমস্যা নেই।",
+        "mid": "no_stool_problem"
+      }
+    ],
+    "answer": "constipation_dry_hard_lumpy_stool_like_clay",
+    "explanation": "Magnesia Carbonica-এ কোষ্ঠকাঠিন্যের ক্ষেত্রে মল শুষ্ক, শক্ত এবং মাটির মতো গুটি গুটি হয়।"
+  },
+  {
+    "id": "mag-carb-med-13",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "ডায়রিয়ায় মল টক গন্ধযুক্ত এবং ফেনা ফেনা হয়।",
+        "mid": "diarrhea_sour_smelling_frothy_stool"
+      },
+      {
+        "text": "ডায়রিয়ায় মল দুর্গন্ধযুক্ত কিন্তু ফেনা নেই।",
+        "mid": "diarrhea_foul_smelling_no_froth"
+      },
+      {
+        "text": "ডায়রিয়ায় মল রক্তমিশ্রিত।",
+        "mid": "diarrhea_bloody_stool"
+      },
+      {
+        "text": "ডায়রিয়ায় মল শুষ্ক ও কঠিন।",
+        "mid": "diarrhea_dry_hard_stool"
+      }
+    ],
+    "answer": "diarrhea_sour_smelling_frothy_stool",
+    "explanation": "Magnesia Carbonica-এ ডায়রিয়ার ক্ষেত্রে মল টক গন্ধযুক্ত ও ফেনা ফেনা হয়।"
+  },
+  {
+    "id": "mag-carb-med-14",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "মাথা ও মুখের তীব্র স্নায়ুশূল (Neuralgia), যা রাতে বা বিশ্রামে বাড়ে।",
+        "mid": "neuralgia_head_face_worse_night_rest"
+      },
+      {
+        "text": "মাথা ও মুখের ব্যথা, যা চলাফেরায় বাড়ে।",
+        "mid": "head_face_pain_worse_motion"
+      },
+      {
+        "text": "শুধুমাত্র মাথার পিছনে ব্যথা।",
+        "mid": "pain_only_occiput"
+      },
+      {
+        "text": "মাথা ও মুখে কোনো ব্যথা নেই।",
+        "mid": "no_head_face_pain"
+      }
+    ],
+    "answer": "neuralgia_head_face_worse_night_rest",
+    "explanation": "Magnesia Carbonica-এ মাথা ও মুখের তীব্র স্নায়ুশূল (Neuralgia) হয়, যা রাতে বা বিশ্রামে বাড়ে।"
+  },
+  {
+    "id": "mag-carb-med-15",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "শিশুদের মাথার ত্বকে চর্বিযুক্ত খুত খুত বা একজিমা, যা থেকে দুর্গন্ধ বের হয়।",
+        "mid": "fatty_crusts_eczema_scalp_offensive_odor"
+      },
+      {
+        "text": "শিশুদের মাথার ত্বক শুষ্ক ও খসখসে।",
+        "mid": "dry_scaly_scalp_children"
+      },
+      {
+        "text": "শিশুদের মাথার ত্বকে কোনো সমস্যা নেই।",
+        "mid": "no_scalp_problem_children"
+      },
+      {
+        "text": "শুধুমাত্র মুখে একজিমা।",
+        "mid": "eczema_only_on_face"
+      }
+    ],
+    "answer": "fatty_crusts_eczema_scalp_offensive_odor",
+    "explanation": "Magnesia Carbonica-এ শিশুদের মাথার ত্বকে চর্বিযুক্ত খুত খুত বা একজিমা দেখা দেয়, যা থেকে দুর্গন্ধ বের হয়।"
+  },
+  {
+    "id": "mag-carb-med-16",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় রাতে, বিছানার গরমে, বিশ্রামে এবং ঠান্ডা বাতাসে।",
+        "mid": "aggravation_night_bed_heat_rest_cold_air"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় দিনে এবং চলাফেরায়।",
+        "mid": "aggravation_day_motion"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় রাতে এবং বিছানার গরমে।",
+        "mid": "amelioration_night_bed_heat"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় শুধুমাত্র সকালে।",
+        "mid": "aggravation_only_morning"
+      }
+    ],
+    "answer": "aggravation_night_bed_heat_rest_cold_air",
+    "explanation": "Magnesia Carbonica-এর লক্ষণ রাতে, বিছানার গরমে, বিশ্রামে এবং ঠান্ডা বাতাসে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "mag-carb-med-17",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "লক্ষণ উপশম হয় নড়াচড়া করলে এবং মুক্ত বাতাসে হাঁটলে।",
+        "mid": "amelioration_motion_open_air_walking"
+      },
+      {
+        "text": "লক্ষণ উপশম হয় বিশ্রামে এবং বিছানার গরমে।",
+        "mid": "amelioration_rest_bed_heat"
+      },
+      {
+        "text": "লক্ষণ বৃদ্ধি পায় নড়াচড়ায় এবং মুক্ত বাতাসে।",
+        "mid": "aggravation_motion_open_air"
+      },
+      {
+        "text": "নড়াচড়ায় বা মুক্ত বাতাসে কোনো প্রভাব পড়ে না।",
+        "mid": "no_effect_motion_open_air"
+      }
+    ],
+    "answer": "amelioration_motion_open_air_walking",
+    "explanation": "Magnesia Carbonica-এর লক্ষণ নড়াচড়া করলে, মুক্ত বাতাসে হাঁটলে উপশম হয়।"
+  },
+  {
+    "id": "mag-carb-med-18",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "দুধ পানেও রোগ বৃদ্ধি পায়।",
+        "mid": "aggravation_from_milk"
+      },
+      {
+        "text": "দুধ পান করলে রোগ উপশম হয়।",
+        "mid": "amelioration_from_milk"
+      },
+      {
+        "text": "দুধের সাথে কোনো সম্পর্ক নেই।",
+        "mid": "no_relation_with_milk"
+      },
+      {
+        "text": "শুধুমাত্র ঠান্ডা দুধে উপশম হয়।",
+        "mid": "amelioration_from_cold_milk_only"
+      }
+    ],
+    "answer": "aggravation_from_milk",
+    "explanation": "Magnesia Carbonica-এ দুধ পানেও রোগ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "mag-carb-med-19",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "প্রতি ৩ সপ্তাহ অন্তর লক্ষণগুলোর পুনরাবৃত্তি ঘটে।",
+        "mid": "recurrence_of_symptoms_every_3_weeks"
+      },
+      {
+        "text": "প্রতি ৭ দিন অন্তর লক্ষণগুলোর পুনরাবৃত্তি ঘটে।",
+        "mid": "recurrence_of_symptoms_every_7_days"
+      },
+      {
+        "text": "লক্ষণগুলোর কোনো নির্দিষ্ট পুনরাবৃত্তি নেই।",
+        "mid": "no_fixed_recurrence"
+      },
+      {
+        "text": "শুধুমাত্র বছরে একবার লক্ষণ দেখা দেয়।",
+        "mid": "symptoms_once_a_year"
+      }
+    ],
+    "answer": "recurrence_of_symptoms_every_3_weeks",
+    "explanation": "Magnesia Carbonica-এর লক্ষণগুলো প্রতি ৩ সপ্তাহ অন্তর পুনরাবৃত্তি ঘটে।"
+  },
+  {
+    "id": "mag-carb-med-20",
+    "stem": "নিচের কোনটি Magnesia Carbonica-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {
+        "text": "রোগী প্রধানত শীতকাতর (Chilly)।",
+        "mid": "predominantly_chilly_patient"
+      },
+      {
+        "text": "রোগী প্রধানত উষ্ণকাতর (Hot patient)।",
+        "mid": "predominantly_hot_patient"
+      },
+      {
+        "text": "রোগীর কোনো তাপমাত্রা সংবেদনশীলতা নেই।",
+        "mid": "no_thermal_sensitivity"
+      },
+      {
+        "text": "রোগী শুধুমাত্র গরমে অস্বস্তি বোধ করে।",
+        "mid": "discomfort_only_in_heat"
+      }
+    ],
+    "answer": "predominantly_chilly_patient",
+    "explanation": "Magnesia Carbonica প্রধানত শীতকাতর (Chilly) ঔষধ।"
+  }
+]
+

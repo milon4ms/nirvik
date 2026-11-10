@@ -1,0 +1,481 @@
+[
+{
+"id": "just-med-01",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "একটানা ভয়ানক ও শুষ্ক কাশি এবং কাশির চোটে বুক ফেটে যাওয়ার উপক্রম হওয়া",
+"mid": "sym-severe-dry-bursting-cough"
+},
+{
+"text": "ভয় বা আতঙ্কের পর হঠাৎ জ্বর, ত্বক শুষ্ক ও গরম",
+"mid": "sym-fever-fear"
+},
+{
+"text": "পেটে ভারী বোধ ও কোষ্ঠকাঠিন্য",
+"mid": "sym-heavy-belly"
+},
+{
+"text": "ঠান্ডা লাগলে ব্যথা বেড়ে যায়",
+"mid": "sym-cold-pain"
+}
+],
+"answer": "sym-severe-dry-bursting-cough",
+"explanation": "Justicia Adhatoda-এর প্রধান লক্ষণ হলো একটানা ভয়ানক কাশি, শুষ্ক কাশি এবং কাশির চোটে মনে হয় বুক ফেটে যাবে।"
+},
+{
+"id": "just-med-02",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "প্রচুর হাঁচির সাথে তরল শ্লেষ্মা নিঃসরণ এবং চোখ দিয়ে জল পড়া",
+"mid": "sym-sneezing-watery-discharge-eyes"
+},
+{
+"text": "জল স্পর্শ করলে বা জলে হাত দিলে চর্মরোগ বা কষ্ট বৃদ্ধি পাওয়া",
+"mid": "sym-water-aggravation"
+},
+{
+"text": "গরম জলের শেক দিলে চর্মরোগের জ্বালা সম্পূর্ণ নিবারণ হওয়া",
+"mid": "sym-warm-water-relief"
+},
+{
+"text": "ঘাম হলে সারা শরীরের চুলকানি তৎক্ষণাৎ কমে যাওয়া",
+"mid": "sym-sweat-relief"
+}
+],
+"answer": "sym-sneezing-watery-discharge-eyes",
+"explanation": "Justicia Adhatoda-এ অত্যন্ত হাঁচির সাথে প্রচুর পরিমাণে তরল শ্লেষ্মা নিঃসরণ হয় এবং চোখ দিয়ে জল পড়ে।"
+},
+{
+"id": "just-med-03",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বুকে প্রচুর শ্লেষ্মা জমা থাকার অনুভূতি কিন্তু কাশতে কাশতে সামান্য ওঠা বা না ওঠা",
+"mid": "sym-mucus-chest-difficult-expectoration"
+},
+{
+"text": "একটু পরপর সামান্য কয়েক ফোঁটা ঠান্ডা পানি পান করার ইচ্ছা",
+"mid": "sym-thirst-sip-water"
+},
+{
+"text": "প্রচণ্ড ডায়রিয়া থাকা সত্ত্বেও একেবারেই পিপাসা না থাকা",
+"mid": "sym-thirstless-fever"
+},
+{
+"text": "শুধুমাত্র বরফ মুখে দিয়ে চুষে খাওয়ার ব্যাকুলতা",
+"mid": "sym-ice-craving"
+}
+],
+"answer": "sym-mucus-chest-difficult-expectoration",
+"explanation": "Justicia Adhatoda-এ মনে হয় বুকে প্রচুর শ্লেষ্মা বা কফ জমা আছে, কিন্তু কাশতে কাশতে সামান্য কফ ওঠে অথবা কফ উঠতেই চায় না।"
+},
+{
+"id": "just-med-04",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "কাশির সময় মুখ দিয়ে উজ্জ্বল লাল বর্ণের রক্ত বের হওয়া (Hemoptysis)",
+"mid": "sym-hemoptysis-bright-red-blood"
+},
+{
+"text": "প্রস্রাব ত্যাগের সময় এবং পরে লিঙ্গমুণ্ডে প্রচণ্ড জ্বালা ও সুড়সুড়ি হওয়া",
+"mid": "sym-urinary-burning"
+},
+{
+"text": "প্রস্রাবের বেগ আটকে রাখলে মূত্রথলিতে তীব্র সংকোচন ব্যথা",
+"mid": "sym-bladder-spasm"
+},
+{
+"text": "প্রস্রাবের রঙ কুচকুচে কালো ও দুর্গন্ধযুক্ত হওয়া",
+"mid": "sym-dark-urine"
+}
+],
+"answer": "sym-hemoptysis-bright-red-blood",
+"explanation": "Justicia Adhatoda-এর কাশির সাথে যদি মুখ দিয়ে উজ্জ্বল লাল বর্ণের রক্ত নির্গত হয় (Hemoptysis), তবে এটি অত্যন্ত ফলদায়ক।"
+},
+{
+"id": "just-med-05",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "নিশ্বাস নিতে বুকে কষ্ট এবং সকালে ঘুম থেকে উঠলে হাত-মুখ ফোলা থাকা",
+"mid": "sym-chest-oppression-morning-edema"
+},
+{
+"text": "প্রস্রাবের ধারা অনেক সময় দ্বিখণ্ডিত বা দুই ভাগে বিভক্ত হওয়া",
+"mid": "sym-split-stream"
+},
+{
+"text": "প্রস্রাব করার সময় তলপেটে প্রচণ্ড চাপ ও ব্যথা অনুভূত হওয়া",
+"mid": "sym-pelvic-pressure"
+},
+{
+"text": "সারাদিনে মাত্র একবার অত্যন্ত স্বল্প পরিমাণে প্রস্রাব হওয়া",
+"mid": "sym-scanty-urine"
+}
+],
+"answer": "sym-chest-oppression-morning-edema",
+"explanation": "Justicia Adhatoda-এ নিশ্বাস নিতে বুকে কষ্ট হয় এবং সকালে ঘুম থেকে উঠলে হাত ও মুখ ফোলা বা শথযুক্ত থাকে।"
+},
+{
+"id": "just-med-06",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মাথা ঝুকলে বা নিচু করলে কপালে প্রচণ্ড ব্যথা অনুভূত হওয়া",
+"mid": "sym-frontal-headache-stooping"
+},
+{
+"text": "রোগী মানসিকভাবে বেশ প্রফুল্ল থাকে এবং প্রচুর কথা বলতে পছন্দ করে",
+"mid": "sym-liveliness-talkative"
+},
+{
+"text": "কাউের সাথে কথা না বলে সারাদিন চুপচাপ একা বসে থাকা",
+"mid": "sym-silent-depression"
+},
+{
+"text": "কথা বলার সময় বারবার শব্দ ভুলে যাওয়া ও বিভ্রান্ত হওয়া",
+"mid": "sym-confusion-speech"
+}
+],
+"answer": "sym-frontal-headache-stooping",
+"explanation": "Justicia Adhatoda-এ মাথা ঝুকলে বা সামনে নিচু করলে কপালে তীব্র ব্যথা শুরু হয়।"
+},
+{
+"id": "just-med-07",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "কোনো জিনিসের গন্ধ বা স্বাদ একেবারেই না পাওয়া যাওয়া",
+"mid": "sym-loss-smell-taste"
+},
+{
+"text": "ত্বকে শক্ত ও শুষ্ক আঁচিল যা থেকে রক্তপাত হয়",
+"mid": "sym-hard-bleeding-warts"
+},
+{
+"text": "পায়ের তালুতে বেদনাদায়ক কড়া বা কর্ন হওয়া",
+"mid": "sym-corns-feet"
+},
+{
+"text": "ত্বকে বাদামী রঙের মেচেতা বা তিল ভেসে ওঠা",
+"mid": "sym-brown-spots"
+}
+],
+"answer": "sym-loss-smell-taste",
+"explanation": "Justicia Adhatoda-এর সর্দি বা শ্বাসযন্ত্রের সংক্রমণে কোনো জিনিসের গন্ধ বা স্বাদ পাওয়ার ক্ষমতা লোপ পায়।"
+},
+{
+"id": "just-med-08",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "রাতে কাশির বেগ বৃদ্ধি পাওয়া এবং গলার মধ্যে সাঁ সাঁ বা ঘড়ঘড় শব্দ হওয়া",
+"mid": "sym-night-cough-wheezing"
+},
+{
+"text": "ঘাড়ে ও পেছনের মাথায় ভারী বস্তু চাপা থাকার মতো অনুভূতি",
+"mid": "sym-heavy-occiput"
+},
+{
+"text": "মাথা ঘোরার সাথে বমি ভাব এবং চারপাশ ঘুরে যাওয়া",
+"mid": "sym-vertigo-nausea"
+},
+{
+"text": "রোদের মধ্যে গেলে কপালে সূঁচ ফোটার মতো তীব্র ব্যথা",
+"mid": "sym-sun-headache-needle"
+}
+],
+"answer": "sym-night-cough-wheezing",
+"explanation": "Justicia Adhatoda-এ কাশি রাতের বেলা বৃদ্ধি পায় এবং গলার ভেতরে সাঁ সাঁ বা শোঁ শোঁ শব্দ শোনা যায়।"
+},
+{
+"id": "just-med-09",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "বদ্ধ ঘরে, ধুলোবালিতে এবং রাতে রোগ লক্ষণ বৃদ্ধি পাওয়া",
+"mid": "sym-room-dust-night-agg"
+},
+{
+"text": "চা পান করার সাথে সাথে পেটের গ্যাস বৃদ্ধি পাওয়া",
+"mid": "sym-tea-gas"
+},
+{
+"text": "মিষ্টি জাতীয় খাবার খেলে মাথাব্যথা তীব্র হওয়া",
+"mid": "sym-sweet-headache"
+},
+{
+"text": "দুধ ও ল্যাকটিক খাবার খেলে বমি ভাব হওয়া",
+"mid": "sym-milk-nausea"
+}
+],
+"answer": "sym-room-dust-night-agg",
+"explanation": "Justicia Adhatoda-এর বৃদ্ধি ঘটে বদ্ধ ঘরে, ধুলোবালির সংস্পর্শে, রাতের বেলা এবং কথা বললে।"
+},
+{
+"id": "just-med-10",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "খোলা বাতাসে এবং শান্তভাবে শুয়ে থাকলে উপশম হওয়া",
+"mid": "sym-open-air-lying-relief"
+},
+{
+"text": "মৌমাছির হুল থেকে সংগৃহীত বিষাক্ত উপাদান",
+"mid": "sym-bee-poison"
+},
+{
+"text": "খনিজ লবণের সংমিশ্রণে তৈরি কৃত্রিম রাসায়নিক",
+"mid": "sym-mineral-chemical"
+},
+{
+"text": "সাপের বিষ থেকে প্রস্তুত হোমিওপ্যাথিক টিংচার",
+"mid": "sym-snake-venom"
+}
+],
+"answer": "sym-open-air-lying-relief",
+"explanation": "Justicia Adhatoda-এ খোলা বাতাসে অবস্থান করলে এবং শান্ত হয়ে শুয়ে থাকলে শারীরিক অবস্থার উপশম হয়।"
+},
+{
+"id": "just-med-11",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "উদ্ভিদ জগত বা বাসক পাতা (Adhatoda vasica) থেকে প্রস্তুত হওয়া",
+"mid": "sym-plant-source-vasaka"
+},
+{
+"text": "গরম কাতর প্রকৃতির রোগী হওয়া",
+"mid": "sym-hot-patient"
+},
+{
+"text": "উভয় আবহাওয়াতেই সমানভাবে সহ্য ক্ষমতা থাকা",
+"mid": "sym-ambithermal"
+},
+{
+"text": "অতিরিক্ত গরমে ও শীতে উভয়তেই অসুস্থ হওয়া",
+"mid": "sym-extreme-weather"
+}
+],
+"answer": "sym-plant-source-vasaka",
+"explanation": "Justicia Adhatoda উদ্ভিদ জগত বা সুপরিচিত বাসক পাতা (Adhatoda vasica) থেকে প্রস্তুত করা হয়।"
+},
+{
+"id": "just-med-12",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "প্রধানত শীতকাতর (Chilly) প্রকৃতির রোগী হওয়া",
+"mid": "sym-chilly-patient"
+},
+{
+"text": "বাম পাশের ফুসফুস ও কানকে বেশি আক্রান্ত করা",
+"mid": "sym-left-side"
+},
+{
+"text": "শরীরের উভয় পাশে সমানভাবে লক্ষণ প্রকাশ করা",
+"mid": "sym-bilateral"
+},
+{
+"text": "মুখের কেবল বাম অংশে ব্যথা সীমাবদ্ধ থাকা",
+"mid": "sym-left-face"
+}
+],
+"answer": "sym-chilly-patient",
+"explanation": "Justicia Adhatoda হলো প্রধানত শীতকাতর (Chilly) প্রকৃতির একটি হোমিওপ্যাথিক ঔষধ।"
+},
+{
+"id": "just-med-13",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শরীরের উভয় পার্শ্বে (Both sides) সমানভাবে কাজ করা",
+"mid": "sym-both-sides-equal"
+},
+{
+"text": "সিফিলিস মায়াজমের ধ্বংসাত্মক ক্ষত সৃষ্টি করা",
+"mid": "sym-syphilis-miasm"
+},
+{
+"text": "সাইকোটিক মায়াজমের টিউমার গঠন করা",
+"mid": "sym-sycotic-miasm"
+},
+{
+"text": "টিউবারকুলার মায়াজমের দ্রুত ক্ষয় রোগ ঘটানো",
+"mid": "sym-tubercular-miasm"
+}
+],
+"answer": "sym-both-sides-equal",
+"explanation": "Justicia Adhatoda-এর শ্বাসযন্ত্রের প্রতিক্রিয়া শরীরের উভয় পার্শ্বে সমানভাবে প্রকাশ পায়।"
+},
+{
+"id": "just-med-14",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "সোরা (Psora) ও টিউবারকুলার (Tubercular) মায়াজমের অন্তর্ভুক্ত থাকা",
+"mid": "sym-psoric-tubercular-miasm"
+},
+{
+"text": "পাকস্থলীতে তীব্র জ্বাালাপোড়া ও ঘা হয়ে যাওয়ার অনুভূতি",
+"mid": "sym-stomach-ulcer"
+},
+{
+"text": "নাভির চারপাশে সুচালো ব্যথা যা ভাজ হলে কমে",
+"mid": "sym-navel-colic"
+},
+{
+"text": "কোষ্ঠকাঠিন্যের সাথে পেটে পাথর জমার মতো ভারী বোধ",
+"mid": "sym-stone-belly"
+}
+],
+"answer": "sym-psoric-tubercular-miasm",
+"explanation": "Justicia Adhatoda মূলত সোরা এবং টিউবারকুলার মায়াজমের সাথে গভীরভাবে সম্পৃক্ত।"
+},
+{
+"id": "just-med-15",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "Ipecac, Arsenic Alb ও Antimony Tart-এর সাথে সদৃশ সম্পর্ক থাকা",
+"mid": "sym-similar-ipecac-ars-ant-tart"
+},
+{
+"text": "Aconite ও Belladonna-এর সাথে হুবহু মিলে যাওয়া",
+"mid": "sym-aconite-match"
+},
+{
+"text": "Nux Vomica-এর সম্পূর্ণ বিপরীত ক্রিয়া দেখানো",
+"mid": "sym-nux-opposite"
+},
+{
+"text": "Arsenicum Album-এর পরিপূরক হিসেবে কাজ করা",
+"mid": "sym-arsenic-complement"
+}
+],
+"answer": "sym-similar-ipecac-ars-ant-tart",
+"explanation": "Justicia Adhatoda-এর কাশির ধরণে Ipecac, Antimony Tart এবং শ্বাসকষ্টে Arsenic Alb-এর সাথে গভীর সদৃশতা রয়েছে।"
+},
+{
+"id": "just-med-16",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মাদার টিংচার (Q) থেকে ৩x বা ৬ শক্তিতে বেশি ব্যবহৃত হওয়া",
+"mid": "sym-mother-tincture-low-potency"
+},
+{
+"text": "শুধুমাত্র ১০০০ বা উচ্চ শক্তিতে একক মাত্রা প্রয়োগ করা",
+"mid": "sym-high-potency"
+},
+{
+"text": "কেবলমাত্র ৫০ মিলিেসিমাল শক্তিতে ব্যবহার বাধ্যতামূলক",
+"mid": "sym-lm-potency"
+},
+{
+"text": "উচ্চ শক্তিতে শুধুমাত্র চর্মরোগের জন্য নির্ধারিত",
+"mid": "sym-skin-high"
+}
+],
+"answer": "sym-mother-tincture-low-potency",
+"explanation": "Justicia Adhatoda সাধারণত মাদার টিংচার (Q) অথবা ৩x বা ৬ নিম্ন শক্তিতে সবচেয়ে বেশি ব্যবহৃত হয়।"
+},
+{
+"id": "just-med-17",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "শ্বাস বন্ধ হয়ে যাওয়ার ভয় এবং সামান্য কারণে খিটখিটে মেজাজ হওয়া",
+"mid": "sym-fear-suffocation-irritable"
+},
+{
+"text": "সারাদিন প্রচণ্ড কান্নাকাটি করা ও কাউকে কাছে না ঘেঁষতে দেওয়া",
+"mid": "sym-weeping-mood"
+},
+{
+"text": "সবসময় ভয় পাওয়া যে তার বড় কোনো মারাত্মক রোগ হয়েছে",
+"mid": "sym-hypochondriasis"
+},
+{
+"text": "কারো সাথে মিশতে না পেরে গভীর কোণঠাসা জীবন কাটানো",
+"mid": "sym-isolation"
+}
+],
+"answer": "sym-fear-suffocation-irritable",
+"explanation": "Justicia Adhatoda-এর মানসিক লক্ষণে রোগী খিটখিটে হয় এবং মনে আশঙ্কা থাকে যে তার শ্বাস বন্ধ হয়ে মারা যাবে।"
+},
+{
+"id": "just-med-18",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "মুখ শুকনো থাকা কিন্তু জল পানের ইচ্ছা কম থাকা এবং খাবারের স্বাদ তিতা লাগা",
+"mid": "sym-dry-mouth-little-thirst-bitter"
+},
+{
+"text": "অতিরিক্ত আনন্দে আত্মহারা হয়ে রাতভর গান গাওয়া",
+"mid": "sym-overjoyed"
+},
+{
+"text": "স্মৃতিশক্তি সম্পূর্ণ লোপ পাওয়া এবং কাউকে চিনতে না পারা",
+"mid": "sym-memory-loss"
+},
+{
+"text": "ঘুমের মধ্যে হেঁটে বেড়ানো এবং অদ্ভুত স্বপ্ন দেখা",
+"mid": "sym-somnambulism"
+}
+],
+"answer": "sym-dry-mouth-little-thirst-bitter",
+"explanation": "Justicia Adhatoda-এ মুখ শুষ্ক থাকে কিন্তু পানির পিপাসা কম হয় এবং মুখের স্বাদ তিতকুটে লাগে।"
+},
+{
+"id": "just-med-19",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "গলার স্বর বসে যাওয়া (Hoarseness) এবং গলার ভেতর তীব্র জ্বালা করা",
+"mid": "sym-hoarseness-throat-burning"
+},
+{
+"text": "চলাফেরা করলে সমস্ত ব্যথা ও চুলকানি ম্যাজিকের মতো গায়েব হওয়া",
+"mid": "sym-motion-relief"
+},
+{
+"text": "দৌড়াদৌড়ি করলে শরীরের স্নায়বিক দুর্বলতা দূর হওয়া",
+"mid": "sym-running-relief"
+},
+{
+"text": "উচিৎ কাজ করার সময় শুয়ে থাকলে কষ্ট বৃদ্ধি পাওয়া",
+"mid": "sym-lying-worse"
+}
+],
+"answer": "sym-hoarseness-throat-burning",
+"explanation": "Justicia Adhatoda-এ কাশির সাথে গলার স্বর বসে যায় (Hoarseness) এবং গলার ভেতর জ্বালাপোড়া করে।"
+},
+{
+"id": "just-med-20",
+"stem": "নিচের কোনটি Justicia Adhatoda-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{
+"text": "তীব্র অবস্থায় ২-৩ ঘণ্টা অন্তর ঔষধটি পুনরাবৃত্তি করা যেতে পারে",
+"mid": "sym-acute-repeat-interval"
+},
+{
+"text": "ঘণ্টায় ঘণ্টায় ১০ ফোঁটা করে মাদার টিংচার সেবন করা বাধ্যতামূলক",
+"mid": "sym-hourly-mother-tincture"
+},
+{
+"text": "প্রতিবার কাশির পর ঔষধ পুনরাবৃত্তি করা আবশ্যক",
+"mid": "sym-repeat-after-cough"
+},
+{
+"text": "শুধুমাত্র বায়োকেমিক শক্তিতে দুধের সাথে সেবনযোগ্য",
+"mid": "sym-biochemic-milk"
+}
+],
+"answer": "sym-acute-repeat-interval",
+"explanation": "বোরিকের নির্দেশিকা অনুযায়ী, তীব্র ও জরুরি অবস্থায় Justicia Adhatoda প্রতি ২-৩ ঘণ্টা অন্তর প্রয়োগ করা যেতে পারে।"
+}]

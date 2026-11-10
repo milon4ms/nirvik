@@ -1,0 +1,242 @@
+[
+  {
+    "id": "staph-med-01",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ক্রোধ ও অপমানের ফলে রোগ, দমিত ক্ষোভ চেপে রাখে", "mid": "sym-staph-anger-indignation-suppressed-emotions"},
+      {"text": "আনন্দে রোগ", "mid": "sym-joy-ailment"},
+      {"text": "ভয়ে রোগ", "mid": "sym-fear-ailment"},
+      {"text": "রাগ প্রকাশ করে", "mid": "sym-expresses-anger"}
+    ],
+    "answer": "sym-staph-anger-indignation-suppressed-emotions",
+    "explanation": "Staphisagria অপমান ও দমিত রাগ থেকে অসুখে প্রধান ঔষধ।"
+  },
+  {
+    "id": "staph-med-02",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অস্ত্রোপচারের কুফল ও ধারালো অস্ত্রের কাটা ব্যথা দূর করে", "mid": "sym-staph-post-surgical-pain-sharp-cut"},
+      {"text": "ভোঁতা অস্ত্রের আঘাতে শ্রেষ্ঠ", "mid": "sym-blunt-trauma-best"},
+      {"text": "অস্ত্রোপচারে কোনো কাজ নেই", "mid": "sym-no-surgical-action"},
+      {"text": "অস্ত্রোপচারের পর রক্তপাত বাড়ায়", "mid": "sym-bleeding-after-surgery-agg"}
+    ],
+    "answer": "sym-staph-post-surgical-pain-sharp-cut",
+    "explanation": "Staphisagria অস্ত্রোপচার পরবর্তী ব্যথায় জাদুকরী কাজ করে।"
+  },
+  {
+    "id": "staph-med-03",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্বদা কাম চিন্তা, কামভাব প্রাবল্য ও তার কুফল দূর করে", "mid": "sym-staph-sexual-thoughts-excess-antidotes-ill-effects"},
+      {"text": "কামভাব নেই", "mid": "sym-no-sexual-desire"},
+      {"text": "কাম চিন্তা পছন্দ করে না", "mid": "sym-dislikes-sexual-thought"},
+      {"text": "কামভাবের কুফল বাড়ায়", "mid": "sym-agg-sexual-ill-effects"}
+    ],
+    "answer": "sym-staph-sexual-thoughts-excess-antidotes-ill-effects",
+    "explanation": "Staphisagria কাম চিন্তা ও অতিরিক্ত যৌনতার কুফল দূর করে।"
+  },
+  {
+    "id": "staph-med-04",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অতি হস্তমৈথুন ও অতি সহবাস জনিত অসুস্থতা দূর করে", "mid": "sym-staph-masturbation-coition-excess-ill-effects"},
+      {"text": "হস্তমৈথুনে সুস্থ থাকে", "mid": "sym-healthy-masturbation"},
+      {"text": "সহবাসে কোনো ক্ষতি নেই", "mid": "sym-no-harm-coition"},
+      {"text": "যৌনতায় আগ্রহ বাড়ায়", "mid": "sym-increases-sexual-desire"}
+    ],
+    "answer": "sym-staph-masturbation-coition-excess-ill-effects",
+    "explanation": "Staphisagria অতিরিক্ত হস্তমৈথুন ও সহবাস জনিত অসুস্থতায় কার্যকর।"
+  },
+  {
+    "id": "staph-med-05",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রথম সহবাসের পর মেয়েদের প্রস্রাব সমস্যা, হানিমুন সিস্টাইটিস", "mid": "sym-staph-honeymoon-cystitis-first-coition-female"},
+      {"text": "সহবাসে কোনো প্রস্রাব সমস্যা নেই", "mid": "sym-no-urine-coition"},
+      {"text": "শুধু পুরুষদের প্রস্রাব সমস্যা", "mid": "sym-only-male-urine-issue"},
+      {"text": "সহবাসে শ্বাসকষ্ট নেই", "mid": "sym-no-dyspnea-coition"}
+    ],
+    "answer": "sym-staph-honeymoon-cystitis-first-coition-female",
+    "explanation": "Staphisagria হানিমুন সিস্টাইটিসে কার্যকর।"
+  },
+  {
+    "id": "staph-med-06",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অত্যন্ত অভিমানী, উদাসীন, সকল বিষয়ে তাচ্ছিল্য ভাব", "mid": "sym-staph-haughty-indifferent-scornful"},
+      {"text": "অভিমান নেই", "mid": "sym-no-indignation"},
+      {"text": "সব বিষয়ে আগ্রহী", "mid": "sym-interested-all"},
+      {"text": "উদাসীনতা নেই", "mid": "sym-no-indifference"}
+    ],
+    "answer": "sym-staph-haughty-indifferent-scornful",
+    "explanation": "Staphisagria রোগী অত্যন্ত অভিমানী ও উদাসীন।"
+  },
+  {
+    "id": "staph-med-07",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মন বিষন্ন, স্মৃতি দুর্বল, কপালে বল থাকার অনুভূতি", "mid": "sym-staph-depressed-weak-memory-ball-forehead"},
+      {"text": "মন আনন্দিত", "mid": "sym-happy-mind"},
+      {"text": "স্মৃতি প্রখর", "mid": "sym-sharp-memory"},
+      {"text": "কপালে কোনো অনুভূতি নেই", "mid": "sym-no-forehead-feeling"}
+    ],
+    "answer": "sym-staph-depressed-weak-memory-ball-forehead",
+    "explanation": "Staphisagria-এ বিষন্নতা, স্মৃতি দুর্বল ও কপালে বল অনুভূতি থাকে।"
+  },
+  {
+    "id": "staph-med-08",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চোখের পাতায় অঞ্জনি শক্ত গুটি চালাজিয়ন হয়ে যায়", "mid": "sym-staph-styes-hard-chalazion"},
+      {"text": "চোখে অঞ্জনি হয় না", "mid": "sym-no-styes"},
+      {"text": "অঞ্জনি নরম থাকে", "mid": "sym-soft-styes"},
+      {"text": "চোখ স্বাভাবিক", "mid": "sym-normal-eyes"}
+    ],
+    "answer": "sym-staph-styes-hard-chalazion",
+    "explanation": "Staphisagria-এ চোখের পাতায় অঞ্জনি শক্ত গুটি হয়।"
+  },
+  {
+    "id": "staph-med-09",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দাঁতে পোকা, শিশুদের দাঁত কালো হয়ে ভেঙে যায়", "mid": "sym-staph-teeth-decay-black-break-children"},
+      {"text": "দাঁত মজবুত", "mid": "sym-strong-teeth"},
+      {"text": "দাঁতে কোনো পোকা নেই", "mid": "sym-no-caries"},
+      {"text": "দাঁত সাদা থাকে", "mid": "sym-white-teeth"}
+    ],
+    "answer": "sym-staph-teeth-decay-black-break-children",
+    "explanation": "Staphisagria-এ দাঁত দ্রুত কালো ও ভেঙে যায়।"
+  },
+  {
+    "id": "staph-med-10",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চর্ম চুলকালে স্থান পরিবর্তন করে", "mid": "sym-staph-skin-itching-changes-place"},
+      {"text": "চুলকানি এক জায়গায় থাকে", "mid": "sym-itch-fixed"},
+      {"text": "চুলকানি নেই", "mid": "sym-no-itch"},
+      {"text": "চর্ম স্বাভাবিক", "mid": "sym-normal-skin"}
+    ],
+    "answer": "sym-staph-skin-itching-changes-place",
+    "explanation": "Staphisagria-এ চুলকানি স্থান পরিবর্তন করে।"
+  },
+  {
+    "id": "staph-med-11",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেট ভরা থাকলেও ক্ষুধার অনুভূতি, তামাক খাওয়ার ইচ্ছে", "mid": "sym-staph-hunger-full-stomach-craving-tobacco"},
+      {"text": "পেট ভরলে ক্ষুধা নেই", "mid": "sym-no-hunger-full"},
+      {"text": "তামাক অপছন্দ", "mid": "sym-averse-tobacco"},
+      {"text": "ক্ষুধা নেই", "mid": "sym-no-hunger"}
+    ],
+    "answer": "sym-staph-hunger-full-stomach-craving-tobacco",
+    "explanation": "Staphisagria-এ পেট ভরা থাকলেও ক্ষুধা ও তামাক ইচ্ছে থাকে।"
+  },
+  {
+    "id": "staph-med-12",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সারাদিন নিদ্রালু, সারারাত নিদ্রাহীন", "mid": "sym-staph-sleepy-day-sleepless-night"},
+      {"text": "দিনে নিদ্রাহীন রাতে নিদ্রালু", "mid": "sym-sleepless-day-sleepy-night"},
+      {"text": "সারাদিন নিদ্রাহীন", "mid": "sym-sleepless-all-day"},
+      {"text": "সারারাত নিদ্রালু", "mid": "sym-sleepy-all-night"}
+    ],
+    "answer": "sym-staph-sleepy-day-sleepless-night",
+    "explanation": "Staphisagria-এ দিনে নিদ্রালু ও রাতে নিদ্রাহীন থাকে।"
+  },
+  {
+    "id": "staph-med-13",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মান সম্মানের প্রতি সচেতন, কটু কথায় গভীর আঘাত, প্রতিবাদ না করে চেপে রাখে", "mid": "sym-staph-sensitive-honor-hurt-suppresses"},
+      {"text": "মান সম্মানে উদাসীন", "mid": "sym-indifferent-honor"},
+      {"text": "কটু কথায় আঘাত পায় না", "mid": "sym-no-hurt-harsh-words"},
+      {"text": "প্রতিবাদ করে", "mid": "sym-protests"}
+    ],
+    "answer": "sym-staph-sensitive-honor-hurt-suppresses",
+    "explanation": "Staphisagria মান সম্মানে সচেতন ও আঘাত চেপে রাখে।"
+  },
+  {
+    "id": "staph-med-14",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্য কারণে রেগে জিনিসপত্র ছুড়ে মারে", "mid": "sym-staph-anger-throws-things"},
+      {"text": "রাগে শান্ত থাকে", "mid": "sym-calm-anger"},
+      {"text": "জিনিসপত্র ছোড়ে না", "mid": "sym-no-throwing"},
+      {"text": "রাগ নেই", "mid": "sym-no-anger"}
+    ],
+    "answer": "sym-staph-anger-throws-things",
+    "explanation": "Staphisagria রাগে জিনিসপত্র ছুড়ে মারে।"
+  },
+  {
+    "id": "staph-med-15",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রস্রাবের পরেও মনে হয় আরও হবে, নালীতে অবিরাম জ্বালা", "mid": "sym-staph-urine-after-feel-more-burning-urethra"},
+      {"text": "প্রস্রাবের পর তৃপ্তি", "mid": "sym-satisfied-after-urine"},
+      {"text": "জ্বালা নেই", "mid": "sym-no-burning"},
+      {"text": "প্রস্রাব স্বাভাবিক", "mid": "sym-normal-urine"}
+    ],
+    "answer": "sym-staph-urine-after-feel-more-burning-urethra",
+    "explanation": "Staphisagria-এ প্রস্রাবের পরেও বেগ ও জ্বালা থাকে।"
+  },
+  {
+    "id": "staph-med-16",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেটে ব্যথা সাথে পেট ঝুলে পড়েছে মনে হয়, কোষ্ঠে পেট ফাঁপা", "mid": "sym-staph-abdomen-pain-sinking-constipation-bloated"},
+      {"text": "পেট শক্ত", "mid": "sym-abdomen-hard"},
+      {"text": "পেট ফাঁপা নেই", "mid": "sym-no-bloating"},
+      {"text": "কোষ্ঠকাঠিন্য নেই", "mid": "sym-no-constipation"}
+    ],
+    "answer": "sym-staph-abdomen-pain-sinking-constipation-bloated",
+    "explanation": "Staphisagria-এ পেট ঝুলে পড়া অনুভূতি ও ফাঁপা থাকে।"
+  },
+  {
+    "id": "staph-med-17",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: রাগের পর, যৌন মিলনের পর, মানসিক আঘাতে, তামাকে, রাত জাগলে", "mid": "sym-staph-agg-anger-coition-mental-injury-tobacco-night-watching"},
+      {"text": "বৃদ্ধি: ঠান্ডায়", "mid": "sym-agg-cold"},
+      {"text": "বৃদ্ধি: খাওয়ার পর", "mid": "sym-agg-after-eating"},
+      {"text": "বৃদ্ধি: উত্তাপে", "mid": "sym-agg-heat"}
+    ],
+    "answer": "sym-staph-agg-anger-coition-mental-injury-tobacco-night-watching",
+    "explanation": "Staphisagria-এ রাগ, যৌন মিলন, মানসিক আঘাত ও তামাকে বৃদ্ধি।"
+  },
+  {
+    "id": "staph-med-18",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: রাতে বিশ্রামে, উত্তাপে ও খাওয়ার পর", "mid": "sym-staph-amel-night-rest-heat-after-eating"},
+      {"text": "উপশম: ঠান্ডায়", "mid": "sym-amel-cold"},
+      {"text": "উপশম: রাগের পর", "mid": "sym-amel-after-anger"},
+      {"text": "উপশম: যৌন মিলনের পর", "mid": "sym-amel-after-coition"}
+    ],
+    "answer": "sym-staph-amel-night-rest-heat-after-eating",
+    "explanation": "Staphisagria রাতে বিশ্রাম, উত্তাপ ও খাওয়ার পর ভালো থাকে।"
+  },
+  {
+    "id": "staph-med-19",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শীতকাতর, উভয় পার্শ্ব, সোরা সাইকোটিক সিফিলিটিক, পরিপূরক Causticum Colocynth", "mid": "sym-staph-chilly-both-psora-syc-syph-compl-caust-coloc"},
+      {"text": "গরমকাতর", "mid": "sym-hot"},
+      {"text": "উভয়কাতর", "mid": "sym-ambithermal"},
+      {"text": "পরিপূরক Sulphur", "mid": "sym-complement-sulphur"}
+    ],
+    "answer": "sym-staph-chilly-both-psora-syc-syph-compl-caust-coloc",
+    "explanation": "Staphisagria শীতকাতর ও পরিপূরক Causticum।"
+  },
+  {
+    "id": "staph-med-20",
+    "stem": "নিচের কোনটি Staphisagria-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্পর্শকাতর, মানসিক সংবেদনশীল ও আক্রান্ত স্থান স্পর্শ সহ্য হয় না", "mid": "sym-staph-sensitive-mental-physical-touch-intolerant"},
+      {"text": "স্পর্শে আরাম", "mid": "sym-touch-amel"},
+      {"text": "সংবেদনশীলতা নেই", "mid": "sym-no-sensitivity"},
+      {"text": "স্পর্শ সহ্য হয়", "mid": "sym-touch-tolerated"}
+    ],
+    "answer": "sym-staph-sensitive-mental-physical-touch-intolerant",
+    "explanation": "Staphisagria রোগী অত্যন্ত স্পর্শকাতর।"
+  }
+]

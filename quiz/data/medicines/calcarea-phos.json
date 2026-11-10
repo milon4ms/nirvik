@@ -1,0 +1,242 @@
+[
+  {
+    "id": "calcphos-med-01",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ শুষ্ক গরম জ্বর আসা", "mid": "sym-acon-fear-fever"},
+      {"text": "হাড় নরম, বাঁকা হয়ে যাওয়া ও ভাঙা হাড় জোড়া না লাগা", "mid": "sym-calcphos-soft-bent-bone-nonunion"},
+      {"text": "মিষ্টি খেতে প্রবল ইচ্ছা ও ঠান্ডা পানি খেলেই বমি হওয়া", "mid": "sym-phos-sweet-vomit"},
+      {"text": "পায়ে জ্বালাপোড়া, রাতে বিছানা থেকে পা বের করে রাখা", "mid": "sym-sulph-burning-feet"}
+    ],
+    "answer": "sym-calcphos-soft-bent-bone-nonunion",
+    "explanation": "Calcarea Phosphorica এ হাড় নরম ও বাঁকা হয়ে যায় এবং ভাঙা হাড় জোড়া লাগতে চায় না।"
+  },
+  {
+    "id": "calcphos-med-02",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুর দাঁত খুব তাড়াতাড়ি ওঠা ও কোনো কষ্ট না হওয়া", "mid": "sym-chamomilla-early-teething"},
+      {"text": "শিশুর মাথায় প্রচুর ঘাম, বালিশ ভিজে যাওয়া", "mid": "sym-calc-head-sweat"},
+      {"text": "শিশুর পেটে কৃমি ও দাঁত কিড়মিড় করা", "mid": "sym-cina-worms"},
+      {"text": "শিশুর মাথার ব্রহ্মতালু দীর্ঘ সময় খোলা থাকা", "mid": "sym-calcphos-open-fontanelle"}
+    ],
+    "answer": "sym-calcphos-open-fontanelle",
+    "explanation": "Calcarea Phosphorica এ শিশুদের মাথার ব্রহ্মতালু দীর্ঘ সময় খোলা থাকে।"
+  },
+  {
+    "id": "calcphos-med-03",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশু দেরিতে হাঁটা ও দেরিতে কথা বলা", "mid": "sym-calcphos-late-walk-talk"},
+      {"text": "শিশু খুব তাড়াতাড়ি হাঁটা ও কথা বলা শেখা", "mid": "sym-early-walk-talk"},
+      {"text": "শিশু দৌড়াতে গিয়ে বারবার পড়ে যাওয়া ও হাঁটুতে ব্যথা", "mid": "sym-ruta-fall-knee-pain"},
+      {"text": "শিশুর রাতে ভয় পেয়ে কেঁদে ওঠা ও একা ঘুমাতে না পারা", "mid": "sym-stramonium-night-fear"}
+    ],
+    "answer": "sym-calcphos-late-walk-talk",
+    "explanation": "Calcarea Phosphorica এ শিশু দেরিতে হাঁটে, দেরিতে কথা বলে।"
+  },
+  {
+    "id": "calcphos-med-04",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দাঁত উঠতে গিয়ে মাড়িতে কোনো ব্যথা না হওয়া ও জ্বর না আসা", "mid": "sym-no-teething-pain"},
+      {"text": "দাঁত ওঠার সময় কোষ্ঠকাঠিন্য ও পেট শক্ত হয়ে যাওয়া", "mid": "sym-teething-constipation"},
+      {"text": "দাঁত উঠতে দেরি ও দাঁত ওঠার সময় পাতলা পায়খানা বা সর্দি কাশি", "mid": "sym-calcphos-late-teething-diarrhoea"},
+      {"text": "দাঁত ওঠার সময় শুধু মুখে লালা ঝরা ও আঙুল চোষা", "mid": "sym-teething-saliva"}
+    ],
+    "answer": "sym-calcphos-late-teething-diarrhoea",
+    "explanation": "Calcarea Phosphorica এ শিশুদের দাঁত উঠতে দেরি হয় এবং সেই সময় পাতলা পায়খানা বা সর্দি কাশি হয়।"
+  },
+  {
+    "id": "calcphos-med-05",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দুধ খেতে প্রবল ইচ্ছা ও দুধ খেলে সব রোগ সেরে যাওয়া", "mid": "sym-milk-desire-cure"},
+      {"text": "দুধ সহ্য না হওয়া, দুধ পানের পর বমি হওয়া", "mid": "sym-calcphos-milk-intolerance-vomit"},
+      {"text": "দুধ খেলে পেট ঠান্ডা হওয়া ও ঘুম ভালো হওয়া", "mid": "sym-milk-cool-sleep"},
+      {"text": "মাংস খেতে একদম ইচ্ছা না করা ও মাংসের গন্ধে বমি হওয়া", "mid": "sym-meat-aversion-vomit"}
+    ],
+    "answer": "sym-calcphos-milk-intolerance-vomit",
+    "explanation": "Calcarea Phosphorica এ শিশুর দুধ সহ্য হয় না, দুধ পানের পর বমি হয়।"
+  },
+  {
+    "id": "calcphos-med-06",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুর দিনে বারবার প্রস্রাব হওয়া কিন্তু রাতে না হওয়া", "mid": "sym-day-urination"},
+      {"text": "শিশুর প্রস্রাব একদম বন্ধ হয়ে যাওয়া ও পেট ফোলা", "mid": "sym-urine-suppressed"},
+      {"text": "শিশুর প্রস্রাবে রক্ত যাওয়া ও জ্বালাপোড়া করা", "mid": "sym-bloody-burning-urine"},
+      {"text": "শিশুর শয্যামূত্র", "mid": "sym-calcphos-bedwetting"}
+    ],
+    "answer": "sym-calcphos-bedwetting",
+    "explanation": "Calcarea Phosphorica এ শিশুর শয্যামূত্রের সমস্যা থাকে।"
+  },
+  {
+    "id": "calcphos-med-07",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লম্বা, রোগা, পুষ্টির অভাব ও রক্তাল্পতা, শরীর ঠিকমতো বাড়ে না", "mid": "sym-calcphos-tall-thin-anaemia"},
+      {"text": "খাটো, মোটা, থলথলে শরীর ও সহজে ঘাম হওয়া", "mid": "sym-calc-short-fat-sweat"},
+      {"text": "লম্বা, মোটা, শক্তিশালী শরীর ও প্রচুর শক্তি থাকা", "mid": "sym-tall-strong-body"},
+      {"text": "অল্প খেলেই মোটা হয়ে যাওয়া ও ক্ষুধা খুব কম থাকা", "mid": "sym-little-eat-fat"}
+    ],
+    "answer": "sym-calcphos-tall-thin-anaemia",
+    "explanation": "Calcarea Phosphorica মূলত পুষ্টির ঔষধ, লম্বা, রোগা, পুষ্টির অভাব ও রক্তাল্পতায় এটি প্রধান ঔষধ।"
+  },
+  {
+    "id": "calcphos-med-08",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মিষ্টি খেতে প্রবল ইচ্ছা ও নোনতা খেতে একদম ইচ্ছা না করা", "mid": "sym-sweet-desire-salt-aversion"},
+      {"text": "টক খেতে প্রবল ইচ্ছা ও লেবু খেলে উপশম হওয়া", "mid": "sym-sour-desire-relief"},
+      {"text": "নোনতা খাবার ও ধোঁয়ায় শুকানো মাংস খেতে তীব্র ইচ্ছা", "mid": "sym-calcphos-salt-smoked-meat"},
+      {"text": "ঝাল খেতে প্রবল ইচ্ছা ও ঝাল খেলে পেট জ্বালা করা", "mid": "sym-spicy-desire-burn"}
+    ],
+    "answer": "sym-calcphos-salt-smoked-meat",
+    "explanation": "Calcarea Phosphorica রোগীর নোনতা খাবার এবং ধোঁয়ায় শুকানো মাংস খাওয়ার তীব্র ইচ্ছা থাকে।"
+  },
+  {
+    "id": "calcphos-med-09",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্কুলে গেলেই জ্বর আসা ও গলা ব্যথা হওয়া", "mid": "sym-school-fever-throat"},
+      {"text": "স্কুলগামী শিশুদের মাথাব্যথা ও পেট ব্যথা", "mid": "sym-calcphos-school-headache-belly"},
+      {"text": "স্কুলে গেলেই চোখে ঝাপসা দেখা ও মাথা ঘোরা", "mid": "sym-school-blur-vertigo"},
+      {"text": "পড়তে বসলেই হাত কাঁপা ও বই দেখলে ভয় পাওয়া", "mid": "sym-study-trembling-fear"}
+    ],
+    "answer": "sym-calcphos-school-headache-belly",
+    "explanation": "Calcarea Phosphorica স্কুলগামী ছাত্রছাত্রীদের মাথাব্যথা এবং পেটের ব্যথায় অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "calcphos-med-10",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবসময় সন্তুষ্ট থাকা ও এক জায়গায় বসে থাকতে চাওয়া", "mid": "sym-always-content-stay"},
+      {"text": "নিজেকে খুব বড় মনে করা ও অহংকার করা", "mid": "sym-platina-pride"},
+      {"text": "অতিরিক্ত সাহসী হওয়া ও বিপদকে ভয় না পাওয়া", "mid": "sym-opium-fearless"},
+      {"text": "সবসময় অসন্তুষ্ট থাকা ও এক স্থান থেকে অন্য স্থানে যেতে চাওয়া", "mid": "sym-calcphos-discontented-wander"}
+    ],
+    "answer": "sym-calcphos-discontented-wander",
+    "explanation": "Calcarea Phosphorica রোগী সবসময় অসন্তুষ্ট থাকে এবং এক স্থান থেকে অন্য স্থানে যেতে চায়।"
+  },
+  {
+    "id": "calcphos-med-11",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খিটখিটে মেজাজ ও সামান্য বিষয়েই ভুলে যাওয়া", "mid": "sym-calcphos-irritable-forgetful"},
+      {"text": "সবসময় হাসিখুশি থাকা ও সবকিছু মনে রাখা", "mid": "sym-cheerful-good-memory"},
+      {"text": "কথা বলতে একদম অনিচ্ছা ও প্রশ্ন করলে বিরক্ত হওয়া", "mid": "sym-nux-silent"},
+      {"text": "তোতলানো ও কথা বলতে গিয়ে আটকে যাওয়া", "mid": "sym-stramonium-stammer"}
+    ],
+    "answer": "sym-calcphos-irritable-forgetful",
+    "explanation": "Calcarea Phosphorica এ খিটখিটে মেজাজ এবং সামান্য বিষয়েই ভুলে যাওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "calcphos-med-12",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাজে প্রচুর উৎসাহ ও সারাদিন কাজ করতে চাওয়া", "mid": "sym-work-enthusiasm"},
+      {"text": "শিশু একা একা খেলতে চাওয়া ও কাউকে বিরক্ত না করা", "mid": "sym-child-play-alone"},
+      {"text": "কাজের প্রতি অনীহা, বিষণ্ণতা, শিশু ঘ্যানঘ্যান করে কোলে উঠতে চায়", "mid": "sym-calcphos-aversion-work-whining"},
+      {"text": "শিশু সবসময় হাসিখুশি থাকা ও কোলে উঠতে না চাওয়া", "mid": "sym-child-cheerful-no-lap"}
+    ],
+    "answer": "sym-calcphos-aversion-work-whining",
+    "explanation": "Calcarea Phosphorica এ কাজের প্রতি অনীহা ও বিষণ্ণতা থাকে, শিশুরা সবসময় ঘ্যানঘ্যান করে এবং কোলে উঠতে চায়।"
+  },
+  {
+    "id": "calcphos-med-13",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথায় প্রচণ্ড গরম অনুভব করা ও মাথা দপদপ করা", "mid": "sym-head-hot-throbbing"},
+      {"text": "মাথার ভেতরে বা পেছনে ঠান্ডা অনুভব করা", "mid": "sym-calcphos-cold-head"},
+      {"text": "মাথায় লোহার ব্যান্ড দিয়ে চেপে ধরার মতো ব্যথা", "mid": "sym-bac-band-headache"},
+      {"text": "সূর্যের তাপে মাথাব্যথা, মাথা দপদপ করা ও মুখ লাল হওয়া", "mid": "sym-glonoinum-sun-headache"}
+    ],
+    "answer": "sym-calcphos-cold-head",
+    "explanation": "Calcarea Phosphorica এ মাথার ভেতরে বা পেছনে এক প্রকার ঠান্ডা অনুভব করা যায়।"
+  },
+  {
+    "id": "calcphos-med-14",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অল্প খেলেই পেট ফুলে যাওয়া ও টক ঢেকুর ওঠা", "mid": "sym-lyco-belly-gas"},
+      {"text": "পায়খানা শক্ত, শুকনো ও কষ্টে বের হওয়া", "mid": "sym-hard-dry-stool"},
+      {"text": "পায়খানা কালো, দুর্গন্ধযুক্ত ও রক্ত মেশানো হওয়া", "mid": "sym-black-bloody-stool"},
+      {"text": "পেটে প্রচুর বায়ু জমে ফাঁপা, সবুজ আমযুক্ত মল ও পায়খানার সময় ঘড়ঘড় শব্দ", "mid": "sym-calcphos-flatulence-green-stool"}
+    ],
+    "answer": "sym-calcphos-flatulence-green-stool",
+    "explanation": "Calcarea Phosphorica এ প্রচুর বায়ু জমে পেট ফাঁপা থাকে এবং সবুজ আমযুক্ত মল হয়, পায়খানার সময় ঘড়ঘড় শব্দ হয়।"
+  },
+  {
+    "id": "calcphos-med-15",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "একটু ঠান্ডা লাগলেই টনসিল ফুলে যাওয়া ও দীর্ঘস্থায়ী কাশির সাথে বুকে ব্যথা", "mid": "sym-calcphos-tonsil-cough-chest"},
+      {"text": "ঠান্ডা লাগলেই হাঁচি ও পরিষ্কার পানির মতো সর্দি ঝরা", "mid": "sym-allium-sneezing"},
+      {"text": "শুষ্ক কাশি, সামান্য নড়াচড়াতেই কাশি বেড়ে যাওয়া", "mid": "sym-bryonia-dry-cough"},
+      {"text": "গরমে কাশি বাড়া ও ঠান্ডা বাতাসে উপশম হওয়া", "mid": "sym-pulsatilla-heat-cough"}
+    ],
+    "answer": "sym-calcphos-tonsil-cough-chest",
+    "explanation": "Calcarea Phosphorica এ একটু ঠান্ডা লাগলেই টনসিল ফুলে যায় এবং দীর্ঘস্থায়ী কাশির সাথে বুকের ভেতর ব্যথা হয়।"
+  },
+  {
+    "id": "calcphos-med-16",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সন্ধিতে ব্যথা বিশ্রামে বাড়া, নড়াচড়ায় উপশম হওয়া", "mid": "sym-rhus-agg-rest"},
+      {"text": "সন্ধিতে ব্যথা গরমে বাড়া, ঠান্ডায় উপশম হওয়া", "mid": "sym-joint-heat-agg"},
+      {"text": "সন্ধিবাত আবহাওয়া পরিবর্তনে বাড়া, প্রতিটি জয়েন্টে কামড়ানো বা সুড়সুড়ি অনুভূতি", "mid": "sym-calcphos-joint-weather-crawling"},
+      {"text": "সন্ধি ফুলে লাল হওয়া ও ছুঁলেই প্রচণ্ড ব্যথা করা", "mid": "sym-joint-red-touch-pain"}
+    ],
+    "answer": "sym-calcphos-joint-weather-crawling",
+    "explanation": "Calcarea Phosphorica এ গেঁটে বাত বা সন্ধিবাত আবহাওয়ার পরিবর্তনে বাড়ে এবং প্রতিটি জয়েন্টে কামড়ানো বা সুড়সুড়ি দেওয়ার মতো অনুভূতি হয়।"
+  },
+  {
+    "id": "calcphos-med-17",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঋতুস্রাব দেরিতে হওয়া ও খুব কম রক্তস্রাব হওয়া", "mid": "sym-late-scanty-menses"},
+      {"text": "ঋতুস্রাব তাড়াতাড়ি হওয়া ও প্রচুর রক্তস্রাব হওয়া", "mid": "sym-calcphos-early-profuse-menses"},
+      {"text": "ঋতুস্রাব বন্ধ হয়ে যাওয়া ও পেটে ব্যথা না থাকা", "mid": "sym-menses-stopped-no-pain"},
+      {"text": "ঋতুস্রাবের সময় শুধু মাথাব্যথা ও বমি হওয়া", "mid": "sym-menses-headache-vomit"}
+    ],
+    "answer": "sym-calcphos-early-profuse-menses",
+    "explanation": "Calcarea Phosphorica এ ঋতুস্রাব খুব তাড়াতাড়ি হয় এবং প্রচুর রক্তস্রাব থাকে।"
+  },
+  {
+    "id": "calcphos-med-18",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাসিকের আগে মিলন ইচ্ছা একদম কমে যাওয়া ও বিরক্ত লাগা", "mid": "sym-before-menses-low-desire"},
+      {"text": "শ্বেতপ্রদর পানির মতো পাতলা ও দুর্গন্ধযুক্ত হওয়া", "mid": "sym-thin-offensive-leucorrhoea"},
+      {"text": "শ্বেতপ্রদর হলুদ, জ্বালাকর ও চুলকানিযুক্ত হওয়া", "mid": "sym-yellow-burning-leucorrhoea"},
+      {"text": "মাসিকের আগে প্রবল মিলন ইচ্ছা ও শ্বেতপ্রদর দুধের সরের মতো হওয়া", "mid": "sym-calcphos-before-menses-desire-creamy"}
+    ],
+    "answer": "sym-calcphos-before-menses-desire-creamy",
+    "explanation": "Calcarea Phosphorica এ মাসিকের আগে খুব মিলন ইচ্ছা থাকে এবং শ্বেতপ্রদর দুধের সরের মতো হয়।"
+  },
+  {
+    "id": "calcphos-med-19",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভিজে ঠান্ডা আবহাওয়া, তুষার গলা জল, নড়াচড়া ও মানসিক পরিশ্রমে বৃদ্ধি", "mid": "sym-calcphos-agg-damp-cold-motion-mental"},
+      {"text": "গরমে ও রোদে বৃদ্ধি, ঠান্ডায় উপশম হওয়া", "mid": "sym-pulsatilla-agg-heat"},
+      {"text": "বিশ্রামে বৃদ্ধি, নড়াচড়া করলে উপশম হওয়া", "mid": "sym-rhus-agg-rest"},
+      {"text": "শুধু দুপুরে বৃদ্ধি, রাতে উপশম হওয়া", "mid": "sym-nux-agg-noon"}
+    ],
+    "answer": "sym-calcphos-agg-damp-cold-motion-mental",
+    "explanation": "Calcarea Phosphorica এ ভিজে ঠান্ডা আবহাওয়ায়, তুষার গলা জলে, নড়াচড়া করলে এবং মানসিক পরিশ্রমে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "calcphos-med-20",
+    "stem": "নিচের কোনটি Calcarea Phosphorica এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা বাতাসে উপশম ও গরম ঘরে বৃদ্ধি হওয়া", "mid": "sym-pulsatilla-amel-coldair"},
+      {"text": "ঠান্ডা পানি দিলে উপশম ও গরমে বৃদ্ধি হওয়া", "mid": "sym-ars-amel-coldwater"},
+      {"text": "গ্রীষ্মকাল, উষ্ণ শুষ্ক আবহাওয়া ও বিশ্রামে উপশম", "mid": "sym-calcphos-amel-summer-warm-dry-rest"},
+      {"text": "ভিজে ঠান্ডা আবহাওয়ায় উপশম ও শুষ্ক গরমে বৃদ্ধি হওয়া", "mid": "sym-damp-cold-amel"}
+    ],
+    "answer": "sym-calcphos-amel-summer-warm-dry-rest",
+    "explanation": "Calcarea Phosphorica এ গ্রীষ্মকালে, উষ্ণ ও শুষ্ক আবহাওয়ায় এবং বিশ্রাম নিলে উপশম হয়।"
+  }
+]

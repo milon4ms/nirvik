@@ -1,0 +1,242 @@
+[
+  {
+    "id": "zincum-med-01",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্নায়ুবিক শক্তি খুব বেশি থাকে, কখনো ক্লান্তি লাগে না", "mid": "sym-nervous-strong-never-tired"},
+      {"text": "স্নায়ুবিক অবসাদ, সবকিছুতেই দুর্বলতা, জীবনী শক্তি নিস্তেজ, মস্তিষ্ক ও স্নায়ুতন্ত্রের প্রচণ্ড ক্লান্তি, চিন্তা করার বা মনে রাখার শক্তি কমে যায়", "mid": "sym-zincum-nervous-exhaustion-weakness-vitality-dull"},
+      {"text": "সবকিছুতে শক্তি বেড়ে যায়, দুর্বলতা থাকে না", "mid": "sym-energy-up-no-weakness"},
+      {"text": "শুধু শরীর দুর্বল থাকে, মস্তিষ্ক ঠিক থাকে", "mid": "sym-body-weak-brain-ok"}
+    ],
+    "answer": "sym-zincum-nervous-exhaustion-weakness-vitality-dull",
+    "explanation": "Zincum Metallicum এ স্নায়ুবিক অবসাদ থাকে, সবকিছুতেই দুর্বলতা থাকে, জীবনী শক্তি নিস্তেজ থাকে, মস্তিষ্ক ও স্নায়ুতন্ত্রের প্রচণ্ড ক্লান্তি থাকে।"
+  },
+  {
+    "id": "zincum-med-02",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রশ্ন শুনেই সাথে সাথে উত্তর দেয়, কোনো দেরি হয় না", "mid": "sym-answer-immediate-no-delay"},
+      {"text": "প্রশ্ন বুঝতে কোনো সময় লাগে না", "mid": "sym-question-understand-immediate"},
+      {"text": "স্মৃতিশক্তি খুব ভালো থাকে, প্রশ্ন ভুলে যায় না", "mid": "sym-memory-good-no-forget"},
+      {"text": "কোনো প্রশ্নের জবাব দেয়ার আগে প্রশ্নটি দ্বিরুক্তি করে, বুদ্ধিভ্রংশ, প্রশ্নের উত্তর দিতে সময় নেয় কারণ প্রশ্নটি বুঝতে দেরি করে", "mid": "sym-zincum-repeats-question-before-answer-slow-understand"}
+    ],
+    "answer": "sym-zincum-repeats-question-before-answer-slow-understand",
+    "explanation": "Zincum Metallicum রোগী কোনো প্রশ্নের জবাব দেয়ার আগে প্রশ্নটি দ্বিরুক্তি করে, বুদ্ধিভ্রংশ থাকে, প্রশ্নের উত্তর দিতে সময় নেয় কারণ সে প্রশ্নটি বুঝতে দেরি করে।"
+  },
+  {
+    "id": "zincum-med-03",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গোটা দেহ কেঁপে ওঠে, হাত পায়ের কাঁপুনি, মাংসপেশির টান বা অনৈচ্ছিক নড়াচড়া", "mid": "sym-zincum-whole-body-trembling-tremor-involuntary"},
+      {"text": "দেহ কখনো কাঁপে না, হাত পা স্থির থাকে", "mid": "sym-body-never-shake-limbs-steady"},
+      {"text": "শুধু হাত কাঁপে, গোটা দেহ কাঁপে না", "mid": "sym-hand-only-shake-body-no"},
+      {"text": "কাঁপুনি থাকলেও মাংসপেশিতে টান থাকে না", "mid": "sym-tremor-no-muscle-pull"}
+    ],
+    "answer": "sym-zincum-whole-body-trembling-tremor-involuntary",
+    "explanation": "Zincum Metallicum এ গোটা দেহ কেঁপে ওঠে, হাত পায়ের কাঁপুনি হয়, মাংসপেশির টান বা অনৈচ্ছিক নড়াচড়া হয়।"
+  },
+  {
+    "id": "zincum-med-04",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথা সবসময় স্থির থাকে, এপাশ ওপাশ করে না", "mid": "sym-head-steady-no-roll"},
+      {"text": "মাথা শুধু সামনে পেছনে নড়ে, এপাশ ওপাশ করে না", "mid": "sym-head-front-back-no-side"},
+      {"text": "মাথা এপাশ ওপাশ করে", "mid": "sym-zincum-head-rolls-side-to-side"},
+      {"text": "মাথা নাড়াতে পারে না, ঘাড় শক্ত থাকে", "mid": "sym-head-cannot-move-neck-stiff"}
+    ],
+    "answer": "sym-zincum-head-rolls-side-to-side",
+    "explanation": "Zincum Metallicum এ মাথা এপাশ ওপাশ করে।"
+  },
+  {
+    "id": "zincum-med-05",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পা স্থির থাকে, কখনো নাড়ে না", "mid": "sym-legs-steady-never-move"},
+      {"text": "সর্বদাই পা নাড়ে, ঘুমাতে ঘুমাতেও পা নাড়ে, স্থিরভাবে বসে বা শুয়ে থাকতে পারে না, অনবরত পা নাড়াতে থাকে, মস্তিষ্কের প্রদাহে তন্দ্রাচ্ছন্ন থাকে কিন্তু অনবরত পা নাড়ায়", "mid": "sym-zincum-always-moves-feet-sleep-restless-legs-brain-inflammation-drowsy"},
+      {"text": "পা শুধু জেগে থাকলে নাড়ে, ঘুমালে নাড়ে না", "mid": "sym-legs-awake-only-sleep-no"},
+      {"text": "পা নাড়ালে আরাম লাগে না, পা স্থির রাখতে চায়", "mid": "sym-legs-move-no-relief-want-steady"}
+    ],
+    "answer": "sym-zincum-always-moves-feet-sleep-restless-legs-brain-inflammation-drowsy",
+    "explanation": "Zincum Metallicum এর সবচেয়ে গুরুত্বপূর্ণ লক্ষণ সর্বদাই পা নাড়া, রোগী ঘুমাতে ঘুমাতেও পা নাড়ে, স্থিরভাবে বসে বা শুয়ে থাকতে পারে না।"
+  },
+  {
+    "id": "zincum-med-06",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঋতুস্রাব শুরু হলে রোগ বেড়ে যায়, বন্ধ হলে কমে যায়", "mid": "sym-menses-start-worse-stop-less"},
+      {"text": "ঋতুস্রাবের সাথে রোগের কোনো সম্পর্ক নেই", "mid": "sym-menses-no-relation-disease"},
+      {"text": "ঋতুস্রাব বন্ধ হলে ভালো থাকে, শুরু হলে খারাপ থাকে", "mid": "sym-menses-stop-good-start-bad"},
+      {"text": "ঋতুস্রাব বন্ধ হলে রোগ আসে, শুরু হলে উপশম হয়, ঋতুস্রাব শুরু হলে স্নায়বিক কষ্ট উপশম হয়", "mid": "sym-zincum-menses-suppressed-disease-onset-amel"}
+    ],
+    "answer": "sym-zincum-menses-suppressed-disease-onset-amel",
+    "explanation": "Zincum Metallicum এ ঋতুস্রাব বন্ধ হলে রোগ আসে, শুরু হলে উপশম হয়, ঋতুস্রাব শুরু হলে স্নায়বিক কষ্টগুলো উপশম হয়।"
+  },
+  {
+    "id": "zincum-med-07",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশু লিঙ্গ ধরে টানে, শিশু ঘুমে কেঁদে ওঠে, শিশুরা ঘুমের মধ্যে আঁতকে ওঠে বা চিৎকার করে", "mid": "sym-zincum-child-pulls-genitals-cries-sleep-startles-screams"},
+      {"text": "শিশু ঘুমে শান্ত থাকে, কখনো কেঁদে ওঠে না", "mid": "sym-child-sleep-calm-never-cry"},
+      {"text": "শিশু লিঙ্গ ধরে টানে না, শুধু আঙুল চোষে", "mid": "sym-child-no-genital-pull-finger-suck-only"},
+      {"text": "শিশু ঘুমে চিৎকার করে না, জেগে থাকলে চিৎকার করে", "mid": "sym-child-scream-awake-only-sleep-no"}
+    ],
+    "answer": "sym-zincum-child-pulls-genitals-cries-sleep-startles-screams",
+    "explanation": "Zincum Metallicum এ শিশু লিঙ্গ ধরে টানে, শিশু ঘুমে কেঁদে ওঠে, শিশুরা ঘুমের মধ্যে আঁতকে ওঠে বা চিৎকার করে।"
+  },
+  {
+    "id": "zincum-med-08",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দাঁড়িয়ে প্রস্রাব করলে সহজ হয়, বসলে কঠিন হয়", "mid": "sym-standing-urine-easy-sitting-hard"},
+      {"text": "সামনে ঝুঁকলে প্রস্রাব সহজ হয়", "mid": "sym-bend-forward-urine-easy"},
+      {"text": "বসে পিছন দিকে বাঁকা হলে প্রস্রাব নির্গমন সহজ হয়", "mid": "sym-zincum-sitting-bend-backward-urine-easy"},
+      {"text": "যেকোনো ভঙ্গিতে প্রস্রাব সমানভাবে কঠিন হয়", "mid": "sym-any-posture-urine-equal-hard"}
+    ],
+    "answer": "sym-zincum-sitting-bend-backward-urine-easy",
+    "explanation": "Zincum Metallicum এ বসে পিছন দিকে বাঁকা হলে প্রস্রাব নির্গমন সহজ হয়।"
+  },
+  {
+    "id": "zincum-med-09",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সকালে বিমর্ষ থাকে, রাতে প্রফুল্ল থাকে", "mid": "sym-morning-melancholy-night-cheerful"},
+      {"text": "সকালে প্রফুল্লতা কিন্তু রাতে বিমর্ষ ভাব, সবসময় বিষণ্ণ ও ভীতু ভাব, একা থাকতে ভয় পায়", "mid": "sym-zincum-morning-cheerful-night-melancholy-depressed-fearful-alone"},
+      {"text": "সকাল রাত সবসময় প্রফুল্ল থাকে, বিষণ্ণতা থাকে না", "mid": "sym-always-cheerful-no-depression"},
+      {"text": "একা থাকতে ভালো লাগে, ভয় লাগে না", "mid": "sym-alone-enjoy-no-fear"}
+    ],
+    "answer": "sym-zincum-morning-cheerful-night-melancholy-depressed-fearful-alone",
+    "explanation": "Zincum Metallicum এ সকালে প্রফুল্লতা কিন্তু রাতে বিমর্ষ ভাব থাকে, সবসময় বিষণ্ণ এবং ভীতু ভাব থাকে, একা থাকতে ভয় পায়।"
+  },
+  {
+    "id": "zincum-med-10",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চিনি খেলে গলা ঠান্ডা লাগে, জ্বালা করে না", "mid": "sym-sugar-throat-cold-no-burn"},
+      {"text": "চিনি খেলে কোনো পরিবর্তন হয় না", "mid": "sym-sugar-no-change"},
+      {"text": "মিষ্টি খেলে গলা ভালো লাগে", "mid": "sym-sweet-throat-good"},
+      {"text": "চিনি খেলে গলা জ্বালা করে", "mid": "sym-zincum-sugar-throat-burning"}
+    ],
+    "answer": "sym-zincum-sugar-throat-burning",
+    "explanation": "Zincum Metallicum এ চিনি খেলে গলা জ্বালা করে।"
+  },
+  {
+    "id": "zincum-med-11",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রোগ দমিত হওয়ার কুফল, চর্মরোগ বা কোনো স্রাব চাপা পড়ে স্নায়বিক সমস্যা দেখা দেয়", "mid": "sym-zincum-suppressed-eruption-discharge-nervous-trouble"},
+      {"text": "চর্মরোগ চাপা পড়লে স্নায়বিক সমস্যা হয় না", "mid": "sym-skin-suppressed-no-nervous"},
+      {"text": "স্রাব চাপা পড়লে শরীর ভালো থাকে", "mid": "sym-discharge-suppressed-body-good"},
+      {"text": "চর্মরোগ ভালো হলে সব রোগ ভালো হয়ে যায়", "mid": "sym-skin-cured-all-cured"}
+    ],
+    "answer": "sym-zincum-suppressed-eruption-discharge-nervous-trouble",
+    "explanation": "Zincum Metallicum এ চর্মরোগ বা কোনো স্রাব যদি চাপা পড়ে এবং তার ফলে স্নায়বিক সমস্যা দেখা দেয়, তবে এটি শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "zincum-med-12",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শব্দ সহ্য হয়, অন্যের কথা বলা ভালো লাগে", "mid": "sym-noise-tolerated-talk-enjoy"},
+      {"text": "জোরে শব্দে বিরক্ত হয় কিন্তু সামান্য শব্দে হয় না", "mid": "sym-loud-noise-irritated-slight-no"},
+      {"text": "প্রচণ্ড সংবেদনশীলতা, সামান্য শব্দ বা অন্যের কথা বলা একদম সহ্য করতে পারে না", "mid": "sym-zincum-sensitive-slight-noise-talking-intolerable"},
+      {"text": "সংবেদনশীলতা কম থাকে, শব্দে কোনো কষ্ট হয় না", "mid": "sym-sensitivity-low-noise-no-trouble"}
+    ],
+    "answer": "sym-zincum-sensitive-slight-noise-talking-intolerable",
+    "explanation": "Zincum Metallicum এ প্রচণ্ড সংবেদনশীলতা থাকে, সামান্য শব্দ বা অন্যের কথা বলা রোগী একদম সহ্য করতে পারে না।"
+  },
+  {
+    "id": "zincum-med-13",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "খাওয়ার সময় ধীরে খায়, ক্ষুধা কম থাকে", "mid": "sym-eating-slow-hunger-less"},
+      {"text": "খাওয়ার সময় ক্ষুধার তীব্রতা, অত্যন্ত তাড়াহুড়ো করে, খিদের চোটে পেটে অসহ্য যন্ত্রণা বোধ করে", "mid": "sym-zincum-eating-hurried-hunger-belly-pain"},
+      {"text": "খাওয়ার সময় পেটে কোনো যন্ত্রণা হয় না", "mid": "sym-eating-no-belly-pain"},
+      {"text": "ক্ষুধা থাকলেও খেতে চায় না", "mid": "sym-hunger-no-desire-eat"}
+    ],
+    "answer": "sym-zincum-eating-hurried-hunger-belly-pain",
+    "explanation": "Zincum Metallicum রোগী খাওয়ার সময় অত্যন্ত তাড়াহুড়ো করে এবং খিদের চোটে পেটে অসহ্য যন্ত্রণা বোধ করে।"
+  },
+  {
+    "id": "zincum-med-14",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথার সামনে ব্যথা হয়, ভার বোধ থাকে না", "mid": "sym-head-front-pain-no-heaviness"},
+      {"text": "মাথা ঘোরা ডান পাশে বেশি হয়", "mid": "sym-vertigo-right-more"},
+      {"text": "মাথায় কোনো ব্যথা থাকে না", "mid": "sym-head-no-pain"},
+      {"text": "মাথার পেছন দিকে প্রচণ্ড ব্যথা ও ভার বোধ, মাথা ঘোরা যা বাম পাশে বেশি অনুভূত হয়", "mid": "sym-zincum-occiput-pain-heaviness-vertigo-left-more"}
+    ],
+    "answer": "sym-zincum-occiput-pain-heaviness-vertigo-left-more",
+    "explanation": "Zincum Metallicum এ মাথার পেছন দিকে প্রচণ্ড ব্যথা এবং ভার বোধ হয়, মাথা ঘোরা যা বাম পাশে বেশি অনুভূত হয়।"
+  },
+  {
+    "id": "zincum-med-15",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মিষ্টি খাবারের প্রতি প্রচণ্ড লোভ", "mid": "sym-zincum-intense-craving-sweets"},
+      {"text": "মিষ্টি একদম পছন্দ করে না, টক খেতে চায়", "mid": "sym-sweet-dislike-sour-desire"},
+      {"text": "মিষ্টি খেলে কোনো ইচ্ছা থাকে না", "mid": "sym-sweet-no-desire"},
+      {"text": "মিষ্টির চেয়ে ঝাল বেশি পছন্দ করে", "mid": "sym-spicy-more-sweet-less"}
+    ],
+    "answer": "sym-zincum-intense-craving-sweets",
+    "explanation": "Zincum Metallicum এ মিষ্টি খাবারের প্রতি প্রচণ্ড লোভ থাকে।"
+  },
+  {
+    "id": "zincum-med-16",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মদ পান করলে সব লক্ষণ কমে যায়", "mid": "sym-alcohol-all-symptom-less"},
+      {"text": "ওয়াইন পান করলে কোনো পরিবর্তন হয় না", "mid": "sym-wine-no-change"},
+      {"text": "মদ বা ওয়াইন পানের পর সব লক্ষণ বৃদ্ধি পায়", "mid": "sym-zincum-wine-alcohol-all-symptom-worse"},
+      {"text": "মদ পান করলে শুধু মাথাব্যথা কমে", "mid": "sym-alcohol-headache-only-less"}
+    ],
+    "answer": "sym-zincum-wine-alcohol-all-symptom-worse",
+    "explanation": "Zincum Metallicum এ মদ বা ওয়াইন পানের পর সব লক্ষণ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "zincum-med-17",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সন্ধ্যার দিকে উপশম, খাওয়ার পর উপশম, ঘুমের সময় উপশম", "mid": "sym-evening-amel-after-eating-amel-sleep-amel"},
+      {"text": "মদ বা উদ্দীপক পানীয় পান করলে, সন্ধ্যার দিকে, খাওয়ার পর ও ঘুমের সময় বৃদ্ধি পায়", "mid": "sym-zincum-agg-alcohol-stimulant-evening-after-eating-sleep"},
+      {"text": "ঘুমের সময় বৃদ্ধি হয় না, জেগে থাকলে বৃদ্ধি হয়", "mid": "sym-sleep-no-agg-awake-agg"},
+      {"text": "খাওয়ার পর বৃদ্ধি হয় না, খাওয়ার আগে বৃদ্ধি হয়", "mid": "sym-after-eating-no-agg-before-agg"}
+    ],
+    "answer": "sym-zincum-agg-alcohol-stimulant-evening-after-eating-sleep",
+    "explanation": "Zincum Metallicum এ মদ বা উদ্দীপক পানীয় পান করলে, সন্ধ্যার দিকে, খাওয়ার পর এবং ঘুমের সময় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "zincum-med-18",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রাকৃতিক স্রাব শুরু হলে বৃদ্ধি পায়, খোলা বাতাসে বৃদ্ধি পায়", "mid": "sym-natural-discharge-worse-open-air-worse"},
+      {"text": "স্রাব বন্ধ হলে উপশম হয়, বদ্ধ ঘরে উপশম হয়", "mid": "sym-discharge-stop-amel-closed-room-amel"},
+      {"text": "স্রাবের সাথে উপশমের কোনো সম্পর্ক নেই", "mid": "sym-discharge-no-relation-amel"},
+      {"text": "যেকোনো প্রাকৃতিক স্রাব শুরু হলে উপশম হয়, খোলা বাতাসে উপশম হয়", "mid": "sym-zincum-amel-natural-discharge-onset-open-air"}
+    ],
+    "answer": "sym-zincum-amel-natural-discharge-onset-open-air",
+    "explanation": "Zincum Metallicum এ যেকোনো প্রাকৃতিক স্রাব শুরু হলে এবং খোলা বাতাসে উপশম হয়।"
+  },
+  {
+    "id": "zincum-med-19",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শীতকাতর", "mid": "sym-zincum-chilly"},
+      {"text": "গরমকাতর, গরম সহ্য করতে পারে না", "mid": "sym-hot-sensitive"},
+      {"text": "ঠান্ডা বাতাস ভালো লাগে, ঠান্ডা পছন্দ করে", "mid": "sym-cold-air-enjoy"},
+      {"text": "ঠান্ডা বা গরমে কোনো পরিবর্তন হয় না", "mid": "sym-temp-no-change"}
+    ],
+    "answer": "sym-zincum-chilly",
+    "explanation": "Zincum Metallicum রোগী শীতকাতর।"
+  },
+  {
+    "id": "zincum-med-20",
+    "stem": "নিচের কোনটি Zincum Metallicum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শুধু ডান পাশে কাজ করে, নিচ থেকে ওপরে ক্রিয়া করে", "mid": "sym-right-only-below-above"},
+      {"text": "দুই পাশে সমানভাবে কাজ করে, কোনো দিকের প্রাধান্য নেই", "mid": "sym-both-equal-no-direction"},
+      {"text": "মূলত বাম পাশে এবং ওপর থেকে নিচে ক্রিয়া করে", "mid": "sym-zincum-mainly-left-top-to-bottom"},
+      {"text": "মূলত মাঝখানে কাজ করে, পাশে কাজ করে না", "mid": "sym-middle-only-no-side"}
+    ],
+    "answer": "sym-zincum-mainly-left-top-to-bottom",
+    "explanation": "Zincum Metallicum মূলত বাম পাশে এবং ওপর থেকে নিচে ক্রিয়া করে।"
+  }
+]

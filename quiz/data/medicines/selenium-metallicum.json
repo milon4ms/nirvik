@@ -1,0 +1,242 @@
+[
+  {
+    "id": "sel-med-01",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বীর্য পাতলা, গন্ধহীন, ঘুমে ফোটা ফোটা পড়ে", "mid": "sym-sel-semen-thin-odorless-dribbling-sleep"},
+      {"text": "বীর্য ঘন ও গন্ধযুক্ত", "mid": "sym-semen-thick-odorous"},
+      {"text": "বীর্য স্বাভাবিক", "mid": "sym-semen-normal"},
+      {"text": "বীর্যপাত হয় না", "mid": "sym-no-ejaculation"}
+    ],
+    "answer": "sym-sel-semen-thin-odorless-dribbling-sleep",
+    "explanation": "Selenium-এ বীর্য পাতলা, গন্ধহীন ও ফোটা ফোটা পড়ে।"
+  },
+  {
+    "id": "sel-med-02",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মলত্যাগ কালেও বীর্য পড়ে", "mid": "sym-sel-semen-during-stool"},
+      {"text": "মলত্যাগে বীর্য পড়ে না", "mid": "sym-no-semen-stool"},
+      {"text": "মলত্যাগে প্রস্রাব পড়ে", "mid": "sym-urine-during-stool"},
+      {"text": "মলত্যাগ স্বাভাবিক", "mid": "sym-normal-stool"}
+    ],
+    "answer": "sym-sel-semen-during-stool",
+    "explanation": "Selenium-এ মলত্যাগের সময় বীর্য পড়ে।"
+  },
+  {
+    "id": "sel-med-03",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অধিক বীর্যপাতে দেহ ও মনের চরম অবসাদ", "mid": "sym-sel-exhaustion-body-mind-after-emission"},
+      {"text": "বীর্যপাতে শক্তি বাড়ে", "mid": "sym-energy-after-emission"},
+      {"text": "বীর্যপাতে কোনো অবসাদ নেই", "mid": "sym-no-exhaustion-emission"},
+      {"text": "বীর্যপাত হয় না", "mid": "sym-no-emission"}
+    ],
+    "answer": "sym-sel-exhaustion-body-mind-after-emission",
+    "explanation": "Selenium-এ বীর্যপাতে চরম অবসাদ হয়।"
+  },
+  {
+    "id": "sel-med-04",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কামভাবের প্রাবল্য, সর্বদা যৌন চিন্তা কিন্তু যৌন অক্ষমতা", "mid": "sym-sel-lascivious-thoughts-impotency"},
+      {"text": "কামভাব নেই", "mid": "sym-no-sexual-desire"},
+      {"text": "যৌন ক্ষমতা প্রখর", "mid": "sym-strong-sexual-power"},
+      {"text": "যৌন চিন্তা নেই", "mid": "sym-no-sexual-thought"}
+    ],
+    "answer": "sym-sel-lascivious-thoughts-impotency",
+    "explanation": "Selenium-এ কামভাব বেশি কিন্তু অক্ষমতা থাকে।"
+  },
+  {
+    "id": "sel-med-05",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সহবাসের চেষ্টা করলেই লিঙ্গ সংকুচিত হয়", "mid": "sym-sel-penis-shrinks-attempt-coition"},
+      {"text": "লিঙ্গ শক্ত থাকে", "mid": "sym-penis-hard"},
+      {"text": "সহবাসে কোনো সমস্যা নেই", "mid": "sym-no-coition-issue"},
+      {"text": "লিঙ্গ বড় হয়", "mid": "sym-penis-large"}
+    ],
+    "answer": "sym-sel-penis-shrinks-attempt-coition",
+    "explanation": "Selenium-এ সহবাস চেষ্টায় লিঙ্গ সংকুচিত হয়।"
+  },
+  {
+    "id": "sel-med-06",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বয়স্কদের যৌন অক্ষমতা ও প্রস্টেটাইটিস, প্রস্টেট রস নির্গত হয়", "mid": "sym-sel-old-age-impotency-prostatitis-fluid"},
+      {"text": "বয়স্কদের যৌন ক্ষমতা বেশি", "mid": "sym-old-sexual-strong"},
+      {"text": "প্রস্টেটাইটিস নেই", "mid": "sym-no-prostatitis"},
+      {"text": "প্রস্টেট রস নির্গত হয় না", "mid": "sym-no-prostatic-fluid"}
+    ],
+    "answer": "sym-sel-old-age-impotency-prostatitis-fluid",
+    "explanation": "Selenium বয়স্কদের অক্ষমতা ও প্রস্টেটাইটিসে কার্যকর।"
+  },
+  {
+    "id": "sel-med-07",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দাড়ি, ভ্রু, যৌনাঙ্গের চুল ও মাথার চুল পড়ে যায়, তৈলাক্ত", "mid": "sym-sel-hair-falls-beard-eyebrow-pubic-oily"},
+      {"text": "চুল পড়ে না", "mid": "sym-no-hair-fall"},
+      {"text": "চুল ঘন হয়", "mid": "sym-thick-hair"},
+      {"text": "চুল শুকনো", "mid": "sym-dry-hair"}
+    ],
+    "answer": "sym-sel-hair-falls-beard-eyebrow-pubic-oily",
+    "explanation": "Selenium-এ বিভিন্ন স্থানের চুল পড়ে ও তৈলাক্ত থাকে।"
+  },
+  {
+    "id": "sel-med-08",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অনিচ্ছায় ফোটা ফোটা প্রস্রাব পড়ে", "mid": "sym-sel-involuntary-dribbling-urine"},
+      {"text": "প্রস্রাব আটকে থাকে", "mid": "sym-retention-urine"},
+      {"text": "প্রস্রাব স্বাভাবিক", "mid": "sym-normal-urine"},
+      {"text": "প্রস্রাব বেশি হয়", "mid": "sym-polyuria"}
+    ],
+    "answer": "sym-sel-involuntary-dribbling-urine",
+    "explanation": "Selenium-এ অনিচ্ছায় ফোটা ফোটা প্রস্রাব পড়ে।"
+  },
+  {
+    "id": "sel-med-09",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "স্বরভঙ্গ, গায়কদের গলা পরিষ্কার করতে বারবার কাশি", "mid": "sym-sel-hoarseness-singers-clear-throat"},
+      {"text": "স্বর পরিষ্কার", "mid": "sym-clear-voice"},
+      {"text": "স্বরভঙ্গ নেই", "mid": "sym-no-hoarseness"},
+      {"text": "কাশি নেই", "mid": "sym-no-cough"}
+    ],
+    "answer": "sym-sel-hoarseness-singers-clear-throat",
+    "explanation": "Selenium স্বরভঙ্গে কার্যকর, বিশেষত গায়কদের।"
+  },
+  {
+    "id": "sel-med-10",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কোষ্ঠকাঠিন্য, মল বড় শক্ত, আঙুলের সাহায্য লাগে", "mid": "sym-sel-constipation-large-hard-finger-aid"},
+      {"text": "মল নরম", "mid": "sym-soft-stool"},
+      {"text": "কোষ্ঠকাঠিন্য নেই", "mid": "sym-no-constipation"},
+      {"text": "মল ছোট", "mid": "sym-small-stool"}
+    ],
+    "answer": "sym-sel-constipation-large-hard-finger-aid",
+    "explanation": "Selenium-এ কোষ্ঠকাঠিন্য, মল বড় শক্ত হয়।"
+  },
+  {
+    "id": "sel-med-11",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সর্দি ভালো হলে ডায়রিয়া হয়", "mid": "sym-sel-coryza-better-diarrhea-comes"},
+      {"text": "সর্দি ভালো হলে ভালো থাকে", "mid": "sym-better-after-coryza"},
+      {"text": "সর্দি নেই", "mid": "sym-no-coryza"},
+      {"text": "ডায়রিয়া নেই", "mid": "sym-no-diarrhea"}
+    ],
+    "answer": "sym-sel-coryza-better-diarrhea-comes",
+    "explanation": "Selenium-এ সর্দি ভালো হলে ডায়রিয়া হয়।"
+  },
+  {
+    "id": "sel-med-12",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাতের তালা চুলকানি, ছাল ওঠা উদ্ভেদ", "mid": "sym-sel-palm-itch-peeling-eruption"},
+      {"text": "হাতের তালা স্বাভাবিক", "mid": "sym-normal-palm"},
+      {"text": "হাতে চুলকানি নেই", "mid": "sym-no-hand-itch"},
+      {"text": "ছাল ওঠে না", "mid": "sym-no-peeling"}
+    ],
+    "answer": "sym-sel-palm-itch-peeling-eruption",
+    "explanation": "Selenium-এ হাতের তালায় চুলকানি ও ছাল ওঠা উদ্ভেদ থাকে।"
+  },
+  {
+    "id": "sel-med-13",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আহারের পর সারা দেহে বিশেষত পেটে দপদপানি", "mid": "sym-sel-pulsation-whole-body-abdomen-after-eating"},
+      {"text": "আহারের পর আরাম", "mid": "sym-amel-after-eating"},
+      {"text": "পেটে দপদপানি নেই", "mid": "sym-no-abdomen-throb"},
+      {"text": "আহারের পর ঘুম", "mid": "sym-sleep-after-eating"}
+    ],
+    "answer": "sym-sel-pulsation-whole-body-abdomen-after-eating",
+    "explanation": "Selenium-এ আহারের পর সারা দেহে দপদপানি হয়।"
+  },
+  {
+    "id": "sel-med-14",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সূর্যোদয় ও উত্তাপে বৃদ্ধি, সূর্যাস্তে উপশম", "mid": "sym-sel-agg-sunrise-heat-amel-sunset"},
+      {"text": "সূর্যোদয়ে উপশম", "mid": "sym-amel-sunrise"},
+      {"text": "সূর্যাস্তে বৃদ্ধি", "mid": "sym-agg-sunset"},
+      {"text": "সূর্যে কোনো প্রভাব নেই", "mid": "sym-no-sun-effect"}
+    ],
+    "answer": "sym-sel-agg-sunrise-heat-amel-sunset",
+    "explanation": "Selenium-এ সূর্যোদয় ও তাপে বৃদ্ধি, সূর্যাস্তে উপশম।"
+  },
+  {
+    "id": "sel-med-15",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চরম দুঃখী, অল্পে ক্লান্ত, রোদে শক্তি নিঃশেষ", "mid": "sym-sel-extreme-sad-weak-exhausted-sun"},
+      {"text": "খুব আনন্দিত", "mid": "sym-very-happy"},
+      {"text": "ক্লান্তি নেই", "mid": "sym-no-exhaustion"},
+      {"text": "রোদে শক্তি বাড়ে", "mid": "sym-energy-sun"}
+    ],
+    "answer": "sym-sel-extreme-sad-weak-exhausted-sun",
+    "explanation": "Selenium রোগী চরম দুঃখী ও অল্পে ক্লান্ত হয়।"
+  },
+  {
+    "id": "sel-med-16",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভুলোমনা, কাজের সময় শব্দ মনে করতে পারে না", "mid": "sym-sel-forgetful-cannot-recall-words-work"},
+      {"text": "স্মৃতি প্রখর", "mid": "sym-sharp-memory"},
+      {"text": "ভোলে না", "mid": "sym-forgets-nothing"},
+      {"text": "কাজে মনোযোগ ভালো", "mid": "sym-good-concentration-work"}
+    ],
+    "answer": "sym-sel-forgetful-cannot-recall-words-work",
+    "explanation": "Selenium রোগী ভুলোমনা হয়।"
+  },
+  {
+    "id": "sel-med-17",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মানসিক পরিশ্রমে শারীরিক লক্ষণ বাড়ে", "mid": "sym-sel-mental-exertion-agg-physical-symptoms"},
+      {"text": "মানসিক পরিশ্রমে উপশম", "mid": "sym-mental-exertion-amel"},
+      {"text": "মানসিক পরিশ্রমে কোনো প্রভাব নেই", "mid": "sym-no-effect-mental-exertion"},
+      {"text": "শারীরিক লক্ষণ নেই", "mid": "sym-no-physical-symptom"}
+    ],
+    "answer": "sym-sel-mental-exertion-agg-physical-symptoms",
+    "explanation": "Selenium-এ মানসিক পরিশ্রমে শারীরিক লক্ষণ বাড়ে।"
+  },
+  {
+    "id": "sel-med-18",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বৃদ্ধি: রোদে, গরমে, ঘুমের পর, সহবাসের পর, মদে", "mid": "sym-sel-agg-sun-heat-sleep-coition-alcohol"},
+      {"text": "বৃদ্ধি: ঠান্ডায়", "mid": "sym-agg-cold"},
+      {"text": "বৃদ্ধি: খোলা বাতাসে", "mid": "sym-agg-open-air"},
+      {"text": "বৃদ্ধি: ঠান্ডা জলে স্নানে", "mid": "sym-agg-cold-bath"}
+    ],
+    "answer": "sym-sel-agg-sun-heat-sleep-coition-alcohol",
+    "explanation": "Selenium-এ রোদে, গরমে, ঘুমের পর, সহবাসের পর বৃদ্ধি।"
+  },
+  {
+    "id": "sel-med-19",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "উপশম: ঠান্ডা বাতাসে ও ঠান্ডা জলে স্নানে", "mid": "sym-sel-amel-cold-air-cold-bath"},
+      {"text": "উপশম: গরমে", "mid": "sym-amel-heat"},
+      {"text": "উপশম: রোদে", "mid": "sym-amel-sun"},
+      {"text": "উপশম: ঘুমের পর", "mid": "sym-amel-after-sleep"}
+    ],
+    "answer": "sym-sel-amel-cold-air-cold-bath",
+    "explanation": "Selenium ঠান্ডা বাতাসে ও ঠান্ডা স্নানে ভালো থাকে।"
+  },
+  {
+    "id": "sel-med-20",
+    "stem": "নিচের কোনটি Selenium Metallicum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমকাতর, উৎস খনিজ সেলেনিয়াম, সোরা ও সিফিলিটিক, পরিপূরক Sulphur", "mid": "sym-sel-hot-source-mineral-psora-syph-compl-sulph"},
+      {"text": "শীতকাতর", "mid": "sym-chilly"},
+      {"text": "উভয়কাতর", "mid": "sym-ambithermal"},
+      {"text": "পরিপূরক Pulsatilla", "mid": "sym-complement-puls"}
+    ],
+    "answer": "sym-sel-hot-source-mineral-psora-syph-compl-sulph",
+    "explanation": "Selenium গরমকাতর, খনিজ উৎস ও পরিপূরক Sulphur।"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "bac-med-01",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভয় বা আতঙ্কের পর হঠাৎ শুষ্ক গরম জ্বর আসা", "mid": "sym-acon-fear-fever"},
+      {"text": "বংশে যক্ষ্মা, হাঁপানি বা ক্যান্সারের ইতিহাস থাকা ও টিউবারকুলার বংশগত দোষ", "mid": "sym-bac-family-tb"},
+      {"text": "মিষ্টি খেতে প্রবল ইচ্ছা ও ঠান্ডা পানি খেলেই বমি হওয়া", "mid": "sym-phos-sweet-vomit"},
+      {"text": "পায়ে জ্বালাপোড়া, রাতে বিছানা থেকে পা বের করে রাখা", "mid": "sym-sulph-burning-feet"}
+    ],
+    "answer": "sym-bac-family-tb",
+    "explanation": "Bacillinum এর প্রধান বৈশিষ্ট্য হলো বংশে যক্ষ্মা, হাঁপানি বা ক্যান্সারের ইতিহাস থাকা ও টিউবারকুলার বংশগত দোষ।"
+  },
+  {
+    "id": "bac-med-02",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অল্প খেলেই পেট ফুলে যাওয়া ও টক ঢেকুর ওঠা", "mid": "sym-lyco-belly-gas"},
+      {"text": "ক্ষুধা একদম না থাকা ও মুখ তেতো লাগা", "mid": "sym-nux-no-appetite"},
+      {"text": "রাতে প্রচুর ক্ষুধা লাগা কিন্তু খেলেই বমি হওয়া", "mid": "sym-ars-night-hunger-vomit"},
+      {"text": "প্রচুর পুষ্টিকর খাবার খেয়েও দিন দিন শুকিয়ে যাওয়া", "mid": "sym-bac-eat-emaciation"}
+    ],
+    "answer": "sym-bac-eat-emaciation",
+    "explanation": "Bacillinum এ রোগী প্রচুর খায়, তবু দিন দিন শুকিয়ে যায়।"
+  },
+  {
+    "id": "bac-med-03",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘন ঘন ঠান্ডা লাগা, সর্দি কাশি লেগে থাকা ও সারতে দীর্ঘ সময় লাগা", "mid": "sym-bac-frequent-cold"},
+      {"text": "ঠান্ডা লাগলেই হাঁচি ও পরিষ্কার পানির মতো সর্দি ঝরা", "mid": "sym-allium-sneezing"},
+      {"text": "শুষ্ক কাশি, সামান্য নড়াচড়াতেই কাশি বেড়ে যাওয়া", "mid": "sym-bryonia-dry-cough"},
+      {"text": "গরমে কাশি বাড়া ও ঠান্ডা বাতাসে উপশম হওয়া", "mid": "sym-pulsatilla-heat-cough"}
+    ],
+    "answer": "sym-bac-frequent-cold",
+    "explanation": "Bacillinum রোগী খুব সহজেই ঠান্ডায় আক্রান্ত হয়, সর্দি কাশি লেগেই থাকে এবং সারতে দীর্ঘ সময় লাগে।"
+  },
+  {
+    "id": "bac-med-04",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাশির সাথে উজ্জ্বল লাল রক্ত মেশানো কফ ওঠা", "mid": "sym-phos-bloody-cough"},
+      {"text": "দিনে কাশি বাড়া, রাতে সম্পূর্ণ বন্ধ থাকা", "mid": "sym-bryonia-day-cough"},
+      {"text": "রাতে শোয়ার পর প্রচণ্ড কাশি শুরু হওয়া ও সকালে ঘুম থেকে উঠে প্রচুর কফ ওঠা", "mid": "sym-bac-night-cough-morning-phlegm"},
+      {"text": "শুষ্ক কাশি, এক ফোঁটাও কফ না ওঠা ও গলা শুকিয়ে যাওয়া", "mid": "sym-belladonna-dry-cough"}
+    ],
+    "answer": "sym-bac-night-cough-morning-phlegm",
+    "explanation": "Bacillinum এ রাতে শোয়ার পর প্রচণ্ড কাশি শুরু হয় এবং সকালে ঘুম থেকে ওঠার পর প্রচুর কফ নির্গত হয়।"
+  },
+  {
+    "id": "bac-med-05",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সারা শরীরে টক গন্ধযুক্ত ঘাম ও ঘাম হলেও উপশম না হওয়া", "mid": "sym-merc-sour-sweat"},
+      {"text": "ঘুমের মধ্যে বিশেষ করে ঘাড় ও পিঠে প্রচণ্ড ঘাম হওয়া", "mid": "sym-bac-neck-back-sweat"},
+      {"text": "শুধু মাথায় প্রচুর ঘাম, বালিশ ভিজে যাওয়া", "mid": "sym-calc-head-sweat"},
+      {"text": "দিনে কাজের সময় হাতের তালুতে প্রচুর ঘাম হওয়া", "mid": "sym-silica-palm-sweat"}
+    ],
+    "answer": "sym-bac-neck-back-sweat",
+    "explanation": "Bacillinum এ ঘুমের মধ্যে শরীর, বিশেষ করে ঘাড় ও পিঠ প্রচণ্ড ঘামতে থাকে।"
+  },
+  {
+    "id": "bac-med-06",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চুলকালে জ্বালা করা ফোসকাযুক্ত চর্মরোগ, ঠান্ডা পানিতে উপশম", "mid": "sym-rhus-blister-skin"},
+      {"text": "শুষ্ক খসখসে চামড়া, চুলকালে রক্ত বের হওয়া", "mid": "sym-ars-dry-skin"},
+      {"text": "মুখে ব্রণ, চর্বিযুক্ত ত্বক ও গরমে বৃদ্ধি", "mid": "sym-pulsatilla-acne"},
+      {"text": "মাথায় বা দাড়িতে সারতে না চাওয়া দাদ বা একজিমা হওয়ার প্রবণতা", "mid": "sym-bac-ringworm"}
+    ],
+    "answer": "sym-bac-ringworm",
+    "explanation": "Bacillinum এ শরীরের বিভিন্ন স্থানে, বিশেষ করে মাথায় বা দাড়িতে দাদ বা একজিমা হওয়ার প্রবণতা থাকে এবং তা সহজে সারে না।"
+  },
+  {
+    "id": "bac-med-07",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঘাড়ের গ্রন্থি ফুলে শক্ত ও ব্যথাযুক্ত হওয়া", "mid": "sym-bac-neck-glands"},
+      {"text": "গলায় গলগণ্ড, গিলতে কষ্ট ও শ্বাসকষ্ট হওয়া", "mid": "sym-iodum-goitre"},
+      {"text": "কানের পেছনে গ্রন্থি ফুলে পুঁজ হওয়া", "mid": "sym-hepar-gland-abscess"},
+      {"text": "বগলে নরম, ব্যথাহীন গ্রন্থি ফোলা", "mid": "sym-calc-soft-glands"}
+    ],
+    "answer": "sym-bac-neck-glands",
+    "explanation": "Bacillinum এ ঘাড়ের গ্রন্থি বড় ও ব্যথাযুক্ত হয়, গ্রন্থি ফুলে শক্ত হয়ে যায়।"
+  },
+  {
+    "id": "bac-med-08",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শিশুর মাথা বড় হওয়া, মাথার খুলি দেরিতে জোড়া লাগা", "mid": "sym-calc-big-head"},
+      {"text": "শিশুর রাতে বিছানায় প্রস্রাব ও ভয় পাওয়া", "mid": "sym-causticum-bedwetting"},
+      {"text": "শিশুর পেটের গ্রন্থি ফুলে পেট বড় হওয়া ও হাত পা শুকিয়ে যাওয়া", "mid": "sym-bac-mesenteric-glands"},
+      {"text": "শিশুর পেটে কৃমি ও দাঁত কিড়মিড় করা", "mid": "sym-cina-worms"}
+    ],
+    "answer": "sym-bac-mesenteric-glands",
+    "explanation": "Bacillinum এ শিশুদের পেটের ভেতরের গ্রন্থি ফুলে পেট বড় হয়ে যায় এবং হাত পা শুকিয়ে যায়।"
+  },
+  {
+    "id": "bac-med-09",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সূর্যের তাপে মাথাব্যথা, মাথা দপদপ করা ও মুখ লাল হওয়া", "mid": "sym-glonoinum-sun-headache"},
+      {"text": "মাথায় লোহার ব্যান্ড দিয়ে চেপে ধরার মতো প্রচণ্ড মাথাব্যথা", "mid": "sym-bac-band-headache"},
+      {"text": "ডান দিকে আধকপালে ব্যথা, বমি হলে উপশম হওয়া", "mid": "sym-sanguinaria-right-headache"},
+      {"text": "মাথাব্যথার সাথে চোখে ঝাপসা দেখা ও আলো সহ্য না হওয়া", "mid": "sym-natrum-light-headache"}
+    ],
+    "answer": "sym-bac-band-headache",
+    "explanation": "Bacillinum এ প্রচণ্ড মাথাব্যথা হয়, মনে হয় মাথার চারদিকে লোহার ব্যান্ড দিয়ে কেউ চেপে ধরেছে।"
+  },
+  {
+    "id": "bac-med-10",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবসময় হাসিখুশি, গান গাওয়া ও অন্যকে জড়িয়ে ধরা", "mid": "sym-coffea-cheerful"},
+      {"text": "নিজেকে খুব বড় মনে করা ও অহংকার করা", "mid": "sym-platina-pride"},
+      {"text": "অতিরিক্ত সাহসী হওয়া ও বিপদকে ভয় না পাওয়া", "mid": "sym-opium-fearless"},
+      {"text": "বিষণ্ণ, খিটখিটে ও হতাশ প্রকৃতির মন", "mid": "sym-bac-depressed-irritable"}
+    ],
+    "answer": "sym-bac-depressed-irritable",
+    "explanation": "Bacillinum রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং হতাশ প্রকৃতির হয়।"
+  },
+  {
+    "id": "bac-med-11",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সবসময় ভয় লাগা, মনে হওয়া খারাপ কিছু ঘটবে", "mid": "sym-bac-fear-evil"},
+      {"text": "ভবিষ্যৎ নিয়ে একদম চিন্তা না করা ও উদাসীন থাকা", "mid": "sym-opium-indifferent"},
+      {"text": "অন্ধকারে ভূতের ভয় ও একা ঘুমাতে না পারা", "mid": "sym-stramonium-dark-fear"},
+      {"text": "পরীক্ষার আগে ভয় ও পেট খারাপ হওয়া", "mid": "sym-gelsemium-exam-fear"}
+    ],
+    "answer": "sym-bac-fear-evil",
+    "explanation": "Bacillinum রোগী মানসিকভাবে সবসময় ভীত থাকে, মনে হয় কোনো খারাপ কিছু ঘটবে।"
+  },
+  {
+    "id": "bac-med-12",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পানি দেখে ভয় ও পানি খেতে না পারা", "mid": "sym-lyssinum-water-fear"},
+      {"text": "বজ্রপাতের শব্দে ভয় পাওয়া", "mid": "sym-phos-thunder-fear"},
+      {"text": "কুকুর বা বিড়াল দেখে প্রচণ্ড ভয় পাওয়া", "mid": "sym-bac-fear-dog-cat"},
+      {"text": "ভিড়ের মধ্যে ভয় ও বাইরে বের হতে না চাওয়া", "mid": "sym-acon-crowd-fear"}
+    ],
+    "answer": "sym-bac-fear-dog-cat",
+    "explanation": "Bacillinum রোগী কুকুর বা বিড়াল দেখে প্রচণ্ড ভয় পায়।"
+  },
+  {
+    "id": "bac-med-13",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বলতে একদম অনিচ্ছা ও প্রশ্ন করলে বিরক্ত হওয়া", "mid": "sym-nux-silent"},
+      {"text": "বাচালতা, অতিরিক্ত কথা বলা", "mid": "sym-bac-loquacity"},
+      {"text": "তোতলানো ও কথা বলতে গিয়ে আটকে যাওয়া", "mid": "sym-stramonium-stammer"},
+      {"text": "শুধু নিজের রোগ নিয়ে কথা বলা ও কান্না করা", "mid": "sym-pulsatilla-weepy-talk"}
+    ],
+    "answer": "sym-bac-loquacity",
+    "explanation": "Bacillinum এর অন্যতম মানসিক লক্ষণ হলো বাচালতা, অর্থাৎ অতিরিক্ত কথা বলা।"
+  },
+  {
+    "id": "bac-med-14",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লক্ষণ ধীরে ধীরে আসে ও সপ্তাহ ধরে একই থাকে", "mid": "sym-bryonia-slow-onset"},
+      {"text": "লক্ষণ প্রতিদিন একই সময়ে নিয়ম করে আসে", "mid": "sym-cedron-regular-time"},
+      {"text": "লক্ষণ শুধু পূর্ণিমায় বাড়ে", "mid": "sym-silica-fullmoon"},
+      {"text": "লক্ষণ হঠাৎ আসে ও হঠাৎ চলে যায়", "mid": "sym-bac-sudden-come-go"}
+    ],
+    "answer": "sym-bac-sudden-come-go",
+    "explanation": "Bacillinum এ লক্ষণসমূহ হঠাৎ আসে এবং হঠাৎ চলে যায়।"
+  },
+  {
+    "id": "bac-med-15",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "লক্ষণ পরিবর্তনশীল, একেক সময় একেক স্থানে আক্রমণ করে", "mid": "sym-bac-shifting-symptoms"},
+      {"text": "ব্যথা সবসময় একই স্থানে স্থির থাকে ও নড়ে না", "mid": "sym-bryonia-fixed-pain"},
+      {"text": "ব্যথা শুধু ডান দিকেই থাকে, বামে যায় না", "mid": "sym-lyco-right-pain"},
+      {"text": "লক্ষণ শুধু শীতকালেই দেখা দেয়, অন্য সময় থাকে না", "mid": "sym-dulcamara-winter-only"}
+    ],
+    "answer": "sym-bac-shifting-symptoms",
+    "explanation": "Bacillinum এ লক্ষণসমূহ পরিবর্তনশীল, একেক সময় একেক স্থান আক্রান্ত হয়।"
+  },
+  {
+    "id": "bac-med-16",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বংশে শুধু ডায়াবেটিস ও উচ্চ রক্তচাপের ইতিহাস থাকা", "mid": "sym-phos-diabetes-family"},
+      {"text": "বংশে শুধু হৃদরোগের ইতিহাস থাকা", "mid": "sym-cactus-heart-family"},
+      {"text": "যক্ষ্মাক্রান্ত পরিবারে উন্মাদ রোগী থাকা বা উন্মাদগ্রস্ত পরিবারে যক্ষ্মা রোগী থাকা", "mid": "sym-bac-tb-insanity-family"},
+      {"text": "বংশে কোনো রোগের ইতিহাস না থাকা", "mid": "sym-sulph-no-family"}
+    ],
+    "answer": "sym-bac-tb-insanity-family",
+    "explanation": "Bacillinum এর বৈশিষ্ট্য হলো যক্ষ্মাক্রান্ত পরিবারে উন্মাদ রোগী থাকা বা উন্মাদগ্রস্ত পরিবারে যক্ষ্মা রোগী থাকা।"
+  },
+  {
+    "id": "bac-med-17",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গরমে ও রোদে বৃদ্ধি, ঠান্ডায় উপশম হওয়া", "mid": "sym-pulsatilla-agg-heat"},
+      {"text": "রাতে, ভোরের দিকে, ঠান্ডায়, স্যাঁতসেঁতে আবহাওয়ায় ও নড়াচড়া করলে বৃদ্ধি", "mid": "sym-bac-agg-night-cold-damp-motion"},
+      {"text": "বিশ্রামে বৃদ্ধি, নড়াচড়া করলে উপশম হওয়া", "mid": "sym-rhus-agg-rest"},
+      {"text": "শুধু দুপুরে বৃদ্ধি, রাতে উপশম হওয়া", "mid": "sym-nux-agg-noon"}
+    ],
+    "answer": "sym-bac-agg-night-cold-damp-motion",
+    "explanation": "Bacillinum এ রাতে, ভোরের দিকে, ঠান্ডায়, স্যাঁতসেঁতে আবহাওয়ায় এবং নড়াচড়া করলে লক্ষণ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "bac-med-18",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ঠান্ডা বাতাসে উপশম ও গরম ঘরে বৃদ্ধি হওয়া", "mid": "sym-pulsatilla-amel-coldair"},
+      {"text": "বিছানায় শুয়ে থাকলে উপশম ও বাইরে গেলে বৃদ্ধি হওয়া", "mid": "sym-bryonia-amel-rest"},
+      {"text": "ঠান্ডা পানি দিলে উপশম ও গরমে বৃদ্ধি হওয়া", "mid": "sym-ars-amel-coldwater"},
+      {"text": "খোলা বাতাসে ও গরমে উপশম হওয়া", "mid": "sym-bac-amel-openair-warmth"}
+    ],
+    "answer": "sym-bac-amel-openair-warmth",
+    "explanation": "Bacillinum এ খোলা বাতাসে এবং গরমে উপশম হয়।"
+  },
+  {
+    "id": "bac-med-19",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দেহে ছোট ছোট ব্যথাযুক্ত ফোড়া হওয়া", "mid": "sym-bac-small-painful-boils"},
+      {"text": "দেহে ব্যথাহীন, নরম, চর্বির টিউমার হওয়া", "mid": "sym-calcfluor-fatty-tumour"},
+      {"text": "চামড়ায় কালো তিল ও আঁচিল হওয়া", "mid": "sym-thuja-moles-warts"},
+      {"text": "চামড়ায় কোনো ফোড়া না হয়ে শুধু শুষ্ক চুলকানি হওয়া", "mid": "sym-ars-dry-itching"}
+    ],
+    "answer": "sym-bac-small-painful-boils",
+    "explanation": "Bacillinum এ দেহে ছোট ছোট ব্যথাযুক্ত ফোড়া হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "bac-med-20",
+    "stem": "নিচের কোনটি Bacillinum এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "চরম গরমকাতরতা, গরমে সব লক্ষণ বাড়া", "mid": "sym-sulph-very-hot"},
+      {"text": "ঠান্ডা গরম দুটোই ভালো লাগা, আবহাওয়ায় কোনো প্রভাব না পড়া", "mid": "sym-nux-neutral-weather"},
+      {"text": "চরম শীতকাতরতা, ঠান্ডা একদম সহ্য না হওয়া", "mid": "sym-bac-very-chilly"},
+      {"text": "শুধু হাত পা ঠান্ডা থাকা, শরীর গরম থাকা", "mid": "sym-calc-cold-extremities"}
+    ],
+    "answer": "sym-bac-very-chilly",
+    "explanation": "Bacillinum রোগী চরম শীতকাতর, ঠান্ডা একদম সহ্য হয় না।"
+  }
+]
