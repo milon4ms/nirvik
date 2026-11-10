@@ -1,2 +1,242 @@
 [
-  {"id":"ign−med−01","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"শোক,দুঃখবামানসিকআঘাতেরপররোগেরসূত্রপাত","mid":"ign−grief","text":"অতিরিক্তখাওয়ারপররোগ","mid":"nux−overeat","text":"ভেজাআবহাওয়ারপররোগ","mid":"dulc−damp","text":"রোদেথাকারপরঅসুস্থতা","mid":"glon−sun"],"answer":"ign−grief","explanation":"Ignatia−এরপ্রধাননির্দেশনাহলোশোক,হতাশাওমানসিকআঘাতেরপরসৃষ্টরোগ।","id":"ign−med−02","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"গলায়দলাআটকেআছেমনেহয়,কিন্তুগেলাযায়না","mid":"ign−globus","text":"গলাশুকিয়েযায়","mid":"bry−dry−throat","text":"গলায়জ্বালাপোড়া","mid":"ars−burning−throat","text":"গলায়কফজমে","mid":"kali−bich−throat"],"answer":"ign−globus","explanation":"Globushystericusবাগলায়দলাঅনুভূতিIgnatia−এরক্লাসিকলক্ষণ।","id":"ign−med−03","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"বিরোধপূর্ণওপরিবর্তনশীলমানসিকঅবস্থা","mid":"ign−contradictory","text":"সর্বদাআনন্দিত","mid":"crocus−merry","text":"নিরন্তররাগী","mid":"nux−angry","text":"স্মৃতিশক্তিঅতিরিক্তপ্রখর","mid":"anac−memory"],"answer":"ign−contradictory","explanation":"ContradictorysymptomsIgnatia−এরঅন্যতমkeynote।","id":"ign−med−04","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"দীর্ঘশ্বাসফেলেস্বস্তিপায়","mid":"ign−sighing","text":"হাঁটলেস্বস্তিপায়","mid":"rhus−walk","text":"কথাবললেভালোলাগে","mid":"stann−talk","text":"ঘুমালেআরাম","mid":"opium−sleep"],"answer":"ign−sighing","explanation":"ঘনঘনদীর্ঘশ্বাসIgnatia−এরএকটিসুপরিচিতমানসিকলক্ষণ।","id":"ign−med−05","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"মাথাব্যথাযেনমাথায়পেরেকঠুকেদেওয়াহয়েছে","mid":"ign−nail−head","text":"ধুকপুকমাথাব্যথা","mid":"bell−throb−head","text":"চাপেকমেমাথাব্যথা","mid":"coloc−head","text":"ক্ষুধায়মাথাব্যথা","mid":"lyc−head"],"answer":"ign−nail−head","explanation":"HeadacheasifanaildriventhroughtheheadহলোIgnatia−এরবিখ্যাতলক্ষণ।","id":"ign−med−06","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"একাকীকাঁদে,দুঃখপ্রকাশকরতেচায়না","mid":"ign−silent−grief","text":"কাঁদলেসান্ত্বনায়ভালোলাগে","mid":"puls−consolation","text":"সবাইকেদুঃখেরকথাবলে","mid":"lach−talk","text":"রাগপ্রকাশকরে","mid":"nux−expression"],"answer":"ign−silent−grief","explanation":"SilentgriefIgnatia−এরমূলমানসিকচিত্র।","id":"ign−med−07","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"কফিখেলেউপসর্গবৃদ্ধি","mid":"ign−coffee−worse","text":"কফিখেলেআরাম","mid":"none−coffee","text":"চাখেলেআরাম","mid":"tea−better","text":"দুধেউপশম","mid":"milk−better"],"answer":"ign−coffee−worse","explanation":"Ignatiaরোগীপ্রায়ইকফিতেaggravationঅনুভবকরে।","id":"ign−med−08","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"হাসিওকান্নাদ্রুতপাল্টাতেথাকে","mid":"ign−laugh−cry","text":"সবসময়কান্না","mid":"natmur−cry","text":"সবসময়হাসিখুশি","mid":"crocus−laugh","text":"উদাসীন","mid":"phosacid−apathy"],"answer":"ign−laugh−cry","explanation":"হাসিওকান্নারদ্রুতপরিবর্তনIgnatia−এরবৈশিষ্ট্য।","id":"ign−med−09","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"গভীরমানসিকআঘাতেরপরঅনিদ্রা","mid":"ign−insomnia−grief","text":"পরিশ্রমেরপরঘুম","mid":"gels−sleep","text":"দিনভরতন্দ্রা","mid":"opium−drowsy","text":"ঘুমালেইস্বপ্ন","mid":"calc−dream"],"answer":"ign−insomnia−grief","explanation":"Grief−relatedinsomniaIgnatia−এরগুরুত্বপূর্ণব্যবহার।","id":"ign−med−10","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"গিলছেনাএমনসময়গলায়সূচফোটারব্যথা","mid":"ign−stitch−throat","text":"গিললেব্যথা","mid":"hep−swallow","text":"শুধুজ্বালা","mid":"ars−throat","text":"গলায়চুলকানি","mid":"rumex−throat"],"answer":"ign−stitch−throat","explanation":"StitchesinthroatbetweenactsofswallowingIgnatia−এরপ্রধানলক্ষণ।","id":"ign−med−11","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"কঠিনখাবারখেলেগলারব্যথাকমে","mid":"ign−solid−better","text":"পানিখেলেভালো","mid":"phos−water","text":"গরমপানীয়েভালো","mid":"ars−hotdrink","text":"খাবারখেলেইখারাপ","mid":"nux−food"],"answer":"ign−solid−better","explanation":"SorethroatbetterfromswallowingsolidsIgnatia−এরঅদ্ভুতলক্ষণ।","id":"ign−med−12","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"ভয়বাদুঃখেরপরেডায়রিয়া","mid":"ign−diarrhea−fright","text":"চর্বিযুক্তখাবারেডায়রিয়া","mid":"puls−fat","text":"সকালেরডায়রিয়া","mid":"sulph−morning","text":"ফলখেলেডায়রিয়া","mid":"aloe−fruit"],"answer":"ign−diarrhea−fright","explanation":"DiarrhoeafromfrightIgnatia−এরসুপরিচিতলক্ষণ।","id":"ign−med−13","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"অসন্তোষওদুঃখচেপেরাখে","mid":"ign−suppressed−emotion","text":"সবকিছুপ্রকাশকরে","mid":"lach−open","text":"রাগেবিস্ফোরিতহয়","mid":"nux−anger","text":"কিছুনিয়েইচিন্তাকরেনা","mid":"opium−careless"],"answer":"ign−suppressed−emotion","explanation":"SuppressedemotionsIgnatia−এরকেন্দ্রীয়বৈশিষ্ট্য।","id":"ign−med−14","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"আবেগেরকারণেখিঁচুনিবাস্পাজম","mid":"ign−spasm−emotion","text":"শুধুজ্বরেরখিঁচুনি","mid":"bell−convulsion","text":"দাঁতওঠারখিঁচুনি","mid":"cupr−teeth","text":"আঘাতেরখিঁচুনি","mid":"arnica−fit"],"answer":"ign−spasm−emotion","explanation":"Emotionalshock−এরপরেspasmodicsymptomsIgnatia−তেদেখাযায়।","id":"ign−med−15","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"তামাকেরগন্ধেউপসর্গবৃদ্ধি","mid":"ign−tobacco","text":"তামাকেআরাম","mid":"none−tobacco","text":"আতরেবৃদ্ধি","mid":"phos−smell","text":"ধুলোতেবৃদ্ধি","mid":"allium−dust"],"answer":"ign−tobacco","explanation":"Ignatiaরোগীতামাকসহ্যকরতেপারেনা।","id":"ign−med−16","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"পেটেরশূন্যঅনুভূতি,গভীরশ্বাসেউপশম","mid":"ign−empty−stomach","text":"খেলেউপশম","mid":"anac−eating","text":"গরমেউপশম","mid":"ars−heat","text":"চাপেউপশম","mid":"coloc−pressure"],"answer":"ign−empty−stomach","explanation":"All−gonefeelingrelievedbydeepbreathIgnatia−এরবৈশিষ্ট্য।","id":"ign−med−17","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"সামান্যশব্দেওবিরক্ত","mid":"ign−noise−sensitive","text":"উচ্চশব্দপছন্দকরে","mid":"tarent−music","text":"শব্দেঘুমায়","mid":"opium−noise","text":"শব্দেকোনোপ্রভাবনেই","mid":"normal−noise"],"answer":"ign−noise−sensitive","explanation":"HyperesthesiaওnoiseintoleranceIgnatia−এরলক্ষণ।","id":"ign−med−18","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"হিস্টেরিকবমিওহেঁচকি","mid":"ign−hiccough","text":"গর্ভবমি","mid":"sepia−vomit","text":"খাবারবিষক্রিয়ারবমি","mid":"ars−food","text":"শুধুবমিভাব","mid":"ipec−nausea"],"answer":"ign−hiccough","explanation":"HiccoughandhystericalvomitingIgnatia−এরপরিচিতলক্ষণ।","id":"ign−med−19","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"ব্যথারস্থানছোটওনির্দিষ্ট","mid":"ign−small−spot","text":"ব্যথাসারাশরীরেছড়ায়","mid":"caul−wandering","text":"একপাশথেকেঅন্যপাশেযায়","mid":"lac−caninum","text":"মাংসপেশীতেব্যথা","mid":"arnica−muscle"],"answer":"ign−small−spot","explanation":"PaininsmallcircumscribedspotsIgnatia−এরবৈশিষ্ট্য।","id":"ign−med−20","stem":"নিচেরকোনটিIgnatia−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"কাঁদতেকাঁদতেহঠাৎহাসে,আবারকাঁদে","mid":"ign−emotional−switch","text":"সবসময়একইমেজাজ","mid":"calc−stable","text":"শুধুরাগ","mid":"nux−onlyanger","text":"শুধুভয়","mid":"ars−fear"],"answer":"ign−emotional−switch","explanation":"পরিবর্তনশীলওবিপরীতধর্মীআবেগIgnatia−এরএকটিমূলচিহ্ন।"]\["id":"ign−sym−01","stem":"শোক,দুঃখবামানসিকআঘাতেরপররোগেরসূত্রপাত—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"NuxVomica","mid":"nux−vomica","text":"Dulcamara","mid":"dulcamara","text":"Glonoine","mid":"glonoine"],"answer":"ignatia","tags":\["grief","emotional−shock"],"explanation":"Griefanddisappointment−এরপ্রধানঔষধIgnatia।","id":"ign−sym−02","stem":"গলায়দলাআটকেআছেমনেহয়,কিন্তুগেলাযায়না—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Bryonia","mid":"bryonia","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"KaliBichromicum","mid":"kali−bichromicum"],"answer":"ignatia","tags":\["throat","globus"],"explanation":"GlobushystericusIgnatia−এরবিখ্যাতkeynote।","id":"ign−sym−03","stem":"বিরোধপূর্ণওপরিবর্তনশীলমানসিকঅবস্থা—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Crocus","mid":"crocus","text":"NuxVomica","mid":"nux−vomica","text":"Anacardium","mid":"anacardium"],"answer":"ignatia","tags":\["mind","contradictory"],"explanation":"ContradictorysymptomsIgnatia−এরমূলবৈশিষ্ট্য।","id":"ign−sym−04","stem":"দীর্ঘশ্বাসফেলেস্বস্তিপায়—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"RhusToxicodendron","mid":"rhus−toxicodendron","text":"Stannum","mid":"stannum","text":"Opium","mid":"opium"],"answer":"ignatia","tags":\["mind","sighing"],"explanation":"FrequentsighingstronglysuggestsIgnatia।","id":"ign−sym−05","stem":"মাথাব্যথাযেনমাথায়পেরেকঠুকেদেওয়াহয়েছে—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Belladonna","mid":"belladonna","text":"Colocynthis","mid":"colocynthis","text":"Lycopodium","mid":"lycopodium"],"answer":"ignatia","tags":\["headache","nail−sensation"],"explanation":"Nail−likeheadacheIgnatia−এরক্লাসিকলক্ষণ।","id":"ign−sym−06","stem":"একাকীকাঁদে,দুঃখপ্রকাশকরতেচায়না—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Pulsatilla","mid":"pulsatilla","text":"Lachesis","mid":"lachesis","text":"NatrumMuriaticum","mid":"natrum−muriaticum"],"answer":"ignatia","tags":\["grief","mind"],"explanation":"SilentgriefIgnatia−এরকেন্দ্রীয়বৈশিষ্ট্য।","id":"ign−sym−07","stem":"কফিখেলেউপসর্গবৃদ্ধি—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Chamomilla","mid":"chamomilla","text":"Bryonia","mid":"bryonia","text":"Sulphur","mid":"sulphur"],"answer":"ignatia","tags":\["modalities","coffee"],"explanation":"Ignatiaরোগীcoffee−sensitiveহতেপারে।","id":"ign−sym−08","stem":"হাসিওকান্নাদ্রুতপাল্টাতেথাকে—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Crocus","mid":"crocus","text":"PhosphoricAcid","mid":"phosphoric−acid","text":"NuxVomica","mid":"nux−vomica"],"answer":"ignatia","tags":\["emotions","mood−swings"],"explanation":"RapidalternationoflaughterandtearsIgnatia−এরবৈশিষ্ট্য।","id":"ign−sym−09","stem":"গভীরমানসিকআঘাতেরপরঅনিদ্রা—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Gelsemium","mid":"gelsemium","text":"Opium","mid":"opium","text":"Coffea","mid":"coffea"],"answer":"ignatia","tags":\["insomnia","grief"],"explanation":"Insomniafromgriefনির্দেশকরেIgnatia।","id":"ign−sym−10","stem":"গিলছেনাএমনসময়গলায়সূচফোটারব্যথা—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"HeparSulph","mid":"hepar−sulph","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"Rumex","mid":"rumex"],"answer":"ignatia","tags":\["throat","stitches"],"explanation":"ThroatstitchesbetweenswallowsIgnatia−এরলক্ষণ।","id":"ign−sym−11","stem":"কঠিনখাবারখেলেগলারব্যথাকমে—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Phosphorus","mid":"phosphorus","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"NuxVomica","mid":"nux−vomica"],"answer":"ignatia","tags":\["throat","peculiar"],"explanation":"BetterfromswallowingsolidsএকটিবিশেষIgnatiaলক্ষণ।","id":"ign−sym−12","stem":"ভয়বাদুঃখেরপরেডায়রিয়া—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Pulsatilla","mid":"pulsatilla","text":"Sulphur","mid":"sulphur","text":"Aloe","mid":"aloe"],"answer":"ignatia","tags":\["diarrhea","fright"],"explanation":"DiarrheafromfrightIgnatia−এরচিহ্ন।","id":"ign−sym−13","stem":"অসন্তোষওদুঃখচেপেরাখে—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Lachesis","mid":"lachesis","text":"NuxVomica","mid":"nux−vomica","text":"Opium","mid":"opium"],"answer":"ignatia","tags":\["suppressed−emotions","mind"],"explanation":"SuppressedgriefiscentraltoIgnatia.","id":"ign−sym−14","stem":"আবেগেরকারণেখিঁচুনিবাস্পাজম—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Belladonna","mid":"belladonna","text":"CuprumMetallicum","mid":"cuprum−metallicum","text":"Arnica","mid":"arnica"],"answer":"ignatia","tags":\["spasm","emotion"],"explanation":"EmotionalspasmsfrequentlyindicateIgnatia।","id":"ign−sym−15","stem":"তামাকেরগন্ধেউপসর্গবৃদ্ধি—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"NuxVomica","mid":"nux−vomica","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"Phosphorus","mid":"phosphorus"],"answer":"ignatia","tags":\["tobacco","modalities"],"explanation":"CannotbeartobaccoisaclassicIgnatiaindication।","id":"ign−sym−16","stem":"পেটেরশূন্যঅনুভূতি,গভীরশ্বাসেউপশম—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Anacardium","mid":"anacardium","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"Colocynthis","mid":"colocynthis"],"answer":"ignatia","tags":\["stomach","deep−breath"],"explanation":"EmptysinkingfeelingrelievedbydeepbreathsuggestsIgnatia।","id":"ign−sym−17","stem":"সামান্যশব্দেওবিরক্ত—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Tarentula","mid":"tarentula","text":"Opium","mid":"opium","text":"Belladonna","mid":"belladonna"],"answer":"ignatia","tags":\["sensitivity","noise"],"explanation":"NoiseintoleranceiscommoninIgnatia।","id":"ign−sym−18","stem":"হিস্টেরিকবমিওহেঁচকি—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Sepia","mid":"sepia","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"Ipecacuanha","mid":"ipecacuanha"],"answer":"ignatia","tags":\["hiccough","vomiting"],"explanation":"HystericalvomitingandhiccougharecharacteristicofIgnatia।","id":"ign−sym−19","stem":"ব্যথারস্থানছোটওনির্দিষ্ট—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"Caulophyllum","mid":"caulophyllum","text":"LacCaninum","mid":"lac−caninum","text":"Arnica","mid":"arnica"],"answer":"ignatia","tags":\["pain","circumscribed"],"explanation":"PaininsmallcircumscribedspotspointstoIgnatia।","id":"ign−sym−20","stem":"কাঁদতেকাঁদতেহঠাৎহাসে,আবারকাঁদে—কোনঔষধটিউপযুক্ত?","options":\["text":"Ignatia","mid":"ignatia","text":"CalcareaCarbonica","mid":"calcarea−carbonica","text":"NuxVomica","mid":"nux−vomica","text":"ArsenicumAlbum","mid":"arsenicum−album"],"answer":"ignatia","tags":\["emotions","contradictory"],"explanation":"AlternatinglaughterandtearsisahallmarkIgnatiasymptom।"]{"id":"ign-med-01","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"শোক, দুঃখ বা মানসিক আঘাতের পর রোগের সূত্রপাত","mid":"ign-grief"},{"text":"অতিরিক্ত খাওয়ার পর রোগ","mid":"nux-overeat"},{"text":"ভেজা আবহাওয়ার পর রোগ","mid":"dulc-damp"},{"text":"রোদে থাকার পর অসুস্থতা","mid":"glon-sun"}],"answer":"ign-grief","explanation":"Ignatia-এর প্রধান নির্দেশনা হলো শোক, হতাশা ও মানসিক আঘাতের পর সৃষ্ট রোগ।"},{"id":"ign-med-02","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"গলায় দলা আটকে আছে মনে হয়, কিন্তু গেলা যায় না","mid":"ign-globus"},{"text":"গলা শুকিয়ে যায়","mid":"bry-dry-throat"},{"text":"গলায় জ্বালাপোড়া","mid":"ars-burning-throat"},{"text":"গলায় কফ জমে","mid":"kali-bich-throat"}],"answer":"ign-globus","explanation":"Globus hystericus বা গলায় দলা অনুভূতি Ignatia-এর ক্লাসিক লক্ষণ।"},{"id":"ign-med-03","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"বিরোধপূর্ণ ও পরিবর্তনশীল মানসিক অবস্থা","mid":"ign-contradictory"},{"text":"সর্বদা আনন্দিত","mid":"crocus-merry"},{"text":"নিরন্তর রাগী","mid":"nux-angry"},{"text":"স্মৃতিশক্তি অতিরিক্ত প্রখর","mid":"anac-memory"}],"answer":"ign-contradictory","explanation":"Contradictory symptoms Ignatia-এর অন্যতম keynote।"},{"id":"ign-med-04","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"দীর্ঘশ্বাস ফেলে স্বস্তি পায়","mid":"ign-sighing"},{"text":"হাঁটলে স্বস্তি পায়","mid":"rhus-walk"},{"text":"কথা বললে ভালো লাগে","mid":"stann-talk"},{"text":"ঘুমালে আরাম","mid":"opium-sleep"}],"answer":"ign-sighing","explanation":"ঘন ঘন দীর্ঘশ্বাস Ignatia-এর একটি সুপরিচিত মানসিক লক্ষণ।"},{"id":"ign-med-05","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"মাথাব্যথা যেন মাথায় পেরেক ঠুকে দেওয়া হয়েছে","mid":"ign-nail-head"},{"text":"ধুকপুক মাথাব্যথা","mid":"bell-throb-head"},{"text":"চাপে কমে মাথাব্যথা","mid":"coloc-head"},{"text":"ক্ষুধায় মাথাব্যথা","mid":"lyc-head"}],"answer":"ign-nail-head","explanation":"Headache as if a nail driven through the head হলো Ignatia-এর বিখ্যাত লক্ষণ।"},{"id":"ign-med-06","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"একাকী কাঁদে, দুঃখ প্রকাশ করতে চায় না","mid":"ign-silent-grief"},{"text":"কাঁদলে সান্ত্বনায় ভালো লাগে","mid":"puls-consolation"},{"text":"সবাইকে দুঃখের কথা বলে","mid":"lach-talk"},{"text":"রাগ প্রকাশ করে","mid":"nux-expression"}],"answer":"ign-silent-grief","explanation":"Silent grief Ignatia-এর মূল মানসিক চিত্র।"},{"id":"ign-med-07","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"কফি খেলে উপসর্গ বৃদ্ধি","mid":"ign-coffee-worse"},{"text":"কফি খেলে আরাম","mid":"none-coffee"},{"text":"চা খেলে আরাম","mid":"tea-better"},{"text":"দুধে উপশম","mid":"milk-better"}],"answer":"ign-coffee-worse","explanation":"Ignatia রোগী প্রায়ই কফিতে aggravation অনুভব করে।"},{"id":"ign-med-08","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"হাসি ও কান্না দ্রুত পাল্টাতে থাকে","mid":"ign-laugh-cry"},{"text":"সবসময় কান্না","mid":"natmur-cry"},{"text":"সবসময় হাসিখুশি","mid":"crocus-laugh"},{"text":"উদাসীন","mid":"phosacid-apathy"}],"answer":"ign-laugh-cry","explanation":"হাসি ও কান্নার দ্রুত পরিবর্তন Ignatia-এর বৈশিষ্ট্য।"},{"id":"ign-med-09","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"গভীর মানসিক আঘাতের পর অনিদ্রা","mid":"ign-insomnia-grief"},{"text":"পরিশ্রমের পর ঘুম","mid":"gels-sleep"},{"text":"দিনভর তন্দ্রা","mid":"opium-drowsy"},{"text":"ঘুমালেই স্বপ্ন","mid":"calc-dream"}],"answer":"ign-insomnia-grief","explanation":"Grief-related insomnia Ignatia-এর গুরুত্বপূর্ণ ব্যবহার।"},{"id":"ign-med-10","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"গিলছে না এমন সময় গলায় সূচ ফোটার ব্যথা","mid":"ign-stitch-throat"},{"text":"গিললে ব্যথা","mid":"hep-swallow"},{"text":"শুধু জ্বালা","mid":"ars-throat"},{"text":"গলায় চুলকানি","mid":"rumex-throat"}],"answer":"ign-stitch-throat","explanation":"Stitches in throat between acts of swallowing Ignatia-এর প্রধান লক্ষণ।"},{"id":"ign-med-11","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"কঠিন খাবার খেলে গলার ব্যথা কমে","mid":"ign-solid-better"},{"text":"পানি খেলে ভালো","mid":"phos-water"},{"text":"গরম পানীয়ে ভালো","mid":"ars-hotdrink"},{"text":"খাবার খেলেই খারাপ","mid":"nux-food"}],"answer":"ign-solid-better","explanation":"Sore throat better from swallowing solids Ignatia-এর অদ্ভুত লক্ষণ।"},{"id":"ign-med-12","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"ভয় বা দুঃখের পরে ডায়রিয়া","mid":"ign-diarrhea-fright"},{"text":"চর্বিযুক্ত খাবারে ডায়রিয়া","mid":"puls-fat"},{"text":"সকালের ডায়রিয়া","mid":"sulph-morning"},{"text":"ফল খেলে ডায়রিয়া","mid":"aloe-fruit"}],"answer":"ign-diarrhea-fright","explanation":"Diarrhoea from fright Ignatia-এর সুপরিচিত লক্ষণ।"},{"id":"ign-med-13","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"অসন্তোষ ও দুঃখ চেপে রাখে","mid":"ign-suppressed-emotion"},{"text":"সবকিছু প্রকাশ করে","mid":"lach-open"},{"text":"রাগে বিস্ফোরিত হয়","mid":"nux-anger"},{"text":"কিছু নিয়েই চিন্তা করে না","mid":"opium-careless"}],"answer":"ign-suppressed-emotion","explanation":"Suppressed emotions Ignatia-এর কেন্দ্রীয় বৈশিষ্ট্য।"},{"id":"ign-med-14","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"আবেগের কারণে খিঁচুনি বা স্পাজম","mid":"ign-spasm-emotion"},{"text":"শুধু জ্বরের খিঁচুনি","mid":"bell-convulsion"},{"text":"দাঁত ওঠার খিঁচুনি","mid":"cupr-teeth"},{"text":"আঘাতের খিঁচুনি","mid":"arnica-fit"}],"answer":"ign-spasm-emotion","explanation":"Emotional shock-এর পরে spasmodic symptoms Ignatia-তে দেখা যায়।"},{"id":"ign-med-15","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"তামাকের গন্ধে উপসর্গ বৃদ্ধি","mid":"ign-tobacco"},{"text":"তামাকে আরাম","mid":"none-tobacco"},{"text":"আতরে বৃদ্ধি","mid":"phos-smell"},{"text":"ধুলোতে বৃদ্ধি","mid":"allium-dust"}],"answer":"ign-tobacco","explanation":"Ignatia রোগী তামাক সহ্য করতে পারে না।"},{"id":"ign-med-16","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"পেটের শূন্য অনুভূতি, গভীর শ্বাসে উপশম","mid":"ign-empty-stomach"},{"text":"খেলে উপশম","mid":"anac-eating"},{"text":"গরমে উপশম","mid":"ars-heat"},{"text":"চাপে উপশম","mid":"coloc-pressure"}],"answer":"ign-empty-stomach","explanation":"All-gone feeling relieved by deep breath Ignatia-এর বৈশিষ্ট্য।"},{"id":"ign-med-17","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"সামান্য শব্দেও বিরক্ত","mid":"ign-noise-sensitive"},{"text":"উচ্চ শব্দ পছন্দ করে","mid":"tarent-music"},{"text":"শব্দে ঘুমায়","mid":"opium-noise"},{"text":"শব্দে কোনো প্রভাব নেই","mid":"normal-noise"}],"answer":"ign-noise-sensitive","explanation":"Hyperesthesia ও noise intolerance Ignatia-এর লক্ষণ।"},{"id":"ign-med-18","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"হিস্টেরিক বমি ও হেঁচকি","mid":"ign-hiccough"},{"text":"গর্ভবমি","mid":"sepia-vomit"},{"text":"খাবার বিষক্রিয়ার বমি","mid":"ars-food"},{"text":"শুধু বমিভাব","mid":"ipec-nausea"}],"answer":"ign-hiccough","explanation":"Hiccough and hysterical vomiting Ignatia-এর পরিচিত লক্ষণ।"},{"id":"ign-med-19","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"ব্যথার স্থান ছোট ও নির্দিষ্ট","mid":"ign-small-spot"},{"text":"ব্যথা সারা শরীরে ছড়ায়","mid":"caul-wandering"},{"text":"এক পাশ থেকে অন্য পাশে যায়","mid":"lac-caninum"},{"text":"মাংসপেশীতে ব্যথা","mid":"arnica-muscle"}],"answer":"ign-small-spot","explanation":"Pain in small circumscribed spots Ignatia-এর বৈশিষ্ট্য।"},{"id":"ign-med-20","stem":"নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"কাঁদতে কাঁদতে হঠাৎ হাসে, আবার কাঁদে","mid":"ign-emotional-switch"},{"text":"সবসময় একই মেজাজ","mid":"calc-stable"},{"text":"শুধু রাগ","mid":"nux-onlyanger"},{"text":"শুধু ভয়","mid":"ars-fear"}],"answer":"ign-emotional-switch","explanation":"পরিবর্তনশীল ও বিপরীতধর্মী আবেগ Ignatia-এর একটি মূল চিহ্ন।"}] 
+  {
+    "id": "ign-med-01",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "শোক, দুঃখ বা মানসিক আঘাতের পর রোগের সূত্রপাত", "mid": "ign-grief"},
+      {"text": "অতিরিক্ত খাওয়ার পর রোগ", "mid": "nux-overeat"},
+      {"text": "ভেজা আবহাওয়ার পর রোগ", "mid": "dulc-damp"},
+      {"text": "রোদে থাকার পর অসুস্থতা", "mid": "glon-sun"}
+    ],
+    "answer": "ign-grief",
+    "explanation": "Ignatia-এর প্রধান নির্দেশনা হলো শোক, হতাশা ও মানসিক আঘাতের পর সৃষ্ট রোগ।"
+  },
+  {
+    "id": "ign-med-02",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গলায় দলা আটকে আছে মনে হয়, কিন্তু গেলা যায় না", "mid": "ign-globus"},
+      {"text": "গলা শুকিয়ে যায়", "mid": "bry-dry-throat"},
+      {"text": "গলায় জ্বালাপোড়া", "mid": "ars-burning-throat"},
+      {"text": "গলায় কফ জমে", "mid": "kali-bich-throat"}
+    ],
+    "answer": "ign-globus",
+    "explanation": "Globus hystericus বা গলায় দলা অনুভূতি Ignatia-এর ক্লাসিক লক্ষণ।"
+  },
+  {
+    "id": "ign-med-03",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বিরোধপূর্ণ ও পরিবর্তনশীল মানসিক অবস্থা", "mid": "ign-contradictory"},
+      {"text": "সর্বদা আনন্দিত", "mid": "crocus-merry"},
+      {"text": "নিরন্তর রাগী", "mid": "nux-angry"},
+      {"text": "স্মৃতিশক্তি অতিরিক্ত প্রখর", "mid": "anac-memory"}
+    ],
+    "answer": "ign-contradictory",
+    "explanation": "Contradictory symptoms Ignatia-এর অন্যতম keynote।"
+  },
+  {
+    "id": "ign-med-04",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "দীর্ঘশ্বাস ফেলে স্বস্তি পায়", "mid": "ign-sighing"},
+      {"text": "হাঁটলে স্বস্তি পায়", "mid": "rhus-walk"},
+      {"text": "কথা বললে ভালো লাগে", "mid": "stann-talk"},
+      {"text": "ঘুমালে আরাম", "mid": "opium-sleep"}
+    ],
+    "answer": "ign-sighing",
+    "explanation": "ঘন ঘন দীর্ঘশ্বাস Ignatia-এর একটি সুপরিচিত মানসিক লক্ষণ।"
+  },
+  {
+    "id": "ign-med-05",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাথাব্যথা যেন মাথায় পেরেক ঠুকে দেওয়া হয়েছে", "mid": "ign-nail-head"},
+      {"text": "ধুকপুক মাথাব্যথা", "mid": "bell-throb-head"},
+      {"text": "চাপে কমে মাথাব্যথা", "mid": "coloc-head"},
+      {"text": "ক্ষুধায় মাথাব্যথা", "mid": "lyc-head"}
+    ],
+    "answer": "ign-nail-head",
+    "explanation": "Headache as if a nail driven through the head হলো Ignatia-এর বিখ্যাত লক্ষণ।"
+  },
+  {
+    "id": "ign-med-06",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "একাকী কাঁদে, দুঃখ প্রকাশ করতে চায় না", "mid": "ign-silent-grief"},
+      {"text": "কাঁদলে সান্ত্বনায় ভালো লাগে", "mid": "puls-consolation"},
+      {"text": "সবাইকে দুঃখের কথা বলে", "mid": "lach-talk"},
+      {"text": "রাগ প্রকাশ করে", "mid": "nux-expression"}
+    ],
+    "answer": "ign-silent-grief",
+    "explanation": "Silent grief Ignatia-এর মূল মানসিক চিত্র।"
+  },
+  {
+    "id": "ign-med-07",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কফি খেলে উপসর্গ বৃদ্ধি", "mid": "ign-coffee-worse"},
+      {"text": "কফি খেলে আরাম", "mid": "none-coffee"},
+      {"text": "চা খেলে আরাম", "mid": "tea-better"},
+      {"text": "দুধে উপশম", "mid": "milk-better"}
+    ],
+    "answer": "ign-coffee-worse",
+    "explanation": "Ignatia রোগী প্রায়ই কফিতে aggravation অনুভব করে।"
+  },
+  {
+    "id": "ign-med-08",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাসি ও কান্না দ্রুত পাল্টাতে থাকে", "mid": "ign-laugh-cry"},
+      {"text": "সবসময় কান্না", "mid": "natmur-cry"},
+      {"text": "সবসময় হাসিখুশি", "mid": "crocus-laugh"},
+      {"text": "উদাসীন", "mid": "phosacid-apathy"}
+    ],
+    "answer": "ign-laugh-cry",
+    "explanation": "হাসি ও কান্নার দ্রুত পরিবর্তন Ignatia-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "ign-med-09",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গভীর মানসিক আঘাতের পর অনিদ্রা", "mid": "ign-insomnia-grief"},
+      {"text": "পরিশ্রমের পর ঘুম", "mid": "gels-sleep"},
+      {"text": "দিনভর তন্দ্রা", "mid": "opium-drowsy"},
+      {"text": "ঘুমালেই স্বপ্ন", "mid": "calc-dream"}
+    ],
+    "answer": "ign-insomnia-grief",
+    "explanation": "Grief-related insomnia Ignatia-এর গুরুত্বপূর্ণ ব্যবহার।"
+  },
+  {
+    "id": "ign-med-10",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গিলছে না এমন সময় গলায় সূচ ফোটার ব্যথা", "mid": "ign-stitch-throat"},
+      {"text": "গিললে ব্যথা", "mid": "hep-swallow"},
+      {"text": "শুধু জ্বালা", "mid": "ars-throat"},
+      {"text": "গলায় চুলকানি", "mid": "rumex-throat"}
+    ],
+    "answer": "ign-stitch-throat",
+    "explanation": "Stitches in throat between acts of swallowing Ignatia-এর প্রধান লক্ষণ।"
+  },
+  {
+    "id": "ign-med-11",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কঠিন খাবার খেলে গলার ব্যথা কমে", "mid": "ign-solid-better"},
+      {"text": "পানি খেলে ভালো", "mid": "phos-water"},
+      {"text": "গরম পানীয়ে ভালো", "mid": "ars-hotdrink"},
+      {"text": "খাবার খেলেই খারাপ", "mid": "nux-food"}
+    ],
+    "answer": "ign-solid-better",
+    "explanation": "Sore throat better from swallowing solids Ignatia-এর অদ্ভুত লক্ষণ।"
+  },
+  {
+    "id": "ign-med-12",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ভয় বা দুঃখের পরে ডায়রিয়া", "mid": "ign-diarrhea-fright"},
+      {"text": "চর্বিযুক্ত খাবারে ডায়রিয়া", "mid": "puls-fat"},
+      {"text": "সকালের ডায়রিয়া", "mid": "sulph-morning"},
+      {"text": "ফল খেলে ডায়রিয়া", "mid": "aloe-fruit"}
+    ],
+    "answer": "ign-diarrhea-fright",
+    "explanation": "Diarrhoea from fright Ignatia-এর সুপরিচিত লক্ষণ।"
+  },
+  {
+    "id": "ign-med-13",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অসন্তোষ ও দুঃখ চেপে রাখে", "mid": "ign-suppressed-emotion"},
+      {"text": "সবকিছু প্রকাশ করে", "mid": "lach-open"},
+      {"text": "রাগে বিস্ফোরিত হয়", "mid": "nux-anger"},
+      {"text": "কিছু নিয়েই চিন্তা করে না", "mid": "opium-careless"}
+    ],
+    "answer": "ign-suppressed-emotion",
+    "explanation": "Suppressed emotions Ignatia-এর কেন্দ্রীয় বৈশিষ্ট্য।"
+  },
+  {
+    "id": "ign-med-14",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আবেগের কারণে খিঁচুনি বা স্পাজম", "mid": "ign-spasm-emotion"},
+      {"text": "শুধু জ্বরের খিঁচুনি", "mid": "bell-convulsion"},
+      {"text": "দাঁত ওঠার খিঁচুনি", "mid": "cupr-teeth"},
+      {"text": "আঘাতের খিঁচুনি", "mid": "arnica-fit"}
+    ],
+    "answer": "ign-spasm-emotion",
+    "explanation": "Emotional shock-এর পরে spasmodic symptoms Ignatia-তে দেখা যায়।"
+  },
+  {
+    "id": "ign-med-15",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "তামাকের গন্ধে উপসর্গ বৃদ্ধি", "mid": "ign-tobacco"},
+      {"text": "তামাকে আরাম", "mid": "none-tobacco"},
+      {"text": "আতরে বৃদ্ধি", "mid": "phos-smell"},
+      {"text": "ধুলোতে বৃদ্ধি", "mid": "allium-dust"}
+    ],
+    "answer": "ign-tobacco",
+    "explanation": "Ignatia রোগী তামাক সহ্য করতে পারে না।"
+  },
+  {
+    "id": "ign-med-16",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "পেটের শূন্য অনুভূতি, গভীর শ্বাসে উপশম", "mid": "ign-empty-stomach"},
+      {"text": "খেলে উপশম", "mid": "anac-eating"},
+      {"text": "গরমে উপশম", "mid": "ars-heat"},
+      {"text": "চাপে উপশম", "mid": "coloc-pressure"}
+    ],
+    "answer": "ign-empty-stomach",
+    "explanation": "All-gone feeling relieved by deep breath Ignatia-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "ign-med-17",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সামান্য শব্দেও বিরক্ত", "mid": "ign-noise-sensitive"},
+      {"text": "উচ্চ শব্দ পছন্দ করে", "mid": "tarent-music"},
+      {"text": "শব্দে ঘুমায়", "mid": "opium-noise"},
+      {"text": "শব্দে কোনো প্রভাব নেই", "mid": "normal-noise"}
+    ],
+    "answer": "ign-noise-sensitive",
+    "explanation": "Hyperesthesia ও noise intolerance Ignatia-এর লক্ষণ।"
+  },
+  {
+    "id": "ign-med-18",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হিস্টেরিক বমি ও হেঁচকি", "mid": "ign-hiccough"},
+      {"text": "গর্ভবমি", "mid": "sepia-vomit"},
+      {"text": "খাবার বিষক্রিয়ার বমি", "mid": "ars-food"},
+      {"text": "শুধু বমিভাব", "mid": "ipec-nausea"}
+    ],
+    "answer": "ign-hiccough",
+    "explanation": "Hiccough and hysterical vomiting Ignatia-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "ign-med-19",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথার স্থান ছোট ও নির্দিষ্ট", "mid": "ign-small-spot"},
+      {"text": "ব্যথা সারা শরীরে ছড়ায়", "mid": "caul-wandering"},
+      {"text": "এক পাশ থেকে অন্য পাশে যায়", "mid": "lac-caninum"},
+      {"text": "মাংসপেশীতে ব্যথা", "mid": "arnica-muscle"}
+    ],
+    "answer": "ign-small-spot",
+    "explanation": "Pain in small circumscribed spots Ignatia-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "ign-med-20",
+    "stem": "নিচের কোনটি Ignatia-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কাঁদতে কাঁদতে হঠাৎ হাসে, আবার কাঁদে", "mid": "ign-emotional-switch"},
+      {"text": "সবসময় একই মেজাজ", "mid": "calc-stable"},
+      {"text": "শুধু রাগ", "mid": "nux-onlyanger"},
+      {"text": "শুধু ভয়", "mid": "ars-fear"}
+    ],
+    "answer": "ign-emotional-switch",
+    "explanation": "পরিবর্তনশীল ও বিপরীতধর্মী আবেগ Ignatia-এর একটি মূল চিহ্ন।"
+  }
+]
