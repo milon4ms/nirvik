@@ -1,4 +1,242 @@
 [
   {
-"id":"caul−med−01","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"প্রসববেদনাদুর্বল,অনিয়মিতওফলহীন","mid":"caul−inefficient−labor","text":"প্রসববেদনাশক্তিশালীওনিয়মিত","mid":"bell−strong−labor","text":"প্রসববেদনানেইকিন্তুরক্তক্ষরণবেশি","mid":"sabina−bleeding","text":"প্রসবেরপরগভীরঘুম","mid":"opium−sleep"],"answer":"caul−inefficient−labor","explanation":"দুর্বল,অনিয়মিতওঅকার্যকরপ্রসববেদনাCaulophyllum−এরপ্রধানলক্ষণ।","id":"caul−med−02","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"ব্যথাএকস্থানথেকেঅন্যস্থানেঘুরেবেড়ায়","mid":"caul−wandering−pain","text":"ব্যথাসবসময়একইস্থানেথাকে","mid":"bry−fixed−pain","text":"ব্যথাশুধুরাতেহয়","mid":"ars−night−pain","text":"ব্যথাকেবলনড়াচড়ায়হয়","mid":"ruta−motion"],"answer":"caul−wandering−pain","explanation":"Caulophyllum−এরব্যথাস্থানপরিবর্তনকরেএবংএকজয়েন্টথেকেঅন্যজয়েন্টেযায়।","id":"caul−med−03","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"হাত−পায়েরছোটজয়েন্টেব্যথাওশক্তভাব","mid":"caul−small−joints","text":"বড়জয়েন্টেফুলেযাওয়া","mid":"rhus−large−joints","text":"শুধুমেরুদণ্ডেব্যথা","mid":"kalmia−spine","text":"শুধুপেশীতেটান","mid":"arnica−muscle"],"answer":"caul−small−joints","explanation":"ছোটজয়েন্টবিশেষকরেআঙুলওকবজিতেCaulophyllum−এরবিশেষপ্রভাবরয়েছে।","id":"caul−med−04","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"গর্ভাশয়েরদুর্বলতারকারণেবারবারগর্ভপাত","mid":"caul−habitual−abortion","text":"আঘাতেরপরগর্ভপাত","mid":"arnica−abortion","text":"জ্বরেগর্ভপাত","mid":"acon−abortion","text":"ভয়েগর্ভপাত","mid":"opium−fear"],"answer":"caul−habitual−abortion","explanation":"উটেরাইনদুর্বলতারকারণেhabitualabortion−এCaulophyllumব্যবহৃতহয়।","id":"caul−med−05","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"মাসিকেরব্যথাশরীরেরবিভিন্নস্থানেছড়িয়েযায়","mid":"caul−flying−dysmenorrhea","text":"শুধুতলপেটেব্যথা","mid":"magphos−abdomen","text":"ব্যথাহীনমাসিক","mid":"puls−painless","text":"মাথাব্যথাসহমাসিক","mid":"natmur−menses"],"answer":"caul−flying−dysmenorrhea","explanation":"Dysmenorrhoea−রব্যথাবিভিন্নস্থানেছড়িয়েযাওয়াCaulophyllum−এরলক্ষণ।","id":"caul−med−06","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"গর্ভমুখঅত্যন্তশক্তওঅনমনীয়","mid":"caul−rigid−os","text":"গর্ভমুখঅতিদ্রুতপ্রসারিত","mid":"gels−soft−os","text":"ব্যথাছাড়াপ্রসব","mid":"puls−easy−labor","text":"কেবলরক্তপাত","mid":"secale−bleeding"],"answer":"caul−rigid−os","explanation":"RigidityofosuteriহলোCaulophyllum−এরগুরুত্বপূর্ণপ্রসূতিবিদ্যাগতনির্দেশনা।","id":"caul−med−07","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"মিথ্যাপ্রসববেদনা,অগ্রগতিহয়না","mid":"caul−false−pains","text":"নিয়মিতপ্রসববেদনা","mid":"bell−normal−labor","text":"প্রসবেরপরব্যথা","mid":"arn−afterpain","text":"শুধুকোমরব্যথা","mid":"kali−carb−back"],"answer":"caul−false−pains","explanation":"FalselaborpainsCaulophyllum−এরঅন্যতমপ্রধানব্যবহার।","id":"caul−med−08","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"প্রসবেরপরafter−pains","mid":"caul−afterpains","text":"প্রসবেরআগেবমি","mid":"ipec−labor","text":"প্রসবেরপরঘুম","mid":"opium−post","text":"প্রসবেরপরকাশি","mid":"bry−cough"],"answer":"caul−afterpains","explanation":"After−painsউপশমেCaulophyllumসুপরিচিত।","id":"caul−med−09","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"কবজিতেব্যথাওশক্তভাব","mid":"caul−wrist−pain","text":"কাঁধেব্যথা","mid":"sang−shoulder","text":"ঘাড়শক্ত","mid":"cimic−neck","text":"নিতম্বেব্যথা","mid":"coloc−hip"],"answer":"caul−wrist−pain","explanation":"AchinginwristsCaulophyllum−এরএকটিনির্দেশকলক্ষণ।","id":"caul−med−10","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"আঙুলবন্ধকরলেকাটারমতোব্যথা","mid":"caul−cutting−hand","text":"মুঠিকরলেআরাম","mid":"ruta−fist","text":"আঙুলেঅবশভাব","mid":"plumb−numb","text":"হাতেকেবলচুলকানি","mid":"sulph−itch"],"answer":"caul−cutting−hand","explanation":"হাতবন্ধকরারসময়cuttingpainCaulophyllum−এরলক্ষণ।","id":"caul−med−11","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"সম্পূর্ণশরীরেস্নায়বিকউত্তেজনাওকাঁপুনি","mid":"caul−nervous−tremble","text":"ঘুমঘুমভাব","mid":"gels−drowsy","text":"নিষ্ক্রিয়তা","mid":"phosacid−apathy","text":"অতিরিক্তহাসি","mid":"crocus−merry"],"answer":"caul−nervous−tremble","explanation":"GreatnervousexcitementওtremulousweaknessCaulophyllum−এরবৈশিষ্ট্য।","id":"caul−med−12","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"রাতেব্যথাবৃদ্ধি","mid":"caul−night−worse","text":"সকালেবৃদ্ধি","mid":"natmur−morning","text":"দুপুরেবৃদ্ধি","mid":"sulph−noon","text":"খাওয়ারপরবৃদ্ধি","mid":"nux−aftereat"],"answer":"caul−night−worse","explanation":"Caulophyllum−এরঅনেকলক্ষণরাতেবেড়েযায়।","id":"caul−med−13","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"বামডিম্বাশয়েব্যথা","mid":"caul−left−ovary","text":"ডানডিম্বাশয়েব্যথা","mid":"lyc−right−ovary","text":"জরায়ুমুখেজ্বালা","mid":"kreosote−cervix","text":"কেবলকোমরব্যথা","mid":"sepia−back"],"answer":"caul−left−ovary","explanation":"LeftovarianpainCaulophyllum−এরপরিচিতলক্ষণ।","id":"caul−med−14","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"বামস্তনেরনিচেব্যথা","mid":"caul−inframammary","text":"ডানস্তনেব্যথা","mid":"phytolacca−right","text":"স্তনেচুলকানি","mid":"graphites−breast","text":"স্তনেফোড়া","mid":"hepar−breast"],"answer":"caul−inframammary","explanation":"LeftinframammarypainCaulophyllum−এরগুরুত্বপূর্ণলক্ষণ।","id":"caul−med−15","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"প্রসববেদনাএসেআবারমিলিয়েযায়","mid":"caul−pains−disappear","text":"প্রসববেদনাক্রমশবাড়ে","mid":"bell−progress","text":"অবিরামপ্রসববেদনা","mid":"secale−continuous","text":"ব্যথাহীনপ্রসব","mid":"puls−easy"],"answer":"caul−pains−disappear","explanation":"Exhaustion−এরকারণেlaborpainsবন্ধহয়েযাওয়াCaulophyllum−এরনির্দেশনা।","id":"caul−med−16","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"অতিরিক্তসাদাস্রাবওমাসিক","mid":"caul−profuse−leucorrhea","text":"শুষ্কযোনি","mid":"sepia−dry","text":"দুর্গন্ধযুক্তকালোস্রাব","mid":"kreosote−offensive","text":"রক্তপাতইপ্রধান","mid":"sabina−blood"],"answer":"caul−profuse−leucorrhea","explanation":"Profuseleucorrhoeaওmenstrualdisturbance−এCaulophyllumব্যবহৃতহয়।","id":"caul−med−17","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"জরায়ুমুখেসূচফোটানোরমতোব্যথা","mid":"caul−needle−cervix","text":"জ্বালাপোড়াব্যথা","mid":"ars−burning","text":"ধুকপুকব্যথা","mid":"bell−throb","text":"টানধরাব্যথা","mid":"rhus−draw"],"answer":"caul−needle−cervix","explanation":"Needle−likepainincervixCaulophyllum−এরগুরুত্বপূর্ণলক্ষণ।","id":"caul−med−18","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"কথাবলারশক্তিকমেযায়,দুর্বলতা","mid":"caul−scarcely−speak","text":"অতিরিক্তকথাবলে","mid":"lach−talk","text":"কথাবললেআরাম","mid":"stann−talk","text":"কথাবলতেভয়","mid":"stram−talk"],"answer":"caul−scarcely−speak","explanation":"তীব্রদুর্বলতায়রোগীপ্রায়কথাবলতেপারেনা।","id":"caul−med−19","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"অনিদ্রা,স্নায়বিকঅস্থিরতা","mid":"caul−sleepless","text":"অতিরিক্ততন্দ্রা","mid":"opium−somnolence","text":"গভীরনিদ্রা","mid":"gels−sleep","text":"দুঃস্বপ্নমাত্র","mid":"calc−dream"],"answer":"caul−sleepless","explanation":"Sleepless,restless,nervousঅবস্থাCaulophyllum−এরঅন্তর্ভুক্ত।","id":"caul−med−20","stem":"নিচেরকোনটিCaulophyllum−এরবৈশিষ্ট্যপূর্ণলক্ষণ?","options":\["text":"জয়েন্টেরব্যথাপ্রতিকয়েকমিনিটেস্থানপরিবর্তনকরে","mid":"caul−changing−joints","text":"স্থায়ীহাঁটুরব্যথা","mid":"ruta−knee","text":"শুধুকোমরেব্যথা","mid":"aesc−back","text":"একইআঙুলেব্যথা","mid":"calc−finger"],"answer":"caul−changing−joints","explanation":"ErraticjointpainschangingplaceeveryfewminutesCaulophyllum−এরমূলবৈশিষ্ট্য।"]\["id":"caul−sym−01","stem":"প্রসববেদনাদুর্বল,অনিয়মিতওফলহীন—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Belladonna","mid":"belladonna","text":"Sabina","mid":"sabina","text":"Opium","mid":"opium"],"answer":"caulophyllum","tags":\["labor","uterus"],"explanation":"দুর্বলওঅকার্যকরlaborpainsCaulophyllum−এরপ্রধাননির্দেশনা।","id":"caul−sym−02","stem":"ব্যথাএকস্থানথেকেঅন্যস্থানেঘুরেবেড়ায়—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Bryonia","mid":"bryonia","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"Ruta","mid":"ruta"],"answer":"caulophyllum","tags":\["rheumatism","wandering−pains"],"explanation":"WanderingpainsCaulophyllum−এরবৈশিষ্ট্য।","id":"caul−sym−03","stem":"হাত−পায়েরছোটজয়েন্টেব্যথাওশক্তভাব—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"RhusToxicodendron","mid":"rhus−toxicodendron","text":"Kalmia","mid":"kalmia","text":"Arnica","mid":"arnica"],"answer":"caulophyllum","tags":\["joints","rheumatism"],"explanation":"ছোটজয়েন্টেরrheumaticব্যথাCaulophyllumনির্দেশকরে।","id":"caul−sym−04","stem":"গর্ভাশয়েরদুর্বলতারকারণেবারবারগর্ভপাত—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Arnica","mid":"arnica","text":"Aconitum","mid":"aconitum","text":"Sabina","mid":"sabina"],"answer":"caulophyllum","tags":\["abortion","uterine−debility"],"explanation":"Habitualabortionfromuterineweakness−এCaulophyllumগুরুত্বপূর্ণ।","id":"caul−sym−05","stem":"মাসিকেরব্যথাশরীরেরবিভিন্নস্থানেছড়িয়েযায়—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"MagnesiaPhos","mid":"magnesia−phos","text":"Pulsatilla","mid":"pulsatilla","text":"NatrumMuriaticum","mid":"natrum−muriaticum"],"answer":"caulophyllum","tags":\["dysmenorrhea","female"],"explanation":"FlyingdysmenorrhoeicpainsCaulophyllum−এরবৈশিষ্ট্য।","id":"caul−sym−06","stem":"গর্ভমুখঅত্যন্তশক্তওঅনমনীয়—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Gelsemium","mid":"gelsemium","text":"Pulsatilla","mid":"pulsatilla","text":"Secale","mid":"secale"],"answer":"caulophyllum","tags":\["labor","cervix"],"explanation":"RigidosuteriCaulophyllum−এরসুপরিচিতলক্ষণ।","id":"caul−sym−07","stem":"মিথ্যাপ্রসববেদনা,অগ্রগতিহয়না—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Belladonna","mid":"belladonna","text":"Arnica","mid":"arnica","text":"KaliCarb","mid":"kali−carb"],"answer":"caulophyllum","tags":\["false−labor","pregnancy"],"explanation":"FalsepainswithnoprogressCaulophyllumনির্দেশকরে।","id":"caul−sym−08","stem":"প্রসবেরপরafter−pains—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Ipecac","mid":"ipecac","text":"Opium","mid":"opium","text":"Bryonia","mid":"bryonia"],"answer":"caulophyllum","tags":\["after−pains","postpartum"],"explanation":"After−pains−এরজন্যCaulophyllumপরিচিত।","id":"caul−sym−09","stem":"কবজিতেব্যথাওশক্তভাব—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Sanguinaria","mid":"sanguinaria","text":"Cimicifuga","mid":"cimicifuga","text":"Colocynthis","mid":"colocynthis"],"answer":"caulophyllum","tags":\["wrist","rheumatism"],"explanation":"WristachingCaulophyllum−এরছোটজয়েন্টআক্রান্তহওয়ারলক্ষণ।","id":"caul−sym−10","stem":"আঙুলবন্ধকরলেকাটারমতোব্যথা—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Ruta","mid":"ruta","text":"Plumbum","mid":"plumbum","text":"Sulphur","mid":"sulphur"],"answer":"caulophyllum","tags":\["hands","joint−pain"],"explanation":"ClosinghandscausescuttingpaininCaulophyllum।","id":"caul−sym−11","stem":"সম্পূর্ণশরীরেস্নায়বিকউত্তেজনাওকাঁপুনি—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Gelsemium","mid":"gelsemium","text":"PhosphoricAcid","mid":"phosphoric−acid","text":"Crocus","mid":"crocus"],"answer":"caulophyllum","tags":\["nerves","weakness"],"explanation":"NervousexcitementwithtremblingweaknessCaulophyllum−এরলক্ষণ।","id":"caul−sym−12","stem":"রাতেব্যথাবৃদ্ধি—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"NatrumMuriaticum","mid":"natrum−muriaticum","text":"Sulphur","mid":"sulphur","text":"NuxVomica","mid":"nux−vomica"],"answer":"caulophyllum","tags":\["night","modalities"],"explanation":"রাতেaggravationCaulophyllum−এরএকটিmodality।","id":"caul−sym−13","stem":"বামডিম্বাশয়েব্যথা—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Lycopodium","mid":"lycopodium","text":"Sepia","mid":"sepia","text":"Kreosotum","mid":"kreosotum"],"answer":"caulophyllum","tags":\["ovary","female"],"explanation":"LeftovarianpainCaulophyllumনির্দেশকরে।","id":"caul−sym−14","stem":"বামস্তনেরনিচেব্যথা—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Phytolacca","mid":"phytolacca","text":"Graphites","mid":"graphites","text":"HeparSulph","mid":"hepar−sulph"],"answer":"caulophyllum","tags":\["chest","female"],"explanation":"LeftinframammarypainCaulophyllum−এরপরিচিতলক্ষণ।","id":"caul−sym−15","stem":"প্রসববেদনাএসেআবারমিলিয়েযায়—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Belladonna","mid":"belladonna","text":"Secale","mid":"secale","text":"Pulsatilla","mid":"pulsatilla"],"answer":"caulophyllum","tags":\["labor","exhaustion"],"explanation":"LaborpainsdisappearingfromexhaustionCaulophyllum−এরএকটিক্লাসিকব্যবহার।","id":"caul−sym−16","stem":"অতিরিক্তসাদাস্রাবওমাসিক—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Sepia","mid":"sepia","text":"Kreosotum","mid":"kreosotum","text":"Sabina","mid":"sabina"],"answer":"caulophyllum","tags":\["leucorrhea","menses"],"explanation":"ProfuseleucorrhoeaandmensesCaulophyllum−এপাওয়াযায়।","id":"caul−sym−17","stem":"জরায়ুমুখেসূচফোটানোরমতোব্যথা—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"ArsenicumAlbum","mid":"arsenicum−album","text":"Belladonna","mid":"belladonna","text":"RhusToxicodendron","mid":"rhus−toxicodendron"],"answer":"caulophyllum","tags":\["cervix","female"],"explanation":"Needle−likecervicalpainCaulophyllum−এরনির্দেশকলক্ষণ।","id":"caul−sym−18","stem":"কথাবলারশক্তিকমেযায়,দুর্বলতা—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Lachesis","mid":"lachesis","text":"Stannum","mid":"stannum","text":"Stramonium","mid":"stramonium"],"answer":"caulophyllum","tags":\["weakness","nervous"],"explanation":"CanscarcelyspeakfromweaknessCaulophyllum−এরলক্ষণ।","id":"caul−sym−19","stem":"অনিদ্রা,স্নায়বিকঅস্থিরতা—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Opium","mid":"opium","text":"Gelsemium","mid":"gelsemium","text":"CalcareaCarbonica","mid":"calcarea−carbonica"],"answer":"caulophyllum","tags":\["insomnia","nervousness"],"explanation":"SleeplessandnervousconditionCaulophyllum−এরসঙ্গেমেলে।","id":"caul−sym−20","stem":"জয়েন্টেরব্যথাপ্রতিকয়েকমিনিটেস্থানপরিবর্তনকরে—কোনঔষধটিউপযুক্ত?","options":\["text":"Caulophyllum","mid":"caulophyllum","text":"Ruta","mid":"ruta","text":"Aesculus","mid":"aesculus","text":"CalcareaCarbonica","mid":"calcarea−carbonica"],"answer":"caulophyllum","tags":\["rheumatism","erratic−pain"],"explanation":"ErraticpainschangingplaceeveryfewminutesCaulophyllum−এরkeynote।"]{"id":"caul-med-01","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"প্রসববেদনা দুর্বল, অনিয়মিত ও ফলহীন","mid":"caul-inefficient-labor"},{"text":"প্রসববেদনা শক্তিশালী ও নিয়মিত","mid":"bell-strong-labor"},{"text":"প্রসববেদনা নেই কিন্তু রক্তক্ষরণ বেশি","mid":"sabina-bleeding"},{"text":"প্রসবের পর গভীর ঘুম","mid":"opium-sleep"}],"answer":"caul-inefficient-labor","explanation":"দুর্বল, অনিয়মিত ও অকার্যকর প্রসববেদনা Caulophyllum-এর প্রধান লক্ষণ।"},{"id":"caul-med-02","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"ব্যথা এক স্থান থেকে অন্য স্থানে ঘুরে বেড়ায়","mid":"caul-wandering-pain"},{"text":"ব্যথা সবসময় একই স্থানে থাকে","mid":"bry-fixed-pain"},{"text":"ব্যথা শুধু রাতে হয়","mid":"ars-night-pain"},{"text":"ব্যথা কেবল নড়াচড়ায় হয়","mid":"ruta-motion"}],"answer":"caul-wandering-pain","explanation":"Caulophyllum-এর ব্যথা স্থান পরিবর্তন করে এবং এক জয়েন্ট থেকে অন্য জয়েন্টে যায়।"},{"id":"caul-med-03","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"হাত-পায়ের ছোট জয়েন্টে ব্যথা ও শক্তভাব","mid":"caul-small-joints"},{"text":"বড় জয়েন্টে ফুলে যাওয়া","mid":"rhus-large-joints"},{"text":"শুধু মেরুদণ্ডে ব্যথা","mid":"kalmia-spine"},{"text":"শুধু পেশীতে টান","mid":"arnica-muscle"}],"answer":"caul-small-joints","explanation":"ছোট জয়েন্ট বিশেষ করে আঙুল ও কবজিতে Caulophyllum-এর বিশেষ প্রভাব রয়েছে।"},{"id":"caul-med-04","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"গর্ভাশয়ের দুর্বলতার কারণে বারবার গর্ভপাত","mid":"caul-habitual-abortion"},{"text":"আঘাতের পর গর্ভপাত","mid":"arnica-abortion"},{"text":"জ্বরে গর্ভপাত","mid":"acon-abortion"},{"text":"ভয়ে গর্ভপাত","mid":"opium-fear"}],"answer":"caul-habitual-abortion","explanation":"উটেরাইন দুর্বলতার কারণে habitual abortion-এ Caulophyllum ব্যবহৃত হয়।"},{"id":"caul-med-05","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"মাসিকের ব্যথা শরীরের বিভিন্ন স্থানে ছড়িয়ে যায়","mid":"caul-flying-dysmenorrhea"},{"text":"শুধু তলপেটে ব্যথা","mid":"magphos-abdomen"},{"text":"ব্যথাহীন মাসিক","mid":"puls-painless"},{"text":"মাথাব্যথাসহ মাসিক","mid":"natmur-menses"}],"answer":"caul-flying-dysmenorrhea","explanation":"Dysmenorrhoea-র ব্যথা বিভিন্ন স্থানে ছড়িয়ে যাওয়া Caulophyllum-এর লক্ষণ।"},{"id":"caul-med-06","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"গর্ভমুখ অত্যন্ত শক্ত ও অনমনীয়","mid":"caul-rigid-os"},{"text":"গর্ভমুখ অতিদ্রুত প্রসারিত","mid":"gels-soft-os"},{"text":"ব্যথা ছাড়া প্রসব","mid":"puls-easy-labor"},{"text":"কেবল রক্তপাত","mid":"secale-bleeding"}],"answer":"caul-rigid-os","explanation":"Rigidity of os uteri হলো Caulophyllum-এর গুরুত্বপূর্ণ প্রসূতিবিদ্যাগত নির্দেশনা।"},{"id":"caul-med-07","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"মিথ্যা প্রসববেদনা, অগ্রগতি হয় না","mid":"caul-false-pains"},{"text":"নিয়মিত প্রসববেদনা","mid":"bell-normal-labor"},{"text":"প্রসবের পর ব্যথা","mid":"arn-afterpain"},{"text":"শুধু কোমর ব্যথা","mid":"kali-carb-back"}],"answer":"caul-false-pains","explanation":"False labor pains Caulophyllum-এর অন্যতম প্রধান ব্যবহার।"},{"id":"caul-med-08","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"প্রসবের পর after-pains","mid":"caul-afterpains"},{"text":"প্রসবের আগে বমি","mid":"ipec-labor"},{"text":"প্রসবের পর ঘুম","mid":"opium-post"},{"text":"প্রসবের পর কাশি","mid":"bry-cough"}],"answer":"caul-afterpains","explanation":"After-pains উপশমে Caulophyllum সুপরিচিত।"},{"id":"caul-med-09","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"কবজিতে ব্যথা ও শক্তভাব","mid":"caul-wrist-pain"},{"text":"কাঁধে ব্যথা","mid":"sang-shoulder"},{"text":"ঘাড় শক্ত","mid":"cimic-neck"},{"text":"নিতম্বে ব্যথা","mid":"coloc-hip"}],"answer":"caul-wrist-pain","explanation":"Aching in wrists Caulophyllum-এর একটি নির্দেশক লক্ষণ।"},{"id":"caul-med-10","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"আঙুল বন্ধ করলে কাটার মতো ব্যথা","mid":"caul-cutting-hand"},{"text":"মুঠি করলে আরাম","mid":"ruta-fist"},{"text":"আঙুলে অবশভাব","mid":"plumb-numb"},{"text":"হাতে কেবল চুলকানি","mid":"sulph-itch"}],"answer":"caul-cutting-hand","explanation":"হাত বন্ধ করার সময় cutting pain Caulophyllum-এর লক্ষণ।"},{"id":"caul-med-11","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"সম্পূর্ণ শরীরে স্নায়বিক উত্তেজনা ও কাঁপুনি","mid":"caul-nervous-tremble"},{"text":"ঘুমঘুম ভাব","mid":"gels-drowsy"},{"text":"নিষ্ক্রিয়তা","mid":"phosacid-apathy"},{"text":"অতিরিক্ত হাসি","mid":"crocus-merry"}],"answer":"caul-nervous-tremble","explanation":"Great nervous excitement ও tremulous weakness Caulophyllum-এর বৈশিষ্ট্য।"},{"id":"caul-med-12","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"রাতে ব্যথা বৃদ্ধি","mid":"caul-night-worse"},{"text":"সকালে বৃদ্ধি","mid":"natmur-morning"},{"text":"দুপুরে বৃদ্ধি","mid":"sulph-noon"},{"text":"খাওয়ার পর বৃদ্ধি","mid":"nux-aftereat"}],"answer":"caul-night-worse","explanation":"Caulophyllum-এর অনেক লক্ষণ রাতে বেড়ে যায়।"},{"id":"caul-med-13","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"বাম ডিম্বাশয়ে ব্যথা","mid":"caul-left-ovary"},{"text":"ডান ডিম্বাশয়ে ব্যথা","mid":"lyc-right-ovary"},{"text":"জরায়ুমুখে জ্বালা","mid":"kreosote-cervix"},{"text":"কেবল কোমর ব্যথা","mid":"sepia-back"}],"answer":"caul-left-ovary","explanation":"Left ovarian pain Caulophyllum-এর পরিচিত লক্ষণ।"},{"id":"caul-med-14","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"বাম স্তনের নিচে ব্যথা","mid":"caul-inframammary"},{"text":"ডান স্তনে ব্যথা","mid":"phytolacca-right"},{"text":"স্তনে চুলকানি","mid":"graphites-breast"},{"text":"স্তনে ফোড়া","mid":"hepar-breast"}],"answer":"caul-inframammary","explanation":"Left inframammary pain Caulophyllum-এর গুরুত্বপূর্ণ লক্ষণ।"},{"id":"caul-med-15","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"প্রসববেদনা এসে আবার মিলিয়ে যায়","mid":"caul-pains-disappear"},{"text":"প্রসববেদনা ক্রমশ বাড়ে","mid":"bell-progress"},{"text":"অবিরাম প্রসববেদনা","mid":"secale-continuous"},{"text":"ব্যথাহীন প্রসব","mid":"puls-easy"}],"answer":"caul-pains-disappear","explanation":"Exhaustion-এর কারণে labor pains বন্ধ হয়ে যাওয়া Caulophyllum-এর নির্দেশনা।"},{"id":"caul-med-16","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"অতিরিক্ত সাদা স্রাব ও মাসিক","mid":"caul-profuse-leucorrhea"},{"text":"শুষ্ক যোনি","mid":"sepia-dry"},{"text":"দুর্গন্ধযুক্ত কালো স্রাব","mid":"kreosote-offensive"},{"text":"রক্তপাতই প্রধান","mid":"sabina-blood"}],"answer":"caul-profuse-leucorrhea","explanation":"Profuse leucorrhoea ও menstrual disturbance-এ Caulophyllum ব্যবহৃত হয়।"},{"id":"caul-med-17","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"জরায়ুমুখে সূচ ফোটানোর মতো ব্যথা","mid":"caul-needle-cervix"},{"text":"জ্বালাপোড়া ব্যথা","mid":"ars-burning"},{"text":"ধুকপুক ব্যথা","mid":"bell-throb"},{"text":"টান ধরা ব্যথা","mid":"rhus-draw"}],"answer":"caul-needle-cervix","explanation":"Needle-like pain in cervix Caulophyllum-এর গুরুত্বপূর্ণ লক্ষণ।"},{"id":"caul-med-18","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"কথা বলার শক্তি কমে যায়, দুর্বলতা","mid":"caul-scarcely-speak"},{"text":"অতিরিক্ত কথা বলে","mid":"lach-talk"},{"text":"কথা বললে আরাম","mid":"stann-talk"},{"text":"কথা বলতে ভয়","mid":"stram-talk"}],"answer":"caul-scarcely-speak","explanation":"তীব্র দুর্বলতায় রোগী প্রায় কথা বলতে পারে না।"},{"id":"caul-med-19","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"অনিদ্রা, স্নায়বিক অস্থিরতা","mid":"caul-sleepless"},{"text":"অতিরিক্ত তন্দ্রা","mid":"opium-somnolence"},{"text":"গভীর নিদ্রা","mid":"gels-sleep"},{"text":"দুঃস্বপ্ন মাত্র","mid":"calc-dream"}],"answer":"caul-sleepless","explanation":"Sleepless, restless, nervous অবস্থা Caulophyllum-এর অন্তর্ভুক্ত।"},{"id":"caul-med-20","stem":"নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?","options":\[{"text":"জয়েন্টের ব্যথা প্রতি কয়েক মিনিটে স্থান পরিবর্তন করে","mid":"caul-changing-joints"},{"text":"স্থায়ী হাঁটুর ব্যথা","mid":"ruta-knee"},{"text":"শুধু কোমরে ব্যথা","mid":"aesc-back"},{"text":"একই আঙুলে ব্যথা","mid":"calc-finger"}],"answer":"caul-changing-joints","explanation":"Erratic joint pains changing place every few minutes Caulophyllum-এর মূল বৈশিষ্ট্য।"
-}]
+    "id": "caul-med-01",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রসববেদনা দুর্বল, অনিয়মিত ও ফলহীন", "mid": "caul-inefficient-labor"},
+      {"text": "প্রসববেদনা শক্তিশালী ও নিয়মিত", "mid": "bell-strong-labor"},
+      {"text": "প্রসববেদনা নেই কিন্তু রক্তক্ষরণ বেশি", "mid": "sabina-bleeding"},
+      {"text": "প্রসবের পর গভীর ঘুম", "mid": "opium-sleep"}
+    ],
+    "answer": "caul-inefficient-labor",
+    "explanation": "দুর্বল, অনিয়মিত ও অকার্যকর প্রসববেদনা Caulophyllum-এর প্রধান লক্ষণ।"
+  },
+  {
+    "id": "caul-med-02",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "ব্যথা এক স্থান থেকে অন্য স্থানে ঘুরে বেড়ায়", "mid": "caul-wandering-pain"},
+      {"text": "ব্যথা সবসময় একই স্থানে থাকে", "mid": "bry-fixed-pain"},
+      {"text": "ব্যথা শুধু রাতে হয়", "mid": "ars-night-pain"},
+      {"text": "ব্যথা কেবল নড়াচড়ায় হয়", "mid": "ruta-motion"}
+    ],
+    "answer": "caul-wandering-pain",
+    "explanation": "Caulophyllum-এর ব্যথা স্থান পরিবর্তন করে এবং এক জয়েন্ট থেকে অন্য জয়েন্টে যায়।"
+  },
+  {
+    "id": "caul-med-03",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "হাত-পায়ের ছোট জয়েন্টে ব্যথা ও শক্তভাব", "mid": "caul-small-joints"},
+      {"text": "বড় জয়েন্টে ফুলে যাওয়া", "mid": "rhus-large-joints"},
+      {"text": "শুধু মেরুদণ্ডে ব্যথা", "mid": "kalmia-spine"},
+      {"text": "শুধু পেশীতে টান", "mid": "arnica-muscle"}
+    ],
+    "answer": "caul-small-joints",
+    "explanation": "ছোট জয়েন্ট বিশেষ করে আঙুল ও কব্জিতে Caulophyllum-এর বিশেষ প্রভাব রয়েছে।"
+  },
+  {
+    "id": "caul-med-04",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জরায়ুর দুর্বলতার কারণে বারবার গর্ভপাত", "mid": "caul-habitual-abortion"},
+      {"text": "আঘাতের পর গর্ভপাত", "mid": "arnica-abortion"},
+      {"text": "জ্বরে গর্ভপাত", "mid": "acon-abortion"},
+      {"text": "ভয়ে গর্ভপাত", "mid": "opium-fear"}
+    ],
+    "answer": "caul-habitual-abortion",
+    "explanation": "জরায়ুর দুর্বলতার কারণে habitual abortion-এ Caulophyllum ব্যবহৃত হয়।"
+  },
+  {
+    "id": "caul-med-05",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মাসিকের ব্যথা শরীরের বিভিন্ন স্থানে ছড়িয়ে যায়", "mid": "caul-flying-dysmenorrhea"},
+      {"text": "শুধু তলপেটে ব্যথা", "mid": "magphos-abdomen"},
+      {"text": "ব্যথাহীন মাসিক", "mid": "puls-painless"},
+      {"text": "মাথাব্যথাসহ মাসিক", "mid": "natmur-menses"}
+    ],
+    "answer": "caul-flying-dysmenorrhea",
+    "explanation": "Dysmenorrhoea-র ব্যথা বিভিন্ন স্থানে ছড়িয়ে যাওয়া Caulophyllum-এর লক্ষণ।"
+  },
+  {
+    "id": "caul-med-06",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "গর্ভমুখ অত্যন্ত শক্ত ও অনমনীয়", "mid": "caul-rigid-os"},
+      {"text": "গর্ভমুখ অতিদ্রুত প্রসারিত", "mid": "gels-soft-os"},
+      {"text": "ব্যথা ছাড়া প্রসব", "mid": "puls-easy-labor"},
+      {"text": "কেবল রক্তপাত", "mid": "secale-bleeding"}
+    ],
+    "answer": "caul-rigid-os",
+    "explanation": "Rigidity of os uteri হলো Caulophyllum-এর গুরুত্বপূর্ণ প্রসূতিবিদ্যাগত নির্দেশনা।"
+  },
+  {
+    "id": "caul-med-07",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "মিথ্যা প্রসববেদনা, অগ্রগতি হয় না", "mid": "caul-false-pains"},
+      {"text": "নিয়মিত প্রসববেদনা", "mid": "bell-normal-labor"},
+      {"text": "প্রসবের পর ব্যথা", "mid": "arn-afterpain"},
+      {"text": "শুধু কোমর ব্যথা", "mid": "kali-carb-back"}
+    ],
+    "answer": "caul-false-pains",
+    "explanation": "False labor pains Caulophyllum-এর অন্যতম প্রধান ব্যবহার।"
+  },
+  {
+    "id": "caul-med-08",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রসবের পর after-pains", "mid": "caul-afterpains"},
+      {"text": "প্রসবের আগে বমি", "mid": "ipec-labor"},
+      {"text": "প্রসবের পর ঘুম", "mid": "opium-post"},
+      {"text": "প্রসবের পর কাশি", "mid": "bry-cough"}
+    ],
+    "answer": "caul-afterpains",
+    "explanation": "After-pains উপশমে Caulophyllum সুপরিচিত।"
+  },
+  {
+    "id": "caul-med-09",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কব্জিতে ব্যথা ও শক্তভাব", "mid": "caul-wrist-pain"},
+      {"text": "কাঁধে ব্যথা", "mid": "sang-shoulder"},
+      {"text": "ঘাড় শক্ত", "mid": "cimic-neck"},
+      {"text": "নিতম্বে ব্যথা", "mid": "coloc-hip"}
+    ],
+    "answer": "caul-wrist-pain",
+    "explanation": "Aching in wrists Caulophyllum-এর একটি নির্দেশক লক্ষণ।"
+  },
+  {
+    "id": "caul-med-10",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "আঙুল বন্ধ করলে কাটার মতো ব্যথা", "mid": "caul-cutting-hand"},
+      {"text": "মুঠি করলে আরাম", "mid": "ruta-fist"},
+      {"text": "আঙুলে অবশভাব", "mid": "plumb-numb"},
+      {"text": "হাতে কেবল চুলকানি", "mid": "sulph-itch"}
+    ],
+    "answer": "caul-cutting-hand",
+    "explanation": "হাত বন্ধ করার সময় cutting pain Caulophyllum-এর লক্ষণ।"
+  },
+  {
+    "id": "caul-med-11",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "সম্পূর্ণ শরীরে স্নায়বিক উত্তেজনা ও কাঁপুনি", "mid": "caul-nervous-tremble"},
+      {"text": "ঘুমঘুম ভাব", "mid": "gels-drowsy"},
+      {"text": "নিষ্ক্রিয়তা", "mid": "phosacid-apathy"},
+      {"text": "অতিরিক্ত হাসি", "mid": "crocus-merry"}
+    ],
+    "answer": "caul-nervous-tremble",
+    "explanation": "Great nervous excitement ও tremulous weakness Caulophyllum-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "caul-med-12",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "রাতে ব্যথা বৃদ্ধি", "mid": "caul-night-worse"},
+      {"text": "সকালে বৃদ্ধি", "mid": "natmur-morning"},
+      {"text": "দুপুরে বৃদ্ধি", "mid": "sulph-noon"},
+      {"text": "খাওয়ার পর বৃদ্ধি", "mid": "nux-aftereat"}
+    ],
+    "answer": "caul-night-worse",
+    "explanation": "Caulophyllum-এর অনেক লক্ষণ রাতে বেড়ে যায়।"
+  },
+  {
+    "id": "caul-med-13",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম ডিম্বাশয়ে ব্যথা", "mid": "caul-left-ovary"},
+      {"text": "ডান ডিম্বাশয়ে ব্যথা", "mid": "lyc-right-ovary"},
+      {"text": "জরায়ুমুখে জ্বালা", "mid": "kreosote-cervix"},
+      {"text": "কেবল কোমর ব্যথা", "mid": "sepia-back"}
+    ],
+    "answer": "caul-left-ovary",
+    "explanation": "Left ovarian pain Caulophyllum-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "caul-med-14",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "বাম স্তনের নিচে ব্যথা", "mid": "caul-inframammary"},
+      {"text": "ডান স্তনে ব্যথা", "mid": "phytolacca-right"},
+      {"text": "স্তনে চুলকানি", "mid": "graphites-breast"},
+      {"text": "স্তনে ফোড়া", "mid": "hepar-breast"}
+    ],
+    "answer": "caul-inframammary",
+    "explanation": "Left inframammary pain Caulophyllum-এর গুরুত্বপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "caul-med-15",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "প্রসববেদনা এসে আবার মিলিয়ে যায়", "mid": "caul-pains-disappear"},
+      {"text": "প্রসববেদনা ক্রমশ বাড়ে", "mid": "bell-progress"},
+      {"text": "অবিরাম প্রসববেদনা", "mid": "secale-continuous"},
+      {"text": "ব্যথাহীন প্রসব", "mid": "puls-easy"}
+    ],
+    "answer": "caul-pains-disappear",
+    "explanation": "Exhaustion-এর কারণে labor pains বন্ধ হয়ে যাওয়া Caulophyllum-এর নির্দেশনা।"
+  },
+  {
+    "id": "caul-med-16",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অতিরিক্ত সাদা স্রাব ও মাসিক", "mid": "caul-profuse-leucorrhea"},
+      {"text": "শুষ্ক যোনি", "mid": "sepia-dry"},
+      {"text": "দুর্গন্ধযুক্ত কালো স্রাব", "mid": "kreosote-offensive"},
+      {"text": "রক্তপাতই প্রধান", "mid": "sabina-blood"}
+    ],
+    "answer": "caul-profuse-leucorrhea",
+    "explanation": "Profuse leucorrhoea ও menstrual disturbance-এ Caulophyllum ব্যবহৃত হয়।"
+  },
+  {
+    "id": "caul-med-17",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জরায়ুমুখে সূচ ফোটানোর মতো ব্যথা", "mid": "caul-needle-cervix"},
+      {"text": "জ্বালাপোড়া ব্যথা", "mid": "ars-burning"},
+      {"text": "ধুকপুক ব্যথা", "mid": "bell-throb"},
+      {"text": "টান ধরা ব্যথা", "mid": "rhus-draw"}
+    ],
+    "answer": "caul-needle-cervix",
+    "explanation": "Needle-like pain in cervix Caulophyllum-এর গুরুত্বপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "caul-med-18",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "কথা বলার শক্তি কমে যায়, দুর্বলতা", "mid": "caul-scarcely-speak"},
+      {"text": "অতিরিক্ত কথা বলে", "mid": "lach-talk"},
+      {"text": "কথা বললেই আরাম", "mid": "stann-talk"},
+      {"text": "কথা বলতে ভয়", "mid": "stram-talk"}
+    ],
+    "answer": "caul-scarcely-speak",
+    "explanation": "তীব্র দুর্বলতায় রোগী প্রায় কথা বলতে পারে না।"
+  },
+  {
+    "id": "caul-med-19",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "অনিদ্রা, স্নায়বিক অস্থিরতা", "mid": "caul-sleepless"},
+      {"text": "অতিরিক্ত তন্দ্রা", "mid": "opium-somnolence"},
+      {"text": "গভীর নিদ্রা", "mid": "gels-sleep"},
+      {"text": "দুঃস্বপ্ন মাত্র", "mid": "calc-dream"}
+    ],
+    "answer": "caul-sleepless",
+    "explanation": "Sleepless, restless, nervous অবস্থা Caulophyllum-এর অন্তর্ভুক্ত।"
+  },
+  {
+    "id": "caul-med-20",
+    "stem": "নিচের কোনটি Caulophyllum-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "options": [
+      {"text": "জয়েন্টের ব্যথা প্রতি কয়েক মিনিটে স্থান পরিবর্তন করে", "mid": "caul-changing-joints"},
+      {"text": "স্থায়ী হাঁটুর ব্যথা", "mid": "ruta-knee"},
+      {"text": "শুধু কোমরে ব্যথা", "mid": "aesc-back"},
+      {"text": "একই আঙুলে ব্যথা", "mid": "calc-finger"}
+    ],
+    "answer": "caul-changing-joints",
+    "explanation": "Erratic joint pains changing place every few minutes Caulophyllum-এর মূল বৈশিষ্ট্য।"
+  }
+]
