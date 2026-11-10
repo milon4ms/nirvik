@@ -1,7 +1,7 @@
 [
   {
     "id": "china-med-01",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "ভয় বা আতঙ্কের পর হঠাৎ শুষ্ক গরম জ্বর আসা", "mid": "sym-acon-fear-fever"},
       {"text": "তরল পদার্থ নির্গমনে চরম দুর্বলতা, অত্যধিক রক্তপাত, বীর্যপাত, অতিরিক্ত স্তন্যদান বা দীর্ঘস্থায়ী ডায়রিয়ার ফলে দুর্বলতা", "mid": "sym-china-fluid-loss-weakness"},
@@ -9,11 +9,11 @@
       {"text": "পায়ে জ্বালাপোড়া, রাতে বিছানা থেকে পা বের করে রাখা", "mid": "sym-sulph-burning-feet"}
     ],
     "answer": "sym-china-fluid-loss-weakness",
-    "explanation": "China এ শরীর থেকে অত্যধিক রক্তপাত, বীর্যপাত, অতিরিক্ত স্তন্যদান বা দীর্ঘস্থায়ী ডায়রিয়ার ফলে চরম দুর্বলতা হয়।"
+    "explanation": "China-এ শরীর থেকে অত্যধিক রক্তপাত, বীর্যপাত, অতিরিক্ত স্তন্যদান বা দীর্ঘস্থায়ী ডায়রিয়ার ফলে চরম দুর্বলতা হয়।"
   },
   {
     "id": "china-med-02",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "অল্প খেলেই পেট ফুলে যাওয়া ও টক ঢেকুর ওঠা", "mid": "sym-lyco-belly-gas"},
       {"text": "ক্ষুধা একদম না থাকা ও মুখ তেতো লাগা", "mid": "sym-nux-no-appetite"},
@@ -21,11 +21,11 @@
       {"text": "এক সময়ের বলবান এখন শরীর শীর্ণ", "mid": "sym-china-once-strong-now-thin"}
     ],
     "answer": "sym-china-once-strong-now-thin",
-    "explanation": "China এ এক সময়ের বলবান রোগী এখন শরীর শীর্ণ হয়ে যায়।"
+    "explanation": "China-এ এক সময়ের বলবান রোগী এখন শরীর শীর্ণ হয়ে যায়।"
   },
   {
     "id": "china-med-03",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "পেট গ্যাসে ঢোলের মতো ফুলে থাকা, ঢেকুর বা বায়ু ত্যাগেও ভারবোধ কমে না", "mid": "sym-china-drum-belly-no-relief"},
       {"text": "ঢেকুর তুললেই পেটের ভারবোধ সম্পূর্ণ কমে যাওয়া", "mid": "sym-eructation-full-relief"},
@@ -33,11 +33,11 @@
       {"text": "গরমে পেট ফাঁপা বাড়া ও ঠান্ডায় উপশম হওয়া", "mid": "sym-belly-heat-agg"}
     ],
     "answer": "sym-china-drum-belly-no-relief",
-    "explanation": "China এ পুরো পেট গ্যাসে ঢোলের মতো ফুলে থাকে, ঢেকুর তুললে বা বায়ু ত্যাগ করলেও পেটের ভারবোধ কমে না।"
+    "explanation": "China-এ পুরো পেট গ্যাসে ঢোলের মতো ফুলে থাকে, ঢেকুর তুললে বা বায়ু ত্যাগ করলেও পেটের ভারবোধ কমে না।"
   },
   {
     "id": "china-med-04",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "জ্বর প্রতিদিন একই সময়ে না এসে অনিয়মিতভাবে আসা", "mid": "sym-fever-irregular"},
       {"text": "জ্বর আসলে শুধু শীত লাগা, তাপ ও ঘাম না হওয়া", "mid": "sym-fever-only-chill"},
@@ -45,11 +45,11 @@
       {"text": "জ্বর আসলে ঘাম দিলেই শক্তি ফিরে আসা ও সতেজ লাগা", "mid": "sym-fever-sweat-fresh"}
     ],
     "answer": "sym-china-periodic-fever-three-stages",
-    "explanation": "China এ নির্দিষ্ট সময় অন্তর জ্বর আসে, জ্বরের শীত, তাপ ও ঘর্ম তিনটি স্পষ্ট অবস্থা থাকে।"
+    "explanation": "China-এ নির্দিষ্ট সময় অন্তর জ্বর আসে, জ্বরের শীত, তাপ ও ঘর্ম তিনটি স্পষ্ট অবস্থা থাকে।"
   },
   {
     "id": "china-med-05",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "জ্বর ছাড়ার পর ক্ষুধা বেড়ে যাওয়া ও শক্তি ফিরে আসা", "mid": "sym-fever-recover-strong"},
       {"text": "ঘাম দিলে জ্বর ছাড়ে কিন্তু প্রচণ্ড দুর্বল হয়ে পড়ে", "mid": "sym-china-sweat-fever-gone-weak"},
@@ -57,11 +57,11 @@
       {"text": "জ্বর আসলে শুধু মাথাব্যথা হওয়া, শরীরে দুর্বলতা না থাকা", "mid": "sym-fever-only-headache"}
     ],
     "answer": "sym-china-sweat-fever-gone-weak",
-    "explanation": "China এ ঘাম দিলে জ্বর ছাড়ে কিন্তু রোগী প্রচণ্ড দুর্বল হয়ে পড়ে।"
+    "explanation": "China-এ ঘাম দিলে জ্বর ছাড়ে কিন্তু রোগী প্রচণ্ড দুর্বল হয়ে পড়ে।"
   },
   {
     "id": "china-med-06",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "সামান্য স্পর্শে আরাম লাগা ও জোরে চাপলে ব্যথা বাড়া", "mid": "sym-touch-soothe-pressure-pain"},
       {"text": "চামড়া স্পর্শ করলে কোনো অনুভূতি না হওয়া", "mid": "sym-skin-no-feeling"},
@@ -69,11 +69,11 @@
       {"text": "সামান্য স্পর্শে ব্যথা লাগা, জোরে চেপে ধরলে আরাম পাওয়া", "mid": "sym-china-light-touch-pain-hard-pressure-relief"}
     ],
     "answer": "sym-china-light-touch-pain-hard-pressure-relief",
-    "explanation": "China এ শরীরের চামড়া সামান্য স্পর্শ করলে ব্যথা লাগে, কিন্তু জোরে চেপে ধরলে রোগী আরাম পায়।"
+    "explanation": "China-এ শরীরের চামড়া সামান্য স্পর্শ করলে ব্যথা লাগে, কিন্তু জোরে চেপে ধরলে রোগী আরাম পায়।"
   },
   {
     "id": "china-med-07",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "কাঁচা ফল বা অপাচ্য খাবার খেলে পেটের গোলযোগ বা পাতলা পায়খানা", "mid": "sym-china-raw-fruit-diarrhoea"},
       {"text": "কাঁচা ফল খেলে পেট ভালো থাকা ও হজম ভালো হওয়া", "mid": "sym-raw-fruit-good-digestion"},
@@ -81,11 +81,11 @@
       {"text": "ফল খেলে কোনো সমস্যা না হওয়া ও শক্তি বাড়া", "mid": "sym-fruit-no-problem"}
     ],
     "answer": "sym-china-raw-fruit-diarrhoea",
-    "explanation": "China এ কাঁচা ফল বা অপাচ্য খাবার খাওয়ার ফলে পেটের গোলযোগ বা পাতলা পায়খানা হয়।"
+    "explanation": "China-এ কাঁচা ফল বা অপাচ্য খাবার খাওয়ার ফলে পেটের গোলযোগ বা পাতলা পায়খানা হয়।"
   },
   {
     "id": "china-med-08",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "টক খাবার খেলে হজম ভালো হওয়া ও পেট হালকা লাগা", "mid": "sym-sour-good-digestion"},
       {"text": "টক ঢেকুর না ওঠা ও পেটে কোনো ভার না থাকা", "mid": "sym-no-sour-eructation"},
@@ -93,11 +93,11 @@
       {"text": "মিষ্টি খেলে টক ঢেকুর ওঠা ও পেট ফাঁপা", "mid": "sym-sweet-sour-eructation"}
     ],
     "answer": "sym-china-sour-fruit-indigestion",
-    "explanation": "China এ টক ফল হজম হয় না এবং টক ঢেকুর ওঠে।"
+    "explanation": "China-এ টক ফল হজম হয় না এবং টক ঢেকুর ওঠে।"
   },
   {
     "id": "china-med-09",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "সবসময় হাসিখুশি, গান গাওয়া ও অন্যকে জড়িয়ে ধরা", "mid": "sym-coffea-cheerful"},
       {"text": "বিষণ্ণ, খিটখিটে ও উদাসীন মন", "mid": "sym-china-depressed-irritable-indifferent"},
@@ -109,7 +109,7 @@
   },
   {
     "id": "china-med-10",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "মনে কোনো পরিকল্পনা না আসা ও সবসময় বাস্তববাদী থাকা", "mid": "sym-no-plan-realistic"},
       {"text": "ছোট ছোট বাস্তব পরিকল্পনা করে তা দ্রুত শেষ করা", "mid": "sym-small-plan-done"},
@@ -121,7 +121,7 @@
   },
   {
     "id": "china-med-11",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "মনে করা সবাই তার ক্ষতি করতে চাইছে বা তাকে ঘৃণা করছে", "mid": "sym-china-all-hate-harm"},
       {"text": "মনে করা সবাই তাকে ভালোবাসে ও সাহায্য করতে চায়", "mid": "sym-all-love-help"},
@@ -133,7 +133,7 @@
   },
   {
     "id": "china-med-12",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "কাজে প্রচুর উৎসাহ ও সারাদিন কাজ করতে চাওয়া", "mid": "sym-work-enthusiasm"},
       {"text": "শারীরিক পরিশ্রম করলে শক্তি বেড়ে যাওয়া", "mid": "sym-exertion-energy"},
@@ -145,7 +145,7 @@
   },
   {
     "id": "china-med-13",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "মলত্যাগের সময় প্রচণ্ড ব্যথা ও অল্প মল হওয়া", "mid": "sym-stool-pain-little"},
       {"text": "ব্যথাহীন ডায়রিয়া, মল অত্যন্ত দুর্গন্ধযুক্ত ও প্রচুর, মলের সাথে অজীর্ণ খাদ্যকণা", "mid": "sym-china-painless-foul-diarrhoea-undigested"},
@@ -153,11 +153,11 @@
       {"text": "মল স্বাভাবিক গন্ধযুক্ত ও অল্প পরিমাণে হওয়া", "mid": "sym-normal-stool"}
     ],
     "answer": "sym-china-painless-foul-diarrhoea-undigested",
-    "explanation": "China এ মলত্যাগের সময় কোনো ব্যথা থাকে না, কিন্তু মল অত্যন্ত দুর্গন্ধযুক্ত এবং প্রচুর পরিমাণে নির্গত হয়, মলের সাথে অজীর্ণ খাদ্যকণা থাকতে পারে।"
+    "explanation": "China-এ মলত্যাগের সময় কোনো ব্যথা থাকে না, কিন্তু মল অত্যন্ত দুর্গন্ধযুক্ত এবং প্রচুর পরিমাণে নির্গত হয়, মলের সাথে অজীর্ণ খাদ্যকণা থাকতে পারে।"
   },
   {
     "id": "china-med-14",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "মাথায় হালকা ব্যথা ও কানে কোনো শব্দ না হওয়া", "mid": "sym-mild-headache-no-tinnitus"},
       {"text": "মাথায় লোহার ব্যান্ড দিয়ে চেপে ধরার মতো ব্যথা", "mid": "sym-bac-band-headache"},
@@ -165,11 +165,11 @@
       {"text": "মাথায় দপদপানি ব্যথা, মনে হওয়া মাথার খুলি ফেটে যাবে, কানে ভোঁ ভোঁ শব্দ", "mid": "sym-china-throbbing-head-burst-tinnitus"}
     ],
     "answer": "sym-china-throbbing-head-burst-tinnitus",
-    "explanation": "China এ মাথায় দপদপানি ব্যথা হয়, মনে হয় মাথার খুলি ফেটে যাবে, কানে ভোঁ ভোঁ শব্দ হয়।"
+    "explanation": "China-এ মাথায় দপদপানি ব্যথা হয়, মনে হয় মাথার খুলি ফেটে যাবে, কানে ভোঁ ভোঁ শব্দ হয়।"
   },
   {
     "id": "china-med-15",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "নাক, মুখ বা জরায়ু থেকে কালো চাকা চাকা রক্তক্ষরণ", "mid": "sym-china-black-clotted-bleeding"},
       {"text": "নাক থেকে উজ্জ্বল লাল পাতলা রক্ত পড়া", "mid": "sym-bright-red-nosebleed"},
@@ -177,11 +177,11 @@
       {"text": "শুধু মাড়ি থেকে অল্প রক্ত পড়া ও ব্যথা না থাকা", "mid": "sym-gum-little-bleed"}
     ],
     "answer": "sym-china-black-clotted-bleeding",
-    "explanation": "China এ নাক, মুখ বা জরায়ু থেকে কালো চাকা চাকা রক্তক্ষরণ হয়।"
+    "explanation": "China-এ নাক, মুখ বা জরায়ু থেকে কালো চাকা চাকা রক্তক্ষরণ হয়।"
   },
   {
     "id": "china-med-16",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "রক্তস্রাবের পর চোখে পরিষ্কার দেখা ও কানে ভালো শোনা", "mid": "sym-bleed-clear-vision"},
       {"text": "রক্তস্রাবের পর কোনো দুর্বলতা না হওয়া", "mid": "sym-bleed-no-weakness"},
@@ -189,11 +189,11 @@
       {"text": "রক্তস্রাবের পর ক্ষুধা বেড়ে যাওয়া ও ঘুম ভালো হওয়া", "mid": "sym-bleed-hunger-sleep"}
     ],
     "answer": "sym-china-after-bleed-dim-tinnitus-dark-circle",
-    "explanation": "China এ রক্তস্রাবের জন্য শরীর দুর্বল হয়, চোখে ঝাপসা দেখে, কানে নানা শব্দ শোনে, চোখের পাশে কালিমা পড়ে।"
+    "explanation": "China-এ রক্তস্রাবের জন্য শরীর দুর্বল হয়, চোখে ঝাপসা দেখে, কানে নানা শব্দ শোনে, চোখের পাশে কালিমা পড়ে।"
   },
   {
     "id": "china-med-17",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "সব খাবার মিষ্টি লাগা ও পানি মিষ্টি লাগা", "mid": "sym-all-sweet-water-sweet"},
       {"text": "সবকিছু তিতা লাগা, পানি পর্যন্ত তিতা লাগা", "mid": "sym-china-all-bitter-water-bitter"},
@@ -201,11 +201,11 @@
       {"text": "শুধু টক খাবার তিতা লাগা, বাকি সব স্বাভাবিক লাগা", "mid": "sym-only-sour-bitter"}
     ],
     "answer": "sym-china-all-bitter-water-bitter",
-    "explanation": "China এ সবকিছু তিতা লাগে, পানি পর্যন্ত তিতা লাগে।"
+    "explanation": "China-এ সবকিছু তিতা লাগে, পানি পর্যন্ত তিতা লাগে।"
   },
   {
     "id": "china-med-18",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "হজম শক্তি খুব ভালো ও রাতে পেট হালকা থাকা", "mid": "sym-good-digestion-night-light"},
       {"text": "দিনে পেট ফাঁপা বাড়া ও রাতে কমে যাওয়া", "mid": "sym-day-belly-night-less"},
@@ -213,11 +213,11 @@
       {"text": "হজম শক্তি দুর্বল, রাতে পেট ফাঁপা বাড়ে, রাতে খাওয়ার পর পেটে প্রচণ্ড ভারবোধ", "mid": "sym-china-weak-digestion-night-belly-heavy"}
     ],
     "answer": "sym-china-weak-digestion-night-belly-heavy",
-    "explanation": "China এ হজম শক্তি খুব দুর্বল, রাতে পেট ফাঁপা বাড়ে, রাতে খাওয়ার পর পেটে প্রচণ্ড ভারবোধ হয়।"
+    "explanation": "China-এ হজম শক্তি খুব দুর্বল, রাতে পেট ফাঁপা বাড়ে, রাতে খাওয়ার পর পেটে প্রচণ্ড ভারবোধ হয়।"
   },
   {
     "id": "china-med-19",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "সামান্য স্পর্শে, ঠান্ডা বাতাসে, রাতে, খাওয়ার পর ও ফল খেলে বৃদ্ধি", "mid": "sym-china-agg-touch-cold-night-eat-fruit"},
       {"text": "গরমে ও রোদে বৃদ্ধি, ঠান্ডায় উপশম হওয়া", "mid": "sym-pulsatilla-agg-heat"},
@@ -225,11 +225,11 @@
       {"text": "শুধু দুপুরে বৃদ্ধি, রাতে উপশম হওয়া", "mid": "sym-nux-agg-noon"}
     ],
     "answer": "sym-china-agg-touch-cold-night-eat-fruit",
-    "explanation": "China এ সামান্য স্পর্শে, ঠান্ডা বাতাসে, রাতে, খাওয়ার পর এবং ফল খেলে বৃদ্ধি হয়।"
+    "explanation": "China-এ সামান্য স্পর্শে, ঠান্ডা বাতাসে, রাতে, খাওয়ার পর এবং ফল খেলে বৃদ্ধি হয়।"
   },
   {
     "id": "china-med-20",
-    "stem": "নিচের কোনটি China এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+    "stem": "নিচের কোনটি China-এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
     "options": [
       {"text": "ঠান্ডা বাতাসে উপশম ও গরম ঘরে বৃদ্ধি হওয়া", "mid": "sym-pulsatilla-amel-coldair"},
       {"text": "ঠান্ডা পানি দিলে উপশম ও গরমে বৃদ্ধি হওয়া", "mid": "sym-ars-amel-coldwater"},
@@ -237,6 +237,6 @@
       {"text": "ভিজে ঠান্ডা আবহাওয়ায় উপশম ও শুষ্ক গরমে বৃদ্ধি হওয়া", "mid": "sym-damp-cold-amel"}
     ],
     "answer": "sym-china-amel-hard-pressure-doubled-warmth",
-    "explanation": "China এ জোরে চেপে ধরলে, কুঁকড়ে শুলে এবং উষ্ণতায় উপশম হয়।"
+    "explanation": "China-এ জোরে চেপে ধরলে, কুঁকড়ে শুলে এবং উষ্ণতায় উপশম হয়।"
   }
 ]
