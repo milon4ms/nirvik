@@ -1,0 +1,3482 @@
+[
+  {
+    "id": "argm-sym-05",
+    "stem": "মাথায় ব্যথা যা গরম আবহাওয়ায় বেড়ে যায় — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Glonoinum",
+        "mid": "glonoinum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "headache",
+      "heat-aggravation"
+    ],
+    "explanation": "Argentum Metallicum-এ মাথার ব্যথা গরম আবহাওয়ায় বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "argm-sym-13",
+    "stem": "দাঁতে ব্যথা যা ঠান্ডা পানিতে বেড়ে যায় — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Plantago",
+        "mid": "plantago"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phos"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "teeth",
+      "cold-aggravation"
+    ],
+    "explanation": "Argentum Metallicum-তে দাঁতে ব্যথা ঠান্ডা সংস্পর্শে বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "argm-sym-14",
+    "stem": "পিঠে ব্যথা যা নড়চড় করলে বেড়ে যায় — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carb"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "back",
+      "motion-aggravation"
+    ],
+    "explanation": "Argentum Metallicum-তে পিঠে ব্যথা নড়চড় করলে বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "argm-sym-20",
+    "stem": "গরম ঘরে বা গরম আবহাওয়ায় লক্ষণের তীব্রতা বেড়ে যায় — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "modality",
+      "heat-aggravation"
+    ],
+    "explanation": "Argentum Metallicum-র লক্ষণগুলো গরম ঘরে বা উষ্ণ তাপে বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "arnica-mont-sym-15",
+    "stem": "লক্ষণ বৃদ্ধি পায় স্পর্শ করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "touch"
+    ],
+    "explanation": "Arnica Montana-এর লক্ষণ স্পর্শ করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arnica-mont-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় নড়াচড়া করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "motion"
+    ],
+    "explanation": "Arnica Montana-এর লক্ষণ নড়াচড়া করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arnica-mont-sym-17",
+    "stem": "লক্ষণ বৃদ্ধি পায় বিশ্রামে থাকলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Cimicifuga",
+        "mid": "cimicifuga"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "rest"
+    ],
+    "explanation": "Arnica Montana-এর লক্ষণ বিশ্রামে থাকলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arnica-mont-sym-18",
+    "stem": "লক্ষণ বৃদ্ধি পায় মদ পান করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "alcohol"
+    ],
+    "explanation": "Arnica Montana-এর লক্ষণ মদ পান করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arnica-mont-sym-19",
+    "stem": "লক্ষণ বৃদ্ধি পায় আর্দ্র ঠান্ডায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "damp-cold"
+    ],
+    "explanation": "Arnica Montana-এর লক্ষণ আর্দ্র ঠান্ডায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "aurum-sym-02",
+    "stem": "অস্থি ও গ্রন্থির পচন, বিশেষ করে নাক, তালু ও দীর্ঘ হাড়ে রাতে প্রচণ্ড ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "bones",
+      "caries",
+      "night-aggravation"
+    ],
+    "explanation": "Aurum-এ অস্থির ক্যারিস ও রাতে ব্যথা বৃদ্ধি হয়।"
+  },
+  {
+    "id": "aurum-sym-10",
+    "stem": "সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত রাতে, শীতকালে, মানসিক পরিশ্রমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "aggravation",
+      "night",
+      "winter",
+      "mental-work"
+    ],
+    "explanation": "Aurum-এ রাতে কষ্ট বাড়ে।"
+  },
+  {
+    "id": "bac-sym-17",
+    "stem": "রাতে, ভোরের দিকে, ঠান্ডায়, স্যাঁতসেঁতে আবহাওয়ায় ও নড়াচড়া করলে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "aggravation",
+      "cold",
+      "damp",
+      "motion"
+    ],
+    "explanation": "Bacillinum এ রাতে, ভোরের দিকে, ঠান্ডায়, স্যাঁতসেঁতে আবহাওয়ায় এবং নড়াচড়া করলে লক্ষণ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "baryta-sym-13",
+    "stem": "ঠান্ডায়, ভেজা আবহাওয়ায়, বাম পাশে শুলে, মাথা ধুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "aggravation",
+      "cold",
+      "wet",
+      "left-side",
+      "washing-head"
+    ],
+    "explanation": "Baryta-র বৃদ্ধি ঠান্ডা, ভেজা, বাম পাশে শোয়া ও মাথা ধোয়ায়।"
+  },
+  {
+    "id": "baryta-sym-17",
+    "stem": "বাম পাশে শুলে রোগ বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "aggravation",
+      "lying",
+      "left-side"
+    ],
+    "explanation": "Baryta-তে বাম পাশে শুলে বৃদ্ধি ঘটে।"
+  },
+  {
+    "id": "baryta-sym-20",
+    "stem": "অপরিচিত মানুষের সামনে আসলে বৃদ্ধি, মাথা ধুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Ambra Grisea",
+        "mid": "ambra-grisea"
+      },
+      {
+        "text": "Barryta Muriatica",
+        "mid": "baryta-muriatica"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "aggravation",
+      "strangers",
+      "washing-head"
+    ],
+    "explanation": "Baryta-তে অপরিচিতদের সামনে ও মাথা ধুলে বৃদ্ধি ঘটে।"
+  },
+  {
+    "id": "bry-sym-01",
+    "stem": "সামান্যতম নড়াচড়া বা চলাফেরা করলে সমস্ত কষ্ট বহুগুণ বেড়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "general",
+      "aggravation",
+      "motion"
+    ],
+    "explanation": "Bryonia-এর সবচেয়ে প্রধান বৈশিষ্ট্যপূর্ণ লক্ষণ হলো সামান্যতম নড়াচড়া বা চলাফেরা করলে রোগীর কষ্ট বহুগুণ বেড়ে যায়।"
+  },
+  {
+    "id": "bry-sym-20",
+    "stem": "গরম আবহাওয়ায় বা গরমে এবং খাওয়ার পর রোগলক্ষণ বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "aggravation",
+      "warmth",
+      "eating"
+    ],
+    "explanation": "Bryonia-এর বৃদ্ধি ঘটে গরম আবহাওয়ায়, অতিরিক্ত তাপে, খাওয়ার পর এবং সকালের দিকে।"
+  },
+  {
+    "id": "cantharis-sym-14",
+    "stem": "লক্ষণ বৃদ্ধি পায় প্রস্রাব করার সময় বা পরে, কফি পান করলে, ঠান্ডা জল পান করলে এবং স্পর্শ করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "urination",
+      "coffee",
+      "cold-water",
+      "touch"
+    ],
+    "explanation": "Cantharis-এর লক্ষণ প্রস্রাব করার সময় বা পরে, কফি পান করলে, ঠান্ডা জল পান করলে এবং স্পর্শ করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "calcphos-sym-19",
+    "stem": "ভিজে ঠান্ডা আবহাওয়া, তুষার গলা জল, নড়াচড়া ও মানসিক পরিশ্রমে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "aggravation",
+      "cold",
+      "damp",
+      "motion"
+    ],
+    "explanation": "Calcarea Phosphorica এ ভিজে ঠান্ডা আবহাওয়ায়, তুষার গলা জলে, নড়াচড়া করলে এবং মানসিক পরিশ্রমে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "calen-sym-13",
+    "stem": "মেঘলা বা স্যাঁতসেঁতে আবহাওয়ায়, নড়াচড়ায়, রাতে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "aggravation",
+      "damp",
+      "cloudy",
+      "motion",
+      "night"
+    ],
+    "explanation": "Calendula-র বৃদ্ধি মেঘলা, স্যাঁতসেঁতে, নড়াচড়া ও রাতে।"
+  },
+  {
+    "id": "calc-fluor-sym-20",
+    "stem": "লক্ষণ বৃদ্ধি পায় বিশ্রামে, আবহাওয়ার পরিবর্তনে এবং ঠান্ডা ও আর্দ্র পরিবেশে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "rest",
+      "weather-change",
+      "cold-damp"
+    ],
+    "explanation": "Calcarea Fluorica-এর লক্ষণ বিশ্রাম নিলে, আবহাওয়ার পরিবর্তনে এবং ঠান্ডা ও আর্দ্র পরিবেশে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "carbo-sym-11",
+    "stem": "চর্বিযুক্ত খাবার, দুধ, পচা খাবারে গ্যাস বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "stomach",
+      "aggravation",
+      "fat",
+      "milk",
+      "gas"
+    ],
+    "explanation": "Carbo Veg-এ চর্বি, দুধ ও পচা খাবারে গ্যাস বাড়ে।"
+  },
+  {
+    "id": "carbo-sym-15",
+    "stem": "বিকেল ৪টা থেকে ৮টা, শুয়ে থাকলে, আর্দ্র আবহাওয়ায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "aggravation",
+      "afternoon",
+      "lying",
+      "damp"
+    ],
+    "explanation": "Carbo Veg-এ ৪-৮টায় ও শুয়ে থাকলে বৃদ্ধি।"
+  },
+  {
+    "id": "caps-sym-19",
+    "stem": "খোলা বাতাসে, ঠান্ডায়, স্পর্শে ও খাওয়ার পর বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "aggravation",
+      "cold",
+      "open-air",
+      "touch"
+    ],
+    "explanation": "Capsicum Annuum এ খোলা বাতাসে, ঠান্ডায়, স্পর্শ করলে এবং খাওয়ার পর বৃদ্ধি হয়।"
+  },
+  {
+    "id": "calc-sym-13",
+    "stem": "পূর্ণিমা ও অমাবস্যার সময় শারীরিক ও মানসিক কষ্টের বৃদ্ধি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "aggravation",
+      "full-moon",
+      "new-moon"
+    ],
+    "explanation": "Calcarea Carb-এ অমাবস্যা ও পূর্ণিমার চন্দ্রকলায় রোগের উপসর্গ ও মানসিক কষ্টের লক্ষণ বেড়ে যায়।"
+  },
+  {
+    "id": "calc-sym-20",
+    "stem": "ঠান্ডা বাতাসে, জলে ভিজলে বা গোসল করলে কষ্টের বৃদ্ধি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Antim Crud",
+        "mid": "antim-crud"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "aggravation",
+      "bathing",
+      "cold-water"
+    ],
+    "explanation": "Calcarea Carb-এর রোগপ্রবণতা ও শারীরিক কষ্টের তীব্রতা স্নান করলে (Bathing) বা জলে ভিজিলে বেড়ে যায়।"
+  },
+  {
+    "id": "calc-sym-13",
+    "stem": "পূর্ণিমা ও অমাবস্যার সময় শারীরিক ও মানসিক কষ্টের বৃদ্ধি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "aggravation",
+      "full-moon",
+      "new-moon"
+    ],
+    "explanation": "Calcarea Carb-এ অমাবস্যা ও পূর্ণিমার চন্দ্রকলায় রোগের উপসর্গ ও মানসিক কষ্টের লক্ষণ বেড়ে যায়।"
+  },
+  {
+    "id": "calc-sym-20",
+    "stem": "ঠান্ডা বাতাসে, জলে ভিজলে বা গোসল করলে কষ্টের বৃদ্ধি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Antim Crud",
+        "mid": "antim-crud"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "aggravation",
+      "bathing",
+      "cold-water"
+    ],
+    "explanation": "Calcarea Carb-এর রোগপ্রবণতা ও শারীরিক কষ্টের তীব্রতা স্নান করলে (Bathing) বা জলে ভিজিলে বেড়ে যায়।"
+  },
+  {
+    "id": "colch-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "food-smell",
+      "touch",
+      "motion",
+      "night",
+      "autumn"
+    ],
+    "explanation": "Colchicum-এর লক্ষণ খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "clem-sym-09",
+    "stem": "ঠান্ডা জলে স্নান করলে এবং অমাবস্যার সময় রোগলক্ষণ বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Antim Crud",
+        "mid": "antim-crud"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "aggravation",
+      "cold-bath",
+      "new-moon"
+    ],
+    "explanation": "Clematis Erecta-এর রোগলক্ষণ বিশেষ করে ঠান্ডা পানিতে স্নানে ও অমাবস্যায় বৃদ্ধি প্রাপ্ত হয়।"
+  },
+  {
+    "id": "colocynthis-sym-06",
+    "stem": "আহারের পর বৃদ্ধি, মুখের স্বাদ তিতা লাগা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "aggravation",
+      "eating",
+      "taste"
+    ],
+    "explanation": "Colocynthis এ আহারের পর বৃদ্ধি হয়, মুখের স্বাদ তিতা লাগে।"
+  },
+  {
+    "id": "colocynthis-sym-19",
+    "stem": "রাগে, খাবার পর বিশেষ করে পনির বা ফল খেলে, বিকেল 4টের দিকে ও বিশ্রামে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "aggravation",
+      "anger",
+      "eating",
+      "rest"
+    ],
+    "explanation": "Colocynthis এ রাগের ফলে, খাবার পর বিশেষ করে পনির বা ফল খেলে, বিকেল 4টের দিকে এবং বিশ্রামে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "cinn-sym-09",
+    "stem": "রাতে বিছানায় শোয়ার পর এবং স্যাঁতসেঁতে আবহাওয়ায় কষ্টের বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "aggravation",
+      "night",
+      "damp"
+    ],
+    "explanation": "Cinnabaris-এর শারীরিক কষ্টগুলো রাতের বেলা শয্যায় গেলে ও ভেজা সেঁতসেঁতে আবহাওয়ায় বৃদ্ধি পেতে দেখা যায়।"
+  },
+  {
+    "id": "china-sym-19",
+    "stem": "সামান্য স্পর্শে, ঠান্ডা বাতাসে, রাতে, খাওয়ার পর ও ফল খেলে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "aggravation",
+      "touch",
+      "cold",
+      "fruit"
+    ],
+    "explanation": "China এ সামান্য স্পর্শে, ঠান্ডা বাতাসে, রাতে, খাওয়ার পর এবং ফল খেলে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "conium-sym-16",
+    "stem": "রাতে, শুয়ে থাকলে, মাথা ঘোরালে, অবিবাহিত বা সংযমীদের ক্ষেত্রে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Selenium",
+        "mid": "selenium"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "aggravation",
+      "night",
+      "lying",
+      "turning-head",
+      "celibacy"
+    ],
+    "explanation": "Conium-এ রাতে, শুয়ে, মাথা ঘোরালে ও সংযমীদের বৃদ্ধি।"
+  },
+  {
+    "id": "hyper-sym-07",
+    "stem": "আবহাওয়া পরিবর্তনে স্নায়ুশূল বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Rhododendron",
+        "mid": "rhododendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "neuralgia",
+      "weather-change",
+      "aggravation"
+    ],
+    "explanation": "Hypericum-এ আবহাওয়া পরিবর্তনে স্নায়ুশূল বাড়ে।"
+  },
+  {
+    "id": "hyper-sym-17",
+    "stem": "কুয়াশা, স্যাঁতসেঁতে, স্পর্শে, ঠান্ডায়, নড়াচড়ায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "aggravation",
+      "fog",
+      "damp",
+      "touch",
+      "cold",
+      "motion"
+    ],
+    "explanation": "Hypericum-এ কুয়াশা, স্যাঁতসেঁতে, স্পর্শ, ঠান্ডা ও নড়াচড়ায় বৃদ্ধি।"
+  },
+  {
+    "id": "just-sym-09",
+    "stem": "বদ্ধ ঘরে, ধুলোবালিতে এবং রাতে রোগ লক্ষণ বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Blatta",
+        "mid": "blatta"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "aggravation",
+      "room",
+      "dust",
+      "night"
+    ],
+    "explanation": "Justicia Adhatoda-এর শ্বাসযন্ত্রের কষ্ট বদ্ধ ঘরে, ধুলোবালিতে এবং রাতের বেলায় তীব্র আকার ধারণ করে।"
+  },
+  {
+    "id": "hama-sym-16",
+    "stem": "স্পর্শ করলে, নড়াচড়া করলে, গরম আবহাওয়া ও আর্দ্র ঠান্ডায় রোগ বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "aggravation",
+      "touch",
+      "motion"
+    ],
+    "explanation": "Hamamelis-এ স্পর্শ, নড়াচড়া, উষ্ণতা ও ভিজা ঠান্ডায় সার্বিক রোগের মাত্রা বাড়ে।"
+  },
+  {
+    "id": "hell-sym-12",
+    "stem": "লক্ষণ বৃদ্ধি পায় বিকাল ৪টা থেকে রাত ৮টা পর্যন্ত, ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "evening",
+      "cold-air",
+      "uncovering"
+    ],
+    "explanation": "Helleborus Niger-এর লক্ষণ বিকাল ৪টা থেকে রাত ৮টা পর্যন্ত, ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "iodium-sym-19",
+    "stem": "গরমে, গরম ঘরে, বিশ্রাম নিলে ও আহার না করলে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "aggravation",
+      "warmth",
+      "rest",
+      "fasting"
+    ],
+    "explanation": "Iodium এ গরমে, গরম ঘরে, বিশ্রাম নিলে এবং আহার না করলে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "ipecac-sym-13",
+    "stem": "খাবারের গন্ধে বমি ভাব বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "smell-of-food"
+    ],
+    "explanation": "Ipecac-এর লক্ষণ খাবারের গন্ধে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ipecac-sym-14",
+    "stem": "তামাকের গন্ধে লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "smell-of-tobacco"
+    ],
+    "explanation": "Ipecac-এর লক্ষণ তামাকের গন্ধে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ipecac-sym-15",
+    "stem": "আর্দ্র গরম আবহাওয়ায় লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "damp-hot-weather"
+    ],
+    "explanation": "Ipecac-এর লক্ষণ আর্দ্র গরম আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ipecac-sym-16",
+    "stem": "রাতে লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "night"
+    ],
+    "explanation": "Ipecac-এর লক্ষণ রাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "hepar-sym-20",
+    "stem": "ঠান্ডা বাতাসে, স্পর্শে, রাতে, নড়াচড়ায় ও কাপড় না থাকলে বৃদ্ধি, গরমে, ঢেকে রাখলে ও আর্দ্র আবহাওয়ায় উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "cold",
+      "touch"
+    ],
+    "explanation": "Hepar Sulph এ ঠান্ডা বাতাসে, স্পর্শে, রাতে, নড়াচড়ায় এবং শরীরে কাপড় না থাকলে বৃদ্ধি হয়, গরমে, শরীর ঢেকে রাখলে এবং আর্দ্র আবহাওয়ায় উপশম হয়।"
+  },
+  {
+    "id": "glon-sym-02",
+    "stem": "সূর্যের আলোতে রোগ বৃদ্ধি, টুপি বা ঘোমটা অসহ্য — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "aggravation",
+      "sun",
+      "hat",
+      "head-covering"
+    ],
+    "explanation": "Glonoine-এ রোদে বৃদ্ধি ও মাথার আবরণ অসহ্য।"
+  },
+  {
+    "id": "glon-sym-09",
+    "stem": "মাথা নিচু করলে ব্যথা প্রচণ্ড বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "headache",
+      "aggravation",
+      "bending-down"
+    ],
+    "explanation": "Glonoine-এ মাথা নিচু করলে ব্যথা বাড়ে।"
+  },
+  {
+    "id": "glon-sym-17",
+    "stem": "সূর্যের আলোতে, আগুনের তাপে, চুলে তেল লাগালে, মদ পানে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "aggravation",
+      "sun",
+      "heat",
+      "hair-oil",
+      "alcohol"
+    ],
+    "explanation": "Glonoine-এ রোদ, তাপ, তেল ও মদে বৃদ্ধি।"
+  },
+  {
+    "id": "euphrasia-sym-19",
+    "stem": "সকালে, সূর্যের আলোতে, গরম ঘরে ও দক্ষিণে প্রবাহিত বাতাসে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "sun",
+      "warm"
+    ],
+    "explanation": "Euphrasia Officinalis এ সকালে, সূর্যের আলোতে, গরম ঘরে এবং দক্ষিণে প্রবাহিত বাতাসে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "dulc-sym-11",
+    "stem": "বাতের ব্যথা (Rheumatism) যা ঠান্ডা ও ভিজে আবহাওয়ায় প্রচণ্ড বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "rheumatism",
+      "cold-damp",
+      "aggravation"
+    ],
+    "explanation": "Dulcamara-এ বাতের ব্যথা (Rheumatism) ঠান্ডা ও ভিজে আবহাওয়ায় প্রচণ্ড বাড়ে।"
+  },
+  {
+    "id": "dulc-sym-15",
+    "stem": "লক্ষণ বৃদ্ধি পায় ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায়, রাতে এবং বিশ্রামে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "cold-damp",
+      "night",
+      "rest"
+    ],
+    "explanation": "Dulcamara-এর লক্ষণ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায়, রাতে এবং বিশ্রামে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "mez-sym-11",
+    "stem": "ঠান্ডা বাতাসে উপসর্গ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "cold-air",
+      "aggravation"
+    ],
+    "explanation": "Cold air worsens Mezereum complaints."
+  },
+  {
+    "id": "natp-sym-16",
+    "stem": "চিনি মিষ্টি, দুধ, বজ্রপাতের সময়, মানসিক উত্তেজনায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "aggravation",
+      "sugar",
+      "milk",
+      "thunderstorm"
+    ],
+    "explanation": "Natrum Phos-এ মিষ্টি, দুধ, বজ্রপাতে বৃদ্ধি।"
+  },
+  {
+    "id": "merc-sym-04",
+    "stem": "রাতে ও বিছানার গরমে প্রতিটি কষ্ট তীব্র হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "aggravation",
+      "night",
+      "bed-heat"
+    ],
+    "explanation": "Merc Vivus-এ রাতে ও বিছানার গরমে বৃদ্ধি।"
+  },
+  {
+    "id": "merc-sym-08",
+    "stem": "প্রচণ্ড ঘাম হয় কিন্তু ঘামে কষ্ট কমে না, বরং বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "sweat",
+      "profuse",
+      "no-relief",
+      "aggravation"
+    ],
+    "explanation": "Merc Vivus-এ ঘামে কষ্ট বাড়ে।"
+  },
+  {
+    "id": "merc-sym-16",
+    "stem": "রাতে, বিছানার গরমে, স্যাঁতসেঁতে, ঘামলে, ডান পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "aggravation",
+      "night",
+      "bed-heat",
+      "damp",
+      "sweat",
+      "right-lying"
+    ],
+    "explanation": "Merc Vivus-এ রাতে, বিছানার গরমে, ঘামলে বৃদ্ধি।"
+  },
+  {
+    "id": "magphos-sym-10",
+    "stem": "ঠান্ডা প্রয়োগে ব্যথা চরম আকার ধারণ করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "aggravation",
+      "cold"
+    ],
+    "explanation": "Magnesia Phosphorica এ ঠান্ডা প্রয়োগে রোগ বা ব্যথা চরম আকার ধারণ করে।"
+  },
+  {
+    "id": "magphos-sym-20",
+    "stem": "ডান দিকে, ঠান্ডা বাতাসে, ঠান্ডা জলে ধুলে বা স্নান করলে, স্পর্শে ও রাতে বিছানায় উন্মুক্ত থাকলে বৃদ্ধি, গরম সেঁক, চাপ, কুঁকড়ে বসা বা ঘষলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "cold",
+      "warmth"
+    ],
+    "explanation": "Magnesia Phosphorica এ শরীরের ডান দিকে, ঠান্ডা বাতাসে, ঠান্ডা জলে ধুলে বা স্নান করলে, স্পর্শ করলে এবং রাতে বিছানায় উন্মুক্ত থাকলে বৃদ্ধি হয়, উষ্ণতা বা গরম সেঁক, চাপ, কুঁকড়ে বসা বা ঘষলে উপশম হয়।"
+  },
+  {
+    "id": "natc-sym-12",
+    "stem": "ঝড়ের আবহাওয়া আসার আগে বা দুর্যোগপূর্ণ Weather-এর পূর্বে লক্ষণ বৃদ্ধি পাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Rhododendron",
+        "mid": "rhododendron"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "weather",
+      "aggravation"
+    ],
+    "explanation": "Natrum Carb রোগীর শারীরিক কষ্ট বা লক্ষণগুলো ঝড়ের আবহাওয়া তৈরির ঠিক পূর্ব মুহূর্তে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "natc-sym-16",
+    "stem": "গ্যাস বা কৃত্রিম আলোর নিচে কাজ করলেও ক্রনিক মাথাব্যথা বৃদ্ধি পাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "headache",
+      "light-aggravation"
+    ],
+    "explanation": "Natrum Carb-এর মাথাব্যথা সূর্যের আলো ছাড়াও গ্যাসের বা কৃত্রিম আলোর নিচে কাজ করলেও বৃদ্ধি পায়।"
+  },
+  {
+    "id": "lyc-sym-02",
+    "stem": "প্রতিদিন বিকাল ৪টা থেকে ৮টার মধ্যে সকল উপসর্গের তীব্র বৃদ্ধি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carb"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "aggravation",
+      "time",
+      "4pm-8pm"
+    ],
+    "explanation": "বিকাল ৪টা থেকে ৮টা পর্যন্ত সময়সীমা Lycopodium নির্বাচনের সবচেয়ে নির্ভরযোগ্য ও প্রামাণ্য লক্ষণ।"
+  },
+  {
+    "id": "mag-carb-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় রাতে, বিছানার গরমে, বিশ্রামে এবং ঠান্ডা বাতাসে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "night",
+      "bed-heat",
+      "rest",
+      "cold-air"
+    ],
+    "explanation": "Magnesia Carbonica-এর লক্ষণ রাতে, বিছানার গরমে, বিশ্রামে এবং ঠান্ডা বাতাসে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "mag-carb-sym-18",
+    "stem": "দুধ পানেও রোগ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Aethusa Cynapium",
+        "mid": "aethusa-cynapium"
+      },
+      {
+        "text": "Lac Defloratum",
+        "mid": "lac-defloratum"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "milk"
+    ],
+    "explanation": "Magnesia Carbonica-এ দুধ পানেও রোগ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "lach-sym-02",
+    "stem": "গলা স্পর্শে অত্যন্ত সংবেদনশীল, গলায় ফোলা নীলচে, খালি গিললে ব্যথা বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phytolacca Decandra",
+        "mid": "phytolacca-decandra"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "throat",
+      "touch-sensitive",
+      "empty-swallow-agg"
+    ],
+    "explanation": "Lachesis-এ গলা স্পর্শে অসহ্য ও খালি গিললে বাড়ে।"
+  },
+  {
+    "id": "lach-sym-06",
+    "stem": "ঘুমের পর সব লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "aggravation",
+      "sleep",
+      "after-sleep"
+    ],
+    "explanation": "Lachesis-এ ঘুমের পর অবনতি ঘটে।"
+  },
+  {
+    "id": "lach-sym-13",
+    "stem": "গরমে, স্পর্শে, ঘুমের পর, সকালে, বাম পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "aggravation",
+      "heat",
+      "touch",
+      "sleep",
+      "morning",
+      "left-lying"
+    ],
+    "explanation": "Lachesis-এ গরমে, স্পর্শে, ঘুমের পর বৃদ্ধি।"
+  },
+  {
+    "id": "lach-sym-19",
+    "stem": "মদ খেলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Ranunculus Bulbosus",
+        "mid": "ranunculus-bulbosus"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "aggravation",
+      "alcohol"
+    ],
+    "explanation": "Lachesis-এ মদে বৃদ্ধি ঘটে।"
+  },
+  {
+    "id": "natp-sym-16",
+    "stem": "চিনি মিষ্টি, দুধ, বজ্রপাতের সময়, মানসিক উত্তেজনায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "aggravation",
+      "sugar",
+      "milk",
+      "thunderstorm"
+    ],
+    "explanation": "Natrum Phos-এ মিষ্টি, দুধ, বজ্রপাতে বৃদ্ধি।"
+  },
+  {
+    "id": "rhus-sym-17",
+    "stem": "বৃদ্ধি: বিশ্রামে, প্রথম নড়াচড়ায়, রাতে, ঠান্ডা ও আর্দ্র আবহাওয়ায় এবং পিঠের ওপর ভর দিয়ে শুলে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhododendron",
+        "mid": "rhododendron"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "modalities",
+      "aggravation"
+    ],
+    "explanation": "Rhus Tox-এর কষ্টগুলো বিশ্রামে, প্রথম নড়াচড়ায়, রাতে এবং ঠান্ডা-আর্দ্র আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "petr-sym-13",
+    "stem": "লক্ষণ বৃদ্ধি পায় শীতকালে, গাড়িতে বা নৌকায় চড়লে, ঝড়ের আগে এবং খালি পেটে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "winter",
+      "motion",
+      "storm",
+      "empty-stomach"
+    ],
+    "explanation": "Petroleum-এর লক্ষণ শীতকালে, গাড়ি/নৌকায় চড়লে, ঝড়ের আগে, মানসিক পরিশ্রমে এবং খালি পেটে বৃদ্ধি পায়।[reference:32]"
+  },
+  {
+    "id": "plumbum-sym-11",
+    "stem": "মানসিক পরিশ্রম করলে শারীরিক লক্ষণ বেড়ে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Kali Phosphoricum",
+        "mid": "kali-phosphoricum"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "aggravation",
+      "mental-exertion"
+    ],
+    "explanation": "Plumbum Metallicum এ মানসিক পরিশ্রম করলে শারীরিক লক্ষণগুলো বেড়ে যায়।"
+  },
+  {
+    "id": "plumbum-sym-19",
+    "stem": "রাতে, নড়াচড়া করলে ও মানসিক পরিশ্রমে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "aggravation",
+      "night",
+      "motion",
+      "mental-exertion"
+    ],
+    "explanation": "Plumbum Metallicum এ রাতে, নড়াচড়া করলে এবং মানসিক পরিশ্রমে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "podo-sym-16",
+    "stem": "ভোরে ও সকালে, গরম আবহাওয়ায়, দাঁত ওঠার সময় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "aggravation",
+      "morning",
+      "hot-weather",
+      "dentition"
+    ],
+    "explanation": "Podophyllum-এ ভোরে, সকালে, গরমে ও দাঁত ওঠায় বৃদ্ধি।"
+  },
+  {
+    "id": "phy-sym-07",
+    "stem": "বর্ষাকালে, রাতে এবং গরম পানীয় পান করলে যাবতীয় শারীরিক কষ্ট বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "aggravation",
+      "rainy-season",
+      "hot-drinks"
+    ],
+    "explanation": "Phytolacca-এর কষ্ট বর্ষা, রাত্রিবেলা ও উষ্ণ পানীয় গ্রহণে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "podo-sym-16",
+    "stem": "ভোরে ও সকালে, গরম আবহাওয়ায়, দাঁত ওঠার সময় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "aggravation",
+      "morning",
+      "hot-weather",
+      "dentition"
+    ],
+    "explanation": "Podophyllum-এ ভোরে, সকালে, গরমে ও দাঁত ওঠায় বৃদ্ধি।"
+  },
+  {
+    "id": "opi-sym-17",
+    "stem": "ঘুমের সময় ও ঘুমের ঠিক পর এবং অতিরিক্ত গরমে রোগের বৃদ্ধি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "aggravation",
+      "sleep",
+      "warmth"
+    ],
+    "explanation": "Opium-এ শয়ন, নিদ্রা এবং অতিরিক্ত উত্তাপে অসুস্থতার বৃদ্ধি পরিলক্ষিত হয়।"
+  },
+  {
+    "id": "plat-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় বসে থাকলে, দাঁড়ালে এবং সন্ধ্যার দিকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "sitting",
+      "standing",
+      "evening"
+    ],
+    "explanation": "Platinum Metallicum-এর লক্ষণ বসে থাকলে, দাঁড়ালে এবং সন্ধ্যার দিকে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "phosphorus-sym-20",
+    "stem": "সন্ধ্যায়, বাম পাশে শুলে, বজ্রপাতের সময়, আবহাওয়ার পরিবর্তনে ও গরম খাবার বা পানীয় গ্রহণ করলে বৃদ্ধি, ডান পাশে শুলে, অন্ধকার ঘরে বিশ্রামে, ঠান্ডা জল পানে ও ঘুমের পর উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "evening",
+      "left"
+    ],
+    "explanation": "Phosphorus এ সন্ধ্যায়, বাম পাশে শুলে, বজ্রপাতের সময়, আবহাওয়ার পরিবর্তনে এবং গরম খাবার বা পানীয় গ্রহণ করলে বৃদ্ধি হয়, ডান পাশে শুলে, অন্ধকার ঘরে বিশ্রামে, ঠান্ডা জল পানে এবং ঘুমের পর উপশম হয়।"
+  },
+  {
+    "id": "sel-sym-14",
+    "stem": "সূর্যোদয় ও উত্তাপে বৃদ্ধি, সূর্যাস্তে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "aggravation",
+      "sunrise",
+      "heat",
+      "amel-sunset"
+    ],
+    "explanation": "Selenium-এ সূর্যোদয় ও তাপে বৃদ্ধি, সূর্যাস্তে উপশম।"
+  },
+  {
+    "id": "sel-sym-15",
+    "stem": "চরম দুঃখী, অল্পে ক্লান্ত, রোদে শক্তি নিঃশেষ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Picricum Acidum",
+        "mid": "picricum-acidum"
+      },
+      {
+        "text": "Muriaticum Acidum",
+        "mid": "muriaticum-acidum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "mind",
+      "sad",
+      "exhaustion",
+      "sun-agg"
+    ],
+    "explanation": "Selenium রোগী চরম দুঃখী ও অল্পে ক্লান্ত হয়।"
+  },
+  {
+    "id": "sel-sym-17",
+    "stem": "মানসিক পরিশ্রমে শারীরিক লক্ষণ বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "aggravation",
+      "mental-exertion",
+      "physical-symptoms"
+    ],
+    "explanation": "Selenium-এ মানসিক পরিশ্রমে শারীরিক লক্ষণ বাড়ে।"
+  },
+  {
+    "id": "sel-sym-18",
+    "stem": "রোদে, গরমে, ঘুমের পর, সহবাসের পর, মদে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "aggravation",
+      "sun",
+      "heat",
+      "sleep",
+      "coition",
+      "alcohol"
+    ],
+    "explanation": "Selenium-এ রোদে, গরমে, ঘুমের পর, সহবাসের পর বৃদ্ধি।"
+  },
+  {
+    "id": "staph-sym-17",
+    "stem": "রাগের পর, যৌন মিলনের পর, মানসিক আঘাতে, তামাক সেবনে, রাত জাগলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "aggravation",
+      "anger",
+      "coition",
+      "mental-injury",
+      "tobacco"
+    ],
+    "explanation": "Staphisagria-এ রাগ, যৌন মিলন, মানসিক আঘাত ও তামাকে বৃদ্ধি।"
+  },
+  {
+    "id": "sene-sym-20",
+    "stem": "বৃদ্ধি: বিশ্রামে থাকলে, ঠান্ডা বাতাসে, হাঁটাচলা করার সময় এবং কথা বললে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "modalities",
+      "aggravation"
+    ],
+    "explanation": "Senega-এর সমস্ত উপসর্গ বা কফজনিত কাশি বিশ্রামে, ঠান্ডা বাতাসে, হাঁটার সময় এবং কথা বলার চেষ্টায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sars-sym-11",
+    "stem": "মানসিক পরিশ্রম করলে শারীরিক কষ্টগুলো বেড়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "mental",
+      "physical",
+      "exertion",
+      "aggravation"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ মানসিক পরিশ্রম করলে রোগীর শারীরিক কষ্টগুলো বেড়ে যায়।"
+  },
+  {
+    "id": "sars-sym-16",
+    "stem": "ঠান্ডা কিছু খেলে বা ঠান্ডা বাতাস লাগলে লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "cold",
+      "food",
+      "air"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ ঠান্ডা কিছু খেলে বা ঠান্ডা বাতাস লাগলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sars-sym-17",
+    "stem": "বসন্তকালে এবং স্যাঁতসেঁতে ঠান্ডা আবহাওয়ায় লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "spring",
+      "damp-cold"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ বসন্তকালে এবং স্যাঁতসেঁতে ঠান্ডা আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sars-sym-18",
+    "stem": "ভিনেগার খেলে লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "vinegar"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ ভিনেগার খেলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sanguinaria-sym-07",
+    "stem": "ডানে শুইতে পারে না, ডান পাশে শুলে বৃদ্ধি হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "aggravation",
+      "right-lying"
+    ],
+    "explanation": "Sanguinaria Canadensis রোগী ডানে শুইতে পারে না, ডান পাশে শুলে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-20",
+    "stem": "ডান পাশে শুলে, নড়াচড়া করলে, আলোর দিকে তাকালে, কড়া গন্ধে ও দুপুর বেলায় বৃদ্ধি, বমি করলে, অন্ধকার ঘরে শুয়ে থাকলে, ঘুমিয়ে পড়লে ও প্রচুর পরিমাণে প্রস্রাব ত্যাগ করলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "right",
+      "noon"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ডান পাশে শুলে, নড়াচড়া করলে, আলোর দিকে তাকালে, কড়া গন্ধে এবং দুপুর বেলায় বৃদ্ধি হয়, বমি করলে, অন্ধকার ঘরে শুয়ে থাকলে, ঘুমিয়ে পড়লে এবং প্রচুর পরিমাণে প্রস্রাব ত্যাগ করলে উপশম হয়।"
+  },
+  {
+    "id": "staph-sym-17",
+    "stem": "রাগের পর, যৌন মিলনের পর, মানসিক আঘাতে, তামাক সেবনে, রাত জাগলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "aggravation",
+      "anger",
+      "coition",
+      "mental-injury",
+      "tobacco"
+    ],
+    "explanation": "Staphisagria-এ রাগ, যৌন মিলন, মানসিক আঘাত ও তামাকে বৃদ্ধি।"
+  },
+  {
+    "id": "sep-sym-17",
+    "stem": "সকালে ও সন্ধ্যায়, ঋতুস্রাবের আগে-পরে, যৌন মিলনের পর এবং ভেজা ঠান্ডা আবহাওয়ায় কষ্টের বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "aggravation",
+      "menses",
+      "coition"
+    ],
+    "explanation": "Sepia-র রোগলক্ষণ সেঁতসেঁতে আবহাওয়া, সংগম এবং মাসিকের সময় বাড়ে।"
+  },
+  {
+    "id": "sec-sym-08",
+    "stem": "যেকোনো ধরণের উত্তাপ, গরম ঘর বা শরীর ঢেকে রাখলে শারীরিক উপসর্গসমূহের মারাত্মক বৃদ্ধি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "aggravation",
+      "heat",
+      "warmth"
+    ],
+    "explanation": "Secale Cornutum-এ ঘরের উত্তাপ বা বাহ্যিক তাপে কষ্ট দ্বিগুণ হয়।"
+  },
+  {
+    "id": "spigelia-sym-08",
+    "stem": "বর্ষায় বা জলো হাওয়ায় রোগ বৃদ্ধি পায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "aggravation",
+      "rain",
+      "damp"
+    ],
+    "explanation": "Spigelia Anthelmia এ বর্ষায় বা জলো হাওয়ায় রোগ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "spigelia-sym-20",
+    "stem": "নড়াচড়া করলে, স্পর্শ করলে, গোলমালে ও সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি, ডান পাশে ফিরে শুলে ও মাথা উঁচু করে রাখলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "motion",
+      "sun"
+    ],
+    "explanation": "Spigelia Anthelmia এ নড়াচড়া করলে, স্পর্শ করলে, গোলমালে এবং সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি হয়, ডান পাশে ফিরে শুলে এবং মাথা উঁচু করে রাখলে উপশম হয়।"
+  },
+  {
+    "id": "sil-sym-11",
+    "stem": "লক্ষণ বৃদ্ধি পায় নতুন চাঁদের সময় (অমাবস্যা), ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "new-moon",
+      "cold-air",
+      "uncovering"
+    ],
+    "explanation": "Silicea-এর লক্ষণ নতুন চাঁদের সময় (অমাবস্যা), ঠান্ডা বাতাসে, শরীর উন্মুক্ত করলে, ভিজে আবহাওয়ায় এবং মানসিক পরিশ্রমে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sul-sym-17",
+    "stem": "গরম বাতাসে, বিছানায় শুলে এবং সকালের দিকে উপসর্গের তীব্র বৃদ্ধি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "aggravation",
+      "warmth",
+      "morning"
+    ],
+    "explanation": "Sulphur-এর অসুস্থতা বিছানার গরমে ও সকালের দিকে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sani-sym-07",
+    "stem": "রোগী অত্যন্ত খিটখিটে, লবণ প্রিয় এবং কেউ তাকে আদরে বা সান্ত্বনা দিলে আরও রেগে যাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "mind",
+      "consolation-agg"
+    ],
+    "explanation": "Sanicula রোগী লবণ খেতে ভালোবাসে এবং সান্ত্বনা বা আদর দিলে তার মেজাজ আরও খিটখিটে ও রাগান্বিত হয়।"
+  },
+  {
+    "id": "sani-sym-15",
+    "stem": "বৃদ্ধি: দুধ পান করলে, নড়াচড়া করলে, খাওয়ার পর এবং ঝড়ের পূর্বে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Rhododendron",
+        "mid": "rhododendron"
+      },
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "modalities",
+      "aggravation"
+    ],
+    "explanation": "Sanicula-এর সমস্ত লক্ষণ দুধ পানে, নড়াচড়া করলে, খাবার গ্রহণের পর এবং ঝড় আসার ঠিক পূর্বে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sab-sym-03",
+    "stem": "নড়াচড়ায় রক্তস্রাব ও ব্যথা বেড়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "aggravation",
+      "motion",
+      "hemorrhage",
+      "pain"
+    ],
+    "explanation": "Sabina-এ নড়াচড়ায় রক্তস্রাব ও ব্যথা বাড়ে।"
+  },
+  {
+    "id": "sab-sym-05",
+    "stem": "সঙ্গীত অসহ্য, স্নায়বিক উত্তেজনা ও কষ্ট বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Ambra Grisea",
+        "mid": "ambra-grisea"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "music",
+      "intolerable",
+      "aggravation",
+      "nervous"
+    ],
+    "explanation": "Sabina রোগী সঙ্গীত সহ্য করতে পারে না।"
+  },
+  {
+    "id": "sab-sym-13",
+    "stem": "সঙ্গীত শুনলে মনে চাপ ও বিষণ্ণতা বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "mind",
+      "music",
+      "aggravation",
+      "depression"
+    ],
+    "explanation": "Sabina-এ সঙ্গীতে বিষণ্ণতা ও চাপ বাড়ে।"
+  },
+  {
+    "id": "sab-sym-15",
+    "stem": "সামান্য নড়াচড়া, গরম ঘর, গরম আবহাওয়া, সঙ্গীত শুনলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "aggravation",
+      "motion",
+      "warm-room",
+      "music"
+    ],
+    "explanation": "Sabina-এ নড়াচড়া, গরম ঘর ও সঙ্গীতে বৃদ্ধি।"
+  },
+  {
+    "id": "var-sym-08",
+    "stem": "রাতে, গরম ঘরে এবং নড়াচড়া করলে শারীরিক যন্ত্রণা বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "aggravation",
+      "night",
+      "warm-room"
+    ],
+    "explanation": "Variolinum-এর কষ্টসমূহ রাত, উত্তপ্ত কক্ষ এবং নড়াচড়ায় তীব্র হয়।"
+  },
+  {
+    "id": "syphilinum-sym-20",
+    "stem": "সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত, সমুদ্র তীরে ও গ্রীষ্মকালে বৃদ্ধি, দিনের বেলা, নড়াচড়া করলে ও ঠান্ডা বাতাসে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "night",
+      "seashore",
+      "summer"
+    ],
+    "explanation": "Syphilinum এ সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত, সমুদ্র তীরে এবং গ্রীষ্মকালে বৃদ্ধি হয়, দিনের বেলা, নড়াচড়া করলে এবং ঠান্ডা বাতাসে উপশম হয়।"
+  },
+  {
+    "id": "zincum-sym-16",
+    "stem": "মদ বা ওয়াইন পানের পর সব লক্ষণ বৃদ্ধি পায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "aggravation",
+      "wine",
+      "alcohol"
+    ],
+    "explanation": "Zincum Metallicum এ মদ বা ওয়াইন পানের পর সব লক্ষণ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "zincum-sym-17",
+    "stem": "মদ বা উদ্দীপক পানীয় পান করলে, সন্ধ্যার দিকে, খাওয়ার পর ও ঘুমের সময় বৃদ্ধি পায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "aggravation",
+      "alcohol",
+      "evening",
+      "eating",
+      "sleep"
+    ],
+    "explanation": "Zincum Metallicum এ মদ বা উদ্দীপক পানীয় পান করলে, সন্ধ্যার দিকে, খাওয়ার পর এবং ঘুমের সময় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "verat-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় নড়াচড়া করলে, খাওয়ার পর, মলত্যাগের সময় এবং গরমে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "motion",
+      "eating",
+      "stool",
+      "heat"
+    ],
+    "explanation": "Veratrum Album-এর লক্ষণ নড়াচড়া করলে, খাওয়ার পর, মলত্যাগের সময় এবং গরমে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "thuja-sym-04",
+    "stem": "বাম দিকের রোগী, শীতকাতর, ঠান্ডা ও বর্ষায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "left-sided",
+      "chilly",
+      "cold-agg",
+      "rainy-agg"
+    ],
+    "explanation": "Thuja বাম পার্শ্ব ও শীতকাতর।"
+  },
+  {
+    "id": "thuja-sym-05",
+    "stem": "ভেজা জায়গা ও পানি সহ্য হয় না, রসবাত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "damp",
+      "water-intolerant",
+      "rheumatism",
+      "aggravation"
+    ],
+    "explanation": "Thuja ভেজা জায়গা সহ্য করতে পারে না।"
+  },
+  {
+    "id": "thuja-sym-17",
+    "stem": "সকালে, ঠান্ডায়, আর্দ্র আবহাওয়ায়, টিকা, চা, রাতে বিছানার গরমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "cold",
+      "damp",
+      "vaccination",
+      "tea"
+    ],
+    "explanation": "Thuja-এ সকালে, ঠান্ডা, আর্দ্রতা, টিকা ও চায়ে বৃদ্ধি।"
+  },
+  {
+    "id": "thuja-sym-04",
+    "stem": "বাম দিকের রোগী, শীতকাতর, ঠান্ডা ও বর্ষায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "left-sided",
+      "chilly",
+      "cold-agg",
+      "rainy-agg"
+    ],
+    "explanation": "Thuja বাম পার্শ্ব ও শীতকাতর।"
+  },
+  {
+    "id": "thuja-sym-05",
+    "stem": "ভেজা জায়গা ও পানি সহ্য হয় না, রসবাত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "damp",
+      "water-intolerant",
+      "rheumatism",
+      "aggravation"
+    ],
+    "explanation": "Thuja ভেজা জায়গা সহ্য করতে পারে না।"
+  },
+  {
+    "id": "thuja-sym-17",
+    "stem": "সকালে, ঠান্ডায়, আর্দ্র আবহাওয়ায়, টিকা, চা, রাতে বিছানার গরমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "cold",
+      "damp",
+      "vaccination",
+      "tea"
+    ],
+    "explanation": "Thuja-এ সকালে, ঠান্ডা, আর্দ্রতা, টিকা ও চায়ে বৃদ্ধি।"
+  },
+  {
+    "id": "sul-iod-sym-13",
+    "stem": "লক্ষণ বৃদ্ধি পায় গরম ঘরে, নড়াচড়া করলে এবং পরিশ্রম করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "warm-room",
+      "motion",
+      "exertion"
+    ],
+    "explanation": "Sulphur Iodatum-এর লক্ষণ গরম ঘরে, নড়াচড়া করলে এবং পরিশ্রম করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "apis-sym-13",
+    "stem": "লক্ষণ বৃদ্ধি পায় গরমে, গরম ঘরে, দুপুরের পর (বিকেল ৪টার দিকে), স্পর্শে এবং ঘুমের পর — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "heat",
+      "touch",
+      "sleep"
+    ],
+    "explanation": "Apis Mellifica-এর লক্ষণ গরমে, গরম ঘরে, দুপুরের পর (বিকেল ৪টার দিকে), স্পর্শে এবং ঘুমের পর বৃদ্ধি পায়।"
+  }
+]
