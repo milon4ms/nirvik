@@ -1,0 +1,379 @@
+[
+  {
+    "id": "calc-fluor-sym-13",
+    "stem": "জরায়ুর স্থানচ্যুতি (Prolapse) এবং জরায়ুর পেশী শিথিল হয়ে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "female",
+      "uterine-prolapse",
+      "laxity"
+    ],
+    "explanation": "Calcarea Fluorica-এ জরায়ুর স্থানচ্যুতি (Prolapse) এবং জরায়ুর পেশী শিথিল হয়ে যাওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "calc-fluor-sym-18",
+    "stem": "অন্ত্রবৃদ্ধি বা হার্নিয়ার (Hernia) সেরা ঔষধ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Cocculus",
+        "mid": "cocculus"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "hernia",
+      "abdominal-wall",
+      "laxity"
+    ],
+    "explanation": "Calcarea Fluorica অন্ত্রবৃদ্ধি বা হার্নিয়ার (Hernia) সেরা ঔষধ।"
+  },
+  {
+    "id": "ipecac-sym-08",
+    "stem": "পাকস্থলীতে মনে হয় যেন নিচের দিকে ঝুলে পড়েছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "stomach",
+      "relaxed-feeling",
+      "prolapse"
+    ],
+    "explanation": "Ipecac-এ পাকস্থলীতে মনে হয় যেন নিচের দিকে ঝুলে পড়েছে (Relaxed feeling in the stomach)।"
+  },
+  {
+    "id": "merc-sym-12",
+    "stem": "আমাশয় মল রক্ত ও পিচ্ছিল শ্লেষ্মা যুক্ত, মলদ্বার ঝুলে পড়ার অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "dysentery",
+      "blood",
+      "slime",
+      "prolapse"
+    ],
+    "explanation": "Merc Vivus আমাশয়ে রক্ত-শ্লেষ্মা ও মলদ্বার ঝুলে পড়ার অনুভূতি থাকে।"
+  },
+  {
+    "id": "podo-sym-04",
+    "stem": "মলদ্বার বাইরে বের হয়, সামান্য পরিশ্রম বা কাশিতেও — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "prolapse-anus",
+      "exertion",
+      "cough"
+    ],
+    "explanation": "Podophyllum-এ মলদ্বার বাইরে বেরিয়ে আসে।"
+  },
+  {
+    "id": "podo-sym-05",
+    "stem": "প্রসবের পর জরায়ু শিথিলতা ও স্থানচ্যুতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Aletris Farinosa",
+        "mid": "aletris-farinosa"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "prolapse-uterus",
+      "after-delivery",
+      "relaxation"
+    ],
+    "explanation": "Podophyllum-এ প্রসবের পর জরায়ু প্রল্যাপস হয়।"
+  },
+  {
+    "id": "podo-sym-04",
+    "stem": "মলদ্বার বাইরে বের হয়, সামান্য পরিশ্রম বা কাশিতেও — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "prolapse-anus",
+      "exertion",
+      "cough"
+    ],
+    "explanation": "Podophyllum-এ মলদ্বার বাইরে বেরিয়ে আসে।"
+  },
+  {
+    "id": "podo-sym-05",
+    "stem": "প্রসবের পর জরায়ু শিথিলতা ও স্থানচ্যুতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Aletris Farinosa",
+        "mid": "aletris-farinosa"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "prolapse-uterus",
+      "after-delivery",
+      "relaxation"
+    ],
+    "explanation": "Podophyllum-এ প্রসবের পর জরায়ু প্রল্যাপস হয়।"
+  },
+  {
+    "id": "plat-sym-13",
+    "stem": "জরায়ুর স্থানচ্যুতি বা নিচে নেমে আসার অনুভূতি হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "female",
+      "uterine-prolapse",
+      "bearing-down"
+    ],
+    "explanation": "Platinum Metallicum-এ জরায়ুর স্থানচ্যুতি বা নিচে নেমে আসার অনুভূতি হয়।"
+  },
+  {
+    "id": "stannum-sym-15",
+    "stem": "জরায়ু বা জননেন্দ্রিয়ের শিথিলতা, হাঁটার সময় প্রচণ্ড দুর্বলতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "female",
+      "uterine-relaxation"
+    ],
+    "explanation": "Stannum Met-এ জরায়ু বা জননেন্দ্রিয়ের শিথিলতা হয় এবং হাঁটার সময় প্রচণ্ড দুর্বলতা অনুভব হয়।"
+  },
+  {
+    "id": "sep-sym-02",
+    "stem": "তলপেট ও যোনিপথ থেকে অঙ্গপ্রত্যঙ্গ বের হয়ে আসার অনুভুতি (Bearing-down sensation) এবং উরুর ওপর উরু চেপে বসা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tig"
+      },
+      {
+        "text": "Murex",
+        "mid": "murex"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "female",
+      "bearing-down",
+      "prolapse"
+    ],
+    "explanation": "Sepia-র জরায়ুর প্রল্যাপস বা নিচুমুখী তীব্র চাপে পা একটির উপর আরেকটি দিয়ে চাপ সৃষ্টি করে বসতে দেখা যায়।"
+  },
+  {
+    "id": "sani-sym-10",
+    "stem": "জরায়ু নিচে নেমে আসার অনুভূতি হওয়া এবং মনে করা হাত দিয়ে চেপে না ধরলে সব বের হয়ে আসবে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "female-organs",
+      "prolapse"
+    ],
+    "explanation": "Sanicula-এ জরায়ু স্থানচ্যুতির অনুভূতিতে রোগী হাত দিয়ে চেপে অঙ্গপ্রত্যঙ্গ বের হওয়া ঠেকানোর চেষ্টা করে।"
+  },
+  {
+    "id": "sab-sym-07",
+    "stem": "জরায়ু থেকে ভার বা পিণ্ড নিচে নেমে আসার অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Murex Purpurea",
+        "mid": "murex-purpurea"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "uterus",
+      "bearing-down",
+      "lump",
+      "prolapse-feel"
+    ],
+    "explanation": "Sabina-এ জরায়ু থেকে ভার নিচে নামার অনুভূতি থাকে।"
+  }
+]

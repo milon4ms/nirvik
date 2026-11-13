@@ -1,0 +1,1260 @@
+[
+  {
+    "id": "argn-sym-13",
+    "stem": "সোরিক, সাইকোটিক ও সিফিলিটিক (Mixed) মায়াজমের অন্তর্ভুক্ত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "miasm",
+      "mixed"
+    ],
+    "explanation": "Argentum Nitricum সোরিক, সাইকোটিক ও সিফিলিটিক—এই তিনটি মায়াজমের মিশ্রণে (Mixed miasm) কাজ করে।"
+  },
+  {
+    "id": "aurum-sym-04",
+    "stem": "পারদ ব্যবহারের কুফলে হাড়ের ক্ষয় ও স্নায়বিক দুর্বলতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Kali Iodatum",
+        "mid": "kali-iodatum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "mercury",
+      "bones",
+      "syphilitic"
+    ],
+    "explanation": "Aurum পারদের কুফলে কার্যকর।"
+  },
+  {
+    "id": "aurum-sym-16",
+    "stem": "উপদংশ হেতু মাথার চুল ওঠা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Fluoricum Acidum",
+        "mid": "fluoricum-acidum"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "hair",
+      "fall",
+      "syphilitic"
+    ],
+    "explanation": "Aurum-এ সিফিলিস জনিত কারণে চুল পড়ে।"
+  },
+  {
+    "id": "aurum-sym-17",
+    "stem": "প্রধানত শীতকাতর কিন্তু মুক্ত বাতাস পছন্দ করে, ডান পার্শ্ব, সিফিলিটিক মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "generalities",
+      "chilly",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Aurum শীতকাতর হলেও খোলা বাতাস পছন্দ করে, ডান পার্শ্ব ও সিফিলিটিক।"
+  },
+  {
+    "id": "bac-sym-01",
+    "stem": "বংশে যক্ষ্মা, হাঁপানি বা ক্যান্সারের ইতিহাস থাকা ও টিউবারকুলার বংশগত দোষ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "tuberculosis",
+      "diathesis",
+      "family-history"
+    ],
+    "explanation": "Bacillinum এর প্রধান বৈশিষ্ট্য হলো বংশে যক্ষ্মা, হাঁপানি বা ক্যান্সারের ইতিহাস থাকা ও টিউবারকুলার বংশগত দোষ।"
+  },
+  {
+    "id": "baryta-sym-16",
+    "stem": "ধাতুগত গন্ডমালা দোষ ও সর্দি প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "scrofula",
+      "coryza",
+      "diathesis"
+    ],
+    "explanation": "Baryta গন্ডমালা ধাতু ও সর্দি প্রবণতায় কার্যকর।"
+  },
+  {
+    "id": "bry-sym-13",
+    "stem": "সোরা (Psora) মায়াজম বা প্রবৃত্তি প্রধান হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "miasm",
+      "psora"
+    ],
+    "explanation": "Bryonia মূলত সোরা (Psora) মায়াজমের অন্তর্ভুক্ত একটি গুরুত্বপূর্ণ মূলধারার উপাদান।"
+  },
+  {
+    "id": "calen-sym-20",
+    "stem": "উৎস উদ্ভিদ গাঁদা ফুল, সোরা মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "source",
+      "plant",
+      "marigold",
+      "miasm"
+    ],
+    "explanation": "Calendula গাঁদা ফুল থেকে তৈরি, সোরা মায়াজম।"
+  },
+  {
+    "id": "carbo-sym-19",
+    "stem": "অত্যন্ত শীতকাতর কিন্তু বাতাস চায়, ডান পার্শ্ব, সোরা মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "generalities",
+      "chilly",
+      "fanning",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Carbo Veg শীতকাতর কিন্তু বাতাস চায়, ডান পার্শ্ব ও সোরা।"
+  },
+  {
+    "id": "clem-sym-14",
+    "stem": "সাইকোসিস (Sycotic) ও সোরা (Psora) মায়াজমের অন্তর্ভুক্ত থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "miasm",
+      "sycotic",
+      "psoric"
+    ],
+    "explanation": "Clematis Erecta মূলত সাইকোটিক এবং সোরিক মায়াজম প্রবণতার সাথে সম্পৃক্ত।"
+  },
+  {
+    "id": "cinn-sym-14",
+    "stem": "সাইকোসিস (Sycotic) ও সিফিলিস (Syphilitic) মায়াজমের অন্তর্ভুক্ত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "miasm",
+      "sycotic",
+      "syphilitic"
+    ],
+    "explanation": "Cinnabaris মূলত সাইকোটিক ও সিফিলিটিক উভয় ক্ষতিকর মায়াজমে সমভাবে কার্যকরী।"
+  },
+  {
+    "id": "hyper-sym-19",
+    "stem": "শীতকাতর, ডান পার্শ্বে বেশি, সোরা ও সিফিলিটিক মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "generalities",
+      "chilly",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Hypericum শীতকাতর, ডান পার্শ্ব বেশি ও সোরা-সিফিলিটিক।"
+  },
+  {
+    "id": "just-sym-14",
+    "stem": "সোরা (Psora) ও টিউবারকুলার (Tubercular) মায়াজমের অন্তর্ভুক্ত থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "miasm",
+      "psora",
+      "tubercular"
+    ],
+    "explanation": "Justicia Adhatoda সোরিক এবং টিউবারকুলার মায়াজমের পটভূমিতে কাজ করে।"
+  },
+  {
+    "id": "hama-sym-14",
+    "stem": "সোরা (Psora) ও সাইকোসিস (Sycotic) মায়াজমের অন্তর্ভুক্ত থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "miasm",
+      "psora",
+      "sycotic"
+    ],
+    "explanation": "Hamamelis মূলত সোরা ও সাইকোসিস মায়াজম প্রকৃতির সাথে সম্পৃক্ত।"
+  },
+  {
+    "id": "glon-sym-19",
+    "stem": "গরমকাতর, উৎস রাসায়নিক নাইট্রোগ্লিসারিন, সোরা মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Melilotus",
+        "mid": "melilotus"
+      },
+      {
+        "text": "Amyl Nitrosum",
+        "mid": "amyl-nitrosum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "generalities",
+      "hot",
+      "source",
+      "miasm"
+    ],
+    "explanation": "Glonoine গরমকাতর ও নাইট্রোগ্লিসারিন থেকে তৈরি।"
+  },
+  {
+    "id": "natp-sym-18",
+    "stem": "শীতকাতর, উভয় পার্শ্ব, সোরা ও সাইকোসিস মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "generalities",
+      "chilly",
+      "both-sides",
+      "miasm"
+    ],
+    "explanation": "Natrum Phos শীতকাতর ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "merc-sym-18",
+    "stem": "উৎস খনিজ তরল পারদ, ডান পার্শ্ব, সিফিলিটিক মায়াজমের রাজা — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Mercurius Dulcis",
+        "mid": "mercurius-dulcis"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "source",
+      "mineral",
+      "mercury",
+      "right-side",
+      "syphilitic"
+    ],
+    "explanation": "Merc Vivus পারদ থেকে তৈরি ও সিফিলিটিক মায়াজমের রাজা।"
+  },
+  {
+    "id": "medorrhinum-sym-08",
+    "stem": "চাপা পড়া প্রমেহের পর বাতের ব্যথা, হৃদরোগ বা হাঁপানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "suppressed-gonorrhoea",
+      "sycotic"
+    ],
+    "explanation": "Medorrhinum অতীতে প্রমেহ বা গণোরিয়ার স্রাব চাপা দেওয়ার পর থেকে বাতের ব্যথা, হৃদরোগ বা হাঁপানি দেখা দিলে গভীর ক্রিয়াশীল।"
+  },
+  {
+    "id": "medorrhinum-sym-13",
+    "stem": "বংশগত সাইকোটিক হাঁপানি, ভোরে বৃদ্ধি, উপুড় হয়ে শুলে আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "asthma",
+      "hereditary"
+    ],
+    "explanation": "Medorrhinum বংশগত সাইকোটিক হাঁপানিতে কার্যকর; গভীর রাতে বা ভোরের দিকে শ্বাসকষ্ট বাড়ে এবং উপুড় হয়ে শুলে আরাম পায়।"
+  },
+  {
+    "id": "natc-sym-18",
+    "stem": "এর মায়াজম সোরা (Psora) প্রকৃতির এবং এটি বাম পাশের (Left-sided) লক্ষণপ্রবণ — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "miasm",
+      "side"
+    ],
+    "explanation": "Natrum Carb সোরা মায়াজমের অন্তর্গত এবং এর রোগলক্ষণগুলো সাধারণত শরীরের বাম দিকে বেশি প্রকাশ পায়।"
+  },
+  {
+    "id": "lyc-sym-14",
+    "stem": "সোরা (Psora), সাইকোসিস (Sycotic) ও সিফিলিটিক — ত্রি-মায়াজমিক গভীর ক্রিয়া থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "miasm",
+      "tri-miasmatic"
+    ],
+    "explanation": "Lycopodium সোরা, সাইকোসিস ও সিফিলিস—এই তিন মায়াজমেই গভীরভাবে কাজ করে।"
+  },
+  {
+    "id": "natp-sym-18",
+    "stem": "শীতকাতর, উভয় পার্শ্ব, সোরা ও সাইকোসিস মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "generalities",
+      "chilly",
+      "both-sides",
+      "miasm"
+    ],
+    "explanation": "Natrum Phos শীতকাতর ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "rhus-sym-12",
+    "stem": "এর মায়াজম সোরা (Psora) ও সাইকোসিস (Sycosis) এবং বাম পাশে ও আড়াআড়িভাবে কাজ করা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "miasm",
+      "side"
+    ],
+    "explanation": "Rhus Tox-এর মায়াজম সোরা ও সাইকোসিস এবং এটি শরীরের বাম পাশে ও আড়াআড়িভাবে কার্যকারিতা দেখায়।"
+  },
+  {
+    "id": "podo-sym-18",
+    "stem": "গরমকাতর, ডান পার্শ্বে বেশি, সোরা ও সাইকোসিস — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "generalities",
+      "hot",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Podophyllum গরমকাতর, ডান পার্শ্ব বেশি ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "phy-sym-14",
+    "stem": "সাইকোসিস (Sycosis) ও সিফিলিটিক (Syphilitic) মায়াজমের অধীন থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "miasm",
+      "sycotic",
+      "syphilitic"
+    ],
+    "explanation": "Phytolacca মায়াজমেটিক কাঠামোর সাইকোটিক ও সিফিলিটিক উভয় ধারায় উপস্থিত।"
+  },
+  {
+    "id": "podo-sym-18",
+    "stem": "গরমকাতর, ডান পার্শ্বে বেশি, সোরা ও সাইকোসিস — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "generalities",
+      "hot",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Podophyllum গরমকাতর, ডান পার্শ্ব বেশি ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "opi-sym-14",
+    "stem": "সোরা (Psora), সাইকোসিস (Sycotic) ও সিফিলিটিক— তিনটি মায়াজমেই ক্রিয়াশীল থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "miasm",
+      "tri-miasmatic"
+    ],
+    "explanation": "Opium হোমিওপ্যাথিক দৃষ্টিভঙ্গিতে তিনটি মায়াজমেই সমভাবে গভীর প্রভাব ফেলে।"
+  },
+  {
+    "id": "sel-sym-20",
+    "stem": "গরমকাতর, উৎস খনিজ সেলেনিয়াম, সোরা ও সিফিলিটিক, পরিপূরক Sulphur — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "generalities",
+      "hot",
+      "mineral",
+      "miasm",
+      "complementary"
+    ],
+    "explanation": "Selenium গরমকাতর, খনিজ উৎস ও পরিপূরক Sulphur।"
+  },
+  {
+    "id": "staph-sym-19",
+    "stem": "শীতকাতর, উভয় পার্শ্ব, সোরা সাইকোটিক সিফিলিটিক, পরিপূরক Causticum Colocynth — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "generalities",
+      "chilly",
+      "both-sides",
+      "miasm",
+      "complementary"
+    ],
+    "explanation": "Staphisagria শীতকাতর ও পরিপূরক Causticum।"
+  },
+  {
+    "id": "sene-sym-17",
+    "stem": "শরীরের বাম পাশে বেশি কাজ করে এবং মায়াজম সোরা (Psora) ও সাইকোসিস (Sycosis) — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "miasm",
+      "side"
+    ],
+    "explanation": "Senega প্রধানত বাম পাশের (Left-sided) লক্ষণগুলোতে বেশি ক্রিয়া করে এবং সোরা-সাইকোসিস মায়াজমের অন্তর্ভুক্ত।"
+  },
+  {
+    "id": "sars-sym-20",
+    "stem": "পারদ (Mercury)-এর অপব্যবহারজনিত দোষে (Mercurial miasm) এটি একটি প্রধান প্রতিষেধক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "miasm",
+      "mercury",
+      "antidote",
+      "syphilis"
+    ],
+    "explanation": "Sarsaparilla Officinalis পারদ (Mercury)-এর অপব্যবহারজনিত দোষে (Mercurial miasm) একটি প্রধান প্রতিষেধক (Antidote) হিসেবে কাজ করে।"
+  },
+  {
+    "id": "staph-sym-19",
+    "stem": "শীতকাতর, উভয় পার্শ্ব, সোরা সাইকোটিক সিফিলিটিক, পরিপূরক Causticum Colocynth — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "generalities",
+      "chilly",
+      "both-sides",
+      "miasm",
+      "complementary"
+    ],
+    "explanation": "Staphisagria শীতকাতর ও পরিপূরক Causticum।"
+  },
+  {
+    "id": "sep-sym-01",
+    "stem": "নিজের অত্যন্ত প্রিয়জন, পরিবার ও সন্তানদের প্রতি চরম উদাসীনতা (Indifference to loved ones) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "mind",
+      "indifference",
+      "family"
+    ],
+    "explanation": "Sepia-র মানসিক প্রধান চাবিকাঠি হলো পরিবার বা সন্তানের প্রতি অনাসক্তি ও উদাসীন মেজাজ।"
+  },
+  {
+    "id": "sep-sym-14",
+    "stem": "সোরিক (Psoric) এবং সাইকোটিক (Sycotic) মায়াজমের অন্তর্ভুক্ত থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Carcinosin",
+        "mid": "carcinosin"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "miasm",
+      "psoric",
+      "sycotic"
+    ],
+    "explanation": "Sepia সোরা ও সাইকোসিস ডোমেইনের অধীনস্থ গভীর ধাতুগত ওষুধ।"
+  },
+  {
+    "id": "sec-sym-14",
+    "stem": "সিফিলিটিক (Syphilitic) মায়াজম— পচনশীলতা ও ধ্বংসাত্মক পরিবর্তনের জন্য সুপরিচিত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "miasm",
+      "syphilitic"
+    ],
+    "explanation": "Secale Cornutum মূলত টিস্যুর পচন ও পঁচনশীলতার কারণে সিফিলিটিক মায়াজমের সাথে জড়িত।"
+  },
+  {
+    "id": "sul-sym-14",
+    "stem": "সোরিক (Psoric) মায়াজমের প্রধান বা রাজা (King of Psorics) হিসেবে গণ্য হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "miasm",
+      "king-of-psorics"
+    ],
+    "explanation": "Sulphurকে সোরিক মায়াজমের রাজতুল্য (King of Psorics) বলা হয়।"
+  },
+  {
+    "id": "sani-sym-20",
+    "stem": "এর প্রধান মায়াজম সোরা (Psora) ও সাইকোসিস (Sycosis) — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "miasm",
+      "psora-sycosis"
+    ],
+    "explanation": "Sanicula Aqua-এর রোগপ্রবণতা ও ধাতুর মূলে সোরা (Psora) ও সাইকোসিস (Sycosis) মায়াজম প্রাধান্য পায়।"
+  },
+  {
+    "id": "sab-sym-17",
+    "stem": "গরমকাতর, উভয় পার্শ্ব, সাইকোসিস ও সোরা মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "generalities",
+      "hot",
+      "both-sides",
+      "miasm",
+      "sycotic"
+    ],
+    "explanation": "Sabina গরমকাতর ও সাইকোটিক।"
+  },
+  {
+    "id": "var-sym-13",
+    "stem": "সিফিলিটিক (Syphilitic) ও সোরিক (Psoric) মায়াজমের গভীর প্রভাব থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "miasm",
+      "syphilitic",
+      "psoric"
+    ],
+    "explanation": "Variolinum সিফিলিটিক ও সোরিক মায়াজমে দারুণ শক্তিশালী ক্রিয়া করে।"
+  },
+  {
+    "id": "syphilinum-sym-01",
+    "stem": "সিফিলিস ও সাইকোসিসের ঔষধ, প্রধান সিফিলিটিক মায়াজম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "miasm",
+      "syphilis",
+      "sycosis"
+    ],
+    "explanation": "Syphilinum সিফিলিস ও সাইকোসিসের ঔষধ, প্রধান সিফিলিটিক মায়াজমের ঔষধ।"
+  },
+  {
+    "id": "syphilinum-sym-02",
+    "stem": "বংশগত উপদংশ, উপযুক্ত ঔষধের ব্যর্থতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "hereditary",
+      "syphilis",
+      "failure"
+    ],
+    "explanation": "Syphilinum এ বংশগত উপদংশ থাকে, উপযুক্ত ঔষধের ব্যর্থতায় এটি ব্যবহৃত হয়।"
+  },
+  {
+    "id": "thuja-sym-01",
+    "stem": "আঁচিল, উদ্ভেদ, টিউমার ও ঘাম, সাইকোসিসের যম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "warts",
+      "excrescences",
+      "tumor",
+      "sycosis-king"
+    ],
+    "explanation": "Thuja আঁচিল ও সাইকোসিসের প্রধান ঔষধ।"
+  },
+  {
+    "id": "thuja-sym-01",
+    "stem": "আঁচিল, উদ্ভেদ, টিউমার ও ঘাম, সাইকোসিসের যম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "warts",
+      "excrescences",
+      "tumor",
+      "sycosis-king"
+    ],
+    "explanation": "Thuja আঁচিল ও সাইকোসিসের প্রধান ঔষধ।"
+  }
+]

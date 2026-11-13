@@ -1,0 +1,1812 @@
+[
+  {
+    "id": "argn-sym-15",
+    "stem": "Natrum Mur-এর সাথে গভীর পরিপূরক সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Argentum Nitricum-এর পরিপূরক (Complementary) ঔষধ হলো Natrum Mur, যার সাথে এর গভীর সম্পর্ক রয়েছে।"
+  },
+  {
+    "id": "aurum-sym-20",
+    "stem": "পরিপূরক Syphilinum, সদৃশ Mercurius, Nitric Acid — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "relationship",
+      "complementary",
+      "similar"
+    ],
+    "explanation": "Aurum-এর পরিপূরক Syphilinum এবং সদৃশ Mercurius।"
+  },
+  {
+    "id": "baryta-sym-18",
+    "stem": "পরিপূরক Dulcamara, সদৃশ Calcarea Carb, Silicea — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Baryta Muriatica",
+        "mid": "baryta-muriatica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "relationship",
+      "complementary",
+      "similar"
+    ],
+    "explanation": "Baryta-র পরিপূরক Dulcamara এবং সদৃশ Calcarea Carb।"
+  },
+  {
+    "id": "bry-sym-15",
+    "stem": "Alumina, Rhus Tox ও Phosphorus-এর সাথে পরিপূরক সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Bryonia-এর পরিপূরক (Complementary) ঔষধগুলোর মধ্যে Alumina, Rhus Tox এবং Phosphorus বিশেষভাবে উল্লেখযোগ্য।"
+  },
+  {
+    "id": "calen-sym-19",
+    "stem": "সদৃশ: Arnica, Hypericum, Ledum, Hamamelis — এই সদৃশ সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "relationship",
+      "similar",
+      "injury"
+    ],
+    "explanation": "Calendula-র সদৃশ Arnica, Hypericum, Ledum ও Hamamelis।"
+  },
+  {
+    "id": "carbo-sym-20",
+    "stem": "পরিপূরক Kali Carb, সদৃশ Lycopodium ও China — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Carbo Animalis",
+        "mid": "carbo-animalis"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "relationship",
+      "complementary",
+      "similar"
+    ],
+    "explanation": "Carbo Veg-এর পরিপূরক Kali Carb এবং সদৃশ Lycopodium, China।"
+  },
+  {
+    "id": "calc-sym-15",
+    "stem": "Belladonna, Rhus Tox ও Lycopodium-এর সাথে পরিপূরক সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Sulfur",
+        "mid": "sulfur"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Calcarea Carb-এর পরিপূরক (Complementary) ঔষধের তালিকায় Belladonna, Rhus Tox এবং Lycopodium অগ্রগণ্য।"
+  },
+  {
+    "id": "calc-sym-16",
+    "stem": "Bryonia ঔষধটির প্রয়োগ Calcarea Carb-এর পূর্বে বা পরে নিষিদ্ধ (Inimical) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "relationship",
+      "inimical"
+    ],
+    "explanation": "Calcarea Carb-এর সাথে Bryonia-এর সম্পর্ক অসঙ্গতিপূর্ণ (Inimical), তাই একটির পর অন্যটির ব্যবহার অনুচিত।"
+  },
+  {
+    "id": "calc-sym-15",
+    "stem": "Belladonna, Rhus Tox ও Lycopodium-এর সাথে পরিপূরক সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Sulfur",
+        "mid": "sulfur"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Calcarea Carb-এর পরিপূরক (Complementary) ঔষধের তালিকায় Belladonna, Rhus Tox এবং Lycopodium অগ্রগণ্য।"
+  },
+  {
+    "id": "calc-sym-16",
+    "stem": "Bryonia ঔষধটির প্রয়োগ Calcarea Carb-এর পূর্বে বা পরে নিষিদ্ধ (Inimical) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "relationship",
+      "inimical"
+    ],
+    "explanation": "Calcarea Carb-এর সাথে Bryonia-এর সম্পর্ক অসঙ্গতিপূর্ণ (Inimical), তাই একটির পর অন্যটির ব্যবহার অনুচিত।"
+  },
+  {
+    "id": "clem-sym-15",
+    "stem": "Rhus Tox, Pulsatilla, Silica ও Thuja-এর সাথে লক্ষণগত সাদৃশ্য থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "relationship",
+      "similar"
+    ],
+    "explanation": "Clematis Erecta-এর সাথে Rhus Tox, Pulsatilla, Silica এবং Thuja-এর গভীর লক্ষণীয় সাদৃশ্য বিদ্যমান।"
+  },
+  {
+    "id": "clem-sym-16",
+    "stem": "Camphor এবং Bryonia দ্বারা এর ক্রিয়া প্রতিষেধিত (Antidoted) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Mercurius Sol",
+        "mid": "mercurius-sol"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "antidote",
+      "relationship"
+    ],
+    "explanation": "Clematis Erecta-এর অতিপ্রতিক্রিয়া ও বিষক্রিয়া ক্যামফর ও ব্রায়োনিয়া সেবনে প্রতিষেধিত হয়।"
+  },
+  {
+    "id": "cinn-sym-15",
+    "stem": "Thuja ও Nitric Acid-এর সাথে আঁচিলের ক্ষেত্রে পরিপূরক সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Cinnabaris-এর সাথে Thuja এবং Nitric Acid-এর গভীর পরিপূরক সম্পর্ক পরিলক্ষিত হয়।"
+  },
+  {
+    "id": "cinn-sym-16",
+    "stem": "Hepar Sulph ও Nitric Acid দ্বারা এর ক্রিয়া প্রতিষেধিত (Antidoted) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Mercurius Sol",
+        "mid": "mercurius-sol"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "antidote",
+      "relationship"
+    ],
+    "explanation": "Cinnabaris-এর ক্ষতিকর পার্শ্বপ্রতিক্রিয়া কমানোর জন্য Hepar Sulph বা Nitric Acid প্রতিষেধক হিসেবে কাজ করে।"
+  },
+  {
+    "id": "conium-sym-19",
+    "stem": "পরিপূরক Asterias Rubens, Causticum, সদৃশ Baryta Carb, Phytolacca — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Phytolacca Decandra",
+        "mid": "phytolacca-decandra"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Asterias Rubens",
+        "mid": "asterias-rubens"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "relationship",
+      "complementary",
+      "similar"
+    ],
+    "explanation": "Conium-এর পরিপূরক Asterias Rubens ও Causticum।"
+  },
+  {
+    "id": "hyper-sym-20",
+    "stem": "পরিপূরক Arnica, সদৃশ Ledum, Ruta, Mag Phos — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "relationship",
+      "complementary",
+      "similar",
+      "arnica"
+    ],
+    "explanation": "Hypericum-এর পরিপূরক Arnica এবং সদৃশ Ledum, Ruta।"
+  },
+  {
+    "id": "just-sym-15",
+    "stem": "Ipecac, Arsenic Alb ও Antimony Tart-এর সাথে সদৃশ সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "relationship",
+      "similar"
+    ],
+    "explanation": "Justicia Adhatoda-এর কাশির তীব্রতা ও শ্বাসকষ্টের ক্ষেত্রে Ipecac, Arsenic Alb এবং Antimony Tart সদৃশ।"
+  },
+  {
+    "id": "hama-sym-15",
+    "stem": "Ferrum Metallicum-এর সাথে পরিপূরক (Complementary) সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Hamamelis-এর পরিপূরক (Complementary) ঔষধের মধ্যে Ferrum Metallicum অন্যতম।"
+  },
+  {
+    "id": "hama-sym-20",
+    "stem": "আঘাতের ব্যথায় Arnica-র মতো এবং অতিরিক্ত রক্তস্রাবে Millefolium-এর মতো সদৃশ হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "relationship",
+      "similar"
+    ],
+    "explanation": "Hamamelis-এর ব্যথার ধরণে Arnica এবং অসারে রক্তপাতজনিত সাদৃশ্যে Millefolium অত্যন্ত ঘনিষ্ঠ।"
+  },
+  {
+    "id": "hell-sym-19",
+    "stem": "মস্তিষ্কের অসুস্থতায় Zincum Metallicum এর সাথে পরিপূরক (Complementary) সম্পর্ক রয়েছে — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "relationship",
+      "complementary",
+      "zincum-metallicum"
+    ],
+    "explanation": "Helleborus Niger-এর পরিপূরক (Complementary) ঔষধ হলো Zincum Metallicum (মস্তিষ্কের অসুস্থতায়)।"
+  },
+  {
+    "id": "hell-sym-20",
+    "stem": "শোথ রোগে Apis Mellifica এবং মাথার সমস্যায় Belladonna এর সাথে সদৃশ (Similar) — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Camphor",
+        "mid": "camphor"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "relationship",
+      "similar",
+      "apis",
+      "belladonna"
+    ],
+    "explanation": "Helleborus Niger শোথ রোগে Apis Mellifica এবং মাথার সমস্যায় Belladonna এর সাথে সদৃশ (Similar)।"
+  },
+  {
+    "id": "glon-sym-20",
+    "stem": "সদৃশ Belladonna, Amyl Nitrosum, Mellilotus — এই সদৃশ সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      },
+      {
+        "text": "Ferrum Metallicum",
+        "mid": "ferrum-metallicum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "relationship",
+      "similar",
+      "belladonna"
+    ],
+    "explanation": "Glonoine-এর সদৃশ Belladonna, Amyl Nit ও Mellilotus।"
+  },
+  {
+    "id": "natp-sym-19",
+    "stem": "পরিপূরক Robinia, Calc Carb, সদৃশ Rheum — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Robinia Pseudacacia",
+        "mid": "robinia-pseudacacia"
+      },
+      {
+        "text": "Rheum Palmatum",
+        "mid": "rheum-palmatum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "relationship",
+      "complementary",
+      "similar",
+      "robinia"
+    ],
+    "explanation": "Natrum Phos-এর পরিপূরক Robinia ও সদৃশ Rheum।"
+  },
+  {
+    "id": "merc-sym-19",
+    "stem": "অনুগামী Belladonna, Hepar Sulph, শত্রুভাবাপন্ন Silicea — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "relationship",
+      "follows",
+      "inimical",
+      "silicea"
+    ],
+    "explanation": "Merc Vivus-এর পর Hepar Sulph ভালো কাজ করে, Silicea শত্রুভাবাপন্ন।"
+  },
+  {
+    "id": "natc-sym-19",
+    "stem": "সেপিয়া (Sepia) এই ওষুধের পরিপূরক (Complementary) হিসেবে কাজ করা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Natrum Carb-এর পরিপূরক ওষুধ হিসেবে Sepia নির্দেশিত হয়।"
+  },
+  {
+    "id": "natc-sym-20",
+    "stem": "ক্যামফোরা (Camphora) বা স্পিরিটাস নাইট্রি ডুলসিস এর প্রতিষেধক (Antidote) — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "relationship",
+      "antidote"
+    ],
+    "explanation": "Natrum Carb-এর অপব্যবহার বা অতিরিক্ত প্রতিক্রিয়ার প্রতিষেধক হিসেবে Camphora এবং Spiritus Nitri Dulcis ব্যবহৃত হয়।"
+  },
+  {
+    "id": "lyc-sym-15",
+    "stem": "Iodum-এর সাথে পরিপূরক (Complementary) সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Lycopodium-এর পরিপূরক (Complementary) ঔষধের তালিকাভুক্ত অন্যতম প্রধান উপাদান Iodum।"
+  },
+  {
+    "id": "lyc-sym-16",
+    "stem": "Calcarea Carbonica, Lycopodium ও Sulphur মিলে একটি বিখ্যাত হোমিওপ্যাথিক ত্রয়ী গঠন করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "relationship",
+      "trio"
+    ],
+    "explanation": "Calcarea Carb, Lycopodium এবং Sulphur একত্রে বহু ক্রনিক রোগের চিকিৎসার বিখ্যাত ত্রয়ী তৈরি করে।"
+  },
+  {
+    "id": "lach-sym-20",
+    "stem": "পরিপূরক Lycopodium, Hepar Sulph, সদৃশ Apis, Crotalus — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Crotalus Horridus",
+        "mid": "crotalus-horridus"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "relationship",
+      "complementary",
+      "similar"
+    ],
+    "explanation": "Lachesis-এর পরিপূরক Lycopodium ও সদৃশ Apis, Crotalus।"
+  },
+  {
+    "id": "natp-sym-19",
+    "stem": "পরিপূরক Robinia, Calc Carb, সদৃশ Rheum — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Robinia Pseudacacia",
+        "mid": "robinia-pseudacacia"
+      },
+      {
+        "text": "Rheum Palmatum",
+        "mid": "rheum-palmatum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "relationship",
+      "complementary",
+      "similar",
+      "robinia"
+    ],
+    "explanation": "Natrum Phos-এর পরিপূরক Robinia ও সদৃশ Rheum।"
+  },
+  {
+    "id": "rhus-sym-09",
+    "stem": "ব্রায়োনিয়া (Bryonia) এই ওষুধের পরিপূরক (Complementary) হিসেবে কাজ করা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Rhus Tox-এর প্রধান কমপ্লিমেন্টারি বা পরিপূরক ওষুধগুলোর মধ্যে Bryonia অত্যন্ত গুরুত্বপূর্ণ।"
+  },
+  {
+    "id": "rhus-sym-10",
+    "stem": "ক্যামফোরা, বেলাডোনা বা ব্রায়োনিয়া এর প্রতিষেধক (Antidote) হিসেবে কাজ করা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "relationship",
+      "antidote"
+    ],
+    "explanation": "Camphora, Belladonna এবং Bryonia ওষুধগুলো Rhus Tox-এর প্রতিষেধক (Antidote) হিসেবে কাজ করে।"
+  },
+  {
+    "id": "rhus-sym-20",
+    "stem": "রাসটক্স এবং ব্রায়োনিয়া পরস্পর শত্রুভাবাপন্ন ঔষধ (Inimical) হওয়ায় সাবধানে ব্যবহার করা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "relationship",
+      "inimical"
+    ],
+    "explanation": "হোমিওপ্যাথিক নীতি অনুযায়ী Rhus Tox এবং Bryonia একে অপরের শত্রুভাবাপন্ন (Inimical) ওষুধ।"
+  },
+  {
+    "id": "podo-sym-19",
+    "stem": "সদৃশ Aloe Soc (সকালে ডায়রিয়া), Chelidonium (লিভার), Merc Sol (জিহ্বায় দাঁতের ছাপ) — এই সদৃশ সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "relationship",
+      "similar",
+      "aloe",
+      "chelidonium"
+    ],
+    "explanation": "Podophyllum-এর সদৃশ Aloe, Chelidonium ও Merc Sol।"
+  },
+  {
+    "id": "phy-sym-15",
+    "stem": "Mercurius Sol-এর সাথে পরিপূরক (Complementary) সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Phytolacca-এর পরিপূরক (Complementary) ঔষধ হিসেবে Mercurius Sol কাজ করে।"
+  },
+  {
+    "id": "phy-sym-16",
+    "stem": "Milk, Coffee এবং Belladonna দ্বারা এর ক্রিয়া প্রতিষেধিত (Antidoted) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconite"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomile",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "antidote",
+      "relationship"
+    ],
+    "explanation": "Phytolacca-এর বাড়াবাড়ি বা অপপ্রয়োগ দুধ, কফি ও বেলাডোনা দ্বারা কাটানো যায়।"
+  },
+  {
+    "id": "phy-sym-20",
+    "stem": "বাতের ব্যথায় Rhus Tox ও Bryonia এবং গ্রন্থি স্ফীতিতে Kali Iod-এর সাথে রূপগত সদৃশ থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Calcarea Fluor",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "relationship",
+      "similar"
+    ],
+    "explanation": "Phytolacca-এর কায়িক সদৃশতার তালিকায় বাতে Rhus Tox ও Bryonia এবং গ্ল্যান্ডের কাঠিন্যে Kali Iod উল্লেখযোগ্য।"
+  },
+  {
+    "id": "podo-sym-19",
+    "stem": "সদৃশ Aloe Soc (সকালে ডায়রিয়া), Chelidonium (লিভার), Merc Sol (জিহ্বায় দাঁতের ছাপ) — এই সদৃশ সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "relationship",
+      "similar",
+      "aloe",
+      "chelidonium"
+    ],
+    "explanation": "Podophyllum-এর সদৃশ Aloe, Chelidonium ও Merc Sol।"
+  },
+  {
+    "id": "opi-sym-15",
+    "stem": "Alumina এবং Plumbum Metallicum-এর সাথে পরিপূরক (Complementary) সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Opium-এর পরিপূরক চিকিৎসায় Alumina ও Plumbum Met ব্যাপকভাবে সহায়ক।"
+  },
+  {
+    "id": "opi-sym-16",
+    "stem": "Camphora, Coffea, Ipecac এবং Belladonna দ্বারা এর ক্রিয়া প্রতিষেধিত (Antidoted) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconite"
+      },
+      {
+        "text": "Chamomile",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "antidote",
+      "relationship"
+    ],
+    "explanation": "Opium-এর অপব্যবহার বা বিষক্রিয়া ক্যামফর, কফিয়া বা ইপিকাক দ্বারা নষ্ট করা যায়।"
+  },
+  {
+    "id": "plat-sym-18",
+    "stem": "এটি Palladium-এর সাথে পরিপূরক (Complementary) সম্পর্কযুক্ত — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "relationship",
+      "complementary",
+      "palladium"
+    ],
+    "explanation": "Platinum Metallicum-এর পরিপূরক (Complementary) ঔষধ হলো Palladium।"
+  },
+  {
+    "id": "plat-sym-19",
+    "stem": "Pulsatilla এবং Spigelia এই ঔষধের প্রতিষেধক (Antidote) — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "relationship",
+      "antidote",
+      "pulsatilla",
+      "spigelia"
+    ],
+    "explanation": "Platinum Metallicum-এর প্রতিষেধক (Antidote) হলো Pulsatilla এবং Spigelia।"
+  },
+  {
+    "id": "sel-sym-20",
+    "stem": "গরমকাতর, উৎস খনিজ সেলেনিয়াম, সোরা ও সিফিলিটিক, পরিপূরক Sulphur — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "generalities",
+      "hot",
+      "mineral",
+      "miasm",
+      "complementary"
+    ],
+    "explanation": "Selenium গরমকাতর, খনিজ উৎস ও পরিপূরক Sulphur।"
+  },
+  {
+    "id": "staph-sym-19",
+    "stem": "শীতকাতর, উভয় পার্শ্ব, সোরা সাইকোটিক সিফিলিটিক, পরিপূরক Causticum Colocynth — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "generalities",
+      "chilly",
+      "both-sides",
+      "miasm",
+      "complementary"
+    ],
+    "explanation": "Staphisagria শীতকাতর ও পরিপূরক Causticum।"
+  },
+  {
+    "id": "sene-sym-13",
+    "stem": "ক্যালকেরিয়া কার্ব (Calcarea Carb) এই ওষুধের প্রধান পরিপূরক (Complementary) — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Senega-এর চিকিৎসাগত পরিপূরক (Complementary) ওষুধটি হলো Calcarea Carb।"
+  },
+  {
+    "id": "sene-sym-14",
+    "stem": "বেলাডোনা (Belladonna) এবং ব্রায়োনিয়া (Bryonia) এর প্রতিষেধক (Antidote) — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Coffea",
+        "mid": "coffea-cruda"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "relationship",
+      "antidote"
+    ],
+    "explanation": "Senega-এর অতিরিক্ত প্রতিক্রিয়া বা ভুল প্রয়োগ রোধ করতে Belladonna এবং Bryonia প্রতিষেধক হিসেবে কাজ করে।"
+  },
+  {
+    "id": "sars-sym-20",
+    "stem": "পারদ (Mercury)-এর অপব্যবহারজনিত দোষে (Mercurial miasm) এটি একটি প্রধান প্রতিষেধক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "miasm",
+      "mercury",
+      "antidote",
+      "syphilis"
+    ],
+    "explanation": "Sarsaparilla Officinalis পারদ (Mercury)-এর অপব্যবহারজনিত দোষে (Mercurial miasm) একটি প্রধান প্রতিষেধক (Antidote) হিসেবে কাজ করে।"
+  },
+  {
+    "id": "staph-sym-19",
+    "stem": "শীতকাতর, উভয় পার্শ্ব, সোরা সাইকোটিক সিফিলিটিক, পরিপূরক Causticum Colocynth — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "generalities",
+      "chilly",
+      "both-sides",
+      "miasm",
+      "complementary"
+    ],
+    "explanation": "Staphisagria শীতকাতর ও পরিপূরক Causticum।"
+  },
+  {
+    "id": "sep-sym-15",
+    "stem": "Natrum Muriaticum এবং Phosphorus-এর সাথে পরিপূরক (Complementary) সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Sepia-র পরিপূরক চিকিৎসায় Natrum Mur ও Phos শীর্ষস্থান দখল করে।"
+  },
+  {
+    "id": "sep-sym-16",
+    "stem": "Aconite, Antimonium Tartaricum এবং Sulphur দ্বারা এর ক্রিয়া প্রতিষেধিত (Antidoted) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "antidote",
+      "relationship"
+    ],
+    "explanation": "Sepia-র অপক্রিয়া Aconite, Ant Tart ও Sulphur প্রয়োগে নিরাময় হয়।"
+  },
+  {
+    "id": "sec-sym-15",
+    "stem": "Camphora এবং Opium দ্বারা এর ক্ষতিকর ক্রিয়া প্রতিষেধিত (Antidoted) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconite"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "antidote",
+      "relationship"
+    ],
+    "explanation": "Secale Cornutum-এর কুফল Camphora ও Opium দ্বারা নষ্ট হয়।"
+  },
+  {
+    "id": "sec-sym-16",
+    "stem": "Arsenicum Album-এর সাথে জ্বাালাপোড়ার ক্ষেত্রে গভীর সদৃশতা থাকলেও কাতরতার দিক থেকে সম্পূর্ণ বিপরীত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "relationship",
+      "similar",
+      "arsenic"
+    ],
+    "explanation": "Arsenic জ্বালায় গরম পছন্দ করে আর Secale জ্বালায় ঠান্ডা অনাবৃত অঙ্গ চায়।"
+  },
+  {
+    "id": "sul-sym-15",
+    "stem": "Calcarea Carbonica এবং Lycopodium-এর সাথে পরিপূরক (Complementary) সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Arsenic",
+        "mid": "arsenic"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Calcarea ও Lycopodium-এর সাথে Sulphur গভীর পরিপূরক বন্ধনে আবদ্ধ।"
+  },
+  {
+    "id": "sul-sym-16",
+    "stem": "Nux Vomica এবং Mercurius দ্বারা এর ক্রিয়া প্রতিষেধিত (Antidoted) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconite"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "antidote",
+      "relationship"
+    ],
+    "explanation": "Sulphur-এর অপপ্রয়োগ ন্স ভমিকা বা মার্কসল দিয়ে প্রতিষেধিত হয়।"
+  },
+  {
+    "id": "sani-sym-17",
+    "stem": "সিলিসিয়া (Silicea) এই ওষুধের প্রধান পরিপূরক (Complementary) ওষুধ — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Fluoric Acid",
+        "mid": "fluoricum-acidum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Sanicula-এর কার্যকারিতা সম্পন্ন করতে Silicea পরিপূরক (Complementary) ওষুধ হিসেবে কাজ করে।"
+  },
+  {
+    "id": "sani-sym-18",
+    "stem": "ক্যামফোরা (Camphora) এই ওষুধের প্রতিষেধক (Antidote) হিসেবে কাজ করে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Natrum Sulph",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "relationship",
+      "antidote"
+    ],
+    "explanation": "Sanicula Aqua-এর অপব্যবহার বা ক্ষতিকর প্রতিক্রিয়া প্রশমিত করতে Camphora প্রতিষেধক হিসেবে কাজ করে।"
+  },
+  {
+    "id": "sab-sym-18",
+    "stem": "পরিপূরক Thuja, সদৃশ Secale, Trillium, Ipecac, Millefolium — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "relationship",
+      "complementary",
+      "thuja",
+      "similar"
+    ],
+    "explanation": "Sabina-এর পরিপূরক Thuja ও সদৃশ Secale, Trillium।"
+  },
+  {
+    "id": "var-sym-10",
+    "stem": "Vaccininum এবং Sulphur-এর সাথে পরিপূরক (Complementary) হিসেবে সম্পর্ক থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "relationship",
+      "complementary"
+    ],
+    "explanation": "Vaccininum ও Sulphur Variolinum-এর গভীর পরিপূরক ওষুধ।"
+  },
+  {
+    "id": "var-sym-14",
+    "stem": "Malandrinum, Antimonium Tartaricum এবং Ruta-র সাথে রূপগত ও ক্রিয়ার সদৃশতা থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "relationship",
+      "similar"
+    ],
+    "explanation": "Maladandrinum ও Antim Tart Variolinum-এর সাথে অঙ্গাঙ্গীভাবে সাদৃশ্যপূর্ণ।"
+  },
+  {
+    "id": "thuja-sym-20",
+    "stem": "পরিপূরক Medorrhinum Sabina Silicea, উৎস চিরহরিৎ গাছ — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "relationship",
+      "complementary",
+      "source",
+      "evergreen"
+    ],
+    "explanation": "Thuja-এর পরিপূরক Medorrhinum, Sabina ও উৎস চিরহরিৎ গাছ।"
+  },
+  {
+    "id": "thuja-sym-20",
+    "stem": "পরিপূরক Medorrhinum Sabina Silicea, উৎস চিরহরিৎ গাছ — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "relationship",
+      "complementary",
+      "source",
+      "evergreen"
+    ],
+    "explanation": "Thuja-এর পরিপূরক Medorrhinum, Sabina ও উৎস চিরহরিৎ গাছ।"
+  },
+  {
+    "id": "sul-iod-sym-16",
+    "stem": "এটি Sulphur এবং Iodum-এর সাথে পরিপূরক (Complementary) সম্পর্কযুক্ত — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "relationship",
+      "complementary",
+      "sulphur",
+      "iodum"
+    ],
+    "explanation": "Sulphur Iodatum-এর পরিপূরক (Complementary) ঔষধ হলো Sulphur এবং Iodum।"
+  },
+  {
+    "id": "sul-iod-sym-17",
+    "stem": "Hepar Sulph এই ঔষধের প্রতিষেধক (Antidote) — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "relationship",
+      "antidote",
+      "hepar-sulph"
+    ],
+    "explanation": "Sulphur Iodatum-এর প্রতিষেধক (Antidote) হলো Hepar Sulph।"
+  }
+]

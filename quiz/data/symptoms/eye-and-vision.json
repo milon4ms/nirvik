@@ -1,0 +1,2119 @@
+[
+  {
+    "id": "argm-sym-06",
+    "stem": "চোখের পাতা ফুলে যায় এবং লাল হয়ে যায় — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Apis Mel",
+        "mid": "apis-mel"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "eyes",
+      "swelling"
+    ],
+    "explanation": "Argentum Metallicum-এ চোখের পাতা ফুলে যেতে পারে।"
+  },
+  {
+    "id": "argn-sym-07",
+    "stem": "চোখ দিয়ে প্রচুর ঘন, হলদেটে পুঁজ নির্গত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "eyes",
+      "discharge",
+      "pus"
+    ],
+    "explanation": "Argentum Nitricum-এ চোখ থেকে প্রচুর পরিমাণে ঘন, হলদেটে পুঁজ নির্গত হয়।"
+  },
+  {
+    "id": "ars-sym-19",
+    "stem": "চোখে জ্বালা ও ক্ষয়কারী অশ্রু — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "eyes",
+      "burning"
+    ],
+    "explanation": "Burning eyes with acrid tears Arsenicum Album নির্দেশ করে।"
+  },
+  {
+    "id": "aurum-sym-08",
+    "stem": "চোখে আলোকচ্ছটা, অর্ধেক বস্তু দেখা, দিনের আলো অসহ্য — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "eye",
+      "vision",
+      "photophobia"
+    ],
+    "explanation": "Aurum-এ হেমি-ভিশন ও আলো অসহ্য হয়।"
+  },
+  {
+    "id": "borax-sym-13",
+    "stem": "রাতে চোখের পাতা আঠার মতো জুড়ে থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "eye",
+      "eyelids",
+      "night"
+    ],
+    "explanation": "Borax-এ চোখের পাতার কিনারা লাল হয়ে যায় এবং রাতে চোখের পাতা আঠার মতো জুড়ে থাকে।"
+  },
+  {
+    "id": "borax-sym-14",
+    "stem": "চোখের পল্লব ভেতরের দিকে বেঁকে যাওয়া (Entropion) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "eye",
+      "entropion"
+    ],
+    "explanation": "Borax-এ চোখের পল্লব ভেতরের দিকে বেঁকে যায় (Entropion)।"
+  },
+  {
+    "id": "bell-sym-04",
+    "stem": "চোখের মণি প্রসারিত, চোখ উজ্জ্বল — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Sabadilla",
+        "mid": "sabadilla"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "eyes",
+      "pupils"
+    ],
+    "explanation": "Dilated pupils Belladonna-এর বিখ্যাত লক্ষণ।"
+  },
+  {
+    "id": "bell-sym-11",
+    "stem": "উজ্জ্বল আলো সহ্য করতে পারে না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "eyes",
+      "photophobia"
+    ],
+    "explanation": "Photophobia Belladonna-এর গুরুত্বপূর্ণ চক্ষু লক্ষণ।"
+  },
+  {
+    "id": "bell-sym-17",
+    "stem": "জ্বরের সাথে গরম, লাল, উজ্জ্বল চোখ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "eyes",
+      "fever"
+    ],
+    "explanation": "Congested red eyes Belladonna-এর শক্তিশালী নির্দেশক।"
+  },
+  {
+    "id": "calen-sym-10",
+    "stem": "চোখে আঘাত বা ছানি অপারেশনের পর বাহ্যিক ও অভ্যন্তরীণ ব্যবহার — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "eye",
+      "injury",
+      "cataract",
+      "surgery"
+    ],
+    "explanation": "Calendula চোখের আঘাত ও ছানি অপারেশনের পর ব্যবহৃত হয়।"
+  },
+  {
+    "id": "calc-fluor-sym-12",
+    "stem": "চোখের পাতায় শক্ত অঞ্জনি (Styes) বা টিউমার — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "eyes",
+      "styes",
+      "eyelid-tumors"
+    ],
+    "explanation": "Calcarea Fluorica-এ চোখের পাতায় শক্ত অঞ্জনি (Styes) বা টিউমার হয়।"
+  },
+  {
+    "id": "calc-fluor-sym-19",
+    "stem": "দ্রুত দাঁত ক্ষয় এবং ছানির (Cataract) অতি উৎকৃষ্ট মহৌষধ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "teeth",
+      "cataract",
+      "eyes",
+      "dental-decay"
+    ],
+    "explanation": "Calcarea Fluorica দ্রুত দাঁত ক্ষয় এবং ছানির (Cataract) অতি উৎকৃষ্ট মহৌষধ।"
+  },
+  {
+    "id": "carbo-sym-14",
+    "stem": "মুখ ফ্যাকাশে নীলাভ, ঠান্ডা ঘামে ভেজা, চোখ বসে যাওয়া, কালচে দাগ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "face",
+      "pale",
+      "bluish",
+      "cold-sweat",
+      "sunken-eyes"
+    ],
+    "explanation": "Carbo Veg-এ মুখ ফ্যাকাশে নীলাভ ও ঠান্ডা ঘাম থাকে।"
+  },
+  {
+    "id": "calc-sulph-sym-04",
+    "stem": "চোখ থেকে ঘন হলুদ পিঁচুটি পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "eye",
+      "discharge"
+    ],
+    "explanation": "Calcarea Sulph-এ চোখ থেকে ঘন হলুদ স্রাব বা পিঁচুটি পড়ে।"
+  },
+  {
+    "id": "calc-sulph-sym-10",
+    "stem": "চোখের পাতা নাচা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus-muscarius"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium-sempervirens"
+      },
+      {
+        "text": "Zincum Met",
+        "mid": "zincum-metallicum"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "eye",
+      "twitching"
+    ],
+    "explanation": "Calcarea Sulph-এ চোখের পাতা নাচে।"
+  },
+  {
+    "id": "clem-sym-08",
+    "stem": "চোখ লাল হয়ে যাওয়া, অনবরত জল পড়া এবং আলো সহ্য করতে না পারা (Photophobia) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Merc Cor",
+        "mid": "merc-cor"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "eyes",
+      "photophobia",
+      "lacrimation"
+    ],
+    "explanation": "Clematis Erecta-এ চোখের তীব্র প্রদাহে লাল বর্ণ, জলঝরা ও তীব্র আলোকদ্বেষ উপস্থিত থাকে।"
+  },
+  {
+    "id": "croton-sym-16",
+    "stem": "চোখের মণির ওপর ঘা ও চোখ দিয়ে গরম জল পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "eye",
+      "corneal-ulcer"
+    ],
+    "explanation": "Croton Tiglium-এ চোখের মণির ওপর ঘা (Ulcer of Cornea) হয় এবং চোখ দিয়ে গরম জল পড়ে।"
+  },
+  {
+    "id": "cinn-sym-03",
+    "stem": "চোখের কোটর বা ভ্রুর চারপাশ দিয়ে তীক্ষ্ণ ব্যথা যা মাথার রগ (Temple) পর্যন্ত ছড়িয়ে পড়ে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Cedron",
+        "mid": "cedron"
+      },
+      {
+        "text": "Comocladia",
+        "mid": "comocladia"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "eyes",
+      "neuralgia",
+      "headache"
+    ],
+    "explanation": "Cinnabaris-এ চোখের কোটর বা ভ্রু থেকে ব্যথা মাথার রগের দিকে প্রসারিত হয়, যাকে সিলিয়ারিক নিউরালজিয়া বলে।"
+  },
+  {
+    "id": "cinn-sym-08",
+    "stem": "চোখের মণি লাল হয়ে যাওয়া এবং আলো সহ্য করতে না পারা (Iritis) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Merc Cor",
+        "mid": "merc-cor"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "eyes",
+      "iritis",
+      "photophobia"
+    ],
+    "explanation": "Cinnabaris-এ চোখের মণির প্রদাহ (Iritis) এবং আলোতে তাকাতে না পারার সমস্যা দূর করতে সুনির্দিষ্ট কার্যকারিতা রয়েছে।"
+  },
+  {
+    "id": "cinn-sym-20",
+    "stem": "চোখের পাতায় প্রদাহ এবং চোখের ভেতর বালু পড়ার মতো খচখচে অনুভূতি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulfur",
+        "mid": "sulfur"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "eyes",
+      "gritty",
+      "inflammation"
+    ],
+    "explanation": "Cinnabaris-এ চোখের পাতায় শুষ্কতা-প্রদাহ এবং মণির উপর বালুকণার মতো অস্বস্তিকর অনুভূতি উপস্থিত থাকে।"
+  },
+  {
+    "id": "china-sym-16",
+    "stem": "রক্তস্রাবের পর চোখে ঝাপসা দেখা, কানে নানা শব্দ, চোখের পাশে কালিমা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Metallicum",
+        "mid": "ferrum-metallicum"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "bleeding",
+      "vision",
+      "tinnitus"
+    ],
+    "explanation": "China এ রক্তস্রাবের জন্য শরীর দুর্বল হয়, চোখে ঝাপসা দেখে, কানে নানা শব্দ শোনে, চোখের পাশে কালিমা পড়ে।"
+  },
+  {
+    "id": "cina-sym-09",
+    "stem": "চোখের চারপাশে কালো দাগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Sabadilla",
+        "mid": "sabadilla"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "eyes",
+      "worms"
+    ],
+    "explanation": "Dark rings around eyes Cina-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "conium-sym-05",
+    "stem": "প্রদাহ ছাড়াই তীব্র আলোকাতঙ্ক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "eye",
+      "photophobia",
+      "without-inflammation"
+    ],
+    "explanation": "Conium-এ প্রদাহ ছাড়াই আলোকাতঙ্ক থাকে।"
+  },
+  {
+    "id": "conium-sym-12",
+    "stem": "চোখ থেকে জল পড়ে, আলোকাতঙ্ক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "eye",
+      "lachrymation",
+      "photophobia"
+    ],
+    "explanation": "Conium-এ চোখ থেকে জল পড়ে ও আলোকাতঙ্ক থাকে।"
+  },
+  {
+    "id": "conium-sym-20",
+    "stem": "চোখের পাতার পক্ষাঘাত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "eye",
+      "ptosis",
+      "paralysis",
+      "eyelid"
+    ],
+    "explanation": "Conium-এ চোখের পাতার পক্ষাঘাত দেখা যায়।"
+  },
+  {
+    "id": "hama-sym-10",
+    "stem": "চোখের ভেতর রক্ত জমে লাল হয়ে যাওয়া (Intraocular hemorrhage) ও চাপন ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Ledum Pal",
+        "mid": "ledum-pal"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "eyes",
+      "hemorrhage",
+      "trauma"
+    ],
+    "explanation": "Hamamelis-এ চোখের কনিতে রক্তক্ষরণ ও চাপজনিত ব্যাথায় আরোগ্য প্রদানে বিশেষ ভূমিকা আছে।"
+  },
+  {
+    "id": "hell-sym-01",
+    "stem": "রোগী জ্ঞান হারায় বা অনুভূতি শূন্য হয়ে পড়ে এবং অর্ধনিমীলিত চোখে অর্থহীনভাবে তাকিয়ে থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "unconsciousness",
+      "eyes",
+      "mental"
+    ],
+    "explanation": "Helleborus Niger-এর একটি প্রধান লক্ষণ হলো রোগী জ্ঞান হারায় বা অনুভূতি শূন্য হয়ে পড়ে এবং তার চোখ অর্ধনিমীলিত থাকে ও দৃষ্টি অর্থহীন শূন্য হয়ে যায়।"
+  },
+  {
+    "id": "hyoscyamus-sym-19",
+    "stem": "চোখ বড় বড় করে তাকিয়ে থাকা ও সব কিছু বড় বা রঙিন দেখা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "eye",
+      "hallucinations"
+    ],
+    "explanation": "Hyoscyamus-এ রোগী চোখ বড় বড় করে তাকিয়ে থাকে এবং চোখের সামনে সব কিছু বড় বা রঙিন দেখে।"
+  },
+  {
+    "id": "glon-sym-16",
+    "stem": "চোখের সামনে আগুনের স্ফুলিঙ্গ দেখা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Cyclamen",
+        "mid": "cyclamen"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "eye",
+      "sparks",
+      "vision"
+    ],
+    "explanation": "Glonoine-এ আগুনের স্ফুলিঙ্গ দেখা যায়।"
+  },
+  {
+    "id": "euphrasia-sym-01",
+    "stem": "চোখের রোগের জন্য বিখ্যাত, চোখের ঔষধ বলা হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "famous-remedy"
+    ],
+    "explanation": "Euphrasia Officinalis প্রধানত চোখের রোগের জন্য বিখ্যাত, একে চোখের ঔষধ বলা হয়।"
+  },
+  {
+    "id": "euphrasia-sym-02",
+    "stem": "চোখ দিয়ে প্রচুর পানি পড়ে, পানি জ্বালাপোড়া করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "lachrymation",
+      "burning"
+    ],
+    "explanation": "Euphrasia Officinalis এ চোখ দিয়ে প্রচুর পানি পড়ে, পানি জ্বালাপোড়া করে।"
+  },
+  {
+    "id": "euphrasia-sym-04",
+    "stem": "চোখের জল ঝাল ও উগ্র, চোখের চারপাশের চামড়া ছিলে ফেলে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "acrid",
+      "excoriation"
+    ],
+    "explanation": "Euphrasia Officinalis এ চোখ দিয়ে যে জল পড়ে তা অত্যন্ত ঝাল ও উগ্র, যা চোখের চারপাশের চামড়া ছিলে ফেলে।"
+  },
+  {
+    "id": "euphrasia-sym-05",
+    "stem": "চোখ লাল ও ফুলে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "red",
+      "swollen"
+    ],
+    "explanation": "Euphrasia Officinalis এ চোখ লাল ও ফুলে যায়।"
+  },
+  {
+    "id": "euphrasia-sym-06",
+    "stem": "আলো সহ্য হয় না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "photophobia"
+    ],
+    "explanation": "Euphrasia Officinalis এ রোগী আলো সহ্য করতে পারে না।"
+  },
+  {
+    "id": "euphrasia-sym-07",
+    "stem": "চোখের ভেতর বালু পড়ার মতো খচখচ অনুভূতি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "gritty",
+      "sand"
+    ],
+    "explanation": "Euphrasia Officinalis এ চোখের ভেতর অনবরত খচখচ করে, মনে হয় যেন বালু ঢুকেছে।"
+  },
+  {
+    "id": "euphrasia-sym-08",
+    "stem": "অন্ধকার ঘরে থাকতে পছন্দ করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "dark",
+      "preference"
+    ],
+    "explanation": "Euphrasia Officinalis রোগী অন্ধকারে বা অন্ধকার ঘরে থাকতে পছন্দ করে।"
+  },
+  {
+    "id": "euphrasia-sym-13",
+    "stem": "চোখের পাতায় আঠালো পুঁজ জমে সকালে চোখ জুড়ে থাকা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "lids",
+      "pus",
+      "morning"
+    ],
+    "explanation": "Euphrasia Officinalis এ চোখের পাতায় আঠালো পুঁজ জমে সকালে চোখ জুড়ে থাকে।"
+  },
+  {
+    "id": "euphrasia-sym-14",
+    "stem": "অনবরত চোখ ঘষতে ইচ্ছে করা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "rubbing"
+    ],
+    "explanation": "Euphrasia Officinalis এ অনবরত চোখ ঘষতে ইচ্ছে করে।"
+  },
+  {
+    "id": "euphrasia-sym-17",
+    "stem": "দিনের বেলা আক্ষেপিক কাশি, কাশির সাথে প্রচুর শ্লেষ্মা, কাশির সময় চোখ দিয়ে জল পড়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "cough",
+      "day",
+      "mucus",
+      "eye"
+    ],
+    "explanation": "Euphrasia Officinalis এ দিনের বেলা আক্ষেপিক কাশি হয়, কাশির সাথে প্রচুর শ্লেষ্মা নির্গত হয়, কাশির সময় চোখ দিয়ে জল পড়তে পারে।"
+  },
+  {
+    "id": "euphrasia-sym-18",
+    "stem": "ঋতুস্রাব খুব অল্প সময় থাকে ও পরিমাণে কম, ঋতুস্রাবের সময় চোখের সমস্যা বা সর্দি বাড়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "female",
+      "menses",
+      "eye"
+    ],
+    "explanation": "Euphrasia Officinalis এ ঋতুস্রাব খুব অল্প সময় থাকে এবং পরিমাণে কম হয়, ঋতুস্রাবের সময় চোখের সমস্যা বা সর্দি বাড়তে পারে।"
+  },
+  {
+    "id": "graph-sym-16",
+    "stem": "চোখের পাতায় ভেজা, ফাটলযুক্ত একজিমা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "eyes",
+      "eczema"
+    ],
+    "explanation": "Eczema of eyelids is characteristic of Graphites।"
+  },
+  {
+    "id": "graph-sym-16",
+    "stem": "চোখের পাতায় ভেজা, ফাটলযুক্ত একজিমা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "eyes",
+      "eczema"
+    ],
+    "explanation": "Eczema of eyelids is characteristic of Graphites।"
+  },
+  {
+    "id": "natrum-mur-sym-17",
+    "stem": "বই পড়লে বা সেলাইয়ের কাজ করলে দৃষ্টি ঝাপসা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "eye",
+      "vision"
+    ],
+    "explanation": "Natrum Mur-এ চোখের মাংসপেশির দুর্বলতায় বই পড়লে বা সেলাইয়ের কাজ করলে দৃষ্টি ঝাপসা হয়ে আসে।"
+  },
+  {
+    "id": "natp-sym-05",
+    "stem": "ছোট কৃমি, দাঁত কিড়মিড়, বিছানায় প্রস্রাব, ট্যারা দৃষ্টি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Teucrium Marum",
+        "mid": "teucrium-marum"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "worms",
+      "teeth-grinding",
+      "enuresis",
+      "squint"
+    ],
+    "explanation": "Natrum Phos কৃমি ও তার উপসর্গে কার্যকর।"
+  },
+  {
+    "id": "natp-sym-10",
+    "stem": "মাথার তালুতে প্রচণ্ড তাপ, চোখের সামনে ঝিলিক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "head",
+      "vertex",
+      "hot",
+      "flashing-eyes"
+    ],
+    "explanation": "Natrum Phos-এ মাথার তালুতে তাপ ও চোখে ঝিলিক থাকে।"
+  },
+  {
+    "id": "natp-sym-11",
+    "stem": "চোখ থেকে ঘন হলুদ আঠালো স্রাব, সকালে পাতা জুড়ে থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "eye",
+      "yellow",
+      "sticky",
+      "agglutinated"
+    ],
+    "explanation": "Natrum Phos-এ চোখ থেকে হলুদ আঠালো স্রাব বের হয়।"
+  },
+  {
+    "id": "natp-sym-05",
+    "stem": "ছোট কৃমি, দাঁত কিড়মিড়, বিছানায় প্রস্রাব, ট্যারা দৃষ্টি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Teucrium Marum",
+        "mid": "teucrium-marum"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "worms",
+      "teeth-grinding",
+      "enuresis",
+      "squint"
+    ],
+    "explanation": "Natrum Phos কৃমি ও তার উপসর্গে কার্যকর।"
+  },
+  {
+    "id": "natp-sym-10",
+    "stem": "মাথার তালুতে প্রচণ্ড তাপ, চোখের সামনে ঝিলিক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "head",
+      "vertex",
+      "hot",
+      "flashing-eyes"
+    ],
+    "explanation": "Natrum Phos-এ মাথার তালুতে তাপ ও চোখে ঝিলিক থাকে।"
+  },
+  {
+    "id": "natp-sym-11",
+    "stem": "চোখ থেকে ঘন হলুদ আঠালো স্রাব, সকালে পাতা জুড়ে থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "eye",
+      "yellow",
+      "sticky",
+      "agglutinated"
+    ],
+    "explanation": "Natrum Phos-এ চোখ থেকে হলুদ আঠালো স্রাব বের হয়।"
+  },
+  {
+    "id": "petr-sym-20",
+    "stem": "বিষন্নতার সাথে দৃষ্টিশক্তি হ্রাস পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "mental",
+      "depression",
+      "vision",
+      "dim"
+    ],
+    "explanation": "Petroleum-এ বিষন্নতার সাথে দৃষ্টিশক্তি হ্রাস (Depression with dim vision) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।[reference:39]"
+  },
+  {
+    "id": "opi-sym-02",
+    "stem": "রোগীর চোখ অর্ধেক খোলা রেখে আচ্ছন্নভাবে ঘুমানো ও তীব্র তন্দ্রাচ্ছন্নতা (Drowsiness) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antim-tart"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "sleep",
+      "drowsiness",
+      "eyes"
+    ],
+    "explanation": "Opium-এ গভীর তন্দ্রা, আধখোলা চোখ এবং ঘুম থেকে সহজে না জাগার লক্ষণ দেখা যায়।"
+  },
+  {
+    "id": "opi-sym-09",
+    "stem": "মুখমণ্ডল, ঠোঁট ও চোখ লাল বর্ণ ধারণ করা এবং মণি (Pupils) অত্যন্ত সংকুচিত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Melilotus",
+        "mid": "melilotus"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "face",
+      "eyes",
+      "congestion"
+    ],
+    "explanation": "Opium-এ মাথার দিকে রক্তের ঊর্ধ্বগতিতে মুখমণ্ডল রক্তলাল হয় এবং চোখের মনি ছোট হয়ে যায়।"
+  },
+  {
+    "id": "ruta-sym-03",
+    "stem": "চোখের অতিরিক্ত ব্যবহার (পড়া, কম্পিউটার) থেকে চোখ ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "eye",
+      "eye-strain"
+    ],
+    "explanation": "Ruta চোখের অতিরিক্ত ব্যবহার যেমন পড়া বা কম্পিউটারে কাজ করার ফলে চোখ ব্যথায় উপকারী।"
+  },
+  {
+    "id": "ruta-sym-07",
+    "stem": "সূক্ষ্ম কাজে চোখে প্রচণ্ড ব্যথা ও চোখ লাল হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "eye",
+      "eye-strain",
+      "redness"
+    ],
+    "explanation": "Ruta-এ সেলাই করা, টাইপ করা বা অনেকক্ষণ পড়াশোনার ফলে চোখে প্রচণ্ড ব্যথা এবং চোখ লাল হয়ে যায়।"
+  },
+  {
+    "id": "ruta-sym-13",
+    "stem": "চোখের ভেতর বালু বা কাঁচের টুকরো আছে এমন অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "eye",
+      "foreign-body-sensation"
+    ],
+    "explanation": "Ruta-এ চোখের ভেতর মনে হয় বালু বা কাঁচের টুকরো আছে।"
+  },
+  {
+    "id": "phosphorus-sym-17",
+    "stem": "চোখের সামনে কুয়াশা বা কালো দাগ দেখার মতো অনুভূতি, রেটিনার রক্তক্ষরণ রোধে কার্যকর, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Cyclamen",
+        "mid": "cyclamen"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "eye",
+      "fog",
+      "retina"
+    ],
+    "explanation": "Phosphorus এ চোখের সামনে কুয়াশা বা কালো দাগ দেখার মতো অনুভূতি হয়, রেটিনার রক্তক্ষরণ রোধে এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "sel-sym-07",
+    "stem": "দাড়ি, ভ্রু, যৌনাঙ্গের চুল ও মাথার চুল পড়ে যায়, তৈলাক্ত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "hair-fall",
+      "beard",
+      "eyebrow",
+      "pubic",
+      "oily"
+    ],
+    "explanation": "Selenium-এ বিভিন্ন স্থানের চুল পড়ে ও তৈলাক্ত থাকে।"
+  },
+  {
+    "id": "staph-sym-08",
+    "stem": "চোখের পাতায় অঞ্জনি শক্ত গুটি চালাজিয়ন হয়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "eyes",
+      "styes",
+      "chalazion",
+      "hard"
+    ],
+    "explanation": "Staphisagria-এ অঞ্জনি শক্ত গুটি হয়।"
+  },
+  {
+    "id": "sene-sym-05",
+    "stem": "চোখের পেশির দুর্বলতা বা পক্ষাঘাতের কারণে একটি বস্তু দুটি দেখা (Diplopia) — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "eye",
+      "diplopia"
+    ],
+    "explanation": "Senega চোখের পেশির দুর্বলতাজনিত দ্বিত্বদৃষ্টি বা ডিপ্লোপিয়ার (Diplopia) জন্য এক অনন্য ওষুধ।"
+  },
+  {
+    "id": "sene-sym-08",
+    "stem": "অক্ষিপুট প্রদাহ, চোখের পাতা শুষ্ক এবং মামড়ি বা আঁশ যুক্ত হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla-nigricans"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "eye",
+      "blepharitis"
+    ],
+    "explanation": "Senega চোখের পাতার প্রদাহ (Blepharitis) দূর করতে কার্যকর যেখানে চোখের পাতা শুষ্ক ও আঁশযুক্ত থাকে।"
+  },
+  {
+    "id": "sars-sym-06",
+    "stem": "মাথার চাঁদি থেকে চোখ পর্যন্ত তীরের আঘাতের মতো ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "headache",
+      "shooting-pain",
+      "occiput",
+      "eyes"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ মাথার চাঁদি (Occiput) থেকে চোখ পর্যন্ত তীরের আঘাত পাওয়ার মতো শুটিং ব্যথা হয়।"
+  },
+  {
+    "id": "staph-sym-08",
+    "stem": "চোখের পাতায় অঞ্জনি শক্ত গুটি চালাজিয়ন হয়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "eyes",
+      "styes",
+      "chalazion",
+      "hard"
+    ],
+    "explanation": "Staphisagria-এ অঞ্জনি শক্ত গুটি হয়।"
+  },
+  {
+    "id": "spigelia-sym-02",
+    "stem": "মাথার পিছন হতে ব্যথা আরম্ভ হয়, চক্ষু পর্যন্ত ছড়িয়ে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Glonoinum",
+        "mid": "glonoinum"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "headache",
+      "occiput",
+      "eye"
+    ],
+    "explanation": "Spigelia Anthelmia এ মাথার পিছন হতে ব্যথা আরম্ভ হয়, চক্ষু পর্যন্ত ছড়িয়ে যায়।"
+  },
+  {
+    "id": "spigelia-sym-04",
+    "stem": "সুই ফোটানো বেদনা, মনে হয় চোখের ভেতরে সুঁই ফোটানো হচ্ছে, চোখের পেছনে সুঁই বিঁধছে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "eye",
+      "needle",
+      "pain"
+    ],
+    "explanation": "Spigelia Anthelmia এ সুই ফোটানো বেদনা হয়, মনে হয় চোখের ভেতরে সুঁই ফোটানো হচ্ছে, চোখের পেছনে সুঁই বিঁধছে।"
+  },
+  {
+    "id": "spigelia-sym-15",
+    "stem": "চোখের নড়াচড়ায় কষ্ট, চোখ নাড়ালে যন্ত্রণা বৃদ্ধি পায়, মনে হয় চোখ দুটি কোটর থেকে বড় হয়ে গেছে, তীব্র যন্ত্রণাসহ চোখ লাল হয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "eye",
+      "motion",
+      "redness"
+    ],
+    "explanation": "Spigelia Anthelmia এ চোখ নাড়ালে যন্ত্রণার তীব্রতা বৃদ্ধি পায়, মনে হয় চোখ দুটি কোটর থেকে বড় হয়ে গেছে, তীব্র যন্ত্রণাসহ চোখ লাল হয়ে যায়।"
+  },
+  {
+    "id": "sil-sym-07",
+    "stem": "মাথাব্যথা ঘাড় থেকে শুরু হয়ে চোখের ওপর (সাধারণত ডান চোখে) এসে স্থির হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "headache",
+      "occiput",
+      "right-eye"
+    ],
+    "explanation": "Silicea-এ মাথাব্যথা ঘাড় থেকে শুরু হয়ে চোখের ওপর (সাধারণত ডান চোখে) এসে স্থির হয়।"
+  },
+  {
+    "id": "sil-sym-18",
+    "stem": "চোখে বারবার অঞ্জনি (Styes) হওয়ার প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "eyes",
+      "styes",
+      "recurrent"
+    ],
+    "explanation": "Silicea-এ চোখে বারবার অঞ্জনি (Styes) হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "sil-sym-19",
+    "stem": "পায়ের ঘা লোপ পেয়ে ছানি পড়া এবং দৃষ্টিশক্তি কমে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "foot-ulcer",
+      "cataract",
+      "vision"
+    ],
+    "explanation": "Silicea-এ পায়ের ঘা লোপ পেয়ে ছানি পড়া এবং দৃষ্টিশক্তি কমে যাওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "var-sym-20",
+    "stem": "চোখের পাতা ফুলে যাওয়া এবং চোখ দিয়ে অনবরত পানি পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "All Cepa",
+        "mid": "all-cepa"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "eyes",
+      "swelling",
+      "lachrymation"
+    ],
+    "explanation": "Variolinum চোখের পাতা স্ফীত করা ও ল্যাক্রিমেশন ঘটাতে দক্ষ।"
+  },
+  {
+    "id": "syphilinum-sym-18",
+    "stem": "অস্থির ক্ষয়, হাড়ের বিশেষ করে নাকের বা তালুর হাড়ের ক্ষয়, পচনশীল ক্ষত, মাথার খুলিতে প্রচণ্ড যন্ত্রণা, মনে হয় মাথার হাড় ফেটে যাবে, দীর্ঘস্থায়ী চোখের প্রদাহ, রাতে চোখের যন্ত্রণা বৃদ্ধি, জিহ্বা ফাটা ফাটা, তাতে দাঁতের ছাপ থাকে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Asafoetida",
+        "mid": "asafoetida"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "bone",
+      "caries",
+      "skull",
+      "eye",
+      "tongue"
+    ],
+    "explanation": "Syphilinum এ অস্থির ক্ষয় হয়, নাকের বা তালুর হাড়ের ক্ষয় ও পচনশীল ক্ষত হয়, মাথার খুলিতে প্রচণ্ড যন্ত্রণা হয়, দীর্ঘস্থায়ী চোখের প্রদাহ ও রাতে চোখের যন্ত্রণা বৃদ্ধি হয়, জিহ্বা ফাটা ফাটা হয় ও তাতে দাঁতের ছাপ থাকে।"
+  },
+  {
+    "id": "thuja-sym-02",
+    "stem": "চোখের পাতার টিউমার — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "eyelid",
+      "tumor",
+      "chalazion"
+    ],
+    "explanation": "Thuja চোখের পাতার টিউমারে কার্যকর।"
+  },
+  {
+    "id": "thuja-sym-02",
+    "stem": "চোখের পাতার টিউমার — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "eyelid",
+      "tumor",
+      "chalazion"
+    ],
+    "explanation": "Thuja চোখের পাতার টিউমারে কার্যকর।"
+  },
+  {
+    "id": "apis-sym-01",
+    "stem": "শরীরের যেকোনো স্থান থলির মতো ফুলে যাওয়া, বিশেষত চোখের নিচের পাতা ফোলা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "edema",
+      "swelling",
+      "eyes"
+    ],
+    "explanation": "Apis Mellifica-এর প্রধান লক্ষণ হলো শরীরের যেকোনো স্থান থলির মতো ফুলে যাওয়া (Edema), বিশেষ করে চোখের নিচের পাতা ফোলা (Puffy swelling)।"
+  }
+]

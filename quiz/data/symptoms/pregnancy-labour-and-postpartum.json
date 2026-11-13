@@ -1,0 +1,610 @@
+[
+  {
+    "id": "arnica-mont-sym-14",
+    "stem": "প্রসবের পর জরায়ুর ক্ষত ও রক্তক্ষরণ বন্ধ করতে এটি অত্যন্ত দ্রুত কাজ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "female",
+      "postpartum",
+      "uterine-wounds",
+      "hemorrhage"
+    ],
+    "explanation": "Arnica Montana প্রসবের পর জরায়ুর ক্ষত ও রক্তক্ষরণ বন্ধ করতে অত্যন্ত দ্রুত কাজ করে।"
+  },
+  {
+    "id": "borax-sym-06",
+    "stem": "শিশু যখন দুধ খায়, বোটায় গড়ম লাগে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "child",
+      "nursing",
+      "griping"
+    ],
+    "explanation": "Borax-এ শিশু যখন দুধ খায় তখন বোটায় গড়ম লাগে।"
+  },
+  {
+    "id": "caul-sym-01",
+    "stem": "প্রসববেদনা দুর্বল, অনিয়মিত ও ফলহীন — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "labor",
+      "uterus"
+    ],
+    "explanation": "দুর্বল ও অকার্যকর labor pains Caulophyllum-এর প্রধান নির্দেশনা।"
+  },
+  {
+    "id": "caul-sym-04",
+    "stem": "গর্ভাশয়ের দুর্বলতার কারণে বারবার গর্ভপাত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      },
+      {
+        "text": "Aconitum",
+        "mid": "aconitum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "abortion",
+      "uterine-debility"
+    ],
+    "explanation": "Habitual abortion from uterine weakness-এ Caulophyllum গুরুত্বপূর্ণ।"
+  },
+  {
+    "id": "caul-sym-06",
+    "stem": "গর্ভমুখ অত্যন্ত শক্ত ও অনমনীয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Secale",
+        "mid": "secale"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "labor",
+      "cervix"
+    ],
+    "explanation": "Rigid os uteri Caulophyllum-এর সুপরিচিত লক্ষণ।"
+  },
+  {
+    "id": "caul-sym-07",
+    "stem": "মিথ্যা প্রসববেদনা, অগ্রগতি হয় না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carb"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "false-labor",
+      "pregnancy"
+    ],
+    "explanation": "False pains with no progress Caulophyllum নির্দেশ করে।"
+  },
+  {
+    "id": "caul-sym-08",
+    "stem": "প্রসবের পর after-pains — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "after-pains",
+      "postpartum"
+    ],
+    "explanation": "After-pains-এর জন্য Caulophyllum পরিচিত।"
+  },
+  {
+    "id": "caul-sym-15",
+    "stem": "প্রসববেদনা এসে আবার মিলিয়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Secale",
+        "mid": "secale"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "labor",
+      "exhaustion"
+    ],
+    "explanation": "Labor pains disappearing from exhaustion Caulophyllum-এর একটি ক্লাসিক ব্যবহার।"
+  },
+  {
+    "id": "croton-sym-03",
+    "stem": "স্তন্যদানকালে স্তন থেকে পিঠ পর্যন্ত টান লাগার মতো ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca-decandra"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "breast",
+      "nursing",
+      "pain"
+    ],
+    "explanation": "Croton Tiglium-এ স্তন্যদানকারী মহিলার শিশু দুধ পান করলে মনে হয় যেন স্তন থেকে পিঠের দিকে দড়ি দিয়ে টানছে।"
+  },
+  {
+    "id": "cimicifuga-sym-15",
+    "stem": "গর্ভাবস্থার শেষে জরায়ুর আক্ষেপিক ব্যথা ও বারবার গর্ভপাতের প্রবণতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum-thalictroides"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "pregnancy",
+      "abortion",
+      "uterine-spasms"
+    ],
+    "explanation": "Cimicifuga Racemosa গর্ভাবস্থার শেষের দিকে জরায়ুর আক্ষেপিক ব্যথায় এবং বারবার গর্ভপাত হওয়ার প্রবণতা কমাতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": "hama-sym-09",
+    "stem": "গর্ভাবস্থায় পায়ে বা জননেন্দ্রিয়তে ভ্যারিকোজ ভেইন বা শিরা ফুলে নীল হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "female",
+      "pregnancy",
+      "varicose-veins"
+    ],
+    "explanation": "Hamamelis গর্ভাবস্থায় নীল হয়ে যাওয়া ফুলে ওঠা শিরা বা ভ্যারিকোস ভেইন চিকিৎসায় অত্যন্ত সফল।"
+  },
+  {
+    "id": "mag-carb-sym-05",
+    "stem": "গর্ভবতী নারীদের দাঁতের ব্যথা, যা রাতে বিছানার গরমে বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Plantago Major",
+        "mid": "plantago-major"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "toothache",
+      "pregnancy",
+      "night",
+      "bed-heat"
+    ],
+    "explanation": "Magnesia Carbonica গর্ভাবস্থায় নারীদের দাঁতের ব্যথায় কার্যকর; এই ব্যথা সাধারণত রাতে শুতে গেলে বা বিছানার গরমে বেড়ে যায়।"
+  },
+  {
+    "id": "podo-sym-05",
+    "stem": "প্রসবের পর জরায়ু শিথিলতা ও স্থানচ্যুতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Aletris Farinosa",
+        "mid": "aletris-farinosa"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "prolapse-uterus",
+      "after-delivery",
+      "relaxation"
+    ],
+    "explanation": "Podophyllum-এ প্রসবের পর জরায়ু প্রল্যাপস হয়।"
+  },
+  {
+    "id": "phy-sym-03",
+    "stem": "স্তন অত্যন্ত শক্ত, পাথরের মতো কঠিন, গরম ও প্রসূতির দুধ পান করানোর সময় ব্যথা সারা শরীরে ছড়িয়ে পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "mammae",
+      "mastitis",
+      "nursing-pain"
+    ],
+    "explanation": "Phytolacca স্তনের শক্ত পিণ্ড ও দুধ পান করানোর সময় সারা দেহে ব্যথা বিস্তারের মহৌষধ।"
+  },
+  {
+    "id": "podo-sym-05",
+    "stem": "প্রসবের পর জরায়ু শিথিলতা ও স্থানচ্যুতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Aletris Farinosa",
+        "mid": "aletris-farinosa"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "prolapse-uterus",
+      "after-delivery",
+      "relaxation"
+    ],
+    "explanation": "Podophyllum-এ প্রসবের পর জরায়ু প্রল্যাপস হয়।"
+  },
+  {
+    "id": "sec-sym-20",
+    "stem": "গর্ভবতী অবস্থায় ব্যবহারে গর্ভপাতের ঝুঁকি তৈরি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "posology",
+      "pregnancy",
+      "caution"
+    ],
+    "explanation": "Secale Cornutum জরায়ুর পেশিতে আক্ষেপ তৈরি করে গর্ভপাত ঘটাতে পারে।"
+  },
+  {
+    "id": "sab-sym-04",
+    "stem": "গর্ভপাতের ঝুঁকি, অভ্যাসগত গর্ভপাত, বিশেষত ৩য় মাসে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Viburnum Opulus",
+        "mid": "viburnum-opulus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "abortion",
+      "habitual",
+      "third-month",
+      "pregnancy"
+    ],
+    "explanation": "Sabina তৃতীয় মাসে গর্ভপাত প্রবণতায় শ্রেষ্ঠ।"
+  },
+  {
+    "id": "sab-sym-08",
+    "stem": "প্রসব বা গর্ভপাতের পর অতিরিক্ত রক্তস্রাব — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      },
+      {
+        "text": "Cinnamonum",
+        "mid": "cinnamonum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "postpartum",
+      "post-abortion",
+      "hemorrhage",
+      "profuse"
+    ],
+    "explanation": "Sabina প্রসব বা গর্ভপাতের পর অতিরিক্ত রক্তস্রাবে কার্যকর।"
+  },
+  {
+    "id": "sab-sym-20",
+    "stem": "তীব্র রক্তস্রাবে নিম্ন শক্তি 3X-6 ঘনঘন, গর্ভপাত প্রতিরোধে উচ্চ শক্তি — এই শক্তি নির্বাচন কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      },
+      {
+        "text": "Ipecacuanha",
+        "mid": "ipecacuanha"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "potency",
+      "hemorrhage",
+      "low",
+      "high",
+      "abortion-prevention"
+    ],
+    "explanation": "Sabina-এ তীব্র রক্তস্রাবে নিম্ন ও গর্ভপাত প্রতিরোধে উচ্চ শক্তি ব্যবহৃত হয়।"
+  },
+  {
+    "id": "syphilinum-sym-06",
+    "stem": "স্ত্রীলোকের বারবার গর্ভ নষ্ট হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Viburnum Opulus",
+        "mid": "viburnum-opulus"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "abortion",
+      "women"
+    ],
+    "explanation": "Syphilinum এ স্ত্রীলোকের বারবার গর্ভ নষ্ট হয়।"
+  },
+  {
+    "id": "verat-sym-09",
+    "stem": "রোগীনি নিজেকে গর্ভবতী ভাবে এবং ভাবে শীঘ্রই সন্তান প্রসব করবে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "mental",
+      "delusion-of-pregnancy",
+      "female"
+    ],
+    "explanation": "Veratrum Album-এ রোগীনি নিজেকে গর্ভবতী ভাবে এবং ভাবে শীঘ্রই সন্তান প্রসব করবে।"
+  }
+]

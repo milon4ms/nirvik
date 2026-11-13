@@ -1,0 +1,1153 @@
+[
+  {
+    "id": "arnica-mont-sym-13",
+    "stem": "ছোট ছোট অত্যন্ত যন্ত্রণাদায়ক ফোড়া (Boils) একের পর এক উঠতে থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "skin",
+      "boils",
+      "succession-of-boils"
+    ],
+    "explanation": "Arnica Montana-এ ছোট ছোট অত্যন্ত যন্ত্রণাদায়ক ফোড়া (Boils) একের পর এক উঠতে থাকে।"
+  },
+  {
+    "id": "arsenicum-iod-sym-11",
+    "stem": "মাছের আঁশের মতো চামড়া ওঠা ও নিচে কাঁচা ক্ষত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "psoriasis",
+      "eczema",
+      "skin"
+    ],
+    "explanation": "Arsenicum Iodatum সোরিয়াসিস ও একজিমার ক্ষেত্রে কার্যকর যখন আক্রান্ত স্থান থেকে মাছের আঁশের মতো চামড়া ওঠে এবং নিচে কাঁচা ক্ষত দেখা দেয়।"
+  },
+  {
+    "id": "aurum-sym-18",
+    "stem": "হাতের তালুতে চুলকানি, মুখে উদ্ভেদ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "skin",
+      "palm",
+      "face",
+      "eruption"
+    ],
+    "explanation": "Aurum-এ হাতের তালুতে চুলকানি ও মুখে উদ্ভেদ থাকে।"
+  },
+  {
+    "id": "borax-sym-17",
+    "stem": "হাতের তালুতে ও আঙ্গুলে জ্বালাযুক্ত একজিমা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "eczema",
+      "palms",
+      "fingers"
+    ],
+    "explanation": "Borax-এ হাতের তালুতে এবং আঙ্গুলে জ্বালাযুক্ত একজিমা দেখা দেয়।"
+  },
+  {
+    "id": "bac-sym-06",
+    "stem": "মাথায় বা দাড়িতে সারতে না চাওয়া দাদ বা একজিমা হওয়ার প্রবণতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "skin",
+      "ringworm",
+      "eczema"
+    ],
+    "explanation": "Bacillinum এ শরীরের বিভিন্ন স্থানে, বিশেষ করে মাথায় বা দাড়িতে দাদ বা একজিমা হওয়ার প্রবণতা থাকে এবং তা সহজে সারে না।"
+  },
+  {
+    "id": "bac-sym-19",
+    "stem": "দেহে ছোট ছোট ব্যথাযুক্ত ফোড়া হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "skin",
+      "boils"
+    ],
+    "explanation": "Bacillinum এ দেহে ছোট ছোট ব্যথাযুক্ত ফোড়া হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "cantharis-sym-02",
+    "stem": "আগুনে পুড়ে যাওয়া বা কোনো কারণে চামড়ায় বড় বড় জলপূর্ণ ফোস্কা পড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "burns",
+      "blisters",
+      "skin"
+    ],
+    "explanation": "Cantharis আগুনে পুড়ে যাওয়া বা চামড়ায় বড় বড় জলপূর্ণ ফোস্কা পড়লে শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "calc-sulph-sym-06",
+    "stem": "কানের চারপাশে উদ্ভেদসহ চুলকানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "ear",
+      "eruption",
+      "itching"
+    ],
+    "explanation": "Calcarea Sulph-এ কানের চারপাশে উদ্ভেদসহ চুলকানি দেখা যায়।"
+  },
+  {
+    "id": "calc-sulph-sym-16",
+    "stem": "হলুদ পুঁজযুক্ত ব্রণ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "acne",
+      "pus",
+      "skin"
+    ],
+    "explanation": "Calcarea Sulph ব্রণের সমস্যায় অত্যন্ত কার্যকরী, বিশেষত যেখানে হলুদ পুঁজ থাকে।"
+  },
+  {
+    "id": "calc-sulph-sym-17",
+    "stem": "শিশুদের মাথায় খুশকি বা একজিমা হয়ে হলুদাভ আঁশ ওঠা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "scalp",
+      "dandruff",
+      "eczema"
+    ],
+    "explanation": "Calcarea Sulph-এ শিশুদের মাথায় খুশকি বা একজিমা হয়ে হলুদাভ আঁশ ওঠে।"
+  },
+  {
+    "id": "clem-sym-04",
+    "stem": "মাথায় বা শরীরের ভাঁজে উদ্ভেদ যা থেকে আঠালো রস বের হয় এবং বিছানার গরমে চুলকানি বাড়ে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "skin",
+      "eruptions",
+      "warmth-bed"
+    ],
+    "explanation": "Clematis Erecta-এর চর্মরোগে রসযুক্ত খসখসে উদ্ভেদ থাকে যা বিছানার উত্তাপে তীব্রভাবে চুলকায়।"
+  },
+  {
+    "id": "clem-sym-19",
+    "stem": "একজিমা বা দাদে চুলকানোর পর চামড়া ছিলে যাওয়া এবং প্রচণ্ড জ্বালা করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Sulfur",
+        "mid": "sulfur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "skin",
+      "eczema",
+      "itching"
+    ],
+    "explanation": "Clematis Erecta-এর একজিমায় রোগী চুলকালে স্থানটি খসে গিয়ে লাল হয়ে তীব্র জ্বলন অনুভূত হয়।"
+  },
+  {
+    "id": "croton-sym-04",
+    "stem": "লাল ও চুলকানিযুক্ত ফোস্কা, বিশেষত অণ্ডকোষের চামড়ায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "skin",
+      "vesicles",
+      "scrotum"
+    ],
+    "explanation": "Croton Tiglium-এ শরীরের চামড়ায় অত্যন্ত লাল ও চুলকানিযুক্ত ফোস্কা হয়, বিশেষত অণ্ডকোষের চামড়ায় একজিমা বা চুলকানিতে কার্যকর।"
+  },
+  {
+    "id": "croton-sym-14",
+    "stem": "একজিমায় প্রচুর রস নির্গত হওয়া ও চারপাশের চামড়া লাল হয়ে ফুলে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "eczema",
+      "oozing"
+    ],
+    "explanation": "Croton Tiglium-এ একজিমায় প্রচুর রস নির্গত হয় এবং চারপাশের চামড়া লাল হয়ে ফুলে যায়।"
+  },
+  {
+    "id": "hepar-sym-17",
+    "stem": "একজিমা ও বয়ঃসন্ধিকালের ব্রণে শ্রেষ্ঠ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "skin",
+      "eczema",
+      "acne"
+    ],
+    "explanation": "Hepar Sulph একজিমা এবং বয়ঃসন্ধিকালের ব্রণ এর জন্য শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "dulc-sym-03",
+    "stem": "বর্ষাকালে শরীরে বড় বড় আমবাত (Urticaria) বা চড়চড়ানি উদ্ভেদ দেখা দেওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "urticaria",
+      "skin",
+      "rainy-season"
+    ],
+    "explanation": "Dulcamara-এ বর্ষাকালে শরীরে বড় বড় আমবাত (Urticaria) বা চড়চড়ানি উদ্ভেদ দেখা দেওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "dulc-sym-14",
+    "stem": "ঋতুস্রাব বন্ধ হয়ে গেলে শরীরে চর্মরোগ দেখা দিতে পারে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "female",
+      "menses-suppressed",
+      "skin-eruptions"
+    ],
+    "explanation": "Dulcamara-এ ঋতুস্রাব বন্ধ হয়ে গেলে শরীরে চর্মরোগ দেখা দিতে পারে।"
+  },
+  {
+    "id": "graph-sym-01",
+    "stem": "ত্বকের ফুসকুড়ি থেকে আঠালো, মধুর মতো স্রাব বের হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "eczema",
+      "skin"
+    ],
+    "explanation": "Honey-like sticky discharge Graphites-এর একটি প্রধান keynote।"
+  },
+  {
+    "id": "graph-sym-08",
+    "stem": "কানে, আঙুলের ফাঁকে ও ত্বকে আঠালো স্রাবযুক্ত একজিমা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "eczema",
+      "discharge"
+    ],
+    "explanation": "Moist eczema with sticky exudation is classic Graphites।"
+  },
+  {
+    "id": "graph-sym-16",
+    "stem": "চোখের পাতায় ভেজা, ফাটলযুক্ত একজিমা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "eyes",
+      "eczema"
+    ],
+    "explanation": "Eczema of eyelids is characteristic of Graphites।"
+  },
+  {
+    "id": "graph-sym-01",
+    "stem": "ত্বকের ফুসকুড়ি থেকে আঠালো, মধুর মতো স্রাব বের হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "eczema",
+      "skin"
+    ],
+    "explanation": "Honey-like sticky discharge Graphites-এর একটি প্রধান keynote।"
+  },
+  {
+    "id": "graph-sym-08",
+    "stem": "কানে, আঙুলের ফাঁকে ও ত্বকে আঠালো স্রাবযুক্ত একজিমা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "eczema",
+      "discharge"
+    ],
+    "explanation": "Moist eczema with sticky exudation is classic Graphites।"
+  },
+  {
+    "id": "graph-sym-16",
+    "stem": "চোখের পাতায় ভেজা, ফাটলযুক্ত একজিমা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "eyes",
+      "eczema"
+    ],
+    "explanation": "Eczema of eyelids is characteristic of Graphites।"
+  },
+  {
+    "id": "natrum-mur-sym-07",
+    "stem": "ঠোঁটের পাশে জ্বরসিটা, জ্বর সকাল ১০-১১টায় আসে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "fever",
+      "blisters"
+    ],
+    "explanation": "Natrum Mur-এ ঠোঁটের পাশে জ্বরসিটা হয় এবং জ্বর সকাল ১০-১১টায় আসে।"
+  },
+  {
+    "id": "mez-sym-01",
+    "stem": "মাথায় মোটা চামড়ার মতো খোসা, নিচে পুঁজ জমে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "scalp",
+      "eruption"
+    ],
+    "explanation": "Thick crusts with pus beneath strongly indicate Mezereum."
+  },
+  {
+    "id": "mez-sym-02",
+    "stem": "একজিমা থেকে আঠালো তরল স্রাব ও অসহ্য চুলকানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "eczema",
+      "itching"
+    ],
+    "explanation": "Oozing eczema with violent itching is characteristic of Mezereum."
+  },
+  {
+    "id": "mez-sym-04",
+    "stem": "হার্পিস জোস্টারের পরে জ্বালাময় নিউরালজিয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "neuralgia",
+      "herpes-zoster"
+    ],
+    "explanation": "Post-herpetic neuralgia points to Mezereum."
+  },
+  {
+    "id": "mez-sym-12",
+    "stem": "টিকাদানের পর একজিমা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "vaccination",
+      "eczema"
+    ],
+    "explanation": "Eczema after vaccination is a classic Mezereum indication."
+  },
+  {
+    "id": "mag-carb-sym-15",
+    "stem": "শিশুদের মাথার ত্বকে চর্বিযুক্ত খুত খুত বা একজিমা, যা থেকে দুর্গন্ধ বের হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "skin",
+      "scalp",
+      "eczema",
+      "crusts",
+      "children"
+    ],
+    "explanation": "Magnesia Carbonica-এ শিশুদের মাথার ত্বকে চর্বিযুক্ত খুত খুত বা একজিমা দেখা দেয়, যা থেকে দুর্গন্ধ বের হয়।"
+  },
+  {
+    "id": "rhus-sym-06",
+    "stem": "চর্মে লালচে ফুসকুড়ি বা রসযুক্ত ফোস্কা (Vesicles) ওঠা এবং প্রচণ্ড চুলকানি ও জ্বালাপোড়া হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Croton Tig",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "skin",
+      "vesicular-eruptions"
+    ],
+    "explanation": "Rhus Tox চর্মরোগে রসভরা ফোস্কা ও আমবাতের মতো eruptions সৃষ্টি করে যাতে প্রচণ্ড চুলকানি ও জ্বালা থাকে।"
+  },
+  {
+    "id": "petr-sym-10",
+    "stem": "চামড়া অত্যন্ত নোংরা, খসখসে এবং শক্ত হয়ে যায়; কানের পেছনে একজিমা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "skin",
+      "eczema",
+      "rough",
+      "behind-ears"
+    ],
+    "explanation": "Petroleum-এ চামড়া অত্যন্ত নোংরা, খসখসে ও শক্ত হয়ে যায় এবং কানের পেছনে বা আঙুলের খাঁজে একজিমা হওয়ার প্রবণতা থাকে।[reference:29]"
+  },
+  {
+    "id": "sel-sym-12",
+    "stem": "হাতের তালা চুলকানি, ছাল ওঠা উদ্ভেদ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Anagallis Arvensis",
+        "mid": "anagallis-arvensis"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "palm",
+      "itch",
+      "peeling",
+      "eruption"
+    ],
+    "explanation": "Selenium-এ হাতের তালায় চুলকানি ও ছাল ওঠা উদ্ভেদ থাকে।"
+  },
+  {
+    "id": "sep-sym-19",
+    "stem": "শরীরের ভাঁজযুক্ত স্থানগুলোতে (Flexures) একজিমা, দাউদ বা চর্মরোগ দেখা দেওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "skin",
+      "eczema",
+      "flexures"
+    ],
+    "explanation": "Sepia চর্মরোগের ক্ষেত্রে বিশেষ করে শরীরের ভাঁজে চর্ম ফুসকুড়ি ও দাউদ সৃষ্টি করে।"
+  },
+  {
+    "id": "sani-sym-05",
+    "stem": "জিহবার ওপর ক্ষত বা দাদ হওয়া এবং জ্বালা করার কারণে রোগী জিব বাইরে বের করে রাখা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Taraxacum",
+        "mid": "taraxacum"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "tongue",
+      "ringworm"
+    ],
+    "explanation": "Sanicula-এর জিবের ওপর ক্ষত বা দাদ গঠিত হয় এবং অতিরিক্ত জ্বালার জন্য রোগী মুখ থেকে জিব বের করে রাখে।"
+  },
+  {
+    "id": "var-sym-07",
+    "stem": "ত্বকে পুঁজভর্তি গুটি বা উদ্ভেদ (Pustules) দেখা দেওয়া এবং প্রচণ্ড চুলকানি ও জ্বালা হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antim-tart"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "skin",
+      "pustules",
+      "eruptions"
+    ],
+    "explanation": "Variolinum ত্বকে পাস্টুল বা গুটি ফুটিয়ে প্রদাহ ও চুলকানি সৃষ্টি করে।"
+  },
+  {
+    "id": "syphilinum-sym-14",
+    "stem": "শরীরে তামার মতো উদ্ভেদ দেখা যায়, একজিমা হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "skin",
+      "copper",
+      "eczema"
+    ],
+    "explanation": "Syphilinum এ শরীরে তামার মতো উদ্ভেদ দেখা যায়, একজিমা হয়।"
+  },
+  {
+    "id": "syphilinum-sym-15",
+    "stem": "একটার পর একটা ফোড়া ওঠে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "boils",
+      "successive"
+    ],
+    "explanation": "Syphilinum এ একটার পর একটা ফোড়া ওঠে।"
+  },
+  {
+    "id": "zincum-sym-11",
+    "stem": "রোগ দমিত হওয়ার কুফল, চর্মরোগ বা কোনো স্রাব চাপা পড়ে স্নায়বিক সমস্যা দেখা দেয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "suppressed",
+      "eruption",
+      "nervous"
+    ],
+    "explanation": "Zincum Metallicum এ চর্মরোগ বা কোনো স্রাব যদি চাপা পড়ে এবং তার ফলে স্নায়বিক সমস্যা দেখা দেয়, তবে এটি শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "sul-iod-sym-09",
+    "stem": "মুখমণ্ডলের ব্রণ (Acne) এবং একজিমার ক্ষেত্রে চমৎকার কাজ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Berberis Aquifolium",
+        "mid": "berberis-aquifolium"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "skin",
+      "acne",
+      "eczema",
+      "face"
+    ],
+    "explanation": "Sulphur Iodatum মুখমণ্ডলের ব্রণ (Acne), একজিমা এবং দাউদের ক্ষেত্রে চমৎকার কাজ করে।"
+  },
+  {
+    "id": "apis-sym-11",
+    "stem": "আমবাত বা ইউর্টিক্যারিয়া (Urticaria) যা অত্যন্ত লাল এবং চুলকানিযুক্ত; ঠাণ্ডা জল লাগালে আরাম বোধ হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "skin",
+      "urticaria",
+      "itching",
+      "cold-water-relief"
+    ],
+    "explanation": "Apis Mellifica-এ আমবাত বা ইউর্টিক্যারিয়া (Urticaria) হয় যা অত্যন্ত লাল এবং চুলকানিযুক্ত; ঠাণ্ডা জল লাগালে চর্মরোগে আরাম বোধ হয়।"
+  }
+]

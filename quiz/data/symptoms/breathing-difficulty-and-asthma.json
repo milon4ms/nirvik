@@ -1,0 +1,495 @@
+[
+  {
+    "id": "arnica-mont-sym-10",
+    "stem": "অতিরিক্ত শারীরিক পরিশ্রমের ফলে হৃদপিণ্ডের পেশি দুর্বল হয়ে যাওয়া, বাম বাহুতে ব্যথা এবং দমবন্ধ ভাব — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Crataegus",
+        "mid": "crataegus"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "heart",
+      "athletes-heart",
+      "left-arm-pain",
+      "dyspnea"
+    ],
+    "explanation": "Arnica Montana-এ অতিরিক্ত শারীরিক পরিশ্রমের ফলে হৃদপিণ্ডের পেশি দুর্বল হয়ে যাওয়া (Athlete's Heart), বাম বাহুতে ব্যথা এবং দমবন্ধ ভাব একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "ars-sym-11",
+    "stem": "হাঁপানি মধ্যরাতে বৃদ্ধি পায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "asthma",
+      "night"
+    ],
+    "explanation": "মধ্যরাতে বাড়া হাঁপানি Arsenicum Album নির্দেশ করে।"
+  },
+  {
+    "id": "arsenicum-iod-sym-12",
+    "stem": "সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি ও দমবন্ধ ভাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis-purpurea"
+      },
+      {
+        "text": "Crataegus",
+        "mid": "crataegus-oxyacantha"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "heart",
+      "palpitation",
+      "dyspnoea"
+    ],
+    "explanation": "Arsenicum Iodatum-এ হৃদপেশির দুর্বলতায় সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি এবং দমবন্ধ ভাব হয়।"
+  },
+  {
+    "id": "camph-sym-17",
+    "stem": "শ্বাসরোধী শ্বাসকষ্ট ও collapse — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Natrum Sulph",
+        "mid": "natrum-sulph"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "dyspnea",
+      "collapse"
+    ]
+  },
+  {
+    "id": "cimicifuga-sym-02",
+    "stem": "ডিম্বকোষ বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "dyspnoea",
+      "palpitation",
+      "uterine"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ ডিম্বকোষের বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট হতে পারে।"
+  },
+  {
+    "id": "hyper-sym-09",
+    "stem": "কাশি রাত ৬-১০টায় বৃদ্ধি, গয়ারে উপশম, কুয়াশা ঝড়ের পূর্বে হাঁপানি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Drosera Rotundifolia",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Rumex Crispus",
+        "mid": "rumex-crispus"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "cough",
+      "evening",
+      "fog",
+      "storm",
+      "asthma"
+    ],
+    "explanation": "Hypericum-এ সন্ধ্যা ৬-১০টায় কাশি বাড়ে ও কুয়াশায় হাঁপানি বাড়ে।"
+  },
+  {
+    "id": "just-sym-05",
+    "stem": "নিশ্বাস নিতে বুকে কষ্ট এবং সকালে ঘুম থেকে উঠলে হাত-মুখ ফোলা থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carb"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "respiratory",
+      "dyspnea",
+      "edema"
+    ],
+    "explanation": "Justicia Adhatoda-এ শ্বাসকষ্টের পাশাপাশি সকালে ঘুম থেকে উঠলে মুখমণ্ডল ও হাতে ফোলা ভাব দেখা যায়।"
+  },
+  {
+    "id": "just-sym-08",
+    "stem": "রাতে কাশির বেগ বৃদ্ধি পাওয়া এবং গলার মধ্যে সাঁ সাঁ বা ঘড়ঘড় শব্দ হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Grindelia",
+        "mid": "grindelia"
+      },
+      {
+        "text": "Blatta Orientalis",
+        "mid": "blatta-orientalis"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "cough",
+      "night",
+      "wheezing"
+    ],
+    "explanation": "Justicia Adhatoda-এ রাতে কাশির প্রকোপ বাড়ে এবং গলার ভেতরে সাঁ সাঁ বা শোঁ শোঁ শব্দ হয়।"
+  },
+  {
+    "id": "ipecac-sym-05",
+    "stem": "কাশতে কাশতে রোগী নীল হয়ে যায় এবং দম বন্ধ হওয়ার মতো অবস্থা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "cough",
+      "suffocative-cough",
+      "cyanosis"
+    ],
+    "explanation": "Ipecac-এ দমবন্ধ করা কাশি (Suffocative Cough) হয়; কাশতে কাশতে রোগী নীল হয়ে যায় এবং দম বন্ধ হওয়ার মতো অবস্থা হয়।"
+  },
+  {
+    "id": "glon-sym-14",
+    "stem": "বুক ধড়ফড়ানি গলা পর্যন্ত অনুভূত, শ্বাসকষ্ট — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "heart",
+      "palpitation",
+      "throat",
+      "dyspnea"
+    ],
+    "explanation": "Glonoine-এ ধড়ফড়ানি গলা পর্যন্ত ওঠে।"
+  },
+  {
+    "id": "medorrhinum-sym-13",
+    "stem": "বংশগত সাইকোটিক হাঁপানি, ভোরে বৃদ্ধি, উপুড় হয়ে শুলে আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "asthma",
+      "hereditary"
+    ],
+    "explanation": "Medorrhinum বংশগত সাইকোটিক হাঁপানিতে কার্যকর; গভীর রাতে বা ভোরের দিকে শ্বাসকষ্ট বাড়ে এবং উপুড় হয়ে শুলে আরাম পায়।"
+  },
+  {
+    "id": "opi-sym-05",
+    "stem": "নিদ্রাকালে শ্বাস বন্ধ হয়ে যাওয়া (Sleep Apnea) এবং শরীর ঝাঁকি দিয়ে পুনরায় শ্বাস শুরু হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Grindelia",
+        "mid": "grindelia"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "respiratory",
+      "sleep-apnea",
+      "suffocation"
+    ],
+    "explanation": "Opium-এ ঘুমালেই শ্বাস অবরুদ্ধ হয়ে পড়ে এবং ঝাঁকি দিয়ে রোগী জেগে শ্বাস টানে।"
+  },
+  {
+    "id": "spigelia-sym-19",
+    "stem": "হৃৎস্পন্দনের সাথে প্রচণ্ড শ্বাসকষ্ট ও বাম বাহু অবশ হয়ে যাওয়া, এনজিনা পেক্টোরিসে কার্যকর, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "heart",
+      "dyspnoea",
+      "angina",
+      "left-arm"
+    ],
+    "explanation": "Spigelia Anthelmia এ হৃৎস্পন্দনের সাথে প্রচণ্ড শ্বাসকষ্ট হয় এবং বাম বাহু অবশ হয়ে যায়, এনজিনা পেক্টোরিসে এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "verat-sym-13",
+    "stem": "হার্টের দুর্বলতা এবং অল্প নড়াচড়াতেও দমবন্ধ ভাব বা মূর্ছা যাওয়ার অবস্থা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Crataegus",
+        "mid": "crataegus"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "heart",
+      "weakness",
+      "dyspnea",
+      "fainting"
+    ],
+    "explanation": "Veratrum Album-এ হার্টের দুর্বলতা এবং অল্প নড়াচড়াতেও দমবন্ধ ভাব বা মূর্ছা যাওয়ার অবস্থা হয়।"
+  },
+  {
+    "id": "spongia-sym-03",
+    "stem": "মাঝরাতে ঘুম ভেঙে দম আটকে আসা ও আতঙ্ক — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "dyspnoea",
+      "night",
+      "panic"
+    ],
+    "explanation": "Spongia-তে হঠাৎ মাঝরাতে ঘুম ভেঙে যায় এবং মনে হয় দম আটকে আসছে; রোগী ভীষণ আতঙ্কিত হয়ে পড়ে।"
+  },
+  {
+    "id": "spongia-sym-08",
+    "stem": "নিদ্রাকালে রোগ বৃদ্ধি, ঘুম থেকে জেগে দম বন্ধ হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "sleep",
+      "dyspnoea"
+    ],
+    "explanation": "Spongia-তে নিদ্রাকালে রোগ বৃদ্ধি পায় এবং ঘুম থেকে জেগে দম বন্ধ হয়ে আসে।"
+  },
+  {
+    "id": "spongia-sym-12",
+    "stem": "শুয়ে থাকলে শ্বাসকষ্ট বেড়ে যায়, মাথা নিচু করে বসলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "dyspnoea",
+      "modalities"
+    ],
+    "explanation": "Spongia-তে শুয়ে থাকলে শ্বাসকষ্ট বেড়ে যায় এবং মাথা নিচু করে বসলে উপশম হয়।"
+  }
+]
