@@ -7,172 +7,142 @@
 <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
-:root{--primary:#4361ee;--primary2:#7c3aed;--secondary:#4cc9f0;--success:#10b981;--danger:#e63946;--amber:#f59e0b;--bg:#f4f6fb;--card:#fff;--text:#1e293b;--muted:#64748b;--line:#e2e8f0;--radius:16px;--shadow:0 4px 20px rgba(15,23,42,.06)}
+:root{--primary:#4361ee;--primary2:#7c3aed;--secondary:#4cc9f0;--bg:#f4f6fb;--card:#fff;--text:#1e293b;--muted:#64748b;--line:#e2e8f0;--radius:12px;--shadow:0 2px 12px rgba(15,23,42,.06)}
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Hind Siliguri',sans-serif}
-body{background:var(--bg);color:var(--text);padding-bottom:28px;overflow-x:hidden}
+body{background:var(--bg);color:var(--text);padding-bottom:12px;overflow-x:hidden}
 a{text-decoration:none}
-.main-header{background:rgba(255,255,255,.9);backdrop-filter:blur(10px);box-shadow:0 1px 10px rgba(0,0,0,.05);position:sticky;top:0;z-index:1000}
-.nav-container{max-width:1180px;margin:0 auto;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.15rem;color:var(--text)}
-.brand span{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--primary),var(--primary2));display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.1rem}
-.nav-links{display:flex;gap:6px;flex-wrap:wrap}
-.nav-link{color:var(--text);font-weight:600;font-size:.95rem;padding:8px 14px;border-radius:999px}
+/* Header - ছবির মতো */
+.main-header{background:#fff;box-shadow:0 1px 6px rgba(0,0,0,.05);position:sticky;top:0;z-index:1000}
+.nav-container{max-width:980px;margin:0 auto;padding:10px 16px;display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap}
+.nav-link{color:var(--text);font-weight:600;font-size:.98rem;padding:7px 12px;border-radius:8px}
 .nav-link:hover{background:#eef2ff;color:var(--primary)}
 .nav-link.active{background:var(--primary);color:#fff}
-.icon-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:1rem}
-/* HERO */
-.hero{max-width:1180px;margin:18px auto 0;padding:0 20px}
-.hero-card{background:linear-gradient(135deg,#4361ee 0%,#7c3aed 55%,#06b6d4 100%);color:#fff;border-radius:22px;padding:26px 26px 22px;position:relative;overflow:hidden}
-.hero-card::after{content:"🩺";position:absolute;right:18px;top:-10px;font-size:110px;opacity:.18}
-.hero-top{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:flex-start;position:relative;z-index:1}
-.hero h1{font-size:1.9rem;line-height:1.3;font-weight:800}
-.hero p{opacity:.92;margin-top:6px;font-size:1rem;max-width:560px}
-.hero-search{margin-top:16px;background:#fff;border-radius:999px;padding:6px 6px 6px 16px;display:flex;gap:8px;max-width:560px;position:relative;z-index:2}
-.hero-search input{border:none;outline:none;flex:1;font-size:1rem;min-width:0}
-.hero-search button{background:var(--text);color:#fff;border:none;padding:10px 18px;border-radius:999px;font-weight:700;cursor:pointer}
-.search-results{position:absolute;left:0;right:0;top:52px;background:#fff;color:var(--text);border-radius:14px;box-shadow:0 12px 30px rgba(0,0,0,.15);overflow:hidden;display:none;z-index:10}
-.search-results a{display:flex;justify-content:space-between;padding:12px 16px;border-bottom:1px solid #f1f5f9;color:var(--text)}
+.user-area{margin-left:auto;display:flex;align-items:center;gap:8px}
+.user-chip{display:flex;align-items:center;gap:8px;background:#eef2ff;border-radius:999px;padding:4px 10px 4px 4px;font-weight:700;font-size:.88rem}
+.user-chip img,.user-avatar{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--primary2));color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;object-fit:cover}
+.btn-login{background:var(--primary);color:#fff;padding:7px 14px;border-radius:999px;font-weight:700;font-size:.9rem;border:none;cursor:pointer}
+.btn-logout{background:#f1f5f9;border:none;padding:6px 10px;border-radius:999px;font-size:.82rem;cursor:pointer;font-weight:600}
+/* Banner - প্রস্থ কমানো */
+.hero{max-width:980px;margin:14px auto 0;padding:0 16px}
+.hero-card{background:linear-gradient(135deg,#4361ee 0%,#7c3aed 55%,#06b6d4 100%);color:#fff;border-radius:16px;padding:16px 18px;position:relative;overflow:hidden}
+.hero-card::after{content:"🌿";position:absolute;right:14px;top:6px;font-size:48px;opacity:.22}
+.hero h1{font-size:1.55rem;line-height:1.35;font-weight:800;max-width:640px}
+.hero p{opacity:.92;margin-top:4px;font-size:.92rem;max-width:640px}
+.hero-search{margin-top:12px;background:#fff;border-radius:999px;padding:4px 4px 4px 14px;display:flex;gap:6px;max-width:520px;position:relative;z-index:2}
+.hero-search input{border:none;outline:none;flex:1;font-size:.95rem;min-width:0}
+.hero-search button{background:var(--text);color:#fff;border:none;padding:8px 14px;border-radius:999px;font-weight:700;cursor:pointer;font-size:.9rem}
+.search-results{position:absolute;left:0;right:0;top:44px;background:#fff;color:var(--text);border-radius:12px;box-shadow:0 10px 24px rgba(0,0,0,.15);overflow:hidden;display:none;z-index:10}
+.search-results a{display:flex;justify-content:space-between;padding:10px 14px;border-bottom:1px solid #f1f5f9;color:var(--text);font-size:.9rem}
 .search-results a:hover{background:#eef2ff}
 .search-results small{color:var(--muted)}
-.hero-stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;position:relative;z-index:1}
-.chip{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.25);padding:8px 12px;border-radius:999px;font-size:.9rem;font-weight:600;display:flex;gap:6px;align-items:center}
-.chip b{font-size:1.05rem}
-.quick-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;position:relative;z-index:1}
-.btn-white{background:#fff;color:var(--text);padding:11px 18px;border-radius:999px;font-weight:700;border:none;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
-.btn-ghost{background:rgba(255,255,255,.18);color:#fff;border:1px solid rgba(255,255,255,.35);padding:11px 18px;border-radius:999px;font-weight:700;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
-/* LAYOUT */
-.dashboard-wrapper{max-width:1180px;margin:20px auto;padding:0 20px;display:grid;grid-template-columns:2.2fr 1fr;gap:20px;align-items:start}
-.left-column{display:flex;flex-direction:column;gap:18px}
-.card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);padding:20px}
-.card h3{font-size:1.12rem;display:flex;gap:8px;align-items:center}
+/* Layout - এক পেজে আঁটসাঁট */
+.dashboard-wrapper{max-width:980px;margin:12px auto;padding:0 16px;display:grid;grid-template-columns:1.9fr 1fr;gap:14px;align-items:start}
+.left-column{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);padding:14px 16px}
+.card h3{font-size:1rem;display:flex;gap:7px;align-items:center}
 .card h3 i{color:var(--primary)}
-.menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.menu-card{background:var(--card);padding:22px 18px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);text-align:center;color:var(--text);transition:.2s;display:flex;flex-direction:column;align-items:center;position:relative;overflow:hidden}
-.menu-card:hover{transform:translateY(-3px);border-color:var(--primary);box-shadow:0 12px 28px rgba(67,97,238,.15)}
-.menu-card i{font-size:2.6rem;margin-bottom:10px;background:linear-gradient(45deg,var(--primary),var(--secondary));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.menu-card h2{font-size:1.35rem;color:var(--primary);margin-bottom:4px}
-.menu-card p{color:var(--muted);font-size:.95rem}
-.menu-meta{margin-top:12px;display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
-.pill{font-size:.82rem;background:#f1f5f9;padding:4px 10px;border-radius:999px;font-weight:600;color:#475569}
+.menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.menu-card{background:var(--card);padding:16px 12px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);text-align:center;color:var(--text);transition:.2s;display:flex;flex-direction:column;align-items:center}
+.menu-card:hover{transform:translateY(-2px);border-color:var(--primary)}
+.menu-card i{font-size:2.1rem;margin-bottom:6px;background:linear-gradient(45deg,var(--primary),var(--secondary));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.menu-card h2{font-size:1.18rem;color:var(--primary);margin-bottom:2px}
+.menu-card p{color:var(--muted);font-size:.86rem}
+.menu-meta{margin-top:8px;display:flex;gap:5px;flex-wrap:wrap;justify-content:center}
+.pill{font-size:.78rem;background:#f1f5f9;padding:3px 8px;border-radius:999px;font-weight:600;color:#475569}
 .pill.green{background:#d1fae5;color:#065f46}
-.mini-progress{width:100%;height:8px;background:#eef2ff;border-radius:999px;overflow:hidden;margin-top:12px}
+.mini-progress{width:100%;height:6px;background:#eef2ff;border-radius:999px;overflow:hidden;margin-top:8px}
 .mini-progress div{height:100%;background:linear-gradient(90deg,var(--primary),var(--secondary))}
-/* STATS */
-.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
-.stat small{color:var(--muted);font-weight:600}
-.stat b{font-size:1.45rem;display:block;margin-top:4px}
-.stat span{font-size:.85rem;color:var(--muted)}
-/* PROGRESS */
-.progress-flex{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
-.ring{width:92px;height:92px;min-width:92px;border-radius:50%;background:conic-gradient(var(--primary) 0deg,var(--secondary) 0deg,#e2e8f0 0deg);display:flex;align-items:center;justify-content:center;position:relative}
-.ring::before{content:"";position:absolute;inset:10px;background:#fff;border-radius:50%}
-.ring b{position:relative;z-index:1;font-size:1.15rem}
-.progress-info{flex:1;min-width:220px}
-.progress-bar-bg{width:100%;height:12px;background:#e2e8f0;border-radius:10px;overflow:hidden;margin:10px 0 6px}
-.progress-bar-fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--secondary));border-radius:10px;transition:width .5s}
-.progress-text{font-size:.9rem;color:var(--muted)}
-/* CERT */
-.cert-section{background:linear-gradient(135deg,#fffcf2,#fff7e0);border:1px solid #ffeeba;padding:18px 20px;border-radius:var(--radius);display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
-.cert-text h3{font-size:1.12rem;color:#92400e;display:flex;gap:8px;align-items:center}
-.cert-text p{font-size:.9rem;color:#856404;margin-top:4px}
-.btn-cert{background:var(--primary);color:#fff;padding:11px 20px;border-radius:999px;font-weight:700;white-space:nowrap}
-.btn-cert:hover{background:#3a0ca3}
+/* Progress + Cert - সাইজ কমানো, এক কার্ডে */
+.progress-row{display:flex;gap:12px;align-items:center}
+.ring{width:62px;height:62px;min-width:62px;border-radius:50%;background:conic-gradient(var(--primary) 0deg,var(--secondary) 0deg,#e2e8f0 0deg);display:flex;align-items:center;justify-content:center;position:relative}
+.ring::before{content:"";position:absolute;inset:7px;background:#fff;border-radius:50%}
+.ring b{position:relative;z-index:1;font-size:.9rem}
+.progress-info{flex:1;min-width:160px}
+.progress-bar-bg{width:100%;height:8px;background:#e2e8f0;border-radius:999px;overflow:hidden;margin:6px 0 4px}
+.progress-bar-fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--secondary));border-radius:999px}
+.progress-text{font-size:.82rem;color:var(--muted)}
+.cert-line{margin-top:10px;padding-top:10px;border-top:1px dashed #e2e8f0;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.cert-line p{font-size:.82rem;color:#856404}
+.cert-line b{color:#92400e}
+.btn-cert{background:var(--primary);color:#fff;padding:7px 14px;border-radius:999px;font-weight:700;font-size:.85rem;white-space:nowrap}
 .btn-cert.disabled{background:#cbd5e1;pointer-events:none}
-/* ACHIEVEMENTS */
-.badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
-.badge-item{flex:1;min-width:110px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}
+.badges{display:flex;gap:6px;margin-top:10px}
+.badge-item{flex:1;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:7px 4px;text-align:center;font-size:.78rem}
 .badge-item.locked{opacity:.45;filter:grayscale(1)}
-.badge-item .emoji{font-size:1.7rem}
-.badge-item b{font-size:.88rem;display:block;margin-top:4px}
-.badge-item small{color:var(--muted);font-size:.8rem}
-/* RIGHT */
-.right-column{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);padding:16px;position:sticky;top:76px}
-.recent-title{font-size:1.05rem;margin-bottom:12px;display:flex;gap:8px;align-items:center;border-bottom:1px solid #f1f5f9;padding-bottom:10px}
-.recent-list{list-style:none}
-.recent-item{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #f1f5f9;font-size:.9rem;gap:8px}
+.badge-item .emoji{font-size:1.2rem}
+.badge-item b{display:block;font-size:.78rem;margin-top:2px}
+/* Right */
+.right-column{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);padding:14px;position:sticky;top:62px}
+.user-box{display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:1px solid #f1f5f9;margin-bottom:10px}
+.user-box .name{font-weight:700;font-size:.95rem;line-height:1.2}
+.user-box .email{font-size:.78rem;color:var(--muted);max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mini-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.mini-stat{background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:9px;text-align:center}
+.mini-stat small{color:var(--muted);font-size:.76rem;font-weight:600;display:block}
+.mini-stat b{font-size:1.05rem;display:block;margin-top:2px}
+.btn-continue{width:100%;background:var(--primary);color:#fff;border:none;padding:9px;border-radius:999px;font-weight:700;cursor:pointer;font-size:.88rem;margin-bottom:10px}
+.btn-continue:disabled{background:#cbd5e1;cursor:default}
+.recent-title{font-size:.95rem;margin-bottom:8px;display:flex;gap:7px;align-items:center}
+.recent-list{list-style:none;max-height:220px;overflow-y:auto}
+.recent-item{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid #f1f5f9;font-size:.84rem;gap:6px}
 .recent-item:last-child{border-bottom:none}
 .recent-name{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:150px}
-.recent-meta{font-size:.78rem;color:var(--muted)}
-.score-badge{padding:4px 10px;border-radius:999px;font-weight:700;font-size:.8rem;white-space:nowrap}
+.recent-meta{font-size:.72rem;color:var(--muted)}
+.score-badge{padding:3px 8px;border-radius:999px;font-weight:700;font-size:.76rem;white-space:nowrap}
 .score-pass{background:#d1fae5;color:#065f46}
 .score-fail{background:#fee2e2;color:#991b1b}
-.tip-box{margin-top:16px;background:#f0fdfa;border:1px solid #ccfbf1;border-radius:12px;padding:14px}
-.tip-box h4{font-size:.95rem;color:#0f766e;display:flex;gap:6px;align-items:center}
-.tip-box p{font-size:.88rem;color:#134e4a;margin-top:6px;line-height:1.5}
-.login-banner{max-width:1180px;margin:18px auto 0;padding:0 20px}
-.login-inner{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#fff7ed;border:1px solid #fed7aa;border-radius:14px;padding:12px 16px;flex-wrap:wrap}
-.login-inner p{font-size:.92rem;color:#9a3412}
+.tip-box{margin-top:12px;background:#f0fdfa;border:1px solid #ccfbf1;border-radius:10px;padding:10px}
+.tip-box h4{font-size:.86rem;color:#0f766e}
+.tip-box p{font-size:.82rem;color:#134e4a;margin-top:4px;line-height:1.45}
+.login-banner{max-width:980px;margin:12px auto 0;padding:0 16px}
+.login-inner{display:flex;justify-content:space-between;gap:10px;align-items:center;background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:9px 12px;flex-wrap:wrap}
+.login-inner p{font-size:.86rem;color:#9a3412}
 .login-inner a{font-weight:800;color:#ea580c}
-.close-btn{border:none;background:transparent;font-size:1.1rem;cursor:pointer;color:#9a3412}
-@media(max-width:900px){.dashboard-wrapper{grid-template-columns:1fr}.right-column{position:static}.stats-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.menu-grid{grid-template-columns:1fr}.hero h1{font-size:1.5rem}.nav-container{justify-content:center}.hero-card::after{display:none}}
-body.dark{--bg:#0f172a;--card:#1e293b;--text:#f1f5f9;--muted:#94a3b8;--line:#334155;--shadow:0 4px 20px rgba(0,0,0,.3)}
+.close-btn{border:none;background:transparent;font-size:1rem;cursor:pointer;color:#9a3412}
+@media(max-width:900px){.dashboard-wrapper{grid-template-columns:1fr}.right-column{position:static}.nav-container{justify-content:center}.user-area{margin-left:0}}
+@media(max-width:600px){.menu-grid{grid-template-columns:1fr}.hero h1{font-size:1.3rem}}
+body.dark{--bg:#0f172a;--card:#1e293b;--text:#f1f5f9;--muted:#94a3b8;--line:#334155}
 body.dark .hero-search{background:#0f172a}
 body.dark .hero-search input{background:transparent;color:#fff}
 body.dark .search-results{background:#1e293b;color:#fff}
-body.dark .search-results a{color:#fff;border-color:#334155}
 body.dark .ring::before{background:#1e293b}
-body.dark .cert-section{background:#2a2300;border-color:#854d0e}
 </style>
 </head>
 <body>
 <header class="main-header">
 <div class="nav-container">
-<div class="brand"><span>🌿</span> নির্ভীক হোমিও</div>
-<div class="nav-links">
-<a href="https://nirvik.mooo.com/" class="nav-link">হোম</a>
-<a href="https://nirvik.mooo.com/quiz/index.html" class="nav-link active">কুইজ</a>
-<a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">রোগলক্ষণ</a>
-<a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link">ঔষধ</a>
-<a href="https://nirvik.mooo.com/medica/index.html" class="nav-link">মেটেরিয়া মেডিকা</a>
+<a href="https://nirvik.mooo.com/" class="nav-link">নির্ভীক হোমিও</a>
+<a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link active">কুইজ</a>
+<a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">রোগলক্ষণ ভিত্তিক কুইজ</a>
+<a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link">ঔষধ ভিত্তিক কুইজ</a>
+<a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">মেটেরিয়া মেডিকা</a>
+<div class="user-area" id="userArea">
+<a href="https://nirvik.mooo.com/" class="btn-login" id="headerLoginBtn">লগইন</a>
 </div>
-<button class="icon-btn" id="themeBtn" title="ডার্ক মোড">🌙</button>
 </div>
 </header>
 
 <div class="hero">
 <div class="hero-card">
-<div class="hero-top">
-<div>
-<h1>আজ কোন কুইজটা দেবেন? 🎯</h1>
-<p>১০০টি রোগলক্ষণ ট্যাগ + ঔষধ ভিত্তিক কুইজ — প্রতিদিন ১টা করে দিলেই ৩ মাসে মেটেরিয়া মেডিকা অনেকটা আয়ত্তে চলে আসবে।</p>
+<h1>কুইজে কুইজে মেটেরিয়া মেডিকা শিখি।</h1>
+<p>১০০টি রোগলক্ষণ ট্যাগ + ঔষধ ভিত্তিক কুইজ — প্রতিদিন ১টা করে দিলেই মেটেরিয়া মেডিকা আয়ত্তে চলে আসবে।</p>
 <div class="hero-search" style="position:relative">
 <input id="searchInput" placeholder="খুঁজুন — যেমন: মল, চোখ, Calcarea...">
 <button id="searchBtn">খুঁজুন</button>
 <div class="search-results" id="searchResults"></div>
-</div>
-<div class="hero-stats">
-<span class="chip">🔥 স্ট্রিক <b id="streakVal">০ দিন</b></span>
-<span class="chip">✅ সম্পন্ন <b id="heroDone">০</b></span>
-<span class="chip">🏆 সেরা স্কোর <b id="heroBest">—</b></span>
-</div>
-<div class="quick-actions">
-<button class="btn-white" id="continueBtn">▶️ যেখানে থেমেছিলেন</button>
-<button class="btn-white" id="randomBtn">🎲 র‍্যান্ডম কুইজ</button>
-<button class="btn-ghost" id="dailyBtn">📅 আজকের চ্যালেঞ্জ</button>
-</div>
-</div>
 </div>
 </div>
 </div>
 
 <div class="login-banner" id="loginBanner" style="display:none">
 <div class="login-inner">
-<p>💡 লগইন করলে আপনার রেকর্ড, স্ট্রিক আর সার্টিফিকেট সংরক্ষণ হবে। <a href="../index.html">লগইন করুন →</a></p>
+<p>💡 লগইন করলে আপনার রেকর্ড, স্ট্রিক আর সার্টিফিকেট সংরক্ষণ হবে। <a href="https://nirvik.mooo.com/">লগইন করুন →</a></p>
 <button class="close-btn" id="closeLogin">✕</button>
 </div>
 </div>
 
 <div class="dashboard-wrapper">
 <div class="left-column">
-<div class="stats-grid">
-<div class="stat"><small>মোট কুইজ</small><b id="statTotal">—</b><span>রোগলক্ষণ + ঔষধ</span></div>
-<div class="stat"><small>সম্পন্ন</small><b id="statDone">০</b><span id="statDoneSub">৪০%+ স্কোরে পাশ</span></div>
-<div class="stat"><small>গড় স্কোর</small><b id="statAvg">—</b><span>শেষ ১০টি কুইজ</span></div>
-<div class="stat"><small>সার্টিফিকেট</small><b id="statCert">লকড 🔒</b><span id="statCertSub">৫০টি রোগলক্ষণ দরকার</span></div>
-</div>
-
 <div class="menu-grid">
 <a href="https://nirvik.mooo.com/quiz/symptoms.html" class="menu-card">
 <i class="fa-solid fa-stethoscope"></i>
@@ -191,753 +161,57 @@ body.dark .cert-section{background:#2a2300;border-color:#854d0e}
 </div>
 
 <div class="card">
-<div class="progress-flex">
+<div class="progress-row">
 <div class="ring" id="ring"><b id="ringPct">০%</b></div>
 <div class="progress-info">
-<h3><i class="fa-solid fa-chart-line"></i> আপনার অগ্রগতি</h3>
+<h3><i class="fa-solid fa-chart-line"></i> আপনার অগ্রগতি <span class="pill" id="progress-percent" style="margin-left:6px">০%</span></h3>
 <div class="progress-bar-bg"><div class="progress-bar-fill" id="progress-bar" style="width:0%"></div></div>
 <div class="progress-text" id="progress-text">লোড হচ্ছে...</div>
-<p style="font-size:.88rem;color:var(--muted);margin-top:6px" id="progressHint">প্রতিটি কুইজে ৪০%+ পেলেই সেটা সম্পন্ন ধরা হবে।</p>
 </div>
-<span class="pill" id="progress-percent" style="font-size:1rem">০%</span>
 </div>
+<div class="cert-line">
+<p><b>🏆 সার্টিফিকেট:</b> <span id="certDesc">কমপক্ষে ৫০টি রোগলক্ষণ ভিত্তিক কুইজে অংশ নিয়ে সবগুলি কুইজ শেষ করতে হবে।</span></p>
+<a href="certificate.html" id="cert-btn" class="btn-cert disabled">🔒 লকড</a>
+</div>
+<div class="mini-progress" style="margin-top:8px"><div id="certBar" style="width:0%"></div></div>
 <div class="badges" id="badges">
-<div class="badge-item locked" id="badge1"><div class="emoji">🌱</div><b>প্রথম কুইজ</b><small>১টি কুইজ শেষ করুন</small></div>
-<div class="badge-item locked" id="badge10"><div class="emoji">🔥</div><b>১০টি কুইজ</b><small>১০টি সম্পন্ন</small></div>
-<div class="badge-item locked" id="badge50"><div class="emoji">🏅</div><b>৫০টি কুইজ</b><small>৫০টি সম্পন্ন</small></div>
-<div class="badge-item locked" id="badgeStar"><div class="emoji">⭐</div><b>স্টার পারফর্মার</b><small>কোনো কুইজে ৯০%+</small></div>
+<div class="badge-item locked" id="badge1"><div class="emoji">🌱</div><b>প্রথম কুইজ</b></div>
+<div class="badge-item locked" id="badge10"><div class="emoji">🔥</div><b>১০টি কুইজ</b></div>
+<div class="badge-item locked" id="badge50"><div class="emoji">🏅</div><b>৫০টি কুইজ</b></div>
+<div class="badge-item locked" id="badgeStar"><div class="emoji">⭐</div><b>৯০%+ স্কোর</b></div>
 </div>
-</div>
-
-<div class="cert-section">
-<div class="cert-text">
-<h3><i class="fa-solid fa-award"></i> সার্টিফিকেট অর্জন করুন</h3>
-<p id="certDesc">শর্ত: ৫০টি রোগলক্ষণ কুইজে ন্যূনতম ৪০% স্কোর করতে হবে।</p>
-<div class="mini-progress" style="margin-top:10px;max-width:320px"><div id="certBar" style="width:0%"></div></div>
-</div>
-<a href="certificate.html" id="cert-btn" class="btn-cert disabled"><i class="fa-solid fa-lock"></i> লকড</a>
 </div>
 </div>
 
 <div class="right-column">
+<div class="user-box" id="rightUserBox">
+<div class="user-avatar" id="rightAvatar">👤</div>
+<div>
+<div class="name" id="rightUserName">গেস্ট ইউজার</div>
+<div class="email" id="rightUserEmail">লগইন করলে আপনার রেকর্ড এখানে দেখাবে</div>
+</div>
+</div>
+<button class="btn-continue" id="continueBtn">▶️ যেখানে থেমেছিলেন</button>
+<div class="mini-stats">
+<div class="mini-stat"><small>🔥 স্ট্রিক</small><b id="streakVal">০ দিন</b></div>
+<div class="mini-stat"><small>✅ সম্পন্ন</small><b id="heroDone">০</b></div>
+<div class="mini-stat"><small>🏆 সেরা স্কোর</small><b id="heroBest">—</b></div>
+<div class="mini-stat"><small>📊 মোট কুইজ</small><b id="statTotal">—</b></div>
+</div>
 <h3 class="recent-title"><i class="fa-solid fa-clock-rotate-left" style="color:var(--primary)"></i> সাম্প্রতিক রেকর্ড</h3>
-<ul id="recent-history" class="recent-list"><li style="color:var(--muted);text-align:center;padding:10px">রেকর্ড লোড হচ্ছে...</li></ul>
+<ul id="recent-history" class="recent-list"><li style="color:var(--muted);text-align:center;padding:10px;font-size:.85rem">রেকর্ড লোড হচ্ছে...</li></ul>
 <div class="tip-box">
 <h4>💡 আজকের টিপস</h4>
-<p id="tipText">একই ঔষধের লক্ষণ বারবার ভুল হলে, সেই ঔষধের মেটেরিয়া মেডিকা পেজটা একবার পড়ে তারপর আবার কুইজ দিন — মনে থাকবে অনেক বেশি।</p>
-</div>
-<div class="tip-box" style="background:#eff6ff;border-color:#bfdbfe">
-<h4>📌 দ্রুত লিংক</h4>
-<p><a href="https://nirvik.mooo.com/quiz/symptoms.html" style="color:var(--primary);font-weight:700">সব রোগলক্ষণ দেখুন →</a> &nbsp; <a href="medicines.html" style="color:var(--primary);font-weight:700">সব ঔষধ দেখুন →</a></p>
+<p id="tipText">একই ঔষধের লক্ষণ বারবার ভুল হলে, সেই ঔষধের মেটেরিয়া মেডিকা পেজটা একবার পড়ে তারপর আবার কুইজ দিন।</p>
 </div>
 </div>
 </div>
 
-<script>
-const TAG_MAP = {
-  "mind": {
-    "bn": "মন",
-    "en": "Mind",
-    "count": 305,
-    "section": "উপরের অঙ্গ"
-  },
-  "fear-anxiety-and-phobia": {
-    "bn": "ভয়, উদ্বেগ ও আতঙ্ক",
-    "en": "Fear, Anxiety & Phobia",
-    "count": 76,
-    "section": "উপরের অঙ্গ"
-  },
-  "anger-irritability-and-temper": {
-    "bn": "রাগ, মেজাজ ও বিরক্তি",
-    "en": "Anger, Irritability & Temper",
-    "count": 67,
-    "section": "উপরের অঙ্গ"
-  },
-  "sadness-depression-and-grief": {
-    "bn": "দুঃখ, বিষণ্ণতা ও শোক",
-    "en": "Sadness, Depression & Grief",
-    "count": 57,
-    "section": "উপরের অঙ্গ"
-  },
-  "memory-concentration-and-thinking": {
-    "bn": "স্মৃতি, মনোযোগ ও চিন্তা",
-    "en": "Memory, Concentration & Thinking",
-    "count": 36,
-    "section": "উপরের অঙ্গ"
-  },
-  "sleep-insomnia-and-dreams": {
-    "bn": "ঘুম, অনিদ্রা ও স্বপ্ন",
-    "en": "Sleep, Insomnia & Dreams",
-    "count": 54,
-    "section": "উপরের অঙ্গ"
-  },
-  "head": {
-    "bn": "মাথা",
-    "en": "Head",
-    "count": 54,
-    "section": "উপরের অঙ্গ"
-  },
-  "headache": {
-    "bn": "মাথাব্যথা",
-    "en": "Headache",
-    "count": 43,
-    "section": "উপরের অঙ্গ"
-  },
-  "eye-and-vision": {
-    "bn": "চোখ ও দৃষ্টি",
-    "en": "Eye & Vision",
-    "count": 73,
-    "section": "উপরের অঙ্গ"
-  },
-  "eye-diseases-styes-cataract": {
-    "bn": "চোখের রোগ - অঞ্জনি, ছানি",
-    "en": "Eye Diseases - Styes, Cataract",
-    "count": 49,
-    "section": "উপরের অঙ্গ"
-  },
-  "ear-and-hearing": {
-    "bn": "কান ও শ্রবণ",
-    "en": "Ear & Hearing",
-    "count": 20,
-    "section": "উপরের অঙ্গ"
-  },
-  "nose-smell-and-sinus": {
-    "bn": "নাক, ঘ্রাণ ও সাইনাস",
-    "en": "Nose, Smell & Sinus",
-    "count": 39,
-    "section": "উপরের অঙ্গ"
-  },
-  "face": {
-    "bn": "মুখমণ্ডল",
-    "en": "Face",
-    "count": 22,
-    "section": "উপরের অঙ্গ"
-  },
-  "mouth-lips-and-saliva": {
-    "bn": "মুখ, ঠোঁট ও লালা",
-    "en": "Mouth, Lips & Saliva",
-    "count": 15,
-    "section": "উপরের অঙ্গ"
-  },
-  "teeth-gums-and-dentition": {
-    "bn": "দাঁত, মাড়ি ও দাঁত ওঠা",
-    "en": "Teeth, Gums & Dentition",
-    "count": 34,
-    "section": "উপরের অঙ্গ"
-  },
-  "tongue-and-taste": {
-    "bn": "জিহ্বা ও স্বাদ",
-    "en": "Tongue & Taste",
-    "count": 28,
-    "section": "উপরের অঙ্গ"
-  },
-  "throat-tonsils-and-swallowing": {
-    "bn": "গলা, টনসিল ও গিলা",
-    "en": "Throat, Tonsils & Swallowing",
-    "count": 37,
-    "section": "উপরের অঙ্গ"
-  },
-  "voice-hoarseness-and-speech": {
-    "bn": "কণ্ঠ, স্বরভঙ্গ ও কথা",
-    "en": "Voice, Hoarseness & Speech",
-    "count": 16,
-    "section": "উপরের অঙ্গ"
-  },
-  "neck-shoulder-hair-and-scalp": {
-    "bn": "ঘাড়, কাঁধ, চুল ও মাথার চামড়া",
-    "en": "Neck, Shoulder, Hair & Scalp",
-    "count": 20,
-    "section": "উপরের অঙ্গ"
-  },
-  "chest-lungs-and-breathing": {
-    "bn": "বুক, ফুসফুস ও শ্বাস",
-    "en": "Chest, Lungs & Breathing",
-    "count": 45,
-    "section": "মাঝের অঙ্গ"
-  },
-  "cough-and-expectoration": {
-    "bn": "কাশি ও কফ",
-    "en": "Cough & Expectoration",
-    "count": 51,
-    "section": "মাঝের অঙ্গ"
-  },
-  "breathing-difficulty-and-asthma": {
-    "bn": "শ্বাসকষ্ট ও হাঁপানি",
-    "en": "Breathing Difficulty & Asthma",
-    "count": 17,
-    "section": "মাঝের অঙ্গ"
-  },
-  "cold-coryza-and-sneezing": {
-    "bn": "সর্দি, হাঁচি ও কফ",
-    "en": "Cold, Coryza & Sneezing",
-    "count": 107,
-    "section": "মাঝের অঙ্গ"
-  },
-  "heart-palpitation-and-pulse": {
-    "bn": "হৃদপিণ্ড, ধড়ফড় ও নাড়ি",
-    "en": "Heart, Palpitation & Pulse",
-    "count": 37,
-    "section": "মাঝের অঙ্গ"
-  },
-  "blood-pressure-circulation-and-vessels": {
-    "bn": "রক্তচাপ, রক্ত সঞ্চালন ও শিরা",
-    "en": "Blood Pressure, Circulation & Vessels",
-    "count": 35,
-    "section": "মাঝের অঙ্গ"
-  },
-  "stomach-hunger-and-appetite": {
-    "bn": "পাকস্থলী, ক্ষুধা ও খিদে",
-    "en": "Stomach, Hunger & Appetite",
-    "count": 57,
-    "section": "মাঝের অঙ্গ"
-  },
-  "nausea-vomiting-and-acidity": {
-    "bn": "বমি, বমিভাব ও অম্ল",
-    "en": "Nausea, Vomiting & Acidity",
-    "count": 53,
-    "section": "মাঝের অঙ্গ"
-  },
-  "digestion-indigestion-and-nutrition": {
-    "bn": "হজম, বদহজম ও পুষ্টি",
-    "en": "Digestion, Indigestion & Nutrition",
-    "count": 28,
-    "section": "মাঝের অঙ্গ"
-  },
-  "abdomen-colic-and-gas": {
-    "bn": "পেট, পেটব্যথা ও গ্যাস",
-    "en": "Abdomen, Colic & Gas",
-    "count": 53,
-    "section": "মাঝের অঙ্গ"
-  },
-  "liver-gallbladder-and-jaundice": {
-    "bn": "লিভার, পিত্ত ও জন্ডিস",
-    "en": "Liver, Gallbladder & Jaundice",
-    "count": 17,
-    "section": "মাঝের অঙ্গ"
-  },
-  "breast-nipple-and-lactation": {
-    "bn": "স্তন, বোঁটা ও দুধ খাওয়ানো",
-    "en": "Breast, Nipple & Lactation",
-    "count": 11,
-    "section": "মাঝের অঙ্গ"
-  },
-  "back-spine-and-chest-heart-diseases": {
-    "bn": "পিঠ, মেরুদণ্ড ও বুক-হৃদরোগ",
-    "en": "Back, Spine & Chest-Heart Diseases",
-    "count": 50,
-    "section": "মাঝের অঙ্গ"
-  },
-  "stool-diarrhoea-and-constipation": {
-    "bn": "মল, ডায়রিয়া ও কোষ্ঠকাঠিন্য",
-    "en": "Stool, Diarrhoea & Constipation",
-    "count": 93,
-    "section": "নিচের অঙ্গ"
-  },
-  "rectum-anus-and-piles": {
-    "bn": "মলদ্বার, পাইলস ও ফিস্টুলা",
-    "en": "Rectum, Anus & Piles",
-    "count": 33,
-    "section": "নিচের অঙ্গ"
-  },
-  "urine-bladder-and-frequency": {
-    "bn": "প্রস্রাব, মূত্রথলি ও ঘন ঘন প্রস্রাব",
-    "en": "Urine, Bladder & Frequency",
-    "count": 63,
-    "section": "নিচের অঙ্গ"
-  },
-  "kidney-and-urinary-diseases": {
-    "bn": "কিডনি ও মূত্র রোগ",
-    "en": "Kidney & Urinary Diseases",
-    "count": 51,
-    "section": "নিচের অঙ্গ"
-  },
-  "menses-and-menstrual-disorders": {
-    "bn": "ঋতুস্রাব ও মাসিকের সমস্যা",
-    "en": "Menses & Menstrual Disorders",
-    "count": 34,
-    "section": "নিচের অঙ্গ"
-  },
-  "female-genital-leucorrhoea-and-uterus": {
-    "bn": "স্ত্রী যৌনাঙ্গ, সাদাস্রাব ও জরায়ু",
-    "en": "Female Genital, Leucorrhoea & Uterus",
-    "count": 75,
-    "section": "নিচের অঙ্গ"
-  },
-  "pregnancy-labour-and-postpartum": {
-    "bn": "গর্ভাবস্থা, প্রসব ও প্রসব পরবর্তী",
-    "en": "Pregnancy, Labour & Postpartum",
-    "count": 21,
-    "section": "নিচের অঙ্গ"
-  },
-  "female-diseases-prolapse-and-inflammation": {
-    "bn": "স্ত্রী রোগ - প্রল্যাপস ও প্রদাহ",
-    "en": "Female Diseases - Prolapse & Inflammation",
-    "count": 26,
-    "section": "নিচের অঙ্গ"
-  },
-  "male-genital-testes-and-prostate": {
-    "bn": "পুরুষ যৌনাঙ্গ, অণ্ডকোষ ও প্রোস্টেট",
-    "en": "Male Genital, Testes & Prostate",
-    "count": 15,
-    "section": "নিচের অঙ্গ"
-  },
-  "sexual-desire-coition-and-semen": {
-    "bn": "যৌন ইচ্ছা, সহবাস ও বীর্য",
-    "en": "Sexual Desire, Coition & Semen",
-    "count": 31,
-    "section": "নিচের অঙ্গ"
-  },
-  "male-diseases-weakness-and-emission": {
-    "bn": "পুরুষ রোগ - দুর্বলতা ও ধাতু",
-    "en": "Male Diseases - Weakness & Emission",
-    "count": 45,
-    "section": "নিচের অঙ্গ"
-  },
-  "legs-knee-and-feet": {
-    "bn": "পা, হাঁটু ও পায়ের পাতা",
-    "en": "Legs, Knee & Feet",
-    "count": 31,
-    "section": "নিচের অঙ্গ"
-  },
-  "hands-fingers-and-nails": {
-    "bn": "হাত, আঙুল ও নখ",
-    "en": "Hands, Fingers & Nails",
-    "count": 24,
-    "section": "নিচের অঙ্গ"
-  },
-  "bones-and-caries": {
-    "bn": "হাড় ও হাড়ের ক্ষয়",
-    "en": "Bones & Caries",
-    "count": 21,
-    "section": "নিচের অঙ্গ"
-  },
-  "joints-arthritis-and-rheumatism": {
-    "bn": "জয়েন্ট, বাত ও রিউম্যাটিজম",
-    "en": "Joints, Arthritis & Rheumatism",
-    "count": 34,
-    "section": "নিচের অঙ্গ"
-  },
-  "muscles-cramps-and-spasm": {
-    "bn": "পেশি, টান ও খিঁচুনি",
-    "en": "Muscles, Cramps & Spasm",
-    "count": 27,
-    "section": "নিচের অঙ্গ"
-  },
-  "fever-chill-and-temperature": {
-    "bn": "জ্বর, শীত ও তাপমাত্রা",
-    "en": "Fever, Chill & Temperature",
-    "count": 32,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "sweat-and-perspiration": {
-    "bn": "ঘাম",
-    "en": "Sweat & Perspiration",
-    "count": 29,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "pain-types-and-characters": {
-    "bn": "ব্যথার ধরন",
-    "en": "Pain - Types & Characters",
-    "count": 115,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "swelling-oedema-and-dropsy": {
-    "bn": "ফোলা, শোথ ও জল জমা",
-    "en": "Swelling, Oedema & Dropsy",
-    "count": 50,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "bleeding-and-haemorrhage": {
-    "bn": "রক্তপাত",
-    "en": "Bleeding & Haemorrhage",
-    "count": 32,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "blood-anaemia-and-clotting": {
-    "bn": "রক্ত, রক্তাল্পতা ও জমাট",
-    "en": "Blood, Anaemia & Clotting",
-    "count": 17,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "skin-general-colour-and-texture": {
-    "bn": "চামড়া - সাধারণ, রং ও গঠন",
-    "en": "Skin - General, Colour & Texture",
-    "count": 74,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "skin-eruptions-eczema-and-psoriasis": {
-    "bn": "চামড়ার উদ্ভেদ, একজিমা ও সোরিয়াসিস",
-    "en": "Skin Eruptions, Eczema & Psoriasis",
-    "count": 40,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "itching-burning-and-skin-sensation": {
-    "bn": "চুলকানি, জ্বালা ও চামড়ার অনুভূতি",
-    "en": "Itching, Burning & Skin Sensation",
-    "count": 69,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "skin-cracks-fissures-and-ulcers": {
-    "bn": "চামড়া ফাটা, ক্ষত ও আলসার",
-    "en": "Skin - Cracks, Fissures & Ulcers",
-    "count": 76,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "warts-tumours-cysts-and-growths": {
-    "bn": "আঁচিল, টিউমার, সিস্ট ও গোটা",
-    "en": "Warts, Tumours, Cysts & Growths",
-    "count": 21,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "wounds-cuts-bruises-and-injury": {
-    "bn": "ক্ষত, কাটা, থেঁতো ও আঘাত",
-    "en": "Wounds, Cuts, Bruises & Injury",
-    "count": 43,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "ulcer-abscess-and-suppuration": {
-    "bn": "ঘা, ফোড়া ও পুঁজ",
-    "en": "Ulcer, Abscess & Suppuration",
-    "count": 39,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "burns-bites-and-stings": {
-    "bn": "পোড়া, কামড় ও হুল",
-    "en": "Burns, Bites & Stings",
-    "count": 15,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "infection-sepsis-and-pus": {
-    "bn": "সংক্রমণ, সেপসিস ও পুঁজ",
-    "en": "Infection, Sepsis & Pus",
-    "count": 24,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "allergy-and-hypersensitivity": {
-    "bn": "অ্যালার্জি ও অতিসংবেদনশীলতা",
-    "en": "Allergy & Hypersensitivity",
-    "count": 6,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "worms-and-parasites": {
-    "bn": "কৃমি ও পরজীবী",
-    "en": "Worms & Parasites",
-    "count": 18,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "weakness-fatigue-and-exhaustion": {
-    "bn": "দুর্বলতা, ক্লান্তি ও অবসাদ",
-    "en": "Weakness, Fatigue & Exhaustion",
-    "count": 63,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "children-growth-and-development": {
-    "bn": "শিশু, বৃদ্ধি ও বিকাশ",
-    "en": "Children - Growth & Development",
-    "count": 55,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "old-age-and-general-debility": {
-    "bn": "বার্ধক্য ও সাধারণ দুর্বলতা",
-    "en": "Old Age & General Debility",
-    "count": 7,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "constitution-build-and-thermal": {
-    "bn": "গঠন, শীতকাতর / গরমকাতর",
-    "en": "Constitution, Build & Thermal",
-    "count": 167,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "miasm-diathesis-and-heredity": {
-    "bn": "মায়াজম, প্রবণতা ও বংশগত",
-    "en": "Miasm, Diathesis & Heredity",
-    "count": 43,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "food-drink-and-cravings": {
-    "bn": "খাবার, পানীয় ও ইচ্ছা",
-    "en": "Food, Drink & Cravings",
-    "count": 123,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "tobacco-alcohol-and-stimulants": {
-    "bn": "তামাক, মদ ও নেশা",
-    "en": "Tobacco, Alcohol & Stimulants",
-    "count": 17,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "thirst-and-drinking": {
-    "bn": "তৃষ্ণা ও পান করা",
-    "en": "Thirst & Drinking",
-    "count": 34,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "smell-and-odor": {
-    "bn": "গন্ধ ও দুর্গন্ধ",
-    "en": "Smell & Odor",
-    "count": 48,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "touch-pressure-and-rubbing": {
-    "bn": "স্পর্শ, চাপ ও মালিশ",
-    "en": "Touch, Pressure & Rubbing",
-    "count": 67,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "motion-posture-and-rest": {
-    "bn": "নড়াচড়া, ভঙ্গি ও বিশ্রাম",
-    "en": "Motion, Posture & Rest",
-    "count": 131,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "time-morning-evening-and-night": {
-    "bn": "সময় - সকাল, সন্ধ্যা ও রাত",
-    "en": "Time - Morning, Evening & Night",
-    "count": 94,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "time-specific-hours-and-days": {
-    "bn": "সময় - নির্দিষ্ট ঘণ্টা ও দিন",
-    "en": "Time - Specific Hours & Days",
-    "count": 11,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "seasons-moon-and-periodicity": {
-    "bn": "ঋতু, চাঁদ ও পর্যায়ক্রম",
-    "en": "Seasons, Moon & Periodicity",
-    "count": 36,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "weather-climate-and-environment": {
-    "bn": "আবহাওয়া, জলবায়ু ও পরিবেশ",
-    "en": "Weather, Climate & Environment",
-    "count": 53,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "cold-chilly-and-cold-air": {
-    "bn": "ঠান্ডা, শীতলতা ও ঠান্ডা বাতাস",
-    "en": "Cold, Chilly & Cold Air",
-    "count": 123,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "heat-warmth-and-sun": {
-    "bn": "গরম, উষ্ণতা ও রোদ",
-    "en": "Heat, Warmth & Sun",
-    "count": 86,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "damp-wet-and-rain": {
-    "bn": "ভেজা, আর্দ্রতা ও বৃষ্টি",
-    "en": "Damp, Wet & Rain",
-    "count": 33,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "open-air-and-ventilation": {
-    "bn": "খোলা বাতাস ও বাতাস",
-    "en": "Open Air & Ventilation",
-    "count": 48,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "aggravation": {
-    "bn": "বৃদ্ধির কারণ",
-    "en": "Aggravation",
-    "count": 117,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "amelioration": {
-    "bn": "উপশমের কারণ",
-    "en": "Amelioration",
-    "count": 97,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "laterality-left-right-and-sides": {
-    "bn": "পার্শ্ব - বাম, ডান ও দিক",
-    "en": "Laterality - Left, Right & Sides",
-    "count": 87,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "delusion-hallucination-and-insanity": {
-    "bn": "ভ্রম, অলীক দর্শন ও পাগলামি",
-    "en": "Delusion, Hallucination & Insanity",
-    "count": 53,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "behaviour-habits-and-character": {
-    "bn": "আচরণ, অভ্যাস ও স্বভাব",
-    "en": "Behaviour, Habits & Character",
-    "count": 87,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "relationship-complementary-antidote": {
-    "bn": "ঔষধ সম্পর্ক - পরিপূরক, প্রতিষেধক",
-    "en": "Relationship - Complementary, Antidote",
-    "count": 63,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "potency-posology-and-medicine-info": {
-    "bn": "শক্তি, মাত্রা ও ঔষধ পরিচিতি",
-    "en": "Potency, Posology & Medicine Info",
-    "count": 46,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "vaccination-suppression-and-ill-effects": {
-    "bn": "টিকা, চাপা পড়া ও কুফল",
-    "en": "Vaccination, Suppression & Ill-effects",
-    "count": 39,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "vertigo-dizziness-and-fainting": {
-    "bn": "মাথা ঘোরা ও অজ্ঞান",
-    "en": "Vertigo, Dizziness & Fainting",
-    "count": 39,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "convulsion-tremor-and-twitching": {
-    "bn": "খিঁচুনি, কাঁপুনি ও ফড়ফড়",
-    "en": "Convulsion, Tremor & Twitching",
-    "count": 34,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "discharge-secretion-and-mucus": {
-    "bn": "স্রাব, নিঃসরণ ও শ্লেষ্মা",
-    "en": "Discharge, Secretion & Mucus",
-    "count": 65,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "sensation-general-feelings": {
-    "bn": "অনুভূতি - সাধারণ",
-    "en": "Sensation - General Feelings",
-    "count": 45,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "glands-lymph-and-goitre": {
-    "bn": "গ্রন্থি, লসিকা ও গলগণ্ড",
-    "en": "Glands, Lymph & Goitre",
-    "count": 16,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "cancer-gangrene-and-degeneration": {
-    "bn": "ক্যান্সার, গ্যাংগ্রিন ও ক্ষয়",
-    "en": "Cancer, Gangrene & Degeneration",
-    "count": 11,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "prolapse-bearing-down-and-relaxation": {
-    "bn": "প্রল্যাপস, নিচে চাপ ও শিথিলতা",
-    "en": "Prolapse, Bearing Down & Relaxation",
-    "count": 13,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  },
-  "general-and-miscellaneous": {
-    "bn": "সাধারণ ও বিবিধ",
-    "en": "General & Miscellaneous",
-    "count": 772,
-    "section": "সার্বদেহিক রোগ ও সাধারণ"
-  }
-};
-const LEGACY_MAP = {
-  "মন_Mind": "mind",
-  "ভয়_উদ্বেগ_ও_আতঙ্ক_Fear_Anxiety_and_Phobia": "fear-anxiety-and-phobia",
-  "রাগ_মেজাজ_ও_বিরক্তি_Anger_Irritability_and_Temper": "anger-irritability-and-temper",
-  "দুঃখ_বিষণ্ণতা_ও_শোক_Sadness_Depression_and_Grief": "sadness-depression-and-grief",
-  "স্মৃতি_মনোযোগ_ও_চিন্তা_Memory_Concentration_and_Thinking": "memory-concentration-and-thinking",
-  "ঘুম_অনিদ্রা_ও_স্বপ্ন_Sleep_Insomnia_and_Dreams": "sleep-insomnia-and-dreams",
-  "মাথা_Head": "head",
-  "মাথাব্যথা_Headache": "headache",
-  "চোখ_ও_দৃষ্টি_Eye_and_Vision": "eye-and-vision",
-  "চোখের_রোগ_-_অঞ্জনি_ছানি_Eye_Diseases_-_Styes_Cataract": "eye-diseases-styes-cataract",
-  "কান_ও_শ্রবণ_Ear_and_Hearing": "ear-and-hearing",
-  "নাক_ঘ্রাণ_ও_সাইনাস_Nose_Smell_and_Sinus": "nose-smell-and-sinus",
-  "মুখমণ্ডল_Face": "face",
-  "মুখ_ঠোঁট_ও_লালা_Mouth_Lips_and_Saliva": "mouth-lips-and-saliva",
-  "দাঁত_মাড়ি_ও_দাঁত_ওঠা_Teeth_Gums_and_Dentition": "teeth-gums-and-dentition",
-  "জিহ্বা_ও_স্বাদ_Tongue_and_Taste": "tongue-and-taste",
-  "গলা_টনসিল_ও_গিলা_Throat_Tonsils_and_Swallowing": "throat-tonsils-and-swallowing",
-  "কণ্ঠ_স্বরভঙ্গ_ও_কথা_Voice_Hoarseness_and_Speech": "voice-hoarseness-and-speech",
-  "ঘাড়_কাঁধ_চুল_ও_মাথার_চামড়া_Neck_Shoulder_Hair_and_Scalp": "neck-shoulder-hair-and-scalp",
-  "বুক_ফুসফুস_ও_শ্বাস_Chest_Lungs_and_Breathing": "chest-lungs-and-breathing",
-  "কাশি_ও_কফ_Cough_and_Expectoration": "cough-and-expectoration",
-  "শ্বাসকষ্ট_ও_হাঁপানি_Breathing_Difficulty_and_Asthma": "breathing-difficulty-and-asthma",
-  "সর্দি_হাঁচি_ও_কফ_Cold_Coryza_and_Sneezing": "cold-coryza-and-sneezing",
-  "হৃদপিণ্ড_ধড়ফড়_ও_নাড়ি_Heart_Palpitation_and_Pulse": "heart-palpitation-and-pulse",
-  "রক্তচাপ_রক্ত_সঞ্চালন_ও_শিরা_Blood_Pressure_Circulation_and_Vessels": "blood-pressure-circulation-and-vessels",
-  "পাকস্থলী_ক্ষুধা_ও_খিদে_Stomach_Hunger_and_Appetite": "stomach-hunger-and-appetite",
-  "বমি_বমিভাব_ও_অম্ল_Nausea_Vomiting_and_Acidity": "nausea-vomiting-and-acidity",
-  "হজম_বদহজম_ও_পুষ্টি_Digestion_Indigestion_and_Nutrition": "digestion-indigestion-and-nutrition",
-  "পেট_পেটব্যথা_ও_গ্যাস_Abdomen_Colic_and_Gas": "abdomen-colic-and-gas",
-  "লিভার_পিত্ত_ও_জন্ডিস_Liver_Gallbladder_and_Jaundice": "liver-gallbladder-and-jaundice",
-  "স্তন_বোঁটা_ও_দুধ_খাওয়ানো_Breast_Nipple_and_Lactation": "breast-nipple-and-lactation",
-  "পিঠ_মেরুদণ্ড_ও_বুক-হৃদরোগ_Back_Spine_and_Chest-Heart_Diseases": "back-spine-and-chest-heart-diseases",
-  "মল_ডায়রিয়া_ও_কোষ্ঠকাঠিন্য_Stool_Diarrhoea_and_Constipation": "stool-diarrhoea-and-constipation",
-  "মলদ্বার_পাইলস_ও_ফিস্টুলা_Rectum_Anus_and_Piles": "rectum-anus-and-piles",
-  "প্রস্রাব_মূত্রথলি_ও_ঘন_ঘন_প্রস্রাব_Urine_Bladder_and_Frequency": "urine-bladder-and-frequency",
-  "কিডনি_ও_মূত্র_রোগ_Kidney_and_Urinary_Diseases": "kidney-and-urinary-diseases",
-  "ঋতুস্রাব_ও_মাসিকের_সমস্যা_Menses_and_Menstrual_Disorders": "menses-and-menstrual-disorders",
-  "স্ত্রী_যৌনাঙ্গ_সাদাস্রাব_ও_জরায়ু_Female_Genital_Leucorrhoea_and_Uterus": "female-genital-leucorrhoea-and-uterus",
-  "গর্ভাবস্থা_প্রসব_ও_প্রসব_পরবর্তী_Pregnancy_Labour_and_Postpartum": "pregnancy-labour-and-postpartum",
-  "স্ত্রী_রোগ_-_প্রল্যাপস_ও_প্রদাহ_Female_Diseases_-_Prolapse_and_Inflammation": "female-diseases-prolapse-and-inflammation",
-  "পুরুষ_যৌনাঙ্গ_অণ্ডকোষ_ও_প্রোস্টেট_Male_Genital_Testes_and_Prostate": "male-genital-testes-and-prostate",
-  "যৌন_ইচ্ছা_সহবাস_ও_বীর্য_Sexual_Desire_Coition_and_Semen": "sexual-desire-coition-and-semen",
-  "পুরুষ_রোগ_-_দুর্বলতা_ও_ধাতু_Male_Diseases_-_Weakness_and_Emission": "male-diseases-weakness-and-emission",
-  "পা_হাঁটু_ও_পায়ের_পাতা_Legs_Knee_and_Feet": "legs-knee-and-feet",
-  "হাত_আঙুল_ও_নখ_Hands_Fingers_and_Nails": "hands-fingers-and-nails",
-  "হাড়_ও_হাড়ের_ক্ষয়_Bones_and_Caries": "bones-and-caries",
-  "জয়েন্ট_বাত_ও_রিউম্যাটিজম_Joints_Arthritis_and_Rheumatism": "joints-arthritis-and-rheumatism",
-  "পেশি_টান_ও_খিঁচুনি_Muscles_Cramps_and_Spasm": "muscles-cramps-and-spasm",
-  "জ্বর_শীত_ও_তাপমাত্রা_Fever_Chill_and_Temperature": "fever-chill-and-temperature",
-  "ঘাম_Sweat_and_Perspiration": "sweat-and-perspiration",
-  "ব্যথার_ধরন_Pain_-_Types_and_Characters": "pain-types-and-characters",
-  "ফোলা_শোথ_ও_জল_জমা_Swelling_Oedema_and_Dropsy": "swelling-oedema-and-dropsy",
-  "রক্তপাত_Bleeding_and_Haemorrhage": "bleeding-and-haemorrhage",
-  "রক্ত_রক্তাল্পতা_ও_জমাট_Blood_Anaemia_and_Clotting": "blood-anaemia-and-clotting",
-  "চামড়া_-_সাধারণ_রং_ও_গঠন_Skin_-_General_Colour_and_Texture": "skin-general-colour-and-texture",
-  "চামড়ার_উদ্ভেদ_একজিমা_ও_সোরিয়াসিস_Skin_Eruptions_Eczema_and_Psoriasis": "skin-eruptions-eczema-and-psoriasis",
-  "চুলকানি_জ্বালা_ও_চামড়ার_অনুভূতি_Itching_Burning_and_Skin_Sensation": "itching-burning-and-skin-sensation",
-  "চামড়া_ফাটা_ক্ষত_ও_আলসার_Skin_-_Cracks_Fissures_and_Ulcers": "skin-cracks-fissures-and-ulcers",
-  "আঁচিল_টিউমার_সিস্ট_ও_গোটা_Warts_Tumours_Cysts_and_Growths": "warts-tumours-cysts-and-growths",
-  "ক্ষত_কাটা_থেঁতো_ও_আঘাত_Wounds_Cuts_Bruises_and_Injury": "wounds-cuts-bruises-and-injury",
-  "ঘা_ফোড়া_ও_পুঁজ_Ulcer_Abscess_and_Suppuration": "ulcer-abscess-and-suppuration",
-  "পোড়া_কামড়_ও_হুল_Burns_Bites_and_Stings": "burns-bites-and-stings",
-  "সংক্রমণ_সেপসিস_ও_পুঁজ_Infection_Sepsis_and_Pus": "infection-sepsis-and-pus",
-  "অ্যালার্জি_ও_অতিসংবেদনশীলতা_Allergy_and_Hypersensitivity": "allergy-and-hypersensitivity",
-  "কৃমি_ও_পরজীবী_Worms_and_Parasites": "worms-and-parasites",
-  "দুর্বলতা_ক্লান্তি_ও_অবসাদ_Weakness_Fatigue_and_Exhaustion": "weakness-fatigue-and-exhaustion",
-  "শিশু_বৃদ্ধি_ও_বিকাশ_Children_-_Growth_and_Development": "children-growth-and-development",
-  "বার্ধক্য_ও_সাধারণ_দুর্বলতা_Old_Age_and_General_Debility": "old-age-and-general-debility",
-  "গঠন_শীতকাতর_-_গরমকাতর_Constitution_Build_and_Thermal": "constitution-build-and-thermal",
-  "মায়াজম_প্রবণতা_ও_বংশগত_Miasm_Diathesis_and_Heredity": "miasm-diathesis-and-heredity",
-  "খাবার_পানীয়_ও_ইচ্ছা_Food_Drink_and_Cravings": "food-drink-and-cravings",
-  "তামাক_মদ_ও_নেশা_Tobacco_Alcohol_and_Stimulants": "tobacco-alcohol-and-stimulants",
-  "তৃষ্ণা_ও_পান_করা_Thirst_and_Drinking": "thirst-and-drinking",
-  "গন্ধ_ও_দুর্গন্ধ_Smell_and_Odor": "smell-and-odor",
-  "স্পর্শ_চাপ_ও_মালিশ_Touch_Pressure_and_Rubbing": "touch-pressure-and-rubbing",
-  "নড়াচড়া_ভঙ্গি_ও_বিশ্রাম_Motion_Posture_and_Rest": "motion-posture-and-rest",
-  "সময়_-_সকাল_সন্ধ্যা_ও_রাত_Time_-_Morning_Evening_and_Night": "time-morning-evening-and-night",
-  "সময়_-_নির্দিষ্ট_ঘণ্টা_ও_দিন_Time_-_Specific_Hours_and_Days": "time-specific-hours-and-days",
-  "ঋতু_চাঁদ_ও_পর্যায়ক্রম_Seasons_Moon_and_Periodicity": "seasons-moon-and-periodicity",
-  "আবহাওয়া_জলবায়ু_ও_পরিবেশ_Weather_Climate_and_Environment": "weather-climate-and-environment",
-  "ঠান্ডা_শীতলতা_ও_ঠান্ডা_বাতাস_Cold_Chilly_and_Cold_Air": "cold-chilly-and-cold-air",
-  "গরম_উষ্ণতা_ও_রোদ_Heat_Warmth_and_Sun": "heat-warmth-and-sun",
-  "ভেজা_আর্দ্রতা_ও_বৃষ্টি_Damp_Wet_and_Rain": "damp-wet-and-rain",
-  "খোলা_বাতাস_ও_বাতাস_Open_Air_and_Ventilation": "open-air-and-ventilation",
-  "বৃদ্ধির_কারণ_Aggravation": "aggravation",
-  "উপশমের_কারণ_Amelioration": "amelioration",
-  "পার্শ্ব_-_বাম_ডান_ও_দিক_Laterality_-_Left_Right_and_Sides": "laterality-left-right-and-sides",
-  "ভ্রম_অলীক_দর্শন_ও_পাগলামি_Delusion_Hallucination_and_Insanity": "delusion-hallucination-and-insanity",
-  "আচরণ_অভ্যাস_ও_স্বভাব_Behaviour_Habits_and_Character": "behaviour-habits-and-character",
-  "ঔষধ_সম্পর্ক_-_পরিপূরক_প্রতিষেধক_Relationship_-_Complementary_Antidote": "relationship-complementary-antidote",
-  "শক্তি_মাত্রা_ও_ঔষধ_পরিচিতি_Potency_Posology_and_Medicine_Info": "potency-posology-and-medicine-info",
-  "টিকা_চাপা_পড়া_ও_কুফল_Vaccination_Suppression_and_Ill-effects": "vaccination-suppression-and-ill-effects",
-  "মাথা_ঘোরা_ও_অজ্ঞান_Vertigo_Dizziness_and_Fainting": "vertigo-dizziness-and-fainting",
-  "খিঁচুনি_কাঁপুনি_ও_ফড়ফড়_Convulsion_Tremor_and_Twitching": "convulsion-tremor-and-twitching",
-  "স্রাব_নিঃসরণ_ও_শ্লেষ্মা_Discharge_Secretion_and_Mucus": "discharge-secretion-and-mucus",
-  "অনুভূতি_-_সাধারণ_Sensation_-_General_Feelings": "sensation-general-feelings",
-  "গ্রন্থি_লসিকা_ও_গলগণ্ড_Glands_Lymph_and_Goitre": "glands-lymph-and-goitre",
-  "ক্যান্সার_গ্যাংগ্রিন_ও_ক্ষয়_Cancer_Gangrene_and_Degeneration": "cancer-gangrene-and-degeneration",
-  "প্রল্যাপস_নিচে_চাপ_ও_শিথিলতা_Prolapse_Bearing_Down_and_Relaxation": "prolapse-bearing-down-and-relaxation",
-  "100_সাধারণ_ও_বিবিধ_General_and_Miscellaneous": "general-and-miscellaneous"
-};
+<script type="module">
+import { checkAuthState, logoutUser } from './js/auth.js';
+const LEGACY_MAP = {"মন_Mind": "mind", "ভয়_উদ্বেগ_ও_আতঙ্ক_Fear_Anxiety_and_Phobia": "fear-anxiety-and-phobia", "রাগ_মেজাজ_ও_বিরক্তি_Anger_Irritability_and_Temper": "anger-irritability-and-temper", "দুঃখ_বিষণ্ণতা_ও_শোক_Sadness_Depression_and_Grief": "sadness-depression-and-grief", "স্মৃতি_মনোযোগ_ও_চিন্তা_Memory_Concentration_and_Thinking": "memory-concentration-and-thinking", "ঘুম_অনিদ্রা_ও_স্বপ্ন_Sleep_Insomnia_and_Dreams": "sleep-insomnia-and-dreams", "মাথা_Head": "head", "মাথাব্যথা_Headache": "headache", "চোখ_ও_দৃষ্টি_Eye_and_Vision": "eye-and-vision", "চোখের_রোগ_-_অঞ্জনি_ছানি_Eye_Diseases_-_Styes_Cataract": "eye-diseases-styes-cataract", "কান_ও_শ্রবণ_Ear_and_Hearing": "ear-and-hearing", "নাক_ঘ্রাণ_ও_সাইনাস_Nose_Smell_and_Sinus": "nose-smell-and-sinus", "মুখমণ্ডল_Face": "face", "মুখ_ঠোঁট_ও_লালা_Mouth_Lips_and_Saliva": "mouth-lips-and-saliva", "দাঁত_মাড়ি_ও_দাঁত_ওঠা_Teeth_Gums_and_Dentition": "teeth-gums-and-dentition", "জিহ্বা_ও_স্বাদ_Tongue_and_Taste": "tongue-and-taste", "গলা_টনসিল_ও_গিলা_Throat_Tonsils_and_Swallowing": "throat-tonsils-and-swallowing", "কণ্ঠ_স্বরভঙ্গ_ও_কথা_Voice_Hoarseness_and_Speech": "voice-hoarseness-and-speech", "ঘাড়_কাঁধ_চুল_ও_মাথার_চামড়া_Neck_Shoulder_Hair_and_Scalp": "neck-shoulder-hair-and-scalp", "বুক_ফুসফুস_ও_শ্বাস_Chest_Lungs_and_Breathing": "chest-lungs-and-breathing", "কাশি_ও_কফ_Cough_and_Expectoration": "cough-and-expectoration", "শ্বাসকষ্ট_ও_হাঁপানি_Breathing_Difficulty_and_Asthma": "breathing-difficulty-and-asthma", "সর্দি_হাঁচি_ও_কফ_Cold_Coryza_and_Sneezing": "cold-coryza-and-sneezing", "হৃদপিণ্ড_ধড়ফড়_ও_নাড়ি_Heart_Palpitation_and_Pulse": "heart-palpitation-and-pulse", "রক্তচাপ_রক্ত_সঞ্চালন_ও_শিরা_Blood_Pressure_Circulation_and_Vessels": "blood-pressure-circulation-and-vessels", "পাকস্থলী_ক্ষুধা_ও_খিদে_Stomach_Hunger_and_Appetite": "stomach-hunger-and-appetite", "বমি_বমিভাব_ও_অম্ল_Nausea_Vomiting_and_Acidity": "nausea-vomiting-and-acidity", "হজম_বদহজম_ও_পুষ্টি_Digestion_Indigestion_and_Nutrition": "digestion-indigestion-and-nutrition", "পেট_পেটব্যথা_ও_গ্যাস_Abdomen_Colic_and_Gas": "abdomen-colic-and-gas", "লিভার_পিত্ত_ও_জন্ডিস_Liver_Gallbladder_and_Jaundice": "liver-gallbladder-and-jaundice", "স্তন_বোঁটা_ও_দুধ_খাওয়ানো_Breast_Nipple_and_Lactation": "breast-nipple-and-lactation", "পিঠ_মেরুদণ্ড_ও_বুক-হৃদরোগ_Back_Spine_and_Chest-Heart_Diseases": "back-spine-and-chest-heart-diseases", "মল_ডায়রিয়া_ও_কোষ্ঠকাঠিন্য_Stool_Diarrhoea_and_Constipation": "stool-diarrhoea-and-constipation", "মলদ্বার_পাইলস_ও_ফিস্টুলা_Rectum_Anus_and_Piles": "rectum-anus-and-piles", "প্রস্রাব_মূত্রথলি_ও_ঘন_ঘন_প্রস্রাব_Urine_Bladder_and_Frequency": "urine-bladder-and-frequency", "কিডনি_ও_মূত্র_রোগ_Kidney_and_Urinary_Diseases": "kidney-and-urinary-diseases", "ঋতুস্রাব_ও_মাসিকের_সমস্যা_Menses_and_Menstrual_Disorders": "menses-and-menstrual-disorders", "স্ত্রী_যৌনাঙ্গ_সাদাস্রাব_ও_জরায়ু_Female_Genital_Leucorrhoea_and_Uterus": "female-genital-leucorrhoea-and-uterus", "গর্ভাবস্থা_প্রসব_ও_প্রসব_পরবর্তী_Pregnancy_Labour_and_Postpartum": "pregnancy-labour-and-postpartum", "স্ত্রী_রোগ_-_প্রল্যাপস_ও_প্রদাহ_Female_Diseases_-_Prolapse_and_Inflammation": "female-diseases-prolapse-and-inflammation", "পুরুষ_যৌনাঙ্গ_অণ্ডকোষ_ও_প্রোস্টেট_Male_Genital_Testes_and_Prostate": "male-genital-testes-and-prostate", "যৌন_ইচ্ছা_সহবাস_ও_বীর্য_Sexual_Desire_Coition_and_Semen": "sexual-desire-coition-and-semen", "পুরুষ_রোগ_-_দুর্বলতা_ও_ধাতু_Male_Diseases_-_Weakness_and_Emission": "male-diseases-weakness-and-emission", "পা_হাঁটু_ও_পায়ের_পাতা_Legs_Knee_and_Feet": "legs-knee-and-feet", "হাত_আঙুল_ও_নখ_Hands_Fingers_and_Nails": "hands-fingers-and-nails", "হাড়_ও_হাড়ের_ক্ষয়_Bones_and_Caries": "bones-and-caries", "জয়েন্ট_বাত_ও_রিউম্যাটিজম_Joints_Arthritis_and_Rheumatism": "joints-arthritis-and-rheumatism", "পেশি_টান_ও_খিঁচুনি_Muscles_Cramps_and_Spasm": "muscles-cramps-and-spasm", "জ্বর_শীত_ও_তাপমাত্রা_Fever_Chill_and_Temperature": "fever-chill-and-temperature", "ঘাম_Sweat_and_Perspiration": "sweat-and-perspiration", "ব্যথার_ধরন_Pain_-_Types_and_Characters": "pain-types-and-characters", "ফোলা_শোথ_ও_জল_জমা_Swelling_Oedema_and_Dropsy": "swelling-oedema-and-dropsy", "রক্তপাত_Bleeding_and_Haemorrhage": "bleeding-and-haemorrhage", "রক্ত_রক্তাল্পতা_ও_জমাট_Blood_Anaemia_and_Clotting": "blood-anaemia-and-clotting", "চামড়া_-_সাধারণ_রং_ও_গঠন_Skin_-_General_Colour_and_Texture": "skin-general-colour-and-texture", "চামড়ার_উদ্ভেদ_একজিমা_ও_সোরিয়াসিস_Skin_Eruptions_Eczema_and_Psoriasis": "skin-eruptions-eczema-and-psoriasis", "চুলকানি_জ্বালা_ও_চামড়ার_অনুভূতি_Itching_Burning_and_Skin_Sensation": "itching-burning-and-skin-sensation", "চামড়া_ফাটা_ক্ষত_ও_আলসার_Skin_-_Cracks_Fissures_and_Ulcers": "skin-cracks-fissures-and-ulcers", "আঁচিল_টিউমার_সিস্ট_ও_গোটা_Warts_Tumours_Cysts_and_Growths": "warts-tumours-cysts-and-growths", "ক্ষত_কাটা_থেঁতো_ও_আঘাত_Wounds_Cuts_Bruises_and_Injury": "wounds-cuts-bruises-and-injury", "ঘা_ফোড়া_ও_পুঁজ_Ulcer_Abscess_and_Suppuration": "ulcer-abscess-and-suppuration", "পোড়া_কামড়_ও_হুল_Burns_Bites_and_Stings": "burns-bites-and-stings", "সংক্রমণ_সেপসিস_ও_পুঁজ_Infection_Sepsis_and_Pus": "infection-sepsis-and-pus", "অ্যালার্জি_ও_অতিসংবেদনশীলতা_Allergy_and_Hypersensitivity": "allergy-and-hypersensitivity", "কৃমি_ও_পরজীবী_Worms_and_Parasites": "worms-and-parasites", "দুর্বলতা_ক্লান্তি_ও_অবসাদ_Weakness_Fatigue_and_Exhaustion": "weakness-fatigue-and-exhaustion", "শিশু_বৃদ্ধি_ও_বিকাশ_Children_-_Growth_and_Development": "children-growth-and-development", "বার্ধক্য_ও_সাধারণ_দুর্বলতা_Old_Age_and_General_Debility": "old-age-and-general-debility", "গঠন_শীতকাতর_-_গরমকাতর_Constitution_Build_and_Thermal": "constitution-build-and-thermal", "মায়াজম_প্রবণতা_ও_বংশগত_Miasm_Diathesis_and_Heredity": "miasm-diathesis-and-heredity", "খাবার_পানীয়_ও_ইচ্ছা_Food_Drink_and_Cravings": "food-drink-and-cravings", "তামাক_মদ_ও_নেশা_Tobacco_Alcohol_and_Stimulants": "tobacco-alcohol-and-stimulants", "তৃষ্ণা_ও_পান_করা_Thirst_and_Drinking": "thirst-and-drinking", "গন্ধ_ও_দুর্গন্ধ_Smell_and_Odor": "smell-and-odor", "স্পর্শ_চাপ_ও_মালিশ_Touch_Pressure_and_Rubbing": "touch-pressure-and-rubbing", "নড়াচড়া_ভঙ্গি_ও_বিশ্রাম_Motion_Posture_and_Rest": "motion-posture-and-rest", "সময়_-_সকাল_সন্ধ্যা_ও_রাত_Time_-_Morning_Evening_and_Night": "time-morning-evening-and-night", "সময়_-_নির্দিষ্ট_ঘণ্টা_ও_দিন_Time_-_Specific_Hours_and_Days": "time-specific-hours-and-days", "ঋতু_চাঁদ_ও_পর্যায়ক্রম_Seasons_Moon_and_Periodicity": "seasons-moon-and-periodicity", "আবহাওয়া_জলবায়ু_ও_পরিবেশ_Weather_Climate_and_Environment": "weather-climate-and-environment", "ঠান্ডা_শীতলতা_ও_ঠান্ডা_বাতাস_Cold_Chilly_and_Cold_Air": "cold-chilly-and-cold-air", "গরম_উষ্ণতা_ও_রোদ_Heat_Warmth_and_Sun": "heat-warmth-and-sun", "ভেজা_আর্দ্রতা_ও_বৃষ্টি_Damp_Wet_and_Rain": "damp-wet-and-rain", "খোলা_বাতাস_ও_বাতাস_Open_Air_and_Ventilation": "open-air-and-ventilation", "বৃদ্ধির_কারণ_Aggravation": "aggravation", "উপশমের_কারণ_Amelioration": "amelioration", "পার্শ্ব_-_বাম_ডান_ও_দিক_Laterality_-_Left_Right_and_Sides": "laterality-left-right-and-sides", "ভ্রম_অলীক_দর্শন_ও_পাগলামি_Delusion_Hallucination_and_Insanity": "delusion-hallucination-and-insanity", "আচরণ_অভ্যাস_ও_স্বভাব_Behaviour_Habits_and_Character": "behaviour-habits-and-character", "ঔষধ_সম্পর্ক_-_পরিপূরক_প্রতিষেধক_Relationship_-_Complementary_Antidote": "relationship-complementary-antidote", "শক্তি_মাত্রা_ও_ঔষধ_পরিচিতি_Potency_Posology_and_Medicine_Info": "potency-posology-and-medicine-info", "টিকা_চাপা_পড়া_ও_কুফল_Vaccination_Suppression_and_Ill-effects": "vaccination-suppression-and-ill-effects", "মাথা_ঘোরা_ও_অজ্ঞান_Vertigo_Dizziness_and_Fainting": "vertigo-dizziness-and-fainting", "খিঁচুনি_কাঁপুনি_ও_ফড়ফড়_Convulsion_Tremor_and_Twitching": "convulsion-tremor-and-twitching", "স্রাব_নিঃসরণ_ও_শ্লেষ্মা_Discharge_Secretion_and_Mucus": "discharge-secretion-and-mucus", "অনুভূতি_-_সাধারণ_Sensation_-_General_Feelings": "sensation-general-feelings", "গ্রন্থি_লসিকা_ও_গলগণ্ড_Glands_Lymph_and_Goitre": "glands-lymph-and-goitre", "ক্যান্সার_গ্যাংগ্রিন_ও_ক্ষয়_Cancer_Gangrene_and_Degeneration": "cancer-gangrene-and-degeneration", "প্রল্যাপস_নিচে_চাপ_ও_শিথিলতা_Prolapse_Bearing_Down_and_Relaxation": "prolapse-bearing-down-and-relaxation", "100_সাধারণ_ও_বিবিধ_General_and_Miscellaneous": "general-and-miscellaneous"};
+window.__LEGACY = LEGACY_MAP;
+const TAG_MAP = {"mind": {"bn": "মন", "en": "Mind", "count": 305, "section": "উপরের অঙ্গ"}, "fear-anxiety-and-phobia": {"bn": "ভয়, উদ্বেগ ও আতঙ্ক", "en": "Fear, Anxiety & Phobia", "count": 76, "section": "উপরের অঙ্গ"}, "anger-irritability-and-temper": {"bn": "রাগ, মেজাজ ও বিরক্তি", "en": "Anger, Irritability & Temper", "count": 67, "section": "উপরের অঙ্গ"}, "sadness-depression-and-grief": {"bn": "দুঃখ, বিষণ্ণতা ও শোক", "en": "Sadness, Depression & Grief", "count": 57, "section": "উপরের অঙ্গ"}, "memory-concentration-and-thinking": {"bn": "স্মৃতি, মনোযোগ ও চিন্তা", "en": "Memory, Concentration & Thinking", "count": 36, "section": "উপরের অঙ্গ"}, "sleep-insomnia-and-dreams": {"bn": "ঘুম, অনিদ্রা ও স্বপ্ন", "en": "Sleep, Insomnia & Dreams", "count": 54, "section": "উপরের অঙ্গ"}, "head": {"bn": "মাথা", "en": "Head", "count": 54, "section": "উপরের অঙ্গ"}, "headache": {"bn": "মাথাব্যথা", "en": "Headache", "count": 43, "section": "উপরের অঙ্গ"}, "eye-and-vision": {"bn": "চোখ ও দৃষ্টি", "en": "Eye & Vision", "count": 73, "section": "উপরের অঙ্গ"}, "eye-diseases-styes-cataract": {"bn": "চোখের রোগ - অঞ্জনি, ছানি", "en": "Eye Diseases - Styes, Cataract", "count": 49, "section": "উপরের অঙ্গ"}, "ear-and-hearing": {"bn": "কান ও শ্রবণ", "en": "Ear & Hearing", "count": 20, "section": "উপরের অঙ্গ"}, "nose-smell-and-sinus": {"bn": "নাক, ঘ্রাণ ও সাইনাস", "en": "Nose, Smell & Sinus", "count": 39, "section": "উপরের অঙ্গ"}, "face": {"bn": "মুখমণ্ডল", "en": "Face", "count": 22, "section": "উপরের অঙ্গ"}, "mouth-lips-and-saliva": {"bn": "মুখ, ঠোঁট ও লালা", "en": "Mouth, Lips & Saliva", "count": 15, "section": "উপরের অঙ্গ"}, "teeth-gums-and-dentition": {"bn": "দাঁত, মাড়ি ও দাঁত ওঠা", "en": "Teeth, Gums & Dentition", "count": 34, "section": "উপরের অঙ্গ"}, "tongue-and-taste": {"bn": "জিহ্বা ও স্বাদ", "en": "Tongue & Taste", "count": 28, "section": "উপরের অঙ্গ"}, "throat-tonsils-and-swallowing": {"bn": "গলা, টনসিল ও গিলা", "en": "Throat, Tonsils & Swallowing", "count": 37, "section": "উপরের অঙ্গ"}, "voice-hoarseness-and-speech": {"bn": "কণ্ঠ, স্বরভঙ্গ ও কথা", "en": "Voice, Hoarseness & Speech", "count": 16, "section": "উপরের অঙ্গ"}, "neck-shoulder-hair-and-scalp": {"bn": "ঘাড়, কাঁধ, চুল ও মাথার চামড়া", "en": "Neck, Shoulder, Hair & Scalp", "count": 20, "section": "উপরের অঙ্গ"}, "chest-lungs-and-breathing": {"bn": "বুক, ফুসফুস ও শ্বাস", "en": "Chest, Lungs & Breathing", "count": 45, "section": "মাঝের অঙ্গ"}, "cough-and-expectoration": {"bn": "কাশি ও কফ", "en": "Cough & Expectoration", "count": 51, "section": "মাঝের অঙ্গ"}, "breathing-difficulty-and-asthma": {"bn": "শ্বাসকষ্ট ও হাঁপানি", "en": "Breathing Difficulty & Asthma", "count": 17, "section": "মাঝের অঙ্গ"}, "cold-coryza-and-sneezing": {"bn": "সর্দি, হাঁচি ও কফ", "en": "Cold, Coryza & Sneezing", "count": 107, "section": "মাঝের অঙ্গ"}, "heart-palpitation-and-pulse": {"bn": "হৃদপিণ্ড, ধড়ফড় ও নাড়ি", "en": "Heart, Palpitation & Pulse", "count": 37, "section": "মাঝের অঙ্গ"}, "blood-pressure-circulation-and-vessels": {"bn": "রক্তচাপ, রক্ত সঞ্চালন ও শিরা", "en": "Blood Pressure, Circulation & Vessels", "count": 35, "section": "মাঝের অঙ্গ"}, "stomach-hunger-and-appetite": {"bn": "পাকস্থলী, ক্ষুধা ও খিদে", "en": "Stomach, Hunger & Appetite", "count": 57, "section": "মাঝের অঙ্গ"}, "nausea-vomiting-and-acidity": {"bn": "বমি, বমিভাব ও অম্ল", "en": "Nausea, Vomiting & Acidity", "count": 53, "section": "মাঝের অঙ্গ"}, "digestion-indigestion-and-nutrition": {"bn": "হজম, বদহজম ও পুষ্টি", "en": "Digestion, Indigestion & Nutrition", "count": 28, "section": "মাঝের অঙ্গ"}, "abdomen-colic-and-gas": {"bn": "পেট, পেটব্যথা ও গ্যাস", "en": "Abdomen, Colic & Gas", "count": 53, "section": "মাঝের অঙ্গ"}, "liver-gallbladder-and-jaundice": {"bn": "লিভার, পিত্ত ও জন্ডিস", "en": "Liver, Gallbladder & Jaundice", "count": 17, "section": "মাঝের অঙ্গ"}, "breast-nipple-and-lactation": {"bn": "স্তন, বোঁটা ও দুধ খাওয়ানো", "en": "Breast, Nipple & Lactation", "count": 11, "section": "মাঝের অঙ্গ"}, "back-spine-and-chest-heart-diseases": {"bn": "পিঠ, মেরুদণ্ড ও বুক-হৃদরোগ", "en": "Back, Spine & Chest-Heart Diseases", "count": 50, "section": "মাঝের অঙ্গ"}, "stool-diarrhoea-and-constipation": {"bn": "মল, ডায়রিয়া ও কোষ্ঠকাঠিন্য", "en": "Stool, Diarrhoea & Constipation", "count": 93, "section": "নিচের অঙ্গ"}, "rectum-anus-and-piles": {"bn": "মলদ্বার, পাইলস ও ফিস্টুলা", "en": "Rectum, Anus & Piles", "count": 33, "section": "নিচের অঙ্গ"}, "urine-bladder-and-frequency": {"bn": "প্রস্রাব, মূত্রথলি ও ঘন ঘন প্রস্রাব", "en": "Urine, Bladder & Frequency", "count": 63, "section": "নিচের অঙ্গ"}, "kidney-and-urinary-diseases": {"bn": "কিডনি ও মূত্র রোগ", "en": "Kidney & Urinary Diseases", "count": 51, "section": "নিচের অঙ্গ"}, "menses-and-menstrual-disorders": {"bn": "ঋতুস্রাব ও মাসিকের সমস্যা", "en": "Menses & Menstrual Disorders", "count": 34, "section": "নিচের অঙ্গ"}, "female-genital-leucorrhoea-and-uterus": {"bn": "স্ত্রী যৌনাঙ্গ, সাদাস্রাব ও জরায়ু", "en": "Female Genital, Leucorrhoea & Uterus", "count": 75, "section": "নিচের অঙ্গ"}, "pregnancy-labour-and-postpartum": {"bn": "গর্ভাবস্থা, প্রসব ও প্রসব পরবর্তী", "en": "Pregnancy, Labour & Postpartum", "count": 21, "section": "নিচের অঙ্গ"}, "female-diseases-prolapse-and-inflammation": {"bn": "স্ত্রী রোগ - প্রল্যাপস ও প্রদাহ", "en": "Female Diseases - Prolapse & Inflammation", "count": 26, "section": "নিচের অঙ্গ"}, "male-genital-testes-and-prostate": {"bn": "পুরুষ যৌনাঙ্গ, অণ্ডকোষ ও প্রোস্টেট", "en": "Male Genital, Testes & Prostate", "count": 15, "section": "নিচের অঙ্গ"}, "sexual-desire-coition-and-semen": {"bn": "যৌন ইচ্ছা, সহবাস ও বীর্য", "en": "Sexual Desire, Coition & Semen", "count": 31, "section": "নিচের অঙ্গ"}, "male-diseases-weakness-and-emission": {"bn": "পুরুষ রোগ - দুর্বলতা ও ধাতু", "en": "Male Diseases - Weakness & Emission", "count": 45, "section": "নিচের অঙ্গ"}, "legs-knee-and-feet": {"bn": "পা, হাঁটু ও পায়ের পাতা", "en": "Legs, Knee & Feet", "count": 31, "section": "নিচের অঙ্গ"}, "hands-fingers-and-nails": {"bn": "হাত, আঙুল ও নখ", "en": "Hands, Fingers & Nails", "count": 24, "section": "নিচের অঙ্গ"}, "bones-and-caries": {"bn": "হাড় ও হাড়ের ক্ষয়", "en": "Bones & Caries", "count": 21, "section": "নিচের অঙ্গ"}, "joints-arthritis-and-rheumatism": {"bn": "জয়েন্ট, বাত ও রিউম্যাটিজম", "en": "Joints, Arthritis & Rheumatism", "count": 34, "section": "নিচের অঙ্গ"}, "muscles-cramps-and-spasm": {"bn": "পেশি, টান ও খিঁচুনি", "en": "Muscles, Cramps & Spasm", "count": 27, "section": "নিচের অঙ্গ"}, "fever-chill-and-temperature": {"bn": "জ্বর, শীত ও তাপমাত্রা", "en": "Fever, Chill & Temperature", "count": 32, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "sweat-and-perspiration": {"bn": "ঘাম", "en": "Sweat & Perspiration", "count": 29, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "pain-types-and-characters": {"bn": "ব্যথার ধরন", "en": "Pain - Types & Characters", "count": 115, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "swelling-oedema-and-dropsy": {"bn": "ফোলা, শোথ ও জল জমা", "en": "Swelling, Oedema & Dropsy", "count": 50, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "bleeding-and-haemorrhage": {"bn": "রক্তপাত", "en": "Bleeding & Haemorrhage", "count": 32, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "blood-anaemia-and-clotting": {"bn": "রক্ত, রক্তাল্পতা ও জমাট", "en": "Blood, Anaemia & Clotting", "count": 17, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "skin-general-colour-and-texture": {"bn": "চামড়া - সাধারণ, রং ও গঠন", "en": "Skin - General, Colour & Texture", "count": 74, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "skin-eruptions-eczema-and-psoriasis": {"bn": "চামড়ার উদ্ভেদ, একজিমা ও সোরিয়াসিস", "en": "Skin Eruptions, Eczema & Psoriasis", "count": 40, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "itching-burning-and-skin-sensation": {"bn": "চুলকানি, জ্বালা ও চামড়ার অনুভূতি", "en": "Itching, Burning & Skin Sensation", "count": 69, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "skin-cracks-fissures-and-ulcers": {"bn": "চামড়া ফাটা, ক্ষত ও আলসার", "en": "Skin - Cracks, Fissures & Ulcers", "count": 76, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "warts-tumours-cysts-and-growths": {"bn": "আঁচিল, টিউমার, সিস্ট ও গোটা", "en": "Warts, Tumours, Cysts & Growths", "count": 21, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "wounds-cuts-bruises-and-injury": {"bn": "ক্ষত, কাটা, থেঁতো ও আঘাত", "en": "Wounds, Cuts, Bruises & Injury", "count": 43, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "ulcer-abscess-and-suppuration": {"bn": "ঘা, ফোড়া ও পুঁজ", "en": "Ulcer, Abscess & Suppuration", "count": 39, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "burns-bites-and-stings": {"bn": "পোড়া, কামড় ও হুল", "en": "Burns, Bites & Stings", "count": 15, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "infection-sepsis-and-pus": {"bn": "সংক্রমণ, সেপসিস ও পুঁজ", "en": "Infection, Sepsis & Pus", "count": 24, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "allergy-and-hypersensitivity": {"bn": "অ্যালার্জি ও অতিসংবেদনশীলতা", "en": "Allergy & Hypersensitivity", "count": 6, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "worms-and-parasites": {"bn": "কৃমি ও পরজীবী", "en": "Worms & Parasites", "count": 18, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "weakness-fatigue-and-exhaustion": {"bn": "দুর্বলতা, ক্লান্তি ও অবসাদ", "en": "Weakness, Fatigue & Exhaustion", "count": 63, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "children-growth-and-development": {"bn": "শিশু, বৃদ্ধি ও বিকাশ", "en": "Children - Growth & Development", "count": 55, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "old-age-and-general-debility": {"bn": "বার্ধক্য ও সাধারণ দুর্বলতা", "en": "Old Age & General Debility", "count": 7, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "constitution-build-and-thermal": {"bn": "গঠন, শীতকাতর / গরমকাতর", "en": "Constitution, Build & Thermal", "count": 167, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "miasm-diathesis-and-heredity": {"bn": "মায়াজম, প্রবণতা ও বংশগত", "en": "Miasm, Diathesis & Heredity", "count": 43, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "food-drink-and-cravings": {"bn": "খাবার, পানীয় ও ইচ্ছা", "en": "Food, Drink & Cravings", "count": 123, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "tobacco-alcohol-and-stimulants": {"bn": "তামাক, মদ ও নেশা", "en": "Tobacco, Alcohol & Stimulants", "count": 17, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "thirst-and-drinking": {"bn": "তৃষ্ণা ও পান করা", "en": "Thirst & Drinking", "count": 34, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "smell-and-odor": {"bn": "গন্ধ ও দুর্গন্ধ", "en": "Smell & Odor", "count": 48, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "touch-pressure-and-rubbing": {"bn": "স্পর্শ, চাপ ও মালিশ", "en": "Touch, Pressure & Rubbing", "count": 67, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "motion-posture-and-rest": {"bn": "নড়াচড়া, ভঙ্গি ও বিশ্রাম", "en": "Motion, Posture & Rest", "count": 131, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "time-morning-evening-and-night": {"bn": "সময় - সকাল, সন্ধ্যা ও রাত", "en": "Time - Morning, Evening & Night", "count": 94, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "time-specific-hours-and-days": {"bn": "সময় - নির্দিষ্ট ঘণ্টা ও দিন", "en": "Time - Specific Hours & Days", "count": 11, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "seasons-moon-and-periodicity": {"bn": "ঋতু, চাঁদ ও পর্যায়ক্রম", "en": "Seasons, Moon & Periodicity", "count": 36, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "weather-climate-and-environment": {"bn": "আবহাওয়া, জলবায়ু ও পরিবেশ", "en": "Weather, Climate & Environment", "count": 53, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "cold-chilly-and-cold-air": {"bn": "ঠান্ডা, শীতলতা ও ঠান্ডা বাতাস", "en": "Cold, Chilly & Cold Air", "count": 123, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "heat-warmth-and-sun": {"bn": "গরম, উষ্ণতা ও রোদ", "en": "Heat, Warmth & Sun", "count": 86, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "damp-wet-and-rain": {"bn": "ভেজা, আর্দ্রতা ও বৃষ্টি", "en": "Damp, Wet & Rain", "count": 33, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "open-air-and-ventilation": {"bn": "খোলা বাতাস ও বাতাস", "en": "Open Air & Ventilation", "count": 48, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "aggravation": {"bn": "বৃদ্ধির কারণ", "en": "Aggravation", "count": 117, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "amelioration": {"bn": "উপশমের কারণ", "en": "Amelioration", "count": 97, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "laterality-left-right-and-sides": {"bn": "পার্শ্ব - বাম, ডান ও দিক", "en": "Laterality - Left, Right & Sides", "count": 87, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "delusion-hallucination-and-insanity": {"bn": "ভ্রম, অলীক দর্শন ও পাগলামি", "en": "Delusion, Hallucination & Insanity", "count": 53, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "behaviour-habits-and-character": {"bn": "আচরণ, অভ্যাস ও স্বভাব", "en": "Behaviour, Habits & Character", "count": 87, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "relationship-complementary-antidote": {"bn": "ঔষধ সম্পর্ক - পরিপূরক, প্রতিষেধক", "en": "Relationship - Complementary, Antidote", "count": 63, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "potency-posology-and-medicine-info": {"bn": "শক্তি, মাত্রা ও ঔষধ পরিচিতি", "en": "Potency, Posology & Medicine Info", "count": 46, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "vaccination-suppression-and-ill-effects": {"bn": "টিকা, চাপা পড়া ও কুফল", "en": "Vaccination, Suppression & Ill-effects", "count": 39, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "vertigo-dizziness-and-fainting": {"bn": "মাথা ঘোরা ও অজ্ঞান", "en": "Vertigo, Dizziness & Fainting", "count": 39, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "convulsion-tremor-and-twitching": {"bn": "খিঁচুনি, কাঁপুনি ও ফড়ফড়", "en": "Convulsion, Tremor & Twitching", "count": 34, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "discharge-secretion-and-mucus": {"bn": "স্রাব, নিঃসরণ ও শ্লেষ্মা", "en": "Discharge, Secretion & Mucus", "count": 65, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "sensation-general-feelings": {"bn": "অনুভূতি - সাধারণ", "en": "Sensation - General Feelings", "count": 45, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "glands-lymph-and-goitre": {"bn": "গ্রন্থি, লসিকা ও গলগণ্ড", "en": "Glands, Lymph & Goitre", "count": 16, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "cancer-gangrene-and-degeneration": {"bn": "ক্যান্সার, গ্যাংগ্রিন ও ক্ষয়", "en": "Cancer, Gangrene & Degeneration", "count": 11, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "prolapse-bearing-down-and-relaxation": {"bn": "প্রল্যাপস, নিচে চাপ ও শিথিলতা", "en": "Prolapse, Bearing Down & Relaxation", "count": 13, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "general-and-miscellaneous": {"bn": "সাধারণ ও বিবিধ", "en": "General & Miscellaneous", "count": 772, "section": "সার্বদেহিক রোগ ও সাধারণ"}};
 const MED_LIST = [{"id": "calcarea-fluor", "en": "Calcarea Fluorica"}, {"id": "calcarea-carb", "en": "Calcarea Carbonica"}, {"id": "calcarea-phos", "en": "Calcarea Phosphorica"}, {"id": "aconite", "en": "Aconitum Napellus"}, {"id": "belladonna", "en": "Belladonna"}, {"id": "sulphur", "en": "Sulphur"}, {"id": "arsenicum-album", "en": "Arsenicum Album"}, {"id": "nux-vomica", "en": "Nux Vomica"}, {"id": "pulsatilla", "en": "Pulsatilla"}, {"id": "lycopodium", "en": "Lycopodium"}, {"id": "rhus-tox", "en": "Rhus Toxicodendron"}, {"id": "bryonia", "en": "Bryonia Alba"}, {"id": "arnica", "en": "Arnica Montana"}, {"id": "chamomilla", "en": "Chamomilla"}, {"id": "china", "en": "China Officinalis"}, {"id": "coffea", "en": "Coffea Cruda"}, {"id": "hepar-sulph", "en": "Hepar Sulphuris"}, {"id": "merc-sol", "en": "Mercurius Solubilis"}, {"id": "phosphorus", "en": "Phosphorus"}, {"id": "silicea", "en": "Silicea"}, {"id": "sepia", "en": "Sepia"}, {"id": "natrum-mur", "en": "Natrum Muriaticum"}, {"id": "kali-bich", "en": "Kali Bichromicum"}, {"id": "apis", "en": "Apis Mellifica"}, {"id": "cantharis", "en": "Cantharis"}, {"id": "causticum", "en": "Causticum"}, {"id": "graphites", "en": "Graphites"}, {"id": "thuja", "en": "Thuja Occidentalis"}, {"id": "veratrum-album", "en": "Veratrum Album"}];
 const tips = [
 "একই ঔষধের লক্ষণ বারবার ভুল হলে, সেই ঔষধের মেটেরিয়া মেডিকা পেজটা একবার পড়ে তারপর আবার কুইজ দিন।",
@@ -946,13 +220,6 @@ const tips = [
 "মন, ভয়, রাগ — এই ৩টা মেন্টাল ট্যাগ থেকে সবচেয়ে বেশি প্রশ্ন আসে, আগে এগুলো শেষ করুন।"
 ];
 document.getElementById('tipText').innerText = tips[Math.floor(Math.random()*tips.length)];
-// Theme
-const themeBtn = document.getElementById('themeBtn');
-if(localStorage.getItem('quiz-theme')==='dark'){document.body.classList.add('dark');themeBtn.innerText='☀️';}
-themeBtn.onclick = ()=>{const d=document.body.classList.toggle('dark');themeBtn.innerText=d?'☀️':'🌙';localStorage.setItem('quiz-theme',d?'dark':'light');};
-// Login banner - only if not logged in (localStorage flag), dismissible
-try{ if(!localStorage.getItem('nirvik-user')) document.getElementById('loginBanner').style.display='block'; }catch(e){ document.getElementById('loginBanner').style.display='block'; }
-document.getElementById('closeLogin').onclick = ()=>{ document.getElementById('loginBanner').style.display='none'; };
 // Search
 const searchInput=document.getElementById('searchInput');
 const searchResults=document.getElementById('searchResults');
@@ -970,25 +237,38 @@ searchInput.addEventListener('input',()=>doSearch(searchInput.value));
 searchInput.addEventListener('focus',()=>doSearch(searchInput.value));
 document.addEventListener('click',(e)=>{ if(!e.target.closest('.hero-search')) searchResults.style.display='none'; });
 document.getElementById('searchBtn').onclick=()=>doSearch(searchInput.value);
-// Random + Continue + Daily
-document.getElementById('randomBtn').onclick=()=>{
-const keys=Object.keys(TAG_MAP);
-if(Math.random()<0.6){const k=keys[Math.floor(Math.random()*keys.length)];location.href='play.html?type=sym&id='+encodeURIComponent(k);}
-else{const m=MED_LIST[Math.floor(Math.random()*MED_LIST.length)];location.href='play.html?type=med&id='+encodeURIComponent(m.id);}
-};
+// Continue - now in right column
 document.getElementById('continueBtn').onclick=()=>{
 const last=localStorage.getItem('nirvik-last-quiz');
-if(last){location.href=last;} else { document.getElementById('randomBtn').click(); }
+if(last){location.href=last;} else { alert('এখনো কোনো কুইজ শুরু করেননি। নিচের যেকোনো একটা দিয়ে শুরু করুন।'); }
 };
-document.getElementById('dailyBtn').onclick=()=>{
-const keys=Object.keys(TAG_MAP);
-const day=new Date().getDate();
-const k=keys[day % keys.length];
-location.href='play.html?type=sym&id='+encodeURIComponent(k);
-};
-// Save last quiz when clicking any play link (for continue)
 document.addEventListener('click',(e)=>{const a=e.target.closest('a[href*="play.html"]'); if(a) localStorage.setItem('nirvik-last-quiz', a.getAttribute('href'));});
-// Dashboard data - keep old Firebase logic, with graceful fallback
+document.getElementById('closeLogin').onclick = ()=>{ document.getElementById('loginBanner').style.display='none'; };
+// Auth + Dashboard
+let currentUser = null;
+function renderUser(user){
+const userArea=document.getElementById('userArea');
+const banner=document.getElementById('loginBanner');
+if(user){
+currentUser=user;
+const name=user.displayName || user.name || (user.email?user.email.split('@')[0]:'ইউজার');
+const email=user.email||'';
+const photo=user.photoURL || user.photo || '';
+const initial=name.charAt(0).toUpperCase();
+userArea.innerHTML='<div class="user-chip">'+(photo?'<img src="'+photo+'" alt="">':'<span class="user-avatar" style="width:24px;height:24px;font-size:.8rem">'+initial+'</span>')+'<span>'+name+'</span><button class="btn-logout" id="logoutBtn">লগআউট</button></div>';
+document.getElementById('rightAvatar').innerHTML=photo?'<img src="'+photo+'" style="width:100%;height:100%;border-radius:50%;object-fit:cover">':initial;
+document.getElementById('rightUserName').innerText=name;
+document.getElementById('rightUserEmail').innerText=email || 'লগইন অবস্থায় আছেন';
+banner.style.display='none';
+const lb=document.getElementById('logoutBtn');
+if(lb) lb.onclick=async()=>{ try{ if(logoutUser) await logoutUser(); }catch(e){} localStorage.removeItem('nirvik-user'); location.reload(); };
+}else{
+userArea.innerHTML='<a href="https://nirvik.mooo.com/" class="btn-login">লগইন</a>';
+document.getElementById('rightUserName').innerText='গেস্ট ইউজার';
+document.getElementById('rightUserEmail').innerText='লগইন করলে আপনার রেকর্ড এখানে দেখাবে';
+banner.style.display='flex';
+}
+}
 async function loadDashboard(){
 let totalSymptoms=Object.keys(TAG_MAP).length;
 let totalMedicines=MED_LIST.length;
@@ -1004,11 +284,12 @@ const mod=await import('./js/progress.js');
 if(mod.getUserProgress){ progress=await mod.getUserProgress()||{}; }
 }catch(e){ try{const raw=localStorage.getItem('nirvik-progress'); if(raw) progress=JSON.parse(raw);}catch(_){} }
 const keys=Object.keys(progress);
-let passedSym=0, passedMed=0, history=[], best=0, sumPct=0, cntPct=0;
+let passedSym=0, passedMed=0, symAttempted=0, history=[], best=0, sumPct=0, cntPct=0;
 keys.forEach(key=>{
 const p=progress[key]; if(!p) return;
 const parts=key.split(':'); const type=parts[0]; const id=parts[1]||key;
 const pct=p.bestPct??p.lastPct??0; const total=p.total||0; const correct=p.lastCorrect??p.bestCorrect??0;
+if(type==='sym') symAttempted++;
 if(pct>=40){ if(type==='sym') passedSym++; if(type==='med') passedMed++; }
 if(pct>best) best=pct; sumPct+=pct; cntPct++;
 history.push({type,id,score:correct,total,pct,date:p.lastPlayed});
@@ -1021,8 +302,6 @@ document.getElementById('ring').style.background='conic-gradient(var(--primary) 
 document.getElementById('progress-bar').style.width=percent+'%';
 document.getElementById('progress-text').innerText=totalPassed+' / '+totalQuizzes+' টি কুইজ সম্পন্ন';
 document.getElementById('statTotal').innerText=totalQuizzes;
-document.getElementById('statDone').innerText=totalPassed;
-document.getElementById('statAvg').innerText=cntPct?Math.round(sumPct/cntPct)+'%':'—';
 document.getElementById('heroDone').innerText=totalPassed;
 document.getElementById('heroBest').innerText=best?best+'%':'—';
 document.getElementById('symDonePill').innerText=passedSym+'টি সম্পন্ন';
@@ -1030,7 +309,6 @@ document.getElementById('medDonePill').innerText=passedMed+'টি সম্প�
 document.getElementById('medTotalPill').innerText=totalMedicines+'টি ঔষধ';
 document.getElementById('symBar').style.width=(totalSymptoms?passedSym/totalSymptoms*100:0)+'%';
 document.getElementById('medBar').style.width=(totalMedicines?passedMed/totalMedicines*100:0)+'%';
-// streak - count consecutive days from history dates
 let streak=0;
 try{
 const dates=[...new Set(history.map(h=>{try{const d=new Date(h.date?.toDate?.()||h.date); return d.toDateString();}catch(e){return null;}}).filter(Boolean))].sort().reverse();
@@ -1038,32 +316,33 @@ let cur=new Date(); cur.setHours(0,0,0,0);
 for(const ds of dates){const d=new Date(ds); d.setHours(0,0,0,0); const diff=Math.round((cur-d)/86400000); if(diff===0||diff===1){streak++; cur=d; cur.setDate(cur.getDate()-1);} else break;}
 }catch(e){}
 document.getElementById('streakVal').innerText=streak+' দিন';
-// badges
 if(totalPassed>=1) document.getElementById('badge1').classList.remove('locked');
 if(totalPassed>=10) document.getElementById('badge10').classList.remove('locked');
 if(totalPassed>=50) document.getElementById('badge50').classList.remove('locked');
 if(best>=90) document.getElementById('badgeStar').classList.remove('locked');
-// cert - original rule: all symptoms OR 50 symptoms? Keep original + show progress to 50
+// Certificate - NEW RULE: at least 50 sym participated AND finished all
 const certBtn=document.getElementById('cert-btn');
 const certBar=document.getElementById('certBar');
 const certPct=Math.min(100, Math.round(passedSym/50*100));
 certBar.style.width=certPct+'%';
-document.getElementById('certDesc').innerText='শর্ত: ৫০টি রোগলক্ষণ কুইজে ন্যূনতম ৪০% স্কোর করতে হবে। আপনার: '+passedSym+'/৫০';
-if(passedSym>=50){
-certBtn.classList.remove('disabled'); certBtn.innerHTML='<i class="fa-solid fa-award"></i> সার্টিফিকেট';
-document.getElementById('statCert').innerText='আনলকড ✅';
-document.getElementById('statCertSub').innerText='সার্টিফিকেট নিতে পারবেন';
+document.getElementById('certDesc').innerText='কমপক্ষে ৫০টি রোগলক্ষণ ভিত্তিক কুইজে অংশ নিয়ে সবগুলি কুইজ শেষ করতে হবে। আপনার: '+passedSym+'/৫০';
+if(passedSym>=50 && symAttempted>=50){
+certBtn.classList.remove('disabled'); certBtn.innerHTML='🏆 সার্টিফিকেট';
 }else{
-document.getElementById('statCertSub').innerText='আরও '+(50-passedSym)+'টি দরকার';
+certBtn.classList.add('disabled'); certBtn.innerHTML='🔒 লকড';
 }
-// recent
 const rc=document.getElementById('recent-history');
-if(!history.length){rc.innerHTML='<li style="color:var(--muted);text-align:center;padding:10px;font-size:.85rem">এখনো কোনো কুইজ খেলেননি। র‍্যান্ডম কুইজ দিয়ে শুরু করুন 👆</li>';}
-else{
+if(!currentUser){
+rc.innerHTML='<li style="color:var(--muted);text-align:center;padding:10px;font-size:.84rem">গেস্ট হিসেবে দেখছেন।<br>লগইন করলে আপনার রেকর্ড এখানে দেখাবে।<br><a href="https://nirvik.mooo.com/" style="color:var(--primary);font-weight:700">লগইন করুন →</a></li>';
+document.getElementById('continueBtn').disabled=true;
+document.getElementById('continueBtn').innerText='▶️ যেখানে থেমেছিলেন (লগইন করুন)';
+}else if(!history.length){
+rc.innerHTML='<li style="color:var(--muted);text-align:center;padding:10px;font-size:.84rem">এখনো কোনো কুইজ খেলেননি।<br>নিচের যেকোনো একটা দিয়ে শুরু করুন 👇</li>';
+}else{
 history.sort((a,b)=>{try{return new Date(b.date?.toDate?.()||b.date)-new Date(a.date?.toDate?.()||a.date);}catch(e){return 0;}});
 let html='';
 history.slice(0,6).forEach(item=>{
-const name = item.type==='sym' ? ((TAG_MAP[item.id] || TAG_MAP[LEGACY_MAP[item.id]] || {}).bn||item.id) : (MED_LIST.find(m=>m.id===item.id)?.en||item.id);
+const name = item.type==='sym' ? ((TAG_MAP[item.id] || TAG_MAP[window.__LEGACY?.[item.id]] || {}).bn||item.id) : (MED_LIST.find(m=>m.id===item.id)?.en||item.id);
 const typeName=item.type==='sym'?'রোগলক্ষণ':'ঔষধ';
 const cls=item.pct>=40?'score-pass':'score-fail';
 const dateStr=(()=>{try{const d=new Date(item.date?.toDate?.()||item.date); return isNaN(d)?'':d.toLocaleDateString('bn-BD',{day:'numeric',month:'short'});}catch(e){return '';}})();
@@ -1072,7 +351,22 @@ html+='<li class="recent-item"><div><div class="recent-name" title="'+item.id+'"
 rc.innerHTML=html;
 }
 }
+// Auth: main site login (same Firebase) -> show name, hide banner. Fallback to localStorage.
+try{
+if(typeof checkAuthState==='function'){
+checkAuthState(async (user)=>{
+// checkAuthState may pass null for guest, or user object
+let u=user;
+if(!u){ try{const raw=localStorage.getItem('nirvik-user'); if(raw) u=JSON.parse(raw);}catch(e){} }
+renderUser(u);
+await loadDashboard();
+});
+}else{ throw new Error('no checkAuthState'); }
+}catch(e){
+let u=null; try{const raw=localStorage.getItem('nirvik-user'); if(raw) u=JSON.parse(raw);}catch(_){}
+renderUser(u);
 loadDashboard();
+}
 </script>
 </body>
 </html>
