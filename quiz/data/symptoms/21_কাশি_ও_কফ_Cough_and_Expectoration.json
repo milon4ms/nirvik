@@ -1,0 +1,1478 @@
+[
+  {
+    "id": "argm-sym-03",
+    "stem": "কাশি শুকনো এবং কর্কশ, যা কথা বললে বেড়ে যায় — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "cough",
+      "dry-cough"
+    ],
+    "explanation": "Argentum Metallicum-এ কাশি শুকনো, কর্কশ এবং কথা বলার চেষ্টা করলে বেড়ে যায়।"
+  },
+  {
+    "id": "arsenicum-iod-sym-10",
+    "stem": "সর্দির সাথে বুকের ভেতর ঘড়ঘড়ানি শব্দ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "coryza",
+      "chest",
+      "rattling"
+    ],
+    "explanation": "Arsenicum Iodatum-এ সর্দির সাথে হাঁচি এবং বুকের ভেতর ঘড়ঘড়ানি শব্দ হয়।"
+  },
+  {
+    "id": "bac-sym-03",
+    "stem": "ঘন ঘন ঠান্ডা লাগা, সর্দি কাশি লেগে থাকা ও সারতে দীর্ঘ সময় লাগা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "cold",
+      "catarrh",
+      "cough"
+    ],
+    "explanation": "Bacillinum রোগী খুব সহজেই ঠান্ডায় আক্রান্ত হয়, সর্দি কাশি লেগেই থাকে এবং সারতে দীর্ঘ সময় লাগে।"
+  },
+  {
+    "id": "bac-sym-04",
+    "stem": "রাতে শোয়ার পর প্রচণ্ড কাশি শুরু হওয়া ও সকালে ঘুম থেকে উঠে প্রচুর কফ ওঠা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Aconitum Napellus",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "cough",
+      "respiratory"
+    ],
+    "explanation": "Bacillinum এ রাতে শোয়ার পর প্রচণ্ড কাশি শুরু হয় এবং সকালে ঘুম থেকে ওঠার পর প্রচুর কফ নির্গত হয়।"
+  },
+  {
+    "id": "bry-sym-09",
+    "stem": "কাশির সময় বুকে সুঁচ ফোটানো ব্যথা হওয়ায় হাত দিয়ে বুক চেপে ধরা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Dros-cough",
+        "mid": "dros-cough"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "cough",
+      "chest-pain",
+      "holding-chest"
+    ],
+    "explanation": "Bryonia-এ কাশির সময় বুকে সুঁচ ফোটানো ব্যথা হয় বলে রোগী হাত দিয়ে চেপে বুক শক্ত করে ধরে থাকে।"
+  },
+  {
+    "id": "calcphos-sym-15",
+    "stem": "একটু ঠান্ডা লাগলেই টনসিল ফুলে যাওয়া ও দীর্ঘস্থায়ী কাশির সাথে বুকে ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "throat",
+      "tonsils",
+      "cough"
+    ],
+    "explanation": "Calcarea Phosphorica এ একটু ঠান্ডা লাগলেই টনসিল ফুলে যায় এবং দীর্ঘস্থায়ী কাশির সাথে বুকের ভেতর ব্যথা হয়।"
+  },
+  {
+    "id": "caps-sym-15",
+    "stem": "কাশির সময় মনে হওয়া বুক ফেটে যাবে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "respiratory",
+      "cough",
+      "chest"
+    ],
+    "explanation": "Capsicum Annuum এ কাশির সময় মনে হয় যেন বুক ফেটে যাবে।"
+  },
+  {
+    "id": "caps-sym-16",
+    "stem": "কাশির প্রতিটি ঝাকুনিতে দূরের অঙ্গে, যেমন কানে বা কোমরে ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "respiratory",
+      "cough",
+      "distant-pain"
+    ],
+    "explanation": "Capsicum Annuum এ কাশির প্রতিটি ঝাকুনিতে শরীরের কোনো দূরে অঙ্গে, যেমন কানে বা কোমরে ব্যথা অনুভূত হয়।"
+  },
+  {
+    "id": "calc-sulph-sym-07",
+    "stem": "সর্দি বা কাশির শেষে ঘন হলুদ কফ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Kali Sulph",
+        "mid": "kali-sulphuricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "cough",
+      "sputum",
+      "yellow"
+    ],
+    "explanation": "Calcarea Sulph সর্দি বা কাশির শেষ অবস্থায় উপযোগী, যখন কফ ঘন ও হলুদ হয়ে আসে।"
+  },
+  {
+    "id": "causticum-sym-14",
+    "stem": "কাশি বা হাঁচি দিলে অজান্তে প্রস্রাব বেরিয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "urination",
+      "involuntary",
+      "cough",
+      "sneeze"
+    ],
+    "explanation": "Causticum-এ রোগী যখনই কাশে বা হাঁচি দেয়, অজান্তেই কয়েক ফোঁটা প্রস্রাব বেরিয়ে যায়।"
+  },
+  {
+    "id": "causticum-sym-16",
+    "stem": "অল্প কফ কিন্তু তুলতে কষ্ট, ঠান্ডা জল পানে কাশিতে আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex-crispus"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum-metallicum"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "cough",
+      "sputum"
+    ],
+    "explanation": "Causticum-এ কফ গলার ভেতর ঘড়ঘড় করে কিন্তু রোগী তা তুলে ফেলতে পারে না; সামান্য ঠান্ডা জল পান করলে কাশিতে আরাম বোধ হয়।"
+  },
+  {
+    "id": "cupr-sym-05",
+    "stem": "কাশির সময় শ্বাস বন্ধ হয়ে নীল হয়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Antimonium Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "whooping-cough",
+      "cyanosis"
+    ],
+    "explanation": "Whooping cough with cyanosis Cuprum Metallicum নির্দেশ করে।"
+  },
+  {
+    "id": "cupr-sym-13",
+    "stem": "কাশির পর বমি হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Antimonium Tart",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "cough",
+      "vomiting"
+    ],
+    "explanation": "Whooping cough ending in vomiting Cuprum Metallicum-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "croton-sym-06",
+    "stem": "পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "alternating",
+      "diarrhoea",
+      "cough",
+      "skin"
+    ],
+    "explanation": "Croton Tiglium-এ পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ দেখা যায়।"
+  },
+  {
+    "id": "croton-sym-07",
+    "stem": "শুইলে কাশি বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex-crispus"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "cough",
+      "lying-down"
+    ],
+    "explanation": "Croton Tiglium-এ কাশি শুইলেই বৃদ্ধি পায়।"
+  },
+  {
+    "id": "chel-sym-08",
+    "stem": "কাশির সময় কফ তোলা খুব কঠিন হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "cough",
+      "difficult-expectoration"
+    ],
+    "explanation": "Chelidonium Majus-এ কাশির সময় কফ তোলা খুব কঠিন হয়।"
+  },
+  {
+    "id": "cina-sym-10",
+    "stem": "রাতে কৃমিজনিত কাশি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Natrum Sulph",
+        "mid": "natrum-sulph"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Antimonium Tart",
+        "mid": "antimonium-tart"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "cough",
+      "worms"
+    ],
+    "explanation": "Reflex worm cough Cina নির্দেশ করে।"
+  },
+  {
+    "id": "conium-sym-15",
+    "stem": "রাতে শোয়ার পর শুষ্ক কাশি ও দমবন্ধ ভাব, বৃদ্ধদের বেশি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Hyoscyamus Niger",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Rumex Crispus",
+        "mid": "rumex-crispus"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "cough",
+      "dry",
+      "night",
+      "lying",
+      "old-age"
+    ],
+    "explanation": "Conium-এ রাতে শোয়ার পর শুষ্ক কাশি, বৃদ্ধদের বেশি।"
+  },
+  {
+    "id": "hyper-sym-09",
+    "stem": "কাশি রাত ৬-১০টায় বৃদ্ধি, গয়ারে উপশম, কুয়াশা ঝড়ের পূর্বে হাঁপানি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Drosera Rotundifolia",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Rumex Crispus",
+        "mid": "rumex-crispus"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "cough",
+      "evening",
+      "fog",
+      "storm",
+      "asthma"
+    ],
+    "explanation": "Hypericum-এ সন্ধ্যা ৬-১০টায় কাশি বাড়ে ও কুয়াশায় হাঁপানি বাড়ে।"
+  },
+  {
+    "id": "just-sym-01",
+    "stem": "একটানা ভয়ানক ও শুষ্ক কাশি এবং কাশির চোটে বুক ফেটে যাওয়ার উপক্রম হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "cough",
+      "dry-cough",
+      "respiratory"
+    ],
+    "explanation": "Justicia Adhatoda-এর প্রধান নির্দেশক হলো একটানা তীব্র শুষ্ক কাশি যাতে বুক ফেটে যাওয়ার মতো ব্যথা হয়।"
+  },
+  {
+    "id": "just-sym-03",
+    "stem": "বুকে প্রচুর শ্লেষ্মা জমা থাকার অনুভূতি কিন্তু কাশতে কাশতে সামান্য ওঠা বা না ওঠা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Antimony Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "chest",
+      "mucus",
+      "expectoration"
+    ],
+    "explanation": "Justicia Adhatoda-এ বুকে কফ জমে ঘড়ঘড় করলেও তা সহজে উঠতে চায় না।"
+  },
+  {
+    "id": "just-sym-04",
+    "stem": "কাশির সময় মুখ দিয়ে উজ্জ্বল লাল বর্ণের রক্ত বের হওয়া (Hemoptysis) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Millefolium",
+        "mid": "millefolium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Acalypha Indica",
+        "mid": "acalypha-indica"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "hemoptysis",
+      "cough",
+      "bleeding"
+    ],
+    "explanation": "Justicia Adhatoda কাশির সাথে উজ্জ্বল লাল রক্তক্ষরণ বা রক্তবমন (Hemoptysis) নিরাময়ে অত্যন্ত কার্যকরী।"
+  },
+  {
+    "id": "just-sym-08",
+    "stem": "রাতে কাশির বেগ বৃদ্ধি পাওয়া এবং গলার মধ্যে সাঁ সাঁ বা ঘড়ঘড় শব্দ হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Grindelia",
+        "mid": "grindelia"
+      },
+      {
+        "text": "Blatta Orientalis",
+        "mid": "blatta-orientalis"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "cough",
+      "night",
+      "wheezing"
+    ],
+    "explanation": "Justicia Adhatoda-এ রাতে কাশির প্রকোপ বাড়ে এবং গলার ভেতরে সাঁ সাঁ বা শোঁ শোঁ শব্দ হয়।"
+  },
+  {
+    "id": "hyoscyamus-sym-03",
+    "stem": "রাতে শোয়ার পর আক্ষেপকর কাশি, উঠে বসলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex-crispus"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum-metallicum"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "cough",
+      "night",
+      "lying-down"
+    ],
+    "explanation": "Hyoscyamus-এ রাতে শোয়ার পর আক্ষেপকর কাশি হয় যা উঠে বসলে উপশম হয়।"
+  },
+  {
+    "id": "iodium-sym-11",
+    "stem": "গলায় সুড়সুড়ি ও শুকনো কাশি, গলার ভেতর কিছু আটকে আছে মনে হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Bromium",
+        "mid": "bromium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "throat",
+      "cough",
+      "tickling"
+    ],
+    "explanation": "Iodium এ গলায় অত্যন্ত সুড়সুড়ি এবং শুকনো কাশি হয়, মনে হয় গলার ভেতর কোনো কিছু আটকে আছে।"
+  },
+  {
+    "id": "iodium-sym-12",
+    "stem": "ঠান্ডা জল খেলে বা খোলা বাতাসে কাশির উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Bromium",
+        "mid": "bromium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "cough",
+      "amelioration",
+      "cold-water"
+    ],
+    "explanation": "Iodium এ ঠান্ডা জল খেলে বা খোলা বাতাসে কাশির উপশম হয়।"
+  },
+  {
+    "id": "ipecac-sym-05",
+    "stem": "কাশতে কাশতে রোগী নীল হয়ে যায় এবং দম বন্ধ হওয়ার মতো অবস্থা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "cough",
+      "suffocative-cough",
+      "cyanosis"
+    ],
+    "explanation": "Ipecac-এ দমবন্ধ করা কাশি (Suffocative Cough) হয়; কাশতে কাশতে রোগী নীল হয়ে যায় এবং দম বন্ধ হওয়ার মতো অবস্থা হয়।"
+  },
+  {
+    "id": "ipecac-sym-09",
+    "stem": "বুকে প্রচুর শ্লেষ্মা বা কফ জমে থাকে, যার ফলে ঘড়ঘড় শব্দ হয় কিন্তু কফ সহজে ওঠে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "chest",
+      "mucus",
+      "rattling",
+      "difficult-expectoration"
+    ],
+    "explanation": "Ipecac-এ বুকে প্রচুর শ্লেষ্মা বা কফ জমে থাকে, যার ফলে ঘড়ঘড় শব্দ হয় কিন্তু কফ সহজে ওঠে না।"
+  },
+  {
+    "id": "ipecac-sym-20",
+    "stem": "কাশির সাথে বমি হওয়া একটি সাধারণ লক্ষণ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Coccus Cacti",
+        "mid": "coccus-cacti"
+      },
+      {
+        "text": "Corallium Rubrum",
+        "mid": "corallium-rubrum"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "cough",
+      "vomiting",
+      "whooping-cough"
+    ],
+    "explanation": "Ipecac-এ কাশির সাথে বমি হওয়া একটি সাধারণ লক্ষণ।"
+  },
+  {
+    "id": "hepar-sym-03",
+    "stem": "ঠান্ডা লেগে সাংঘাতিক কাশি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "cough",
+      "cold"
+    ],
+    "explanation": "Hepar Sulph এ ঠান্ডা লেগে সাংঘাতিক কাশি হয়।"
+  },
+  {
+    "id": "hepar-sym-18",
+    "stem": "রাতে বা ঠান্ডায় কাশি বৃদ্ধি, কাশির শব্দ ঘড়ঘড়ে কিন্তু কফ সহজে উঠতে চায় না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "cough",
+      "night",
+      "cold",
+      "rattling"
+    ],
+    "explanation": "Hepar Sulph এ রাতে বা ঠান্ডায় কাশি বৃদ্ধি পায়, কাশির শব্দ ঘড়ঘড়ে কিন্তু কফ সহজে উঠতে চায় না।"
+  },
+  {
+    "id": "euphrasia-sym-09",
+    "stem": "সকালে বা দিনের বেলা কাশির আধিক্য, রাতে শুলে কাশি কমে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "cough",
+      "morning",
+      "day"
+    ],
+    "explanation": "Euphrasia Officinalis এ কেবল দিনের বেলা বা সকালে কাশির আধিক্য থাকে, রাতে শুলে কাশি কমে যায়।"
+  },
+  {
+    "id": "euphrasia-sym-17",
+    "stem": "দিনের বেলা আক্ষেপিক কাশি, কাশির সাথে প্রচুর শ্লেষ্মা, কাশির সময় চোখ দিয়ে জল পড়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "cough",
+      "day",
+      "mucus",
+      "eye"
+    ],
+    "explanation": "Euphrasia Officinalis এ দিনের বেলা আক্ষেপিক কাশি হয়, কাশির সাথে প্রচুর শ্লেষ্মা নির্গত হয়, কাশির সময় চোখ দিয়ে জল পড়তে পারে।"
+  },
+  {
+    "id": "ferrum-phos-sym-17",
+    "stem": "সর্দিতে নাক বন্ধ ও বুকে ব্যথাযুক্ত কাশি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "coryza",
+      "cough",
+      "chest-pain"
+    ],
+    "explanation": "Ferrum Phos-এ সর্দি লেগে নাক বন্ধ হয়ে যাওয়া বা বুকে ব্যথাযুক্ত কাশি হয়।"
+  },
+  {
+    "id": "podo-sym-04",
+    "stem": "মলদ্বার বাইরে বের হয়, সামান্য পরিশ্রম বা কাশিতেও — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "prolapse-anus",
+      "exertion",
+      "cough"
+    ],
+    "explanation": "Podophyllum-এ মলদ্বার বাইরে বেরিয়ে আসে।"
+  },
+  {
+    "id": "podo-sym-04",
+    "stem": "মলদ্বার বাইরে বের হয়, সামান্য পরিশ্রম বা কাশিতেও — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "prolapse-anus",
+      "exertion",
+      "cough"
+    ],
+    "explanation": "Podophyllum-এ মলদ্বার বাইরে বেরিয়ে আসে।"
+  },
+  {
+    "id": "phosphorus-sym-06",
+    "stem": "প্রধানত বাম পাশে রোগ হয়, বাম পাশে শুলে কাশি বাড়ে, চেপে শুতে পারে না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "side",
+      "left",
+      "cough"
+    ],
+    "explanation": "Phosphorus প্রধানত বামপার্শ্বীয় ঔষধ, বাম পাশে শুলে কাশি বাড়ে এবং রোগী চেপে শুতে পারে না।"
+  },
+  {
+    "id": "phosphorus-sym-18",
+    "stem": "যক্ষ্মা বা নিউমোনিয়ার প্রবণতা, কাশির সময় বুকে ভারবোধ ও জ্বালা থাকে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "chest",
+      "tuberculosis",
+      "pneumonia",
+      "cough"
+    ],
+    "explanation": "Phosphorus এ যক্ষ্মা বা নিউমোনিয়ার প্রবণতা থাকে, কাশির সময় বুকে ভারবোধ এবং জ্বালা থাকে।"
+  },
+  {
+    "id": "stannum-sym-09",
+    "stem": "কফ পুঁজযুক্ত এবং কফের স্বাদ মিষ্টি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Kali Sulph",
+        "mid": "kali-sulphuricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "cough",
+      "sputum",
+      "sweet"
+    ],
+    "explanation": "Stannum Met-এ কাশির সাথে যে গলার শ্লেষ্মা বা কফ ওঠে তা পুঁজযুক্ত এবং তার স্বাদ খুব মিষ্টি হয়।"
+  },
+  {
+    "id": "stannum-sym-13",
+    "stem": "যক্ষ্মা বা ক্ষয়রোগে সবুজ বা হলুদাভ মিষ্টি কফ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "phthisis",
+      "sputum"
+    ],
+    "explanation": "Stannum Met যক্ষ্মা বা ক্ষয়রোগের (Phthisis) একটি মহৌষধ; প্রচুর পরিমাণে সবুজ বা হলুদাভ মিষ্টি কফ ওঠে।"
+  },
+  {
+    "id": "stannum-sym-14",
+    "stem": "বুক চেপে ধরলে কাশির আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "cough",
+      "pressure"
+    ],
+    "explanation": "Stannum Met-এ বুক চেপে ধরলে কাশির আরাম হয়।"
+  },
+  {
+    "id": "sene-sym-01",
+    "stem": "কাশতে কাশতে হাঁচি হওয়া এবং হাঁচি হলে কাশি বন্ধ হয়ে যাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Badiaga",
+        "mid": "badiaga"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus-muscarius"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "respiratory",
+      "cough-sneeze"
+    ],
+    "explanation": "Senega-এর কাশির একটি অসাধারণ পরিচয় হলো কাশতে কাশতে হাঁচি হওয়া এবং হাঁচি হলেই কাশি থেমে যাওয়া।"
+  },
+  {
+    "id": "sene-sym-02",
+    "stem": "ফুসফুসে প্রচুর কফ জমা ও ঘড়ঘড় শব্দ হওয়া কিন্তু আঠালো কফ বের হতে কষ্ট হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "respiratory",
+      "rattling-mucus"
+    ],
+    "explanation": "Senega ফুসফুসে জমে থাকা প্রচুর শ্লেষ্মা ও ঘড়ঘড়ানি দূর করতে এবং আঠালো কফ নির্গমনে শ্রেষ্ঠ ওষুধ।"
+  },
+  {
+    "id": "sene-sym-11",
+    "stem": "কাশি দিলে বুকে প্রচণ্ড ব্যথা হওয়া, যা কাশির শেষে বহুগুণ বৃদ্ধি পাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Squilla",
+        "mid": "squilla-hispanica"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "chest",
+      "cough-pain"
+    ],
+    "explanation": "Senega-এ কাশি দেওয়ার সময় বুকে চরম যন্ত্রণা হয় যা কাশির ক্রিয়াকলাপ শেষ হলে আরও বেড়ে যায়।"
+  },
+  {
+    "id": "sanguinaria-sym-03",
+    "stem": "ইনফ্লুয়েঞ্জা সংশ্লিষ্ট কাশি, যক্ষ্মারোগ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "cough",
+      "influenza",
+      "tuberculosis"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ইনফ্লুয়েঞ্জা সংশ্লিষ্ট কাশি ও যক্ষ্মারোগ দেখা যায়।"
+  },
+  {
+    "id": "sanguinaria-sym-10",
+    "stem": "ঢেকুরে কাশি উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "cough",
+      "belching",
+      "amelioration"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ঢেকুরে কাশি উপশম হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-17",
+    "stem": "শুকনো কাশি, রাতে বাড়ে, কাশি দিলে মনে হয় বুক ফেটে যাবে, কাশির সময় বায়ু নিঃসরণ করে ফেলে, কফ অত্যন্ত দুর্গন্ধযুক্ত, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "cough",
+      "dry",
+      "night",
+      "foul"
+    ],
+    "explanation": "Sanguinaria Canadensis এ শুকনো কাশি হয়, যা রাতে বাড়ে এবং কাশি দিলে মনে হয় বুক ফেটে যাবে, কাশির সময় রোগী অনেক সময় বায়ু নিঃসরণ করে ফেলে, কফ অত্যন্ত দুর্গন্ধযুক্ত থাকে।"
+  },
+  {
+    "id": "spongia-sym-01",
+    "stem": "একেবারে শুকনো কাশি, কোনো কফ ওঠে না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "cough",
+      "dry"
+    ],
+    "explanation": "Spongia-এর প্রধান লক্ষণ হলো শ্বাসতন্ত্রের চরম শুষ্কতা; কাশি একেবারে শুকনো, কোনো কফ ওঠে না।"
+  },
+  {
+    "id": "spongia-sym-02",
+    "stem": "কাশি বা শ্বাসের শব্দ করাত দিয়ে কাঠ কাটার মতো — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "cough",
+      "respiration",
+      "sawing"
+    ],
+    "explanation": "Spongia-তে কাশি বা শ্বাস-প্রশ্বাসের শব্দ করাত দিয়ে শুকনো কাঠ কাটার মতো (Sawing sound) হয়।"
+  },
+  {
+    "id": "spongia-sym-05",
+    "stem": "কুকুরের ডাকের মতো বার্কিং কাশি ও স্বরভঙ্গ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Arum Triphyllum",
+        "mid": "arum-triphyllum"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "cough",
+      "barking",
+      "hoarseness",
+      "laryngitis"
+    ],
+    "explanation": "Spongia ল্যারিঞ্জাইটিস বা স্বরভঙ্গের জন্য অপ্রতিদ্বন্দ্বী; কাশি অনেকটা কুকুরের ডাকের মতো (Barking cough)।"
+  },
+  {
+    "id": "spongia-sym-07",
+    "stem": "টেনশনে কাশি আসে, ঘাম হলে কাশি, গরম খেলে কাশি কমে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex-crispus"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum-metallicum"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "cough",
+      "excitement",
+      "warm-drinks"
+    ],
+    "explanation": "Spongia-তে টেনশনে কাশি আসে, ঘাম হয়ে কাশি হয় এবং গরম খেলে কাশি কমে।"
+  }
+]

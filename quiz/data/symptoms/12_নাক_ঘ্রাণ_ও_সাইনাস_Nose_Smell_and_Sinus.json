@@ -1,0 +1,1133 @@
+[
+  {
+    "id": "argm-sym-07",
+    "stem": "নাক থেকে রক্তপাত — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phos"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "nose",
+      "epistaxis"
+    ],
+    "explanation": "Argentum Metallicum-এ নাক থেকে রক্তপাত হতে পারে।"
+  },
+  {
+    "id": "arnica-mont-sym-11",
+    "stem": "নিঃশ্বাসে ও ঢেকুরে পচা ডিমের মতো গন্ধ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "digestive",
+      "belching",
+      "rotten-egg-smell"
+    ],
+    "explanation": "Arnica Montana-এ নিঃশ্বাসে ও ঢেকুরে পচা ডিমের মতো গন্ধ (Belching like rotten eggs) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "ars-sym-18",
+    "stem": "নাক দিয়ে পাতলা জ্বালাযুক্ত স্রাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "coryza",
+      "nose"
+    ],
+    "explanation": "Acrid nasal discharge Arsenicum Album-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "arsenicum-iod-sym-09",
+    "stem": "গরম ও হাজানিযুক্ত সর্দির সাথে অনবরত হাঁচি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "coryza",
+      "sneezing"
+    ],
+    "explanation": "Arsenicum Iodatum-এ নাসিকার সর্দিস্রাব গরম ও হাজানিযুক্ত এবং নতুন ও পুরাতন সেই সঙ্গে অনবরত হাঁচি হয়।"
+  },
+  {
+    "id": "arsenicum-iod-sym-10",
+    "stem": "সর্দির সাথে বুকের ভেতর ঘড়ঘড়ানি শব্দ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "coryza",
+      "chest",
+      "rattling"
+    ],
+    "explanation": "Arsenicum Iodatum-এ সর্দির সাথে হাঁচি এবং বুকের ভেতর ঘড়ঘড়ানি শব্দ হয়।"
+  },
+  {
+    "id": "aurum-sym-05",
+    "stem": "নাকের হাড়ে পচন, দুর্গন্ধযুক্ত পুঁজযুক্ত স্রাব, ওজেনা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "nose",
+      "ozena",
+      "caries"
+    ],
+    "explanation": "Aurum-এ নাকের হাড়ে পচন ও দুর্গন্ধযুক্ত ওজেনা থাকে।"
+  },
+  {
+    "id": "baryta-sym-16",
+    "stem": "ধাতুগত গন্ডমালা দোষ ও সর্দি প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "scrofula",
+      "coryza",
+      "diathesis"
+    ],
+    "explanation": "Baryta গন্ডমালা ধাতু ও সর্দি প্রবণতায় কার্যকর।"
+  },
+  {
+    "id": "camph-sym-09",
+    "stem": "ঠান্ডা লাগা ও হাঁচিসহ সর্দির প্রথম পর্যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Kali Sulph",
+        "mid": "kali-sulph"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "cold",
+      "coryza"
+    ]
+  },
+  {
+    "id": "causticum-sym-14",
+    "stem": "কাশি বা হাঁচি দিলে অজান্তে প্রস্রাব বেরিয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "urination",
+      "involuntary",
+      "cough",
+      "sneeze"
+    ],
+    "explanation": "Causticum-এ রোগী যখনই কাশে বা হাঁচি দেয়, অজান্তেই কয়েক ফোঁটা প্রস্রাব বেরিয়ে যায়।"
+  },
+  {
+    "id": "colch-sym-01",
+    "stem": "রান্না করা খাবার, বিশেষ করে মাছ বা মাংসের গন্ধে প্রচণ্ড বমি ভাব এবং অজ্ঞান হয়ে যাওয়ার মতো অবস্থা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "nausea",
+      "smell",
+      "digestive"
+    ],
+    "explanation": "Colchicum-এর সবচেয়ে শক্তিশালী লক্ষণ হলো রান্না করা খাবারের গন্ধে, বিশেষ করে মাছ বা মাংসের গন্ধে প্রচণ্ড বমি ভাব হয় এবং রোগী অজ্ঞান হয়ে যেতে পারে।"
+  },
+  {
+    "id": "colch-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "food-smell",
+      "touch",
+      "motion",
+      "night",
+      "autumn"
+    ],
+    "explanation": "Colchicum-এর লক্ষণ খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "cinn-sym-01",
+    "stem": "নাকের গোড়ায় মনে হওয়া যেন ভারী কিছু চশমার মতো জোরে চেপে ধরে আছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bich"
+      },
+      {
+        "text": "Sticta Pulmonaria",
+        "mid": "sticta-pulmonaria"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "nose",
+      "root-pain",
+      "sinusitis"
+    ],
+    "explanation": "Cinnabaris-এর প্রধান নির্দেশক লক্ষণ হলো নাকের গোড়ায় চশমা চেপে বসার মতো বা ভারী কিছু থাকার তীব্র চাপ ও ব্যথা।"
+  },
+  {
+    "id": "cinn-sym-04",
+    "stem": "দীর্ঘস্থায়ী সাইনোসাইটিস এবং কপালে ব্যথার সাথে গলার পেছনে চটচটে সর্দি জমা (Post-nasal drip) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Hydrastis",
+        "mid": "hydrastis"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bich"
+      },
+      {
+        "text": "Lemna Minor",
+        "mid": "lemna-minor"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "sinusitis",
+      "post-nasal-drip",
+      "nose"
+    ],
+    "explanation": "Cinnabaris-এ সাইনাসের জটিলতায় নাকের গোড়ায় চাপের পাশাপাশি ঘন, চটচটে কফ গলার পেছনে জমা হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "cina-sym-03",
+    "stem": "নাক খোঁটানো ও ঘষতে থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "worms",
+      "nose"
+    ],
+    "explanation": "Nose picking Cina-এর ক্লাসিক লক্ষণ।"
+  },
+  {
+    "id": "conium-sym-11",
+    "stem": "নাকের পলিপাস, সহজে রক্ত পড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Teucrium Marum",
+        "mid": "teucrium-marum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "nose",
+      "polyp",
+      "bleeding"
+    ],
+    "explanation": "Conium-এ নাকের পলিপাস ও সহজে রক্তপাত হয়।"
+  },
+  {
+    "id": "just-sym-02",
+    "stem": "প্রচুর হাঁচির সাথে তরল শ্লেষ্মা নিঃসরণ এবং চোখ দিয়ে জল পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "sneezing",
+      "coryza",
+      "watery-discharge"
+    ],
+    "explanation": "Justicia Adhatoda-এ প্রচুর হাঁচি এবং নাক-চোখ দিয়ে জল পড়ার সর্দি ভাব প্রবল থাকে।"
+  },
+  {
+    "id": "just-sym-07",
+    "stem": "কোনো জিনিসের গন্ধ বা স্বাদ একেবারেই না পাওয়া যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "smell",
+      "taste",
+      "anosmia"
+    ],
+    "explanation": "Justicia Adhatoda-এ ঘ্রাণশক্তি ও স্বাদ গ্রহণের ক্ষমতা সাময়িক বা সম্পূর্ণ লোপ পায়।"
+  },
+  {
+    "id": "hama-sym-08",
+    "stem": "নাক দিয়ে প্রচুর কালচে রক্ত পড়া (Epistaxis) এবং মাথায় ভার বোধ থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Millefolium",
+        "mid": "millefolium"
+      },
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phos"
+      },
+      {
+        "text": "Crocus Sativus",
+        "mid": "crocus-sativus"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "nose",
+      "epistaxis",
+      "bleeding"
+    ],
+    "explanation": "Hamamelis-এ নাক দিয়ে কালচে রক্তের ধারায় রক্তক্ষরণ হয় এবং কপালে ও মাথায় ভারী বোধ থাকে।"
+  },
+  {
+    "id": "ipecac-sym-13",
+    "stem": "খাবারের গন্ধে বমি ভাব বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "smell-of-food"
+    ],
+    "explanation": "Ipecac-এর লক্ষণ খাবারের গন্ধে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ipecac-sym-14",
+    "stem": "তামাকের গন্ধে লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "smell-of-tobacco"
+    ],
+    "explanation": "Ipecac-এর লক্ষণ তামাকের গন্ধে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "hepar-sym-02",
+    "stem": "প্রায়শই সর্দি লাগে, রাতে সর্দি ওঠে না কেবল দিনে ওঠে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "coryza",
+      "day"
+    ],
+    "explanation": "Hepar Sulph এ প্রায়শই সর্দি লাগে, রাতে সর্দি ওঠে না কেবল দিনে ওঠে।"
+  },
+  {
+    "id": "euphrasia-sym-03",
+    "stem": "নাকের পানি জ্বালা করে না, নাকের সর্দি মৃদু, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "nose",
+      "coryza",
+      "bland"
+    ],
+    "explanation": "Euphrasia Officinalis এ নাক দিয়ে যে সর্দি ঝরে তা মৃদু, নাকে কোনো জ্বালা করে না।"
+  },
+  {
+    "id": "euphrasia-sym-15",
+    "stem": "প্রচুর সর্দি ঝরে কিন্তু নাকে জ্বালা করে না, সর্দির সাথে হাঁচি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "nose",
+      "coryza",
+      "sneezing"
+    ],
+    "explanation": "Euphrasia Officinalis এ প্রচুর সর্দি ঝরে কিন্তু তা নাকে কোনো জ্বালা করে না, সর্দির সাথে হাঁচি থাকে।"
+  },
+  {
+    "id": "euphrasia-sym-16",
+    "stem": "সর্দি সাধারণত রাতে বৃদ্ধি পায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "nose",
+      "coryza",
+      "night"
+    ],
+    "explanation": "Euphrasia Officinalis এ সর্দি সাধারণত রাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "dulc-sym-09",
+    "stem": "নাক বন্ধ হয়ে যাওয়া (Stuffy cold), বিশেষ করে বৃষ্টিতে ভিজলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sticta",
+        "mid": "sticta"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "coryza",
+      "stuffy-nose",
+      "rain"
+    ],
+    "explanation": "Dulcamara-এ নাক বন্ধ হয়ে যাওয়া (Stuffy cold), বিশেষ করে বৃষ্টিতে ভিজলে—এটি একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "ferrum-phos-sym-17",
+    "stem": "সর্দিতে নাক বন্ধ ও বুকে ব্যথাযুক্ত কাশি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "coryza",
+      "cough",
+      "chest-pain"
+    ],
+    "explanation": "Ferrum Phos-এ সর্দি লেগে নাক বন্ধ হয়ে যাওয়া বা বুকে ব্যথাযুক্ত কাশি হয়।"
+  },
+  {
+    "id": "natrum-mur-sym-18",
+    "stem": "সর্দির শুরুতে জলের মতো তরল ও হাঁচি, পরে আঠালো স্রাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "coryza",
+      "discharge"
+    ],
+    "explanation": "Natrum Mur-এ সর্দি শুরুর সময় জলের মতো তরল পড়ে ও হাঁচি হয়; কয়েকদিন পর নাক বন্ধ হয়ে ডিমের শ্বেতাংশের মতো আঠালো স্রাব বের হয়।"
+  },
+  {
+    "id": "natp-sym-09",
+    "stem": "শিশু নাকে হাত দেয়, রাতে দাঁত কিড়মিড় করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "child",
+      "nose-picking",
+      "teeth-grinding",
+      "worms"
+    ],
+    "explanation": "Natrum Phos-এ শিশু নাকে হাত দেয় ও দাঁত কিড়মিড় করে।"
+  },
+  {
+    "id": "natc-sym-08",
+    "stem": "নাকের গোড়ায় ভারী বোধ এবং ঘন হলুদ রঙের শ্লেষ্মা নির্গত হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Hydrastis",
+        "mid": "hydrastis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "nose",
+      "coryza"
+    ],
+    "explanation": "Natrum Carb-এর নাকের লক্ষণে নাকের গোড়ায় ভারী বোধ এবং ঘন হলুদ শ্লেষ্মা বা সর্দি নির্গমনের কথা বলা হয়েছে।"
+  },
+  {
+    "id": "lyc-sym-06",
+    "stem": "শ্বাসকষ্ট বা ফুসফুসের প্রদাহের সময় নাকের পাখনা ফুলে ফুলে কাঁপা (Fan-like movement of alae nasi) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Antimony Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "respiratory",
+      "nose",
+      "alae-nasi"
+    ],
+    "explanation": "শ্বাসতন্ত্রের মারাত্মক প্রদাহ বা নিউমোনিয়ায় নাকের পাখনার পাখার মতো নড়াচড়া Lycopodium-এর প্রামাণ্য নির্দেশক।"
+  },
+  {
+    "id": "mag-carb-sym-01",
+    "stem": "শরীর, ঘাম, মল ও বমি থেকে তীব্র টক গন্ধ বের হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Rheum",
+        "mid": "rheum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "sour-smell",
+      "body-odor",
+      "keynote"
+    ],
+    "explanation": "Magnesia Carbonica-এর প্রধান পরিচায়ক লক্ষণ হলো রোগীর শরীর, ঘাম, মল ও বমি থেকে তীব্র টক গন্ধ বের হওয়া।"
+  },
+  {
+    "id": "natp-sym-09",
+    "stem": "শিশু নাকে হাত দেয়, রাতে দাঁত কিড়মিড় করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "child",
+      "nose-picking",
+      "teeth-grinding",
+      "worms"
+    ],
+    "explanation": "Natrum Phos-এ শিশু নাকে হাত দেয় ও দাঁত কিড়মিড় করে।"
+  },
+  {
+    "id": "sel-sym-11",
+    "stem": "সর্দি ভালো হলে ডায়রিয়া হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "coryza",
+      "better",
+      "diarrhea",
+      "alternating"
+    ],
+    "explanation": "Selenium-এ সর্দি ভালো হলে ডায়রিয়া হয়।"
+  },
+  {
+    "id": "sene-sym-01",
+    "stem": "কাশতে কাশতে হাঁচি হওয়া এবং হাঁচি হলে কাশি বন্ধ হয়ে যাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Badiaga",
+        "mid": "badiaga"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus-muscarius"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "respiratory",
+      "cough-sneeze"
+    ],
+    "explanation": "Senega-এর কাশির একটি অসাধারণ পরিচয় হলো কাশতে কাশতে হাঁচি হওয়া এবং হাঁচি হলেই কাশি থেমে যাওয়া।"
+  },
+  {
+    "id": "sars-sym-19",
+    "stem": "ক্যাম্ফর (Camphor)-এর গন্ধে লক্ষণ উপশম হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "camphor",
+      "smell"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ ক্যাম্ফর (Camphor) শুঁকলে উপশম হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-04",
+    "stem": "নাকের মধ্যে পঁচনশীল ক্ষত, সাথে প্রচুর পরিমাণে দুর্গন্ধময় হলদেটে স্রাব, পলিপাস বা ক্রনিক সর্দিতে নাক দিয়ে দুর্গন্ধযুক্ত হলুদ বা সবুজ স্রাব, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "nose",
+      "ulcer",
+      "discharge"
+    ],
+    "explanation": "Sanguinaria Canadensis এ নাকের মধ্যে পঁচনশীল ক্ষত থাকে, সাথে প্রচুর পরিমাণে দুর্গন্ধময় হলদেটে স্রাব হয়, পলিপাস বা ক্রনিক সর্দিতে নাক দিয়ে দুর্গন্ধযুক্ত হলুদ বা সবুজ স্রাব বের হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-09",
+    "stem": "সর্দি হয়ে ডাইরিয়া হয়, উদরাময়ে উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "coryza",
+      "diarrhea",
+      "amelioration"
+    ],
+    "explanation": "Sanguinaria Canadensis এ সর্দি হয়ে ডাইরিয়া হয় এবং উদরাময়ে উপশম হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-15",
+    "stem": "কোনো কিছুর গন্ধে বা মানসিক উত্তেজনায় মাথাব্যথা শুরু হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "headache",
+      "smell",
+      "excitement"
+    ],
+    "explanation": "Sanguinaria Canadensis এ অনেক সময় কোনো কিছুর গন্ধে বা মানসিক উত্তেজনায় মাথাব্যথা শুরু হয়।"
+  },
+  {
+    "id": "sul-iod-sym-05",
+    "stem": "নাকের ভেতরে ক্ষত বা মামড়ি পড়ার প্রবণতা এবং দীর্ঘস্থায়ী সর্দি বা সাইনোসাইটিস — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "nose",
+      "ulcers",
+      "crusts",
+      "sinusitis"
+    ],
+    "explanation": "Sulphur Iodatum দীর্ঘস্থায়ী সর্দি বা সাইনোসাইটিসে ব্যবহৃত হয়; নাকের ভেতরে ক্ষত বা মামড়ি পড়ার প্রবণতা থাকে।"
+  }
+]

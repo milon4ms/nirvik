@@ -1,0 +1,804 @@
+[
+  {
+    "id": "arsenicum-iod-sym-02",
+    "stem": "ভালো খাওয়া-দাওয়া সত্ত্বেও দিন দিন শুকিয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "emaciation",
+      "marasmus"
+    ],
+    "explanation": "Arsenicum Iodatum-এ রোগী ভালো খাওয়া-দাওয়া করা সত্ত্বেও দিন দিন শুকিয়ে যায় (Marasmus)।"
+  },
+  {
+    "id": "arsenicum-iod-sym-13",
+    "stem": "ক্ষুধার্ত বোধ করা সত্ত্বেও খাওয়ার পর পেটে অস্বস্তি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "stomach",
+      "indigestion"
+    ],
+    "explanation": "Arsenicum Iodatum-এ রোগী ক্ষুধার্ত বোধ করে সত্ত্বেও খাওয়ার পর পেটে অস্বস্তি হয়।"
+  },
+  {
+    "id": "bac-sym-02",
+    "stem": "প্রচুর পুষ্টিকর খাবার খেয়েও দিন দিন শুকিয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "emaciation",
+      "appetite"
+    ],
+    "explanation": "Bacillinum এ রোগী প্রচুর খায়, তবু দিন দিন শুকিয়ে যায়।"
+  },
+  {
+    "id": "baryta-sym-11",
+    "stem": "শিশুদের পেট বড় ও শক্ত, হাত-পা শুকনো, pot-bellied — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Abrotanum",
+        "mid": "abrotanum"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "abdomen",
+      "pot-bellied",
+      "children",
+      "emaciation"
+    ],
+    "explanation": "Baryta শিশুদের বড় পেট ও শুকনো অঙ্গের জন্য।"
+  },
+  {
+    "id": "cantharis-sym-17",
+    "stem": "প্রতি ফোঁটা প্রস্রাবের সাথে মনে হয় যেন গরম জল বা এসিড বের হচ্ছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "urinary",
+      "burning",
+      "urine-like-acid"
+    ],
+    "explanation": "Cantharis-এ প্রতি ফোঁটা প্রস্রাবের সাথে মনে হয় যেন গরম জল বা এসিড বের হচ্ছে।"
+  },
+  {
+    "id": "calcphos-sym-07",
+    "stem": "লম্বা, রোগা, পুষ্টির অভাব ও রক্তাল্পতা, শরীর ঠিকমতো বাড়ে না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "nutrition",
+      "anaemia",
+      "children"
+    ],
+    "explanation": "Calcarea Phosphorica মূলত পুষ্টির ঔষধ, লম্বা, রোগা, পুষ্টির অভাব ও রক্তাল্পতায় এটি প্রধান ঔষধ।"
+  },
+  {
+    "id": "caps-sym-03",
+    "stem": "মোটা, থলথলে, অলস প্রকৃতি, শরীরে তাপ উৎপাদন ক্ষমতা কম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "generalities",
+      "obesity",
+      "sluggish"
+    ],
+    "explanation": "Capsicum Annuum রোগী সাধারণত মোটা, থলথলে এবং অলস প্রকৃতির হয়, এদের শরীরে তাপ উৎপাদনের ক্ষমতা কম থাকে।"
+  },
+  {
+    "id": "calc-sym-03",
+    "stem": "সেদ্ধ ডিম এবং অপাচ্য জিনিস (যেমন- খড়িমাটি বা পেন্সিল) খাওয়ার প্রবল ইচ্ছা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "craving",
+      "eggs",
+      "pica"
+    ],
+    "explanation": "Calcarea Carb-এর রোগীরা সেদ্ধ ডিম এবং খড়িমাটি বা মাটি খাওয়ার তীব্র আকাঙ্ক্ষা প্রকাশ করে।"
+  },
+  {
+    "id": "calc-sym-03",
+    "stem": "সেদ্ধ ডিম এবং অপাচ্য জিনিস (যেমন- খড়িমাটি বা পেন্সিল) খাওয়ার প্রবল ইচ্ছা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "craving",
+      "eggs",
+      "pica"
+    ],
+    "explanation": "Calcarea Carb-এর রোগীরা সেদ্ধ ডিম এবং খড়িমাটি বা মাটি খাওয়ার তীব্র আকাঙ্ক্ষা প্রকাশ করে।"
+  },
+  {
+    "id": "china-sym-02",
+    "stem": "এক সময়ের বলবান এখন শরীর শীর্ণ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "emaciation",
+      "weakness"
+    ],
+    "explanation": "China এ এক সময়ের বলবান রোগী এখন শরীর শীর্ণ হয়ে যায়।"
+  },
+  {
+    "id": "china-sym-08",
+    "stem": "টক ফল হজম হয় না, টক ঢেকুর ওঠে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "digestion",
+      "sour",
+      "eructation"
+    ],
+    "explanation": "China এ টক ফল হজম হয় না এবং টক ঢেকুর ওঠে।"
+  },
+  {
+    "id": "china-sym-18",
+    "stem": "হজম শক্তি দুর্বল, রাতে পেট ফাঁপা বাড়ে, রাতে খাওয়ার পর পেটে প্রচণ্ড ভারবোধ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "digestion",
+      "abdomen",
+      "night"
+    ],
+    "explanation": "China এ হজম শক্তি খুব দুর্বল, রাতে পেট ফাঁপা বাড়ে, রাতে খাওয়ার পর পেটে প্রচণ্ড ভারবোধ হয়।"
+  },
+  {
+    "id": "iodium-sym-01",
+    "stem": "প্রচণ্ড ক্ষুধা কিন্তু শরীর শুকিয়ে যাওয়া, প্রচুর আহার করেও দিন দিন কঙ্কালের মতো শুকিয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "hunger",
+      "emaciation"
+    ],
+    "explanation": "Iodium এর সবচেয়ে বড় বৈশিষ্ট্য প্রচণ্ড ক্ষুধা কিন্তু শরীর শুকিয়ে যাওয়া, রোগী প্রচুর আহার করে কিন্তু দিন দিন কঙ্কালের মতো শুকিয়ে যায়।"
+  },
+  {
+    "id": "iodium-sym-15",
+    "stem": "স্তন গ্রন্থি শুকিয়ে ছোট হয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Sabal Serrulata",
+        "mid": "sabal-serrulata"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "female",
+      "breast",
+      "atrophy"
+    ],
+    "explanation": "Iodium এ স্তন গ্রন্থি শুকিয়ে ছোট হয়ে যায়।"
+  },
+  {
+    "id": "ipecac-sym-17",
+    "stem": "কাঁচা ফল, চর্বিযুক্ত খাবার বা মিষ্টি খাওয়ার ফলে পেটের অসুখ হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "stomach",
+      "indigestion",
+      "raw-fruit",
+      "fatty-food",
+      "sweets"
+    ],
+    "explanation": "Ipecac-এ কাঁচা ফল, চর্বিযুক্ত খাবার বা মিষ্টি খাওয়ার ফলে পেটের অসুখ হয়।"
+  },
+  {
+    "id": "graph-sym-03",
+    "stem": "স্থূলকায় নারী, বিলম্বিত মাসিক ও কোষ্ঠকাঠিন্য — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "female",
+      "obesity"
+    ],
+    "explanation": "Graphites বিশেষত obese, constipated women-এর জন্য পরিচিত।"
+  },
+  {
+    "id": "graph-sym-03",
+    "stem": "স্থূলকায় নারী, বিলম্বিত মাসিক ও কোষ্ঠকাঠিন্য — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "female",
+      "obesity"
+    ],
+    "explanation": "Graphites বিশেষত obese, constipated women-এর জন্য পরিচিত।"
+  },
+  {
+    "id": "ferrum-phos-sym-06",
+    "stem": "অজীর্ণ ও খাদ্যের সাথে বমি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Antim Crud",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "indigestion",
+      "vomiting"
+    ],
+    "explanation": "Ferrum Phos-এ অজীর্ণ ও খাদ্যের সাথে বমি হয়।"
+  },
+  {
+    "id": "natrum-mur-sym-04",
+    "stem": "মুখ তেলতেলে ও চকচকে, শরীর শীর্ণ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "face",
+      "emaciation"
+    ],
+    "explanation": "Natrum Mur-এ মুখমণ্ডল তেলতেলে ও চকচকে দেখায় এবং শরীর শীর্ণ হয়।"
+  },
+  {
+    "id": "natrum-mur-sym-20",
+    "stem": "ক্ষুধা বেশি থাকা সত্ত্বেও ঘাড়ের অংশ শীর্ণ হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "emaciation",
+      "neck"
+    ],
+    "explanation": "Natrum Mur-এ ক্ষুধা খুব বেশি থাকা সত্ত্বেও শরীর দিন দিন শুকিয়ে যায়, বিশেষত ঘাড়ের অংশ শীর্ণ হয়।"
+  },
+  {
+    "id": "lyc-sym-13",
+    "stem": "শরীরের ঊর্ধ্বাঙ্গ শুকনো ও শীর্ণ কিন্তু নিম্নাঙ্গ ফোলা বা আধা-জলযুক্ত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Abrotanum",
+        "mid": "abrotanum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Plumbum Met",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "constitution",
+      "emaciation"
+    ],
+    "explanation": "দেহের উপরিভাগ বা ঘাড় শুকিয়ে যাওয়া এবং তলপেট ও পা ফোলা ভাব থাকা Lycopodium-এর দৈহিক গঠন।"
+  },
+  {
+    "id": "nux-sym-11",
+    "stem": "খাওয়ার কিছুক্ষণ পর পেট ভার ও অম্বল — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Aethusa",
+        "mid": "aethusa"
+      },
+      {
+        "text": "Aloe",
+        "mid": "aloe"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "dyspepsia",
+      "stomach"
+    ],
+    "explanation": "Dyspepsia after eating suggests Nux Vomica."
+  },
+  {
+    "id": "plumbum-sym-01",
+    "stem": "পক্ষাঘাত বা পক্ষাঘাত সদৃশ দুর্বলতা, মাংসপেশি শুকায়, বিশেষ করে হাত বা পক্ষাঘাতগ্রস্ত অঙ্গের পেশি শুকিয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "paralysis",
+      "atrophy"
+    ],
+    "explanation": "Plumbum Metallicum এ পক্ষাঘাত বা পক্ষাঘাত সদৃশ দুর্বলতা থাকে, মাংসপেশি শুকায়, বিশেষ করে হাত বা পক্ষাঘাতগ্রস্ত অঙ্গের পেশি শুকিয়ে যায়।"
+  },
+  {
+    "id": "phy-sym-19",
+    "stem": "স্তনের টিউমার, ক্ষতিকর পিণ্ড ও অতিরিক্ত মেদ হ্রাসে ফলপ্রসূ হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Fucus Vesiculosus",
+        "mid": "fucus-vesiculosus"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "tumor",
+      "breast",
+      "obesity"
+    ],
+    "explanation": "Phytolacca স্তনগ্রন্থির টিউমার ও স্থূলতা বা মেদ কমাবার জন্য অন্যতম সুপরিচিত।"
+  },
+  {
+    "id": "sars-sym-04",
+    "stem": "শরীরের চামড়া কুঁচকে যাওয়া এবং শিশুকে বৃদ্ধের মতো দেখানো — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Abrotanum",
+        "mid": "abrotanum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "skin",
+      "wrinkles",
+      "children",
+      "marasmus"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ শরীরের চামড়া কুঁচকে যায়, বিশেষত শিশুদের ক্ষেত্রে, ফলে শিশুকে বৃদ্ধের মতো দেখায়।"
+  },
+  {
+    "id": "sec-sym-07",
+    "stem": "প্রবল রাক্ষুসে ক্ষুধা থাকা সত্ত্বেও শরীরের মাংস ক্ষয় হয়ে রোগী শীর্ণকায় হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      },
+      {
+        "text": "Abrotanum",
+        "mid": "abrotanum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "appetite",
+      "emaciation",
+      "general"
+    ],
+    "explanation": "Secale Cornutum-এ প্রচুর খাদ্যাভ্যাস থাকা সত্ত্বেও শরীর শীর্ণ ও ক্ষয়িষ্ণু হয়।"
+  },
+  {
+    "id": "sani-sym-04",
+    "stem": "প্রচুর খাওয়া সত্ত্বেও শিশু দিন দিন শুকিয়ে যাওয়া (Emaciation), বিশেষ করে ঘাড়ের অংশ — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Abrotanum",
+        "mid": "abrotanum"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "children",
+      "emaciation"
+    ],
+    "explanation": "Sanicula-এর শিশুরা প্রচুর আহার করা সত্ত্বেও শুকিয়ে যায় (Marasmus), বিশেষ করে তাদের ঘাড়ের পেশি বেশি শুকায়।"
+  },
+  {
+    "id": "sul-iod-sym-20",
+    "stem": "রোগীর ওজন কমে যায়, যদিও ক্ষুধা বেশি থাকতে পারে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "weight-loss",
+      "appetite",
+      "weakness"
+    ],
+    "explanation": "Sulphur Iodatum-এ রোগী খুব দুর্বল ও ওজন কমে যায়, যদিও ক্ষুধা বেশি থাকতে পারে।"
+  }
+]

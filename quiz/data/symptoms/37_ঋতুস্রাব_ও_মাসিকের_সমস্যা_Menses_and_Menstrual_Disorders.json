@@ -1,0 +1,989 @@
+[
+  {
+    "id": "cantharis-sym-10",
+    "stem": "জরায়ুর প্রদাহ এবং মাসিক চলাকালীন মূত্রনালীতে জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "female",
+      "uterine-inflammation",
+      "menses",
+      "urinary-burning"
+    ],
+    "explanation": "Cantharis-এ জরায়ুর প্রদাহ এবং মাসিক চলাকালীন মূত্রনালীতে জ্বালা হয়।"
+  },
+  {
+    "id": "calcphos-sym-17",
+    "stem": "ঋতুস্রাব তাড়াতাড়ি হওয়া ও প্রচুর রক্তস্রাব হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "female",
+      "menses"
+    ],
+    "explanation": "Calcarea Phosphorica এ ঋতুস্রাব খুব তাড়াতাড়ি হয় এবং প্রচুর রক্তস্রাব থাকে।"
+  },
+  {
+    "id": "caul-sym-05",
+    "stem": "মাসিকের ব্যথা শরীরের বিভিন্ন স্থানে ছড়িয়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phos"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "dysmenorrhea",
+      "female"
+    ],
+    "explanation": "Flying dysmenorrhoeic pains Caulophyllum-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "caul-sym-16",
+    "stem": "অতিরিক্ত সাদা স্রাব ও মাসিক — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "leucorrhea",
+      "menses"
+    ],
+    "explanation": "Profuse leucorrhoea and menses Caulophyllum-এ পাওয়া যায়।"
+  },
+  {
+    "id": "calc-sym-10",
+    "stem": "ঋতুস্রাব খুব তাড়াতাড়ি হয়, অনেক দিন থাকে এবং প্রচুর পরিমাণে নির্গত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Millifolium",
+        "mid": "millifolium"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "female",
+      "menses",
+      "profuse"
+    ],
+    "explanation": "Calcarea Carb-এর স্ত্রী লক্ষণ হলো ঋতুস্রাব নির্ধারিত সময়ের পূর্বে শুরু হয়, দীর্ঘস্থায়ী হয় ও পরিমাণে বেশি নির্গত হয়।"
+  },
+  {
+    "id": "calc-sym-10",
+    "stem": "ঋতুস্রাব খুব তাড়াতাড়ি হয়, অনেক দিন থাকে এবং প্রচুর পরিমাণে নির্গত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Millifolium",
+        "mid": "millifolium"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "female",
+      "menses",
+      "profuse"
+    ],
+    "explanation": "Calcarea Carb-এর স্ত্রী লক্ষণ হলো ঋতুস্রাব নির্ধারিত সময়ের পূর্বে শুরু হয়, দীর্ঘস্থায়ী হয় ও পরিমাণে বেশি নির্গত হয়।"
+  },
+  {
+    "id": "cimicifuga-sym-01",
+    "stem": "ঋতুস্রাবের সঙ্গে ব্যথা বৃদ্ধি, যত স্রাব তত ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "dysmenorrhoea",
+      "female"
+    ],
+    "explanation": "Cimicifuga Racemosa-এর প্রধান লক্ষণ হলো ঋতুস্রাবের সঙ্গে ব্যথা বৃদ্ধি পাওয়া; যত স্রাব তত ব্যথা।"
+  },
+  {
+    "id": "cimicifuga-sym-18",
+    "stem": "ঋতুস্রাবের সময় মানসিক অস্থিরতা ও উন্মাদনা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "mental",
+      "menses",
+      "delirium"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ ঋতুস্রাব বা প্রসবের সময় মানসিক অস্থিরতা ও উন্মাদনা দেখা দিতে পারে।"
+  },
+  {
+    "id": "cimicifuga-sym-19",
+    "stem": "ঋতুস্রাব অত্যন্ত যন্ত্রণাদায়ক, রক্ত কালচে ও চাপ চাপ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "dysmenorrhoea",
+      "dark-clots"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ ঋতুস্রাব অত্যন্ত যন্ত্রণাদায়ক হয় এবং রক্ত কালচে ও চাপ চাপ হয়।"
+  },
+  {
+    "id": "colocynthis-sym-15",
+    "stem": "ডিম্বাশয়ে তীব্র ব্যথা, রোগী কুঁকড়ে যায়, ঋতুস্রাব চলাকালীন পেটে যন্ত্রণা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "female",
+      "ovary",
+      "menses"
+    ],
+    "explanation": "Colocynthis এ ডিম্বাশয়ে তীব্র ব্যথা হয়, যার ফলে রোগী কুঁকড়ে যায়, ঋতুস্রাব চলাকালীন পেটে যন্ত্রণায় এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "conium-sym-08",
+    "stem": "স্তনে শক্তভাব, রজস্রাবের সময় ফুলে ও ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Phytolacca Decandra",
+        "mid": "phytolacca-decandra"
+      },
+      {
+        "text": "Asterias Rubens",
+        "mid": "asterias-rubens"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "breast",
+      "hardness",
+      "menses",
+      "swelling",
+      "pain"
+    ],
+    "explanation": "Conium-এ স্তন শক্ত ও মাসিকে ফুলে ব্যথা হয়।"
+  },
+  {
+    "id": "hyoscyamus-sym-20",
+    "stem": "রাতে, শোয়ার পর, ঋতুস্রাবের সময় ও মানসিক উত্তেজনায় বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "modalities",
+      "night",
+      "menses",
+      "excitement"
+    ],
+    "explanation": "Hyoscyamus-এর লক্ষণ রাতে, শোয়ার পর, ঋতুস্রাবের সময় এবং মানসিক উত্তেজনায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "iodium-sym-16",
+    "stem": "ঋতুস্রাবের সময় প্রচণ্ড দুর্বলতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ferrum Metallicum",
+        "mid": "ferrum-metallicum"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "female",
+      "menses",
+      "weakness"
+    ],
+    "explanation": "Iodium এ ঋতুস্রাবের সময় প্রচণ্ড দুর্বলতা হয়।"
+  },
+  {
+    "id": "glon-sym-15",
+    "stem": "মেনোপজে মাথায় রক্ত ওঠা ও মাথা ঘোরা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "female",
+      "menopause",
+      "congestion",
+      "vertigo"
+    ],
+    "explanation": "Glonoine মেনোপজে মাথায় রক্ত ওঠায় কার্যকর।"
+  },
+  {
+    "id": "euphrasia-sym-18",
+    "stem": "ঋতুস্রাব খুব অল্প সময় থাকে ও পরিমাণে কম, ঋতুস্রাবের সময় চোখের সমস্যা বা সর্দি বাড়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "female",
+      "menses",
+      "eye"
+    ],
+    "explanation": "Euphrasia Officinalis এ ঋতুস্রাব খুব অল্প সময় থাকে এবং পরিমাণে কম হয়, ঋতুস্রাবের সময় চোখের সমস্যা বা সর্দি বাড়তে পারে।"
+  },
+  {
+    "id": "dulc-sym-13",
+    "stem": "ঋতুস্রাব খুব দেরিতে হয় এবং পরিমাণে কম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "female",
+      "menses",
+      "late",
+      "scanty"
+    ],
+    "explanation": "Dulcamara-এ ঋতুস্রাব খুব দেরিতে হয় এবং পরিমাণে কম।"
+  },
+  {
+    "id": "dulc-sym-14",
+    "stem": "ঋতুস্রাব বন্ধ হয়ে গেলে শরীরে চর্মরোগ দেখা দিতে পারে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "female",
+      "menses-suppressed",
+      "skin-eruptions"
+    ],
+    "explanation": "Dulcamara-এ ঋতুস্রাব বন্ধ হয়ে গেলে শরীরে চর্মরোগ দেখা দিতে পারে।"
+  },
+  {
+    "id": "graph-sym-13",
+    "stem": "মাসিক বিলম্বিত, অল্প ও ফ্যাকাশে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "menses",
+      "female"
+    ],
+    "explanation": "Late scanty menses indicate Graphites।"
+  },
+  {
+    "id": "graph-sym-13",
+    "stem": "মাসিক বিলম্বিত, অল্প ও ফ্যাকাশে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "menses",
+      "female"
+    ],
+    "explanation": "Late scanty menses indicate Graphites।"
+  },
+  {
+    "id": "lac-can-sym-06",
+    "stem": "মাসিকের আগে ও সময়ে লক্ষণ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "menses",
+      "modalities"
+    ],
+    "explanation": "Lac Caninum-এর লক্ষণ মাসিকের আগে ও সময়ে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "lac-can-sym-19",
+    "stem": "স্তনে ফোলা ও ব্যথার সাথে মাসিকজনিত সম্পর্ক — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca-decandra"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "breast",
+      "mastitis",
+      "menses"
+    ],
+    "explanation": "Lac Caninum-এ স্তনে ফোলা ও ব্যথার সাথে মাসিকজনিত সম্পর্ক থাকে।"
+  },
+  {
+    "id": "natrum-mur-sym-06",
+    "stem": "যোনি শুষ্ক ও ফাটা ফাটা, সহবাসে কষ্ট, বিলম্বিত ঋতু — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "female",
+      "dryness",
+      "menses"
+    ],
+    "explanation": "Natrum Mur-এ যোনিপথ শুষ্ক ও ফাটা ফাটা হয়, সহবাসে কষ্ট হয় এবং ঋতুস্রাব বিলম্বিত হয়।"
+  },
+  {
+    "id": "magphos-sym-07",
+    "stem": "ঋতুস্রাবের সময় তলপেটে অসহ্য মোচড়ানি ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "female",
+      "dysmenorrhea"
+    ],
+    "explanation": "Magnesia Phosphorica এ ডিসমেনোরিয়া বা কষ্টরজ হয়, ঋতুস্রাবের সময় তলপেটে অসহ্য মোচড়ানি ব্যথা হয়।"
+  },
+  {
+    "id": "magphos-sym-19",
+    "stem": "ঋতুস্রাব শুরু হওয়ার ঠিক আগে তলপেটে প্রচণ্ড খামচানি বা মোচড়ানি ব্যথা, স্রাব পরিষ্কারভাবে প্রবাহিত হলে কমে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "female",
+      "menses",
+      "cramp"
+    ],
+    "explanation": "Magnesia Phosphorica এ ঋতুস্রাব শুরু হওয়ার ঠিক আগে তলপেটে প্রচণ্ড খামচানি বা মোচড়ানি ব্যথা শুরু হয় যা স্রাব পরিষ্কারভাবে প্রবাহিত হলে কমে।"
+  },
+  {
+    "id": "mag-carb-sym-06",
+    "stem": "ঋতুস্রাবের রক্ত আলকাতরার মতো কালো, চটচটে এবং রাতে বেশি নিঃসৃত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "menses",
+      "black-blood",
+      "tarry",
+      "night"
+    ],
+    "explanation": "Magnesia Carbonica-এ ঋতুস্রাবের রক্ত অত্যন্ত চটচটে, আলকাতরার মতো কালো এবং রাতে শুয়ে থাকলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "lach-sym-05",
+    "stem": "মাসিক শুরু হলে অনেক লক্ষণ উপশম হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "female",
+      "menses",
+      "amelioration"
+    ],
+    "explanation": "Lachesis-এ মাসিক শুরু হলে উপশম হয়।"
+  },
+  {
+    "id": "lach-sym-14",
+    "stem": "মাসিক শুরু হলে, খোলা বাতাসে, ঠান্ডা পানীয়ে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "amelioration",
+      "menses",
+      "open-air",
+      "cold-drinks"
+    ],
+    "explanation": "Lachesis মাসিক শুরু ও খোলা বাতাসে ভালো থাকে।"
+  },
+  {
+    "id": "lach-sym-16",
+    "stem": "মাসিকে রক্তপাত বেশি, কিন্তু উপশম হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "female",
+      "menses",
+      "profuse",
+      "amelioration"
+    ],
+    "explanation": "Lachesis-এ মাসিকে রক্ত বেশি কিন্তু উপশম হয়।"
+  },
+  {
+    "id": "plat-sym-12",
+    "stem": "ঋতুস্রাব অত্যন্ত বেশি (Menorrhagia) হয় এবং রক্ত কালো ও চাপ চাপ থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "female",
+      "menorrhagia",
+      "black-clotted-blood"
+    ],
+    "explanation": "Platinum Metallicum-এ ঋতুস্রাব অত্যন্ত বেশি হয় (Menorrhagia), রক্ত কালো এবং চাপ চাপ থাকে।"
+  },
+  {
+    "id": "sep-sym-10",
+    "stem": "বাম পাশের মাথাব্যথা যা বমি ভাব এবং মেনোপজ বা ঋতুস্রাব বন্ধের সময় বৃদ্ধি পায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "headache",
+      "menopause",
+      "left-sided"
+    ],
+    "explanation": "Sepia-র মাথাব্যথা বামে হয় এবং বমি বমি ভাব ও মেনোপজের জটিলতায় বাড়ে।"
+  },
+  {
+    "id": "sep-sym-17",
+    "stem": "সকালে ও সন্ধ্যায়, ঋতুস্রাবের আগে-পরে, যৌন মিলনের পর এবং ভেজা ঠান্ডা আবহাওয়ায় কষ্টের বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "aggravation",
+      "menses",
+      "coition"
+    ],
+    "explanation": "Sepia-র রোগলক্ষণ সেঁতসেঁতে আবহাওয়া, সংগম এবং মাসিকের সময় বাড়ে।"
+  },
+  {
+    "id": "sab-sym-14",
+    "stem": "ঋতুস্রাব অনেকদিন ধরে চলে, প্রচুর — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Thlaspi Bursa Pastoris",
+        "mid": "thlaspi-bursa-pastoris"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "female",
+      "menses",
+      "prolonged",
+      "profuse"
+    ],
+    "explanation": "Sabina-এ ঋতুস্রাব অনেকদিন ধরে প্রচুর হয়।"
+  },
+  {
+    "id": "zincum-sym-06",
+    "stem": "ঋতুস্রাব বন্ধ হলে রোগ আসে, শুরু হলে উপশম হয়, ঋতুস্রাব শুরু হলে স্নায়বিক কষ্ট উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "menses",
+      "suppressed",
+      "amelioration"
+    ],
+    "explanation": "Zincum Metallicum এ ঋতুস্রাব বন্ধ হলে রোগ আসে, শুরু হলে উপশম হয়, ঋতুস্রাব শুরু হলে স্নায়বিক কষ্টগুলো উপশম হয়।"
+  },
+  {
+    "id": "verat-sym-15",
+    "stem": "ঋতুস্রাবের সময় প্রচণ্ড পেট ব্যথা এবং সাথে বমি ও শীতল ঘাম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "dysmenorrhea",
+      "vomiting",
+      "cold-sweat"
+    ],
+    "explanation": "Veratrum Album-এ ঋতুস্রাবের সময় প্রচণ্ড পেট ব্যথা এবং সাথে বমি ও শীতল ঘাম হয়।"
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "id": "cantharis-sym-02",
+    "stem": "আগুনে পুড়ে যাওয়া বা কোনো কারণে চামড়ায় বড় বড় জলপূর্ণ ফোস্কা পড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "burns",
+      "blisters",
+      "skin"
+    ],
+    "explanation": "Cantharis আগুনে পুড়ে যাওয়া বা চামড়ায় বড় বড় জলপূর্ণ ফোস্কা পড়লে শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "cantharis-sym-20",
+    "stem": "পোড়া ক্ষতে মাদার টিংচার (Q) জলের সাথে মিশিয়ে বাহ্যিকভাবে ব্যবহার করলে দ্রুত আরাম পাওয়া যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "burns",
+      "mother-tincture",
+      "external-application"
+    ],
+    "explanation": "Cantharis-এর মাদার টিংচার (Q) জলের সাথে মিশিয়ে পোড়া ক্ষেত্রে বাহ্যিকভাবে ব্যবহার করলে দ্রুত আরাম পাওয়া যায়।"
+  },
+  {
+    "id": "calen-sym-08",
+    "stem": "খোলা ক্ষত, পোড়া ক্ষত ও প্রচণ্ড ব্যথাযুক্ত আলসার — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "skin",
+      "wound",
+      "burn",
+      "ulcer",
+      "painful"
+    ],
+    "explanation": "Calendula খোলা, পোড়া ও ব্যথাযুক্ত আলসারে কার্যকর।"
+  },
+  {
+    "id": "causticum-sym-13",
+    "stem": "পোড়া দাগ আবার পেকে যাওয়া ও ব্যথা হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum-perforatum"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "burns",
+      "old-sores"
+    ],
+    "explanation": "Causticum-এ পোড়া দাগ আবার পেকে যায় ও ব্যথা হয়।"
+  },
+  {
+    "id": "hell-sym-09",
+    "stem": "মুখ দিয়ে প্রচুর লালা পড়ে এবং রোগী জল পান করার সময় মনে হয় যেন সে জল কামড়ে ধরছে বা গ্লাস কামড়ে ধরে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "mouth",
+      "saliva",
+      "bites-glass"
+    ],
+    "explanation": "Helleborus Niger-এ মুখ দিয়ে প্রচুর লালা পড়ে। রোগী যখন জল পান করে, তখন মনে হয় যেন সে জল কামড়ে ধরছে (Drinks water greedily and bites the glass)।"
+  },
+  {
+    "id": "hyoscyamus-sym-08",
+    "stem": "কেউ তাকে বিষ প্রয়োগ করবে এমন ধারণা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "mental",
+      "fear-poison"
+    ],
+    "explanation": "Hyoscyamus-এ রোগীর ধারণা হয় যে কেউ তাকে বিষ প্রয়োগ করবে; তাই সে খাবার বা ঔষধ খেতে অস্বীকার করে।"
+  },
+  {
+    "id": "led-sym-01",
+    "stem": "ছিদ্রজাত ক্ষত, পোকামাকড়ের কামড় ও ঠান্ডায় আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "puncture-wound",
+      "insect-bite"
+    ]
+  },
+  {
+    "id": "led-sym-05",
+    "stem": "মশা বা পোকামাকড়ের কামড়ের কুফল — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "insect-bite",
+      "injury"
+    ]
+  },
+  {
+    "id": "led-sym-12",
+    "stem": "মৌমাছি বা কীটদংশনের পর ফোলা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "stings",
+      "swelling"
+    ]
+  },
+  {
+    "id": "lach-sym-15",
+    "stem": "গরমকাতর, উৎস বুশমাস্টার সাপের বিষ — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Crotalus Horridus",
+        "mid": "crotalus-horridus"
+      },
+      {
+        "text": "Naja Tripudians",
+        "mid": "naja-tripudians"
+      },
+      {
+        "text": "Elaps Corallinus",
+        "mid": "elaps-corallinus"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "generalities",
+      "hot",
+      "snake-venom",
+      "source"
+    ],
+    "explanation": "Lachesis গরমকাতর ও সাপের বিষ থেকে তৈরি।"
+  },
+  {
+    "id": "rhus-sym-16",
+    "stem": "রোগী মারাত্মক আশঙ্কা ও ভয়ে থাকা যে কেউ তাকে বিষ প্রয়োগ করবে বা ক্ষতি করবে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "mental",
+      "fear-poison"
+    ],
+    "explanation": "Rhus Tox রোগীর মনে অদ্ভুত ভয় কাজ করে যে কেউ তাকে বিষ প্রয়োগ করে মেরে ফেলতে পারে।"
+  },
+  {
+    "id": "plumbum-sym-07",
+    "stem": "মনে হয় কেউ তাকে খুন করবে, মনে করে সে কোনো অপরাধ করেছে বা তাকে বিষ প্রয়োগ করা হবে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "mind",
+      "delusion",
+      "murder",
+      "poison"
+    ],
+    "explanation": "Plumbum Metallicum রোগীর মনে হয় কেউ তাকে খুন করবে, সে মনে করে কোনো অপরাধ করেছে বা তাকে বিষ প্রয়োগ করা হবে।"
+  },
+  {
+    "id": "phy-sym-02",
+    "stem": "শিশুদের দন্তোদগমকালে (দাঁত ওঠার সময়) মাড়ি দিয়ে শক্ত কিছু জোরে কামড়ানোর তীব্র ইচ্ছা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "dentition",
+      "teeth",
+      "desire-to-bite"
+    ],
+    "explanation": "Phytolacca-এ দাঁত গজানোর সময় শিশুরা মাড়ির অস্বস্তিতে যা কিছু পায় তাই শক্ত করে চিবায়।"
+  },
+  {
+    "id": "sab-sym-11",
+    "stem": "যৌনাঙ্গে ডুমুরের মতো আঁচিল, চুলকায় ও জ্বালা করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "warts",
+      "fig-warts",
+      "genital",
+      "itch",
+      "burn"
+    ],
+    "explanation": "Sabina-এ যৌনাঙ্গে ডুমুরের মতো আঁচিল হয়।"
+  },
+  {
+    "id": "apis-sym-15",
+    "stem": "স্মারক লক্ষণ হিসেবে মৌমাছির হুল ফোটানোর যন্ত্রণা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "keynote",
+      "stinging-pain",
+      "bee-sting"
+    ],
+    "explanation": "Apis Mellifica মৌমাছি দিয়ে তৈরি, তাই এর স্মারক লক্ষণ হলো হুল ফোটানোর যন্ত্রণা (Stinging pain)।"
+  }
+]

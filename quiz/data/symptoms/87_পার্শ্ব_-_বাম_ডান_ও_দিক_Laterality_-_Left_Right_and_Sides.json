@@ -1,0 +1,2533 @@
+[
+  {
+    "id": "argm-sym-19",
+    "stem": "শরীরের ডান পাশের লক্ষণগুলো বেশি প্রকট — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      },
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "laterality",
+      "right-sided"
+    ],
+    "explanation": "Argentum Metallicum সাধারণত শরীরের ডান পাশে বেশি প্রভাব ফেলে।"
+  },
+  {
+    "id": "argn-sym-12",
+    "stem": "শরীরের প্রধানত বাম পার্শ্বে (Left side) বেশি ক্রিয়াশীল হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "side",
+      "left-sided"
+    ],
+    "explanation": "Argentum Nitricum-এর লক্ষণগুলো প্রধানত শরীরের বাম পার্শ্বে (Left side) বেশি ক্রিয়াশীল ও প্রকাশ পায়।"
+  },
+  {
+    "id": "argn-sym-20",
+    "stem": "বাম কাতে শুলে হার্টবিট শুরু হওয়া বা সমস্যা বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "cardiac",
+      "left-side-lying"
+    ],
+    "explanation": "Argentum Nitricum-এর রোগীর অন্যতম লক্ষণ হলো সে বামপাশে শুইতে পারে না, শুলেই হার্টবিট বা বুক ধড়ফড় শুরু হয়।"
+  },
+  {
+    "id": "arnica-mont-sym-10",
+    "stem": "অতিরিক্ত শারীরিক পরিশ্রমের ফলে হৃদপিণ্ডের পেশি দুর্বল হয়ে যাওয়া, বাম বাহুতে ব্যথা এবং দমবন্ধ ভাব — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Crataegus",
+        "mid": "crataegus"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "heart",
+      "athletes-heart",
+      "left-arm-pain",
+      "dyspnea"
+    ],
+    "explanation": "Arnica Montana-এ অতিরিক্ত শারীরিক পরিশ্রমের ফলে হৃদপিণ্ডের পেশি দুর্বল হয়ে যাওয়া (Athlete's Heart), বাম বাহুতে ব্যথা এবং দমবন্ধ ভাব একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "aurum-sym-17",
+    "stem": "প্রধানত শীতকাতর কিন্তু মুক্ত বাতাস পছন্দ করে, ডান পার্শ্ব, সিফিলিটিক মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "generalities",
+      "chilly",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Aurum শীতকাতর হলেও খোলা বাতাস পছন্দ করে, ডান পার্শ্ব ও সিফিলিটিক।"
+  },
+  {
+    "id": "bell-sym-14",
+    "stem": "ডান পাশে মাথাব্যথা বেশি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Cimicifuga",
+        "mid": "cimicifuga"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "headache",
+      "right-sided"
+    ],
+    "explanation": "ডানপাশীয় মাথাব্যথা Belladonna-তে সাধারণ।"
+  },
+  {
+    "id": "baryta-sym-13",
+    "stem": "ঠান্ডায়, ভেজা আবহাওয়ায়, বাম পাশে শুলে, মাথা ধুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "aggravation",
+      "cold",
+      "wet",
+      "left-side",
+      "washing-head"
+    ],
+    "explanation": "Baryta-র বৃদ্ধি ঠান্ডা, ভেজা, বাম পাশে শোয়া ও মাথা ধোয়ায়।"
+  },
+  {
+    "id": "baryta-sym-15",
+    "stem": "চরম শীতকাতর, প্রধানত বাম পার্শ্বে কাজ করে — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "generalities",
+      "chilly",
+      "left-side"
+    ],
+    "explanation": "Baryta চরম শীতকাতর ও বাম পার্শ্বে বেশি কাজ করে।"
+  },
+  {
+    "id": "baryta-sym-17",
+    "stem": "বাম পাশে শুলে রোগ বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "aggravation",
+      "lying",
+      "left-side"
+    ],
+    "explanation": "Baryta-তে বাম পাশে শুলে বৃদ্ধি ঘটে।"
+  },
+  {
+    "id": "bry-sym-05",
+    "stem": "রোগী ব্যথার পাশে বা আক্রান্ত পাশে চেপে শুলে আরাম পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "painful-side"
+    ],
+    "explanation": "Bryonia-এর রোগী ব্যথার পাশে বা আক্রান্ত পাশে চেপে শুলে বা শক্ত চাপ দিলে আরাম পায়।"
+  },
+  {
+    "id": "bry-sym-12",
+    "stem": "শরীরের প্রধানত ডান পার্শ্বে (Right-sided) বেশি ক্রিয়াশীল হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "side",
+      "right-sided"
+    ],
+    "explanation": "Bryonia-এর শারীরিক প্রতিক্রিয়াগুলো প্রধানত শরীরের ডান পার্শ্বে (Right-sided) বেশি প্রাধান্য পায়।"
+  },
+  {
+    "id": "cantharis-sym-18",
+    "stem": "প্রধানত ডান পার্শ্বে আধিক্য দেখা যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "sidedness",
+      "right-sided"
+    ],
+    "explanation": "Cantharis-এ প্রধানত ডান পার্শ্বে আধিক্য (Right side) দেখা যায়।"
+  },
+  {
+    "id": "carbo-sym-19",
+    "stem": "অত্যন্ত শীতকাতর কিন্তু বাতাস চায়, ডান পার্শ্ব, সোরা মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "generalities",
+      "chilly",
+      "fanning",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Carbo Veg শীতকাতর কিন্তু বাতাস চায়, ডান পার্শ্ব ও সোরা।"
+  },
+  {
+    "id": "causticum-sym-01",
+    "stem": "শরীরের এক অঙ্গের পক্ষাঘাত, বিশেষত ডান অঙ্গের — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium-sempervirens"
+      },
+      {
+        "text": "Lathyrus",
+        "mid": "lathyrus-sativus"
+      },
+      {
+        "text": "Plumbum Met",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "paralysis",
+      "right-side"
+    ],
+    "explanation": "Causticum-এর প্রধান লক্ষণ হলো শরীরের এক অঙ্গের পক্ষাঘাত, বিশেষত ডান অঙ্গের পক্ষাঘাত।"
+  },
+  {
+    "id": "calc-sym-19",
+    "stem": "ডান পাশে চেপে শুলে অনেক সময় শারীরিক উপশম অনুভূত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "amelioration",
+      "lying-right-side"
+    ],
+    "explanation": "Calcarea Carb-এর লক্ষণগুলোতে ডান কাতে বা ডান পাশে চেপে শয়ন করলে রোগী আরাম বোধ করে।"
+  },
+  {
+    "id": "calc-sym-19",
+    "stem": "ডান পাশে চেপে শুলে অনেক সময় শারীরিক উপশম অনুভূত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "amelioration",
+      "lying-right-side"
+    ],
+    "explanation": "Calcarea Carb-এর লক্ষণগুলোতে ডান কাতে বা ডান পাশে চেপে শয়ন করলে রোগী আরাম বোধ করে।"
+  },
+  {
+    "id": "colch-sym-19",
+    "stem": "পার্শ্বগতভাবে বাম দিকে বেশি কাজ করে — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "sidedness",
+      "left-sided"
+    ],
+    "explanation": "Colchicum পার্শ্বগতভাবে বাম দিকে বেশি কাজ করে।"
+  },
+  {
+    "id": "clem-sym-13",
+    "stem": "শরীরের প্রধানত ডান পার্শ্বে (Right side) বেশি আক্রমণ করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "side",
+      "right-sided"
+    ],
+    "explanation": "Clematis Erecta-এর শারীরিক বৈচিত্র্যময় উপসর্গসমূহ শরীরের ডান অর্ধাংশে বেশি প্রাধান্য পায়।"
+  },
+  {
+    "id": "croton-sym-06",
+    "stem": "পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "alternating",
+      "diarrhoea",
+      "cough",
+      "skin"
+    ],
+    "explanation": "Croton Tiglium-এ পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ দেখা যায়।"
+  },
+  {
+    "id": "cimicifuga-sym-10",
+    "stem": "শারীরিক ও মানসিক লক্ষণ পর্যায়ক্রমে আসা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "alternating-symptoms"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ শারীরিক ও মানসিক লক্ষণ পর্যায়ক্রমে আসে।"
+  },
+  {
+    "id": "cimicifuga-sym-12",
+    "stem": "জরায়ুর সমস্যা কমলে বাতের ব্যথা বেড়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "alternating",
+      "uterine",
+      "rheumatic"
+    ],
+    "explanation": "Cimicifuga Racemosa-এর অদ্ভুত লক্ষণ হলো জরায়ুর সমস্যা বা ঋতুস্রাবের কষ্ট কমে গেলে বাতের ব্যথা বা মানসিক কষ্ট বেড়ে যায়।"
+  },
+  {
+    "id": "colocynthis-sym-09",
+    "stem": "বাম দিকের সায়াটিকা, হিপ থেকে পা পর্যন্ত লোহার শিকল দিয়ে কষে বাঁধার মতো অনুভূতি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "nerve",
+      "sciatica",
+      "left-side"
+    ],
+    "explanation": "Colocynthis এ বিশেষ করে বাম দিকের সায়াটিকা হয়, মনে হয় হিপ জয়েন্ট থেকে পায়ের নিচ পর্যন্ত লোহার শিকল দিয়ে কষে বাঁধা আছে।"
+  },
+  {
+    "id": "colocynthis-sym-16",
+    "stem": "বাম পাশের স্নায়বিক ব্যথা, যন্ত্রণার সাথে অঙ্গ অবশ হওয়ার অনুভূতি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "nerve",
+      "left-side",
+      "numbness"
+    ],
+    "explanation": "Colocynthis মূলত বাম পাশের স্নায়বিক ব্যথায় কাজ করে, যন্ত্রণার সাথে অঙ্গটি অবশ হওয়ার অনুভূতি থাকতে পারে।"
+  },
+  {
+    "id": "cinn-sym-13",
+    "stem": "শরীরের প্রধানত ডান পার্শ্বে (Right side) বেশি ক্রিয়াশীল হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "side",
+      "right-sided"
+    ],
+    "explanation": "Cinnabaris-এর লক্ষণগুলো শরীরের ডান পার্শ্বে (Right side) প্রাধান্য বিস্তারের ঝোঁক দেখায়।"
+  },
+  {
+    "id": "chel-sym-01",
+    "stem": "ডান কাঁধের পিঠের হাড়ের (Right scapula) নিচের কোণে একটানা ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "liver",
+      "scapula-pain",
+      "right-sided"
+    ],
+    "explanation": "Chelidonium Majus-এর একটি নিশ্চিত পরিচায়ক লক্ষণ হলো ডান দিকের পিঠের হাড়ের (Right Scapula) নিচের কোণে একটানা ব্যথা।"
+  },
+  {
+    "id": "chel-sym-07",
+    "stem": "ডান দিকের ফুসফুসে ব্যথা বা নিউমোনিয়া, যা লিভারের গোলযোগের সাথে যুক্ত থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "respiratory",
+      "right-lung",
+      "pneumonia",
+      "liver"
+    ],
+    "explanation": "Chelidonium Majus-এ ডান দিকের ফুসফুসে ব্যথা বা নিউমোনিয়া (Pneumonia) হতে পারে, যা লিভারের গোলযোগের সাথে যুক্ত থাকে।"
+  },
+  {
+    "id": "chel-sym-15",
+    "stem": "এক পা ঠান্ডা এবং অপর পা গরম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "extremities",
+      "one-foot-cold-one-hot"
+    ],
+    "explanation": "Chelidonium Majus-এ এক পা ঠান্ডা এবং অপর পা গরম অনুভূত হয়।"
+  },
+  {
+    "id": "chel-sym-16",
+    "stem": "পর্যায়ক্রমে কোষ্ঠকাঠিন্য ও উদারাময় দেখা দেয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "alternating",
+      "constipation",
+      "diarrhea"
+    ],
+    "explanation": "Chelidonium Majus-এ পর্যায়ক্রমে কোষ্ঠকাঠিন্য ও উদারাময় দেখা দেয়।"
+  },
+  {
+    "id": "conium-sym-18",
+    "stem": "শীতকাতর, ডান পার্শ্ব বেশি, ত্রি-মায়াজমেটিক — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "generalities",
+      "chilly",
+      "right-side",
+      "trimiasmatic"
+    ],
+    "explanation": "Conium শীতকাতর, ডান পার্শ্ব বেশি ও ত্রি-মায়াজমেটিক।"
+  },
+  {
+    "id": "hyper-sym-19",
+    "stem": "শীতকাতর, ডান পার্শ্বে বেশি, সোরা ও সিফিলিটিক মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "generalities",
+      "chilly",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Hypericum শীতকাতর, ডান পার্শ্ব বেশি ও সোরা-সিফিলিটিক।"
+  },
+  {
+    "id": "just-sym-13",
+    "stem": "শরীরের উভয় পার্শ্বে (Both sides) সমানভাবে কাজ করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "side",
+      "bilateral"
+    ],
+    "explanation": "Justicia Adhatoda ফুসফুস ও শ্বাসতন্ত্রের ওপর শরীরের উভয় পার্শ্বে সমানভাবে প্রভাব বিস্তার করে।"
+  },
+  {
+    "id": "hama-sym-13",
+    "stem": "শরীরের উভয় পার্শ্বে সমভাবে ক্রিয়াশীল হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "side",
+      "bilateral"
+    ],
+    "explanation": "Hamamelis-এর প্রভাব দেহের ডান ও বাম উভয় পাশেই সমান।"
+  },
+  {
+    "id": "hell-sym-15",
+    "stem": "শরীরের এক পার্শ্বে বিশেষ প্রভাব ফেলে — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "sidedness",
+      "one-sided"
+    ],
+    "explanation": "Helleborus Niger শরীরের এক পার্শ্বে বিশেষ প্রভাব ফেলে (One-sided action)।"
+  },
+  {
+    "id": "lac-can-sym-01",
+    "stem": "লক্ষণ এক পাশ থেকে অন্য পাশে পরিবর্তিত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "alternating-sides"
+    ],
+    "explanation": "Lac Caninum-এর সবচেয়ে গুরুত্বপূর্ণ বৈশিষ্ট্য হলো লক্ষণ এক পাশ থেকে অন্য পাশে পরিবর্তিত হওয়া।"
+  },
+  {
+    "id": "lac-can-sym-02",
+    "stem": "গলব্যথা যা এক পাশ থেকে অন্য পাশে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "sore-throat",
+      "alternating-sides"
+    ],
+    "explanation": "Lac Caninum-এ গলব্যথা এক পাশ থেকে অন্য পাশে যায়।"
+  },
+  {
+    "id": "lac-can-sym-09",
+    "stem": "মাথাব্যথা যা পাশ পরিবর্তন করে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "headache",
+      "alternating-sides"
+    ],
+    "explanation": "Lac Caninum-এ মাথাব্যথা এক পাশ থেকে অন্য পাশে পরিবর্তিত হয়।"
+  },
+  {
+    "id": "lac-can-sym-20",
+    "stem": "লক্ষণ ও ব্যথার পাশ পরিবর্তন ও স্থানান্তর — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "alternating-sides",
+      "pain"
+    ],
+    "explanation": "Lac Caninum-এর সবচেয়ে গুরুত্বপূর্ণ বৈশিষ্ট্য হলো ব্যথা বা লক্ষণ এক পাশ থেকে অন্য পাশে স্থানান্তরিত হওয়া।"
+  },
+  {
+    "id": "natp-sym-18",
+    "stem": "শীতকাতর, উভয় পার্শ্ব, সোরা ও সাইকোসিস মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "generalities",
+      "chilly",
+      "both-sides",
+      "miasm"
+    ],
+    "explanation": "Natrum Phos শীতকাতর ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "merc-sym-16",
+    "stem": "রাতে, বিছানার গরমে, স্যাঁতসেঁতে, ঘামলে, ডান পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "aggravation",
+      "night",
+      "bed-heat",
+      "damp",
+      "sweat",
+      "right-lying"
+    ],
+    "explanation": "Merc Vivus-এ রাতে, বিছানার গরমে, ঘামলে বৃদ্ধি।"
+  },
+  {
+    "id": "merc-sym-18",
+    "stem": "উৎস খনিজ তরল পারদ, ডান পার্শ্ব, সিফিলিটিক মায়াজমের রাজা — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Mercurius Dulcis",
+        "mid": "mercurius-dulcis"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "source",
+      "mineral",
+      "mercury",
+      "right-side",
+      "syphilitic"
+    ],
+    "explanation": "Merc Vivus পারদ থেকে তৈরি ও সিফিলিটিক মায়াজমের রাজা।"
+  },
+  {
+    "id": "magphos-sym-04",
+    "stem": "ডানপার্শ্বীয় আক্রমণ, প্রধানত শরীরের ডান দিকের স্নায়ু ও পেশিতে রোগাক্রমণ বেশি হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "side",
+      "right"
+    ],
+    "explanation": "Magnesia Phosphorica এ ডানপার্শ্বীয় আক্রমণ বেশি, প্রধানত শরীরের ডান দিকের স্নায়ু ও পেশিতে রোগাক্রমণ হয়।"
+  },
+  {
+    "id": "natc-sym-18",
+    "stem": "এর মায়াজম সোরা (Psora) প্রকৃতির এবং এটি বাম পাশের (Left-sided) লক্ষণপ্রবণ — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "miasm",
+      "side"
+    ],
+    "explanation": "Natrum Carb সোরা মায়াজমের অন্তর্গত এবং এর রোগলক্ষণগুলো সাধারণত শরীরের বাম দিকে বেশি প্রকাশ পায়।"
+  },
+  {
+    "id": "lyc-sym-01",
+    "stem": "লক্ষণসমূহ ডান পাশ থেকে শুরু হয়ে বাম পাশে স্থানান্তরিত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "direction",
+      "right-to-left",
+      "keynote"
+    ],
+    "explanation": "Lycopodium-এর সর্বপ্রধান গাইডলাইন লক্ষণ হলো ডান পাশ থেকে বাম পাশে রোগের আক্রমণ স্থানান্তরিত হওয়া।"
+  },
+  {
+    "id": "lach-sym-01",
+    "stem": "বাম পার্শ্বীয় লক্ষণ, বাম থেকে ডানে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "left-side",
+      "left-to-right",
+      "laterality"
+    ],
+    "explanation": "Lachesis-এর লক্ষণ বাম থেকে ডানে যায়।"
+  },
+  {
+    "id": "lach-sym-11",
+    "stem": "হৃদস্পন্দন অনিয়মিত, বাম পাশে চাপ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "heart",
+      "irregular",
+      "left-side",
+      "pressure"
+    ],
+    "explanation": "Lachesis-এ হৃদস্পন্দন অনিয়মিত ও বাম পাশে চাপ।"
+  },
+  {
+    "id": "lach-sym-12",
+    "stem": "মাথাব্যথা বাম পাশে, চাপ অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "headache",
+      "left-side",
+      "pressure"
+    ],
+    "explanation": "Lachesis-এ বাম পাশে মাথাব্যথা থাকে।"
+  },
+  {
+    "id": "lach-sym-13",
+    "stem": "গরমে, স্পর্শে, ঘুমের পর, সকালে, বাম পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "aggravation",
+      "heat",
+      "touch",
+      "sleep",
+      "morning",
+      "left-lying"
+    ],
+    "explanation": "Lachesis-এ গরমে, স্পর্শে, ঘুমের পর বৃদ্ধি।"
+  },
+  {
+    "id": "natp-sym-18",
+    "stem": "শীতকাতর, উভয় পার্শ্ব, সোরা ও সাইকোসিস মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "generalities",
+      "chilly",
+      "both-sides",
+      "miasm"
+    ],
+    "explanation": "Natrum Phos শীতকাতর ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "rhus-sym-12",
+    "stem": "এর মায়াজম সোরা (Psora) ও সাইকোসিস (Sycosis) এবং বাম পাশে ও আড়াআড়িভাবে কাজ করা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "miasm",
+      "side"
+    ],
+    "explanation": "Rhus Tox-এর মায়াজম সোরা ও সাইকোসিস এবং এটি শরীরের বাম পাশে ও আড়াআড়িভাবে কার্যকারিতা দেখায়।"
+  },
+  {
+    "id": "plumbum-sym-18",
+    "stem": "উভয় পাশে কাজ করে, তবে বাম পাশে এর প্রভাব বেশি স্পষ্ট, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "side",
+      "left"
+    ],
+    "explanation": "Plumbum Metallicum উভয় পাশে কাজ করে, তবে বাম পাশে এর প্রভাব বেশি স্পষ্ট।"
+  },
+  {
+    "id": "podo-sym-03",
+    "stem": "পর্যায়ক্রমে ডায়রিয়া ও কোষ্ঠবদ্ধতা, কোষ্ঠে মাথাব্যথা বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "alternating",
+      "diarrhea",
+      "constipation",
+      "headache"
+    ],
+    "explanation": "Podophyllum-এ ডায়রিয়া ও কোষ্ঠবদ্ধতা পর্যায়ক্রমে আসে।"
+  },
+  {
+    "id": "podo-sym-06",
+    "stem": "ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "ovary",
+      "right",
+      "pain",
+      "thigh"
+    ],
+    "explanation": "Podophyllum-এ ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায়।"
+  },
+  {
+    "id": "podo-sym-18",
+    "stem": "গরমকাতর, ডান পার্শ্বে বেশি, সোরা ও সাইকোসিস — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "generalities",
+      "hot",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Podophyllum গরমকাতর, ডান পার্শ্ব বেশি ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "phy-sym-13",
+    "stem": "শরীরের প্রধানত ডান পার্শ্বে (Right side) বেশি প্রতিক্রিয়া প্রদর্শন করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "side",
+      "right-sided"
+    ],
+    "explanation": "Phytolacca-এর অর্ধাঙ্গভিত্তিক আক্রমণের ঝোঁক প্রধানত শরীরের ডান পাশে।"
+  },
+  {
+    "id": "podo-sym-03",
+    "stem": "পর্যায়ক্রমে ডায়রিয়া ও কোষ্ঠবদ্ধতা, কোষ্ঠে মাথাব্যথা বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "alternating",
+      "diarrhea",
+      "constipation",
+      "headache"
+    ],
+    "explanation": "Podophyllum-এ ডায়রিয়া ও কোষ্ঠবদ্ধতা পর্যায়ক্রমে আসে।"
+  },
+  {
+    "id": "podo-sym-06",
+    "stem": "ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "ovary",
+      "right",
+      "pain",
+      "thigh"
+    ],
+    "explanation": "Podophyllum-এ ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায়।"
+  },
+  {
+    "id": "podo-sym-18",
+    "stem": "গরমকাতর, ডান পার্শ্বে বেশি, সোরা ও সাইকোসিস — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "generalities",
+      "hot",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Podophyllum গরমকাতর, ডান পার্শ্ব বেশি ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "phosphorus-sym-06",
+    "stem": "প্রধানত বাম পাশে রোগ হয়, বাম পাশে শুলে কাশি বাড়ে, চেপে শুতে পারে না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "side",
+      "left",
+      "cough"
+    ],
+    "explanation": "Phosphorus প্রধানত বামপার্শ্বীয় ঔষধ, বাম পাশে শুলে কাশি বাড়ে এবং রোগী চেপে শুতে পারে না।"
+  },
+  {
+    "id": "phosphorus-sym-20",
+    "stem": "সন্ধ্যায়, বাম পাশে শুলে, বজ্রপাতের সময়, আবহাওয়ার পরিবর্তনে ও গরম খাবার বা পানীয় গ্রহণ করলে বৃদ্ধি, ডান পাশে শুলে, অন্ধকার ঘরে বিশ্রামে, ঠান্ডা জল পানে ও ঘুমের পর উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "evening",
+      "left"
+    ],
+    "explanation": "Phosphorus এ সন্ধ্যায়, বাম পাশে শুলে, বজ্রপাতের সময়, আবহাওয়ার পরিবর্তনে এবং গরম খাবার বা পানীয় গ্রহণ করলে বৃদ্ধি হয়, ডান পাশে শুলে, অন্ধকার ঘরে বিশ্রামে, ঠান্ডা জল পানে এবং ঘুমের পর উপশম হয়।"
+  },
+  {
+    "id": "sel-sym-11",
+    "stem": "সর্দি ভালো হলে ডায়রিয়া হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "coryza",
+      "better",
+      "diarrhea",
+      "alternating"
+    ],
+    "explanation": "Selenium-এ সর্দি ভালো হলে ডায়রিয়া হয়।"
+  },
+  {
+    "id": "staph-sym-19",
+    "stem": "শীতকাতর, উভয় পার্শ্ব, সোরা সাইকোটিক সিফিলিটিক, পরিপূরক Causticum Colocynth — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "generalities",
+      "chilly",
+      "both-sides",
+      "miasm",
+      "complementary"
+    ],
+    "explanation": "Staphisagria শীতকাতর ও পরিপূরক Causticum।"
+  },
+  {
+    "id": "stannum-sym-07",
+    "stem": "বাম পার্শ্বে চেপে শয়নে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "modalities",
+      "left-side",
+      "lying"
+    ],
+    "explanation": "Stannum Met-এ বাম পার্শ্বে চেপে শয়নে উপশম হয়।"
+  },
+  {
+    "id": "stannum-sym-18",
+    "stem": "ডান পাশে শুলে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "modalities",
+      "right-side",
+      "lying"
+    ],
+    "explanation": "Stannum Met-এর লক্ষণ ডান পাশে শুলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "stannum-sym-20",
+    "stem": "শীতকাতর, বাম পার্শ্বে প্রাধান্য — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "thermals",
+      "left-sided"
+    ],
+    "explanation": "Stannum Met-এ রোগী শীতকাতর এবং এর প্রভাব প্রধানত বাম পার্শ্বে দেখা যায়।"
+  },
+  {
+    "id": "sene-sym-17",
+    "stem": "শরীরের বাম পাশে বেশি কাজ করে এবং মায়াজম সোরা (Psora) ও সাইকোসিস (Sycosis) — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "miasm",
+      "side"
+    ],
+    "explanation": "Senega প্রধানত বাম পাশের (Left-sided) লক্ষণগুলোতে বেশি ক্রিয়া করে এবং সোরা-সাইকোসিস মায়াজমের অন্তর্ভুক্ত।"
+  },
+  {
+    "id": "sars-sym-08",
+    "stem": "ডান দিকের কিডনি থেকে নিচের দিকে ছড়িয়ে পড়া অসহনীয় ব্যথা (Right-sided renal colic) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Berberis Vulgaris",
+        "mid": "berberis-vulgaris"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "renal-colic",
+      "right-sided",
+      "kidney-stones",
+      "pain"
+    ],
+    "explanation": "Sarsaparilla Officinalis ডান দিকের রেনাল কোলিকে (Right-sided renal colic) কার্যকর, যেখানে ব্যথা ডান কিডনি থেকে নিচের দিকে অসহনীয়ভাবে ছড়িয়ে পড়ে।"
+  },
+  {
+    "id": "sanguinaria-sym-01",
+    "stem": "ডান দিকের মাথাব্যথা, ঘাড় থেকে শুরু হয়ে মাথার ওপর দিয়ে এসে ডান চোখের ওপর স্থির হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "headache",
+      "right",
+      "occiput"
+    ],
+    "explanation": "Sanguinaria Canadensis এ মাথাব্যথা প্রধানত ডান দিকে হয় এবং এটি ঘাড়ের দিক থেকে শুরু হয়ে মাথার ওপর দিয়ে এসে ডান চোখের ওপর স্থির হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-07",
+    "stem": "ডানে শুইতে পারে না, ডান পাশে শুলে বৃদ্ধি হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "aggravation",
+      "right-lying"
+    ],
+    "explanation": "Sanguinaria Canadensis রোগী ডানে শুইতে পারে না, ডান পাশে শুলে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-19",
+    "stem": "ডান কাঁধের ব্যথা, ডান কাঁধের পেশিতে প্রচণ্ড ব্যথা, ডান হাত ওপরে তুলতে বা পেছন দিকে নিতে পারে না, রাতে বিছানায় এপাশ ওপাশ করলে ব্যথা বাড়ে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium"
+      },
+      {
+        "text": "Ferrum Metallicum",
+        "mid": "ferrum-metallicum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "shoulder",
+      "right",
+      "pain"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ডান কাঁধের পেশিতে প্রচণ্ড ব্যথা হয়, রোগী ডান হাত ওপরে তুলতে বা পেছন দিকে নিতে পারে না, রাতে বিছানায় এপাশ ওপাশ করলে ব্যথা বাড়ে।"
+  },
+  {
+    "id": "sanguinaria-sym-20",
+    "stem": "ডান পাশে শুলে, নড়াচড়া করলে, আলোর দিকে তাকালে, কড়া গন্ধে ও দুপুর বেলায় বৃদ্ধি, বমি করলে, অন্ধকার ঘরে শুয়ে থাকলে, ঘুমিয়ে পড়লে ও প্রচুর পরিমাণে প্রস্রাব ত্যাগ করলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "right",
+      "noon"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ডান পাশে শুলে, নড়াচড়া করলে, আলোর দিকে তাকালে, কড়া গন্ধে এবং দুপুর বেলায় বৃদ্ধি হয়, বমি করলে, অন্ধকার ঘরে শুয়ে থাকলে, ঘুমিয়ে পড়লে এবং প্রচুর পরিমাণে প্রস্রাব ত্যাগ করলে উপশম হয়।"
+  },
+  {
+    "id": "staph-sym-19",
+    "stem": "শীতকাতর, উভয় পার্শ্ব, সোরা সাইকোটিক সিফিলিটিক, পরিপূরক Causticum Colocynth — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "generalities",
+      "chilly",
+      "both-sides",
+      "miasm",
+      "complementary"
+    ],
+    "explanation": "Staphisagria শীতকাতর ও পরিপূরক Causticum।"
+  },
+  {
+    "id": "sep-sym-10",
+    "stem": "বাম পাশের মাথাব্যথা যা বমি ভাব এবং মেনোপজ বা ঋতুস্রাব বন্ধের সময় বৃদ্ধি পায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "headache",
+      "menopause",
+      "left-sided"
+    ],
+    "explanation": "Sepia-র মাথাব্যথা বামে হয় এবং বমি বমি ভাব ও মেনোপজের জটিলতায় বাড়ে।"
+  },
+  {
+    "id": "sep-sym-13",
+    "stem": "শরীরের প্রধানত বাম পাশে (Left-sided) বেশি ক্রিয়াশীলতা প্রদর্শন করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "side",
+      "left-sided"
+    ],
+    "explanation": "Sepia-র বাহ্যিক ও অভ্যন্তরীণ ক্রিয়ার প্রাথমিক দিক হলো বাম পাশ।"
+  },
+  {
+    "id": "sec-sym-13",
+    "stem": "রোগলক্ষণ ডান পাশ থেকে শুরু হয়ে বাম পাশে স্থানান্তরিত হওয়ার প্রবণতা থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "side",
+      "right-to-left"
+    ],
+    "explanation": "Secale Cornutum-এর কষ্ট ডান পাশ হতে বাম অংশে বিস্তৃত হয়।"
+  },
+  {
+    "id": "spigelia-sym-03",
+    "stem": "বামদিকে রোগাক্রমণ, বায়ে শুইতে পারে না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "side",
+      "left"
+    ],
+    "explanation": "Spigelia Anthelmia বামপার্শ্বীয় ঔষধ, বামদিকে রোগাক্রমণ হয়, রোগী বায়ে শুইতে পারে না।"
+  },
+  {
+    "id": "spigelia-sym-18",
+    "stem": "বাম পাশের মুখমণ্ডলে অসহ্য যন্ত্রণা, সূর্যোদয়ের সঙ্গে শুরু হয়, সূর্যাস্তের সঙ্গে কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "face",
+      "left",
+      "sun-headache"
+    ],
+    "explanation": "Spigelia Anthelmia এ বাম পাশের মুখমণ্ডলে অসহ্য যন্ত্রণা হয়, যা সূর্যোদয়ের সঙ্গে শুরু হয় এবং সূর্যাস্তের সঙ্গে কমে যায়।"
+  },
+  {
+    "id": "spigelia-sym-19",
+    "stem": "হৃৎস্পন্দনের সাথে প্রচণ্ড শ্বাসকষ্ট ও বাম বাহু অবশ হয়ে যাওয়া, এনজিনা পেক্টোরিসে কার্যকর, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "heart",
+      "dyspnoea",
+      "angina",
+      "left-arm"
+    ],
+    "explanation": "Spigelia Anthelmia এ হৃৎস্পন্দনের সাথে প্রচণ্ড শ্বাসকষ্ট হয় এবং বাম বাহু অবশ হয়ে যায়, এনজিনা পেক্টোরিসে এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "sil-sym-07",
+    "stem": "মাথাব্যথা ঘাড় থেকে শুরু হয়ে চোখের ওপর (সাধারণত ডান চোখে) এসে স্থির হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "headache",
+      "occiput",
+      "right-eye"
+    ],
+    "explanation": "Silicea-এ মাথাব্যথা ঘাড় থেকে শুরু হয়ে চোখের ওপর (সাধারণত ডান চোখে) এসে স্থির হয়।"
+  },
+  {
+    "id": "sil-sym-14",
+    "stem": "পার্শ্বগতভাবে প্রধানত ডান দিকে কাজ করে — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "sidedness",
+      "right-sided"
+    ],
+    "explanation": "Silicea পার্শ্বগতভাবে প্রধানত ডান দিকে কাজ করে।"
+  },
+  {
+    "id": "sab-sym-17",
+    "stem": "গরমকাতর, উভয় পার্শ্ব, সাইকোসিস ও সোরা মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "generalities",
+      "hot",
+      "both-sides",
+      "miasm",
+      "sycotic"
+    ],
+    "explanation": "Sabina গরমকাতর ও সাইকোটিক।"
+  },
+  {
+    "id": "zincum-sym-20",
+    "stem": "মূলত বাম পাশে এবং ওপর থেকে নিচে ক্রিয়া করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "side",
+      "left",
+      "direction"
+    ],
+    "explanation": "Zincum Metallicum মূলত বাম পাশে এবং ওপর থেকে নিচে ক্রিয়া করে।"
+  },
+  {
+    "id": "thuja-sym-04",
+    "stem": "বাম দিকের রোগী, শীতকাতর, ঠান্ডা ও বর্ষায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "left-sided",
+      "chilly",
+      "cold-agg",
+      "rainy-agg"
+    ],
+    "explanation": "Thuja বাম পার্শ্ব ও শীতকাতর।"
+  },
+  {
+    "id": "thuja-sym-18",
+    "stem": "গরমে, ডান পাশে শুলে ও শুষ্ক আবহাওয়ায় উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "amelioration",
+      "heat",
+      "right-lying",
+      "dry-weather"
+    ],
+    "explanation": "Thuja গরমে, ডান পাশে শুলে ও শুষ্ক আবহাওয়ায় ভালো থাকে।"
+  },
+  {
+    "id": "thuja-sym-04",
+    "stem": "বাম দিকের রোগী, শীতকাতর, ঠান্ডা ও বর্ষায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "left-sided",
+      "chilly",
+      "cold-agg",
+      "rainy-agg"
+    ],
+    "explanation": "Thuja বাম পার্শ্ব ও শীতকাতর।"
+  },
+  {
+    "id": "thuja-sym-18",
+    "stem": "গরমে, ডান পাশে শুলে ও শুষ্ক আবহাওয়ায় উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "amelioration",
+      "heat",
+      "right-lying",
+      "dry-weather"
+    ],
+    "explanation": "Thuja গরমে, ডান পাশে শুলে ও শুষ্ক আবহাওয়ায় ভালো থাকে।"
+  },
+  {
+    "id": "apis-sym-10",
+    "stem": "প্রধানত ডান দিকের ডিম্বাশয়ের প্রদাহ (Ovaritis) বা সিস্ট এবং তলপেটে হুল ফোটানো ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "female",
+      "right-ovary",
+      "ovarian-cyst",
+      "stinging-pain"
+    ],
+    "explanation": "Apis Mellifica-এ প্রধানত ডান দিকের ডিম্বাশয়ের প্রদাহ (Ovaritis) বা সিস্ট এবং তলপেটে হুল ফোটানো ব্যথা হয়, যা স্পর্শ করলে বেড়ে যায়।"
+  },
+  {
+    "id": "apis-sym-20",
+    "stem": "গরম কাতর (Very Hot) এবং প্রধানত ডান পার্শ্বে কাজ করে — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "thermal",
+      "hot-patient",
+      "right-sided"
+    ],
+    "explanation": "Apis Mellifica চরম গরমকাতর (Very Hot) এবং প্রধানত ডান পার্শ্বে কাজ করে।"
+  }
+]

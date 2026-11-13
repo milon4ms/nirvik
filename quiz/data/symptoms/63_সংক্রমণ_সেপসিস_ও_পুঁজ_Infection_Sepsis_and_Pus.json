@@ -1,0 +1,695 @@
+[
+  {
+    "id": "argn-sym-07",
+    "stem": "চোখ দিয়ে প্রচুর ঘন, হলদেটে পুঁজ নির্গত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "eyes",
+      "discharge",
+      "pus"
+    ],
+    "explanation": "Argentum Nitricum-এ চোখ থেকে প্রচুর পরিমাণে ঘন, হলদেটে পুঁজ নির্গত হয়।"
+  },
+  {
+    "id": "borax-sym-12",
+    "stem": "কানে শোঁ শোঁ শব্দ ও চুলকানি, ঘন পুঁজ নির্গমন — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "ear",
+      "tinnitus",
+      "pus"
+    ],
+    "explanation": "Borax-এ কানে শোঁ শোঁ শব্দ ও চুলকানি হয় এবং কান দিয়ে ঘন পুঁজ নির্গত হতে পারে।"
+  },
+  {
+    "id": "borax-sym-16",
+    "stem": "সামান্য আঘাতেই ক্ষত ও পুঁজ জন্মানো (Unhealthy skin) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "skin",
+      "unhealthy",
+      "pus"
+    ],
+    "explanation": "Borax-এ সামান্য আঘাতেই ক্ষত সৃষ্টি হয় এবং সেখানে পুঁজ জন্মে (Unhealthy skin)।"
+  },
+  {
+    "id": "calen-sym-03",
+    "stem": "অস্ত্রোপচার পরবর্তী ক্ষতে ইনফেকশন রোধ ও ব্যথা কমাতে অপ্রতিদ্বন্দ্বী — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "surgery",
+      "post-operative",
+      "infection",
+      "pain"
+    ],
+    "explanation": "Calendula সার্জারির পর ইনফেকশন রোধে শ্রেষ্ঠ।"
+  },
+  {
+    "id": "calc-sulph-sym-01",
+    "stem": "ফোড়া ফেটে যাওয়ার পর ঘন হলুদ ও দলা দলা পুঁজ নির্গত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "pus",
+      "abscess"
+    ],
+    "explanation": "Calcarea Sulph পুঁজের তৃতীয় অবস্থায় ব্যবহৃত হয়, যখন ফোড়া ফেটে যাওয়ার পর ঘন, হলুদ ও দলা দলা পুঁজ নির্গত হতে থাকে।"
+  },
+  {
+    "id": "calc-sulph-sym-02",
+    "stem": "ক্ষত সহজে শুকায় না, অনবরত হলুদ পুঁজ নির্গত হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "wound",
+      "pus",
+      "slow-healing"
+    ],
+    "explanation": "Calcarea Sulph-এ শরীরের যেকোনো স্থানের ক্ষত সহজে শুকাতে চায় না এবং অনবরত হলুদ পুঁজ নির্গত হতে থাকে।"
+  },
+  {
+    "id": "calc-sulph-sym-05",
+    "stem": "কান পেকে দুর্গন্ধযুক্ত হলুদ পুঁজ নির্গত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "ear",
+      "pus",
+      "offensive"
+    ],
+    "explanation": "Calcarea Sulph-এ কান পেকে দুর্গন্ধযুক্ত হলুদ পুঁজ নির্গত হয়।"
+  },
+  {
+    "id": "calc-sulph-sym-16",
+    "stem": "হলুদ পুঁজযুক্ত ব্রণ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "acne",
+      "pus",
+      "skin"
+    ],
+    "explanation": "Calcarea Sulph ব্রণের সমস্যায় অত্যন্ত কার্যকরী, বিশেষত যেখানে হলুদ পুঁজ থাকে।"
+  },
+  {
+    "id": "calc-sulph-sym-18",
+    "stem": "অর্শ বা ফিস্টুলার ক্ষত থেকে অনবরত পুঁজ ঝরা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "piles",
+      "fistula",
+      "pus"
+    ],
+    "explanation": "Calcarea Sulph মলদ্বারের অর্শ বা ফিস্টুলার ক্ষেত্রে উপযোগী, যেখান থেকে অনবরত পুঁজ ঝরে।"
+  },
+  {
+    "id": "hepar-sym-06",
+    "stem": "পুঁজ জমিবার প্রবণতা, ফোড়া পুঁজযুক্ত হলে বা ফেটে পুঁজ বের করতে হলে হিপার, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "pus",
+      "abscess",
+      "suppuration"
+    ],
+    "explanation": "Hepar Sulph এ পুঁজ জমিবার প্রবণতা থাকে, ফোড়া পুঁজযুক্ত হলে বা ফেটে পুঁজ বের করতে হলে হিপার দিতে হয়।"
+  },
+  {
+    "id": "hepar-sym-07",
+    "stem": "ক্ষত পুঁজযুক্ত হলে, দুর্গন্ধ থাকলে, স্পর্শকাতরতা থাকলে হিপার, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "wound",
+      "pus",
+      "foul",
+      "sensitive"
+    ],
+    "explanation": "Hepar Sulph এ ক্ষত পুঁজযুক্ত হলে, দুর্গন্ধ থাকলে, স্পর্শকাতরতা থাকলে হিপার দিতে হয়।"
+  },
+  {
+    "id": "hepar-sym-12",
+    "stem": "নিম্ন শক্তিতে পুঁজ তৈরি করে, উচ্চ শক্তিতে পুঁজ শুকিয়ে ফেলে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "pus",
+      "potency"
+    ],
+    "explanation": "Hepar Sulph নিম্ন শক্তিতে পুঁজ তৈরি করে এবং উচ্চ শক্তিতে পুঁজ শুকিয়ে ফেলে।"
+  },
+  {
+    "id": "hepar-sym-16",
+    "stem": "সামান্য আঘাতেই ঘা হয়ে যায়, পুরোনো ক্ষত থেকে দুর্গন্ধযুক্ত রস বা পুঁজ বের হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "skin",
+      "wound",
+      "pus"
+    ],
+    "explanation": "Hepar Sulph এ সামান্য আঘাতেই ঘা হয়ে যায়, পুরোনো ক্ষত থেকে দুর্গন্ধযুক্ত রস বা পুঁজ বের হয়।"
+  },
+  {
+    "id": "hepar-sym-19",
+    "stem": "কানের ভেতর পুঁজ জমা, কান পাকা, দুর্গন্ধযুক্ত পুঁজ নির্গত হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "ear",
+      "pus",
+      "otitis"
+    ],
+    "explanation": "Hepar Sulph এ কানের ভেতর পুঁজ জমা বা কান পাকা রোগ হয়, যা থেকে দুর্গন্ধযুক্ত পুঁজ নির্গত হয়।"
+  },
+  {
+    "id": "euphrasia-sym-13",
+    "stem": "চোখের পাতায় আঠালো পুঁজ জমে সকালে চোখ জুড়ে থাকা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "lids",
+      "pus",
+      "morning"
+    ],
+    "explanation": "Euphrasia Officinalis এ চোখের পাতায় আঠালো পুঁজ জমে সকালে চোখ জুড়ে থাকে।"
+  },
+  {
+    "id": "mez-sym-20",
+    "stem": "ত্বকের ক্ষত থেকে দুর্গন্ধযুক্ত পুঁজ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "pus",
+      "skin"
+    ],
+    "explanation": "Offensive purulent discharge under crusts suggests Mezereum."
+  },
+  {
+    "id": "lach-sym-07",
+    "stem": "শরীরে নীল-বেগুনি দাগ, সহজে রক্তপাত, পচনশীলতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Crotalus Horridus",
+        "mid": "crotalus-horridus"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "skin",
+      "ecchymosis",
+      "hemorrhage",
+      "septic"
+    ],
+    "explanation": "Lachesis-এ নীল-বেগুনি দাগ ও রক্তপাত হয়।"
+  },
+  {
+    "id": "pyrogenium-sym-01",
+    "stem": "নাড়ির স্পন্দন ও উত্তাপের অসামঞ্জস্য — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "sepsis",
+      "pulse-temperature"
+    ],
+    "explanation": "Pyrogenium-এর সবচেয়ে অদ্ভুত ও প্রধান লক্ষণ হলো জ্বরের তুলনায় নাড়ির গতি অত্যন্ত দ্রুত হওয়া, অথবা নাড়ি স্বাভাবিক থাকলেও শরীরের তাপমাত্রা অনেক বেশি থাকা।"
+  },
+  {
+    "id": "pyrogenium-sym-05",
+    "stem": "রক্তদূষণ বা সেপটিক জ্বর, জীবনীশক্তি দ্রুত কমে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "sepsis",
+      "septic-fever"
+    ],
+    "explanation": "Pyrogenium রক্তদূষণ বা সেপটিক জ্বরে উপযোগী, যেখানে জীবনীশক্তি দ্রুত কমে যায় এবং টাইফয়েডের মতো লক্ষণ দেখা দেয়।"
+  },
+  {
+    "id": "pyrogenium-sym-01",
+    "stem": "নাড়ির স্পন্দন ও উত্তাপের অসামঞ্জস্য — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "sepsis",
+      "pulse-temperature"
+    ],
+    "explanation": "Pyrogenium-এর সবচেয়ে অদ্ভুত ও প্রধান লক্ষণ হলো জ্বরের তুলনায় নাড়ির গতি অত্যন্ত দ্রুত হওয়া, অথবা নাড়ি স্বাভাবিক থাকলেও শরীরের তাপমাত্রা অনেক বেশি থাকা।"
+  },
+  {
+    "id": "pyrogenium-sym-05",
+    "stem": "রক্তদূষণ বা সেপটিক জ্বর, জীবনীশক্তি দ্রুত কমে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "sepsis",
+      "septic-fever"
+    ],
+    "explanation": "Pyrogenium রক্তদূষণ বা সেপটিক জ্বরে উপযোগী, যেখানে জীবনীশক্তি দ্রুত কমে যায় এবং টাইফয়েডের মতো লক্ষণ দেখা দেয়।"
+  },
+  {
+    "id": "sil-sym-01",
+    "stem": "শরীরে বিদ্যমান পুঁজকে দ্রুত পাকিয়ে বের করে দেওয়া বা শুকিয়ে ফেলার প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "suppuration",
+      "pus",
+      "abscess"
+    ],
+    "explanation": "Silicea-এর প্রধান পরিচায়ক লক্ষণ হলো শরীরের যেকোনো স্থানে পুঁজ হওয়ার প্রবণতা থাকলে তা দ্রুত পাকিয়ে বের করে দেয় অথবা শুকিয়ে ফেলে।"
+  },
+  {
+    "id": "sil-sym-09",
+    "stem": "সামান্য আঁচড় লাগলেই সেখানে পুঁজ হয়; আঙুলহাড়া (Whitlow) বা নখের কোণ পাকার সমস্যা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "skin",
+      "pus",
+      "whitlow",
+      "nail"
+    ],
+    "explanation": "Silicea-এ সামান্য আঁচড় লাগলেই সেখানে পুঁজ হয়; আঙুলহাড়া (Whitlow) বা নখের কোণ পাকার সমস্যায় এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "verat-sym-18",
+    "stem": "এটি কলেরা বা ওলাউঠা রোগের একটি প্রধান ঔষধ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "cholera",
+      "infectious-disease"
+    ],
+    "explanation": "Veratrum Album কলেরা বা ওলাউঠা রোগের একটি প্রধান ঔষধ।"
+  }
+]

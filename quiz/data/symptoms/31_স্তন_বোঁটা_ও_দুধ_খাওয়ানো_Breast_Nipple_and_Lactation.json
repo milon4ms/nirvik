@@ -1,0 +1,324 @@
+[
+  {
+    "id": "bry-sym-11",
+    "stem": "প্রসূতি মায়েদের স্তন শক্ত, ভারী, পাথরের মতো এবং অত্যন্ত গরম থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "breasts",
+      "hardness",
+      "mastitis"
+    ],
+    "explanation": "Bryonia-এ প্রসূতি মায়েদের প্রস্টেট ও স্তন গ্রন্থি পাথরের মতো শক্ত, ভারী এবং হাত দিলে অত্যন্ত গরম অনুভূত হয়।"
+  },
+  {
+    "id": "calc-fluor-sym-14",
+    "stem": "স্তনে শক্ত, ব্যথাহীন টিউমার — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "female",
+      "breast",
+      "tumor",
+      "induration"
+    ],
+    "explanation": "Calcarea Fluorica-এ স্তনে শক্ত, ব্যথাহীন টিউমার (Hard, painless tumor in breast) হয়।"
+  },
+  {
+    "id": "croton-sym-03",
+    "stem": "স্তন্যদানকালে স্তন থেকে পিঠ পর্যন্ত টান লাগার মতো ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca-decandra"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "breast",
+      "nursing",
+      "pain"
+    ],
+    "explanation": "Croton Tiglium-এ স্তন্যদানকারী মহিলার শিশু দুধ পান করলে মনে হয় যেন স্তন থেকে পিঠের দিকে দড়ি দিয়ে টানছে।"
+  },
+  {
+    "id": "croton-sym-15",
+    "stem": "স্তনবৃন্তের ভেতরে তীব্র ব্যথা যা পিঠের স্ক্যাপুলা পর্যন্ত ছড়ায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca-decandra"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "breast",
+      "pain",
+      "scapula"
+    ],
+    "explanation": "Croton Tiglium-এ স্তনবৃন্তের ভেতরে তীব্র ব্যথা হয় যা পিঠের পেছনের হাড়ের (Scapula) দিকে ছড়িয়ে পড়ে।"
+  },
+  {
+    "id": "conium-sym-08",
+    "stem": "স্তনে শক্তভাব, রজস্রাবের সময় ফুলে ও ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Phytolacca Decandra",
+        "mid": "phytolacca-decandra"
+      },
+      {
+        "text": "Asterias Rubens",
+        "mid": "asterias-rubens"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "breast",
+      "hardness",
+      "menses",
+      "swelling",
+      "pain"
+    ],
+    "explanation": "Conium-এ স্তন শক্ত ও মাসিকে ফুলে ব্যথা হয়।"
+  },
+  {
+    "id": "iodium-sym-15",
+    "stem": "স্তন গ্রন্থি শুকিয়ে ছোট হয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Sabal Serrulata",
+        "mid": "sabal-serrulata"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "female",
+      "breast",
+      "atrophy"
+    ],
+    "explanation": "Iodium এ স্তন গ্রন্থি শুকিয়ে ছোট হয়ে যায়।"
+  },
+  {
+    "id": "lac-can-sym-05",
+    "stem": "স্তনে ব্যথা, ফোলা (Mastitis) ও দুধ শুকিয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca-decandra"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "breast",
+      "mastitis",
+      "milk"
+    ],
+    "explanation": "Lac Caninum-এ স্তনে ব্যথা, ফোলা (Mastitis) এবং দুধ শুকিয়ে যাওয়ার সমস্যা হয়।"
+  },
+  {
+    "id": "lac-can-sym-19",
+    "stem": "স্তনে ফোলা ও ব্যথার সাথে মাসিকজনিত সম্পর্ক — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca-decandra"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "breast",
+      "mastitis",
+      "menses"
+    ],
+    "explanation": "Lac Caninum-এ স্তনে ফোলা ও ব্যথার সাথে মাসিকজনিত সম্পর্ক থাকে।"
+  },
+  {
+    "id": "phy-sym-03",
+    "stem": "স্তন অত্যন্ত শক্ত, পাথরের মতো কঠিন, গরম ও প্রসূতির দুধ পান করানোর সময় ব্যথা সারা শরীরে ছড়িয়ে পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "mammae",
+      "mastitis",
+      "nursing-pain"
+    ],
+    "explanation": "Phytolacca স্তনের শক্ত পিণ্ড ও দুধ পান করানোর সময় সারা দেহে ব্যথা বিস্তারের মহৌষধ।"
+  },
+  {
+    "id": "phy-sym-19",
+    "stem": "স্তনের টিউমার, ক্ষতিকর পিণ্ড ও অতিরিক্ত মেদ হ্রাসে ফলপ্রসূ হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Fucus Vesiculosus",
+        "mid": "fucus-vesiculosus"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "tumor",
+      "breast",
+      "obesity"
+    ],
+    "explanation": "Phytolacca স্তনগ্রন্থির টিউমার ও স্থূলতা বা মেদ কমাবার জন্য অন্যতম সুপরিচিত।"
+  },
+  {
+    "id": "sars-sym-12",
+    "stem": "মেয়েদের স্তনের বোঁটা ভিতরে ঢুকে যায় (Retracted nipples) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "female",
+      "breast",
+      "retracted-nipples"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ মেয়েদের স্তনের বোঁটা ভিতরে ঢুকে যায় (Retracted nipples)।"
+  }
+]

@@ -1,0 +1,990 @@
+[
+  {
+    "id": "arnica-mont-sym-19",
+    "stem": "লক্ষণ বৃদ্ধি পায় আর্দ্র ঠান্ডায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "damp-cold"
+    ],
+    "explanation": "Arnica Montana-এর লক্ষণ আর্দ্র ঠান্ডায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "bac-sym-17",
+    "stem": "রাতে, ভোরের দিকে, ঠান্ডায়, স্যাঁতসেঁতে আবহাওয়ায় ও নড়াচড়া করলে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "aggravation",
+      "cold",
+      "damp",
+      "motion"
+    ],
+    "explanation": "Bacillinum এ রাতে, ভোরের দিকে, ঠান্ডায়, স্যাঁতসেঁতে আবহাওয়ায় এবং নড়াচড়া করলে লক্ষণ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "baryta-sym-13",
+    "stem": "ঠান্ডায়, ভেজা আবহাওয়ায়, বাম পাশে শুলে, মাথা ধুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "aggravation",
+      "cold",
+      "wet",
+      "left-side",
+      "washing-head"
+    ],
+    "explanation": "Baryta-র বৃদ্ধি ঠান্ডা, ভেজা, বাম পাশে শোয়া ও মাথা ধোয়ায়।"
+  },
+  {
+    "id": "calcphos-sym-19",
+    "stem": "ভিজে ঠান্ডা আবহাওয়া, তুষার গলা জল, নড়াচড়া ও মানসিক পরিশ্রমে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "aggravation",
+      "cold",
+      "damp",
+      "motion"
+    ],
+    "explanation": "Calcarea Phosphorica এ ভিজে ঠান্ডা আবহাওয়ায়, তুষার গলা জলে, নড়াচড়া করলে এবং মানসিক পরিশ্রমে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "calen-sym-11",
+    "stem": "কানে কম শোনা যা মেঘলা আবহাওয়ায় বাড়ে, কানে ঘা বা পুঁজ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Mangifera",
+        "mid": "mangifera"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "ear",
+      "deafness",
+      "damp",
+      "ulcer"
+    ],
+    "explanation": "Calendula-তে মেঘলা আবহাওয়ায় বধিরতা বাড়ে।"
+  },
+  {
+    "id": "calen-sym-13",
+    "stem": "মেঘলা বা স্যাঁতসেঁতে আবহাওয়ায়, নড়াচড়ায়, রাতে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "aggravation",
+      "damp",
+      "cloudy",
+      "motion",
+      "night"
+    ],
+    "explanation": "Calendula-র বৃদ্ধি মেঘলা, স্যাঁতসেঁতে, নড়াচড়া ও রাতে।"
+  },
+  {
+    "id": "calc-fluor-sym-20",
+    "stem": "লক্ষণ বৃদ্ধি পায় বিশ্রামে, আবহাওয়ার পরিবর্তনে এবং ঠান্ডা ও আর্দ্র পরিবেশে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "rest",
+      "weather-change",
+      "cold-damp"
+    ],
+    "explanation": "Calcarea Fluorica-এর লক্ষণ বিশ্রাম নিলে, আবহাওয়ার পরিবর্তনে এবং ঠান্ডা ও আর্দ্র পরিবেশে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "carbo-sym-15",
+    "stem": "বিকেল ৪টা থেকে ৮টা, শুয়ে থাকলে, আর্দ্র আবহাওয়ায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "aggravation",
+      "afternoon",
+      "lying",
+      "damp"
+    ],
+    "explanation": "Carbo Veg-এ ৪-৮টায় ও শুয়ে থাকলে বৃদ্ধি।"
+  },
+  {
+    "id": "causticum-sym-20",
+    "stem": "শুষ্ক ও ঠান্ডা আবহাওয়ায় বৃদ্ধি, আর্দ্র আবহাওয়ায় উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "modalities",
+      "dry-cold",
+      "damp"
+    ],
+    "explanation": "Causticum-এর লক্ষণ শুষ্ক ও পরিষ্কার ঠান্ডা আবহাওয়ায় বৃদ্ধি পায় এবং স্যাঁতসেঁতে বা আর্দ্র আবহাওয়ায় উপশম হয়।"
+  },
+  {
+    "id": "cinn-sym-09",
+    "stem": "রাতে বিছানায় শোয়ার পর এবং স্যাঁতসেঁতে আবহাওয়ায় কষ্টের বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "aggravation",
+      "night",
+      "damp"
+    ],
+    "explanation": "Cinnabaris-এর শারীরিক কষ্টগুলো রাতের বেলা শয্যায় গেলে ও ভেজা সেঁতসেঁতে আবহাওয়ায় বৃদ্ধি পেতে দেখা যায়।"
+  },
+  {
+    "id": "hyper-sym-17",
+    "stem": "কুয়াশা, স্যাঁতসেঁতে, স্পর্শে, ঠান্ডায়, নড়াচড়ায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "aggravation",
+      "fog",
+      "damp",
+      "touch",
+      "cold",
+      "motion"
+    ],
+    "explanation": "Hypericum-এ কুয়াশা, স্যাঁতসেঁতে, স্পর্শ, ঠান্ডা ও নড়াচড়ায় বৃদ্ধি।"
+  },
+  {
+    "id": "ipecac-sym-15",
+    "stem": "আর্দ্র গরম আবহাওয়ায় লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "damp-hot-weather"
+    ],
+    "explanation": "Ipecac-এর লক্ষণ আর্দ্র গরম আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "dulc-sym-01",
+    "stem": "গরম আবহাওয়ার পর হঠাৎ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায় অসুস্থ হয়ে পড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "weather-change",
+      "cold-damp",
+      "ailments-from"
+    ],
+    "explanation": "Dulcamara-এর প্রধান বৈশিষ্ট্য হলো—গরম আবহাওয়ার পর হঠাৎ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায় অসুস্থ হয়ে পড়া (Ailments from sudden change from heat to cold)।"
+  },
+  {
+    "id": "dulc-sym-02",
+    "stem": "ভিজে মাটিতে হাঁটা বা বর্ষায় ভেজার ফলে বাতের ব্যথা বা ডায়রিয়া হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "rheumatism",
+      "diarrhea",
+      "wet-ground",
+      "rain"
+    ],
+    "explanation": "Dulcamara-এ ভিজে মাটিতে হাঁটা, বর্ষায় ভেজা বা ঠান্ডা ঘরে বসবাসের ফলে যদি বাতের ব্যথা বা ডায়রিয়া হয়, তবে এটি শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "dulc-sym-03",
+    "stem": "বর্ষাকালে শরীরে বড় বড় আমবাত (Urticaria) বা চড়চড়ানি উদ্ভেদ দেখা দেওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "urticaria",
+      "skin",
+      "rainy-season"
+    ],
+    "explanation": "Dulcamara-এ বর্ষাকালে শরীরে বড় বড় আমবাত (Urticaria) বা চড়চড়ানি উদ্ভেদ দেখা দেওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "dulc-sym-09",
+    "stem": "নাক বন্ধ হয়ে যাওয়া (Stuffy cold), বিশেষ করে বৃষ্টিতে ভিজলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sticta",
+        "mid": "sticta"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "coryza",
+      "stuffy-nose",
+      "rain"
+    ],
+    "explanation": "Dulcamara-এ নাক বন্ধ হয়ে যাওয়া (Stuffy cold), বিশেষ করে বৃষ্টিতে ভিজলে—এটি একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "dulc-sym-11",
+    "stem": "বাতের ব্যথা (Rheumatism) যা ঠান্ডা ও ভিজে আবহাওয়ায় প্রচণ্ড বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "rheumatism",
+      "cold-damp",
+      "aggravation"
+    ],
+    "explanation": "Dulcamara-এ বাতের ব্যথা (Rheumatism) ঠান্ডা ও ভিজে আবহাওয়ায় প্রচণ্ড বাড়ে।"
+  },
+  {
+    "id": "dulc-sym-15",
+    "stem": "লক্ষণ বৃদ্ধি পায় ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায়, রাতে এবং বিশ্রামে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "cold-damp",
+      "night",
+      "rest"
+    ],
+    "explanation": "Dulcamara-এর লক্ষণ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায়, রাতে এবং বিশ্রামে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "mez-sym-18",
+    "stem": "স্যাঁতসেঁতে আবহাওয়ায় হাড়ের ব্যথা বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "bones",
+      "damp-weather"
+    ],
+    "explanation": "Damp weather aggravates Mezereum bone pains."
+  },
+  {
+    "id": "merc-sym-02",
+    "stem": "প্রচণ্ড লালাঝরা, ঘুমে বা কথা বলার সময় দুর্গন্ধযুক্ত লালায় বালিশ ভেজে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "salivation",
+      "offensive",
+      "pillow-wet",
+      "sleep"
+    ],
+    "explanation": "Merc Vivus-এ দুর্গন্ধযুক্ত লালা বালিশ ভেজায়।"
+  },
+  {
+    "id": "merc-sym-16",
+    "stem": "রাতে, বিছানার গরমে, স্যাঁতসেঁতে, ঘামলে, ডান পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "aggravation",
+      "night",
+      "bed-heat",
+      "damp",
+      "sweat",
+      "right-lying"
+    ],
+    "explanation": "Merc Vivus-এ রাতে, বিছানার গরমে, ঘামলে বৃদ্ধি।"
+  },
+  {
+    "id": "rhus-sym-03",
+    "stem": "বৃষ্টিতে ভেজা, ঘাম শরীরে বসে যাওয়া বা স্যাঁতসেঁতে আবহাওয়ায় থাকার ফলে অসুস্থ হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulph",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "weather",
+      "getting-wet"
+    ],
+    "explanation": "বৃষ্টিতে ভেজা বা স্যাঁতসেঁতে আবহাওয়ার সংস্পর্শে এসে অসুস্থ হলে Rhus Tox অন্যতম প্রধান নির্দেশক ওষুধ।"
+  },
+  {
+    "id": "phy-sym-07",
+    "stem": "বর্ষাকালে, রাতে এবং গরম পানীয় পান করলে যাবতীয় শারীরিক কষ্ট বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "aggravation",
+      "rainy-season",
+      "hot-drinks"
+    ],
+    "explanation": "Phytolacca-এর কষ্ট বর্ষা, রাত্রিবেলা ও উষ্ণ পানীয় গ্রহণে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ruta-sym-20",
+    "stem": "বিশ্রামে, আর্দ্র-ঠান্ডা আবহাওয়ায় ও রাতে বৃদ্ধি, শুষ্ক উত্তাপে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "modalities",
+      "damp",
+      "cold",
+      "night"
+    ],
+    "explanation": "Ruta-এর লক্ষণ বিশ্রামে, আর্দ্র বা ঠান্ডা আবহাওয়ায় এবং রাতে বৃদ্ধি পায়; শুষ্ক উত্তাপে উপশম হয়।"
+  },
+  {
+    "id": "sars-sym-17",
+    "stem": "বসন্তকালে এবং স্যাঁতসেঁতে ঠান্ডা আবহাওয়ায় লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "spring",
+      "damp-cold"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ বসন্তকালে এবং স্যাঁতসেঁতে ঠান্ডা আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "spigelia-sym-08",
+    "stem": "বর্ষায় বা জলো হাওয়ায় রোগ বৃদ্ধি পায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "aggravation",
+      "rain",
+      "damp"
+    ],
+    "explanation": "Spigelia Anthelmia এ বর্ষায় বা জলো হাওয়ায় রোগ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "thuja-sym-04",
+    "stem": "বাম দিকের রোগী, শীতকাতর, ঠান্ডা ও বর্ষায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "left-sided",
+      "chilly",
+      "cold-agg",
+      "rainy-agg"
+    ],
+    "explanation": "Thuja বাম পার্শ্ব ও শীতকাতর।"
+  },
+  {
+    "id": "thuja-sym-05",
+    "stem": "ভেজা জায়গা ও পানি সহ্য হয় না, রসবাত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "damp",
+      "water-intolerant",
+      "rheumatism",
+      "aggravation"
+    ],
+    "explanation": "Thuja ভেজা জায়গা সহ্য করতে পারে না।"
+  },
+  {
+    "id": "thuja-sym-17",
+    "stem": "সকালে, ঠান্ডায়, আর্দ্র আবহাওয়ায়, টিকা, চা, রাতে বিছানার গরমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "cold",
+      "damp",
+      "vaccination",
+      "tea"
+    ],
+    "explanation": "Thuja-এ সকালে, ঠান্ডা, আর্দ্রতা, টিকা ও চায়ে বৃদ্ধি।"
+  },
+  {
+    "id": "thuja-sym-04",
+    "stem": "বাম দিকের রোগী, শীতকাতর, ঠান্ডা ও বর্ষায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "left-sided",
+      "chilly",
+      "cold-agg",
+      "rainy-agg"
+    ],
+    "explanation": "Thuja বাম পার্শ্ব ও শীতকাতর।"
+  },
+  {
+    "id": "thuja-sym-05",
+    "stem": "ভেজা জায়গা ও পানি সহ্য হয় না, রসবাত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "damp",
+      "water-intolerant",
+      "rheumatism",
+      "aggravation"
+    ],
+    "explanation": "Thuja ভেজা জায়গা সহ্য করতে পারে না।"
+  },
+  {
+    "id": "thuja-sym-17",
+    "stem": "সকালে, ঠান্ডায়, আর্দ্র আবহাওয়ায়, টিকা, চা, রাতে বিছানার গরমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "cold",
+      "damp",
+      "vaccination",
+      "tea"
+    ],
+    "explanation": "Thuja-এ সকালে, ঠান্ডা, আর্দ্রতা, টিকা ও চায়ে বৃদ্ধি।"
+  },
+  {
+    "id": "sul-iod-sym-10",
+    "stem": "চুলকানি যা ধুলে বা ভিজে আবহাওয়ায় বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "skin",
+      "itching",
+      "scratching",
+      "damp-weather"
+    ],
+    "explanation": "Sulphur Iodatum-এ চুলকানি থাকে যা ধুলে বা ভিজে আবহাওয়ায় বৃদ্ধি পায়।"
+  }
+]
