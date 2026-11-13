@@ -1,0 +1,470 @@
+[
+  {
+    "id": "argm-sym-02",
+    "stem": "স্বরভঙ্গ (Aphonia) বা গলার স্বর সম্পূর্ণ বন্ধ হয়ে যাওয়া, বিশেষ করে সকালে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "voice",
+      "aphonia"
+    ],
+    "explanation": "Argentum Metallicum-এ সকালে ঘুম থেকে উঠলে গলার স্বর বন্ধ হয়ে যেতে পারে।"
+  },
+  {
+    "id": "carbo-sym-06",
+    "stem": "ঠান্ডা নিঃশ্বাস, ঠান্ডা জিহ্বা, ঠান্ডা ঘাম, স্বরভঙ্গ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "coldness",
+      "breath",
+      "tongue",
+      "sweat",
+      "hoarseness"
+    ],
+    "explanation": "Carbo Veg-এ ঠান্ডা নিঃশ্বাস, জিহ্বা, ঘাম ও স্বরভঙ্গ থাকে।"
+  },
+  {
+    "id": "carbo-sym-12",
+    "stem": "দীর্ঘস্থায়ী স্বরভঙ্গ বিকেলে বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "larynx",
+      "hoarseness",
+      "chronic",
+      "evening"
+    ],
+    "explanation": "Carbo Veg-এ বিকেলে স্বরভঙ্গ বাড়ে।"
+  },
+  {
+    "id": "carbo-sym-18",
+    "stem": "স্মৃতিশক্তি দুর্বল, কথা বলার সময় খেই হারিয়ে ফেলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "mind",
+      "memory",
+      "confusion",
+      "speech"
+    ],
+    "explanation": "Carbo Veg-এ স্মৃতি দুর্বল ও কথা বলার সময় খেই হারায়।"
+  },
+  {
+    "id": "clem-sym-17",
+    "stem": "স্মৃতিশক্তি অত্যন্ত দুর্বল হওয়া এবং কথা বলার সময় খেই হারিয়ে ফেলা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Cannabis Indica",
+        "mid": "cannabis-indica"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "mental",
+      "memory",
+      "speech"
+    ],
+    "explanation": "Clematis Erecta-এ স্মৃতিহীনতা দেখা যায় এবং কথা বলতে গিয়ে খেই হারিয়ে ফেলার লক্ষণ প্রকাশিত হয়।"
+  },
+  {
+    "id": "hyper-sym-11",
+    "stem": "লিখতে ভুল করে, যা বলার ছিল ভুলে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "mind",
+      "writing-mistakes",
+      "forgetful",
+      "speech"
+    ],
+    "explanation": "Hypericum-এ লিখতে ভুল ও কথা ভুলে যাওয়া থাকে।"
+  },
+  {
+    "id": "just-sym-19",
+    "stem": "গলার স্বর বসে যাওয়া (Hoarseness) এবং গলার ভেতর তীব্র জ্বালা করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "throat",
+      "hoarseness",
+      "burning"
+    ],
+    "explanation": "Justicia Adhatoda-এ স্বরভঙ্গ ও গলার ভেতরের শ্লৈষ্মিক ঝিল্লিতে জ্বালাপোড়া থাকে।"
+  },
+  {
+    "id": "ferrum-phos-sym-07",
+    "stem": "স্বরভঙ্গ ও প্রসবের পর ভ্যাদাল ব্যথা, সঞ্চালনে বৃদ্ধি ঠান্ডায় উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "hoarseness",
+      "after-pains"
+    ],
+    "explanation": "Ferrum Phos-এ স্বরভঙ্গ, মাথাব্যথা ও প্রসবের পর ভ্যাদাল ব্যথা হয়; সঞ্চালনে বৃদ্ধি পায় ও ঠান্ডায় উপশম হয়।"
+  },
+  {
+    "id": "lyc-sym-20",
+    "stem": "স্মৃতিশক্তি দুর্বল হওয়া— কথা বলতে বা লিখতে গিয়ে শব্দ ও বর্ণ ভুলে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "mind",
+      "memory",
+      "speech"
+    ],
+    "explanation": "Lycopodium-এর রোগী স্মৃতিবিভ্রান্তির কারণে কথা বলার সময় সঠিক শব্দ পায় না বা লিখতে গিয়ে অক্ষর বাদ দিয়ে ফেলে।"
+  },
+  {
+    "id": "plumbum-sym-10",
+    "stem": "স্মৃতিশক্তি অত্যন্ত দুর্বল, কথা বলার সময় সঠিক শব্দ খুঁজে পায় না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Kali Phosphoricum",
+        "mid": "kali-phosphoricum"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "mind",
+      "memory",
+      "speech"
+    ],
+    "explanation": "Plumbum Metallicum এ স্মৃতিশক্তি অত্যন্ত দুর্বল হয়ে পড়ে, রোগী কথা বলার সময় সঠিক শব্দ খুঁজে পায় না।"
+  },
+  {
+    "id": "sel-sym-09",
+    "stem": "স্বরভঙ্গ, গায়কদের গলা পরিষ্কার করতে বারবার কাশি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "hoarseness",
+      "singers",
+      "throat-clearing"
+    ],
+    "explanation": "Selenium স্বরভঙ্গে কার্যকর, বিশেষত গায়কদের।"
+  },
+  {
+    "id": "stannum-sym-03",
+    "stem": "কথা বলার সময় দুর্বল অনুভূতি প্রকাশ ও বুকে খালি বোধ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "chest",
+      "talking",
+      "weakness"
+    ],
+    "explanation": "Stannum Met-এ কথা বলতে গেলে বা সামান্য পরিশ্রমে রোগী হাঁপিয়ে ওঠে এবং বুকে খালি বোধ করে।"
+  },
+  {
+    "id": "stannum-sym-17",
+    "stem": "কথা বললে, হাসলে ও গান গাইলে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex-crispus"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "modalities",
+      "talking",
+      "laughing",
+      "singing"
+    ],
+    "explanation": "Stannum Met-এর লক্ষণ কথা বললে, হাসলে, গান গাইলে এবং ডান পাশে শুলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "spigelia-sym-11",
+    "stem": "কথা বলতে তোতলায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Bovista",
+        "mid": "bovista"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "speech",
+      "stammering"
+    ],
+    "explanation": "Spigelia Anthelmia রোগী কথা বলতে তোতলায়।"
+  },
+  {
+    "id": "zincum-sym-12",
+    "stem": "প্রচণ্ড সংবেদনশীলতা, সামান্য শব্দ বা অন্যের কথা বলা একদম সহ্য করতে পারে না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "sensitive",
+      "noise",
+      "talking"
+    ],
+    "explanation": "Zincum Metallicum এ প্রচণ্ড সংবেদনশীলতা থাকে, সামান্য শব্দ বা অন্যের কথা বলা রোগী একদম সহ্য করতে পারে না।"
+  },
+  {
+    "id": "spongia-sym-05",
+    "stem": "কুকুরের ডাকের মতো বার্কিং কাশি ও স্বরভঙ্গ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Arum Triphyllum",
+        "mid": "arum-triphyllum"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "cough",
+      "barking",
+      "hoarseness",
+      "laryngitis"
+    ],
+    "explanation": "Spongia ল্যারিঞ্জাইটিস বা স্বরভঙ্গের জন্য অপ্রতিদ্বন্দ্বী; কাশি অনেকটা কুকুরের ডাকের মতো (Barking cough)।"
+  }
+]

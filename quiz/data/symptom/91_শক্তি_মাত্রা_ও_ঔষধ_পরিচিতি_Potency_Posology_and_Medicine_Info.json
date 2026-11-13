@@ -1,0 +1,1330 @@
+[
+  {
+    "id": "argn-sym-10",
+    "stem": "খনিজ (Silver Nitrate / Lunar Caustic) উৎস থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "source",
+      "mineral"
+    ],
+    "explanation": "Argentum Nitricum খনিজ (Silver Nitrate / Lunar Caustic) থেকে প্রস্তুত একটি অত্যন্ত গুরুত্বপূর্ণ হোমিওপ্যাথিক ঔষধ।"
+  },
+  {
+    "id": "argn-sym-16",
+    "stem": "মানসিক লক্ষণের প্রাধান্য থাকলে ২০০ বা তার উচ্চ শক্তি বিরল মাত্রায় কার্যকর — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "potency",
+      "high-potency"
+    ],
+    "explanation": "Argentum Nitricum-এ মানসিক লক্ষণের প্রাধান্য থাকলে ২০০ বা তার উচ্চ শক্তি (১M) বিরল মাত্রায় অধিক কার্যকর হয়।"
+  },
+  {
+    "id": "bry-sym-18",
+    "stem": "উদ্ভিদ জগত বা ওয়াইল্ড হপস (White Bryony) থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconite"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "source",
+      "botanical"
+    ],
+    "explanation": "Bryonia উদ্ভিদ জগত (White Bryony / Wild Hops) থেকে প্রস্তুত একটি ক্লাসিক্যাল হোমিওপ্যাথিক ঔষধ।"
+  },
+  {
+    "id": "cantharis-sym-20",
+    "stem": "পোড়া ক্ষতে মাদার টিংচার (Q) জলের সাথে মিশিয়ে বাহ্যিকভাবে ব্যবহার করলে দ্রুত আরাম পাওয়া যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "burns",
+      "mother-tincture",
+      "external-application"
+    ],
+    "explanation": "Cantharis-এর মাদার টিংচার (Q) জলের সাথে মিশিয়ে পোড়া ক্ষেত্রে বাহ্যিকভাবে ব্যবহার করলে দ্রুত আরাম পাওয়া যায়।"
+  },
+  {
+    "id": "calen-sym-18",
+    "stem": "বাহ্যিক ব্যবহারে মাদার টিংচার Q বা ১ ভাগ টিংচার ১০ ভাগ জলে লোশন — এই ব্যবহার কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "potency",
+      "external",
+      "lotion",
+      "mother-tincture"
+    ],
+    "explanation": "Calendula বাহ্যিকভাবে Q লোশন হিসেবে সবচেয়ে কার্যকর।"
+  },
+  {
+    "id": "calen-sym-20",
+    "stem": "উৎস উদ্ভিদ গাঁদা ফুল, সোরা মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "source",
+      "plant",
+      "marigold",
+      "miasm"
+    ],
+    "explanation": "Calendula গাঁদা ফুল থেকে তৈরি, সোরা মায়াজম।"
+  },
+  {
+    "id": "calc-sym-17",
+    "stem": "প্রাণীজ উৎস বা ঝিনুকের খোলসের মধ্যস্তর (Carbonate of Lime) থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Coralium Rubrum",
+        "mid": "coralium-rubrum"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "source",
+      "animal"
+    ],
+    "explanation": "Calcarea Carb মূলত সমুদ্রের ঝিনুকের খোলসের মধ্যবর্তী চুন বা Carbonate of Lime থেকে প্রস্তুত করা হয়।"
+  },
+  {
+    "id": "calc-sym-17",
+    "stem": "প্রাণীজ উৎস বা ঝিনুকের খোলসের মধ্যস্তর (Carbonate of Lime) থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Coralium Rubrum",
+        "mid": "coralium-rubrum"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "source",
+      "animal"
+    ],
+    "explanation": "Calcarea Carb মূলত সমুদ্রের ঝিনুকের খোলসের মধ্যবর্তী চুন বা Carbonate of Lime থেকে প্রস্তুত করা হয়।"
+  },
+  {
+    "id": "clem-sym-11",
+    "stem": "উদ্ভিদ জগত বা ভার্জিন্স বাওয়ার (Virgin's Bower) থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Sabadiila",
+        "mid": "sabadilla"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "source",
+      "botanical"
+    ],
+    "explanation": "Clematis Erecta উদ্ভিদ উদ্ভিজ্জ লতা Virgin's Bower থেকে আহরণ করে প্রস্তুত তৈরি করা হয়।"
+  },
+  {
+    "id": "cinn-sym-11",
+    "stem": "খনিজ জগত (Red Sulphide of Mercury) পারদ ও গন্ধকের যৌগ থেকে প্রস্তুত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Mercurius Sol",
+        "mid": "mercurius-sol"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "source",
+      "mineral"
+    ],
+    "explanation": "Cinnabaris মূলত পারদ ও সালফারের খনিজ প্রাকৃতিক রাসায়নিক যৌগ (Red Sulphide of Mercury) থেকে প্রস্তুত।"
+  },
+  {
+    "id": "just-sym-11",
+    "stem": "উদ্ভিদ জগত বা বাসক পাতা (Adhatoda vasica) থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Blatta Orientalis",
+        "mid": "blatta-orientalis"
+      },
+      {
+        "text": "Grindelia",
+        "mid": "grindelia"
+      },
+      {
+        "text": "Senega",
+        "mid": "senega"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "source",
+      "botanical"
+    ],
+    "explanation": "Justicia Adhatoda উদ্ভিদ উৎসের সুপরিচিত ভেষজ বাসক পাতা (Adhatoda vasica) থেকে প্রস্তুত।"
+  },
+  {
+    "id": "just-sym-16",
+    "stem": "মাদার টিংচার (Q) থেকে ৩x বা ৬ শক্তিতে বেশি ব্যবহৃত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Blatta Orientalis",
+        "mid": "blatta-orientalis"
+      },
+      {
+        "text": "Grindelia",
+        "mid": "grindelia"
+      },
+      {
+        "text": "Senega",
+        "mid": "senega"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "potency",
+      "mother-tincture"
+    ],
+    "explanation": "Justicia Adhatoda কাশির চিকিৎসায় প্রধানত মাদার টিংচার (Q) অথবা ৩x ও ৬ শক্তিতে সর্বাধিক প্রয়োগ করা হয়।"
+  },
+  {
+    "id": "just-sym-20",
+    "stem": "তীব্র অবস্থায় ২-৩ ঘণ্টা অন্তর ঔষধটি পুনরাবৃত্তি করা যেতে পারে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconite"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "posology",
+      "repetition",
+      "acute"
+    ],
+    "explanation": "Justicia Adhatoda তীব্র কাশির ও শ্বাসকষ্টের প্রকোপে চিকিৎসকের পরামর্শে ২-৩ ঘণ্টা অন্তর প্রয়োগ করা যায়।"
+  },
+  {
+    "id": "hama-sym-11",
+    "stem": "উদ্ভিদ জগত বা উইচ-হেজেল (Witch-hazel) থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "source",
+      "botanical"
+    ],
+    "explanation": "Hamamelis Virginica উদ্ভিদ উৎসের Witch-hazel গাছ থেকে সংগৃহীত হোমিওপ্যাথিক উপাদান।"
+  },
+  {
+    "id": "hepar-sym-12",
+    "stem": "নিম্ন শক্তিতে পুঁজ তৈরি করে, উচ্চ শক্তিতে পুঁজ শুকিয়ে ফেলে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "pus",
+      "potency"
+    ],
+    "explanation": "Hepar Sulph নিম্ন শক্তিতে পুঁজ তৈরি করে এবং উচ্চ শক্তিতে পুঁজ শুকিয়ে ফেলে।"
+  },
+  {
+    "id": "glon-sym-19",
+    "stem": "গরমকাতর, উৎস রাসায়নিক নাইট্রোগ্লিসারিন, সোরা মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Melilotus",
+        "mid": "melilotus"
+      },
+      {
+        "text": "Amyl Nitrosum",
+        "mid": "amyl-nitrosum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "generalities",
+      "hot",
+      "source",
+      "miasm"
+    ],
+    "explanation": "Glonoine গরমকাতর ও নাইট্রোগ্লিসারিন থেকে তৈরি।"
+  },
+  {
+    "id": "merc-sym-18",
+    "stem": "উৎস খনিজ তরল পারদ, ডান পার্শ্ব, সিফিলিটিক মায়াজমের রাজা — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Mercurius Dulcis",
+        "mid": "mercurius-dulcis"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "source",
+      "mineral",
+      "mercury",
+      "right-side",
+      "syphilitic"
+    ],
+    "explanation": "Merc Vivus পারদ থেকে তৈরি ও সিফিলিটিক মায়াজমের রাজা।"
+  },
+  {
+    "id": "merc-sym-20",
+    "stem": "পুঁজ পাকাতে নিম্ন শক্তি 3X-6, বসাতে উচ্চ শক্তি 200+ — এই শক্তি নির্বাচন কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Myristica Sebifera",
+        "mid": "myristica-sebifera"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "potency",
+      "suppuration",
+      "low",
+      "high"
+    ],
+    "explanation": "Merc Vivus-এ পুঁজ পাকাতে নিম্ন ও বসাতে উচ্চ শক্তি ব্যবহৃত হয়।"
+  },
+  {
+    "id": "lyc-sym-01",
+    "stem": "লক্ষণসমূহ ডান পাশ থেকে শুরু হয়ে বাম পাশে স্থানান্তরিত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "direction",
+      "right-to-left",
+      "keynote"
+    ],
+    "explanation": "Lycopodium-এর সর্বপ্রধান গাইডলাইন লক্ষণ হলো ডান পাশ থেকে বাম পাশে রোগের আক্রমণ স্থানান্তরিত হওয়া।"
+  },
+  {
+    "id": "lyc-sym-11",
+    "stem": "উদ্ভিদ জগত বা ক্লাব মস (Club Moss)-এর রেনু বা স্পোর থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Arncia",
+        "mid": "arnica"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "source",
+      "botanical"
+    ],
+    "explanation": "Lycopodium clavatum নামক প্রাকৃতিক Club Moss উদ্ভিদের সূক্ষ্ম পরাগরেণু বা স্পোর থেকে তৈরীকৃত।"
+  },
+  {
+    "id": "mag-carb-sym-01",
+    "stem": "শরীর, ঘাম, মল ও বমি থেকে তীব্র টক গন্ধ বের হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Rheum",
+        "mid": "rheum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "sour-smell",
+      "body-odor",
+      "keynote"
+    ],
+    "explanation": "Magnesia Carbonica-এর প্রধান পরিচায়ক লক্ষণ হলো রোগীর শরীর, ঘাম, মল ও বমি থেকে তীব্র টক গন্ধ বের হওয়া।"
+  },
+  {
+    "id": "lach-sym-15",
+    "stem": "গরমকাতর, উৎস বুশমাস্টার সাপের বিষ — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Crotalus Horridus",
+        "mid": "crotalus-horridus"
+      },
+      {
+        "text": "Naja Tripudians",
+        "mid": "naja-tripudians"
+      },
+      {
+        "text": "Elaps Corallinus",
+        "mid": "elaps-corallinus"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "generalities",
+      "hot",
+      "snake-venom",
+      "source"
+    ],
+    "explanation": "Lachesis গরমকাতর ও সাপের বিষ থেকে তৈরি।"
+  },
+  {
+    "id": "rhus-sym-11",
+    "stem": "এর ল্যাটিন নাম Poison Ivy এবং উৎস উদ্ভিদজাত (বিষ লতা) — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla-nigricans"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "source",
+      "botanical-name"
+    ],
+    "explanation": "Rhus Toxicodendron-এর ল্যাটিন নাম Poison Ivy এবং এটি বিষ লতা নামক উদ্ভিদ থেকে প্রস্তুত হয়।"
+  },
+  {
+    "id": "rhus-sym-19",
+    "stem": "চর্মরোগে নিম্ন শক্তি এবং বাতের ব্যথায় উচ্চ শক্তি অধিক ফলপ্রসূ হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Sulfur",
+        "mid": "sulfur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "dosage",
+      "potency"
+    ],
+    "explanation": "Rhus Tox প্রয়োগের ক্ষেত্রে চর্মরোগে নিম্ন শক্তি এবং বাতের ব্যসায় উচ্চ শক্তি বেশি ভালো ফল দেয়।"
+  },
+  {
+    "id": "petr-sym-08",
+    "stem": "রোগীর মৃত্যুভয় থাকে এবং মনে করে তার মৃত্যু খুব নিকটে, তাই সে মৃত্যুর প্রস্তুতি নেয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "mental",
+      "fear-of-death",
+      "preparation"
+    ],
+    "explanation": "Petroleum-এ রোগীর মৃত্যুভয় থাকে এবং মনে করে তার মৃত্যু খুব নিকটবর্তী, সেজন্য সে মৃত্যুর প্রস্তুতি নেয়।[reference:27]"
+  },
+  {
+    "id": "phy-sym-11",
+    "stem": "উদ্ভিদ জগত বা ফাইটলাক্কা মূল (Poke-root) থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "source",
+      "botanical"
+    ],
+    "explanation": "Phytolacca Decandra গাছ থেকে উৎপাদিত বিখ্যাত ভেষজ ওষুধ।"
+  },
+  {
+    "id": "opi-sym-11",
+    "stem": "উদ্ভিদ জগত বা আফিম গাছ (Papaver somniferum) থেকে সংগৃহীত আঠা থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Cannabis Indica",
+        "mid": "cannabis-indica"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Morphinum",
+        "mid": "morphinum"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "source",
+      "botanical"
+    ],
+    "explanation": "Opium উদ্ভিদ উৎসের Papaver somniferum গাছের রস বা আফিম আঠা হতে উৎপাদিত।"
+  },
+  {
+    "id": "sel-sym-20",
+    "stem": "গরমকাতর, উৎস খনিজ সেলেনিয়াম, সোরা ও সিফিলিটিক, পরিপূরক Sulphur — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "generalities",
+      "hot",
+      "mineral",
+      "miasm",
+      "complementary"
+    ],
+    "explanation": "Selenium গরমকাতর, খনিজ উৎস ও পরিপূরক Sulphur।"
+  },
+  {
+    "id": "sene-sym-15",
+    "stem": "এর সাধারণ নাম Snake-root এবং ল্যাটিন নাম Polygala senega — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Aristolochia",
+        "mid": "aristolochia"
+      },
+      {
+        "text": "Cimicifuga",
+        "mid": "cimicifuga"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "source",
+      "botanical-name"
+    ],
+    "explanation": "Senega Officinalis-এর সাধারণ নাম Snake-root এবং উদ্ভিদের ল্যাটিন নাম Polygala senega।"
+  },
+  {
+    "id": "sene-sym-19",
+    "stem": "ফুসফুসে জমে থাকা ঘন কফ তরল করে বের করার জন্য মাদার টিংচার (Q) বেশ উপযোগী — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Blatta Orientalis",
+        "mid": "blatta-orientalis"
+      },
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Eucalyptus",
+        "mid": "eucalyptus-globulus"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "potency",
+      "mother-tincture"
+    ],
+    "explanation": "Senega Q (মাদার টিংচার) কফকে দ্রুত তরল করে ফুসফুস থেকে বের করার এক্সপেক্টোর্যান্ট হিসেবে খুবই নামকরা।"
+  },
+  {
+    "id": "sep-sym-11",
+    "stem": "সামুদ্রিক প্রাণী কাটল ফিশের (Cuttlefish) ভেতরের কালো কালিজাত রস থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Asterias Rubens",
+        "mid": "asterias-rubens"
+      },
+      {
+        "text": "Medusa",
+        "mid": "medusa"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "source",
+      "cuttlefish"
+    ],
+    "explanation": "Sepia Cuttlefish নামক সামুদ্রিক প্রাণীর তরল কালা কাঁচামাল থেকে তৈরি।"
+  },
+  {
+    "id": "sec-sym-11",
+    "stem": "ছত্রাক বা রাই শস্যের ওপর জন্ম নেওয়া ভেষজ (Ergot of Rye) থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Ustilago",
+        "mid": "ustilago"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus"
+      },
+      {
+        "text": "Bovista",
+        "mid": "bovista"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "source",
+      "fungus"
+    ],
+    "explanation": "Secale Cornutum উৎসগতভাবে Ergot of Rye নামক ছত্রাকজাত ভেষজ উপাদান।"
+  },
+  {
+    "id": "sec-sym-20",
+    "stem": "গর্ভবতী অবস্থায় ব্যবহারে গর্ভপাতের ঝুঁকি তৈরি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "posology",
+      "pregnancy",
+      "caution"
+    ],
+    "explanation": "Secale Cornutum জরায়ুর পেশিতে আক্ষেপ তৈরি করে গর্ভপাত ঘটাতে পারে।"
+  },
+  {
+    "id": "sul-sym-11",
+    "stem": "প্রকৃতিতে প্রাপ্ত বিশুদ্ধ মৌল গন্ধক বা Sulphur থেকে প্রস্তুত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Kali Sulph",
+        "mid": "kali-sulph"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "source",
+      "mineral"
+    ],
+    "explanation": "Sulphur বিশুদ্ধ মৌলিক গন্ধক থেকে প্রস্তুত।"
+  },
+  {
+    "id": "sani-sym-19",
+    "stem": "আমেরিকার ওটোয়া খনি থেকে প্রাপ্ত খনিজ জল (Sanicula Water) থেকে এটি প্রস্তুত — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Aqua Marina",
+        "mid": "aqua-marina"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Calcarea Phos",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "source",
+      "mineral-water"
+    ],
+    "explanation": "Sanicula Aqua ওষুধটি আমেরিকার ওটোয়া স্প্রিং-এর খনিজ জল থেকে হোমিওপ্যাথিক পদ্ধতিতে প্রস্তুত।"
+  },
+  {
+    "id": "sab-sym-02",
+    "stem": "কোমর থেকে সামনে কুঁচকি পর্যন্ত ব্যথা ছড়ায়, স্যাক্রাম থেকে পিউবিস — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Viburnum Opulus",
+        "mid": "viburnum-opulus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "pain",
+      "sacrum-to-pubes",
+      "direction",
+      "characteristic"
+    ],
+    "explanation": "Sabina-এর ব্যথা স্যাক্রাম থেকে পিউবিস পর্যন্ত যায়।"
+  },
+  {
+    "id": "sab-sym-19",
+    "stem": "উৎস উদ্ভিদ Savin ঝোপ, Juniperus Sabina — এই উৎস কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Juniperus Communis",
+        "mid": "juniperus-communis"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "source",
+      "plant",
+      "savin",
+      "juniperus"
+    ],
+    "explanation": "Sabina Savin ঝোপ উদ্ভিদ থেকে তৈরি।"
+  },
+  {
+    "id": "sab-sym-20",
+    "stem": "তীব্র রক্তস্রাবে নিম্ন শক্তি 3X-6 ঘনঘন, গর্ভপাত প্রতিরোধে উচ্চ শক্তি — এই শক্তি নির্বাচন কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      },
+      {
+        "text": "Ipecacuanha",
+        "mid": "ipecacuanha"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "potency",
+      "hemorrhage",
+      "low",
+      "high",
+      "abortion-prevention"
+    ],
+    "explanation": "Sabina-এ তীব্র রক্তস্রাবে নিম্ন ও গর্ভপাত প্রতিরোধে উচ্চ শক্তি ব্যবহৃত হয়।"
+  },
+  {
+    "id": "var-sym-01",
+    "stem": "গুটিবসন্ত বা জলবসন্তের আক্রমণ থেকে রক্ষাকরণে এবং বসন্তের চিকিৎসায় নোসোড হিসেবে ব্যবহার — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Malandrinum",
+        "mid": "malandrinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antim-tart"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "general",
+      "smallpox",
+      "nosode"
+    ],
+    "explanation": "Variolinum গুটিবসন্তের নোসোড হিসেবে সবচেয়ে নির্ভরযোগ্য ও পরীক্ষিত।"
+  },
+  {
+    "id": "var-sym-11",
+    "stem": "বসন্ত রোগের পুঁজ বা ভাইরাস থেকে প্রস্তুতকৃত নোসোড (Nosode) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Malandrinum",
+        "mid": "malandrinum"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Lueshinum",
+        "mid": "luetin"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "source",
+      "nosode"
+    ],
+    "explanation": "Variolinum বসন্তের ইনফেক্টেড রস বা পুঁজ হতে প্রস্তুত নোসোড।"
+  },
+  {
+    "id": "var-sym-15",
+    "stem": "উচ্চ শক্তি যেমন ২০০ বা ১এম (1M) শক্তিতে নোসোড হিসেবে অত্যন্ত কার্যকর হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Carcinosin",
+        "mid": "carcinosin"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "posology",
+      "high-potency",
+      "nosode"
+    ],
+    "explanation": "Variolinum ২০০ বা ১এম উচ্চ শক্তিতে প্রতিষেধক হিসেবে সর্বাধিক ব্যবহূত।"
+  },
+  {
+    "id": "thuja-sym-09",
+    "stem": "মনে হয় শরীর কাচের তৈরি, ভেঙে যাবে, পেটে জীবিত প্রাণী আছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Cocculus Indicus",
+        "mid": "cocculus-indicus"
+      },
+      {
+        "text": "Sab  adilla",
+        "mid": "sabadilla"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "delusion",
+      "glass-body",
+      "fragile",
+      "animal-abdomen"
+    ],
+    "explanation": "Thuja-এ কাচের শরীর ও পেটে প্রাণী অনুভূতি থাকে।"
+  },
+  {
+    "id": "thuja-sym-20",
+    "stem": "পরিপূরক Medorrhinum Sabina Silicea, উৎস চিরহরিৎ গাছ — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "relationship",
+      "complementary",
+      "source",
+      "evergreen"
+    ],
+    "explanation": "Thuja-এর পরিপূরক Medorrhinum, Sabina ও উৎস চিরহরিৎ গাছ।"
+  },
+  {
+    "id": "thuja-sym-09",
+    "stem": "মনে হয় শরীর কাচের তৈরি, ভেঙে যাবে, পেটে জীবিত প্রাণী আছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Cocculus Indicus",
+        "mid": "cocculus-indicus"
+      },
+      {
+        "text": "Sab  adilla",
+        "mid": "sabadilla"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "delusion",
+      "glass-body",
+      "fragile",
+      "animal-abdomen"
+    ],
+    "explanation": "Thuja-এ কাচের শরীর ও পেটে প্রাণী অনুভূতি থাকে।"
+  },
+  {
+    "id": "thuja-sym-20",
+    "stem": "পরিপূরক Medorrhinum Sabina Silicea, উৎস চিরহরিৎ গাছ — এই সম্পর্ক কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "relationship",
+      "complementary",
+      "source",
+      "evergreen"
+    ],
+    "explanation": "Thuja-এর পরিপূরক Medorrhinum, Sabina ও উৎস চিরহরিৎ গাছ।"
+  },
+  {
+    "id": "apis-sym-15",
+    "stem": "স্মারক লক্ষণ হিসেবে মৌমাছির হুল ফোটানোর যন্ত্রণা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "keynote",
+      "stinging-pain",
+      "bee-sting"
+    ],
+    "explanation": "Apis Mellifica মৌমাছি দিয়ে তৈরি, তাই এর স্মারক লক্ষণ হলো হুল ফোটানোর যন্ত্রণা (Stinging pain)।"
+  }
+]

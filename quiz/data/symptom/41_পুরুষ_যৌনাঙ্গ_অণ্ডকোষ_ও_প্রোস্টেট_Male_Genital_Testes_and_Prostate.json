@@ -1,0 +1,440 @@
+[
+  {
+    "id": "argn-sym-17",
+    "stem": "সঙ্গমের চিন্তা করলেই পুরুষাঙ্গ বা লিঙ্গ শিথিল হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Selenium",
+        "mid": "selenium"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "male",
+      "sexual-weakness"
+    ],
+    "explanation": "Argentum Nitricum-এর পুরুষ জননেন্দ্রিয় লক্ষণে ধ্বজভঙ্গ বা যৌন অক্ষমতা দেখা যায়, যেখানে সঙ্গমের কথা চিন্তা করলেই লিঙ্গ শিথিল হয়ে যায়।"
+  },
+  {
+    "id": "aurum-sym-09",
+    "stem": "অণ্ডকোষ ফুলে শক্ত হয়ে যাওয়া, জরায়ু শক্ত ও নিচে নেমে আসা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "male",
+      "female",
+      "induration",
+      "uterus"
+    ],
+    "explanation": "Aurum-এ অণ্ডকোষ ও জরায়ুর ইন্ডুরেশন হয়।"
+  },
+  {
+    "id": "calc-fluor-sym-17",
+    "stem": "অন্ডকোষে জল জমা (Hydrocele) এবং কঠিনতা সহ যেকোনো প্রকার অন্ডকোষের পীড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Rhododendron",
+        "mid": "rhododendron"
+      },
+      {
+        "text": "Clematis",
+        "mid": "clematis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "male",
+      "hydrocele",
+      "testes",
+      "induration"
+    ],
+    "explanation": "Calcarea Fluorica-এ অন্ডকোষে জল জমা (Hydrocele) এবং কঠিনতা সহ যেকোনো প্রকার অন্ডকোষের পীড়া হয়।"
+  },
+  {
+    "id": "clem-sym-02",
+    "stem": "ডান দিকের অণ্ডকোষ ও কুঁচকির বিচি ফুলে পাথরের মতো শক্ত হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhododendron",
+        "mid": "rhododendron"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "male",
+      "orchitis",
+      "hardness"
+    ],
+    "explanation": "Clematis Erecta-এ ডান অণ্ডকোষ ফুলে পাথরের মতো কাঠিন্য প্রাপ্ত হয়।"
+  },
+  {
+    "id": "clem-sym-03",
+    "stem": "গনোরিয়া বা প্রমেহ রোগ চাপা দেওয়ার পর অণ্ডকোষ ও মূত্রনালীর সমস্যা তৈরি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "etiology",
+      "suppressed-gonorrhea",
+      "male"
+    ],
+    "explanation": "Clematis Erecta গনোরিয়া ধামাচাপা দেওয়ার ফলে তৈরি হওয়া জটিলতা দূরীকরণের একটি গুরুত্বপূর্ণ ঔষধ।"
+  },
+  {
+    "id": "clem-sym-07",
+    "stem": "অণ্ডকোষ উপরের দিকে টেনে ধরার মতো তীক্ষ্ণ ব্যথা হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Plumbum Met",
+        "mid": "plumbum-met"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Berberis Vulgaris",
+        "mid": "berberis-vulgaris"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "male",
+      "testicles",
+      "pain"
+    ],
+    "explanation": "Clematis Erecta-এ অণ্ডকোষের রশি বা বীচি ওপরের দিকে টান ধরে তীব্র ব্যথার অনুভূতি জন্মায়।"
+  },
+  {
+    "id": "croton-sym-04",
+    "stem": "লাল ও চুলকানিযুক্ত ফোস্কা, বিশেষত অণ্ডকোষের চামড়ায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "skin",
+      "vesicles",
+      "scrotum"
+    ],
+    "explanation": "Croton Tiglium-এ শরীরের চামড়ায় অত্যন্ত লাল ও চুলকানিযুক্ত ফোস্কা হয়, বিশেষত অণ্ডকোষের চামড়ায় একজিমা বা চুলকানিতে কার্যকর।"
+  },
+  {
+    "id": "cinn-sym-05",
+    "stem": "মনে অস্বাভাবিক কামভাব থাকে কিন্তু শারীরিক ক্ষমতা কম থাকে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Caladium",
+        "mid": "caladium"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "male",
+      "sexual-weakness",
+      "mind"
+    ],
+    "explanation": "Cinnabaris-এর বিশেষ লক্ষণ হলো মনে অনবরত কামভাব কাজ করলেও শারীরিক সক্ষমতা অতি নগণ্য থাকে।"
+  },
+  {
+    "id": "cinn-sym-07",
+    "stem": "লিঙ্গমুণ্ডের চারপাশে লাল দানাদার আঁচিল বা ক্ষত (Chancre) হতে পুঁজ নির্গত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "male",
+      "chancre",
+      "warts"
+    ],
+    "explanation": "Cinnabaris-এ জননেন্দ্রিয় ও লিঙ্গমুণ্ডের চারপাশে তীব্র লাল চটচটে দানাদার আঁচিল বা ক্ষতের সৃষ্টি হয়।"
+  },
+  {
+    "id": "conium-sym-07",
+    "stem": "পুরুষের কাম চিন্তা সর্বদা কিন্তু মিলনে অক্ষম, স্ত্রী স্পর্শে লিঙ্গ শীতল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Selenium",
+        "mid": "selenium"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "male",
+      "impotency",
+      "desire",
+      "coldness"
+    ],
+    "explanation": "Conium পুরুষের কাম চিন্তা ও অক্ষমতায় কার্যকর।"
+  },
+  {
+    "id": "hama-sym-05",
+    "stem": "অণ্ডকোষ ফুলে যাওয়া এবং সেখানে টেনে ধরার মতো তীব্র ব্যথা হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Clematis",
+        "mid": "clematis"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "male",
+      "orchitis",
+      "testicles"
+    ],
+    "explanation": "Hamamelis-এ অণ্ডকোষ ফুলে ওঠে এবং অত্যন্ত বেদনার্থ টেনে ধরার মতো অনুভূতি তৈরি হয়।"
+  },
+  {
+    "id": "sel-sym-05",
+    "stem": "সহবাসের চেষ্টা করলেই লিঙ্গ সংকুচিত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Caladium Seguinum",
+        "mid": "caladium-seguinum"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "penis",
+      "shrinks",
+      "coition",
+      "attempt"
+    ],
+    "explanation": "Selenium-এ সহবাস চেষ্টায় লিঙ্গ সংকুচিত হয়।"
+  },
+  {
+    "id": "sel-sym-06",
+    "stem": "বয়স্কদের যৌন অক্ষমতা ও প্রস্টেটাইটিস, প্রস্টেট রস নির্গত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Sabal Serrulata",
+        "mid": "sabal-serrulata"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "old-age",
+      "impotency",
+      "prostatitis",
+      "prostatic-fluid"
+    ],
+    "explanation": "Selenium বয়স্কদের অক্ষমতা ও প্রস্টেটাইটিসে কার্যকর।"
+  },
+  {
+    "id": "spongia-sym-04",
+    "stem": "থাইরয়েড গ্রন্থি (Goitre) ও অণ্ডকোষ ফুলে শক্ত হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      },
+      {
+        "text": "Calcarea Fluor",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carbonica"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "goitre",
+      "orchitis",
+      "glands"
+    ],
+    "explanation": "Spongia-তে শরীরের বিভিন্ন গ্রন্থি, বিশেষত থাইরয়েড (Goitre) এবং অণ্ডকোষ ফুলে শক্ত হয়ে যায়।"
+  },
+  {
+    "id": "spongia-sym-10",
+    "stem": "অণ্ডকোষ প্রদাহ, ব্যথাযুক্ত ও স্ফিত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhododendron",
+        "mid": "rhododendron-chrysanthum"
+      },
+      {
+        "text": "Clematis",
+        "mid": "clematis-erecta"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "orchitis",
+      "male"
+    ],
+    "explanation": "Spongia-তে অণ্ডকোষ প্রদাহ হয়, যা ব্যথাযুক্ত ও স্ফিত থাকে।"
+  }
+]

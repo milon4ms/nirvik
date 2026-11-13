@@ -1,0 +1,1301 @@
+[
+  {
+    "id": "argm-sym-01",
+    "stem": "কণ্ঠনালীতে সংকোচনের অনুভূতি এবং কথা বলার সময় গলা আটকে যাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "throat",
+      "constriction"
+    ],
+    "explanation": "Argentum Metallicum-এর প্রধান লক্ষণ হলো কণ্ঠনালীতে সংকোচনের অনুভূতি।"
+  },
+  {
+    "id": "arnica-mont-sym-01",
+    "stem": "সারা শরীরে থেঁতলে যাওয়ার মতো ব্যথা, মনে হয় যেন কেউ লাঠি দিয়ে পিটিয়েছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "trauma",
+      "bruised-sensation",
+      "musculoskeletal"
+    ],
+    "explanation": "Arnica Montana-এর প্রধান লক্ষণ হলো সারা শরীরে থেঁতলে যাওয়ার মতো ব্যথা (Bruised Sensation), মনে হয় যেন কেউ লাঠি দিয়ে পিটিয়েছে।"
+  },
+  {
+    "id": "arnica-mont-sym-03",
+    "stem": "রোগী গুরুতর অসুস্থ বা অচৈতন্য হওয়া সত্ত্বেও প্রশ্ন করলে বলে, \"আমি ভালো আছি, আমার কোনো অসুখ নেই\" — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "mental",
+      "sensation-of-wellness",
+      "unconsciousness"
+    ],
+    "explanation": "Arnica Montana-এ রোগী গুরুতর অসুস্থতা বা অচৈতন্য অবস্থাতেও প্রশ্ন করলে বলে, \"আমি ভালো আছি, আমার কোনো অসুখ নেই\" (Sensation of wellness)।"
+  },
+  {
+    "id": "borax-sym-09",
+    "stem": "জড়ায়ুর যোনীপথ দিয়ে বের হওয়ার অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Murex",
+        "mid": "murex-purpureus"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "female",
+      "womb",
+      "sensation"
+    ],
+    "explanation": "Borax-এ জড়ায়ু যোনীপথ দিয়ে বের হয়ে যাওয়ার অনুভূতি হয়।"
+  },
+  {
+    "id": "baryta-sym-19",
+    "stem": "অঙ্গসমূহ দূরে দূরে মনে হয়, আকার বড় মনে হয় — এই অদ্ভুত অনুভূতি কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "sensation",
+      "delusion",
+      "limbs"
+    ],
+    "explanation": "Baryta-তে অঙ্গ দূরে বা বড় মনে হওয়ার অনুভূতি থাকে।"
+  },
+  {
+    "id": "calcphos-sym-13",
+    "stem": "মাথার ভেতরে বা পেছনে ঠান্ডা অনুভব করা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "head",
+      "cold-sensation"
+    ],
+    "explanation": "Calcarea Phosphorica এ মাথার ভেতরে বা পেছনে এক প্রকার ঠান্ডা অনুভব করা যায়।"
+  },
+  {
+    "id": "causticum-sym-15",
+    "stem": "গলায় কাঁচা মাংসের মতো ক্ষত বোধ ও জ্বালা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arum Triphyllum",
+        "mid": "arum-triphyllum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "throat",
+      "raw-sensation"
+    ],
+    "explanation": "Causticum-এ গলা বা মূত্রনালীতে মনে হয় যেন চামড়া ছিলে গেছে এবং কাঁচা মাংসের মতো জ্বালা করছে।"
+  },
+  {
+    "id": "colch-sym-11",
+    "stem": "পেটের ভেতর বরফের মতো ঠান্ডা অনুভূতি অথবা প্রচণ্ড জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "stomach",
+      "cold-sensation",
+      "burning"
+    ],
+    "explanation": "Colchicum-এ পেটের ভেতর বরফের মতো ঠান্ডা অনুভূতি হতে পারে অথবা প্রচণ্ড জ্বালা করতে পারে।"
+  },
+  {
+    "id": "colocynthis-sym-04",
+    "stem": "শরীরের ভিতরে বাইরে সংকোচন অনুভূতি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Platina",
+        "mid": "platina"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "generalities",
+      "constriction"
+    ],
+    "explanation": "Colocynthis এ শরীরের ভিতরে, বাইরে সংকোচন অনুভূতি হয়।"
+  },
+  {
+    "id": "chel-sym-14",
+    "stem": "লিভারে আঘাত লাগার মতো অনুভূতি হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "liver",
+      "sensation-of-injury"
+    ],
+    "explanation": "Chelidonium Majus-এ লিভারে আঘাত লাগার মতো অনুভূতি হয়।"
+  },
+  {
+    "id": "hyper-sym-13",
+    "stem": "দরজায় আঙুল চাপা বা নখ উপড়ে গেলে জাদুর মতো কাজ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula-officinalis"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "fingers",
+      "squeezed",
+      "nail",
+      "injury"
+    ],
+    "explanation": "Hypericum আঙুল চাপা ও নখ উপড়ানোতে জাদুর মতো কাজ করে।"
+  },
+  {
+    "id": "hell-sym-08",
+    "stem": "মাথায় অসহ্য ভার বোধ হয় এবং রোগী বালিশে মাথা গুঁজে রাখতে চায় বা মাথা এপাশ-ওপাশ দোলায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "head",
+      "heaviness",
+      "rolling-head"
+    ],
+    "explanation": "Helleborus Niger-এ মাথায় অসহ্য ভার বোধ হয়, রোগী বালিশে মাথা গুঁজে রাখতে চায় এবং অনেক সময় মাথা এপাশ-ওপাশ দোলায় (Rolling the head)।"
+  },
+  {
+    "id": "ign-sym-05",
+    "stem": "মাথাব্যথা যেন মাথায় পেরেক ঠুকে দেওয়া হয়েছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "headache",
+      "nail-sensation"
+    ],
+    "explanation": "Nail-like headache Ignatia-এর ক্লাসিক লক্ষণ।"
+  },
+  {
+    "id": "hyoscyamus-sym-04",
+    "stem": "গলায় চুলকানি, মনে হয় আলজিহ্বা দীর্ঘ হয়েছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Arum Triphyllum",
+        "mid": "arum-triphyllum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "throat",
+      "sensation"
+    ],
+    "explanation": "Hyoscyamus-এ গলায় চুলকানি হয় এবং মনে হয় যেন আলজিহ্বা দীর্ঘ হয়ে গেছে।"
+  },
+  {
+    "id": "iodium-sym-13",
+    "stem": "হৃদপিণ্ড কেউ চেপে ধরেছে মনে হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "heart",
+      "squeezed"
+    ],
+    "explanation": "Iodium রোগী মনে করে তার হৃদপিণ্ডটি কেউ চেপে ধরেছে।"
+  },
+  {
+    "id": "ipecac-sym-08",
+    "stem": "পাকস্থলীতে মনে হয় যেন নিচের দিকে ঝুলে পড়েছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "stomach",
+      "relaxed-feeling",
+      "prolapse"
+    ],
+    "explanation": "Ipecac-এ পাকস্থলীতে মনে হয় যেন নিচের দিকে ঝুলে পড়েছে (Relaxed feeling in the stomach)।"
+  },
+  {
+    "id": "ipecac-sym-17",
+    "stem": "কাঁচা ফল, চর্বিযুক্ত খাবার বা মিষ্টি খাওয়ার ফলে পেটের অসুখ হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "stomach",
+      "indigestion",
+      "raw-fruit",
+      "fatty-food",
+      "sweets"
+    ],
+    "explanation": "Ipecac-এ কাঁচা ফল, চর্বিযুক্ত খাবার বা মিষ্টি খাওয়ার ফলে পেটের অসুখ হয়।"
+  },
+  {
+    "id": "graph-sym-12",
+    "stem": "কপালে মাকড়সার জালের মতো অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Ranunculus",
+        "mid": "ranunculus"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "head",
+      "sensation"
+    ],
+    "explanation": "Cobweb sensation on forehead is strongly associated with Graphites।"
+  },
+  {
+    "id": "graph-sym-12",
+    "stem": "কপালে মাকড়সার জালের মতো অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Ranunculus",
+        "mid": "ranunculus"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "head",
+      "sensation"
+    ],
+    "explanation": "Cobweb sensation on forehead is strongly associated with Graphites।"
+  },
+  {
+    "id": "lyc-sym-03",
+    "stem": "প্রবল ক্ষুধা থাকা সত্ত্বেও মাত্র কয়েক চামচ খাবার খেলেই পেট ফুলে পূর্ণ অনুভূত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "stomach",
+      "appetite",
+      "fullness"
+    ],
+    "explanation": "ক্ষুধা থাকা সত্ত্বেও অল্প মাত্র কয়েক মুখ খাবারের পরই পেট ভরে যাওয়ার অনুভূতি Lycopodium-এর অনন্য বৈশিষ্ট্য।"
+  },
+  {
+    "id": "rhus-sym-14",
+    "stem": "মাথা ভারী বোধ হওয়া এবং মনে হওয়া মস্তিষ্কের ভেতর জল নড়াচড়া করছে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "head",
+      "heavy-sensation"
+    ],
+    "explanation": "Rhus Tox মাথাব্যথায় মাথা ভারী লাগে এবং নড়াচড়া করলে মস্তিষ্কে জল ছলকানোর অনুভূতি হয়।"
+  },
+  {
+    "id": "petr-sym-03",
+    "stem": "প্রচণ্ড ক্ষুধা, খাওয়ার পরপরই আবার ক্ষুধা লাগে এবং পেট খালি খালি মনে হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "hunger",
+      "ravenous",
+      "empty-feeling",
+      "stomach"
+    ],
+    "explanation": "Petroleum-এ প্রচণ্ড ক্ষুধা থাকে; খাওয়ার পরও রোগী মনে করে পেট খালি, এবং রাতে ক্ষুধার জ্বালায় ঘুম ভেঙে যায়।[reference:22]"
+  },
+  {
+    "id": "petr-sym-11",
+    "stem": "মাথার পেছনে (Occiput) ভারী বোধ এবং ব্যথা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "headache",
+      "occiput",
+      "heaviness"
+    ],
+    "explanation": "Petroleum-এ মাথার পেছনে (Occiput) ভারী বোধ এবং ব্যথা হয়।[reference:30]"
+  },
+  {
+    "id": "petr-sym-15",
+    "stem": "পাকস্থলীতে সবসময় একটি খালি খালি ভাব (Gawing feeling) থাকে, যা খেলে সাময়িকভাবে উপশম হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "stomach",
+      "empty-feeling",
+      "relieved-by-eating"
+    ],
+    "explanation": "Petroleum-এ পাকস্থলীতে সবসময় খালি খালি ভাব (Gawing feeling) থাকে, এবং আহার করলে সাময়িকভাবে কষ্টের উপশম হয়।[reference:34]"
+  },
+  {
+    "id": "plumbum-sym-14",
+    "stem": "মলদ্বার সংকুচিত হয়ে যায়, মল ত্যাগের বেগ থাকলেও মল বের হতে চায় না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "anus",
+      "constriction",
+      "constipation"
+    ],
+    "explanation": "Plumbum Metallicum এ মলদ্বার সংকুচিত হয়ে যায়, মল ত্যাগের বেগ থাকলেও মল বের হতে চায় না।"
+  },
+  {
+    "id": "phy-sym-06",
+    "stem": "গলায় কিছু আটকে থাকার অনুভূতি এবং ক্রমাগত ঢোক গেলার অপ্রতিরোধ্য ইচ্ছা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "throat",
+      "plug-sensation",
+      "swallowing"
+    ],
+    "explanation": "Phytolacca-এ গলায় ডালা বা কিছু আটকে থাকার ভুয়ো অনুভূতিতে রোগী বারবার ঢোক গিলে।"
+  },
+  {
+    "id": "ruta-sym-05",
+    "stem": "দুর্বলতা ও ভাঙা ভাঙা অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium-sempervirens"
+      },
+      {
+        "text": "China",
+        "mid": "china-officinalis"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "weakness",
+      "bruised-sensation"
+    ],
+    "explanation": "Ruta-এর প্রধান লক্ষণ হলো দুর্বলতা ও ভাঙা ভাঙা অনুভূতি।"
+  },
+  {
+    "id": "ruta-sym-13",
+    "stem": "চোখের ভেতর বালু বা কাঁচের টুকরো আছে এমন অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "eye",
+      "foreign-body-sensation"
+    ],
+    "explanation": "Ruta-এ চোখের ভেতর মনে হয় বালু বা কাঁচের টুকরো আছে।"
+  },
+  {
+    "id": "ruta-sym-17",
+    "stem": "মলদ্বার দিয়ে যেন কিছু টেনে ধরা হচ্ছে এমন অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Aloe Soc",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "rectum",
+      "constipation",
+      "sensation"
+    ],
+    "explanation": "Ruta-এ মলদ্বার দিয়ে যেন কিছু টেনে ধরা হচ্ছে এমন অনুভূতি হয়।"
+  },
+  {
+    "id": "phosphorus-sym-04",
+    "stem": "রাক্ষুসে ক্ষুধা, পেটে শূন্যবোধ, পেটে খালি খালি ভাব, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "hunger",
+      "gone-feeling"
+    ],
+    "explanation": "Phosphorus এ রাক্ষুসে ক্ষুধা থাকে, পেটে শূন্যবোধ বা খালি খালি ভাব অনুভূত হয়।"
+  },
+  {
+    "id": "staph-sym-07",
+    "stem": "মন বিষন্ন, স্মৃতি দুর্বল, কপালে বল থাকার অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "depressed",
+      "memory-weak",
+      "ball-forehead"
+    ],
+    "explanation": "Staphisagria-এ বিষন্নতা, স্মৃতি দুর্বল ও কপালে বল অনুভূতি থাকে।"
+  },
+  {
+    "id": "staph-sym-16",
+    "stem": "পেটে ব্যথা সাথে পেট ঝুলে পড়েছে মনে হয়, কোষ্ঠে পেট ফাঁপা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ipecacuanha",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "abdomen",
+      "sinking",
+      "constipation",
+      "bloating"
+    ],
+    "explanation": "Staphisagria-এ পেট ঝুলে পড়া অনুভূতি ও ফাঁপা থাকে।"
+  },
+  {
+    "id": "sene-sym-04",
+    "stem": "বুকের ওপর ভারী কোনো পাথর রাখা হয়েছে বা বুকটি সংকীর্ণ হয়ে গেছে এমন ভারবোধ — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Cactus Gr",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "chest",
+      "sensation"
+    ],
+    "explanation": "Senega রোগী বুকে পাথর চাপানো বা বুক সংকুচিত হয়ে যাওয়ার মতো অনুভূতির কথা প্রকাশ করে।"
+  },
+  {
+    "id": "sanguinaria-sym-18",
+    "stem": "পাকস্থলীতে জ্বালা ও অত্যন্ত শূন্যতা বোধ, ঝাল বা মশলাযুক্ত খাবার খাওয়ার তীব্র ইচ্ছা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "stomach",
+      "burning",
+      "emptiness",
+      "spicy"
+    ],
+    "explanation": "Sanguinaria Canadensis এ পাকস্থলীতে জ্বালা ও অত্যন্ত শূন্যতা বোধ হয়, রোগী ঝাল বা মশলাযুক্ত খাবার খাওয়ার তীব্র ইচ্ছা প্রকাশ করে।"
+  },
+  {
+    "id": "staph-sym-07",
+    "stem": "মন বিষন্ন, স্মৃতি দুর্বল, কপালে বল থাকার অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "depressed",
+      "memory-weak",
+      "ball-forehead"
+    ],
+    "explanation": "Staphisagria-এ বিষন্নতা, স্মৃতি দুর্বল ও কপালে বল অনুভূতি থাকে।"
+  },
+  {
+    "id": "staph-sym-16",
+    "stem": "পেটে ব্যথা সাথে পেট ঝুলে পড়েছে মনে হয়, কোষ্ঠে পেট ফাঁপা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ipecacuanha",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "abdomen",
+      "sinking",
+      "constipation",
+      "bloating"
+    ],
+    "explanation": "Staphisagria-এ পেট ঝুলে পড়া অনুভূতি ও ফাঁপা থাকে।"
+  },
+  {
+    "id": "sep-sym-04",
+    "stem": "পাকস্থলীতে মারাত্মক খালি বা শুন্যবোধ (Gone feeling) যা আহার করলেও উপশম হয় না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Hydrastis",
+        "mid": "hydrastis"
+      },
+      {
+        "text": "Murex",
+        "mid": "murex"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "stomach",
+      "gone-feeling",
+      "empty"
+    ],
+    "explanation": "Sepia-য় পাকস্থলীর গভীর শুন্যতা অনুভূতি প্রধান লক্ষণ।"
+  },
+  {
+    "id": "sep-sym-05",
+    "stem": "মলদ্বারে একটি শক্ত বল বা গোলক (Ball in rectum) আটকে থাকার অনুভূতি থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Plumbum Met",
+        "mid": "plumbum-met"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "rectum",
+      "constipation",
+      "sensation-ball"
+    ],
+    "explanation": "Sepia-র মলদ্বারে মার্বেল বা শক্ত বল আটকে থাকার অনুভূতি থাকে।"
+  },
+  {
+    "id": "sil-sym-02",
+    "stem": "শরীরে গেঁথে থাকা সুঁই, মাছের কাঁটা বা স্প্লিন্টার স্বতঃস্ফূর্তভাবে বের করে দেওয়ার ক্ষমতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "foreign-body",
+      "splinter",
+      "needle"
+    ],
+    "explanation": "Silicea-এর অদ্ভুত ক্ষমতা হলো শরীরে গেঁথে থাকা সুঁই, মাছের কাঁটা বা স্প্লিন্টার বের করে দেওয়া।"
+  },
+  {
+    "id": "sil-sym-09",
+    "stem": "সামান্য আঁচড় লাগলেই সেখানে পুঁজ হয়; আঙুলহাড়া (Whitlow) বা নখের কোণ পাকার সমস্যা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "skin",
+      "pus",
+      "whitlow",
+      "nail"
+    ],
+    "explanation": "Silicea-এ সামান্য আঁচড় লাগলেই সেখানে পুঁজ হয়; আঙুলহাড়া (Whitlow) বা নখের কোণ পাকার সমস্যায় এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "sani-sym-14",
+    "stem": "রোগী মনে করে তার যোনি বা স্ত্রী অঙ্গ অস্বাভাবিক বড় হয়ে গেছে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Platina",
+        "mid": "platina"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "mind",
+      "sensation"
+    ],
+    "explanation": "Sanicula রোগীর মনে অনুভূতি বা ভ্রান্তি থাকে যে তার যোনি অঙ্গ প্রসারিত বা অস্বাভাবিক বড় রূপ নিয়েছে।"
+  },
+  {
+    "id": "verat-sym-11",
+    "stem": "পেট ব্যথার সাথে মনে হয় পেটের ভেতরটা বরফ হয়ে আছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "abdomen",
+      "pain",
+      "ice-cold-sensation"
+    ],
+    "explanation": "Veratrum Album-এ পেট ব্যথার সাথে মনে হয় পেটের ভেতরটা বরফ হয়ে আছে।"
+  },
+  {
+    "id": "thuja-sym-16",
+    "stem": "প্রস্রাবের পর কয়েক ফোঁটা রয়ে গেছে মনে হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "urinary",
+      "drops-remain",
+      "sensation"
+    ],
+    "explanation": "Thuja-এ প্রস্রাবের পর ফোঁটা রয়ে গেছে মনে হয়।"
+  },
+  {
+    "id": "thuja-sym-16",
+    "stem": "প্রস্রাবের পর কয়েক ফোঁটা রয়ে গেছে মনে হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "urinary",
+      "drops-remain",
+      "sensation"
+    ],
+    "explanation": "Thuja-এ প্রস্রাবের পর ফোঁটা রয়ে গেছে মনে হয়।"
+  },
+  {
+    "id": "sul-iod-sym-12",
+    "stem": "পাকস্থলী খালি খালি বোধ এবং খাওয়ার পরেও পেট ভরে না এমন অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "stomach",
+      "empty-feeling",
+      "not-relieved-by-eating"
+    ],
+    "explanation": "Sulphur Iodatum-এ পাকস্থলী খালি খালি বোধ হয় এবং খাওয়ার পরেও পেট ভরে না এমন অনুভূতি থাকে।"
+  }
+]

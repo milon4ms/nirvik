@@ -1,0 +1,1305 @@
+[
+  {
+    "id": "argn-sym-17",
+    "stem": "সঙ্গমের চিন্তা করলেই পুরুষাঙ্গ বা লিঙ্গ শিথিল হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Selenium",
+        "mid": "selenium"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "male",
+      "sexual-weakness"
+    ],
+    "explanation": "Argentum Nitricum-এর পুরুষ জননেন্দ্রিয় লক্ষণে ধ্বজভঙ্গ বা যৌন অক্ষমতা দেখা যায়, যেখানে সঙ্গমের কথা চিন্তা করলেই লিঙ্গ শিথিল হয়ে যায়।"
+  },
+  {
+    "id": "ars-sym-07",
+    "stem": "অত্যন্ত দুর্বলতা কিন্তু তবুও অস্থিরতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Tarentula",
+        "mid": "tarentula"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "weakness",
+      "restlessness"
+    ],
+    "explanation": "Prostration with restlessness হলো Arsenicum Album-এর মূল বৈশিষ্ট্য।"
+  },
+  {
+    "id": "ars-sym-15",
+    "stem": "দুর্বলতা সামান্য পরিশ্রমেই বেড়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Kali Phosphoricum",
+        "mid": "kali-phos"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "weakness",
+      "fatigue"
+    ],
+    "explanation": "সামান্য exertion-এ চরম ক্লান্তি Arsenicum Album-এর গুরুত্বপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "caul-sym-11",
+    "stem": "সম্পূর্ণ শরীরে স্নায়বিক উত্তেজনা ও কাঁপুনি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "nerves",
+      "weakness"
+    ],
+    "explanation": "Nervous excitement with trembling weakness Caulophyllum-এর লক্ষণ।"
+  },
+  {
+    "id": "caul-sym-18",
+    "stem": "কথা বলার শক্তি কমে যায়, দুর্বলতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "weakness",
+      "nervous"
+    ],
+    "explanation": "Can scarcely speak from weakness Caulophyllum-এর লক্ষণ।"
+  },
+  {
+    "id": "calc-fluor-sym-17",
+    "stem": "অন্ডকোষে জল জমা (Hydrocele) এবং কঠিনতা সহ যেকোনো প্রকার অন্ডকোষের পীড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Rhododendron",
+        "mid": "rhododendron"
+      },
+      {
+        "text": "Clematis",
+        "mid": "clematis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "male",
+      "hydrocele",
+      "testes",
+      "induration"
+    ],
+    "explanation": "Calcarea Fluorica-এ অন্ডকোষে জল জমা (Hydrocele) এবং কঠিনতা সহ যেকোনো প্রকার অন্ডকোষের পীড়া হয়।"
+  },
+  {
+    "id": "clem-sym-02",
+    "stem": "ডান দিকের অণ্ডকোষ ও কুঁচকির বিচি ফুলে পাথরের মতো শক্ত হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhododendron",
+        "mid": "rhododendron"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "male",
+      "orchitis",
+      "hardness"
+    ],
+    "explanation": "Clematis Erecta-এ ডান অণ্ডকোষ ফুলে পাথরের মতো কাঠিন্য প্রাপ্ত হয়।"
+  },
+  {
+    "id": "cinn-sym-05",
+    "stem": "মনে অস্বাভাবিক কামভাব থাকে কিন্তু শারীরিক ক্ষমতা কম থাকে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Caladium",
+        "mid": "caladium"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "male",
+      "sexual-weakness",
+      "mind"
+    ],
+    "explanation": "Cinnabaris-এর বিশেষ লক্ষণ হলো মনে অনবরত কামভাব কাজ করলেও শারীরিক সক্ষমতা অতি নগণ্য থাকে।"
+  },
+  {
+    "id": "china-sym-01",
+    "stem": "তরল পদার্থ নির্গমনে চরম দুর্বলতা, অত্যধিক রক্তপাত, বীর্যপাত, অতিরিক্ত স্তন্যদান বা দীর্ঘস্থায়ী ডায়রিয়ার ফলে দুর্বলতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Metallicum",
+        "mid": "ferrum-metallicum"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "weakness",
+      "fluid-loss"
+    ],
+    "explanation": "China এ শরীর থেকে অত্যধিক রক্তপাত, বীর্যপাত, অতিরিক্ত স্তন্যদান বা দীর্ঘস্থায়ী ডায়রিয়ার ফলে চরম দুর্বলতা হয়।"
+  },
+  {
+    "id": "china-sym-02",
+    "stem": "এক সময়ের বলবান এখন শরীর শীর্ণ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "emaciation",
+      "weakness"
+    ],
+    "explanation": "China এ এক সময়ের বলবান রোগী এখন শরীর শীর্ণ হয়ে যায়।"
+  },
+  {
+    "id": "china-sym-05",
+    "stem": "ঘাম দিলে জ্বর ছাড়ে কিন্তু প্রচণ্ড দুর্বল হয়ে পড়ে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "fever",
+      "sweat",
+      "weakness"
+    ],
+    "explanation": "China এ ঘাম দিলে জ্বর ছাড়ে কিন্তু রোগী প্রচণ্ড দুর্বল হয়ে পড়ে।"
+  },
+  {
+    "id": "china-sym-12",
+    "stem": "কোনো কাজ করার শক্তি না পাওয়া, সবসময় শুয়ে থাকতে চাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "mind",
+      "weakness",
+      "lying"
+    ],
+    "explanation": "China রোগী কোনো কাজ করার শক্তি পায় না এবং সবসময় শুয়ে থাকতে চায়।"
+  },
+  {
+    "id": "conium-sym-07",
+    "stem": "পুরুষের কাম চিন্তা সর্বদা কিন্তু মিলনে অক্ষম, স্ত্রী স্পর্শে লিঙ্গ শীতল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Selenium",
+        "mid": "selenium"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "male",
+      "impotency",
+      "desire",
+      "coldness"
+    ],
+    "explanation": "Conium পুরুষের কাম চিন্তা ও অক্ষমতায় কার্যকর।"
+  },
+  {
+    "id": "hama-sym-05",
+    "stem": "অণ্ডকোষ ফুলে যাওয়া এবং সেখানে টেনে ধরার মতো তীব্র ব্যথা হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Clematis",
+        "mid": "clematis"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "male",
+      "orchitis",
+      "testicles"
+    ],
+    "explanation": "Hamamelis-এ অণ্ডকোষ ফুলে ওঠে এবং অত্যন্ত বেদনার্থ টেনে ধরার মতো অনুভূতি তৈরি হয়।"
+  },
+  {
+    "id": "hama-sym-19",
+    "stem": "অতিরিক্ত রক্তপাতের ফলে রোগী তীব্র অবসন্ন ও বিমর্ষ হয়ে পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "debility",
+      "hemorrhage",
+      "weakness"
+    ],
+    "explanation": "Hamamelis-এ তরল বা রক্তের অপচয়ের কারণে গভীর মানসিক বিমর্ষতা ও শারীরিক অবসাদ জন্ম নেয়।"
+  },
+  {
+    "id": "iodium-sym-16",
+    "stem": "ঋতুস্রাবের সময় প্রচণ্ড দুর্বলতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ferrum Metallicum",
+        "mid": "ferrum-metallicum"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "female",
+      "menses",
+      "weakness"
+    ],
+    "explanation": "Iodium এ ঋতুস্রাবের সময় প্রচণ্ড দুর্বলতা হয়।"
+  },
+  {
+    "id": "iodium-sym-17",
+    "stem": "দুর্বল, অল্প পরিশ্রমে প্রচুর ঘাম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "weakness",
+      "sweat",
+      "exertion"
+    ],
+    "explanation": "Iodium রোগী দুর্বল, অল্প পরিশ্রমে প্রচুর ঘাম হয়।"
+  },
+  {
+    "id": "lac-can-sym-18",
+    "stem": "শরীরে দুর্বলতা ও উড়ন্ত ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "weakness",
+      "wandering-pains"
+    ],
+    "explanation": "Lac Caninum-এ শরীরের বিভিন্ন অংশে উড়ন্ত ব্যথা এবং দুর্বলতা দেখা যায়।"
+  },
+  {
+    "id": "natp-sym-07",
+    "stem": "অম্লের কারণে বীর্য তরল ও স্বপ্নদোষ, পিঠ ও পায়ে দুর্বলতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium",
+        "mid": "selenium"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "semen",
+      "thin",
+      "nocturnal-emission",
+      "acidity"
+    ],
+    "explanation": "Natrum Phos-এ অম্লের কারণে বীর্য তরল হয়।"
+  },
+  {
+    "id": "natc-sym-04",
+    "stem": "হাঁটার সময় পায়ের গোড়ালি সহজেই মচকে যাওয়ার মতো দুর্বলতা অনুভব হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Ledum Pal",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Valeriana",
+        "mid": "valeriana"
+      },
+      {
+        "text": "Strontium Carb",
+        "mid": "strontium-carbonicum"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "extremities",
+      "weakness"
+    ],
+    "explanation": "Natrum Carb-এ পায়ের গোড়ালের বিশেষ দুর্বলতা দেখা যায়, যার ফলে হাঁটার সময় গোড়ালি সহজেই মচকে যাওয়ার উপক্রম হয়।"
+  },
+  {
+    "id": "natp-sym-07",
+    "stem": "অম্লের কারণে বীর্য তরল ও স্বপ্নদোষ, পিঠ ও পায়ে দুর্বলতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium",
+        "mid": "selenium"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "semen",
+      "thin",
+      "nocturnal-emission",
+      "acidity"
+    ],
+    "explanation": "Natrum Phos-এ অম্লের কারণে বীর্য তরল হয়।"
+  },
+  {
+    "id": "podo-sym-12",
+    "stem": "মলত্যাগের পর অত্যন্ত ক্লান্ত ও অবসন্ন — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "exhaustion",
+      "after-stool",
+      "weakness"
+    ],
+    "explanation": "Podophyllum-এ মলত্যাগের পর প্রচণ্ড ক্লান্তি থাকে।"
+  },
+  {
+    "id": "podo-sym-12",
+    "stem": "মলত্যাগের পর অত্যন্ত ক্লান্ত ও অবসন্ন — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "exhaustion",
+      "after-stool",
+      "weakness"
+    ],
+    "explanation": "Podophyllum-এ মলত্যাগের পর প্রচণ্ড ক্লান্তি থাকে।"
+  },
+  {
+    "id": "ruta-sym-05",
+    "stem": "দুর্বলতা ও ভাঙা ভাঙা অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium-sempervirens"
+      },
+      {
+        "text": "China",
+        "mid": "china-officinalis"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "weakness",
+      "bruised-sensation"
+    ],
+    "explanation": "Ruta-এর প্রধান লক্ষণ হলো দুর্বলতা ও ভাঙা ভাঙা অনুভূতি।"
+  },
+  {
+    "id": "sel-sym-02",
+    "stem": "মলত্যাগ কালেও বীর্য পড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "spermatorrhoea",
+      "stool",
+      "involuntary"
+    ],
+    "explanation": "Selenium-এ মলত্যাগের সময় বীর্য পড়ে।"
+  },
+  {
+    "id": "sel-sym-03",
+    "stem": "অধিক বীর্যপাতে দেহ ও মনের চরম অবসাদ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "exhaustion",
+      "spermatorrhoea",
+      "weakness"
+    ],
+    "explanation": "Selenium-এ বীর্যপাতে চরম অবসাদ হয়।"
+  },
+  {
+    "id": "sel-sym-04",
+    "stem": "কামভাবের প্রাবল্য, সর্বদা যৌন চিন্তা কিন্তু যৌন অক্ষমতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "lascivious",
+      "impotency",
+      "sexual-thoughts"
+    ],
+    "explanation": "Selenium-এ কামভাব বেশি কিন্তু অক্ষমতা থাকে।"
+  },
+  {
+    "id": "sel-sym-06",
+    "stem": "বয়স্কদের যৌন অক্ষমতা ও প্রস্টেটাইটিস, প্রস্টেট রস নির্গত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Sabal Serrulata",
+        "mid": "sabal-serrulata"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "old-age",
+      "impotency",
+      "prostatitis",
+      "prostatic-fluid"
+    ],
+    "explanation": "Selenium বয়স্কদের অক্ষমতা ও প্রস্টেটাইটিসে কার্যকর।"
+  },
+  {
+    "id": "staph-sym-04",
+    "stem": "অতি হস্তমৈথুন ও অতি সহবাস জনিত অসুস্থতা দূর করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "masturbation",
+      "coition",
+      "excess",
+      "weakness"
+    ],
+    "explanation": "Staphisagria অতিরিক্ত হস্তমৈথুন ও সহবাস জনিত অসুস্থতায় কার্যকর।"
+  },
+  {
+    "id": "stannum-sym-01",
+    "stem": "বুকের মধ্যে শূন্যবোধ বা দুর্বলতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "chest",
+      "weakness"
+    ],
+    "explanation": "Stannum Met-এর প্রধান লক্ষণ হলো বুকের মধ্যে শূন্যবোধ বা দুর্বলতা অনুভব করা।"
+  },
+  {
+    "id": "stannum-sym-03",
+    "stem": "কথা বলার সময় দুর্বল অনুভূতি প্রকাশ ও বুকে খালি বোধ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "chest",
+      "talking",
+      "weakness"
+    ],
+    "explanation": "Stannum Met-এ কথা বলতে গেলে বা সামান্য পরিশ্রমে রোগী হাঁপিয়ে ওঠে এবং বুকে খালি বোধ করে।"
+  },
+  {
+    "id": "stannum-sym-10",
+    "stem": "সিঁড়ি দিয়ে নামার সময় বেশি দুর্বলতা ও কষ্ট — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis-purpurea"
+      },
+      {
+        "text": "China",
+        "mid": "china-officinalis"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "weakness",
+      "descending-stairs"
+    ],
+    "explanation": "Stannum Met-এর রোগী সিঁড়ি দিয়ে নামার সময় বেশি দুর্বলতা ও কষ্ট অনুভব করে।"
+  },
+  {
+    "id": "staph-sym-04",
+    "stem": "অতি হস্তমৈথুন ও অতি সহবাস জনিত অসুস্থতা দূর করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "masturbation",
+      "coition",
+      "excess",
+      "weakness"
+    ],
+    "explanation": "Staphisagria অতিরিক্ত হস্তমৈথুন ও সহবাস জনিত অসুস্থতায় কার্যকর।"
+  },
+  {
+    "id": "sil-sym-20",
+    "stem": "রোগী সর্বদা কামচিন্তায় মগ্ন থাকে এবং মিলনের পর অত্যন্ত দুর্বলতা ও মুখমণ্ডল ফ্যাকাশে হয়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "sexual",
+      "weakness-after-coitus",
+      "pale-face"
+    ],
+    "explanation": "Silicea-এ রোগী সর্বদা কামচিন্তায় মগ্ন থাকে; মিলনের পর অত্যন্ত দুর্বলতা, মুখমণ্ডল ফ্যাকাশে এবং বানরের মতো অস্থিসার শূন্যতা অনুভূত হয়।"
+  },
+  {
+    "id": "syphilinum-sym-09",
+    "stem": "সকালে অবসাদ ও দুর্বলতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "morning",
+      "exhaustion",
+      "weakness"
+    ],
+    "explanation": "Syphilinum এ সকালে অবসাদ ও দুর্বলতা থাকে।"
+  },
+  {
+    "id": "zincum-sym-01",
+    "stem": "স্নায়ুবিক অবসাদ, সবকিছুতেই দুর্বলতা, জীবনী শক্তি নিস্তেজ, মস্তিষ্ক ও স্নায়ুতন্ত্রের প্রচণ্ড ক্লান্তি, চিন্তা করার বা মনে রাখার শক্তি কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Kali Phosphoricum",
+        "mid": "kali-phosphoricum"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "nervous",
+      "exhaustion",
+      "weakness"
+    ],
+    "explanation": "Zincum Metallicum এ স্নায়ুবিক অবসাদ থাকে, সবকিছুতেই দুর্বলতা থাকে, জীবনী শক্তি নিস্তেজ থাকে, মস্তিষ্ক ও স্নায়ুতন্ত্রের প্রচণ্ড ক্লান্তি থাকে।"
+  },
+  {
+    "id": "verat-sym-12",
+    "stem": "মলত্যাগের পর চরম দুর্বলতা অনুভব করা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "weakness",
+      "after-stool",
+      "prostration"
+    ],
+    "explanation": "Veratrum Album-এ মলত্যাগের পর চরম দুর্বলতা অনুভব করা হয়।"
+  },
+  {
+    "id": "verat-sym-13",
+    "stem": "হার্টের দুর্বলতা এবং অল্প নড়াচড়াতেও দমবন্ধ ভাব বা মূর্ছা যাওয়ার অবস্থা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Crataegus",
+        "mid": "crataegus"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "heart",
+      "weakness",
+      "dyspnea",
+      "fainting"
+    ],
+    "explanation": "Veratrum Album-এ হার্টের দুর্বলতা এবং অল্প নড়াচড়াতেও দমবন্ধ ভাব বা মূর্ছা যাওয়ার অবস্থা হয়।"
+  },
+  {
+    "id": "verat-sym-20",
+    "stem": "সামান্য পরিশ্রমেই নাড়ি অত্যন্ত ক্ষীণ ও দ্রুত হয় এবং হাত-পা নীল হয়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "collapse",
+      "pulse",
+      "cyanosis",
+      "weakness"
+    ],
+    "explanation": "Veratrum Album-এ নাড়ি অত্যন্ত ক্ষীণ ও দ্রুত হয়, হাত-পা নীল হয়ে যায় এবং শরীর হিমাঙ্গ বা অত্যন্ত শীতল হয়ে পড়ে।"
+  },
+  {
+    "id": "thuja-sym-12",
+    "stem": "গনোরিয়ার পাতলা স্রাব, গনোরিয়ায় ধ্বজভঙ্গ, প্রস্রাবে জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Cannabis Sativa",
+        "mid": "cannabis-sativa"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "gonorrhea",
+      "thin-discharge",
+      "impotency",
+      "burning-urine"
+    ],
+    "explanation": "Thuja গনোরিয়া ও তার পরবর্তী সমস্যায় কার্যকর।"
+  },
+  {
+    "id": "thuja-sym-12",
+    "stem": "গনোরিয়ার পাতলা স্রাব, গনোরিয়ায় ধ্বজভঙ্গ, প্রস্রাবে জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Cannabis Sativa",
+        "mid": "cannabis-sativa"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "gonorrhea",
+      "thin-discharge",
+      "impotency",
+      "burning-urine"
+    ],
+    "explanation": "Thuja গনোরিয়া ও তার পরবর্তী সমস্যায় কার্যকর।"
+  },
+  {
+    "id": "sul-iod-sym-04",
+    "stem": "সামান্য পরিশ্রমেই রোগী ক্লান্ত হয়ে পড়ে এবং প্রচুর ঘাম হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "weakness",
+      "exertion",
+      "sweating"
+    ],
+    "explanation": "Sulphur Iodatum-এ প্রচণ্ড দুর্বলতা থাকে; সামান্য পরিশ্রমেই রোগী ক্লান্ত হয়ে পড়ে এবং প্রচুর ঘাম হয়।"
+  },
+  {
+    "id": "sul-iod-sym-20",
+    "stem": "রোগীর ওজন কমে যায়, যদিও ক্ষুধা বেশি থাকতে পারে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "weight-loss",
+      "appetite",
+      "weakness"
+    ],
+    "explanation": "Sulphur Iodatum-এ রোগী খুব দুর্বল ও ওজন কমে যায়, যদিও ক্ষুধা বেশি থাকতে পারে।"
+  },
+  {
+    "id": "spongia-sym-04",
+    "stem": "থাইরয়েড গ্রন্থি (Goitre) ও অণ্ডকোষ ফুলে শক্ত হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      },
+      {
+        "text": "Calcarea Fluor",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carbonica"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "goitre",
+      "orchitis",
+      "glands"
+    ],
+    "explanation": "Spongia-তে শরীরের বিভিন্ন গ্রন্থি, বিশেষত থাইরয়েড (Goitre) এবং অণ্ডকোষ ফুলে শক্ত হয়ে যায়।"
+  },
+  {
+    "id": "spongia-sym-10",
+    "stem": "অণ্ডকোষ প্রদাহ, ব্যথাযুক্ত ও স্ফিত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhododendron",
+        "mid": "rhododendron-chrysanthum"
+      },
+      {
+        "text": "Clematis",
+        "mid": "clematis-erecta"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "orchitis",
+      "male"
+    ],
+    "explanation": "Spongia-তে অণ্ডকোষ প্রদাহ হয়, যা ব্যথাযুক্ত ও স্ফিত থাকে।"
+  }
+]

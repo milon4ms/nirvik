@@ -1,0 +1,3327 @@
+[
+  {
+    "id": "argn-sym-05",
+    "stem": "গলায় বা ক্ষতের স্থানে মাছের কাঁটা বা ফালি বিঁধে আছে এমন অনুভূতি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "throat",
+      "splinter-pain"
+    ],
+    "explanation": "Argentum Nitricum-এ গলায় বা ক্ষতের স্থানে মনে হয় যেন একটা মাছের কাঁটা বা ফালি বিঁধে আছে।"
+  },
+  {
+    "id": "arnica-mont-sym-10",
+    "stem": "অতিরিক্ত শারীরিক পরিশ্রমের ফলে হৃদপিণ্ডের পেশি দুর্বল হয়ে যাওয়া, বাম বাহুতে ব্যথা এবং দমবন্ধ ভাব — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Crataegus",
+        "mid": "crataegus"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "heart",
+      "athletes-heart",
+      "left-arm-pain",
+      "dyspnea"
+    ],
+    "explanation": "Arnica Montana-এ অতিরিক্ত শারীরিক পরিশ্রমের ফলে হৃদপিণ্ডের পেশি দুর্বল হয়ে যাওয়া (Athlete's Heart), বাম বাহুতে ব্যথা এবং দমবন্ধ ভাব একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "arnica-mont-sym-12",
+    "stem": "পেটে প্রচণ্ড শূলানি ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "digestive",
+      "abdominal-colic",
+      "severe-pain"
+    ],
+    "explanation": "Arnica Montana-এ পেটে প্রচণ্ড শূলানি ব্যথা (Severe abdominal colic) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "ars-sym-02",
+    "stem": "জ্বালাপোড়া ব্যথা যা গরমে উপশম হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "burning",
+      "pain"
+    ],
+    "explanation": "Burning pains better by heat হলো Arsenicum Album-এর প্রধান keynote।"
+  },
+  {
+    "id": "aurum-sym-12",
+    "stem": "ভ্রমণশীল ব্যথা, মাথা যন্ত্রণা রাতে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "pain",
+      "wandering",
+      "headache",
+      "night"
+    ],
+    "explanation": "Aurum-এ ভ্রমণশীল ব্যথা ও রাতে মাথা যন্ত্রণা বাড়ে।"
+  },
+  {
+    "id": "bell-sym-02",
+    "stem": "মাথাব্যথা স্পন্দনশীল, ধুকপুক ধরনের — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "headache",
+      "throbbing"
+    ],
+    "explanation": "স্পন্দনশীল congestive headache Belladonna নির্দেশ করে।"
+  },
+  {
+    "id": "bell-sym-08",
+    "stem": "ব্যথা হঠাৎ আসে ও হঠাৎ চলে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "pain",
+      "sudden"
+    ],
+    "explanation": "Belladonna-এর উপসর্গ আকস্মিক প্রকৃতির।"
+  },
+  {
+    "id": "bell-sym-10",
+    "stem": "ধমনীতে স্পষ্ট ধুকপুকানি অনুভূত হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "circulation",
+      "throbbing"
+    ],
+    "explanation": "Throbbing carotids Belladonna নির্দেশ করে।"
+  },
+  {
+    "id": "bry-sym-04",
+    "stem": "শরীরের যেকোনো স্থানে সুঁচ ফোটানোর মতো তীক্ষ্ণ ব্যথা যা নড়াচড়ায় বাড়ে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carb"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "pain",
+      "stitching",
+      "motion"
+    ],
+    "explanation": "Bryonia-এ শরীরের স্থানভেদে সুঁচ ফোটানোর মতো তীক্ষ্ণ ব্যথা (Stitching Pains) হয় যা নড়াচড়া করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "bry-sym-09",
+    "stem": "কাশির সময় বুকে সুঁচ ফোটানো ব্যথা হওয়ায় হাত দিয়ে বুক চেপে ধরা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Dros-cough",
+        "mid": "dros-cough"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "cough",
+      "chest-pain",
+      "holding-chest"
+    ],
+    "explanation": "Bryonia-এ কাশির সময় বুকে সুঁচ ফোটানো ব্যথা হয় বলে রোগী হাত দিয়ে চেপে বুক শক্ত করে ধরে থাকে।"
+  },
+  {
+    "id": "cantharis-sym-04",
+    "stem": "রোগী অত্যন্ত অস্থির, রাগী এবং যন্ত্রণার চোটে চিৎকার করে ও ছটফট করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "mental",
+      "restlessness",
+      "anger",
+      "pain"
+    ],
+    "explanation": "Cantharis-এর মানসিক লক্ষণে রোগী অত্যন্ত অস্থির এবং রাগী মেজাজের হয়; যন্ত্রণার চোটে সে চিৎকার করে এবং ছটফট করে।"
+  },
+  {
+    "id": "cantharis-sym-08",
+    "stem": "প্রস্রাব করার আগে, সময় এবং পরে মূত্রনালীতে অসহ্য কাটাকাটা ব্যথা ও জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "urinary",
+      "dysuria",
+      "burning",
+      "cutting-pain"
+    ],
+    "explanation": "Cantharis-এ প্রস্রাব করার আগে, সময় এবং পরে মূত্রনালীতে অসহ্য কাটাকাটা ব্যথা ও জ্বালা হয়।"
+  },
+  {
+    "id": "cantharis-sym-12",
+    "stem": "তীব্র যন্ত্রণার কারণে রোগী প্রলাপ বকে এবং অনেক সময় মারমুখী হয়ে ওঠে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "mental",
+      "delirium",
+      "violent",
+      "pain"
+    ],
+    "explanation": "Cantharis-এ তীব্র যন্ত্রণার কারণে রোগী প্রলাপ বকে এবং অনেক সময় মারমুখী হয়ে ওঠে।"
+  },
+  {
+    "id": "caul-sym-10",
+    "stem": "আঙুল বন্ধ করলে কাটার মতো ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Plumbum",
+        "mid": "plumbum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "hands",
+      "joint-pain"
+    ],
+    "explanation": "Closing hands causes cutting pain in Caulophyllum।"
+  },
+  {
+    "id": "caul-sym-20",
+    "stem": "জয়েন্টের ব্যথা প্রতি কয়েক মিনিটে স্থান পরিবর্তন করে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Aesculus",
+        "mid": "aesculus"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "rheumatism",
+      "erratic-pain"
+    ],
+    "explanation": "Erratic pains changing place every few minutes Caulophyllum-এর keynote।"
+  },
+  {
+    "id": "calen-sym-03",
+    "stem": "অস্ত্রোপচার পরবর্তী ক্ষতে ইনফেকশন রোধ ও ব্যথা কমাতে অপ্রতিদ্বন্দ্বী — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "surgery",
+      "post-operative",
+      "infection",
+      "pain"
+    ],
+    "explanation": "Calendula সার্জারির পর ইনফেকশন রোধে শ্রেষ্ঠ।"
+  },
+  {
+    "id": "calc-fluor-sym-11",
+    "stem": "লুম্বাগো বা কোমরের দীর্ঘস্থায়ী ব্যথা যা নড়াচড়া করলে বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "back-pain",
+      "lumbago",
+      "motion"
+    ],
+    "explanation": "Calcarea Fluorica-এ লুম্বাগো বা কোমরের দীর্ঘস্থায়ী ব্যথা হয় যা নড়াচড়া করলে বাড়ে।"
+  },
+  {
+    "id": "camph-sym-10",
+    "stem": "ব্যথা নিয়ে চিন্তা করলে ব্যথা কমে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "pain",
+      "modalities"
+    ]
+  },
+  {
+    "id": "caps-sym-10",
+    "stem": "কানে প্রচণ্ড ব্যথা ও কানের পর্দা লাল হয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "ear",
+      "pain"
+    ],
+    "explanation": "Capsicum Annuum এ কানে প্রচণ্ড ব্যথা হয় এবং কানের পর্দা লাল হয়ে যায়।"
+  },
+  {
+    "id": "caps-sym-16",
+    "stem": "কাশির প্রতিটি ঝাকুনিতে দূরের অঙ্গে, যেমন কানে বা কোমরে ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "respiratory",
+      "cough",
+      "distant-pain"
+    ],
+    "explanation": "Capsicum Annuum এ কাশির প্রতিটি ঝাকুনিতে শরীরের কোনো দূরে অঙ্গে, যেমন কানে বা কোমরে ব্যথা অনুভূত হয়।"
+  },
+  {
+    "id": "causticum-sym-10",
+    "stem": "শরীর ছিড়ে ফেলার মতো ব্যথা, উত্তাপে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "pain",
+      "tearing",
+      "heat-amelioration"
+    ],
+    "explanation": "Causticum-এ শরীর ছিড়ে ফেলার মতো ব্যথা হয় যা উত্তাপে উপশম হয়।"
+  },
+  {
+    "id": "causticum-sym-11",
+    "stem": "ডান কোমরে ভিভর সুই ফোটানোর মতো ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "pain",
+      "loin",
+      "stitching"
+    ],
+    "explanation": "Causticum-এ ডান কোমরে ভিভর সুই ফোটানোর মতো ব্যথা হয়।"
+  },
+  {
+    "id": "causticum-sym-12",
+    "stem": "লিভারের নিচে চেপে ধরার মতো ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "liver",
+      "pain",
+      "pressing"
+    ],
+    "explanation": "Causticum-এ লিভারের নিচে চেপে ধরার মতো ব্যথা হয়।"
+  },
+  {
+    "id": "colch-sym-08",
+    "stem": "রোগী যন্ত্রণার কারণে অত্যন্ত খিটখিটে এবং বিরক্ত থাকে, সামান্য কারণেই কান্নাকাটি করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "mental",
+      "irritability",
+      "tearful",
+      "pain"
+    ],
+    "explanation": "Colchicum-এ যন্ত্রণার কারণে রোগী অত্যন্ত খিটখিটে ও বিরক্ত থাকে এবং সামান্য কারণেই কান্নাকাটি করে।"
+  },
+  {
+    "id": "colch-sym-14",
+    "stem": "সমস্ত শরীরে স্পর্শে অতি সংবেদনশীলতা; আক্রান্ত স্থানে ব্যথা শীতে সুই ফোটানো এবং গরমে ছিঁড়ে ফেলার মতো অনুভূত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "hyperesthesia",
+      "touch",
+      "pain-type"
+    ],
+    "explanation": "Colchicum-এ সমস্ত শরীরে স্পর্শ অনুভূতি তীব্র, আক্রান্ত স্থানে ব্যথা শীতে সুই ফোটানো এবং গরমে ছিঁড়ে ফেলার মতো হয়।"
+  },
+  {
+    "id": "colch-sym-20",
+    "stem": "শরীরে ব্যথার সাথে সাথে অত্যন্ত দুর্বলতা এবং মৃত্যুভয়ের মতো Collapse অবস্থা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "prostration",
+      "collapse",
+      "pain"
+    ],
+    "explanation": "Colchicum-এ ব্যথার সাথে সাথে অত্যন্ত দুর্বলতা এবং Collapse-এর মতো অবস্থা দেখা যায়।"
+  },
+  {
+    "id": "clem-sym-05",
+    "stem": "প্রস্রাব করার শেষ ফোটা অত্যন্ত যন্ত্রণাদায়ক হওয়া এবং ভেতরে প্রস্রাব রয়ে গেছে এমন অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      },
+      {
+        "text": "Berberis Vulgaris",
+        "mid": "berberis-vulgaris"
+      },
+      {
+        "text": "Petroselinum",
+        "mid": "petroselinum"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "urinary",
+      "pain",
+      "tenesmus"
+    ],
+    "explanation": "Clematis Erecta-এ প্রস্রাব ত্যাগের শেষ ফোঁটায় তীব্র যন্ত্রণা ও অসন্তোষজনক অনুভূতি বজায় থাকে।"
+  },
+  {
+    "id": "clem-sym-07",
+    "stem": "অণ্ডকোষ উপরের দিকে টেনে ধরার মতো তীক্ষ্ণ ব্যথা হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Plumbum Met",
+        "mid": "plumbum-met"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Berberis Vulgaris",
+        "mid": "berberis-vulgaris"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "male",
+      "testicles",
+      "pain"
+    ],
+    "explanation": "Clematis Erecta-এ অণ্ডকোষের রশি বা বীচি ওপরের দিকে টান ধরে তীব্র ব্যথার অনুভূতি জন্মায়।"
+  },
+  {
+    "id": "croton-sym-03",
+    "stem": "স্তন্যদানকালে স্তন থেকে পিঠ পর্যন্ত টান লাগার মতো ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca-decandra"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "breast",
+      "nursing",
+      "pain"
+    ],
+    "explanation": "Croton Tiglium-এ স্তন্যদানকারী মহিলার শিশু দুধ পান করলে মনে হয় যেন স্তন থেকে পিঠের দিকে দড়ি দিয়ে টানছে।"
+  },
+  {
+    "id": "croton-sym-15",
+    "stem": "স্তনবৃন্তের ভেতরে তীব্র ব্যথা যা পিঠের স্ক্যাপুলা পর্যন্ত ছড়ায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca-decandra"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "breast",
+      "pain",
+      "scapula"
+    ],
+    "explanation": "Croton Tiglium-এ স্তনবৃন্তের ভেতরে তীব্র ব্যথা হয় যা পিঠের পেছনের হাড়ের (Scapula) দিকে ছড়িয়ে পড়ে।"
+  },
+  {
+    "id": "cimicifuga-sym-07",
+    "stem": "কাজকর্ম করার পর মাংসপেশির ব্যথায় উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "muscle-pain",
+      "motion"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ কাজকর্ম করার পর মাংসপেশির ব্যথায় উপশম হয়।"
+  },
+  {
+    "id": "cimicifuga-sym-08",
+    "stem": "আঙুলের কাজ করা ব্যক্তিদের পিঠে ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "back-pain",
+      "finger-work"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ যারা আঙুলের কাজ করে তাদের পিঠে ব্যথা হয়।"
+  },
+  {
+    "id": "cimicifuga-sym-11",
+    "stem": "বড় বড় মাংসপেশির বাতের ব্যথা বা কামড়ানো ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "rheumatism",
+      "muscle-pain"
+    ],
+    "explanation": "Cimicifuga Racemosa বিশেষত বড় বড় মাংসপেশির বাতের ব্যথা বা কামড়ানো ব্যথায় অতুলনীয়।"
+  },
+  {
+    "id": "cimicifuga-sym-14",
+    "stem": "সারা শরীরে লাঠি দিয়ে পিটিয়েছে এমন স্পর্শকাতরতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "soreness",
+      "as-if-beaten"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ সারা শরীরে মনে হয় যেন কেউ লাঠি দিয়ে পিটিয়েছে এবং মাংসপেশি অত্যন্ত স্পর্শকাতর হয়ে পড়ে।"
+  },
+  {
+    "id": "colocynthis-sym-01",
+    "stem": "রাগ বা অপমানের ফলে ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "mind",
+      "anger",
+      "pain"
+    ],
+    "explanation": "Colocynthis এ প্রচণ্ড রাগ বা অপমানিত হওয়ার ফলে পেটে ব্যথা বা অন্য উপসর্গ দেখা দেয়।"
+  },
+  {
+    "id": "colocynthis-sym-02",
+    "stem": "ভয়ানক শূল ব্যথা, কেটে ফেলার মতো ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "abdomen",
+      "colic",
+      "cutting-pain"
+    ],
+    "explanation": "Colocynthis এ ভয়ানক শূল ব্যথা হয়, কেটে ফেলার মতো ব্যথা অনুভূত হয়।"
+  },
+  {
+    "id": "colocynthis-sym-03",
+    "stem": "যন্ত্রণায় মুখ পাংশু হয়ে যাওয়া ও ব্যথায় রোগী দ্বিভাজ হয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "abdomen",
+      "pain",
+      "bend-double"
+    ],
+    "explanation": "Colocynthis এ যন্ত্রণায় মুখ পাংশু হয়ে যায়, বেদনায় রোগী দ্বিভাজ হয়ে যায়।"
+  },
+  {
+    "id": "colocynthis-sym-05",
+    "stem": "ব্যথার প্রথম অবস্থায় চাপ দিলে উপশম, অনেকদিন হলে চাপ দিলে অসহ্য লাগা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "pain",
+      "pressure"
+    ],
+    "explanation": "Colocynthis এ ব্যথার প্রথম অবস্থায় চাপ দিলে উপশম হয়, অনেকদিন হলে চাপ দিলে অসহ্য লাগে।"
+  },
+  {
+    "id": "colocynthis-sym-07",
+    "stem": "ব্যথা সাধারণত 4 থেকে 9 দিন থাকে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "pain",
+      "duration"
+    ],
+    "explanation": "Colocynthis এ ব্যথা সাধারণত 4 থেকে 9 দিন থাকে।"
+  },
+  {
+    "id": "colocynthis-sym-10",
+    "stem": "আক্ষেপিক বেদনা, হঠাৎ তীব্র খিঁচুনির মতো ব্যথা, হঠাৎ চলে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "pain",
+      "cramping",
+      "sudden"
+    ],
+    "explanation": "Colocynthis এ হঠাৎ তীব্র খিঁচুনির মতো আক্ষেপিক ব্যথা হয় এবং হঠাৎ করেই চলে যায়।"
+  },
+  {
+    "id": "cinn-sym-01",
+    "stem": "নাকের গোড়ায় মনে হওয়া যেন ভারী কিছু চশমার মতো জোরে চেপে ধরে আছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bich"
+      },
+      {
+        "text": "Sticta Pulmonaria",
+        "mid": "sticta-pulmonaria"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "nose",
+      "root-pain",
+      "sinusitis"
+    ],
+    "explanation": "Cinnabaris-এর প্রধান নির্দেশক লক্ষণ হলো নাকের গোড়ায় চশমা চেপে বসার মতো বা ভারী কিছু থাকার তীব্র চাপ ও ব্যথা।"
+  },
+  {
+    "id": "cinn-sym-19",
+    "stem": "গলার ভেতর লাল, ফোলা এবং গিলতে বা কথা বলতে গেলে যন্ত্রণা হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Merc I-R",
+        "mid": "merc-i-r"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "throat",
+      "swallowing",
+      "pain"
+    ],
+    "explanation": "Cinnabaris-এ গলার উপরিভাগের প্রদাহে লাল ভাব, ফোলা এবং খাদ্য ও লালা গিলতে তীব্র অস্বস্তি হয়।"
+  },
+  {
+    "id": "chel-sym-01",
+    "stem": "ডান কাঁধের পিঠের হাড়ের (Right scapula) নিচের কোণে একটানা ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "liver",
+      "scapula-pain",
+      "right-sided"
+    ],
+    "explanation": "Chelidonium Majus-এর একটি নিশ্চিত পরিচায়ক লক্ষণ হলো ডান দিকের পিঠের হাড়ের (Right Scapula) নিচের কোণে একটানা ব্যথা।"
+  },
+  {
+    "id": "conium-sym-08",
+    "stem": "স্তনে শক্তভাব, রজস্রাবের সময় ফুলে ও ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Phytolacca Decandra",
+        "mid": "phytolacca-decandra"
+      },
+      {
+        "text": "Asterias Rubens",
+        "mid": "asterias-rubens"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "breast",
+      "hardness",
+      "menses",
+      "swelling",
+      "pain"
+    ],
+    "explanation": "Conium-এ স্তন শক্ত ও মাসিকে ফুলে ব্যথা হয়।"
+  },
+  {
+    "id": "hyper-sym-02",
+    "stem": "আঘাতপ্রাপ্ত স্থান থেকে ব্যথা স্নায়ু বরাবর উপরের দিকে ছড়ায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Kalmia Latifolia",
+        "mid": "kalmia-latifolia"
+      },
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "pain",
+      "shooting-up",
+      "nerve",
+      "injury"
+    ],
+    "explanation": "Hypericum-এ ব্যথা স্নায়ু বরাবর উপরে যায়।"
+  },
+  {
+    "id": "hyper-sym-03",
+    "stem": "তীব্র সূঁচালো অসহ্য ব্যথা, টাটানি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "pain",
+      "shooting",
+      "soreness",
+      "intolerable"
+    ],
+    "explanation": "Hypericum-এ তীব্র সূঁচালো অসহ্য ব্যথা থাকে।"
+  },
+  {
+    "id": "hyper-sym-08",
+    "stem": "অর্শে প্রচণ্ড ব্যথা, রক্তপাত, টাটানি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Aesculus Hippocastanum",
+        "mid": "aesculus-hippocastanum"
+      },
+      {
+        "text": "Hamamelis Virginica",
+        "mid": "hamamelis-virginica"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "hemorrhoids",
+      "pain",
+      "bleeding",
+      "soreness"
+    ],
+    "explanation": "Hypericum অর্শে ব্যথা ও টাটানিতে কার্যকর।"
+  },
+  {
+    "id": "hyper-sym-14",
+    "stem": "মেরুদণ্ড স্পর্শে কুঁকড়ে যায়, পিঠের নিচে টান ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Tellurium",
+        "mid": "tellurium"
+      },
+      {
+        "text": "Chin Sulph",
+        "mid": "chin-sulph"
+      },
+      {
+        "text": "Theridion",
+        "mid": "theridion"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "spine",
+      "sensitive",
+      "touch",
+      "back-pain"
+    ],
+    "explanation": "Hypericum-এ মেরুদণ্ড স্পর্শে তীব্র ব্যথা হয়।"
+  },
+  {
+    "id": "hyper-sym-16",
+    "stem": "বিমর্ষ ও হতাশ, প্রচণ্ড ব্যথায় ভুল বকা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "mind",
+      "melancholy",
+      "depression",
+      "delirium",
+      "pain"
+    ],
+    "explanation": "Hypericum রোগী বিমর্ষ ও ব্যথায় ভুল বকে।"
+  },
+  {
+    "id": "hama-sym-03",
+    "stem": "আক্রান্ত স্থানে বা শিরায় লাঠি দিয়ে পেটানোর মতো টাটানি ও থ্যাতলানো ব্যথা (Soreness) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "pain",
+      "soreness",
+      "touch"
+    ],
+    "explanation": "Hamamelis-এ আক্রান্ত অংশ বা শিরার ওপর প্রচণ্ড থ্যাতলানো ব্যথা ও স্পর্শকাতরতা থাকে।"
+  },
+  {
+    "id": "ign-sym-10",
+    "stem": "গিলছে না এমন সময় গলায় সূচ ফোটার ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "throat",
+      "stitches"
+    ],
+    "explanation": "Throat stitches between swallows Ignatia-এর লক্ষণ।"
+  },
+  {
+    "id": "ign-sym-19",
+    "stem": "ব্যথার স্থান ছোট ও নির্দিষ্ট — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "pain",
+      "circumscribed"
+    ],
+    "explanation": "Pain in small circumscribed spots points to Ignatia।"
+  },
+  {
+    "id": "ipecac-sym-19",
+    "stem": "জ্বরে ঘাড়, পিঠ, হাতে প্রচণ্ড ব্যথা এবং সারা শরীরে থ্যাতলানো ব্যথা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Eupatorium Perfoliatum",
+        "mid": "eupatorium-perfoliatum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "fever",
+      "body-ache",
+      "bone-pain"
+    ],
+    "explanation": "Ipecac-এ জ্বরে ঘাড়, পিঠ, হাতে প্রচণ্ড ব্যথা এবং সারা শরীরে থ্যাতলানো ব্যথা হয়।"
+  },
+  {
+    "id": "hepar-sym-13",
+    "stem": "আক্রান্ত স্থানে কাঁটা ফোটার মতো ব্যথা, কাপড় স্পর্শ করলেও যন্ত্রণায় চিৎকার, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "pain",
+      "splinter",
+      "touch"
+    ],
+    "explanation": "Hepar Sulph এ আক্রান্ত স্থানে কাঁটা ফোটার মতো ব্যথা হয়, আক্রান্ত স্থান এত স্পর্শকাতর যে কাপড় স্পর্শ করলেও যন্ত্রণায় চিৎকার করে ওঠে।"
+  },
+  {
+    "id": "glon-sym-01",
+    "stem": "রক্ত প্রচণ্ড বেগে মাথা ও হৃদপিণ্ডে প্রবাহিত, মাথা দপদপ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Melilotus",
+        "mid": "melilotus"
+      },
+      {
+        "text": "Amyl Nitrosum",
+        "mid": "amyl-nitrosum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "congestion",
+      "head",
+      "heart",
+      "throbbing"
+    ],
+    "explanation": "Glonoine-এ রক্ত মাথা ও হৃদপিণ্ডে ছুটে যায় ও দপদপ করে।"
+  },
+  {
+    "id": "glon-sym-06",
+    "stem": "সারা দেহে শিরার স্পন্দন, বুকে ধড়ফড়ানি, নাড়ি পূর্ণ ও দ্রুত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Amyl Nitrosum",
+        "mid": "amyl-nitrosum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "pulsation",
+      "palpitation",
+      "pulse",
+      "full"
+    ],
+    "explanation": "Glonoine-এ সারা শরীরে দপদপানি ও পূর্ণ দ্রুত নাড়ি থাকে।"
+  },
+  {
+    "id": "ferrum-phos-sym-10",
+    "stem": "জয়েন্ট ও মাংসপেশিতে কামড়ানো ব্যথা, নড়াচড়ায় বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "joint-pain",
+      "muscle-pain"
+    ],
+    "explanation": "Ferrum Phos-এ শরীরের বিভিন্ন জয়েন্টে বা মাংসপেশিতে কামড়ানো ব্যথা হয় যা নড়াচড়া করলে বাড়ে।"
+  },
+  {
+    "id": "ferrum-phos-sym-16",
+    "stem": "কানের ভেতর দপদপানি ব্যথা ও কান লাল হয়ে ফুলে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "ear",
+      "pain",
+      "redness"
+    ],
+    "explanation": "Ferrum Phos-এ কানের ভেতর দপদপানি ব্যথা এবং কান লাল হয়ে ফুলে যায়; শিশুদের কান ব্যথায় এটি প্রাথমিক ঔষধ।"
+  },
+  {
+    "id": "ferrum-phos-sym-17",
+    "stem": "সর্দিতে নাক বন্ধ ও বুকে ব্যথাযুক্ত কাশি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "coryza",
+      "cough",
+      "chest-pain"
+    ],
+    "explanation": "Ferrum Phos-এ সর্দি লেগে নাক বন্ধ হয়ে যাওয়া বা বুকে ব্যথাযুক্ত কাশি হয়।"
+  },
+  {
+    "id": "lac-can-sym-08",
+    "stem": "শরীরের বিভিন্ন অংশে উড়ন্ত ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "pain",
+      "wandering"
+    ],
+    "explanation": "Lac Caninum-এ শরীরের বিভিন্ন অংশে উড়ন্ত ব্যথা হয়।"
+  },
+  {
+    "id": "lac-can-sym-20",
+    "stem": "লক্ষণ ও ব্যথার পাশ পরিবর্তন ও স্থানান্তর — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "alternating-sides",
+      "pain"
+    ],
+    "explanation": "Lac Caninum-এর সবচেয়ে গুরুত্বপূর্ণ বৈশিষ্ট্য হলো ব্যথা বা লক্ষণ এক পাশ থেকে অন্য পাশে স্থানান্তরিত হওয়া।"
+  },
+  {
+    "id": "mez-sym-06",
+    "stem": "হাড়ের ব্যথা উপর থেকে নিচে নামে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "bone-pain",
+      "direction"
+    ],
+    "explanation": "Downward extension of bone pains indicates Mezereum."
+  },
+  {
+    "id": "mez-sym-19",
+    "stem": "রাতে বিছানায় হাড় ও periosteum-এর ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "bone-pain",
+      "night"
+    ],
+    "explanation": "Night periosteal pains are a classic Mezereum symptom."
+  },
+  {
+    "id": "merc-sym-11",
+    "stem": "টনসিল পেকে পুঁজ, গিলতে কান পর্যন্ত ব্যথা, কালচে লাল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Mercurius Iodatus",
+        "mid": "mercurius-iodatus"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "tonsils",
+      "quinsy",
+      "suppuration",
+      "ear-pain"
+    ],
+    "explanation": "Merc Vivus-এ টনসিল পেকে পুঁজ ও কানে ব্যথা ছড়ায়।"
+  },
+  {
+    "id": "medorrhinum-sym-09",
+    "stem": "পায়ের গোড়ালিতে সূঁচ ফোটার মতো ব্যথা ও জ্বালা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "heel-pain",
+      "burning"
+    ],
+    "explanation": "Medorrhinum-এ পায়ের তলায় ও গোড়ালিতে তীব্র সূঁচ ফোটার মতো ব্যথা ও জ্বালা থাকে।"
+  },
+  {
+    "id": "medorrhinum-sym-16",
+    "stem": "নারীদের ডিম্বাশয়ে তীব্র সূঁচ ফোটানো ব্যথা ও জরায়ুপ্রদাহ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "ovary",
+      "pain",
+      "uterine"
+    ],
+    "explanation": "Medorrhinum-এ নারীদের ডিম্বাশয়ে তীব্র সূঁচ ফোটানো ব্যথা ও জরায়ুপ্রদাহ দেখা যায়।"
+  },
+  {
+    "id": "magphos-sym-01",
+    "stem": "মহানিবারক ব্যথা নাশক, তীব্র ব্যথার অন্যতম শ্রেষ্ঠ ঔষধ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "pain",
+      "antispasmodic"
+    ],
+    "explanation": "Magnesia Phosphorica মহানিবারক ব্যথা নাশক, তীব্র ব্যথার অন্যতম শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "magphos-sym-02",
+    "stem": "গরম সেঁক দিলে বা গরম জল পান করলে ব্যথা জাদুর মতো কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "amelioration",
+      "warmth",
+      "pain"
+    ],
+    "explanation": "Magnesia Phosphorica এ যেকোনো ব্যথা গরম সেঁক দিলে বা গরম জল পানে জাদুর মতো কমে যায়।"
+  },
+  {
+    "id": "magphos-sym-09",
+    "stem": "স্নায়ুশূল, তীরবিদ্ধবৎ, ছিন্নকারী বা বিদ্যুৎচমকের মতো ব্যথা, সাথে পেশিতে খিঁচুনি বা আড়ষ্টতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "neuralgia",
+      "pain",
+      "spasm"
+    ],
+    "explanation": "Magnesia Phosphorica এ শরীরের যেকোনো অংশের স্নায়ুর তীব্র তীরবিদ্ধবৎ, ছিন্নকারী বা বিদ্যুৎচমকের মতো ব্যথা হয়, সাথে পেশিতে খিঁচুনি বা আড়ষ্টতা থাকে।"
+  },
+  {
+    "id": "led-sym-09",
+    "stem": "পায়ের তলায় ব্যথা, হাঁটতে কষ্ট — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "feet",
+      "pain"
+    ]
+  },
+  {
+    "id": "led-sym-13",
+    "stem": "রাতে ব্যথা বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "night",
+      "pain"
+    ]
+  },
+  {
+    "id": "led-sym-16",
+    "stem": "স্পর্শে ব্যথা কিন্তু ঠান্ডায় আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "pain",
+      "cold-better"
+    ]
+  },
+  {
+    "id": "podo-sym-06",
+    "stem": "ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "ovary",
+      "right",
+      "pain",
+      "thigh"
+    ],
+    "explanation": "Podophyllum-এ ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায়।"
+  },
+  {
+    "id": "podo-sym-07",
+    "stem": "লিভারে ব্যথা মালিশে ও পেটের উপর ভর দিয়ে শুলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "liver",
+      "pain",
+      "amel-rubbing",
+      "prone"
+    ],
+    "explanation": "Podophyllum-এ লিভার ব্যথা মালিশে ও উপুড় শুলে কমে।"
+  },
+  {
+    "id": "phy-sym-01",
+    "stem": "ঢোক গেলার সময় গলার ব্যথা তীরের মতো কানের দিকে ধাবিত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "throat",
+      "swallowing",
+      "pain-to-ears"
+    ],
+    "explanation": "Phytolacca-এর গলার প্রধান চারিত্রিক লক্ষণ হলো ঢোক গিলে সেই ব্যথা কান পর্যন্ত চলে যাওয়া।"
+  },
+  {
+    "id": "phy-sym-03",
+    "stem": "স্তন অত্যন্ত শক্ত, পাথরের মতো কঠিন, গরম ও প্রসূতির দুধ পান করানোর সময় ব্যথা সারা শরীরে ছড়িয়ে পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "mammae",
+      "mastitis",
+      "nursing-pain"
+    ],
+    "explanation": "Phytolacca স্তনের শক্ত পিণ্ড ও দুধ পান করানোর সময় সারা দেহে ব্যথা বিস্তারের মহৌষধ।"
+  },
+  {
+    "id": "phy-sym-04",
+    "stem": "ব্যথা হঠাৎ বিদ্যুতের ঝিলিকের মতো এক স্থান থেকে অন্য স্থানে ধাবিত হওয়া (Electric-like pains) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bich"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "pain",
+      "electric-like",
+      "wandering"
+    ],
+    "explanation": "Phytolacca-এর ব্যথার দ্রুত সঞ্চালনের ধরণকে ইলেকট্রিক শট বা বিদ্যুতের ঝিলিকের সাথে তুলনা করা হয়।"
+  },
+  {
+    "id": "phy-sym-18",
+    "stem": "সায়াটিকা ব্যথায় আক্রান্ত পা সোজা রাখা অত্যন্ত কঠিন হয়ে পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Gnaphalium",
+        "mid": "gnaphalium"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "sciatica",
+      "extremities",
+      "pain"
+    ],
+    "explanation": "Phytolacca-এ তীব্র সায়াটিকায় পা টান বা সোজা করার চেষ্টা করলে দুঃসহ কষ্ট বাড়ে।"
+  },
+  {
+    "id": "pyrogenium-sym-15",
+    "stem": "দপদপানি সহ মাথাব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoinum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "headache",
+      "throbbing"
+    ],
+    "explanation": "Pyrogenium-এ দপদপানি সহ মাথাব্যথা হয়।"
+  },
+  {
+    "id": "pyrogenium-sym-16",
+    "stem": "শরীর টাটানো ও ছটফট করা, এপাশ-ওপাশ করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "restlessness",
+      "soreness"
+    ],
+    "explanation": "Pyrogenium-এ শরীর টাটানি হয়, রোগী ছটফট করে এবং এপাশ-ওপাশ করে।"
+  },
+  {
+    "id": "pyrogenium-sym-18",
+    "stem": "দ্রুততর নাড়ি, ঘাড়ের শিরা ও হৃদপিণ্ডে প্রচণ্ড দপদপানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis-purpurea"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "pulse",
+      "throbbing"
+    ],
+    "explanation": "Pyrogenium-এ নাড়ি দ্রুততর হয় এবং ঘাড়ের শিরা ও হৃদপিণ্ডে প্রচণ্ড দপদপানি হয়।"
+  },
+  {
+    "id": "pyrogenium-sym-15",
+    "stem": "দপদপানি সহ মাথাব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoinum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "headache",
+      "throbbing"
+    ],
+    "explanation": "Pyrogenium-এ দপদপানি সহ মাথাব্যথা হয়।"
+  },
+  {
+    "id": "pyrogenium-sym-16",
+    "stem": "শরীর টাটানো ও ছটফট করা, এপাশ-ওপাশ করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "restlessness",
+      "soreness"
+    ],
+    "explanation": "Pyrogenium-এ শরীর টাটানি হয়, রোগী ছটফট করে এবং এপাশ-ওপাশ করে।"
+  },
+  {
+    "id": "pyrogenium-sym-18",
+    "stem": "দ্রুততর নাড়ি, ঘাড়ের শিরা ও হৃদপিণ্ডে প্রচণ্ড দপদপানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis-purpurea"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "pulse",
+      "throbbing"
+    ],
+    "explanation": "Pyrogenium-এ নাড়ি দ্রুততর হয় এবং ঘাড়ের শিরা ও হৃদপিণ্ডে প্রচণ্ড দপদপানি হয়।"
+  },
+  {
+    "id": "podo-sym-06",
+    "stem": "ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "ovary",
+      "right",
+      "pain",
+      "thigh"
+    ],
+    "explanation": "Podophyllum-এ ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায়।"
+  },
+  {
+    "id": "podo-sym-07",
+    "stem": "লিভারে ব্যথা মালিশে ও পেটের উপর ভর দিয়ে শুলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "liver",
+      "pain",
+      "amel-rubbing",
+      "prone"
+    ],
+    "explanation": "Podophyllum-এ লিভার ব্যথা মালিশে ও উপুড় শুলে কমে।"
+  },
+  {
+    "id": "ruta-sym-01",
+    "stem": "হাড়ের আবরক ঝিল্লি (পেরিওস্টিয়াম) ও টেনডনের ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum-officinale"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "bone",
+      "tendon",
+      "pain"
+    ],
+    "explanation": "Ruta প্রধানত হাড়, পেরিওস্টিয়াম ও টেনডনের ব্যথায় ব্যবহৃত হয়।"
+  },
+  {
+    "id": "ruta-sym-04",
+    "stem": "কোমর, কবজি ও হাঁটুর ব্যথা বসলে বাড়ে, নড়াচড়ায় কমে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "joint-pain",
+      "back-pain",
+      "wrist",
+      "knee"
+    ],
+    "explanation": "Ruta-এ কোমর, কবজি ও হাঁটুর ব্যথা বসলে বাড়ে এবং নড়াচড়ায় কিছুটা কমে।"
+  },
+  {
+    "id": "ruta-sym-14",
+    "stem": "কোমরে প্রচণ্ড ব্যথা, যেন হাড় ভেঙে গেছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "back-pain",
+      "bone"
+    ],
+    "explanation": "Ruta-এ কোমরে প্রচণ্ড ব্যথা হয় যেন হাড় ভেঙে গেছে; রোগী পিঠের ওপর ভর দিয়ে শুলে আরাম পায়।"
+  },
+  {
+    "id": "ruta-sym-15",
+    "stem": "সায়াটিকা ব্যথা যা রাতে শুলে বাড়ে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "sciatica",
+      "back-pain",
+      "night"
+    ],
+    "explanation": "Ruta-এ সায়াটিকা ব্যথা হয় যা রাতে শুলে বাড়ে।"
+  },
+  {
+    "id": "plat-sym-06",
+    "stem": "ব্যথা বা কষ্ট ধীরে ধীরে শুরু হয় এবং ধীরে ধীরে চলে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Stannum Metallicum",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "pain",
+      "slow-onset",
+      "slow-offset"
+    ],
+    "explanation": "Platinum Metallicum-এর একটি বৈশিষ্ট্যপূর্ণ লক্ষণ হলো ব্যথা ধীরে ধীরে বৃদ্ধি পায় এবং ধীরে ধীরে কমে (যেমন Stannum Metallicum-এও দেখা যায়)।"
+  },
+  {
+    "id": "sel-sym-13",
+    "stem": "আহারের পর সারা দেহে বিশেষত পেটে দপদপানি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "pulsation",
+      "whole-body",
+      "abdomen",
+      "after-eating"
+    ],
+    "explanation": "Selenium-এ আহারের পর সারা দেহে দপদপানি হয়।"
+  },
+  {
+    "id": "staph-sym-02",
+    "stem": "অস্ত্রোপচারের কুফল ও ধারালো অস্ত্রের কাটা ব্যথা দূর করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "surgery",
+      "post-surgical",
+      "sharp-cut",
+      "pain"
+    ],
+    "explanation": "Staphisagria অস্ত্রোপচার পরবর্তী ব্যথায় কার্যকর।"
+  },
+  {
+    "id": "stannum-sym-06",
+    "stem": "ব্যথা ধীরে ধীরে বৃদ্ধি পায়, ধীরে ধীরে কমে আসে এবং চেপে ধরলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "pain",
+      "gradual",
+      "pressure"
+    ],
+    "explanation": "Stannum Met-এ যেকোনো যন্ত্রণা খুব ধীরে ধীরে বাড়তে থাকে এবং চূড়ান্তে পৌঁছানোর পর আবার খুব ধীরে ধীরে কমতে থাকে; চেপে ধরলে উপশম হয়।"
+  },
+  {
+    "id": "sene-sym-03",
+    "stem": "বুকের কোনো ক্ষুদ্র স্থানে বা নির্দিষ্ট অংশে জ্বালাপোড়া ও সূঁচ ফোঁটানোর মতো ব্যথা হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "chest",
+      "burning-pain"
+    ],
+    "explanation": "Senega-এ বুকের একটি ছোট বা নির্দিষ্ট স্থানজুড়ে জ্বালা ও সুঁচ ফোঁটানোর মতো ব্যথার প্রাবল্য থাকে।"
+  },
+  {
+    "id": "sene-sym-11",
+    "stem": "কাশি দিলে বুকে প্রচণ্ড ব্যথা হওয়া, যা কাশির শেষে বহুগুণ বৃদ্ধি পাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Squilla",
+        "mid": "squilla-hispanica"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "chest",
+      "cough-pain"
+    ],
+    "explanation": "Senega-এ কাশি দেওয়ার সময় বুকে চরম যন্ত্রণা হয় যা কাশির ক্রিয়াকলাপ শেষ হলে আরও বেড়ে যায়।"
+  },
+  {
+    "id": "sars-sym-01",
+    "stem": "প্রস্রাবের শেষে তীব্র জ্বালা ও ব্যথা, বিশেষত শেষ কয়েক ফোঁটার সাথে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "urinary",
+      "pain",
+      "end-of-urination"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর সবচেয়ে গুরুত্বপূর্ণ লক্ষণ হলো প্রস্রাব শেষ হওয়ার ঠিক পরেই মূত্রনালীতে অসহ্য জ্বালা ও ব্যথা হয়, বিশেষত শেষ কয়েক ফোঁটা প্রস্রাবের সাথে।"
+  },
+  {
+    "id": "sars-sym-06",
+    "stem": "মাথার চাঁদি থেকে চোখ পর্যন্ত তীরের আঘাতের মতো ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "headache",
+      "shooting-pain",
+      "occiput",
+      "eyes"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ মাথার চাঁদি (Occiput) থেকে চোখ পর্যন্ত তীরের আঘাত পাওয়ার মতো শুটিং ব্যথা হয়।"
+  },
+  {
+    "id": "sars-sym-08",
+    "stem": "ডান দিকের কিডনি থেকে নিচের দিকে ছড়িয়ে পড়া অসহনীয় ব্যথা (Right-sided renal colic) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Berberis Vulgaris",
+        "mid": "berberis-vulgaris"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "renal-colic",
+      "right-sided",
+      "kidney-stones",
+      "pain"
+    ],
+    "explanation": "Sarsaparilla Officinalis ডান দিকের রেনাল কোলিকে (Right-sided renal colic) কার্যকর, যেখানে ব্যথা ডান কিডনি থেকে নিচের দিকে অসহনীয়ভাবে ছড়িয়ে পড়ে।"
+  },
+  {
+    "id": "sars-sym-10",
+    "stem": "ব্যথার সময় রোগী অত্যন্ত অস্থির হয়ে পড়ে এবং চিৎকার করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "mental",
+      "restlessness",
+      "screaming",
+      "pain"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ ব্যথার সময় রোগী অত্যন্ত অস্থির হয়ে পড়ে এবং চিৎকার করে।"
+  },
+  {
+    "id": "sars-sym-13",
+    "stem": "মূত্রথলি ফুলে ওঠা এবং其上 হাত দিলে ব্যথা পাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "urinary",
+      "bladder",
+      "swelling",
+      "tenderness"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ অনেক সময় মূত্রথলি ফুলে ওঠে এবং其上 হাত দিলে ব্যথা পাওয়া যায়।"
+  },
+  {
+    "id": "sanguinaria-sym-19",
+    "stem": "ডান কাঁধের ব্যথা, ডান কাঁধের পেশিতে প্রচণ্ড ব্যথা, ডান হাত ওপরে তুলতে বা পেছন দিকে নিতে পারে না, রাতে বিছানায় এপাশ ওপাশ করলে ব্যথা বাড়ে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium"
+      },
+      {
+        "text": "Ferrum Metallicum",
+        "mid": "ferrum-metallicum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "shoulder",
+      "right",
+      "pain"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ডান কাঁধের পেশিতে প্রচণ্ড ব্যথা হয়, রোগী ডান হাত ওপরে তুলতে বা পেছন দিকে নিতে পারে না, রাতে বিছানায় এপাশ ওপাশ করলে ব্যথা বাড়ে।"
+  },
+  {
+    "id": "staph-sym-02",
+    "stem": "অস্ত্রোপচারের কুফল ও ধারালো অস্ত্রের কাটা ব্যথা দূর করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "surgery",
+      "post-surgical",
+      "sharp-cut",
+      "pain"
+    ],
+    "explanation": "Staphisagria অস্ত্রোপচার পরবর্তী ব্যথায় কার্যকর।"
+  },
+  {
+    "id": "spigelia-sym-04",
+    "stem": "সুই ফোটানো বেদনা, মনে হয় চোখের ভেতরে সুঁই ফোটানো হচ্ছে, চোখের পেছনে সুঁই বিঁধছে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "eye",
+      "needle",
+      "pain"
+    ],
+    "explanation": "Spigelia Anthelmia এ সুই ফোটানো বেদনা হয়, মনে হয় চোখের ভেতরে সুঁই ফোটানো হচ্ছে, চোখের পেছনে সুঁই বিঁধছে।"
+  },
+  {
+    "id": "spigelia-sym-05",
+    "stem": "বেদনা ভিতর থেকে বাইরে ঠেলা মারে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "pain",
+      "inside-out"
+    ],
+    "explanation": "Spigelia Anthelmia এ বেদনা ভিতর থেকে বাইরে ঠেলা মারে।"
+  },
+  {
+    "id": "spigelia-sym-06",
+    "stem": "বেদনা নিচ থেকে উপরে ঠেলা মারে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Kalmia",
+        "mid": "kalmia"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "pain",
+      "below-above"
+    ],
+    "explanation": "Spigelia Anthelmia এ বেদনা নিচ থেকে উপরে ঠেলা মারে।"
+  },
+  {
+    "id": "sani-sym-12",
+    "stem": "পেরিনিয়াম (Perineum) প্রদেশে বা গুহ্যদ্বার ও জননেন্দ্রিয়ের মধ্যবর্তী স্থানে ব্যথা অনুভব হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "perineum",
+      "pain"
+    ],
+    "explanation": "Sanicula-এর একটি বিশিষ্ট অঙ্গভিত্তিক লক্ষণ হলো পেরিনিয়াম অঞ্চলে (Perineum) তীব্র ব্যথা অনুভূতি।"
+  },
+  {
+    "id": "sab-sym-02",
+    "stem": "কোমর থেকে সামনে কুঁচকি পর্যন্ত ব্যথা ছড়ায়, স্যাক্রাম থেকে পিউবিস — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Viburnum Opulus",
+        "mid": "viburnum-opulus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "pain",
+      "sacrum-to-pubes",
+      "direction",
+      "characteristic"
+    ],
+    "explanation": "Sabina-এর ব্যথা স্যাক্রাম থেকে পিউবিস পর্যন্ত যায়।"
+  },
+  {
+    "id": "sab-sym-03",
+    "stem": "নড়াচড়ায় রক্তস্রাব ও ব্যথা বেড়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "aggravation",
+      "motion",
+      "hemorrhage",
+      "pain"
+    ],
+    "explanation": "Sabina-এ নড়াচড়ায় রক্তস্রাব ও ব্যথা বাড়ে।"
+  },
+  {
+    "id": "sab-sym-09",
+    "stem": "মলদ্বারে তীরের মতো বিঁধানো ব্যথা, অর্শ থেকে উজ্জ্বল লাল রক্ত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Aesculus Hippocastanum",
+        "mid": "aesculus-hippocastanum"
+      },
+      {
+        "text": "Hamamelis Virginica",
+        "mid": "hamamelis-virginica"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "anus",
+      "stitching",
+      "piles",
+      "bright-red-bleeding"
+    ],
+    "explanation": "Sabina-এ মলদ্বারে তীরবৎ ব্যথা ও উজ্জ্বল লাল রক্তপাত হয়।"
+  },
+  {
+    "id": "syphilinum-sym-08",
+    "stem": "ব্যথা ধীরে ধীরে বাড়ে ধীরে ধীরে কমে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Aconitum Napellus",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "pain",
+      "gradual"
+    ],
+    "explanation": "Syphilinum এ ব্যথা ধীরে ধীরে বাড়ে ধীরে ধীরে কমে।"
+  },
+  {
+    "id": "verat-sym-11",
+    "stem": "পেট ব্যথার সাথে মনে হয় পেটের ভেতরটা বরফ হয়ে আছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "abdomen",
+      "pain",
+      "ice-cold-sensation"
+    ],
+    "explanation": "Veratrum Album-এ পেট ব্যথার সাথে মনে হয় পেটের ভেতরটা বরফ হয়ে আছে।"
+  },
+  {
+    "id": "apis-sym-02",
+    "stem": "মৌমাছির হুল ফোটানোর মতো তীক্ষ্ণ, হঠাৎ আসা এবং যাওয়া ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "stinging-pain",
+      "burning",
+      "sudden-pain"
+    ],
+    "explanation": "Apis Mellifica-এ মৌমাছির হুল ফোটানোর মতো তীক্ষ্ণ ও হঠাৎ আসা-যাওয়া ব্যথা (Stinging Pains) হয়।"
+  },
+  {
+    "id": "apis-sym-10",
+    "stem": "প্রধানত ডান দিকের ডিম্বাশয়ের প্রদাহ (Ovaritis) বা সিস্ট এবং তলপেটে হুল ফোটানো ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "female",
+      "right-ovary",
+      "ovarian-cyst",
+      "stinging-pain"
+    ],
+    "explanation": "Apis Mellifica-এ প্রধানত ডান দিকের ডিম্বাশয়ের প্রদাহ (Ovaritis) বা সিস্ট এবং তলপেটে হুল ফোটানো ব্যথা হয়, যা স্পর্শ করলে বেড়ে যায়।"
+  },
+  {
+    "id": "apis-sym-15",
+    "stem": "স্মারক লক্ষণ হিসেবে মৌমাছির হুল ফোটানোর যন্ত্রণা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "keynote",
+      "stinging-pain",
+      "bee-sting"
+    ],
+    "explanation": "Apis Mellifica মৌমাছি দিয়ে তৈরি, তাই এর স্মারক লক্ষণ হলো হুল ফোটানোর যন্ত্রণা (Stinging pain)।"
+  }
+]

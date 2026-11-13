@@ -1,0 +1,503 @@
+[
+  {
+    "id": "causticum-sym-12",
+    "stem": "লিভারের নিচে চেপে ধরার মতো ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "liver",
+      "pain",
+      "pressing"
+    ],
+    "explanation": "Causticum-এ লিভারের নিচে চেপে ধরার মতো ব্যথা হয়।"
+  },
+  {
+    "id": "chel-sym-01",
+    "stem": "ডান কাঁধের পিঠের হাড়ের (Right scapula) নিচের কোণে একটানা ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "liver",
+      "scapula-pain",
+      "right-sided"
+    ],
+    "explanation": "Chelidonium Majus-এর একটি নিশ্চিত পরিচায়ক লক্ষণ হলো ডান দিকের পিঠের হাড়ের (Right Scapula) নিচের কোণে একটানা ব্যথা।"
+  },
+  {
+    "id": "chel-sym-02",
+    "stem": "রোগী অত্যন্ত গরম পানীয় বা ফুটন্ত গরম দুধ পান করতে চায় এবং এতে আরাম বোধ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "thirst",
+      "hot-drinks",
+      "liver"
+    ],
+    "explanation": "Chelidonium Majus-এ রোগী অত্যন্ত গরম পানীয় বা ফুটন্ত গরম দুধ পান করতে চায় এবং এতে সে বেশ আরাম বোধ করে।"
+  },
+  {
+    "id": "chel-sym-03",
+    "stem": "শরীরের চামড়া, চোখের সাদা অংশ, জিহ্বা এবং প্রস্রাব অত্যন্ত হলুদ বর্ণ ধারণ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "jaundice",
+      "yellow-discoloration",
+      "liver"
+    ],
+    "explanation": "Chelidonium Majus-এ শরীরের চামড়া, চোখের সাদা অংশ, জিহ্বা এবং প্রস্রাব অত্যন্ত হলুদ বর্ণ ধারণ করে (জন্ডিসের লক্ষণ)।"
+  },
+  {
+    "id": "chel-sym-06",
+    "stem": "প্রস্রাব গাঢ় হলুদ বা বিয়ারের মতো রঙের হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "urine",
+      "dark-yellow",
+      "liver"
+    ],
+    "explanation": "Chelidonium Majus-এ প্রস্রাব গাঢ় হলুদ বা বিয়ারের মতো রঙের হয়।"
+  },
+  {
+    "id": "chel-sym-07",
+    "stem": "ডান দিকের ফুসফুসে ব্যথা বা নিউমোনিয়া, যা লিভারের গোলযোগের সাথে যুক্ত থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "respiratory",
+      "right-lung",
+      "pneumonia",
+      "liver"
+    ],
+    "explanation": "Chelidonium Majus-এ ডান দিকের ফুসফুসে ব্যথা বা নিউমোনিয়া (Pneumonia) হতে পারে, যা লিভারের গোলযোগের সাথে যুক্ত থাকে।"
+  },
+  {
+    "id": "chel-sym-12",
+    "stem": "লিভারের গোলযোগের কারণে রোগী অত্যন্ত খিটখিটে মেজাজের হয়ে পড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "mental",
+      "irritability",
+      "liver-disorder"
+    ],
+    "explanation": "Chelidonium Majus-এ লিভারের গোলযোগের কারণে রোগী অত্যন্ত খিটখিটে মেজাজের হয়ে পড়ে।"
+  },
+  {
+    "id": "chel-sym-14",
+    "stem": "লিভারে আঘাত লাগার মতো অনুভূতি হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "liver",
+      "sensation-of-injury"
+    ],
+    "explanation": "Chelidonium Majus-এ লিভারে আঘাত লাগার মতো অনুভূতি হয়।"
+  },
+  {
+    "id": "chel-sym-17",
+    "stem": "মাথা ঘোরার সাথে জন্ডিস বা পেটের গোলমাল থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Cocculus",
+        "mid": "cocculus"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "vertigo",
+      "jaundice",
+      "stomach-disorder"
+    ],
+    "explanation": "Chelidonium Majus-এ মাথা ঘোরার সাথে জন্ডিস বা পেটের গোলমাল থাকতে পারে।"
+  },
+  {
+    "id": "chel-sym-18",
+    "stem": "রোগী চর্বিযুক্ত খাবার সহ্য করতে পারে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "liver",
+      "intolerance",
+      "fatty-food"
+    ],
+    "explanation": "Chelidonium Majus-এ রোগী চর্বিযুক্ত খাবার সহ্য করতে পারে না।"
+  },
+  {
+    "id": "chel-sym-19",
+    "stem": "গরম খেলে লিভার, পাকস্থলি ও বুকের রোগ উপশম হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "warm-food",
+      "liver",
+      "stomach"
+    ],
+    "explanation": "Chelidonium Majus-এ গরম খেলে লিভার, পাকস্থলি ও বুকের রোগ উপশম হয়।"
+  },
+  {
+    "id": "podo-sym-07",
+    "stem": "লিভারে ব্যথা মালিশে ও পেটের উপর ভর দিয়ে শুলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "liver",
+      "pain",
+      "amel-rubbing",
+      "prone"
+    ],
+    "explanation": "Podophyllum-এ লিভার ব্যথা মালিশে ও উপুড় শুলে কমে।"
+  },
+  {
+    "id": "podo-sym-14",
+    "stem": "লিভারের সমস্যায় বিষণ্ণ ও খিটখিটে, কথা বলতে অনিচ্ছা, একাকী পছন্দ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "mind",
+      "liver",
+      "depressed",
+      "irritable",
+      "alone"
+    ],
+    "explanation": "Podophyllum লিভার সমস্যায় বিষণ্ণ ও একাকী থাকতে পছন্দ করে।"
+  },
+  {
+    "id": "podo-sym-15",
+    "stem": "পিত্তবমির প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "vomiting",
+      "bilious",
+      "tendency"
+    ],
+    "explanation": "Podophyllum-এ পিত্তবমির প্রবণতা থাকে।"
+  },
+  {
+    "id": "podo-sym-07",
+    "stem": "লিভারে ব্যথা মালিশে ও পেটের উপর ভর দিয়ে শুলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "liver",
+      "pain",
+      "amel-rubbing",
+      "prone"
+    ],
+    "explanation": "Podophyllum-এ লিভার ব্যথা মালিশে ও উপুড় শুলে কমে।"
+  },
+  {
+    "id": "podo-sym-14",
+    "stem": "লিভারের সমস্যায় বিষণ্ণ ও খিটখিটে, কথা বলতে অনিচ্ছা, একাকী পছন্দ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "mind",
+      "liver",
+      "depressed",
+      "irritable",
+      "alone"
+    ],
+    "explanation": "Podophyllum লিভার সমস্যায় বিষণ্ণ ও একাকী থাকতে পছন্দ করে।"
+  },
+  {
+    "id": "podo-sym-15",
+    "stem": "পিত্তবমির প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "vomiting",
+      "bilious",
+      "tendency"
+    ],
+    "explanation": "Podophyllum-এ পিত্তবমির প্রবণতা থাকে।"
+  }
+]

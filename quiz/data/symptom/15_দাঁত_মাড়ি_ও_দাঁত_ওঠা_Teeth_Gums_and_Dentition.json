@@ -1,0 +1,1009 @@
+[
+  {
+    "id": "argm-sym-13",
+    "stem": "দাঁতে ব্যথা যা ঠান্ডা পানিতে বেড়ে যায় — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Plantago",
+        "mid": "plantago"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phos"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "teeth",
+      "cold-aggravation"
+    ],
+    "explanation": "Argentum Metallicum-তে দাঁতে ব্যথা ঠান্ডা সংস্পর্শে বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "calcphos-sym-04",
+    "stem": "দাঁত উঠতে দেরি ও দাঁত ওঠার সময় পাতলা পায়খানা বা সর্দি কাশি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "children",
+      "teething",
+      "diarrhoea"
+    ],
+    "explanation": "Calcarea Phosphorica এ শিশুদের দাঁত উঠতে দেরি হয় এবং সেই সময় পাতলা পায়খানা বা সর্দি কাশি হয়।"
+  },
+  {
+    "id": "calen-sym-05",
+    "stem": "দাঁত তোলার পর রক্তক্ষরণ বন্ধ করে ও মাড়ির ক্ষত শুকায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "dental",
+      "tooth-extraction",
+      "bleeding",
+      "gums"
+    ],
+    "explanation": "Calendula দাঁত তোলার পর রক্তপাত বন্ধে কার্যকর।"
+  },
+  {
+    "id": "calc-fluor-sym-04",
+    "stem": "দাঁতের এনামেল নষ্ট হয়ে যাওয়া, দাঁত আলগা হয়ে যাওয়া বা দাঁতে গর্ত হওয়ার প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "teeth",
+      "enamel",
+      "dental-caries"
+    ],
+    "explanation": "Calcarea Fluorica-এ দাঁতের এনামেল নষ্ট হয়ে যাওয়া, দাঁত আলগা হয়ে যাওয়া বা দাঁতে গর্ত হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "calc-fluor-sym-19",
+    "stem": "দ্রুত দাঁত ক্ষয় এবং ছানির (Cataract) অতি উৎকৃষ্ট মহৌষধ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "teeth",
+      "cataract",
+      "eyes",
+      "dental-decay"
+    ],
+    "explanation": "Calcarea Fluorica দ্রুত দাঁত ক্ষয় এবং ছানির (Cataract) অতি উৎকৃষ্ট মহৌষধ।"
+  },
+  {
+    "id": "cupr-sym-12",
+    "stem": "শিশুদের খিঁচুনি দাঁত ওঠার সময় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "teething",
+      "convulsion"
+    ],
+    "explanation": "Teething convulsions-এ Cuprum Metallicum ব্যবহৃত হয়।"
+  },
+  {
+    "id": "chel-sym-04",
+    "stem": "জিহ্বা প্রশস্ত এবং তার ওপর হলুদাভ আস্তরণ পড়ে, যার কিনারে দাঁতের ছাপ দেখা যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "tongue",
+      "yellow-coating",
+      "teeth-marks"
+    ],
+    "explanation": "Chelidonium Majus-এ জিহ্বা প্রশস্ত হয় এবং তার ওপর হলুদাভ আস্তরণ পড়ে, যার কিনারে দাঁতের ছাপ দেখা যেতে পারে।"
+  },
+  {
+    "id": "hyper-sym-06",
+    "stem": "দাঁত তোলা বা অপারেশনের পর স্নায়বিক ব্যথা থেকে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula-officinalis"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "post-operative",
+      "dental",
+      "neuralgia",
+      "extraction"
+    ],
+    "explanation": "Hypericum অপারেশন পরবর্তী স্নায়বিক ব্যথায় কার্যকর।"
+  },
+  {
+    "id": "ipecac-sym-11",
+    "stem": "শিশুদের দাঁত ওঠার সময়কালীন ডায়রিয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "teething",
+      "diarrhea",
+      "children"
+    ],
+    "explanation": "Ipecac শিশুদের দাঁত ওঠার সময়কালীন ডায়রিয়ায় কার্যকর।"
+  },
+  {
+    "id": "mez-sym-08",
+    "stem": "পচা দাঁত, রাতে দাঁতের ব্যথা, ঠান্ডা বাতাসে আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "toothache",
+      "night"
+    ],
+    "explanation": "Night toothache relieved by drawing in air is a Mezereum symptom."
+  },
+  {
+    "id": "natp-sym-05",
+    "stem": "ছোট কৃমি, দাঁত কিড়মিড়, বিছানায় প্রস্রাব, ট্যারা দৃষ্টি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Teucrium Marum",
+        "mid": "teucrium-marum"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "worms",
+      "teeth-grinding",
+      "enuresis",
+      "squint"
+    ],
+    "explanation": "Natrum Phos কৃমি ও তার উপসর্গে কার্যকর।"
+  },
+  {
+    "id": "natp-sym-09",
+    "stem": "শিশু নাকে হাত দেয়, রাতে দাঁত কিড়মিড় করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "child",
+      "nose-picking",
+      "teeth-grinding",
+      "worms"
+    ],
+    "explanation": "Natrum Phos-এ শিশু নাকে হাত দেয় ও দাঁত কিড়মিড় করে।"
+  },
+  {
+    "id": "merc-sym-03",
+    "stem": "জিহ্বা মোটা থলথলে, ফ্যাকাশে ভেজা, দুপাশে দাঁতের দাগ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium-majus"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "tongue",
+      "flabby",
+      "tooth-prints",
+      "moist"
+    ],
+    "explanation": "Merc Vivus-এ জিহ্বা থলথলে ও দাঁতের দাগ থাকে।"
+  },
+  {
+    "id": "merc-sym-10",
+    "stem": "মুখে ঘা, মাড়ি ফুলে রক্ত পড়া, দাঁত নড়া, ধাতব পচা দুর্গন্ধ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "mouth",
+      "ulcer",
+      "gums",
+      "bleeding",
+      "fetor"
+    ],
+    "explanation": "Merc Vivus-এ মুখে ঘা, মাড়ি থেকে রক্ত ও ধাতব দুর্গন্ধ থাকে।"
+  },
+  {
+    "id": "magphos-sym-17",
+    "stem": "ডান দিকের মুখের স্নায়ুশূল, ঠান্ডা জল মুখে দিলে দাঁতের ব্যথা তীব্র হয়, গরম জল মুখে রাখলে উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Plantago",
+        "mid": "plantago"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "face",
+      "neuralgia",
+      "tooth"
+    ],
+    "explanation": "Magnesia Phosphorica এ ডান দিকের মুখের স্নায়ুশূল হয়, ঠান্ডা জল মুখে দিলে দাঁতের ব্যথা তীব্র হয়, কিন্তু গরম জল মুখে রাখলে উপশম হয়।"
+  },
+  {
+    "id": "mag-carb-sym-05",
+    "stem": "গর্ভবতী নারীদের দাঁতের ব্যথা, যা রাতে বিছানার গরমে বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Plantago Major",
+        "mid": "plantago-major"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "toothache",
+      "pregnancy",
+      "night",
+      "bed-heat"
+    ],
+    "explanation": "Magnesia Carbonica গর্ভাবস্থায় নারীদের দাঁতের ব্যথায় কার্যকর; এই ব্যথা সাধারণত রাতে শুতে গেলে বা বিছানার গরমে বেড়ে যায়।"
+  },
+  {
+    "id": "natp-sym-05",
+    "stem": "ছোট কৃমি, দাঁত কিড়মিড়, বিছানায় প্রস্রাব, ট্যারা দৃষ্টি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Teucrium Marum",
+        "mid": "teucrium-marum"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "worms",
+      "teeth-grinding",
+      "enuresis",
+      "squint"
+    ],
+    "explanation": "Natrum Phos কৃমি ও তার উপসর্গে কার্যকর।"
+  },
+  {
+    "id": "natp-sym-09",
+    "stem": "শিশু নাকে হাত দেয়, রাতে দাঁত কিড়মিড় করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "child",
+      "nose-picking",
+      "teeth-grinding",
+      "worms"
+    ],
+    "explanation": "Natrum Phos-এ শিশু নাকে হাত দেয় ও দাঁত কিড়মিড় করে।"
+  },
+  {
+    "id": "plumbum-sym-03",
+    "stem": "মাড়ি প্রান্তে নীলবর্ণের রেখা, মাড়ি ফোলা, সিসা বিষক্রিয়ার চিহ্ন, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Kali Chloricum",
+        "mid": "kali-chloricum"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "gum",
+      "blue-line",
+      "lead"
+    ],
+    "explanation": "Plumbum Metallicum এ মাড়ি প্রান্তে নীলবর্ণের রেখা দেখা যায়, মাড়ি ফোলা থাকে, এটি সিসা বিষক্রিয়ার প্রধান চিহ্ন।"
+  },
+  {
+    "id": "podo-sym-08",
+    "stem": "মুখে লালা পড়ে, দুর্গন্ধ, জিহ্বা বড় চওড়া দাঁতের ছাপ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "salivation",
+      "fetor",
+      "tongue",
+      "tooth-prints"
+    ],
+    "explanation": "Podophyllum-এ লালা, দুর্গন্ধ ও জিহ্বায় দাঁতের ছাপ থাকে।"
+  },
+  {
+    "id": "podo-sym-10",
+    "stem": "দাঁত ওঠার সময় ও গ্রীষ্মকালীন ডায়রিয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Rheum Palmatum",
+        "mid": "rheum-palmatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "dentition",
+      "summer-diarrhea",
+      "child"
+    ],
+    "explanation": "Podophyllum দাঁত ওঠা ও গ্রীষ্মকালীন ডায়রিয়ায় কার্যকর।"
+  },
+  {
+    "id": "podo-sym-11",
+    "stem": "ঘুমে দাঁত কিড়মিড় ও মাথা এপাশ-ওপাশ নাড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Cicuta Virosa",
+        "mid": "cicuta-virosa"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "teeth-grinding",
+      "head-rolling",
+      "sleep",
+      "child"
+    ],
+    "explanation": "Podophyllum-এ শিশুরা ঘুমে দাঁত কিড়মিড় ও মাথা নাড়ে।"
+  },
+  {
+    "id": "podo-sym-16",
+    "stem": "ভোরে ও সকালে, গরম আবহাওয়ায়, দাঁত ওঠার সময় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "aggravation",
+      "morning",
+      "hot-weather",
+      "dentition"
+    ],
+    "explanation": "Podophyllum-এ ভোরে, সকালে, গরমে ও দাঁত ওঠায় বৃদ্ধি।"
+  },
+  {
+    "id": "phy-sym-02",
+    "stem": "শিশুদের দন্তোদগমকালে (দাঁত ওঠার সময়) মাড়ি দিয়ে শক্ত কিছু জোরে কামড়ানোর তীব্র ইচ্ছা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "dentition",
+      "teeth",
+      "desire-to-bite"
+    ],
+    "explanation": "Phytolacca-এ দাঁত গজানোর সময় শিশুরা মাড়ির অস্বস্তিতে যা কিছু পায় তাই শক্ত করে চিবায়।"
+  },
+  {
+    "id": "podo-sym-08",
+    "stem": "মুখে লালা পড়ে, দুর্গন্ধ, জিহ্বা বড় চওড়া দাঁতের ছাপ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "salivation",
+      "fetor",
+      "tongue",
+      "tooth-prints"
+    ],
+    "explanation": "Podophyllum-এ লালা, দুর্গন্ধ ও জিহ্বায় দাঁতের ছাপ থাকে।"
+  },
+  {
+    "id": "podo-sym-10",
+    "stem": "দাঁত ওঠার সময় ও গ্রীষ্মকালীন ডায়রিয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Rheum Palmatum",
+        "mid": "rheum-palmatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "dentition",
+      "summer-diarrhea",
+      "child"
+    ],
+    "explanation": "Podophyllum দাঁত ওঠা ও গ্রীষ্মকালীন ডায়রিয়ায় কার্যকর।"
+  },
+  {
+    "id": "podo-sym-11",
+    "stem": "ঘুমে দাঁত কিড়মিড় ও মাথা এপাশ-ওপাশ নাড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Cicuta Virosa",
+        "mid": "cicuta-virosa"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "teeth-grinding",
+      "head-rolling",
+      "sleep",
+      "child"
+    ],
+    "explanation": "Podophyllum-এ শিশুরা ঘুমে দাঁত কিড়মিড় ও মাথা নাড়ে।"
+  },
+  {
+    "id": "podo-sym-16",
+    "stem": "ভোরে ও সকালে, গরম আবহাওয়ায়, দাঁত ওঠার সময় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "aggravation",
+      "morning",
+      "hot-weather",
+      "dentition"
+    ],
+    "explanation": "Podophyllum-এ ভোরে, সকালে, গরমে ও দাঁত ওঠায় বৃদ্ধি।"
+  },
+  {
+    "id": "staph-sym-09",
+    "stem": "দাঁতে পোকা, শিশুদের দাঁত কালো হয়ে ভেঙে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Fluoricum Acidum",
+        "mid": "fluoricum-acidum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "teeth",
+      "decay",
+      "black",
+      "break",
+      "children"
+    ],
+    "explanation": "Staphisagria-এ দাঁত কালো ও ভেঙে যায়।"
+  },
+  {
+    "id": "staph-sym-09",
+    "stem": "দাঁতে পোকা, শিশুদের দাঁত কালো হয়ে ভেঙে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Fluoricum Acidum",
+        "mid": "fluoricum-acidum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "teeth",
+      "decay",
+      "black",
+      "break",
+      "children"
+    ],
+    "explanation": "Staphisagria-এ দাঁত কালো ও ভেঙে যায়।"
+  },
+  {
+    "id": "spigelia-sym-07",
+    "stem": "দাঁতের ব্যথা, ঠান্ডা পানি বা তামাক খেলে বৃদ্ধি, খাদ্য খেলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Plantago",
+        "mid": "plantago"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "tooth",
+      "cold",
+      "tobacco",
+      "eating"
+    ],
+    "explanation": "Spigelia Anthelmia এ দাঁতের ব্যথা হয়, ঠান্ডা পানি বা তামাক খেলে বৃদ্ধি পায়, খাদ্য খেলে উপশম হয়।"
+  },
+  {
+    "id": "syphilinum-sym-13",
+    "stem": "চুল পড়ে, দাঁত পড়ে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "hair",
+      "teeth",
+      "fall"
+    ],
+    "explanation": "Syphilinum এ চুল পড়ে, দাঁত পড়ে।"
+  },
+  {
+    "id": "thuja-sym-06",
+    "stem": "দাঁতের গোড়ার দিকে ক্ষয়, উপরের দিকে ভালো — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Fluoricum Acidum",
+        "mid": "fluoricum-acidum"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "teeth",
+      "decay",
+      "root",
+      "crown-good"
+    ],
+    "explanation": "Thuja-এ দাঁতের গোড়ায় ক্ষয় হয়।"
+  },
+  {
+    "id": "thuja-sym-06",
+    "stem": "দাঁতের গোড়ার দিকে ক্ষয়, উপরের দিকে ভালো — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Fluoricum Acidum",
+        "mid": "fluoricum-acidum"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "teeth",
+      "decay",
+      "root",
+      "crown-good"
+    ],
+    "explanation": "Thuja-এ দাঁতের গোড়ায় ক্ষয় হয়।"
+  }
+]

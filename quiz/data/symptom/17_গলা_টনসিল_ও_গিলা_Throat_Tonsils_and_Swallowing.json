@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "argm-sym-01",
+    "stem": "কণ্ঠনালীতে সংকোচনের অনুভূতি এবং কথা বলার সময় গলা আটকে যাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "throat",
+      "constriction"
+    ],
+    "explanation": "Argentum Metallicum-এর প্রধান লক্ষণ হলো কণ্ঠনালীতে সংকোচনের অনুভূতি।"
+  },
+  {
+    "id": "argn-sym-05",
+    "stem": "গলায় বা ক্ষতের স্থানে মাছের কাঁটা বা ফালি বিঁধে আছে এমন অনুভূতি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "throat",
+      "splinter-pain"
+    ],
+    "explanation": "Argentum Nitricum-এ গলায় বা ক্ষতের স্থানে মনে হয় যেন একটা মাছের কাঁটা বা ফালি বিঁধে আছে।"
+  },
+  {
+    "id": "bell-sym-07",
+    "stem": "মুখ ও গলা অত্যন্ত শুষ্ক, তৃষ্ণা কম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Robinia",
+        "mid": "robinia"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "throat",
+      "dryness"
+    ],
+    "explanation": "শুষ্ক গলা ও কম তৃষ্ণা Belladonna-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "baryta-sym-02",
+    "stem": "ঘাড় ও থুতনির গ্রন্থি ও টনসিল সহজেই ফুলে শক্ত হয়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "glands",
+      "tonsils",
+      "swelling"
+    ],
+    "explanation": "Baryta-তে গ্রন্থি ও টনসিল সহজে ফুলে শক্ত হয়।"
+  },
+  {
+    "id": "baryta-sym-06",
+    "stem": "সামান্য ঠান্ডাতেই টনসিল ফুলে পুঁজ হওয়ার প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "throat",
+      "tonsils",
+      "quinsy",
+      "cold"
+    ],
+    "explanation": "Baryta-তে ঠান্ডায় টনসিল ফুলে quinsy হয়।"
+  },
+  {
+    "id": "baryta-sym-09",
+    "stem": "টনসিল এত বড় যে শক্ত খাবার গিলতে পারে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Baryta Muriatica",
+        "mid": "baryta-muriatica"
+      },
+      {
+        "text": "Calcarea Iodata",
+        "mid": "calcarea-iodata"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "throat",
+      "tonsils",
+      "dysphagia"
+    ],
+    "explanation": "Baryta-তে বিশাল টনসিলে শক্ত খাবার গিলতে কষ্ট হয়।"
+  },
+  {
+    "id": "cantharis-sym-07",
+    "stem": "গলার ভেতরটা অত্যন্ত লাল ও ফুলে যায়; গিলতে গেলে মনে হয় যেন গলার চামড়া ছিলে গেছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "throat",
+      "dysphagia",
+      "burning"
+    ],
+    "explanation": "Cantharis-এ গলার ভেতরটা অত্যন্ত লাল ও ফুলে যায় এবং গিলতে গেলে প্রচণ্ড কষ্ট হয়, মনে হয় যেন গলার চামড়া ছিলে গেছে।"
+  },
+  {
+    "id": "calcphos-sym-15",
+    "stem": "একটু ঠান্ডা লাগলেই টনসিল ফুলে যাওয়া ও দীর্ঘস্থায়ী কাশির সাথে বুকে ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "throat",
+      "tonsils",
+      "cough"
+    ],
+    "explanation": "Calcarea Phosphorica এ একটু ঠান্ডা লাগলেই টনসিল ফুলে যায় এবং দীর্ঘস্থায়ী কাশির সাথে বুকের ভেতর ব্যথা হয়।"
+  },
+  {
+    "id": "caps-sym-11",
+    "stem": "গলার ভেতর লাল ও গরম মরিচ লাগানোর মতো জ্বালা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "throat",
+      "burning"
+    ],
+    "explanation": "Capsicum Annuum এ গলার ভেতর লাল হয় এবং গরম মরিচ লাগানোর মতো জ্বালা হয়।"
+  },
+  {
+    "id": "caps-sym-12",
+    "stem": "ধূমপায়ী বা মদ্যপায়ীর গলার যন্ত্রণা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "throat",
+      "smokers",
+      "drinkers"
+    ],
+    "explanation": "Capsicum Annuum যারা ধূমপায়ী বা মদ্যপায়ী, তাদের গলার যন্ত্রণায় খুব ভালো কাজ করে।"
+  },
+  {
+    "id": "causticum-sym-15",
+    "stem": "গলায় কাঁচা মাংসের মতো ক্ষত বোধ ও জ্বালা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arum Triphyllum",
+        "mid": "arum-triphyllum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "throat",
+      "raw-sensation"
+    ],
+    "explanation": "Causticum-এ গলা বা মূত্রনালীতে মনে হয় যেন চামড়া ছিলে গেছে এবং কাঁচা মাংসের মতো জ্বালা করছে।"
+  },
+  {
+    "id": "cinn-sym-19",
+    "stem": "গলার ভেতর লাল, ফোলা এবং গিলতে বা কথা বলতে গেলে যন্ত্রণা হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Merc I-R",
+        "mid": "merc-i-r"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "throat",
+      "swallowing",
+      "pain"
+    ],
+    "explanation": "Cinnabaris-এ গলার উপরিভাগের প্রদাহে লাল ভাব, ফোলা এবং খাদ্য ও লালা গিলতে তীব্র অস্বস্তি হয়।"
+  },
+  {
+    "id": "just-sym-19",
+    "stem": "গলার স্বর বসে যাওয়া (Hoarseness) এবং গলার ভেতর তীব্র জ্বালা করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "throat",
+      "hoarseness",
+      "burning"
+    ],
+    "explanation": "Justicia Adhatoda-এ স্বরভঙ্গ ও গলার ভেতরের শ্লৈষ্মিক ঝিল্লিতে জ্বালাপোড়া থাকে।"
+  },
+  {
+    "id": "ign-sym-02",
+    "stem": "গলায় দলা আটকে আছে মনে হয়, কিন্তু গেলা যায় না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "throat",
+      "globus"
+    ],
+    "explanation": "Globus hystericus Ignatia-এর বিখ্যাত keynote।"
+  },
+  {
+    "id": "ign-sym-10",
+    "stem": "গিলছে না এমন সময় গলায় সূচ ফোটার ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "throat",
+      "stitches"
+    ],
+    "explanation": "Throat stitches between swallows Ignatia-এর লক্ষণ।"
+  },
+  {
+    "id": "ign-sym-11",
+    "stem": "কঠিন খাবার খেলে গলার ব্যথা কমে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "throat",
+      "peculiar"
+    ],
+    "explanation": "Better from swallowing solids একটি বিশেষ Ignatia লক্ষণ।"
+  },
+  {
+    "id": "hyoscyamus-sym-04",
+    "stem": "গলায় চুলকানি, মনে হয় আলজিহ্বা দীর্ঘ হয়েছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Arum Triphyllum",
+        "mid": "arum-triphyllum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "throat",
+      "sensation"
+    ],
+    "explanation": "Hyoscyamus-এ গলায় চুলকানি হয় এবং মনে হয় যেন আলজিহ্বা দীর্ঘ হয়ে গেছে।"
+  },
+  {
+    "id": "iodium-sym-11",
+    "stem": "গলায় সুড়সুড়ি ও শুকনো কাশি, গলার ভেতর কিছু আটকে আছে মনে হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Bromium",
+        "mid": "bromium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "throat",
+      "cough",
+      "tickling"
+    ],
+    "explanation": "Iodium এ গলায় অত্যন্ত সুড়সুড়ি এবং শুকনো কাশি হয়, মনে হয় গলার ভেতর কোনো কিছু আটকে আছে।"
+  },
+  {
+    "id": "hepar-sym-10",
+    "stem": "গলায় মাছের কাঁটা ফোটার মতো ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "throat",
+      "splinter"
+    ],
+    "explanation": "Hepar Sulph এ গলায় মাছের কাঁটা ফোটার মতো ব্যথা হয়।"
+  },
+  {
+    "id": "hepar-sym-15",
+    "stem": "টনসিল ফুলে যাওয়া, গলার কাঁটা ফোটার ব্যথা কানে ছড়িয়ে পড়ে, গিলতে গেলে প্রচণ্ড কষ্ট, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "throat",
+      "tonsil",
+      "ear"
+    ],
+    "explanation": "Hepar Sulph এ টনসিল ফুলে যায় এবং গলার ভেতর কাঁটা ফোটার মতো ব্যথা কানে ছড়িয়ে পড়ে, গিলতে গেলে প্রচণ্ড কষ্ট হয়।"
+  },
+  {
+    "id": "glon-sym-14",
+    "stem": "বুক ধড়ফড়ানি গলা পর্যন্ত অনুভূত, শ্বাসকষ্ট — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "heart",
+      "palpitation",
+      "throat",
+      "dyspnea"
+    ],
+    "explanation": "Glonoine-এ ধড়ফড়ানি গলা পর্যন্ত ওঠে।"
+  },
+  {
+    "id": "ferrum-phos-sym-18",
+    "stem": "গলা লাল হয়ে ফুলে যাওয়া ও গিলতে কষ্ট হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "throat",
+      "tonsillitis"
+    ],
+    "explanation": "Ferrum Phos-এ গলার ভেতর লাল হয়ে ফুলে যায় এবং গিলতে কষ্ট হয় (Tonsillitis-এর প্রথম অবস্থা)।"
+  },
+  {
+    "id": "lac-can-sym-02",
+    "stem": "গলব্যথা যা এক পাশ থেকে অন্য পাশে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "sore-throat",
+      "alternating-sides"
+    ],
+    "explanation": "Lac Caninum-এ গলব্যথা এক পাশ থেকে অন্য পাশে যায়।"
+  },
+  {
+    "id": "lac-can-sym-11",
+    "stem": "গিলতে কষ্ট ও গলা ফুলে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "throat",
+      "swallowing"
+    ],
+    "explanation": "Lac Caninum-এ গলব্যথার সাথে গিলতে কষ্ট ও গলা ফুলে যাওয়া দেখা যায়।"
+  },
+  {
+    "id": "lac-can-sym-12",
+    "stem": "ডিপথেরিয়ার মতো গলার অবস্থা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "throat",
+      "diphtheria"
+    ],
+    "explanation": "Lac Caninum-এ গলব্যথা ডিপথেরিয়ার মতো অবস্থা ধারণ করতে পারে।"
+  },
+  {
+    "id": "merc-sym-11",
+    "stem": "টনসিল পেকে পুঁজ, গিলতে কান পর্যন্ত ব্যথা, কালচে লাল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Mercurius Iodatus",
+        "mid": "mercurius-iodatus"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "tonsils",
+      "quinsy",
+      "suppuration",
+      "ear-pain"
+    ],
+    "explanation": "Merc Vivus-এ টনসিল পেকে পুঁজ ও কানে ব্যথা ছড়ায়।"
+  },
+  {
+    "id": "magphos-sym-08",
+    "stem": "খাদ্যনালীর আক্ষেপ, গিলতে গেলে খাদ্যনালী সংকুচিত হয়ে আটকে যাওয়ার অনুভূতি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "throat",
+      "oesophagus",
+      "spasm"
+    ],
+    "explanation": "Magnesia Phosphorica এ খাদ্যনালীর আক্ষেপ হয়, কোনো কিছু গিলতে গেলে খাদ্যনালী সংকুচিত হয়ে আটকে যাওয়ার অনুভূতি হয়।"
+  },
+  {
+    "id": "lach-sym-02",
+    "stem": "গলা স্পর্শে অত্যন্ত সংবেদনশীল, গলায় ফোলা নীলচে, খালি গিললে ব্যথা বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phytolacca Decandra",
+        "mid": "phytolacca-decandra"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "throat",
+      "touch-sensitive",
+      "empty-swallow-agg"
+    ],
+    "explanation": "Lachesis-এ গলা স্পর্শে অসহ্য ও খালি গিললে বাড়ে।"
+  },
+  {
+    "id": "phy-sym-01",
+    "stem": "ঢোক গেলার সময় গলার ব্যথা তীরের মতো কানের দিকে ধাবিত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "throat",
+      "swallowing",
+      "pain-to-ears"
+    ],
+    "explanation": "Phytolacca-এর গলার প্রধান চারিত্রিক লক্ষণ হলো ঢোক গিলে সেই ব্যথা কান পর্যন্ত চলে যাওয়া।"
+  },
+  {
+    "id": "phy-sym-05",
+    "stem": "গলার ভেতর গাঢ় লাল বা নীলচে লাল বর্ণ ধারণ করা এবং মনে হওয়া যেন আগুনের গোলক রয়েছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      },
+      {
+        "text": "Ailanthus",
+        "mid": "ailanthus"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "throat",
+      "diphtheria",
+      "burning"
+    ],
+    "explanation": "Phytolacca-এ গলায় কালচে লাল বা নীলচে ক্ষতের তীব্র প্রদাহ ও জ্বলন থাকে।"
+  },
+  {
+    "id": "phy-sym-06",
+    "stem": "গলায় কিছু আটকে থাকার অনুভূতি এবং ক্রমাগত ঢোক গেলার অপ্রতিরোধ্য ইচ্ছা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "throat",
+      "plug-sensation",
+      "swallowing"
+    ],
+    "explanation": "Phytolacca-এ গলায় ডালা বা কিছু আটকে থাকার ভুয়ো অনুভূতিতে রোগী বারবার ঢোক গিলে।"
+  },
+  {
+    "id": "sel-sym-09",
+    "stem": "স্বরভঙ্গ, গায়কদের গলা পরিষ্কার করতে বারবার কাশি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "hoarseness",
+      "singers",
+      "throat-clearing"
+    ],
+    "explanation": "Selenium স্বরভঙ্গে কার্যকর, বিশেষত গায়কদের।"
+  },
+  {
+    "id": "var-sym-17",
+    "stem": "মুখের ভেতরে প্রচুর লালা জমা এবং গিলতে প্রচণ্ড কষ্ট হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "throat",
+      "salivation",
+      "swallowing"
+    ],
+    "explanation": "Variolinum লালা নিঃসরণ বৃদ্ধি করে এবং গিলতে ব্যথা তৈরি করে।"
+  },
+  {
+    "id": "zincum-sym-10",
+    "stem": "চিনি খেলে গলা জ্বালা করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "throat",
+      "sugar",
+      "burning"
+    ],
+    "explanation": "Zincum Metallicum এ চিনি খেলে গলা জ্বালা করে।"
+  },
+  {
+    "id": "sul-iod-sym-11",
+    "stem": "টনসিল ফুলে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "throat",
+      "tonsils",
+      "swelling"
+    ],
+    "explanation": "Sulphur Iodatum-এ টনসিল ফুলে যাওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "spongia-sym-06",
+    "stem": "গলার ভেতর প্রদাহ, সর্বদা গলাব্যথা ও খ্যাকারি দেওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Arum Triphyllum",
+        "mid": "arum-triphyllum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "throat",
+      "laryngitis"
+    ],
+    "explanation": "Spongia-তে গলার ভেতর প্রদাহ হয়, সর্বদা গলাব্যথা থাকে এবং রোগী খ্যাকারি দেয়।"
+  },
+  {
+    "id": "apis-sym-12",
+    "stem": "টনসিল ফুলে লাল হয়ে যাওয়া এবং গলার ভেতরে আলজিহ্বা ফোলা মাছের তেলের মতো স্বচ্ছ দেখায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "throat",
+      "tonsils",
+      "uvula",
+      "transparent-swelling"
+    ],
+    "explanation": "Apis Mellifica-এ টনসিল ফুলে লাল হয়ে যায় এবং গলার ভেতরে আলজিহ্বা ফোলা মাছের তেলের মতো স্বচ্ছ দেখায়।"
+  }
+]

@@ -1,0 +1,2781 @@
+[
+  {
+    "id": "ars-sym-04",
+    "stem": "রাত ১-২টার পর লক্ষণ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "modalities",
+      "night"
+    ],
+    "explanation": "মধ্যরাতের পর aggravation Arsenicum Album-এর পরিচিত modality।"
+  },
+  {
+    "id": "ars-sym-11",
+    "stem": "হাঁপানি মধ্যরাতে বৃদ্ধি পায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "asthma",
+      "night"
+    ],
+    "explanation": "মধ্যরাতে বাড়া হাঁপানি Arsenicum Album নির্দেশ করে।"
+  },
+  {
+    "id": "aurum-sym-02",
+    "stem": "অস্থি ও গ্রন্থির পচন, বিশেষ করে নাক, তালু ও দীর্ঘ হাড়ে রাতে প্রচণ্ড ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "bones",
+      "caries",
+      "night-aggravation"
+    ],
+    "explanation": "Aurum-এ অস্থির ক্যারিস ও রাতে ব্যথা বৃদ্ধি হয়।"
+  },
+  {
+    "id": "aurum-sym-10",
+    "stem": "সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত রাতে, শীতকালে, মানসিক পরিশ্রমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "aggravation",
+      "night",
+      "winter",
+      "mental-work"
+    ],
+    "explanation": "Aurum-এ রাতে কষ্ট বাড়ে।"
+  },
+  {
+    "id": "aurum-sym-12",
+    "stem": "ভ্রমণশীল ব্যথা, মাথা যন্ত্রণা রাতে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "pain",
+      "wandering",
+      "headache",
+      "night"
+    ],
+    "explanation": "Aurum-এ ভ্রমণশীল ব্যথা ও রাতে মাথা যন্ত্রণা বাড়ে।"
+  },
+  {
+    "id": "borax-sym-13",
+    "stem": "রাতে চোখের পাতা আঠার মতো জুড়ে থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "eye",
+      "eyelids",
+      "night"
+    ],
+    "explanation": "Borax-এ চোখের পাতার কিনারা লাল হয়ে যায় এবং রাতে চোখের পাতা আঠার মতো জুড়ে থাকে।"
+  },
+  {
+    "id": "borax-sym-19",
+    "stem": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "modalities",
+      "pressure",
+      "evening"
+    ],
+    "explanation": "Borax-এর লক্ষণ জোরে চাপ দিলে, সন্ধ্যার দিকে এবং ঠান্ডা আবহাওয়ায় উপশম হয়।"
+  },
+  {
+    "id": "bac-sym-05",
+    "stem": "ঘুমের মধ্যে বিশেষ করে ঘাড় ও পিঠে প্রচণ্ড ঘাম হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "night-sweat",
+      "perspiration"
+    ],
+    "explanation": "Bacillinum এ ঘুমের মধ্যে শরীর, বিশেষ করে ঘাড় ও পিঠ প্রচণ্ড ঘামতে থাকে।"
+  },
+  {
+    "id": "bell-sym-19",
+    "stem": "দুপুর ও বিকেলে উপসর্গ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "modalities",
+      "afternoon"
+    ],
+    "explanation": "বিকেল ও দুপুরে aggravation Belladonna-এর modality।"
+  },
+  {
+    "id": "bry-sym-08",
+    "stem": "প্রচণ্ড ফেটে যাওয়ার মতো মাথাব্যথা যা সকালে চোখ খোলার সাথে শুরু হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "headache",
+      "morning",
+      "bursting"
+    ],
+    "explanation": "Bryonia-এ প্রচণ্ড ফেটে যাওয়ার মতো মাথাব্যথা হয় যা সকালে ঘুম থেকে উঠে চোখ খোলার সাথে সাথেই শুরু হয়।"
+  },
+  {
+    "id": "caul-sym-12",
+    "stem": "রাতে ব্যথা বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "night",
+      "modalities"
+    ],
+    "explanation": "রাতে aggravation Caulophyllum-এর একটি modality।"
+  },
+  {
+    "id": "calen-sym-13",
+    "stem": "মেঘলা বা স্যাঁতসেঁতে আবহাওয়ায়, নড়াচড়ায়, রাতে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "aggravation",
+      "damp",
+      "cloudy",
+      "motion",
+      "night"
+    ],
+    "explanation": "Calendula-র বৃদ্ধি মেঘলা, স্যাঁতসেঁতে, নড়াচড়া ও রাতে।"
+  },
+  {
+    "id": "carbo-sym-12",
+    "stem": "দীর্ঘস্থায়ী স্বরভঙ্গ বিকেলে বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "larynx",
+      "hoarseness",
+      "chronic",
+      "evening"
+    ],
+    "explanation": "Carbo Veg-এ বিকেলে স্বরভঙ্গ বাড়ে।"
+  },
+  {
+    "id": "carbo-sym-15",
+    "stem": "বিকেল ৪টা থেকে ৮টা, শুয়ে থাকলে, আর্দ্র আবহাওয়ায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "aggravation",
+      "afternoon",
+      "lying",
+      "damp"
+    ],
+    "explanation": "Carbo Veg-এ ৪-৮টায় ও শুয়ে থাকলে বৃদ্ধি।"
+  },
+  {
+    "id": "colch-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "food-smell",
+      "touch",
+      "motion",
+      "night",
+      "autumn"
+    ],
+    "explanation": "Colchicum-এর লক্ষণ খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "cupr-sym-09",
+    "stem": "রাতে খিঁচুনি বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "night",
+      "convulsion"
+    ],
+    "explanation": "Night aggravation of spasms Cuprum Metallicum-এ দেখা যায়।"
+  },
+  {
+    "id": "croton-sym-18",
+    "stem": "খাওয়া বা পান করার পরপরই, গরমে ও রাতে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "modalities",
+      "after-eating",
+      "heat",
+      "night"
+    ],
+    "explanation": "Croton Tiglium-এর লক্ষণ খাওয়া বা পান করার পরপরই, গরমে, রাতে এবং স্পর্শ করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "cinn-sym-09",
+    "stem": "রাতে বিছানায় শোয়ার পর এবং স্যাঁতসেঁতে আবহাওয়ায় কষ্টের বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "aggravation",
+      "night",
+      "damp"
+    ],
+    "explanation": "Cinnabaris-এর শারীরিক কষ্টগুলো রাতের বেলা শয্যায় গেলে ও ভেজা সেঁতসেঁতে আবহাওয়ায় বৃদ্ধি পেতে দেখা যায়।"
+  },
+  {
+    "id": "china-sym-18",
+    "stem": "হজম শক্তি দুর্বল, রাতে পেট ফাঁপা বাড়ে, রাতে খাওয়ার পর পেটে প্রচণ্ড ভারবোধ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "digestion",
+      "abdomen",
+      "night"
+    ],
+    "explanation": "China এ হজম শক্তি খুব দুর্বল, রাতে পেট ফাঁপা বাড়ে, রাতে খাওয়ার পর পেটে প্রচণ্ড ভারবোধ হয়।"
+  },
+  {
+    "id": "cina-sym-19",
+    "stem": "শিশু ঘুম থেকে উঠে বিরক্ত থাকে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "children",
+      "morning"
+    ],
+    "explanation": "Awakes cross and dissatisfied Cina-এর লক্ষণ।"
+  },
+  {
+    "id": "conium-sym-10",
+    "stem": "নিদ্রাকালে ঘর্ম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "sweat",
+      "sleep",
+      "night"
+    ],
+    "explanation": "Conium-এ নিদ্রাকালে ঘাম হয়।"
+  },
+  {
+    "id": "conium-sym-15",
+    "stem": "রাতে শোয়ার পর শুষ্ক কাশি ও দমবন্ধ ভাব, বৃদ্ধদের বেশি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Hyoscyamus Niger",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Rumex Crispus",
+        "mid": "rumex-crispus"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "cough",
+      "dry",
+      "night",
+      "lying",
+      "old-age"
+    ],
+    "explanation": "Conium-এ রাতে শোয়ার পর শুষ্ক কাশি, বৃদ্ধদের বেশি।"
+  },
+  {
+    "id": "conium-sym-16",
+    "stem": "রাতে, শুয়ে থাকলে, মাথা ঘোরালে, অবিবাহিত বা সংযমীদের ক্ষেত্রে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Selenium",
+        "mid": "selenium"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "aggravation",
+      "night",
+      "lying",
+      "turning-head",
+      "celibacy"
+    ],
+    "explanation": "Conium-এ রাতে, শুয়ে, মাথা ঘোরালে ও সংযমীদের বৃদ্ধি।"
+  },
+  {
+    "id": "hyper-sym-09",
+    "stem": "কাশি রাত ৬-১০টায় বৃদ্ধি, গয়ারে উপশম, কুয়াশা ঝড়ের পূর্বে হাঁপানি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Drosera Rotundifolia",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Rumex Crispus",
+        "mid": "rumex-crispus"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "cough",
+      "evening",
+      "fog",
+      "storm",
+      "asthma"
+    ],
+    "explanation": "Hypericum-এ সন্ধ্যা ৬-১০টায় কাশি বাড়ে ও কুয়াশায় হাঁপানি বাড়ে।"
+  },
+  {
+    "id": "just-sym-08",
+    "stem": "রাতে কাশির বেগ বৃদ্ধি পাওয়া এবং গলার মধ্যে সাঁ সাঁ বা ঘড়ঘড় শব্দ হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Grindelia",
+        "mid": "grindelia"
+      },
+      {
+        "text": "Blatta Orientalis",
+        "mid": "blatta-orientalis"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "cough",
+      "night",
+      "wheezing"
+    ],
+    "explanation": "Justicia Adhatoda-এ রাতে কাশির প্রকোপ বাড়ে এবং গলার ভেতরে সাঁ সাঁ বা শোঁ শোঁ শব্দ হয়।"
+  },
+  {
+    "id": "just-sym-09",
+    "stem": "বদ্ধ ঘরে, ধুলোবালিতে এবং রাতে রোগ লক্ষণ বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Blatta",
+        "mid": "blatta"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "aggravation",
+      "room",
+      "dust",
+      "night"
+    ],
+    "explanation": "Justicia Adhatoda-এর শ্বাসযন্ত্রের কষ্ট বদ্ধ ঘরে, ধুলোবালিতে এবং রাতের বেলায় তীব্র আকার ধারণ করে।"
+  },
+  {
+    "id": "hell-sym-12",
+    "stem": "লক্ষণ বৃদ্ধি পায় বিকাল ৪টা থেকে রাত ৮টা পর্যন্ত, ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "evening",
+      "cold-air",
+      "uncovering"
+    ],
+    "explanation": "Helleborus Niger-এর লক্ষণ বিকাল ৪টা থেকে রাত ৮টা পর্যন্ত, ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "hyoscyamus-sym-03",
+    "stem": "রাতে শোয়ার পর আক্ষেপকর কাশি, উঠে বসলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex-crispus"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum-metallicum"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "cough",
+      "night",
+      "lying-down"
+    ],
+    "explanation": "Hyoscyamus-এ রাতে শোয়ার পর আক্ষেপকর কাশি হয় যা উঠে বসলে উপশম হয়।"
+  },
+  {
+    "id": "hyoscyamus-sym-20",
+    "stem": "রাতে, শোয়ার পর, ঋতুস্রাবের সময় ও মানসিক উত্তেজনায় বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "modalities",
+      "night",
+      "menses",
+      "excitement"
+    ],
+    "explanation": "Hyoscyamus-এর লক্ষণ রাতে, শোয়ার পর, ঋতুস্রাবের সময় এবং মানসিক উত্তেজনায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ipecac-sym-16",
+    "stem": "রাতে লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "night"
+    ],
+    "explanation": "Ipecac-এর লক্ষণ রাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "hepar-sym-02",
+    "stem": "প্রায়শই সর্দি লাগে, রাতে সর্দি ওঠে না কেবল দিনে ওঠে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "coryza",
+      "day"
+    ],
+    "explanation": "Hepar Sulph এ প্রায়শই সর্দি লাগে, রাতে সর্দি ওঠে না কেবল দিনে ওঠে।"
+  },
+  {
+    "id": "hepar-sym-18",
+    "stem": "রাতে বা ঠান্ডায় কাশি বৃদ্ধি, কাশির শব্দ ঘড়ঘড়ে কিন্তু কফ সহজে উঠতে চায় না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "cough",
+      "night",
+      "cold",
+      "rattling"
+    ],
+    "explanation": "Hepar Sulph এ রাতে বা ঠান্ডায় কাশি বৃদ্ধি পায়, কাশির শব্দ ঘড়ঘড়ে কিন্তু কফ সহজে উঠতে চায় না।"
+  },
+  {
+    "id": "euphrasia-sym-09",
+    "stem": "সকালে বা দিনের বেলা কাশির আধিক্য, রাতে শুলে কাশি কমে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "cough",
+      "morning",
+      "day"
+    ],
+    "explanation": "Euphrasia Officinalis এ কেবল দিনের বেলা বা সকালে কাশির আধিক্য থাকে, রাতে শুলে কাশি কমে যায়।"
+  },
+  {
+    "id": "euphrasia-sym-13",
+    "stem": "চোখের পাতায় আঠালো পুঁজ জমে সকালে চোখ জুড়ে থাকা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "lids",
+      "pus",
+      "morning"
+    ],
+    "explanation": "Euphrasia Officinalis এ চোখের পাতায় আঠালো পুঁজ জমে সকালে চোখ জুড়ে থাকে।"
+  },
+  {
+    "id": "euphrasia-sym-16",
+    "stem": "সর্দি সাধারণত রাতে বৃদ্ধি পায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "nose",
+      "coryza",
+      "night"
+    ],
+    "explanation": "Euphrasia Officinalis এ সর্দি সাধারণত রাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "euphrasia-sym-17",
+    "stem": "দিনের বেলা আক্ষেপিক কাশি, কাশির সাথে প্রচুর শ্লেষ্মা, কাশির সময় চোখ দিয়ে জল পড়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "cough",
+      "day",
+      "mucus",
+      "eye"
+    ],
+    "explanation": "Euphrasia Officinalis এ দিনের বেলা আক্ষেপিক কাশি হয়, কাশির সাথে প্রচুর শ্লেষ্মা নির্গত হয়, কাশির সময় চোখ দিয়ে জল পড়তে পারে।"
+  },
+  {
+    "id": "euphrasia-sym-19",
+    "stem": "সকালে, সূর্যের আলোতে, গরম ঘরে ও দক্ষিণে প্রবাহিত বাতাসে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "sun",
+      "warm"
+    ],
+    "explanation": "Euphrasia Officinalis এ সকালে, সূর্যের আলোতে, গরম ঘরে এবং দক্ষিণে প্রবাহিত বাতাসে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "dulc-sym-15",
+    "stem": "লক্ষণ বৃদ্ধি পায় ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায়, রাতে এবং বিশ্রামে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "cold-damp",
+      "night",
+      "rest"
+    ],
+    "explanation": "Dulcamara-এর লক্ষণ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায়, রাতে এবং বিশ্রামে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "graph-sym-19",
+    "stem": "রাতে এবং মাসিকের সময় উপসর্গ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "modalities",
+      "night"
+    ],
+    "explanation": "Night and menses aggravation are important Graphites modalities।"
+  },
+  {
+    "id": "graph-sym-19",
+    "stem": "রাতে এবং মাসিকের সময় উপসর্গ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "modalities",
+      "night"
+    ],
+    "explanation": "Night and menses aggravation are important Graphites modalities।"
+  },
+  {
+    "id": "ferrum-phos-sym-19",
+    "stem": "রাত ৪টা থেকে ৬টার মধ্যে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carbonicum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "modalities",
+      "night",
+      "4-to-6-am"
+    ],
+    "explanation": "Ferrum Phos-এর লক্ষণ রাতে বিশেষত রাত ৪টা থেকে ৬টার মধ্যে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "mez-sym-03",
+    "stem": "চুলকানি বিছানার উষ্ণতায় বৃদ্ধি পায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "itching",
+      "night"
+    ],
+    "explanation": "Itching worse in bed is a Mezereum keynote."
+  },
+  {
+    "id": "mez-sym-05",
+    "stem": "দীর্ঘ হাড়ে রাতের ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "bones",
+      "night"
+    ],
+    "explanation": "Nightly long-bone pains are characteristic of Mezereum."
+  },
+  {
+    "id": "mez-sym-08",
+    "stem": "পচা দাঁত, রাতে দাঁতের ব্যথা, ঠান্ডা বাতাসে আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "toothache",
+      "night"
+    ],
+    "explanation": "Night toothache relieved by drawing in air is a Mezereum symptom."
+  },
+  {
+    "id": "mez-sym-19",
+    "stem": "রাতে বিছানায় হাড় ও periosteum-এর ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "bone-pain",
+      "night"
+    ],
+    "explanation": "Night periosteal pains are a classic Mezereum symptom."
+  },
+  {
+    "id": "natp-sym-15",
+    "stem": "কাল্পনিক ভয়, মনে হয় বিপদ ঘটবে, রাতে একা থাকতে ভয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Aconitum Napellus",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "mind",
+      "fear",
+      "imaginary",
+      "night",
+      "alone"
+    ],
+    "explanation": "Natrum Phos কাল্পনিক ভয়ে ভোগে।"
+  },
+  {
+    "id": "merc-sym-04",
+    "stem": "রাতে ও বিছানার গরমে প্রতিটি কষ্ট তীব্র হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "aggravation",
+      "night",
+      "bed-heat"
+    ],
+    "explanation": "Merc Vivus-এ রাতে ও বিছানার গরমে বৃদ্ধি।"
+  },
+  {
+    "id": "merc-sym-16",
+    "stem": "রাতে, বিছানার গরমে, স্যাঁতসেঁতে, ঘামলে, ডান পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "aggravation",
+      "night",
+      "bed-heat",
+      "damp",
+      "sweat",
+      "right-lying"
+    ],
+    "explanation": "Merc Vivus-এ রাতে, বিছানার গরমে, ঘামলে বৃদ্ধি।"
+  },
+  {
+    "id": "medorrhinum-sym-02",
+    "stem": "পায়ের তলায় প্রচণ্ড জ্বালা, রাতে বিছানার বাইরে পা বের করে রাখে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "burning",
+      "feet",
+      "night"
+    ],
+    "explanation": "Medorrhinum-এ পায়ের তলায় প্রচণ্ড জ্বালাভাব হয় এবং রাতে রোগী বিছানার বাইরে পা বের করে রাখে।"
+  },
+  {
+    "id": "medorrhinum-sym-06",
+    "stem": "সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "modalities",
+      "daytime"
+    ],
+    "explanation": "Medorrhinum-এর লক্ষণ সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি পায় এবং রাতে বা সন্ধ্যায় রোগী ভালো থাকে।"
+  },
+  {
+    "id": "mag-carb-sym-05",
+    "stem": "গর্ভবতী নারীদের দাঁতের ব্যথা, যা রাতে বিছানার গরমে বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Plantago Major",
+        "mid": "plantago-major"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "toothache",
+      "pregnancy",
+      "night",
+      "bed-heat"
+    ],
+    "explanation": "Magnesia Carbonica গর্ভাবস্থায় নারীদের দাঁতের ব্যথায় কার্যকর; এই ব্যথা সাধারণত রাতে শুতে গেলে বা বিছানার গরমে বেড়ে যায়।"
+  },
+  {
+    "id": "mag-carb-sym-06",
+    "stem": "ঋতুস্রাবের রক্ত আলকাতরার মতো কালো, চটচটে এবং রাতে বেশি নিঃসৃত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "menses",
+      "black-blood",
+      "tarry",
+      "night"
+    ],
+    "explanation": "Magnesia Carbonica-এ ঋতুস্রাবের রক্ত অত্যন্ত চটচটে, আলকাতরার মতো কালো এবং রাতে শুয়ে থাকলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "mag-carb-sym-14",
+    "stem": "মাথা ও মুখের তীব্র স্নায়ুশূল (Neuralgia), যা রাতে বা বিশ্রামে বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "neuralgia",
+      "head",
+      "face",
+      "night",
+      "rest"
+    ],
+    "explanation": "Magnesia Carbonica-এ মাথা ও মুখের তীব্র স্নায়ুশূল (Neuralgia) হয়, যা রাতে বা বিশ্রামে বাড়ে।"
+  },
+  {
+    "id": "mag-carb-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় রাতে, বিছানার গরমে, বিশ্রামে এবং ঠান্ডা বাতাসে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "night",
+      "bed-heat",
+      "rest",
+      "cold-air"
+    ],
+    "explanation": "Magnesia Carbonica-এর লক্ষণ রাতে, বিছানার গরমে, বিশ্রামে এবং ঠান্ডা বাতাসে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "led-sym-13",
+    "stem": "রাতে ব্যথা বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "night",
+      "pain"
+    ]
+  },
+  {
+    "id": "lach-sym-13",
+    "stem": "গরমে, স্পর্শে, ঘুমের পর, সকালে, বাম পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "aggravation",
+      "heat",
+      "touch",
+      "sleep",
+      "morning",
+      "left-lying"
+    ],
+    "explanation": "Lachesis-এ গরমে, স্পর্শে, ঘুমের পর বৃদ্ধি।"
+  },
+  {
+    "id": "natp-sym-15",
+    "stem": "কাল্পনিক ভয়, মনে হয় বিপদ ঘটবে, রাতে একা থাকতে ভয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Aconitum Napellus",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "mind",
+      "fear",
+      "imaginary",
+      "night",
+      "alone"
+    ],
+    "explanation": "Natrum Phos কাল্পনিক ভয়ে ভোগে।"
+  },
+  {
+    "id": "petr-sym-05",
+    "stem": "ডায়রিয়া শুধুমাত্র দিনের বেলা হয়, রাতে হয় না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "diarrhea",
+      "daytime",
+      "stool"
+    ],
+    "explanation": "Petroleum-এ ডায়রিয়া সাধারণত শুধুমাত্র দিনের বেলা হওয়ার প্রবণতা থাকে; রাতে সাধারণত হয় না।[reference:24]"
+  },
+  {
+    "id": "nux-sym-04",
+    "stem": "সকালে ঘুম থেকে উঠে খারাপ লাগে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "morning",
+      "modalities"
+    ],
+    "explanation": "Morning aggravation is characteristic of Nux Vomica."
+  },
+  {
+    "id": "nux-sym-16",
+    "stem": "ভোর ৩-৪টার দিকে জেগে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Coffea",
+        "mid": "coffea"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "sleep",
+      "early-waking"
+    ],
+    "explanation": "Early waking is common in Nux Vomica."
+  },
+  {
+    "id": "plumbum-sym-19",
+    "stem": "রাতে, নড়াচড়া করলে ও মানসিক পরিশ্রমে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "aggravation",
+      "night",
+      "motion",
+      "mental-exertion"
+    ],
+    "explanation": "Plumbum Metallicum এ রাতে, নড়াচড়া করলে এবং মানসিক পরিশ্রমে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "podo-sym-02",
+    "stem": "সকালে ব্যথা ছাড়া প্রচুর মল বের হয়, ভোর থেকে সকাল ১০টা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "morning-diarrhea",
+      "painless",
+      "profuse"
+    ],
+    "explanation": "Podophyllum-এ সকালে ব্যথাহীন প্রচুর মল হয়।"
+  },
+  {
+    "id": "podo-sym-16",
+    "stem": "ভোরে ও সকালে, গরম আবহাওয়ায়, দাঁত ওঠার সময় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "aggravation",
+      "morning",
+      "hot-weather",
+      "dentition"
+    ],
+    "explanation": "Podophyllum-এ ভোরে, সকালে, গরমে ও দাঁত ওঠায় বৃদ্ধি।"
+  },
+  {
+    "id": "podo-sym-17",
+    "stem": "সন্ধ্যায়, পেটের উপর ভর দিয়ে উপুড় শুলে, মালিশে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "amelioration",
+      "evening",
+      "prone",
+      "rubbing"
+    ],
+    "explanation": "Podophyllum সন্ধ্যায়, উপুড় শুলে ও মালিশে ভালো থাকে।"
+  },
+  {
+    "id": "pyrogenium-sym-13",
+    "stem": "বিশ্রামে ও রাতে বৃদ্ধি, নড়াচড়ায় ও শরীর গরম রাখলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "modalities",
+      "rest",
+      "night",
+      "motion",
+      "warmth"
+    ],
+    "explanation": "Pyrogenium-এর লক্ষণ বিশ্রামে থাকলে ও রাতে বৃদ্ধি পায় এবং নড়াচড়া করলে ও শরীর গরম রাখলে উপশম হয়।"
+  },
+  {
+    "id": "pyrogenium-sym-13",
+    "stem": "বিশ্রামে ও রাতে বৃদ্ধি, নড়াচড়ায় ও শরীর গরম রাখলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "modalities",
+      "rest",
+      "night",
+      "motion",
+      "warmth"
+    ],
+    "explanation": "Pyrogenium-এর লক্ষণ বিশ্রামে থাকলে ও রাতে বৃদ্ধি পায় এবং নড়াচড়া করলে ও শরীর গরম রাখলে উপশম হয়।"
+  },
+  {
+    "id": "podo-sym-02",
+    "stem": "সকালে ব্যথা ছাড়া প্রচুর মল বের হয়, ভোর থেকে সকাল ১০টা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "morning-diarrhea",
+      "painless",
+      "profuse"
+    ],
+    "explanation": "Podophyllum-এ সকালে ব্যথাহীন প্রচুর মল হয়।"
+  },
+  {
+    "id": "podo-sym-16",
+    "stem": "ভোরে ও সকালে, গরম আবহাওয়ায়, দাঁত ওঠার সময় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "aggravation",
+      "morning",
+      "hot-weather",
+      "dentition"
+    ],
+    "explanation": "Podophyllum-এ ভোরে, সকালে, গরমে ও দাঁত ওঠায় বৃদ্ধি।"
+  },
+  {
+    "id": "podo-sym-17",
+    "stem": "সন্ধ্যায়, পেটের উপর ভর দিয়ে উপুড় শুলে, মালিশে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "amelioration",
+      "evening",
+      "prone",
+      "rubbing"
+    ],
+    "explanation": "Podophyllum সন্ধ্যায়, উপুড় শুলে ও মালিশে ভালো থাকে।"
+  },
+  {
+    "id": "ruta-sym-15",
+    "stem": "সায়াটিকা ব্যথা যা রাতে শুলে বাড়ে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "sciatica",
+      "back-pain",
+      "night"
+    ],
+    "explanation": "Ruta-এ সায়াটিকা ব্যথা হয় যা রাতে শুলে বাড়ে।"
+  },
+  {
+    "id": "ruta-sym-20",
+    "stem": "বিশ্রামে, আর্দ্র-ঠান্ডা আবহাওয়ায় ও রাতে বৃদ্ধি, শুষ্ক উত্তাপে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "modalities",
+      "damp",
+      "cold",
+      "night"
+    ],
+    "explanation": "Ruta-এর লক্ষণ বিশ্রামে, আর্দ্র বা ঠান্ডা আবহাওয়ায় এবং রাতে বৃদ্ধি পায়; শুষ্ক উত্তাপে উপশম হয়।"
+  },
+  {
+    "id": "plat-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় বসে থাকলে, দাঁড়ালে এবং সন্ধ্যার দিকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "sitting",
+      "standing",
+      "evening"
+    ],
+    "explanation": "Platinum Metallicum-এর লক্ষণ বসে থাকলে, দাঁড়ালে এবং সন্ধ্যার দিকে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "phosphorus-sym-20",
+    "stem": "সন্ধ্যায়, বাম পাশে শুলে, বজ্রপাতের সময়, আবহাওয়ার পরিবর্তনে ও গরম খাবার বা পানীয় গ্রহণ করলে বৃদ্ধি, ডান পাশে শুলে, অন্ধকার ঘরে বিশ্রামে, ঠান্ডা জল পানে ও ঘুমের পর উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "evening",
+      "left"
+    ],
+    "explanation": "Phosphorus এ সন্ধ্যায়, বাম পাশে শুলে, বজ্রপাতের সময়, আবহাওয়ার পরিবর্তনে এবং গরম খাবার বা পানীয় গ্রহণ করলে বৃদ্ধি হয়, ডান পাশে শুলে, অন্ধকার ঘরে বিশ্রামে, ঠান্ডা জল পানে এবং ঘুমের পর উপশম হয়।"
+  },
+  {
+    "id": "staph-sym-12",
+    "stem": "সারাদিন নিদ্রালু, সারারাত নিদ্রাহীন — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "sleep",
+      "sleepy-day",
+      "sleepless-night"
+    ],
+    "explanation": "Staphisagria-এ দিনে নিদ্রালু ও রাতে নিদ্রাহীন থাকে।"
+  },
+  {
+    "id": "staph-sym-18",
+    "stem": "রাতে বিশ্রামে, উত্তাপে ও খাওয়ার পর উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "amelioration",
+      "night-rest",
+      "heat",
+      "after-eating"
+    ],
+    "explanation": "Staphisagria রাতে বিশ্রাম, উত্তাপ ও খাওয়ার পর ভালো থাকে।"
+  },
+  {
+    "id": "sanguinaria-sym-13",
+    "stem": "সূর্যের গতির সাথে ব্যথার সম্পর্ক, সকালে শুরু হয়, দুপুরে তীব্র হয়, সূর্যাস্তের সাথে সাথে কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "headache",
+      "sun",
+      "noon"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ব্যথা সকালে শুরু হয়, দুপুরে তীব্র হয় এবং সূর্যাস্তের সাথে সাথে কমে যায়।"
+  },
+  {
+    "id": "sanguinaria-sym-17",
+    "stem": "শুকনো কাশি, রাতে বাড়ে, কাশি দিলে মনে হয় বুক ফেটে যাবে, কাশির সময় বায়ু নিঃসরণ করে ফেলে, কফ অত্যন্ত দুর্গন্ধযুক্ত, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "cough",
+      "dry",
+      "night",
+      "foul"
+    ],
+    "explanation": "Sanguinaria Canadensis এ শুকনো কাশি হয়, যা রাতে বাড়ে এবং কাশি দিলে মনে হয় বুক ফেটে যাবে, কাশির সময় রোগী অনেক সময় বায়ু নিঃসরণ করে ফেলে, কফ অত্যন্ত দুর্গন্ধযুক্ত থাকে।"
+  },
+  {
+    "id": "sanguinaria-sym-20",
+    "stem": "ডান পাশে শুলে, নড়াচড়া করলে, আলোর দিকে তাকালে, কড়া গন্ধে ও দুপুর বেলায় বৃদ্ধি, বমি করলে, অন্ধকার ঘরে শুয়ে থাকলে, ঘুমিয়ে পড়লে ও প্রচুর পরিমাণে প্রস্রাব ত্যাগ করলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "right",
+      "noon"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ডান পাশে শুলে, নড়াচড়া করলে, আলোর দিকে তাকালে, কড়া গন্ধে এবং দুপুর বেলায় বৃদ্ধি হয়, বমি করলে, অন্ধকার ঘরে শুয়ে থাকলে, ঘুমিয়ে পড়লে এবং প্রচুর পরিমাণে প্রস্রাব ত্যাগ করলে উপশম হয়।"
+  },
+  {
+    "id": "staph-sym-12",
+    "stem": "সারাদিন নিদ্রালু, সারারাত নিদ্রাহীন — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "sleep",
+      "sleepy-day",
+      "sleepless-night"
+    ],
+    "explanation": "Staphisagria-এ দিনে নিদ্রালু ও রাতে নিদ্রাহীন থাকে।"
+  },
+  {
+    "id": "staph-sym-18",
+    "stem": "রাতে বিশ্রামে, উত্তাপে ও খাওয়ার পর উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "amelioration",
+      "night-rest",
+      "heat",
+      "after-eating"
+    ],
+    "explanation": "Staphisagria রাতে বিশ্রাম, উত্তাপ ও খাওয়ার পর ভালো থাকে।"
+  },
+  {
+    "id": "sul-sym-09",
+    "stem": "সকালের দিকে হঠাৎ মলত্যাগের বেগে ঘুম ভেঙে যাওয়া এবং মলত্যাগের সময় মলদ্বারে তীব্র জ্বালা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Aloe",
+        "mid": "aloe"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "rectum",
+      "morning-diarrhea",
+      "hurried"
+    ],
+    "explanation": "Sulphur-এ সকালের দিকে তাড়া দিয়ে মলত্যাগ ও মলদ্বারে প্রদাহ থাকে।"
+  },
+  {
+    "id": "sul-sym-17",
+    "stem": "গরম বাতাসে, বিছানায় শুলে এবং সকালের দিকে উপসর্গের তীব্র বৃদ্ধি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "aggravation",
+      "warmth",
+      "morning"
+    ],
+    "explanation": "Sulphur-এর অসুস্থতা বিছানার গরমে ও সকালের দিকে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sul-sym-20",
+    "stem": "দিনের বেলা তন্দ্রাচ্ছন্ন ভাব কিন্তু রাতে বিছানায় গেলে অনিদ্রা (Sleepy by day, sleepless at night) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "sleep",
+      "sleepy-day",
+      "sleepless-night"
+    ],
+    "explanation": "Sulphur-এর নিদ্রাহীনতার ধরন হলো দিনে ঘুম ঘুম ভাব আর রাতে নির্ঘুম কাটানো।"
+  },
+  {
+    "id": "var-sym-08",
+    "stem": "রাতে, গরম ঘরে এবং নড়াচড়া করলে শারীরিক যন্ত্রণা বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "aggravation",
+      "night",
+      "warm-room"
+    ],
+    "explanation": "Variolinum-এর কষ্টসমূহ রাত, উত্তপ্ত কক্ষ এবং নড়াচড়ায় তীব্র হয়।"
+  },
+  {
+    "id": "syphilinum-sym-03",
+    "stem": "কষ্ট রাত্রে বৃদ্ধি, কষ্ট সন্ধ্যায় আরম্ভ হয়, শেষ রাত পর্যন্ত থাকে, সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত বৃদ্ধি, সূর্যাস্তে ব্যথা শুরু হয়, সারা রাত তীব্র থাকে, সূর্যোদয়ে কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "night",
+      "sunset",
+      "sunrise"
+    ],
+    "explanation": "Syphilinum এ কষ্ট রাত্রে বৃদ্ধি পায়, কষ্ট সন্ধ্যায় আরম্ভ হয়, শেষ রাত পর্যন্ত থাকে, সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত বৃদ্ধি পায়।"
+  },
+  {
+    "id": "syphilinum-sym-09",
+    "stem": "সকালে অবসাদ ও দুর্বলতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "morning",
+      "exhaustion",
+      "weakness"
+    ],
+    "explanation": "Syphilinum এ সকালে অবসাদ ও দুর্বলতা থাকে।"
+  },
+  {
+    "id": "syphilinum-sym-20",
+    "stem": "সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত, সমুদ্র তীরে ও গ্রীষ্মকালে বৃদ্ধি, দিনের বেলা, নড়াচড়া করলে ও ঠান্ডা বাতাসে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "night",
+      "seashore",
+      "summer"
+    ],
+    "explanation": "Syphilinum এ সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত, সমুদ্র তীরে এবং গ্রীষ্মকালে বৃদ্ধি হয়, দিনের বেলা, নড়াচড়া করলে এবং ঠান্ডা বাতাসে উপশম হয়।"
+  },
+  {
+    "id": "zincum-sym-09",
+    "stem": "সকালে প্রফুল্লতা কিন্তু রাতে বিমর্ষ ভাব, সবসময় বিষণ্ণ ও ভীতু ভাব, একা থাকতে ভয় পায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "mind",
+      "morning",
+      "night",
+      "fear"
+    ],
+    "explanation": "Zincum Metallicum এ সকালে প্রফুল্লতা কিন্তু রাতে বিমর্ষ ভাব থাকে, সবসময় বিষণ্ণ এবং ভীতু ভাব থাকে, একা থাকতে ভয় পায়।"
+  },
+  {
+    "id": "zincum-sym-17",
+    "stem": "মদ বা উদ্দীপক পানীয় পান করলে, সন্ধ্যার দিকে, খাওয়ার পর ও ঘুমের সময় বৃদ্ধি পায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "aggravation",
+      "alcohol",
+      "evening",
+      "eating",
+      "sleep"
+    ],
+    "explanation": "Zincum Metallicum এ মদ বা উদ্দীপক পানীয় পান করলে, সন্ধ্যার দিকে, খাওয়ার পর এবং ঘুমের সময় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "thuja-sym-17",
+    "stem": "সকালে, ঠান্ডায়, আর্দ্র আবহাওয়ায়, টিকা, চা, রাতে বিছানার গরমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "cold",
+      "damp",
+      "vaccination",
+      "tea"
+    ],
+    "explanation": "Thuja-এ সকালে, ঠান্ডা, আর্দ্রতা, টিকা ও চায়ে বৃদ্ধি।"
+  },
+  {
+    "id": "thuja-sym-17",
+    "stem": "সকালে, ঠান্ডায়, আর্দ্র আবহাওয়ায়, টিকা, চা, রাতে বিছানার গরমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "cold",
+      "damp",
+      "vaccination",
+      "tea"
+    ],
+    "explanation": "Thuja-এ সকালে, ঠান্ডা, আর্দ্রতা, টিকা ও চায়ে বৃদ্ধি।"
+  },
+  {
+    "id": "spongia-sym-03",
+    "stem": "মাঝরাতে ঘুম ভেঙে দম আটকে আসা ও আতঙ্ক — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "dyspnoea",
+      "night",
+      "panic"
+    ],
+    "explanation": "Spongia-তে হঠাৎ মাঝরাতে ঘুম ভেঙে যায় এবং মনে হয় দম আটকে আসছে; রোগী ভীষণ আতঙ্কিত হয়ে পড়ে।"
+  },
+  {
+    "id": "spongia-sym-16",
+    "stem": "রাতের বেলায় উৎকণ্ঠা ও অস্থিরতা বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "anxiety",
+      "restlessness",
+      "night"
+    ],
+    "explanation": "Spongia-তে রাতের বেলায় উৎকণ্ঠা এবং অস্থিরতা বৃদ্ধি পায়।"
+  },
+  {
+    "id": "spongia-sym-17",
+    "stem": "মাঝরাতের আগে, শোবার সময় ও মাথা নিচু করে শুলে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "modalities",
+      "midnight",
+      "lying"
+    ],
+    "explanation": "Spongia-এর লক্ষণ মাঝরাতের আগে, শোবার সময়, মাথা নিচু করে শুলে, ঘরের গরমে ও ঠান্ডা বাতাসে বৃদ্ধি পায়।"
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "argm-sym-15",
+    "stem": "হাতে কাঁপুনি — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Zincum Met",
+        "mid": "zincum-met"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "extremities",
+      "tremor"
+    ],
+    "explanation": "Argentum Metallicum-তে হাতে কাঁপুনি দেখা যেতে পারে।"
+  },
+  {
+    "id": "bell-sym-16",
+    "stem": "ঘাড় পিছনের দিকে টেনে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Cicuta",
+        "mid": "cicuta"
+      },
+      {
+        "text": "Cuprum",
+        "mid": "cuprum"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "neck",
+      "spasm"
+    ],
+    "explanation": "ঘাড় পিছনে টানা Belladonna-এর convulsive লক্ষণ।"
+  },
+  {
+    "id": "bell-sym-20",
+    "stem": "শিশুদের আকস্মিক জ্বর ও খিঁচুনির প্রবণতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "children",
+      "convulsion"
+    ],
+    "explanation": "শিশুদের আকস্মিক febrile convulsion-এর ক্ষেত্রে Belladonna গুরুত্বপূর্ণ।"
+  },
+  {
+    "id": "cantharis-sym-13",
+    "stem": "উজ্জ্বল বস্তু বা জলের নড়াচড়া দেখলে রোগীর উপসর্গ বা খিঁচুনি বেড়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Lyssin",
+        "mid": "lyssin"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "mental",
+      "convulsions",
+      "bright-objects",
+      "moving-water"
+    ],
+    "explanation": "Cantharis-এ উজ্জ্বল বস্তু বা জলের নড়াচড়া দেখলে রোগীর উপসর্গ বা খিঁচুনি বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "camph-sym-11",
+    "stem": "খিঁচুনি ও টেটানিক স্পাজমের সঙ্গে ঠান্ডা ভাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "convulsion",
+      "coldness"
+    ]
+  },
+  {
+    "id": "calc-sulph-sym-10",
+    "stem": "চোখের পাতা নাচা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus-muscarius"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium-sempervirens"
+      },
+      {
+        "text": "Zincum Met",
+        "mid": "zincum-metallicum"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "eye",
+      "twitching"
+    ],
+    "explanation": "Calcarea Sulph-এ চোখের পাতা নাচে।"
+  },
+  {
+    "id": "cupr-sym-01",
+    "stem": "তীব্র খিঁচুনি যা হাত-পায়ের আঙুল থেকে শুরু হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "convulsion",
+      "spasm"
+    ],
+    "explanation": "আঙুল থেকে শুরু হওয়া convulsion Cuprum Metallicum-এর ক্লাসিক লক্ষণ।"
+  },
+  {
+    "id": "cupr-sym-02",
+    "stem": "মাংসপেশীতে তীব্র খিঁচুনি ও সংকোচন — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "spasm",
+      "muscles"
+    ],
+    "explanation": "Violent muscular spasms Cuprum Metallicum নির্দেশ করে।"
+  },
+  {
+    "id": "cupr-sym-04",
+    "stem": "খিঁচুনির আগে বমি বা বমিভাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "convulsion",
+      "vomiting"
+    ],
+    "explanation": "Vomiting preceding fits Cuprum Metallicum-এর নির্দেশক লক্ষণ।"
+  },
+  {
+    "id": "cupr-sym-06",
+    "stem": "মুষ্টি শক্ত করে বন্ধ হয়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "convulsion",
+      "hands"
+    ],
+    "explanation": "Clenched thumbs during convulsions Cuprum Metallicum-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "cupr-sym-07",
+    "stem": "স্পাজমের পরে গভীর অবসাদ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Tarentula",
+        "mid": "tarentula"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "prostration",
+      "spasm"
+    ],
+    "explanation": "Post-convulsive exhaustion Cuprum Metallicum-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "cupr-sym-08",
+    "stem": "আবেগ বা দমন করা রাগের পরে খিঁচুনি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "emotion",
+      "convulsion"
+    ],
+    "explanation": "Suppressed emotions leading to convulsions Cuprum Metallicum নির্দেশ করে।"
+  },
+  {
+    "id": "cupr-sym-09",
+    "stem": "রাতে খিঁচুনি বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "night",
+      "convulsion"
+    ],
+    "explanation": "Night aggravation of spasms Cuprum Metallicum-এ দেখা যায়।"
+  },
+  {
+    "id": "cupr-sym-11",
+    "stem": "খিঁচুনির সময় মুখ নীলচে হয়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "cyanosis",
+      "convulsion"
+    ],
+    "explanation": "Blue face during spasms Cuprum Metallicum নির্দেশ করে।"
+  },
+  {
+    "id": "cupr-sym-12",
+    "stem": "শিশুদের খিঁচুনি দাঁত ওঠার সময় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "teething",
+      "convulsion"
+    ],
+    "explanation": "Teething convulsions-এ Cuprum Metallicum ব্যবহৃত হয়।"
+  },
+  {
+    "id": "cupr-sym-14",
+    "stem": "অত্যন্ত সহিংস খিঁচুনি, শরীর বাঁকিয়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "spasm",
+      "tetanic"
+    ],
+    "explanation": "Violent tonic spasms strongly indicate Cuprum Metallicum।"
+  },
+  {
+    "id": "cupr-sym-16",
+    "stem": "খিঁচুনির সময় চেতনা হারায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "unconsciousness",
+      "convulsion"
+    ],
+    "explanation": "Loss of consciousness during seizures Cuprum Metallicum-এর সঙ্গে মেলে।"
+  },
+  {
+    "id": "cupr-sym-17",
+    "stem": "খিঁচুনি শুরু হয় হাত বা পায়ে এবং উপরে ওঠে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "convulsion",
+      "ascending"
+    ],
+    "explanation": "Ascending spasms from extremities are characteristic of Cuprum Metallicum।"
+  },
+  {
+    "id": "cupr-sym-19",
+    "stem": "অতিরিক্ত পরিশ্রমের পরে খিঁচুনি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "overexertion",
+      "convulsion"
+    ],
+    "explanation": "Overexertion may precipitate convulsions requiring Cuprum Metallicum।"
+  },
+  {
+    "id": "cina-sym-12",
+    "stem": "খিঁচুনি কৃমির উপদ্রবের সঙ্গে সম্পর্কিত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Cuprum",
+        "mid": "cuprum"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "convulsion",
+      "worms"
+    ],
+    "explanation": "Worm-induced convulsions Cina-এর একটি গুরুত্বপূর্ণ নির্দেশনা।"
+  },
+  {
+    "id": "cina-sym-14",
+    "stem": "ঘুমের সময় হাত-পা ঝাঁকুনি দেয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "sleep",
+      "jerking"
+    ],
+    "explanation": "Sleep jerking Cina-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "cina-sym-18",
+    "stem": "হাত-পা কাঁপে ও স্নায়বিক উত্তেজনা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "nerves",
+      "trembling"
+    ],
+    "explanation": "Nervous trembling Cina-এর সাথে মেলে।"
+  },
+  {
+    "id": "hyper-sym-04",
+    "stem": "ধারালো বা মরচে ধরা লোহায় কেটে গেলে ধনুষ্টংকার প্রতিরোধে কার্যকর — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula-officinalis"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "tetanus",
+      "prevention",
+      "rusty-iron",
+      "cut"
+    ],
+    "explanation": "Hypericum ধনুষ্টংকার প্রতিরোধে কার্যকর।"
+  },
+  {
+    "id": "ign-sym-14",
+    "stem": "আবেগের কারণে খিঁচুনি বা স্পাজম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "spasm",
+      "emotion"
+    ],
+    "explanation": "Emotional spasms frequently indicate Ignatia।"
+  },
+  {
+    "id": "hyoscyamus-sym-11",
+    "stem": "উত্তেজনাপ্রবণ, খিটখিটে ও পেশিসমূহের খিঁচুনি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "mental",
+      "twitching"
+    ],
+    "explanation": "Hyoscyamus-এ রোগী উত্তেজনাপ্রবণ ও খিটখিটে হয় এবং পেশিসমূহে খিঁচুনি হয়।"
+  },
+  {
+    "id": "hyoscyamus-sym-15",
+    "stem": "মাংসপেশির অনবরত কাঁপুনি ও ঝাঁকুনি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "twitching",
+      "muscles"
+    ],
+    "explanation": "Hyoscyamus-এ হাত-পায়ের আঙুল বা শরীরের মাংসপেশি অনবরত কাঁপতে ও ঝাঁকুনি দিতে থাকে।"
+  },
+  {
+    "id": "magphos-sym-05",
+    "stem": "আকস্মিক ও তীব্র আক্ষেপ, পেশির খিঁচুনি, ধনুষ্টঙ্কার, হাত পায়ের আঙুল হঠাৎ বেঁকে যাওয়া, লেখকদের হাতের আঙুল অবশ বা খিট লেগে যাওয়া, পা কামড়ানো, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "spasm",
+      "cramp",
+      "writers-cramp"
+    ],
+    "explanation": "Magnesia Phosphorica এ আকস্মিক ও তীব্র আক্ষেপ হয়, পেশির খিঁচুনি, ধনুষ্টঙ্কার, হাত পায়ের আঙুল হঠাৎ বেঁকে যায়, লেখকদের হাতের আঙুল অবশ বা খিট লেগে যায়, পা কামড়ায়।"
+  },
+  {
+    "id": "magphos-sym-08",
+    "stem": "খাদ্যনালীর আক্ষেপ, গিলতে গেলে খাদ্যনালী সংকুচিত হয়ে আটকে যাওয়ার অনুভূতি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "throat",
+      "oesophagus",
+      "spasm"
+    ],
+    "explanation": "Magnesia Phosphorica এ খাদ্যনালীর আক্ষেপ হয়, কোনো কিছু গিলতে গেলে খাদ্যনালী সংকুচিত হয়ে আটকে যাওয়ার অনুভূতি হয়।"
+  },
+  {
+    "id": "magphos-sym-09",
+    "stem": "স্নায়ুশূল, তীরবিদ্ধবৎ, ছিন্নকারী বা বিদ্যুৎচমকের মতো ব্যথা, সাথে পেশিতে খিঁচুনি বা আড়ষ্টতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "neuralgia",
+      "pain",
+      "spasm"
+    ],
+    "explanation": "Magnesia Phosphorica এ শরীরের যেকোনো অংশের স্নায়ুর তীব্র তীরবিদ্ধবৎ, ছিন্নকারী বা বিদ্যুৎচমকের মতো ব্যথা হয়, সাথে পেশিতে খিঁচুনি বা আড়ষ্টতা থাকে।"
+  },
+  {
+    "id": "led-sym-08",
+    "stem": "পাঞ্চার ক্ষতের পর ধনুষ্টংকারের প্রবণতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "puncture",
+      "tetanus"
+    ]
+  },
+  {
+    "id": "lach-sym-10",
+    "stem": "জিহ্বা কাঁপে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "tongue",
+      "trembling",
+      "mouth"
+    ],
+    "explanation": "Lachesis-এ জিহ্বা কাঁপে।"
+  },
+  {
+    "id": "plumbum-sym-15",
+    "stem": "শরীরের বিভিন্ন অংশে পক্ষাঘাত, বিশেষ করে প্রসারণকারী পেশিগুলোর দুর্বলতা, হাত পা কাঁপা বা কম্পন, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "paralysis",
+      "extensor",
+      "tremor"
+    ],
+    "explanation": "Plumbum Metallicum এ শরীরের বিভিন্ন অংশে পক্ষাঘাত হয়, বিশেষ করে প্রসারণকারী পেশিগুলোর দুর্বলতা থাকে, হাত পা কাঁপা বা কম্পন হয়।"
+  },
+  {
+    "id": "plat-sym-15",
+    "stem": "সম্পূর্ণ শরীরে কম্পন (Tremulousness) অনুভূত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "tremor",
+      "tremulousness",
+      "general"
+    ],
+    "explanation": "Platinum Metallicum-এ সম্পূর্ণ শরীরে কম্পন (Tremulousness) অনুভূত হয়।"
+  },
+  {
+    "id": "zincum-sym-03",
+    "stem": "গোটা দেহ কেঁপে ওঠে, হাত পায়ের কাঁপুনি, মাংসপেশির টান বা অনৈচ্ছিক নড়াচড়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Agaricus",
+        "mid": "agaricus"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "trembling",
+      "twitching"
+    ],
+    "explanation": "Zincum Metallicum এ গোটা দেহ কেঁপে ওঠে, হাত পায়ের কাঁপুনি হয়, মাংসপেশির টান বা অনৈচ্ছিক নড়াচড়া হয়।"
+  }
+]

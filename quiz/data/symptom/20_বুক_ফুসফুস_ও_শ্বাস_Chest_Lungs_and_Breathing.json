@@ -1,0 +1,1295 @@
+[
+  {
+    "id": "argm-sym-17",
+    "stem": "জিহ্বা সাদা আবরণযুক্ত এবং মুখ থেকে দুর্গন্ধ — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Mercurius Sol",
+        "mid": "mercurius-sol"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      },
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "tongue",
+      "bad-breath"
+    ],
+    "explanation": "Argentum Metallicum-তে জিহ্বায় সাদা আবরণ দেখা যেতে পারে।"
+  },
+  {
+    "id": "arnica-mont-sym-10",
+    "stem": "অতিরিক্ত শারীরিক পরিশ্রমের ফলে হৃদপিণ্ডের পেশি দুর্বল হয়ে যাওয়া, বাম বাহুতে ব্যথা এবং দমবন্ধ ভাব — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Crataegus",
+        "mid": "crataegus"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "heart",
+      "athletes-heart",
+      "left-arm-pain",
+      "dyspnea"
+    ],
+    "explanation": "Arnica Montana-এ অতিরিক্ত শারীরিক পরিশ্রমের ফলে হৃদপিণ্ডের পেশি দুর্বল হয়ে যাওয়া (Athlete's Heart), বাম বাহুতে ব্যথা এবং দমবন্ধ ভাব একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "arsenicum-iod-sym-10",
+    "stem": "সর্দির সাথে বুকের ভেতর ঘড়ঘড়ানি শব্দ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "coryza",
+      "chest",
+      "rattling"
+    ],
+    "explanation": "Arsenicum Iodatum-এ সর্দির সাথে হাঁচি এবং বুকের ভেতর ঘড়ঘড়ানি শব্দ হয়।"
+  },
+  {
+    "id": "arsenicum-iod-sym-12",
+    "stem": "সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি ও দমবন্ধ ভাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis-purpurea"
+      },
+      {
+        "text": "Crataegus",
+        "mid": "crataegus-oxyacantha"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "heart",
+      "palpitation",
+      "dyspnoea"
+    ],
+    "explanation": "Arsenicum Iodatum-এ হৃদপেশির দুর্বলতায় সিঁড়ি দিয়ে উঠলে বুক ধড়ফড়ানি এবং দমবন্ধ ভাব হয়।"
+  },
+  {
+    "id": "bac-sym-04",
+    "stem": "রাতে শোয়ার পর প্রচণ্ড কাশি শুরু হওয়া ও সকালে ঘুম থেকে উঠে প্রচুর কফ ওঠা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Aconitum Napellus",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "cough",
+      "respiratory"
+    ],
+    "explanation": "Bacillinum এ রাতে শোয়ার পর প্রচণ্ড কাশি শুরু হয় এবং সকালে ঘুম থেকে ওঠার পর প্রচুর কফ নির্গত হয়।"
+  },
+  {
+    "id": "bry-sym-09",
+    "stem": "কাশির সময় বুকে সুঁচ ফোটানো ব্যথা হওয়ায় হাত দিয়ে বুক চেপে ধরা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Dros-cough",
+        "mid": "dros-cough"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "cough",
+      "chest-pain",
+      "holding-chest"
+    ],
+    "explanation": "Bryonia-এ কাশির সময় বুকে সুঁচ ফোটানো ব্যথা হয় বলে রোগী হাত দিয়ে চেপে বুক শক্ত করে ধরে থাকে।"
+  },
+  {
+    "id": "caul-sym-14",
+    "stem": "বাম স্তনের নিচে ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "chest",
+      "female"
+    ],
+    "explanation": "Left inframammary pain Caulophyllum-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "carbo-sym-06",
+    "stem": "ঠান্ডা নিঃশ্বাস, ঠান্ডা জিহ্বা, ঠান্ডা ঘাম, স্বরভঙ্গ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "coldness",
+      "breath",
+      "tongue",
+      "sweat",
+      "hoarseness"
+    ],
+    "explanation": "Carbo Veg-এ ঠান্ডা নিঃশ্বাস, জিহ্বা, ঘাম ও স্বরভঙ্গ থাকে।"
+  },
+  {
+    "id": "camph-sym-08",
+    "stem": "শ্বাস ঠান্ডা মনে হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "respiration",
+      "coldness"
+    ]
+  },
+  {
+    "id": "camph-sym-17",
+    "stem": "শ্বাসরোধী শ্বাসকষ্ট ও collapse — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Natrum Sulph",
+        "mid": "natrum-sulph"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "dyspnea",
+      "collapse"
+    ]
+  },
+  {
+    "id": "caps-sym-15",
+    "stem": "কাশির সময় মনে হওয়া বুক ফেটে যাবে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "respiratory",
+      "cough",
+      "chest"
+    ],
+    "explanation": "Capsicum Annuum এ কাশির সময় মনে হয় যেন বুক ফেটে যাবে।"
+  },
+  {
+    "id": "caps-sym-16",
+    "stem": "কাশির প্রতিটি ঝাকুনিতে দূরের অঙ্গে, যেমন কানে বা কোমরে ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "respiratory",
+      "cough",
+      "distant-pain"
+    ],
+    "explanation": "Capsicum Annuum এ কাশির প্রতিটি ঝাকুনিতে শরীরের কোনো দূরে অঙ্গে, যেমন কানে বা কোমরে ব্যথা অনুভূত হয়।"
+  },
+  {
+    "id": "cupr-sym-18",
+    "stem": "হঠাৎ শ্বাসরোধী স্পাজম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "laryngospasm",
+      "respiration"
+    ],
+    "explanation": "Laryngeal spasm is a known indication for Cuprum Metallicum।"
+  },
+  {
+    "id": "cimicifuga-sym-02",
+    "stem": "ডিম্বকোষ বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "dyspnoea",
+      "palpitation",
+      "uterine"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ ডিম্বকোষের বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট হতে পারে।"
+  },
+  {
+    "id": "chel-sym-07",
+    "stem": "ডান দিকের ফুসফুসে ব্যথা বা নিউমোনিয়া, যা লিভারের গোলযোগের সাথে যুক্ত থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "respiratory",
+      "right-lung",
+      "pneumonia",
+      "liver"
+    ],
+    "explanation": "Chelidonium Majus-এ ডান দিকের ফুসফুসে ব্যথা বা নিউমোনিয়া (Pneumonia) হতে পারে, যা লিভারের গোলযোগের সাথে যুক্ত থাকে।"
+  },
+  {
+    "id": "just-sym-01",
+    "stem": "একটানা ভয়ানক ও শুষ্ক কাশি এবং কাশির চোটে বুক ফেটে যাওয়ার উপক্রম হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "cough",
+      "dry-cough",
+      "respiratory"
+    ],
+    "explanation": "Justicia Adhatoda-এর প্রধান নির্দেশক হলো একটানা তীব্র শুষ্ক কাশি যাতে বুক ফেটে যাওয়ার মতো ব্যথা হয়।"
+  },
+  {
+    "id": "just-sym-03",
+    "stem": "বুকে প্রচুর শ্লেষ্মা জমা থাকার অনুভূতি কিন্তু কাশতে কাশতে সামান্য ওঠা বা না ওঠা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Antimony Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "chest",
+      "mucus",
+      "expectoration"
+    ],
+    "explanation": "Justicia Adhatoda-এ বুকে কফ জমে ঘড়ঘড় করলেও তা সহজে উঠতে চায় না।"
+  },
+  {
+    "id": "just-sym-05",
+    "stem": "নিশ্বাস নিতে বুকে কষ্ট এবং সকালে ঘুম থেকে উঠলে হাত-মুখ ফোলা থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carb"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "respiratory",
+      "dyspnea",
+      "edema"
+    ],
+    "explanation": "Justicia Adhatoda-এ শ্বাসকষ্টের পাশাপাশি সকালে ঘুম থেকে উঠলে মুখমণ্ডল ও হাতে ফোলা ভাব দেখা যায়।"
+  },
+  {
+    "id": "just-sym-08",
+    "stem": "রাতে কাশির বেগ বৃদ্ধি পাওয়া এবং গলার মধ্যে সাঁ সাঁ বা ঘড়ঘড় শব্দ হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Grindelia",
+        "mid": "grindelia"
+      },
+      {
+        "text": "Blatta Orientalis",
+        "mid": "blatta-orientalis"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "cough",
+      "night",
+      "wheezing"
+    ],
+    "explanation": "Justicia Adhatoda-এ রাতে কাশির প্রকোপ বাড়ে এবং গলার ভেতরে সাঁ সাঁ বা শোঁ শোঁ শব্দ হয়।"
+  },
+  {
+    "id": "ign-sym-16",
+    "stem": "পেটের শূন্য অনুভূতি, গভীর শ্বাসে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "stomach",
+      "deep-breath"
+    ],
+    "explanation": "Empty sinking feeling relieved by deep breath suggests Ignatia।"
+  },
+  {
+    "id": "ipecac-sym-09",
+    "stem": "বুকে প্রচুর শ্লেষ্মা বা কফ জমে থাকে, যার ফলে ঘড়ঘড় শব্দ হয় কিন্তু কফ সহজে ওঠে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "chest",
+      "mucus",
+      "rattling",
+      "difficult-expectoration"
+    ],
+    "explanation": "Ipecac-এ বুকে প্রচুর শ্লেষ্মা বা কফ জমে থাকে, যার ফলে ঘড়ঘড় শব্দ হয় কিন্তু কফ সহজে ওঠে না।"
+  },
+  {
+    "id": "glon-sym-14",
+    "stem": "বুক ধড়ফড়ানি গলা পর্যন্ত অনুভূত, শ্বাসকষ্ট — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "heart",
+      "palpitation",
+      "throat",
+      "dyspnea"
+    ],
+    "explanation": "Glonoine-এ ধড়ফড়ানি গলা পর্যন্ত ওঠে।"
+  },
+  {
+    "id": "ferrum-phos-sym-17",
+    "stem": "সর্দিতে নাক বন্ধ ও বুকে ব্যথাযুক্ত কাশি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "coryza",
+      "cough",
+      "chest-pain"
+    ],
+    "explanation": "Ferrum Phos-এ সর্দি লেগে নাক বন্ধ হয়ে যাওয়া বা বুকে ব্যথাযুক্ত কাশি হয়।"
+  },
+  {
+    "id": "medorrhinum-sym-01",
+    "stem": "উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে ঘুমানো — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "sleep",
+      "knee-chest"
+    ],
+    "explanation": "Medorrhinum-এর প্রধান লক্ষণ হলো রোগী বা শিশু উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে (Knee-chest position) ঘুমায়।"
+  },
+  {
+    "id": "lyc-sym-06",
+    "stem": "শ্বাসকষ্ট বা ফুসফুসের প্রদাহের সময় নাকের পাখনা ফুলে ফুলে কাঁপা (Fan-like movement of alae nasi) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Antimony Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "respiratory",
+      "nose",
+      "alae-nasi"
+    ],
+    "explanation": "শ্বাসতন্ত্রের মারাত্মক প্রদাহ বা নিউমোনিয়ায় নাকের পাখনার পাখার মতো নড়াচড়া Lycopodium-এর প্রামাণ্য নির্দেশক।"
+  },
+  {
+    "id": "opi-sym-04",
+    "stem": "নিদ্রাকালে গলার মধ্যে তীব্র নাসিকাধ্বনি বা ঘড়ঘড় শব্দ (Stertorous breathing) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "respiratory",
+      "snoring",
+      "stertorous"
+    ],
+    "explanation": "Opium-এ নিশ্বাসে তীব্র ঘড়ঘড় ও বিকট নাক ডাকার শব্দ অত্যন্ত স্পষ্ট।"
+  },
+  {
+    "id": "opi-sym-05",
+    "stem": "নিদ্রাকালে শ্বাস বন্ধ হয়ে যাওয়া (Sleep Apnea) এবং শরীর ঝাঁকি দিয়ে পুনরায় শ্বাস শুরু হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Grindelia",
+        "mid": "grindelia"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "respiratory",
+      "sleep-apnea",
+      "suffocation"
+    ],
+    "explanation": "Opium-এ ঘুমালেই শ্বাস অবরুদ্ধ হয়ে পড়ে এবং ঝাঁকি দিয়ে রোগী জেগে শ্বাস টানে।"
+  },
+  {
+    "id": "phosphorus-sym-18",
+    "stem": "যক্ষ্মা বা নিউমোনিয়ার প্রবণতা, কাশির সময় বুকে ভারবোধ ও জ্বালা থাকে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "chest",
+      "tuberculosis",
+      "pneumonia",
+      "cough"
+    ],
+    "explanation": "Phosphorus এ যক্ষ্মা বা নিউমোনিয়ার প্রবণতা থাকে, কাশির সময় বুকে ভারবোধ এবং জ্বালা থাকে।"
+  },
+  {
+    "id": "stannum-sym-01",
+    "stem": "বুকের মধ্যে শূন্যবোধ বা দুর্বলতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "chest",
+      "weakness"
+    ],
+    "explanation": "Stannum Met-এর প্রধান লক্ষণ হলো বুকের মধ্যে শূন্যবোধ বা দুর্বলতা অনুভব করা।"
+  },
+  {
+    "id": "stannum-sym-03",
+    "stem": "কথা বলার সময় দুর্বল অনুভূতি প্রকাশ ও বুকে খালি বোধ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "chest",
+      "talking",
+      "weakness"
+    ],
+    "explanation": "Stannum Met-এ কথা বলতে গেলে বা সামান্য পরিশ্রমে রোগী হাঁপিয়ে ওঠে এবং বুকে খালি বোধ করে।"
+  },
+  {
+    "id": "stannum-sym-13",
+    "stem": "যক্ষ্মা বা ক্ষয়রোগে সবুজ বা হলুদাভ মিষ্টি কফ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "phthisis",
+      "sputum"
+    ],
+    "explanation": "Stannum Met যক্ষ্মা বা ক্ষয়রোগের (Phthisis) একটি মহৌষধ; প্রচুর পরিমাণে সবুজ বা হলুদাভ মিষ্টি কফ ওঠে।"
+  },
+  {
+    "id": "sene-sym-01",
+    "stem": "কাশতে কাশতে হাঁচি হওয়া এবং হাঁচি হলে কাশি বন্ধ হয়ে যাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Badiaga",
+        "mid": "badiaga"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus-muscarius"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "respiratory",
+      "cough-sneeze"
+    ],
+    "explanation": "Senega-এর কাশির একটি অসাধারণ পরিচয় হলো কাশতে কাশতে হাঁচি হওয়া এবং হাঁচি হলেই কাশি থেমে যাওয়া।"
+  },
+  {
+    "id": "sene-sym-02",
+    "stem": "ফুসফুসে প্রচুর কফ জমা ও ঘড়ঘড় শব্দ হওয়া কিন্তু আঠালো কফ বের হতে কষ্ট হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "respiratory",
+      "rattling-mucus"
+    ],
+    "explanation": "Senega ফুসফুসে জমে থাকা প্রচুর শ্লেষ্মা ও ঘড়ঘড়ানি দূর করতে এবং আঠালো কফ নির্গমনে শ্রেষ্ঠ ওষুধ।"
+  },
+  {
+    "id": "sene-sym-03",
+    "stem": "বুকের কোনো ক্ষুদ্র স্থানে বা নির্দিষ্ট অংশে জ্বালাপোড়া ও সূঁচ ফোঁটানোর মতো ব্যথা হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "chest",
+      "burning-pain"
+    ],
+    "explanation": "Senega-এ বুকের একটি ছোট বা নির্দিষ্ট স্থানজুড়ে জ্বালা ও সুঁচ ফোঁটানোর মতো ব্যথার প্রাবল্য থাকে।"
+  },
+  {
+    "id": "sene-sym-04",
+    "stem": "বুকের ওপর ভারী কোনো পাথর রাখা হয়েছে বা বুকটি সংকীর্ণ হয়ে গেছে এমন ভারবোধ — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Cactus Gr",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "chest",
+      "sensation"
+    ],
+    "explanation": "Senega রোগী বুকে পাথর চাপানো বা বুক সংকুচিত হয়ে যাওয়ার মতো অনুভূতির কথা প্রকাশ করে।"
+  },
+  {
+    "id": "sene-sym-10",
+    "stem": "বৃদ্ধ ব্যক্তিদের ফুসফুসের দুর্বলতা, ক্রনিক ব্রঙ্কাইটিস ও হাঁপানিতে বিশেষ কার্যকরী — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Ammon Carb",
+        "mid": "ammonium-carbonicum"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-vegetabilis"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "elderly",
+      "bronchitis"
+    ],
+    "explanation": "Senega বয়োজ্যেষ্ঠ বা বৃদ্ধদের ফুসফুসের কফ সরাতে ও ক্রনিক ব্রঙ্কাইটিস রোগের জন্য বিশেষভাবে মহৌষধ।"
+  },
+  {
+    "id": "sene-sym-11",
+    "stem": "কাশি দিলে বুকে প্রচণ্ড ব্যথা হওয়া, যা কাশির শেষে বহুগুণ বৃদ্ধি পাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Squilla",
+        "mid": "squilla-hispanica"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "chest",
+      "cough-pain"
+    ],
+    "explanation": "Senega-এ কাশি দেওয়ার সময় বুকে চরম যন্ত্রণা হয় যা কাশির ক্রিয়াকলাপ শেষ হলে আরও বেড়ে যায়।"
+  },
+  {
+    "id": "spigelia-sym-19",
+    "stem": "হৃৎস্পন্দনের সাথে প্রচণ্ড শ্বাসকষ্ট ও বাম বাহু অবশ হয়ে যাওয়া, এনজিনা পেক্টোরিসে কার্যকর, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "heart",
+      "dyspnoea",
+      "angina",
+      "left-arm"
+    ],
+    "explanation": "Spigelia Anthelmia এ হৃৎস্পন্দনের সাথে প্রচণ্ড শ্বাসকষ্ট হয় এবং বাম বাহু অবশ হয়ে যায়, এনজিনা পেক্টোরিসে এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "verat-sym-13",
+    "stem": "হার্টের দুর্বলতা এবং অল্প নড়াচড়াতেও দমবন্ধ ভাব বা মূর্ছা যাওয়ার অবস্থা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Crataegus",
+        "mid": "crataegus"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "heart",
+      "weakness",
+      "dyspnea",
+      "fainting"
+    ],
+    "explanation": "Veratrum Album-এ হার্টের দুর্বলতা এবং অল্প নড়াচড়াতেও দমবন্ধ ভাব বা মূর্ছা যাওয়ার অবস্থা হয়।"
+  },
+  {
+    "id": "sul-iod-sym-18",
+    "stem": "দীর্ঘস্থায়ী শ্বাসনালীর রোগে এটি উপকারী — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "respiratory",
+      "chronic"
+    ],
+    "explanation": "Sulphur Iodatum দীর্ঘদিনের চর্ম ও শ্বাসনালীর রোগে উপকারী।"
+  },
+  {
+    "id": "spongia-sym-02",
+    "stem": "কাশি বা শ্বাসের শব্দ করাত দিয়ে কাঠ কাটার মতো — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "cough",
+      "respiration",
+      "sawing"
+    ],
+    "explanation": "Spongia-তে কাশি বা শ্বাস-প্রশ্বাসের শব্দ করাত দিয়ে শুকনো কাঠ কাটার মতো (Sawing sound) হয়।"
+  },
+  {
+    "id": "spongia-sym-03",
+    "stem": "মাঝরাতে ঘুম ভেঙে দম আটকে আসা ও আতঙ্ক — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "dyspnoea",
+      "night",
+      "panic"
+    ],
+    "explanation": "Spongia-তে হঠাৎ মাঝরাতে ঘুম ভেঙে যায় এবং মনে হয় দম আটকে আসছে; রোগী ভীষণ আতঙ্কিত হয়ে পড়ে।"
+  },
+  {
+    "id": "spongia-sym-08",
+    "stem": "নিদ্রাকালে রোগ বৃদ্ধি, ঘুম থেকে জেগে দম বন্ধ হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "sleep",
+      "dyspnoea"
+    ],
+    "explanation": "Spongia-তে নিদ্রাকালে রোগ বৃদ্ধি পায় এবং ঘুম থেকে জেগে দম বন্ধ হয়ে আসে।"
+  },
+  {
+    "id": "spongia-sym-11",
+    "stem": "বুক ধড়ফড়ানি, বুকের মধ্যে সাঁই সাঁই শব্দ ও বুকে ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis-purpurea"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "heart",
+      "palpitation",
+      "chest"
+    ],
+    "explanation": "Spongia-তে শ্বাসকষ্ট, বুক ধড়ফড়ানি, বুকের মধ্যে সাঁই সাঁই শব্দ ও বুকে ব্যথা হয়।"
+  },
+  {
+    "id": "spongia-sym-12",
+    "stem": "শুয়ে থাকলে শ্বাসকষ্ট বেড়ে যায়, মাথা নিচু করে বসলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "dyspnoea",
+      "modalities"
+    ],
+    "explanation": "Spongia-তে শুয়ে থাকলে শ্বাসকষ্ট বেড়ে যায় এবং মাথা নিচু করে বসলে উপশম হয়।"
+  }
+]

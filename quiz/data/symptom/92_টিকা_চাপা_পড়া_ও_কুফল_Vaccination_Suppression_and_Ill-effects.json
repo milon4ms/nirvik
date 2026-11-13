@@ -1,0 +1,1147 @@
+[
+  {
+    "id": "baryta-sym-12",
+    "stem": "পায়ের ঘাম অত্যন্ত দুর্গন্ধযুক্ত, অবদমনে রোগ বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "skin",
+      "foot-sweat",
+      "fetid",
+      "suppression"
+    ],
+    "explanation": "Baryta-তে দুর্গন্ধযুক্ত পায়ের ঘাম ও তার অবদমনে রোগ বাড়ে।"
+  },
+  {
+    "id": "calen-sym-03",
+    "stem": "অস্ত্রোপচার পরবর্তী ক্ষতে ইনফেকশন রোধ ও ব্যথা কমাতে অপ্রতিদ্বন্দ্বী — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "surgery",
+      "post-operative",
+      "infection",
+      "pain"
+    ],
+    "explanation": "Calendula সার্জারির পর ইনফেকশন রোধে শ্রেষ্ঠ।"
+  },
+  {
+    "id": "carbo-sym-09",
+    "stem": "অতীত কাহিনী: অমুক ঘটনার পর আর স্বাস্থ্য ভালো হলো না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "never-well-since",
+      "history",
+      "generalities"
+    ],
+    "explanation": "Carbo Veg-এ রোগী একটি ঘটনার পর আর সুস্থ হয়নি বলে জানায়।"
+  },
+  {
+    "id": "clem-sym-03",
+    "stem": "গনোরিয়া বা প্রমেহ রোগ চাপা দেওয়ার পর অণ্ডকোষ ও মূত্রনালীর সমস্যা তৈরি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "etiology",
+      "suppressed-gonorrhea",
+      "male"
+    ],
+    "explanation": "Clematis Erecta গনোরিয়া ধামাচাপা দেওয়ার ফলে তৈরি হওয়া জটিলতা দূরীকরণের একটি গুরুত্বপূর্ণ ঔষধ।"
+  },
+  {
+    "id": "cinn-sym-04",
+    "stem": "দীর্ঘস্থায়ী সাইনোসাইটিস এবং কপালে ব্যথার সাথে গলার পেছনে চটচটে সর্দি জমা (Post-nasal drip) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Hydrastis",
+        "mid": "hydrastis"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bich"
+      },
+      {
+        "text": "Lemna Minor",
+        "mid": "lemna-minor"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "sinusitis",
+      "post-nasal-drip",
+      "nose"
+    ],
+    "explanation": "Cinnabaris-এ সাইনাসের জটিলতায় নাকের গোড়ায় চাপের পাশাপাশি ঘন, চটচটে কফ গলার পেছনে জমা হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "conium-sym-06",
+    "stem": "যৌন ইচ্ছা দমনের কুফল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Caladium",
+        "mid": "caladium"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "sexual",
+      "suppression",
+      "bad-effects"
+    ],
+    "explanation": "Conium যৌন ইচ্ছা দমনের কুফলে কার্যকর।"
+  },
+  {
+    "id": "conium-sym-14",
+    "stem": "দীর্ঘস্থায়ী শোকের কুফল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "grief",
+      "bad-effects",
+      "chronic"
+    ],
+    "explanation": "Conium দীর্ঘস্থায়ী শোকের কুফলে কার্যকর।"
+  },
+  {
+    "id": "hyper-sym-06",
+    "stem": "দাঁত তোলা বা অপারেশনের পর স্নায়বিক ব্যথা থেকে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula-officinalis"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "post-operative",
+      "dental",
+      "neuralgia",
+      "extraction"
+    ],
+    "explanation": "Hypericum অপারেশন পরবর্তী স্নায়বিক ব্যথায় কার্যকর।"
+  },
+  {
+    "id": "hell-sym-10",
+    "stem": "পেটে জল আসা (Ascites) বা শরীরের বিভিন্ন অঙ্গে শোথ (Dropsy) দেখা দেয়, যা হঠাৎ প্রস্রাব বন্ধ হওয়ার পর শুরু হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "ascites",
+      "dropsy",
+      "suppressed-urine"
+    ],
+    "explanation": "Helleborus Niger-এ পেটে জল আসা (Ascites) বা শরীরের বিভিন্ন অঙ্গে শোথ (Dropsy) দেখা দেয়, যা হঠাৎ করে প্রস্রাব বন্ধ হওয়ার পর শুরু হয়।"
+  },
+  {
+    "id": "ign-sym-13",
+    "stem": "অসন্তোষ ও দুঃখ চেপে রাখে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "suppressed-emotions",
+      "mind"
+    ],
+    "explanation": "Suppressed grief is central to Ignatia. "
+  },
+  {
+    "id": "dulc-sym-14",
+    "stem": "ঋতুস্রাব বন্ধ হয়ে গেলে শরীরে চর্মরোগ দেখা দিতে পারে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "female",
+      "menses-suppressed",
+      "skin-eruptions"
+    ],
+    "explanation": "Dulcamara-এ ঋতুস্রাব বন্ধ হয়ে গেলে শরীরে চর্মরোগ দেখা দিতে পারে।"
+  },
+  {
+    "id": "dulc-sym-20",
+    "stem": "ঘাম চাপা দেওয়ার ফলে শোথ (Dropsical swelling) হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "dropsy",
+      "suppressed-sweat",
+      "edema"
+    ],
+    "explanation": "Dulcamara-এ ঘাম চাপা দেওয়ার ফলে শোথ (Dropsical swelling after suppressed sweat) হতে পারে।"
+  },
+  {
+    "id": "mez-sym-12",
+    "stem": "টিকাদানের পর একজিমা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "vaccination",
+      "eczema"
+    ],
+    "explanation": "Eczema after vaccination is a classic Mezereum indication."
+  },
+  {
+    "id": "mez-sym-14",
+    "stem": "মরকিউরির অপব্যবহারের কুফল — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "mercury",
+      "drug-effects"
+    ],
+    "explanation": "Mezereum is often indicated after mercury abuse."
+  },
+  {
+    "id": "merc-sym-07",
+    "stem": "মলত্যাগের সময় বা পরে তীব্র কোঁথানি, মনে হয় আরও মল রয়ে গেছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "tenesmus",
+      "dysentery",
+      "never-get-done"
+    ],
+    "explanation": "Merc Vivus-এ Never-get-done অনুভূতি থাকে।"
+  },
+  {
+    "id": "medorrhinum-sym-08",
+    "stem": "চাপা পড়া প্রমেহের পর বাতের ব্যথা, হৃদরোগ বা হাঁপানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "suppressed-gonorrhoea",
+      "sycotic"
+    ],
+    "explanation": "Medorrhinum অতীতে প্রমেহ বা গণোরিয়ার স্রাব চাপা দেওয়ার পর থেকে বাতের ব্যথা, হৃদরোগ বা হাঁপানি দেখা দিলে গভীর ক্রিয়াশীল।"
+  },
+  {
+    "id": "lyc-sym-17",
+    "stem": "পেঁয়াজ, রুটি, মদ ও তামাক সেবনে রোগ লক্ষণের মারাত্মক অবনতি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "bad-effects",
+      "onion",
+      "food"
+    ],
+    "explanation": "Lycopodium-এর রোগীর পেঁয়াজ, রুটি বা মদ খেলে পেটের কলাই ও বদহজম মারাত্মক তীব্র রূপ নেয়।"
+  },
+  {
+    "id": "nux-sym-15",
+    "stem": "অতিরিক্ত ঔষধ সেবনের কুফল — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "drug-effects",
+      "detox"
+    ],
+    "explanation": "Effects of drugging often call for Nux Vomica."
+  },
+  {
+    "id": "opi-sym-19",
+    "stem": "আফিম খাওয়ার অপব্যবহার বা আফিমের কুফল দূর করতে সক্ষম হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomile",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Cannabis Indica",
+        "mid": "cannabis-indica"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "clinical",
+      "bad-effects"
+    ],
+    "explanation": "আফিমের অপব্যবহারজনিত পার্শ্বপ্রতিক্রিয়া কাটিয়ে উঠতে Opium স্বশক্তিতে কার্যকর।"
+  },
+  {
+    "id": "opi-sym-20",
+    "stem": "মল, মূত্র এবং বায়ু সম্পূর্ণ অবরুদ্ধ হয়ে পেটে প্রচণ্ড বায় আধিক্য হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "Raphanus",
+        "mid": "raphanus"
+      },
+      {
+        "text": "Lyco",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "abdomen",
+      "suppression",
+      "flatulence"
+    ],
+    "explanation": "Opium-এ পেটের পক্ষাঘাতের দরুন মল, মূত্র ও অপানবায়ু নির্গমন একযোগে স্থবির হয়ে পড়ে।"
+  },
+  {
+    "id": "staph-sym-01",
+    "stem": "ক্রোধ ও অপমানের ফলে রোগ, দমিত ক্ষোভ চেপে রাখে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "anger",
+      "indignation",
+      "suppressed-emotions"
+    ],
+    "explanation": "Staphisagria অপমান ও দমিত রাগ থেকে অসুখে প্রধান ঔষধ।"
+  },
+  {
+    "id": "staph-sym-02",
+    "stem": "অস্ত্রোপচারের কুফল ও ধারালো অস্ত্রের কাটা ব্যথা দূর করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "surgery",
+      "post-surgical",
+      "sharp-cut",
+      "pain"
+    ],
+    "explanation": "Staphisagria অস্ত্রোপচার পরবর্তী ব্যথায় কার্যকর।"
+  },
+  {
+    "id": "staph-sym-03",
+    "stem": "সর্বদা কাম চিন্তা, কামভাব প্রাবল্য ও তার কুফল দূর করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "sexual-thoughts",
+      "lascivious",
+      "ill-effects"
+    ],
+    "explanation": "Staphisagria কাম চিন্তা ও তার কুফল দূর করে।"
+  },
+  {
+    "id": "staph-sym-13",
+    "stem": "মান সম্মানের প্রতি সচেতন, কটু কথায় গভীর আঘাত, প্রতিবাদ না করে চেপে রাখে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "honor-sensitive",
+      "hurt",
+      "suppressed"
+    ],
+    "explanation": "Staphisagria মান সম্মানে সচেতন ও আঘাত চেপে রাখে।"
+  },
+  {
+    "id": "staph-sym-01",
+    "stem": "ক্রোধ ও অপমানের ফলে রোগ, দমিত ক্ষোভ চেপে রাখে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "anger",
+      "indignation",
+      "suppressed-emotions"
+    ],
+    "explanation": "Staphisagria অপমান ও দমিত রাগ থেকে অসুখে প্রধান ঔষধ।"
+  },
+  {
+    "id": "staph-sym-02",
+    "stem": "অস্ত্রোপচারের কুফল ও ধারালো অস্ত্রের কাটা ব্যথা দূর করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "surgery",
+      "post-surgical",
+      "sharp-cut",
+      "pain"
+    ],
+    "explanation": "Staphisagria অস্ত্রোপচার পরবর্তী ব্যথায় কার্যকর।"
+  },
+  {
+    "id": "staph-sym-03",
+    "stem": "সর্বদা কাম চিন্তা, কামভাব প্রাবল্য ও তার কুফল দূর করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "sexual-thoughts",
+      "lascivious",
+      "ill-effects"
+    ],
+    "explanation": "Staphisagria কাম চিন্তা ও তার কুফল দূর করে।"
+  },
+  {
+    "id": "staph-sym-13",
+    "stem": "মান সম্মানের প্রতি সচেতন, কটু কথায় গভীর আঘাত, প্রতিবাদ না করে চেপে রাখে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "honor-sensitive",
+      "hurt",
+      "suppressed"
+    ],
+    "explanation": "Staphisagria মান সম্মানে সচেতন ও আঘাত চেপে রাখে।"
+  },
+  {
+    "id": "sec-sym-06",
+    "stem": "প্রসবের পর বা গর্ভপাতের পর জরায়ু সংকুচিত না হয়ে শিথিল হয়ে পড়ে থাকা এবং অনবরত কালো রক্তস্রাব হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Trillium",
+        "mid": "trillium"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "female",
+      "uterus",
+      "post-partum"
+    ],
+    "explanation": "Secale Cornutum প্রসব পরবর্তী জরায়ুর অটনি (Atony) এবং রক্তক্ষরণ রোধে অতি চমৎকার।"
+  },
+  {
+    "id": "sil-sym-06",
+    "stem": "পায়ের পাতায় অত্যন্ত দুর্গন্ধযুক্ত ঘাম হয়, যা দানা বেঁধে বন্ধ হলে মারাত্মক অসুস্থতা তৈরি করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "feet",
+      "offensive-sweat",
+      "suppressed-sweat"
+    ],
+    "explanation": "Silicea-এ পায়ের পাতায় অত্যন্ত দুর্গন্ধযুক্ত ঘাম হয় এবং সেই ঘাম দানা বেঁধে বন্ধ হলে মারাত্মক অসুস্থতা তৈরি হয়।"
+  },
+  {
+    "id": "sul-sym-19",
+    "stem": "দীর্ঘস্থায়ী চর্মরোগ মলম বা বাহ্যিক ঔষধে দমনের ইতিহাস থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "etiology",
+      "suppressed-skin",
+      "history"
+    ],
+    "explanation": "মলম দিয়ে চর্মরোগ দমনের কুফলে সালফার অন্যতম প্রধান পরীক্ষিত ওষুধ।"
+  },
+  {
+    "id": "sab-sym-08",
+    "stem": "প্রসব বা গর্ভপাতের পর অতিরিক্ত রক্তস্রাব — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      },
+      {
+        "text": "Cinnamonum",
+        "mid": "cinnamonum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "postpartum",
+      "post-abortion",
+      "hemorrhage",
+      "profuse"
+    ],
+    "explanation": "Sabina প্রসব বা গর্ভপাতের পর অতিরিক্ত রক্তস্রাবে কার্যকর।"
+  },
+  {
+    "id": "var-sym-05",
+    "stem": "টিকার কুফল (Bad effects of vaccination) নিরাময়ে কার্যকর ভূমিকা রাখা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Malandrinum",
+        "mid": "malandrinum"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "vaccination",
+      "bad-effects",
+      "clinical"
+    ],
+    "explanation": "ভ্যাকসিনের ফলে সৃষ্ট পার্শ্বপ্রতিক্রিয়া দূর করতে Variolinum একটি শ্রেষ্ঠ নোসোড।"
+  },
+  {
+    "id": "zincum-sym-06",
+    "stem": "ঋতুস্রাব বন্ধ হলে রোগ আসে, শুরু হলে উপশম হয়, ঋতুস্রাব শুরু হলে স্নায়বিক কষ্ট উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "menses",
+      "suppressed",
+      "amelioration"
+    ],
+    "explanation": "Zincum Metallicum এ ঋতুস্রাব বন্ধ হলে রোগ আসে, শুরু হলে উপশম হয়, ঋতুস্রাব শুরু হলে স্নায়বিক কষ্টগুলো উপশম হয়।"
+  },
+  {
+    "id": "zincum-sym-11",
+    "stem": "রোগ দমিত হওয়ার কুফল, চর্মরোগ বা কোনো স্রাব চাপা পড়ে স্নায়বিক সমস্যা দেখা দেয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "suppressed",
+      "eruption",
+      "nervous"
+    ],
+    "explanation": "Zincum Metallicum এ চর্মরোগ বা কোনো স্রাব যদি চাপা পড়ে এবং তার ফলে স্নায়বিক সমস্যা দেখা দেয়, তবে এটি শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "thuja-sym-03",
+    "stem": "টিকা ও বসন্তের পর যে কোনো উপসর্গ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mal  andrinum",
+        "mid": "malandrinum"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "vaccination",
+      "ill-effects",
+      "smallpox",
+      "post-vaccination"
+    ],
+    "explanation": "Thuja টিকার কুফলে প্রথম পছন্দ।"
+  },
+  {
+    "id": "thuja-sym-17",
+    "stem": "সকালে, ঠান্ডায়, আর্দ্র আবহাওয়ায়, টিকা, চা, রাতে বিছানার গরমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "cold",
+      "damp",
+      "vaccination",
+      "tea"
+    ],
+    "explanation": "Thuja-এ সকালে, ঠান্ডা, আর্দ্রতা, টিকা ও চায়ে বৃদ্ধি।"
+  },
+  {
+    "id": "thuja-sym-03",
+    "stem": "টিকা ও বসন্তের পর যে কোনো উপসর্গ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mal  andrinum",
+        "mid": "malandrinum"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "vaccination",
+      "ill-effects",
+      "smallpox",
+      "post-vaccination"
+    ],
+    "explanation": "Thuja টিকার কুফলে প্রথম পছন্দ।"
+  },
+  {
+    "id": "thuja-sym-17",
+    "stem": "সকালে, ঠান্ডায়, আর্দ্র আবহাওয়ায়, টিকা, চা, রাতে বিছানার গরমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "cold",
+      "damp",
+      "vaccination",
+      "tea"
+    ],
+    "explanation": "Thuja-এ সকালে, ঠান্ডা, আর্দ্রতা, টিকা ও চায়ে বৃদ্ধি।"
+  }
+]

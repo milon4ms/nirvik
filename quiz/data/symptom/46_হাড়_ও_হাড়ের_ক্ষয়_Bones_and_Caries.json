@@ -1,0 +1,609 @@
+[
+  {
+    "id": "aurum-sym-02",
+    "stem": "অস্থি ও গ্রন্থির পচন, বিশেষ করে নাক, তালু ও দীর্ঘ হাড়ে রাতে প্রচণ্ড ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "bones",
+      "caries",
+      "night-aggravation"
+    ],
+    "explanation": "Aurum-এ অস্থির ক্যারিস ও রাতে ব্যথা বৃদ্ধি হয়।"
+  },
+  {
+    "id": "aurum-sym-04",
+    "stem": "পারদ ব্যবহারের কুফলে হাড়ের ক্ষয় ও স্নায়বিক দুর্বলতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Kali Iodatum",
+        "mid": "kali-iodatum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "mercury",
+      "bones",
+      "syphilitic"
+    ],
+    "explanation": "Aurum পারদের কুফলে কার্যকর।"
+  },
+  {
+    "id": "aurum-sym-05",
+    "stem": "নাকের হাড়ে পচন, দুর্গন্ধযুক্ত পুঁজযুক্ত স্রাব, ওজেনা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "nose",
+      "ozena",
+      "caries"
+    ],
+    "explanation": "Aurum-এ নাকের হাড়ে পচন ও দুর্গন্ধযুক্ত ওজেনা থাকে।"
+  },
+  {
+    "id": "calcphos-sym-01",
+    "stem": "হাড় নরম, বাঁকা হয়ে যাওয়া ও ভাঙা হাড় জোড়া না লাগা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "bones",
+      "fracture"
+    ],
+    "explanation": "Calcarea Phosphorica এ হাড় নরম ও বাঁকা হয়ে যায় এবং ভাঙা হাড় জোড়া লাগতে চায় না।"
+  },
+  {
+    "id": "calc-fluor-sym-03",
+    "stem": "হাড়ের ওপর নতুন হাড় গজানো বা হাড়ের অস্বাভাবিক বৃদ্ধি (Exostosis) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "bones",
+      "exostosis",
+      "bone-spurs"
+    ],
+    "explanation": "Calcarea Fluorica-এ হাড়ের ওপর নতুন হাড় গজানো (Exostosis) বা হাড়ের অস্বাভাবিক বৃদ্ধি এবং হাড়ের উপরিভাগ অমসৃণ হয়ে যাওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "calc-fluor-sym-04",
+    "stem": "দাঁতের এনামেল নষ্ট হয়ে যাওয়া, দাঁত আলগা হয়ে যাওয়া বা দাঁতে গর্ত হওয়ার প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "teeth",
+      "enamel",
+      "dental-caries"
+    ],
+    "explanation": "Calcarea Fluorica-এ দাঁতের এনামেল নষ্ট হয়ে যাওয়া, দাঁত আলগা হয়ে যাওয়া বা দাঁতে গর্ত হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "calc-fluor-sym-09",
+    "stem": "পিঠের বা কোমরের হাড়ের বৃদ্ধি (Spinal exostosis) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "spine",
+      "bones",
+      "exostosis"
+    ],
+    "explanation": "Calcarea Fluorica-এ পিঠের বা কোমরের হাড়ের বৃদ্ধি (Spinal exostosis) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "ipecac-sym-19",
+    "stem": "জ্বরে ঘাড়, পিঠ, হাতে প্রচণ্ড ব্যথা এবং সারা শরীরে থ্যাতলানো ব্যথা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Eupatorium Perfoliatum",
+        "mid": "eupatorium-perfoliatum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "fever",
+      "body-ache",
+      "bone-pain"
+    ],
+    "explanation": "Ipecac-এ জ্বরে ঘাড়, পিঠ, হাতে প্রচণ্ড ব্যথা এবং সারা শরীরে থ্যাতলানো ব্যথা হয়।"
+  },
+  {
+    "id": "mez-sym-05",
+    "stem": "দীর্ঘ হাড়ে রাতের ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "bones",
+      "night"
+    ],
+    "explanation": "Nightly long-bone pains are characteristic of Mezereum."
+  },
+  {
+    "id": "mez-sym-06",
+    "stem": "হাড়ের ব্যথা উপর থেকে নিচে নামে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "bone-pain",
+      "direction"
+    ],
+    "explanation": "Downward extension of bone pains indicates Mezereum."
+  },
+  {
+    "id": "mez-sym-18",
+    "stem": "স্যাঁতসেঁতে আবহাওয়ায় হাড়ের ব্যথা বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "bones",
+      "damp-weather"
+    ],
+    "explanation": "Damp weather aggravates Mezereum bone pains."
+  },
+  {
+    "id": "mez-sym-19",
+    "stem": "রাতে বিছানায় হাড় ও periosteum-এর ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "bone-pain",
+      "night"
+    ],
+    "explanation": "Night periosteal pains are a classic Mezereum symptom."
+  },
+  {
+    "id": "phy-sym-09",
+    "stem": "হাড়ের আবরক ঝিল্লিতে (Periosteum) রাতে এবং সেঁতসেঁতে আবহাওয়ায় তীব্র বাতের ব্যথা হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Asafoetida",
+        "mid": "asafoetida"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Kali Iod",
+        "mid": "kali-iod"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "bones",
+      "periosteum",
+      "rheumatism"
+    ],
+    "explanation": "Phytolacca পেরিঅস্টিয়াম বা অস্থিবেষ্টের প্রদাহ ও পচনশীল বাতের ব্যথায় অনন্য।"
+  },
+  {
+    "id": "ruta-sym-01",
+    "stem": "হাড়ের আবরক ঝিল্লি (পেরিওস্টিয়াম) ও টেনডনের ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum-officinale"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "bone",
+      "tendon",
+      "pain"
+    ],
+    "explanation": "Ruta প্রধানত হাড়, পেরিওস্টিয়াম ও টেনডনের ব্যথায় ব্যবহৃত হয়।"
+  },
+  {
+    "id": "ruta-sym-06",
+    "stem": "হাড়ের আবরণে আঘাত, মনে হয় হাড় থেঁতলে গেছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum-officinale"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum-perforatum"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "bone",
+      "periosteum",
+      "injury"
+    ],
+    "explanation": "Ruta-এ হাড়ের ওপরের পাতলা আবরণে (Periosteum) আঘাত লাগলে বা ব্যথা হলে মনে হয় হাড়টি থেঁতলে গেছে।"
+  },
+  {
+    "id": "ruta-sym-14",
+    "stem": "কোমরে প্রচণ্ড ব্যথা, যেন হাড় ভেঙে গেছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "back-pain",
+      "bone"
+    ],
+    "explanation": "Ruta-এ কোমরে প্রচণ্ড ব্যথা হয় যেন হাড় ভেঙে গেছে; রোগী পিঠের ওপর ভর দিয়ে শুলে আরাম পায়।"
+  },
+  {
+    "id": "ruta-sym-18",
+    "stem": "হাঁটুর নিচের শিন বোনে আঘাত লাগলে কার্যকর — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum-officinale"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum-perforatum"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "bone",
+      "injury",
+      "shin"
+    ],
+    "explanation": "Ruta হাঁটুর নিচের দিকের হাড়ের (Shin bone) ওপর আঘাত লাগলে মহৌষধ।"
+  },
+  {
+    "id": "phosphorus-sym-19",
+    "stem": "চোয়ালের হাড়ের ক্ষয়, হাড়ের আবরক ঝিল্লির প্রদাহ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "bone",
+      "jaw",
+      "necrosis"
+    ],
+    "explanation": "Phosphorus এ চোয়ালের হাড়ের ক্ষয় হয়, হাড়ের আবরক ঝিল্লির প্রদাহ হয়।"
+  },
+  {
+    "id": "sil-sym-08",
+    "stem": "হাড়ের ক্ষয় (Caries) এবং গ্ল্যান্ড ফুলে শক্ত হয়ে যাওয়া বা পেকে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "bones",
+      "caries",
+      "glands",
+      "suppuration"
+    ],
+    "explanation": "Silicea হাড়ের ক্ষয় এবং গ্ল্যান্ড ফুলে শক্ত হয়ে যাওয়া বা পেকে যাওয়ার ক্ষেত্রে প্রধান ঔষধ।"
+  },
+  {
+    "id": "sil-sym-10",
+    "stem": "শিশুদের রিকেট; শিশুরা দেরিতে হাঁটতে শেখে এবং মাথার খুলির হাড় ঠিকমতো জোড়া লাগে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "children",
+      "rickets",
+      "delayed-walking",
+      "cranial-sutures"
+    ],
+    "explanation": "Silicea শিশুদের রিকেটে কার্যকর; শিশুরা দেরিতে হাঁটতে শেখে, মাথার খুলির হাড় ঠিকমতো জোড়া লাগে না এবং শরীর শীর্ণ হয়ে যায়।"
+  },
+  {
+    "id": "syphilinum-sym-18",
+    "stem": "অস্থির ক্ষয়, হাড়ের বিশেষ করে নাকের বা তালুর হাড়ের ক্ষয়, পচনশীল ক্ষত, মাথার খুলিতে প্রচণ্ড যন্ত্রণা, মনে হয় মাথার হাড় ফেটে যাবে, দীর্ঘস্থায়ী চোখের প্রদাহ, রাতে চোখের যন্ত্রণা বৃদ্ধি, জিহ্বা ফাটা ফাটা, তাতে দাঁতের ছাপ থাকে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Asafoetida",
+        "mid": "asafoetida"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "bone",
+      "caries",
+      "skull",
+      "eye",
+      "tongue"
+    ],
+    "explanation": "Syphilinum এ অস্থির ক্ষয় হয়, নাকের বা তালুর হাড়ের ক্ষয় ও পচনশীল ক্ষত হয়, মাথার খুলিতে প্রচণ্ড যন্ত্রণা হয়, দীর্ঘস্থায়ী চোখের প্রদাহ ও রাতে চোখের যন্ত্রণা বৃদ্ধি হয়, জিহ্বা ফাটা ফাটা হয় ও তাতে দাঁতের ছাপ থাকে।"
+  }
+]
