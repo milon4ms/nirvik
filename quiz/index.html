@@ -52,10 +52,10 @@ a{text-decoration:none}
 .progress-bar-bg{width:100%;height:8px;background:#e2e8f0;border-radius:999px;overflow:hidden;margin:6px 0 4px}
 .progress-bar-fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--secondary));border-radius:999px}
 .progress-text{font-size:.82rem;color:var(--muted)}
-.cert-line{margin-top:10px;padding-top:10px;border-top:1px dashed #e2e8f0;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.cert-card .cert-line{margin-top:0;padding-top:0;border-top:none} .cert-line{margin-top:10px;padding-top:10px;border-top:1px dashed #e2e8f0;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 .cert-line p{font-size:.82rem;color:#856404}
 .cert-line b{color:#92400e}
-.btn-cert{background:var(--primary);color:#fff;padding:6px 12px;border-radius:999px;font-weight:700;font-size:.80rem;white-space:nowrap;text-align:center;width:100%}
+.btn-cert{background:var(--primary);color:#fff;padding:7px 14px;border-radius:999px;font-weight:700;font-size:.85rem;white-space:nowrap}
 .btn-cert.disabled{background:#cbd5e1;pointer-events:none}
 @media (max-width:760px){.dashboard-wrapper{grid-template-columns:1fr}.right-column{position:static}}
 /* Right */
@@ -141,6 +141,13 @@ body.dark .ring::before{background:#1e293b}
 <a href="https://nirvik.mooo.com/contact.html" style="background:#fff;color:#065f46;border:1px solid #059669;padding:6px 11px;border-radius:999px;font-weight:700;font-size:.80rem;white-space:nowrap">যোগাযোগ</a>
 </div>
 </div>
+<div class="card cert-card">
+<div class="cert-line">
+<p><b>🏆 সার্টিফিকেট:</b> <span id="certDesc">কমপক্ষে ৫০টি রোগলক্ষণ ভিত্তিক কুইজে অংশ নিয়ে সবগুলি কুইজ শেষ করতে হবে।</span></p>
+<a href="certificate.html" id="cert-btn" class="btn-cert disabled">🔒 লকড</a>
+</div>
+<div class="mini-progress" style="margin-top:8px"><div id="certBar" style="width:0%"></div></div>
+</div>
 </div>
 
 <div class="right-column">
@@ -163,11 +170,7 @@ body.dark .ring::before{background:#1e293b}
 <div class="progress-text" id="progress-text">লোড হচ্ছে...</div>
 </div>
 </div>
-<div class="cert-line">
-<p><b>🏆 সার্টিফিকেট:</b> <span id="certDesc">কমপক্ষে ৫০টি রোগলক্ষণ ভিত্তিক কুইজে অংশ নিয়ে সবগুলি কুইজ শেষ করতে হবে।</span></p>
-<a href="certificate.html" id="cert-btn" class="btn-cert disabled">🔒 লকড</a>
-</div>
-<div class="mini-progress" style="margin-top:8px"><div id="certBar" style="width:0%"></div></div>
+
 </div>
 <div class="tip-box">
 <h4>💡 আজকের টিপস</h4>
