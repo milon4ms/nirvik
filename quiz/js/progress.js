@@ -70,7 +70,7 @@ export async function getUserProgress() {
 // সার্টিফিকেটের বিস্তারিত অবস্থা: কতটা পাস, মোট কত, যোগ্য কিনা
 export async function getCertificateStatus() {
     const user = auth.currentUser;
-    if (!user) return { eligible: false, passed: 0, total: 85 };
+    if (!user) return { eligible: false, passed: 0, total: 85, percent: 0, totalCorrect: 0, totalQuestions: 0 };
 
     try {
         // FIX: ৮৫ বার আলাদা getDoc না করে একবারে সব প্রগ্রেস এনে গোনা
@@ -78,11 +78,17 @@ export async function getCertificateStatus() {
         //      index.html-ও একইভাবে 'sym:' দিয়ে শুরু হওয়া key গুনে, তাই এখানেও তাই
         const progress = await getUserProgress();
         let passed = 0;
+        let totalCorrect = 0;
+        let totalQuestions = 0;
         for (const [key, p] of Object.entries(progress || {})) {
             if (!key.startsWith('sym:') || !p) continue;
             const pct = p.bestPct ?? p.lastPct ?? 0;
             if (pct >= 40) passed++;
+            // পার্সেন্টেজের জন্য: সেরা ফলাফলের সঠিক উত্তর / মোট প্রশ্ন যোগ করা
+            totalCorrect += (p.bestCorrect ?? p.lastCorrect ?? 0);
+            totalQuestions += (p.total || 0);
         }
+        const percent = totalQuestions > 0 ? Math.round(totalCorrect / totalQuestions * 100) : 0;
 
         // মোট ট্যাগ সংখ্যা দেখানোর জন্য (না পেলে ৮৫ ধরা)
         let total = 85;
@@ -95,10 +101,10 @@ export async function getCertificateStatus() {
         } catch (_) { /* index.json না পেলেও passed গোনা ঠিক থাকবে */ }
 
         // FIX: আগে ছিল passed === total (সব ৮৫টি) — এখন index.html-এর মতো >= 50
-        return { eligible: passed >= 50, passed, total };
+        return { eligible: passed >= 50, passed, total, percent, totalCorrect, totalQuestions };
     } catch (e) {
         console.error('Certificate status error:', e);
-        return { eligible: false, passed: 0, total: 85, error: true };
+        return { eligible: false, passed: 0, total: 85, percent: 0, totalCorrect: 0, totalQuestions: 0, error: true };
     }
 }
 
