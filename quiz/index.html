@@ -17,9 +17,7 @@ a{text-decoration:none}
 .nav-link{color:var(--text);font-weight:600;font-size:.92rem;padding:6px 10px;border-radius:8px}
 .nav-link:hover{background:#eef2ff;color:var(--primary)}
 .nav-link.active{background:var(--primary);color:#fff}
-.user-area{margin-left:auto;display:flex;align-items:center;gap:8px}
-.user-chip{display:flex;align-items:center;gap:8px;background:#eef2ff;border-radius:999px;padding:4px 10px 4px 4px;font-weight:700;font-size:.88rem}
-.user-chip img,.user-avatar{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--primary2));color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;object-fit:cover}
+.user-avatar{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--primary2));color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;object-fit:cover}
 .btn-login{background:var(--primary);color:#fff;padding:7px 14px;border-radius:999px;font-weight:700;font-size:.9rem;border:none;cursor:pointer}
 .btn-logout{background:#f1f5f9;border:none;padding:6px 10px;border-radius:999px;font-size:.82rem;cursor:pointer;font-weight:600}
 /* Banner - প্রস্থ কমানো */
@@ -57,12 +55,12 @@ a{text-decoration:none}
 .cert-line{margin-top:10px;padding-top:10px;border-top:1px dashed #e2e8f0;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 .cert-line p{font-size:.82rem;color:#856404}
 .cert-line b{color:#92400e}
-.btn-cert{background:var(--primary);color:#fff;padding:7px 14px;border-radius:999px;font-weight:700;font-size:.85rem;white-space:nowrap}
+.btn-cert{background:var(--primary);color:#fff;padding:6px 12px;border-radius:999px;font-weight:700;font-size:.80rem;white-space:nowrap;text-align:center;width:100%}
 .btn-cert.disabled{background:#cbd5e1;pointer-events:none}
 @media (max-width:760px){.dashboard-wrapper{grid-template-columns:1fr}.right-column{position:static}}
 /* Right */
 .right-column{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);padding:14px;position:sticky;top:62px}
-.user-box{display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:1px solid #f1f5f9;margin-bottom:10px}
+.user-box{display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:1px solid #f1f5f9;margin-bottom:10px} .user-box .user-info{flex:1;min-width:0} .btn-login-small{background:var(--primary);color:#fff;padding:5px 11px;border-radius:999px;font-weight:700;font-size:.78rem;white-space:nowrap} .btn-logout-small{background:#f1f5f9;border:none;padding:5px 10px;border-radius:999px;font-size:.76rem;cursor:pointer;font-weight:600;white-space:nowrap}
 .user-box .name{font-weight:700;font-size:.95rem;line-height:1.2}
 .user-box .email{font-size:.78rem;color:var(--muted);max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .recent-title{font-size:.95rem;margin-bottom:8px;display:flex;gap:7px;align-items:center}
@@ -98,12 +96,7 @@ body.dark .ring::before{background:#1e293b}
 <a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link active">কুইজ</a>
 <a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">রোগলক্ষণ ভিত্তিক কুইজ</a>
 <a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link">ঔষধ ভিত্তিক কুইজ</a>
-<a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">মেটেরিয়া মেডিকা</a>
-<div class="user-area" id="userArea">
-<a href="https://nirvik.mooo.com/" class="btn-login" id="headerLoginBtn">লগইন</a>
-</div>
-</div>
-</header>
+<a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">মেটেরিয়া মেডিকা</a></div></header>
 
 <div class="hero">
 <div class="hero-card">
@@ -138,7 +131,30 @@ body.dark .ring::before{background:#1e293b}
 <div class="mini-progress"><div id="medBar" style="width:0%"></div></div>
 </a>
 </div>
-<div class="card">
+<div style="margin-top:12px;background:linear-gradient(135deg,#ecfdf5 0%,#eff6ff 100%);border:1px solid #a7f3d0;border-radius:12px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap">
+<div>
+<div style="font-weight:800;font-size:.88rem;color:#065f46">✨ কেসটেকিং রোগী লিপী ও মেডিসিন সিলেক্ট</div>
+<div style="font-size:.80rem;color:#065f46;margin-top:2px">মাত্র কয়েক ক্লিকে করুন — রোগীর লক্ষণ থেকে ঔষধ বাছাই এখন আরও সহজ।</div>
+</div>
+<div style="display:flex;gap:8px;flex-wrap:wrap">
+<a href="https://nirvik.mooo.com/select.html" style="background:#059669;color:#fff;padding:6px 11px;border-radius:999px;font-weight:700;font-size:.80rem;white-space:nowrap;box-shadow:0 3px 10px rgba(5,150,105,.3)">এখনই চেষ্টা করুন →</a>
+<a href="https://nirvik.mooo.com/contact.html" style="background:#fff;color:#065f46;border:1px solid #059669;padding:6px 11px;border-radius:999px;font-weight:700;font-size:.80rem;white-space:nowrap">যোগাযোগ</a>
+</div>
+</div>
+</div>
+
+<div class="right-column">
+<div class="user-box" id="rightUserBox">
+<div class="user-avatar" id="rightAvatar">👤</div>
+<div class="user-info">
+<div class="name" id="rightUserName"><a href="https://nirvik.mooo.com/" style="color:inherit">লগইন করুন</a></div>
+<div class="email" id="rightUserEmail">লগইন করলে রেকর্ড দেখাবে</div>
+</div>
+<div id="rightUserAction"><a href="https://nirvik.mooo.com/" class="btn-login-small">লগইন</a></div>
+</div>
+<h3 class="recent-title"><i class="fa-solid fa-clock-rotate-left" style="color:var(--primary)"></i> সাম্প্রতিক রেকর্ড</h3>
+<ul id="recent-history" class="recent-list"><li style="color:var(--muted);text-align:center;padding:10px;font-size:.85rem">রেকর্ড লোড হচ্ছে...</li></ul>
+<div class="card progress-card">
 <div class="progress-row">
 <div class="ring" id="ring"><b id="ringPct">০%</b></div>
 <div class="progress-info">
@@ -153,28 +169,6 @@ body.dark .ring::before{background:#1e293b}
 </div>
 <div class="mini-progress" style="margin-top:8px"><div id="certBar" style="width:0%"></div></div>
 </div>
-<div style="margin-top:12px;background:linear-gradient(135deg,#ecfdf5 0%,#eff6ff 100%);border:1px solid #a7f3d0;border-radius:12px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
-<div>
-<div style="font-weight:800;font-size:.95rem;color:#065f46">✨ কেসটেকিং রোগী লিপী ও মেডিসিন সিলেক্ট</div>
-<div style="font-size:.85rem;color:#065f46;margin-top:2px">মাত্র কয়েক ক্লিকে করুন — রোগীর লক্ষণ থেকে ঔষধ বাছাই এখন আরও সহজ।</div>
-</div>
-<div style="display:flex;gap:8px;flex-wrap:wrap">
-<a href="https://nirvik.mooo.com/select.html" style="background:#059669;color:#fff;padding:9px 16px;border-radius:999px;font-weight:800;font-size:.88rem;white-space:nowrap;box-shadow:0 4px 14px rgba(5,150,105,.3)">এখনই চেষ্টা করুন →</a>
-<a href="https://nirvik.mooo.com/contact.html" style="background:#fff;color:#065f46;border:1px solid #059669;padding:9px 16px;border-radius:999px;font-weight:800;font-size:.88rem;white-space:nowrap">যোগাযোগ</a>
-</div>
-</div>
-</div>
-
-<div class="right-column">
-<div class="user-box" id="rightUserBox">
-<div class="user-avatar" id="rightAvatar">👤</div>
-<div>
-<div class="name" id="rightUserName">গেস্ট ইউজার</div>
-<div class="email" id="rightUserEmail">লগইন করলে আপনার রেকর্ড এখানে দেখাবে</div>
-</div>
-</div>
-<h3 class="recent-title"><i class="fa-solid fa-clock-rotate-left" style="color:var(--primary)"></i> সাম্প্রতিক রেকর্ড</h3>
-<ul id="recent-history" class="recent-list"><li style="color:var(--muted);text-align:center;padding:10px;font-size:.85rem">রেকর্ড লোড হচ্ছে...</li></ul>
 <div class="tip-box">
 <h4>💡 আজকের টিপস</h4>
 <p id="tipText">একই ঔষধের লক্ষণ বারবার ভুল হলে, সেই ঔষধের মেটেরিয়া মেডিকা পেজটা একবার পড়ে তারপর আবার কুইজ দিন।</p>
@@ -911,29 +905,7 @@ document.addEventListener('click',(e)=>{const a=e.target.closest('a[href*="play.
 document.getElementById('closeLogin').onclick = ()=>{ document.getElementById('loginBanner').style.display='none'; };
 // Auth + Dashboard
 let currentUser = null;
-function renderUser(user){
-const userArea=document.getElementById('userArea');
-const banner=document.getElementById('loginBanner');
-if(user){
-currentUser=user;
-const name=user.displayName || user.name || (user.email?user.email.split('@')[0]:'ইউজার');
-const email=user.email||'';
-const photo=user.photoURL || user.photo || '';
-const initial=name.charAt(0).toUpperCase();
-userArea.innerHTML='<div class="user-chip">'+(photo?'<img src="'+photo+'" alt="">':'<span class="user-avatar" style="width:24px;height:24px;font-size:.8rem">'+initial+'</span>')+'<span>'+name+'</span><button class="btn-logout" id="logoutBtn">লগআউট</button></div>';
-document.getElementById('rightAvatar').innerHTML=photo?'<img src="'+photo+'" style="width:100%;height:100%;border-radius:50%;object-fit:cover">':initial;
-document.getElementById('rightUserName').innerText=name;
-document.getElementById('rightUserEmail').innerText=email || 'লগইন অবস্থায় আছেন';
-banner.style.display='none';
-const lb=document.getElementById('logoutBtn');
-if(lb) lb.onclick=async()=>{ try{ if(logoutUser) await logoutUser(); }catch(e){} localStorage.removeItem('nirvik-user'); location.reload(); };
-}else{
-userArea.innerHTML='<a href="https://nirvik.mooo.com/" class="btn-login">লগইন</a>';
-document.getElementById('rightUserName').innerText='গেস্ট ইউজার';
-document.getElementById('rightUserEmail').innerText='লগইন করলে আপনার রেকর্ড এখানে দেখাবে';
-banner.style.display='flex';
-}
-}
+function renderUser(user){ const banner=document.getElementById('loginBanner'); if(user){ currentUser=user; const name=user.displayName || user.name || (user.email?user.email.split('@')[0]:'ইউজার'); const email=user.email||''; const photo=user.photoURL || user.photo || ''; const initial=name.charAt(0).toUpperCase(); document.getElementById('rightAvatar').innerHTML=photo?'<img src="'+photo+'" style="width:100%;height:100%;border-radius:50%;object-fit:cover">':initial; document.getElementById('rightUserName').innerText=name; document.getElementById('rightUserEmail').innerText=email || 'লগইন অবস্থায় আছেন'; document.getElementById('rightUserAction').innerHTML='<button class="btn-logout-small" id="logoutBtn">লগআউট</button>'; banner.style.display='none'; const lb=document.getElementById('logoutBtn'); if(lb) lb.onclick=async()=>{ try{ if(logoutUser) await logoutUser(); }catch(e){} localStorage.removeItem('nirvik-user'); location.reload(); }; }else{ document.getElementById('rightAvatar').innerHTML='👤'; document.getElementById('rightUserName').innerHTML='<a href="https://nirvik.mooo.com/" style="color:inherit">লগইন করুন</a>'; document.getElementById('rightUserEmail').innerText='লগইন করলে রেকর্ড দেখাবে'; document.getElementById('rightUserAction').innerHTML='<a href="https://nirvik.mooo.com/" class="btn-login-small">লগইন</a>'; banner.style.display='flex'; } }
 async function loadDashboard(){
 let totalSymptoms=Object.keys(TAG_MAP).length;
 let totalMedicines=MED_LIST.length;
