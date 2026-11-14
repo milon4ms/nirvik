@@ -101,7 +101,7 @@ body.dark .ring::before{background:#1e293b}
 <div class="hero">
 <div class="hero-card">
 <h1>কুইজে কুইজে মেটেরিয়া মেডিকা শিখি।</h1>
-<p>৮৫টি রোগলক্ষণ ট্যাগ + ১১৭ টি ঔষধভিত্তিক কুইজ ট্যাগ।</p>
+<p>৮৫টি রোগলক্ষণ ট্যাগ + ১১৭ টিঔষধ ভিত্তিক কুইজ </p>
 
 </div>
 </div>
@@ -143,9 +143,11 @@ body.dark .ring::before{background:#1e293b}
 </div>
 <div class="card cert-card">
 <div class="cert-line">
-<p><b>🏆 সার্টিফিকেট:</b> <span id="certDesc">কমপক্ষে ৫০টি রোগলক্ষণ ভিত্তিক কুইজে অংশ নিয়ে সবগুলি কুইজ শেষ করতে হবে।</span></p>
+<p><b>🏆 সার্টিফিকেট:</b> <span id="certDesc">৫০টি রোগলক্ষণ কুইজে ৪০%+ স্কোর করতে হবে।</span></p>
 <a href="certificate.html" id="cert-btn" class="btn-cert disabled">🔒 লকড</a>
 </div>
+<div id="certPercent" style="font-size:.82rem;color:#4361ee;font-weight:700;margin-top:6px"></div>
+<div style="font-size:.75rem;color:#64748b;line-height:1.6;margin-top:6px">এটি একাডেমিক সনদ নয়, শুধু অনলাইন অনুশীলনের স্বীকৃতি।</div>
 <div class="mini-progress" style="margin-top:8px"><div id="certBar" style="width:0%"></div></div>
 </div>
 </div>
@@ -923,14 +925,14 @@ let progress={};
 try{
 const mod=await import('./js/progress.js');
 if(mod.getUserProgress){ progress=await mod.getUserProgress()||{}; }
-}catch(e){ try{const raw=localStorage.getItem('nirvik-progress'); if(raw) progress=JSON.parse(raw);}catch(_){} }
+}catch(e){ try{const raw=localStorage.getItem('guestProgress'); if(raw) progress=JSON.parse(raw);}catch(_){} }
 const keys=Object.keys(progress);
-let passedSym=0, passedMed=0, symAttempted=0, history=[], best=0, sumPct=0, cntPct=0;
+let passedSym=0, passedMed=0, symAttempted=0, history=[], best=0, sumPct=0, cntPct=0, certCorrect=0, certTotal=0;
 keys.forEach(key=>{
 const p=progress[key]; if(!p) return;
 const parts=key.split(':'); const type=parts[0]; const id=parts[1]||key;
 const pct=p.bestPct??p.lastPct??0; const total=p.total||0; const correct=p.lastCorrect??p.bestCorrect??0;
-if(type==='sym') symAttempted++;
+if(type==='sym'){ symAttempted++; certCorrect += (p.bestCorrect ?? p.lastCorrect ?? 0); certTotal += (p.total || 0); }
 if(pct>=40){ if(type==='sym') passedSym++; if(type==='med') passedMed++; }
 if(pct>best) best=pct; sumPct+=pct; cntPct++;
 history.push({type,id,score:correct,total,pct,date:p.lastPlayed});
@@ -947,12 +949,13 @@ document.getElementById('medDonePill').innerText=passedMed+'টি সম্প�
 document.getElementById('medTotalPill').innerText=totalMedicines+'টি ঔষধ';
 document.getElementById('symBar').style.width=(totalSymptoms?passedSym/totalSymptoms*100:0)+'%';
 document.getElementById('medBar').style.width=(totalMedicines?passedMed/totalMedicines*100:0)+'%';
-// Certificate - NEW RULE: at least 50 sym participated AND finished all
+// Certificate - নিয়ম: ৫০টি রোগলক্ষণ কুইজে ৪০%+ (certificate.html-এর সাথে মিলিয়ে)
 const certBtn=document.getElementById('cert-btn');
 const certBar=document.getElementById('certBar');
 const certPct=Math.min(100, Math.round(passedSym/50*100));
 certBar.style.width=certPct+'%';
-document.getElementById('certDesc').innerText='কমপক্ষে ৫০টি রোগলক্ষণ ভিত্তিক কুইজে অংশ নিয়ে সবগুলি কুইজ শেষ করতে হবে। আপনার: '+passedSym+'/৫০';
+document.getElementById('certDesc').innerText='৫০টি রোগলক্ষণ কুইজে ৪০%+ স্কোর করতে হবে। আপনার: '+passedSym+'/৫০';
+const certAccPct=certTotal>0?Math.round(certCorrect/certTotal*100):0; const certPctEl=document.getElementById('certPercent'); if(certPctEl){ certPctEl.innerText=certTotal>0?('সঠিক উত্তরের হার: '+certAccPct+'% (মোট '+certTotal+'টি প্রশ্নের মধ্যে '+certCorrect+'টি সঠিক)'):''; }
 if(passedSym>=50 && symAttempted>=50){
 certBtn.classList.remove('disabled'); certBtn.innerHTML='🏆 সার্টিফিকেট';
 }else{
