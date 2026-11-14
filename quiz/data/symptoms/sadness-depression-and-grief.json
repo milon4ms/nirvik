@@ -1,0 +1,1513 @@
+[
+  {
+    "id": "apis-sym-08",
+    "stem": "একঘেয়ে কান্না বা বিমর্ষ ভাব; কোনো কারণ ছাড়াই কান্নাকাটি করা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "mental",
+      "weeping",
+      "depression"
+    ],
+    "explanation": "Apis Mellifica-এ একঘেয়ে কান্না বা বিমর্ষ ভাব; কোনো কারণ ছাড়াই কান্নাকাটি করা একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "apis-sym-16",
+    "stem": "পেট ফুলে যায় গ্যাসে এবং শিশু প্রস্রাবের পূর্বে কাঁদে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "abdomen",
+      "gas",
+      "children",
+      "crying-before-urination"
+    ],
+    "explanation": "Apis Mellifica-এ পেট ফুলে যায় গ্যাসে এবং শিশু প্রস্রাবের পূর্বে কাঁদে।"
+  },
+  {
+    "id": "argm-sym-04",
+    "stem": "মানসিক অবসাদ এবং বিষণ্ণতা, কোনো কাজ করতে ইচ্ছা না করা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "mental",
+      "depression"
+    ],
+    "explanation": "Argentum Metallicum-এ মানসিক অবসাদ দেখা দেয়।"
+  },
+  {
+    "id": "arnica-mont-sym-06",
+    "stem": "রোগী খুব বিষণ্ণ থাকে এবং একা থাকতে চায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "mental",
+      "depression",
+      "desire-for-solitude"
+    ],
+    "explanation": "Arnica Montana-এর মানসিক লক্ষণে রোগী খুব বিষণ্ণ থাকে এবং একা থাকতে চায়।"
+  },
+  {
+    "id": "aurum-sym-01",
+    "stem": "গভীর বিষণ্ণতা, জীবনে বিতৃষ্ণা, আত্মহত্যার ইচ্ছা, উঁচু থেকে লাফ দিতে চায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "mind",
+      "depression",
+      "suicidal"
+    ],
+    "explanation": "Aurum-এর প্রধান লক্ষণ গভীর বিষণ্ণতা ও আত্মহত্যার প্রবণতা।"
+  },
+  {
+    "id": "aurum-sym-07",
+    "stem": "ধর্মীয় বিষণ্ণতা, মনে করে অনেক বড় পাপ করেছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "mind",
+      "religious",
+      "melancholy"
+    ],
+    "explanation": "Aurum-এ ধর্মীয় বিষণ্ণতা ও পাপবোধ থাকে।"
+  },
+  {
+    "id": "aurum-sym-13",
+    "stem": "ঘুমে জোরে কেঁদে ওঠে, চোর ডাকাতের স্বপ্ন দেখে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "sleep",
+      "dreams",
+      "crying"
+    ],
+    "explanation": "Aurum-এ ঘুমে কেঁদে ওঠা ও চোর ডাকাতের স্বপ্ন থাকে।"
+  },
+  {
+    "id": "bac-sym-10",
+    "stem": "বিষণ্ণ, খিটখিটে ও হতাশ প্রকৃতির মন, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "mind",
+      "depression",
+      "irritability"
+    ],
+    "explanation": "Bacillinum রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং হতাশ প্রকৃতির হয়।"
+  },
+  {
+    "id": "calen-sym-16",
+    "stem": "মানসিক অবসাদ ও দুশ্চিন্তা, বিশেষ করে আঘাতের পর — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum-perforatum"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "mind",
+      "depression",
+      "anxiety",
+      "injury"
+    ],
+    "explanation": "Calendula-তে আঘাতের পর অবসাদ ও দুশ্চিন্তা থাকে।"
+  },
+  {
+    "id": "caps-sym-07",
+    "stem": "বাড়ির কথা ভেবে বিষণ্ণতা ও রাতে ঘুমাতে না পারা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "mind",
+      "depression",
+      "sleeplessness"
+    ],
+    "explanation": "Capsicum Annuum রোগী বাড়ির কথা ভেবে বিষণ্ণতায় ভোগে এবং রাতে ঘুমাতে পারে না।"
+  },
+  {
+    "id": "causticum-sym-03",
+    "stem": "বহুদিন স্থায়ী দুঃখ ভোগে হওয়া রোগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "grief",
+      "ailments-from"
+    ],
+    "explanation": "Causticum বহুদিন স্থায়ী দুঃখ ভোগে হওয়া রোগের ক্ষেত্রে উপযোগী।"
+  },
+  {
+    "id": "causticum-sym-08",
+    "stem": "বিষন্নতা, নৈরাশ্য ও আশঙ্কা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Aurum Met",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "depression",
+      "mental"
+    ],
+    "explanation": "Causticum-এ বিষন্নতা, নৈরাশ্য ও আশঙ্কা দেখা যায়।"
+  },
+  {
+    "id": "chel-sym-10",
+    "stem": "রোগী মানসিকভাবে অত্যন্ত অবসাদগ্রস্ত এবং বিমর্ষ থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "mental",
+      "depression",
+      "despondency"
+    ],
+    "explanation": "Chelidonium Majus-এ রোগী মানসিকভাবে অত্যন্ত অবসাদগ্রস্ত এবং বিমর্ষ থাকে।"
+  },
+  {
+    "id": "china-sym-09",
+    "stem": "বিষণ্ণ, খিটখিটে ও উদাসীন মন, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "mind",
+      "depression",
+      "irritability"
+    ],
+    "explanation": "China রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং উদাসীন থাকে।"
+  },
+  {
+    "id": "cimicifuga-sym-04",
+    "stem": "অত্যন্ত বিমর্ষ, সন্দেহযুক্ত ও বিপদের ভয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "mental",
+      "depression",
+      "suspicion"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ রোগী অত্যন্ত বিমর্ষ, সন্দেহযুক্ত এবং বিপদের ভয় করে।"
+  },
+  {
+    "id": "cimicifuga-sym-16",
+    "stem": "সারাক্ষণ কান্নাকাটি ও পাগল হয়ে যাওয়ার ভয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "mental",
+      "weeping",
+      "fear-insanity"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ রোগী অত্যন্ত বিষণ্ণ থাকে, সারাক্ষণ কান্নাকাটি করে এবং মনে করে সে পাগল হয়ে যাবে।"
+  },
+  {
+    "id": "clem-sym-20",
+    "stem": "অনবরত বিষণ্ণতা বোধ করা এবং একাকী নিরিবিলিতে থাকতে পছন্দ করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Aurum Met",
+        "mid": "aurum-met"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "mental",
+      "depression",
+      "solitude"
+    ],
+    "explanation": "Clematis Erecta-এ মানসিক বিষন্নতার ঝোঁক থাকে এবং একাকী সময় কাটানোর মানসিক স্পৃহা তৈরি হয়।"
+  },
+  {
+    "id": "colch-sym-08",
+    "stem": "রোগী যন্ত্রণার কারণে অত্যন্ত খিটখিটে এবং বিরক্ত থাকে, সামান্য কারণেই কান্নাকাটি করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "mental",
+      "irritability",
+      "tearful",
+      "pain"
+    ],
+    "explanation": "Colchicum-এ যন্ত্রণার কারণে রোগী অত্যন্ত খিটখিটে ও বিরক্ত থাকে এবং সামান্য কারণেই কান্নাকাটি করে।"
+  },
+  {
+    "id": "colocynthis-sym-13",
+    "stem": "মনের ভেতরে ক্ষোভ বা চাপা অপমানবোধ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "mind",
+      "mortification"
+    ],
+    "explanation": "Colocynthis এ মনের ভেতরে এক প্রকার ক্ষোভ বা চাপা অপমানবোধ রোগীকে শারীরিক ও মানসিকভাবে অস্থির করে তোলে।"
+  },
+  {
+    "id": "conium-sym-14",
+    "stem": "দীর্ঘস্থায়ী শোকের কুফল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "grief",
+      "bad-effects",
+      "chronic"
+    ],
+    "explanation": "Conium দীর্ঘস্থায়ী শোকের কুফলে কার্যকর।"
+  },
+  {
+    "id": "graph-sym-15",
+    "stem": "দুঃখিত, মৃত্যু নিয়ে চিন্তা করে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "mind",
+      "depression"
+    ],
+    "explanation": "Thinks of nothing but death is found in Graphites।"
+  },
+  {
+    "id": "hell-sym-06",
+    "stem": "এক প্রকার গভীর দুঃখবোধ যা থেকে রোগী নিস্তব্ধ হয়ে যায় এবং কোনো আনন্দদায়ক সংবাদেও সাড়া দেয় না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "mental",
+      "grief",
+      "silent",
+      "unresponsive"
+    ],
+    "explanation": "Helleborus Niger-এ এক প্রকার গভীর দুঃখবোধ থাকে যা থেকে রোগী নিস্তব্ধ হয়ে যায়; সে কোনো আনন্দদায়ক সংবাদেও সাড়া দেয় না।"
+  },
+  {
+    "id": "hepar-sym-14",
+    "stem": "মনে সবসময় অসন্তোষ ও বিরক্তি, সামান্য দুঃখের কথায় কেঁদে ফেলে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "mind",
+      "discontent",
+      "weeping"
+    ],
+    "explanation": "Hepar Sulph রোগীর মনে সবসময় অসন্তোষ ও বিরক্তি কাজ করে, সামান্য দুঃখের কথায় সে কেঁদে ফেলে।"
+  },
+  {
+    "id": "hyper-sym-16",
+    "stem": "বিমর্ষ ও হতাশ, প্রচণ্ড ব্যথায় ভুল বকা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "mind",
+      "melancholy",
+      "depression",
+      "delirium",
+      "pain"
+    ],
+    "explanation": "Hypericum রোগী বিমর্ষ ও ব্যথায় ভুল বকে।"
+  },
+  {
+    "id": "ign-sym-01",
+    "stem": "শোক, দুঃখ বা মানসিক আঘাতের পর রোগের সূত্রপাত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "grief",
+      "emotional-shock"
+    ],
+    "explanation": "Grief and disappointment-এর প্রধান ঔষধ Ignatia।"
+  },
+  {
+    "id": "ign-sym-06",
+    "stem": "একাকী কাঁদে, দুঃখ প্রকাশ করতে চায় না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "grief",
+      "mind"
+    ],
+    "explanation": "Silent grief Ignatia-এর কেন্দ্রীয় বৈশিষ্ট্য।"
+  },
+  {
+    "id": "ign-sym-09",
+    "stem": "গভীর মানসিক আঘাতের পর অনিদ্রা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Coffea",
+        "mid": "coffea"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "insomnia",
+      "grief"
+    ],
+    "explanation": "Insomnia from grief নির্দেশ করে Ignatia।"
+  },
+  {
+    "id": "lac-can-sym-04",
+    "stem": "নিজেকে নীচু ও অযোগ্য মনে করা, হতাশা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Aurum Met",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "mental",
+      "depression",
+      "worthless"
+    ],
+    "explanation": "Lac Caninum-এ রোগী নিজেকে নীচু, অযোগ্য ও ঘৃণ্য মনে করে এবং হতাশায় ভোগে।"
+  },
+  {
+    "id": "lac-can-sym-17",
+    "stem": "হতাশা ও কান্নার প্রবণতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "mental",
+      "depression",
+      "weeping"
+    ],
+    "explanation": "Lac Caninum-এ হতাশা ও কান্নার প্রবণতা দেখা যায়।"
+  },
+  {
+    "id": "magphos-sym-13",
+    "stem": "অসহ্য যন্ত্রণার কারণে সারাক্ষণ হতাশ ও বিলাপ করা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Aconitum Napellus",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "mind",
+      "despair",
+      "lamentation"
+    ],
+    "explanation": "Magnesia Phosphorica এ অসহ্য যন্ত্রণার কারণে রোগী সারাক্ষণ হতাশ ও বিলাপ করতে থাকে।"
+  },
+  {
+    "id": "medorrhinum-sym-20",
+    "stem": "উদ্বেগ ও বিষণ্ণতা, মনে হয় কোনো অমঙ্গল ঘটবে বা বড় অপরাধ করেছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "mental",
+      "anxiety",
+      "depression"
+    ],
+    "explanation": "Medorrhinum-এ উদ্বেগ ও বিষণ্ণতা থাকে; সবসময় মনে হয় কোনো অমঙ্গল ঘটতে চলেছে অথবা সে কোনো বড় অপরাধ করেছে।"
+  },
+  {
+    "id": "mez-sym-07",
+    "stem": "সামান্য রাগের পর তীব্র মাথাব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "headache",
+      "vexation"
+    ],
+    "explanation": "Headache after slight vexation is typical of Mezereum."
+  },
+  {
+    "id": "mez-sym-16",
+    "stem": "সবকিছুর প্রতি উদাসীন ও বিষণ্ণ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      },
+      {
+        "text": "Aconitum",
+        "mid": "aconitum"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "mind",
+      "depression"
+    ],
+    "explanation": "Despondent indifference belongs to Mezereum."
+  },
+  {
+    "id": "natc-sym-15",
+    "stem": "রোগী অত্যন্ত বিমর্ষ, বিষণ্ণ ও মানসিক অবসাদগ্রস্ত থাকে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Aurum Met",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "mental",
+      "depression"
+    ],
+    "explanation": "Natrum Carb রোগীর মনস্তাত্ত্বিক অবস্থার প্রধান বৈশিষ্ট্য হলো বিমর্ষতা ও মানসিক বিষণ্ণতা।"
+  },
+  {
+    "id": "natp-sym-20",
+    "stem": "মানসিক অবসাদ ও কাজে অনীহা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "mind",
+      "depression",
+      "aversion-work"
+    ],
+    "explanation": "Natrum Phos রোগী মানসিক অবসাদ ও কাজে অনীহা বোধ করে।"
+  },
+  {
+    "id": "natrum-mur-sym-14",
+    "stem": "পুরানো শোক বারবার মনে করে বিষণ্ণ থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "mental",
+      "grief",
+      "depression"
+    ],
+    "explanation": "Natrum Mur-এ রোগী পুরানো শোক বা অপ্রীতিকর ঘটনা বারবার মনে করে বিষণ্ণ থাকে।"
+  },
+  {
+    "id": "petr-sym-09",
+    "stem": "রোগী সামান্য কারণেই মনে আঘাত পায় এবং সবকিছুতেই বিরক্তি প্রকাশ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "mental",
+      "irritability",
+      "offended"
+    ],
+    "explanation": "Petroleum-এ রোগী সামান্য কারণেই মনে আঘাত পায় এবং সবকিছুতেই বিরক্তি প্রকাশ করে।[reference:28]"
+  },
+  {
+    "id": "petr-sym-20",
+    "stem": "বিষন্নতার সাথে দৃষ্টিশক্তি হ্রাস পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "mental",
+      "depression",
+      "vision",
+      "dim"
+    ],
+    "explanation": "Petroleum-এ বিষন্নতার সাথে দৃষ্টিশক্তি হ্রাস (Depression with dim vision) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।[reference:39]"
+  },
+  {
+    "id": "plumbum-sym-06",
+    "stem": "বিষণ্ণতা, সাংঘাতিক কিছু ঘটার ভয়, উদাসীনতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "mind",
+      "depression",
+      "fear"
+    ],
+    "explanation": "Plumbum Metallicum এ বিষণ্ণতা থাকে, সাংঘাতিক কিছু ঘটার ভয় থাকে, উদাসীনতা থাকে।"
+  },
+  {
+    "id": "podo-sym-14",
+    "stem": "লিভারের সমস্যায় বিষণ্ণ ও খিটখিটে, কথা বলতে অনিচ্ছা, একাকী পছন্দ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "mind",
+      "liver",
+      "depressed",
+      "irritable",
+      "alone"
+    ],
+    "explanation": "Podophyllum লিভার সমস্যায় বিষণ্ণ ও একাকী থাকতে পছন্দ করে।"
+  },
+  {
+    "id": "sab-sym-13",
+    "stem": "সঙ্গীত শুনলে মনে চাপ ও বিষণ্ণতা বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "mind",
+      "music",
+      "aggravation",
+      "depression"
+    ],
+    "explanation": "Sabina-এ সঙ্গীতে বিষণ্ণতা ও চাপ বাড়ে।"
+  },
+  {
+    "id": "sars-sym-09",
+    "stem": "রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং দুঃখী প্রকৃতির হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "mental",
+      "depression",
+      "irritability",
+      "sadness"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর মানসিক লক্ষণে রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং দুঃখী প্রকৃতির হয়।"
+  },
+  {
+    "id": "sel-sym-15",
+    "stem": "চরম দুঃখী, অল্পে ক্লান্ত, রোদে শক্তি নিঃশেষ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Picricum Acidum",
+        "mid": "picricum-acidum"
+      },
+      {
+        "text": "Muriaticum Acidum",
+        "mid": "muriaticum-acidum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "mind",
+      "sad",
+      "exhaustion",
+      "sun-agg"
+    ],
+    "explanation": "Selenium রোগী চরম দুঃখী ও অল্পে ক্লান্ত হয়।"
+  },
+  {
+    "id": "sene-sym-07",
+    "stem": "অপমান, অপদস্থ হওয়া বা মর্মবেদনার কারণে অসুস্থতা দেখা দেওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Colocynth",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "cause",
+      "mortification"
+    ],
+    "explanation": "Senega অপমানিত হওয়া বা মনস্তাত্ত্বিক আঘাত ও মর্মবেদনার ফলে উদ্ভূত অসুস্থতায় নির্দেশিত।"
+  },
+  {
+    "id": "spongia-sym-15",
+    "stem": "অত্যন্ত খিটখিটে মেজাজ ও সামান্য বিষয়ে কান্নার প্রবণতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "irritability",
+      "weeping",
+      "mental"
+    ],
+    "explanation": "Spongia-তে রোগী অত্যন্ত খিটখিটে মেজাজের হয় এবং সামান্য বিষয়ে কান্না করার প্রবণতা থাকে।"
+  },
+  {
+    "id": "stannum-sym-04",
+    "stem": "বিষণ্ণতা ও ক্রন্দণশীলতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "mental",
+      "depression",
+      "weeping"
+    ],
+    "explanation": "Stannum Met-এ অত্যন্ত বিষণ্ণতা এবং মন মরা ভাব থাকে; রোগী সহজেই কেঁদে ফেলে।"
+  },
+  {
+    "id": "stannum-sym-05",
+    "stem": "অত্যন্ত দুঃখভাব, সব সময় কান্না পায়, কাঁদলে আরও খারাপ লাগে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "mental",
+      "sadness",
+      "weeping"
+    ],
+    "explanation": "Stannum Met-এ অত্যন্ত দুঃখভাব থাকে, সব সময় কান্না পায় এবং কাঁদলে আরও খারাপ লাগে।"
+  },
+  {
+    "id": "staph-sym-01",
+    "stem": "ক্রোধ ও অপমানের ফলে রোগ, দমিত ক্ষোভ চেপে রাখে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "anger",
+      "indignation",
+      "suppressed-emotions"
+    ],
+    "explanation": "Staphisagria অপমান ও দমিত রাগ থেকে অসুখে প্রধান ঔষধ।"
+  },
+  {
+    "id": "staph-sym-07",
+    "stem": "মন বিষন্ন, স্মৃতি দুর্বল, কপালে বল থাকার অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "depressed",
+      "memory-weak",
+      "ball-forehead"
+    ],
+    "explanation": "Staphisagria-এ বিষন্নতা, স্মৃতি দুর্বল ও কপালে বল অনুভূতি থাকে।"
+  },
+  {
+    "id": "syphilinum-sym-19",
+    "stem": "চরম হতাশা, আরোগ্য লাভের আশা পরিত্যাগ করা, আত্মহত্যা করার প্রবল ইচ্ছা থাকা সত্ত্বেও অন্ধকারের ভয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "mind",
+      "despair",
+      "suicidal",
+      "dark"
+    ],
+    "explanation": "Syphilinum এ চরম হতাশা থাকে, আরোগ্য লাভের আশা পরিত্যাগ করে, আত্মহত্যা করার প্রবল ইচ্ছা থাকা সত্ত্বেও অন্ধকারের ভয় থাকে।"
+  },
+  {
+    "id": "var-sym-06",
+    "stem": "রোগী মারাত্মক মৃত্যুভয় এবং তার রোগ কখনো ভালো হবে না এমন হতাশায় ভোগা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconite"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "mind",
+      "fear-of-death",
+      "hopeless"
+    ],
+    "explanation": "Variolinum-এর রোগী মৃত্যুভয় ও রোগমুক্তির আশাহীনতায় কাতর হয়।"
+  },
+  {
+    "id": "verat-sym-05",
+    "stem": "রোগী মনে করে সে অনেক বড় অপরাধী এবং বিষণ্ণ থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "mental",
+      "depression",
+      "criminal-delusion"
+    ],
+    "explanation": "Veratrum Album-এ রোগী বিষণ্ণতা এবং মনে করে সে অনেক বড় অপরাধী।"
+  }
+]

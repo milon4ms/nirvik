@@ -1,0 +1,1832 @@
+[
+  {
+    "id": "apis-sym-06",
+    "stem": "রোগী অত্যন্ত খিটখিটে এবং ঈর্ষাপরায়ণ (Jealousy) প্রকৃতির হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "mental",
+      "irritability",
+      "jealousy"
+    ],
+    "explanation": "Apis Mellifica-এ রোগী অত্যন্ত খিটখিটে এবং ঈর্ষাপরায়ণ (Jealousy) প্রকৃতির হয়।"
+  },
+  {
+    "id": "arsenicum-iod-sym-07",
+    "stem": "খিটখিটে মেজাজ ও পড়াশোনা বা মানসিক কাজে অনিচ্ছা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "irritability",
+      "mental-work"
+    ],
+    "explanation": "Arsenicum Iodatum-এ রোগীর খিটখিটে মেজাজ এবং পড়াশোনা বা মানসিক কাজ করতে অনিচ্ছা দেখা যায়।"
+  },
+  {
+    "id": "aurum-sym-06",
+    "stem": "সামান্য বিরুদ্ধাচরণ সহ্য করতে পারে না, প্রচণ্ড রেগে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "mind",
+      "anger",
+      "contradiction"
+    ],
+    "explanation": "Aurum সামান্য প্রতিবাদ সহ্য করতে পারে না।"
+  },
+  {
+    "id": "bac-sym-10",
+    "stem": "বিষণ্ণ, খিটখিটে ও হতাশ প্রকৃতির মন, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "mind",
+      "depression",
+      "irritability"
+    ],
+    "explanation": "Bacillinum রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং হতাশ প্রকৃতির হয়।"
+  },
+  {
+    "id": "bell-sym-13",
+    "stem": "উত্তেজিত বিভ্রমে কামড়ায় ও আঘাত করে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Kali Phosphoricum",
+        "mid": "kali-phosphoricum"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "mind",
+      "rage"
+    ],
+    "explanation": "Furious delirium Belladonna-এর classic mental state।"
+  },
+  {
+    "id": "bry-sym-17",
+    "stem": "রোগী অত্যন্ত খিটখিটে মেজাজের হওয়া এবং কেউ কথা বললে বিরক্ত বোধ করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "mental",
+      "irritability"
+    ],
+    "explanation": "Bryonia-এর মানসিক লক্ষণে রোগী খিটখিটে মেজাজের হয়, নীরবতা পছন্দ করে এবং কেউ সাথে কথা বললে বিরক্ত বোধ করে।"
+  },
+  {
+    "id": "calc-fluor-sym-07",
+    "stem": "সিদ্ধান্তহীনতা এবং খিটখিটে মেজাজ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "mental",
+      "indecisiveness",
+      "irritability"
+    ],
+    "explanation": "Calcarea Fluorica-এ রোগীর সিদ্ধান্তহীনতা এবং খিটখিটে মেজাজ (Indecisiveness and irritable mood) দেখা যায়।"
+  },
+  {
+    "id": "calc-sulph-sym-14",
+    "stem": "সহজেই রেগে যাওয়া ও খিটখিটে মেজাজ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "irritability",
+      "mental"
+    ],
+    "explanation": "Calcarea Sulph-এ রোগী সাধারণত খুব সহজেই রেগে যায় এবং মেজাজ খিটখিটে থাকে।"
+  },
+  {
+    "id": "calcphos-sym-11",
+    "stem": "খিটখিটে মেজাজ ও সামান্য বিষয়েই ভুলে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "mind",
+      "irritability",
+      "forgetfulness"
+    ],
+    "explanation": "Calcarea Phosphorica এ খিটখিটে মেজাজ এবং সামান্য বিষয়েই ভুলে যাওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "calen-sym-17",
+    "stem": "মেজাজ খিটখিটে, কারো সাথে কথা বলতে ভালো লাগে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "mind",
+      "irritable",
+      "aversion-talk"
+    ],
+    "explanation": "Calendula রোগী খিটখিটে ও কথা বলতে অনিচ্ছুক।"
+  },
+  {
+    "id": "cantharis-sym-04",
+    "stem": "রোগী অত্যন্ত অস্থির, রাগী এবং যন্ত্রণার চোটে চিৎকার করে ও ছটফট করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "mental",
+      "restlessness",
+      "anger",
+      "pain"
+    ],
+    "explanation": "Cantharis-এর মানসিক লক্ষণে রোগী অত্যন্ত অস্থির এবং রাগী মেজাজের হয়; যন্ত্রণার চোটে সে চিৎকার করে এবং ছটফট করে।"
+  },
+  {
+    "id": "cantharis-sym-12",
+    "stem": "তীব্র যন্ত্রণার কারণে রোগী প্রলাপ বকে এবং অনেক সময় মারমুখী হয়ে ওঠে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "mental",
+      "delirium",
+      "violent",
+      "pain"
+    ],
+    "explanation": "Cantharis-এ তীব্র যন্ত্রণার কারণে রোগী প্রলাপ বকে এবং অনেক সময় মারমুখী হয়ে ওঠে।"
+  },
+  {
+    "id": "caps-sym-06",
+    "stem": "খিটখিটে ও সহজেই রেগে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "mind",
+      "irritability",
+      "anger"
+    ],
+    "explanation": "Capsicum Annuum রোগী অত্যন্ত খিটখিটে এবং সহজেই রেগে যায়।"
+  },
+  {
+    "id": "chel-sym-12",
+    "stem": "লিভারের গোলযোগের কারণে রোগী অত্যন্ত খিটখিটে মেজাজের হয়ে পড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "mental",
+      "irritability",
+      "liver-disorder"
+    ],
+    "explanation": "Chelidonium Majus-এ লিভারের গোলযোগের কারণে রোগী অত্যন্ত খিটখিটে মেজাজের হয়ে পড়ে।"
+  },
+  {
+    "id": "china-sym-09",
+    "stem": "বিষণ্ণ, খিটখিটে ও উদাসীন মন, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "mind",
+      "depression",
+      "irritability"
+    ],
+    "explanation": "China রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং উদাসীন থাকে।"
+  },
+  {
+    "id": "cina-sym-01",
+    "stem": "কৃমিজনিত বিরক্ত স্বভাব, কোলে নিলেও শান্ত হয় না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "worms",
+      "irritability"
+    ],
+    "explanation": "খিটখিটে ও অসন্তুষ্ট শিশু Cina-এর প্রধান লক্ষণ।"
+  },
+  {
+    "id": "cina-sym-07",
+    "stem": "স্পর্শ সহ্য করতে পারে না, রেগে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "touch",
+      "irritability"
+    ],
+    "explanation": "স্পর্শে বিরক্তি Cina-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "cina-sym-16",
+    "stem": "রাগে মারধর করে ও চেঁচায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "anger",
+      "children"
+    ],
+    "explanation": "Violently irritable child Cina-এর মানসিক চিত্র।"
+  },
+  {
+    "id": "cinn-sym-17",
+    "stem": "রোগী মানসিকভাবে অত্যন্ত খিটখিটে, অস্থির এবং কাজের প্রতি অনীহাযুক্ত থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "mental",
+      "irritability",
+      "indisposed"
+    ],
+    "explanation": "Cinnabaris-এর মানসিক লক্ষণে খিটখিটে স্বভাব, মানসিক অস্থিরতা ও কোনো কাজেই মন না বসার জড়তা অন্যতম।"
+  },
+  {
+    "id": "colch-sym-08",
+    "stem": "রোগী যন্ত্রণার কারণে অত্যন্ত খিটখিটে এবং বিরক্ত থাকে, সামান্য কারণেই কান্নাকাটি করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "mental",
+      "irritability",
+      "tearful",
+      "pain"
+    ],
+    "explanation": "Colchicum-এ যন্ত্রণার কারণে রোগী অত্যন্ত খিটখিটে ও বিরক্ত থাকে এবং সামান্য কারণেই কান্নাকাটি করে।"
+  },
+  {
+    "id": "colocynthis-sym-01",
+    "stem": "রাগ বা অপমানের ফলে ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "mind",
+      "anger",
+      "pain"
+    ],
+    "explanation": "Colocynthis এ প্রচণ্ড রাগ বা অপমানিত হওয়ার ফলে পেটে ব্যথা বা অন্য উপসর্গ দেখা দেয়।"
+  },
+  {
+    "id": "colocynthis-sym-11",
+    "stem": "খিটখিটে ও রাগী মেজাজ, সামান্য বিরুদ্ধাচরণে প্রচণ্ড রেগে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "mind",
+      "irritability",
+      "anger"
+    ],
+    "explanation": "Colocynthis রোগী অত্যন্ত খিটখিটে এবং রাগী মেজাজের হয়, সামান্য বিরুদ্ধাচরণ করলে প্রচণ্ড রেগে যায়।"
+  },
+  {
+    "id": "colocynthis-sym-19",
+    "stem": "রাগে, খাবার পর বিশেষ করে পনির বা ফল খেলে, বিকেল 4টের দিকে ও বিশ্রামে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "aggravation",
+      "anger",
+      "eating",
+      "rest"
+    ],
+    "explanation": "Colocynthis এ রাগের ফলে, খাবার পর বিশেষ করে পনির বা ফল খেলে, বিকেল 4টের দিকে এবং বিশ্রামে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "croton-sym-10",
+    "stem": "খিটখিটে মেজাজ ও সামান্য কারণেই বিরক্তি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "mental",
+      "irritability"
+    ],
+    "explanation": "Croton Tiglium-এ খিটখিটে মেজাজ এবং সামান্য কারণেই বিরক্তি প্রকাশ পায়।"
+  },
+  {
+    "id": "dulc-sym-06",
+    "stem": "রোগী মানসিকভাবে অত্যন্ত খিটখিটে এবং একগুঁয়ে প্রকৃতির হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "mental",
+      "irritability",
+      "obstinacy"
+    ],
+    "explanation": "Dulcamara-এ রোগী মানসিকভাবে অত্যন্ত খিটখিটে এবং একগুঁয়ে প্রকৃতির হয়।"
+  },
+  {
+    "id": "dulc-sym-07",
+    "stem": "রোগী খুব সহজেই রেগে যায় এবং অনেক সময় অন্যকে গালাগাল করতে দ্বিধা করে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "mental",
+      "anger",
+      "scolding"
+    ],
+    "explanation": "Dulcamara-এ রোগী খুব সহজেই রেগে যায় এবং অনেক সময় অন্যকে গালাগাল করতে দ্বিধা করে না।"
+  },
+  {
+    "id": "dulc-sym-08",
+    "stem": "রোগী যা চায় তা তৎক্ষণাৎ পেতে চায়, না পেলে অস্থির হয়ে পড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "mental",
+      "impatience",
+      "restlessness"
+    ],
+    "explanation": "Dulcamara-এ রোগী যা চায় তা তৎক্ষণাৎ পেতে চায়, না পেলে অস্থির হয়ে পড়ে।"
+  },
+  {
+    "id": "euphrasia-sym-12",
+    "stem": "খিটখিটে মেজাজ, সামান্য বিষয়ে বিরক্ত হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "mind",
+      "irritability"
+    ],
+    "explanation": "Euphrasia Officinalis এ খিটখিটে মেজাজ এবং সামান্য বিষয়ে বিরক্ত হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "ferrum-phos-sym-11",
+    "stem": "মানসিকভাবে অত্যন্ত সংবেদনশীল ও খিটখিটে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "mental",
+      "sensitive",
+      "irritable"
+    ],
+    "explanation": "Ferrum Phos-এ রোগী মানসিকভাবে অত্যন্ত সংবেদনশীল এবং খিটখিটে মেজাজের হয়।"
+  },
+  {
+    "id": "glon-sym-04",
+    "stem": "মেজাজ খিটখিটে, প্রতিবাদ সহ্য হয় না, অল্পে উত্তেজিত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "mind",
+      "irritable",
+      "contradiction",
+      "excitable"
+    ],
+    "explanation": "Glonoine রোগী খিটখিটে ও প্রতিবাদ সহ্য করতে পারে না।"
+  },
+  {
+    "id": "hama-sym-07",
+    "stem": "খিটখিটে মেজাজ থাকা এবং মনে করা সকলে তাকে সম্মান করুক — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Platina",
+        "mid": "platina"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "mental",
+      "irritable",
+      "respect"
+    ],
+    "explanation": "Hamamelis-এর মানসিকতায় রোগী খিটখিটে স্বভাবের এবং অন্যের নিকট সম্মানপ্রত্যাশী হয়।"
+  },
+  {
+    "id": "hepar-sym-04",
+    "stem": "অতিরিক্ত স্পর্শকাতর, অল্পেই রাগে, রেগে সন্তানকে মেরে ফেলতে পারে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "mind",
+      "touch",
+      "anger"
+    ],
+    "explanation": "Hepar Sulph রোগী অতিরিক্ত স্পর্শকাতর, অল্পেই রাগে, রেগে সন্তানকে মেরে ফেলতে পারে।"
+  },
+  {
+    "id": "hepar-sym-05",
+    "stem": "সহজে ক্ষিপ্ত হয়, হট করে কাজ করে, তাড়াহুড়ো করে কথা বলে ও কাজ করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "mind",
+      "hasty",
+      "impulsive"
+    ],
+    "explanation": "Hepar Sulph রোগী সহজে ক্ষিপ্ত হয়, হট করে কাজ করে, তাড়াহুড়ো করে কথা বলে এবং কাজ করে।"
+  },
+  {
+    "id": "iodium-sym-06",
+    "stem": "মানসিকভাবে অত্যন্ত অস্থির ও খিটখিটে মেজাজ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "mind",
+      "restless",
+      "irritable"
+    ],
+    "explanation": "Iodium রোগী মানসিকভাবে অত্যন্ত অস্থির এবং খিটখিটে মেজাজের হয়।"
+  },
+  {
+    "id": "iodium-sym-08",
+    "stem": "কাউকে মারার বা হিংস্র কাজ করার ইচ্ছা জাগা, নিয়ন্ত্রণ করার চেষ্টা করা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "mind",
+      "violent",
+      "impulse"
+    ],
+    "explanation": "Iodium এ অনেক সময় কাউকে মারার বা হিংস্র কাজ করার ইচ্ছা জাগে, যদিও রোগী তা নিয়ন্ত্রণ করার চেষ্টা করে।"
+  },
+  {
+    "id": "iodium-sym-09",
+    "stem": "খুব দ্রুত কাজ করতে চাওয়া, তাড়াহুড়ো ও অধৈর্য, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "mind",
+      "hurry",
+      "impatience"
+    ],
+    "explanation": "Iodium রোগী সবসময় খুব দ্রুত কাজ করতে চায়, তার মধ্যে তাড়াহুড়ো ও অধৈর্য থাকে।"
+  },
+  {
+    "id": "ipecac-sym-06",
+    "stem": "রোগী অত্যন্ত খিটখিটে মেজাজের হয় এবং সবকিছুতেই বিরক্তি প্রকাশ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "mental",
+      "irritability",
+      "discontent"
+    ],
+    "explanation": "Ipecac-এর মানসিক লক্ষণে রোগী অত্যন্ত খিটখিটে মেজাজের হয় এবং সবকিছুতেই বিরক্তি প্রকাশ করে।"
+  },
+  {
+    "id": "just-sym-17",
+    "stem": "শ্বাস বন্ধ হয়ে যাওয়ার ভয় এবং সামান্য কারণে খিটখিটে মেজাজ হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Grindelia",
+        "mid": "grindelia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "mental",
+      "fear",
+      "irritability"
+    ],
+    "explanation": "Justicia Adhatoda-এ রোগীর মধ্যে শ্বাসরোধ হওয়ার ভীতি এবং খিটখিটে মানসিক মেজাজ প্রকাশ পায়।"
+  },
+  {
+    "id": "lac-can-sym-10",
+    "stem": "রাগের আক্রমণ ও একা থাকতে ভয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "mental",
+      "anger",
+      "fear-alone"
+    ],
+    "explanation": "Lac Caninum-এ অস্থিরতা, রাগের আক্রমণ এবং একা থাকতে ভয় দেখা যায়।"
+  },
+  {
+    "id": "lach-sym-18",
+    "stem": "অস্থিরতা, রাগ ও হিংস্রতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Hyoscyamus Niger",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Tarentula Hispanica",
+        "mid": "tarentula-hispanica"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "mind",
+      "restless",
+      "angry",
+      "violent"
+    ],
+    "explanation": "Lachesis রোগী অস্থির ও হিংস্র হতে পারে।"
+  },
+  {
+    "id": "mag-carb-sym-08",
+    "stem": "রোগী অত্যন্ত উদ্বিগ্ন এবং খিটখিটে স্বভাবের হয়, বিশেষ করে একাকী থাকতে ভয় পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "mental",
+      "anxiety",
+      "irritability",
+      "fear-of-solitude"
+    ],
+    "explanation": "Magnesia Carbonica-এ রোগী অত্যন্ত উদ্বিগ্ন এবং খিটখিটে স্বভাবের হয়, ছোটখাটো বিষয়েও ভয় পায়, বিশেষ করে একাকী থাকতে ভয় পায়।"
+  },
+  {
+    "id": "magphos-sym-15",
+    "stem": "মানসিক খিটখিটে ভাব, সামান্য শব্দ বা আলোতেও বিরক্ত ও উত্তেজিত হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "mind",
+      "irritability",
+      "noise",
+      "light"
+    ],
+    "explanation": "Magnesia Phosphorica এ মানসিক খিটখিটে ভাব থাকে, সামান্য শব্দ বা আলোতেও রোগী বিরক্ত ও উত্তেজিত হয়ে ওঠে।"
+  },
+  {
+    "id": "medorrhinum-sym-12",
+    "stem": "সামান্যতেই ক্ষিপ্ত হওয়া ও সহানুভূতিতে বিরক্তি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "mental",
+      "irritability",
+      "sympathy"
+    ],
+    "explanation": "Medorrhinum-এ তীব্র খিটখিটে মেজাজ থাকে, সামান্যতেই রোগী ক্ষিপ্ত হয় এবং সহানুভূতি জানালে বিরক্তি প্রকাশ করে।"
+  },
+  {
+    "id": "mez-sym-15",
+    "stem": "সামান্য বিষয়েও রাগ করে, পরে অনুতপ্ত হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "mind",
+      "anger"
+    ],
+    "explanation": "Angry at trifles and soon sorry afterward suggests Mezereum."
+  },
+  {
+    "id": "nux-sym-02",
+    "stem": "খিটখিটে, রাগী এবং সহজে অপমানিত হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "mind",
+      "irritability"
+    ],
+    "explanation": "Irritability strongly indicates Nux Vomica."
+  },
+  {
+    "id": "nux-sym-10",
+    "stem": "রাগের পর উপসর্গ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "anger",
+      "mind"
+    ],
+    "explanation": "Anger aggravates Nux Vomica complaints."
+  },
+  {
+    "id": "nux-sym-13",
+    "stem": "অল্পতেই রেগে যায়, বিরোধ সহ্য করতে পারে না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "temper",
+      "mind"
+    ],
+    "explanation": "Cannot bear contradiction is a keynote."
+  },
+  {
+    "id": "nux-sym-19",
+    "stem": "অধৈর্য, দ্রুত কাজ শেষ করতে চায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "mind",
+      "impatience"
+    ],
+    "explanation": "Impatience is a characteristic Nux Vomica trait."
+  },
+  {
+    "id": "petr-sym-09",
+    "stem": "রোগী সামান্য কারণেই মনে আঘাত পায় এবং সবকিছুতেই বিরক্তি প্রকাশ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "mental",
+      "irritability",
+      "offended"
+    ],
+    "explanation": "Petroleum-এ রোগী সামান্য কারণেই মনে আঘাত পায় এবং সবকিছুতেই বিরক্তি প্রকাশ করে।[reference:28]"
+  },
+  {
+    "id": "podo-sym-14",
+    "stem": "লিভারের সমস্যায় বিষণ্ণ ও খিটখিটে, কথা বলতে অনিচ্ছা, একাকী পছন্দ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "mind",
+      "liver",
+      "depressed",
+      "irritable",
+      "alone"
+    ],
+    "explanation": "Podophyllum লিভার সমস্যায় বিষণ্ণ ও একাকী থাকতে পছন্দ করে।"
+  },
+  {
+    "id": "ruta-sym-12",
+    "stem": "খিটখিটে মেজাজ ও নিজের শারীরিক কষ্ট নিয়ে অভিযোগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "irritability",
+      "complaining",
+      "mental"
+    ],
+    "explanation": "Ruta-এ মেজাজ খিটখিটে ও অসন্তুষ্ট থাকে; রোগী সবসময় নিজের শারীরিক কষ্ট নিয়ে অভিযোগ করে।"
+  },
+  {
+    "id": "sab-sym-12",
+    "stem": "খিটখিটে ও অস্থির, একা থাকতে ভয়, অবাস্তব চিন্তা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "mind",
+      "irritable",
+      "restless",
+      "fear-alone",
+      "fanciful"
+    ],
+    "explanation": "Sabina রোগী খিটখিটে, অস্থির ও একা ভয় পায়।"
+  },
+  {
+    "id": "sanguinaria-sym-14",
+    "stem": "অত্যন্ত খিটখিটে ও খামখেয়ালী মেজাজ, অসুস্থতার সময় কারো সাথে কথা বলতে চায় না, অত্যন্ত নিস্তেজ অনুভব করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "mind",
+      "irritable",
+      "capricious"
+    ],
+    "explanation": "Sanguinaria Canadensis রোগী অত্যন্ত খিটখিটে এবং খামখেয়ালী মেজাজের হয়ে পড়ে, অসুস্থতার সময় সে কারো সাথে কথা বলতে চায় না এবং অত্যন্ত নিস্তেজ অনুভব করে।"
+  },
+  {
+    "id": "sars-sym-09",
+    "stem": "রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং দুঃখী প্রকৃতির হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "mental",
+      "depression",
+      "irritability",
+      "sadness"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর মানসিক লক্ষণে রোগী অত্যন্ত বিষণ্ণ, খিটখিটে এবং দুঃখী প্রকৃতির হয়।"
+  },
+  {
+    "id": "sene-sym-09",
+    "stem": "রোগী মেজাজে ঝগড়াটে প্রকৃতির হওয়া এবং সন্ধ্যাবেলায় শুয়েই ঘুমিয়ে পড়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomile",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "mental",
+      "quarrelsome"
+    ],
+    "explanation": "Senega রোগীর স্বভাব ঝগড়াটে প্রকৃতির এবং সন্ধ্যা বেলাতেই সে দ্রুত ঘুমে আচ্ছন্ন হয়ে পড়ে।"
+  },
+  {
+    "id": "spigelia-sym-17",
+    "stem": "সামান্য শব্দ বা গোলমালে অত্যন্ত বিরক্ত হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "mind",
+      "noise",
+      "irritable"
+    ],
+    "explanation": "Spigelia Anthelmia রোগী সামান্য শব্দ বা গোলমালে অত্যন্ত বিরক্ত হয়।"
+  },
+  {
+    "id": "spongia-sym-15",
+    "stem": "অত্যন্ত খিটখিটে মেজাজ ও সামান্য বিষয়ে কান্নার প্রবণতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "irritability",
+      "weeping",
+      "mental"
+    ],
+    "explanation": "Spongia-তে রোগী অত্যন্ত খিটখিটে মেজাজের হয় এবং সামান্য বিষয়ে কান্না করার প্রবণতা থাকে।"
+  },
+  {
+    "id": "stannum-sym-12",
+    "stem": "খিটখিটে মেজাজ এবং সামান্য কারণেই অস্থির হয়ে পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "mental",
+      "irritability",
+      "restlessness"
+    ],
+    "explanation": "Stannum Met-এ খিটখিটে মেজাজ এবং সামান্য কারণেই অস্থির হয়ে পড়া দেখা যায়।"
+  },
+  {
+    "id": "staph-sym-01",
+    "stem": "ক্রোধ ও অপমানের ফলে রোগ, দমিত ক্ষোভ চেপে রাখে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "anger",
+      "indignation",
+      "suppressed-emotions"
+    ],
+    "explanation": "Staphisagria অপমান ও দমিত রাগ থেকে অসুখে প্রধান ঔষধ।"
+  },
+  {
+    "id": "staph-sym-14",
+    "stem": "সামান্য কারণে রেগে জিনিসপত্র ছুড়ে মারে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "anger",
+      "throws-things",
+      "irritable"
+    ],
+    "explanation": "Staphisagria রাগে জিনিসপত্র ছুড়ে মারে।"
+  },
+  {
+    "id": "staph-sym-17",
+    "stem": "রাগের পর, যৌন মিলনের পর, মানসিক আঘাতে, তামাক সেবনে, রাত জাগলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "aggravation",
+      "anger",
+      "coition",
+      "mental-injury",
+      "tobacco"
+    ],
+    "explanation": "Staphisagria-এ রাগ, যৌন মিলন, মানসিক আঘাত ও তামাকে বৃদ্ধি।"
+  },
+  {
+    "id": "sul-iod-sym-07",
+    "stem": "খিটখিটে মেজাজ এবং সামান্য বিষয়ে বিরক্তি প্রকাশ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "mental",
+      "irritability",
+      "trifles"
+    ],
+    "explanation": "Sulphur Iodatum-এ রোগী খিটখিটে মেজাজের হয় এবং সামান্য বিষয়ে বিরক্তি প্রকাশ করে।"
+  },
+  {
+    "id": "verat-sym-06",
+    "stem": "উন্মাদনা বা প্রলাপ বকা; রোগী অবিরত কথা বলে, কখনো প্রার্থনা করে আবার কখনো অন্যকে গালি দেয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "mental",
+      "delirium",
+      "praying",
+      "cursing"
+    ],
+    "explanation": "Veratrum Album-এ উন্মাদনা বা প্রলাপ বকা; রোগী অবিরত কথা বলে, কখনো প্রার্থনা করে আবার কখনো অন্যকে গালি দেয়।"
+  }
+]

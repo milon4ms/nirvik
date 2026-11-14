@@ -1,0 +1,1943 @@
+[
+  {
+    "id": "apis-sym-10",
+    "stem": "প্রধানত ডান দিকের ডিম্বাশয়ের প্রদাহ (Ovaritis) বা সিস্ট এবং তলপেটে হুল ফোটানো ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "female",
+      "right-ovary",
+      "ovarian-cyst",
+      "stinging-pain"
+    ],
+    "explanation": "Apis Mellifica-এ প্রধানত ডান দিকের ডিম্বাশয়ের প্রদাহ (Ovaritis) বা সিস্ট এবং তলপেটে হুল ফোটানো ব্যথা হয়, যা স্পর্শ করলে বেড়ে যায়।"
+  },
+  {
+    "id": "arnica-mont-sym-14",
+    "stem": "প্রসবের পর জরায়ুর ক্ষত ও রক্তক্ষরণ বন্ধ করতে এটি অত্যন্ত দ্রুত কাজ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "female",
+      "postpartum",
+      "uterine-wounds",
+      "hemorrhage"
+    ],
+    "explanation": "Arnica Montana প্রসবের পর জরায়ুর ক্ষত ও রক্তক্ষরণ বন্ধ করতে অত্যন্ত দ্রুত কাজ করে।"
+  },
+  {
+    "id": "aurum-sym-09",
+    "stem": "অণ্ডকোষ ফুলে শক্ত হয়ে যাওয়া, জরায়ু শক্ত ও নিচে নেমে আসা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "male",
+      "female",
+      "induration",
+      "uterus"
+    ],
+    "explanation": "Aurum-এ অণ্ডকোষ ও জরায়ুর ইন্ডুরেশন হয়।"
+  },
+  {
+    "id": "borax-sym-07",
+    "stem": "প্রচুর শ্বেতপ্রদর, ডিমের সাদা অংশের মতো, রানের উপর দিয়ে গড়িয়ে পড়ে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "leucorrhoea",
+      "female"
+    ],
+    "explanation": "Borax-এ প্রচুর শ্বেতপ্রদর হয় যা ডিমের সাদা অংশের মতো, রানের উপর দিয়ে গড়িয়ে পড়ে এবং গড়ম লাগে।"
+  },
+  {
+    "id": "borax-sym-09",
+    "stem": "জড়ায়ুর যোনীপথ দিয়ে বের হওয়ার অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Murex",
+        "mid": "murex-purpureus"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "female",
+      "womb",
+      "sensation"
+    ],
+    "explanation": "Borax-এ জড়ায়ু যোনীপথ দিয়ে বের হয়ে যাওয়ার অনুভূতি হয়।"
+  },
+  {
+    "id": "calc-fluor-sym-13",
+    "stem": "জরায়ুর স্থানচ্যুতি (Prolapse) এবং জরায়ুর পেশী শিথিল হয়ে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "female",
+      "uterine-prolapse",
+      "laxity"
+    ],
+    "explanation": "Calcarea Fluorica-এ জরায়ুর স্থানচ্যুতি (Prolapse) এবং জরায়ুর পেশী শিথিল হয়ে যাওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "calc-fluor-sym-14",
+    "stem": "স্তনে শক্ত, ব্যথাহীন টিউমার — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "female",
+      "breast",
+      "tumor",
+      "induration"
+    ],
+    "explanation": "Calcarea Fluorica-এ স্তনে শক্ত, ব্যথাহীন টিউমার (Hard, painless tumor in breast) হয়।"
+  },
+  {
+    "id": "calc-sulph-sym-11",
+    "stem": "ঘন সাদা লিউকোরিয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "leucorrhoea",
+      "female"
+    ],
+    "explanation": "Calcarea Sulph-এ ঘন সাদা লিউকোরিয়া বা শ্বেতপ্রদর হয়।"
+  },
+  {
+    "id": "calc-sym-10",
+    "stem": "ঋতুস্রাব খুব তাড়াতাড়ি হয়, অনেক দিন থাকে এবং প্রচুর পরিমাণে নির্গত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Millifolium",
+        "mid": "millifolium"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "female",
+      "menses",
+      "profuse"
+    ],
+    "explanation": "Calcarea Carb-এর স্ত্রী লক্ষণ হলো ঋতুস্রাব নির্ধারিত সময়ের পূর্বে শুরু হয়, দীর্ঘস্থায়ী হয় ও পরিমাণে বেশি নির্গত হয়।"
+  },
+  {
+    "id": "calcphos-sym-17",
+    "stem": "ঋতুস্রাব তাড়াতাড়ি হওয়া ও প্রচুর রক্তস্রাব হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "female",
+      "menses"
+    ],
+    "explanation": "Calcarea Phosphorica এ ঋতুস্রাব খুব তাড়াতাড়ি হয় এবং প্রচুর রক্তস্রাব থাকে।"
+  },
+  {
+    "id": "calcphos-sym-18",
+    "stem": "মাসিকের আগে প্রবল মিলন ইচ্ছা ও শ্বেতপ্রদর দুধের সরের মতো হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "female",
+      "leucorrhoea",
+      "desire"
+    ],
+    "explanation": "Calcarea Phosphorica এ মাসিকের আগে খুব মিলন ইচ্ছা থাকে এবং শ্বেতপ্রদর দুধের সরের মতো হয়।"
+  },
+  {
+    "id": "calen-sym-12",
+    "stem": "জরায়ুর ক্ষত ও রক্তক্ষরণ, প্রস্রাবের পর জ্বালাপোড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Hydrastis",
+        "mid": "hydrastis"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "female",
+      "uterus",
+      "ulcer",
+      "burning-urine"
+    ],
+    "explanation": "Calendula জরায়ুর ক্ষত ও প্রস্রাব পরবর্তী জ্বালায় কার্যকর।"
+  },
+  {
+    "id": "cantharis-sym-10",
+    "stem": "জরায়ুর প্রদাহ এবং মাসিক চলাকালীন মূত্রনালীতে জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "female",
+      "uterine-inflammation",
+      "menses",
+      "urinary-burning"
+    ],
+    "explanation": "Cantharis-এ জরায়ুর প্রদাহ এবং মাসিক চলাকালীন মূত্রনালীতে জ্বালা হয়।"
+  },
+  {
+    "id": "caul-sym-01",
+    "stem": "প্রসববেদনা দুর্বল, অনিয়মিত ও ফলহীন — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "labor",
+      "uterus"
+    ],
+    "explanation": "দুর্বল ও অকার্যকর labor pains Caulophyllum-এর প্রধান নির্দেশনা।"
+  },
+  {
+    "id": "caul-sym-04",
+    "stem": "গর্ভাশয়ের দুর্বলতার কারণে বারবার গর্ভপাত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      },
+      {
+        "text": "Aconitum",
+        "mid": "aconitum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "abortion",
+      "uterine-debility"
+    ],
+    "explanation": "Habitual abortion from uterine weakness-এ Caulophyllum গুরুত্বপূর্ণ।"
+  },
+  {
+    "id": "caul-sym-05",
+    "stem": "মাসিকের ব্যথা শরীরের বিভিন্ন স্থানে ছড়িয়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phos"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "dysmenorrhea",
+      "female"
+    ],
+    "explanation": "Flying dysmenorrhoeic pains Caulophyllum-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "caul-sym-06",
+    "stem": "গর্ভমুখ অত্যন্ত শক্ত ও অনমনীয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Secale",
+        "mid": "secale"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "labor",
+      "cervix"
+    ],
+    "explanation": "Rigid os uteri Caulophyllum-এর সুপরিচিত লক্ষণ।"
+  },
+  {
+    "id": "caul-sym-13",
+    "stem": "বাম ডিম্বাশয়ে ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "ovary",
+      "female"
+    ],
+    "explanation": "Left ovarian pain Caulophyllum নির্দেশ করে।"
+  },
+  {
+    "id": "caul-sym-14",
+    "stem": "বাম স্তনের নিচে ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "chest",
+      "female"
+    ],
+    "explanation": "Left inframammary pain Caulophyllum-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "caul-sym-16",
+    "stem": "অতিরিক্ত সাদা স্রাব ও মাসিক — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "leucorrhea",
+      "menses"
+    ],
+    "explanation": "Profuse leucorrhoea and menses Caulophyllum-এ পাওয়া যায়।"
+  },
+  {
+    "id": "caul-sym-17",
+    "stem": "জরায়ুমুখে সূচ ফোটানোর মতো ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "cervix",
+      "female"
+    ],
+    "explanation": "Needle-like cervical pain Caulophyllum-এর নির্দেশক লক্ষণ।"
+  },
+  {
+    "id": "cimicifuga-sym-01",
+    "stem": "ঋতুস্রাবের সঙ্গে ব্যথা বৃদ্ধি, যত স্রাব তত ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "dysmenorrhoea",
+      "female"
+    ],
+    "explanation": "Cimicifuga Racemosa-এর প্রধান লক্ষণ হলো ঋতুস্রাবের সঙ্গে ব্যথা বৃদ্ধি পাওয়া; যত স্রাব তত ব্যথা।"
+  },
+  {
+    "id": "cimicifuga-sym-02",
+    "stem": "ডিম্বকোষ বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "dyspnoea",
+      "palpitation",
+      "uterine"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ ডিম্বকোষের বা জরায়ুর দোষে শ্বাসকষ্ট বা হার্টবিট হতে পারে।"
+  },
+  {
+    "id": "cimicifuga-sym-12",
+    "stem": "জরায়ুর সমস্যা কমলে বাতের ব্যথা বেড়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "alternating",
+      "uterine",
+      "rheumatic"
+    ],
+    "explanation": "Cimicifuga Racemosa-এর অদ্ভুত লক্ষণ হলো জরায়ুর সমস্যা বা ঋতুস্রাবের কষ্ট কমে গেলে বাতের ব্যথা বা মানসিক কষ্ট বেড়ে যায়।"
+  },
+  {
+    "id": "cimicifuga-sym-15",
+    "stem": "গর্ভাবস্থার শেষে জরায়ুর আক্ষেপিক ব্যথা ও বারবার গর্ভপাতের প্রবণতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum-thalictroides"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "pregnancy",
+      "abortion",
+      "uterine-spasms"
+    ],
+    "explanation": "Cimicifuga Racemosa গর্ভাবস্থার শেষের দিকে জরায়ুর আক্ষেপিক ব্যথায় এবং বারবার গর্ভপাত হওয়ার প্রবণতা কমাতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": "colocynthis-sym-15",
+    "stem": "ডিম্বাশয়ে তীব্র ব্যথা, রোগী কুঁকড়ে যায়, ঋতুস্রাব চলাকালীন পেটে যন্ত্রণা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "female",
+      "ovary",
+      "menses"
+    ],
+    "explanation": "Colocynthis এ ডিম্বাশয়ে তীব্র ব্যথা হয়, যার ফলে রোগী কুঁকড়ে যায়, ঋতুস্রাব চলাকালীন পেটে যন্ত্রণায় এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "dulc-sym-13",
+    "stem": "ঋতুস্রাব খুব দেরিতে হয় এবং পরিমাণে কম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "female",
+      "menses",
+      "late",
+      "scanty"
+    ],
+    "explanation": "Dulcamara-এ ঋতুস্রাব খুব দেরিতে হয় এবং পরিমাণে কম।"
+  },
+  {
+    "id": "dulc-sym-14",
+    "stem": "ঋতুস্রাব বন্ধ হয়ে গেলে শরীরে চর্মরোগ দেখা দিতে পারে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "female",
+      "menses-suppressed",
+      "skin-eruptions"
+    ],
+    "explanation": "Dulcamara-এ ঋতুস্রাব বন্ধ হয়ে গেলে শরীরে চর্মরোগ দেখা দিতে পারে।"
+  },
+  {
+    "id": "euphrasia-sym-18",
+    "stem": "ঋতুস্রাব খুব অল্প সময় থাকে ও পরিমাণে কম, ঋতুস্রাবের সময় চোখের সমস্যা বা সর্দি বাড়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "female",
+      "menses",
+      "eye"
+    ],
+    "explanation": "Euphrasia Officinalis এ ঋতুস্রাব খুব অল্প সময় থাকে এবং পরিমাণে কম হয়, ঋতুস্রাবের সময় চোখের সমস্যা বা সর্দি বাড়তে পারে।"
+  },
+  {
+    "id": "glon-sym-15",
+    "stem": "মেনোপজে মাথায় রক্ত ওঠা ও মাথা ঘোরা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "female",
+      "menopause",
+      "congestion",
+      "vertigo"
+    ],
+    "explanation": "Glonoine মেনোপজে মাথায় রক্ত ওঠায় কার্যকর।"
+  },
+  {
+    "id": "graph-sym-03",
+    "stem": "স্থূলকায় নারী, বিলম্বিত মাসিক ও কোষ্ঠকাঠিন্য — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "female",
+      "obesity"
+    ],
+    "explanation": "Graphites বিশেষত obese, constipated women-এর জন্য পরিচিত।"
+  },
+  {
+    "id": "graph-sym-09",
+    "stem": "Leucorrhoea জ্বালাযুক্ত, দিনরাত স্রোতের মতো বের হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Kali Sulph",
+        "mid": "kali-sulph"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "leucorrhoea",
+      "female"
+    ],
+    "explanation": "Excoriating leucorrhoea indicates Graphites।"
+  },
+  {
+    "id": "graph-sym-13",
+    "stem": "মাসিক বিলম্বিত, অল্প ও ফ্যাকাশে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "menses",
+      "female"
+    ],
+    "explanation": "Late scanty menses indicate Graphites।"
+  },
+  {
+    "id": "hama-sym-09",
+    "stem": "গর্ভাবস্থায় পায়ে বা জননেন্দ্রিয়তে ভ্যারিকোজ ভেইন বা শিরা ফুলে নীল হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "female",
+      "pregnancy",
+      "varicose-veins"
+    ],
+    "explanation": "Hamamelis গর্ভাবস্থায় নীল হয়ে যাওয়া ফুলে ওঠা শিরা বা ভ্যারিকোস ভেইন চিকিৎসায় অত্যন্ত সফল।"
+  },
+  {
+    "id": "hama-sym-18",
+    "stem": "জরায়ু থেকে নির্গত রক্ত উজ্জ্বল লাল বর্ণের হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Ustilago",
+        "mid": "ustilago"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "female",
+      "uterus",
+      "bright-red-blood"
+    ],
+    "explanation": "Hamamelis-এ জরায়ু সম্পর্কিত রক্তক্ষরণে উজ্জ্বল লাল রক্তের উপস্থিতি একটি বিশেষ ক্ষেত্র নির্দেশ করে।"
+  },
+  {
+    "id": "iodium-sym-15",
+    "stem": "স্তন গ্রন্থি শুকিয়ে ছোট হয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Sabal Serrulata",
+        "mid": "sabal-serrulata"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "female",
+      "breast",
+      "atrophy"
+    ],
+    "explanation": "Iodium এ স্তন গ্রন্থি শুকিয়ে ছোট হয়ে যায়।"
+  },
+  {
+    "id": "iodium-sym-16",
+    "stem": "ঋতুস্রাবের সময় প্রচণ্ড দুর্বলতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ferrum Metallicum",
+        "mid": "ferrum-metallicum"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "female",
+      "menses",
+      "weakness"
+    ],
+    "explanation": "Iodium এ ঋতুস্রাবের সময় প্রচণ্ড দুর্বলতা হয়।"
+  },
+  {
+    "id": "lach-sym-05",
+    "stem": "মাসিক শুরু হলে অনেক লক্ষণ উপশম হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "female",
+      "menses",
+      "amelioration"
+    ],
+    "explanation": "Lachesis-এ মাসিক শুরু হলে উপশম হয়।"
+  },
+  {
+    "id": "lach-sym-16",
+    "stem": "মাসিকে রক্তপাত বেশি, কিন্তু উপশম হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "female",
+      "menses",
+      "profuse",
+      "amelioration"
+    ],
+    "explanation": "Lachesis-এ মাসিকে রক্ত বেশি কিন্তু উপশম হয়।"
+  },
+  {
+    "id": "magphos-sym-07",
+    "stem": "ঋতুস্রাবের সময় তলপেটে অসহ্য মোচড়ানি ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "female",
+      "dysmenorrhea"
+    ],
+    "explanation": "Magnesia Phosphorica এ ডিসমেনোরিয়া বা কষ্টরজ হয়, ঋতুস্রাবের সময় তলপেটে অসহ্য মোচড়ানি ব্যথা হয়।"
+  },
+  {
+    "id": "magphos-sym-19",
+    "stem": "ঋতুস্রাব শুরু হওয়ার ঠিক আগে তলপেটে প্রচণ্ড খামচানি বা মোচড়ানি ব্যথা, স্রাব পরিষ্কারভাবে প্রবাহিত হলে কমে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "female",
+      "menses",
+      "cramp"
+    ],
+    "explanation": "Magnesia Phosphorica এ ঋতুস্রাব শুরু হওয়ার ঠিক আগে তলপেটে প্রচণ্ড খামচানি বা মোচড়ানি ব্যথা শুরু হয় যা স্রাব পরিষ্কারভাবে প্রবাহিত হলে কমে।"
+  },
+  {
+    "id": "medorrhinum-sym-16",
+    "stem": "নারীদের ডিম্বাশয়ে তীব্র সূঁচ ফোটানো ব্যথা ও জরায়ুপ্রদাহ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "ovary",
+      "pain",
+      "uterine"
+    ],
+    "explanation": "Medorrhinum-এ নারীদের ডিম্বাশয়ে তীব্র সূঁচ ফোটানো ব্যথা ও জরায়ুপ্রদাহ দেখা যায়।"
+  },
+  {
+    "id": "natrum-mur-sym-06",
+    "stem": "যোনি শুষ্ক ও ফাটা ফাটা, সহবাসে কষ্ট, বিলম্বিত ঋতু — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "female",
+      "dryness",
+      "menses"
+    ],
+    "explanation": "Natrum Mur-এ যোনিপথ শুষ্ক ও ফাটা ফাটা হয়, সহবাসে কষ্ট হয় এবং ঋতুস্রাব বিলম্বিত হয়।"
+  },
+  {
+    "id": "plat-sym-05",
+    "stem": "নারীদের জননেন্দ্রিয়ের অস্বাভাবিক উত্তেজনা এবং সামান্য স্পর্শও সহ্য করতে না পারা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "female",
+      "uterine",
+      "hyperesthesia",
+      "touch"
+    ],
+    "explanation": "Platinum Metallicum-এ নারীদের জননেন্দ্রিয়ের অস্বাভাবিক উত্তেজনা ও অতিসংবেদনশীলতা থাকে; সামান্য স্পর্শও অসহনীয় হয়।"
+  },
+  {
+    "id": "plat-sym-11",
+    "stem": "নারীদের যৌন ইচ্ছা অতিশয় প্রবল (Nymphomania), কিন্তু সহবাসের সময় যোনিতে ব্যথা অনুভব করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "female",
+      "nymphomania",
+      "painful-coitus"
+    ],
+    "explanation": "Platinum Metallicum-এ নারীদের যৌন ইচ্ছা অতিশয় প্রবল থাকে, কিন্তু স্বামী সহবাসের সময় যোনিতে ব্যথা পায়।"
+  },
+  {
+    "id": "plat-sym-12",
+    "stem": "ঋতুস্রাব অত্যন্ত বেশি (Menorrhagia) হয় এবং রক্ত কালো ও চাপ চাপ থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "female",
+      "menorrhagia",
+      "black-clotted-blood"
+    ],
+    "explanation": "Platinum Metallicum-এ ঋতুস্রাব অত্যন্ত বেশি হয় (Menorrhagia), রক্ত কালো এবং চাপ চাপ থাকে।"
+  },
+  {
+    "id": "plat-sym-13",
+    "stem": "জরায়ুর স্থানচ্যুতি বা নিচে নেমে আসার অনুভূতি হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "female",
+      "uterine-prolapse",
+      "bearing-down"
+    ],
+    "explanation": "Platinum Metallicum-এ জরায়ুর স্থানচ্যুতি বা নিচে নেমে আসার অনুভূতি হয়।"
+  },
+  {
+    "id": "podo-sym-05",
+    "stem": "প্রসবের পর জরায়ু শিথিলতা ও স্থানচ্যুতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Aletris Farinosa",
+        "mid": "aletris-farinosa"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "prolapse-uterus",
+      "after-delivery",
+      "relaxation"
+    ],
+    "explanation": "Podophyllum-এ প্রসবের পর জরায়ু প্রল্যাপস হয়।"
+  },
+  {
+    "id": "podo-sym-06",
+    "stem": "ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "ovary",
+      "right",
+      "pain",
+      "thigh"
+    ],
+    "explanation": "Podophyllum-এ ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায়।"
+  },
+  {
+    "id": "pyrogenium-sym-12",
+    "stem": "প্রসবোত্তর জ্বর ও জরায়ু থেকে পচা দুর্গন্ধযুক্ত স্রাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "puerperal-fever",
+      "offensive-lochia"
+    ],
+    "explanation": "Pyrogenium প্রসবোত্তর জ্বর বা সেপটিক অবস্থায় উপযোগী, যেখানে জরায়ু থেকে অত্যন্ত পচা দুর্গন্ধযুক্ত স্রাব নির্গত হয়।"
+  },
+  {
+    "id": "sab-sym-01",
+    "stem": "নারীদের অতিরিক্ত ও অনিয়মিত রক্তস্রাব, উজ্জ্বল লাল জমাটসহ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      },
+      {
+        "text": "Ipecacuanha",
+        "mid": "ipecacuanha"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "female",
+      "hemorrhage",
+      "bright-red",
+      "clotted"
+    ],
+    "explanation": "Sabina-এ উজ্জ্বল লাল জমাটসহ অতিরিক্ত রক্তস্রাব হয়।"
+  },
+  {
+    "id": "sab-sym-06",
+    "stem": "গেঁটে বাত ও জরায়ুর লক্ষণ পর্যায়ক্রমে বাড়ে কমে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Actaea Racemosa",
+        "mid": "actaea-racemosa"
+      },
+      {
+        "text": "Abrotanum",
+        "mid": "abrotanum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "alternation",
+      "gout",
+      "uterine",
+      "rheumatism"
+    ],
+    "explanation": "Sabina-এ বাত ও জরায়ু লক্ষণ পর্যায়ক্রমে আসে।"
+  },
+  {
+    "id": "sab-sym-07",
+    "stem": "জরায়ু থেকে ভার বা পিণ্ড নিচে নেমে আসার অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Murex Purpurea",
+        "mid": "murex-purpurea"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "uterus",
+      "bearing-down",
+      "lump",
+      "prolapse-feel"
+    ],
+    "explanation": "Sabina-এ জরায়ু থেকে ভার নিচে নামার অনুভূতি থাকে।"
+  },
+  {
+    "id": "sab-sym-11",
+    "stem": "যৌনাঙ্গে ডুমুরের মতো আঁচিল, চুলকায় ও জ্বালা করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "warts",
+      "fig-warts",
+      "genital",
+      "itch",
+      "burn"
+    ],
+    "explanation": "Sabina-এ যৌনাঙ্গে ডুমুরের মতো আঁচিল হয়।"
+  },
+  {
+    "id": "sab-sym-14",
+    "stem": "ঋতুস্রাব অনেকদিন ধরে চলে, প্রচুর — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Trillium Pendulum",
+        "mid": "trillium-pendulum"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Thlaspi Bursa Pastoris",
+        "mid": "thlaspi-bursa-pastoris"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "female",
+      "menses",
+      "prolonged",
+      "profuse"
+    ],
+    "explanation": "Sabina-এ ঋতুস্রাব অনেকদিন ধরে প্রচুর হয়।"
+  },
+  {
+    "id": "sani-sym-09",
+    "stem": "স্ত্রী জননেন্দ্রিয় থেকে নির্গত স্রাবে পচা মাছের মতো তীব্র দুর্গন্ধ থাকা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla-nigricans"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "discharge",
+      "leucorrhea"
+    ],
+    "explanation": "Sanicula-এর সাদা স্রাব বা অন্যান্য স্রাবের মধ্যে পচা মাছের মতো দুর্গন্ধ (fishy odor) পরিলক্ষিত হয়।"
+  },
+  {
+    "id": "sani-sym-10",
+    "stem": "জরায়ু নিচে নেমে আসার অনুভূতি হওয়া এবং মনে করা হাত দিয়ে চেপে না ধরলে সব বের হয়ে আসবে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "female-organs",
+      "prolapse"
+    ],
+    "explanation": "Sanicula-এ জরায়ু স্থানচ্যুতির অনুভূতিতে রোগী হাত দিয়ে চেপে অঙ্গপ্রত্যঙ্গ বের হওয়া ঠেকানোর চেষ্টা করে।"
+  },
+  {
+    "id": "sars-sym-12",
+    "stem": "মেয়েদের স্তনের বোঁটা ভিতরে ঢুকে যায় (Retracted nipples) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "female",
+      "breast",
+      "retracted-nipples"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ মেয়েদের স্তনের বোঁটা ভিতরে ঢুকে যায় (Retracted nipples)।"
+  },
+  {
+    "id": "sec-sym-02",
+    "stem": "জরায়ু বা শরীরের যেকোনো অংশ থেকে কালচে, পাতলা, জমাট-নাবাঁধা ও দুর্গন্ধযুক্ত রক্তস্রাব হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "hemorrhage",
+      "dark-blood",
+      "uterus"
+    ],
+    "explanation": "Secale Cornutum-এ শরীরের যেকোনো স্থান হতে নির্গত রক্ত কালচে, তরল ও অ-জমাটবদ্ধ হয়।"
+  },
+  {
+    "id": "sec-sym-06",
+    "stem": "প্রসবের পর বা গর্ভপাতের পর জরায়ু সংকুচিত না হয়ে শিথিল হয়ে পড়ে থাকা এবং অনবরত কালো রক্তস্রাব হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Trillium",
+        "mid": "trillium"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "female",
+      "uterus",
+      "post-partum"
+    ],
+    "explanation": "Secale Cornutum প্রসব পরবর্তী জরায়ুর অটনি (Atony) এবং রক্তক্ষরণ রোধে অতি চমৎকার।"
+  },
+  {
+    "id": "sep-sym-02",
+    "stem": "তলপেট ও যোনিপথ থেকে অঙ্গপ্রত্যঙ্গ বের হয়ে আসার অনুভুতি (Bearing-down sensation) এবং উরুর ওপর উরু চেপে বসা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tig"
+      },
+      {
+        "text": "Murex",
+        "mid": "murex"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "female",
+      "bearing-down",
+      "prolapse"
+    ],
+    "explanation": "Sepia-র জরায়ুর প্রল্যাপস বা নিচুমুখী তীব্র চাপে পা একটির উপর আরেকটি দিয়ে চাপ সৃষ্টি করে বসতে দেখা যায়।"
+  },
+  {
+    "id": "sep-sym-07",
+    "stem": "শ্বেতপ্রদর বা যোনিস্রাব অত্যন্ত ঘন, হলুদাভ বা সবুজাভ, দুর্গন্ধময় ও চুলকানিযুক্ত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "leucorrhea",
+      "female",
+      "discharge"
+    ],
+    "explanation": "Sepia-র সবুজ বা হলুদ ঝাঁঝালো লিকোরিয়া অত্যন্ত স্পষ্ট।"
+  },
+  {
+    "id": "sep-sym-08",
+    "stem": "গর্ভধারণ, অতিরিক্ত সহবাস বা অতিরিক্ত রক্তক্ষয়জনিত কারণে জরায়ু ও পেলভিক পেশির শিথিলতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Helonias",
+        "mid": "helonias"
+      },
+      {
+        "text": "Aletris Far",
+        "mid": "aletris-farinosa"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "etiology",
+      "uterus",
+      "exhaustion"
+    ],
+    "explanation": "Sepia রক্তক্ষয়, গর্ভধারণ ও সহবাসের আধিক্যে উদ্ভূত জরায়ু শিথিলতার পথ্য।"
+  },
+  {
+    "id": "stannum-sym-15",
+    "stem": "জরায়ু বা জননেন্দ্রিয়ের শিথিলতা, হাঁটার সময় প্রচণ্ড দুর্বলতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lilium Tig",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "female",
+      "uterine-relaxation"
+    ],
+    "explanation": "Stannum Met-এ জরায়ু বা জননেন্দ্রিয়ের শিথিলতা হয় এবং হাঁটার সময় প্রচণ্ড দুর্বলতা অনুভব হয়।"
+  },
+  {
+    "id": "staph-sym-05",
+    "stem": "প্রথম সহবাসের পর মেয়েদের প্রস্রাব সমস্যা, হানিমুন সিস্টাইটিস — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "female",
+      "honeymoon-cystitis",
+      "first-coition",
+      "urinary"
+    ],
+    "explanation": "Staphisagria হানিমুন সিস্টাইটিসে কার্যকর।"
+  },
+  {
+    "id": "syphilinum-sym-07",
+    "stem": "মুখ নাক চর্ম যৌনাঙ্গে ক্ষত ও দুর্গন্ধ, সিফিলিটিক ক্ষত ব্যথাহীন কিন্তু গভীর, মহিলাদের ক্ষেত্রে প্রচুর দুর্গন্ধযুক্ত সাদা স্রাব, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Kali Iodatum",
+        "mid": "kali-iodatum"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "ulcer",
+      "chancre",
+      "leucorrhoea"
+    ],
+    "explanation": "Syphilinum এ মুখ নাক চর্ম যৌনাঙ্গে ক্ষত ও দুর্গন্ধ থাকে, সিফিলিটিক ক্ষত ব্যথাহীন কিন্তু গভীর হয়, মহিলাদের ক্ষেত্রে প্রচুর দুর্গন্ধযুক্ত সাদা স্রাব হয়।"
+  },
+  {
+    "id": "verat-sym-09",
+    "stem": "রোগীনি নিজেকে গর্ভবতী ভাবে এবং ভাবে শীঘ্রই সন্তান প্রসব করবে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "mental",
+      "delusion-of-pregnancy",
+      "female"
+    ],
+    "explanation": "Veratrum Album-এ রোগীনি নিজেকে গর্ভবতী ভাবে এবং ভাবে শীঘ্রই সন্তান প্রসব করবে।"
+  }
+]

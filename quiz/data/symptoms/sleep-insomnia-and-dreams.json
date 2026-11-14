@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "apis-sym-05",
+    "stem": "শিশুদের মস্তিষ্কের প্রদাহে বা ঘুমের ঘোরে হঠাৎ তীক্ষ্ণ চিৎকার করে ওঠা (Cri Encephalique) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "children",
+      "meningitis",
+      "scream",
+      "sleep"
+    ],
+    "explanation": "Apis Mellifica-এ শিশুদের মস্তিষ্কের প্রদাহে বা ঘুমের ঘোরে হঠাৎ তীক্ষ্ণ চিৎকার করে ওঠা (Cri Encephalique) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "apis-sym-13",
+    "stem": "লক্ষণ বৃদ্ধি পায় গরমে, গরম ঘরে, দুপুরের পর (বিকেল ৪টার দিকে), স্পর্শে এবং ঘুমের পর — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "heat",
+      "touch",
+      "sleep"
+    ],
+    "explanation": "Apis Mellifica-এর লক্ষণ গরমে, গরম ঘরে, দুপুরের পর (বিকেল ৪টার দিকে), স্পর্শে এবং ঘুমের পর বৃদ্ধি পায়।"
+  },
+  {
+    "id": "argm-sym-11",
+    "stem": "অনিদ্রা এবং রাতে জেগে থাকা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Passiflora",
+        "mid": "passiflora"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "sleep",
+      "insomnia"
+    ],
+    "explanation": "Argentum Metallicum-তে রাতে ঘুমের ব্যাঘাত ঘটতে পারে।"
+  },
+  {
+    "id": "ars-sym-12",
+    "stem": "বিছানায় এদিক-ওদিক ছটফট করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-tox"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "restlessness",
+      "sleep"
+    ],
+    "explanation": "অস্থিরতার কারণে অবস্থান পরিবর্তন Arsenicum Album-এর লক্ষণ।"
+  },
+  {
+    "id": "aurum-sym-13",
+    "stem": "ঘুমে জোরে কেঁদে ওঠে, চোর ডাকাতের স্বপ্ন দেখে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "sleep",
+      "dreams",
+      "crying"
+    ],
+    "explanation": "Aurum-এ ঘুমে কেঁদে ওঠা ও চোর ডাকাতের স্বপ্ন থাকে।"
+  },
+  {
+    "id": "borax-sym-03",
+    "stem": "শিশু নিদ্রিত বা দোলনায় চড়া অবস্থায় চমকে ওঠে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Asarum",
+        "mid": "asarum-europaeum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium-sempervirens"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "startles",
+      "sleep",
+      "child"
+    ],
+    "explanation": "Borax-এ শিশু নিদ্রিত অবস্থায় বা দোলনায় চড়া অবস্থায় হঠাৎ চমকে ওঠে।"
+  },
+  {
+    "id": "borax-sym-10",
+    "stem": "স্বপ্নে স্বামীর সাথে যৌনমিলন দেখা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "dreams",
+      "sexual"
+    ],
+    "explanation": "Borax-এ রোগী স্বপ্নে স্বামীর সাথে যৌনমিলন দেখে।"
+  },
+  {
+    "id": "borax-sym-20",
+    "stem": "শিশুরা ঘুমের মধ্যে হঠাৎ চিৎকার করে ওঠা ও পাশের ব্যক্তিকে আঁকড়ে ধরা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "sleep",
+      "child",
+      "screams"
+    ],
+    "explanation": "Borax-এ শিশুরা ঘুমের মধ্যে হঠাৎ চিৎকার করে ওঠে এবং পাশের ব্যক্তিকে আঁকড়ে ধরে।"
+  },
+  {
+    "id": "calc-sym-02",
+    "stem": "ঘুমের সময় মাথায় প্রচুর টক গন্ধযুক্ত ঘাম হওয়া এবং বালিশ ভিজে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Sanicula",
+        "mid": "sanicula"
+      },
+      {
+        "text": "Magnesia Mur",
+        "mid": "magnesia-mur"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "head",
+      "sweat",
+      "sleep"
+    ],
+    "explanation": "Calcarea Carb-এর অন্যতম মূল লক্ষণ হলো ঘুমালে মাথায় প্রচুর ঘাম হয় যা দিয়ে বালিশ ভিজে যায় এবং টক গন্ধ বের হয়।"
+  },
+  {
+    "id": "camph-sym-20",
+    "stem": "অনিদ্রা, হাতে-পায়ে ঠান্ডাভাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "sleep",
+      "coldness"
+    ]
+  },
+  {
+    "id": "caul-sym-19",
+    "stem": "অনিদ্রা, স্নায়বিক অস্থিরতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "insomnia",
+      "nervousness"
+    ],
+    "explanation": "Sleepless and nervous condition Caulophyllum-এর সঙ্গে মেলে।"
+  },
+  {
+    "id": "causticum-sym-09",
+    "stem": "নিদ্রাকালে অস্থিরতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "sleep",
+      "restlessness"
+    ],
+    "explanation": "Causticum-এ নিদ্রাকালে অস্থিরতা দেখা যায়।"
+  },
+  {
+    "id": "cina-sym-02",
+    "stem": "ঘুমের মধ্যে দাঁত কিড়মিড় করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Kali Phos",
+        "mid": "kali-phos"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "worms",
+      "sleep"
+    ],
+    "explanation": "Bruxism বা দাঁত কিড়মিড় করা Cina-এর কৃমিজনিত লক্ষণ।"
+  },
+  {
+    "id": "cina-sym-05",
+    "stem": "ঘুমের মধ্যে চিৎকার ও ভয় পায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "sleep",
+      "children"
+    ],
+    "explanation": "ঘুমে চিৎকার Cina শিশুদের একটি গুরুত্বপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "cina-sym-14",
+    "stem": "ঘুমের সময় হাত-পা ঝাঁকুনি দেয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "sleep",
+      "jerking"
+    ],
+    "explanation": "Sleep jerking Cina-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "cinn-sym-18",
+    "stem": "রাতে অনিদ্রা এবং ঘুমোতে গেলে অদ্ভুত ও দুঃস্বপ্ন দেখার প্রবণতা থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Passiflora",
+        "mid": "passiflora"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "sleep",
+      "dreams",
+      "insomnia"
+    ],
+    "explanation": "Cinnabaris-এ রাতে ঘুম সহজে আসতে চায় না এবং ঘুম এলেও নানান রকমের বিশ্রী স্বপ্ন মানসিক ব্যাঘাত তৈরি করে।"
+  },
+  {
+    "id": "conium-sym-10",
+    "stem": "নিদ্রাকালে ঘর্ম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "sweat",
+      "sleep",
+      "night"
+    ],
+    "explanation": "Conium-এ নিদ্রাকালে ঘাম হয়।"
+  },
+  {
+    "id": "croton-sym-19",
+    "stem": "ঘুমের পর ও মৃদু চাপে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "modalities",
+      "sleep",
+      "pressure"
+    ],
+    "explanation": "Croton Tiglium-এর লক্ষণ ঘুমের পর, মৃদু চাপে এবং ঠান্ডা জলের প্রয়োগে (চর্মরোগে) উপশম হয়।"
+  },
+  {
+    "id": "ferrum-phos-sym-14",
+    "stem": "রাতে ঘুমের মধ্যে অস্থিরতা ও আবল-তাবল বকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "sleep",
+      "restlessness",
+      "delirium"
+    ],
+    "explanation": "Ferrum Phos-এ রাতে ঘুমের মধ্যে অস্থিরতা এবং আবল-তাবল বকার প্রবণতা থাকতে পারে।"
+  },
+  {
+    "id": "hepar-sym-11",
+    "stem": "আগুনের স্বপ্ন দেখা, টক ঝাল খাবার ইচ্ছা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "dreams",
+      "desire",
+      "sour",
+      "spicy"
+    ],
+    "explanation": "Hepar Sulph রোগী আগুনের স্বপ্ন দেখে এবং টক ঝাল খাবার ইচ্ছা করে।"
+  },
+  {
+    "id": "hyoscyamus-sym-10",
+    "stem": "অতিরিক্ত নিদ্রা ও বিছানা খোঁটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium-sempervirens"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "sleep",
+      "picking-bedclothes"
+    ],
+    "explanation": "Hyoscyamus-এ রোগীর অতিরিক্ত নিদ্রা হয় এবং সে বিছানার চাদর বা বালিশ খোঁটে।"
+  },
+  {
+    "id": "hyper-sym-15",
+    "stem": "ঘুমে চমকে ওঠে, উঁচু থেকে পড়ে যাচ্ছে মনে হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "sleep",
+      "startled",
+      "falling",
+      "dream"
+    ],
+    "explanation": "Hypericum-এ ঘুমে চমকে ওঠে ও পড়ে যাওয়ার স্বপ্ন দেখে।"
+  },
+  {
+    "id": "ign-sym-09",
+    "stem": "গভীর মানসিক আঘাতের পর অনিদ্রা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Coffea",
+        "mid": "coffea"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "insomnia",
+      "grief"
+    ],
+    "explanation": "Insomnia from grief নির্দেশ করে Ignatia।"
+  },
+  {
+    "id": "lach-sym-06",
+    "stem": "ঘুমের পর সব লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "aggravation",
+      "sleep",
+      "after-sleep"
+    ],
+    "explanation": "Lachesis-এ ঘুমের পর অবনতি ঘটে।"
+  },
+  {
+    "id": "lach-sym-13",
+    "stem": "গরমে, স্পর্শে, ঘুমের পর, সকালে, বাম পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "aggravation",
+      "heat",
+      "touch",
+      "sleep",
+      "morning",
+      "left-lying"
+    ],
+    "explanation": "Lachesis-এ গরমে, স্পর্শে, ঘুমের পর বৃদ্ধি।"
+  },
+  {
+    "id": "medorrhinum-sym-01",
+    "stem": "উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে ঘুমানো — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "sleep",
+      "knee-chest"
+    ],
+    "explanation": "Medorrhinum-এর প্রধান লক্ষণ হলো রোগী বা শিশু উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে (Knee-chest position) ঘুমায়।"
+  },
+  {
+    "id": "merc-sym-02",
+    "stem": "প্রচণ্ড লালাঝরা, ঘুমে বা কথা বলার সময় দুর্গন্ধযুক্ত লালায় বালিশ ভেজে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "salivation",
+      "offensive",
+      "pillow-wet",
+      "sleep"
+    ],
+    "explanation": "Merc Vivus-এ দুর্গন্ধযুক্ত লালা বালিশ ভেজায়।"
+  },
+  {
+    "id": "natp-sym-06",
+    "stem": "ঘুমের মাঝে চমকে ওঠা, সামান্য শব্দে চমকায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "sleep",
+      "startled",
+      "noise",
+      "sensitive"
+    ],
+    "explanation": "Natrum Phos রাতে সামান্য শব্দে চমকে ওঠে।"
+  },
+  {
+    "id": "nux-sym-07",
+    "stem": "অল্প ঘুমেই জেগে যায়, ঘুম ভেঙে চিন্তা করে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Coffea",
+        "mid": "coffea"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "insomnia",
+      "sleep"
+    ],
+    "explanation": "Business-related insomnia often calls for Nux Vomica."
+  },
+  {
+    "id": "nux-sym-16",
+    "stem": "ভোর ৩-৪টার দিকে জেগে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Coffea",
+        "mid": "coffea"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "sleep",
+      "early-waking"
+    ],
+    "explanation": "Early waking is common in Nux Vomica."
+  },
+  {
+    "id": "opi-sym-02",
+    "stem": "রোগীর চোখ অর্ধেক খোলা রেখে আচ্ছন্নভাবে ঘুমানো ও তীব্র তন্দ্রাচ্ছন্নতা (Drowsiness) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antim-tart"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "sleep",
+      "drowsiness",
+      "eyes"
+    ],
+    "explanation": "Opium-এ গভীর তন্দ্রা, আধখোলা চোখ এবং ঘুম থেকে সহজে না জাগার লক্ষণ দেখা যায়।"
+  },
+  {
+    "id": "opi-sym-04",
+    "stem": "নিদ্রাকালে গলার মধ্যে তীব্র নাসিকাধ্বনি বা ঘড়ঘড় শব্দ (Stertorous breathing) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "respiratory",
+      "snoring",
+      "stertorous"
+    ],
+    "explanation": "Opium-এ নিশ্বাসে তীব্র ঘড়ঘড় ও বিকট নাক ডাকার শব্দ অত্যন্ত স্পষ্ট।"
+  },
+  {
+    "id": "opi-sym-05",
+    "stem": "নিদ্রাকালে শ্বাস বন্ধ হয়ে যাওয়া (Sleep Apnea) এবং শরীর ঝাঁকি দিয়ে পুনরায় শ্বাস শুরু হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Grindelia",
+        "mid": "grindelia"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "respiratory",
+      "sleep-apnea",
+      "suffocation"
+    ],
+    "explanation": "Opium-এ ঘুমালেই শ্বাস অবরুদ্ধ হয়ে পড়ে এবং ঝাঁকি দিয়ে রোগী জেগে শ্বাস টানে।"
+  },
+  {
+    "id": "opi-sym-17",
+    "stem": "ঘুমের সময় ও ঘুমের ঠিক পর এবং অতিরিক্ত গরমে রোগের বৃদ্ধি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "aggravation",
+      "sleep",
+      "warmth"
+    ],
+    "explanation": "Opium-এ শয়ন, নিদ্রা এবং অতিরিক্ত উত্তাপে অসুস্থতার বৃদ্ধি পরিলক্ষিত হয়।"
+  },
+  {
+    "id": "plumbum-sym-04",
+    "stem": "নিদ্রার সময় অদ্ভুত পজিশনে ঘুমায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "sleep",
+      "position"
+    ],
+    "explanation": "Plumbum Metallicum রোগী নিদ্রার সময় অদ্ভুত পজিশনে ঘুমায়।"
+  },
+  {
+    "id": "podo-sym-11",
+    "stem": "ঘুমে দাঁত কিড়মিড় ও মাথা এপাশ-ওপাশ নাড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Cicuta Virosa",
+        "mid": "cicuta-virosa"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "teeth-grinding",
+      "head-rolling",
+      "sleep",
+      "child"
+    ],
+    "explanation": "Podophyllum-এ শিশুরা ঘুমে দাঁত কিড়মিড় ও মাথা নাড়ে।"
+  },
+  {
+    "id": "rhus-sym-07",
+    "stem": "স্বপ্নে অতিরিক্ত শারীরিক পরিশ্রম, সাঁতার কাটা বা নৌকা চালানোর দৃশ্য দেখা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "mental",
+      "dreams"
+    ],
+    "explanation": "Rhus Tox রোগীর মানসিক লক্ষণের মধ্যে অতিরিক্ত পরিশ্রম বা সাঁতার কাটার স্বপ্ন দেখার বিষয়টি বিশেষভাবে উল্লেখযোগ্য।"
+  },
+  {
+    "id": "sel-sym-01",
+    "stem": "বীর্য পাতলা, গন্ধহীন, ঘুমে ফোটা ফোটা পড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "semen",
+      "thin",
+      "odorless",
+      "dribbling",
+      "sleep"
+    ],
+    "explanation": "Selenium-এ বীর্য পাতলা, গন্ধহীন ও ফোটা ফোটা পড়ে।"
+  },
+  {
+    "id": "sel-sym-18",
+    "stem": "রোদে, গরমে, ঘুমের পর, সহবাসের পর, মদে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "aggravation",
+      "sun",
+      "heat",
+      "sleep",
+      "coition",
+      "alcohol"
+    ],
+    "explanation": "Selenium-এ রোদে, গরমে, ঘুমের পর, সহবাসের পর বৃদ্ধি।"
+  },
+  {
+    "id": "sil-sym-17",
+    "stem": "ঘুমের সময় মাথায় প্রচুর ঘাম হয়, যা বালিশ ভিজিয়ে দেয় (বিশেষত শিশুদের ক্ষেত্রে) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "head-sweat",
+      "sleep",
+      "children"
+    ],
+    "explanation": "Silicea-এ ঘুমের সময় মাথায় প্রচুর ঘাম হয়, যা বালিশ ভিজিয়ে দেয় (বিশেষ করে শিশুদের ক্ষেত্রে)।"
+  },
+  {
+    "id": "spongia-sym-08",
+    "stem": "নিদ্রাকালে রোগ বৃদ্ধি, ঘুম থেকে জেগে দম বন্ধ হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "sleep",
+      "dyspnoea"
+    ],
+    "explanation": "Spongia-তে নিদ্রাকালে রোগ বৃদ্ধি পায় এবং ঘুম থেকে জেগে দম বন্ধ হয়ে আসে।"
+  },
+  {
+    "id": "stannum-sym-08",
+    "stem": "এক পা গুটিয়ে অন্য পা সোজা করে শোয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "sleep",
+      "posture"
+    ],
+    "explanation": "Stannum Met-এ রোগী এক পা গুটিয়ে অন্য পা সোজা করে শোয়।"
+  },
+  {
+    "id": "staph-sym-12",
+    "stem": "সারাদিন নিদ্রালু, সারারাত নিদ্রাহীন — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "sleep",
+      "sleepy-day",
+      "sleepless-night"
+    ],
+    "explanation": "Staphisagria-এ দিনে নিদ্রালু ও রাতে নিদ্রাহীন থাকে।"
+  },
+  {
+    "id": "sul-sym-20",
+    "stem": "দিনের বেলা তন্দ্রাচ্ছন্ন ভাব কিন্তু রাতে বিছানায় গেলে অনিদ্রা (Sleepy by day, sleepless at night) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "sleep",
+      "sleepy-day",
+      "sleepless-night"
+    ],
+    "explanation": "Sulphur-এর নিদ্রাহীনতার ধরন হলো দিনে ঘুম ঘুম ভাব আর রাতে নির্ঘুম কাটানো।"
+  },
+  {
+    "id": "syphilinum-sym-04",
+    "stem": "অনিদ্রা ও অক্ষুধা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "insomnia",
+      "appetite"
+    ],
+    "explanation": "Syphilinum এ অনিদ্রা ও অক্ষুধা থাকে।"
+  },
+  {
+    "id": "syphilinum-sym-10",
+    "stem": "মুখে থুথু জমে খুব, ঘুমালে লালা পড়ে, প্রচণ্ড লালা নিঃসরণ হয়, ঘুমের সময় মুখ থেকে প্রচুর লালা পড়ে বালিশ ভিজে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "saliva",
+      "drooling",
+      "sleep"
+    ],
+    "explanation": "Syphilinum এ মুখে থুথু জমে খুব, ঘুমালে লালা পড়ে, ঘুমের সময় মুখ থেকে প্রচুর লালা পড়ে বালিশ ভিজে যায়।"
+  },
+  {
+    "id": "thuja-sym-11",
+    "stem": "বদ্ধমূল ধারণা ও স্বপ্নবহুল নিদ্রা, বদমেজাজ একগুঁয়ে বাঁচতে চায় না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "mind",
+      "fixed-idea",
+      "dreamful-sleep",
+      "obstinate"
+    ],
+    "explanation": "Thuja-এ বদ্ধমূল ধারণা ও স্বপ্নবহুল নিদ্রা থাকে।"
+  },
+  {
+    "id": "zincum-sym-07",
+    "stem": "শিশু লিঙ্গ ধরে টানে, শিশু ঘুমে কেঁদে ওঠে, শিশুরা ঘুমের মধ্যে আঁতকে ওঠে বা চিৎকার করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "child",
+      "sleep",
+      "genitals"
+    ],
+    "explanation": "Zincum Metallicum এ শিশু লিঙ্গ ধরে টানে, শিশু ঘুমে কেঁদে ওঠে, শিশুরা ঘুমের মধ্যে আঁতকে ওঠে বা চিৎকার করে।"
+  },
+  {
+    "id": "zincum-sym-17",
+    "stem": "মদ বা উদ্দীপক পানীয় পান করলে, সন্ধ্যার দিকে, খাওয়ার পর ও ঘুমের সময় বৃদ্ধি পায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "aggravation",
+      "alcohol",
+      "evening",
+      "eating",
+      "sleep"
+    ],
+    "explanation": "Zincum Metallicum এ মদ বা উদ্দীপক পানীয় পান করলে, সন্ধ্যার দিকে, খাওয়ার পর এবং ঘুমের সময় বৃদ্ধি পায়।"
+  }
+]

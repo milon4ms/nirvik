@@ -1,0 +1,2365 @@
+[
+  {
+    "id": "apis-sym-04",
+    "stem": "রোগী চরম গরমকাতর; উত্তাপ বা গরম ঘর সহ্য করতে পারে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "thermal",
+      "hot-patient",
+      "heat-intolerance"
+    ],
+    "explanation": "Apis Mellifica-এ রোগী চরম গরমকাতর (Very Hot); উত্তাপ বা গরম ঘর তার সহ্য হয় না।"
+  },
+  {
+    "id": "apis-sym-13",
+    "stem": "লক্ষণ বৃদ্ধি পায় গরমে, গরম ঘরে, দুপুরের পর (বিকেল ৪টার দিকে), স্পর্শে এবং ঘুমের পর — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "heat",
+      "touch",
+      "sleep"
+    ],
+    "explanation": "Apis Mellifica-এর লক্ষণ গরমে, গরম ঘরে, দুপুরের পর (বিকেল ৪টার দিকে), স্পর্শে এবং ঘুমের পর বৃদ্ধি পায়।"
+  },
+  {
+    "id": "apis-sym-20",
+    "stem": "গরম কাতর (Very Hot) এবং প্রধানত ডান পার্শ্বে কাজ করে — এই বৈশিষ্ট্যের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "thermal",
+      "hot-patient",
+      "right-sided"
+    ],
+    "explanation": "Apis Mellifica চরম গরমকাতর (Very Hot) এবং প্রধানত ডান পার্শ্বে কাজ করে।"
+  },
+  {
+    "id": "argm-sym-05",
+    "stem": "মাথায় ব্যথা যা গরম আবহাওয়ায় বেড়ে যায় — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Glonoinum",
+        "mid": "glonoinum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "headache",
+      "heat-aggravation"
+    ],
+    "explanation": "Argentum Metallicum-এ মাথার ব্যথা গরম আবহাওয়ায় বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "argm-sym-20",
+    "stem": "গরম ঘরে বা গরম আবহাওয়ায় লক্ষণের তীব্রতা বেড়ে যায় — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "modality",
+      "heat-aggravation"
+    ],
+    "explanation": "Argentum Metallicum-র লক্ষণগুলো গরম ঘরে বা উষ্ণ তাপে বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "argn-sym-11",
+    "stem": "গরমকাতর (Hot patient) প্রকৃতির রোগী হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "thermal",
+      "hot-patient"
+    ],
+    "explanation": "Argentum Nitricum হলো গরমকাতর (Hot patient) প্রকৃতির একটি হোমিওপ্যাথিক ঔষধ।"
+  },
+  {
+    "id": "arnica-mont-sym-04",
+    "stem": "জ্বরের সময় মাথা ও মুখমণ্ডল গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Ferrum Phosphoricum",
+        "mid": "ferrum-phosphoricum"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "fever",
+      "head-hot-body-cold",
+      "circulation"
+    ],
+    "explanation": "Arnica Montana-এ মাথা ও মুখমণ্ডল বেশ গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে।"
+  },
+  {
+    "id": "arsenicum-iod-sym-15",
+    "stem": "গরমে, গরম ঘরে ও বদ্ধ বাতাসে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "modalities",
+      "heat",
+      "warm-room"
+    ],
+    "explanation": "Arsenicum Iodatum-এর লক্ষণ গরমে, গরম ঘরে, বদ্ধ বাতাসে, পরিশ্রম করলে এবং তামাকের ধোঁয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "arsenicum-iod-sym-17",
+    "stem": "ঠান্ডা ভালোবাসে কিন্তু সহ্য করতে পারে না (গরমকাতর) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "thermals",
+      "hot-patient"
+    ],
+    "explanation": "Arsenicum Iodatum-এ রোগী গরমকাতর; সে ঠান্ডা ভালোবাসে কিন্তু ঠান্ডা তার সহ্য হয় না।"
+  },
+  {
+    "id": "aurum-sym-11",
+    "stem": "মুক্ত বাতাসে, গান শুনলে, উষ্ণতায় উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "amelioration",
+      "open-air",
+      "music",
+      "warmth"
+    ],
+    "explanation": "Aurum মুক্ত বাতাস ও মিউজিকে উপশম পায়।"
+  },
+  {
+    "id": "bac-sym-18",
+    "stem": "খোলা বাতাসে ও গরমে উপশম হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "amelioration",
+      "open-air",
+      "warmth"
+    ],
+    "explanation": "Bacillinum এ খোলা বাতাসে এবং গরমে উপশম হয়।"
+  },
+  {
+    "id": "bell-sym-15",
+    "stem": "উচ্চ জ্বরেও ঘাম ছাড়া উত্তাপ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "fever",
+      "heat"
+    ],
+    "explanation": "Dry burning heat Belladonna-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "bry-sym-20",
+    "stem": "গরম আবহাওয়ায় বা গরমে এবং খাওয়ার পর রোগলক্ষণ বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "aggravation",
+      "warmth",
+      "eating"
+    ],
+    "explanation": "Bryonia-এর বৃদ্ধি ঘটে গরম আবহাওয়ায়, অতিরিক্ত তাপে, খাওয়ার পর এবং সকালের দিকে।"
+  },
+  {
+    "id": "calc-sulph-sym-19",
+    "stem": "গরম ঘরে, পরিশ্রমে ও জলে ভিজলে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "modalities",
+      "warm-room",
+      "exertion",
+      "wetting"
+    ],
+    "explanation": "Calcarea Sulph-এর লক্ষণ গরম ঘর বা গরম আবহাওয়ায়, পরিশ্রম করলে এবং জলে ভিজলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "calcphos-sym-20",
+    "stem": "গ্রীষ্মকাল, উষ্ণ শুষ্ক আবহাওয়া ও বিশ্রামে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "amelioration",
+      "summer",
+      "warmth",
+      "rest"
+    ],
+    "explanation": "Calcarea Phosphorica এ গ্রীষ্মকালে, উষ্ণ ও শুষ্ক আবহাওয়ায় এবং বিশ্রাম নিলে উপশম হয়।"
+  },
+  {
+    "id": "calen-sym-14",
+    "stem": "স্থির হয়ে শুয়ে থাকলে ও উষ্ণতায় উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "amelioration",
+      "lying-still",
+      "warmth"
+    ],
+    "explanation": "Calendula স্থির শুয়ে ও উষ্ণতায় উপশম পায়।"
+  },
+  {
+    "id": "caps-sym-20",
+    "stem": "গরমে, খাওয়ার সময় ও ক্রমাগত নড়াচড়ায় উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "amelioration",
+      "warmth",
+      "motion"
+    ],
+    "explanation": "Capsicum Annuum এ গরমে, খাওয়ার সময় এবং ক্রমাগত নড়াচড়া করলে উপশম হয়।"
+  },
+  {
+    "id": "causticum-sym-10",
+    "stem": "শরীর ছিড়ে ফেলার মতো ব্যথা, উত্তাপে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "pain",
+      "tearing",
+      "heat-amelioration"
+    ],
+    "explanation": "Causticum-এ শরীর ছিড়ে ফেলার মতো ব্যথা হয় যা উত্তাপে উপশম হয়।"
+  },
+  {
+    "id": "chel-sym-02",
+    "stem": "রোগী অত্যন্ত গরম পানীয় বা ফুটন্ত গরম দুধ পান করতে চায় এবং এতে আরাম বোধ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "thirst",
+      "hot-drinks",
+      "liver"
+    ],
+    "explanation": "Chelidonium Majus-এ রোগী অত্যন্ত গরম পানীয় বা ফুটন্ত গরম দুধ পান করতে চায় এবং এতে সে বেশ আরাম বোধ করে।"
+  },
+  {
+    "id": "chel-sym-15",
+    "stem": "এক পা ঠান্ডা এবং অপর পা গরম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "extremities",
+      "one-foot-cold-one-hot"
+    ],
+    "explanation": "Chelidonium Majus-এ এক পা ঠান্ডা এবং অপর পা গরম অনুভূত হয়।"
+  },
+  {
+    "id": "chel-sym-19",
+    "stem": "গরম খেলে লিভার, পাকস্থলি ও বুকের রোগ উপশম হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "warm-food",
+      "liver",
+      "stomach"
+    ],
+    "explanation": "Chelidonium Majus-এ গরম খেলে লিভার, পাকস্থলি ও বুকের রোগ উপশম হয়।"
+  },
+  {
+    "id": "china-sym-20",
+    "stem": "জোরে চেপে ধরলে, কুঁকড়ে শুলে ও উষ্ণতায় উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "warmth"
+    ],
+    "explanation": "China এ জোরে চেপে ধরলে, কুঁকড়ে শুলে এবং উষ্ণতায় উপশম হয়।"
+  },
+  {
+    "id": "clem-sym-04",
+    "stem": "মাথায় বা শরীরের ভাঁজে উদ্ভেদ যা থেকে আঠালো রস বের হয় এবং বিছানার গরমে চুলকানি বাড়ে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "skin",
+      "eruptions",
+      "warmth-bed"
+    ],
+    "explanation": "Clematis Erecta-এর চর্মরোগে রসযুক্ত খসখসে উদ্ভেদ থাকে যা বিছানার উত্তাপে তীব্রভাবে চুলকায়।"
+  },
+  {
+    "id": "colocynthis-sym-20",
+    "stem": "সামনে ঝুঁকে দ্বিভাঁজ হয়ে শুলে, জোরে চাপে, গরমে ও কফি পান করলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "amelioration",
+      "bend-double",
+      "pressure",
+      "warmth"
+    ],
+    "explanation": "Colocynthis এ সামনের দিকে ঝুঁকে দ্বিভাঁজ হয়ে শুলে, জোরে চাপে, গরমে এবং কফি পান করলে উপশম হয়।"
+  },
+  {
+    "id": "croton-sym-18",
+    "stem": "খাওয়া বা পান করার পরপরই, গরমে ও রাতে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "modalities",
+      "after-eating",
+      "heat",
+      "night"
+    ],
+    "explanation": "Croton Tiglium-এর লক্ষণ খাওয়া বা পান করার পরপরই, গরমে, রাতে এবং স্পর্শ করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "dulc-sym-16",
+    "stem": "লক্ষণ উপশম হয় নড়াচড়ায় এবং উষ্ণতায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Mag Phos",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "motion",
+      "warmth"
+    ],
+    "explanation": "Dulcamara-এর লক্ষণ নড়াচড়ায় এবং উষ্ণতায় উপশম হয় (কিছু সূত্রে উল্লেখ আছে)।"
+  },
+  {
+    "id": "euphrasia-sym-19",
+    "stem": "সকালে, সূর্যের আলোতে, গরম ঘরে ও দক্ষিণে প্রবাহিত বাতাসে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "sun",
+      "warm"
+    ],
+    "explanation": "Euphrasia Officinalis এ সকালে, সূর্যের আলোতে, গরম ঘরে এবং দক্ষিণে প্রবাহিত বাতাসে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "glon-sym-02",
+    "stem": "সূর্যের আলোতে রোগ বৃদ্ধি, টুপি বা ঘোমটা অসহ্য — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "aggravation",
+      "sun",
+      "hat",
+      "head-covering"
+    ],
+    "explanation": "Glonoine-এ রোদে বৃদ্ধি ও মাথার আবরণ অসহ্য।"
+  },
+  {
+    "id": "glon-sym-07",
+    "stem": "মাথা গরম, মুখ লাল ফুলে ওঠা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Melilotus",
+        "mid": "melilotus"
+      },
+      {
+        "text": "Ferrum Metallicum",
+        "mid": "ferrum-metallicum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "head",
+      "hot",
+      "face",
+      "red",
+      "swollen"
+    ],
+    "explanation": "Glonoine-এ মাথা গরম ও মুখ লাল ফুলে যায়।"
+  },
+  {
+    "id": "glon-sym-08",
+    "stem": "রোদে ঘোরাঘুরি বা আগুনের তাপে মাথায় রক্ত ওঠা, সানস্ট্রোক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "sunstroke",
+      "sun",
+      "heat",
+      "fire"
+    ],
+    "explanation": "Glonoine সানস্ট্রোকে এক নম্বর ঔষধ।"
+  },
+  {
+    "id": "glon-sym-17",
+    "stem": "সূর্যের আলোতে, আগুনের তাপে, চুলে তেল লাগালে, মদ পানে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "aggravation",
+      "sun",
+      "heat",
+      "hair-oil",
+      "alcohol"
+    ],
+    "explanation": "Glonoine-এ রোদ, তাপ, তেল ও মদে বৃদ্ধি।"
+  },
+  {
+    "id": "glon-sym-19",
+    "stem": "গরমকাতর, উৎস রাসায়নিক নাইট্রোগ্লিসারিন, সোরা মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Melilotus",
+        "mid": "melilotus"
+      },
+      {
+        "text": "Amyl Nitrosum",
+        "mid": "amyl-nitrosum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "generalities",
+      "hot",
+      "source",
+      "miasm"
+    ],
+    "explanation": "Glonoine গরমকাতর ও নাইট্রোগ্লিসারিন থেকে তৈরি।"
+  },
+  {
+    "id": "hell-sym-13",
+    "stem": "লক্ষণ উপশম হয় গরমে (Warmth) এবং শান্তভাবে শুয়ে থাকলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "warmth",
+      "lying-still"
+    ],
+    "explanation": "Helleborus Niger-এর লক্ষণ গরমে (Warmth) এবং শান্তভাবে শুয়ে থাকলে উপশম হয়।"
+  },
+  {
+    "id": "iodium-sym-03",
+    "stem": "অস্থিরতা ও উত্তাপ, এক মুহূর্ত স্থির হয়ে বসতে পারে না, সবসময় কিছু করতে চায়, শরীর থেকে প্রচণ্ড উত্তাপ বের হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "restlessness",
+      "heat"
+    ],
+    "explanation": "Iodium রোগী এক মুহূর্ত স্থির হয়ে বসতে পারে না, সবসময় কিছু না কিছু করতে চায় এবং তার শরীর থেকে প্রচণ্ড উত্তাপ বের হয়।"
+  },
+  {
+    "id": "iodium-sym-04",
+    "stem": "খোলা বাতাসে আরাম, অত্যন্ত গরমকাতর, গরম ঘরে থাকতে পারে না, খোলা ঠান্ডা বাতাসে ঘুরে বেড়ালে আরাম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "hot-patient",
+      "open-air"
+    ],
+    "explanation": "Iodium রোগী অত্যন্ত গরমকাতর, গরম ঘরে থাকতে পারে না এবং খোলা ঠান্ডা বাতাসে ঘুরে বেড়ালে খুব আরাম বোধ করে।"
+  },
+  {
+    "id": "iodium-sym-19",
+    "stem": "গরমে, গরম ঘরে, বিশ্রাম নিলে ও আহার না করলে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "aggravation",
+      "warmth",
+      "rest",
+      "fasting"
+    ],
+    "explanation": "Iodium এ গরমে, গরম ঘরে, বিশ্রাম নিলে এবং আহার না করলে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "ipecac-sym-15",
+    "stem": "আর্দ্র গরম আবহাওয়ায় লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "damp-hot-weather"
+    ],
+    "explanation": "Ipecac-এর লক্ষণ আর্দ্র গরম আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "lac-can-sym-14",
+    "stem": "স্পর্শে ও গরমে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "modalities",
+      "touch",
+      "heat"
+    ],
+    "explanation": "Lac Caninum-এর লক্ষণ স্পর্শে ও গরমে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "lach-sym-13",
+    "stem": "গরমে, স্পর্শে, ঘুমের পর, সকালে, বাম পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "aggravation",
+      "heat",
+      "touch",
+      "sleep",
+      "morning",
+      "left-lying"
+    ],
+    "explanation": "Lachesis-এ গরমে, স্পর্শে, ঘুমের পর বৃদ্ধি।"
+  },
+  {
+    "id": "lach-sym-15",
+    "stem": "গরমকাতর, উৎস বুশমাস্টার সাপের বিষ — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Crotalus Horridus",
+        "mid": "crotalus-horridus"
+      },
+      {
+        "text": "Naja Tripudians",
+        "mid": "naja-tripudians"
+      },
+      {
+        "text": "Elaps Corallinus",
+        "mid": "elaps-corallinus"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "generalities",
+      "hot",
+      "snake-venom",
+      "source"
+    ],
+    "explanation": "Lachesis গরমকাতর ও সাপের বিষ থেকে তৈরি।"
+  },
+  {
+    "id": "lyc-sym-09",
+    "stem": "গরম খাবার ও পানীয় গ্রহণে পেটের ও গলার যাবতীয় উপসর্গের উপশম হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "amelioration",
+      "warm-food",
+      "stomach"
+    ],
+    "explanation": "Lycopodium-এর রোগী গরম খাদ্য ও গরম পানীয় সেবনে শারীরিক প্রশান্তি পায়।"
+  },
+  {
+    "id": "mag-carb-sym-05",
+    "stem": "গর্ভবতী নারীদের দাঁতের ব্যথা, যা রাতে বিছানার গরমে বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Plantago Major",
+        "mid": "plantago-major"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "toothache",
+      "pregnancy",
+      "night",
+      "bed-heat"
+    ],
+    "explanation": "Magnesia Carbonica গর্ভাবস্থায় নারীদের দাঁতের ব্যথায় কার্যকর; এই ব্যথা সাধারণত রাতে শুতে গেলে বা বিছানার গরমে বেড়ে যায়।"
+  },
+  {
+    "id": "mag-carb-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় রাতে, বিছানার গরমে, বিশ্রামে এবং ঠান্ডা বাতাসে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "night",
+      "bed-heat",
+      "rest",
+      "cold-air"
+    ],
+    "explanation": "Magnesia Carbonica-এর লক্ষণ রাতে, বিছানার গরমে, বিশ্রামে এবং ঠান্ডা বাতাসে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "magphos-sym-02",
+    "stem": "গরম সেঁক দিলে বা গরম জল পান করলে ব্যথা জাদুর মতো কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "amelioration",
+      "warmth",
+      "pain"
+    ],
+    "explanation": "Magnesia Phosphorica এ যেকোনো ব্যথা গরম সেঁক দিলে বা গরম জল পানে জাদুর মতো কমে যায়।"
+  },
+  {
+    "id": "magphos-sym-20",
+    "stem": "ডান দিকে, ঠান্ডা বাতাসে, ঠান্ডা জলে ধুলে বা স্নান করলে, স্পর্শে ও রাতে বিছানায় উন্মুক্ত থাকলে বৃদ্ধি, গরম সেঁক, চাপ, কুঁকড়ে বসা বা ঘষলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "cold",
+      "warmth"
+    ],
+    "explanation": "Magnesia Phosphorica এ শরীরের ডান দিকে, ঠান্ডা বাতাসে, ঠান্ডা জলে ধুলে বা স্নান করলে, স্পর্শ করলে এবং রাতে বিছানায় উন্মুক্ত থাকলে বৃদ্ধি হয়, উষ্ণতা বা গরম সেঁক, চাপ, কুঁকড়ে বসা বা ঘষলে উপশম হয়।"
+  },
+  {
+    "id": "merc-sym-04",
+    "stem": "রাতে ও বিছানার গরমে প্রতিটি কষ্ট তীব্র হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "aggravation",
+      "night",
+      "bed-heat"
+    ],
+    "explanation": "Merc Vivus-এ রাতে ও বিছানার গরমে বৃদ্ধি।"
+  },
+  {
+    "id": "merc-sym-16",
+    "stem": "রাতে, বিছানার গরমে, স্যাঁতসেঁতে, ঘামলে, ডান পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "aggravation",
+      "night",
+      "bed-heat",
+      "damp",
+      "sweat",
+      "right-lying"
+    ],
+    "explanation": "Merc Vivus-এ রাতে, বিছানার গরমে, ঘামলে বৃদ্ধি।"
+  },
+  {
+    "id": "natc-sym-17",
+    "stem": "রোগীর কাতরতা মূলত শীতকাতর প্রকৃতির, তবে সূর্যের তাপে কাতরতা প্রবল — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "thermal",
+      "sun-sensitivity"
+    ],
+    "explanation": "Natrum Carb মূলত শীতকাতর ওষুধ হলেও বিশেষ করে সূর্যের তাপে তার অসহিষ্ণুতা বা কাতরতা সবচেয়ে বেশি প্রকট হয়।"
+  },
+  {
+    "id": "natp-sym-10",
+    "stem": "মাথার তালুতে প্রচণ্ড তাপ, চোখের সামনে ঝিলিক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "head",
+      "vertex",
+      "hot",
+      "flashing-eyes"
+    ],
+    "explanation": "Natrum Phos-এ মাথার তালুতে তাপ ও চোখে ঝিলিক থাকে।"
+  },
+  {
+    "id": "natrum-mur-sym-11",
+    "stem": "রৌদ্রতাপে মাথাব্যথা, মনে হয় মাথার ভেতর হাতুড়ি দিয়ে পিটানো হচ্ছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoinum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "headache",
+      "sun"
+    ],
+    "explanation": "Natrum Mur-এ সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত মাথাব্যথা থাকে; মনে হয় যেন মাথার ভেতর হাতুড়ি দিয়ে পিটানো হচ্ছে।"
+  },
+  {
+    "id": "nux-sym-20",
+    "stem": "উষ্ণতা ও বিশ্রামে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "modalities",
+      "warmth"
+    ],
+    "explanation": "Many Nux Vomica complaints improve with warmth and rest."
+  },
+  {
+    "id": "opi-sym-12",
+    "stem": "সাধারণত গরমকাতর (Hot patient) প্রকৃতির হওয়া এবং শরীর উত্তপ্ত থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      },
+      {
+        "text": "Secale Cor",
+        "mid": "secale-cor"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "thermal",
+      "hot-patient"
+    ],
+    "explanation": "Opium-এর দেহ ধাতু সাধারণত গরম কাতর এবং রোগী প্রচুর উত্তাপ বোধ করে।"
+  },
+  {
+    "id": "opi-sym-17",
+    "stem": "ঘুমের সময় ও ঘুমের ঠিক পর এবং অতিরিক্ত গরমে রোগের বৃদ্ধি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "aggravation",
+      "sleep",
+      "warmth"
+    ],
+    "explanation": "Opium-এ শয়ন, নিদ্রা এবং অতিরিক্ত উত্তাপে অসুস্থতার বৃদ্ধি পরিলক্ষিত হয়।"
+  },
+  {
+    "id": "petr-sym-14",
+    "stem": "লক্ষণ উপশম হয় গরমকালে, আহার করলে এবং উষ্ণ আবহাওয়ায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Mag Phos",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "summer",
+      "eating",
+      "warm-weather"
+    ],
+    "explanation": "Petroleum-এর লক্ষণ গরমকালে, আহার করলে বা পেট ভরা থাকলে এবং উষ্ণ আবহাওয়ায় উপশম হয়।[reference:33]"
+  },
+  {
+    "id": "phy-sym-07",
+    "stem": "বর্ষাকালে, রাতে এবং গরম পানীয় পান করলে যাবতীয় শারীরিক কষ্ট বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "aggravation",
+      "rainy-season",
+      "hot-drinks"
+    ],
+    "explanation": "Phytolacca-এর কষ্ট বর্ষা, রাত্রিবেলা ও উষ্ণ পানীয় গ্রহণে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "podo-sym-16",
+    "stem": "ভোরে ও সকালে, গরম আবহাওয়ায়, দাঁত ওঠার সময় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "aggravation",
+      "morning",
+      "hot-weather",
+      "dentition"
+    ],
+    "explanation": "Podophyllum-এ ভোরে, সকালে, গরমে ও দাঁত ওঠায় বৃদ্ধি।"
+  },
+  {
+    "id": "podo-sym-18",
+    "stem": "গরমকাতর, ডান পার্শ্বে বেশি, সোরা ও সাইকোসিস — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "generalities",
+      "hot",
+      "right-side",
+      "miasm"
+    ],
+    "explanation": "Podophyllum গরমকাতর, ডান পার্শ্ব বেশি ও সোরা-সাইকোটিক।"
+  },
+  {
+    "id": "pyrogenium-sym-13",
+    "stem": "বিশ্রামে ও রাতে বৃদ্ধি, নড়াচড়ায় ও শরীর গরম রাখলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "modalities",
+      "rest",
+      "night",
+      "motion",
+      "warmth"
+    ],
+    "explanation": "Pyrogenium-এর লক্ষণ বিশ্রামে থাকলে ও রাতে বৃদ্ধি পায় এবং নড়াচড়া করলে ও শরীর গরম রাখলে উপশম হয়।"
+  },
+  {
+    "id": "sab-sym-15",
+    "stem": "সামান্য নড়াচড়া, গরম ঘর, গরম আবহাওয়া, সঙ্গীত শুনলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "aggravation",
+      "motion",
+      "warm-room",
+      "music"
+    ],
+    "explanation": "Sabina-এ নড়াচড়া, গরম ঘর ও সঙ্গীতে বৃদ্ধি।"
+  },
+  {
+    "id": "sab-sym-17",
+    "stem": "গরমকাতর, উভয় পার্শ্ব, সাইকোসিস ও সোরা মায়াজম — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "generalities",
+      "hot",
+      "both-sides",
+      "miasm",
+      "sycotic"
+    ],
+    "explanation": "Sabina গরমকাতর ও সাইকোটিক।"
+  },
+  {
+    "id": "sanguinaria-sym-13",
+    "stem": "সূর্যের গতির সাথে ব্যথার সম্পর্ক, সকালে শুরু হয়, দুপুরে তীব্র হয়, সূর্যাস্তের সাথে সাথে কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "headache",
+      "sun",
+      "noon"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ব্যথা সকালে শুরু হয়, দুপুরে তীব্র হয় এবং সূর্যাস্তের সাথে সাথে কমে যায়।"
+  },
+  {
+    "id": "sec-sym-08",
+    "stem": "যেকোনো ধরণের উত্তাপ, গরম ঘর বা শরীর ঢেকে রাখলে শারীরিক উপসর্গসমূহের মারাত্মক বৃদ্ধি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "aggravation",
+      "heat",
+      "warmth"
+    ],
+    "explanation": "Secale Cornutum-এ ঘরের উত্তাপ বা বাহ্যিক তাপে কষ্ট দ্বিগুণ হয়।"
+  },
+  {
+    "id": "sec-sym-12",
+    "stem": "চরম গরমকাতর প্রকৃতির হওয়ায় উত্তাপ মোটেও সহ্য করতে না পারা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Fluoric Acid",
+        "mid": "fluoric-acid"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "thermal",
+      "hot-patient"
+    ],
+    "explanation": "Secale Cornutum চরম গরমকাতর ক্যাটাগরির অন্তর্ভুক্ত।"
+  },
+  {
+    "id": "sel-sym-14",
+    "stem": "সূর্যোদয় ও উত্তাপে বৃদ্ধি, সূর্যাস্তে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "aggravation",
+      "sunrise",
+      "heat",
+      "amel-sunset"
+    ],
+    "explanation": "Selenium-এ সূর্যোদয় ও তাপে বৃদ্ধি, সূর্যাস্তে উপশম।"
+  },
+  {
+    "id": "sel-sym-15",
+    "stem": "চরম দুঃখী, অল্পে ক্লান্ত, রোদে শক্তি নিঃশেষ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Picricum Acidum",
+        "mid": "picricum-acidum"
+      },
+      {
+        "text": "Muriaticum Acidum",
+        "mid": "muriaticum-acidum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "mind",
+      "sad",
+      "exhaustion",
+      "sun-agg"
+    ],
+    "explanation": "Selenium রোগী চরম দুঃখী ও অল্পে ক্লান্ত হয়।"
+  },
+  {
+    "id": "sel-sym-18",
+    "stem": "রোদে, গরমে, ঘুমের পর, সহবাসের পর, মদে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "aggravation",
+      "sun",
+      "heat",
+      "sleep",
+      "coition",
+      "alcohol"
+    ],
+    "explanation": "Selenium-এ রোদে, গরমে, ঘুমের পর, সহবাসের পর বৃদ্ধি।"
+  },
+  {
+    "id": "sel-sym-20",
+    "stem": "গরমকাতর, উৎস খনিজ সেলেনিয়াম, সোরা ও সিফিলিটিক, পরিপূরক Sulphur — এই বৈশিষ্ট্য কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "generalities",
+      "hot",
+      "mineral",
+      "miasm",
+      "complementary"
+    ],
+    "explanation": "Selenium গরমকাতর, খনিজ উৎস ও পরিপূরক Sulphur।"
+  },
+  {
+    "id": "sil-sym-12",
+    "stem": "লক্ষণ উপশম হয় মাথা বা আক্রান্ত স্থান গরম কাপড় দিয়ে জড়িয়ে রাখলে (Profuse wrapping up) এবং উষ্ণতায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "warm-wrapping",
+      "heat"
+    ],
+    "explanation": "Silicea-এর লক্ষণ মাথা বা আক্রান্ত স্থান গরম কাপড় দিয়ে জড়িয়ে রাখলে, উষ্ণতায় এবং গ্রীষ্মকালে উপশম হয়।"
+  },
+  {
+    "id": "spigelia-sym-18",
+    "stem": "বাম পাশের মুখমণ্ডলে অসহ্য যন্ত্রণা, সূর্যোদয়ের সঙ্গে শুরু হয়, সূর্যাস্তের সঙ্গে কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "face",
+      "left",
+      "sun-headache"
+    ],
+    "explanation": "Spigelia Anthelmia এ বাম পাশের মুখমণ্ডলে অসহ্য যন্ত্রণা হয়, যা সূর্যোদয়ের সঙ্গে শুরু হয় এবং সূর্যাস্তের সঙ্গে কমে যায়।"
+  },
+  {
+    "id": "spigelia-sym-20",
+    "stem": "নড়াচড়া করলে, স্পর্শ করলে, গোলমালে ও সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি, ডান পাশে ফিরে শুলে ও মাথা উঁচু করে রাখলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "motion",
+      "sun"
+    ],
+    "explanation": "Spigelia Anthelmia এ নড়াচড়া করলে, স্পর্শ করলে, গোলমালে এবং সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি হয়, ডান পাশে ফিরে শুলে এবং মাথা উঁচু করে রাখলে উপশম হয়।"
+  },
+  {
+    "id": "spongia-sym-07",
+    "stem": "টেনশনে কাশি আসে, ঘাম হলে কাশি, গরম খেলে কাশি কমে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex-crispus"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum-metallicum"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "cough",
+      "excitement",
+      "warm-drinks"
+    ],
+    "explanation": "Spongia-তে টেনশনে কাশি আসে, ঘাম হয়ে কাশি হয় এবং গরম খেলে কাশি কমে।"
+  },
+  {
+    "id": "spongia-sym-18",
+    "stem": "গরম খাবার বা পানীয় পান করলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "modalities",
+      "warm-drinks"
+    ],
+    "explanation": "Spongia-এর লক্ষণ গরম খাবার বা পানীয় পান করলে উপশম হয়।"
+  },
+  {
+    "id": "staph-sym-18",
+    "stem": "রাতে বিশ্রামে, উত্তাপে ও খাওয়ার পর উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "amelioration",
+      "night-rest",
+      "heat",
+      "after-eating"
+    ],
+    "explanation": "Staphisagria রাতে বিশ্রাম, উত্তাপ ও খাওয়ার পর ভালো থাকে।"
+  },
+  {
+    "id": "sul-iod-sym-13",
+    "stem": "লক্ষণ বৃদ্ধি পায় গরম ঘরে, নড়াচড়া করলে এবং পরিশ্রম করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "warm-room",
+      "motion",
+      "exertion"
+    ],
+    "explanation": "Sulphur Iodatum-এর লক্ষণ গরম ঘরে, নড়াচড়া করলে এবং পরিশ্রম করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sul-iod-sym-15",
+    "stem": "রোগী ঠান্ডা সহ্য করতে পারে না, উষ্ণতায় আরাম পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "thermal",
+      "chilly",
+      "amelioration-warmth"
+    ],
+    "explanation": "Sulphur Iodatum-এ রোগী ঠান্ডা সহ্য করতে পারে না এবং উষ্ণতায় আরাম পায়।"
+  },
+  {
+    "id": "sul-sym-12",
+    "stem": "প্রধানত উষ্ণ প্রকৃতির বা গরমকাতর (Hot patient) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "thermal",
+      "hot-patient"
+    ],
+    "explanation": "Sulphur ধাতুগতভাবে মূলত উষ্ণকাতর।"
+  },
+  {
+    "id": "sul-sym-17",
+    "stem": "গরম বাতাসে, বিছানায় শুলে এবং সকালের দিকে উপসর্গের তীব্র বৃদ্ধি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "aggravation",
+      "warmth",
+      "morning"
+    ],
+    "explanation": "Sulphur-এর অসুস্থতা বিছানার গরমে ও সকালের দিকে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "thuja-sym-18",
+    "stem": "গরমে, ডান পাশে শুলে ও শুষ্ক আবহাওয়ায় উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "amelioration",
+      "heat",
+      "right-lying",
+      "dry-weather"
+    ],
+    "explanation": "Thuja গরমে, ডান পাশে শুলে ও শুষ্ক আবহাওয়ায় ভালো থাকে।"
+  },
+  {
+    "id": "var-sym-08",
+    "stem": "রাতে, গরম ঘরে এবং নড়াচড়া করলে শারীরিক যন্ত্রণা বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "aggravation",
+      "night",
+      "warm-room"
+    ],
+    "explanation": "Variolinum-এর কষ্টসমূহ রাত, উত্তপ্ত কক্ষ এবং নড়াচড়ায় তীব্র হয়।"
+  },
+  {
+    "id": "verat-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় নড়াচড়া করলে, খাওয়ার পর, মলত্যাগের সময় এবং গরমে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "motion",
+      "eating",
+      "stool",
+      "heat"
+    ],
+    "explanation": "Veratrum Album-এর লক্ষণ নড়াচড়া করলে, খাওয়ার পর, মলত্যাগের সময় এবং গরমে বৃদ্ধি পায়।"
+  }
+]

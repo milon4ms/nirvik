@@ -1,0 +1,322 @@
+[
+  {
+    "id": "arsenicum-iod-sym-19",
+    "stem": "যক্ষ্মা ও ক্যান্সারের পরিণত অবস্থায় উপযোগী — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "tuberculosis",
+      "cancer"
+    ],
+    "explanation": "Arsenicum Iodatum যক্ষ্মা ও ক্যান্সারের পরিণত অবস্থায় বিশেষভাবে উপযোগী।"
+  },
+  {
+    "id": "aurum-sym-02",
+    "stem": "অস্থি ও গ্রন্থির পচন, বিশেষ করে নাক, তালু ও দীর্ঘ হাড়ে রাতে প্রচণ্ড ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "bones",
+      "caries",
+      "night-aggravation"
+    ],
+    "explanation": "Aurum-এ অস্থির ক্যারিস ও রাতে ব্যথা বৃদ্ধি হয়।"
+  },
+  {
+    "id": "aurum-sym-05",
+    "stem": "নাকের হাড়ে পচন, দুর্গন্ধযুক্ত পুঁজযুক্ত স্রাব, ওজেনা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "nose",
+      "ozena",
+      "caries"
+    ],
+    "explanation": "Aurum-এ নাকের হাড়ে পচন ও দুর্গন্ধযুক্ত ওজেনা থাকে।"
+  },
+  {
+    "id": "calc-fluor-sym-04",
+    "stem": "দাঁতের এনামেল নষ্ট হয়ে যাওয়া, দাঁত আলগা হয়ে যাওয়া বা দাঁতে গর্ত হওয়ার প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "teeth",
+      "enamel",
+      "dental-caries"
+    ],
+    "explanation": "Calcarea Fluorica-এ দাঁতের এনামেল নষ্ট হয়ে যাওয়া, দাঁত আলগা হয়ে যাওয়া বা দাঁতে গর্ত হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "calen-sym-09",
+    "stem": "ক্ষতস্থানে গ্যাংগ্রিন হওয়া রোধ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "wound",
+      "gangrene",
+      "prevention"
+    ],
+    "explanation": "Calendula গ্যাংগ্রিন রোধ করে।"
+  },
+  {
+    "id": "iodium-sym-15",
+    "stem": "স্তন গ্রন্থি শুকিয়ে ছোট হয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Sabal Serrulata",
+        "mid": "sabal-serrulata"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "female",
+      "breast",
+      "atrophy"
+    ],
+    "explanation": "Iodium এ স্তন গ্রন্থি শুকিয়ে ছোট হয়ে যায়।"
+  },
+  {
+    "id": "phosphorus-sym-19",
+    "stem": "চোয়ালের হাড়ের ক্ষয়, হাড়ের আবরক ঝিল্লির প্রদাহ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "bone",
+      "jaw",
+      "necrosis"
+    ],
+    "explanation": "Phosphorus এ চোয়ালের হাড়ের ক্ষয় হয়, হাড়ের আবরক ঝিল্লির প্রদাহ হয়।"
+  },
+  {
+    "id": "plumbum-sym-01",
+    "stem": "পক্ষাঘাত বা পক্ষাঘাত সদৃশ দুর্বলতা, মাংসপেশি শুকায়, বিশেষ করে হাত বা পক্ষাঘাতগ্রস্ত অঙ্গের পেশি শুকিয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "paralysis",
+      "atrophy"
+    ],
+    "explanation": "Plumbum Metallicum এ পক্ষাঘাত বা পক্ষাঘাত সদৃশ দুর্বলতা থাকে, মাংসপেশি শুকায়, বিশেষ করে হাত বা পক্ষাঘাতগ্রস্ত অঙ্গের পেশি শুকিয়ে যায়।"
+  },
+  {
+    "id": "sec-sym-03",
+    "stem": "শরীরের প্রান্তীয় অংশ যেমন আঙুল বা পায়ে রক্ত সঞ্চালন হ্রাস পেয়ে পচনশীলতা বা শুষ্ক গ্যাংরিন (Dry Gangrene) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Crotalus Horridus",
+        "mid": "crotalus-horridus"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "gangrene",
+      "extremities",
+      "necrosis"
+    ],
+    "explanation": "Secale Cornutum পচনশীল গ্যাংরিন বা শুষ্ক গ্যাংরিন রোগ নিরাময়ে প্রখ্যাত।"
+  },
+  {
+    "id": "sil-sym-08",
+    "stem": "হাড়ের ক্ষয় (Caries) এবং গ্ল্যান্ড ফুলে শক্ত হয়ে যাওয়া বা পেকে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "bones",
+      "caries",
+      "glands",
+      "suppuration"
+    ],
+    "explanation": "Silicea হাড়ের ক্ষয় এবং গ্ল্যান্ড ফুলে শক্ত হয়ে যাওয়া বা পেকে যাওয়ার ক্ষেত্রে প্রধান ঔষধ।"
+  },
+  {
+    "id": "syphilinum-sym-18",
+    "stem": "অস্থির ক্ষয়, হাড়ের বিশেষ করে নাকের বা তালুর হাড়ের ক্ষয়, পচনশীল ক্ষত, মাথার খুলিতে প্রচণ্ড যন্ত্রণা, মনে হয় মাথার হাড় ফেটে যাবে, দীর্ঘস্থায়ী চোখের প্রদাহ, রাতে চোখের যন্ত্রণা বৃদ্ধি, জিহ্বা ফাটা ফাটা, তাতে দাঁতের ছাপ থাকে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Asafoetida",
+        "mid": "asafoetida"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "bone",
+      "caries",
+      "skull",
+      "eye",
+      "tongue"
+    ],
+    "explanation": "Syphilinum এ অস্থির ক্ষয় হয়, নাকের বা তালুর হাড়ের ক্ষয় ও পচনশীল ক্ষত হয়, মাথার খুলিতে প্রচণ্ড যন্ত্রণা হয়, দীর্ঘস্থায়ী চোখের প্রদাহ ও রাতে চোখের যন্ত্রণা বৃদ্ধি হয়, জিহ্বা ফাটা ফাটা হয় ও তাতে দাঁতের ছাপ থাকে।"
+  }
+]

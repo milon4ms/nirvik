@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "argn-sym-19",
+    "stem": "জোরে চাপ দিলে (Hard pressure) শারীরিক ব্যথার উপশম হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bich"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "amelioration",
+      "pressure"
+    ],
+    "explanation": "Argentum Nitricum-এ জোরে চাপ দিলে (Hard pressure) বিভিন্ন শারীরিক ব্যথার উপশম লক্ষ্য করা যায়।"
+  },
+  {
+    "id": "arnica-mont-sym-04",
+    "stem": "জ্বরের সময় মাথা ও মুখমণ্ডল গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Ferrum Phosphoricum",
+        "mid": "ferrum-phosphoricum"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "fever",
+      "head-hot-body-cold",
+      "circulation"
+    ],
+    "explanation": "Arnica Montana-এ মাথা ও মুখমণ্ডল বেশ গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে।"
+  },
+  {
+    "id": "aurum-sym-03",
+    "stem": "উচ্চ রক্তচাপ, হৃদপিণ্ড ২-৩ সেকেন্ড বন্ধ থেকে আবার দ্রুত চলে, এনজাইনা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Crataegus",
+        "mid": "crataegus"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "heart",
+      "hypertension",
+      "angina"
+    ],
+    "explanation": "Aurum-এ হৃদপিণ্ড বন্ধ হয়ে আবার দ্রুত চলার অনুভূতি ও উচ্চ রক্তচাপ থাকে।"
+  },
+  {
+    "id": "baryta-sym-10",
+    "stem": "বৃদ্ধ বয়সের উচ্চ রক্তচাপ ও ধমনীর কাঠিন্য, arteriosclerosis — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Baryta Muriatica",
+        "mid": "baryta-muriatica"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "heart",
+      "hypertension",
+      "arteriosclerosis",
+      "old-age"
+    ],
+    "explanation": "Baryta বৃদ্ধদের arteriosclerosis ও উচ্চ রক্তচাপে ব্যবহৃত হয়।"
+  },
+  {
+    "id": "bell-sym-10",
+    "stem": "ধমনীতে স্পষ্ট ধুকপুকানি অনুভূত হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "circulation",
+      "throbbing"
+    ],
+    "explanation": "Throbbing carotids Belladonna নির্দেশ করে।"
+  },
+  {
+    "id": "borax-sym-19",
+    "stem": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "modalities",
+      "pressure",
+      "evening"
+    ],
+    "explanation": "Borax-এর লক্ষণ জোরে চাপ দিলে, সন্ধ্যার দিকে এবং ঠান্ডা আবহাওয়ায় উপশম হয়।"
+  },
+  {
+    "id": "bry-sym-05",
+    "stem": "রোগী ব্যথার পাশে বা আক্রান্ত পাশে চেপে শুলে আরাম পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "painful-side"
+    ],
+    "explanation": "Bryonia-এর রোগী ব্যথার পাশে বা আক্রান্ত পাশে চেপে শুলে বা শক্ত চাপ দিলে আরাম পায়।"
+  },
+  {
+    "id": "calc-fluor-sym-01",
+    "stem": "শরীরের টিস্যু বা রক্তনালীর স্থিতিস্থাপকতা নষ্ট হয়ে যাওয়া (যেমন ভ্যারিকোজ ভেইন বা ঝুলে পড়া ত্বক) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Fluoricum Acidum",
+        "mid": "fluoricum-acidum"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "varicose-veins",
+      "connective-tissue",
+      "loss-of-elasticity"
+    ],
+    "explanation": "Calcarea Fluorica-এর প্রধান পরিচায়ক হলো শরীরের পেশী বা রক্তনালীর স্থিতিস্থাপকতা নষ্ট হয়ে যাওয়া (Loss of Elasticity), যা ভ্যারিকোজ ভেইন বা ঝুলে পড়া চামড়ায় প্রকাশ পায়।"
+  },
+  {
+    "id": "calc-fluor-sym-05",
+    "stem": "শিরার প্রসারণ (Varicose veins) এবং রক্তস্রাবী অর্শ (Bleeding piles) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Aesculus",
+        "mid": "aesculus"
+      },
+      {
+        "text": "Paeonia",
+        "mid": "paeonia"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "varicose-veins",
+      "hemorrhoids",
+      "bleeding"
+    ],
+    "explanation": "Calcarea Fluorica-এ শিরার প্রসারণ এবং রক্ত চলাচলে বাধার ফলে সৃষ্ট রক্তস্রাবী অর্শ বা পায়ের শিরা ফুলে যাওয়া (Varicose veins) হয়।"
+  },
+  {
+    "id": "carbo-sym-05",
+    "stem": "শিরায় রক্ত চলাচল ধীর, শরীর নীলাভ বা কালচে, venous congestion — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "veins",
+      "congestion",
+      "bluish",
+      "circulation"
+    ],
+    "explanation": "Carbo Veg-এ venous congestion ও নীলাভ ভাব থাকে।"
+  },
+  {
+    "id": "china-sym-06",
+    "stem": "সামান্য স্পর্শে ব্যথা লাগা, জোরে চেপে ধরলে আরাম পাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "sensitivity",
+      "touch",
+      "pressure"
+    ],
+    "explanation": "China এ শরীরের চামড়া সামান্য স্পর্শ করলে ব্যথা লাগে, কিন্তু জোরে চেপে ধরলে রোগী আরাম পায়।"
+  },
+  {
+    "id": "china-sym-20",
+    "stem": "জোরে চেপে ধরলে, কুঁকড়ে শুলে ও উষ্ণতায় উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "warmth"
+    ],
+    "explanation": "China এ জোরে চেপে ধরলে, কুঁকড়ে শুলে এবং উষ্ণতায় উপশম হয়।"
+  },
+  {
+    "id": "cinn-sym-10",
+    "stem": "খোলা বাতাসে এবং চাপ প্রয়োগে (নাকের ব্যথায়) উপশম পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "amelioration",
+      "open-air",
+      "pressure"
+    ],
+    "explanation": "Cinnabaris-এ খোলা বাতাসে অবস্থান করলে এবং ব্যথার স্থানে চাপ দিলে উপশম বোধ হয়।"
+  },
+  {
+    "id": "colocynthis-sym-05",
+    "stem": "ব্যথার প্রথম অবস্থায় চাপ দিলে উপশম, অনেকদিন হলে চাপ দিলে অসহ্য লাগা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "pain",
+      "pressure"
+    ],
+    "explanation": "Colocynthis এ ব্যথার প্রথম অবস্থায় চাপ দিলে উপশম হয়, অনেকদিন হলে চাপ দিলে অসহ্য লাগে।"
+  },
+  {
+    "id": "colocynthis-sym-08",
+    "stem": "জোরে চাপে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "amelioration",
+      "pressure"
+    ],
+    "explanation": "Colocynthis এ যন্ত্রণার স্থানে জোরে চাপ দিলে রোগী আরাম বোধ করে।"
+  },
+  {
+    "id": "colocynthis-sym-20",
+    "stem": "সামনে ঝুঁকে দ্বিভাঁজ হয়ে শুলে, জোরে চাপে, গরমে ও কফি পান করলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "amelioration",
+      "bend-double",
+      "pressure",
+      "warmth"
+    ],
+    "explanation": "Colocynthis এ সামনের দিকে ঝুঁকে দ্বিভাঁজ হয়ে শুলে, জোরে চাপে, গরমে এবং কফি পান করলে উপশম হয়।"
+  },
+  {
+    "id": "conium-sym-17",
+    "stem": "অন্ধকার ঘরে, নড়াচড়ায় (কাশি বাদে), চাপ দিলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "amelioration",
+      "dark",
+      "motion",
+      "pressure"
+    ],
+    "explanation": "Conium অন্ধকার ঘরে ও চাপে উপশম পায়।"
+  },
+  {
+    "id": "croton-sym-19",
+    "stem": "ঘুমের পর ও মৃদু চাপে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "modalities",
+      "sleep",
+      "pressure"
+    ],
+    "explanation": "Croton Tiglium-এর লক্ষণ ঘুমের পর, মৃদু চাপে এবং ঠান্ডা জলের প্রয়োগে (চর্মরোগে) উপশম হয়।"
+  },
+  {
+    "id": "cupr-sym-05",
+    "stem": "কাশির সময় শ্বাস বন্ধ হয়ে নীল হয়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Antimonium Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "whooping-cough",
+      "cyanosis"
+    ],
+    "explanation": "Whooping cough with cyanosis Cuprum Metallicum নির্দেশ করে।"
+  },
+  {
+    "id": "cupr-sym-11",
+    "stem": "খিঁচুনির সময় মুখ নীলচে হয়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "cyanosis",
+      "convulsion"
+    ],
+    "explanation": "Blue face during spasms Cuprum Metallicum নির্দেশ করে।"
+  },
+  {
+    "id": "cupr-sym-20",
+    "stem": "স্পাজমের সাথে আঙুল নীলচে ও ঠান্ডা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "cyanosis",
+      "extremities"
+    ],
+    "explanation": "Cold blue fingers during spasms strongly suggest Cuprum Metallicum।"
+  },
+  {
+    "id": "hama-sym-02",
+    "stem": "শিরার প্রসারণ বা ভ্যারিকোজ ভেইন (Varicose veins) এবং শিরার রক্ত সঞ্চয় ও প্রদাহ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Fluoric Acid",
+        "mid": "fluoric-acid"
+      },
+      {
+        "text": "Vipera",
+        "mid": "vipera"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "veins",
+      "varicose-veins",
+      "vascular"
+    ],
+    "explanation": "Hamamelis বিশেষভাবে রক্তনালী ও শিরা স্ফীতির (Varicose veins) জন্য সেরা হোমিওপ্যাথিক ঔষধ।"
+  },
+  {
+    "id": "hama-sym-09",
+    "stem": "গর্ভাবস্থায় পায়ে বা জননেন্দ্রিয়তে ভ্যারিকোজ ভেইন বা শিরা ফুলে নীল হয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "female",
+      "pregnancy",
+      "varicose-veins"
+    ],
+    "explanation": "Hamamelis গর্ভাবস্থায় নীল হয়ে যাওয়া ফুলে ওঠা শিরা বা ভ্যারিকোস ভেইন চিকিৎসায় অত্যন্ত সফল।"
+  },
+  {
+    "id": "ipecac-sym-05",
+    "stem": "কাশতে কাশতে রোগী নীল হয়ে যায় এবং দম বন্ধ হওয়ার মতো অবস্থা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Antimonium Tartaricum",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "cough",
+      "suffocative-cough",
+      "cyanosis"
+    ],
+    "explanation": "Ipecac-এ দমবন্ধ করা কাশি (Suffocative Cough) হয়; কাশতে কাশতে রোগী নীল হয়ে যায় এবং দম বন্ধ হওয়ার মতো অবস্থা হয়।"
+  },
+  {
+    "id": "lach-sym-11",
+    "stem": "হৃদস্পন্দন অনিয়মিত, বাম পাশে চাপ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "heart",
+      "irregular",
+      "left-side",
+      "pressure"
+    ],
+    "explanation": "Lachesis-এ হৃদস্পন্দন অনিয়মিত ও বাম পাশে চাপ।"
+  },
+  {
+    "id": "lach-sym-12",
+    "stem": "মাথাব্যথা বাম পাশে, চাপ অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "headache",
+      "left-side",
+      "pressure"
+    ],
+    "explanation": "Lachesis-এ বাম পাশে মাথাব্যথা থাকে।"
+  },
+  {
+    "id": "mag-carb-sym-10",
+    "stem": "পেটে প্রচণ্ড মোচড়ানি ব্যথা, যা সামনের দিকে ঝুঁকে বসলে বা চাপ দিলে কমে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "abdominal-colic",
+      "bending-forward",
+      "pressure"
+    ],
+    "explanation": "Magnesia Carbonica-এ পেটে প্রচণ্ড মোচড়ানি ব্যথা হয়, যা সামনের দিকে ঝুঁকে বসলে বা চাপ দিলে কিছুটা কমে।"
+  },
+  {
+    "id": "magphos-sym-03",
+    "stem": "চাপ দিলে উপশম, পেটে বা অঙ্গে তীব্র ব্যথা চেপে ধরলে বা দ্বিগুণ হয়ে কুঁকড়ে বসলে কমে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "bend-double"
+    ],
+    "explanation": "Magnesia Phosphorica এ পেটে বা অঙ্গে তীব্র ব্যথা চেপে ধরলে বা দ্বিগুণ হয়ে কুঁকড়ে বসলে কমে।"
+  },
+  {
+    "id": "plumbum-sym-16",
+    "stem": "দীর্ঘস্থায়ী নেফ্রাইটিস বা কিডনির কার্যক্ষমতা কমে যাওয়া, উচ্চ রক্তচাপের সাথে মূত্রস্বল্পতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Terebinthina",
+        "mid": "terebinthina"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "kidney",
+      "nephritis",
+      "hypertension"
+    ],
+    "explanation": "Plumbum Metallicum এ দীর্ঘস্থায়ী নেফ্রাইটিস বা কিডনির কার্যক্ষমতা কমে যায়, উচ্চ রক্তচাপের সাথে মূত্রস্বল্পতা থাকে।"
+  },
+  {
+    "id": "plumbum-sym-20",
+    "stem": "জোরে চাপ দিলে, ঘষলে বা মালিশ করলে ও শক্ত কিছু দিয়ে বেঁধে রাখলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "massage",
+      "binding"
+    ],
+    "explanation": "Plumbum Metallicum এ জোরে চাপ দিলে, ঘষলে বা মালিশ করলে এবং শক্ত কিছু দিয়ে বেঁধে রাখলে উপশম হয়।"
+  },
+  {
+    "id": "sars-sym-14",
+    "stem": "পায়ের নিচের অংশে শিরা ফুলে যাওয়া (Varicose veins) এবং ত্বকে নীলচে দাগ পড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "veins",
+      "varicose",
+      "blue-spots",
+      "legs"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ শিরার দুর্বলতা ও প্রসারণ ঘটে, যার ফলে পায়ে ভ্যারিকোজ ভেইন এবং ত্বকে নীলচে দাগ (Blue spots) দেখা দেয়।"
+  },
+  {
+    "id": "stannum-sym-06",
+    "stem": "ব্যথা ধীরে ধীরে বৃদ্ধি পায়, ধীরে ধীরে কমে আসে এবং চেপে ধরলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "pain",
+      "gradual",
+      "pressure"
+    ],
+    "explanation": "Stannum Met-এ যেকোনো যন্ত্রণা খুব ধীরে ধীরে বাড়তে থাকে এবং চূড়ান্তে পৌঁছানোর পর আবার খুব ধীরে ধীরে কমতে থাকে; চেপে ধরলে উপশম হয়।"
+  },
+  {
+    "id": "stannum-sym-14",
+    "stem": "বুক চেপে ধরলে কাশির আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "cough",
+      "pressure"
+    ],
+    "explanation": "Stannum Met-এ বুক চেপে ধরলে কাশির আরাম হয়।"
+  },
+  {
+    "id": "stannum-sym-19",
+    "stem": "আক্রান্ত স্থানে চাপ দিলে ও ধীরে ধীরে হাঁটলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "modalities",
+      "pressure",
+      "walking"
+    ],
+    "explanation": "Stannum Met-এর লক্ষণ আক্রান্ত স্থানে চাপ দিলে, কাশি দিলে এবং ধীরে ধীরে হাঁটলে উপশম হয়।"
+  },
+  {
+    "id": "verat-sym-20",
+    "stem": "সামান্য পরিশ্রমেই নাড়ি অত্যন্ত ক্ষীণ ও দ্রুত হয় এবং হাত-পা নীল হয়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "collapse",
+      "pulse",
+      "cyanosis",
+      "weakness"
+    ],
+    "explanation": "Veratrum Album-এ নাড়ি অত্যন্ত ক্ষীণ ও দ্রুত হয়, হাত-পা নীল হয়ে যায় এবং শরীর হিমাঙ্গ বা অত্যন্ত শীতল হয়ে পড়ে।"
+  }
+]

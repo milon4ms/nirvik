@@ -1,0 +1,720 @@
+[
+  {
+    "id": "bry-sym-10",
+    "stem": "মল অত্যন্ত শক্ত, শুকনো, কালচে এবং মনে হয় যেন পুড়ে গেছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Plumbum Met",
+        "mid": "plumbum-met"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "constipation",
+      "hard-stool",
+      "burnt-stool"
+    ],
+    "explanation": "Bryonia-এর কোষ্ঠকাঠিন্যে মল অত্যন্ত শক্ত, শুকনো, কালচে রঙের হয়—মনে হয় যেন পুড়ে গেছে।"
+  },
+  {
+    "id": "calc-fluor-sym-16",
+    "stem": "দুর্দমনীয় কোষ্ঠবদ্ধতা সহ উদরী পীড়া, মল জমে থাকে এবং অনেকক্ষণ কুন্থন দিতে হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "constipation",
+      "abdominal-affection",
+      "straining"
+    ],
+    "explanation": "Calcarea Fluorica-এ দুর্দমনীয় কোষ্ঠবদ্ধতা সহ উদরী পীড়া হয়, মল জমে থাকে এবং অনেকক্ষণ কুন্থন দিতে হয়।"
+  },
+  {
+    "id": "calc-sym-05",
+    "stem": "পায়খানা বা মল শক্ত থাকলে ও মলত্যাগ না হলে রোগী বরং ভালো বোধ করে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "constipation",
+      "amelioration",
+      "stool"
+    ],
+    "explanation": "Calcarea Carb-এর রোগীরা মলত্যাগ না করে কোষ্ঠবদ্ধ থাকলে শারীরিক ও মানসিকভাবে আরাম বোধ করে।"
+  },
+  {
+    "id": "causticum-sym-04",
+    "stem": "বসে পায়খানা করলে কষ্ট, না দাঁড়ালে মলত্যাগে অসুবিধা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "constipation",
+      "defecation"
+    ],
+    "explanation": "Causticum-এ বসে পায়খানা করলে কষ্ট হয়; রোগী দাঁড়ালে মলত্যাগে কিছুটা আরাম পায়।"
+  },
+  {
+    "id": "chel-sym-05",
+    "stem": "কোষ্ঠকাঠিন্য, যেখানে মল ভেড়ার লাদির মতো গোল গোল এবং ছোট হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "constipation",
+      "sheep-like-stool"
+    ],
+    "explanation": "Chelidonium Majus-এ কোষ্ঠকাঠিন্য হয়, যেখানে মল ভেড়ার লাদির মতো গোল গোল এবং ছোট হয়।"
+  },
+  {
+    "id": "chel-sym-16",
+    "stem": "পর্যায়ক্রমে কোষ্ঠকাঠিন্য ও উদারাময় দেখা দেয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "alternating",
+      "constipation",
+      "diarrhea"
+    ],
+    "explanation": "Chelidonium Majus-এ পর্যায়ক্রমে কোষ্ঠকাঠিন্য ও উদারাময় দেখা দেয়।"
+  },
+  {
+    "id": "graph-sym-02",
+    "stem": "কোষ্ঠকাঠিন্য, মল বড়, শক্ত ও গিঁটযুক্ত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Aloe",
+        "mid": "aloe"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "constipation",
+      "stool"
+    ],
+    "explanation": "Large knotty stool Graphites-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "graph-sym-18",
+    "stem": "মলত্যাগের পরে পায়ুপথে জ্বালা ও ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Aloe",
+        "mid": "aloe"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "anus",
+      "constipation"
+    ],
+    "explanation": "Smarting soreness after stool occurs in Graphites।"
+  },
+  {
+    "id": "mag-carb-sym-12",
+    "stem": "কোষ্ঠকাঠিন্যে মল শুষ্ক, শক্ত এবং মাটির মতো গুটি গুটি হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "constipation",
+      "dry-hard-stool",
+      "lumpy"
+    ],
+    "explanation": "Magnesia Carbonica-এ কোষ্ঠকাঠিন্যের ক্ষেত্রে মল শুষ্ক, শক্ত এবং মাটির মতো গুটি গুটি হয়।"
+  },
+  {
+    "id": "natrum-mur-sym-02",
+    "stem": "কোষ্ঠকাঠিন্যের সাথে মাথাব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "constipation",
+      "headache"
+    ],
+    "explanation": "Natrum Mur-এ কোষ্ঠকাঠিন্যের সাথে মাথাব্যথা হয়।"
+  },
+  {
+    "id": "nux-sym-01",
+    "stem": "অকার্যকর মলত্যাগের বেগ, মল ত্যাগের পরও অসম্পূর্ণতার অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "constipation",
+      "rectum"
+    ],
+    "explanation": "Ineffectual urging is a keynote of Nux Vomica."
+  },
+  {
+    "id": "opi-sym-03",
+    "stem": "অন্ত্রের পক্ষাঘাতের কারণে তীব্র কোষ্ঠকাঠিন্য এবং মল কালো গোলাকার বলের মতো (Sheep dung-like) হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Plumbum Met",
+        "mid": "plumbum-met"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "constipation",
+      "stool",
+      "rectum"
+    ],
+    "explanation": "Opium অন্ত্রের প্যারালাইসিসজনিত নিস্পৃহ কোষ্ঠকাঠিন্য ও কালো গুটি মলের জন্য নির্দেশিত।"
+  },
+  {
+    "id": "plat-sym-07",
+    "stem": "কোষ্ঠকাঠিন্য, যেখানে মল নরম কিন্তু আঠালো (কাদার মতো) এবং সহজে নির্গত হয় না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "constipation",
+      "soft-sticky-stool",
+      "clay-like"
+    ],
+    "explanation": "Platinum Metallicum-এ কোষ্ঠকাঠিন্য হয়, যেখানে মল নরম কিন্তু কাদার মতো আঠালো এবং সহজে নির্গত হয় না; এটি বিশেষত ভ্রমণকারীদের ক্ষেত্রে দেখা যায়।"
+  },
+  {
+    "id": "plumbum-sym-05",
+    "stem": "কোষ্ঠকাঠিন্য সহ পেট ব্যথা, ছাগলের নাদির মতো মল, মল অত্যন্ত শক্ত, কালো, ছোট ছোট গুটির মতো, মলদ্বার দিয়ে যেন কিছু ওপরের দিকে টেনে ধরা হচ্ছে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "constipation",
+      "stool",
+      "colic"
+    ],
+    "explanation": "Plumbum Metallicum এ কোষ্ঠকাঠিন্য সহ পেট ব্যথা হয়, মল ছাগলের নাদির মতো, অত্যন্ত শক্ত, কালো ও ছোট ছোট গুটির মতো হয়, মলদ্বার দিয়ে যেন কিছু ওপরের দিকে টেনে ধরা হচ্ছে।"
+  },
+  {
+    "id": "plumbum-sym-14",
+    "stem": "মলদ্বার সংকুচিত হয়ে যায়, মল ত্যাগের বেগ থাকলেও মল বের হতে চায় না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "anus",
+      "constriction",
+      "constipation"
+    ],
+    "explanation": "Plumbum Metallicum এ মলদ্বার সংকুচিত হয়ে যায়, মল ত্যাগের বেগ থাকলেও মল বের হতে চায় না।"
+  },
+  {
+    "id": "podo-sym-03",
+    "stem": "পর্যায়ক্রমে ডায়রিয়া ও কোষ্ঠবদ্ধতা, কোষ্ঠে মাথাব্যথা বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "alternating",
+      "diarrhea",
+      "constipation",
+      "headache"
+    ],
+    "explanation": "Podophyllum-এ ডায়রিয়া ও কোষ্ঠবদ্ধতা পর্যায়ক্রমে আসে।"
+  },
+  {
+    "id": "pyrogenium-sym-10",
+    "stem": "কোষ্ঠকাঠিন্য, মল বড়, কালো ও পচা গন্ধযুক্ত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "constipation",
+      "offensive-stool"
+    ],
+    "explanation": "Pyrogenium-এ ভয়ানক কোষ্ঠকাঠিন্য হয় যেখানে মল বড়, কালো এবং পচা গন্ধযুক্ত।"
+  },
+  {
+    "id": "ruta-sym-10",
+    "stem": "কোষ্ঠকাঠিন্যের সময় মলত্যাগের প্রবল চেষ্টায় মলদ্বার বাইরে বেরিয়ে আসা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Aloe Soc",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "constipation",
+      "prolapsus-ani",
+      "rectum"
+    ],
+    "explanation": "Ruta-এ কোষ্ঠকাঠিন্যের সময় মলত্যাগের প্রবল চেষ্টার ফলে মলদ্বার বাইরে বেরিয়ে আসে (Prolapsus Ani)।"
+  },
+  {
+    "id": "ruta-sym-16",
+    "stem": "কোষ্ঠকাঠিন্য, বারবার মলবেগ হলেও মল পরিষ্কার হয় না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "constipation",
+      "ineffectual-urging"
+    ],
+    "explanation": "Ruta-এ অত্যন্ত কোষ্ঠকাঠিন্য হয়; বারবার মলবেগ হয় কিন্তু মল পরিষ্কার হয় না।"
+  },
+  {
+    "id": "ruta-sym-17",
+    "stem": "মলদ্বার দিয়ে যেন কিছু টেনে ধরা হচ্ছে এমন অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Aloe Soc",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "rectum",
+      "constipation",
+      "sensation"
+    ],
+    "explanation": "Ruta-এ মলদ্বার দিয়ে যেন কিছু টেনে ধরা হচ্ছে এমন অনুভূতি হয়।"
+  },
+  {
+    "id": "sani-sym-02",
+    "stem": "মলত্যাগের সময় মল অর্ধেক বেরিয়ে আবার ভেতরে ঢুকে যাওয়ার প্রবণতা (Retracting stool) — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Thuja",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "stool",
+      "constipation"
+    ],
+    "explanation": "Sanicula-এর কোষ্ঠকাঠিন্যের প্রধান বৈশিষ্ট্য হলো মল কিছুটা নির্গত হওয়ার পর পুনরায় ভেতরে ঢুকে যায়।"
+  },
+  {
+    "id": "sel-sym-10",
+    "stem": "কোষ্ঠকাঠিন্য, মল বড় শক্ত, আঙুলের সাহায্য লাগে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "constipation",
+      "large-hard-stool",
+      "finger-aid"
+    ],
+    "explanation": "Selenium-এ কোষ্ঠকাঠিন্য, মল বড় শক্ত হয়।"
+  },
+  {
+    "id": "sep-sym-05",
+    "stem": "মলদ্বারে একটি শক্ত বল বা গোলক (Ball in rectum) আটকে থাকার অনুভূতি থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Plumbum Met",
+        "mid": "plumbum-met"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "sepia",
+    "tags": [
+      "rectum",
+      "constipation",
+      "sensation-ball"
+    ],
+    "explanation": "Sepia-র মলদ্বারে মার্বেল বা শক্ত বল আটকে থাকার অনুভূতি থাকে।"
+  },
+  {
+    "id": "sil-sym-03",
+    "stem": "কোষ্ঠকাঠিন্য যেখানে মলের অর্ধেকটা বের হয়ে আবার ভেতরে ঢুকে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "constipation",
+      "receding-stool",
+      "bashful-stool"
+    ],
+    "explanation": "Silicea-এ কোষ্ঠকাঠিন্যের একটি অনন্য লক্ষণ হলো মলদ্বার দিয়ে মলের অর্ধেকটা বের হয়ে আবার ভেতরে ঢুকে যায়, যাকে 'Bashful Stool' বলা হয়।"
+  },
+  {
+    "id": "staph-sym-16",
+    "stem": "পেটে ব্যথা সাথে পেট ঝুলে পড়েছে মনে হয়, কোষ্ঠে পেট ফাঁপা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Ipecacuanha",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "abdomen",
+      "sinking",
+      "constipation",
+      "bloating"
+    ],
+    "explanation": "Staphisagria-এ পেট ঝুলে পড়া অনুভূতি ও ফাঁপা থাকে।"
+  }
+]

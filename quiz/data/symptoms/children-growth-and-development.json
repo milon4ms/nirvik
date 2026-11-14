@@ -1,0 +1,1395 @@
+[
+  {
+    "id": "apis-sym-05",
+    "stem": "শিশুদের মস্তিষ্কের প্রদাহে বা ঘুমের ঘোরে হঠাৎ তীক্ষ্ণ চিৎকার করে ওঠা (Cri Encephalique) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "children",
+      "meningitis",
+      "scream",
+      "sleep"
+    ],
+    "explanation": "Apis Mellifica-এ শিশুদের মস্তিষ্কের প্রদাহে বা ঘুমের ঘোরে হঠাৎ তীক্ষ্ণ চিৎকার করে ওঠা (Cri Encephalique) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "apis-sym-16",
+    "stem": "পেট ফুলে যায় গ্যাসে এবং শিশু প্রস্রাবের পূর্বে কাঁদে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "abdomen",
+      "gas",
+      "children",
+      "crying-before-urination"
+    ],
+    "explanation": "Apis Mellifica-এ পেট ফুলে যায় গ্যাসে এবং শিশু প্রস্রাবের পূর্বে কাঁদে।"
+  },
+  {
+    "id": "bac-sym-08",
+    "stem": "শিশুর পেটের গ্রন্থি ফুলে পেট বড় হওয়া ও হাত পা শুকিয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Abrotanum",
+        "mid": "abrotanum"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "glands",
+      "abdomen",
+      "children"
+    ],
+    "explanation": "Bacillinum এ শিশুদের পেটের ভেতরের গ্রন্থি ফুলে পেট বড় হয়ে যায় এবং হাত পা শুকিয়ে যায়।"
+  },
+  {
+    "id": "baryta-sym-01",
+    "stem": "শারীরিকভাবে খর্বকায় ও মানসিকভাবে অপরিণত, বয়সের তুলনায় বৃদ্ধি কম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "growth",
+      "development",
+      "children"
+    ],
+    "explanation": "Baryta Carbonica শারীরিক ও মানসিক বৃদ্ধি কম এমন শিশুদের জন্য।"
+  },
+  {
+    "id": "baryta-sym-07",
+    "stem": "শিশুদের মুখ দিয়ে অনবরত লালা ঝরে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "mouth",
+      "saliva",
+      "drooling",
+      "children"
+    ],
+    "explanation": "Baryta শিশুদের লালা ঝরায় কার্যকর।"
+  },
+  {
+    "id": "baryta-sym-11",
+    "stem": "শিশুদের পেট বড় ও শক্ত, হাত-পা শুকনো, pot-bellied — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Abrotanum",
+        "mid": "abrotanum"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "abdomen",
+      "pot-bellied",
+      "children",
+      "emaciation"
+    ],
+    "explanation": "Baryta শিশুদের বড় পেট ও শুকনো অঙ্গের জন্য।"
+  },
+  {
+    "id": "bell-sym-09",
+    "stem": "মাথা বালিশে গুঁজে রাখতে চায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "head",
+      "children"
+    ],
+    "explanation": "Boring head into pillow Belladonna-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "bell-sym-20",
+    "stem": "শিশুদের আকস্মিক জ্বর ও খিঁচুনির প্রবণতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "children",
+      "convulsion"
+    ],
+    "explanation": "শিশুদের আকস্মিক febrile convulsion-এর ক্ষেত্রে Belladonna গুরুত্বপূর্ণ।"
+  },
+  {
+    "id": "borax-sym-01",
+    "stem": "নিচের দিকে নামার ভয়, শিশু সিঁড়ি দিয়ে নামতে গেলে মাকে জড়িয়ে ধরে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aquatica"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium-sempervirens"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carbonica"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "fear",
+      "downward-motion",
+      "child"
+    ],
+    "explanation": "Borax-এর সবচেয়ে অদ্ভুত ও গুরুত্বপূর্ণ লক্ষণ হলো নিচের দিকে নামার ভয়; শিশু সিঁড়ি দিয়ে নামতে গেলে বা নিচে নামানো হলে ভয়ে মাকে জড়িয়ে ধরে।"
+  },
+  {
+    "id": "borax-sym-03",
+    "stem": "শিশু নিদ্রিত বা দোলনায় চড়া অবস্থায় চমকে ওঠে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Asarum",
+        "mid": "asarum-europaeum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium-sempervirens"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "startles",
+      "sleep",
+      "child"
+    ],
+    "explanation": "Borax-এ শিশু নিদ্রিত অবস্থায় বা দোলনায় চড়া অবস্থায় হঠাৎ চমকে ওঠে।"
+  },
+  {
+    "id": "borax-sym-05",
+    "stem": "মলমূত্র ত্যাগের পূর্বে কাঁদা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aquatica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "child",
+      "cries",
+      "defecation",
+      "urination"
+    ],
+    "explanation": "Borax-এ শিশু মলমূত্র ত্যাগের পূর্বে কাঁদে।"
+  },
+  {
+    "id": "borax-sym-06",
+    "stem": "শিশু যখন দুধ খায়, বোটায় গড়ম লাগে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "child",
+      "nursing",
+      "griping"
+    ],
+    "explanation": "Borax-এ শিশু যখন দুধ খায় তখন বোটায় গড়ম লাগে।"
+  },
+  {
+    "id": "borax-sym-20",
+    "stem": "শিশুরা ঘুমের মধ্যে হঠাৎ চিৎকার করে ওঠা ও পাশের ব্যক্তিকে আঁকড়ে ধরা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "sleep",
+      "child",
+      "screams"
+    ],
+    "explanation": "Borax-এ শিশুরা ঘুমের মধ্যে হঠাৎ চিৎকার করে ওঠে এবং পাশের ব্যক্তিকে আঁকড়ে ধরে।"
+  },
+  {
+    "id": "calc-sym-04",
+    "stem": "শিশুদের মাথার ব্রহ্মতালু জোড়া লাগতে দেরি হওয়া এবং দেরিতে হাঁটতে শেখে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Calcarea Phos",
+        "mid": "calcarea-phos"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "children",
+      "fontanelles",
+      "late-walking"
+    ],
+    "explanation": "Calcarea Carb-এ শিশুদের মাথার তালুর অস্থি জোড়া লাগতে বিলম্ব হয় এবং তারা দেরিতে হাঁটে বা দাঁত তোলে।"
+  },
+  {
+    "id": "calcphos-sym-02",
+    "stem": "শিশুর মাথার ব্রহ্মতালু দীর্ঘ সময় খোলা থাকা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "children",
+      "fontanelle"
+    ],
+    "explanation": "Calcarea Phosphorica এ শিশুদের মাথার ব্রহ্মতালু দীর্ঘ সময় খোলা থাকে।"
+  },
+  {
+    "id": "calcphos-sym-03",
+    "stem": "শিশু দেরিতে হাঁটা ও দেরিতে কথা বলা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "children",
+      "development"
+    ],
+    "explanation": "Calcarea Phosphorica এ শিশু দেরিতে হাঁটে, দেরিতে কথা বলে।"
+  },
+  {
+    "id": "calcphos-sym-04",
+    "stem": "দাঁত উঠতে দেরি ও দাঁত ওঠার সময় পাতলা পায়খানা বা সর্দি কাশি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "children",
+      "teething",
+      "diarrhoea"
+    ],
+    "explanation": "Calcarea Phosphorica এ শিশুদের দাঁত উঠতে দেরি হয় এবং সেই সময় পাতলা পায়খানা বা সর্দি কাশি হয়।"
+  },
+  {
+    "id": "calcphos-sym-05",
+    "stem": "দুধ সহ্য না হওয়া, দুধ পানের পর বমি হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aethusa Cynapium",
+        "mid": "aethusa-cynapium"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "children",
+      "milk",
+      "vomiting"
+    ],
+    "explanation": "Calcarea Phosphorica এ শিশুর দুধ সহ্য হয় না, দুধ পানের পর বমি হয়।"
+  },
+  {
+    "id": "calcphos-sym-06",
+    "stem": "শিশুর শয্যামূত্র, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Equisetum",
+        "mid": "equisetum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "children",
+      "bedwetting"
+    ],
+    "explanation": "Calcarea Phosphorica এ শিশুর শয্যামূত্রের সমস্যা থাকে।"
+  },
+  {
+    "id": "calcphos-sym-07",
+    "stem": "লম্বা, রোগা, পুষ্টির অভাব ও রক্তাল্পতা, শরীর ঠিকমতো বাড়ে না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "nutrition",
+      "anaemia",
+      "children"
+    ],
+    "explanation": "Calcarea Phosphorica মূলত পুষ্টির ঔষধ, লম্বা, রোগা, পুষ্টির অভাব ও রক্তাল্পতায় এটি প্রধান ঔষধ।"
+  },
+  {
+    "id": "calcphos-sym-09",
+    "stem": "স্কুলগামী শিশুদের মাথাব্যথা ও পেট ব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "children",
+      "headache",
+      "school"
+    ],
+    "explanation": "Calcarea Phosphorica স্কুলগামী ছাত্রছাত্রীদের মাথাব্যথা এবং পেটের ব্যথায় অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "calcphos-sym-12",
+    "stem": "কাজের প্রতি অনীহা, বিষণ্ণতা, শিশু ঘ্যানঘ্যান করে কোলে উঠতে চায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "mind",
+      "aversion-work",
+      "children"
+    ],
+    "explanation": "Calcarea Phosphorica এ কাজের প্রতি অনীহা ও বিষণ্ণতা থাকে, শিশুরা সবসময় ঘ্যানঘ্যান করে এবং কোলে উঠতে চায়।"
+  },
+  {
+    "id": "cina-sym-05",
+    "stem": "ঘুমের মধ্যে চিৎকার ও ভয় পায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "sleep",
+      "children"
+    ],
+    "explanation": "ঘুমে চিৎকার Cina শিশুদের একটি গুরুত্বপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "cina-sym-08",
+    "stem": "এক হাত দিয়ে কিছু চাইবে, দিলে ফেলে দেবে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "children",
+      "capricious"
+    ],
+    "explanation": "Capricious child Cina-এর মূল মানসিক চিত্র।"
+  },
+  {
+    "id": "cina-sym-16",
+    "stem": "রাগে মারধর করে ও চেঁচায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "anger",
+      "children"
+    ],
+    "explanation": "Violently irritable child Cina-এর মানসিক চিত্র।"
+  },
+  {
+    "id": "cina-sym-19",
+    "stem": "শিশু ঘুম থেকে উঠে বিরক্ত থাকে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "children",
+      "morning"
+    ],
+    "explanation": "Awakes cross and dissatisfied Cina-এর লক্ষণ।"
+  },
+  {
+    "id": "graph-sym-20",
+    "stem": "শিশু বেয়াদব, বকুনি শুনে হাসে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "children",
+      "behavior"
+    ],
+    "explanation": "Impudent children laughing at reprimands suggest Graphites।"
+  },
+  {
+    "id": "ipecac-sym-11",
+    "stem": "শিশুদের দাঁত ওঠার সময়কালীন ডায়রিয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "teething",
+      "diarrhea",
+      "children"
+    ],
+    "explanation": "Ipecac শিশুদের দাঁত ওঠার সময়কালীন ডায়রিয়ায় কার্যকর।"
+  },
+  {
+    "id": "mag-carb-sym-02",
+    "stem": "শিশুরা দুধ পান করলেই বমি করে বা অজীর্ণ মল ত্যাগ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Aethusa Cynapium",
+        "mid": "aethusa-cynapium"
+      },
+      {
+        "text": "Lac Defloratum",
+        "mid": "lac-defloratum"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "milk-intolerance",
+      "children",
+      "vomiting"
+    ],
+    "explanation": "Magnesia Carbonica-এ শিশুরা দুধ সহ্য করতে পারে না; দুধ পান করলেই বমি করে বা অজীর্ণ মল ত্যাগ করে।"
+  },
+  {
+    "id": "mag-carb-sym-03",
+    "stem": "মল সবুজ রঙের, পুকুরের সবুজ শ্যাওলা বা ব্যাঙের ডিমের মতো — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "green-stool",
+      "diarrhea",
+      "children"
+    ],
+    "explanation": "Magnesia Carbonica-এ শিশুদের উদরাময়ে মল সম্পূর্ণ সবুজ এবং পানির ওপর ব্যাঙের ডিম বা পুকুরের শ্যাওলার মতো ভেসে থাকে।"
+  },
+  {
+    "id": "mag-carb-sym-09",
+    "stem": "শিশুরা সারাক্ষণ ঘ্যানঘ্যান করে এবং কোনো কিছুতেই সন্তুষ্ট হতে চায় না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "mental",
+      "children",
+      "whining",
+      "dissatisfied"
+    ],
+    "explanation": "Magnesia Carbonica-এ শিশুরা সারাক্ষণ ঘ্যানঘ্যান করে এবং কোনো কিছুতেই সন্তুষ্ট হতে চায় না।"
+  },
+  {
+    "id": "mag-carb-sym-15",
+    "stem": "শিশুদের মাথার ত্বকে চর্বিযুক্ত খুত খুত বা একজিমা, যা থেকে দুর্গন্ধ বের হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "skin",
+      "scalp",
+      "eczema",
+      "crusts",
+      "children"
+    ],
+    "explanation": "Magnesia Carbonica-এ শিশুদের মাথার ত্বকে চর্বিযুক্ত খুত খুত বা একজিমা দেখা দেয়, যা থেকে দুর্গন্ধ বের হয়।"
+  },
+  {
+    "id": "medorrhinum-sym-15",
+    "stem": "শিশুদের রাতে বিছানায় মূত্রত্যাগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "bed-wetting",
+      "children"
+    ],
+    "explanation": "Medorrhinum-এ শিশুদের রাত্রে বিছানায় মূত্রত্যাগ (Bed-wetting) হয়।"
+  },
+  {
+    "id": "medorrhinum-sym-18",
+    "stem": "শিশুদের মলদ্বারের চারপাশ লাল হয়ে ছাল ওঠা ও মলত্যাগে চুলকানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "anus",
+      "itching",
+      "children"
+    ],
+    "explanation": "Medorrhinum-এ শিশুদের মলদ্বারের চারপাশ লাল হয়ে ছাল উঠে যায় এবং মলত্যাগের সময় প্রচণ্ড চুলকানি ও জ্বালা হয়।"
+  },
+  {
+    "id": "mez-sym-13",
+    "stem": "বাচ্চা মুখ চুলকাতে চুলকাতে রক্তাক্ত করে ফেলে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "children",
+      "itching"
+    ],
+    "explanation": "Children scratching eruptions until bleeding is seen in Mezereum."
+  },
+  {
+    "id": "natp-sym-09",
+    "stem": "শিশু নাকে হাত দেয়, রাতে দাঁত কিড়মিড় করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "child",
+      "nose-picking",
+      "teeth-grinding",
+      "worms"
+    ],
+    "explanation": "Natrum Phos-এ শিশু নাকে হাত দেয় ও দাঁত কিড়মিড় করে।"
+  },
+  {
+    "id": "natp-sym-13",
+    "stem": "শিশুদের টক গন্ধযুক্ত ডায়রিয়া, মল সবুজ বা হলুদ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Rheum Palmatum",
+        "mid": "rheum-palmatum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "child",
+      "diarrhea",
+      "sour-odor",
+      "green-yellow"
+    ],
+    "explanation": "Natrum Phos-এ টক গন্ধযুক্ত ডায়রিয়া হয়।"
+  },
+  {
+    "id": "natrum-mur-sym-05",
+    "stem": "স্কুলছাত্রীদের মাথাব্যথা, ঘুম থেকে উঠে মাথাব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "headache",
+      "schoolgirls"
+    ],
+    "explanation": "Natrum Mur স্কুলছাত্রীদের মাথাব্যথায় কার্যকর, বিশেষত ঘুম থেকে উঠে মাথাব্যথা হয়।"
+  },
+  {
+    "id": "natrum-mur-sym-16",
+    "stem": "রক্তহীন মেয়েদের ক্রনিক মাথাব্যথা ও চোখের ওপর চাপ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "headache",
+      "anaemia",
+      "girls"
+    ],
+    "explanation": "Natrum Mur রক্তহীন মেয়েদের ক্রনিক মাথাব্যথায় কার্যকর, যেখানে চোখের ওপর প্রচণ্ড চাপ অনুভূত হয়।"
+  },
+  {
+    "id": "podo-sym-10",
+    "stem": "দাঁত ওঠার সময় ও গ্রীষ্মকালীন ডায়রিয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Rheum Palmatum",
+        "mid": "rheum-palmatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "dentition",
+      "summer-diarrhea",
+      "child"
+    ],
+    "explanation": "Podophyllum দাঁত ওঠা ও গ্রীষ্মকালীন ডায়রিয়ায় কার্যকর।"
+  },
+  {
+    "id": "podo-sym-11",
+    "stem": "ঘুমে দাঁত কিড়মিড় ও মাথা এপাশ-ওপাশ নাড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Cicuta Virosa",
+        "mid": "cicuta-virosa"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "teeth-grinding",
+      "head-rolling",
+      "sleep",
+      "child"
+    ],
+    "explanation": "Podophyllum-এ শিশুরা ঘুমে দাঁত কিড়মিড় ও মাথা নাড়ে।"
+  },
+  {
+    "id": "sani-sym-04",
+    "stem": "প্রচুর খাওয়া সত্ত্বেও শিশু দিন দিন শুকিয়ে যাওয়া (Emaciation), বিশেষ করে ঘাড়ের অংশ — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Abrotanum",
+        "mid": "abrotanum"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "children",
+      "emaciation"
+    ],
+    "explanation": "Sanicula-এর শিশুরা প্রচুর আহার করা সত্ত্বেও শুকিয়ে যায় (Marasmus), বিশেষ করে তাদের ঘাড়ের পেশি বেশি শুকায়।"
+  },
+  {
+    "id": "sars-sym-04",
+    "stem": "শরীরের চামড়া কুঁচকে যাওয়া এবং শিশুকে বৃদ্ধের মতো দেখানো — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Abrotanum",
+        "mid": "abrotanum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "skin",
+      "wrinkles",
+      "children",
+      "marasmus"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ শরীরের চামড়া কুঁচকে যায়, বিশেষত শিশুদের ক্ষেত্রে, ফলে শিশুকে বৃদ্ধের মতো দেখায়।"
+  },
+  {
+    "id": "sil-sym-10",
+    "stem": "শিশুদের রিকেট; শিশুরা দেরিতে হাঁটতে শেখে এবং মাথার খুলির হাড় ঠিকমতো জোড়া লাগে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "children",
+      "rickets",
+      "delayed-walking",
+      "cranial-sutures"
+    ],
+    "explanation": "Silicea শিশুদের রিকেটে কার্যকর; শিশুরা দেরিতে হাঁটতে শেখে, মাথার খুলির হাড় ঠিকমতো জোড়া লাগে না এবং শরীর শীর্ণ হয়ে যায়।"
+  },
+  {
+    "id": "sil-sym-17",
+    "stem": "ঘুমের সময় মাথায় প্রচুর ঘাম হয়, যা বালিশ ভিজিয়ে দেয় (বিশেষত শিশুদের ক্ষেত্রে) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "head-sweat",
+      "sleep",
+      "children"
+    ],
+    "explanation": "Silicea-এ ঘুমের সময় মাথায় প্রচুর ঘাম হয়, যা বালিশ ভিজিয়ে দেয় (বিশেষ করে শিশুদের ক্ষেত্রে)।"
+  },
+  {
+    "id": "stannum-sym-16",
+    "stem": "শিশুদের কৃমিজনিত সমস্যা, পেটে ব্যথা থাকলে শক্ত কিছুর ওপর পেট চেপে উপুড় হয়ে শুলে আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "worms",
+      "children",
+      "abdomen"
+    ],
+    "explanation": "Stannum Met শিশুদের কৃমিজনিত সমস্যায় কার্যকর; পেটে ব্যথা থাকলে রোগী শক্ত কোনো কিছুর ওপর পেট চেপে উপুড় হয়ে শুলে আরাম পায়।"
+  },
+  {
+    "id": "staph-sym-09",
+    "stem": "দাঁতে পোকা, শিশুদের দাঁত কালো হয়ে ভেঙে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Fluoricum Acidum",
+        "mid": "fluoricum-acidum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "teeth",
+      "decay",
+      "black",
+      "break",
+      "children"
+    ],
+    "explanation": "Staphisagria-এ দাঁত কালো ও ভেঙে যায়।"
+  },
+  {
+    "id": "zincum-sym-07",
+    "stem": "শিশু লিঙ্গ ধরে টানে, শিশু ঘুমে কেঁদে ওঠে, শিশুরা ঘুমের মধ্যে আঁতকে ওঠে বা চিৎকার করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "child",
+      "sleep",
+      "genitals"
+    ],
+    "explanation": "Zincum Metallicum এ শিশু লিঙ্গ ধরে টানে, শিশু ঘুমে কেঁদে ওঠে, শিশুরা ঘুমের মধ্যে আঁতকে ওঠে বা চিৎকার করে।"
+  }
+]

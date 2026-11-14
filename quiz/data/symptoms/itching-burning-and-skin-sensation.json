@@ -1,0 +1,1890 @@
+[
+  {
+    "id": "apis-sym-02",
+    "stem": "মৌমাছির হুল ফোটানোর মতো তীক্ষ্ণ, হঠাৎ আসা এবং যাওয়া ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "stinging-pain",
+      "burning",
+      "sudden-pain"
+    ],
+    "explanation": "Apis Mellifica-এ মৌমাছির হুল ফোটানোর মতো তীক্ষ্ণ ও হঠাৎ আসা-যাওয়া ব্যথা (Stinging Pains) হয়।"
+  },
+  {
+    "id": "apis-sym-11",
+    "stem": "আমবাত বা ইউর্টিক্যারিয়া (Urticaria) যা অত্যন্ত লাল এবং চুলকানিযুক্ত; ঠাণ্ডা জল লাগালে আরাম বোধ হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "skin",
+      "urticaria",
+      "itching",
+      "cold-water-relief"
+    ],
+    "explanation": "Apis Mellifica-এ আমবাত বা ইউর্টিক্যারিয়া (Urticaria) হয় যা অত্যন্ত লাল এবং চুলকানিযুক্ত; ঠাণ্ডা জল লাগালে চর্মরোগে আরাম বোধ হয়।"
+  },
+  {
+    "id": "apis-sym-19",
+    "stem": "প্রস্রাবের সময় তীব্র জ্বালা এবং শেষ ফোঁটাতে অধিক কষ্ট — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "urinary",
+      "burning",
+      "last-drops"
+    ],
+    "explanation": "Apis Mellifica-এ প্রস্রাবের সময় তীব্র জ্বালা এবং শেষ ফোঁটাতে অধিক কষ্ট হয়।"
+  },
+  {
+    "id": "argm-sym-09",
+    "stem": "প্রস্রাবে জ্বালাপোড়া এবং ঘনঘন প্রস্রাব — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Apis Mel",
+        "mid": "apis-mel"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "urinary",
+      "burning"
+    ],
+    "explanation": "Argentum Metallicum-তে প্রস্রাবের নালীতে জ্বালাপোড়া হতে পারে।"
+  },
+  {
+    "id": "argm-sym-10",
+    "stem": "ত্বকে চুলকানি এবং লাল দানা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "skin",
+      "itching"
+    ],
+    "explanation": "Argentum Metallicum-তে ত্বকে চুলকানি এবং লাল দানা দেখা যেতে পারে।"
+  },
+  {
+    "id": "ars-sym-02",
+    "stem": "জ্বালাপোড়া ব্যথা যা গরমে উপশম হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "burning",
+      "pain"
+    ],
+    "explanation": "Burning pains better by heat হলো Arsenicum Album-এর প্রধান keynote।"
+  },
+  {
+    "id": "ars-sym-14",
+    "stem": "অঙ্গপ্রত্যঙ্গে জ্বালাপোড়ার সাথে ঠান্ডা অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Plumbum",
+        "mid": "plumbum"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "burning",
+      "generalities"
+    ],
+    "explanation": "জ্বালা ও chilliness-এর সমন্বয় Arsenicum Album-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "ars-sym-19",
+    "stem": "চোখে জ্বালা ও ক্ষয়কারী অশ্রু — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "eyes",
+      "burning"
+    ],
+    "explanation": "Burning eyes with acrid tears Arsenicum Album নির্দেশ করে।"
+  },
+  {
+    "id": "calc-sulph-sym-06",
+    "stem": "কানের চারপাশে উদ্ভেদসহ চুলকানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "ear",
+      "eruption",
+      "itching"
+    ],
+    "explanation": "Calcarea Sulph-এ কানের চারপাশে উদ্ভেদসহ চুলকানি দেখা যায়।"
+  },
+  {
+    "id": "calen-sym-08",
+    "stem": "খোলা ক্ষত, পোড়া ক্ষত ও প্রচণ্ড ব্যথাযুক্ত আলসার — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "skin",
+      "wound",
+      "burn",
+      "ulcer",
+      "painful"
+    ],
+    "explanation": "Calendula খোলা, পোড়া ও ব্যথাযুক্ত আলসারে কার্যকর।"
+  },
+  {
+    "id": "calen-sym-12",
+    "stem": "জরায়ুর ক্ষত ও রক্তক্ষরণ, প্রস্রাবের পর জ্বালাপোড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Kreosotum",
+        "mid": "kreosotum"
+      },
+      {
+        "text": "Hydrastis",
+        "mid": "hydrastis"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "female",
+      "uterus",
+      "ulcer",
+      "burning-urine"
+    ],
+    "explanation": "Calendula জরায়ুর ক্ষত ও প্রস্রাব পরবর্তী জ্বালায় কার্যকর।"
+  },
+  {
+    "id": "cantharis-sym-01",
+    "stem": "প্রস্রাবের অনবরত বেগ, কিন্তু কয়েক ফোঁটা প্রস্রাবের সাথে রক্ত যায় এবং তীব্র জ্বালা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "urinary",
+      "cystitis",
+      "hematuria",
+      "burning"
+    ],
+    "explanation": "Cantharis-এর প্রধান লক্ষণ হলো প্রস্রাবের অনবরত বেগ, সামান্য কয়েক ফোঁটা প্রস্রাবের সাথে রক্ত (Hematuria) এবং প্রস্রাবনালীতে অসহ্য জ্বালা।"
+  },
+  {
+    "id": "cantharis-sym-02",
+    "stem": "আগুনে পুড়ে যাওয়া বা কোনো কারণে চামড়ায় বড় বড় জলপূর্ণ ফোস্কা পড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "burns",
+      "blisters",
+      "skin"
+    ],
+    "explanation": "Cantharis আগুনে পুড়ে যাওয়া বা চামড়ায় বড় বড় জলপূর্ণ ফোস্কা পড়লে শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "cantharis-sym-06",
+    "stem": "পায়খানার সাথে রক্ত যায় এবং মলদ্বারে জ্বালা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "rectal",
+      "bloody-stool",
+      "burning"
+    ],
+    "explanation": "Cantharis-এ পায়খানার সাথে রক্ত যায় এবং মলদ্বারে জ্বালা হয়।"
+  },
+  {
+    "id": "cantharis-sym-07",
+    "stem": "গলার ভেতরটা অত্যন্ত লাল ও ফুলে যায়; গিলতে গেলে মনে হয় যেন গলার চামড়া ছিলে গেছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "throat",
+      "dysphagia",
+      "burning"
+    ],
+    "explanation": "Cantharis-এ গলার ভেতরটা অত্যন্ত লাল ও ফুলে যায় এবং গিলতে গেলে প্রচণ্ড কষ্ট হয়, মনে হয় যেন গলার চামড়া ছিলে গেছে।"
+  },
+  {
+    "id": "cantharis-sym-08",
+    "stem": "প্রস্রাব করার আগে, সময় এবং পরে মূত্রনালীতে অসহ্য কাটাকাটা ব্যথা ও জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "urinary",
+      "dysuria",
+      "burning",
+      "cutting-pain"
+    ],
+    "explanation": "Cantharis-এ প্রস্রাব করার আগে, সময় এবং পরে মূত্রনালীতে অসহ্য কাটাকাটা ব্যথা ও জ্বালা হয়।"
+  },
+  {
+    "id": "cantharis-sym-09",
+    "stem": "পেটের ভেতর আগুনের মতো জ্বালা এবং বমির সাথে রক্ত বা শ্লেষ্মা নির্গত হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Ipecacuanha",
+        "mid": "ipecacuanha"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "stomach",
+      "vomiting",
+      "blood",
+      "burning"
+    ],
+    "explanation": "Cantharis-এ পেটের ভেতর আগুনের মতো জ্বালা হয় এবং বমি বমি ভাবের সাথে অনেক সময় বমির সাথে রক্ত বা শ্লেষ্মা নির্গত হয়।"
+  },
+  {
+    "id": "cantharis-sym-10",
+    "stem": "জরায়ুর প্রদাহ এবং মাসিক চলাকালীন মূত্রনালীতে জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "female",
+      "uterine-inflammation",
+      "menses",
+      "urinary-burning"
+    ],
+    "explanation": "Cantharis-এ জরায়ুর প্রদাহ এবং মাসিক চলাকালীন মূত্রনালীতে জ্বালা হয়।"
+  },
+  {
+    "id": "cantharis-sym-16",
+    "stem": "শরীরের ভেতরে ও বাইরে আগুনের মতো তীব্র জ্বালা, বিশেষত মূত্রাশয় এবং অন্ত্রে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "burning",
+      "bladder",
+      "intestines",
+      "general"
+    ],
+    "explanation": "Cantharis-এর প্রধান লক্ষণ হলো শরীরের ভেতরে ও বাইরে আগুনের মতো তীব্র জ্বালা, বিশেষ করে মূত্রাশয় এবং অন্ত্রে।"
+  },
+  {
+    "id": "cantharis-sym-17",
+    "stem": "প্রতি ফোঁটা প্রস্রাবের সাথে মনে হয় যেন গরম জল বা এসিড বের হচ্ছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "urinary",
+      "burning",
+      "urine-like-acid"
+    ],
+    "explanation": "Cantharis-এ প্রতি ফোঁটা প্রস্রাবের সাথে মনে হয় যেন গরম জল বা এসিড বের হচ্ছে।"
+  },
+  {
+    "id": "cantharis-sym-20",
+    "stem": "পোড়া ক্ষতে মাদার টিংচার (Q) জলের সাথে মিশিয়ে বাহ্যিকভাবে ব্যবহার করলে দ্রুত আরাম পাওয়া যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "burns",
+      "mother-tincture",
+      "external-application"
+    ],
+    "explanation": "Cantharis-এর মাদার টিংচার (Q) জলের সাথে মিশিয়ে পোড়া ক্ষেত্রে বাহ্যিকভাবে ব্যবহার করলে দ্রুত আরাম পাওয়া যায়।"
+  },
+  {
+    "id": "caps-sym-01",
+    "stem": "শরীরের প্রতিটি ছিদ্রে ও শ্লেষ্মাঝিল্লিতে মরিচ পোড়ার মতো তীব্র জ্বালা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "burning",
+      "mucous-membrane"
+    ],
+    "explanation": "Capsicum Annuum এ শরীরের প্রতিটি ছিদ্রে বা শ্লেষ্মাঝিল্লিতে মরিচ পোড়ার মতো তীব্র জ্বালা অনুভূত হয়।"
+  },
+  {
+    "id": "caps-sym-11",
+    "stem": "গলার ভেতর লাল ও গরম মরিচ লাগানোর মতো জ্বালা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "throat",
+      "burning"
+    ],
+    "explanation": "Capsicum Annuum এ গলার ভেতর লাল হয় এবং গরম মরিচ লাগানোর মতো জ্বালা হয়।"
+  },
+  {
+    "id": "caps-sym-14",
+    "stem": "মলত্যাগের সময় ও পরে মলদ্বারে তীব্র জ্বালা থাকা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "rectum",
+      "burning",
+      "stool"
+    ],
+    "explanation": "Capsicum Annuum এ মলত্যাগের সময় ও পরে মলদ্বারে তীব্র জ্বালা থাকে।"
+  },
+  {
+    "id": "caps-sym-17",
+    "stem": "প্রস্রাবের নালীতে জ্বালা, প্রস্রাবের সময় জ্বলন্ত কয়লা রাখার মতো অনুভূতি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "urinary",
+      "burning"
+    ],
+    "explanation": "Capsicum Annuum এ প্রস্রাবের নালীতে জ্বালা হয় এবং প্রস্রাব ত্যাগের সময় মনে হয় যেন জ্বলন্ত কয়লা রাখা হয়েছে।"
+  },
+  {
+    "id": "carbo-sym-17",
+    "stem": "অর্শে শিরা ফুলে নীল, প্রচুর চুলকানি ও জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Aesculus Hippocastanum",
+        "mid": "aesculus-hippocastanum"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "hemorrhoids",
+      "blue",
+      "burning",
+      "itching"
+    ],
+    "explanation": "Carbo Veg-এ অর্শ নীল ও জ্বালা-চুলকানিযুক্ত।"
+  },
+  {
+    "id": "causticum-sym-06",
+    "stem": "সঙ্গমের পর মূত্রত্যাগকালে মূত্রনালীতে জ্বালা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Petroselinum",
+        "mid": "petroselinum-sativum"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "urethra",
+      "burning",
+      "coition"
+    ],
+    "explanation": "Causticum-এ সঙ্গমের পর মূত্রত্যাগকালে মূত্রনালীতে জ্বালা হয়।"
+  },
+  {
+    "id": "causticum-sym-13",
+    "stem": "পোড়া দাগ আবার পেকে যাওয়া ও ব্যথা হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum-perforatum"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "burns",
+      "old-sores"
+    ],
+    "explanation": "Causticum-এ পোড়া দাগ আবার পেকে যায় ও ব্যথা হয়।"
+  },
+  {
+    "id": "chel-sym-09",
+    "stem": "চামড়া শুষ্ক, হলুদ এবং চুলকানিযুক্ত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "skin",
+      "dry",
+      "yellow",
+      "itching"
+    ],
+    "explanation": "Chelidonium Majus-এ চামড়া শুষ্ক, হলুদ এবং চুলকানিযুক্ত হয়।"
+  },
+  {
+    "id": "cina-sym-13",
+    "stem": "পেটে কৃমির সঙ্গে মলদ্বারে প্রচণ্ড চুলকানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Aesculus",
+        "mid": "aesculus"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "anal-itching",
+      "worms"
+    ],
+    "explanation": "Anal itching with worms Cina-এর শক্তিশালী লক্ষণ।"
+  },
+  {
+    "id": "clem-sym-19",
+    "stem": "একজিমা বা দাদে চুলকানোর পর চামড়া ছিলে যাওয়া এবং প্রচণ্ড জ্বালা করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Sulfur",
+        "mid": "sulfur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "skin",
+      "eczema",
+      "itching"
+    ],
+    "explanation": "Clematis Erecta-এর একজিমায় রোগী চুলকালে স্থানটি খসে গিয়ে লাল হয়ে তীব্র জ্বলন অনুভূত হয়।"
+  },
+  {
+    "id": "colch-sym-11",
+    "stem": "পেটের ভেতর বরফের মতো ঠান্ডা অনুভূতি অথবা প্রচণ্ড জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "stomach",
+      "cold-sensation",
+      "burning"
+    ],
+    "explanation": "Colchicum-এ পেটের ভেতর বরফের মতো ঠান্ডা অনুভূতি হতে পারে অথবা প্রচণ্ড জ্বালা করতে পারে।"
+  },
+  {
+    "id": "croton-sym-20",
+    "stem": "চর্মরোগে ভয়ানক চুলকানি, জ্বালা ও ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Ledum Pal",
+        "mid": "ledum-palustre"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "skin",
+      "itching",
+      "burning"
+    ],
+    "explanation": "Croton Tiglium-এ চর্মরোগে ভয়ানক চুলকানি, জ্বালা ও ব্যথা হয়।"
+  },
+  {
+    "id": "dulc-sym-19",
+    "stem": "প্রস্রাব করার সময় মূত্রনালীতে জ্বালাপোড়া এবং প্রস্রাব ঘোলাটে ও সাদা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "urinary",
+      "burning",
+      "turbid-urine"
+    ],
+    "explanation": "Dulcamara-এ প্রস্রাব করার সময় মূত্রনালীতে জ্বালাপোড়া (Burning in the meatus while urinating) হয় এবং প্রস্রাব ঘোলাটে ও সাদা থাকে।"
+  },
+  {
+    "id": "euphrasia-sym-02",
+    "stem": "চোখ দিয়ে প্রচুর পানি পড়ে, পানি জ্বালাপোড়া করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "lachrymation",
+      "burning"
+    ],
+    "explanation": "Euphrasia Officinalis এ চোখ দিয়ে প্রচুর পানি পড়ে, পানি জ্বালাপোড়া করে।"
+  },
+  {
+    "id": "just-sym-19",
+    "stem": "গলার স্বর বসে যাওয়া (Hoarseness) এবং গলার ভেতর তীব্র জ্বালা করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "throat",
+      "hoarseness",
+      "burning"
+    ],
+    "explanation": "Justicia Adhatoda-এ স্বরভঙ্গ ও গলার ভেতরের শ্লৈষ্মিক ঝিল্লিতে জ্বালাপোড়া থাকে।"
+  },
+  {
+    "id": "medorrhinum-sym-02",
+    "stem": "পায়ের তলায় প্রচণ্ড জ্বালা, রাতে বিছানার বাইরে পা বের করে রাখে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "burning",
+      "feet",
+      "night"
+    ],
+    "explanation": "Medorrhinum-এ পায়ের তলায় প্রচণ্ড জ্বালাভাব হয় এবং রাতে রোগী বিছানার বাইরে পা বের করে রাখে।"
+  },
+  {
+    "id": "medorrhinum-sym-09",
+    "stem": "পায়ের গোড়ালিতে সূঁচ ফোটার মতো ব্যথা ও জ্বালা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "heel-pain",
+      "burning"
+    ],
+    "explanation": "Medorrhinum-এ পায়ের তলায় ও গোড়ালিতে তীব্র সূঁচ ফোটার মতো ব্যথা ও জ্বালা থাকে।"
+  },
+  {
+    "id": "medorrhinum-sym-14",
+    "stem": "প্রস্রাবে তীব্র ঝাল ও দুর্গন্ধ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "urine",
+      "burning",
+      "offensive"
+    ],
+    "explanation": "Medorrhinum-এ প্রস্রাবে তীব্র ঝাল ও দুর্গন্ধ থাকে।"
+  },
+  {
+    "id": "medorrhinum-sym-18",
+    "stem": "শিশুদের মলদ্বারের চারপাশ লাল হয়ে ছাল ওঠা ও মলত্যাগে চুলকানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "anus",
+      "itching",
+      "children"
+    ],
+    "explanation": "Medorrhinum-এ শিশুদের মলদ্বারের চারপাশ লাল হয়ে ছাল উঠে যায় এবং মলত্যাগের সময় প্রচণ্ড চুলকানি ও জ্বালা হয়।"
+  },
+  {
+    "id": "mez-sym-02",
+    "stem": "একজিমা থেকে আঠালো তরল স্রাব ও অসহ্য চুলকানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "eczema",
+      "itching"
+    ],
+    "explanation": "Oozing eczema with violent itching is characteristic of Mezereum."
+  },
+  {
+    "id": "mez-sym-03",
+    "stem": "চুলকানি বিছানার উষ্ণতায় বৃদ্ধি পায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "itching",
+      "night"
+    ],
+    "explanation": "Itching worse in bed is a Mezereum keynote."
+  },
+  {
+    "id": "mez-sym-13",
+    "stem": "বাচ্চা মুখ চুলকাতে চুলকাতে রক্তাক্ত করে ফেলে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "children",
+      "itching"
+    ],
+    "explanation": "Children scratching eruptions until bleeding is seen in Mezereum."
+  },
+  {
+    "id": "mez-sym-17",
+    "stem": "সিক্ত ত্বক রোগে জ্বালা ও আগুনের মতো চুলকানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "skin",
+      "burning-itch"
+    ],
+    "explanation": "Burning itching eruptions strongly indicate Mezereum."
+  },
+  {
+    "id": "natp-sym-14",
+    "stem": "মলত্যাগের পর মলদ্বারে চুলকানি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Teucrium Marum",
+        "mid": "teucrium-marum"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "anus",
+      "itching",
+      "after-stool"
+    ],
+    "explanation": "Natrum Phos-এ মলত্যাগের পর মলদ্বারে চুলকানি হয়।"
+  },
+  {
+    "id": "petr-sym-12",
+    "stem": "কানের ভেতর অত্যন্ত চুলকানি এবং কানের পর্দা শুষ্ক হয়ে যায়, কানে কম শোনা (Deafness) হতে পারে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "ears",
+      "itching",
+      "dryness",
+      "deafness"
+    ],
+    "explanation": "Petroleum-এ কানের ভেতর অত্যন্ত চুলকানি হয়, কানের পর্দা শুষ্ক হয়ে যায় এবং কানে কম শোনার (Deafness) প্রবণতা থাকে।[reference:31]"
+  },
+  {
+    "id": "phosphorus-sym-05",
+    "stem": "শরীরের নানা স্থান অল্প স্থান জুড়ে জ্বলে, মেরুদণ্ড জ্বালা করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "burning",
+      "spine"
+    ],
+    "explanation": "Phosphorus এ শরীরের নানা স্থান অল্প স্থান জুড়ে জ্বলে, মেরুদণ্ড জ্বালা করে।"
+  },
+  {
+    "id": "phy-sym-05",
+    "stem": "গলার ভেতর গাঢ় লাল বা নীলচে লাল বর্ণ ধারণ করা এবং মনে হওয়া যেন আগুনের গোলক রয়েছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      },
+      {
+        "text": "Ailanthus",
+        "mid": "ailanthus"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "throat",
+      "diphtheria",
+      "burning"
+    ],
+    "explanation": "Phytolacca-এ গলায় কালচে লাল বা নীলচে ক্ষতের তীব্র প্রদাহ ও জ্বলন থাকে।"
+  },
+  {
+    "id": "sab-sym-11",
+    "stem": "যৌনাঙ্গে ডুমুরের মতো আঁচিল, চুলকায় ও জ্বালা করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "warts",
+      "fig-warts",
+      "genital",
+      "itch",
+      "burn"
+    ],
+    "explanation": "Sabina-এ যৌনাঙ্গে ডুমুরের মতো আঁচিল হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-05",
+    "stem": "হাত পা সহ শরীরের বিভিন্ন স্থানে জ্বালা, হাতের তালু ও পায়ের তলায় প্রচণ্ড জ্বালা, ঠান্ডা জায়গায় রাখতে চায় বা লেপের বাইরে বের করে রাখে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "burning",
+      "palms",
+      "soles"
+    ],
+    "explanation": "Sanguinaria Canadensis এ হাত পা সহ শরীরের বিভিন্ন স্থানে জ্বালা হয়, হাতের তালু ও পায়ের তলায় প্রচণ্ড জ্বালা হয়, রোগী তা ঠান্ডা জায়গায় রাখতে চায় বা লেপের বাইরে বের করে রাখে।"
+  },
+  {
+    "id": "sanguinaria-sym-18",
+    "stem": "পাকস্থলীতে জ্বালা ও অত্যন্ত শূন্যতা বোধ, ঝাল বা মশলাযুক্ত খাবার খাওয়ার তীব্র ইচ্ছা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "stomach",
+      "burning",
+      "emptiness",
+      "spicy"
+    ],
+    "explanation": "Sanguinaria Canadensis এ পাকস্থলীতে জ্বালা ও অত্যন্ত শূন্যতা বোধ হয়, রোগী ঝাল বা মশলাযুক্ত খাবার খাওয়ার তীব্র ইচ্ছা প্রকাশ করে।"
+  },
+  {
+    "id": "sars-sym-05",
+    "stem": "বসন্তকালে ত্বকের চুলকানি ও চর্মরোগ বৃদ্ধি পাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "skin",
+      "itching",
+      "spring",
+      "seasonal"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ প্রতি বছর বসন্তকাল এলে চর্মরোগ বা চুলকানি বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sec-sym-01",
+    "stem": "শরীর বরফের মতো ঠান্ডা হলেও অভ্যন্তরীণ তীব্র জ্বাালাপোড়া এবং গায়ের কাপড় সম্পূর্ণ অনাবৃত রাখার ব্যাকুলতা (Uncovering is a must) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "general",
+      "burning",
+      "uncovering",
+      "cold-body"
+    ],
+    "explanation": "Secale Cornutum-এর প্রধান পরিচয় চিহ্ন হলো ঠাণ্ডা গা সত্ত্বেও তীব্র অভ্যন্তরীণ দাহ ও গায়ের কাপড় ফেলে দেওয়া।"
+  },
+  {
+    "id": "sel-sym-12",
+    "stem": "হাতের তালা চুলকানি, ছাল ওঠা উদ্ভেদ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Anagallis Arvensis",
+        "mid": "anagallis-arvensis"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "palm",
+      "itch",
+      "peeling",
+      "eruption"
+    ],
+    "explanation": "Selenium-এ হাতের তালায় চুলকানি ও ছাল ওঠা উদ্ভেদ থাকে।"
+  },
+  {
+    "id": "sene-sym-03",
+    "stem": "বুকের কোনো ক্ষুদ্র স্থানে বা নির্দিষ্ট অংশে জ্বালাপোড়া ও সূঁচ ফোঁটানোর মতো ব্যথা হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "chest",
+      "burning-pain"
+    ],
+    "explanation": "Senega-এ বুকের একটি ছোট বা নির্দিষ্ট স্থানজুড়ে জ্বালা ও সুঁচ ফোঁটানোর মতো ব্যথার প্রাবল্য থাকে।"
+  },
+  {
+    "id": "spongia-sym-09",
+    "stem": "উদ্ভেদ ছাড়া সর্বত্র চুলকানি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Dolichos",
+        "mid": "dolichos-pruriens"
+      }
+    ],
+    "answer": "spongia-tosta",
+    "tags": [
+      "itching",
+      "skin"
+    ],
+    "explanation": "Spongia-তে উদ্ভেদ ছাড়াই সর্বত্র চুলকানি হয়।"
+  },
+  {
+    "id": "staph-sym-10",
+    "stem": "চর্ম চুলকালে স্থান পরিবর্তন করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Mancinella",
+        "mid": "mancinella"
+      },
+      {
+        "text": "Dolichos Pruriens",
+        "mid": "dolichos-pruriens"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "skin",
+      "itching",
+      "changes-place"
+    ],
+    "explanation": "Staphisagria-এ চুলকানি স্থান পরিবর্তন করে।"
+  },
+  {
+    "id": "staph-sym-15",
+    "stem": "প্রস্রাবের পরেও মনে হয় আরও হবে, নালীতে অবিরাম জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Sarsaparilla",
+        "mid": "sarsaparilla"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "urinary",
+      "tenesmus",
+      "burning",
+      "urethra"
+    ],
+    "explanation": "Staphisagria-এ প্রস্রাবের পরেও বেগ ও জ্বালা থাকে।"
+  },
+  {
+    "id": "sul-iod-sym-10",
+    "stem": "চুলকানি যা ধুলে বা ভিজে আবহাওয়ায় বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "skin",
+      "itching",
+      "scratching",
+      "damp-weather"
+    ],
+    "explanation": "Sulphur Iodatum-এ চুলকানি থাকে যা ধুলে বা ভিজে আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sul-sym-01",
+    "stem": "শরীরের বিভিন্ন রন্ধ্রপথ (যেমন ঠোঁট, মলদ্বার, যোনি) উজ্জ্বল লালবর্ণ হওয়া এবং হাত-পা ও তালুতে জ্বালা করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "general",
+      "burning",
+      "red-orifices"
+    ],
+    "explanation": "Sulphur-এর প্রধান লক্ষণ হলো প্রাকৃতিক রন্ধ্রের লালভাব ও সর্বাঙ্গীন দাহ।"
+  },
+  {
+    "id": "sul-sym-03",
+    "stem": "চুলকানিযুক্ত চর্মরোগ যা চুলকালে প্রথমে আরাম পেলেও পরবর্তীতে জ্বালাপোড়া ও খসখসে ভাব সৃষ্টি হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "skin",
+      "itching",
+      "scratching"
+    ],
+    "explanation": "Sulphur চুলকানি চুলকালে সাময়িক স্বস্তি মিললেও পরে জ্বালায় রূপ নেয়।"
+  },
+  {
+    "id": "sul-sym-07",
+    "stem": "পায়ের তালু অতিরিক্ত গরম হওয়ার কারণে রাতে বিছানায় শুয়ে তালু কম্বলের বা লেপের বাইরে বের করে রাখা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "extremities",
+      "burning-soles",
+      "out-of-bed"
+    ],
+    "explanation": "Sulphur-এ পায়ের তালুর জ্বালায় পা বিছানার বাইরে রাখতে বাধ্য হয়।"
+  },
+  {
+    "id": "thuja-sym-12",
+    "stem": "গনোরিয়ার পাতলা স্রাব, গনোরিয়ায় ধ্বজভঙ্গ, প্রস্রাবে জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Cannabis Sativa",
+        "mid": "cannabis-sativa"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "gonorrhea",
+      "thin-discharge",
+      "impotency",
+      "burning-urine"
+    ],
+    "explanation": "Thuja গনোরিয়া ও তার পরবর্তী সমস্যায় কার্যকর।"
+  },
+  {
+    "id": "verat-sym-19",
+    "stem": "শরীরের ভেতরে জ্বালা অনুভূত হয় কিন্তু বাইরে থেকে শরীর ঠান্ডা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "burning-internally",
+      "cold-externally",
+      "temperature"
+    ],
+    "explanation": "Veratrum Album-এ শরীরের ভেতরে জ্বালা অনুভূত হয় কিন্তু বাইরে থেকে শরীর ঠান্ডা থাকে।"
+  },
+  {
+    "id": "zincum-sym-10",
+    "stem": "চিনি খেলে গলা জ্বালা করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "throat",
+      "sugar",
+      "burning"
+    ],
+    "explanation": "Zincum Metallicum এ চিনি খেলে গলা জ্বালা করে।"
+  }
+]

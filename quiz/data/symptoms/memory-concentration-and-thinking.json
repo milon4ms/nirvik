@@ -1,0 +1,992 @@
+[
+  {
+    "id": "argn-sym-18",
+    "stem": "স্মৃতিশক্তি অত্যন্ত দুর্বল এবং মানসিকভাবে সবসময় ক্লান্ত থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "mental",
+      "memory"
+    ],
+    "explanation": "Argentum Nitricum-এর মানসিক লক্ষণে রোগীর স্মৃতিশক্তি অত্যন্ত দুর্বল থাকে এবং সে মানসিকভাবে সবসময় ক্লান্ত বোধ করে।"
+  },
+  {
+    "id": "arnica-mont-sym-08",
+    "stem": "রোগী কোনো বিষয়ে মনোযোগ দিতে পারে না এবং প্রশ্নের উত্তর দেওয়ার পর পুনরায় অচৈতন্য হয়ে পড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "mental",
+      "concentration-difficulty",
+      "unconsciousness"
+    ],
+    "explanation": "Arnica Montana-এ রোগী কোনো বিষয়ে মনোযোগ দিতে পারে না এবং উত্তর দেওয়ার পর পুনরায় অচৈতন্য হয়ে পড়ে।"
+  },
+  {
+    "id": "baryta-sym-05",
+    "stem": "পড়াশোনায় অমনোযোগী, শিখতে অনেক সময় লাগে, স্মৃতিশক্তির অভাব — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "mind",
+      "dullness",
+      "memory",
+      "learning"
+    ],
+    "explanation": "Baryta-তে শেখার ক্ষমতা কম ও স্মৃতি দুর্বল।"
+  },
+  {
+    "id": "calcphos-sym-11",
+    "stem": "খিটখিটে মেজাজ ও সামান্য বিষয়েই ভুলে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "mind",
+      "irritability",
+      "forgetfulness"
+    ],
+    "explanation": "Calcarea Phosphorica এ খিটখিটে মেজাজ এবং সামান্য বিষয়েই ভুলে যাওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "carbo-sym-18",
+    "stem": "স্মৃতিশক্তি দুর্বল, কথা বলার সময় খেই হারিয়ে ফেলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "mind",
+      "memory",
+      "confusion",
+      "speech"
+    ],
+    "explanation": "Carbo Veg-এ স্মৃতি দুর্বল ও কথা বলার সময় খেই হারায়।"
+  },
+  {
+    "id": "clem-sym-17",
+    "stem": "স্মৃতিশক্তি অত্যন্ত দুর্বল হওয়া এবং কথা বলার সময় খেই হারিয়ে ফেলা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Cannabis Indica",
+        "mid": "cannabis-indica"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "mental",
+      "memory",
+      "speech"
+    ],
+    "explanation": "Clematis Erecta-এ স্মৃতিহীনতা দেখা যায় এবং কথা বলতে গিয়ে খেই হারিয়ে ফেলার লক্ষণ প্রকাশিত হয়।"
+  },
+  {
+    "id": "colch-sym-10",
+    "stem": "স্মৃতিশক্তি কিছুটা লোপ পাওয়া এবং রোগী কোনো কাজে মন বসাতে না পারা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "mental",
+      "memory",
+      "concentration"
+    ],
+    "explanation": "Colchicum-এ স্মৃতিশক্তি কিছুটা লোপ পায় এবং রোগী কোনো কাজে মন বসাতে পারে না।"
+  },
+  {
+    "id": "conium-sym-09",
+    "stem": "স্মৃতিশক্তি হ্রাস বিশেষ করে বৃদ্ধদের — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "mind",
+      "memory",
+      "old-age"
+    ],
+    "explanation": "Conium বৃদ্ধদের স্মৃতি হ্রাসে কার্যকর।"
+  },
+  {
+    "id": "euphrasia-sym-10",
+    "stem": "মানসিকভাবে প্রসাদগ্রস্ত, কোনো কাজে উৎসাহ পায় না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "mind",
+      "dull",
+      "indifference"
+    ],
+    "explanation": "Euphrasia Officinalis রোগী মানসিকভাবে অত্যন্ত প্রসাদগ্রস্ত থাকে এবং কোনো কাজে উৎসাহ পায় না।"
+  },
+  {
+    "id": "glon-sym-05",
+    "stem": "পরিচিত রাস্তা মনে রাখতে পারে না, পরিচিত লোককে অপরিচিত মনে হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Cannabis Indica",
+        "mid": "cannabis-indica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "mind",
+      "confusion",
+      "roads",
+      "recognition"
+    ],
+    "explanation": "Glonoine-এ পরিচিত রাস্তা ও লোক ভুলে যায়।"
+  },
+  {
+    "id": "glon-sym-12",
+    "stem": "সময়ের জ্ঞান হারায়, কয়েক সেকেন্ড কয়েক ঘণ্টা মনে হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Cannabis Indica",
+        "mid": "cannabis-indica"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "mind",
+      "time",
+      "confusion"
+    ],
+    "explanation": "Glonoine-এ সময়ের জ্ঞান হারায়।"
+  },
+  {
+    "id": "glon-sym-13",
+    "stem": "ভুল জায়গায় চলে যায়, মানসিক বিভ্রান্তি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Cannabis Indica",
+        "mid": "cannabis-indica"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "mind",
+      "confusion",
+      "wrong-place"
+    ],
+    "explanation": "Glonoine বিভ্রান্তিতে ভুল জায়গায় চলে যায়।"
+  },
+  {
+    "id": "hell-sym-07",
+    "stem": "রোগী যা পড়ছে বা দেখছে তা মনে রাখতে পারে না, এমনকি নিজের নামও ভুলে যেতে পারে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "mental",
+      "memory-loss",
+      "forgets-name"
+    ],
+    "explanation": "Helleborus Niger-এ স্মৃতিশক্তি লোপ পায়; রোগী যা পড়ছে বা দেখছে তা মনে রাখতে পারে না, এমনকি নিজের নামও ভুলে যেতে পারে।"
+  },
+  {
+    "id": "hell-sym-16",
+    "stem": "মস্তিষ্কের জলসঞ্চয় (Hydrocephalus) বা ব্রেইন ফিভারের পরবর্তী আচ্ছন্ন অবস্থায় এটি শ্রেষ্ঠ ঔষধ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "hydrocephalus",
+      "meningitis",
+      "stupor"
+    ],
+    "explanation": "Helleborus Niger মস্তিষ্কের জলসঞ্চয় (Hydrocephalus) বা ব্রেইন ফিভারের (Meningitis) পরবর্তী অবস্থায় যখন রোগী আচ্ছন্ন হয়ে পড়ে, তখন এটি শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "hell-sym-17",
+    "stem": "গভীর মনযোগ দিলে রোগ উপশম হয় এবং মনযোগ না দিলে পেশীর কাজ বন্ধ হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "mental",
+      "attention",
+      "muscle-function"
+    ],
+    "explanation": "Helleborus Niger-এ গভীর মনযোগ দিলে রোগ উপশম হয়, কিন্তু মনযোগ না দিলে পেশীর কাজ বন্ধ হয়ে যায়।"
+  },
+  {
+    "id": "hell-sym-18",
+    "stem": "অন্যমনস্কভাবে চলার সময় রোগী মাতালের মতো টলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "gait",
+      "staggering",
+      "inattention"
+    ],
+    "explanation": "Helleborus Niger-এ যখন রোগী অন্যমনস্ক ভাবে চলে তখন মাতালের মতো টলে।"
+  },
+  {
+    "id": "hyper-sym-11",
+    "stem": "লিখতে ভুল করে, যা বলার ছিল ভুলে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "mind",
+      "writing-mistakes",
+      "forgetful",
+      "speech"
+    ],
+    "explanation": "Hypericum-এ লিখতে ভুল ও কথা ভুলে যাওয়া থাকে।"
+  },
+  {
+    "id": "lac-can-sym-03",
+    "stem": "খুব ভুলো মন ও অমনোযোগী, লেখার সময় ভুল করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "mental",
+      "forgetful"
+    ],
+    "explanation": "Lac Caninum-এ রোগী খুব ভুলো ও অমনোযোগী হয় এবং লেখার সময় ভুল করে।"
+  },
+  {
+    "id": "lac-can-sym-16",
+    "stem": "মনোযোগ ধরে রাখতে না পারা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "mental",
+      "attention"
+    ],
+    "explanation": "Lac Caninum-এ রোগী মনোযোগ ধরে রাখতে পারে না।"
+  },
+  {
+    "id": "lyc-sym-20",
+    "stem": "স্মৃতিশক্তি দুর্বল হওয়া— কথা বলতে বা লিখতে গিয়ে শব্দ ও বর্ণ ভুলে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "mind",
+      "memory",
+      "speech"
+    ],
+    "explanation": "Lycopodium-এর রোগী স্মৃতিবিভ্রান্তির কারণে কথা বলার সময় সঠিক শব্দ পায় না বা লিখতে গিয়ে অক্ষর বাদ দিয়ে ফেলে।"
+  },
+  {
+    "id": "magphos-sym-16",
+    "stem": "স্মৃতিশক্তি দুর্বল, মানসিকভাবে কোনো বিষয়ে মনোযোগ দিতে কষ্ট হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Kali Phosphoricum",
+        "mid": "kali-phosphoricum"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "mind",
+      "memory",
+      "concentration"
+    ],
+    "explanation": "Magnesia Phosphorica এ স্মৃতিশক্তি দুর্বল হয়ে পড়ে এবং মানসিকভাবে কোনো বিষয়ে মনোযোগ দিতে কষ্ট হয়।"
+  },
+  {
+    "id": "medorrhinum-sym-04",
+    "stem": "কথা বলার সময় নাম বা পরিচিত শব্দ ভুলে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "memory",
+      "mental"
+    ],
+    "explanation": "Medorrhinum-এ দুর্বল স্মৃতিশক্তি থাকে; রোগী কথা বলার সময় নাম বা অতি পরিচিত শব্দ ভুলে যায়।"
+  },
+  {
+    "id": "medorrhinum-sym-19",
+    "stem": "রোগের কথা ভাবলে রোগ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "modalities",
+      "thinking"
+    ],
+    "explanation": "Medorrhinum-এর লক্ষণ চিন্তা করলে, অর্থাৎ রোগের কথা ভাবলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "merc-sym-14",
+    "stem": "অস্থির, ধীরগতি, উদাসীন, প্রশ্নের উত্তর দিতে সময় নেয়, স্মৃতি দুর্বল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "mind",
+      "restless",
+      "slow",
+      "indifferent",
+      "memory"
+    ],
+    "explanation": "Merc Vivus রোগী অস্থির, ধীর ও স্মৃতি দুর্বল।"
+  },
+  {
+    "id": "petr-sym-07",
+    "stem": "স্মৃতিশক্তি অত্যন্ত দুর্বল; রোগী পরিচিত রাস্তা ভুলে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "mental",
+      "memory",
+      "forgetful",
+      "streets"
+    ],
+    "explanation": "Petroleum-এ স্মৃতিশক্তি দুর্বল থাকে; রোগী অনেক সময় পরিচিত রাস্তা ভুলে যায়।[reference:26]"
+  },
+  {
+    "id": "plumbum-sym-10",
+    "stem": "স্মৃতিশক্তি অত্যন্ত দুর্বল, কথা বলার সময় সঠিক শব্দ খুঁজে পায় না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Kali Phosphoricum",
+        "mid": "kali-phosphoricum"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "mind",
+      "memory",
+      "speech"
+    ],
+    "explanation": "Plumbum Metallicum এ স্মৃতিশক্তি অত্যন্ত দুর্বল হয়ে পড়ে, রোগী কথা বলার সময় সঠিক শব্দ খুঁজে পায় না।"
+  },
+  {
+    "id": "sel-sym-16",
+    "stem": "ভুলোমনা, কাজের সময় শব্দ মনে করতে পারে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "mind",
+      "forgetful",
+      "words",
+      "work"
+    ],
+    "explanation": "Selenium রোগী ভুলোমনা হয়।"
+  },
+  {
+    "id": "sene-sym-06",
+    "stem": "অতীতের অনেক পূর্বের গুরুত্বহীন বা তুচ্ছ কথা হঠাৎ স্মরণে আসা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "mental",
+      "memory"
+    ],
+    "explanation": "Senega-এর মানসিক বৈচিত্র্যের মধ্যে অতীত জীবনের তুচ্ছ ঘটনাবলী স্মরণে আসার লক্ষণটি পরিলক্ষিত হয়।"
+  },
+  {
+    "id": "sil-sym-15",
+    "stem": "রোগী স্বভাবে শান্ত ও লাজুক হলেও নিজের মতামতে অটল থাকে (স্থির সংকল্প কিন্তু লাজুক) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "mental",
+      "shy",
+      "obstinate",
+      "fixed-ideas"
+    ],
+    "explanation": "Silicea-এ রোগী স্বভাবে শান্ত ও লাজুক হলেও নিজের মতামতে অটল থাকে (স্থির সংকল্প কিন্তু লাজুক)।"
+  },
+  {
+    "id": "sil-sym-16",
+    "stem": "সামান্য পড়াশোনা বা বুদ্ধিবৃত্তিক কাজ করলেই রোগী মানসিকভাবে ক্লান্ত হয়ে পড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "mental",
+      "fatigue",
+      "intellectual-work"
+    ],
+    "explanation": "Silicea-এ সামান্য পড়াশোনা বা বুদ্ধিবৃত্তিক কাজ করলেই রোগী মানসিকভাবে ক্লান্ত হয়ে পড়ে।"
+  },
+  {
+    "id": "staph-sym-07",
+    "stem": "মন বিষন্ন, স্মৃতি দুর্বল, কপালে বল থাকার অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "depressed",
+      "memory-weak",
+      "ball-forehead"
+    ],
+    "explanation": "Staphisagria-এ বিষন্নতা, স্মৃতি দুর্বল ও কপালে বল অনুভূতি থাকে।"
+  },
+  {
+    "id": "sul-iod-sym-08",
+    "stem": "কোনো নির্দিষ্ট কাজে দীর্ঘক্ষণ মনঃসংযোগ করতে পারে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "mental",
+      "concentration",
+      "focus"
+    ],
+    "explanation": "Sulphur Iodatum-এ রোগী কোনো নির্দিষ্ট কাজে দীর্ঘক্ষণ মনঃসংযোগ করতে পারে না।"
+  },
+  {
+    "id": "syphilinum-sym-16",
+    "stem": "ভয়ঙ্কর স্মৃতিভ্রম, পরিচিত মানুষের নাম, তারিখ এমনকি নিজের নামও ভুলে যেতে পারে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Kali Phosphoricum",
+        "mid": "kali-phosphoricum"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "mind",
+      "forgetfulness"
+    ],
+    "explanation": "Syphilinum এ ভয়ঙ্কর স্মৃতিভ্রম থাকে, রোগী পরিচিত মানুষের নাম, তারিখ এমনকি নিজের নামও ভুলে যেতে পারে।"
+  },
+  {
+    "id": "thuja-sym-11",
+    "stem": "বদ্ধমূল ধারণা ও স্বপ্নবহুল নিদ্রা, বদমেজাজ একগুঁয়ে বাঁচতে চায় না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "mind",
+      "fixed-idea",
+      "dreamful-sleep",
+      "obstinate"
+    ],
+    "explanation": "Thuja-এ বদ্ধমূল ধারণা ও স্বপ্নবহুল নিদ্রা থাকে।"
+  }
+]

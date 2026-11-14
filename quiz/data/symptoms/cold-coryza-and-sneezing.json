@@ -1,0 +1,2943 @@
+[
+  {
+    "id": "apis-sym-11",
+    "stem": "আমবাত বা ইউর্টিক্যারিয়া (Urticaria) যা অত্যন্ত লাল এবং চুলকানিযুক্ত; ঠাণ্ডা জল লাগালে আরাম বোধ হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "skin",
+      "urticaria",
+      "itching",
+      "cold-water-relief"
+    ],
+    "explanation": "Apis Mellifica-এ আমবাত বা ইউর্টিক্যারিয়া (Urticaria) হয় যা অত্যন্ত লাল এবং চুলকানিযুক্ত; ঠাণ্ডা জল লাগালে চর্মরোগে আরাম বোধ হয়।"
+  },
+  {
+    "id": "apis-sym-14",
+    "stem": "লক্ষণ উপশম হয় খোলা বাতাসে, ঠাণ্ডা জলে স্নান করলে বা ঠাণ্ডা জল প্রয়োগে এবং অনাবৃত থাকলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Mag Phos",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "open-air",
+      "cold-water",
+      "uncovering"
+    ],
+    "explanation": "Apis Mellifica-এর লক্ষণ খোলা বাতাসে, ঠাণ্ডা জলে স্নান করলে বা ঠাণ্ডা জল প্রয়োগে এবং অনাবৃত থাকলে উপশম হয়।"
+  },
+  {
+    "id": "argm-sym-13",
+    "stem": "দাঁতে ব্যথা যা ঠান্ডা পানিতে বেড়ে যায় — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Plantago",
+        "mid": "plantago"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phos"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "teeth",
+      "cold-aggravation"
+    ],
+    "explanation": "Argentum Metallicum-তে দাঁতে ব্যথা ঠান্ডা সংস্পর্শে বেড়ে যেতে পারে।"
+  },
+  {
+    "id": "arnica-mont-sym-04",
+    "stem": "জ্বরের সময় মাথা ও মুখমণ্ডল গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Ferrum Phosphoricum",
+        "mid": "ferrum-phosphoricum"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "fever",
+      "head-hot-body-cold",
+      "circulation"
+    ],
+    "explanation": "Arnica Montana-এ মাথা ও মুখমণ্ডল বেশ গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে।"
+  },
+  {
+    "id": "arnica-mont-sym-19",
+    "stem": "লক্ষণ বৃদ্ধি পায় আর্দ্র ঠান্ডায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "damp-cold"
+    ],
+    "explanation": "Arnica Montana-এর লক্ষণ আর্দ্র ঠান্ডায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ars-sym-18",
+    "stem": "নাক দিয়ে পাতলা জ্বালাযুক্ত স্রাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "coryza",
+      "nose"
+    ],
+    "explanation": "Acrid nasal discharge Arsenicum Album-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "ars-sym-20",
+    "stem": "উদ্বেগের সাথে শীতল ঘাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "arsenicum-album",
+    "tags": [
+      "anxiety",
+      "cold-sweat"
+    ],
+    "explanation": "তীব্র উদ্বেগ ও ঠান্ডা ঘাম Arsenicum Album-এর শক্তিশালী নির্দেশক লক্ষণ।"
+  },
+  {
+    "id": "arsenicum-iod-sym-09",
+    "stem": "গরম ও হাজানিযুক্ত সর্দির সাথে অনবরত হাঁচি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "coryza",
+      "sneezing"
+    ],
+    "explanation": "Arsenicum Iodatum-এ নাসিকার সর্দিস্রাব গরম ও হাজানিযুক্ত এবং নতুন ও পুরাতন সেই সঙ্গে অনবরত হাঁচি হয়।"
+  },
+  {
+    "id": "arsenicum-iod-sym-10",
+    "stem": "সর্দির সাথে বুকের ভেতর ঘড়ঘড়ানি শব্দ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulphuris"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "coryza",
+      "chest",
+      "rattling"
+    ],
+    "explanation": "Arsenicum Iodatum-এ সর্দির সাথে হাঁচি এবং বুকের ভেতর ঘড়ঘড়ানি শব্দ হয়।"
+  },
+  {
+    "id": "bac-sym-03",
+    "stem": "ঘন ঘন ঠান্ডা লাগা, সর্দি কাশি লেগে থাকা ও সারতে দীর্ঘ সময় লাগা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "cold",
+      "catarrh",
+      "cough"
+    ],
+    "explanation": "Bacillinum রোগী খুব সহজেই ঠান্ডায় আক্রান্ত হয়, সর্দি কাশি লেগেই থাকে এবং সারতে দীর্ঘ সময় লাগে।"
+  },
+  {
+    "id": "bac-sym-17",
+    "stem": "রাতে, ভোরের দিকে, ঠান্ডায়, স্যাঁতসেঁতে আবহাওয়ায় ও নড়াচড়া করলে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "aggravation",
+      "cold",
+      "damp",
+      "motion"
+    ],
+    "explanation": "Bacillinum এ রাতে, ভোরের দিকে, ঠান্ডায়, স্যাঁতসেঁতে আবহাওয়ায় এবং নড়াচড়া করলে লক্ষণ বৃদ্ধি পায়।"
+  },
+  {
+    "id": "baryta-sym-06",
+    "stem": "সামান্য ঠান্ডাতেই টনসিল ফুলে পুঁজ হওয়ার প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "throat",
+      "tonsils",
+      "quinsy",
+      "cold"
+    ],
+    "explanation": "Baryta-তে ঠান্ডায় টনসিল ফুলে quinsy হয়।"
+  },
+  {
+    "id": "baryta-sym-13",
+    "stem": "ঠান্ডায়, ভেজা আবহাওয়ায়, বাম পাশে শুলে, মাথা ধুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "aggravation",
+      "cold",
+      "wet",
+      "left-side",
+      "washing-head"
+    ],
+    "explanation": "Baryta-র বৃদ্ধি ঠান্ডা, ভেজা, বাম পাশে শোয়া ও মাথা ধোয়ায়।"
+  },
+  {
+    "id": "baryta-sym-16",
+    "stem": "ধাতুগত গন্ডমালা দোষ ও সর্দি প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Tuberculinum",
+        "mid": "tuberculinum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "scrofula",
+      "coryza",
+      "diathesis"
+    ],
+    "explanation": "Baryta গন্ডমালা ধাতু ও সর্দি প্রবণতায় কার্যকর।"
+  },
+  {
+    "id": "bry-sym-19",
+    "stem": "ঠান্ডা পানি পানে এবং ঠান্ডা প্রয়োগে শারীরিক উপশম অনুভূত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "amelioration",
+      "cold-water"
+    ],
+    "explanation": "Bryonia-এ উপশমের ক্ষেত্রে ঠান্ডা পানি পানে এবং ঠান্ডা আবহাওয়া বা অ্যাপ্লিকেশনে শারীরিক উপশম লক্ষ্য করা যায়।"
+  },
+  {
+    "id": "calc-fluor-sym-20",
+    "stem": "লক্ষণ বৃদ্ধি পায় বিশ্রামে, আবহাওয়ার পরিবর্তনে এবং ঠান্ডা ও আর্দ্র পরিবেশে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "calcarea-fluorica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "rest",
+      "weather-change",
+      "cold-damp"
+    ],
+    "explanation": "Calcarea Fluorica-এর লক্ষণ বিশ্রাম নিলে, আবহাওয়ার পরিবর্তনে এবং ঠান্ডা ও আর্দ্র পরিবেশে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "calc-sym-12",
+    "stem": "অত্যন্ত শীতকাতর (Very Chilly) হওয়া এবং পা সবসময় ঠান্ডা ও সেঁতসেঁতে থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "thermal",
+      "chilly",
+      "cold-feet"
+    ],
+    "explanation": "Calcarea Carb অত্যন্ত শীতকাতর রোগী এবং এর পা সর্বদাই ঠান্ডা ও সেঁতসেঁতে থাকে।"
+  },
+  {
+    "id": "calc-sym-20",
+    "stem": "ঠান্ডা বাতাসে, জলে ভিজলে বা গোসল করলে কষ্টের বৃদ্ধি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Antim Crud",
+        "mid": "antim-crud"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "aggravation",
+      "bathing",
+      "cold-water"
+    ],
+    "explanation": "Calcarea Carb-এর রোগপ্রবণতা ও শারীরিক কষ্টের তীব্রতা স্নান করলে (Bathing) বা জলে ভিজিলে বেড়ে যায়।"
+  },
+  {
+    "id": "calcphos-sym-13",
+    "stem": "মাথার ভেতরে বা পেছনে ঠান্ডা অনুভব করা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "head",
+      "cold-sensation"
+    ],
+    "explanation": "Calcarea Phosphorica এ মাথার ভেতরে বা পেছনে এক প্রকার ঠান্ডা অনুভব করা যায়।"
+  },
+  {
+    "id": "calcphos-sym-19",
+    "stem": "ভিজে ঠান্ডা আবহাওয়া, তুষার গলা জল, নড়াচড়া ও মানসিক পরিশ্রমে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "aggravation",
+      "cold",
+      "damp",
+      "motion"
+    ],
+    "explanation": "Calcarea Phosphorica এ ভিজে ঠান্ডা আবহাওয়ায়, তুষার গলা জলে, নড়াচড়া করলে এবং মানসিক পরিশ্রমে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "camph-sym-04",
+    "stem": "ঠান্ডা ঘামসহ মৃত্যুভাব ও অজ্ঞান হওয়ার প্রবণতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Aconitum",
+        "mid": "aconitum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "cold-sweat",
+      "syncope"
+    ]
+  },
+  {
+    "id": "camph-sym-05",
+    "stem": "অত্যন্ত ঠান্ডা ও স্পর্শে সংবেদনশীল — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "cold",
+      "sensitivity"
+    ]
+  },
+  {
+    "id": "camph-sym-09",
+    "stem": "ঠান্ডা লাগা ও হাঁচিসহ সর্দির প্রথম পর্যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Kali Sulph",
+        "mid": "kali-sulph"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "cold",
+      "coryza"
+    ]
+  },
+  {
+    "id": "camph-sym-15",
+    "stem": "ঠান্ডা ও ভেজা আবহাওয়ার পর অসুস্থতা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Aconitum",
+        "mid": "aconitum"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "cold",
+      "etiology"
+    ]
+  },
+  {
+    "id": "cantharis-sym-14",
+    "stem": "লক্ষণ বৃদ্ধি পায় প্রস্রাব করার সময় বা পরে, কফি পান করলে, ঠান্ডা জল পান করলে এবং স্পর্শ করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "urination",
+      "coffee",
+      "cold-water",
+      "touch"
+    ],
+    "explanation": "Cantharis-এর লক্ষণ প্রস্রাব করার সময় বা পরে, কফি পান করলে, ঠান্ডা জল পান করলে এবং স্পর্শ করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "caps-sym-19",
+    "stem": "খোলা বাতাসে, ঠান্ডায়, স্পর্শে ও খাওয়ার পর বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "aggravation",
+      "cold",
+      "open-air",
+      "touch"
+    ],
+    "explanation": "Capsicum Annuum এ খোলা বাতাসে, ঠান্ডায়, স্পর্শ করলে এবং খাওয়ার পর বৃদ্ধি হয়।"
+  },
+  {
+    "id": "carbo-sym-14",
+    "stem": "মুখ ফ্যাকাশে নীলাভ, ঠান্ডা ঘামে ভেজা, চোখ বসে যাওয়া, কালচে দাগ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "face",
+      "pale",
+      "bluish",
+      "cold-sweat",
+      "sunken-eyes"
+    ],
+    "explanation": "Carbo Veg-এ মুখ ফ্যাকাশে নীলাভ ও ঠান্ডা ঘাম থাকে।"
+  },
+  {
+    "id": "carbo-sym-16",
+    "stem": "বাতাস করলে, ঠান্ডা বাতাসে, মাথা উঁচু করে রাখলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Carbo Animalis",
+        "mid": "carbo-animalis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "amelioration",
+      "fanning",
+      "cold-air",
+      "head-high"
+    ],
+    "explanation": "Carbo Veg বাতাসে ও মাথা উঁচুতে উপশম পায়।"
+  },
+  {
+    "id": "causticum-sym-14",
+    "stem": "কাশি বা হাঁচি দিলে অজান্তে প্রস্রাব বেরিয়ে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "urination",
+      "involuntary",
+      "cough",
+      "sneeze"
+    ],
+    "explanation": "Causticum-এ রোগী যখনই কাশে বা হাঁচি দেয়, অজান্তেই কয়েক ফোঁটা প্রস্রাব বেরিয়ে যায়।"
+  },
+  {
+    "id": "causticum-sym-20",
+    "stem": "শুষ্ক ও ঠান্ডা আবহাওয়ায় বৃদ্ধি, আর্দ্র আবহাওয়ায় উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "causticum",
+    "tags": [
+      "modalities",
+      "dry-cold",
+      "damp"
+    ],
+    "explanation": "Causticum-এর লক্ষণ শুষ্ক ও পরিষ্কার ঠান্ডা আবহাওয়ায় বৃদ্ধি পায় এবং স্যাঁতসেঁতে বা আর্দ্র আবহাওয়ায় উপশম হয়।"
+  },
+  {
+    "id": "chel-sym-15",
+    "stem": "এক পা ঠান্ডা এবং অপর পা গরম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "extremities",
+      "one-foot-cold-one-hot"
+    ],
+    "explanation": "Chelidonium Majus-এ এক পা ঠান্ডা এবং অপর পা গরম অনুভূত হয়।"
+  },
+  {
+    "id": "china-sym-19",
+    "stem": "সামান্য স্পর্শে, ঠান্ডা বাতাসে, রাতে, খাওয়ার পর ও ফল খেলে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "aggravation",
+      "touch",
+      "cold",
+      "fruit"
+    ],
+    "explanation": "China এ সামান্য স্পর্শে, ঠান্ডা বাতাসে, রাতে, খাওয়ার পর এবং ফল খেলে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "clem-sym-09",
+    "stem": "ঠান্ডা জলে স্নান করলে এবং অমাবস্যার সময় রোগলক্ষণ বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Antim Crud",
+        "mid": "antim-crud"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "aggravation",
+      "cold-bath",
+      "new-moon"
+    ],
+    "explanation": "Clematis Erecta-এর রোগলক্ষণ বিশেষ করে ঠান্ডা পানিতে স্নানে ও অমাবস্যায় বৃদ্ধি প্রাপ্ত হয়।"
+  },
+  {
+    "id": "colch-sym-11",
+    "stem": "পেটের ভেতর বরফের মতো ঠান্ডা অনুভূতি অথবা প্রচণ্ড জ্বালা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "stomach",
+      "cold-sensation",
+      "burning"
+    ],
+    "explanation": "Colchicum-এ পেটের ভেতর বরফের মতো ঠান্ডা অনুভূতি হতে পারে অথবা প্রচণ্ড জ্বালা করতে পারে।"
+  },
+  {
+    "id": "croton-sym-05",
+    "stem": "চর্মরোগে ঠান্ডা জলের ঝাপটায় আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Ledum Pal",
+        "mid": "ledum-palustre"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "skin",
+      "cold-water"
+    ],
+    "explanation": "Croton Tiglium-এ চর্মরোগের জায়গায় সামান্য হাত দিলে ব্যথা লাগে, কিন্তু ঠান্ডা জলের ঝাপটা দিলে আরাম বোধ হয়।"
+  },
+  {
+    "id": "cupr-sym-15",
+    "stem": "ঠান্ডা পানি পান করলে উপসর্গ উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "modalities",
+      "cold-water"
+    ],
+    "explanation": "Cold water relieves some Cuprum Metallicum symptoms।"
+  },
+  {
+    "id": "dulc-sym-01",
+    "stem": "গরম আবহাওয়ার পর হঠাৎ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায় অসুস্থ হয়ে পড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "weather-change",
+      "cold-damp",
+      "ailments-from"
+    ],
+    "explanation": "Dulcamara-এর প্রধান বৈশিষ্ট্য হলো—গরম আবহাওয়ার পর হঠাৎ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায় অসুস্থ হয়ে পড়া (Ailments from sudden change from heat to cold)।"
+  },
+  {
+    "id": "dulc-sym-09",
+    "stem": "নাক বন্ধ হয়ে যাওয়া (Stuffy cold), বিশেষ করে বৃষ্টিতে ভিজলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sticta",
+        "mid": "sticta"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "coryza",
+      "stuffy-nose",
+      "rain"
+    ],
+    "explanation": "Dulcamara-এ নাক বন্ধ হয়ে যাওয়া (Stuffy cold), বিশেষ করে বৃষ্টিতে ভিজলে—এটি একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "dulc-sym-10",
+    "stem": "ঠান্ডা লাগার ফলে ডায়রিয়া, মল সবুজ রঙের এবং মলের সাথে শ্লেষ্মা থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "diarrhea",
+      "cold",
+      "green-stool",
+      "mucus"
+    ],
+    "explanation": "Dulcamara-এ ঠান্ডা লাগার ফলে ডায়রিয়া হয়, মল সবুজ রঙের এবং মলের সাথে শ্লেষ্মা থাকে।"
+  },
+  {
+    "id": "dulc-sym-11",
+    "stem": "বাতের ব্যথা (Rheumatism) যা ঠান্ডা ও ভিজে আবহাওয়ায় প্রচণ্ড বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "rheumatism",
+      "cold-damp",
+      "aggravation"
+    ],
+    "explanation": "Dulcamara-এ বাতের ব্যথা (Rheumatism) ঠান্ডা ও ভিজে আবহাওয়ায় প্রচণ্ড বাড়ে।"
+  },
+  {
+    "id": "dulc-sym-15",
+    "stem": "লক্ষণ বৃদ্ধি পায় ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায়, রাতে এবং বিশ্রামে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "cold-damp",
+      "night",
+      "rest"
+    ],
+    "explanation": "Dulcamara-এর লক্ষণ ঠান্ডা ও স্যাঁতসেঁতে আবহাওয়ায়, রাতে এবং বিশ্রামে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "dulc-sym-18",
+    "stem": "ঠান্ডা বাতাস বা ঠান্ডা জল শরীরে লাগলে জিহ্বা ও চোয়াল অবশ হয়ে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "tongue",
+      "jaw",
+      "numbness",
+      "cold"
+    ],
+    "explanation": "Dulcamara-এ ঠান্ডা বাতাস বা ঠান্ডা জল শরীরে লাগলে জিহ্বা ও চোয়াল অবশ (Lame) হয়ে যেতে পারে।"
+  },
+  {
+    "id": "euphrasia-sym-03",
+    "stem": "নাকের পানি জ্বালা করে না, নাকের সর্দি মৃদু, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "nose",
+      "coryza",
+      "bland"
+    ],
+    "explanation": "Euphrasia Officinalis এ নাক দিয়ে যে সর্দি ঝরে তা মৃদু, নাকে কোনো জ্বালা করে না।"
+  },
+  {
+    "id": "euphrasia-sym-15",
+    "stem": "প্রচুর সর্দি ঝরে কিন্তু নাকে জ্বালা করে না, সর্দির সাথে হাঁচি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "nose",
+      "coryza",
+      "sneezing"
+    ],
+    "explanation": "Euphrasia Officinalis এ প্রচুর সর্দি ঝরে কিন্তু তা নাকে কোনো জ্বালা করে না, সর্দির সাথে হাঁচি থাকে।"
+  },
+  {
+    "id": "euphrasia-sym-16",
+    "stem": "সর্দি সাধারণত রাতে বৃদ্ধি পায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "nose",
+      "coryza",
+      "night"
+    ],
+    "explanation": "Euphrasia Officinalis এ সর্দি সাধারণত রাতে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "ferrum-phos-sym-17",
+    "stem": "সর্দিতে নাক বন্ধ ও বুকে ব্যথাযুক্ত কাশি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "coryza",
+      "cough",
+      "chest-pain"
+    ],
+    "explanation": "Ferrum Phos-এ সর্দি লেগে নাক বন্ধ হয়ে যাওয়া বা বুকে ব্যথাযুক্ত কাশি হয়।"
+  },
+  {
+    "id": "ferrum-phos-sym-20",
+    "stem": "বিশ্রামে, ঠান্ডার প্রয়োগে ও ধীরে হাঁটলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "modalities",
+      "rest",
+      "cold-application",
+      "walking"
+    ],
+    "explanation": "Ferrum Phos-এর লক্ষণ বিশ্রামে, ঠান্ডার প্রয়োগে এবং ধীরে ধীরে হাঁটলে উপশম হয়।"
+  },
+  {
+    "id": "glon-sym-18",
+    "stem": "খোলা বাতাসে, মাথা উঁচু করে, ঠান্ডা জল প্রয়োগে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "amelioration",
+      "open-air",
+      "head-high",
+      "cold-water"
+    ],
+    "explanation": "Glonoine খোলা বাতাসে ও মাথা উঁচুতে ভালো থাকে।"
+  },
+  {
+    "id": "graph-sym-10",
+    "stem": "ঠান্ডা বাতাসে সংবেদনশীল, সহজে সর্দি লাগে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "cold",
+      "generalities"
+    ],
+    "explanation": "Takes cold easily is a Graphites keynote।"
+  },
+  {
+    "id": "hama-sym-17",
+    "stem": "পূর্ণ বিশ্রামে থাকলে এবং ঠান্ডা প্রয়োগে (Cold applications) উপশম পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "amelioration",
+      "rest",
+      "cold"
+    ],
+    "explanation": "Hamamelis-এ পূর্ণ বিশ্রাম ও শীতল বস্তু স্পর্শে ক্ষতের বা শিরার কষ্টের উপশম পাওয়া যায়।"
+  },
+  {
+    "id": "hell-sym-12",
+    "stem": "লক্ষণ বৃদ্ধি পায় বিকাল ৪টা থেকে রাত ৮টা পর্যন্ত, ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "evening",
+      "cold-air",
+      "uncovering"
+    ],
+    "explanation": "Helleborus Niger-এর লক্ষণ বিকাল ৪টা থেকে রাত ৮টা পর্যন্ত, ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "hepar-sym-01",
+    "stem": "অতিরিক্ত শীতকাতর, সামান্য ঠান্ডা বাতাস সহ্য করতে পারে না, হাত পা কম্বলের বাইরে বের করলেও কষ্ট বাড়ে, জানলা দরজা বন্ধ করে দেয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "chilly",
+      "cold",
+      "sensitivity"
+    ],
+    "explanation": "Hepar Sulph হোমিওপ্যাথির অন্যতম শীর্ষস্থানীয় শীতকাতর ঔষধ, রোগী সামান্য ঠান্ডা বাতাস সহ্য করতে পারে না, হাত পা কম্বলের বাইরে বের করলেও কষ্ট বাড়ে।"
+  },
+  {
+    "id": "hepar-sym-02",
+    "stem": "প্রায়শই সর্দি লাগে, রাতে সর্দি ওঠে না কেবল দিনে ওঠে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "coryza",
+      "day"
+    ],
+    "explanation": "Hepar Sulph এ প্রায়শই সর্দি লাগে, রাতে সর্দি ওঠে না কেবল দিনে ওঠে।"
+  },
+  {
+    "id": "hepar-sym-03",
+    "stem": "ঠান্ডা লেগে সাংঘাতিক কাশি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "cough",
+      "cold"
+    ],
+    "explanation": "Hepar Sulph এ ঠান্ডা লেগে সাংঘাতিক কাশি হয়।"
+  },
+  {
+    "id": "hepar-sym-18",
+    "stem": "রাতে বা ঠান্ডায় কাশি বৃদ্ধি, কাশির শব্দ ঘড়ঘড়ে কিন্তু কফ সহজে উঠতে চায় না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Rumex",
+        "mid": "rumex"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "cough",
+      "night",
+      "cold",
+      "rattling"
+    ],
+    "explanation": "Hepar Sulph এ রাতে বা ঠান্ডায় কাশি বৃদ্ধি পায়, কাশির শব্দ ঘড়ঘড়ে কিন্তু কফ সহজে উঠতে চায় না।"
+  },
+  {
+    "id": "hepar-sym-20",
+    "stem": "ঠান্ডা বাতাসে, স্পর্শে, রাতে, নড়াচড়ায় ও কাপড় না থাকলে বৃদ্ধি, গরমে, ঢেকে রাখলে ও আর্দ্র আবহাওয়ায় উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "cold",
+      "touch"
+    ],
+    "explanation": "Hepar Sulph এ ঠান্ডা বাতাসে, স্পর্শে, রাতে, নড়াচড়ায় এবং শরীরে কাপড় না থাকলে বৃদ্ধি হয়, গরমে, শরীর ঢেকে রাখলে এবং আর্দ্র আবহাওয়ায় উপশম হয়।"
+  },
+  {
+    "id": "hyper-sym-17",
+    "stem": "কুয়াশা, স্যাঁতসেঁতে, স্পর্শে, ঠান্ডায়, নড়াচড়ায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "aggravation",
+      "fog",
+      "damp",
+      "touch",
+      "cold",
+      "motion"
+    ],
+    "explanation": "Hypericum-এ কুয়াশা, স্যাঁতসেঁতে, স্পর্শ, ঠান্ডা ও নড়াচড়ায় বৃদ্ধি।"
+  },
+  {
+    "id": "iodium-sym-12",
+    "stem": "ঠান্ডা জল খেলে বা খোলা বাতাসে কাশির উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spongia",
+        "mid": "spongia"
+      },
+      {
+        "text": "Iodium",
+        "mid": "iodium"
+      },
+      {
+        "text": "Bromium",
+        "mid": "bromium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "iodium",
+    "tags": [
+      "cough",
+      "amelioration",
+      "cold-water"
+    ],
+    "explanation": "Iodium এ ঠান্ডা জল খেলে বা খোলা বাতাসে কাশির উপশম হয়।"
+  },
+  {
+    "id": "just-sym-02",
+    "stem": "প্রচুর হাঁচির সাথে তরল শ্লেষ্মা নিঃসরণ এবং চোখ দিয়ে জল পড়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "sneezing",
+      "coryza",
+      "watery-discharge"
+    ],
+    "explanation": "Justicia Adhatoda-এ প্রচুর হাঁচি এবং নাক-চোখ দিয়ে জল পড়ার সর্দি ভাব প্রবল থাকে।"
+  },
+  {
+    "id": "lac-can-sym-15",
+    "stem": "খোলা বাতাসে, ঠান্ডা প্রয়োগে ও বিশ্রামে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "modalities",
+      "open-air",
+      "cold",
+      "rest"
+    ],
+    "explanation": "Lac Caninum-এর লক্ষণ খোলা বাতাসে, ঠান্ডা প্রয়োগে এবং বিশ্রামে উপশম হয়।"
+  },
+  {
+    "id": "lach-sym-14",
+    "stem": "মাসিক শুরু হলে, খোলা বাতাসে, ঠান্ডা পানীয়ে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "amelioration",
+      "menses",
+      "open-air",
+      "cold-drinks"
+    ],
+    "explanation": "Lachesis মাসিক শুরু ও খোলা বাতাসে ভালো থাকে।"
+  },
+  {
+    "id": "led-sym-04",
+    "stem": "আক্রান্ত স্থান ঠান্ডা অথচ ঠান্ডায় আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "cold",
+      "modalities"
+    ]
+  },
+  {
+    "id": "led-sym-07",
+    "stem": "সন্ধিতে ফোলা ও ঠান্ডা অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "joints",
+      "cold-swelling"
+    ]
+  },
+  {
+    "id": "led-sym-10",
+    "stem": "রিউমাটিজম ঠান্ডা প্রয়োগে ভালো — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "rheumatism",
+      "cold-better"
+    ]
+  },
+  {
+    "id": "led-sym-16",
+    "stem": "স্পর্শে ব্যথা কিন্তু ঠান্ডায় আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "pain",
+      "cold-better"
+    ]
+  },
+  {
+    "id": "led-sym-18",
+    "stem": "ঠান্ডা বিছানায় পা ঢুকিয়ে আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "cold",
+      "feet"
+    ]
+  },
+  {
+    "id": "led-sym-20",
+    "stem": "রিউমাটিক ব্যথা ঠান্ডা পানিতে কমে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "rheumatism",
+      "cold-water"
+    ],
+    "explanation": "ঠান্ডা প্রয়োগে উপশম Ledum Palustre-এর অন্যতম keynote।"
+  },
+  {
+    "id": "lyc-sym-07",
+    "stem": "শরীরের এক পা গরম এবং অপর পা বরফের মতো ঠান্ডা অনুভূতি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "extremities",
+      "temperature",
+      "cold-feet"
+    ],
+    "explanation": "এক পায়ে উত্তাপ এবং অপর পায়ে হিমশীতল অনুভূতি Lycopodium-এর রক্ত সঞ্চালনের বিষমতার এক বিরল চিহ্ন।"
+  },
+  {
+    "id": "mag-carb-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় রাতে, বিছানার গরমে, বিশ্রামে এবং ঠান্ডা বাতাসে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "night",
+      "bed-heat",
+      "rest",
+      "cold-air"
+    ],
+    "explanation": "Magnesia Carbonica-এর লক্ষণ রাতে, বিছানার গরমে, বিশ্রামে এবং ঠান্ডা বাতাসে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "magphos-sym-06",
+    "stem": "প্রচণ্ড শীতকাতর, ঠান্ডা বাতাস বা ঠান্ডা জল একদম সহ্য করতে পারে না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "chilly",
+      "cold"
+    ],
+    "explanation": "Magnesia Phosphorica রোগী প্রচণ্ড শীতকাতর এবং ঠান্ডা বাতাস বা ঠান্ডা জল একদম সহ্য করতে পারে না।"
+  },
+  {
+    "id": "magphos-sym-10",
+    "stem": "ঠান্ডা প্রয়োগে ব্যথা চরম আকার ধারণ করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "aggravation",
+      "cold"
+    ],
+    "explanation": "Magnesia Phosphorica এ ঠান্ডা প্রয়োগে রোগ বা ব্যথা চরম আকার ধারণ করে।"
+  },
+  {
+    "id": "magphos-sym-20",
+    "stem": "ডান দিকে, ঠান্ডা বাতাসে, ঠান্ডা জলে ধুলে বা স্নান করলে, স্পর্শে ও রাতে বিছানায় উন্মুক্ত থাকলে বৃদ্ধি, গরম সেঁক, চাপ, কুঁকড়ে বসা বা ঘষলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "cold",
+      "warmth"
+    ],
+    "explanation": "Magnesia Phosphorica এ শরীরের ডান দিকে, ঠান্ডা বাতাসে, ঠান্ডা জলে ধুলে বা স্নান করলে, স্পর্শ করলে এবং রাতে বিছানায় উন্মুক্ত থাকলে বৃদ্ধি হয়, উষ্ণতা বা গরম সেঁক, চাপ, কুঁকড়ে বসা বা ঘষলে উপশম হয়।"
+  },
+  {
+    "id": "mez-sym-11",
+    "stem": "ঠান্ডা বাতাসে উপসর্গ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "cold-air",
+      "aggravation"
+    ],
+    "explanation": "Cold air worsens Mezereum complaints."
+  },
+  {
+    "id": "natc-sym-08",
+    "stem": "নাকের গোড়ায় ভারী বোধ এবং ঘন হলুদ রঙের শ্লেষ্মা নির্গত হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Hydrastis",
+        "mid": "hydrastis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "nose",
+      "coryza"
+    ],
+    "explanation": "Natrum Carb-এর নাকের লক্ষণে নাকের গোড়ায় ভারী বোধ এবং ঘন হলুদ শ্লেষ্মা বা সর্দি নির্গমনের কথা বলা হয়েছে।"
+  },
+  {
+    "id": "natp-sym-17",
+    "stem": "খোলা বাতাসে ও ঠান্ডা প্রয়োগে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "amelioration",
+      "open-air",
+      "cold-application"
+    ],
+    "explanation": "Natrum Phos খোলা বাতাসে ও ঠান্ডায় ভালো থাকে।"
+  },
+  {
+    "id": "natrum-mur-sym-18",
+    "stem": "সর্দির শুরুতে জলের মতো তরল ও হাঁচি, পরে আঠালো স্রাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "coryza",
+      "discharge"
+    ],
+    "explanation": "Natrum Mur-এ সর্দি শুরুর সময় জলের মতো তরল পড়ে ও হাঁচি হয়; কয়েকদিন পর নাক বন্ধ হয়ে ডিমের শ্বেতাংশের মতো আঠালো স্রাব বের হয়।"
+  },
+  {
+    "id": "natrum-mur-sym-19",
+    "stem": "ঠোঁটের কোণে ক্ষত ও নিচের ঠোঁট মাঝখানে ফেটে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "lips",
+      "cold-sores"
+    ],
+    "explanation": "Natrum Mur-এ ঠোঁটের কোণে বা মুখে ক্ষত (Cold sores) হয় এবং নিচের ঠোঁট মাঝখানে ফেটে যাওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "nux-sym-12",
+    "stem": "শরীর ঢেকে রাখতে চায়, ঠান্ডা সহ্য করতে পারে না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Ledum",
+        "mid": "ledum-palustre"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "cold",
+      "modalities"
+    ],
+    "explanation": "Desire for warmth is common in Nux Vomica."
+  },
+  {
+    "id": "opi-sym-18",
+    "stem": "ঠান্ডা বাতাসে গেলে বা শরীর নড়াচড়া (Walking) করলে উপশম বোধ হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "amelioration",
+      "cold-air",
+      "walking"
+    ],
+    "explanation": "Opium-এ শীতল মুক্ত বাতাস ও সামান্য পায়চারিতে উপশম ঘটে।"
+  },
+  {
+    "id": "phosphorus-sym-09",
+    "stem": "ঠান্ডা পানীয়ের তৃষ্ণা, প্রচুর ঠান্ডা জল বা বরফ খাওয়ার প্রবল ইচ্ছা, জল পাকস্থলীতে গিয়ে গরম হওয়ার সাথে সাথেই বমি হয়ে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "thirst",
+      "cold-drinks",
+      "vomiting"
+    ],
+    "explanation": "Phosphorus এ প্রচুর ঠান্ডা জল বা বরফ খাওয়ার প্রবল ইচ্ছা থাকে, জল পাকস্থলীতে গিয়ে গরম হওয়ার সাথে সাথেই বমি হয়ে যায়।"
+  },
+  {
+    "id": "ruta-sym-20",
+    "stem": "বিশ্রামে, আর্দ্র-ঠান্ডা আবহাওয়ায় ও রাতে বৃদ্ধি, শুষ্ক উত্তাপে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "modalities",
+      "damp",
+      "cold",
+      "night"
+    ],
+    "explanation": "Ruta-এর লক্ষণ বিশ্রামে, আর্দ্র বা ঠান্ডা আবহাওয়ায় এবং রাতে বৃদ্ধি পায়; শুষ্ক উত্তাপে উপশম হয়।"
+  },
+  {
+    "id": "sab-sym-16",
+    "stem": "ঠান্ডা খোলা বাতাসে ও ব্যথার স্থান ঠান্ডা রাখলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "amelioration",
+      "cool-open-air",
+      "cold-application"
+    ],
+    "explanation": "Sabina ঠান্ডা খোলা বাতাসে ভালো থাকে।"
+  },
+  {
+    "id": "sanguinaria-sym-09",
+    "stem": "সর্দি হয়ে ডাইরিয়া হয়, উদরাময়ে উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "coryza",
+      "diarrhea",
+      "amelioration"
+    ],
+    "explanation": "Sanguinaria Canadensis এ সর্দি হয়ে ডাইরিয়া হয় এবং উদরাময়ে উপশম হয়।"
+  },
+  {
+    "id": "sars-sym-16",
+    "stem": "ঠান্ডা কিছু খেলে বা ঠান্ডা বাতাস লাগলে লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "cold",
+      "food",
+      "air"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ ঠান্ডা কিছু খেলে বা ঠান্ডা বাতাস লাগলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sars-sym-17",
+    "stem": "বসন্তকালে এবং স্যাঁতসেঁতে ঠান্ডা আবহাওয়ায় লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "spring",
+      "damp-cold"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ বসন্তকালে এবং স্যাঁতসেঁতে ঠান্ডা আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sec-sym-01",
+    "stem": "শরীর বরফের মতো ঠান্ডা হলেও অভ্যন্তরীণ তীব্র জ্বাালাপোড়া এবং গায়ের কাপড় সম্পূর্ণ অনাবৃত রাখার ব্যাকুলতা (Uncovering is a must) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "general",
+      "burning",
+      "uncovering",
+      "cold-body"
+    ],
+    "explanation": "Secale Cornutum-এর প্রধান পরিচয় চিহ্ন হলো ঠাণ্ডা গা সত্ত্বেও তীব্র অভ্যন্তরীণ দাহ ও গায়ের কাপড় ফেলে দেওয়া।"
+  },
+  {
+    "id": "sec-sym-09",
+    "stem": "ঠান্ডা বাতাস, ঠান্ডা শীতল প্রয়োগ, গায়ের কাপড় অনাবৃত করা এবং ঠান্ডা জল পানে উপশম লাভ করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Ledum Pal",
+        "mid": "ledum-pal"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "amelioration",
+      "cold-air",
+      "uncovering"
+    ],
+    "explanation": "Secale Cornutum-এ উন্মুক্ত ঠান্ডা বাতাস ও শীতল বস্তুর স্পর্শে উপসর্গের দ্রুত প্রশমন ঘটে।"
+  },
+  {
+    "id": "sel-sym-11",
+    "stem": "সর্দি ভালো হলে ডায়রিয়া হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "coryza",
+      "better",
+      "diarrhea",
+      "alternating"
+    ],
+    "explanation": "Selenium-এ সর্দি ভালো হলে ডায়রিয়া হয়।"
+  },
+  {
+    "id": "sel-sym-19",
+    "stem": "ঠান্ডা বাতাসে ও ঠান্ডা জলে স্নানে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "amelioration",
+      "cold-air",
+      "cold-bath"
+    ],
+    "explanation": "Selenium ঠান্ডা বাতাসে ও ঠান্ডা স্নানে ভালো থাকে।"
+  },
+  {
+    "id": "sene-sym-01",
+    "stem": "কাশতে কাশতে হাঁচি হওয়া এবং হাঁচি হলে কাশি বন্ধ হয়ে যাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Senega",
+        "mid": "senega-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Badiaga",
+        "mid": "badiaga"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus-muscarius"
+      }
+    ],
+    "answer": "senega-officinalis",
+    "tags": [
+      "respiratory",
+      "cough-sneeze"
+    ],
+    "explanation": "Senega-এর কাশির একটি অসাধারণ পরিচয় হলো কাশতে কাশতে হাঁচি হওয়া এবং হাঁচি হলেই কাশি থেমে যাওয়া।"
+  },
+  {
+    "id": "sil-sym-11",
+    "stem": "লক্ষণ বৃদ্ধি পায় নতুন চাঁদের সময় (অমাবস্যা), ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "new-moon",
+      "cold-air",
+      "uncovering"
+    ],
+    "explanation": "Silicea-এর লক্ষণ নতুন চাঁদের সময় (অমাবস্যা), ঠান্ডা বাতাসে, শরীর উন্মুক্ত করলে, ভিজে আবহাওয়ায় এবং মানসিক পরিশ্রমে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "spigelia-sym-07",
+    "stem": "দাঁতের ব্যথা, ঠান্ডা পানি বা তামাক খেলে বৃদ্ধি, খাদ্য খেলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Plantago",
+        "mid": "plantago"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "tooth",
+      "cold",
+      "tobacco",
+      "eating"
+    ],
+    "explanation": "Spigelia Anthelmia এ দাঁতের ব্যথা হয়, ঠান্ডা পানি বা তামাক খেলে বৃদ্ধি পায়, খাদ্য খেলে উপশম হয়।"
+  },
+  {
+    "id": "sul-sym-18",
+    "stem": "ঠান্ডা বাতাসে, খোলা বাতাসে এবং শুষ্ক উষ্ণ আবহাওয়ায় উপশম বোধ করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Arsenic",
+        "mid": "arsenic"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "amelioration",
+      "cold-air",
+      "dry-weather"
+    ],
+    "explanation": "Sulphur ঠান্ডা মুক্ত বাতাসে আরাম ও স্বস্তি পায়।"
+  },
+  {
+    "id": "thuja-sym-04",
+    "stem": "বাম দিকের রোগী, শীতকাতর, ঠান্ডা ও বর্ষায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "left-sided",
+      "chilly",
+      "cold-agg",
+      "rainy-agg"
+    ],
+    "explanation": "Thuja বাম পার্শ্ব ও শীতকাতর।"
+  },
+  {
+    "id": "thuja-sym-17",
+    "stem": "সকালে, ঠান্ডায়, আর্দ্র আবহাওয়ায়, টিকা, চা, রাতে বিছানার গরমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "cold",
+      "damp",
+      "vaccination",
+      "tea"
+    ],
+    "explanation": "Thuja-এ সকালে, ঠান্ডা, আর্দ্রতা, টিকা ও চায়ে বৃদ্ধি।"
+  },
+  {
+    "id": "verat-sym-01",
+    "stem": "কপালে শীতল ঘাম এবং শরীর বরফের মতো ঠান্ডা হয়ে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "cold-sweat",
+      "collapse",
+      "forehead"
+    ],
+    "explanation": "Veratrum Album-এর সর্বপ্রধান লক্ষণ হলো কপালে শীতল ঘাম এবং শরীর বরফের মতো ঠান্ডা হয়ে যাওয়া।"
+  },
+  {
+    "id": "verat-sym-03",
+    "stem": "প্রচুর পরিমাণে অত্যন্ত ঠান্ডা পানি পান করার ইচ্ছা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "thirst",
+      "cold-water",
+      "polydipsia"
+    ],
+    "explanation": "Veratrum Album-এ তীব্র পানি পিপাসা থাকে; প্রচুর পরিমাণে অত্যন্ত ঠান্ডা পানি পান করার ইচ্ছা থাকে।"
+  },
+  {
+    "id": "verat-sym-11",
+    "stem": "পেট ব্যথার সাথে মনে হয় পেটের ভেতরটা বরফ হয়ে আছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Moschata",
+        "mid": "nux-moschata"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "abdomen",
+      "pain",
+      "ice-cold-sensation"
+    ],
+    "explanation": "Veratrum Album-এ পেট ব্যথার সাথে মনে হয় পেটের ভেতরটা বরফ হয়ে আছে।"
+  },
+  {
+    "id": "verat-sym-14",
+    "stem": "মাথা ঘোরা যা নড়াচড়া করলে বা মাথা তুললে বৃদ্ধি পায় এবং মাথার তালু বরফের মতো ঠান্ডা থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Cocculus Indicus",
+        "mid": "cocculus-indicus"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "vertigo",
+      "motion",
+      "cold-vertex"
+    ],
+    "explanation": "Veratrum Album-এ মাথা ঘোরা হয় যা নড়াচড়া করলে বা মাথা তুললে বৃদ্ধি পায়; মাথার তালু বরফের মতো ঠান্ডা থাকে।"
+  },
+  {
+    "id": "verat-sym-15",
+    "stem": "ঋতুস্রাবের সময় প্রচণ্ড পেট ব্যথা এবং সাথে বমি ও শীতল ঘাম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "dysmenorrhea",
+      "vomiting",
+      "cold-sweat"
+    ],
+    "explanation": "Veratrum Album-এ ঋতুস্রাবের সময় প্রচণ্ড পেট ব্যথা এবং সাথে বমি ও শীতল ঘাম হয়।"
+  },
+  {
+    "id": "verat-sym-19",
+    "stem": "শরীরের ভেতরে জ্বালা অনুভূত হয় কিন্তু বাইরে থেকে শরীর ঠান্ডা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "burning-internally",
+      "cold-externally",
+      "temperature"
+    ],
+    "explanation": "Veratrum Album-এ শরীরের ভেতরে জ্বালা অনুভূত হয় কিন্তু বাইরে থেকে শরীর ঠান্ডা থাকে।"
+  }
+]

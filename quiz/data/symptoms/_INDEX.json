@@ -1,0 +1,1039 @@
+[
+  {
+    "no": 1,
+    "bn": "মন",
+    "en": "Mind",
+    "slug": "mind",
+    "file": "mind.json",
+    "count": 284,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "mind"
+    ]
+  },
+  {
+    "no": 2,
+    "bn": "ভয়, উদ্বেগ ও আতঙ্ক",
+    "en": "Fear, Anxiety & Phobia",
+    "slug": "fear-anxiety-and-phobia",
+    "file": "fear-anxiety-and-phobia.json",
+    "count": 72,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "fear-anxiety-and-phobia"
+    ]
+  },
+  {
+    "no": 3,
+    "bn": "রাগ, মেজাজ ও বিরক্তি",
+    "en": "Anger, Irritability & Temper",
+    "slug": "anger-irritability-and-temper",
+    "file": "anger-irritability-and-temper.json",
+    "count": 63,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "anger-irritability-and-temper"
+    ]
+  },
+  {
+    "no": 4,
+    "bn": "দুঃখ, বিষণ্ণতা ও শোক",
+    "en": "Sadness, Depression & Grief",
+    "slug": "sadness-depression-and-grief",
+    "file": "sadness-depression-and-grief.json",
+    "count": 52,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "sadness-depression-and-grief"
+    ]
+  },
+  {
+    "no": 5,
+    "bn": "স্মৃতি, মনোযোগ ও চিন্তা",
+    "en": "Memory, Concentration & Thinking",
+    "slug": "memory-concentration-and-thinking",
+    "file": "memory-concentration-and-thinking.json",
+    "count": 34,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "memory-concentration-and-thinking"
+    ]
+  },
+  {
+    "no": 6,
+    "bn": "ভ্রম, অলীক দর্শন ও পাগলামি",
+    "en": "Delusion, Hallucination & Insanity",
+    "slug": "delusion-hallucination-and-insanity",
+    "file": "delusion-hallucination-and-insanity.json",
+    "count": 48,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "delusion-hallucination-and-insanity"
+    ]
+  },
+  {
+    "no": 7,
+    "bn": "আচরণ, অভ্যাস ও স্বভাব",
+    "en": "Behaviour, Habits & Character",
+    "slug": "behaviour-habits-and-character",
+    "file": "behaviour-habits-and-character.json",
+    "count": 80,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "behaviour-habits-and-character"
+    ]
+  },
+  {
+    "no": 8,
+    "bn": "ঘুম, অনিদ্রা ও স্বপ্ন",
+    "en": "Sleep, Insomnia & Dreams",
+    "slug": "sleep-insomnia-and-dreams",
+    "file": "sleep-insomnia-and-dreams.json",
+    "count": 49,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "sleep-insomnia-and-dreams"
+    ]
+  },
+  {
+    "no": 9,
+    "bn": "গঠন, শীতকাতর / গরমকাতর",
+    "en": "Constitution, Build & Thermal",
+    "slug": "constitution-build-and-thermal",
+    "file": "constitution-build-and-thermal.json",
+    "count": 152,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "constitution-build-and-thermal"
+    ]
+  },
+  {
+    "no": 10,
+    "bn": "মায়াজম, প্রবণতা ও বংশগত",
+    "en": "Miasm, Diathesis & Heredity",
+    "slug": "miasm-diathesis-and-heredity",
+    "file": "miasm-diathesis-and-heredity.json",
+    "count": 39,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "miasm-diathesis-and-heredity"
+    ]
+  },
+  {
+    "no": 11,
+    "bn": "তামাক, মদ ও নেশা",
+    "en": "Tobacco, Alcohol & Stimulants",
+    "slug": "tobacco-alcohol-and-stimulants",
+    "file": "tobacco-alcohol-and-stimulants.json",
+    "count": 15,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "tobacco-alcohol-and-stimulants"
+    ]
+  },
+  {
+    "no": 12,
+    "bn": "নড়াচড়া, ভঙ্গি ও বিশ্রাম",
+    "en": "Motion, Posture & Rest",
+    "slug": "motion-posture-and-rest",
+    "file": "motion-posture-and-rest.json",
+    "count": 122,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "motion-posture-and-rest"
+    ]
+  },
+  {
+    "no": 13,
+    "bn": "খিঁচুনি, কাঁপুনি ও ফড়ফড়",
+    "en": "Convulsion, Tremor & Twitching",
+    "slug": "convulsion-tremor-and-twitching",
+    "file": "convulsion-tremor-and-twitching.json",
+    "count": 34,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "convulsion-tremor-and-twitching"
+    ]
+  },
+  {
+    "no": 14,
+    "bn": "অনুভূতি - সাধারণ",
+    "en": "Sensation - General Feelings",
+    "slug": "sensation-general-feelings",
+    "file": "sensation-general-feelings.json",
+    "count": 41,
+    "section": "মানসিক ও স্বভাবগত",
+    "sources": [
+      "sensation-general-feelings"
+    ]
+  },
+  {
+    "no": 15,
+    "bn": "মাথা, চুল ও মাথার চামড়া",
+    "en": "Head, Hair & Scalp",
+    "slug": "head-hair-and-scalp",
+    "file": "head-hair-and-scalp.json",
+    "count": 59,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "head",
+      "neck-shoulder-hair-and-scalp"
+    ]
+  },
+  {
+    "no": 16,
+    "bn": "মাথাব্যথা",
+    "en": "Headache",
+    "slug": "headache",
+    "file": "headache.json",
+    "count": 41,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "headache"
+    ]
+  },
+  {
+    "no": 17,
+    "bn": "মাথা ঘোরা ও অজ্ঞান",
+    "en": "Vertigo, Dizziness & Fainting",
+    "slug": "vertigo-dizziness-and-fainting",
+    "file": "vertigo-dizziness-and-fainting.json",
+    "count": 38,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "vertigo-dizziness-and-fainting"
+    ]
+  },
+  {
+    "no": 18,
+    "bn": "চোখ ও দৃষ্টি",
+    "en": "Eye & Vision",
+    "slug": "eye-and-vision",
+    "file": "eye-and-vision.json",
+    "count": 67,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "eye-and-vision"
+    ]
+  },
+  {
+    "no": 19,
+    "bn": "চোখের রোগ - অঞ্জনি, ছানি",
+    "en": "Eye Diseases - Styes, Cataract",
+    "slug": "eye-diseases-styes-cataract",
+    "file": "eye-diseases-styes-cataract.json",
+    "count": 46,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "eye-diseases-styes-cataract"
+    ]
+  },
+  {
+    "no": 20,
+    "bn": "কান ও শ্রবণ",
+    "en": "Ear & Hearing",
+    "slug": "ear-and-hearing",
+    "file": "ear-and-hearing.json",
+    "count": 19,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "ear-and-hearing"
+    ]
+  },
+  {
+    "no": 21,
+    "bn": "নাক, ঘ্রাণ ও সাইনাস",
+    "en": "Nose, Smell & Sinus",
+    "slug": "nose-smell-and-sinus",
+    "file": "nose-smell-and-sinus.json",
+    "count": 38,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "nose-smell-and-sinus"
+    ]
+  },
+  {
+    "no": 22,
+    "bn": "সর্দি, হাঁচি ও কফ",
+    "en": "Cold, Coryza & Sneezing",
+    "slug": "cold-coryza-and-sneezing",
+    "file": "cold-coryza-and-sneezing.json",
+    "count": 101,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "cold-coryza-and-sneezing"
+    ]
+  },
+  {
+    "no": 23,
+    "bn": "মুখমণ্ডল",
+    "en": "Face",
+    "slug": "face",
+    "file": "face.json",
+    "count": 22,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "face"
+    ]
+  },
+  {
+    "no": 24,
+    "bn": "দাঁত, মাড়ি ও দাঁত ওঠা",
+    "en": "Teeth, Gums & Dentition",
+    "slug": "teeth-gums-and-dentition",
+    "file": "teeth-gums-and-dentition.json",
+    "count": 26,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "teeth-gums-and-dentition"
+    ]
+  },
+  {
+    "no": 25,
+    "bn": "মুখ, ঠোঁট, জিহ্বা, লালা ও স্বাদ",
+    "en": "Mouth, Lips, Tongue, Saliva & Taste",
+    "slug": "mouth-tongue-and-taste",
+    "file": "mouth-tongue-and-taste.json",
+    "count": 35,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "mouth-lips-and-saliva",
+      "tongue-and-taste"
+    ]
+  },
+  {
+    "no": 26,
+    "bn": "ঘাড়, কাঁধ, গলা, টনসিল, কণ্ঠ ও কথা",
+    "en": "Neck, Shoulder, Throat, Tonsils, Voice & Speech",
+    "slug": "neck-shoulder-throat-and-voice",
+    "file": "neck-shoulder-throat-and-voice.json",
+    "count": 58,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "throat-tonsils-and-swallowing",
+      "voice-hoarseness-and-speech",
+      "neck-shoulder-hair-and-scalp"
+    ]
+  },
+  {
+    "no": 27,
+    "bn": "গ্রন্থি, লসিকা ও গলগণ্ড",
+    "en": "Glands, Lymph & Goitre",
+    "slug": "glands-lymph-and-goitre",
+    "file": "glands-lymph-and-goitre.json",
+    "count": 15,
+    "section": "উপরের অঙ্গ",
+    "sources": [
+      "glands-lymph-and-goitre"
+    ]
+  },
+  {
+    "no": 28,
+    "bn": "বুক, ফুসফুস, শ্বাস, শ্বাসকষ্ট ও হাঁপানি",
+    "en": "Chest, Lungs, Breathing, Dyspnoea & Asthma",
+    "slug": "chest-lungs-breathing-and-asthma",
+    "file": "chest-lungs-breathing-and-asthma.json",
+    "count": 49,
+    "section": "মাঝের অঙ্গ",
+    "sources": [
+      "chest-lungs-and-breathing",
+      "breathing-difficulty-and-asthma"
+    ]
+  },
+  {
+    "no": 29,
+    "bn": "কাশি ও কফ",
+    "en": "Cough & Expectoration",
+    "slug": "cough-and-expectoration",
+    "file": "cough-and-expectoration.json",
+    "count": 50,
+    "section": "মাঝের অঙ্গ",
+    "sources": [
+      "cough-and-expectoration"
+    ]
+  },
+  {
+    "no": 30,
+    "bn": "হৃদপিণ্ড, ধড়ফড় ও নাড়ি",
+    "en": "Heart, Palpitation & Pulse",
+    "slug": "heart-palpitation-and-pulse",
+    "file": "heart-palpitation-and-pulse.json",
+    "count": 34,
+    "section": "মাঝের অঙ্গ",
+    "sources": [
+      "heart-palpitation-and-pulse"
+    ]
+  },
+  {
+    "no": 31,
+    "bn": "রক্তচাপ, রক্ত সঞ্চালন ও শিরা",
+    "en": "Blood Pressure, Circulation & Vessels",
+    "slug": "blood-pressure-circulation-and-vessels",
+    "file": "blood-pressure-circulation-and-vessels.json",
+    "count": 35,
+    "section": "মাঝের অঙ্গ",
+    "sources": [
+      "blood-pressure-circulation-and-vessels"
+    ]
+  },
+  {
+    "no": 32,
+    "bn": "পাকস্থলী, ক্ষুধা ও খিদে",
+    "en": "Stomach, Hunger & Appetite",
+    "slug": "stomach-hunger-and-appetite",
+    "file": "stomach-hunger-and-appetite.json",
+    "count": 52,
+    "section": "মাঝের অঙ্গ",
+    "sources": [
+      "stomach-hunger-and-appetite"
+    ]
+  },
+  {
+    "no": 33,
+    "bn": "বমি, বমিভাব ও অম্ল",
+    "en": "Nausea, Vomiting & Acidity",
+    "slug": "nausea-vomiting-and-acidity",
+    "file": "nausea-vomiting-and-acidity.json",
+    "count": 43,
+    "section": "মাঝের অঙ্গ",
+    "sources": [
+      "nausea-vomiting-and-acidity"
+    ]
+  },
+  {
+    "no": 34,
+    "bn": "পেট, হজম, পেটব্যথা, গ্যাস ও পুষ্টি",
+    "en": "Abdomen, Digestion, Colic, Gas & Nutrition",
+    "slug": "abdomen-digestion-and-gas",
+    "file": "abdomen-digestion-and-gas.json",
+    "count": 71,
+    "section": "মাঝের অঙ্গ",
+    "sources": [
+      "abdomen-colic-and-gas",
+      "digestion-indigestion-and-nutrition"
+    ]
+  },
+  {
+    "no": 35,
+    "bn": "লিভার, পিত্ত ও জন্ডিস",
+    "en": "Liver, Gallbladder & Jaundice",
+    "slug": "liver-gallbladder-and-jaundice",
+    "file": "liver-gallbladder-and-jaundice.json",
+    "count": 14,
+    "section": "মাঝের অঙ্গ",
+    "sources": [
+      "liver-gallbladder-and-jaundice"
+    ]
+  },
+  {
+    "no": 36,
+    "bn": "পিঠ, মেরুদণ্ড ও বুক-হৃদরোগ",
+    "en": "Back, Spine & Chest-Heart Diseases",
+    "slug": "back-spine-and-chest-heart-diseases",
+    "file": "back-spine-and-chest-heart-diseases.json",
+    "count": 48,
+    "section": "মাঝের অঙ্গ",
+    "sources": [
+      "back-spine-and-chest-heart-diseases"
+    ]
+  },
+  {
+    "no": 37,
+    "bn": "মল ও ডায়রিয়া",
+    "en": "Stool & Diarrhoea",
+    "slug": "stool-and-diarrhoea",
+    "file": "stool-and-diarrhoea.json",
+    "count": 55,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "stool-diarrhoea-and-constipation"
+    ]
+  },
+  {
+    "no": 38,
+    "bn": "কোষ্ঠকাঠিন্য",
+    "en": "Constipation",
+    "slug": "constipation",
+    "file": "constipation.json",
+    "count": 25,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "stool-diarrhoea-and-constipation"
+    ]
+  },
+  {
+    "no": 39,
+    "bn": "মলদ্বার, পাইলস ও ফিস্টুলা",
+    "en": "Rectum, Anus & Piles",
+    "slug": "rectum-anus-and-piles",
+    "file": "rectum-anus-and-piles.json",
+    "count": 29,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "rectum-anus-and-piles"
+    ]
+  },
+  {
+    "no": 40,
+    "bn": "প্রস্রাব, মূত্রথলি ও ঘন ঘন প্রস্রাব",
+    "en": "Urine, Bladder & Frequency",
+    "slug": "urine-bladder-and-frequency",
+    "file": "urine-bladder-and-frequency.json",
+    "count": 57,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "urine-bladder-and-frequency"
+    ]
+  },
+  {
+    "no": 41,
+    "bn": "কিডনি ও মূত্র রোগ",
+    "en": "Kidney & Urinary Diseases",
+    "slug": "kidney-and-urinary-diseases",
+    "file": "kidney-and-urinary-diseases.json",
+    "count": 46,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "kidney-and-urinary-diseases"
+    ]
+  },
+  {
+    "no": 42,
+    "bn": "স্ত্রী যৌনাঙ্গ, সাদাস্রাব ও জরায়ু",
+    "en": "Female Genital, Leucorrhoea & Uterus",
+    "slug": "female-genital-leucorrhoea-and-uterus",
+    "file": "female-genital-leucorrhoea-and-uterus.json",
+    "count": 67,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "female-genital-leucorrhoea-and-uterus"
+    ]
+  },
+  {
+    "no": 43,
+    "bn": "স্তন, ঋতুস্রাব, মাসিক ও দুধ খাওয়ানো",
+    "en": "Breast, Menses, Menstrual Disorders & Lactation",
+    "slug": "breast-menses-and-lactation",
+    "file": "breast-menses-and-lactation.json",
+    "count": 41,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "breast-nipple-and-lactation",
+      "menses-and-menstrual-disorders"
+    ]
+  },
+  {
+    "no": 44,
+    "bn": "গর্ভাবস্থা, প্রসব, প্রসব পরবর্তী ও স্ত্রী রোগ",
+    "en": "Pregnancy, Labour, Postpartum & Female Diseases",
+    "slug": "pregnancy-and-female-diseases",
+    "file": "pregnancy-and-female-diseases.json",
+    "count": 40,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "pregnancy-labour-and-postpartum",
+      "female-diseases-prolapse-and-inflammation"
+    ]
+  },
+  {
+    "no": 45,
+    "bn": "পুরুষ যৌনাঙ্গ, প্রোস্টেট, দুর্বলতা ও ধাতু",
+    "en": "Male Genital, Prostate, Weakness & Emission",
+    "slug": "male-genital-and-weakness",
+    "file": "male-genital-and-weakness.json",
+    "count": 47,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "male-genital-testes-and-prostate",
+      "male-diseases-weakness-and-emission"
+    ]
+  },
+  {
+    "no": 46,
+    "bn": "যৌন ইচ্ছা, সহবাস ও বীর্য",
+    "en": "Sexual Desire, Coition & Semen",
+    "slug": "sexual-desire-coition-and-semen",
+    "file": "sexual-desire-coition-and-semen.json",
+    "count": 25,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "sexual-desire-coition-and-semen"
+    ]
+  },
+  {
+    "no": 47,
+    "bn": "হাত, পা, আঙুল, নখ ও পায়ের পাতা",
+    "en": "Hands, Legs, Fingers, Nails & Feet",
+    "slug": "hands-legs-and-feet",
+    "file": "hands-legs-and-feet.json",
+    "count": 46,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "legs-knee-and-feet",
+      "hands-fingers-and-nails"
+    ]
+  },
+  {
+    "no": 48,
+    "bn": "হাড়, জয়েন্ট, বাত ও রিউম্যাটিজম",
+    "en": "Bones, Joints, Arthritis & Rheumatism",
+    "slug": "bones-joints-and-rheumatism",
+    "file": "bones-joints-and-rheumatism.json",
+    "count": 52,
+    "section": "নিচের অঙ্গ",
+    "sources": [
+      "bones-and-caries",
+      "joints-arthritis-and-rheumatism"
+    ]
+  },
+  {
+    "no": 49,
+    "bn": "জ্বর, শীত ও তাপমাত্রা",
+    "en": "Fever, Chill & Temperature",
+    "slug": "fever-chill-and-temperature",
+    "file": "fever-chill-and-temperature.json",
+    "count": 28,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "fever-chill-and-temperature"
+    ]
+  },
+  {
+    "no": 50,
+    "bn": "ঘাম",
+    "en": "Sweat & Perspiration",
+    "slug": "sweat-and-perspiration",
+    "file": "sweat-and-perspiration.json",
+    "count": 26,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "sweat-and-perspiration"
+    ]
+  },
+  {
+    "no": 51,
+    "bn": "ব্যথার ধরন",
+    "en": "Pain - Types & Characters",
+    "slug": "pain-types-and-characters",
+    "file": "pain-types-and-characters.json",
+    "count": 109,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "pain-types-and-characters"
+    ]
+  },
+  {
+    "no": 52,
+    "bn": "ফোলা, শোথ ও জল জমা",
+    "en": "Swelling, Oedema & Dropsy",
+    "slug": "swelling-oedema-and-dropsy",
+    "file": "swelling-oedema-and-dropsy.json",
+    "count": 46,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "swelling-oedema-and-dropsy"
+    ]
+  },
+  {
+    "no": 53,
+    "bn": "রক্ত, রক্তপাত, রক্তাল্পতা ও জমাট",
+    "en": "Blood, Bleeding, Anaemia & Clotting",
+    "slug": "blood-bleeding-and-anaemia",
+    "file": "blood-bleeding-and-anaemia.json",
+    "count": 43,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "bleeding-and-haemorrhage",
+      "blood-anaemia-and-clotting"
+    ]
+  },
+  {
+    "no": 54,
+    "bn": "চামড়া - সাধারণ, রং ও গঠন",
+    "en": "Skin - General, Colour & Texture",
+    "slug": "skin-general-colour-and-texture",
+    "file": "skin-general-colour-and-texture.json",
+    "count": 67,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "skin-general-colour-and-texture"
+    ]
+  },
+  {
+    "no": 55,
+    "bn": "চামড়ার উদ্ভেদ, একজিমা, সোরিয়াসিস ও অ্যালার্জি",
+    "en": "Skin Eruptions, Eczema, Psoriasis & Allergy",
+    "slug": "skin-eruptions-and-allergy",
+    "file": "skin-eruptions-and-allergy.json",
+    "count": 42,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "skin-eruptions-eczema-and-psoriasis",
+      "allergy-and-hypersensitivity"
+    ]
+  },
+  {
+    "no": 56,
+    "bn": "চুলকানি, জ্বালা ও চামড়ার অনুভূতি",
+    "en": "Itching, Burning & Skin Sensation",
+    "slug": "itching-burning-and-skin-sensation",
+    "file": "itching-burning-and-skin-sensation.json",
+    "count": 65,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "itching-burning-and-skin-sensation"
+    ]
+  },
+  {
+    "no": 57,
+    "bn": "চামড়া ফাটা, ক্ষত ও আলসার",
+    "en": "Skin - Cracks, Fissures & Ulcers",
+    "slug": "skin-cracks-fissures-and-ulcers",
+    "file": "skin-cracks-fissures-and-ulcers.json",
+    "count": 70,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "skin-cracks-fissures-and-ulcers"
+    ]
+  },
+  {
+    "no": 58,
+    "bn": "আঁচিল, টিউমার, সিস্ট ও গোটা",
+    "en": "Warts, Tumours, Cysts & Growths",
+    "slug": "warts-tumours-cysts-and-growths",
+    "file": "warts-tumours-cysts-and-growths.json",
+    "count": 18,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "warts-tumours-cysts-and-growths"
+    ]
+  },
+  {
+    "no": 59,
+    "bn": "ক্ষত, কাটা, থেঁতো, আঘাত, পোড়া, কামড় ও হুল",
+    "en": "Wounds, Cuts, Bruises, Injury, Burns, Bites & Stings",
+    "slug": "wounds-burns-and-stings",
+    "file": "wounds-burns-and-stings.json",
+    "count": 53,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "wounds-cuts-bruises-and-injury",
+      "burns-bites-and-stings"
+    ]
+  },
+  {
+    "no": 60,
+    "bn": "ঘা, ফোড়া, সংক্রমণ, সেপসিস ও পুঁজ",
+    "en": "Ulcer, Abscess, Infection, Sepsis & Pus",
+    "slug": "ulcer-infection-and-pus",
+    "file": "ulcer-infection-and-pus.json",
+    "count": 43,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "ulcer-abscess-and-suppuration",
+      "infection-sepsis-and-pus"
+    ]
+  },
+  {
+    "no": 61,
+    "bn": "কৃমি ও পরজীবী",
+    "en": "Worms & Parasites",
+    "slug": "worms-and-parasites",
+    "file": "worms-and-parasites.json",
+    "count": 16,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "worms-and-parasites"
+    ]
+  },
+  {
+    "no": 62,
+    "bn": "পেশি, টান ও খিঁচুনি",
+    "en": "Muscles, Cramps & Spasm",
+    "slug": "muscles-cramps-and-spasm",
+    "file": "muscles-cramps-and-spasm.json",
+    "count": 27,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "muscles-cramps-and-spasm"
+    ]
+  },
+  {
+    "no": 63,
+    "bn": "স্রাব, নিঃসরণ ও শ্লেষ্মা",
+    "en": "Discharge, Secretion & Mucus",
+    "slug": "discharge-secretion-and-mucus",
+    "file": "discharge-secretion-and-mucus.json",
+    "count": 59,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "discharge-secretion-and-mucus"
+    ]
+  },
+  {
+    "no": 64,
+    "bn": "ক্যান্সার, গ্যাংগ্রিন ও ক্ষয়",
+    "en": "Cancer, Gangrene & Degeneration",
+    "slug": "cancer-gangrene-and-degeneration",
+    "file": "cancer-gangrene-and-degeneration.json",
+    "count": 11,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "cancer-gangrene-and-degeneration"
+    ]
+  },
+  {
+    "no": 65,
+    "bn": "প্রল্যাপস, নিচে চাপ ও শিথিলতা",
+    "en": "Prolapse, Bearing Down & Relaxation",
+    "slug": "prolapse-bearing-down-and-relaxation",
+    "file": "prolapse-bearing-down-and-relaxation.json",
+    "count": 11,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "prolapse-bearing-down-and-relaxation"
+    ]
+  },
+  {
+    "no": 66,
+    "bn": "দুর্বলতা, ক্লান্তি, অবসাদ ও বার্ধক্য",
+    "en": "Weakness, Fatigue, Exhaustion & Old Age",
+    "slug": "weakness-and-old-age",
+    "file": "weakness-and-old-age.json",
+    "count": 67,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "weakness-fatigue-and-exhaustion",
+      "old-age-and-general-debility"
+    ]
+  },
+  {
+    "no": 67,
+    "bn": "শিশু, বৃদ্ধি ও বিকাশ",
+    "en": "Children - Growth & Development",
+    "slug": "children-growth-and-development",
+    "file": "children-growth-and-development.json",
+    "count": 48,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "children-growth-and-development"
+    ]
+  },
+  {
+    "no": 68,
+    "bn": "খাবার, পানীয় ও ইচ্ছা",
+    "en": "Food, Drink & Cravings",
+    "slug": "food-drink-and-cravings",
+    "file": "food-drink-and-cravings.json",
+    "count": 110,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "food-drink-and-cravings"
+    ]
+  },
+  {
+    "no": 69,
+    "bn": "তৃষ্ণা ও পান করা",
+    "en": "Thirst & Drinking",
+    "slug": "thirst-and-drinking",
+    "file": "thirst-and-drinking.json",
+    "count": 31,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "thirst-and-drinking"
+    ]
+  },
+  {
+    "no": 70,
+    "bn": "ঠান্ডা, শীতলতা ও ঠান্ডা বাতাস",
+    "en": "Cold, Chilly & Cold Air",
+    "slug": "cold-chilly-and-cold-air",
+    "file": "cold-chilly-and-cold-air.json",
+    "count": 115,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "cold-chilly-and-cold-air"
+    ]
+  },
+  {
+    "no": 71,
+    "bn": "গরম, উষ্ণতা ও রোদ",
+    "en": "Heat, Warmth & Sun",
+    "slug": "heat-warmth-and-sun",
+    "file": "heat-warmth-and-sun.json",
+    "count": 80,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "heat-warmth-and-sun"
+    ]
+  },
+  {
+    "no": 72,
+    "bn": "ভেজা, আর্দ্রতা ও বৃষ্টি",
+    "en": "Damp, Wet & Rain",
+    "slug": "damp-wet-and-rain",
+    "file": "damp-wet-and-rain.json",
+    "count": 30,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "damp-wet-and-rain"
+    ]
+  },
+  {
+    "no": 73,
+    "bn": "খোলা বাতাস ও বাতাস",
+    "en": "Open Air & Ventilation",
+    "slug": "open-air-and-ventilation",
+    "file": "open-air-and-ventilation.json",
+    "count": 47,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "open-air-and-ventilation"
+    ]
+  },
+  {
+    "no": 74,
+    "bn": "বৃদ্ধির কারণ",
+    "en": "Aggravation",
+    "slug": "aggravation",
+    "file": "aggravation.json",
+    "count": 109,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "aggravation"
+    ]
+  },
+  {
+    "no": 75,
+    "bn": "উপশমের কারণ",
+    "en": "Amelioration",
+    "slug": "amelioration",
+    "file": "amelioration.json",
+    "count": 88,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "amelioration"
+    ]
+  },
+  {
+    "no": 76,
+    "bn": "পার্শ্ব - বাম, ডান ও দিক",
+    "en": "Laterality - Left, Right & Sides",
+    "slug": "laterality-left-right-and-sides",
+    "file": "laterality-left-right-and-sides.json",
+    "count": 79,
+    "section": "সার্বদৌহিক",
+    "sources": [
+      "laterality-left-right-and-sides"
+    ]
+  },
+  {
+    "no": 77,
+    "bn": "গন্ধ ও দুর্গন্ধ",
+    "en": "Smell & Odor",
+    "slug": "smell-and-odor",
+    "file": "smell-and-odor.json",
+    "count": 38,
+    "section": "বিবিধ",
+    "sources": [
+      "smell-and-odor"
+    ]
+  },
+  {
+    "no": 78,
+    "bn": "স্পর্শ, চাপ ও মালিশ",
+    "en": "Touch, Pressure & Rubbing",
+    "slug": "touch-pressure-and-rubbing",
+    "file": "touch-pressure-and-rubbing.json",
+    "count": 62,
+    "section": "বিবিধ",
+    "sources": [
+      "touch-pressure-and-rubbing"
+    ]
+  },
+  {
+    "no": 79,
+    "bn": "সকাল, সন্ধ্যা ও রাত",
+    "en": "Morning, Evening & Night",
+    "slug": "time-morning-evening-and-night",
+    "file": "time-morning-evening-and-night.json",
+    "count": 85,
+    "section": "বিবিধ",
+    "sources": [
+      "time-morning-evening-and-night"
+    ]
+  },
+  {
+    "no": 80,
+    "bn": "নির্দিষ্ট সময়, ঋতু, চাঁদ ও পর্যায়ক্রম",
+    "en": "Specific Time, Seasons, Moon & Periodicity",
+    "slug": "time-seasons-and-periodicity",
+    "file": "time-seasons-and-periodicity.json",
+    "count": 41,
+    "section": "বিবিধ",
+    "sources": [
+      "time-specific-hours-and-days",
+      "seasons-moon-and-periodicity"
+    ]
+  },
+  {
+    "no": 81,
+    "bn": "আবহাওয়া, জলবায়ু ও পরিবেশ",
+    "en": "Weather, Climate & Environment",
+    "slug": "weather-climate-and-environment",
+    "file": "weather-climate-and-environment.json",
+    "count": 48,
+    "section": "বিবিধ",
+    "sources": [
+      "weather-climate-and-environment"
+    ]
+  },
+  {
+    "no": 82,
+    "bn": "ঔষধ সম্পর্ক - পরিপূরক, প্রতিষেধক",
+    "en": "Relationship - Complementary, Antidote",
+    "slug": "relationship-complementary-antidote",
+    "file": "relationship-complementary-antidote.json",
+    "count": 57,
+    "section": "বিবিধ",
+    "sources": [
+      "relationship-complementary-antidote"
+    ]
+  },
+  {
+    "no": 83,
+    "bn": "শক্তি, মাত্রা ও ঔষধ পরিচিতি",
+    "en": "Potency, Posology & Medicine Info",
+    "slug": "potency-posology-and-medicine-info",
+    "file": "potency-posology-and-medicine-info.json",
+    "count": 43,
+    "section": "বিবিধ",
+    "sources": [
+      "potency-posology-and-medicine-info"
+    ]
+  },
+  {
+    "no": 84,
+    "bn": "টিকা, চাপা পড়া ও কুফল",
+    "en": "Vaccination, Suppression & Ill-effects",
+    "slug": "vaccination-suppression-and-ill-effects",
+    "file": "vaccination-suppression-and-ill-effects.json",
+    "count": 33,
+    "section": "বিবিধ",
+    "sources": [
+      "vaccination-suppression-and-ill-effects"
+    ]
+  },
+  {
+    "no": 85,
+    "bn": "সাধারণ ও বিবিধ",
+    "en": "General & Miscellaneous",
+    "slug": "general-and-miscellaneous",
+    "file": "general-and-miscellaneous.json",
+    "count": 712,
+    "section": "বিবিধ",
+    "sources": [
+      "general-and-miscellaneous"
+    ]
+  }
+]

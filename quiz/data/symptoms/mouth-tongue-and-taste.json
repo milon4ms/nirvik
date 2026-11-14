@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "argm-sym-17",
+    "stem": "জিহ্বা সাদা আবরণযুক্ত এবং মুখ থেকে দুর্গন্ধ — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Metallicum",
+        "mid": "argentum-metallicum"
+      },
+      {
+        "text": "Mercurius Sol",
+        "mid": "mercurius-sol"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      },
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      }
+    ],
+    "answer": "argentum-metallicum",
+    "tags": [
+      "tongue",
+      "bad-breath"
+    ],
+    "explanation": "Argentum Metallicum-তে জিহ্বায় সাদা আবরণ দেখা যেতে পারে।"
+  },
+  {
+    "id": "baryta-sym-07",
+    "stem": "শিশুদের মুখ দিয়ে অনবরত লালা ঝরে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "mouth",
+      "saliva",
+      "drooling",
+      "children"
+    ],
+    "explanation": "Baryta শিশুদের লালা ঝরায় কার্যকর।"
+  },
+  {
+    "id": "borax-sym-04",
+    "stem": "শিশুর মুখে, প্রসাব নালীতে ও মলদ্বারে ঘা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "aphthae",
+      "mouth",
+      "urinary",
+      "rectum"
+    ],
+    "explanation": "Borax-এ শিশুর মুখে, প্রসাব নালীতে ও মলদ্বারে ঘা হয়।"
+  },
+  {
+    "id": "borax-sym-11",
+    "stem": "মুখের ভেতর সাদাটে ক্ষত, মুখ অত্যন্ত গরম ও স্পর্শে রক্তপাত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "aphthae",
+      "mouth",
+      "bleeding"
+    ],
+    "explanation": "Borax-এ মুখের ভেতর সাদাটে ক্ষত হয়, মুখ অত্যন্ত গরম থাকে এবং ক্ষতে সামান্য স্পর্শ করলে রক্তপাত হতে পারে।"
+  },
+  {
+    "id": "calc-sulph-sym-08",
+    "stem": "জিহবা কাদার মতো ল্যাপ্টানো, গোড়ার দিকে হলুদ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Antim Crud",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "tongue",
+      "coated"
+    ],
+    "explanation": "Calcarea Sulph-এ জিহবা কাদার মতো ল্যাপ্টানো থাকে এবং গোড়ার দিকে হলুদ দেখায়।"
+  },
+  {
+    "id": "camph-sym-18",
+    "stem": "ঠান্ডা জিহ্বা, কাঁপতে থাকে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Taraxacum",
+        "mid": "taraxacum"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "tongue",
+      "coldness"
+    ]
+  },
+  {
+    "id": "carbo-sym-06",
+    "stem": "ঠান্ডা নিঃশ্বাস, ঠান্ডা জিহ্বা, ঠান্ডা ঘাম, স্বরভঙ্গ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "coldness",
+      "breath",
+      "tongue",
+      "sweat",
+      "hoarseness"
+    ],
+    "explanation": "Carbo Veg-এ ঠান্ডা নিঃশ্বাস, জিহ্বা, ঘাম ও স্বরভঙ্গ থাকে।"
+  },
+  {
+    "id": "chel-sym-04",
+    "stem": "জিহ্বা প্রশস্ত এবং তার ওপর হলুদাভ আস্তরণ পড়ে, যার কিনারে দাঁতের ছাপ দেখা যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "tongue",
+      "yellow-coating",
+      "teeth-marks"
+    ],
+    "explanation": "Chelidonium Majus-এ জিহ্বা প্রশস্ত হয় এবং তার ওপর হলুদাভ আস্তরণ পড়ে, যার কিনারে দাঁতের ছাপ দেখা যেতে পারে।"
+  },
+  {
+    "id": "chel-sym-20",
+    "stem": "জিহ্বার স্বাদ তিতা এবং উপরে হলুদ আস্তরণ পরে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "tongue",
+      "bitter-taste",
+      "yellow-coating"
+    ],
+    "explanation": "Chelidonium Majus-এ জিহ্বার স্বাদ তিতা এবং উপরে হলুদ আস্তরণ পরে।"
+  },
+  {
+    "id": "china-sym-17",
+    "stem": "সবকিছু তিতা লাগা, পানি পর্যন্ত তিতা লাগা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "taste",
+      "bitter"
+    ],
+    "explanation": "China এ সবকিছু তিতা লাগে, পানি পর্যন্ত তিতা লাগে।"
+  },
+  {
+    "id": "cinn-sym-06",
+    "stem": "মুখে প্রচুর লালা জমা এবং নিঃশ্বাসে প্রচণ্ড দুর্গন্ধ থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Mercurius Sol",
+        "mid": "mercurius-sol"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "mouth",
+      "salivation",
+      "odor"
+    ],
+    "explanation": "Cinnabaris-এ পারদঘটিত অন্যান্য ঔষধের মতোই মুখ গহ্বরে প্রচুর লালাস্রাব ও প্রচণ্ড দুর্গন্ধের উপস্থিতি থাকে।"
+  },
+  {
+    "id": "colocynthis-sym-06",
+    "stem": "আহারের পর বৃদ্ধি, মুখের স্বাদ তিতা লাগা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "aggravation",
+      "eating",
+      "taste"
+    ],
+    "explanation": "Colocynthis এ আহারের পর বৃদ্ধি হয়, মুখের স্বাদ তিতা লাগে।"
+  },
+  {
+    "id": "dulc-sym-18",
+    "stem": "ঠান্ডা বাতাস বা ঠান্ডা জল শরীরে লাগলে জিহ্বা ও চোয়াল অবশ হয়ে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "tongue",
+      "jaw",
+      "numbness",
+      "cold"
+    ],
+    "explanation": "Dulcamara-এ ঠান্ডা বাতাস বা ঠান্ডা জল শরীরে লাগলে জিহ্বা ও চোয়াল অবশ (Lame) হয়ে যেতে পারে।"
+  },
+  {
+    "id": "hell-sym-09",
+    "stem": "মুখ দিয়ে প্রচুর লালা পড়ে এবং রোগী জল পান করার সময় মনে হয় যেন সে জল কামড়ে ধরছে বা গ্লাস কামড়ে ধরে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "mouth",
+      "saliva",
+      "bites-glass"
+    ],
+    "explanation": "Helleborus Niger-এ মুখ দিয়ে প্রচুর লালা পড়ে। রোগী যখন জল পান করে, তখন মনে হয় যেন সে জল কামড়ে ধরছে (Drinks water greedily and bites the glass)।"
+  },
+  {
+    "id": "ipecac-sym-02",
+    "stem": "প্রচণ্ড বমি ভাব বা পেটের অসুখ থাকা সত্ত্বেও জিহ্বা একদম পরিষ্কার থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "tongue",
+      "clean-tongue",
+      "nausea"
+    ],
+    "explanation": "Ipecac-এ প্রচণ্ড বমি ভাব বা পেটের অসুখ থাকা সত্ত্বেও রোগীর জিহ্বা সাধারণত পরিষ্কার থাকে (Clean Tongue)।"
+  },
+  {
+    "id": "ipecac-sym-18",
+    "stem": "মুখে প্রচুর থু থু ওঠে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "mouth",
+      "salivation",
+      "profuse-saliva"
+    ],
+    "explanation": "Ipecac-এ মুখে প্রচুর থু থু ওঠে।"
+  },
+  {
+    "id": "just-sym-07",
+    "stem": "কোনো জিনিসের গন্ধ বা স্বাদ একেবারেই না পাওয়া যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "smell",
+      "taste",
+      "anosmia"
+    ],
+    "explanation": "Justicia Adhatoda-এ ঘ্রাণশক্তি ও স্বাদ গ্রহণের ক্ষমতা সাময়িক বা সম্পূর্ণ লোপ পায়।"
+  },
+  {
+    "id": "just-sym-18",
+    "stem": "মুখ শুকনো থাকা কিন্তু জল পানের ইচ্ছা কম থাকা এবং খাবারের স্বাদ তিতা লাগা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "mouth",
+      "taste",
+      "thirstless"
+    ],
+    "explanation": "Justicia Adhatoda-এ মুখ শুকিয়ে গেলেও পিপাসা কম থাকে এবং খাবারের স্বাদ তিতকুটে অনুভূত হয়।"
+  },
+  {
+    "id": "lach-sym-10",
+    "stem": "জিহ্বা কাঁপে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "tongue",
+      "trembling",
+      "mouth"
+    ],
+    "explanation": "Lachesis-এ জিহ্বা কাঁপে।"
+  },
+  {
+    "id": "merc-sym-02",
+    "stem": "প্রচণ্ড লালাঝরা, ঘুমে বা কথা বলার সময় দুর্গন্ধযুক্ত লালায় বালিশ ভেজে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "salivation",
+      "offensive",
+      "pillow-wet",
+      "sleep"
+    ],
+    "explanation": "Merc Vivus-এ দুর্গন্ধযুক্ত লালা বালিশ ভেজায়।"
+  },
+  {
+    "id": "merc-sym-03",
+    "stem": "জিহ্বা মোটা থলথলে, ফ্যাকাশে ভেজা, দুপাশে দাঁতের দাগ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Chelidonium",
+        "mid": "chelidonium-majus"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "tongue",
+      "flabby",
+      "tooth-prints",
+      "moist"
+    ],
+    "explanation": "Merc Vivus-এ জিহ্বা থলথলে ও দাঁতের দাগ থাকে।"
+  },
+  {
+    "id": "merc-sym-09",
+    "stem": "জিহ্বা ভেজা তবুও প্রচণ্ড তৃষ্ণা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "tongue",
+      "moist",
+      "thirst"
+    ],
+    "explanation": "Merc Vivus-এ জিহ্বা ভেজা কিন্তু তৃষ্ণা থাকে।"
+  },
+  {
+    "id": "merc-sym-10",
+    "stem": "মুখে ঘা, মাড়ি ফুলে রক্ত পড়া, দাঁত নড়া, ধাতব পচা দুর্গন্ধ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "mouth",
+      "ulcer",
+      "gums",
+      "bleeding",
+      "fetor"
+    ],
+    "explanation": "Merc Vivus-এ মুখে ঘা, মাড়ি থেকে রক্ত ও ধাতব দুর্গন্ধ থাকে।"
+  },
+  {
+    "id": "natp-sym-02",
+    "stem": "জিহ্বার গোড়ায় ও তালুতে মাখন বা পনিরের মতো গাঢ় হলুদ আস্তরণ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Kali Bichromicum",
+        "mid": "kali-bichromicum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "tongue",
+      "yellow",
+      "buttery",
+      "coating"
+    ],
+    "explanation": "Natrum Phos-এ গাঢ় হলুদ আস্তরণ প্রধান নির্দেশক।"
+  },
+  {
+    "id": "natrum-mur-sym-10",
+    "stem": "মানচিত্রের মতো জিহ্বা, লাল লাল তালি বা দাগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Antim Crud",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "tongue",
+      "mapped"
+    ],
+    "explanation": "Natrum Mur-এ জিহ্বার ওপর লাল লাল তালি বা মানচিত্রের মতো দাগ দেখা যায়।"
+  },
+  {
+    "id": "natrum-mur-sym-19",
+    "stem": "ঠোঁটের কোণে ক্ষত ও নিচের ঠোঁট মাঝখানে ফেটে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "lips",
+      "cold-sores"
+    ],
+    "explanation": "Natrum Mur-এ ঠোঁটের কোণে বা মুখে ক্ষত (Cold sores) হয় এবং নিচের ঠোঁট মাঝখানে ফেটে যাওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "podo-sym-08",
+    "stem": "মুখে লালা পড়ে, দুর্গন্ধ, জিহ্বা বড় চওড়া দাঁতের ছাপ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "salivation",
+      "fetor",
+      "tongue",
+      "tooth-prints"
+    ],
+    "explanation": "Podophyllum-এ লালা, দুর্গন্ধ ও জিহ্বায় দাঁতের ছাপ থাকে।"
+  },
+  {
+    "id": "pyrogenium-sym-08",
+    "stem": "জিহ্বা আগুনের মতো লাল, শুকনো ও চকচকে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "tongue",
+      "fiery-red"
+    ],
+    "explanation": "Pyrogenium-এ জিহ্বা দেখতে আগুনের মতো লাল, শুকনো ও চকচকে হয়; অনেক সময় জিহ্বা ফাটা থাকতে পারে।"
+  },
+  {
+    "id": "pyrogenium-sym-17",
+    "stem": "জিহবা ও বালিশ শক্ত মনে হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "tongue",
+      "pillow-hard"
+    ],
+    "explanation": "Pyrogenium-এ জিহবা ও বালিশ শক্ত মনে হয়।"
+  },
+  {
+    "id": "rhus-sym-04",
+    "stem": "জিহবা শুকনো ও সাদাটে হলেও ডগায় বা অগ্রভাগে স্পষ্ট একটি ত্রিকোণাকার লাল চিহ্ন থাকা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "tongue",
+      "red-tip"
+    ],
+    "explanation": "Rhus Tox রোগীর জিব শুকনো ও সাদা থাকে এবং ডগায় ত্রিভুজাকৃতি লাল দাগ বা চিহ্ন দেখা যায়।"
+  },
+  {
+    "id": "sani-sym-05",
+    "stem": "জিহবার ওপর ক্ষত বা দাদ হওয়া এবং জ্বালা করার কারণে রোগী জিব বাইরে বের করে রাখা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Taraxacum",
+        "mid": "taraxacum"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "tongue",
+      "ringworm"
+    ],
+    "explanation": "Sanicula-এর জিবের ওপর ক্ষত বা দাদ গঠিত হয় এবং অতিরিক্ত জ্বালার জন্য রোগী মুখ থেকে জিব বের করে রাখে।"
+  },
+  {
+    "id": "sul-iod-sym-01",
+    "stem": "জিহ্বার অগ্রভাগ এবং কিনারা উজ্জ্বল লাল, যদিও পুরো জিহ্বা সাদা বা পুরু ময়লাযুক্ত প্রলেপে ঢাকা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur Iodatum",
+        "mid": "sulphur-iodatum"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      }
+    ],
+    "answer": "sulphur-iodatum",
+    "tags": [
+      "tongue",
+      "red-tip",
+      "white-coating"
+    ],
+    "explanation": "Sulphur Iodatum-এর একটি প্রধান লক্ষণ হলো জিহ্বার অগ্রভাগ ও কিনারা অস্বাভাবিক লাল থাকে, যদিও জিহ্বা পুরোটা সাদা বা পুরু ময়লাযুক্ত প্রলেপে ঢাকা থাকে।"
+  },
+  {
+    "id": "syphilinum-sym-10",
+    "stem": "মুখে থুথু জমে খুব, ঘুমালে লালা পড়ে, প্রচণ্ড লালা নিঃসরণ হয়, ঘুমের সময় মুখ থেকে প্রচুর লালা পড়ে বালিশ ভিজে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "saliva",
+      "drooling",
+      "sleep"
+    ],
+    "explanation": "Syphilinum এ মুখে থুথু জমে খুব, ঘুমালে লালা পড়ে, ঘুমের সময় মুখ থেকে প্রচুর লালা পড়ে বালিশ ভিজে যায়।"
+  },
+  {
+    "id": "syphilinum-sym-18",
+    "stem": "অস্থির ক্ষয়, হাড়ের বিশেষ করে নাকের বা তালুর হাড়ের ক্ষয়, পচনশীল ক্ষত, মাথার খুলিতে প্রচণ্ড যন্ত্রণা, মনে হয় মাথার হাড় ফেটে যাবে, দীর্ঘস্থায়ী চোখের প্রদাহ, রাতে চোখের যন্ত্রণা বৃদ্ধি, জিহ্বা ফাটা ফাটা, তাতে দাঁতের ছাপ থাকে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Asafoetida",
+        "mid": "asafoetida"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "bone",
+      "caries",
+      "skull",
+      "eye",
+      "tongue"
+    ],
+    "explanation": "Syphilinum এ অস্থির ক্ষয় হয়, নাকের বা তালুর হাড়ের ক্ষয় ও পচনশীল ক্ষত হয়, মাথার খুলিতে প্রচণ্ড যন্ত্রণা হয়, দীর্ঘস্থায়ী চোখের প্রদাহ ও রাতে চোখের যন্ত্রণা বৃদ্ধি হয়, জিহ্বা ফাটা ফাটা হয় ও তাতে দাঁতের ছাপ থাকে।"
+  },
+  {
+    "id": "var-sym-17",
+    "stem": "মুখের ভেতরে প্রচুর লালা জমা এবং গিলতে প্রচণ্ড কষ্ট হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "throat",
+      "salivation",
+      "swallowing"
+    ],
+    "explanation": "Variolinum লালা নিঃসরণ বৃদ্ধি করে এবং গিলতে ব্যথা তৈরি করে।"
+  }
+]

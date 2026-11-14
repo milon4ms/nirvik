@@ -1,0 +1,1401 @@
+[
+  {
+    "id": "arnica-mont-sym-04",
+    "stem": "জ্বরের সময় মাথা ও মুখমণ্ডল গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Ferrum Phosphoricum",
+        "mid": "ferrum-phosphoricum"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "fever",
+      "head-hot-body-cold",
+      "circulation"
+    ],
+    "explanation": "Arnica Montana-এ মাথা ও মুখমণ্ডল বেশ গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে।"
+  },
+  {
+    "id": "bac-sym-16",
+    "stem": "যক্ষ্মাক্রান্ত পরিবারে উন্মাদ রোগী থাকা বা উন্মাদগ্রস্ত পরিবারে যক্ষ্মা রোগী থাকা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "mind",
+      "insanity",
+      "tuberculosis"
+    ],
+    "explanation": "Bacillinum এর বৈশিষ্ট্য হলো যক্ষ্মাক্রান্ত পরিবারে উন্মাদ রোগী থাকা বা উন্মাদগ্রস্ত পরিবারে যক্ষ্মা রোগী থাকা।"
+  },
+  {
+    "id": "baryta-sym-19",
+    "stem": "অঙ্গসমূহ দূরে দূরে মনে হয়, আকার বড় মনে হয় — এই অদ্ভুত অনুভূতি কোন ঔষধের?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "sensation",
+      "delusion",
+      "limbs"
+    ],
+    "explanation": "Baryta-তে অঙ্গ দূরে বা বড় মনে হওয়ার অনুভূতি থাকে।"
+  },
+  {
+    "id": "bell-sym-05",
+    "stem": "বিভ্রমে ভয়ংকর মুখ ও দানব দেখতে পায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "delirium",
+      "hallucination"
+    ],
+    "explanation": "ভয়ংকর visual hallucination Belladonna-এর পরিচিত বৈশিষ্ট্য।"
+  },
+  {
+    "id": "bry-sym-06",
+    "stem": "নিজের বিছানায় শুয়ে থেকেও প্রলাপের ঘোরে বাড়ি যাওয়ার ইচ্ছা প্রকাশ করা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "mental",
+      "delirium",
+      "desire-home"
+    ],
+    "explanation": "Bryonia-এর মানসিক লক্ষণে রোগী নিজ ঘরে অবস্থান করা সত্ত্বেও প্রলাপের ঘোরে বারবার বাড়ি যাওয়ার ইচ্ছা প্রকাশ করে।"
+  },
+  {
+    "id": "bry-sym-07",
+    "stem": "অসুস্থ অবস্থায়ও ক্রমাগত কাজ বা ব্যবসা নিয়ে দুশ্চিন্তা করা ও কথা বলা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "mental",
+      "business",
+      "delirium"
+    ],
+    "explanation": "Bryonia-এর রোগী অসুস্থ অবস্থায় বা প্রলাপেও নিজের কাজ বা ব্যবসা নিয়ে সর্বক্ষণ চিন্তা করে ও কথা বলে।"
+  },
+  {
+    "id": "calc-sym-06",
+    "stem": "রোগী মনে করে সে পাগল হয়ে যাবে বা তার কোনো মারাত্মক অশুভ ঘটনা ঘটবে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Cannabis Indica",
+        "mid": "cannabis-indica"
+      },
+      {
+        "text": "Mancinella",
+        "mid": "mancinella"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "mental",
+      "fear",
+      "insanity"
+    ],
+    "explanation": "Calcarea Carb-এর রোগীর মাথায় সার্বক্ষণিক মানসিক আশঙ্কা থাকে যে সে পাগল হয়ে যাবে বা তার ক্ষতি হবে।"
+  },
+  {
+    "id": "cantharis-sym-12",
+    "stem": "তীব্র যন্ত্রণার কারণে রোগী প্রলাপ বকে এবং অনেক সময় মারমুখী হয়ে ওঠে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "mental",
+      "delirium",
+      "violent",
+      "pain"
+    ],
+    "explanation": "Cantharis-এ তীব্র যন্ত্রণার কারণে রোগী প্রলাপ বকে এবং অনেক সময় মারমুখী হয়ে ওঠে।"
+  },
+  {
+    "id": "carbo-sym-10",
+    "stem": "অন্ধকার ও ভূতের ভয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "mind",
+      "fear",
+      "dark",
+      "ghosts"
+    ],
+    "explanation": "Carbo Veg অন্ধকার ও ভূতের ভয় পায়।"
+  },
+  {
+    "id": "chel-sym-13",
+    "stem": "রোগী মনে করে সে হয়তো পাগল হয়ে যাবে বা তার কোনো বড় রোগ হয়েছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "mental",
+      "fear-of-insanity",
+      "anxiety"
+    ],
+    "explanation": "Chelidonium Majus-এ রোগী মনে করে সে হয়তো পাগল হয়ে যাবে বা তার কোনো বড় রোগ হয়েছে।"
+  },
+  {
+    "id": "cimicifuga-sym-06",
+    "stem": "স্নায়ুলোপ পেয়ে উন্মাদ হলে উপযোগী — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "mental",
+      "insanity"
+    ],
+    "explanation": "Cimicifuga Racemosa স্নায়ুলোপ পেয়ে উম্মাদ হলে দেওয়া হয়।"
+  },
+  {
+    "id": "cimicifuga-sym-16",
+    "stem": "সারাক্ষণ কান্নাকাটি ও পাগল হয়ে যাওয়ার ভয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "mental",
+      "weeping",
+      "fear-insanity"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ রোগী অত্যন্ত বিষণ্ণ থাকে, সারাক্ষণ কান্নাকাটি করে এবং মনে করে সে পাগল হয়ে যাবে।"
+  },
+  {
+    "id": "cimicifuga-sym-18",
+    "stem": "ঋতুস্রাবের সময় মানসিক অস্থিরতা ও উন্মাদনা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "mental",
+      "menses",
+      "delirium"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ ঋতুস্রাব বা প্রসবের সময় মানসিক অস্থিরতা ও উন্মাদনা দেখা দিতে পারে।"
+  },
+  {
+    "id": "colocynthis-sym-03",
+    "stem": "যন্ত্রণায় মুখ পাংশু হয়ে যাওয়া ও ব্যথায় রোগী দ্বিভাজ হয়ে যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "abdomen",
+      "pain",
+      "bend-double"
+    ],
+    "explanation": "Colocynthis এ যন্ত্রণায় মুখ পাংশু হয়ে যায়, বেদনায় রোগী দ্বিভাজ হয়ে যায়।"
+  },
+  {
+    "id": "colocynthis-sym-20",
+    "stem": "সামনে ঝুঁকে দ্বিভাঁজ হয়ে শুলে, জোরে চাপে, গরমে ও কফি পান করলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "amelioration",
+      "bend-double",
+      "pressure",
+      "warmth"
+    ],
+    "explanation": "Colocynthis এ সামনের দিকে ঝুঁকে দ্বিভাঁজ হয়ে শুলে, জোরে চাপে, গরমে এবং কফি পান করলে উপশম হয়।"
+  },
+  {
+    "id": "ferrum-phos-sym-14",
+    "stem": "রাতে ঘুমের মধ্যে অস্থিরতা ও আবল-তাবল বকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "sleep",
+      "restlessness",
+      "delirium"
+    ],
+    "explanation": "Ferrum Phos-এ রাতে ঘুমের মধ্যে অস্থিরতা এবং আবল-তাবল বকার প্রবণতা থাকতে পারে।"
+  },
+  {
+    "id": "hell-sym-09",
+    "stem": "মুখ দিয়ে প্রচুর লালা পড়ে এবং রোগী জল পান করার সময় মনে হয় যেন সে জল কামড়ে ধরছে বা গ্লাস কামড়ে ধরে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "mouth",
+      "saliva",
+      "bites-glass"
+    ],
+    "explanation": "Helleborus Niger-এ মুখ দিয়ে প্রচুর লালা পড়ে। রোগী যখন জল পান করে, তখন মনে হয় যেন সে জল কামড়ে ধরছে (Drinks water greedily and bites the glass)।"
+  },
+  {
+    "id": "hyoscyamus-sym-01",
+    "stem": "কামোন্মাদ, কাপড় খুলে গোপন অঙ্গ দেখানো — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "mania",
+      "naked"
+    ],
+    "explanation": "Hyoscyamus-এর প্রধান লক্ষণ হলো কামোন্মাদ, রোগী কাপড় খুলে গোপন অঙ্গ দেখায়।"
+  },
+  {
+    "id": "hyoscyamus-sym-02",
+    "stem": "যৌন অঙ্গে বারবার হাত দেওয়া ও অশ্লীল গান গাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "mania",
+      "obscene"
+    ],
+    "explanation": "Hyoscyamus-এ রোগী যৌন অঙ্গে বারবার হাত দেয় এবং অশ্লীল গান গায়।"
+  },
+  {
+    "id": "hyoscyamus-sym-07",
+    "stem": "কাল্পনিক দৃশ্য দেখা ও কাল্পনিক অত্যাচারের অভিযোগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "mental",
+      "hallucinations"
+    ],
+    "explanation": "Hyoscyamus-এ রোগী কাল্পনিক দৃশ্য দেখে এবং কাল্পনিক অত্যাচারের অভিযোগ করে।"
+  },
+  {
+    "id": "hyoscyamus-sym-19",
+    "stem": "চোখ বড় বড় করে তাকিয়ে থাকা ও সব কিছু বড় বা রঙিন দেখা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "eye",
+      "hallucinations"
+    ],
+    "explanation": "Hyoscyamus-এ রোগী চোখ বড় বড় করে তাকিয়ে থাকে এবং চোখের সামনে সব কিছু বড় বা রঙিন দেখে।"
+  },
+  {
+    "id": "hyper-sym-10",
+    "stem": "কেউ যেন শূন্যে ধরে রেখেছে, নিচে পড়ে যাওয়ার ভয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Cannabis Indica",
+        "mid": "cannabis-indica"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "delusion",
+      "lifted-air",
+      "fear-falling"
+    ],
+    "explanation": "Hypericum-এ শূন্যে ধরে রাখা ও পড়ে যাওয়ার ভয় থাকে।"
+  },
+  {
+    "id": "hyper-sym-16",
+    "stem": "বিমর্ষ ও হতাশ, প্রচণ্ড ব্যথায় ভুল বকা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "mind",
+      "melancholy",
+      "depression",
+      "delirium",
+      "pain"
+    ],
+    "explanation": "Hypericum রোগী বিমর্ষ ও ব্যথায় ভুল বকে।"
+  },
+  {
+    "id": "ipecac-sym-19",
+    "stem": "জ্বরে ঘাড়, পিঠ, হাতে প্রচণ্ড ব্যথা এবং সারা শরীরে থ্যাতলানো ব্যথা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Eupatorium Perfoliatum",
+        "mid": "eupatorium-perfoliatum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "fever",
+      "body-ache",
+      "bone-pain"
+    ],
+    "explanation": "Ipecac-এ জ্বরে ঘাড়, পিঠ, হাতে প্রচণ্ড ব্যথা এবং সারা শরীরে থ্যাতলানো ব্যথা হয়।"
+  },
+  {
+    "id": "lach-sym-04",
+    "stem": "ঈর্ষা, সন্দেহপ্রবণ, ধর্মীয় উন্মাদনা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Hyoscyamus Niger",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "mind",
+      "jealousy",
+      "suspicious",
+      "religious-mania"
+    ],
+    "explanation": "Lachesis-এ ঈর্ষা, সন্দেহ ও ধর্মীয় উন্মাদনা থাকে।"
+  },
+  {
+    "id": "lach-sym-09",
+    "stem": "নিজেকে বিষাক্ত মনে করা বা অন্যকে বিষ দেওয়ার ভয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Hyoscyamus Niger",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "mind",
+      "delusion",
+      "poisoned",
+      "fear"
+    ],
+    "explanation": "Lachesis-এ বিষাক্ত মনে করা ও বিষের ভয় থাকে।"
+  },
+  {
+    "id": "mag-carb-sym-01",
+    "stem": "শরীর, ঘাম, মল ও বমি থেকে তীব্র টক গন্ধ বের হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Rheum",
+        "mid": "rheum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "sour-smell",
+      "body-odor",
+      "keynote"
+    ],
+    "explanation": "Magnesia Carbonica-এর প্রধান পরিচায়ক লক্ষণ হলো রোগীর শরীর, ঘাম, মল ও বমি থেকে তীব্র টক গন্ধ বের হওয়া।"
+  },
+  {
+    "id": "magphos-sym-03",
+    "stem": "চাপ দিলে উপশম, পেটে বা অঙ্গে তীব্র ব্যথা চেপে ধরলে বা দ্বিগুণ হয়ে কুঁকড়ে বসলে কমে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "bend-double"
+    ],
+    "explanation": "Magnesia Phosphorica এ পেটে বা অঙ্গে তীব্র ব্যথা চেপে ধরলে বা দ্বিগুণ হয়ে কুঁকড়ে বসলে কমে।"
+  },
+  {
+    "id": "magphos-sym-11",
+    "stem": "পেটের ব্যথায় সামনের দিকে ঝুঁকে পেটের সাথে হাত বা বালিশ চেপে ধরে দ্বিগুণ হয়ে পড়ে থাকা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "abdomen",
+      "colic",
+      "bend-double"
+    ],
+    "explanation": "Magnesia Phosphorica এ পেটের ব্যথায় রোগী যন্ত্রণায় সামনের দিকে ঝুঁকে পেটের সাথে হাত বা বালিশ চেপে ধরে দ্বিগুণ হয়ে পড়ে থাকে।"
+  },
+  {
+    "id": "medorrhinum-sym-11",
+    "stem": "মনে হয় কেউ পেছনে দাঁড়িয়ে আছে বা সে উন্মাদ হয়ে যাবে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "mental",
+      "fear-insanity"
+    ],
+    "explanation": "Medorrhinum-এ রোগীর মনে হয় কেউ তার পেছনে দাঁড়িয়ে আছে অথবা সে উন্মাদ হয়ে যাবে।"
+  },
+  {
+    "id": "natp-sym-15",
+    "stem": "কাল্পনিক ভয়, মনে হয় বিপদ ঘটবে, রাতে একা থাকতে ভয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Aconitum Napellus",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "mind",
+      "fear",
+      "imaginary",
+      "night",
+      "alone"
+    ],
+    "explanation": "Natrum Phos কাল্পনিক ভয়ে ভোগে।"
+  },
+  {
+    "id": "opi-sym-08",
+    "stem": "রোগী নিজের ঘরে অবস্থান করা সত্ত্বেও প্রলাপের ঘোরে বারবার 'ঘরে যাব' বলা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      }
+    ],
+    "answer": "opium",
+    "tags": [
+      "mental",
+      "delusion",
+      "delirium"
+    ],
+    "explanation": "Opium-এর রোগী প্রলাপে নিজের বিছানায় থেকেও বলে 'আমাকে বাড়ি নিয়ে চলো'।"
+  },
+  {
+    "id": "petr-sym-04",
+    "stem": "রোগীর একটি অদ্ভুত বিভ্রম (Delusion) হয় যে তার পাশে অন্য কেউ শুয়ে আছে বা তার অঙ্গগুলো দ্বিগুণ হয়ে গেছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "mental",
+      "delusion",
+      "double-body",
+      "someone-beside"
+    ],
+    "explanation": "Petroleum-এ একটি অদ্ভুত বিভ্রম কাজ করে যে রোগীর পাশে অন্য কেউ শুয়ে আছে অথবা তার শরীরের অঙ্গগুলো দ্বিগুণ হয়ে গেছে।[reference:23]"
+  },
+  {
+    "id": "phosphorus-sym-14",
+    "stem": "মনে হয় চারপাশে ছায়া দেখছে বা ঘরের কোণে কেউ দাঁড়িয়ে আছে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "mind",
+      "delusion",
+      "shadows"
+    ],
+    "explanation": "Phosphorus রোগীর মনে হয় চারপাশে ছায়া দেখছে বা ঘরের কোণে কেউ দাঁড়িয়ে আছে।"
+  },
+  {
+    "id": "plat-sym-02",
+    "stem": "রোগীর কাছে সবকিছু এবং সবাইকে স্বাভাবিকের চেয়ে ছোট মনে হয় (Illusion of size) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "mental",
+      "illusion",
+      "size"
+    ],
+    "explanation": "Platinum Metallicum-এ একটি বৈশিষ্ট্যপূর্ণ বিভ্রম (Illusion of size) থাকে, যেখানে রোগীর কাছে তার চারপাশের মানুষ ও বস্তুগুলো অত্যন্ত ছোট এবং নগণ্য মনে হয়।"
+  },
+  {
+    "id": "plumbum-sym-07",
+    "stem": "মনে হয় কেউ তাকে খুন করবে, মনে করে সে কোনো অপরাধ করেছে বা তাকে বিষ প্রয়োগ করা হবে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "mind",
+      "delusion",
+      "murder",
+      "poison"
+    ],
+    "explanation": "Plumbum Metallicum রোগীর মনে হয় কেউ তাকে খুন করবে, সে মনে করে কোনো অপরাধ করেছে বা তাকে বিষ প্রয়োগ করা হবে।"
+  },
+  {
+    "id": "pyrogenium-sym-07",
+    "stem": "জ্বরের ঘোরে বিড়বিড় করে প্রলাপ, মনে হয় সে অনেক দূরে আছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "mental",
+      "delirium"
+    ],
+    "explanation": "Pyrogenium-এ জ্বরের ঘোরে রোগী বিড়বিড় করে প্রলাপ বকে এবং মনে করে সে অনেক দূরে কোথাও আছে।"
+  },
+  {
+    "id": "ruta-sym-13",
+    "stem": "চোখের ভেতর বালু বা কাঁচের টুকরো আছে এমন অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Euphrasia",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "eye",
+      "foreign-body-sensation"
+    ],
+    "explanation": "Ruta-এ চোখের ভেতর মনে হয় বালু বা কাঁচের টুকরো আছে।"
+  },
+  {
+    "id": "sec-sym-01",
+    "stem": "শরীর বরফের মতো ঠান্ডা হলেও অভ্যন্তরীণ তীব্র জ্বাালাপোড়া এবং গায়ের কাপড় সম্পূর্ণ অনাবৃত রাখার ব্যাকুলতা (Uncovering is a must) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "general",
+      "burning",
+      "uncovering",
+      "cold-body"
+    ],
+    "explanation": "Secale Cornutum-এর প্রধান পরিচয় চিহ্ন হলো ঠাণ্ডা গা সত্ত্বেও তীব্র অভ্যন্তরীণ দাহ ও গায়ের কাপড় ফেলে দেওয়া।"
+  },
+  {
+    "id": "sel-sym-13",
+    "stem": "আহারের পর সারা দেহে বিশেষত পেটে দপদপানি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "pulsation",
+      "whole-body",
+      "abdomen",
+      "after-eating"
+    ],
+    "explanation": "Selenium-এ আহারের পর সারা দেহে দপদপানি হয়।"
+  },
+  {
+    "id": "sil-sym-02",
+    "stem": "শরীরে গেঁথে থাকা সুঁই, মাছের কাঁটা বা স্প্লিন্টার স্বতঃস্ফূর্তভাবে বের করে দেওয়ার ক্ষমতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "foreign-body",
+      "splinter",
+      "needle"
+    ],
+    "explanation": "Silicea-এর অদ্ভুত ক্ষমতা হলো শরীরে গেঁথে থাকা সুঁই, মাছের কাঁটা বা স্প্লিন্টার বের করে দেওয়া।"
+  },
+  {
+    "id": "syphilinum-sym-12",
+    "stem": "রোগীর ধারণা সে পাগল হয়ে যাবে, বদ্ধ উন্মাদের মতো আচরণ, মানসিক ভারসাম্যহীনতা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "mind",
+      "delusion",
+      "mania"
+    ],
+    "explanation": "Syphilinum এ রোগীর ধারণা সে পাগল হয়ে যাবে, বদ্ধ উন্মাদের মতো আচরণ হয়, মানসিক ভারসাম্যহীনতা থাকে।"
+  },
+  {
+    "id": "thuja-sym-09",
+    "stem": "মনে হয় শরীর কাচের তৈরি, ভেঙে যাবে, পেটে জীবিত প্রাণী আছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Cocculus Indicus",
+        "mid": "cocculus-indicus"
+      },
+      {
+        "text": "Sab  adilla",
+        "mid": "sabadilla"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "delusion",
+      "glass-body",
+      "fragile",
+      "animal-abdomen"
+    ],
+    "explanation": "Thuja-এ কাচের শরীর ও পেটে প্রাণী অনুভূতি থাকে।"
+  },
+  {
+    "id": "thuja-sym-10",
+    "stem": "মনে হয় অপরিচিত লোক পাশে শুয়ে আছে, শরীর আত্মা থেকে পৃথক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Baptisia Tinctoria",
+        "mid": "baptisia-tinctoria"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "delusion",
+      "stranger-beside",
+      "body-separated-soul"
+    ],
+    "explanation": "Thuja-এ অপরিচিত লোক পাশে ও শরীর আত্মা পৃথক অনুভূতি থাকে।"
+  },
+  {
+    "id": "verat-sym-05",
+    "stem": "রোগী মনে করে সে অনেক বড় অপরাধী এবং বিষণ্ণ থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "mental",
+      "depression",
+      "criminal-delusion"
+    ],
+    "explanation": "Veratrum Album-এ রোগী বিষণ্ণতা এবং মনে করে সে অনেক বড় অপরাধী।"
+  },
+  {
+    "id": "verat-sym-06",
+    "stem": "উন্মাদনা বা প্রলাপ বকা; রোগী অবিরত কথা বলে, কখনো প্রার্থনা করে আবার কখনো অন্যকে গালি দেয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "mental",
+      "delirium",
+      "praying",
+      "cursing"
+    ],
+    "explanation": "Veratrum Album-এ উন্মাদনা বা প্রলাপ বকা; রোগী অবিরত কথা বলে, কখনো প্রার্থনা করে আবার কখনো অন্যকে গালি দেয়।"
+  },
+  {
+    "id": "verat-sym-09",
+    "stem": "রোগীনি নিজেকে গর্ভবতী ভাবে এবং ভাবে শীঘ্রই সন্তান প্রসব করবে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "mental",
+      "delusion-of-pregnancy",
+      "female"
+    ],
+    "explanation": "Veratrum Album-এ রোগীনি নিজেকে গর্ভবতী ভাবে এবং ভাবে শীঘ্রই সন্তান প্রসব করবে।"
+  },
+  {
+    "id": "verat-sym-10",
+    "stem": "উম্মাদ অবস্থায় রোগী নিজের কাপড় খোলে এবং অশ্লীল ব্যবহার ও কামুক ভাব দেখায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "mental",
+      "delirium",
+      "exposes-clothes",
+      "obscene"
+    ],
+    "explanation": "Veratrum Album-এ উম্মাদ অবস্থায় রোগী নিজের কাপড় খোলে, অশ্লীল ব্যবহার ও কামুক ভাব দেখায় এবং আদি রসের কথা বলে।"
+  }
+]

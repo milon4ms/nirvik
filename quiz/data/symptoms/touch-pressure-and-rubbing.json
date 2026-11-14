@@ -1,0 +1,1817 @@
+[
+  {
+    "id": "apis-sym-13",
+    "stem": "লক্ষণ বৃদ্ধি পায় গরমে, গরম ঘরে, দুপুরের পর (বিকেল ৪টার দিকে), স্পর্শে এবং ঘুমের পর — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "heat",
+      "touch",
+      "sleep"
+    ],
+    "explanation": "Apis Mellifica-এর লক্ষণ গরমে, গরম ঘরে, দুপুরের পর (বিকেল ৪টার দিকে), স্পর্শে এবং ঘুমের পর বৃদ্ধি পায়।"
+  },
+  {
+    "id": "argn-sym-19",
+    "stem": "জোরে চাপ দিলে (Hard pressure) শারীরিক ব্যথার উপশম হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Kali Bich",
+        "mid": "kali-bich"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "amelioration",
+      "pressure"
+    ],
+    "explanation": "Argentum Nitricum-এ জোরে চাপ দিলে (Hard pressure) বিভিন্ন শারীরিক ব্যথার উপশম লক্ষ্য করা যায়।"
+  },
+  {
+    "id": "arnica-mont-sym-07",
+    "stem": "কেউ তার দিকে এগিয়ে এলে রোগী ভয় পায়, পাছে কেউ তাকে স্পর্শ করলে ব্যথা বেড়ে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "mental",
+      "fear-of-touch",
+      "hyperesthesia"
+    ],
+    "explanation": "Arnica Montana-এ স্পর্শাতঙ্ক (Fear of being touched) থাকে; কেউ তার দিকে এগিয়ে আসলে সে ভয় পায়, পাছে কেউ তাকে স্পর্শ করলে তার ব্যথা বেড়ে যায়।"
+  },
+  {
+    "id": "arnica-mont-sym-15",
+    "stem": "লক্ষণ বৃদ্ধি পায় স্পর্শ করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "touch"
+    ],
+    "explanation": "Arnica Montana-এর লক্ষণ স্পর্শ করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "bell-sym-03",
+    "stem": "আলো, শব্দ ও ঝাঁকুনিতে উপসর্গ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Stannum",
+        "mid": "stannum"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "modalities",
+      "sensitivity"
+    ],
+    "explanation": "Belladonna আলো ও শব্দে অত্যন্ত সংবেদনশীল।"
+  },
+  {
+    "id": "bell-sym-12",
+    "stem": "স্পর্শে অত্যন্ত সংবেদনশীল — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "sensitivity",
+      "touch"
+    ],
+    "explanation": "সামান্য স্পর্শেও Belladonna রোগী বিরক্ত হয়।"
+  },
+  {
+    "id": "borax-sym-19",
+    "stem": "জোরে চাপ দিলে ও সন্ধ্যার দিকে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "modalities",
+      "pressure",
+      "evening"
+    ],
+    "explanation": "Borax-এর লক্ষণ জোরে চাপ দিলে, সন্ধ্যার দিকে এবং ঠান্ডা আবহাওয়ায় উপশম হয়।"
+  },
+  {
+    "id": "bry-sym-05",
+    "stem": "রোগী ব্যথার পাশে বা আক্রান্ত পাশে চেপে শুলে আরাম পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "bryonia",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "painful-side"
+    ],
+    "explanation": "Bryonia-এর রোগী ব্যথার পাশে বা আক্রান্ত পাশে চেপে শুলে বা শক্ত চাপ দিলে আরাম পায়।"
+  },
+  {
+    "id": "calen-sym-06",
+    "stem": "শব্দে অত্যন্ত সংবেদনশীল, সামান্য শব্দে চমকে ওঠে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calendula Officinalis",
+        "mid": "calendula-officinalis"
+      },
+      {
+        "text": "Theridion",
+        "mid": "theridion"
+      },
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "calendula-officinalis",
+    "tags": [
+      "mind",
+      "noise",
+      "sensitive",
+      "startled"
+    ],
+    "explanation": "Calendula রোগী শব্দে অত্যন্ত সংবেদনশীল।"
+  },
+  {
+    "id": "camph-sym-05",
+    "stem": "অত্যন্ত ঠান্ডা ও স্পর্শে সংবেদনশীল — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Camphora Officinarum",
+        "mid": "camphora-officinarum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Apis",
+        "mid": "apis"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "camphora-officinarum",
+    "tags": [
+      "cold",
+      "sensitivity"
+    ]
+  },
+  {
+    "id": "cantharis-sym-14",
+    "stem": "লক্ষণ বৃদ্ধি পায় প্রস্রাব করার সময় বা পরে, কফি পান করলে, ঠান্ডা জল পান করলে এবং স্পর্শ করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "urination",
+      "coffee",
+      "cold-water",
+      "touch"
+    ],
+    "explanation": "Cantharis-এর লক্ষণ প্রস্রাব করার সময় বা পরে, কফি পান করলে, ঠান্ডা জল পান করলে এবং স্পর্শ করলে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "cantharis-sym-15",
+    "stem": "লক্ষণ উপশম হয় ঘষলে বা মালিশ করলে এবং স্থির হয়ে শুয়ে থাকলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Mag Phos",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "rubbing",
+      "lying-still"
+    ],
+    "explanation": "Cantharis-এর লক্ষণ ঘষলে বা মালিশ করলে এবং স্থির হয়ে শুয়ে থাকলে উপশম হয়।"
+  },
+  {
+    "id": "caps-sym-19",
+    "stem": "খোলা বাতাসে, ঠান্ডায়, স্পর্শে ও খাওয়ার পর বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "aggravation",
+      "cold",
+      "open-air",
+      "touch"
+    ],
+    "explanation": "Capsicum Annuum এ খোলা বাতাসে, ঠান্ডায়, স্পর্শ করলে এবং খাওয়ার পর বৃদ্ধি হয়।"
+  },
+  {
+    "id": "china-sym-06",
+    "stem": "সামান্য স্পর্শে ব্যথা লাগা, জোরে চেপে ধরলে আরাম পাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "sensitivity",
+      "touch",
+      "pressure"
+    ],
+    "explanation": "China এ শরীরের চামড়া সামান্য স্পর্শ করলে ব্যথা লাগে, কিন্তু জোরে চেপে ধরলে রোগী আরাম পায়।"
+  },
+  {
+    "id": "china-sym-19",
+    "stem": "সামান্য স্পর্শে, ঠান্ডা বাতাসে, রাতে, খাওয়ার পর ও ফল খেলে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "aggravation",
+      "touch",
+      "cold",
+      "fruit"
+    ],
+    "explanation": "China এ সামান্য স্পর্শে, ঠান্ডা বাতাসে, রাতে, খাওয়ার পর এবং ফল খেলে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "china-sym-20",
+    "stem": "জোরে চেপে ধরলে, কুঁকড়ে শুলে ও উষ্ণতায় উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "warmth"
+    ],
+    "explanation": "China এ জোরে চেপে ধরলে, কুঁকড়ে শুলে এবং উষ্ণতায় উপশম হয়।"
+  },
+  {
+    "id": "cina-sym-07",
+    "stem": "স্পর্শ সহ্য করতে পারে না, রেগে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cina",
+        "mid": "cina"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "cina",
+    "tags": [
+      "touch",
+      "irritability"
+    ],
+    "explanation": "স্পর্শে বিরক্তি Cina-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "cinn-sym-10",
+    "stem": "খোলা বাতাসে এবং চাপ প্রয়োগে (নাকের ব্যথায়) উপশম পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cinnabaris",
+        "mid": "cinnabaris"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      }
+    ],
+    "answer": "cinnabaris",
+    "tags": [
+      "amelioration",
+      "open-air",
+      "pressure"
+    ],
+    "explanation": "Cinnabaris-এ খোলা বাতাসে অবস্থান করলে এবং ব্যথার স্থানে চাপ দিলে উপশম বোধ হয়।"
+  },
+  {
+    "id": "colch-sym-14",
+    "stem": "সমস্ত শরীরে স্পর্শে অতি সংবেদনশীলতা; আক্রান্ত স্থানে ব্যথা শীতে সুই ফোটানো এবং গরমে ছিঁড়ে ফেলার মতো অনুভূত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "hyperesthesia",
+      "touch",
+      "pain-type"
+    ],
+    "explanation": "Colchicum-এ সমস্ত শরীরে স্পর্শ অনুভূতি তীব্র, আক্রান্ত স্থানে ব্যথা শীতে সুই ফোটানো এবং গরমে ছিঁড়ে ফেলার মতো হয়।"
+  },
+  {
+    "id": "colch-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "food-smell",
+      "touch",
+      "motion",
+      "night",
+      "autumn"
+    ],
+    "explanation": "Colchicum-এর লক্ষণ খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "colocynthis-sym-05",
+    "stem": "ব্যথার প্রথম অবস্থায় চাপ দিলে উপশম, অনেকদিন হলে চাপ দিলে অসহ্য লাগা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "pain",
+      "pressure"
+    ],
+    "explanation": "Colocynthis এ ব্যথার প্রথম অবস্থায় চাপ দিলে উপশম হয়, অনেকদিন হলে চাপ দিলে অসহ্য লাগে।"
+  },
+  {
+    "id": "colocynthis-sym-08",
+    "stem": "জোরে চাপে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "amelioration",
+      "pressure"
+    ],
+    "explanation": "Colocynthis এ যন্ত্রণার স্থানে জোরে চাপ দিলে রোগী আরাম বোধ করে।"
+  },
+  {
+    "id": "colocynthis-sym-20",
+    "stem": "সামনে ঝুঁকে দ্বিভাঁজ হয়ে শুলে, জোরে চাপে, গরমে ও কফি পান করলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "amelioration",
+      "bend-double",
+      "pressure",
+      "warmth"
+    ],
+    "explanation": "Colocynthis এ সামনের দিকে ঝুঁকে দ্বিভাঁজ হয়ে শুলে, জোরে চাপে, গরমে এবং কফি পান করলে উপশম হয়।"
+  },
+  {
+    "id": "conium-sym-17",
+    "stem": "অন্ধকার ঘরে, নড়াচড়ায় (কাশি বাদে), চাপ দিলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "amelioration",
+      "dark",
+      "motion",
+      "pressure"
+    ],
+    "explanation": "Conium অন্ধকার ঘরে ও চাপে উপশম পায়।"
+  },
+  {
+    "id": "croton-sym-19",
+    "stem": "ঘুমের পর ও মৃদু চাপে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "modalities",
+      "sleep",
+      "pressure"
+    ],
+    "explanation": "Croton Tiglium-এর লক্ষণ ঘুমের পর, মৃদু চাপে এবং ঠান্ডা জলের প্রয়োগে (চর্মরোগে) উপশম হয়।"
+  },
+  {
+    "id": "euphrasia-sym-14",
+    "stem": "অনবরত চোখ ঘষতে ইচ্ছে করা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "eye",
+      "rubbing"
+    ],
+    "explanation": "Euphrasia Officinalis এ অনবরত চোখ ঘষতে ইচ্ছে করে।"
+  },
+  {
+    "id": "ferrum-phos-sym-11",
+    "stem": "মানসিকভাবে অত্যন্ত সংবেদনশীল ও খিটখিটে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "mental",
+      "sensitive",
+      "irritable"
+    ],
+    "explanation": "Ferrum Phos-এ রোগী মানসিকভাবে অত্যন্ত সংবেদনশীল এবং খিটখিটে মেজাজের হয়।"
+  },
+  {
+    "id": "hama-sym-03",
+    "stem": "আক্রান্ত স্থানে বা শিরায় লাঠি দিয়ে পেটানোর মতো টাটানি ও থ্যাতলানো ব্যথা (Soreness) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      },
+      {
+        "text": "Bellis Perennis",
+        "mid": "bellis-perennis"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "pain",
+      "soreness",
+      "touch"
+    ],
+    "explanation": "Hamamelis-এ আক্রান্ত অংশ বা শিরার ওপর প্রচণ্ড থ্যাতলানো ব্যথা ও স্পর্শকাতরতা থাকে।"
+  },
+  {
+    "id": "hama-sym-16",
+    "stem": "স্পর্শ করলে, নড়াচড়া করলে, গরম আবহাওয়া ও আর্দ্র ঠান্ডায় রোগ বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "hamamelis",
+    "tags": [
+      "aggravation",
+      "touch",
+      "motion"
+    ],
+    "explanation": "Hamamelis-এ স্পর্শ, নড়াচড়া, উষ্ণতা ও ভিজা ঠান্ডায় সার্বিক রোগের মাত্রা বাড়ে।"
+  },
+  {
+    "id": "hepar-sym-01",
+    "stem": "অতিরিক্ত শীতকাতর, সামান্য ঠান্ডা বাতাস সহ্য করতে পারে না, হাত পা কম্বলের বাইরে বের করলেও কষ্ট বাড়ে, জানলা দরজা বন্ধ করে দেয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "chilly",
+      "cold",
+      "sensitivity"
+    ],
+    "explanation": "Hepar Sulph হোমিওপ্যাথির অন্যতম শীর্ষস্থানীয় শীতকাতর ঔষধ, রোগী সামান্য ঠান্ডা বাতাস সহ্য করতে পারে না, হাত পা কম্বলের বাইরে বের করলেও কষ্ট বাড়ে।"
+  },
+  {
+    "id": "hepar-sym-04",
+    "stem": "অতিরিক্ত স্পর্শকাতর, অল্পেই রাগে, রেগে সন্তানকে মেরে ফেলতে পারে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "mind",
+      "touch",
+      "anger"
+    ],
+    "explanation": "Hepar Sulph রোগী অতিরিক্ত স্পর্শকাতর, অল্পেই রাগে, রেগে সন্তানকে মেরে ফেলতে পারে।"
+  },
+  {
+    "id": "hepar-sym-07",
+    "stem": "ক্ষত পুঁজযুক্ত হলে, দুর্গন্ধ থাকলে, স্পর্শকাতরতা থাকলে হিপার, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "wound",
+      "pus",
+      "foul",
+      "sensitive"
+    ],
+    "explanation": "Hepar Sulph এ ক্ষত পুঁজযুক্ত হলে, দুর্গন্ধ থাকলে, স্পর্শকাতরতা থাকলে হিপার দিতে হয়।"
+  },
+  {
+    "id": "hepar-sym-13",
+    "stem": "আক্রান্ত স্থানে কাঁটা ফোটার মতো ব্যথা, কাপড় স্পর্শ করলেও যন্ত্রণায় চিৎকার, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "pain",
+      "splinter",
+      "touch"
+    ],
+    "explanation": "Hepar Sulph এ আক্রান্ত স্থানে কাঁটা ফোটার মতো ব্যথা হয়, আক্রান্ত স্থান এত স্পর্শকাতর যে কাপড় স্পর্শ করলেও যন্ত্রণায় চিৎকার করে ওঠে।"
+  },
+  {
+    "id": "hepar-sym-20",
+    "stem": "ঠান্ডা বাতাসে, স্পর্শে, রাতে, নড়াচড়ায় ও কাপড় না থাকলে বৃদ্ধি, গরমে, ঢেকে রাখলে ও আর্দ্র আবহাওয়ায় উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "cold",
+      "touch"
+    ],
+    "explanation": "Hepar Sulph এ ঠান্ডা বাতাসে, স্পর্শে, রাতে, নড়াচড়ায় এবং শরীরে কাপড় না থাকলে বৃদ্ধি হয়, গরমে, শরীর ঢেকে রাখলে এবং আর্দ্র আবহাওয়ায় উপশম হয়।"
+  },
+  {
+    "id": "hyper-sym-14",
+    "stem": "মেরুদণ্ড স্পর্শে কুঁকড়ে যায়, পিঠের নিচে টান ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Tellurium",
+        "mid": "tellurium"
+      },
+      {
+        "text": "Chin Sulph",
+        "mid": "chin-sulph"
+      },
+      {
+        "text": "Theridion",
+        "mid": "theridion"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "spine",
+      "sensitive",
+      "touch",
+      "back-pain"
+    ],
+    "explanation": "Hypericum-এ মেরুদণ্ড স্পর্শে তীব্র ব্যথা হয়।"
+  },
+  {
+    "id": "hyper-sym-17",
+    "stem": "কুয়াশা, স্যাঁতসেঁতে, স্পর্শে, ঠান্ডায়, নড়াচড়ায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "aggravation",
+      "fog",
+      "damp",
+      "touch",
+      "cold",
+      "motion"
+    ],
+    "explanation": "Hypericum-এ কুয়াশা, স্যাঁতসেঁতে, স্পর্শ, ঠান্ডা ও নড়াচড়ায় বৃদ্ধি।"
+  },
+  {
+    "id": "ign-sym-17",
+    "stem": "সামান্য শব্দেও বিরক্ত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Tarentula",
+        "mid": "tarentula"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "sensitivity",
+      "noise"
+    ],
+    "explanation": "Noise intolerance is common in Ignatia।"
+  },
+  {
+    "id": "lac-can-sym-14",
+    "stem": "স্পর্শে ও গরমে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lac Caninum",
+        "mid": "lac-caninum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "lac-caninum",
+    "tags": [
+      "modalities",
+      "touch",
+      "heat"
+    ],
+    "explanation": "Lac Caninum-এর লক্ষণ স্পর্শে ও গরমে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "lach-sym-02",
+    "stem": "গলা স্পর্শে অত্যন্ত সংবেদনশীল, গলায় ফোলা নীলচে, খালি গিললে ব্যথা বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Phytolacca Decandra",
+        "mid": "phytolacca-decandra"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "throat",
+      "touch-sensitive",
+      "empty-swallow-agg"
+    ],
+    "explanation": "Lachesis-এ গলা স্পর্শে অসহ্য ও খালি গিললে বাড়ে।"
+  },
+  {
+    "id": "lach-sym-08",
+    "stem": "অত্যধিক সংবেদনশীলতা, স্পর্শ অসহ্য — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "hyperaesthesia",
+      "touch",
+      "sensitive"
+    ],
+    "explanation": "Lachesis-এ স্পর্শ অসহ্য।"
+  },
+  {
+    "id": "lach-sym-11",
+    "stem": "হৃদস্পন্দন অনিয়মিত, বাম পাশে চাপ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Cactus Grandiflorus",
+        "mid": "cactus-grandiflorus"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "heart",
+      "irregular",
+      "left-side",
+      "pressure"
+    ],
+    "explanation": "Lachesis-এ হৃদস্পন্দন অনিয়মিত ও বাম পাশে চাপ।"
+  },
+  {
+    "id": "lach-sym-12",
+    "stem": "মাথাব্যথা বাম পাশে, চাপ অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "headache",
+      "left-side",
+      "pressure"
+    ],
+    "explanation": "Lachesis-এ বাম পাশে মাথাব্যথা থাকে।"
+  },
+  {
+    "id": "lach-sym-13",
+    "stem": "গরমে, স্পর্শে, ঘুমের পর, সকালে, বাম পাশে শুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lachesis Mutus",
+        "mid": "lachesis-mutus"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      }
+    ],
+    "answer": "lachesis-mutus",
+    "tags": [
+      "aggravation",
+      "heat",
+      "touch",
+      "sleep",
+      "morning",
+      "left-lying"
+    ],
+    "explanation": "Lachesis-এ গরমে, স্পর্শে, ঘুমের পর বৃদ্ধি।"
+  },
+  {
+    "id": "mag-carb-sym-10",
+    "stem": "পেটে প্রচণ্ড মোচড়ানি ব্যথা, যা সামনের দিকে ঝুঁকে বসলে বা চাপ দিলে কমে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Dioscorea",
+        "mid": "dioscorea"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "abdominal-colic",
+      "bending-forward",
+      "pressure"
+    ],
+    "explanation": "Magnesia Carbonica-এ পেটে প্রচণ্ড মোচড়ানি ব্যথা হয়, যা সামনের দিকে ঝুঁকে বসলে বা চাপ দিলে কিছুটা কমে।"
+  },
+  {
+    "id": "magphos-sym-03",
+    "stem": "চাপ দিলে উপশম, পেটে বা অঙ্গে তীব্র ব্যথা চেপে ধরলে বা দ্বিগুণ হয়ে কুঁকড়ে বসলে কমে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "bend-double"
+    ],
+    "explanation": "Magnesia Phosphorica এ পেটে বা অঙ্গে তীব্র ব্যথা চেপে ধরলে বা দ্বিগুণ হয়ে কুঁকড়ে বসলে কমে।"
+  },
+  {
+    "id": "mez-sym-10",
+    "stem": "স্পর্শে উপসর্গ বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "touch",
+      "modalities"
+    ],
+    "explanation": "Touch aggravation is common in Mezereum."
+  },
+  {
+    "id": "natc-sym-02",
+    "stem": "গান বা বাদ্যযন্ত্রের শব্দ শুনলে রোগী অত্যন্ত বিমর্ষ হয়ে কান্না শুরু করে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "mental",
+      "sensitivity"
+    ],
+    "explanation": "Natrum Carb রোগীর সংবেদনশীলতা এত বেশি থাকে যে গান বা সংগীত শুনলে সে বিমর্ষ হয়ে কান্না শুরু করে।"
+  },
+  {
+    "id": "natc-sym-17",
+    "stem": "রোগীর কাতরতা মূলত শীতকাতর প্রকৃতির, তবে সূর্যের তাপে কাতরতা প্রবল — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "thermal",
+      "sun-sensitivity"
+    ],
+    "explanation": "Natrum Carb মূলত শীতকাতর ওষুধ হলেও বিশেষ করে সূর্যের তাপে তার অসহিষ্ণুতা বা কাতরতা সবচেয়ে বেশি প্রকট হয়।"
+  },
+  {
+    "id": "natp-sym-06",
+    "stem": "ঘুমের মাঝে চমকে ওঠা, সামান্য শব্দে চমকায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Kali Carbonicum",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "sleep",
+      "startled",
+      "noise",
+      "sensitive"
+    ],
+    "explanation": "Natrum Phos রাতে সামান্য শব্দে চমকে ওঠে।"
+  },
+  {
+    "id": "nux-sym-05",
+    "stem": "সামান্য শব্দ, গন্ধ, আলোতেও বিরক্তি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "sensitivity",
+      "nerves"
+    ],
+    "explanation": "Hypersensitivity points toward Nux Vomica."
+  },
+  {
+    "id": "plat-sym-05",
+    "stem": "নারীদের জননেন্দ্রিয়ের অস্বাভাবিক উত্তেজনা এবং সামান্য স্পর্শও সহ্য করতে না পারা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "female",
+      "uterine",
+      "hyperesthesia",
+      "touch"
+    ],
+    "explanation": "Platinum Metallicum-এ নারীদের জননেন্দ্রিয়ের অস্বাভাবিক উত্তেজনা ও অতিসংবেদনশীলতা থাকে; সামান্য স্পর্শও অসহনীয় হয়।"
+  },
+  {
+    "id": "plumbum-sym-20",
+    "stem": "জোরে চাপ দিলে, ঘষলে বা মালিশ করলে ও শক্ত কিছু দিয়ে বেঁধে রাখলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "plumbum-metallicum",
+    "tags": [
+      "amelioration",
+      "pressure",
+      "massage",
+      "binding"
+    ],
+    "explanation": "Plumbum Metallicum এ জোরে চাপ দিলে, ঘষলে বা মালিশ করলে এবং শক্ত কিছু দিয়ে বেঁধে রাখলে উপশম হয়।"
+  },
+  {
+    "id": "podo-sym-07",
+    "stem": "লিভারে ব্যথা মালিশে ও পেটের উপর ভর দিয়ে শুলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "liver",
+      "pain",
+      "amel-rubbing",
+      "prone"
+    ],
+    "explanation": "Podophyllum-এ লিভার ব্যথা মালিশে ও উপুড় শুলে কমে।"
+  },
+  {
+    "id": "podo-sym-17",
+    "stem": "সন্ধ্যায়, পেটের উপর ভর দিয়ে উপুড় শুলে, মালিশে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "amelioration",
+      "evening",
+      "prone",
+      "rubbing"
+    ],
+    "explanation": "Podophyllum সন্ধ্যায়, উপুড় শুলে ও মালিশে ভালো থাকে।"
+  },
+  {
+    "id": "sanguinaria-sym-06",
+    "stem": "আলো শব্দ অসহ্য, আলোর দিকে তাকালে বৃদ্ধি হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "light",
+      "sound",
+      "sensitive"
+    ],
+    "explanation": "Sanguinaria Canadensis এ আলো ও শব্দ অসহ্য লাগে, আলোর দিকে তাকালে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "spigelia-sym-16",
+    "stem": "সমস্ত শরীর অত্যন্ত স্পর্শকাতর, বিশেষ করে মাথার চামড়ায় হাত দিলেই যন্ত্রণা হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "sensitive",
+      "touch",
+      "scalp"
+    ],
+    "explanation": "Spigelia Anthelmia এ সমস্ত শরীর অত্যন্ত স্পর্শকাতর থাকে, বিশেষ করে মাথার চামড়ায় হাত দিলেই যন্ত্রণা হয়।"
+  },
+  {
+    "id": "stannum-sym-06",
+    "stem": "ব্যথা ধীরে ধীরে বৃদ্ধি পায়, ধীরে ধীরে কমে আসে এবং চেপে ধরলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "pain",
+      "gradual",
+      "pressure"
+    ],
+    "explanation": "Stannum Met-এ যেকোনো যন্ত্রণা খুব ধীরে ধীরে বাড়তে থাকে এবং চূড়ান্তে পৌঁছানোর পর আবার খুব ধীরে ধীরে কমতে থাকে; চেপে ধরলে উপশম হয়।"
+  },
+  {
+    "id": "stannum-sym-14",
+    "stem": "বুক চেপে ধরলে কাশির আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Spongia Tosta",
+        "mid": "spongia-tosta"
+      },
+      {
+        "text": "Antim Tart",
+        "mid": "antimonium-tartaricum"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera-rotundifolia"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "cough",
+      "pressure"
+    ],
+    "explanation": "Stannum Met-এ বুক চেপে ধরলে কাশির আরাম হয়।"
+  },
+  {
+    "id": "stannum-sym-19",
+    "stem": "আক্রান্ত স্থানে চাপ দিলে ও ধীরে ধীরে হাঁটলে উপশম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Stannum Met",
+        "mid": "stannum-metallicum"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "stannum-metallicum",
+    "tags": [
+      "modalities",
+      "pressure",
+      "walking"
+    ],
+    "explanation": "Stannum Met-এর লক্ষণ আক্রান্ত স্থানে চাপ দিলে, কাশি দিলে এবং ধীরে ধীরে হাঁটলে উপশম হয়।"
+  },
+  {
+    "id": "staph-sym-13",
+    "stem": "মান সম্মানের প্রতি সচেতন, কটু কথায় গভীর আঘাত, প্রতিবাদ না করে চেপে রাখে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Ignatia Amara",
+        "mid": "ignatia-amara"
+      },
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "honor-sensitive",
+      "hurt",
+      "suppressed"
+    ],
+    "explanation": "Staphisagria মান সম্মানে সচেতন ও আঘাত চেপে রাখে।"
+  },
+  {
+    "id": "staph-sym-20",
+    "stem": "স্পর্শকাতর, মানসিক সংবেদনশীল ও আক্রান্ত স্থান স্পর্শ সহ্য হয় না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Hepar Sulphur",
+        "mid": "hepar-sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "China Officinalis",
+        "mid": "china-officinalis"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "sensitive",
+      "touch",
+      "mental",
+      "hyperaesthesia"
+    ],
+    "explanation": "Staphisagria রোগী অত্যন্ত স্পর্শকাতর।"
+  },
+  {
+    "id": "zincum-sym-12",
+    "stem": "প্রচণ্ড সংবেদনশীলতা, সামান্য শব্দ বা অন্যের কথা বলা একদম সহ্য করতে পারে না, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Coffea Cruda",
+        "mid": "coffea-cruda"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "sensitive",
+      "noise",
+      "talking"
+    ],
+    "explanation": "Zincum Metallicum এ প্রচণ্ড সংবেদনশীলতা থাকে, সামান্য শব্দ বা অন্যের কথা বলা রোগী একদম সহ্য করতে পারে না।"
+  }
+]

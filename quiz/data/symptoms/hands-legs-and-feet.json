@@ -1,0 +1,1335 @@
+[
+  {
+    "id": "aurum-sym-18",
+    "stem": "হাতের তালুতে চুলকানি, মুখে উদ্ভেদ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "skin",
+      "palm",
+      "face",
+      "eruption"
+    ],
+    "explanation": "Aurum-এ হাতের তালুতে চুলকানি ও মুখে উদ্ভেদ থাকে।"
+  },
+  {
+    "id": "baryta-sym-12",
+    "stem": "পায়ের ঘাম অত্যন্ত দুর্গন্ধযুক্ত, অবদমনে রোগ বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "skin",
+      "foot-sweat",
+      "fetid",
+      "suppression"
+    ],
+    "explanation": "Baryta-তে দুর্গন্ধযুক্ত পায়ের ঘাম ও তার অবদমনে রোগ বাড়ে।"
+  },
+  {
+    "id": "borax-sym-17",
+    "stem": "হাতের তালুতে ও আঙ্গুলে জ্বালাযুক্ত একজিমা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "eczema",
+      "palms",
+      "fingers"
+    ],
+    "explanation": "Borax-এ হাতের তালুতে এবং আঙ্গুলে জ্বালাযুক্ত একজিমা দেখা দেয়।"
+  },
+  {
+    "id": "calc-sym-12",
+    "stem": "অত্যন্ত শীতকাতর (Very Chilly) হওয়া এবং পা সবসময় ঠান্ডা ও সেঁতসেঁতে থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "thermal",
+      "chilly",
+      "cold-feet"
+    ],
+    "explanation": "Calcarea Carb অত্যন্ত শীতকাতর রোগী এবং এর পা সর্বদাই ঠান্ডা ও সেঁতসেঁতে থাকে।"
+  },
+  {
+    "id": "caul-sym-10",
+    "stem": "আঙুল বন্ধ করলে কাটার মতো ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Plumbum",
+        "mid": "plumbum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "caulophyllum",
+    "tags": [
+      "hands",
+      "joint-pain"
+    ],
+    "explanation": "Closing hands causes cutting pain in Caulophyllum।"
+  },
+  {
+    "id": "chel-sym-15",
+    "stem": "এক পা ঠান্ডা এবং অপর পা গরম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "extremities",
+      "one-foot-cold-one-hot"
+    ],
+    "explanation": "Chelidonium Majus-এ এক পা ঠান্ডা এবং অপর পা গরম অনুভূত হয়।"
+  },
+  {
+    "id": "cimicifuga-sym-08",
+    "stem": "আঙুলের কাজ করা ব্যক্তিদের পিঠে ব্যথা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cimicifuga Racemosa",
+        "mid": "cimicifuga-racemosa"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "cimicifuga-racemosa",
+    "tags": [
+      "back-pain",
+      "finger-work"
+    ],
+    "explanation": "Cimicifuga Racemosa-এ যারা আঙুলের কাজ করে তাদের পিঠে ব্যথা হয়।"
+  },
+  {
+    "id": "colch-sym-02",
+    "stem": "পায়ের বুড়ো আঙুলের গিঁট ফুলে লাল হয়ে যাওয়া এবং প্রচণ্ড ব্যথা, যা সামান্য স্পর্শ বা নাড়াচাড়ায় অসহনীয় হয়ে ওঠে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "gout",
+      "joints",
+      "big-toe"
+    ],
+    "explanation": "Colchicum গেঁটে বাতের জন্য একটি প্রধান ঔষধ, বিশেষত পায়ের বুড়ো আঙুলের গিঁট ফুলে লাল হয়ে যাওয়া এবং প্রচণ্ড ব্যথায় সামান্য স্পর্শও অসহনীয় হয়।"
+  },
+  {
+    "id": "colch-sym-15",
+    "stem": "হাতের নখের নিচে ঝিমঝিম অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "extremities",
+      "nails",
+      "tingling"
+    ],
+    "explanation": "Colchicum-এ হাতের নখের নিচে ঝিমঝিম অনুভূতি হয়।"
+  },
+  {
+    "id": "conium-sym-03",
+    "stem": "ঊর্ধ্বগামী পক্ষাঘাত, পা থেকে শুরু হয়ে উপরে যায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Plumbum Metallicum",
+        "mid": "plumbum-metallicum"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "paralysis",
+      "ascending",
+      "legs"
+    ],
+    "explanation": "Conium-এ পক্ষাঘাত নিচ থেকে উপরে যায়।"
+  },
+  {
+    "id": "cupr-sym-06",
+    "stem": "মুষ্টি শক্ত করে বন্ধ হয়ে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Agaricus",
+        "mid": "agaricus"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "convulsion",
+      "hands"
+    ],
+    "explanation": "Clenched thumbs during convulsions Cuprum Metallicum-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "cupr-sym-10",
+    "stem": "পায়ের পেশীতে তীব্র টান ও খিঁচুনি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Plumbum",
+        "mid": "plumbum"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "cramps",
+      "legs"
+    ],
+    "explanation": "Calf cramps Cuprum Metallicum-এর একটি শক্তিশালী লক্ষণ।"
+  },
+  {
+    "id": "dulc-sym-05",
+    "stem": "হাতের তালুতে বা আঙুলে চ্যাপ্টা ও বড় আঁচিল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Causticum",
+        "mid": "causticum"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "skin",
+      "warts",
+      "hands"
+    ],
+    "explanation": "Dulcamara-এ হাতের তালুতে বা আঙুলে চ্যাপ্টা ও বড় আঁচিল (Warts) হয়।"
+  },
+  {
+    "id": "graph-sym-06",
+    "stem": "নখ মোটা, ভঙ্গুর ও বিকৃত — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "nails",
+      "skin"
+    ],
+    "explanation": "Deformed brittle nails strongly suggest Graphites।"
+  },
+  {
+    "id": "hyper-sym-01",
+    "stem": "স্নায়ুতে আঘাতের শ্রেষ্ঠ ঔষধ, আঙুলের ডগা, মেরুদণ্ডে আঘাত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Ruta Graveolens",
+        "mid": "ruta-graveolens"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "injury",
+      "nerves",
+      "fingertip",
+      "spine",
+      "arnica-nerves"
+    ],
+    "explanation": "Hypericum স্নায়ুতে আঘাতে শ্রেষ্ঠ, Arnica of nerves।"
+  },
+  {
+    "id": "hyper-sym-13",
+    "stem": "দরজায় আঙুল চাপা বা নখ উপড়ে গেলে জাদুর মতো কাজ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Calendula",
+        "mid": "calendula-officinalis"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "fingers",
+      "squeezed",
+      "nail",
+      "injury"
+    ],
+    "explanation": "Hypericum আঙুল চাপা ও নখ উপড়ানোতে জাদুর মতো কাজ করে।"
+  },
+  {
+    "id": "ign-sym-05",
+    "stem": "মাথাব্যথা যেন মাথায় পেরেক ঠুকে দেওয়া হয়েছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "headache",
+      "nail-sensation"
+    ],
+    "explanation": "Nail-like headache Ignatia-এর ক্লাসিক লক্ষণ।"
+  },
+  {
+    "id": "led-sym-03",
+    "stem": "গেঁটেবাত পা থেকে শুরু — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "gout",
+      "feet"
+    ]
+  },
+  {
+    "id": "led-sym-09",
+    "stem": "পায়ের তলায় ব্যথা, হাঁটতে কষ্ট — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "feet",
+      "pain"
+    ]
+  },
+  {
+    "id": "led-sym-14",
+    "stem": "পায়ের আঙুলে গাউটি গিঁট — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "gout",
+      "toes"
+    ]
+  },
+  {
+    "id": "led-sym-18",
+    "stem": "ঠান্ডা বিছানায় পা ঢুকিয়ে আরাম — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "ledum-palustre",
+    "tags": [
+      "cold",
+      "feet"
+    ]
+  },
+  {
+    "id": "lyc-sym-07",
+    "stem": "শরীরের এক পা গরম এবং অপর পা বরফের মতো ঠান্ডা অনুভূতি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Digitalis",
+        "mid": "digitalis"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "extremities",
+      "temperature",
+      "cold-feet"
+    ],
+    "explanation": "এক পায়ে উত্তাপ এবং অপর পায়ে হিমশীতল অনুভূতি Lycopodium-এর রক্ত সঞ্চালনের বিষমতার এক বিরল চিহ্ন।"
+  },
+  {
+    "id": "medorrhinum-sym-01",
+    "stem": "উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে ঘুমানো — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "sleep",
+      "knee-chest"
+    ],
+    "explanation": "Medorrhinum-এর প্রধান লক্ষণ হলো রোগী বা শিশু উপুড় হয়ে পেটে ভর দিয়ে বুক ও হাঁটু কুঁকড়ে (Knee-chest position) ঘুমায়।"
+  },
+  {
+    "id": "medorrhinum-sym-02",
+    "stem": "পায়ের তলায় প্রচণ্ড জ্বালা, রাতে বিছানার বাইরে পা বের করে রাখে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "burning",
+      "feet",
+      "night"
+    ],
+    "explanation": "Medorrhinum-এ পায়ের তলায় প্রচণ্ড জ্বালাভাব হয় এবং রাতে রোগী বিছানার বাইরে পা বের করে রাখে।"
+  },
+  {
+    "id": "medorrhinum-sym-09",
+    "stem": "পায়ের গোড়ালিতে সূঁচ ফোটার মতো ব্যথা ও জ্বালা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "medorrhinum",
+    "tags": [
+      "heel-pain",
+      "burning"
+    ],
+    "explanation": "Medorrhinum-এ পায়ের তলায় ও গোড়ালিতে তীব্র সূঁচ ফোটার মতো ব্যথা ও জ্বালা থাকে।"
+  },
+  {
+    "id": "natc-sym-13",
+    "stem": "হাতের তালু এবং পায়ের পাতা খসখসে ও ফাটা প্রকৃতির হওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Sulfur",
+        "mid": "sulfur"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "skin",
+      "hands-feet"
+    ],
+    "explanation": "Natrum Carb-এর চর্মগত লক্ষণে হাতের তালু ও পায়ের পাতা খসখসে এবং ফাটা হতে দেখা যায়।"
+  },
+  {
+    "id": "petr-sym-06",
+    "stem": "পায়ে অত্যন্ত দুর্গন্ধযুক্ত ঘাম হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "feet",
+      "sweat",
+      "offensive"
+    ],
+    "explanation": "Petroleum-এ পায়ে দুর্গন্ধযুক্ত ঘাম দেখা দেয়।[reference:25]"
+  },
+  {
+    "id": "petr-sym-17",
+    "stem": "হাতের তালু, পায়ের তলা এবং আঙুলের ডগা ফেটে গভীর ক্ষতের সৃষ্টি হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "skin",
+      "cracks",
+      "palms",
+      "soles",
+      "fingertips"
+    ],
+    "explanation": "Petroleum-এ হাতের তালু, পায়ের তলা এবং আঙুলের ডগা ফেটে গভীর ক্ষতের সৃষ্টি হয় এবং তা থেকে রক্ত বা রস পড়ে।[reference:36]"
+  },
+  {
+    "id": "podo-sym-06",
+    "stem": "ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Lilium Tigrinum",
+        "mid": "lilium-tigrinum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "ovary",
+      "right",
+      "pain",
+      "thigh"
+    ],
+    "explanation": "Podophyllum-এ ডান ওভারিতে ব্যথা উরু পর্যন্ত ছড়ায়।"
+  },
+  {
+    "id": "ruta-sym-04",
+    "stem": "কোমর, কবজি ও হাঁটুর ব্যথা বসলে বাড়ে, নড়াচড়ায় কমে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carbonicum"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "joint-pain",
+      "back-pain",
+      "wrist",
+      "knee"
+    ],
+    "explanation": "Ruta-এ কোমর, কবজি ও হাঁটুর ব্যথা বসলে বাড়ে এবং নড়াচড়ায় কিছুটা কমে।"
+  },
+  {
+    "id": "ruta-sym-08",
+    "stem": "লিগামেন্ট বা টেন্ডন মচকে যাওয়া, বিশেষত কবজি ও গোড়ালিতে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Ledum Pal",
+        "mid": "ledum-palustre"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "sprain",
+      "wrist",
+      "ankle",
+      "ligament"
+    ],
+    "explanation": "Ruta লিগামেন্ট বা টেন্ডন মচকে যাওয়া বা ছিঁড়ে যাওয়ার ব্যথায় কার্যকর, বিশেষত কবজি ও গোড়ালির মচকানো ব্যথায়।"
+  },
+  {
+    "id": "ruta-sym-18",
+    "stem": "হাঁটুর নিচের শিন বোনে আঘাত লাগলে কার্যকর — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ruta",
+        "mid": "ruta-graveolens"
+      },
+      {
+        "text": "Arnica",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Symphytum",
+        "mid": "symphytum-officinale"
+      },
+      {
+        "text": "Hypericum",
+        "mid": "hypericum-perforatum"
+      }
+    ],
+    "answer": "ruta-graveolens",
+    "tags": [
+      "bone",
+      "injury",
+      "shin"
+    ],
+    "explanation": "Ruta হাঁটুর নিচের দিকের হাড়ের (Shin bone) ওপর আঘাত লাগলে মহৌষধ।"
+  },
+  {
+    "id": "sab-sym-10",
+    "stem": "ছোট হাড়ের গিঁটে বাত, আঙুল ফুলে লাল চকচকে, গোড়ালিতে ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Actaea Spicata",
+        "mid": "actaea-spicata"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "gout",
+      "small-joints",
+      "fingers",
+      "shiny-red",
+      "heel"
+    ],
+    "explanation": "Sabina ছোট গিঁটের বাতে কার্যকর।"
+  },
+  {
+    "id": "sanguinaria-sym-05",
+    "stem": "হাত পা সহ শরীরের বিভিন্ন স্থানে জ্বালা, হাতের তালু ও পায়ের তলায় প্রচণ্ড জ্বালা, ঠান্ডা জায়গায় রাখতে চায় বা লেপের বাইরে বের করে রাখে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "burning",
+      "palms",
+      "soles"
+    ],
+    "explanation": "Sanguinaria Canadensis এ হাত পা সহ শরীরের বিভিন্ন স্থানে জ্বালা হয়, হাতের তালু ও পায়ের তলায় প্রচণ্ড জ্বালা হয়, রোগী তা ঠান্ডা জায়গায় রাখতে চায় বা লেপের বাইরে বের করে রাখে।"
+  },
+  {
+    "id": "sani-sym-03",
+    "stem": "ঘুমের সময় মাথায় প্রচুর ঘাম হওয়া যা বালিশ ভিজিয়ে দেয় এবং পায়ে তীব্র দুর্গন্ধযুক্ত ঘাম — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "sweat",
+      "head-feet"
+    ],
+    "explanation": "Sanicula-এ রাতে ঘুমানোর সময় মাথায় ঘাম ও পায়ের পাতায় তীব্র দুর্গন্ধযুক্ত ঘামের প্রাবল্য দেখা যায়।"
+  },
+  {
+    "id": "sars-sym-07",
+    "stem": "শুকনো, খসখসে ত্বক এবং হাত-পায়ের চামড়া ফেটে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "skin",
+      "dry",
+      "cracks",
+      "hands",
+      "feet"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ ত্বক শুষ্ক, খসখসে এবং হাত-পায়ের চামড়া ফাটা ফাটা হয়।"
+  },
+  {
+    "id": "sars-sym-14",
+    "stem": "পায়ের নিচের অংশে শিরা ফুলে যাওয়া (Varicose veins) এবং ত্বকে নীলচে দাগ পড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Hamamelis",
+        "mid": "hamamelis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "veins",
+      "varicose",
+      "blue-spots",
+      "legs"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ শিরার দুর্বলতা ও প্রসারণ ঘটে, যার ফলে পায়ে ভ্যারিকোজ ভেইন এবং ত্বকে নীলচে দাগ (Blue spots) দেখা দেয়।"
+  },
+  {
+    "id": "sec-sym-19",
+    "stem": "হাত-পায়ের আঙুল অবশ হয়ে যাওয়া এবং রোগীর পা লেপের বাইরে অনাবৃত রাখার ইচ্ছা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Secale Cornutum",
+        "mid": "secale-cornutum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Chamomile",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      }
+    ],
+    "answer": "secale-cornutum",
+    "tags": [
+      "extremities",
+      "feet-uncovered",
+      "numbness"
+    ],
+    "explanation": "Secale Cornutum-এ পায়ের তালুর সংবেদনহীনতা ও ঝালায পা লেপের বাহিরে রাখার তীব্র অভ্যাস থাকে।"
+  },
+  {
+    "id": "sel-sym-10",
+    "stem": "কোষ্ঠকাঠিন্য, মল বড় শক্ত, আঙুলের সাহায্য লাগে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "constipation",
+      "large-hard-stool",
+      "finger-aid"
+    ],
+    "explanation": "Selenium-এ কোষ্ঠকাঠিন্য, মল বড় শক্ত হয়।"
+  },
+  {
+    "id": "sel-sym-12",
+    "stem": "হাতের তালা চুলকানি, ছাল ওঠা উদ্ভেদ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Anagallis Arvensis",
+        "mid": "anagallis-arvensis"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "palm",
+      "itch",
+      "peeling",
+      "eruption"
+    ],
+    "explanation": "Selenium-এ হাতের তালায় চুলকানি ও ছাল ওঠা উদ্ভেদ থাকে।"
+  },
+  {
+    "id": "sil-sym-06",
+    "stem": "পায়ের পাতায় অত্যন্ত দুর্গন্ধযুক্ত ঘাম হয়, যা দানা বেঁধে বন্ধ হলে মারাত্মক অসুস্থতা তৈরি করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "feet",
+      "offensive-sweat",
+      "suppressed-sweat"
+    ],
+    "explanation": "Silicea-এ পায়ের পাতায় অত্যন্ত দুর্গন্ধযুক্ত ঘাম হয় এবং সেই ঘাম দানা বেঁধে বন্ধ হলে মারাত্মক অসুস্থতা তৈরি হয়।"
+  },
+  {
+    "id": "sil-sym-09",
+    "stem": "সামান্য আঁচড় লাগলেই সেখানে পুঁজ হয়; আঙুলহাড়া (Whitlow) বা নখের কোণ পাকার সমস্যা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Hepar Sulphuris",
+        "mid": "hepar-sulphuris"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "skin",
+      "pus",
+      "whitlow",
+      "nail"
+    ],
+    "explanation": "Silicea-এ সামান্য আঁচড় লাগলেই সেখানে পুঁজ হয়; আঙুলহাড়া (Whitlow) বা নখের কোণ পাকার সমস্যায় এটি অত্যন্ত কার্যকর।"
+  },
+  {
+    "id": "sil-sym-19",
+    "stem": "পায়ের ঘা লোপ পেয়ে ছানি পড়া এবং দৃষ্টিশক্তি কমে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Fluorica",
+        "mid": "calcarea-fluorica"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "foot-ulcer",
+      "cataract",
+      "vision"
+    ],
+    "explanation": "Silicea-এ পায়ের ঘা লোপ পেয়ে ছানি পড়া এবং দৃষ্টিশক্তি কমে যাওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "sul-sym-07",
+    "stem": "পায়ের তালু অতিরিক্ত গরম হওয়ার কারণে রাতে বিছানায় শুয়ে তালু কম্বলের বা লেপের বাইরে বের করে রাখা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Medorrhinum",
+        "mid": "medorrhinum"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "extremities",
+      "burning-soles",
+      "out-of-bed"
+    ],
+    "explanation": "Sulphur-এ পায়ের তালুর জ্বালায় পা বিছানার বাইরে রাখতে বাধ্য হয়।"
+  },
+  {
+    "id": "thuja-sym-15",
+    "stem": "নখ বিকৃত ভঙ্গুর, ত্বকে বাদামী কালচে ছোপ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "nails",
+      "brittle",
+      "deformed",
+      "brown-patches"
+    ],
+    "explanation": "Thuja-এ নখ ভঙ্গুর ও ত্বকে বাদামী ছোপ থাকে।"
+  },
+  {
+    "id": "zincum-sym-05",
+    "stem": "সর্বদাই পা নাড়ে, ঘুমাতে ঘুমাতেও পা নাড়ে, স্থিরভাবে বসে বা শুয়ে থাকতে পারে না, অনবরত পা নাড়াতে থাকে, মস্তিষ্কের প্রদাহে তন্দ্রাচ্ছন্ন থাকে কিন্তু অনবরত পা নাড়ায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Tarentula Hispanica",
+        "mid": "tarentula-hispanica"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "restless",
+      "legs",
+      "feet"
+    ],
+    "explanation": "Zincum Metallicum এর সবচেয়ে গুরুত্বপূর্ণ লক্ষণ সর্বদাই পা নাড়া, রোগী ঘুমাতে ঘুমাতেও পা নাড়ে, স্থিরভাবে বসে বা শুয়ে থাকতে পারে না।"
+  }
+]

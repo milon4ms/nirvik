@@ -1,0 +1,1249 @@
+[
+  {
+    "id": "argn-sym-04",
+    "stem": "পেটে প্রচুর বায়ু জমে এবং তা সশব্দে ও তীব্র বেগে ঢেকুর আকারে বেরিয়ে আসা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "abdomen",
+      "belching",
+      "gas"
+    ],
+    "explanation": "Argentum Nitricum-এ পেটে প্রচুর বায়ু জমে এবং তা সশব্দে ও তীব্র বেগে ঢেকুর আকারে বেরিয়ে আসে।"
+  },
+  {
+    "id": "argn-sym-14",
+    "stem": "পেট ফুলে ঢোল হয়ে থাকা এবং ঢেকুর তুললে সাময়িক আরাম পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-veg"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "stomach",
+      "bloating",
+      "belching"
+    ],
+    "explanation": "Argentum Nitricum-এর পাকস্থলীতে পেট ফুলে ঢোল হয়ে থাকে এবং ঢেকুর তুললে রোগী সাময়িক আরাম পায়।"
+  },
+  {
+    "id": "arnica-mont-sym-11",
+    "stem": "নিঃশ্বাসে ও ঢেকুরে পচা ডিমের মতো গন্ধ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "digestive",
+      "belching",
+      "rotten-egg-smell"
+    ],
+    "explanation": "Arnica Montana-এ নিঃশ্বাসে ও ঢেকুরে পচা ডিমের মতো গন্ধ (Belching like rotten eggs) একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "calc-sym-18",
+    "stem": "মলে এবং গায়ের ঘামে তীব্র টক গন্ধ থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Rheum",
+        "mid": "rheum"
+      },
+      {
+        "text": "Magnesia Carb",
+        "mid": "magnesia-carb"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "odor",
+      "sour-sweat",
+      "sour-stool"
+    ],
+    "explanation": "Calcarea Carb-এ রোগীর মাথার ঘাম, গায়ের ঘাম এবং মলে সুনির্দিষ্ট টক গন্ধ (Sour smell) থাকে।"
+  },
+  {
+    "id": "calcphos-sym-05",
+    "stem": "দুধ সহ্য না হওয়া, দুধ পানের পর বমি হওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aethusa Cynapium",
+        "mid": "aethusa-cynapium"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "children",
+      "milk",
+      "vomiting"
+    ],
+    "explanation": "Calcarea Phosphorica এ শিশুর দুধ সহ্য হয় না, দুধ পানের পর বমি হয়।"
+  },
+  {
+    "id": "cantharis-sym-09",
+    "stem": "পেটের ভেতর আগুনের মতো জ্বালা এবং বমির সাথে রক্ত বা শ্লেষ্মা নির্গত হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Ipecacuanha",
+        "mid": "ipecacuanha"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "stomach",
+      "vomiting",
+      "blood",
+      "burning"
+    ],
+    "explanation": "Cantharis-এ পেটের ভেতর আগুনের মতো জ্বালা হয় এবং বমি বমি ভাবের সাথে অনেক সময় বমির সাথে রক্ত বা শ্লেষ্মা নির্গত হয়।"
+  },
+  {
+    "id": "carbo-sym-04",
+    "stem": "ঢেকুর উঠলে সাময়িক আরাম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Carbo Animalis",
+        "mid": "carbo-animalis"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "eructation",
+      "amelioration",
+      "gas"
+    ],
+    "explanation": "Carbo Veg-এ ঢেকুরে আরাম হয়।"
+  },
+  {
+    "id": "china-sym-08",
+    "stem": "টক ফল হজম হয় না, টক ঢেকুর ওঠে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "digestion",
+      "sour",
+      "eructation"
+    ],
+    "explanation": "China এ টক ফল হজম হয় না এবং টক ঢেকুর ওঠে।"
+  },
+  {
+    "id": "colch-sym-01",
+    "stem": "রান্না করা খাবার, বিশেষ করে মাছ বা মাংসের গন্ধে প্রচণ্ড বমি ভাব এবং অজ্ঞান হয়ে যাওয়ার মতো অবস্থা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "nausea",
+      "smell",
+      "digestive"
+    ],
+    "explanation": "Colchicum-এর সবচেয়ে শক্তিশালী লক্ষণ হলো রান্না করা খাবারের গন্ধে, বিশেষ করে মাছ বা মাংসের গন্ধে প্রচণ্ড বমি ভাব হয় এবং রোগী অজ্ঞান হয়ে যেতে পারে।"
+  },
+  {
+    "id": "cupr-sym-04",
+    "stem": "খিঁচুনির আগে বমি বা বমিভাব — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Crocus",
+        "mid": "crocus"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "convulsion",
+      "vomiting"
+    ],
+    "explanation": "Vomiting preceding fits Cuprum Metallicum-এর নির্দেশক লক্ষণ।"
+  },
+  {
+    "id": "cupr-sym-13",
+    "stem": "কাশির পর বমি হয় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cuprum Metallicum",
+        "mid": "cuprum-metallicum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Antimonium Tart",
+        "mid": "antimonium-tartaricum"
+      }
+    ],
+    "answer": "cuprum-metallicum",
+    "tags": [
+      "cough",
+      "vomiting"
+    ],
+    "explanation": "Whooping cough ending in vomiting Cuprum Metallicum-এর বৈশিষ্ট্য।"
+  },
+  {
+    "id": "ferrum-phos-sym-06",
+    "stem": "অজীর্ণ ও খাদ্যের সাথে বমি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Antim Crud",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "indigestion",
+      "vomiting"
+    ],
+    "explanation": "Ferrum Phos-এ অজীর্ণ ও খাদ্যের সাথে বমি হয়।"
+  },
+  {
+    "id": "hepar-sym-11",
+    "stem": "আগুনের স্বপ্ন দেখা, টক ঝাল খাবার ইচ্ছা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "hepar-sulph",
+    "tags": [
+      "dreams",
+      "desire",
+      "sour",
+      "spicy"
+    ],
+    "explanation": "Hepar Sulph রোগী আগুনের স্বপ্ন দেখে এবং টক ঝাল খাবার ইচ্ছা করে।"
+  },
+  {
+    "id": "ign-sym-18",
+    "stem": "হিস্টেরিক বমি ও হেঁচকি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Ipecacuanha",
+        "mid": "ipecacuanha"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "hiccough",
+      "vomiting"
+    ],
+    "explanation": "Hysterical vomiting and hiccough are characteristic of Ignatia।"
+  },
+  {
+    "id": "ipecac-sym-01",
+    "stem": "অনবরত বমি ভাব, যা বমি হওয়ার পরেও কমে না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "nausea",
+      "vomiting",
+      "digestive"
+    ],
+    "explanation": "Ipecac-এর প্রধানতম লক্ষণ হলো অনবরত বমি ভাব (Persistent Nausea), যা বমি হওয়ার পরেও কমে না।"
+  },
+  {
+    "id": "ipecac-sym-02",
+    "stem": "প্রচণ্ড বমি ভাব বা পেটের অসুখ থাকা সত্ত্বেও জিহ্বা একদম পরিষ্কার থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "tongue",
+      "clean-tongue",
+      "nausea"
+    ],
+    "explanation": "Ipecac-এ প্রচণ্ড বমি ভাব বা পেটের অসুখ থাকা সত্ত্বেও রোগীর জিহ্বা সাধারণত পরিষ্কার থাকে (Clean Tongue)।"
+  },
+  {
+    "id": "ipecac-sym-12",
+    "stem": "সবিরাম জ্বর বা ম্যালেরিয়া যেখানে প্রতিটি অবস্থায় বমি ভাব প্রধান লক্ষণ হিসেবে থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "fever",
+      "intermittent-fever",
+      "malaria",
+      "nausea"
+    ],
+    "explanation": "Ipecac-এ সবিরাম জ্বর বা ম্যালেরিয়া হয় যেখানে প্রতিটি অবস্থায় বমি ভাব প্রধান লক্ষণ হিসেবে থাকে।"
+  },
+  {
+    "id": "ipecac-sym-20",
+    "stem": "কাশির সাথে বমি হওয়া একটি সাধারণ লক্ষণ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Drosera",
+        "mid": "drosera"
+      },
+      {
+        "text": "Coccus Cacti",
+        "mid": "coccus-cacti"
+      },
+      {
+        "text": "Corallium Rubrum",
+        "mid": "corallium-rubrum"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "cough",
+      "vomiting",
+      "whooping-cough"
+    ],
+    "explanation": "Ipecac-এ কাশির সাথে বমি হওয়া একটি সাধারণ লক্ষণ।"
+  },
+  {
+    "id": "mag-carb-sym-01",
+    "stem": "শরীর, ঘাম, মল ও বমি থেকে তীব্র টক গন্ধ বের হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Rheum",
+        "mid": "rheum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "sour-smell",
+      "body-odor",
+      "keynote"
+    ],
+    "explanation": "Magnesia Carbonica-এর প্রধান পরিচায়ক লক্ষণ হলো রোগীর শরীর, ঘাম, মল ও বমি থেকে তীব্র টক গন্ধ বের হওয়া।"
+  },
+  {
+    "id": "mag-carb-sym-02",
+    "stem": "শিশুরা দুধ পান করলেই বমি করে বা অজীর্ণ মল ত্যাগ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Aethusa Cynapium",
+        "mid": "aethusa-cynapium"
+      },
+      {
+        "text": "Lac Defloratum",
+        "mid": "lac-defloratum"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "milk-intolerance",
+      "children",
+      "vomiting"
+    ],
+    "explanation": "Magnesia Carbonica-এ শিশুরা দুধ সহ্য করতে পারে না; দুধ পান করলেই বমি করে বা অজীর্ণ মল ত্যাগ করে।"
+  },
+  {
+    "id": "mag-carb-sym-11",
+    "stem": "দুধ পানের পর টক বমি হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "vomiting",
+      "sour",
+      "milk"
+    ],
+    "explanation": "Magnesia Carbonica-এ দুধ পানের পর টক বমি হওয়া একটি বিশেষ লক্ষণ।"
+  },
+  {
+    "id": "mag-carb-sym-13",
+    "stem": "ডায়রিয়ায় মল টক গন্ধযুক্ত এবং ফেনা ফেনা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Rheum",
+        "mid": "rheum"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "diarrhea",
+      "sour",
+      "frothy"
+    ],
+    "explanation": "Magnesia Carbonica-এ ডায়রিয়ার ক্ষেত্রে মল টক গন্ধযুক্ত ও ফেনা ফেনা হয়।"
+  },
+  {
+    "id": "magphos-sym-18",
+    "stem": "পেটে প্রচণ্ড বায়ু জমে ফাঁপ ধরা, বায়ু নিষ্কাশনে কোনো আরাম হয় না, মোচড়ানি ব্যথার সাথে জল বমি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      }
+    ],
+    "answer": "magnesia-phosphorica",
+    "tags": [
+      "abdomen",
+      "flatulence",
+      "vomiting"
+    ],
+    "explanation": "Magnesia Phosphorica এ পেটে প্রচণ্ড বায়ু জমে ফাঁপ ধরে এবং বায়ু নিষ্কাশনে কোনো আরাম হয় না, মোচড়ানি ব্যথার সাথে জল বমি হতে পারে।"
+  },
+  {
+    "id": "natc-sym-09",
+    "stem": "পাকস্থলীর দুর্বলতার কারণে একটুতেই অম্ল বা টক ঢেকুর ওঠা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Robinia",
+        "mid": "robinia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-vegetabilis"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "stomach",
+      "acidity"
+    ],
+    "explanation": "Natrum Carb পাকস্থলীর দুর্বলতার কারণে রোগীদের প্রায়ই টক বা অম্ল ঢেকুর ওঠার সমস্যা দেখা যায়।"
+  },
+  {
+    "id": "natp-sym-01",
+    "stem": "অম্লনাশক মহা ঔষধ, টক ঢেকুর, টক বমি, অম্লের কারণে অজীর্ণ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Robinia Pseudacacia",
+        "mid": "robinia-pseudacacia"
+      },
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "acidity",
+      "antacid",
+      "sour-eructation",
+      "vomiting"
+    ],
+    "explanation": "Natrum Phos অম্লনাশক মহা ঔষধ।"
+  },
+  {
+    "id": "natp-sym-03",
+    "stem": "সকল স্রাব হলুদ, ঘন, টক গন্ধযুক্ত মল — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Kali Sulphuricum",
+        "mid": "kali-sulphuricum"
+      },
+      {
+        "text": "Hydrastis Canadensis",
+        "mid": "hydrastis-canadensis"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "discharges",
+      "yellow",
+      "thick",
+      "sour"
+    ],
+    "explanation": "Natrum Phos-এ সব স্রাব হলুদ ও ঘন।"
+  },
+  {
+    "id": "natp-sym-04",
+    "stem": "অম্লের কারণে বাত, গেঁটে বাত, সন্ধিবাত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Benzoic Acid",
+        "mid": "benzoic-acid"
+      },
+      {
+        "text": "Lithium Carbonicum",
+        "mid": "lithium-carbonicum"
+      },
+      {
+        "text": "Colchicum Autumnale",
+        "mid": "colchicum-autumnale"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "rheumatism",
+      "gout",
+      "acidity"
+    ],
+    "explanation": "Natrum Phos-এ অম্লের কারণে বাত হয়।"
+  },
+  {
+    "id": "natp-sym-07",
+    "stem": "অম্লের কারণে বীর্য তরল ও স্বপ্নদোষ, পিঠ ও পায়ে দুর্বলতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium",
+        "mid": "selenium"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "semen",
+      "thin",
+      "nocturnal-emission",
+      "acidity"
+    ],
+    "explanation": "Natrum Phos-এ অম্লের কারণে বীর্য তরল হয়।"
+  },
+  {
+    "id": "natp-sym-12",
+    "stem": "খাওয়ার পর বুক জ্বালা ও পেটে গ্যাস — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium Clavatum",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "stomach",
+      "heartburn",
+      "gas",
+      "after-eating"
+    ],
+    "explanation": "Natrum Phos-এ খাওয়ার পর বুক জ্বালা ও গ্যাস হয়।"
+  },
+  {
+    "id": "natp-sym-13",
+    "stem": "শিশুদের টক গন্ধযুক্ত ডায়রিয়া, মল সবুজ বা হলুদ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Rheum Palmatum",
+        "mid": "rheum-palmatum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "child",
+      "diarrhea",
+      "sour-odor",
+      "green-yellow"
+    ],
+    "explanation": "Natrum Phos-এ টক গন্ধযুক্ত ডায়রিয়া হয়।"
+  },
+  {
+    "id": "nux-sym-09",
+    "stem": "বমি বমি ভাব, কিন্তু বমি করলে আরাম হয় না — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Ipecacuanha",
+        "mid": "ipecacuanha"
+      },
+      {
+        "text": "Robinia",
+        "mid": "robinia"
+      },
+      {
+        "text": "Anacardium",
+        "mid": "anacardium"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "nausea",
+      "stomach"
+    ],
+    "explanation": "Persistent nausea is a Nux Vomica symptom."
+  },
+  {
+    "id": "petr-sym-02",
+    "stem": "গাড়ি, নৌকা বা ট্রেনে চড়লে মাথা ঘোরা এবং বমি বমি ভাব হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Cocculus Indicus",
+        "mid": "cocculus-indicus"
+      },
+      {
+        "text": "Tabacum",
+        "mid": "tabacum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "motion-sickness",
+      "vertigo",
+      "nausea"
+    ],
+    "explanation": "Petroleum গাড়ি, নৌকা বা ট্রেনে চড়লে মাথা ঘোরা ও বমি বমি ভাব (Motion Sickness)-এর জন্য একটি প্রধান ঔষধ।[reference:21]"
+  },
+  {
+    "id": "phosphorus-sym-09",
+    "stem": "ঠান্ডা পানীয়ের তৃষ্ণা, প্রচুর ঠান্ডা জল বা বরফ খাওয়ার প্রবল ইচ্ছা, জল পাকস্থলীতে গিয়ে গরম হওয়ার সাথে সাথেই বমি হয়ে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "thirst",
+      "cold-drinks",
+      "vomiting"
+    ],
+    "explanation": "Phosphorus এ প্রচুর ঠান্ডা জল বা বরফ খাওয়ার প্রবল ইচ্ছা থাকে, জল পাকস্থলীতে গিয়ে গরম হওয়ার সাথে সাথেই বমি হয়ে যায়।"
+  },
+  {
+    "id": "podo-sym-15",
+    "stem": "পিত্তবমির প্রবণতা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      },
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "vomiting",
+      "bilious",
+      "tendency"
+    ],
+    "explanation": "Podophyllum-এ পিত্তবমির প্রবণতা থাকে।"
+  },
+  {
+    "id": "pyrogenium-sym-09",
+    "stem": "পচা কফির মতো বমি ও মুখে পচা জলের স্বাদ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Veratrum Alb",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "vomiting",
+      "putrid"
+    ],
+    "explanation": "Pyrogenium-এ পচা কফির মতো বমি হয় এবং মুখে পচা জলের মতো স্বাদ অনুভূত হয়।"
+  },
+  {
+    "id": "pyrogenium-sym-19",
+    "stem": "পানি পান করলে বমি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Arsenicum Alb",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Veratrum Alb",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecacuanha"
+      }
+    ],
+    "answer": "pyrogenium",
+    "tags": [
+      "vomiting",
+      "water"
+    ],
+    "explanation": "Pyrogenium-এ পানি পান করলে বমি হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-10",
+    "stem": "ঢেকুরে কাশি উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "cough",
+      "belching",
+      "amelioration"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ঢেকুরে কাশি উপশম হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-11",
+    "stem": "পিত্তবমিতে উপশম, বমি করলে মাথাব্যথার উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "headache",
+      "vomiting",
+      "amelioration"
+    ],
+    "explanation": "Sanguinaria Canadensis এ পিত্তবমিতে উপশম হয়, বমি করলে মাথাব্যথার উপশম হয়।"
+  },
+  {
+    "id": "sani-sym-13",
+    "stem": "জল বা দুধ পান করার কিছুক্ষণ পরেই তা টক বমি হয়ে বের হয়ে যাওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Aethusa",
+        "mid": "aethusa-cynapium"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Bismut",
+        "mid": "bismuthum"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "stomach",
+      "vomiting"
+    ],
+    "explanation": "Sanicula-এ পাকস্থলী দুর্বল থাকায় দুধ বা পানি পানের কিছু সময় পরই টক হিসেবে বমি হয়।"
+  },
+  {
+    "id": "sars-sym-15",
+    "stem": "পেটে গ্যাস জমে এবং টক স্বাদের খাবার বমি হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "digestive",
+      "flatulence",
+      "sour-vomiting"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ পেটে গ্যাস জমে (Flatulence) এবং টক স্বাদের খাবার বমি হয়।"
+  },
+  {
+    "id": "var-sym-16",
+    "stem": "প্রবল জ্বর, তীব্র মাথা ব্যথা এবং সাথে বমি বমি ভাব বা বমি হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Variolinum",
+        "mid": "variolinum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "variolinum",
+    "tags": [
+      "fever",
+      "headache",
+      "vomiting"
+    ],
+    "explanation": "Variolinum-এ তীব্র জ্বরের সাথে প্রবল মাথা ব্যথা ও বমির প্রবণতা থাকে।"
+  },
+  {
+    "id": "verat-sym-02",
+    "stem": "প্রচুর পরিমাণে চাল ধোয়া পানির মতো মলত্যাগ এবং সাথে প্রচণ্ড বমি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "cholera",
+      "diarrhea",
+      "vomiting",
+      "rice-water-stool"
+    ],
+    "explanation": "Veratrum Album-এ প্রচুর পরিমাণে চাল ধোয়া পানির মতো মলত্যাগ এবং সাথে প্রচণ্ড বমি হয়। কলেরার এটি একটি প্রধান ঔষধ।"
+  },
+  {
+    "id": "verat-sym-15",
+    "stem": "ঋতুস্রাবের সময় প্রচণ্ড পেট ব্যথা এবং সাথে বমি ও শীতল ঘাম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "dysmenorrhea",
+      "vomiting",
+      "cold-sweat"
+    ],
+    "explanation": "Veratrum Album-এ ঋতুস্রাবের সময় প্রচণ্ড পেট ব্যথা এবং সাথে বমি ও শীতল ঘাম হয়।"
+  }
+]

@@ -1,0 +1,1219 @@
+[
+  {
+    "id": "aurum-sym-10",
+    "stem": "সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত রাতে, শীতকালে, মানসিক পরিশ্রমে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "aggravation",
+      "night",
+      "winter",
+      "mental-work"
+    ],
+    "explanation": "Aurum-এ রাতে কষ্ট বাড়ে।"
+  },
+  {
+    "id": "baryta-sym-03",
+    "stem": "অকাল বার্ধক্য, অল্প বয়সে বৃদ্ধের মতো, বৃদ্ধ বয়সে শিশুর মতো আচরণ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Ambra Grisea",
+        "mid": "ambra-grisea"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "aging",
+      "premature",
+      "second-childhood"
+    ],
+    "explanation": "Baryta-তে অকাল বার্ধক্য ও second childhood দেখা যায়।"
+  },
+  {
+    "id": "calc-sym-04",
+    "stem": "শিশুদের মাথার ব্রহ্মতালু জোড়া লাগতে দেরি হওয়া এবং দেরিতে হাঁটতে শেখে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Calcarea Phos",
+        "mid": "calcarea-phos"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "children",
+      "fontanelles",
+      "late-walking"
+    ],
+    "explanation": "Calcarea Carb-এ শিশুদের মাথার তালুর অস্থি জোড়া লাগতে বিলম্ব হয় এবং তারা দেরিতে হাঁটে বা দাঁত তোলে।"
+  },
+  {
+    "id": "calc-sym-13",
+    "stem": "পূর্ণিমা ও অমাবস্যার সময় শারীরিক ও মানসিক কষ্টের বৃদ্ধি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "aggravation",
+      "full-moon",
+      "new-moon"
+    ],
+    "explanation": "Calcarea Carb-এ অমাবস্যা ও পূর্ণিমার চন্দ্রকলায় রোগের উপসর্গ ও মানসিক কষ্টের লক্ষণ বেড়ে যায়।"
+  },
+  {
+    "id": "calcphos-sym-20",
+    "stem": "গ্রীষ্মকাল, উষ্ণ শুষ্ক আবহাওয়া ও বিশ্রামে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "amelioration",
+      "summer",
+      "warmth",
+      "rest"
+    ],
+    "explanation": "Calcarea Phosphorica এ গ্রীষ্মকালে, উষ্ণ ও শুষ্ক আবহাওয়ায় এবং বিশ্রাম নিলে উপশম হয়।"
+  },
+  {
+    "id": "china-sym-04",
+    "stem": "নির্দিষ্ট সময় অন্তর জ্বর আসা, শীত, তাপ ও ঘর্ম তিনটি স্পষ্ট অবস্থা থাকা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "fever",
+      "periodicity"
+    ],
+    "explanation": "China এ নির্দিষ্ট সময় অন্তর জ্বর আসে, জ্বরের শীত, তাপ ও ঘর্ম তিনটি স্পষ্ট অবস্থা থাকে।"
+  },
+  {
+    "id": "clem-sym-09",
+    "stem": "ঠান্ডা জলে স্নান করলে এবং অমাবস্যার সময় রোগলক্ষণ বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Clematis Erecta",
+        "mid": "clematis-erecta"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Antim Crud",
+        "mid": "antim-crud"
+      }
+    ],
+    "answer": "clematis-erecta",
+    "tags": [
+      "aggravation",
+      "cold-bath",
+      "new-moon"
+    ],
+    "explanation": "Clematis Erecta-এর রোগলক্ষণ বিশেষ করে ঠান্ডা পানিতে স্নানে ও অমাবস্যায় বৃদ্ধি প্রাপ্ত হয়।"
+  },
+  {
+    "id": "colch-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "food-smell",
+      "touch",
+      "motion",
+      "night",
+      "autumn"
+    ],
+    "explanation": "Colchicum-এর লক্ষণ খাবারের গন্ধে, স্পর্শ করলে, নড়াচড়া করলে, রাত ১২টার পর এবং শরৎকালে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "dulc-sym-03",
+    "stem": "বর্ষাকালে শরীরে বড় বড় আমবাত (Urticaria) বা চড়চড়ানি উদ্ভেদ দেখা দেওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Urtica Urens",
+        "mid": "urtica-urens"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "urticaria",
+      "skin",
+      "rainy-season"
+    ],
+    "explanation": "Dulcamara-এ বর্ষাকালে শরীরে বড় বড় আমবাত (Urticaria) বা চড়চড়ানি উদ্ভেদ দেখা দেওয়া একটি বৈশিষ্ট্যপূর্ণ লক্ষণ।"
+  },
+  {
+    "id": "dulc-sym-13",
+    "stem": "ঋতুস্রাব খুব দেরিতে হয় এবং পরিমাণে কম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "female",
+      "menses",
+      "late",
+      "scanty"
+    ],
+    "explanation": "Dulcamara-এ ঋতুস্রাব খুব দেরিতে হয় এবং পরিমাণে কম।"
+  },
+  {
+    "id": "euphrasia-sym-19",
+    "stem": "সকালে, সূর্যের আলোতে, গরম ঘরে ও দক্ষিণে প্রবাহিত বাতাসে বৃদ্ধি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Euphrasia Officinalis",
+        "mid": "euphrasia-officinalis"
+      }
+    ],
+    "answer": "euphrasia-officinalis",
+    "tags": [
+      "aggravation",
+      "morning",
+      "sun",
+      "warm"
+    ],
+    "explanation": "Euphrasia Officinalis এ সকালে, সূর্যের আলোতে, গরম ঘরে এবং দক্ষিণে প্রবাহিত বাতাসে বৃদ্ধি হয়।"
+  },
+  {
+    "id": "ferrum-phos-sym-19",
+    "stem": "রাত ৪টা থেকে ৬টার মধ্যে বৃদ্ধি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phosphoricum"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carbonicum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "ferrum-phosphoricum",
+    "tags": [
+      "modalities",
+      "night",
+      "4-to-6-am"
+    ],
+    "explanation": "Ferrum Phos-এর লক্ষণ রাতে বিশেষত রাত ৪টা থেকে ৬টার মধ্যে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "glon-sym-02",
+    "stem": "সূর্যের আলোতে রোগ বৃদ্ধি, টুপি বা ঘোমটা অসহ্য — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "aggravation",
+      "sun",
+      "hat",
+      "head-covering"
+    ],
+    "explanation": "Glonoine-এ রোদে বৃদ্ধি ও মাথার আবরণ অসহ্য।"
+  },
+  {
+    "id": "glon-sym-08",
+    "stem": "রোদে ঘোরাঘুরি বা আগুনের তাপে মাথায় রক্ত ওঠা, সানস্ট্রোক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "sunstroke",
+      "sun",
+      "heat",
+      "fire"
+    ],
+    "explanation": "Glonoine সানস্ট্রোকে এক নম্বর ঔষধ।"
+  },
+  {
+    "id": "glon-sym-17",
+    "stem": "সূর্যের আলোতে, আগুনের তাপে, চুলে তেল লাগালে, মদ পানে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "aggravation",
+      "sun",
+      "heat",
+      "hair-oil",
+      "alcohol"
+    ],
+    "explanation": "Glonoine-এ রোদ, তাপ, তেল ও মদে বৃদ্ধি।"
+  },
+  {
+    "id": "lyc-sym-02",
+    "stem": "প্রতিদিন বিকাল ৪টা থেকে ৮টার মধ্যে সকল উপসর্গের তীব্র বৃদ্ধি ঘটা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Kali Carb",
+        "mid": "kali-carb"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "lycopodium",
+    "tags": [
+      "aggravation",
+      "time",
+      "4pm-8pm"
+    ],
+    "explanation": "বিকাল ৪টা থেকে ৮টা পর্যন্ত সময়সীমা Lycopodium নির্বাচনের সবচেয়ে নির্ভরযোগ্য ও প্রামাণ্য লক্ষণ।"
+  },
+  {
+    "id": "mag-carb-sym-19",
+    "stem": "প্রতি ৩ সপ্তাহ অন্তর লক্ষণগুলোর পুনরাবৃত্তি ঘটে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "periodicity",
+      "recurrence",
+      "every-3-weeks"
+    ],
+    "explanation": "Magnesia Carbonica-এর লক্ষণগুলো প্রতি ৩ সপ্তাহ অন্তর পুনরাবৃত্তি ঘটে।"
+  },
+  {
+    "id": "natc-sym-17",
+    "stem": "রোগীর কাতরতা মূলত শীতকাতর প্রকৃতির, তবে সূর্যের তাপে কাতরতা প্রবল — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "thermal",
+      "sun-sensitivity"
+    ],
+    "explanation": "Natrum Carb মূলত শীতকাতর ওষুধ হলেও বিশেষ করে সূর্যের তাপে তার অসহিষ্ণুতা বা কাতরতা সবচেয়ে বেশি প্রকট হয়।"
+  },
+  {
+    "id": "natrum-mur-sym-08",
+    "stem": "শীতকালে ঠোঁট, নখ ও চামড়া ফাটা, চামড়া দিয়ে স্বচ্ছ পানি বের হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "skin",
+      "cracks",
+      "winter"
+    ],
+    "explanation": "Natrum Mur-এ শীতকালে ঠোঁট, নখ ও চামড়া ফেটে যায় এবং চামড়া দিয়ে স্বচ্ছ পানি বের হয়।"
+  },
+  {
+    "id": "natrum-mur-sym-11",
+    "stem": "রৌদ্রতাপে মাথাব্যথা, মনে হয় মাথার ভেতর হাতুড়ি দিয়ে পিটানো হচ্ছে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoinum"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "natrum-muriaticum",
+    "tags": [
+      "headache",
+      "sun"
+    ],
+    "explanation": "Natrum Mur-এ সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত মাথাব্যথা থাকে; মনে হয় যেন মাথার ভেতর হাতুড়ি দিয়ে পিটানো হচ্ছে।"
+  },
+  {
+    "id": "nux-sym-16",
+    "stem": "ভোর ৩-৪টার দিকে জেগে যায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Coffea",
+        "mid": "coffea"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "nux-vomica",
+    "tags": [
+      "sleep",
+      "early-waking"
+    ],
+    "explanation": "Early waking is common in Nux Vomica."
+  },
+  {
+    "id": "petr-sym-01",
+    "stem": "শীতকালে ত্বক অত্যন্ত শুষ্ক, খসখসে ও ফেটে যায় এবং ফাটা স্থান থেকে রক্তপাত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "skin",
+      "cracks",
+      "winter",
+      "bleeding"
+    ],
+    "explanation": "Petroleum-এর প্রধান বৈশিষ্ট্য হলো শীতকালে ত্বক শুষ্ক, খসখসে ও ফেটে যাওয়া এবং ফাটা স্থান থেকে রক্ত বা রস নির্গত হওয়া।[reference:20]"
+  },
+  {
+    "id": "petr-sym-13",
+    "stem": "লক্ষণ বৃদ্ধি পায় শীতকালে, গাড়িতে বা নৌকায় চড়লে, ঝড়ের আগে এবং খালি পেটে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "winter",
+      "motion",
+      "storm",
+      "empty-stomach"
+    ],
+    "explanation": "Petroleum-এর লক্ষণ শীতকালে, গাড়ি/নৌকায় চড়লে, ঝড়ের আগে, মানসিক পরিশ্রমে এবং খালি পেটে বৃদ্ধি পায়।[reference:32]"
+  },
+  {
+    "id": "petr-sym-14",
+    "stem": "লক্ষণ উপশম হয় গরমকালে, আহার করলে এবং উষ্ণ আবহাওয়ায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Mag Phos",
+        "mid": "magnesia-phosphorica"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "summer",
+      "eating",
+      "warm-weather"
+    ],
+    "explanation": "Petroleum-এর লক্ষণ গরমকালে, আহার করলে বা পেট ভরা থাকলে এবং উষ্ণ আবহাওয়ায় উপশম হয়।[reference:33]"
+  },
+  {
+    "id": "phy-sym-07",
+    "stem": "বর্ষাকালে, রাতে এবং গরম পানীয় পান করলে যাবতীয় শারীরিক কষ্ট বৃদ্ধি পাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Phytolacca",
+        "mid": "phytolacca"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-tox"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "phytolacca",
+    "tags": [
+      "aggravation",
+      "rainy-season",
+      "hot-drinks"
+    ],
+    "explanation": "Phytolacca-এর কষ্ট বর্ষা, রাত্রিবেলা ও উষ্ণ পানীয় গ্রহণে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "podo-sym-10",
+    "stem": "দাঁত ওঠার সময় ও গ্রীষ্মকালীন ডায়রিয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Rheum Palmatum",
+        "mid": "rheum-palmatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "dentition",
+      "summer-diarrhea",
+      "child"
+    ],
+    "explanation": "Podophyllum দাঁত ওঠা ও গ্রীষ্মকালীন ডায়রিয়ায় কার্যকর।"
+  },
+  {
+    "id": "sab-sym-04",
+    "stem": "গর্ভপাতের ঝুঁকি, অভ্যাসগত গর্ভপাত, বিশেষত ৩য় মাসে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sabina",
+        "mid": "sabina"
+      },
+      {
+        "text": "Viburnum Opulus",
+        "mid": "viburnum-opulus"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Caulophyllum",
+        "mid": "caulophyllum"
+      }
+    ],
+    "answer": "sabina",
+    "tags": [
+      "abortion",
+      "habitual",
+      "third-month",
+      "pregnancy"
+    ],
+    "explanation": "Sabina তৃতীয় মাসে গর্ভপাত প্রবণতায় শ্রেষ্ঠ।"
+  },
+  {
+    "id": "sanguinaria-sym-12",
+    "stem": "পর্যায়বৃত্তিক মাথাব্যথা, প্রতি সাত দিন অন্তর, সাপ্তাহিক, একে American Sick Headache বলা হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "headache",
+      "periodic",
+      "weekly"
+    ],
+    "explanation": "Sanguinaria Canadensis এ পর্যায়বৃত্তিক মাথাব্যথা হয়, প্রতি সাত দিন অন্তর মাথাব্যথা হওয়ার প্রবণতা থাকে, একে American Sick Headache বলা হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-13",
+    "stem": "সূর্যের গতির সাথে ব্যথার সম্পর্ক, সকালে শুরু হয়, দুপুরে তীব্র হয়, সূর্যাস্তের সাথে সাথে কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "headache",
+      "sun",
+      "noon"
+    ],
+    "explanation": "Sanguinaria Canadensis এ ব্যথা সকালে শুরু হয়, দুপুরে তীব্র হয় এবং সূর্যাস্তের সাথে সাথে কমে যায়।"
+  },
+  {
+    "id": "sars-sym-05",
+    "stem": "বসন্তকালে ত্বকের চুলকানি ও চর্মরোগ বৃদ্ধি পাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "skin",
+      "itching",
+      "spring",
+      "seasonal"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ প্রতি বছর বসন্তকাল এলে চর্মরোগ বা চুলকানি বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sars-sym-17",
+    "stem": "বসন্তকালে এবং স্যাঁতসেঁতে ঠান্ডা আবহাওয়ায় লক্ষণ বৃদ্ধি পায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "spring",
+      "damp-cold"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এর লক্ষণ বসন্তকালে এবং স্যাঁতসেঁতে ঠান্ডা আবহাওয়ায় বৃদ্ধি পায়।"
+  },
+  {
+    "id": "sel-sym-14",
+    "stem": "সূর্যোদয় ও উত্তাপে বৃদ্ধি, সূর্যাস্তে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "aggravation",
+      "sunrise",
+      "heat",
+      "amel-sunset"
+    ],
+    "explanation": "Selenium-এ সূর্যোদয় ও তাপে বৃদ্ধি, সূর্যাস্তে উপশম।"
+  },
+  {
+    "id": "sel-sym-15",
+    "stem": "চরম দুঃখী, অল্পে ক্লান্ত, রোদে শক্তি নিঃশেষ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Picricum Acidum",
+        "mid": "picricum-acidum"
+      },
+      {
+        "text": "Muriaticum Acidum",
+        "mid": "muriaticum-acidum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "mind",
+      "sad",
+      "exhaustion",
+      "sun-agg"
+    ],
+    "explanation": "Selenium রোগী চরম দুঃখী ও অল্পে ক্লান্ত হয়।"
+  },
+  {
+    "id": "sel-sym-18",
+    "stem": "রোদে, গরমে, ঘুমের পর, সহবাসের পর, মদে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "aggravation",
+      "sun",
+      "heat",
+      "sleep",
+      "coition",
+      "alcohol"
+    ],
+    "explanation": "Selenium-এ রোদে, গরমে, ঘুমের পর, সহবাসের পর বৃদ্ধি।"
+  },
+  {
+    "id": "sil-sym-11",
+    "stem": "লক্ষণ বৃদ্ধি পায় নতুন চাঁদের সময় (অমাবস্যা), ঠান্ডা বাতাসে এবং শরীর উন্মুক্ত করলে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "new-moon",
+      "cold-air",
+      "uncovering"
+    ],
+    "explanation": "Silicea-এর লক্ষণ নতুন চাঁদের সময় (অমাবস্যা), ঠান্ডা বাতাসে, শরীর উন্মুক্ত করলে, ভিজে আবহাওয়ায় এবং মানসিক পরিশ্রমে বৃদ্ধি পায়।"
+  },
+  {
+    "id": "spigelia-sym-18",
+    "stem": "বাম পাশের মুখমণ্ডলে অসহ্য যন্ত্রণা, সূর্যোদয়ের সঙ্গে শুরু হয়, সূর্যাস্তের সঙ্গে কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "face",
+      "left",
+      "sun-headache"
+    ],
+    "explanation": "Spigelia Anthelmia এ বাম পাশের মুখমণ্ডলে অসহ্য যন্ত্রণা হয়, যা সূর্যোদয়ের সঙ্গে শুরু হয় এবং সূর্যাস্তের সঙ্গে কমে যায়।"
+  },
+  {
+    "id": "spigelia-sym-20",
+    "stem": "নড়াচড়া করলে, স্পর্শ করলে, গোলমালে ও সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি, ডান পাশে ফিরে শুলে ও মাথা উঁচু করে রাখলে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "motion",
+      "sun"
+    ],
+    "explanation": "Spigelia Anthelmia এ নড়াচড়া করলে, স্পর্শ করলে, গোলমালে এবং সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত বৃদ্ধি হয়, ডান পাশে ফিরে শুলে এবং মাথা উঁচু করে রাখলে উপশম হয়।"
+  },
+  {
+    "id": "sul-sym-02",
+    "stem": "প্রতিদিন বেলা ১১টার সময় প্রচণ্ড ক্ষুধা ও পেটে দুর্বলতাবোধ (11 AM hunger and sinking sensation) — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Natrum Mur",
+        "mid": "natrum-mur"
+      },
+      {
+        "text": "Zincum Met",
+        "mid": "zincum-met"
+      },
+      {
+        "text": "Iodum",
+        "mid": "iodum"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "stomach",
+      "hunger",
+      "11am"
+    ],
+    "explanation": "Sulphur-এ বেলা ১১টার সময় ক্ষুধার তাড়না ও পেটে শুন্যভাব দেখা দেয়।"
+  },
+  {
+    "id": "syphilinum-sym-03",
+    "stem": "কষ্ট রাত্রে বৃদ্ধি, কষ্ট সন্ধ্যায় আরম্ভ হয়, শেষ রাত পর্যন্ত থাকে, সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত বৃদ্ধি, সূর্যাস্তে ব্যথা শুরু হয়, সারা রাত তীব্র থাকে, সূর্যোদয়ে কমে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "night",
+      "sunset",
+      "sunrise"
+    ],
+    "explanation": "Syphilinum এ কষ্ট রাত্রে বৃদ্ধি পায়, কষ্ট সন্ধ্যায় আরম্ভ হয়, শেষ রাত পর্যন্ত থাকে, সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত বৃদ্ধি পায়।"
+  },
+  {
+    "id": "syphilinum-sym-20",
+    "stem": "সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত, সমুদ্র তীরে ও গ্রীষ্মকালে বৃদ্ধি, দিনের বেলা, নড়াচড়া করলে ও ঠান্ডা বাতাসে উপশম, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "aggravation",
+      "amelioration",
+      "night",
+      "seashore",
+      "summer"
+    ],
+    "explanation": "Syphilinum এ সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত, সমুদ্র তীরে এবং গ্রীষ্মকালে বৃদ্ধি হয়, দিনের বেলা, নড়াচড়া করলে এবং ঠান্ডা বাতাসে উপশম হয়।"
+  },
+  {
+    "id": "thuja-sym-04",
+    "stem": "বাম দিকের রোগী, শীতকাতর, ঠান্ডা ও বর্ষায় বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "left-sided",
+      "chilly",
+      "cold-agg",
+      "rainy-agg"
+    ],
+    "explanation": "Thuja বাম পার্শ্ব ও শীতকাতর।"
+  }
+]

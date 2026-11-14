@@ -1,0 +1,1731 @@
+[
+  {
+    "id": "apis-sym-17",
+    "stem": "মস্তিষ্কে মেনিনজাইটিস বা মাথায় জল জমা; শিশু মাথার বালিশে মাথা ঘষে এবং হঠাৎ চিৎকার দেয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Apis Mellifica",
+        "mid": "apis-mellifica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      }
+    ],
+    "answer": "apis-mellifica",
+    "tags": [
+      "meningitis",
+      "hydrocephalus",
+      "head-rolling",
+      "scream"
+    ],
+    "explanation": "Apis Mellifica-এ মস্তিষ্কে মেনিনজাইটিস বা মাথায় জল জমা হয়; শিশু মাথার বালিশে মাথা ঘষে এবং হঠাৎ চিৎকার দেয়।"
+  },
+  {
+    "id": "arnica-mont-sym-04",
+    "stem": "জ্বরের সময় মাথা ও মুখমণ্ডল গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Ferrum Phosphoricum",
+        "mid": "ferrum-phosphoricum"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "fever",
+      "head-hot-body-cold",
+      "circulation"
+    ],
+    "explanation": "Arnica Montana-এ মাথা ও মুখমণ্ডল বেশ গরম থাকে কিন্তু শরীরের বাকি অংশ এবং হাত-পা বরফের মতো ঠান্ডা থাকে।"
+  },
+  {
+    "id": "arnica-mont-sym-20",
+    "stem": "লক্ষণ উপশম হয় মাথা নিচু করে শুয়ে থাকলে এবং খোলা বাতাসে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arnica Montana",
+        "mid": "arnica-montana"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "arnica-montana",
+    "tags": [
+      "modalities",
+      "amelioration",
+      "open-air",
+      "head-low"
+    ],
+    "explanation": "Arnica Montana-এর লক্ষণ মাথা নিচু করে শুয়ে থাকলে এবং খোলা বাতাসে উপশম হয়।"
+  },
+  {
+    "id": "aurum-sym-16",
+    "stem": "উপদংশ হেতু মাথার চুল ওঠা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Fluoricum Acidum",
+        "mid": "fluoricum-acidum"
+      },
+      {
+        "text": "Nitricum Acidum",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "aurum-metallicum",
+    "tags": [
+      "hair",
+      "fall",
+      "syphilitic"
+    ],
+    "explanation": "Aurum-এ সিফিলিস জনিত কারণে চুল পড়ে।"
+  },
+  {
+    "id": "bac-sym-09",
+    "stem": "মাথায় লোহার ব্যান্ড দিয়ে চেপে ধরার মতো প্রচণ্ড মাথাব্যথা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Glonoinum",
+        "mid": "glonoinum"
+      },
+      {
+        "text": "Bacillinum",
+        "mid": "bacillinum"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      }
+    ],
+    "answer": "bacillinum",
+    "tags": [
+      "headache",
+      "head"
+    ],
+    "explanation": "Bacillinum এ প্রচণ্ড মাথাব্যথা হয়, মনে হয় মাথার চারদিকে লোহার ব্যান্ড দিয়ে কেউ চেপে ধরেছে।"
+  },
+  {
+    "id": "baryta-sym-13",
+    "stem": "ঠান্ডায়, ভেজা আবহাওয়ায়, বাম পাশে শুলে, মাথা ধুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "aggravation",
+      "cold",
+      "wet",
+      "left-side",
+      "washing-head"
+    ],
+    "explanation": "Baryta-র বৃদ্ধি ঠান্ডা, ভেজা, বাম পাশে শোয়া ও মাথা ধোয়ায়।"
+  },
+  {
+    "id": "baryta-sym-20",
+    "stem": "অপরিচিত মানুষের সামনে আসলে বৃদ্ধি, মাথা ধুলে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Baryta Carbonica",
+        "mid": "baryta-carbonica"
+      },
+      {
+        "text": "Ambra Grisea",
+        "mid": "ambra-grisea"
+      },
+      {
+        "text": "Barryta Muriatica",
+        "mid": "baryta-muriatica"
+      },
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      }
+    ],
+    "answer": "baryta-carbonica",
+    "tags": [
+      "aggravation",
+      "strangers",
+      "washing-head"
+    ],
+    "explanation": "Baryta-তে অপরিচিতদের সামনে ও মাথা ধুলে বৃদ্ধি ঘটে।"
+  },
+  {
+    "id": "bell-sym-09",
+    "stem": "মাথা বালিশে গুঁজে রাখতে চায় — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "head",
+      "children"
+    ],
+    "explanation": "Boring head into pillow Belladonna-এর পরিচিত লক্ষণ।"
+  },
+  {
+    "id": "bell-sym-18",
+    "stem": "মস্তিষ্কে রক্তসঞ্চার বৃদ্ধি, congestive অবস্থা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Ferrum Phos",
+        "mid": "ferrum-phos"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "belladonna",
+    "tags": [
+      "congestion",
+      "brain"
+    ],
+    "explanation": "Belladonna congestion-এর প্রধান ঔষধগুলোর একটি।"
+  },
+  {
+    "id": "borax-sym-08",
+    "stem": "মাথার চুল ও ভ্রুর চুল জটা লাগা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      },
+      {
+        "text": "Fluoric Acid",
+        "mid": "fluoricum-acidum"
+      },
+      {
+        "text": "Vinca Minor",
+        "mid": "vinca-minor"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "hair",
+      "plica"
+    ],
+    "explanation": "Borax-এ মাথার চুল ও ভ্রুর চুল পরস্পরের সাথে জট পাকিয়ে যায় (Plica Polonica)।"
+  },
+  {
+    "id": "calc-sulph-sym-17",
+    "stem": "শিশুদের মাথায় খুশকি বা একজিমা হয়ে হলুদাভ আঁশ ওঠা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "scalp",
+      "dandruff",
+      "eczema"
+    ],
+    "explanation": "Calcarea Sulph-এ শিশুদের মাথায় খুশকি বা একজিমা হয়ে হলুদাভ আঁশ ওঠে।"
+  },
+  {
+    "id": "calc-sym-02",
+    "stem": "ঘুমের সময় মাথায় প্রচুর টক গন্ধযুক্ত ঘাম হওয়া এবং বালিশ ভিজে যাওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Sanicula",
+        "mid": "sanicula"
+      },
+      {
+        "text": "Magnesia Mur",
+        "mid": "magnesia-mur"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "head",
+      "sweat",
+      "sleep"
+    ],
+    "explanation": "Calcarea Carb-এর অন্যতম মূল লক্ষণ হলো ঘুমালে মাথায় প্রচুর ঘাম হয় যা দিয়ে বালিশ ভিজে যায় এবং টক গন্ধ বের হয়।"
+  },
+  {
+    "id": "calc-sym-04",
+    "stem": "শিশুদের মাথার ব্রহ্মতালু জোড়া লাগতে দেরি হওয়া এবং দেরিতে হাঁটতে শেখে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Calcarea Phos",
+        "mid": "calcarea-phos"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "children",
+      "fontanelles",
+      "late-walking"
+    ],
+    "explanation": "Calcarea Carb-এ শিশুদের মাথার তালুর অস্থি জোড়া লাগতে বিলম্ব হয় এবং তারা দেরিতে হাঁটে বা দাঁত তোলে।"
+  },
+  {
+    "id": "calcphos-sym-02",
+    "stem": "শিশুর মাথার ব্রহ্মতালু দীর্ঘ সময় খোলা থাকা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "children",
+      "fontanelle"
+    ],
+    "explanation": "Calcarea Phosphorica এ শিশুদের মাথার ব্রহ্মতালু দীর্ঘ সময় খোলা থাকে।"
+  },
+  {
+    "id": "calcphos-sym-13",
+    "stem": "মাথার ভেতরে বা পেছনে ঠান্ডা অনুভব করা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Silica",
+        "mid": "silica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "head",
+      "cold-sensation"
+    ],
+    "explanation": "Calcarea Phosphorica এ মাথার ভেতরে বা পেছনে এক প্রকার ঠান্ডা অনুভব করা যায়।"
+  },
+  {
+    "id": "carbo-sym-16",
+    "stem": "বাতাস করলে, ঠান্ডা বাতাসে, মাথা উঁচু করে রাখলে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Carbo Animalis",
+        "mid": "carbo-animalis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      }
+    ],
+    "answer": "carbo-vegetabilis",
+    "tags": [
+      "amelioration",
+      "fanning",
+      "cold-air",
+      "head-high"
+    ],
+    "explanation": "Carbo Veg বাতাসে ও মাথা উঁচুতে উপশম পায়।"
+  },
+  {
+    "id": "china-sym-14",
+    "stem": "মাথায় দপদপানি ব্যথা, মনে হওয়া মাথার খুলি ফেটে যাবে, কানে ভোঁ ভোঁ শব্দ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Glonoinum",
+        "mid": "glonoinum"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "head",
+      "headache",
+      "tinnitus"
+    ],
+    "explanation": "China এ মাথায় দপদপানি ব্যথা হয়, মনে হয় মাথার খুলি ফেটে যাবে, কানে ভোঁ ভোঁ শব্দ হয়।"
+  },
+  {
+    "id": "conium-sym-16",
+    "stem": "রাতে, শুয়ে থাকলে, মাথা ঘোরালে, অবিবাহিত বা সংযমীদের ক্ষেত্রে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Selenium",
+        "mid": "selenium"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      }
+    ],
+    "answer": "conium-maculatum",
+    "tags": [
+      "aggravation",
+      "night",
+      "lying",
+      "turning-head",
+      "celibacy"
+    ],
+    "explanation": "Conium-এ রাতে, শুয়ে, মাথা ঘোরালে ও সংযমীদের বৃদ্ধি।"
+  },
+  {
+    "id": "dulc-sym-17",
+    "stem": "মাথার ত্বকে মোটা মামড়ি পড়া এবং চুল পড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Mercarius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "scalp",
+      "crusts",
+      "hair-loss"
+    ],
+    "explanation": "Dulcamara-এ মাথার ত্বকে মোটা মামড়ি (Thick crusts) পড়ে, যার ফলে চুল পড়ে যায়।"
+  },
+  {
+    "id": "glon-sym-01",
+    "stem": "রক্ত প্রচণ্ড বেগে মাথা ও হৃদপিণ্ডে প্রবাহিত, মাথা দপদপ করে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Melilotus",
+        "mid": "melilotus"
+      },
+      {
+        "text": "Amyl Nitrosum",
+        "mid": "amyl-nitrosum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "congestion",
+      "head",
+      "heart",
+      "throbbing"
+    ],
+    "explanation": "Glonoine-এ রক্ত মাথা ও হৃদপিণ্ডে ছুটে যায় ও দপদপ করে।"
+  },
+  {
+    "id": "glon-sym-02",
+    "stem": "সূর্যের আলোতে রোগ বৃদ্ধি, টুপি বা ঘোমটা অসহ্য — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "aggravation",
+      "sun",
+      "hat",
+      "head-covering"
+    ],
+    "explanation": "Glonoine-এ রোদে বৃদ্ধি ও মাথার আবরণ অসহ্য।"
+  },
+  {
+    "id": "glon-sym-03",
+    "stem": "মাথা বড় মনে হয়, উঁচু বালিশ চায়, দুই হাতে মাথা চেপে ধরে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "head",
+      "large",
+      "high-pillow",
+      "pressing"
+    ],
+    "explanation": "Glonoine-এ মাথা বড় মনে হয় ও উঁচু বালিশ চায়।"
+  },
+  {
+    "id": "glon-sym-07",
+    "stem": "মাথা গরম, মুখ লাল ফুলে ওঠা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Melilotus",
+        "mid": "melilotus"
+      },
+      {
+        "text": "Ferrum Metallicum",
+        "mid": "ferrum-metallicum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "head",
+      "hot",
+      "face",
+      "red",
+      "swollen"
+    ],
+    "explanation": "Glonoine-এ মাথা গরম ও মুখ লাল ফুলে যায়।"
+  },
+  {
+    "id": "glon-sym-10",
+    "stem": "মাথা ব্যথায় মনে হয় খুলি ছোট হয়ে মস্তিষ্ক ফেটে বের হবে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "headache",
+      "bursting",
+      "skull",
+      "small"
+    ],
+    "explanation": "Glonoine-এ খুলি ছোট ও মস্তিষ্ক ফেটে বের হওয়ার অনুভূতি থাকে।"
+  },
+  {
+    "id": "glon-sym-17",
+    "stem": "সূর্যের আলোতে, আগুনের তাপে, চুলে তেল লাগালে, মদ পানে বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "aggravation",
+      "sun",
+      "heat",
+      "hair-oil",
+      "alcohol"
+    ],
+    "explanation": "Glonoine-এ রোদ, তাপ, তেল ও মদে বৃদ্ধি।"
+  },
+  {
+    "id": "glon-sym-18",
+    "stem": "খোলা বাতাসে, মাথা উঁচু করে, ঠান্ডা জল প্রয়োগে উপশম — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Natrum Carbonicum",
+        "mid": "natrum-carbonicum"
+      }
+    ],
+    "answer": "glonoine",
+    "tags": [
+      "amelioration",
+      "open-air",
+      "head-high",
+      "cold-water"
+    ],
+    "explanation": "Glonoine খোলা বাতাসে ও মাথা উঁচুতে ভালো থাকে।"
+  },
+  {
+    "id": "graph-sym-12",
+    "stem": "কপালে মাকড়সার জালের মতো অনুভূতি — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Baryta Carb",
+        "mid": "baryta-carb"
+      },
+      {
+        "text": "Ranunculus",
+        "mid": "ranunculus"
+      }
+    ],
+    "answer": "graphites",
+    "tags": [
+      "head",
+      "sensation"
+    ],
+    "explanation": "Cobweb sensation on forehead is strongly associated with Graphites।"
+  },
+  {
+    "id": "hell-sym-04",
+    "stem": "রোগী যন্ত্রণায় বা আচ্ছন্ন অবস্থায় কপালের চামড়া কুঁচকে রাখে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "forehead",
+      "wrinkles",
+      "facial-expression"
+    ],
+    "explanation": "Helleborus Niger-এ রোগী যন্ত্রণায় বা আচ্ছন্ন অবস্থায় কপালের চামড়া কুঁচকে রাখে (Forehead wrinkled in folds)।"
+  },
+  {
+    "id": "hell-sym-08",
+    "stem": "মাথায় অসহ্য ভার বোধ হয় এবং রোগী বালিশে মাথা গুঁজে রাখতে চায় বা মাথা এপাশ-ওপাশ দোলায় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "head",
+      "heaviness",
+      "rolling-head"
+    ],
+    "explanation": "Helleborus Niger-এ মাথায় অসহ্য ভার বোধ হয়, রোগী বালিশে মাথা গুঁজে রাখতে চায় এবং অনেক সময় মাথা এপাশ-ওপাশ দোলায় (Rolling the head)।"
+  },
+  {
+    "id": "hyper-sym-12",
+    "stem": "মাথায় হাতুড়ি দিয়ে পেটানোর মতো ব্যথা, মস্তিষ্ক বড় মনে হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hypericum Perforatum",
+        "mid": "hypericum-perforatum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      }
+    ],
+    "answer": "hypericum-perforatum",
+    "tags": [
+      "headache",
+      "hammering",
+      "brain-large"
+    ],
+    "explanation": "Hypericum-এ হাতুড়ি পেটানোর মতো মাথা ব্যথা থাকে।"
+  },
+  {
+    "id": "just-sym-06",
+    "stem": "মাথা ঝুকলে বা নিচু করলে কপালে প্রচণ্ড ব্যথা অনুভূত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Justicia Adhatoda",
+        "mid": "justicia-adhatoda"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      }
+    ],
+    "answer": "justicia-adhatoda",
+    "tags": [
+      "headache",
+      "stooping",
+      "frontal"
+    ],
+    "explanation": "Justicia Adhatoda-এ মাথা নিচু বা ঝুঁকালে কপালে প্রচণ্ড চাপ ও ব্যথার অনুভূতি হয়।"
+  },
+  {
+    "id": "mag-carb-sym-14",
+    "stem": "মাথা ও মুখের তীব্র স্নায়ুশূল (Neuralgia), যা রাতে বা বিশ্রামে বাড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Magnesia Phosphorica",
+        "mid": "magnesia-phosphorica"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "neuralgia",
+      "head",
+      "face",
+      "night",
+      "rest"
+    ],
+    "explanation": "Magnesia Carbonica-এ মাথা ও মুখের তীব্র স্নায়ুশূল (Neuralgia) হয়, যা রাতে বা বিশ্রামে বাড়ে।"
+  },
+  {
+    "id": "mag-carb-sym-15",
+    "stem": "শিশুদের মাথার ত্বকে চর্বিযুক্ত খুত খুত বা একজিমা, যা থেকে দুর্গন্ধ বের হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "skin",
+      "scalp",
+      "eczema",
+      "crusts",
+      "children"
+    ],
+    "explanation": "Magnesia Carbonica-এ শিশুদের মাথার ত্বকে চর্বিযুক্ত খুত খুত বা একজিমা দেখা দেয়, যা থেকে দুর্গন্ধ বের হয়।"
+  },
+  {
+    "id": "mez-sym-01",
+    "stem": "মাথায় মোটা চামড়ার মতো খোসা, নিচে পুঁজ জমে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mezereum",
+        "mid": "mezereum"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "mezereum",
+    "tags": [
+      "scalp",
+      "eruption"
+    ],
+    "explanation": "Thick crusts with pus beneath strongly indicate Mezereum."
+  },
+  {
+    "id": "natp-sym-10",
+    "stem": "মাথার তালুতে প্রচণ্ড তাপ, চোখের সামনে ঝিলিক — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "head",
+      "vertex",
+      "hot",
+      "flashing-eyes"
+    ],
+    "explanation": "Natrum Phos-এ মাথার তালুতে তাপ ও চোখে ঝিলিক থাকে।"
+  },
+  {
+    "id": "petr-sym-11",
+    "stem": "মাথার পেছনে (Occiput) ভারী বোধ এবং ব্যথা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "headache",
+      "occiput",
+      "heaviness"
+    ],
+    "explanation": "Petroleum-এ মাথার পেছনে (Occiput) ভারী বোধ এবং ব্যথা হয়।[reference:30]"
+  },
+  {
+    "id": "phosphorus-sym-16",
+    "stem": "মাথা ঘোরা, বিশেষ করে শোয়া থেকে উঠলে বা আহারের পর, মনে হয় মস্তিষ্ক ক্লান্ত হয়ে গেছে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Conium",
+        "mid": "conium"
+      },
+      {
+        "text": "Cocculus",
+        "mid": "cocculus"
+      }
+    ],
+    "answer": "phosphorus",
+    "tags": [
+      "head",
+      "vertigo"
+    ],
+    "explanation": "Phosphorus এ মাথা ঘোরা হয়, বিশেষ করে শোয়া থেকে উঠলে বা আহারের পর, মনে হয় মস্তিষ্ক ক্লান্ত হয়ে গেছে।"
+  },
+  {
+    "id": "plat-sym-04",
+    "stem": "শরীরের বিভিন্ন অঙ্গে, বিশেষত মুখে বা মাথায় অসাড়তা বা অবশ ভাব (Numbness) অনুভূত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Aconite",
+        "mid": "aconitum-napellus"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "numbness",
+      "face",
+      "head"
+    ],
+    "explanation": "Platinum Metallicum-এ শরীরের বিভিন্ন অঙ্গে, বিশেষত মুখে বা মাথায় অসাড়তা বা অবশ ভাব (Numbness) অনুভূত হয়।"
+  },
+  {
+    "id": "plat-sym-20",
+    "stem": "মাথায় এবং গালে এক ধরনের অদ্ভুত অসাড়তা বা টানটান ভাব (Tension) অনুভূত হয়, মনে হয় যেন মাথাটি সাঁড়াশি দিয়ে চেপে ধরা হয়েছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Platinum Metallicum",
+        "mid": "platinum-metallicum"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "platinum-metallicum",
+    "tags": [
+      "head",
+      "cheeks",
+      "numbness",
+      "tension",
+      "vice-like"
+    ],
+    "explanation": "Platinum Metallicum-এ মাথায় ও গালে অসাড়তা বা টানটান ভাব (Tension) হয়; মনে হয় যেন মাথাটি সাঁড়াশি দিয়ে চেপে ধরা হয়েছে।"
+  },
+  {
+    "id": "podo-sym-11",
+    "stem": "ঘুমে দাঁত কিড়মিড় ও মাথা এপাশ-ওপাশ নাড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Cina Maritima",
+        "mid": "cina-maritima"
+      },
+      {
+        "text": "Santoninum",
+        "mid": "santoninum"
+      },
+      {
+        "text": "Cicuta Virosa",
+        "mid": "cicuta-virosa"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "teeth-grinding",
+      "head-rolling",
+      "sleep",
+      "child"
+    ],
+    "explanation": "Podophyllum-এ শিশুরা ঘুমে দাঁত কিড়মিড় ও মাথা নাড়ে।"
+  },
+  {
+    "id": "rhus-sym-14",
+    "stem": "মাথা ভারী বোধ হওয়া এবং মনে হওয়া মস্তিষ্কের ভেতর জল নড়াচড়া করছে — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Glonoine",
+        "mid": "glonoine"
+      },
+      {
+        "text": "Rhus Tox",
+        "mid": "rhus-toxicodendron"
+      }
+    ],
+    "answer": "rhus-toxicodendron",
+    "tags": [
+      "head",
+      "heavy-sensation"
+    ],
+    "explanation": "Rhus Tox মাথাব্যথায় মাথা ভারী লাগে এবং নড়াচড়া করলে মস্তিষ্কে জল ছলকানোর অনুভূতি হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-01",
+    "stem": "ডান দিকের মাথাব্যথা, ঘাড় থেকে শুরু হয়ে মাথার ওপর দিয়ে এসে ডান চোখের ওপর স্থির হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Spigelia",
+        "mid": "spigelia"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Iris Versicolor",
+        "mid": "iris-versicolor"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "headache",
+      "right",
+      "occiput"
+    ],
+    "explanation": "Sanguinaria Canadensis এ মাথাব্যথা প্রধানত ডান দিকে হয় এবং এটি ঘাড়ের দিক থেকে শুরু হয়ে মাথার ওপর দিয়ে এসে ডান চোখের ওপর স্থির হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-16",
+    "stem": "মাথার শিরার রক্তাধিক্যের ফলে মনে হয় মাথা ফেটে যাবে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Glonoinum",
+        "mid": "glonoinum"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "head",
+      "congestion",
+      "bursting"
+    ],
+    "explanation": "Sanguinaria Canadensis এ মাথার শিরার রক্তাধিক্যের ফলে মনে হয় মাথা ফেটে যাবে।"
+  },
+  {
+    "id": "sani-sym-03",
+    "stem": "ঘুমের সময় মাথায় প্রচুর ঘাম হওয়া যা বালিশ ভিজিয়ে দেয় এবং পায়ে তীব্র দুর্গন্ধযুক্ত ঘাম — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Graphites",
+        "mid": "graphites"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "sweat",
+      "head-feet"
+    ],
+    "explanation": "Sanicula-এ রাতে ঘুমানোর সময় মাথায় ঘাম ও পায়ের পাতায় তীব্র দুর্গন্ধযুক্ত ঘামের প্রাবল্য দেখা যায়।"
+  },
+  {
+    "id": "sani-sym-11",
+    "stem": "মাথায় প্রচুর খুশকি, চুল পড়ে যাওয়া এবং উকুন হওয়ার প্রবণতা থাকা — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Staphysagria",
+        "mid": "staphysagria"
+      },
+      {
+        "text": "Psorinum",
+        "mid": "psorinum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "head",
+      "scalp"
+    ],
+    "explanation": "Sanicula-এর মাথার ত্বকে মাত্রাতিরিক্ত খুশকি হয় এবং খুব দ্রুত চুলে উকুনের সৃষ্টি হয়।"
+  },
+  {
+    "id": "sars-sym-06",
+    "stem": "মাথার চাঁদি থেকে চোখ পর্যন্ত তীরের আঘাতের মতো ব্যথা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sarsaparilla Officinalis",
+        "mid": "sarsaparilla-officinalis"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      }
+    ],
+    "answer": "sarsaparilla-officinalis",
+    "tags": [
+      "headache",
+      "shooting-pain",
+      "occiput",
+      "eyes"
+    ],
+    "explanation": "Sarsaparilla Officinalis-এ মাথার চাঁদি (Occiput) থেকে চোখ পর্যন্ত তীরের আঘাত পাওয়ার মতো শুটিং ব্যথা হয়।"
+  },
+  {
+    "id": "sel-sym-07",
+    "stem": "দাড়ি, ভ্রু, যৌনাঙ্গের চুল ও মাথার চুল পড়ে যায়, তৈলাক্ত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "hair-fall",
+      "beard",
+      "eyebrow",
+      "pubic",
+      "oily"
+    ],
+    "explanation": "Selenium-এ বিভিন্ন স্থানের চুল পড়ে ও তৈলাক্ত থাকে।"
+  },
+  {
+    "id": "sil-sym-07",
+    "stem": "মাথাব্যথা ঘাড় থেকে শুরু হয়ে চোখের ওপর (সাধারণত ডান চোখে) এসে স্থির হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "headache",
+      "occiput",
+      "right-eye"
+    ],
+    "explanation": "Silicea-এ মাথাব্যথা ঘাড় থেকে শুরু হয়ে চোখের ওপর (সাধারণত ডান চোখে) এসে স্থির হয়।"
+  },
+  {
+    "id": "sil-sym-17",
+    "stem": "ঘুমের সময় মাথায় প্রচুর ঘাম হয়, যা বালিশ ভিজিয়ে দেয় (বিশেষত শিশুদের ক্ষেত্রে) — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Silicea",
+        "mid": "silicea"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      }
+    ],
+    "answer": "silicea",
+    "tags": [
+      "head-sweat",
+      "sleep",
+      "children"
+    ],
+    "explanation": "Silicea-এ ঘুমের সময় মাথায় প্রচুর ঘাম হয়, যা বালিশ ভিজিয়ে দেয় (বিশেষ করে শিশুদের ক্ষেত্রে)।"
+  },
+  {
+    "id": "spigelia-sym-02",
+    "stem": "মাথার পিছন হতে ব্যথা আরম্ভ হয়, চক্ষু পর্যন্ত ছড়িয়ে যায়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Glonoinum",
+        "mid": "glonoinum"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "headache",
+      "occiput",
+      "eye"
+    ],
+    "explanation": "Spigelia Anthelmia এ মাথার পিছন হতে ব্যথা আরম্ভ হয়, চক্ষু পর্যন্ত ছড়িয়ে যায়।"
+  },
+  {
+    "id": "spigelia-sym-16",
+    "stem": "সমস্ত শরীর অত্যন্ত স্পর্শকাতর, বিশেষ করে মাথার চামড়ায় হাত দিলেই যন্ত্রণা হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Spigelia Anthelmia",
+        "mid": "spigelia-anthelmia"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "spigelia-anthelmia",
+    "tags": [
+      "sensitive",
+      "touch",
+      "scalp"
+    ],
+    "explanation": "Spigelia Anthelmia এ সমস্ত শরীর অত্যন্ত স্পর্শকাতর থাকে, বিশেষ করে মাথার চামড়ায় হাত দিলেই যন্ত্রণা হয়।"
+  },
+  {
+    "id": "staph-sym-07",
+    "stem": "মন বিষন্ন, স্মৃতি দুর্বল, কপালে বল থাকার অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Staphisagria",
+        "mid": "staphisagria"
+      },
+      {
+        "text": "Anacardium Orientale",
+        "mid": "anacardium-orientale"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      }
+    ],
+    "answer": "staphisagria",
+    "tags": [
+      "mind",
+      "depressed",
+      "memory-weak",
+      "ball-forehead"
+    ],
+    "explanation": "Staphisagria-এ বিষন্নতা, স্মৃতি দুর্বল ও কপালে বল অনুভূতি থাকে।"
+  },
+  {
+    "id": "syphilinum-sym-13",
+    "stem": "চুল পড়ে, দাঁত পড়ে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sepia",
+        "mid": "sepia"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "hair",
+      "teeth",
+      "fall"
+    ],
+    "explanation": "Syphilinum এ চুল পড়ে, দাঁত পড়ে।"
+  },
+  {
+    "id": "syphilinum-sym-18",
+    "stem": "অস্থির ক্ষয়, হাড়ের বিশেষ করে নাকের বা তালুর হাড়ের ক্ষয়, পচনশীল ক্ষত, মাথার খুলিতে প্রচণ্ড যন্ত্রণা, মনে হয় মাথার হাড় ফেটে যাবে, দীর্ঘস্থায়ী চোখের প্রদাহ, রাতে চোখের যন্ত্রণা বৃদ্ধি, জিহ্বা ফাটা ফাটা, তাতে দাঁতের ছাপ থাকে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Syphilinum",
+        "mid": "syphilinum"
+      },
+      {
+        "text": "Mercurius Solubilis",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Aurum Metallicum",
+        "mid": "aurum-metallicum"
+      },
+      {
+        "text": "Asafoetida",
+        "mid": "asafoetida"
+      }
+    ],
+    "answer": "syphilinum",
+    "tags": [
+      "bone",
+      "caries",
+      "skull",
+      "eye",
+      "tongue"
+    ],
+    "explanation": "Syphilinum এ অস্থির ক্ষয় হয়, নাকের বা তালুর হাড়ের ক্ষয় ও পচনশীল ক্ষত হয়, মাথার খুলিতে প্রচণ্ড যন্ত্রণা হয়, দীর্ঘস্থায়ী চোখের প্রদাহ ও রাতে চোখের যন্ত্রণা বৃদ্ধি হয়, জিহ্বা ফাটা ফাটা হয় ও তাতে দাঁতের ছাপ থাকে।"
+  },
+  {
+    "id": "thuja-sym-07",
+    "stem": "মাথায় সাদা খুশকি, চুল পড়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Thuja Occidentalis",
+        "mid": "thuja-occidentalis"
+      },
+      {
+        "text": "Natrum Muriaticum",
+        "mid": "natrum-muriaticum"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      }
+    ],
+    "answer": "thuja-occidentalis",
+    "tags": [
+      "scalp",
+      "dandruff",
+      "white",
+      "hair-fall"
+    ],
+    "explanation": "Thuja-এ সাদা খুশকি ও চুল পড়া থাকে।"
+  },
+  {
+    "id": "verat-sym-01",
+    "stem": "কপালে শীতল ঘাম এবং শরীর বরফের মতো ঠান্ডা হয়ে যাওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Camphora",
+        "mid": "camphora"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "cold-sweat",
+      "collapse",
+      "forehead"
+    ],
+    "explanation": "Veratrum Album-এর সর্বপ্রধান লক্ষণ হলো কপালে শীতল ঘাম এবং শরীর বরফের মতো ঠান্ডা হয়ে যাওয়া।"
+  },
+  {
+    "id": "verat-sym-14",
+    "stem": "মাথা ঘোরা যা নড়াচড়া করলে বা মাথা তুললে বৃদ্ধি পায় এবং মাথার তালু বরফের মতো ঠান্ডা থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Cocculus Indicus",
+        "mid": "cocculus-indicus"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "vertigo",
+      "motion",
+      "cold-vertex"
+    ],
+    "explanation": "Veratrum Album-এ মাথা ঘোরা হয় যা নড়াচড়া করলে বা মাথা তুললে বৃদ্ধি পায়; মাথার তালু বরফের মতো ঠান্ডা থাকে।"
+  },
+  {
+    "id": "zincum-sym-04",
+    "stem": "মাথা এপাশ ওপাশ করে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      },
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Stramonium",
+        "mid": "stramonium"
+      },
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "head",
+      "rolling"
+    ],
+    "explanation": "Zincum Metallicum এ মাথা এপাশ ওপাশ করে।"
+  },
+  {
+    "id": "zincum-sym-14",
+    "stem": "মাথার পেছন দিকে প্রচণ্ড ব্যথা ও ভার বোধ, মাথা ঘোরা যা বাম পাশে বেশি অনুভূত হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Zincum Metallicum",
+        "mid": "zincum-metallicum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Bryonia Alba",
+        "mid": "bryonia-alba"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "zincum-metallicum",
+    "tags": [
+      "head",
+      "occiput",
+      "vertigo"
+    ],
+    "explanation": "Zincum Metallicum এ মাথার পেছন দিকে প্রচণ্ড ব্যথা এবং ভার বোধ হয়, মাথা ঘোরা যা বাম পাশে বেশি অনুভূত হয়।"
+  }
+]

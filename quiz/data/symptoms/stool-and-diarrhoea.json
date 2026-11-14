@@ -1,0 +1,1606 @@
+[
+  {
+    "id": "argn-sym-02",
+    "stem": "গুরুত্বপূর্ণ ঘটনার আগে উৎকণ্ঠা ও শঙ্কা এবং এর ফলে ডায়রিয়া হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "anticipation",
+      "diarrhea",
+      "anxiety"
+    ],
+    "explanation": "Argentum Nitricum-এ গুরুত্বপূর্ণ ঘটনা, পরীক্ষা বা ইন্টারভ্যুর আগের উৎকণ্ঠার কারণে ডায়রিয়া দেখা দেয়।"
+  },
+  {
+    "id": "argn-sym-08",
+    "stem": "মল সবুজ রঙের (সিদ্ধ করা পালং শাকের মতো) এবং বায়ুসহ নির্গত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Magnesia Phos",
+        "mid": "magnesia-phos"
+      },
+      {
+        "text": "Merc Sol",
+        "mid": "merc-sol"
+      }
+    ],
+    "answer": "argentum-nitricum",
+    "tags": [
+      "stool",
+      "green",
+      "diarrhea"
+    ],
+    "explanation": "Argentum Nitricum-এ মিষ্টি খাওয়ার পর ডায়রিয়া হয় এবং মল সবুজ রঙের (সিদ্ধ করা পালং শাকের মতো) ও বায়ুসহ নির্গত হয়।"
+  },
+  {
+    "id": "arsenicum-iod-sym-14",
+    "stem": "খাওয়ার পর পরই মলত্যাগের ইচ্ছা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      },
+      {
+        "text": "Croton Tig",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Aloe Soc",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "arsenicum-iodatum",
+    "tags": [
+      "diarrhoea",
+      "after-eating"
+    ],
+    "explanation": "Arsenicum Iodatum-এ খাওয়ার পর পরই মলত্যাগের ইচ্ছা হয়।"
+  },
+  {
+    "id": "borax-sym-05",
+    "stem": "মলমূত্র ত্যাগের পূর্বে কাঁদা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aquatica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "child",
+      "cries",
+      "defecation",
+      "urination"
+    ],
+    "explanation": "Borax-এ শিশু মলমূত্র ত্যাগের পূর্বে কাঁদে।"
+  },
+  {
+    "id": "borax-sym-15",
+    "stem": "খাওয়ার পরেই পেটে ব্যথা ও ডায়রিয়া, বিশেষত ফল খেলে — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Borax",
+        "mid": "borax"
+      },
+      {
+        "text": "Croton Tig",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Aloe Soc",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "borax",
+    "tags": [
+      "diarrhoea",
+      "fruit",
+      "after-eating"
+    ],
+    "explanation": "Borax-এ খাওয়ার পরেই পেটে ব্যথা এবং ডায়রিয়া হওয়ার প্রবণতা থাকে, বিশেষ করে ফল খাওয়ার পর সমস্যা বাড়ে।"
+  },
+  {
+    "id": "calc-sulph-sym-09",
+    "stem": "মলের সাথে রক্ত আসা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Sulph",
+        "mid": "calcarea-sulphurica"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius-solubilis"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitricum-acidum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "calcarea-sulphurica",
+    "tags": [
+      "stool",
+      "blood"
+    ],
+    "explanation": "Calcarea Sulph-এ মলের সাথে রক্ত আসে।"
+  },
+  {
+    "id": "calc-sym-18",
+    "stem": "মলে এবং গায়ের ঘামে তীব্র টক গন্ধ থাকা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carb"
+      },
+      {
+        "text": "Rheum",
+        "mid": "rheum"
+      },
+      {
+        "text": "Magnesia Carb",
+        "mid": "magnesia-carb"
+      },
+      {
+        "text": "Hepar Sulph",
+        "mid": "hepar-sulph"
+      }
+    ],
+    "answer": "calcarea-carb",
+    "tags": [
+      "odor",
+      "sour-sweat",
+      "sour-stool"
+    ],
+    "explanation": "Calcarea Carb-এ রোগীর মাথার ঘাম, গায়ের ঘাম এবং মলে সুনির্দিষ্ট টক গন্ধ (Sour smell) থাকে।"
+  },
+  {
+    "id": "calcphos-sym-04",
+    "stem": "দাঁত উঠতে দেরি ও দাঁত ওঠার সময় পাতলা পায়খানা বা সর্দি কাশি, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Belladonna",
+        "mid": "belladonna"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "children",
+      "teething",
+      "diarrhoea"
+    ],
+    "explanation": "Calcarea Phosphorica এ শিশুদের দাঁত উঠতে দেরি হয় এবং সেই সময় পাতলা পায়খানা বা সর্দি কাশি হয়।"
+  },
+  {
+    "id": "calcphos-sym-14",
+    "stem": "পেটে প্রচুর বায়ু জমে ফাঁপা, সবুজ আমযুক্ত মল ও পায়খানার সময় ঘড়ঘড় শব্দ, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Calcarea Phosphorica",
+        "mid": "calcarea-phosphorica"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "calcarea-phosphorica",
+    "tags": [
+      "abdomen",
+      "flatulence",
+      "stool"
+    ],
+    "explanation": "Calcarea Phosphorica এ প্রচুর বায়ু জমে পেট ফাঁপা থাকে এবং সবুজ আমযুক্ত মল হয়, পায়খানার সময় ঘড়ঘড় শব্দ হয়।"
+  },
+  {
+    "id": "cantharis-sym-06",
+    "stem": "পায়খানার সাথে রক্ত যায় এবং মলদ্বারে জ্বালা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Cantharis",
+        "mid": "cantharis"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Nitric Acid",
+        "mid": "nitric-acid"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      }
+    ],
+    "answer": "cantharis",
+    "tags": [
+      "rectal",
+      "bloody-stool",
+      "burning"
+    ],
+    "explanation": "Cantharis-এ পায়খানার সাথে রক্ত যায় এবং মলদ্বারে জ্বালা হয়।"
+  },
+  {
+    "id": "caps-sym-05",
+    "stem": "মলত্যাগ বা প্রস্রাবের পরপরই প্রচণ্ড পিপাসা পাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Phosphorus",
+        "mid": "phosphorus"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "thirst",
+      "stool",
+      "urine"
+    ],
+    "explanation": "Capsicum Annuum এ মলত্যাগ বা প্রস্রাব করার পরপরই প্রচণ্ড পিপাসা পাওয়া যায়।"
+  },
+  {
+    "id": "caps-sym-13",
+    "stem": "আমাশয়, মলের সাথে লাল শ্লেষ্মা যাওয়া, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Aloes",
+        "mid": "aloes"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "abdomen",
+      "dysentery",
+      "mucus"
+    ],
+    "explanation": "Capsicum Annuum এ আমাশয় হয় যেখানে মলের সাথে লাল শ্লেষ্মা যায়।"
+  },
+  {
+    "id": "caps-sym-14",
+    "stem": "মলত্যাগের সময় ও পরে মলদ্বারে তীব্র জ্বালা থাকা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Capsicum Annuum",
+        "mid": "capsicum-annuum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      }
+    ],
+    "answer": "capsicum-annuum",
+    "tags": [
+      "rectum",
+      "burning",
+      "stool"
+    ],
+    "explanation": "Capsicum Annuum এ মলত্যাগের সময় ও পরে মলদ্বারে তীব্র জ্বালা থাকে।"
+  },
+  {
+    "id": "chel-sym-16",
+    "stem": "পর্যায়ক্রমে কোষ্ঠকাঠিন্য ও উদারাময় দেখা দেয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Chelidonium Majus",
+        "mid": "chelidonium-majus"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "chelidonium-majus",
+    "tags": [
+      "alternating",
+      "constipation",
+      "diarrhea"
+    ],
+    "explanation": "Chelidonium Majus-এ পর্যায়ক্রমে কোষ্ঠকাঠিন্য ও উদারাময় দেখা দেয়।"
+  },
+  {
+    "id": "china-sym-07",
+    "stem": "কাঁচা ফল বা অপাচ্য খাবার খেলে পেটের গোলযোগ বা পাতলা পায়খানা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "abdomen",
+      "fruit",
+      "diarrhoea"
+    ],
+    "explanation": "China এ কাঁচা ফল বা অপাচ্য খাবার খাওয়ার ফলে পেটের গোলযোগ বা পাতলা পায়খানা হয়।"
+  },
+  {
+    "id": "china-sym-13",
+    "stem": "ব্যথাহীন ডায়রিয়া, মল অত্যন্ত দুর্গন্ধযুক্ত ও প্রচুর, মলের সাথে অজীর্ণ খাদ্যকণা, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Aloes",
+        "mid": "aloes"
+      }
+    ],
+    "answer": "china",
+    "tags": [
+      "stool",
+      "diarrhoea",
+      "undigested"
+    ],
+    "explanation": "China এ মলত্যাগের সময় কোনো ব্যথা থাকে না, কিন্তু মল অত্যন্ত দুর্গন্ধযুক্ত এবং প্রচুর পরিমাণে নির্গত হয়, মলের সাথে অজীর্ণ খাদ্যকণা থাকতে পারে।"
+  },
+  {
+    "id": "colch-sym-04",
+    "stem": "পেটে প্রচুর গ্যাস জমে এবং মনে হয় পেট ফেটে যাবে, যা টাইফয়েড বা আমাশয়ের পরবর্তী পেট ফাঁপায় খুব কার্যকর — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Carbo Vegetabilis",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "abdominal-distension",
+      "gas",
+      "typhoid",
+      "dysentery"
+    ],
+    "explanation": "Colchicum-এ পেটে প্রচুর গ্যাস জমে এবং মনে হয় পেট ফেটে যাবে; এটি টাইফয়েড বা আমাশয়ের পরবর্তী পেট ফাঁপায় খুব কার্যকর।"
+  },
+  {
+    "id": "colch-sym-05",
+    "stem": "আমাশয় যেখানে মলত্যাগের সময় অত্যন্ত কুঁথুনি থাকে এবং মলের সাথে সাদা শ্লেষ্মা নির্গত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "colchicum",
+    "tags": [
+      "dysentery",
+      "tenesmus",
+      "mucus"
+    ],
+    "explanation": "Colchicum-এ আমাশয় হয় যেখানে মলত্যাগের সময় অত্যন্ত কুঁথুনি (Tenesmus) থাকে এবং মলের সাথে সাদা শ্লেষ্মা নির্গত হয়।"
+  },
+  {
+    "id": "colocynthis-sym-17",
+    "stem": "আমাশয়ের সাথে প্রচণ্ড পেট ব্যথা যা মলত্যাগের পর বাড়ে, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Colocynthis",
+        "mid": "colocynthis"
+      },
+      {
+        "text": "Aloes",
+        "mid": "aloes"
+      }
+    ],
+    "answer": "colocynthis",
+    "tags": [
+      "abdomen",
+      "dysentery",
+      "stool"
+    ],
+    "explanation": "Colocynthis এ আমাশয়ের সাথে প্রচণ্ড পেট ব্যথা হয় যা মলত্যাগের পর বাড়ে।"
+  },
+  {
+    "id": "croton-sym-01",
+    "stem": "পিচকিরির মতো সজোরে মলত্যাগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Elaterium",
+        "mid": "elaterium"
+      },
+      {
+        "text": "Veratrum Alb",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Gratiola",
+        "mid": "gratiola-officinalis"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "diarrhoea",
+      "stool"
+    ],
+    "explanation": "Croton Tiglium-এর প্রধানতম লক্ষণ হলো মলত্যাগের সময় মনে হয় যেন পিচকিরির মতো সজোরে মল বের হচ্ছে।"
+  },
+  {
+    "id": "croton-sym-02",
+    "stem": "খাওয়া বা জল পান করার পরপরই মলত্যাগের প্রচণ্ড বেগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Aloe Soc",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Arsenicum Iodatum",
+        "mid": "arsenicum-iodatum"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "diarrhoea",
+      "after-eating"
+    ],
+    "explanation": "Croton Tiglium-এ সামান্য কিছু আহার করলে বা জল পান করার সাথে সাথেই মলত্যাগের প্রচণ্ড বেগ আসে।"
+  },
+  {
+    "id": "croton-sym-06",
+    "stem": "পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Calcarea Carb",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium-clavatum"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "alternating",
+      "diarrhoea",
+      "cough",
+      "skin"
+    ],
+    "explanation": "Croton Tiglium-এ পর্যায়ক্রমে উদারাময়, কাশি ও চর্মরোগ দেখা যায়।"
+  },
+  {
+    "id": "croton-sym-13",
+    "stem": "অত্যন্ত পাতলা হলুদাভ মল প্রচুর পরিমাণে নির্গত হওয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Elaterium",
+        "mid": "elaterium"
+      },
+      {
+        "text": "Veratrum Alb",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Gratiola",
+        "mid": "gratiola-officinalis"
+      }
+    ],
+    "answer": "croton-tiglium",
+    "tags": [
+      "diarrhoea",
+      "watery-yellow"
+    ],
+    "explanation": "Croton Tiglium-এ মল অত্যন্ত পাতলা, হলুদাভ এবং প্রচুর পরিমাণে নির্গত হয়।"
+  },
+  {
+    "id": "dulc-sym-02",
+    "stem": "ভিজে মাটিতে হাঁটা বা বর্ষায় ভেজার ফলে বাতের ব্যথা বা ডায়রিয়া হওয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Ledum Palustre",
+        "mid": "ledum-palustre"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "rheumatism",
+      "diarrhea",
+      "wet-ground",
+      "rain"
+    ],
+    "explanation": "Dulcamara-এ ভিজে মাটিতে হাঁটা, বর্ষায় ভেজা বা ঠান্ডা ঘরে বসবাসের ফলে যদি বাতের ব্যথা বা ডায়রিয়া হয়, তবে এটি শ্রেষ্ঠ ঔষধ।"
+  },
+  {
+    "id": "dulc-sym-10",
+    "stem": "ঠান্ডা লাগার ফলে ডায়রিয়া, মল সবুজ রঙের এবং মলের সাথে শ্লেষ্মা থাকে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      }
+    ],
+    "answer": "dulcamara",
+    "tags": [
+      "diarrhea",
+      "cold",
+      "green-stool",
+      "mucus"
+    ],
+    "explanation": "Dulcamara-এ ঠান্ডা লাগার ফলে ডায়রিয়া হয়, মল সবুজ রঙের এবং মলের সাথে শ্লেষ্মা থাকে।"
+  },
+  {
+    "id": "hell-sym-11",
+    "stem": "মলের সাথে প্রচুর শ্লেষ্মা নির্গত হয় যা দেখতে অনেকটা জেলি বা সাদা চর্বির মতো — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Helleborus Niger",
+        "mid": "helleborus-niger"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      }
+    ],
+    "answer": "helleborus-niger",
+    "tags": [
+      "stool",
+      "mucus",
+      "jelly-like"
+    ],
+    "explanation": "Helleborus Niger-এ মলের সাথে প্রচুর শ্লেষ্মা নির্গত হয় যা দেখতে অনেকটা জেলি বা সাদা চর্বির মতো।"
+  },
+  {
+    "id": "hyoscyamus-sym-12",
+    "stem": "অসাড়ে মলমূত্র ত্যাগ — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Hyoscyamus",
+        "mid": "hyoscyamus-niger"
+      },
+      {
+        "text": "Opium",
+        "mid": "opium"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia-tinctoria"
+      },
+      {
+        "text": "Gelsemium",
+        "mid": "gelsemium-sempervirens"
+      }
+    ],
+    "answer": "hyoscyamus-niger",
+    "tags": [
+      "involuntary",
+      "stool",
+      "urine"
+    ],
+    "explanation": "Hyoscyamus-এ রোগী অজান্তেই বিছানায় প্রস্রাব বা মলত্যাগ করে ফেলে, বিশেষত টাইফয়েড বা গুরুতর জ্বরের আচ্ছন্ন অবস্থায়।"
+  },
+  {
+    "id": "ign-sym-12",
+    "stem": "ভয় বা দুঃখের পরে ডায়রিয়া — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ignatia",
+        "mid": "ignatia"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Aloe",
+        "mid": "aloe"
+      }
+    ],
+    "answer": "ignatia",
+    "tags": [
+      "diarrhea",
+      "fright"
+    ],
+    "explanation": "Diarrhea from fright Ignatia-এর চিহ্ন।"
+  },
+  {
+    "id": "ipecac-sym-10",
+    "stem": "মল উজ্জ্বল সবুজ রঙের (ঘাসের মতো সবুজ), গাঁজানো বা ফেনা যুক্ত — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "stool",
+      "green-stool",
+      "frothy",
+      "diarrhea"
+    ],
+    "explanation": "Ipecac-এ মল উজ্জ্বল সবুজ রঙের (ঘাসের মতো সবুজ), গাঁজানো বা ফেনা যুক্ত হয়।"
+  },
+  {
+    "id": "ipecac-sym-11",
+    "stem": "শিশুদের দাঁত ওঠার সময়কালীন ডায়রিয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      }
+    ],
+    "answer": "ipecac",
+    "tags": [
+      "teething",
+      "diarrhea",
+      "children"
+    ],
+    "explanation": "Ipecac শিশুদের দাঁত ওঠার সময়কালীন ডায়রিয়ায় কার্যকর।"
+  },
+  {
+    "id": "mag-carb-sym-03",
+    "stem": "মল সবুজ রঙের, পুকুরের সবুজ শ্যাওলা বা ব্যাঙের ডিমের মতো — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "green-stool",
+      "diarrhea",
+      "children"
+    ],
+    "explanation": "Magnesia Carbonica-এ শিশুদের উদরাময়ে মল সম্পূর্ণ সবুজ এবং পানির ওপর ব্যাঙের ডিম বা পুকুরের শ্যাওলার মতো ভেসে থাকে।"
+  },
+  {
+    "id": "mag-carb-sym-04",
+    "stem": "মলের সাথে সাদা রঙের চর্বির মতো টুকরো (দুধের অজীর্ণ অংশ) নির্গত হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Antimonium Crudum",
+        "mid": "antimonium-crudum"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "stool",
+      "white-lumps",
+      "undigested-milk"
+    ],
+    "explanation": "Magnesia Carbonica-এ মলের সাথে সাদা রঙের চর্বির মতো টুকরো (দুধের অজীর্ণ অংশ) নির্গত হয়।"
+  },
+  {
+    "id": "mag-carb-sym-13",
+    "stem": "ডায়রিয়ায় মল টক গন্ধযুক্ত এবং ফেনা ফেনা হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Magnesia Carbonica",
+        "mid": "magnesia-carbonica"
+      },
+      {
+        "text": "Rheum",
+        "mid": "rheum"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      }
+    ],
+    "answer": "magnesia-carbonica",
+    "tags": [
+      "diarrhea",
+      "sour",
+      "frothy"
+    ],
+    "explanation": "Magnesia Carbonica-এ ডায়রিয়ার ক্ষেত্রে মল টক গন্ধযুক্ত ও ফেনা ফেনা হয়।"
+  },
+  {
+    "id": "merc-sym-07",
+    "stem": "মলত্যাগের সময় বা পরে তীব্র কোঁথানি, মনে হয় আরও মল রয়ে গেছে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "tenesmus",
+      "dysentery",
+      "never-get-done"
+    ],
+    "explanation": "Merc Vivus-এ Never-get-done অনুভূতি থাকে।"
+  },
+  {
+    "id": "merc-sym-12",
+    "stem": "আমাশয় মল রক্ত ও পিচ্ছিল শ্লেষ্মা যুক্ত, মলদ্বার ঝুলে পড়ার অনুভূতি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Mercurius Vivus",
+        "mid": "mercurius-vivus"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "mercurius-vivus",
+    "tags": [
+      "dysentery",
+      "blood",
+      "slime",
+      "prolapse"
+    ],
+    "explanation": "Merc Vivus আমাশয়ে রক্ত-শ্লেষ্মা ও মলদ্বার ঝুলে পড়ার অনুভূতি থাকে।"
+  },
+  {
+    "id": "natc-sym-03",
+    "stem": "সামান্য অনিয়মে বা দুধ পান করলেই ডায়রিয়া ও পাকস্থলীর গোলযোগ দেখা দেওয়া — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Carb",
+        "mid": "natrum-carbonicum"
+      },
+      {
+        "text": "Lycopodium",
+        "mid": "lycopodium"
+      },
+      {
+        "text": "Carbo Veg",
+        "mid": "carbo-vegetabilis"
+      },
+      {
+        "text": "Magnesia Carb",
+        "mid": "magnesia-carbonica"
+      }
+    ],
+    "answer": "natrum-carbonicum",
+    "tags": [
+      "stomach",
+      "diarrhea"
+    ],
+    "explanation": "Natrum Carb-এর পাকস্থলী অত্যন্ত দুর্বল এবং সামান্য অনিয়মে বিশেষ করে দুধ খেলে ডায়রিয়া হওয়ার প্রবণতা থাকে।"
+  },
+  {
+    "id": "natp-sym-13",
+    "stem": "শিশুদের টক গন্ধযুক্ত ডায়রিয়া, মল সবুজ বা হলুদ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Rheum Palmatum",
+        "mid": "rheum-palmatum"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "child",
+      "diarrhea",
+      "sour-odor",
+      "green-yellow"
+    ],
+    "explanation": "Natrum Phos-এ টক গন্ধযুক্ত ডায়রিয়া হয়।"
+  },
+  {
+    "id": "natp-sym-14",
+    "stem": "মলত্যাগের পর মলদ্বারে চুলকানি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Natrum Phosphoricum",
+        "mid": "natrum-phosphoricum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Teucrium Marum",
+        "mid": "teucrium-marum"
+      },
+      {
+        "text": "Cina",
+        "mid": "cina"
+      }
+    ],
+    "answer": "natrum-phosphoricum",
+    "tags": [
+      "anus",
+      "itching",
+      "after-stool"
+    ],
+    "explanation": "Natrum Phos-এ মলত্যাগের পর মলদ্বারে চুলকানি হয়।"
+  },
+  {
+    "id": "petr-sym-05",
+    "stem": "ডায়রিয়া শুধুমাত্র দিনের বেলা হয়, রাতে হয় না — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      },
+      {
+        "text": "Mercurius Corrosivus",
+        "mid": "mercurius-corrosivus"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "diarrhea",
+      "daytime",
+      "stool"
+    ],
+    "explanation": "Petroleum-এ ডায়রিয়া সাধারণত শুধুমাত্র দিনের বেলা হওয়ার প্রবণতা থাকে; রাতে সাধারণত হয় না।[reference:24]"
+  },
+  {
+    "id": "petr-sym-16",
+    "stem": "মল অত্যন্ত দুর্গন্ধযুক্ত এবং দেখতে কালচে রঙের হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Petroleum",
+        "mid": "petroleum"
+      },
+      {
+        "text": "Mercurius",
+        "mid": "mercurius"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Baptisia",
+        "mid": "baptisia"
+      }
+    ],
+    "answer": "petroleum",
+    "tags": [
+      "stool",
+      "offensive",
+      "dark"
+    ],
+    "explanation": "Petroleum-এ মল অত্যন্ত দুর্গন্ধযুক্ত এবং দেখতে কালচে রঙের হয়।[reference:35]"
+  },
+  {
+    "id": "podo-sym-01",
+    "stem": "ডায়রিয়া, প্রচুর দুর্গন্ধযুক্ত মল পিচকারীর মতো বের হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Croton Tiglium",
+        "mid": "croton-tiglium"
+      },
+      {
+        "text": "Gambogia",
+        "mid": "gambogia"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "diarrhea",
+      "profuse",
+      "offensive",
+      "gushing"
+    ],
+    "explanation": "Podophyllum-এ প্রচুর দুর্গন্ধযুক্ত মল পিচকারীর মতো বের হয়।"
+  },
+  {
+    "id": "podo-sym-02",
+    "stem": "সকালে ব্যথা ছাড়া প্রচুর মল বের হয়, ভোর থেকে সকাল ১০টা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "morning-diarrhea",
+      "painless",
+      "profuse"
+    ],
+    "explanation": "Podophyllum-এ সকালে ব্যথাহীন প্রচুর মল হয়।"
+  },
+  {
+    "id": "podo-sym-03",
+    "stem": "পর্যায়ক্রমে ডায়রিয়া ও কোষ্ঠবদ্ধতা, কোষ্ঠে মাথাব্যথা বৃদ্ধি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Alumina",
+        "mid": "alumina"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "alternating",
+      "diarrhea",
+      "constipation",
+      "headache"
+    ],
+    "explanation": "Podophyllum-এ ডায়রিয়া ও কোষ্ঠবদ্ধতা পর্যায়ক্রমে আসে।"
+  },
+  {
+    "id": "podo-sym-09",
+    "stem": "মল পচা মড়ার মতো দুর্গন্ধযুক্ত, এত বেশি যে অবাক লাগে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Pyrogenium",
+        "mid": "pyrogenium"
+      },
+      {
+        "text": "Baptisia Tinctoria",
+        "mid": "baptisia-tinctoria"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "stool",
+      "offensive",
+      "putrid",
+      "profuse"
+    ],
+    "explanation": "Podophyllum-এ মল পচা মড়ার মতো গন্ধযুক্ত ও প্রচুর।"
+  },
+  {
+    "id": "podo-sym-10",
+    "stem": "দাঁত ওঠার সময় ও গ্রীষ্মকালীন ডায়রিয়া — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Chamomilla",
+        "mid": "chamomilla"
+      },
+      {
+        "text": "Calcarea Carbonica",
+        "mid": "calcarea-carbonica"
+      },
+      {
+        "text": "Rheum Palmatum",
+        "mid": "rheum-palmatum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "dentition",
+      "summer-diarrhea",
+      "child"
+    ],
+    "explanation": "Podophyllum দাঁত ওঠা ও গ্রীষ্মকালীন ডায়রিয়ায় কার্যকর।"
+  },
+  {
+    "id": "podo-sym-12",
+    "stem": "মলত্যাগের পর অত্যন্ত ক্লান্ত ও অবসন্ন — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "exhaustion",
+      "after-stool",
+      "weakness"
+    ],
+    "explanation": "Podophyllum-এ মলত্যাগের পর প্রচণ্ড ক্লান্তি থাকে।"
+  },
+  {
+    "id": "podo-sym-20",
+    "stem": "মলের সাথে প্রচুর বায়ু নিঃসরণ — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Podophyllum Peltatum",
+        "mid": "podophyllum-peltatum"
+      },
+      {
+        "text": "Aloe Socotrina",
+        "mid": "aloe-socotrina"
+      },
+      {
+        "text": "Argentum Nitricum",
+        "mid": "argentum-nitricum"
+      },
+      {
+        "text": "Natrum Sulphuricum",
+        "mid": "natrum-sulphuricum"
+      }
+    ],
+    "answer": "podophyllum-peltatum",
+    "tags": [
+      "flatus",
+      "stool",
+      "profuse",
+      "gushing"
+    ],
+    "explanation": "Podophyllum-এ মলের সাথে প্রচুর বায়ু বের হয়।"
+  },
+  {
+    "id": "sanguinaria-sym-09",
+    "stem": "সর্দি হয়ে ডাইরিয়া হয়, উদরাময়ে উপশম হয়, এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Allium Cepa",
+        "mid": "allium-cepa"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Sanguinaria Canadensis",
+        "mid": "sanguinaria-canadensis"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla"
+      }
+    ],
+    "answer": "sanguinaria-canadensis",
+    "tags": [
+      "coryza",
+      "diarrhea",
+      "amelioration"
+    ],
+    "explanation": "Sanguinaria Canadensis এ সর্দি হয়ে ডাইরিয়া হয় এবং উদরাময়ে উপশম হয়।"
+  },
+  {
+    "id": "sani-sym-08",
+    "stem": "মলের রঙ ও প্রকৃতি প্রতিবার বা বার বার পরিবর্তন হওয়া (Variable stool) — এই লক্ষণগুলোর জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sanicula",
+        "mid": "sanicula-aqua"
+      },
+      {
+        "text": "Pulsatilla",
+        "mid": "pulsatilla-nigricans"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      },
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      }
+    ],
+    "answer": "sanicula-aqua",
+    "tags": [
+      "stool",
+      "changeable"
+    ],
+    "explanation": "Sanicula-এ মলের পরিবর্তনশীলতা দেখা যায়; একবার অত্যন্ত কঠিন আবার পর মুহূর্তেই পাতলা বা ভিন্ন রঙের মলত্যাগ হয়।"
+  },
+  {
+    "id": "sel-sym-02",
+    "stem": "মলত্যাগ কালেও বীর্য পড়ে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Phosphoricum Acidum",
+        "mid": "phosphoricum-acidum"
+      },
+      {
+        "text": "Agnus Castus",
+        "mid": "agnus-castus"
+      },
+      {
+        "text": "Conium Maculatum",
+        "mid": "conium-maculatum"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "spermatorrhoea",
+      "stool",
+      "involuntary"
+    ],
+    "explanation": "Selenium-এ মলত্যাগের সময় বীর্য পড়ে।"
+  },
+  {
+    "id": "sel-sym-11",
+    "stem": "সর্দি ভালো হলে ডায়রিয়া হয় — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Selenium Metallicum",
+        "mid": "selenium-metallicum"
+      },
+      {
+        "text": "Lachesis",
+        "mid": "lachesis"
+      },
+      {
+        "text": "Sanguinaria",
+        "mid": "sanguinaria"
+      },
+      {
+        "text": "Dulcamara",
+        "mid": "dulcamara"
+      }
+    ],
+    "answer": "selenium-metallicum",
+    "tags": [
+      "coryza",
+      "better",
+      "diarrhea",
+      "alternating"
+    ],
+    "explanation": "Selenium-এ সর্দি ভালো হলে ডায়রিয়া হয়।"
+  },
+  {
+    "id": "sul-sym-09",
+    "stem": "সকালের দিকে হঠাৎ মলত্যাগের বেগে ঘুম ভেঙে যাওয়া এবং মলত্যাগের সময় মলদ্বারে তীব্র জ্বালা — কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Sulphur",
+        "mid": "sulphur"
+      },
+      {
+        "text": "Aloe",
+        "mid": "aloe"
+      },
+      {
+        "text": "Podophyllum",
+        "mid": "podophyllum"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      }
+    ],
+    "answer": "sulphur",
+    "tags": [
+      "rectum",
+      "morning-diarrhea",
+      "hurried"
+    ],
+    "explanation": "Sulphur-এ সকালের দিকে তাড়া দিয়ে মলত্যাগ ও মলদ্বারে প্রদাহ থাকে।"
+  },
+  {
+    "id": "verat-sym-02",
+    "stem": "প্রচুর পরিমাণে চাল ধোয়া পানির মতো মলত্যাগ এবং সাথে প্রচণ্ড বমি — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Arsenicum Album",
+        "mid": "arsenicum-album"
+      },
+      {
+        "text": "Colchicum",
+        "mid": "colchicum"
+      },
+      {
+        "text": "Ipecac",
+        "mid": "ipecac"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "cholera",
+      "diarrhea",
+      "vomiting",
+      "rice-water-stool"
+    ],
+    "explanation": "Veratrum Album-এ প্রচুর পরিমাণে চাল ধোয়া পানির মতো মলত্যাগ এবং সাথে প্রচণ্ড বমি হয়। কলেরার এটি একটি প্রধান ঔষধ।"
+  },
+  {
+    "id": "verat-sym-12",
+    "stem": "মলত্যাগের পর চরম দুর্বলতা অনুভব করা — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "China",
+        "mid": "china"
+      },
+      {
+        "text": "Phosphoric Acid",
+        "mid": "phosphoric-acid"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "weakness",
+      "after-stool",
+      "prostration"
+    ],
+    "explanation": "Veratrum Album-এ মলত্যাগের পর চরম দুর্বলতা অনুভব করা হয়।"
+  },
+  {
+    "id": "verat-sym-16",
+    "stem": "লক্ষণ বৃদ্ধি পায় নড়াচড়া করলে, খাওয়ার পর, মলত্যাগের সময় এবং গরমে — এই লক্ষণের জন্য কোন ঔষধটি উপযুক্ত?",
+    "options": [
+      {
+        "text": "Veratrum Album",
+        "mid": "veratrum-album"
+      },
+      {
+        "text": "Bryonia",
+        "mid": "bryonia"
+      },
+      {
+        "text": "Rhus Toxicodendron",
+        "mid": "rhus-toxicodendron"
+      },
+      {
+        "text": "Nux Vomica",
+        "mid": "nux-vomica"
+      }
+    ],
+    "answer": "veratrum-album",
+    "tags": [
+      "modalities",
+      "aggravation",
+      "motion",
+      "eating",
+      "stool",
+      "heat"
+    ],
+    "explanation": "Veratrum Album-এর লক্ষণ নড়াচড়া করলে, খাওয়ার পর, মলত্যাগের সময় এবং গরমে বৃদ্ধি পায়।"
+  }
+]
