@@ -1,947 +1,280 @@
-<!DOCTYPE html>
-<html lang="bn">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>রোগলক্ষণ ভিত্তিক কুইজ - নির্ভীক হোমিও</title>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<style>
-:root{--primary:#4361ee;--bg:#f4f6fb;--card:#fff;--text:#1e293b;--muted:#64748b;--line:#e2e8f0;--radius:18px;--shadow:0 2px 14px rgba(15,23,42,.07)}
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Hind Siliguri',sans-serif}
-body{background:var(--bg);color:var(--text);padding-bottom:48px}
-a{text-decoration:none}
-.main-header{background:#fff;box-shadow:0 1px 6px rgba(0,0,0,.05);position:sticky;top:0;z-index:1000}
-.nav-container{max-width:1080px;margin:0 auto;padding:10px 16px;display:flex;justify-content:flex-start;align-items:center;gap:4px;flex-wrap:wrap}
-.nav-link{color:var(--text);font-weight:600;font-size:.92rem;padding:7px 10px;border-radius:8px}
-.nav-link:hover{background:#eef2ff;color:var(--primary)}
-.nav-link.active{background:var(--primary);color:#fff}
-.hero{max-width:1080px;margin:18px auto 0;padding:0 16px;text-align:center}
-.hero h1{font-size:1.7rem;font-weight:800;color:var(--primary);line-height:1.4}
-.hero p{color:var(--muted);margin-top:6px;font-size:.95rem;line-height:1.6;max-width:640px;margin-left:auto;margin-right:auto}
-.hero p b{color:var(--text)}
-.tools{max-width:1080px;margin:16px auto 0;padding:0 16px;display:flex;justify-content:flex-end;gap:8px}
-.tool-btn{border:1px solid var(--line);background:#fff;padding:6px 13px;border-radius:999px;font-weight:600;font-size:.84rem;cursor:pointer;color:var(--text)}
-.tool-btn:hover{border-color:var(--primary);color:var(--primary)}
-.sections-grid{max-width:1080px;margin:14px auto 0;padding:0 16px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:start}
-.section-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;transition:.2s}
-.section-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(15,23,42,.1)}
+<header class="bg-primary text-white sticky top-0 z-50 shadow-md">
+    <style>
+        /* ===== ড্রপডাউন যোগাযোগ সূত্র (মাউস নিচে নামালেও মেনু থাকে) ===== */
+        .relative.group .absolute {
+            top: calc(100% - 6px) !important;
+            padding-top: 6px !important;
+        }
+        /* প্যারেন্ট এলিমেন্টে সামান্য প্যাডিং */
+        .relative.group {
+            padding-bottom: 4px;
+        }
+        /* ডেস্কটপে ড্রপডাউন মেনু খোলা রাখার নিশ্চয়তা */
+        .relative.group:hover > .absolute {
+            display: block !important;
+        }
+        /* মোবাইলে সরাসরি দেখানো বাটনগুলোর স্টাইল */
+        .mobile-header-btn {
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.1);
+            font-size: 11px;
+            padding: 6px 10px;
+            border-radius: 9999px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .mobile-header-btn:hover {
+            background: rgba(255,255,255,0.25);
+        }
+        
+        /* 📝 পিসির জন্য ডানপাশের সাবমেনু (Nested Dropdown) স্টাইল */
+        .nested-dropdown {
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            margin-left: 2px;
+        }
+        .nested-parent:hover .nested-dropdown {
+            display: block !important;
+        }
+    </style>
+    
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex items-center justify-between py-4">
+            
+            <a href="index.html" class="flex-shrink-0 hover:opacity-80 transition">
+                <span class="text-white font-bold text-xl md:text-2xl tracking-wide">নির্ভীক হোমিও</span>
+            </a>
 
-.section-head{width:100%;border:none;background:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:16px;text-align:left;border-top:4px solid var(--accent)}
-.sec-icon{width:48px;height:48px;min-width:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;background:var(--accent-soft)}
-.sec-info{flex:1;min-width:0}
-.sec-info h2{font-size:1.08rem;line-height:1.35}
-.sec-meta{font-size:.82rem;color:var(--muted);margin-top:2px}
-.sec-meta b{color:var(--accent)}
-.chev{width:30px;height:30px;min-width:30px;border-radius:50%;background:#f1f5f9;display:flex;align-items:center;justify-content:center;color:var(--muted);transition:transform .25s;font-size:.8rem}
-.section-card.active{border-color:var(--accent);box-shadow:0 8px 24px rgba(15,23,42,.12)}
-.section-card.active .chev{transform:rotate(180deg);background:var(--accent);color:#fff}
-@keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
-.tags-panel{max-width:1080px;margin:18px auto 0;padding:0 16px;display:none}
-.tags-panel.show{display:block;animation:fadeIn .25s ease}
-.panel-head{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:14px 14px 0 0;padding:14px 16px;border-bottom:none}
-.panel-head h2{font-size:1.12rem}
-.panel-head p{font-size:.84rem;color:var(--muted);margin-top:1px}
-.panel-head p b{color:var(--accent)}
-.panel-close{margin-left:auto;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:.85rem;color:var(--muted)}
-.panel-close:hover{background:#fee2e2;color:#dc2626;border-color:#fecaca}
-.tags-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(185px,1fr));gap:12px;background:#fff;border:1px solid var(--line);border-radius:0 0 14px 14px;padding:16px;box-shadow:var(--shadow)}
-.tag-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 10px;text-align:center;color:var(--text);transition:.2s;display:flex;flex-direction:column;gap:3px;align-items:center;justify-content:center}
-.tag-card:hover{border-color:var(--accent);background:#f0f4ff;transform:translateY(-2px)}
-.tag-bn{font-weight:700;font-size:.9rem;line-height:1.45}
-.tag-en{color:var(--muted);font-size:.76rem;line-height:1.4}
-.tag-count{font-size:.72rem;background:#f1f5f9;color:#475569;padding:2px 8px;border-radius:999px;margin-top:4px;font-weight:600}
-.tag-card:hover .tag-bn{color:var(--accent)}
-.tag-card:hover .tag-count{background:#e0e7ff;color:var(--accent)}
-@media(max-width:900px){.sections-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.sections-grid{grid-template-columns:1fr}.hero h1{font-size:1.45rem}.tags-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}}
-</style>
-</head>
-<body>
-<header class="main-header">
-<div class="nav-container">
-<a href="https://nirvik.mooo.com/" class="nav-link">নির্ভীক হোমিও</a>
-<a href="https://nirvik.mooo.com/quiz/index.html" class="nav-link">কুইজ</a>
-<a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link active">রোগলক্ষণ ভিত্তিক কুইজ</a>
-<a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link">ঔষধ ভিত্তিক কুইজ</a>
-<a href="https://nirvik.mooo.com/medica/index.html" class="nav-link">মেটেরিয়া মেডিকা</a>
-<!-- নতুন যোগ করা কুইজ লিংক -->
-<a href="https://nirvik.mooo.com/quiz/index.html" class="nav-link">কুইজ</a>
-</div>
+            <!-- 💻 ডেস্কটপ নেভিগেশন মেনু -->
+            <nav class="hidden md:flex items-center gap-3.5 text-base font-medium">
+                <a href="select.html" class="hover:bg-white/20 px-3.5 py-3 rounded-2xl transition">কেস টেকিং</a>
+                <a href="prescription.html" class="hover:bg-white/20 px-3.5 py-3 rounded-2xl transition">প্রেসক্রিপশন</a>
+                <a href="medica/index.html" class="hover:bg-white/20 px-3.5 py-3 rounded-2xl transition">মে.মেডিকা</a>
+                <a href="https://nirvik.mooo.com/quiz/index.html" class="hover:bg-white/20 px-3.5 py-3 rounded-2xl transition">কুইজ</a>
+                
+                <div class="relative group">
+                    <button class="flex items-center gap-1 hover:bg-white/20 px-3.5 py-3 rounded-2xl transition focus:outline-none">
+                        সার্বদেহিক রোগ <i class="fas fa-chevron-down text-xs ml-1"></i>
+                    </button>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2 left-0 z-50">
+                        <a href="jor.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-temperature-high mr-2 text-teal-600 w-5"></i>জ্বর সর্দি কাশি</a>
+                        <a href="pain.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-bolt mr-2 text-teal-600 w-5"></i>ব্যথা</a>
+                        <a href="tumor.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-circle mr-2 text-teal-600 w-5"></i>টিউমার</a>
+                        <a href="abscess.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-droplet mr-2 text-teal-600 w-5"></i>ফোঁড়া</a>
+                        <a href="pressure.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-utensils mr-2 text-teal-600 w-5"></i>প্রেসার গ্রন্থি শিরা</a>
+                        <a href="bloodbonemuscle.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-bone mr-2 text-teal-600 w-5"></i>রক্ত হাড় পেশী</a>
+                        <a href="mental.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-brain mr-2 text-teal-600 w-5"></i>মানসিক রোগ সকল</a>
+                        <a href="skin.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-hand-sparkles mr-2 text-teal-600 w-5"></i>চর্মরোগ</a>
+                    </div>
+                </div>
+
+                <!-- উপর অঙ্গের রোগ -->
+                <div class="relative group">
+                    <button class="flex items-center gap-1 hover:bg-white/20 px-3.5 py-3 rounded-2xl transition focus:outline-none">
+                        উপর অঙ্গের রোগ <i class="fas fa-chevron-down text-xs ml-1"></i>
+                    </button>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2 left-0 z-50 max-h-[85vh] overflow-y-auto">
+                        <a href="head.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-brain mr-2 text-teal-600 w-5"></i>মাথা</a>
+                        <a href="eyes.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-eye mr-2 text-teal-600 w-5"></i>চোখ</a>
+                        <a href="ear.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-ear-listen mr-2 text-teal-600 w-5"></i>কান</a>
+                        <a href="nose.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-allergies mr-2 text-teal-600 w-5"></i>নাক</a>
+                        <a href="mouthful.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-teeth mr-2 text-teal-600 w-5"></i>মুখ হইতে টুটি ও ঘাড়</a>
+                        <a href="teeth.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-tooth mr-2 text-teal-600 w-5"></i>দাঁত</a>
+                        
+                        <div class="border-t border-gray-100 my-1"></div>
+                        <a href="chest.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-lungs mr-2 text-teal-600 w-5"></i>বুকের সমস্যা</a>
+                        <a href="hands.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-hand mr-2 text-teal-600 w-5"></i>হাতের সমস্যা</a>
+                        <a href="back.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-child mr-2 text-teal-600 w-5"></i>পিঠের সমস্যা</a>
+                        <a href="stomach.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-apple-alt mr-2 text-teal-600 w-5"></i>পাকস্থলী</a>
+                    </div>
+                </div>
+
+                <div class="relative group">
+                    <button class="flex items-center gap-1 hover:bg-white/20 px-3.5 py-3 rounded-2xl transition focus:outline-none">
+                        নিচ অঙ্গের রোগ <i class="fas fa-chevron-down text-xs ml-1"></i>
+                    </button>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-72 mt-2 left-0 z-50">
+                        <a href="piles.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-circle-dot mr-2 text-teal-600 w-5"></i>অর্শ</a>
+                        <a href="urethral.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-droplet mr-2 text-teal-600 w-5"></i>মূত্রনালী</a>
+                        <a href="leg.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-shoe-prints mr-2 text-teal-600 w-5"></i>পা</a>
+                        <a href="stool.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-toilet mr-2 text-teal-600 w-5"></i>মল ও কৃমি</a>
+                        <a href="anus.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-water mr-2 text-teal-600 w-5"></i>মলদ্বার</a>
+                        <a href="male.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-person mr-2 text-teal-600 w-5"></i>যৌনাঙ্গ পুরুষ</a>
+                        <a href="female.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-person-dress mr-2 text-teal-600 w-5"></i>যৌনাঙ্গ নারী</a>
+                    </div>
+                </div>
+
+                <div class="relative group">
+                    <button class="flex items-center gap-1 hover:bg-white/20 px-3.5 py-3 rounded-2xl transition focus:outline-none">
+                        একাউন্ট <i class="fas fa-chevron-down text-xs ml-1"></i>
+                    </button>
+                    <div class="absolute hidden bg-white text-gray-800 shadow-2xl rounded-3xl py-4 w-60 mt-2 right-0 z-50">
+                        <a href="login.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-sign-in-alt mr-2 text-teal-600 w-5"></i>লগ ইন</a>
+                        <a href="register.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-user-plus mr-2 text-teal-600 w-5"></i>রেজিস্ট্রেশন</a>
+                        <a href="dashboard-gate.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-user-circle mr-2 text-teal-600 w-5"></i>ড্যাশবোর্ড</a>
+                        <a href="forgot-password.html" class="block px-6 py-3 hover:bg-teal-50 transition"><i class="fas fa-key mr-2 text-teal-600 w-5"></i>পাসওয়ার্ড ভুলে গেছি</a>
+                        <div class="border-t border-gray-100 my-1"></div>
+                        <a href="#" class="nh-logout block px-6 py-3 hover:bg-red-50 text-red-600 transition"><i class="fas fa-sign-out-alt mr-2 w-5"></i>লগ আউট</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- 📱 মোবাইল বার (কেসটেকিং ও প্রেসক্রিপশন বাটন বাইরে থাকবে) -->
+            <div class="md:hidden flex items-center gap-1">
+                <a href="select.html" class="mobile-header-btn"><i class="fas fa-hospital text-[10px] mr-0.5"></i>কেস টেকিং</a>
+                <a href="prescription.html" class="mobile-header-btn"><i class="fas fa-file-invoice text-[10px] mr-0.5"></i>প্রেসক্রিপশন</a>
+                
+                <button id="mobile-menu-btn" class="text-xl p-2 text-white hover:bg-white/10 rounded-full transition focus:outline-none ml-0.5" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 📱 মোবাইল ৩-লাইন ড্রপডাউন মেনু -->
+    <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-teal-700 py-3">
+        <div class="px-4 flex flex-col gap-1.5 text-base max-h-[80vh] overflow-y-auto">
+            
+            <a href="medica/index.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white font-medium flex items-center gap-2">📖 মে.মেডিকা</a>
+            <a href="https://nirvik.mooo.com/quiz/index.html" class="px-4 py-2.5 hover:bg-white/20 rounded-xl text-white font-medium flex items-center gap-2">🎯 কুইজ</a>
+
+            <!-- 🔧 মোবাইল সার্বদেহিক রোগ -->
+            <details class="group">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
+                    <span>🌡️ সার্বদেহিক রোগ</span>
+                    <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+                </summary>
+                <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
+                    <a href="jor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🤒 জ্বর সর্দি কাশি</a>
+                    <a href="pain.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">⚡ ব্যথা</a>
+                    <a href="tumor.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">⚫ টিউমার</a>
+                    <a href="abscess.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">💧 ফোঁড়া</a>
+                    <a href="pressure.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🩺 প্রেসার গ্রন্থি শিরা</a>
+                    <a href="bloodbonemuscle.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦴 রক্ত হাড় পেশী</a>
+                    <a href="mental.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧠 মানসিক রোগ সকল</a>
+                    <a href="skin.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">✨ চর্মরোগ</a>
+                </div>
+            </details>
+
+            <!-- উপর ও মাঝ অঙ্গের রোগ -->
+            <details class="group">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
+                    <span>👆 উপর অঙ্গের রোগ</span>
+                    <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+                </summary>
+                <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
+                    <a href="head.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧠 মাথা</a>
+                    <a href="eyes.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👁️ চোখ</a>
+                    <a href="ear.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👂 কান</a>
+                    <a href="nose.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👃 নাক</a>
+                    <a href="mouthful.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👅 মুখ হইতে টুটি ও ঘাড়</a>
+                    <a href="teeth.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦷 দাঁত</a>
+                     <div class="border-t border-teal-700/50 my-1"></div>
+                    <a href="chest.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🫁 বুক সমস্যা</a>
+                    <a href="hands.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">✋ হাতের সমস্যা</a>
+                    <a href="back.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🧍‍♂️ পিঠের সমস্যা</a>
+                    <a href="stomach.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🍲 পাকস্থলী</a>
+                </div>
+            </details>
+
+            <details class="group">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none">
+                    <span>🦶 নিচ অঙ্গের রোগ</span>
+                    <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+                </summary>
+                <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
+                    <a href="piles.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔴 অর্শ</a>
+                    <a href="urethral.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">💧 মূত্রনালী</a>
+                    <a href="leg.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🦶 পা</a>
+                    <a href="stool.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🐛 মল ও কৃমি</a>
+                    <a href="anus.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🌊 মলদ্বার</a>
+                    <a href="male.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👨 যোনাঙ্গ পুরুষ</a>
+                    <a href="female.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👩 যৌনাঙ্গ নারী</a>
+                </div>
+            </details>
+
+            <details class="group">
+                <summary class="px-4 py-2.5 hover:bg-white/20 rounded-xl cursor-pointer list-none flex items-center justify-between text-white focus:outline-none border-t border-teal-700/50 mt-2 pt-3">
+                    <span>🔑 একাউন্ট </span>
+                    <span class="text-xs transition-transform group-open:rotate-180">▼</span>
+                </summary>
+                <div class="pl-4 flex flex-col gap-1 mt-1 bg-teal-800/30 rounded-xl p-1">
+                    <a href="login.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔐 লগ ইন </a>
+                    <a href="register.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">📝 রেজিস্ট্রেশন</a>
+                    <a href="dashboard-gate.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">👤 ড্যাশবোর্ড</a>
+                    <a href="forgot-password.html" class="px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-white">🔑 পাসওয়ার্ড ভুলে গেছি</a>
+                    <a href="#" class="nh-logout px-4 py-2 hover:bg-white/20 rounded-xl text-sm text-red-400 border-t border-teal-800 mt-1 pt-1">🚪 লগ আউট</a>
+                </div>
+            </details>
+
+        </div>
+    </div>
+
+    <script>
+        // 📱 মোবাইল মেনু টগল ফাংশন
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            if (menuBtn && mobileMenu) {
+                menuBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    mobileMenu.classList.toggle('hidden');
+                });
+
+                document.addEventListener('click', function(e) {
+                    if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                });
+            }
+        });
+
+        // 🔐 লগআউট ইউজার ফাংশন
+        function logoutUser() {
+            if (typeof window.isLoggingOut !== 'undefined') {
+                window.isLoggingOut = true;
+            }
+            if (typeof localStorage !== 'undefined') {
+                localStorage.setItem('isLoggingOut', 'true');
+            }
+            
+            if (typeof firebase !== 'undefined' && firebase.auth) {
+                firebase.auth().signOut().then(function() {
+                    if (typeof localStorage !== 'undefined') {
+                        localStorage.removeItem('user'); 
+                    }
+                    if (typeof sessionStorage !== 'undefined') {
+                        sessionStorage.clear();
+                    }
+                    
+                    alert('✅ সফলভাবে লগআউট হয়েছে!');
+                    window.location.replace('login.html');
+                }).catch(function(error) {
+                    console.error("লগআউট ত্রুটি:", error);
+                    if (typeof localStorage !== 'undefined') {
+                        localStorage.removeItem('isLoggingOut');
+                    }
+                    if (typeof window.isLoggingOut !== 'undefined') {
+                        window.isLoggingOut = false; 
+                    }
+                });
+            } else {
+                window.location.replace('login.html');
+            }
+        }
+
+        window.addEventListener('click', function(e) {
+            const logoutBtn = e.target.closest('.nh-logout');
+            if (logoutBtn) {
+                e.preventDefault();
+                if (confirm('আপনি কি নিশ্চিতভাবে লগআউট করতে চান?')) {
+                    logoutUser();
+                }
+            }
+        });
+    </script>
 </header>
-
-<div class="hero">
-<h1>🩺 রোগলক্ষণ ভিত্তিক কুইজ</h1>
-<p>৬টি কার্ড থেকে আপনার অঙ্গ / বিষয় বাছুন। <b>কার্ডে ক্লিক করলেই</b> নিচে ওই সেকশনের <b>সব ট্যাগ একসাথে</b> দেখা যাবে — ট্যাগে ক্লিক করলেই কুইজ শুরু হবে।</p>
-</div>
-
-<div class="sections-grid" id="sectionsGrid"></div>
-
-<div class="tags-panel" id="tagsPanel">
-<div class="panel-head">
-<span class="sec-icon" id="panelIcon" style="background:#eef2ff">🧠</span>
-<div style="flex:1;min-width:0"><h2 id="panelTitle">উপরের অঙ্গ</h2><p id="panelMeta"></p></div>
-<button class="panel-close" id="panelClose" aria-label="বন্ধ করুন">✕</button>
-</div>
-<div class="tags-grid" id="tagsGrid"></div>
-</div>
-
-<script>
-// ৮৫টি মেইন ট্যাগ — আগের ডেটা অপরিবর্তিত, শুধু দেখানোর ধরন বদলেছে
-const symptomsList = [
-  {
-    "bn": "মন",
-    "en": "Mind",
-    "file": "mind.json",
-    "base": "mind",
-    "count": 284,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 1
-  },
-  {
-    "bn": "ভয়, উদ্বেগ ও আতঙ্ক",
-    "en": "Fear, Anxiety & Phobia",
-    "file": "fear-anxiety-and-phobia.json",
-    "base": "fear-anxiety-and-phobia",
-    "count": 72,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 2
-  },
-  {
-    "bn": "রাগ, মেজাজ ও বিরক্তি",
-    "en": "Anger, Irritability & Temper",
-    "file": "anger-irritability-and-temper.json",
-    "base": "anger-irritability-and-temper",
-    "count": 63,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 3
-  },
-  {
-    "bn": "দুঃখ, বিষণ্ণতা ও শোক",
-    "en": "Sadness, Depression & Grief",
-    "file": "sadness-depression-and-grief.json",
-    "base": "sadness-depression-and-grief",
-    "count": 52,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 4
-  },
-  {
-    "bn": "স্মৃতি, মনোযোগ ও চিন্তা",
-    "en": "Memory, Concentration & Thinking",
-    "file": "memory-concentration-and-thinking.json",
-    "base": "memory-concentration-and-thinking",
-    "count": 34,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 5
-  },
-  {
-    "bn": "ভ্রম, অলীক দর্শন ও পাগলামি",
-    "en": "Delusion, Hallucination & Insanity",
-    "file": "delusion-hallucination-and-insanity.json",
-    "base": "delusion-hallucination-and-insanity",
-    "count": 48,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 6
-  },
-  {
-    "bn": "আচরণ, অভ্যাস ও স্বভাব",
-    "en": "Behaviour, Habits & Character",
-    "file": "behaviour-habits-and-character.json",
-    "base": "behaviour-habits-and-character",
-    "count": 80,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 7
-  },
-  {
-    "bn": "ঘুম, অনিদ্রা ও স্বপ্ন",
-    "en": "Sleep, Insomnia & Dreams",
-    "file": "sleep-insomnia-and-dreams.json",
-    "base": "sleep-insomnia-and-dreams",
-    "count": 49,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 8
-  },
-  {
-    "bn": "গঠন, শীতকাতর / গরমকাতর",
-    "en": "Constitution, Build & Thermal",
-    "file": "constitution-build-and-thermal.json",
-    "base": "constitution-build-and-thermal",
-    "count": 152,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 9
-  },
-  {
-    "bn": "মায়াজম, প্রবণতা ও বংশগত",
-    "en": "Miasm, Diathesis & Heredity",
-    "file": "miasm-diathesis-and-heredity.json",
-    "base": "miasm-diathesis-and-heredity",
-    "count": 39,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 10
-  },
-  {
-    "bn": "তামাক, মদ ও নেশা",
-    "en": "Tobacco, Alcohol & Stimulants",
-    "file": "tobacco-alcohol-and-stimulants.json",
-    "base": "tobacco-alcohol-and-stimulants",
-    "count": 15,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 11
-  },
-  {
-    "bn": "নড়াচড়া, ভঙ্গি ও বিশ্রাম",
-    "en": "Motion, Posture & Rest",
-    "file": "motion-posture-and-rest.json",
-    "base": "motion-posture-and-rest",
-    "count": 122,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 12
-  },
-  {
-    "bn": "খিঁচুনি, কাঁপুনি ও ফড়ফড়",
-    "en": "Convulsion, Tremor & Twitching",
-    "file": "convulsion-tremor-and-twitching.json",
-    "base": "convulsion-tremor-and-twitching",
-    "count": 34,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 13
-  },
-  {
-    "bn": "অনুভূতি - সাধারণ",
-    "en": "Sensation - General Feelings",
-    "file": "sensation-general-feelings.json",
-    "base": "sensation-general-feelings",
-    "count": 41,
-    "section": "মানসিক ও স্বভাবগত",
-    "no": 14
-  },
-  {
-    "bn": "মাথা, চুল ও মাথার চামড়া",
-    "en": "Head, Hair & Scalp",
-    "file": "head-hair-and-scalp.json",
-    "base": "head-hair-and-scalp",
-    "count": 59,
-    "section": "উপরের অঙ্গ",
-    "no": 15
-  },
-  {
-    "bn": "মাথাব্যথা",
-    "en": "Headache",
-    "file": "headache.json",
-    "base": "headache",
-    "count": 41,
-    "section": "উপরের অঙ্গ",
-    "no": 16
-  },
-  {
-    "bn": "মাথা ঘোরা ও অজ্ঞান",
-    "en": "Vertigo, Dizziness & Fainting",
-    "file": "vertigo-dizziness-and-fainting.json",
-    "base": "vertigo-dizziness-and-fainting",
-    "count": 38,
-    "section": "উপরের অঙ্গ",
-    "no": 17
-  },
-  {
-    "bn": "চোখ ও দৃষ্টি",
-    "en": "Eye & Vision",
-    "file": "eye-and-vision.json",
-    "base": "eye-and-vision",
-    "count": 67,
-    "section": "উপরের অঙ্গ",
-    "no": 18
-  },
-  {
-    "bn": "চোখের রোগ - অঞ্জনি, ছানি",
-    "en": "Eye Diseases - Styes, Cataract",
-    "file": "eye-diseases-styes-cataract.json",
-    "base": "eye-diseases-styes-cataract",
-    "count": 46,
-    "section": "উপরের অঙ্গ",
-    "no": 19
-  },
-  {
-    "bn": "কান ও শ্রবণ",
-    "en": "Ear & Hearing",
-    "file": "ear-and-hearing.json",
-    "base": "ear-and-hearing",
-    "count": 19,
-    "section": "উপরের অঙ্গ",
-    "no": 20
-  },
-  {
-    "bn": "নাক, ঘ্রাণ ও সাইনাস",
-    "en": "Nose, Smell & Sinus",
-    "file": "nose-smell-and-sinus.json",
-    "base": "nose-smell-and-sinus",
-    "count": 38,
-    "section": "উপরের অঙ্গ",
-    "no": 21
-  },
-  {
-    "bn": "সর্দি, হাঁচি ও কফ",
-    "en": "Cold, Coryza & Sneezing",
-    "file": "cold-coryza-and-sneezing.json",
-    "base": "cold-coryza-and-sneezing",
-    "count": 101,
-    "section": "উপরের অঙ্গ",
-    "no": 22
-  },
-  {
-    "bn": "মুখমণ্ডল",
-    "en": "Face",
-    "file": "face.json",
-    "base": "face",
-    "count": 22,
-    "section": "উপরের অঙ্গ",
-    "no": 23
-  },
-  {
-    "bn": "দাঁত, মাড়ি ও দাঁত ওঠা",
-    "en": "Teeth, Gums & Dentition",
-    "file": "teeth-gums-and-dentition.json",
-    "base": "teeth-gums-and-dentition",
-    "count": 26,
-    "section": "উপরের অঙ্গ",
-    "no": 24
-  },
-  {
-    "bn": "মুখ, ঠোঁট, জিহ্বা, লালা ও স্বাদ",
-    "en": "Mouth, Lips, Tongue, Saliva & Taste",
-    "file": "mouth-tongue-and-taste.json",
-    "base": "mouth-tongue-and-taste",
-    "count": 35,
-    "section": "উপরের অঙ্গ",
-    "no": 25
-  },
-  {
-    "bn": "ঘাড়, কাঁধ, গলা, টনসিল, কণ্ঠ ও কথা",
-    "en": "Neck, Shoulder, Throat, Tonsils, Voice & Speech",
-    "file": "neck-shoulder-throat-and-voice.json",
-    "base": "neck-shoulder-throat-and-voice",
-    "count": 58,
-    "section": "উপরের অঙ্গ",
-    "no": 26
-  },
-  {
-    "bn": "গ্রন্থি, লসিকা ও গলগণ্ড",
-    "en": "Glands, Lymph & Goitre",
-    "file": "glands-lymph-and-goitre.json",
-    "base": "glands-lymph-and-goitre",
-    "count": 15,
-    "section": "উপরের অঙ্গ",
-    "no": 27
-  },
-  {
-    "bn": "বুক, ফুসফুস, শ্বাস, শ্বাসকষ্ট ও হাঁপানি",
-    "en": "Chest, Lungs, Breathing, Dyspnoea & Asthma",
-    "file": "chest-lungs-breathing-and-asthma.json",
-    "base": "chest-lungs-breathing-and-asthma",
-    "count": 49,
-    "section": "মাঝের অঙ্গ",
-    "no": 28
-  },
-  {
-    "bn": "কাশি ও কফ",
-    "en": "Cough & Expectoration",
-    "file": "cough-and-expectoration.json",
-    "base": "cough-and-expectoration",
-    "count": 50,
-    "section": "মাঝের অঙ্গ",
-    "no": 29
-  },
-  {
-    "bn": "হৃদপিণ্ড, ধড়ফড় ও নাড়ি",
-    "en": "Heart, Palpitation & Pulse",
-    "file": "heart-palpitation-and-pulse.json",
-    "base": "heart-palpitation-and-pulse",
-    "count": 34,
-    "section": "মাঝের অঙ্গ",
-    "no": 30
-  },
-  {
-    "bn": "রক্তচাপ, রক্ত সঞ্চালন ও শিরা",
-    "en": "Blood Pressure, Circulation & Vessels",
-    "file": "blood-pressure-circulation-and-vessels.json",
-    "base": "blood-pressure-circulation-and-vessels",
-    "count": 35,
-    "section": "মাঝের অঙ্গ",
-    "no": 31
-  },
-  {
-    "bn": "পাকস্থলী, ক্ষুধা ও খিদে",
-    "en": "Stomach, Hunger & Appetite",
-    "file": "stomach-hunger-and-appetite.json",
-    "base": "stomach-hunger-and-appetite",
-    "count": 52,
-    "section": "মাঝের অঙ্গ",
-    "no": 32
-  },
-  {
-    "bn": "বমি, বমিভাব ও অম্ল",
-    "en": "Nausea, Vomiting & Acidity",
-    "file": "nausea-vomiting-and-acidity.json",
-    "base": "nausea-vomiting-and-acidity",
-    "count": 43,
-    "section": "মাঝের অঙ্গ",
-    "no": 33
-  },
-  {
-    "bn": "পেট, হজম, পেটব্যথা, গ্যাস ও পুষ্টি",
-    "en": "Abdomen, Digestion, Colic, Gas & Nutrition",
-    "file": "abdomen-digestion-and-gas.json",
-    "base": "abdomen-digestion-and-gas",
-    "count": 71,
-    "section": "মাঝের অঙ্গ",
-    "no": 34
-  },
-  {
-    "bn": "লিভার, পিত্ত ও জন্ডিস",
-    "en": "Liver, Gallbladder & Jaundice",
-    "file": "liver-gallbladder-and-jaundice.json",
-    "base": "liver-gallbladder-and-jaundice",
-    "count": 14,
-    "section": "মাঝের অঙ্গ",
-    "no": 35
-  },
-  {
-    "bn": "পিঠ, মেরুদণ্ড ও বুক-হৃদরোগ",
-    "en": "Back, Spine & Chest-Heart Diseases",
-    "file": "back-spine-and-chest-heart-diseases.json",
-    "base": "back-spine-and-chest-heart-diseases",
-    "count": 48,
-    "section": "মাঝের অঙ্গ",
-    "no": 36
-  },
-  {
-    "bn": "মল ও ডায়রিয়া",
-    "en": "Stool & Diarrhoea",
-    "file": "stool-and-diarrhoea.json",
-    "base": "stool-and-diarrhoea",
-    "count": 55,
-    "section": "নিচের অঙ্গ",
-    "no": 37
-  },
-  {
-    "bn": "কোষ্ঠকাঠিন্য",
-    "en": "Constipation",
-    "file": "constipation.json",
-    "base": "constipation",
-    "count": 25,
-    "section": "নিচের অঙ্গ",
-    "no": 38
-  },
-  {
-    "bn": "মলদ্বার, পাইলস ও ফিস্টুলা",
-    "en": "Rectum, Anus & Piles",
-    "file": "rectum-anus-and-piles.json",
-    "base": "rectum-anus-and-piles",
-    "count": 29,
-    "section": "নিচের অঙ্গ",
-    "no": 39
-  },
-  {
-    "bn": "প্রস্রাব, মূত্রথলি ও ঘন ঘন প্রস্রাব",
-    "en": "Urine, Bladder & Frequency",
-    "file": "urine-bladder-and-frequency.json",
-    "base": "urine-bladder-and-frequency",
-    "count": 57,
-    "section": "নিচের অঙ্গ",
-    "no": 40
-  },
-  {
-    "bn": "কিডনি ও মূত্র রোগ",
-    "en": "Kidney & Urinary Diseases",
-    "file": "kidney-and-urinary-diseases.json",
-    "base": "kidney-and-urinary-diseases",
-    "count": 46,
-    "section": "নিচের অঙ্গ",
-    "no": 41
-  },
-  {
-    "bn": "স্ত্রী যৌনাঙ্গ, সাদাস্রাব ও জরায়ু",
-    "en": "Female Genital, Leucorrhoea & Uterus",
-    "file": "female-genital-leucorrhoea-and-uterus.json",
-    "base": "female-genital-leucorrhoea-and-uterus",
-    "count": 67,
-    "section": "নিচের অঙ্গ",
-    "no": 42
-  },
-  {
-    "bn": "স্তন, ঋতুস্রাব, মাসিক ও দুধ খাওয়ানো",
-    "en": "Breast, Menses, Menstrual Disorders & Lactation",
-    "file": "breast-menses-and-lactation.json",
-    "base": "breast-menses-and-lactation",
-    "count": 41,
-    "section": "নিচের অঙ্গ",
-    "no": 43
-  },
-  {
-    "bn": "গর্ভাবস্থা, প্রসব, প্রসব পরবর্তী ও স্ত্রী রোগ",
-    "en": "Pregnancy, Labour, Postpartum & Female Diseases",
-    "file": "pregnancy-and-female-diseases.json",
-    "base": "pregnancy-and-female-diseases",
-    "count": 40,
-    "section": "নিচের অঙ্গ",
-    "no": 44
-  },
-  {
-    "bn": "পুরুষ যৌনাঙ্গ, প্রোস্টেট, দুর্বলতা ও ধাতু",
-    "en": "Male Genital, Prostate, Weakness & Emission",
-    "file": "male-genital-and-weakness.json",
-    "base": "male-genital-and-weakness",
-    "count": 47,
-    "section": "নিচের অঙ্গ",
-    "no": 45
-  },
-  {
-    "bn": "যৌন ইচ্ছা, সহবাস ও বীর্য",
-    "en": "Sexual Desire, Coition & Semen",
-    "file": "sexual-desire-coition-and-semen.json",
-    "base": "sexual-desire-coition-and-semen",
-    "count": 25,
-    "section": "নিচের অঙ্গ",
-    "no": 46
-  },
-  {
-    "bn": "হাত, পা, আঙুল, নখ ও পায়ের পাতা",
-    "en": "Hands, Legs, Fingers, Nails & Feet",
-    "file": "hands-legs-and-feet.json",
-    "base": "hands-legs-and-feet",
-    "count": 46,
-    "section": "নিচের অঙ্গ",
-    "no": 47
-  },
-  {
-    "bn": "হাড়, জয়েন্ট, বাত ও রিউম্যাটিজম",
-    "en": "Bones, Joints, Arthritis & Rheumatism",
-    "file": "bones-joints-and-rheumatism.json",
-    "base": "bones-joints-and-rheumatism",
-    "count": 52,
-    "section": "নিচের অঙ্গ",
-    "no": 48
-  },
-  {
-    "bn": "জ্বর, শীত ও তাপমাত্রা",
-    "en": "Fever, Chill & Temperature",
-    "file": "fever-chill-and-temperature.json",
-    "base": "fever-chill-and-temperature",
-    "count": 28,
-    "section": "সার্বদৌহিক",
-    "no": 49
-  },
-  {
-    "bn": "ঘাম",
-    "en": "Sweat & Perspiration",
-    "file": "sweat-and-perspiration.json",
-    "base": "sweat-and-perspiration",
-    "count": 26,
-    "section": "সার্বদৌহিক",
-    "no": 50
-  },
-  {
-    "bn": "ব্যথার ধরন",
-    "en": "Pain - Types & Characters",
-    "file": "pain-types-and-characters.json",
-    "base": "pain-types-and-characters",
-    "count": 109,
-    "section": "সার্বদৌহিক",
-    "no": 51
-  },
-  {
-    "bn": "ফোলা, শোথ ও জল জমা",
-    "en": "Swelling, Oedema & Dropsy",
-    "file": "swelling-oedema-and-dropsy.json",
-    "base": "swelling-oedema-and-dropsy",
-    "count": 46,
-    "section": "সার্বদৌহিক",
-    "no": 52
-  },
-  {
-    "bn": "রক্ত, রক্তপাত, রক্তাল্পতা ও জমাট",
-    "en": "Blood, Bleeding, Anaemia & Clotting",
-    "file": "blood-bleeding-and-anaemia.json",
-    "base": "blood-bleeding-and-anaemia",
-    "count": 43,
-    "section": "সার্বদৌহিক",
-    "no": 53
-  },
-  {
-    "bn": "চামড়া - সাধারণ, রং ও গঠন",
-    "en": "Skin - General, Colour & Texture",
-    "file": "skin-general-colour-and-texture.json",
-    "base": "skin-general-colour-and-texture",
-    "count": 67,
-    "section": "সার্বদৌহিক",
-    "no": 54
-  },
-  {
-    "bn": "চামড়ার উদ্ভেদ, একজিমা, সোরিয়াসিস ও অ্যালার্জি",
-    "en": "Skin Eruptions, Eczema, Psoriasis & Allergy",
-    "file": "skin-eruptions-and-allergy.json",
-    "base": "skin-eruptions-and-allergy",
-    "count": 42,
-    "section": "সার্বদৌহিক",
-    "no": 55
-  },
-  {
-    "bn": "চুলকানি, জ্বালা ও চামড়ার অনুভূতি",
-    "en": "Itching, Burning & Skin Sensation",
-    "file": "itching-burning-and-skin-sensation.json",
-    "base": "itching-burning-and-skin-sensation",
-    "count": 65,
-    "section": "সার্বদৌহিক",
-    "no": 56
-  },
-  {
-    "bn": "চামড়া ফাটা, ক্ষত ও আলসার",
-    "en": "Skin - Cracks, Fissures & Ulcers",
-    "file": "skin-cracks-fissures-and-ulcers.json",
-    "base": "skin-cracks-fissures-and-ulcers",
-    "count": 70,
-    "section": "সার্বদৌহিক",
-    "no": 57
-  },
-  {
-    "bn": "আঁচিল, টিউমার, সিস্ট ও গোটা",
-    "en": "Warts, Tumours, Cysts & Growths",
-    "file": "warts-tumours-cysts-and-growths.json",
-    "base": "warts-tumours-cysts-and-growths",
-    "count": 18,
-    "section": "সার্বদৌহিক",
-    "no": 58
-  },
-  {
-    "bn": "ক্ষত, কাটা, থেঁতো, আঘাত, পোড়া, কামড় ও হুল",
-    "en": "Wounds, Cuts, Bruises, Injury, Burns, Bites & Stings",
-    "file": "wounds-burns-and-stings.json",
-    "base": "wounds-burns-and-stings",
-    "count": 53,
-    "section": "সার্বদৌহিক",
-    "no": 59
-  },
-  {
-    "bn": "ঘা, ফোড়া, সংক্রমণ, সেপসিস ও পুঁজ",
-    "en": "Ulcer, Abscess, Infection, Sepsis & Pus",
-    "file": "ulcer-infection-and-pus.json",
-    "base": "ulcer-infection-and-pus",
-    "count": 43,
-    "section": "সার্বদৌহিক",
-    "no": 60
-  },
-  {
-    "bn": "কৃমি ও পরজীবী",
-    "en": "Worms & Parasites",
-    "file": "worms-and-parasites.json",
-    "base": "worms-and-parasites",
-    "count": 16,
-    "section": "সার্বদৌহিক",
-    "no": 61
-  },
-  {
-    "bn": "পেশি, টান ও খিঁচুনি",
-    "en": "Muscles, Cramps & Spasm",
-    "file": "muscles-cramps-and-spasm.json",
-    "base": "muscles-cramps-and-spasm",
-    "count": 27,
-    "section": "সার্বদৌহিক",
-    "no": 62
-  },
-  {
-    "bn": "স্রাব, নিঃসরণ ও শ্লেষ্মা",
-    "en": "Discharge, Secretion & Mucus",
-    "file": "discharge-secretion-and-mucus.json",
-    "base": "discharge-secretion-and-mucus",
-    "count": 59,
-    "section": "সার্বদৌহিক",
-    "no": 63
-  },
-  {
-    "bn": "ক্যান্সার, গ্যাংগ্রিন ও ক্ষয়",
-    "en": "Cancer, Gangrene & Degeneration",
-    "file": "cancer-gangrene-and-degeneration.json",
-    "base": "cancer-gangrene-and-degeneration",
-    "count": 11,
-    "section": "সার্বদৌহিক",
-    "no": 64
-  },
-  {
-    "bn": "প্রল্যাপস, নিচে চাপ ও শিথিলতা",
-    "en": "Prolapse, Bearing Down & Relaxation",
-    "file": "prolapse-bearing-down-and-relaxation.json",
-    "base": "prolapse-bearing-down-and-relaxation",
-    "count": 11,
-    "section": "সার্বদৌহিক",
-    "no": 65
-  },
-  {
-    "bn": "দুর্বলতা, ক্লান্তি, অবসাদ ও বার্ধক্য",
-    "en": "Weakness, Fatigue, Exhaustion & Old Age",
-    "file": "weakness-and-old-age.json",
-    "base": "weakness-and-old-age",
-    "count": 67,
-    "section": "সার্বদৌহিক",
-    "no": 66
-  },
-  {
-    "bn": "শিশু, বৃদ্ধি ও বিকাশ",
-    "en": "Children - Growth & Development",
-    "file": "children-growth-and-development.json",
-    "base": "children-growth-and-development",
-    "count": 48,
-    "section": "সার্বদৌহিক",
-    "no": 67
-  },
-  {
-    "bn": "খাবার, পানীয় ও ইচ্ছা",
-    "en": "Food, Drink & Cravings",
-    "file": "food-drink-and-cravings.json",
-    "base": "food-drink-and-cravings",
-    "count": 110,
-    "section": "সার্বদৌহিক",
-    "no": 68
-  },
-  {
-    "bn": "তৃষ্ণা ও পান করা",
-    "en": "Thirst & Drinking",
-    "file": "thirst-and-drinking.json",
-    "base": "thirst-and-drinking",
-    "count": 31,
-    "section": "সার্বদৌহিক",
-    "no": 69
-  },
-  {
-    "bn": "ঠান্ডা, শীতলতা ও ঠান্ডা বাতাস",
-    "en": "Cold, Chilly & Cold Air",
-    "file": "cold-chilly-and-cold-air.json",
-    "base": "cold-chilly-and-cold-air",
-    "count": 115,
-    "section": "সার্বদৌহিক",
-    "no": 70
-  },
-  {
-    "bn": "গরম, উষ্ণতা ও রোদ",
-    "en": "Heat, Warmth & Sun",
-    "file": "heat-warmth-and-sun.json",
-    "base": "heat-warmth-and-sun",
-    "count": 80,
-    "section": "সার্বদৌহিক",
-    "no": 71
-  },
-  {
-    "bn": "ভেজা, আর্দ্রতা ও বৃষ্টি",
-    "en": "Damp, Wet & Rain",
-    "file": "damp-wet-and-rain.json",
-    "base": "damp-wet-and-rain",
-    "count": 30,
-    "section": "সার্বদৌহিক",
-    "no": 72
-  },
-  {
-    "bn": "খোলা বাতাস ও বাতাস",
-    "en": "Open Air & Ventilation",
-    "file": "open-air-and-ventilation.json",
-    "base": "open-air-and-ventilation",
-    "count": 47,
-    "section": "সার্বদৌহিক",
-    "no": 73
-  },
-  {
-    "bn": "বৃদ্ধির কারণ",
-    "en": "Aggravation",
-    "file": "aggravation.json",
-    "base": "aggravation",
-    "count": 109,
-    "section": "সার্বদৌহিক",
-    "no": 74
-  },
-  {
-    "bn": "উপশমের কারণ",
-    "en": "Amelioration",
-    "file": "amelioration.json",
-    "base": "amelioration",
-    "count": 88,
-    "section": "সার্বদৌহিক",
-    "no": 75
-  },
-  {
-    "bn": "পার্শ্ব - বাম, ডান ও দিক",
-    "en": "Laterality - Left, Right & Sides",
-    "file": "laterality-left-right-and-sides.json",
-    "base": "laterality-left-right-and-sides",
-    "count": 79,
-    "section": "সার্বদৌহিক",
-    "no": 76
-  },
-  {
-    "bn": "গন্ধ ও দুর্গন্ধ",
-    "en": "Smell & Odor",
-    "file": "smell-and-odor.json",
-    "base": "smell-and-odor",
-    "count": 38,
-    "section": "বিবিধ",
-    "no": 77
-  },
-  {
-    "bn": "স্পর্শ, চাপ ও মালিশ",
-    "en": "Touch, Pressure & Rubbing",
-    "file": "touch-pressure-and-rubbing.json",
-    "base": "touch-pressure-and-rubbing",
-    "count": 62,
-    "section": "বিবিধ",
-    "no": 78
-  },
-  {
-    "bn": "সকাল, সন্ধ্যা ও রাত",
-    "en": "Morning, Evening & Night",
-    "file": "time-morning-evening-and-night.json",
-    "base": "time-morning-evening-and-night",
-    "count": 85,
-    "section": "বিবিধ",
-    "no": 79
-  },
-  {
-    "bn": "নির্দিষ্ট সময়, ঋতু, চাঁদ ও পর্যায়ক্রম",
-    "en": "Specific Time, Seasons, Moon & Periodicity",
-    "file": "time-seasons-and-periodicity.json",
-    "base": "time-seasons-and-periodicity",
-    "count": 41,
-    "section": "বিবিধ",
-    "no": 80
-  },
-  {
-    "bn": "আবহাওয়া, জলবায়ু ও পরিবেশ",
-    "en": "Weather, Climate & Environment",
-    "file": "weather-climate-and-environment.json",
-    "base": "weather-climate-and-environment",
-    "count": 48,
-    "section": "বিবিধ",
-    "no": 81
-  },
-  {
-    "bn": "ঔষধ সম্পর্ক - পরিপূরক, প্রতিষেধক",
-    "en": "Relationship - Complementary, Antidote",
-    "file": "relationship-complementary-antidote.json",
-    "base": "relationship-complementary-antidote",
-    "count": 57,
-    "section": "বিবিধ",
-    "no": 82
-  },
-  {
-    "bn": "শক্তি, মাত্রা ও ঔষধ পরিচিতি",
-    "en": "Potency, Posology & Medicine Info",
-    "file": "potency-posology-and-medicine-info.json",
-    "base": "potency-posology-and-medicine-info",
-    "count": 43,
-    "section": "বিবিধ",
-    "no": 83
-  },
-  {
-    "bn": "টিকা, চাপা পড়া ও কুফল",
-    "en": "Vaccination, Suppression & Ill-effects",
-    "file": "vaccination-suppression-and-ill-effects.json",
-    "base": "vaccination-suppression-and-ill-effects",
-    "count": 33,
-    "section": "বিবিধ",
-    "no": 84
-  },
-  {
-    "bn": "সাধারণ ও বিবিধ",
-    "en": "General & Miscellaneous",
-    "file": "general-and-miscellaneous.json",
-    "base": "general-and-miscellaneous",
-    "count": 712,
-    "section": "বিবিধ",
-    "no": 85
-  }
-];
-
-// দেখানোর ক্রম: উপরে ৩টি — উপরের / মাঝের / নিচের অঙ্গ, নিচে ৩টি — বাকি ৩টি
-const DISPLAY_ORDER = ["উপরের অঙ্গ", "মাঝের অঙ্গ", "নিচের অঙ্গ", "মানসিক ও স্বভাবগত", "সার্বদৌহিক", "বিবিধ"];
-const META = {
-  "উপরের অঙ্গ": {icon:"🧠", accent:"#4361ee", soft:"#eef2ff"},
-  "মাঝের অঙ্গ": {icon:"🫁", accent:"#059669", soft:"#ecfdf5"},
-  "নিচের অঙ্গ": {icon:"🦵", accent:"#ea580c", soft:"#fff7ed"},
-  "মানসিক ও স্বভাবগত": {icon:"🧘", accent:"#7c3aed", soft:"#f5f3ff"},
-  "সার্বদৌহিক": {icon:"🌡️", accent:"#dc2626", soft:"#fef2f2"},
-  "বিবিধ": {icon:"✨", accent:"#0891b2", soft:"#ecfeff"}
-};
-const bn = n => n.toLocaleString('bn-BD');
-
-function tagHTML(sym) {
-  const href = `play.html?type=sym&id=${encodeURIComponent(sym.base)}`;
-  return `<a href="${href}" class="tag-card" target="_blank" data-file="${sym.file}">
-    <span class="tag-bn">${sym.bn}</span>
-    <span class="tag-en">${sym.en}</span>
-    <span class="tag-count">${bn(sym.count)}টি প্রশ্ন</span>
-  </a>`;
-}
-
-function build() {
-  const grid = document.getElementById('sectionsGrid');
-  const panel = document.getElementById('tagsPanel');
-  const panelIcon = document.getElementById('panelIcon');
-  const panelTitle = document.getElementById('panelTitle');
-  const panelMeta = document.getElementById('panelMeta');
-  const tagsGrid = document.getElementById('tagsGrid');
-  let activeSec = null;
-
-  grid.innerHTML = DISPLAY_ORDER.map(sec => {
-    const list = symptomsList.filter(s => s.section === sec);
-    const totalQ = list.reduce((a,s) => a + s.count, 0);
-    const m = META[sec];
-    return `<article class="section-card" data-section="${sec}" style="--accent:${m.accent};--accent-soft:${m.soft}">
-      <button class="section-head" aria-expanded="false">
-        <span class="sec-icon">${m.icon}</span>
-        <span class="sec-info"><h2>${sec}</h2><div class="sec-meta"><b>${bn(list.length)}টি ট্যাগ</b> &nbsp;•&nbsp; ${bn(totalQ)}টি প্রশ্ন</div></span>
-        <span class="chev"><i class="fa-solid fa-chevron-down"></i></span>
-      </button>
-    </article>`;
-  }).join('');
-
-  function openSection(sec, scroll = true) {
-    const list = symptomsList.filter(s => s.section === sec);
-    const totalQ = list.reduce((a,s) => a + s.count, 0);
-    const m = META[sec];
-    activeSec = sec;
-    grid.querySelectorAll('.section-card').forEach(c => {
-      const isActive = c.dataset.section === sec;
-      c.classList.toggle('active', isActive);
-      c.querySelector('.section-head').setAttribute('aria-expanded', isActive ? 'true' : 'false');
-    });
-    panelIcon.textContent = m.icon;
-    panelIcon.style.background = m.soft;
-    panelTitle.textContent = sec;
-    panelTitle.style.color = m.accent;
-    panelMeta.innerHTML = `<b>${bn(list.length)}টি ট্যাগ</b> &nbsp;•&nbsp; ${bn(totalQ)}টি প্রশ্ন — সব ট্যাগ একসাথে দেখা যাচ্ছে`;
-    tagsGrid.innerHTML = list.map(s => tagHTML(s)).join('');
-    panel.classList.add('show');
-    if (scroll) panel.scrollIntoView({behavior: 'smooth', block: 'nearest'});
-  }
-
-  function closePanel() {
-    activeSec = null;
-    panel.classList.remove('show');
-    grid.querySelectorAll('.section-card').forEach(c => {
-      c.classList.remove('active');
-      c.querySelector('.section-head').setAttribute('aria-expanded', 'false');
-    });
-  }
-
-  grid.querySelectorAll('.section-head').forEach(head => {
-    head.addEventListener('click', () => {
-      const sec = head.closest('.section-card').dataset.section;
-      if (activeSec === sec) closePanel();
-      else openSection(sec);
-    });
-  });
-
-  document.getElementById('panelClose').onclick = closePanel;
-
-  // প্রথমে উপরের অঙ্গ খোলা থাকবে — সব ট্যাগ একসাথে দেখা যাবে (লোডে স্ক্রল হবে না)
-  openSection(DISPLAY_ORDER[0], false);
-}
-build();
-</script>
-</body>
-</html>
