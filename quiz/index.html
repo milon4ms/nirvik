@@ -115,7 +115,7 @@ body.dark .ring::before{background:#1e293b}
 <a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link active">কুইজ</a>
 <a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">রোগলক্ষণ ভিত্তিক কুইজ</a>
 <a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link">ঔষধ ভিত্তিক কুইজ</a>
-<a href="https://nirvik.mooo.com/medica/index.htmll" class="nav-link">মেটেরিয়া মেডিকা</a>
+<a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">মেটেরিয়া মেডিকা</a>
 <div class="user-area" id="userArea">
 <a href="https://nirvik.mooo.com/" class="btn-login" id="headerLoginBtn">লগইন</a>
 </div>
@@ -125,7 +125,7 @@ body.dark .ring::before{background:#1e293b}
 <div class="hero">
 <div class="hero-card">
 <h1>কুইজে কুইজে মেটেরিয়া মেডিকা শিখি।</h1>
-<p>১০০টি রোগলক্ষণ ট্যাগ + ঔষধ ভিত্তিক কুইজ — প্রতিদিন ১টা করে প্রাকটিসে মেটেরিয়া মেডিকা আয়ত্তে চলে আসবে ইনশআল্লাহ।</p>
+<p>৮৫টি রোগলক্ষণ ট্যাগ + ঔষধ ভিত্তিক কুইজ — প্রতিদিন ১টা করে দিলেই মেটেরিয়া মেডিকা আয়ত্তে চলে আসবে।</p>
 <div class="hero-search" style="position:relative">
 <input id="searchInput" placeholder="খুঁজুন — যেমন: মল, চোখ, Calcarea...">
 <button id="searchBtn">খুঁজুন</button>
@@ -148,7 +148,7 @@ body.dark .ring::before{background:#1e293b}
 <i class="fa-solid fa-stethoscope"></i>
 <h2>রোগলক্ষণ কুইজ</h2>
 <p>লক্ষণ দেখে ঔষধ চিনুন</p>
-<div class="menu-meta"><span class="pill">১০০টি মেইন ট্যাগ</span><span class="pill green" id="symDonePill">০টি সম্পন্ন</span></div>
+<div class="menu-meta"><span class="pill">৮৫টি মেইন ট্যাগ</span><span class="pill green" id="symDonePill">০টি সম্পন্ন</span></div>
 <div class="mini-progress"><div id="symBar" style="width:0%"></div></div>
 </a>
 <a href="medicines.html" class="menu-card">
@@ -179,6 +179,14 @@ body.dark .ring::before{background:#1e293b}
 <div class="badge-item locked" id="badge10"><div class="emoji">🔥</div><b>১০টি কুইজ</b></div>
 <div class="badge-item locked" id="badge50"><div class="emoji">🏅</div><b>৫০টি কুইজ</b></div>
 <div class="badge-item locked" id="badgeStar"><div class="emoji">⭐</div><b>৯০%+ স্কোর</b></div>
+
+<div style="margin-top:12px;background:linear-gradient(135deg,#ecfdf5 0%,#eff6ff 100%);border:1px solid #a7f3d0;border-radius:12px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+<div>
+<div style="font-weight:800;font-size:.95rem;color:#065f46">✨ কেসটেকিং রোগী লিপী ও মেডিসিন সিলেক্ট</div>
+<div style="font-size:.85rem;color:#065f46;margin-top:2px">মাত্র কয়েক ক্লিকে করুন — রোগীর লক্ষণ থেকে ঔষধ বাছাই এখন আরও সহজ।</div>
+</div>
+<a href="https://nirvik.mooo.com/select.html" style="background:#059669;color:#fff;padding:9px 16px;border-radius:999px;font-weight:800;font-size:.88rem;white-space:nowrap;box-shadow:0 4px 14px rgba(5,150,105,.3)">এখনই চেষ্টা করুন →</a>
+</div>
 </div>
 </div>
 </div>
@@ -209,9 +217,721 @@ body.dark .ring::before{background:#1e293b}
 
 <script type="module">
 import { checkAuthState, logoutUser } from './js/auth.js';
-const LEGACY_MAP = {"মন_Mind": "mind", "ভয়_উদ্বেগ_ও_আতঙ্ক_Fear_Anxiety_and_Phobia": "fear-anxiety-and-phobia", "রাগ_মেজাজ_ও_বিরক্তি_Anger_Irritability_and_Temper": "anger-irritability-and-temper", "দুঃখ_বিষণ্ণতা_ও_শোক_Sadness_Depression_and_Grief": "sadness-depression-and-grief", "স্মৃতি_মনোযোগ_ও_চিন্তা_Memory_Concentration_and_Thinking": "memory-concentration-and-thinking", "ঘুম_অনিদ্রা_ও_স্বপ্ন_Sleep_Insomnia_and_Dreams": "sleep-insomnia-and-dreams", "মাথা_Head": "head", "মাথাব্যথা_Headache": "headache", "চোখ_ও_দৃষ্টি_Eye_and_Vision": "eye-and-vision", "চোখের_রোগ_-_অঞ্জনি_ছানি_Eye_Diseases_-_Styes_Cataract": "eye-diseases-styes-cataract", "কান_ও_শ্রবণ_Ear_and_Hearing": "ear-and-hearing", "নাক_ঘ্রাণ_ও_সাইনাস_Nose_Smell_and_Sinus": "nose-smell-and-sinus", "মুখমণ্ডল_Face": "face", "মুখ_ঠোঁট_ও_লালা_Mouth_Lips_and_Saliva": "mouth-lips-and-saliva", "দাঁত_মাড়ি_ও_দাঁত_ওঠা_Teeth_Gums_and_Dentition": "teeth-gums-and-dentition", "জিহ্বা_ও_স্বাদ_Tongue_and_Taste": "tongue-and-taste", "গলা_টনসিল_ও_গিলা_Throat_Tonsils_and_Swallowing": "throat-tonsils-and-swallowing", "কণ্ঠ_স্বরভঙ্গ_ও_কথা_Voice_Hoarseness_and_Speech": "voice-hoarseness-and-speech", "ঘাড়_কাঁধ_চুল_ও_মাথার_চামড়া_Neck_Shoulder_Hair_and_Scalp": "neck-shoulder-hair-and-scalp", "বুক_ফুসফুস_ও_শ্বাস_Chest_Lungs_and_Breathing": "chest-lungs-and-breathing", "কাশি_ও_কফ_Cough_and_Expectoration": "cough-and-expectoration", "শ্বাসকষ্ট_ও_হাঁপানি_Breathing_Difficulty_and_Asthma": "breathing-difficulty-and-asthma", "সর্দি_হাঁচি_ও_কফ_Cold_Coryza_and_Sneezing": "cold-coryza-and-sneezing", "হৃদপিণ্ড_ধড়ফড়_ও_নাড়ি_Heart_Palpitation_and_Pulse": "heart-palpitation-and-pulse", "রক্তচাপ_রক্ত_সঞ্চালন_ও_শিরা_Blood_Pressure_Circulation_and_Vessels": "blood-pressure-circulation-and-vessels", "পাকস্থলী_ক্ষুধা_ও_খিদে_Stomach_Hunger_and_Appetite": "stomach-hunger-and-appetite", "বমি_বমিভাব_ও_অম্ল_Nausea_Vomiting_and_Acidity": "nausea-vomiting-and-acidity", "হজম_বদহজম_ও_পুষ্টি_Digestion_Indigestion_and_Nutrition": "digestion-indigestion-and-nutrition", "পেট_পেটব্যথা_ও_গ্যাস_Abdomen_Colic_and_Gas": "abdomen-colic-and-gas", "লিভার_পিত্ত_ও_জন্ডিস_Liver_Gallbladder_and_Jaundice": "liver-gallbladder-and-jaundice", "স্তন_বোঁটা_ও_দুধ_খাওয়ানো_Breast_Nipple_and_Lactation": "breast-nipple-and-lactation", "পিঠ_মেরুদণ্ড_ও_বুক-হৃদরোগ_Back_Spine_and_Chest-Heart_Diseases": "back-spine-and-chest-heart-diseases", "মল_ডায়রিয়া_ও_কোষ্ঠকাঠিন্য_Stool_Diarrhoea_and_Constipation": "stool-diarrhoea-and-constipation", "মলদ্বার_পাইলস_ও_ফিস্টুলা_Rectum_Anus_and_Piles": "rectum-anus-and-piles", "প্রস্রাব_মূত্রথলি_ও_ঘন_ঘন_প্রস্রাব_Urine_Bladder_and_Frequency": "urine-bladder-and-frequency", "কিডনি_ও_মূত্র_রোগ_Kidney_and_Urinary_Diseases": "kidney-and-urinary-diseases", "ঋতুস্রাব_ও_মাসিকের_সমস্যা_Menses_and_Menstrual_Disorders": "menses-and-menstrual-disorders", "স্ত্রী_যৌনাঙ্গ_সাদাস্রাব_ও_জরায়ু_Female_Genital_Leucorrhoea_and_Uterus": "female-genital-leucorrhoea-and-uterus", "গর্ভাবস্থা_প্রসব_ও_প্রসব_পরবর্তী_Pregnancy_Labour_and_Postpartum": "pregnancy-labour-and-postpartum", "স্ত্রী_রোগ_-_প্রল্যাপস_ও_প্রদাহ_Female_Diseases_-_Prolapse_and_Inflammation": "female-diseases-prolapse-and-inflammation", "পুরুষ_যৌনাঙ্গ_অণ্ডকোষ_ও_প্রোস্টেট_Male_Genital_Testes_and_Prostate": "male-genital-testes-and-prostate", "যৌন_ইচ্ছা_সহবাস_ও_বীর্য_Sexual_Desire_Coition_and_Semen": "sexual-desire-coition-and-semen", "পুরুষ_রোগ_-_দুর্বলতা_ও_ধাতু_Male_Diseases_-_Weakness_and_Emission": "male-diseases-weakness-and-emission", "পা_হাঁটু_ও_পায়ের_পাতা_Legs_Knee_and_Feet": "legs-knee-and-feet", "হাত_আঙুল_ও_নখ_Hands_Fingers_and_Nails": "hands-fingers-and-nails", "হাড়_ও_হাড়ের_ক্ষয়_Bones_and_Caries": "bones-and-caries", "জয়েন্ট_বাত_ও_রিউম্যাটিজম_Joints_Arthritis_and_Rheumatism": "joints-arthritis-and-rheumatism", "পেশি_টান_ও_খিঁচুনি_Muscles_Cramps_and_Spasm": "muscles-cramps-and-spasm", "জ্বর_শীত_ও_তাপমাত্রা_Fever_Chill_and_Temperature": "fever-chill-and-temperature", "ঘাম_Sweat_and_Perspiration": "sweat-and-perspiration", "ব্যথার_ধরন_Pain_-_Types_and_Characters": "pain-types-and-characters", "ফোলা_শোথ_ও_জল_জমা_Swelling_Oedema_and_Dropsy": "swelling-oedema-and-dropsy", "রক্তপাত_Bleeding_and_Haemorrhage": "bleeding-and-haemorrhage", "রক্ত_রক্তাল্পতা_ও_জমাট_Blood_Anaemia_and_Clotting": "blood-anaemia-and-clotting", "চামড়া_-_সাধারণ_রং_ও_গঠন_Skin_-_General_Colour_and_Texture": "skin-general-colour-and-texture", "চামড়ার_উদ্ভেদ_একজিমা_ও_সোরিয়াসিস_Skin_Eruptions_Eczema_and_Psoriasis": "skin-eruptions-eczema-and-psoriasis", "চুলকানি_জ্বালা_ও_চামড়ার_অনুভূতি_Itching_Burning_and_Skin_Sensation": "itching-burning-and-skin-sensation", "চামড়া_ফাটা_ক্ষত_ও_আলসার_Skin_-_Cracks_Fissures_and_Ulcers": "skin-cracks-fissures-and-ulcers", "আঁচিল_টিউমার_সিস্ট_ও_গোটা_Warts_Tumours_Cysts_and_Growths": "warts-tumours-cysts-and-growths", "ক্ষত_কাটা_থেঁতো_ও_আঘাত_Wounds_Cuts_Bruises_and_Injury": "wounds-cuts-bruises-and-injury", "ঘা_ফোড়া_ও_পুঁজ_Ulcer_Abscess_and_Suppuration": "ulcer-abscess-and-suppuration", "পোড়া_কামড়_ও_হুল_Burns_Bites_and_Stings": "burns-bites-and-stings", "সংক্রমণ_সেপসিস_ও_পুঁজ_Infection_Sepsis_and_Pus": "infection-sepsis-and-pus", "অ্যালার্জি_ও_অতিসংবেদনশীলতা_Allergy_and_Hypersensitivity": "allergy-and-hypersensitivity", "কৃমি_ও_পরজীবী_Worms_and_Parasites": "worms-and-parasites", "দুর্বলতা_ক্লান্তি_ও_অবসাদ_Weakness_Fatigue_and_Exhaustion": "weakness-fatigue-and-exhaustion", "শিশু_বৃদ্ধি_ও_বিকাশ_Children_-_Growth_and_Development": "children-growth-and-development", "বার্ধক্য_ও_সাধারণ_দুর্বলতা_Old_Age_and_General_Debility": "old-age-and-general-debility", "গঠন_শীতকাতর_-_গরমকাতর_Constitution_Build_and_Thermal": "constitution-build-and-thermal", "মায়াজম_প্রবণতা_ও_বংশগত_Miasm_Diathesis_and_Heredity": "miasm-diathesis-and-heredity", "খাবার_পানীয়_ও_ইচ্ছা_Food_Drink_and_Cravings": "food-drink-and-cravings", "তামাক_মদ_ও_নেশা_Tobacco_Alcohol_and_Stimulants": "tobacco-alcohol-and-stimulants", "তৃষ্ণা_ও_পান_করা_Thirst_and_Drinking": "thirst-and-drinking", "গন্ধ_ও_দুর্গন্ধ_Smell_and_Odor": "smell-and-odor", "স্পর্শ_চাপ_ও_মালিশ_Touch_Pressure_and_Rubbing": "touch-pressure-and-rubbing", "নড়াচড়া_ভঙ্গি_ও_বিশ্রাম_Motion_Posture_and_Rest": "motion-posture-and-rest", "সময়_-_সকাল_সন্ধ্যা_ও_রাত_Time_-_Morning_Evening_and_Night": "time-morning-evening-and-night", "সময়_-_নির্দিষ্ট_ঘণ্টা_ও_দিন_Time_-_Specific_Hours_and_Days": "time-specific-hours-and-days", "ঋতু_চাঁদ_ও_পর্যায়ক্রম_Seasons_Moon_and_Periodicity": "seasons-moon-and-periodicity", "আবহাওয়া_জলবায়ু_ও_পরিবেশ_Weather_Climate_and_Environment": "weather-climate-and-environment", "ঠান্ডা_শীতলতা_ও_ঠান্ডা_বাতাস_Cold_Chilly_and_Cold_Air": "cold-chilly-and-cold-air", "গরম_উষ্ণতা_ও_রোদ_Heat_Warmth_and_Sun": "heat-warmth-and-sun", "ভেজা_আর্দ্রতা_ও_বৃষ্টি_Damp_Wet_and_Rain": "damp-wet-and-rain", "খোলা_বাতাস_ও_বাতাস_Open_Air_and_Ventilation": "open-air-and-ventilation", "বৃদ্ধির_কারণ_Aggravation": "aggravation", "উপশমের_কারণ_Amelioration": "amelioration", "পার্শ্ব_-_বাম_ডান_ও_দিক_Laterality_-_Left_Right_and_Sides": "laterality-left-right-and-sides", "ভ্রম_অলীক_দর্শন_ও_পাগলামি_Delusion_Hallucination_and_Insanity": "delusion-hallucination-and-insanity", "আচরণ_অভ্যাস_ও_স্বভাব_Behaviour_Habits_and_Character": "behaviour-habits-and-character", "ঔষধ_সম্পর্ক_-_পরিপূরক_প্রতিষেধক_Relationship_-_Complementary_Antidote": "relationship-complementary-antidote", "শক্তি_মাত্রা_ও_ঔষধ_পরিচিতি_Potency_Posology_and_Medicine_Info": "potency-posology-and-medicine-info", "টিকা_চাপা_পড়া_ও_কুফল_Vaccination_Suppression_and_Ill-effects": "vaccination-suppression-and-ill-effects", "মাথা_ঘোরা_ও_অজ্ঞান_Vertigo_Dizziness_and_Fainting": "vertigo-dizziness-and-fainting", "খিঁচুনি_কাঁপুনি_ও_ফড়ফড়_Convulsion_Tremor_and_Twitching": "convulsion-tremor-and-twitching", "স্রাব_নিঃসরণ_ও_শ্লেষ্মা_Discharge_Secretion_and_Mucus": "discharge-secretion-and-mucus", "অনুভূতি_-_সাধারণ_Sensation_-_General_Feelings": "sensation-general-feelings", "গ্রন্থি_লসিকা_ও_গলগণ্ড_Glands_Lymph_and_Goitre": "glands-lymph-and-goitre", "ক্যান্সার_গ্যাংগ্রিন_ও_ক্ষয়_Cancer_Gangrene_and_Degeneration": "cancer-gangrene-and-degeneration", "প্রল্যাপস_নিচে_চাপ_ও_শিথিলতা_Prolapse_Bearing_Down_and_Relaxation": "prolapse-bearing-down-and-relaxation", "100_সাধারণ_ও_বিবিধ_General_and_Miscellaneous": "general-and-miscellaneous"};
+const LEGACY_MAP = {
+  "mind": "mind",
+  "fear-anxiety-and-phobia": "fear-anxiety-and-phobia",
+  "anger-irritability-and-temper": "anger-irritability-and-temper",
+  "sadness-depression-and-grief": "sadness-depression-and-grief",
+  "memory-concentration-and-thinking": "memory-concentration-and-thinking",
+  "delusion-hallucination-and-insanity": "delusion-hallucination-and-insanity",
+  "behaviour-habits-and-character": "behaviour-habits-and-character",
+  "sleep-insomnia-and-dreams": "sleep-insomnia-and-dreams",
+  "constitution-build-and-thermal": "constitution-build-and-thermal",
+  "miasm-diathesis-and-heredity": "miasm-diathesis-and-heredity",
+  "tobacco-alcohol-and-stimulants": "tobacco-alcohol-and-stimulants",
+  "motion-posture-and-rest": "motion-posture-and-rest",
+  "convulsion-tremor-and-twitching": "convulsion-tremor-and-twitching",
+  "sensation-general-feelings": "sensation-general-feelings",
+  "head": "head-hair-and-scalp",
+  "neck-shoulder-hair-and-scalp": "neck-shoulder-throat-and-voice",
+  "headache": "headache",
+  "vertigo-dizziness-and-fainting": "vertigo-dizziness-and-fainting",
+  "eye-and-vision": "eye-and-vision",
+  "eye-diseases-styes-cataract": "eye-diseases-styes-cataract",
+  "ear-and-hearing": "ear-and-hearing",
+  "nose-smell-and-sinus": "nose-smell-and-sinus",
+  "cold-coryza-and-sneezing": "cold-coryza-and-sneezing",
+  "face": "face",
+  "teeth-gums-and-dentition": "teeth-gums-and-dentition",
+  "mouth-lips-and-saliva": "mouth-tongue-and-taste",
+  "tongue-and-taste": "mouth-tongue-and-taste",
+  "throat-tonsils-and-swallowing": "neck-shoulder-throat-and-voice",
+  "voice-hoarseness-and-speech": "neck-shoulder-throat-and-voice",
+  "glands-lymph-and-goitre": "glands-lymph-and-goitre",
+  "chest-lungs-and-breathing": "chest-lungs-breathing-and-asthma",
+  "breathing-difficulty-and-asthma": "chest-lungs-breathing-and-asthma",
+  "cough-and-expectoration": "cough-and-expectoration",
+  "heart-palpitation-and-pulse": "heart-palpitation-and-pulse",
+  "blood-pressure-circulation-and-vessels": "blood-pressure-circulation-and-vessels",
+  "stomach-hunger-and-appetite": "stomach-hunger-and-appetite",
+  "nausea-vomiting-and-acidity": "nausea-vomiting-and-acidity",
+  "abdomen-colic-and-gas": "abdomen-digestion-and-gas",
+  "digestion-indigestion-and-nutrition": "abdomen-digestion-and-gas",
+  "liver-gallbladder-and-jaundice": "liver-gallbladder-and-jaundice",
+  "back-spine-and-chest-heart-diseases": "back-spine-and-chest-heart-diseases",
+  "stool-diarrhoea-and-constipation": "constipation",
+  "rectum-anus-and-piles": "rectum-anus-and-piles",
+  "urine-bladder-and-frequency": "urine-bladder-and-frequency",
+  "kidney-and-urinary-diseases": "kidney-and-urinary-diseases",
+  "female-genital-leucorrhoea-and-uterus": "female-genital-leucorrhoea-and-uterus",
+  "breast-nipple-and-lactation": "breast-menses-and-lactation",
+  "menses-and-menstrual-disorders": "breast-menses-and-lactation",
+  "pregnancy-labour-and-postpartum": "pregnancy-and-female-diseases",
+  "female-diseases-prolapse-and-inflammation": "pregnancy-and-female-diseases",
+  "male-genital-testes-and-prostate": "male-genital-and-weakness",
+  "male-diseases-weakness-and-emission": "male-genital-and-weakness",
+  "sexual-desire-coition-and-semen": "sexual-desire-coition-and-semen",
+  "legs-knee-and-feet": "hands-legs-and-feet",
+  "hands-fingers-and-nails": "hands-legs-and-feet",
+  "bones-and-caries": "bones-joints-and-rheumatism",
+  "joints-arthritis-and-rheumatism": "bones-joints-and-rheumatism",
+  "fever-chill-and-temperature": "fever-chill-and-temperature",
+  "sweat-and-perspiration": "sweat-and-perspiration",
+  "pain-types-and-characters": "pain-types-and-characters",
+  "swelling-oedema-and-dropsy": "swelling-oedema-and-dropsy",
+  "bleeding-and-haemorrhage": "blood-bleeding-and-anaemia",
+  "blood-anaemia-and-clotting": "blood-bleeding-and-anaemia",
+  "skin-general-colour-and-texture": "skin-general-colour-and-texture",
+  "skin-eruptions-eczema-and-psoriasis": "skin-eruptions-and-allergy",
+  "allergy-and-hypersensitivity": "skin-eruptions-and-allergy",
+  "itching-burning-and-skin-sensation": "itching-burning-and-skin-sensation",
+  "skin-cracks-fissures-and-ulcers": "skin-cracks-fissures-and-ulcers",
+  "warts-tumours-cysts-and-growths": "warts-tumours-cysts-and-growths",
+  "wounds-cuts-bruises-and-injury": "wounds-burns-and-stings",
+  "burns-bites-and-stings": "wounds-burns-and-stings",
+  "ulcer-abscess-and-suppuration": "ulcer-infection-and-pus",
+  "infection-sepsis-and-pus": "ulcer-infection-and-pus",
+  "worms-and-parasites": "worms-and-parasites",
+  "muscles-cramps-and-spasm": "muscles-cramps-and-spasm",
+  "discharge-secretion-and-mucus": "discharge-secretion-and-mucus",
+  "cancer-gangrene-and-degeneration": "cancer-gangrene-and-degeneration",
+  "prolapse-bearing-down-and-relaxation": "prolapse-bearing-down-and-relaxation",
+  "weakness-fatigue-and-exhaustion": "weakness-and-old-age",
+  "old-age-and-general-debility": "weakness-and-old-age",
+  "children-growth-and-development": "children-growth-and-development",
+  "food-drink-and-cravings": "food-drink-and-cravings",
+  "thirst-and-drinking": "thirst-and-drinking",
+  "cold-chilly-and-cold-air": "cold-chilly-and-cold-air",
+  "heat-warmth-and-sun": "heat-warmth-and-sun",
+  "damp-wet-and-rain": "damp-wet-and-rain",
+  "open-air-and-ventilation": "open-air-and-ventilation",
+  "aggravation": "aggravation",
+  "amelioration": "amelioration",
+  "laterality-left-right-and-sides": "laterality-left-right-and-sides",
+  "smell-and-odor": "smell-and-odor",
+  "touch-pressure-and-rubbing": "touch-pressure-and-rubbing",
+  "time-morning-evening-and-night": "time-morning-evening-and-night",
+  "time-specific-hours-and-days": "time-seasons-and-periodicity",
+  "seasons-moon-and-periodicity": "time-seasons-and-periodicity",
+  "weather-climate-and-environment": "weather-climate-and-environment",
+  "relationship-complementary-antidote": "relationship-complementary-antidote",
+  "potency-posology-and-medicine-info": "potency-posology-and-medicine-info",
+  "vaccination-suppression-and-ill-effects": "vaccination-suppression-and-ill-effects",
+  "general-and-miscellaneous": "general-and-miscellaneous",
+  "মন_Mind": "mind",
+  "ভয়_উদ্বেগ_ও_আতঙ্ক_Fear_Anxiety_and_Phobia": "fear-anxiety-and-phobia",
+  "রাগ_মেজাজ_ও_বিরক্তি_Anger_Irritability_and_Temper": "anger-irritability-and-temper",
+  "দুঃখ_বিষণ্ণতা_ও_শোক_Sadness_Depression_and_Grief": "sadness-depression-and-grief",
+  "স্মৃতি_মনোযোগ_ও_চিন্তা_Memory_Concentration_and_Thinking": "memory-concentration-and-thinking",
+  "ঘুম_অনিদ্রা_ও_স্বপ্ন_Sleep_Insomnia_and_Dreams": "sleep-insomnia-and-dreams",
+  "মাথা_Head": "head-hair-and-scalp",
+  "মাথাব্যথা_Headache": "headache",
+  "চোখ_ও_দৃষ্টি_Eye_and_Vision": "eye-and-vision",
+  "চোখের_রোগ_-_অঞ্জনি_ছানি_Eye_Diseases_-_Styes_Cataract": "eye-diseases-styes-cataract",
+  "কান_ও_শ্রবণ_Ear_and_Hearing": "ear-and-hearing",
+  "নাক_ঘ্রাণ_ও_সাইনাস_Nose_Smell_and_Sinus": "nose-smell-and-sinus",
+  "মুখমণ্ডল_Face": "face",
+  "মুখ_ঠোঁট_ও_লালা_Mouth_Lips_and_Saliva": "mouth-tongue-and-taste",
+  "দাঁত_মাড়ি_ও_দাঁত_ওঠা_Teeth_Gums_and_Dentition": "teeth-gums-and-dentition",
+  "জিহ্বা_ও_স্বাদ_Tongue_and_Taste": "mouth-tongue-and-taste",
+  "গলা_টনসিল_ও_গিলা_Throat_Tonsils_and_Swallowing": "neck-shoulder-throat-and-voice",
+  "কণ্ঠ_স্বরভঙ্গ_ও_কথা_Voice_Hoarseness_and_Speech": "neck-shoulder-throat-and-voice",
+  "ঘাড়_কাঁধ_চুল_ও_মাথার_চামড়া_Neck_Shoulder_Hair_and_Scalp": "neck-shoulder-throat-and-voice",
+  "বুক_ফুসফুস_ও_শ্বাস_Chest_Lungs_and_Breathing": "chest-lungs-breathing-and-asthma",
+  "কাশি_ও_কফ_Cough_and_Expectoration": "cough-and-expectoration",
+  "শ্বাসকষ্ট_ও_হাঁপানি_Breathing_Difficulty_and_Asthma": "chest-lungs-breathing-and-asthma",
+  "সর্দি_হাঁচি_ও_কফ_Cold_Coryza_and_Sneezing": "cold-coryza-and-sneezing",
+  "হৃদপিণ্ড_ধড়ফড়_ও_নাড়ি_Heart_Palpitation_and_Pulse": "heart-palpitation-and-pulse",
+  "রক্তচাপ_রক্ত_সঞ্চালন_ও_শিরা_Blood_Pressure_Circulation_and_Vessels": "blood-pressure-circulation-and-vessels",
+  "পাকস্থলী_ক্ষুধা_ও_খিদে_Stomach_Hunger_and_Appetite": "stomach-hunger-and-appetite",
+  "বমি_বমিভাব_ও_অম্ল_Nausea_Vomiting_and_Acidity": "nausea-vomiting-and-acidity",
+  "হজম_বদহজম_ও_পুষ্টি_Digestion_Indigestion_and_Nutrition": "abdomen-digestion-and-gas",
+  "পেট_পেটব্যথা_ও_গ্যাস_Abdomen_Colic_and_Gas": "abdomen-digestion-and-gas",
+  "লিভার_পিত্ত_ও_জন্ডিস_Liver_Gallbladder_and_Jaundice": "liver-gallbladder-and-jaundice",
+  "স্তন_বোঁটা_ও_দুধ_খাওয়ানো_Breast_Nipple_and_Lactation": "breast-menses-and-lactation",
+  "পিঠ_মেরুদণ্ড_ও_বুক-হৃদরোগ_Back_Spine_and_Chest-Heart_Diseases": "back-spine-and-chest-heart-diseases",
+  "মল_ডায়রিয়া_ও_কোষ্ঠকাঠিন্য_Stool_Diarrhoea_and_Constipation": "constipation",
+  "মলদ্বার_পাইলস_ও_ফিস্টুলা_Rectum_Anus_and_Piles": "rectum-anus-and-piles",
+  "প্রস্রাব_মূত্রথলি_ও_ঘন_ঘন_প্রস্রাব_Urine_Bladder_and_Frequency": "urine-bladder-and-frequency",
+  "কিডনি_ও_মূত্র_রোগ_Kidney_and_Urinary_Diseases": "kidney-and-urinary-diseases",
+  "ঋতুস্রাব_ও_মাসিকের_সমস্যা_Menses_and_Menstrual_Disorders": "breast-menses-and-lactation",
+  "স্ত্রী_যৌনাঙ্গ_সাদাস্রাব_ও_জরায়ু_Female_Genital_Leucorrhoea_and_Uterus": "female-genital-leucorrhoea-and-uterus",
+  "গর্ভাবস্থা_প্রসব_ও_প্রসব_পরবর্তী_Pregnancy_Labour_and_Postpartum": "pregnancy-and-female-diseases",
+  "স্ত্রী_রোগ_-_প্রল্যাপস_ও_প্রদাহ_Female_Diseases_-_Prolapse_and_Inflammation": "pregnancy-and-female-diseases",
+  "পুরুষ_যৌনাঙ্গ_অণ্ডকোষ_ও_প্রোস্টেট_Male_Genital_Testes_and_Prostate": "male-genital-and-weakness",
+  "যৌন_ইচ্ছা_সহবাস_ও_বীর্য_Sexual_Desire_Coition_and_Semen": "sexual-desire-coition-and-semen",
+  "পুরুষ_রোগ_-_দুর্বলতা_ও_ধাতু_Male_Diseases_-_Weakness_and_Emission": "male-genital-and-weakness",
+  "পা_হাঁটু_ও_পায়ের_পাতা_Legs_Knee_and_Feet": "hands-legs-and-feet",
+  "হাত_আঙুল_ও_নখ_Hands_Fingers_and_Nails": "hands-legs-and-feet",
+  "হাড়_ও_হাড়ের_ক্ষয়_Bones_and_Caries": "bones-joints-and-rheumatism",
+  "জয়েন্ট_বাত_ও_রিউম্যাটিজম_Joints_Arthritis_and_Rheumatism": "bones-joints-and-rheumatism",
+  "পেশি_টান_ও_খিঁচুনি_Muscles_Cramps_and_Spasm": "muscles-cramps-and-spasm",
+  "জ্বর_শীত_ও_তাপমাত্রা_Fever_Chill_and_Temperature": "fever-chill-and-temperature",
+  "ঘাম_Sweat_and_Perspiration": "sweat-and-perspiration",
+  "ব্যথার_ধরন_Pain_-_Types_and_Characters": "pain-types-and-characters",
+  "ফোলা_শোথ_ও_জল_জমা_Swelling_Oedema_and_Dropsy": "swelling-oedema-and-dropsy",
+  "রক্তপাত_Bleeding_and_Haemorrhage": "blood-bleeding-and-anaemia",
+  "রক্ত_রক্তাল্পতা_ও_জমাট_Blood_Anaemia_and_Clotting": "blood-bleeding-and-anaemia",
+  "চামড়া_-_সাধারণ_রং_ও_গঠন_Skin_-_General_Colour_and_Texture": "skin-general-colour-and-texture",
+  "চামড়ার_উদ্ভেদ_একজিমা_ও_সোরিয়াসিস_Skin_Eruptions_Eczema_and_Psoriasis": "skin-eruptions-and-allergy",
+  "চুলকানি_জ্বালা_ও_চামড়ার_অনুভূতি_Itching_Burning_and_Skin_Sensation": "itching-burning-and-skin-sensation",
+  "চামড়া_ফাটা_ক্ষত_ও_আলসার_Skin_-_Cracks_Fissures_and_Ulcers": "skin-cracks-fissures-and-ulcers",
+  "আঁচিল_টিউমার_সিস্ট_ও_গোটা_Warts_Tumours_Cysts_and_Growths": "warts-tumours-cysts-and-growths",
+  "ক্ষত_কাটা_থেঁতো_ও_আঘাত_Wounds_Cuts_Bruises_and_Injury": "wounds-burns-and-stings",
+  "ঘা_ফোড়া_ও_পুঁজ_Ulcer_Abscess_and_Suppuration": "ulcer-infection-and-pus",
+  "পোড়া_কামড়_ও_হুল_Burns_Bites_and_Stings": "wounds-burns-and-stings",
+  "সংক্রমণ_সেপসিস_ও_পুঁজ_Infection_Sepsis_and_Pus": "ulcer-infection-and-pus",
+  "অ্যালার্জি_ও_অতিসংবেদনশীলতা_Allergy_and_Hypersensitivity": "skin-eruptions-and-allergy",
+  "কৃমি_ও_পরজীবী_Worms_and_Parasites": "worms-and-parasites",
+  "দুর্বলতা_ক্লান্তি_ও_অবসাদ_Weakness_Fatigue_and_Exhaustion": "weakness-and-old-age",
+  "শিশু_বৃদ্ধি_ও_বিকাশ_Children_-_Growth_and_Development": "children-growth-and-development",
+  "বার্ধক্য_ও_সাধারণ_দুর্বলতা_Old_Age_and_General_Debility": "weakness-and-old-age",
+  "গঠন_শীতকাতর_-_গরমকাতর_Constitution_Build_and_Thermal": "constitution-build-and-thermal",
+  "মায়াজম_প্রবণতা_ও_বংশগত_Miasm_Diathesis_and_Heredity": "miasm-diathesis-and-heredity",
+  "খাবার_পানীয়_ও_ইচ্ছা_Food_Drink_and_Cravings": "food-drink-and-cravings",
+  "তামাক_মদ_ও_নেশা_Tobacco_Alcohol_and_Stimulants": "tobacco-alcohol-and-stimulants",
+  "তৃষ্ণা_ও_পান_করা_Thirst_and_Drinking": "thirst-and-drinking",
+  "গন্ধ_ও_দুর্গন্ধ_Smell_and_Odor": "smell-and-odor",
+  "স্পর্শ_চাপ_ও_মালিশ_Touch_Pressure_and_Rubbing": "touch-pressure-and-rubbing",
+  "নড়াচড়া_ভঙ্গি_ও_বিশ্রাম_Motion_Posture_and_Rest": "motion-posture-and-rest",
+  "সময়_-_সকাল_সন্ধ্যা_ও_রাত_Time_-_Morning_Evening_and_Night": "time-morning-evening-and-night",
+  "সময়_-_নির্দিষ্ট_ঘণ্টা_ও_দিন_Time_-_Specific_Hours_and_Days": "time-seasons-and-periodicity",
+  "ঋতু_চাঁদ_ও_পর্যায়ক্রম_Seasons_Moon_and_Periodicity": "time-seasons-and-periodicity",
+  "আবহাওয়া_জলবায়ু_ও_পরিবেশ_Weather_Climate_and_Environment": "weather-climate-and-environment",
+  "ঠান্ডা_শীতলতা_ও_ঠান্ডা_বাতাস_Cold_Chilly_and_Cold_Air": "cold-chilly-and-cold-air",
+  "গরম_উষ্ণতা_ও_রোদ_Heat_Warmth_and_Sun": "heat-warmth-and-sun",
+  "ভেজা_আর্দ্রতা_ও_বৃষ্টি_Damp_Wet_and_Rain": "damp-wet-and-rain",
+  "খোলা_বাতাস_ও_বাতাস_Open_Air_and_Ventilation": "open-air-and-ventilation",
+  "বৃদ্ধির_কারণ_Aggravation": "aggravation",
+  "উপশমের_কারণ_Amelioration": "amelioration",
+  "পার্শ্ব_-_বাম_ডান_ও_দিক_Laterality_-_Left_Right_and_Sides": "laterality-left-right-and-sides",
+  "ভ্রম_অলীক_দর্শন_ও_পাগলামি_Delusion_Hallucination_and_Insanity": "delusion-hallucination-and-insanity",
+  "আচরণ_অভ্যাস_ও_স্বভাব_Behaviour_Habits_and_Character": "behaviour-habits-and-character",
+  "ঔষধ_সম্পর্ক_-_পরিপূরক_প্রতিষেধক_Relationship_-_Complementary_Antidote": "relationship-complementary-antidote",
+  "শক্তি_মাত্রা_ও_ঔষধ_পরিচিতি_Potency_Posology_and_Medicine_Info": "potency-posology-and-medicine-info",
+  "টিকা_চাপা_পড়া_ও_কুফল_Vaccination_Suppression_and_Ill-effects": "vaccination-suppression-and-ill-effects",
+  "মাথা_ঘোরা_ও_অজ্ঞান_Vertigo_Dizziness_and_Fainting": "vertigo-dizziness-and-fainting",
+  "খিঁচুনি_কাঁপুনি_ও_ফড়ফড়_Convulsion_Tremor_and_Twitching": "convulsion-tremor-and-twitching",
+  "স্রাব_নিঃসরণ_ও_শ্লেষ্মা_Discharge_Secretion_and_Mucus": "discharge-secretion-and-mucus",
+  "অনুভূতি_-_সাধারণ_Sensation_-_General_Feelings": "sensation-general-feelings",
+  "গ্রন্থি_লসিকা_ও_গলগণ্ড_Glands_Lymph_and_Goitre": "glands-lymph-and-goitre",
+  "ক্যান্সার_গ্যাংগ্রিন_ও_ক্ষয়_Cancer_Gangrene_and_Degeneration": "cancer-gangrene-and-degeneration",
+  "প্রল্যাপস_নিচে_চাপ_ও_শিথিলতা_Prolapse_Bearing_Down_and_Relaxation": "prolapse-bearing-down-and-relaxation",
+  "100_সাধারণ_ও_বিবিধ_General_and_Miscellaneous": "general-and-miscellaneous"
+};
 window.__LEGACY = LEGACY_MAP;
-const TAG_MAP = {"mind": {"bn": "মন", "en": "Mind", "count": 305, "section": "উপরের অঙ্গ"}, "fear-anxiety-and-phobia": {"bn": "ভয়, উদ্বেগ ও আতঙ্ক", "en": "Fear, Anxiety & Phobia", "count": 76, "section": "উপরের অঙ্গ"}, "anger-irritability-and-temper": {"bn": "রাগ, মেজাজ ও বিরক্তি", "en": "Anger, Irritability & Temper", "count": 67, "section": "উপরের অঙ্গ"}, "sadness-depression-and-grief": {"bn": "দুঃখ, বিষণ্ণতা ও শোক", "en": "Sadness, Depression & Grief", "count": 57, "section": "উপরের অঙ্গ"}, "memory-concentration-and-thinking": {"bn": "স্মৃতি, মনোযোগ ও চিন্তা", "en": "Memory, Concentration & Thinking", "count": 36, "section": "উপরের অঙ্গ"}, "sleep-insomnia-and-dreams": {"bn": "ঘুম, অনিদ্রা ও স্বপ্ন", "en": "Sleep, Insomnia & Dreams", "count": 54, "section": "উপরের অঙ্গ"}, "head": {"bn": "মাথা", "en": "Head", "count": 54, "section": "উপরের অঙ্গ"}, "headache": {"bn": "মাথাব্যথা", "en": "Headache", "count": 43, "section": "উপরের অঙ্গ"}, "eye-and-vision": {"bn": "চোখ ও দৃষ্টি", "en": "Eye & Vision", "count": 73, "section": "উপরের অঙ্গ"}, "eye-diseases-styes-cataract": {"bn": "চোখের রোগ - অঞ্জনি, ছানি", "en": "Eye Diseases - Styes, Cataract", "count": 49, "section": "উপরের অঙ্গ"}, "ear-and-hearing": {"bn": "কান ও শ্রবণ", "en": "Ear & Hearing", "count": 20, "section": "উপরের অঙ্গ"}, "nose-smell-and-sinus": {"bn": "নাক, ঘ্রাণ ও সাইনাস", "en": "Nose, Smell & Sinus", "count": 39, "section": "উপরের অঙ্গ"}, "face": {"bn": "মুখমণ্ডল", "en": "Face", "count": 22, "section": "উপরের অঙ্গ"}, "mouth-lips-and-saliva": {"bn": "মুখ, ঠোঁট ও লালা", "en": "Mouth, Lips & Saliva", "count": 15, "section": "উপরের অঙ্গ"}, "teeth-gums-and-dentition": {"bn": "দাঁত, মাড়ি ও দাঁত ওঠা", "en": "Teeth, Gums & Dentition", "count": 34, "section": "উপরের অঙ্গ"}, "tongue-and-taste": {"bn": "জিহ্বা ও স্বাদ", "en": "Tongue & Taste", "count": 28, "section": "উপরের অঙ্গ"}, "throat-tonsils-and-swallowing": {"bn": "গলা, টনসিল ও গিলা", "en": "Throat, Tonsils & Swallowing", "count": 37, "section": "উপরের অঙ্গ"}, "voice-hoarseness-and-speech": {"bn": "কণ্ঠ, স্বরভঙ্গ ও কথা", "en": "Voice, Hoarseness & Speech", "count": 16, "section": "উপরের অঙ্গ"}, "neck-shoulder-hair-and-scalp": {"bn": "ঘাড়, কাঁধ, চুল ও মাথার চামড়া", "en": "Neck, Shoulder, Hair & Scalp", "count": 20, "section": "উপরের অঙ্গ"}, "chest-lungs-and-breathing": {"bn": "বুক, ফুসফুস ও শ্বাস", "en": "Chest, Lungs & Breathing", "count": 45, "section": "মাঝের অঙ্গ"}, "cough-and-expectoration": {"bn": "কাশি ও কফ", "en": "Cough & Expectoration", "count": 51, "section": "মাঝের অঙ্গ"}, "breathing-difficulty-and-asthma": {"bn": "শ্বাসকষ্ট ও হাঁপানি", "en": "Breathing Difficulty & Asthma", "count": 17, "section": "মাঝের অঙ্গ"}, "cold-coryza-and-sneezing": {"bn": "সর্দি, হাঁচি ও কফ", "en": "Cold, Coryza & Sneezing", "count": 107, "section": "মাঝের অঙ্গ"}, "heart-palpitation-and-pulse": {"bn": "হৃদপিণ্ড, ধড়ফড় ও নাড়ি", "en": "Heart, Palpitation & Pulse", "count": 37, "section": "মাঝের অঙ্গ"}, "blood-pressure-circulation-and-vessels": {"bn": "রক্তচাপ, রক্ত সঞ্চালন ও শিরা", "en": "Blood Pressure, Circulation & Vessels", "count": 35, "section": "মাঝের অঙ্গ"}, "stomach-hunger-and-appetite": {"bn": "পাকস্থলী, ক্ষুধা ও খিদে", "en": "Stomach, Hunger & Appetite", "count": 57, "section": "মাঝের অঙ্গ"}, "nausea-vomiting-and-acidity": {"bn": "বমি, বমিভাব ও অম্ল", "en": "Nausea, Vomiting & Acidity", "count": 53, "section": "মাঝের অঙ্গ"}, "digestion-indigestion-and-nutrition": {"bn": "হজম, বদহজম ও পুষ্টি", "en": "Digestion, Indigestion & Nutrition", "count": 28, "section": "মাঝের অঙ্গ"}, "abdomen-colic-and-gas": {"bn": "পেট, পেটব্যথা ও গ্যাস", "en": "Abdomen, Colic & Gas", "count": 53, "section": "মাঝের অঙ্গ"}, "liver-gallbladder-and-jaundice": {"bn": "লিভার, পিত্ত ও জন্ডিস", "en": "Liver, Gallbladder & Jaundice", "count": 17, "section": "মাঝের অঙ্গ"}, "breast-nipple-and-lactation": {"bn": "স্তন, বোঁটা ও দুধ খাওয়ানো", "en": "Breast, Nipple & Lactation", "count": 11, "section": "মাঝের অঙ্গ"}, "back-spine-and-chest-heart-diseases": {"bn": "পিঠ, মেরুদণ্ড ও বুক-হৃদরোগ", "en": "Back, Spine & Chest-Heart Diseases", "count": 50, "section": "মাঝের অঙ্গ"}, "stool-diarrhoea-and-constipation": {"bn": "মল, ডায়রিয়া ও কোষ্ঠকাঠিন্য", "en": "Stool, Diarrhoea & Constipation", "count": 93, "section": "নিচের অঙ্গ"}, "rectum-anus-and-piles": {"bn": "মলদ্বার, পাইলস ও ফিস্টুলা", "en": "Rectum, Anus & Piles", "count": 33, "section": "নিচের অঙ্গ"}, "urine-bladder-and-frequency": {"bn": "প্রস্রাব, মূত্রথলি ও ঘন ঘন প্রস্রাব", "en": "Urine, Bladder & Frequency", "count": 63, "section": "নিচের অঙ্গ"}, "kidney-and-urinary-diseases": {"bn": "কিডনি ও মূত্র রোগ", "en": "Kidney & Urinary Diseases", "count": 51, "section": "নিচের অঙ্গ"}, "menses-and-menstrual-disorders": {"bn": "ঋতুস্রাব ও মাসিকের সমস্যা", "en": "Menses & Menstrual Disorders", "count": 34, "section": "নিচের অঙ্গ"}, "female-genital-leucorrhoea-and-uterus": {"bn": "স্ত্রী যৌনাঙ্গ, সাদাস্রাব ও জরায়ু", "en": "Female Genital, Leucorrhoea & Uterus", "count": 75, "section": "নিচের অঙ্গ"}, "pregnancy-labour-and-postpartum": {"bn": "গর্ভাবস্থা, প্রসব ও প্রসব পরবর্তী", "en": "Pregnancy, Labour & Postpartum", "count": 21, "section": "নিচের অঙ্গ"}, "female-diseases-prolapse-and-inflammation": {"bn": "স্ত্রী রোগ - প্রল্যাপস ও প্রদাহ", "en": "Female Diseases - Prolapse & Inflammation", "count": 26, "section": "নিচের অঙ্গ"}, "male-genital-testes-and-prostate": {"bn": "পুরুষ যৌনাঙ্গ, অণ্ডকোষ ও প্রোস্টেট", "en": "Male Genital, Testes & Prostate", "count": 15, "section": "নিচের অঙ্গ"}, "sexual-desire-coition-and-semen": {"bn": "যৌন ইচ্ছা, সহবাস ও বীর্য", "en": "Sexual Desire, Coition & Semen", "count": 31, "section": "নিচের অঙ্গ"}, "male-diseases-weakness-and-emission": {"bn": "পুরুষ রোগ - দুর্বলতা ও ধাতু", "en": "Male Diseases - Weakness & Emission", "count": 45, "section": "নিচের অঙ্গ"}, "legs-knee-and-feet": {"bn": "পা, হাঁটু ও পায়ের পাতা", "en": "Legs, Knee & Feet", "count": 31, "section": "নিচের অঙ্গ"}, "hands-fingers-and-nails": {"bn": "হাত, আঙুল ও নখ", "en": "Hands, Fingers & Nails", "count": 24, "section": "নিচের অঙ্গ"}, "bones-and-caries": {"bn": "হাড় ও হাড়ের ক্ষয়", "en": "Bones & Caries", "count": 21, "section": "নিচের অঙ্গ"}, "joints-arthritis-and-rheumatism": {"bn": "জয়েন্ট, বাত ও রিউম্যাটিজম", "en": "Joints, Arthritis & Rheumatism", "count": 34, "section": "নিচের অঙ্গ"}, "muscles-cramps-and-spasm": {"bn": "পেশি, টান ও খিঁচুনি", "en": "Muscles, Cramps & Spasm", "count": 27, "section": "নিচের অঙ্গ"}, "fever-chill-and-temperature": {"bn": "জ্বর, শীত ও তাপমাত্রা", "en": "Fever, Chill & Temperature", "count": 32, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "sweat-and-perspiration": {"bn": "ঘাম", "en": "Sweat & Perspiration", "count": 29, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "pain-types-and-characters": {"bn": "ব্যথার ধরন", "en": "Pain - Types & Characters", "count": 115, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "swelling-oedema-and-dropsy": {"bn": "ফোলা, শোথ ও জল জমা", "en": "Swelling, Oedema & Dropsy", "count": 50, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "bleeding-and-haemorrhage": {"bn": "রক্তপাত", "en": "Bleeding & Haemorrhage", "count": 32, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "blood-anaemia-and-clotting": {"bn": "রক্ত, রক্তাল্পতা ও জমাট", "en": "Blood, Anaemia & Clotting", "count": 17, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "skin-general-colour-and-texture": {"bn": "চামড়া - সাধারণ, রং ও গঠন", "en": "Skin - General, Colour & Texture", "count": 74, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "skin-eruptions-eczema-and-psoriasis": {"bn": "চামড়ার উদ্ভেদ, একজিমা ও সোরিয়াসিস", "en": "Skin Eruptions, Eczema & Psoriasis", "count": 40, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "itching-burning-and-skin-sensation": {"bn": "চুলকানি, জ্বালা ও চামড়ার অনুভূতি", "en": "Itching, Burning & Skin Sensation", "count": 69, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "skin-cracks-fissures-and-ulcers": {"bn": "চামড়া ফাটা, ক্ষত ও আলসার", "en": "Skin - Cracks, Fissures & Ulcers", "count": 76, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "warts-tumours-cysts-and-growths": {"bn": "আঁচিল, টিউমার, সিস্ট ও গোটা", "en": "Warts, Tumours, Cysts & Growths", "count": 21, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "wounds-cuts-bruises-and-injury": {"bn": "ক্ষত, কাটা, থেঁতো ও আঘাত", "en": "Wounds, Cuts, Bruises & Injury", "count": 43, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "ulcer-abscess-and-suppuration": {"bn": "ঘা, ফোড়া ও পুঁজ", "en": "Ulcer, Abscess & Suppuration", "count": 39, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "burns-bites-and-stings": {"bn": "পোড়া, কামড় ও হুল", "en": "Burns, Bites & Stings", "count": 15, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "infection-sepsis-and-pus": {"bn": "সংক্রমণ, সেপসিস ও পুঁজ", "en": "Infection, Sepsis & Pus", "count": 24, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "allergy-and-hypersensitivity": {"bn": "অ্যালার্জি ও অতিসংবেদনশীলতা", "en": "Allergy & Hypersensitivity", "count": 6, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "worms-and-parasites": {"bn": "কৃমি ও পরজীবী", "en": "Worms & Parasites", "count": 18, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "weakness-fatigue-and-exhaustion": {"bn": "দুর্বলতা, ক্লান্তি ও অবসাদ", "en": "Weakness, Fatigue & Exhaustion", "count": 63, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "children-growth-and-development": {"bn": "শিশু, বৃদ্ধি ও বিকাশ", "en": "Children - Growth & Development", "count": 55, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "old-age-and-general-debility": {"bn": "বার্ধক্য ও সাধারণ দুর্বলতা", "en": "Old Age & General Debility", "count": 7, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "constitution-build-and-thermal": {"bn": "গঠন, শীতকাতর / গরমকাতর", "en": "Constitution, Build & Thermal", "count": 167, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "miasm-diathesis-and-heredity": {"bn": "মায়াজম, প্রবণতা ও বংশগত", "en": "Miasm, Diathesis & Heredity", "count": 43, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "food-drink-and-cravings": {"bn": "খাবার, পানীয় ও ইচ্ছা", "en": "Food, Drink & Cravings", "count": 123, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "tobacco-alcohol-and-stimulants": {"bn": "তামাক, মদ ও নেশা", "en": "Tobacco, Alcohol & Stimulants", "count": 17, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "thirst-and-drinking": {"bn": "তৃষ্ণা ও পান করা", "en": "Thirst & Drinking", "count": 34, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "smell-and-odor": {"bn": "গন্ধ ও দুর্গন্ধ", "en": "Smell & Odor", "count": 48, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "touch-pressure-and-rubbing": {"bn": "স্পর্শ, চাপ ও মালিশ", "en": "Touch, Pressure & Rubbing", "count": 67, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "motion-posture-and-rest": {"bn": "নড়াচড়া, ভঙ্গি ও বিশ্রাম", "en": "Motion, Posture & Rest", "count": 131, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "time-morning-evening-and-night": {"bn": "সময় - সকাল, সন্ধ্যা ও রাত", "en": "Time - Morning, Evening & Night", "count": 94, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "time-specific-hours-and-days": {"bn": "সময় - নির্দিষ্ট ঘণ্টা ও দিন", "en": "Time - Specific Hours & Days", "count": 11, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "seasons-moon-and-periodicity": {"bn": "ঋতু, চাঁদ ও পর্যায়ক্রম", "en": "Seasons, Moon & Periodicity", "count": 36, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "weather-climate-and-environment": {"bn": "আবহাওয়া, জলবায়ু ও পরিবেশ", "en": "Weather, Climate & Environment", "count": 53, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "cold-chilly-and-cold-air": {"bn": "ঠান্ডা, শীতলতা ও ঠান্ডা বাতাস", "en": "Cold, Chilly & Cold Air", "count": 123, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "heat-warmth-and-sun": {"bn": "গরম, উষ্ণতা ও রোদ", "en": "Heat, Warmth & Sun", "count": 86, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "damp-wet-and-rain": {"bn": "ভেজা, আর্দ্রতা ও বৃষ্টি", "en": "Damp, Wet & Rain", "count": 33, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "open-air-and-ventilation": {"bn": "খোলা বাতাস ও বাতাস", "en": "Open Air & Ventilation", "count": 48, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "aggravation": {"bn": "বৃদ্ধির কারণ", "en": "Aggravation", "count": 117, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "amelioration": {"bn": "উপশমের কারণ", "en": "Amelioration", "count": 97, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "laterality-left-right-and-sides": {"bn": "পার্শ্ব - বাম, ডান ও দিক", "en": "Laterality - Left, Right & Sides", "count": 87, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "delusion-hallucination-and-insanity": {"bn": "ভ্রম, অলীক দর্শন ও পাগলামি", "en": "Delusion, Hallucination & Insanity", "count": 53, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "behaviour-habits-and-character": {"bn": "আচরণ, অভ্যাস ও স্বভাব", "en": "Behaviour, Habits & Character", "count": 87, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "relationship-complementary-antidote": {"bn": "ঔষধ সম্পর্ক - পরিপূরক, প্রতিষেধক", "en": "Relationship - Complementary, Antidote", "count": 63, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "potency-posology-and-medicine-info": {"bn": "শক্তি, মাত্রা ও ঔষধ পরিচিতি", "en": "Potency, Posology & Medicine Info", "count": 46, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "vaccination-suppression-and-ill-effects": {"bn": "টিকা, চাপা পড়া ও কুফল", "en": "Vaccination, Suppression & Ill-effects", "count": 39, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "vertigo-dizziness-and-fainting": {"bn": "মাথা ঘোরা ও অজ্ঞান", "en": "Vertigo, Dizziness & Fainting", "count": 39, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "convulsion-tremor-and-twitching": {"bn": "খিঁচুনি, কাঁপুনি ও ফড়ফড়", "en": "Convulsion, Tremor & Twitching", "count": 34, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "discharge-secretion-and-mucus": {"bn": "স্রাব, নিঃসরণ ও শ্লেষ্মা", "en": "Discharge, Secretion & Mucus", "count": 65, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "sensation-general-feelings": {"bn": "অনুভূতি - সাধারণ", "en": "Sensation - General Feelings", "count": 45, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "glands-lymph-and-goitre": {"bn": "গ্রন্থি, লসিকা ও গলগণ্ড", "en": "Glands, Lymph & Goitre", "count": 16, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "cancer-gangrene-and-degeneration": {"bn": "ক্যান্সার, গ্যাংগ্রিন ও ক্ষয়", "en": "Cancer, Gangrene & Degeneration", "count": 11, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "prolapse-bearing-down-and-relaxation": {"bn": "প্রল্যাপস, নিচে চাপ ও শিথিলতা", "en": "Prolapse, Bearing Down & Relaxation", "count": 13, "section": "সার্বদেহিক রোগ ও সাধারণ"}, "general-and-miscellaneous": {"bn": "সাধারণ ও বিবিধ", "en": "General & Miscellaneous", "count": 772, "section": "সার্বদেহিক রোগ ও সাধারণ"}};
+const TAG_MAP = {
+  "mind": {
+    "bn": "মন",
+    "en": "Mind",
+    "count": 284,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "fear-anxiety-and-phobia": {
+    "bn": "ভয়, উদ্বেগ ও আতঙ্ক",
+    "en": "Fear, Anxiety & Phobia",
+    "count": 72,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "anger-irritability-and-temper": {
+    "bn": "রাগ, মেজাজ ও বিরক্তি",
+    "en": "Anger, Irritability & Temper",
+    "count": 63,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "sadness-depression-and-grief": {
+    "bn": "দুঃখ, বিষণ্ণতা ও শোক",
+    "en": "Sadness, Depression & Grief",
+    "count": 52,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "memory-concentration-and-thinking": {
+    "bn": "স্মৃতি, মনোযোগ ও চিন্তা",
+    "en": "Memory, Concentration & Thinking",
+    "count": 34,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "delusion-hallucination-and-insanity": {
+    "bn": "ভ্রম, অলীক দর্শন ও পাগলামি",
+    "en": "Delusion, Hallucination & Insanity",
+    "count": 48,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "behaviour-habits-and-character": {
+    "bn": "আচরণ, অভ্যাস ও স্বভাব",
+    "en": "Behaviour, Habits & Character",
+    "count": 80,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "sleep-insomnia-and-dreams": {
+    "bn": "ঘুম, অনিদ্রা ও স্বপ্ন",
+    "en": "Sleep, Insomnia & Dreams",
+    "count": 49,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "constitution-build-and-thermal": {
+    "bn": "গঠন, শীতকাতর / গরমকাতর",
+    "en": "Constitution, Build & Thermal",
+    "count": 152,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "miasm-diathesis-and-heredity": {
+    "bn": "মায়াজম, প্রবণতা ও বংশগত",
+    "en": "Miasm, Diathesis & Heredity",
+    "count": 39,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "tobacco-alcohol-and-stimulants": {
+    "bn": "তামাক, মদ ও নেশা",
+    "en": "Tobacco, Alcohol & Stimulants",
+    "count": 15,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "motion-posture-and-rest": {
+    "bn": "নড়াচড়া, ভঙ্গি ও বিশ্রাম",
+    "en": "Motion, Posture & Rest",
+    "count": 122,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "convulsion-tremor-and-twitching": {
+    "bn": "খিঁচুনি, কাঁপুনি ও ফড়ফড়",
+    "en": "Convulsion, Tremor & Twitching",
+    "count": 34,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "sensation-general-feelings": {
+    "bn": "অনুভূতি - সাধারণ",
+    "en": "Sensation - General Feelings",
+    "count": 41,
+    "section": "মানসিক ও স্বভাবগত"
+  },
+  "head-hair-and-scalp": {
+    "bn": "মাথা, চুল ও মাথার চামড়া",
+    "en": "Head, Hair & Scalp",
+    "count": 59,
+    "section": "উপরের অঙ্গ"
+  },
+  "headache": {
+    "bn": "মাথাব্যথা",
+    "en": "Headache",
+    "count": 41,
+    "section": "উপরের অঙ্গ"
+  },
+  "vertigo-dizziness-and-fainting": {
+    "bn": "মাথা ঘোরা ও অজ্ঞান",
+    "en": "Vertigo, Dizziness & Fainting",
+    "count": 38,
+    "section": "উপরের অঙ্গ"
+  },
+  "eye-and-vision": {
+    "bn": "চোখ ও দৃষ্টি",
+    "en": "Eye & Vision",
+    "count": 67,
+    "section": "উপরের অঙ্গ"
+  },
+  "eye-diseases-styes-cataract": {
+    "bn": "চোখের রোগ - অঞ্জনি, ছানি",
+    "en": "Eye Diseases - Styes, Cataract",
+    "count": 46,
+    "section": "উপরের অঙ্গ"
+  },
+  "ear-and-hearing": {
+    "bn": "কান ও শ্রবণ",
+    "en": "Ear & Hearing",
+    "count": 19,
+    "section": "উপরের অঙ্গ"
+  },
+  "nose-smell-and-sinus": {
+    "bn": "নাক, ঘ্রাণ ও সাইনাস",
+    "en": "Nose, Smell & Sinus",
+    "count": 38,
+    "section": "উপরের অঙ্গ"
+  },
+  "cold-coryza-and-sneezing": {
+    "bn": "সর্দি, হাঁচি ও কফ",
+    "en": "Cold, Coryza & Sneezing",
+    "count": 101,
+    "section": "উপরের অঙ্গ"
+  },
+  "face": {
+    "bn": "মুখমণ্ডল",
+    "en": "Face",
+    "count": 22,
+    "section": "উপরের অঙ্গ"
+  },
+  "teeth-gums-and-dentition": {
+    "bn": "দাঁত, মাড়ি ও দাঁত ওঠা",
+    "en": "Teeth, Gums & Dentition",
+    "count": 26,
+    "section": "উপরের অঙ্গ"
+  },
+  "mouth-tongue-and-taste": {
+    "bn": "মুখ, ঠোঁট, জিহ্বা, লালা ও স্বাদ",
+    "en": "Mouth, Lips, Tongue, Saliva & Taste",
+    "count": 35,
+    "section": "উপরের অঙ্গ"
+  },
+  "neck-shoulder-throat-and-voice": {
+    "bn": "ঘাড়, কাঁধ, গলা, টনসিল, কণ্ঠ ও কথা",
+    "en": "Neck, Shoulder, Throat, Tonsils, Voice & Speech",
+    "count": 58,
+    "section": "উপরের অঙ্গ"
+  },
+  "glands-lymph-and-goitre": {
+    "bn": "গ্রন্থি, লসিকা ও গলগণ্ড",
+    "en": "Glands, Lymph & Goitre",
+    "count": 15,
+    "section": "উপরের অঙ্গ"
+  },
+  "chest-lungs-breathing-and-asthma": {
+    "bn": "বুক, ফুসফুস, শ্বাস, শ্বাসকষ্ট ও হাঁপানি",
+    "en": "Chest, Lungs, Breathing, Dyspnoea & Asthma",
+    "count": 49,
+    "section": "মাঝের অঙ্গ"
+  },
+  "cough-and-expectoration": {
+    "bn": "কাশি ও কফ",
+    "en": "Cough & Expectoration",
+    "count": 50,
+    "section": "মাঝের অঙ্গ"
+  },
+  "heart-palpitation-and-pulse": {
+    "bn": "হৃদপিণ্ড, ধড়ফড় ও নাড়ি",
+    "en": "Heart, Palpitation & Pulse",
+    "count": 34,
+    "section": "মাঝের অঙ্গ"
+  },
+  "blood-pressure-circulation-and-vessels": {
+    "bn": "রক্তচাপ, রক্ত সঞ্চালন ও শিরা",
+    "en": "Blood Pressure, Circulation & Vessels",
+    "count": 35,
+    "section": "মাঝের অঙ্গ"
+  },
+  "stomach-hunger-and-appetite": {
+    "bn": "পাকস্থলী, ক্ষুধা ও খিদে",
+    "en": "Stomach, Hunger & Appetite",
+    "count": 52,
+    "section": "মাঝের অঙ্গ"
+  },
+  "nausea-vomiting-and-acidity": {
+    "bn": "বমি, বমিভাব ও অম্ল",
+    "en": "Nausea, Vomiting & Acidity",
+    "count": 43,
+    "section": "মাঝের অঙ্গ"
+  },
+  "abdomen-digestion-and-gas": {
+    "bn": "পেট, হজম, পেটব্যথা, গ্যাস ও পুষ্টি",
+    "en": "Abdomen, Digestion, Colic, Gas & Nutrition",
+    "count": 71,
+    "section": "মাঝের অঙ্গ"
+  },
+  "liver-gallbladder-and-jaundice": {
+    "bn": "লিভার, পিত্ত ও জন্ডিস",
+    "en": "Liver, Gallbladder & Jaundice",
+    "count": 14,
+    "section": "মাঝের অঙ্গ"
+  },
+  "back-spine-and-chest-heart-diseases": {
+    "bn": "পিঠ, মেরুদণ্ড ও বুক-হৃদরোগ",
+    "en": "Back, Spine & Chest-Heart Diseases",
+    "count": 48,
+    "section": "মাঝের অঙ্গ"
+  },
+  "stool-and-diarrhoea": {
+    "bn": "মল ও ডায়রিয়া",
+    "en": "Stool & Diarrhoea",
+    "count": 55,
+    "section": "নিচের অঙ্গ"
+  },
+  "constipation": {
+    "bn": "কোষ্ঠকাঠিন্য",
+    "en": "Constipation",
+    "count": 25,
+    "section": "নিচের অঙ্গ"
+  },
+  "rectum-anus-and-piles": {
+    "bn": "মলদ্বার, পাইলস ও ফিস্টুলা",
+    "en": "Rectum, Anus & Piles",
+    "count": 29,
+    "section": "নিচের অঙ্গ"
+  },
+  "urine-bladder-and-frequency": {
+    "bn": "প্রস্রাব, মূত্রথলি ও ঘন ঘন প্রস্রাব",
+    "en": "Urine, Bladder & Frequency",
+    "count": 57,
+    "section": "নিচের অঙ্গ"
+  },
+  "kidney-and-urinary-diseases": {
+    "bn": "কিডনি ও মূত্র রোগ",
+    "en": "Kidney & Urinary Diseases",
+    "count": 46,
+    "section": "নিচের অঙ্গ"
+  },
+  "female-genital-leucorrhoea-and-uterus": {
+    "bn": "স্ত্রী যৌনাঙ্গ, সাদাস্রাব ও জরায়ু",
+    "en": "Female Genital, Leucorrhoea & Uterus",
+    "count": 67,
+    "section": "নিচের অঙ্গ"
+  },
+  "breast-menses-and-lactation": {
+    "bn": "স্তন, ঋতুস্রাব, মাসিক ও দুধ খাওয়ানো",
+    "en": "Breast, Menses, Menstrual Disorders & Lactation",
+    "count": 41,
+    "section": "নিচের অঙ্গ"
+  },
+  "pregnancy-and-female-diseases": {
+    "bn": "গর্ভাবস্থা, প্রসব, প্রসব পরবর্তী ও স্ত্রী রোগ",
+    "en": "Pregnancy, Labour, Postpartum & Female Diseases",
+    "count": 40,
+    "section": "নিচের অঙ্গ"
+  },
+  "male-genital-and-weakness": {
+    "bn": "পুরুষ যৌনাঙ্গ, প্রোস্টেট, দুর্বলতা ও ধাতু",
+    "en": "Male Genital, Prostate, Weakness & Emission",
+    "count": 47,
+    "section": "নিচের অঙ্গ"
+  },
+  "sexual-desire-coition-and-semen": {
+    "bn": "যৌন ইচ্ছা, সহবাস ও বীর্য",
+    "en": "Sexual Desire, Coition & Semen",
+    "count": 25,
+    "section": "নিচের অঙ্গ"
+  },
+  "hands-legs-and-feet": {
+    "bn": "হাত, পা, আঙুল, নখ ও পায়ের পাতা",
+    "en": "Hands, Legs, Fingers, Nails & Feet",
+    "count": 46,
+    "section": "নিচের অঙ্গ"
+  },
+  "bones-joints-and-rheumatism": {
+    "bn": "হাড়, জয়েন্ট, বাত ও রিউম্যাটিজম",
+    "en": "Bones, Joints, Arthritis & Rheumatism",
+    "count": 52,
+    "section": "নিচের অঙ্গ"
+  },
+  "fever-chill-and-temperature": {
+    "bn": "জ্বর, শীত ও তাপমাত্রা",
+    "en": "Fever, Chill & Temperature",
+    "count": 28,
+    "section": "সার্বদৌহিক"
+  },
+  "sweat-and-perspiration": {
+    "bn": "ঘাম",
+    "en": "Sweat & Perspiration",
+    "count": 26,
+    "section": "সার্বদৌহিক"
+  },
+  "pain-types-and-characters": {
+    "bn": "ব্যথার ধরন",
+    "en": "Pain - Types & Characters",
+    "count": 109,
+    "section": "সার্বদৌহিক"
+  },
+  "swelling-oedema-and-dropsy": {
+    "bn": "ফোলা, শোথ ও জল জমা",
+    "en": "Swelling, Oedema & Dropsy",
+    "count": 46,
+    "section": "সার্বদৌহিক"
+  },
+  "blood-bleeding-and-anaemia": {
+    "bn": "রক্ত, রক্তপাত, রক্তাল্পতা ও জমাট",
+    "en": "Blood, Bleeding, Anaemia & Clotting",
+    "count": 43,
+    "section": "সার্বদৌহিক"
+  },
+  "skin-general-colour-and-texture": {
+    "bn": "চামড়া - সাধারণ, রং ও গঠন",
+    "en": "Skin - General, Colour & Texture",
+    "count": 67,
+    "section": "সার্বদৌহিক"
+  },
+  "skin-eruptions-and-allergy": {
+    "bn": "চামড়ার উদ্ভেদ, একজিমা, সোরিয়াসিস ও অ্যালার্জি",
+    "en": "Skin Eruptions, Eczema, Psoriasis & Allergy",
+    "count": 42,
+    "section": "সার্বদৌহিক"
+  },
+  "itching-burning-and-skin-sensation": {
+    "bn": "চুলকানি, জ্বালা ও চামড়ার অনুভূতি",
+    "en": "Itching, Burning & Skin Sensation",
+    "count": 65,
+    "section": "সার্বদৌহিক"
+  },
+  "skin-cracks-fissures-and-ulcers": {
+    "bn": "চামড়া ফাটা, ক্ষত ও আলসার",
+    "en": "Skin - Cracks, Fissures & Ulcers",
+    "count": 70,
+    "section": "সার্বদৌহিক"
+  },
+  "warts-tumours-cysts-and-growths": {
+    "bn": "আঁচিল, টিউমার, সিস্ট ও গোটা",
+    "en": "Warts, Tumours, Cysts & Growths",
+    "count": 18,
+    "section": "সার্বদৌহিক"
+  },
+  "wounds-burns-and-stings": {
+    "bn": "ক্ষত, কাটা, থেঁতো, আঘাত, পোড়া, কামড় ও হুল",
+    "en": "Wounds, Cuts, Bruises, Injury, Burns, Bites & Stings",
+    "count": 53,
+    "section": "সার্বদৌহিক"
+  },
+  "ulcer-infection-and-pus": {
+    "bn": "ঘা, ফোড়া, সংক্রমণ, সেপসিস ও পুঁজ",
+    "en": "Ulcer, Abscess, Infection, Sepsis & Pus",
+    "count": 43,
+    "section": "সার্বদৌহিক"
+  },
+  "worms-and-parasites": {
+    "bn": "কৃমি ও পরজীবী",
+    "en": "Worms & Parasites",
+    "count": 16,
+    "section": "সার্বদৌহিক"
+  },
+  "muscles-cramps-and-spasm": {
+    "bn": "পেশি, টান ও খিঁচুনি",
+    "en": "Muscles, Cramps & Spasm",
+    "count": 27,
+    "section": "সার্বদৌহিক"
+  },
+  "discharge-secretion-and-mucus": {
+    "bn": "স্রাব, নিঃসরণ ও শ্লেষ্মা",
+    "en": "Discharge, Secretion & Mucus",
+    "count": 59,
+    "section": "সার্বদৌহিক"
+  },
+  "cancer-gangrene-and-degeneration": {
+    "bn": "ক্যান্সার, গ্যাংগ্রিন ও ক্ষয়",
+    "en": "Cancer, Gangrene & Degeneration",
+    "count": 11,
+    "section": "সার্বদৌহিক"
+  },
+  "prolapse-bearing-down-and-relaxation": {
+    "bn": "প্রল্যাপস, নিচে চাপ ও শিথিলতা",
+    "en": "Prolapse, Bearing Down & Relaxation",
+    "count": 11,
+    "section": "সার্বদৌহিক"
+  },
+  "weakness-and-old-age": {
+    "bn": "দুর্বলতা, ক্লান্তি, অবসাদ ও বার্ধক্য",
+    "en": "Weakness, Fatigue, Exhaustion & Old Age",
+    "count": 67,
+    "section": "সার্বদৌহিক"
+  },
+  "children-growth-and-development": {
+    "bn": "শিশু, বৃদ্ধি ও বিকাশ",
+    "en": "Children - Growth & Development",
+    "count": 48,
+    "section": "সার্বদৌহিক"
+  },
+  "food-drink-and-cravings": {
+    "bn": "খাবার, পানীয় ও ইচ্ছা",
+    "en": "Food, Drink & Cravings",
+    "count": 110,
+    "section": "সার্বদৌহিক"
+  },
+  "thirst-and-drinking": {
+    "bn": "তৃষ্ণা ও পান করা",
+    "en": "Thirst & Drinking",
+    "count": 31,
+    "section": "সার্বদৌহিক"
+  },
+  "cold-chilly-and-cold-air": {
+    "bn": "ঠান্ডা, শীতলতা ও ঠান্ডা বাতাস",
+    "en": "Cold, Chilly & Cold Air",
+    "count": 115,
+    "section": "সার্বদৌহিক"
+  },
+  "heat-warmth-and-sun": {
+    "bn": "গরম, উষ্ণতা ও রোদ",
+    "en": "Heat, Warmth & Sun",
+    "count": 80,
+    "section": "সার্বদৌহিক"
+  },
+  "damp-wet-and-rain": {
+    "bn": "ভেজা, আর্দ্রতা ও বৃষ্টি",
+    "en": "Damp, Wet & Rain",
+    "count": 30,
+    "section": "সার্বদৌহিক"
+  },
+  "open-air-and-ventilation": {
+    "bn": "খোলা বাতাস ও বাতাস",
+    "en": "Open Air & Ventilation",
+    "count": 47,
+    "section": "সার্বদৌহিক"
+  },
+  "aggravation": {
+    "bn": "বৃদ্ধির কারণ",
+    "en": "Aggravation",
+    "count": 109,
+    "section": "সার্বদৌহিক"
+  },
+  "amelioration": {
+    "bn": "উপশমের কারণ",
+    "en": "Amelioration",
+    "count": 88,
+    "section": "সার্বদৌহিক"
+  },
+  "laterality-left-right-and-sides": {
+    "bn": "পার্শ্ব - বাম, ডান ও দিক",
+    "en": "Laterality - Left, Right & Sides",
+    "count": 79,
+    "section": "সার্বদৌহিক"
+  },
+  "smell-and-odor": {
+    "bn": "গন্ধ ও দুর্গন্ধ",
+    "en": "Smell & Odor",
+    "count": 38,
+    "section": "বিবিধ"
+  },
+  "touch-pressure-and-rubbing": {
+    "bn": "স্পর্শ, চাপ ও মালিশ",
+    "en": "Touch, Pressure & Rubbing",
+    "count": 62,
+    "section": "বিবিধ"
+  },
+  "time-morning-evening-and-night": {
+    "bn": "সকাল, সন্ধ্যা ও রাত",
+    "en": "Morning, Evening & Night",
+    "count": 85,
+    "section": "বিবিধ"
+  },
+  "time-seasons-and-periodicity": {
+    "bn": "নির্দিষ্ট সময়, ঋতু, চাঁদ ও পর্যায়ক্রম",
+    "en": "Specific Time, Seasons, Moon & Periodicity",
+    "count": 41,
+    "section": "বিবিধ"
+  },
+  "weather-climate-and-environment": {
+    "bn": "আবহাওয়া, জলবায়ু ও পরিবেশ",
+    "en": "Weather, Climate & Environment",
+    "count": 48,
+    "section": "বিবিধ"
+  },
+  "relationship-complementary-antidote": {
+    "bn": "ঔষধ সম্পর্ক - পরিপূরক, প্রতিষেধক",
+    "en": "Relationship - Complementary, Antidote",
+    "count": 57,
+    "section": "বিবিধ"
+  },
+  "potency-posology-and-medicine-info": {
+    "bn": "শক্তি, মাত্রা ও ঔষধ পরিচিতি",
+    "en": "Potency, Posology & Medicine Info",
+    "count": 43,
+    "section": "বিবিধ"
+  },
+  "vaccination-suppression-and-ill-effects": {
+    "bn": "টিকা, চাপা পড়া ও কুফল",
+    "en": "Vaccination, Suppression & Ill-effects",
+    "count": 33,
+    "section": "বিবিধ"
+  },
+  "general-and-miscellaneous": {
+    "bn": "সাধারণ ও বিবিধ",
+    "en": "General & Miscellaneous",
+    "count": 712,
+    "section": "বিবিধ"
+  }
+};
 const MED_LIST = [{"id": "calcarea-fluor", "en": "Calcarea Fluorica"}, {"id": "calcarea-carb", "en": "Calcarea Carbonica"}, {"id": "calcarea-phos", "en": "Calcarea Phosphorica"}, {"id": "aconite", "en": "Aconitum Napellus"}, {"id": "belladonna", "en": "Belladonna"}, {"id": "sulphur", "en": "Sulphur"}, {"id": "arsenicum-album", "en": "Arsenicum Album"}, {"id": "nux-vomica", "en": "Nux Vomica"}, {"id": "pulsatilla", "en": "Pulsatilla"}, {"id": "lycopodium", "en": "Lycopodium"}, {"id": "rhus-tox", "en": "Rhus Toxicodendron"}, {"id": "bryonia", "en": "Bryonia Alba"}, {"id": "arnica", "en": "Arnica Montana"}, {"id": "chamomilla", "en": "Chamomilla"}, {"id": "china", "en": "China Officinalis"}, {"id": "coffea", "en": "Coffea Cruda"}, {"id": "hepar-sulph", "en": "Hepar Sulphuris"}, {"id": "merc-sol", "en": "Mercurius Solubilis"}, {"id": "phosphorus", "en": "Phosphorus"}, {"id": "silicea", "en": "Silicea"}, {"id": "sepia", "en": "Sepia"}, {"id": "natrum-mur", "en": "Natrum Muriaticum"}, {"id": "kali-bich", "en": "Kali Bichromicum"}, {"id": "apis", "en": "Apis Mellifica"}, {"id": "cantharis", "en": "Cantharis"}, {"id": "causticum", "en": "Causticum"}, {"id": "graphites", "en": "Graphites"}, {"id": "thuja", "en": "Thuja Occidentalis"}, {"id": "veratrum-album", "en": "Veratrum Album"}];
 const tips = [
 "একই ঔষধের লক্ষণ বারবার ভুল হলে, সেই ঔষধের মেটেরিয়া মেডিকা পেজটা একবার পড়ে তারপর আবার কুইজ দিন।",
