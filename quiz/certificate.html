@@ -1,88 +1,157 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <title>সার্টিফিকেট - Nirvik</title>
-    <style>
-        body { font-family: 'Times New Roman', serif; background: #f4f4f4; padding: 20px; }
-        .cert-container { max-width: 800px; margin: auto; }
-        #certificate-template { background: #fff; padding: 40px; border: 10px solid #d4af37; text-align: center; position: relative; }
-        h1 { color: #d4af37; font-size: 3rem; margin-bottom: 10px; }
-        h2 { font-size: 2rem; color: #333; margin-bottom: 30px; }
-        p { font-size: 1.2rem; color: #555; line-height: 1.6; }
-        .name { font-size: 2rem; color: #007bff; font-weight: bold; border-bottom: 2px solid #333; display: inline-block; padding: 0 20px; margin: 20px 0; }
-        .btn-download { display: block; margin: 20px auto; padding: 15px 30px; background: #28a745; color: #fff; border: none; font-size: 1.2rem; cursor: pointer; border-radius: 5px; }
-        .error-msg { text-align: center; color: red; font-size: 1.2rem; font-weight: bold; margin-top: 50px;}
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>সার্টিফিকেট - নির্ভীক হোমিও</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+:root{--primary:#4361ee;--primary2:#7c3aed;--bg:#f4f6fb;--text:#1e293b;--muted:#64748b;--line:#e2e8f0;--gold:#d4af37}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Hind Siliguri',sans-serif}
+body{background:var(--bg);color:var(--text);padding-bottom:40px}
+a{text-decoration:none}
+.main-header{background:#fff;box-shadow:0 1px 6px rgba(0,0,0,.05);position:sticky;top:0;z-index:1000}
+.nav-container{max-width:860px;margin:0 auto;padding:7px 12px;display:flex;justify-content:flex-start;align-items:center;gap:6px;flex-wrap:wrap}
+.nav-link{color:var(--text);font-weight:600;font-size:.92rem;padding:6px 10px;border-radius:8px}
+.nav-link:hover{background:#eef2ff;color:var(--primary)}
+.nav-link.active{background:var(--primary);color:#fff}
+.wrap{max-width:860px;margin:16px auto 0;padding:0 16px}
+.loading{text-align:center;font-size:1.05rem;color:var(--muted);padding:40px 0}
+.error-msg{text-align:center;color:#dc2626;font-size:1.1rem;font-weight:700;line-height:1.7}
+.error-msg small{display:block;color:var(--muted);font-weight:500;margin-top:8px}
+.btn-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+.btn{display:inline-block;padding:10px 20px;border-radius:999px;font-weight:700;font-size:.95rem;border:none;cursor:pointer}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-green{background:#059669;color:#fff}
+.btn-ghost{background:#fff;color:var(--primary);border:1px solid var(--primary)}
+/* Certificate */
+#certificate-template{background:#fff;padding:36px 32px;border:3px solid var(--gold);outline:2px solid var(--gold);outline-offset:6px;border-radius:6px;text-align:center;position:relative;max-width:800px;margin:0 auto}
+.cert-top{font-weight:800;color:var(--primary);letter-spacing:1px;font-size:1rem}
+.cert-top span{color:var(--primary2)}
+.cert-title{font-size:2.6rem;font-weight:800;color:#b8911f;line-height:1.2;margin:8px 0 2px}
+.cert-sub{font-size:1.25rem;font-weight:700;color:var(--text)}
+.cert-divider{width:120px;height:3px;background:linear-gradient(90deg,var(--primary),var(--primary2),var(--gold));margin:14px auto;border-radius:99px}
+.cert-body{font-size:1.05rem;color:#475569;line-height:1.8}
+.name{font-size:2rem;color:var(--primary);font-weight:800;border-bottom:2px solid var(--text);display:inline-block;padding:0 18px;margin:14px 0;line-height:1.5}
+.cert-meta{margin-top:14px;font-size:.95rem;color:var(--muted)}
+.cert-meta b{color:var(--text)}
+.cert-sign{display:flex;justify-content:space-between;gap:16px;margin-top:34px;flex-wrap:wrap}
+.cert-sign div{flex:1;min-width:180px;border-top:1px solid #94a3b8;padding-top:8px;font-size:.9rem;color:var(--muted)}
+.cert-sign b{display:block;color:var(--text);font-size:1rem}
+.progress-mini{max-width:420px;margin:14px auto 0;text-align:left}
+.progress-mini .bar{height:8px;background:#e2e8f0;border-radius:999px;overflow:hidden;margin-top:6px}
+.progress-mini .fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--primary2))}
+@media(max-width:600px){#certificate-template{padding:24px 16px}.cert-title{font-size:2rem}.name{font-size:1.6rem}}
+</style>
 </head>
 <body>
+<header class="main-header">
+<div class="nav-container">
+<a href="https://nirvik.mooo.com/" class="nav-link">নির্ভীক হোমিও</a>
+<a href="https://nirvik.mooo.com/quiz/index.html" class="nav-link">কুইজ</a>
+<a href="https://nirvik.mooo.com/quiz/symptoms.html" class="nav-link">রোগলক্ষণ ভিত্তিক কুইজ</a>
+<a href="https://nirvik.mooo.com/quiz/medicines.html" class="nav-link">ঔষধ ভিত্তিক কুইজ</a>
+<a href="https://nirvik.mooo.com/quiz/index.html" class="nav-link active">সার্টিফিকেট</a>
+</div>
+</header>
 
-    <div class="cert-container" id="main-container">
-        <!-- ডেটা লোড হওয়ার আগে এটি দেখাবে -->
-        <div id="loading-msg" style="text-align: center; font-size: 1.2rem;">আপনার রেকর্ড চেক করা হচ্ছে...</div>
-        
-        <!-- সার্টিফিকেট টেমপ্লেট (লুকানো থাকবে) -->
-        <div id="certificate-template" style="display: none;">
-            <h1>সার্টিফিকেট</h1>
-            <h2>হোমিওপ্যাথি কুইজ মুল্যায়ন</h2>
-            <p>এই সার্টিফিকেটটি গর্বের সাথে প্রদান করা হলো</p>
-            <div class="name" id="user-name">ইউজারের নাম</div>
-            <p>তিনি সফলভাবে ৫০টি রোগলক্ষণ ভিত্তিক কুইজ সম্পন্ন করেছেন।</p>
-            <br><br>
-            <p>তারিখ: <span id="cert-date"></span></p>
-        </div>
-        
-        <div id="action-btns" style="display: none; text-align: center;">
-            <button class="btn-download" onclick="downloadPDF()">PDF ডাউনলোড করুন</button>
-            <a href="index.html" style="display:block; margin-top:10px; color: #007bff;">← ফিরে যান</a>
-        </div>
+<div class="wrap">
+  <div id="loading-msg" class="loading">আপনার রেকর্ড চেক করা হচ্ছে...</div>
+
+  <!-- সার্টিফিকেট -->
+  <div id="certificate-template" style="display:none">
+    <div class="cert-top">নির্ভীক <span>হোমিও</span> • কুইজ</div>
+    <div class="cert-title">সার্টিফিকেট</div>
+    <div class="cert-sub">হোমিওপ্যাথি কুইজ মূল্যায়ন</div>
+    <div class="cert-divider"></div>
+    <p class="cert-body">এই সার্টিফিকেটটি গর্বের সাথে প্রদান করা হলো</p>
+    <div class="name" id="user-name">ইউজারের নাম</div>
+    <p class="cert-body" id="cert-line">তিনি সফলভাবে ৫০টি রোগলক্ষণ ভিত্তিক কুইজ সম্পন্ন করেছেন।</p>
+    <p class="cert-meta">তারিখ: <b id="cert-date"></b> &nbsp;•&nbsp; সার্টিফিকেট ID: <b id="cert-id"></b></p>
+    <div class="cert-sign">
+      <div><b>নির্ভীক হোমিও টিম</b>কর্তৃপক্ষ</div>
+      <div><b id="sign-name">—</b>প্রাপক</div>
     </div>
+  </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    
-    <script type="module">
-        import { auth } from './js/firebase-config.js';
-        import { checkCertificateEligibility } from './js/progress.js';
-        import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
+  <div id="action-btns" style="display:none" class="btn-row">
+    <button class="btn btn-green" onclick="downloadPDF()">📄 PDF ডাউনলোড করুন</button>
+    <a href="index.html" class="btn btn-ghost">← ড্যাশবোর্ডে ফিরে যান</a>
+  </div>
 
-        // আজকের তারিখ সেট করা
-        document.getElementById('cert-date').innerText = new Date().toLocaleDateString('bn-BD');
+  <!-- যোগ্য না হলে -->
+  <div id="not-eligible" style="display:none;text-align:center">
+    <p class="error-msg">দুঃখিত! সার্টিফিকেট পেতে কমপক্ষে ৫০টি রোগলক্ষণ ভিত্তিক কুইজে ৪০%+ স্কোর করতে হবে।</p>
+    <p id="not-eligible-count" style="margin-top:10px;color:var(--muted)"></p>
+    <div class="progress-mini"><div style="display:flex;justify-content:space-between;font-size:.85rem;color:var(--muted)"><span>আপনার অগ্রগতি</span><span id="not-eligible-pct"></span></div><div class="bar"><div class="fill" id="not-eligible-bar" style="width:0%"></div></div></div>
+    <div class="btn-row">
+      <a href="symptoms.html" class="btn btn-primary">কুইজ চালিয়ে যান →</a>
+      <a href="index.html" class="btn btn-ghost">← ড্যাশবোর্ডে ফিরে যান</a>
+    </div>
+  </div>
+</div>
 
-        onAuthStateChanged(auth, async (user) => {
-            const loadingMsg = document.getElementById('loading-msg');
-            const certTemplate = document.getElementById('certificate-template');
-            const actionBtns = document.getElementById('action-btns');
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script type="module">
+import { checkAuthState } from './js/auth.js';
+import { getCertificateStatus } from './js/progress.js';
 
-            if (!user) {
-                loadingMsg.innerHTML = "<p class='error-msg'>সার্টিফিকেট পেতে অনুগ্রহ করে লগইন করুন।</p><a href='index.html'>← ফিরে যান</a>";
-                return;
-            }
+const loadingMsg = document.getElementById('loading-msg');
+const certTemplate = document.getElementById('certificate-template');
+const actionBtns = document.getElementById('action-btns');
+const notEligible = document.getElementById('not-eligible');
 
-            // সার্টিফিকেট পাওয়ার যোগ্যতা চেক করা
-            const isEligible = await checkCertificateEligibility();
+document.getElementById('cert-date').innerText = new Date().toLocaleDateString('bn-BD');
 
-            if (isEligible) {
-                loadingMsg.style.display = 'none';
-                certTemplate.style.display = 'block';
-                actionBtns.style.display = 'block';
-                
-                // ইউজারের নাম বসানো
-                document.getElementById('user-name').innerText = user.displayName || user.email.split('@')[0];
-            } else {
-                loadingMsg.innerHTML = "<p class='error-msg'>দুঃখিত! সার্টিফিকেট পাওয়ার জন্য আপনাকে সবগুলো রোগলক্ষণ ভিত্তিক কুইজে অন্তত ৪০% স্কোর করতে হবে।</p><a href='index.html' style='display:block; text-align:center; margin-top:20px;'>← ফিরে যান</a>";
-            }
-        });
+checkAuthState(async (user) => {
+  if (!user) {
+    loadingMsg.innerHTML = "<p class='error-msg'>সার্টিফিকেট পেতে অনুগ্রহ করে লগইন করুন।</p><div class='btn-row'><a href='https://nirvik.mooo.com/login.html' class='btn btn-primary'>লগইন করুন →</a><a href='index.html' class='btn btn-ghost'>← ফিরে যান</a></div>";
+    return;
+  }
 
-        window.downloadPDF = function() {
-            const element = document.getElementById('certificate-template');
-            html2pdf(element, {
-                margin: 0,
-                filename: 'Nirvik-Certificate.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 2 },
-                jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' }
-            });
-        }
-    </script>
+  try {
+    const status = await getCertificateStatus();
+    const name = user.displayName || (user.email ? user.email.split('@')[0] : 'ইউজার');
+    const certId = 'NIRVIK-' + (user.uid || '').slice(0, 6).toUpperCase() + '-' + new Date().toISOString().slice(0, 10).replaceAll('-', '');
+
+    if (status.eligible) {
+      loadingMsg.style.display = 'none';
+      certTemplate.style.display = 'block';
+      actionBtns.style.display = 'flex';
+      document.getElementById('user-name').innerText = name;
+      document.getElementById('sign-name').innerText = name;
+      document.getElementById('cert-id').innerText = certId;
+      // কতটা পাস করেছে সেটাই লেখা থাকবে (৫০ / ৬০ / ৮৫ — যেটা সত্যি)
+      document.getElementById('cert-line').innerText = 'তিনি সফলভাবে ' + status.passed + 'টি রোগলক্ষণ ভিত্তিক কুইজ সম্পন্ন করেছেন।';
+      window.__CERT_NAME__ = name;
+    } else {
+      loadingMsg.style.display = 'none';
+      notEligible.style.display = 'block';
+      const pct = Math.min(100, Math.round(status.passed / 50 * 100));
+      document.getElementById('not-eligible-count').innerText = 'আপনার: ' + status.passed + ' / ৫০টি সম্পন্ন (মোট ' + status.total + 'টি ট্যাগ)';
+      document.getElementById('not-eligible-pct').innerText = pct + '%';
+      document.getElementById('not-eligible-bar').style.width = pct + '%';
+    }
+  } catch (e) {
+    console.error(e);
+    loadingMsg.innerHTML = "<p class='error-msg'>রেকর্ড লোড করতে সমস্যা হয়েছে।<small>নেট চেক করে পেজটা রিফ্রেশ করুন।</small></p><div class='btn-row'><a href='index.html' class='btn btn-ghost'>← ফিরে যান</a></div>";
+  }
+});
+
+window.downloadPDF = async function() {
+  try { await document.fonts.ready; } catch (_) {}
+  const element = document.getElementById('certificate-template');
+  const name = (window.__CERT_NAME__ || 'Nirvik').replace(/[^a-zA-Z0-9\u0980-\u09FF_-]/g, '_');
+  html2pdf().set({
+    margin: 0.3,
+    filename: 'Nirvik-Certificate-' + name + '.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2, useCORS: true },
+    jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' }
+  }).from(element).save();
+};
+</script>
 </body>
 </html>
+
