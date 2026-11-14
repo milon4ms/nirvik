@@ -108,7 +108,7 @@ body.dark .ring::before{background:#1e293b}
 
 <div class="login-banner" id="loginBanner" style="display:none">
 <div class="login-inner">
-<p>💡 লগইন করলে আপনার রেকর্ড আর সার্টিফিকেট সংরক্ষণ হবে। <a href="https://nirvik.mooo.com/">লগইন করুন →</a></p>
+<p>💡 লগইন করলে আপনার রেকর্ড আর সার্টিফিকেট সংরক্ষণ হবে। <a href="https://nirvik.mooo.com/login.html">লগইন করুন →</a></p>
 <button class="close-btn" id="closeLogin">✕</button>
 </div>
 </div>
@@ -154,10 +154,10 @@ body.dark .ring::before{background:#1e293b}
 <div class="user-box" id="rightUserBox">
 <div class="user-avatar" id="rightAvatar">👤</div>
 <div class="user-info">
-<div class="name" id="rightUserName"><a href="https://nirvik.mooo.com/" style="color:inherit">লগইন করুন</a></div>
+<div class="name" id="rightUserName"><a href="https://nirvik.mooo.com/login.html" style="color:inherit">লগইন করুন</a></div>
 <div class="email" id="rightUserEmail">লগইন করলে রেকর্ড দেখাবে</div>
 </div>
-<div id="rightUserAction"><a href="https://nirvik.mooo.com/" class="btn-login-small">লগইন</a></div>
+<div id="rightUserAction"><a href="https://nirvik.mooo.com/login.html" class="btn-login-small">লগইন</a></div>
 </div>
 <h3 class="recent-title"><i class="fa-solid fa-clock-rotate-left" style="color:var(--primary)"></i> সাম্প্রতিক রেকর্ড</h3>
 <ul id="recent-history" class="recent-list"><li style="color:var(--muted);text-align:center;padding:10px;font-size:.85rem">রেকর্ড লোড হচ্ছে...</li></ul>
@@ -909,7 +909,7 @@ document.addEventListener('click',(e)=>{const a=e.target.closest('a[href*="play.
 document.getElementById('closeLogin').onclick = ()=>{ document.getElementById('loginBanner').style.display='none'; };
 // Auth + Dashboard
 let currentUser = null;
-function renderUser(user){ const banner=document.getElementById('loginBanner'); if(user){ currentUser=user; const name=user.displayName || user.name || (user.email?user.email.split('@')[0]:'ইউজার'); const email=user.email||''; const photo=user.photoURL || user.photo || ''; const initial=name.charAt(0).toUpperCase(); document.getElementById('rightAvatar').innerHTML=photo?'<img src="'+photo+'" style="width:100%;height:100%;border-radius:50%;object-fit:cover">':initial; document.getElementById('rightUserName').innerText=name; document.getElementById('rightUserEmail').innerText=email || 'লগইন অবস্থায় আছেন'; document.getElementById('rightUserAction').innerHTML='<button class="btn-logout-small" id="logoutBtn">লগআউট</button>'; banner.style.display='none'; const lb=document.getElementById('logoutBtn'); if(lb) lb.onclick=async()=>{ try{ if(logoutUser) await logoutUser(); }catch(e){} localStorage.removeItem('nirvik-user'); location.reload(); }; }else{ document.getElementById('rightAvatar').innerHTML='👤'; document.getElementById('rightUserName').innerHTML='<a href="https://nirvik.mooo.com/" style="color:inherit">লগইন করুন</a>'; document.getElementById('rightUserEmail').innerText='লগইন করলে রেকর্ড দেখাবে'; document.getElementById('rightUserAction').innerHTML='<a href="https://nirvik.mooo.com/" class="btn-login-small">লগইন</a>'; banner.style.display='flex'; } }
+function renderUser(user){ const banner=document.getElementById('loginBanner'); if(user){ currentUser=user; const name=user.displayName || user.name || (user.email?user.email.split('@')[0]:'ইউজার'); const email=user.email||''; const photo=user.photoURL || user.photo || ''; const initial=name.charAt(0).toUpperCase(); document.getElementById('rightAvatar').innerHTML=photo?'<img src="'+photo+'" style="width:100%;height:100%;border-radius:50%;object-fit:cover">':initial; document.getElementById('rightUserName').innerText=name; document.getElementById('rightUserEmail').innerText=email || 'লগইন অবস্থায় আছেন'; document.getElementById('rightUserAction').innerHTML='<button class="btn-logout-small" id="logoutBtn">লগআউট</button>'; banner.style.display='none'; const lb=document.getElementById('logoutBtn'); if(lb) lb.onclick=async()=>{ try{ if(logoutUser) await logoutUser(); }catch(e){} localStorage.removeItem('nirvik-user'); location.reload(); }; }else{ document.getElementById('rightAvatar').innerHTML='👤'; document.getElementById('rightUserName').innerHTML='<a href="https://nirvik.mooo.com/login.html" style="color:inherit">লগইন করুন</a>'; document.getElementById('rightUserEmail').innerText='লগইন করলে রেকর্ড দেখাবে'; document.getElementById('rightUserAction').innerHTML='<a href="https://nirvik.mooo.com/login.html" class="btn-login-small">লগইন</a>'; banner.style.display='flex'; } }
 async function loadDashboard(){
 let totalSymptoms=Object.keys(TAG_MAP).length;
 let totalMedicines=MED_LIST.length;
@@ -960,7 +960,7 @@ certBtn.classList.add('disabled'); certBtn.innerHTML='🔒 লকড';
 }
 const rc=document.getElementById('recent-history');
 if(!currentUser){
-rc.innerHTML='<li style="color:var(--muted);text-align:center;padding:10px;font-size:.84rem">গেস্ট হিসেবে দেখছেন।<br>লগইন করলে আপনার রেকর্ড এখানে দেখাবে।<br><a href="https://nirvik.mooo.com/" style="color:var(--primary);font-weight:700">লগইন করুন →</a></li>';
+rc.innerHTML='<li style="color:var(--muted);text-align:center;padding:10px;font-size:.84rem">গেস্ট হিসেবে দেখছেন।<br>লগইন করলে আপনার রেকর্ড এখানে দেখাবে।<br><a href="https://nirvik.mooo.com/login.html" style="color:var(--primary);font-weight:700">লগইন করুন →</a></li>';
 
 }else if(!history.length){
 rc.innerHTML='<li style="color:var(--muted);text-align:center;padding:10px;font-size:.84rem">এখনো কোনো কুইজ খেলেননি।<br>নিচের যেকোনো একটা দিয়ে শুরু করুন 👇</li>';
