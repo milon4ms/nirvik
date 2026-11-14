@@ -12,7 +12,7 @@
 body{background:var(--bg);color:var(--text);padding-bottom:48px}
 a{text-decoration:none}
 .main-header{background:#fff;box-shadow:0 1px 6px rgba(0,0,0,.05);position:sticky;top:0;z-index:1000}
-.nav-container{max-width:1080px;margin:0 auto;padding:10px 16px;display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap}
+.nav-container{max-width:1080px;margin:0 auto;padding:10px 16px;display:flex;justify-content:flex-start;align-items:center;gap:8px;flex-wrap:wrap}
 .nav-link{color:var(--text);font-weight:600;font-size:.95rem;padding:7px 12px;border-radius:8px}
 .nav-link:hover{background:#eef2ff;color:var(--primary)}
 .nav-link.active{background:var(--primary);color:#fff}
@@ -26,7 +26,7 @@ a{text-decoration:none}
 .sections-grid{max-width:1080px;margin:14px auto 0;padding:0 16px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:start}
 .section-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;transition:.2s}
 .section-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(15,23,42,.1)}
-.section-card.open{border-color:var(--accent);box-shadow:0 8px 24px rgba(15,23,42,.12)}
+
 .section-head{width:100%;border:none;background:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:16px;text-align:left;border-top:4px solid var(--accent)}
 .sec-icon{width:48px;height:48px;min-width:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;background:var(--accent-soft)}
 .sec-info{flex:1;min-width:0}
@@ -34,18 +34,19 @@ a{text-decoration:none}
 .sec-meta{font-size:.82rem;color:var(--muted);margin-top:2px}
 .sec-meta b{color:var(--accent)}
 .chev{width:30px;height:30px;min-width:30px;border-radius:50%;background:#f1f5f9;display:flex;align-items:center;justify-content:center;color:var(--muted);transition:transform .25s;font-size:.8rem}
-.section-card.open .chev{transform:rotate(180deg);background:var(--accent);color:#fff}
-.section-body{display:none;border-top:1px solid #f1f5f9;padding:12px 12px 14px;background:#fbfdff}
-.section-card.open .section-body{display:block;animation:fadeIn .25s ease}
+.section-card.active{border-color:var(--accent);box-shadow:0 8px 24px rgba(15,23,42,.12)}
+.section-card.active .chev{transform:rotate(180deg);background:var(--accent);color:#fff}
 @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
-.scroll-hint{display:flex;justify-content:space-between;align-items:center;font-size:.78rem;color:var(--muted);margin-bottom:8px;padding:0 2px}
-.scroll-btns{display:flex;gap:6px}
-.scroll-btn{width:28px;height:28px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer;color:var(--text);font-size:.75rem}
-.scroll-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
-.tags-scroll{display:flex;gap:10px;overflow-x:auto;padding:4px 2px 10px;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#cbd5e1 transparent}
-.tags-scroll::-webkit-scrollbar{height:6px}
-.tags-scroll::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:999px}
-.tag-card{flex:0 0 auto;width:178px;scroll-snap-align:start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 10px;text-align:center;color:var(--text);transition:.2s;display:flex;flex-direction:column;gap:3px;align-items:center;justify-content:center}
+.tags-panel{max-width:1080px;margin:18px auto 0;padding:0 16px;display:none}
+.tags-panel.show{display:block;animation:fadeIn .25s ease}
+.panel-head{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:14px 14px 0 0;padding:14px 16px;border-bottom:none}
+.panel-head h2{font-size:1.12rem}
+.panel-head p{font-size:.84rem;color:var(--muted);margin-top:1px}
+.panel-head p b{color:var(--accent)}
+.panel-close{margin-left:auto;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:.85rem;color:var(--muted)}
+.panel-close:hover{background:#fee2e2;color:#dc2626;border-color:#fecaca}
+.tags-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(185px,1fr));gap:12px;background:#fff;border:1px solid var(--line);border-radius:0 0 14px 14px;padding:16px;box-shadow:var(--shadow)}
+.tag-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 10px;text-align:center;color:var(--text);transition:.2s;display:flex;flex-direction:column;gap:3px;align-items:center;justify-content:center}
 .tag-card:hover{border-color:var(--accent);background:#f0f4ff;transform:translateY(-2px)}
 .tag-bn{font-weight:700;font-size:.9rem;line-height:1.45}
 .tag-en{color:var(--muted);font-size:.76rem;line-height:1.4}
@@ -53,7 +54,7 @@ a{text-decoration:none}
 .tag-card:hover .tag-bn{color:var(--accent)}
 .tag-card:hover .tag-count{background:#e0e7ff;color:var(--accent)}
 @media(max-width:900px){.sections-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.sections-grid{grid-template-columns:1fr}.hero h1{font-size:1.45rem}.tag-card{width:160px}}
+@media(max-width:600px){.sections-grid{grid-template-columns:1fr}.hero h1{font-size:1.45rem}.tags-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}}
 </style>
 </head>
 <body>
@@ -69,15 +70,19 @@ a{text-decoration:none}
 
 <div class="hero">
 <h1>🩺 রোগলক্ষণ ভিত্তিক কুইজ</h1>
-<p>৬টি কার্ড থেকে আপনার অঙ্গ / বিষয় বাছুন। <b>কার্ডে ক্লিক করলেই</b> ভিতরের ট্যাগগুলো <b>পাশাপাশি (হরাইজন্টালি)</b> খুলে যাবে — ট্যাগে ক্লিক করলেই কুইজ শুরু হবে।</p>
-</div>
-
-<div class="tools">
-<button class="tool-btn" id="openAllBtn">সব খুলুন</button>
-<button class="tool-btn" id="closeAllBtn">সব বন্ধ করুন</button>
+<p>৬টি কার্ড থেকে আপনার অঙ্গ / বিষয় বাছুন। <b>কার্ডে ক্লিক করলেই</b> নিচে ওই সেকশনের <b>সব ট্যাগ একসাথে</b> দেখা যাবে — ট্যাগে ক্লিক করলেই কুইজ শুরু হবে।</p>
 </div>
 
 <div class="sections-grid" id="sectionsGrid"></div>
+
+<div class="tags-panel" id="tagsPanel">
+<div class="panel-head">
+<span class="sec-icon" id="panelIcon" style="background:#eef2ff">🧠</span>
+<div style="flex:1;min-width:0"><h2 id="panelTitle">উপরের অঙ্গ</h2><p id="panelMeta"></p></div>
+<button class="panel-close" id="panelClose" aria-label="বন্ধ করুন">✕</button>
+</div>
+<div class="tags-grid" id="tagsGrid"></div>
+</div>
 
 <script>
 // ৮৫টি মেইন ট্যাগ — আগের ডেটা অপরিবর্তিত, শুধু দেখানোর ধরন বদলেছে
@@ -872,6 +877,13 @@ function tagHTML(sym) {
 
 function build() {
   const grid = document.getElementById('sectionsGrid');
+  const panel = document.getElementById('tagsPanel');
+  const panelIcon = document.getElementById('panelIcon');
+  const panelTitle = document.getElementById('panelTitle');
+  const panelMeta = document.getElementById('panelMeta');
+  const tagsGrid = document.getElementById('tagsGrid');
+  let activeSec = null;
+
   grid.innerHTML = DISPLAY_ORDER.map(sec => {
     const list = symptomsList.filter(s => s.section === sec);
     const totalQ = list.reduce((a,s) => a + s.count, 0);
@@ -882,50 +894,51 @@ function build() {
         <span class="sec-info"><h2>${sec}</h2><div class="sec-meta"><b>${bn(list.length)}টি ট্যাগ</b> &nbsp;•&nbsp; ${bn(totalQ)}টি প্রশ্ন</div></span>
         <span class="chev"><i class="fa-solid fa-chevron-down"></i></span>
       </button>
-      <div class="section-body">
-        <div class="scroll-hint"><span>← → স্ক্রল করে সব ট্যাগ দেখুন</span><span class="scroll-btns"><button class="scroll-btn" data-dir="-1" aria-label="বামে">‹</button><button class="scroll-btn" data-dir="1" aria-label="ডানে">›</button></span></div>
-        <div class="tags-scroll">${list.map(s => tagHTML(s)).join('')}</div>
-      </div>
     </article>`;
   }).join('');
 
-  grid.querySelectorAll('.section-head').forEach(head => {
-    head.addEventListener('click', () => {
-      const card = head.closest('.section-card');
-      const wasOpen = card.classList.contains('open');
-      grid.querySelectorAll('.section-card.open').forEach(c => {
-        c.classList.remove('open');
-        c.querySelector('.section-head').setAttribute('aria-expanded', 'false');
-      });
-      if (!wasOpen) {
-        card.classList.add('open');
-        head.setAttribute('aria-expanded', 'true');
-      }
-    });
-  });
-
-  grid.querySelectorAll('.scroll-btn').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const scroller = btn.closest('.section-body').querySelector('.tags-scroll');
-      scroller.scrollBy({left: Number(btn.dataset.dir) * 360, behavior: 'smooth'});
-    });
-  });
-
-  document.getElementById('openAllBtn').onclick = () => {
+  function openSection(sec, scroll = true) {
+    const list = symptomsList.filter(s => s.section === sec);
+    const totalQ = list.reduce((a,s) => a + s.count, 0);
+    const m = META[sec];
+    activeSec = sec;
     grid.querySelectorAll('.section-card').forEach(c => {
-      c.classList.add('open');
-      c.querySelector('.section-head').setAttribute('aria-expanded', 'true');
+      const isActive = c.dataset.section === sec;
+      c.classList.toggle('active', isActive);
+      c.querySelector('.section-head').setAttribute('aria-expanded', isActive ? 'true' : 'false');
     });
-  };
-  document.getElementById('closeAllBtn').onclick = () => {
+    panelIcon.textContent = m.icon;
+    panelIcon.style.background = m.soft;
+    panelTitle.textContent = sec;
+    panelTitle.style.color = m.accent;
+    panelMeta.innerHTML = `<b>${bn(list.length)}টি ট্যাগ</b> &nbsp;•&nbsp; ${bn(totalQ)}টি প্রশ্ন — সব ট্যাগ একসাথে দেখা যাচ্ছে`;
+    tagsGrid.innerHTML = list.map(s => tagHTML(s)).join('');
+    panel.classList.add('show');
+    if (scroll) panel.scrollIntoView({behavior: 'smooth', block: 'nearest'});
+  }
+
+  function closePanel() {
+    activeSec = null;
+    panel.classList.remove('show');
     grid.querySelectorAll('.section-card').forEach(c => {
-      c.classList.remove('open');
+      c.classList.remove('active');
       c.querySelector('.section-head').setAttribute('aria-expanded', 'false');
     });
-  };
+  }
+
+  grid.querySelectorAll('.section-head').forEach(head => {
+    head.addEventListener('click', () => {
+      const sec = head.closest('.section-card').dataset.section;
+      if (activeSec === sec) closePanel();
+      else openSection(sec);
+    });
+  });
+
+  document.getElementById('panelClose').onclick = closePanel;
+
+  // প্রথমে উপরের অঙ্গ খোলা থাকবে — সব ট্যাগ একসাথে দেখা যাবে (লোডে স্ক্রল হবে না)
+  openSection(DISPLAY_ORDER[0], false);
 }
-build();
 </script>
 </body>
 </html>
