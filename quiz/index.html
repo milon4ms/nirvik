@@ -59,6 +59,7 @@ a{text-decoration:none}
 .cert-line b{color:#92400e}
 .btn-cert{background:var(--primary);color:#fff;padding:7px 14px;border-radius:999px;font-weight:700;font-size:.85rem;white-space:nowrap}
 .btn-cert.disabled{background:#cbd5e1;pointer-events:none}
+@media (max-width:760px){.dashboard-wrapper{grid-template-columns:1fr}.right-column{position:static}}
 /* Right */
 .right-column{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);padding:14px;position:sticky;top:62px}
 .user-box{display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:1px solid #f1f5f9;margin-bottom:10px}
@@ -137,7 +138,6 @@ body.dark .ring::before{background:#1e293b}
 <div class="mini-progress"><div id="medBar" style="width:0%"></div></div>
 </a>
 </div>
-
 <div class="card">
 <div class="progress-row">
 <div class="ring" id="ring"><b id="ringPct">০%</b></div>
@@ -164,9 +164,6 @@ body.dark .ring::before{background:#1e293b}
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
 
 <div class="right-column">
 <div class="user-box" id="rightUserBox">
@@ -175,8 +172,6 @@ body.dark .ring::before{background:#1e293b}
 <div class="name" id="rightUserName">গেস্ট ইউজার</div>
 <div class="email" id="rightUserEmail">লগইন করলে আপনার রেকর্ড এখানে দেখাবে</div>
 </div>
-</div>
-
 </div>
 <h3 class="recent-title"><i class="fa-solid fa-clock-rotate-left" style="color:var(--primary)"></i> সাম্প্রতিক রেকর্ড</h3>
 <ul id="recent-history" class="recent-list"><li style="color:var(--muted);text-align:center;padding:10px;font-size:.85rem">রেকর্ড লোড হচ্ছে...</li></ul>
