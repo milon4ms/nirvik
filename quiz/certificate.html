@@ -36,9 +36,9 @@ a{text-decoration:none}
 .name{font-size:2rem;color:var(--primary);font-weight:800;border-bottom:2px solid var(--text);display:inline-block;padding:0 18px;margin:14px 0;line-height:1.5}
 .cert-meta{margin-top:14px;font-size:.95rem;color:var(--muted)}
 .cert-meta b{color:var(--text)}
-.cert-sign{display:flex;justify-content:space-between;gap:16px;margin-top:34px;flex-wrap:wrap}
-.cert-sign div{flex:1;min-width:180px;border-top:1px solid #94a3b8;padding-top:8px;font-size:.9rem;color:var(--muted)}
-.cert-sign b{display:block;color:var(--text);font-size:1rem}
+.cert-percent{margin-top:10px;font-size:1.15rem;font-weight:700;color:var(--primary)}
+.cert-percent small{display:block;font-size:.92rem;font-weight:500;color:var(--muted);margin-top:2px}
+.cert-disclaimer{margin-top:22px;padding-top:12px;border-top:1px dashed #cbd5e1;font-size:.82rem;color:#64748b;line-height:1.7;text-align:center}
 .progress-mini{max-width:420px;margin:14px auto 0;text-align:left}
 .progress-mini .bar{height:8px;background:#e2e8f0;border-radius:999px;overflow:hidden;margin-top:6px}
 .progress-mini .fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--primary2))}
@@ -69,10 +69,8 @@ a{text-decoration:none}
     <div class="name" id="user-name">ইউজারের নাম</div>
     <p class="cert-body" id="cert-line">তিনি সফলভাবে ৫০টি রোগলক্ষণ ভিত্তিক কুইজ সম্পন্ন করেছেন।</p>
     <p class="cert-meta">তারিখ: <b id="cert-date"></b> &nbsp;•&nbsp; সার্টিফিকেট ID: <b id="cert-id"></b></p>
-    <div class="cert-sign">
-      <div><b>নির্ভীক হোমিও টিম</b>কর্তৃপক্ষ</div>
-      <div><b id="sign-name">—</b>প্রাপক</div>
-    </div>
+    <div class="cert-percent" id="cert-percent">সঠিক উত্তরের হার: —</div>
+    <div class="cert-disclaimer">এটি কোনো একাডেমিক সনদ নয়। এটি শুধুমাত্র অনলাইনে অনুশীলনের স্বীকৃতি হিসেবে স্বয়ংক্রিয়ভাবে তৈরি। এর কোনো একাডেমিক ভিত্তি নেই এবং কোনো প্রতিযোগিতামূলক পরীক্ষা, চাকরি, ভর্তি বা সরকারি কাজে এটি ব্যবহারযোগ্য নয়।</div>
   </div>
 
   <div id="action-btns" style="display:none" class="btn-row">
@@ -120,10 +118,15 @@ checkAuthState(async (user) => {
       certTemplate.style.display = 'block';
       actionBtns.style.display = 'flex';
       document.getElementById('user-name').innerText = name;
-      document.getElementById('sign-name').innerText = name;
       document.getElementById('cert-id').innerText = certId;
       // কতটা পাস করেছে সেটাই লেখা থাকবে (৫০ / ৬০ / ৮৫ — যেটা সত্যি)
       document.getElementById('cert-line').innerText = 'তিনি সফলভাবে ' + status.passed + 'টি রোগলক্ষণ ভিত্তিক কুইজ সম্পন্ন করেছেন।';
+      const pctEl = document.getElementById('cert-percent');
+      if (status.totalQuestions > 0) {
+        pctEl.innerHTML = 'সঠিক উত্তরের হার: ' + status.percent + '%<small>মোট ' + status.totalQuestions + 'টি প্রশ্নের মধ্যে ' + status.totalCorrect + 'টি সঠিক উত্তর</small>';
+      } else {
+        pctEl.innerText = 'সঠিক উত্তরের হার: ' + status.percent + '%';
+      }
       window.__CERT_NAME__ = name;
     } else {
       loadingMsg.style.display = 'none';
