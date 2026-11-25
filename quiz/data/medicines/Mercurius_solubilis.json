@@ -1,0 +1,242 @@
+[
+{
+"id": "mercurius-med-01",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "প্রচুর ঘাম হওয়া, কিন্তু ঘাম হলে উপশম না হওয়া, বরং কষ্ট আরও বৃদ্ধি পাওয়া", "mid": "sym-sweat-no-relief-worse"},
+{"text": "প্রচুর ঘাম হওয়া, ঘাম হলে জ্বর ও কষ্ট কমে যাওয়া", "mid": "sym-sweat-relief-fever"},
+{"text": "ঘাম একেবারেই না হওয়া, চামড়া শুকনো ও গরম থাকা", "mid": "sym-no-sweat-dry-hot-skin"},
+{"text": "রাতে ঘাম হওয়া, ঘামে টক গন্ধ ও ভোরবেলা ঘামে ভিজে যাওয়া", "mid": "sym-night-sweat-sour-morning"}
+],
+"answer": "sym-sweat-no-relief-worse",
+"explanation": "Mercurius Solubilis এ প্রচুর ঘাম হয়, কিন্তু ঘাম হলে উপশম হয় না, বরং কষ্ট আরও বাড়ে।"
+},
+{
+"id": "mercurius-med-02",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "মুখ শুকনো থাকা, লালা একেবারেই না আসা ও বারবার পানি খাওয়া", "mid": "sym-mouth-dry-no-saliva"},
+{"text": "মুখে মিষ্টি স্বাদ, লালা আঠালো ও জিভে সাদা প্রলেপ", "mid": "sym-mouth-sweet-sticky-saliva"},
+{"text": "মুখ থেকে অনবরত দুর্গন্ধযুক্ত লালা ঝরা, বালিশ ভিজে যাওয়া", "mid": "sym-profuse-foul-saliva-drooling"},
+{"text": "মুখে লালা কমে যাওয়া, গলা শুকনো ও ঢোক গিলতে কষ্ট", "mid": "sym-less-saliva-dry-throat"}
+],
+"answer": "sym-profuse-foul-saliva-drooling",
+"explanation": "Mercurius Solubilis এ মুখ থেকে অনবরত দুর্গন্ধযুক্ত লালা ঝরে।"
+},
+{
+"id": "mercurius-med-03",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "পিপাসাহীনতা, খোলা বাতাসে ভালো লাগা ও কান্নার ভাব", "mid": "sym-thirstless-open-air-weeping"},
+{"text": "জিহ্বা আর্দ্র ও লালায় ভেজা থাকা সত্ত্বেও ঠান্ডা পানির জন্য প্রবল তৃষ্ণা থাকা", "mid": "sym-thirst-moist-tongue-cold-water"},
+{"text": "অল্প অল্প করে বারবার গরম পানি খাওয়ার ইচ্ছা, মধ্যরাতে বৃদ্ধি", "mid": "sym-sips-warm-water-midnight"},
+{"text": "পিপাসা নেই, কিন্তু মুখ শুকনো ও ঠোঁট ফাটা", "mid": "sym-no-thirst-dry-mouth-lips"}
+],
+"answer": "sym-thirst-moist-tongue-cold-water",
+"explanation": "Mercurius Solubilis এ জিহ্বা আর্দ্র থাকা সত্ত্বেও ঠান্ডা পানির জন্য প্রবল তৃষ্ণা থাকে।"
+},
+{
+"id": "mercurius-med-04",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "জিহ্বা শুকনো, লাল ও মাঝখানে ফাটা, পানি খেতে ইচ্ছা", "mid": "sym-tongue-dry-red-cracked"},
+{"text": "জিহ্বা পুরু, ফ্যাকাশে ও আর্দ্র থাকা, কিনারায় দাঁতের সুস্পষ্ট ছাপ পড়া", "mid": "sym-tongue-thick-moist-teeth-marks"},
+{"text": "জিহ্বা পরিষ্কার, লাল ও মসৃণ থাকা, কোনো ছাপ না থাকা", "mid": "sym-tongue-clean-red-smooth"},
+{"text": "জিহ্বা কালো, শুকনো ও কাঁপা, কথা বলতে কষ্ট", "mid": "sym-tongue-black-dry-trembling"}
+],
+"answer": "sym-tongue-thick-moist-teeth-marks",
+"explanation": "Mercurius Solubilis এ জিহ্বা পুরু, ফ্যাকাশে ও আর্দ্র থাকে, কিনারায় দাঁতের ছাপ পড়ে।"
+},
+{
+"id": "mercurius-med-05",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "মুখে কোনো গন্ধ না থাকা, ঢোক গিললে আরাম লাগা", "mid": "sym-mouth-no-odor-swallowing-better"},
+{"text": "মুখে টক স্বাদ, টক ঢেকুর ও বমি বমি ভাব", "mid": "sym-mouth-sour-eructation-nausea"},
+{"text": "মুখে তেতো স্বাদ, সকালে বৃদ্ধি ও খেলে ভালো লাগা", "mid": "sym-mouth-bitter-morning-eating"},
+{"text": "মুখে তীব্র দুর্গন্ধ থাকা ও ঢোক গিলতে কষ্ট হওয়া", "mid": "sym-mouth-foul-odor-difficult-swallowing"}
+],
+"answer": "sym-mouth-foul-odor-difficult-swallowing",
+"explanation": "Mercurius Solubilis এ মুখে তীব্র দুর্গন্ধ থাকে ও ঢোক গিলতে কষ্ট হয়।"
+},
+{
+"id": "mercurius-med-06",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "মাড়ি ফুলে স্পঞ্জের মতো নরম হওয়া, সামান্য স্পর্শেই রক্ত পড়া ও মাড়িতে ঘা হওয়া", "mid": "sym-gums-spongy-bleeding-ulcer"},
+{"text": "মাড়ি শক্ত থাকা, দাঁত মজবুত ও কোনো রক্ত না পড়া", "mid": "sym-gums-firm-no-bleeding"},
+{"text": "মাড়ি ফ্যাকাশে, ঠান্ডা লাগা ও দাঁত শিরশির করা", "mid": "sym-gums-pale-cold-sensitive"},
+{"text": "মাড়িতে পুঁজ, প্রচণ্ড ব্যথা ও জ্বর থাকা, মুখ খুলতে কষ্ট", "mid": "sym-gums-pus-fever-trismus"}
+],
+"answer": "sym-gums-spongy-bleeding-ulcer",
+"explanation": "Mercurius Solubilis এ মাড়ি ফুলে স্পঞ্জের মতো নরম হয়, সামান্য স্পর্শেই রক্ত পড়ে ও ঘা হয়।"
+},
+{
+"id": "mercurius-med-07",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "দাঁত ব্যথা গরম পানিতে বৃদ্ধি, ঠান্ডা পানিতে উপশম ও দিনে বৃদ্ধি", "mid": "sym-toothache-warm-better-cold"},
+{"text": "দাঁত ব্যথা চাপ দিলে উপশম, গরম সেঁকে উপশম ও রাতে ভালো থাকা", "mid": "sym-toothache-pressure-warm-better"},
+{"text": "দাঁত ব্যথা রাতে, শুইলে ও ঠান্ডা পানি লাগালে তীব্র হওয়া, ঠান্ডা জল দাঁত ও মাড়িতে অসহ্য লাগা", "mid": "sym-toothache-night-lying-cold-water"},
+{"text": "দাঁত ব্যথা মিষ্টি খেলে বৃদ্ধি, ঠান্ডা বাতাসে বৃদ্ধি ও সকালে বৃদ্ধি", "mid": "sym-toothache-sweet-cold-air-morning"}
+],
+"answer": "sym-toothache-night-lying-cold-water",
+"explanation": "Mercurius Solubilis এ দাঁত ব্যথা রাতে, শুইলে ও ঠান্ডা পানি লাগালে তীব্র হয়, ঠান্ডা জল অসহ্য লাগে।"
+},
+{
+"id": "mercurius-med-08",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "সব রোগলক্ষণ সকালে বৃদ্ধি পাওয়া, রাতে ভালো থাকা", "mid": "sym-all-morning-worse-night-better"},
+{"text": "সব রোগলক্ষণ রাতে বৃদ্ধি পাওয়া", "mid": "sym-all-night-worse"},
+{"text": "সব রোগলক্ষণ দুপুরে বৃদ্ধি পাওয়া, রাতে উপশম হওয়া", "mid": "sym-all-noon-worse-night-better"},
+{"text": "সব রোগলক্ষণ বিকেলে বৃদ্ধি পাওয়া, রাতে ভালো লাগা", "mid": "sym-all-evening-worse-night-better"}
+],
+"answer": "sym-all-night-worse",
+"explanation": "Mercurius Solubilis এ সব রোগলক্ষণ রাতে বৃদ্ধি পায়।"
+},
+{
+"id": "mercurius-med-09",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "শুইলে ভালো লাগা, বিছানার গরমে ভালো লাগা ও স্যাঁতসেঁতে আবহাওয়ায় ভালো লাগা", "mid": "sym-lying-bed-warm-damp-better"},
+{"text": "নড়াচড়ায় বৃদ্ধি, বিশ্রামে উপশম ও শুকনো আবহাওয়ায় বৃদ্ধি", "mid": "sym-motion-worse-rest-better-dry"},
+{"text": "শুইলে, বিছানার গরমে ও স্যাঁতসেঁতে আবহাওয়ায় কষ্ট বৃদ্ধি পাওয়া", "mid": "sym-lying-bed-warm-damp-worse"},
+{"text": "ঠান্ডা বাতাসে বৃদ্ধি, গরম ঘরে উপশম ও চাপ দিলে উপশম", "mid": "sym-cold-air-warm-room-pressure"}
+],
+"answer": "sym-lying-bed-warm-damp-worse",
+"explanation": "Mercurius Solubilis এ শুইলে, বিছানার গরমে ও স্যাঁতসেঁতে আবহাওয়ায় কষ্ট বাড়ে।"
+},
+{
+"id": "mercurius-med-10",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "লিভারে ব্যথা নেই, বাম পার্শ্বে চেপে শুতে কষ্ট হওয়া", "mid": "sym-liver-no-pain-left-lying"},
+{"text": "লিভারে ব্যথা, টনটনানি ও ভারী বোধ থাকা, ডান পার্শ্বে চেপে শুতে না পারা", "mid": "sym-liver-pain-heavy-cannot-lie-right"},
+{"text": "লিভার অঞ্চলে জ্বালা, টক ঢেকুর ও খেলে বৃদ্ধি পাওয়া", "mid": "sym-liver-burning-sour-eating"},
+{"text": "লিভার ছোট হয়ে যাওয়া, ক্ষুধা বেড়ে যাওয়া ও পেট হালকা লাগা", "mid": "sym-liver-small-hunger-light"}
+],
+"answer": "sym-liver-pain-heavy-cannot-lie-right",
+"explanation": "Mercurius Solubilis এ লিভারে ব্যথা, টনটনানি ও ভারী বোধ থাকে, ডান পার্শ্বে চেপে শুতে পারে না।"
+},
+{
+"id": "mercurius-med-11",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "মলত্যাগের পরপরই কোঁথানি সম্পূর্ণ চলে যাওয়া ও আরাম লাগা", "mid": "sym-stool-tenesmus-gone-relief"},
+{"text": "মলত্যাগের সময় প্রচণ্ড কোঁথানি থাকা, মলত্যাগের পরও কোঁথানি ও অসম্পূর্ণতার অনুভূতি থেকে যাওয়া", "mid": "sym-tenesmus-stool-never-done"},
+{"text": "মলত্যাগের আগে বেগ নেই, মলত্যাগের পর ঘুম পাওয়া", "mid": "sym-stool-no-urge-sleepy"},
+{"text": "মলত্যাগের সময় কোনো বেগ না থাকা, মল নিজে থেকেই বেরিয়ে যাওয়া", "mid": "sym-stool-no-urge-involuntary"}
+],
+"answer": "sym-tenesmus-stool-never-done",
+"explanation": "Mercurius Solubilis এ মলত্যাগের সময় ও পরেও কোঁথানি থাকে, কখনো শেষ হয়েছে মনে হয় না।"
+},
+{
+"id": "mercurius-med-12",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "ডায়রিয়ায় শুধু জলের মতো মল যাওয়া, কোঁথানি না থাকা ও পেটে ব্যথা না থাকা", "mid": "sym-diarrhoea-watery-no-tenesmus"},
+{"text": "কোষ্ঠকাঠিন্য, মল শক্ত ও শুষ্ক, মলত্যাগে কোনো কোঁথানি না থাকা", "mid": "sym-constipation-hard-no-tenesmus"},
+{"text": "আমাশয় বা ডায়রিয়ায় মলের সঙ্গে রক্ত ও আম যাওয়া, মলত্যাগের আগে ও পরে প্রচণ্ড কোঁথানি থাকা", "mid": "sym-dysentery-blood-mucus-tenesmus"},
+{"text": "আমাশয়ে শুধু আম যাওয়া, রক্ত না যাওয়া ও মলত্যাগের পর আরাম লাগা", "mid": "sym-dysentery-mucus-only-relief"}
+],
+"answer": "sym-dysentery-blood-mucus-tenesmus",
+"explanation": "Mercurius Solubilis এ আমাশয়ে মলের সঙ্গে রক্ত ও আম যায়, আগে ও পরে প্রচণ্ড কোঁথানি থাকে।"
+},
+{
+"id": "mercurius-med-13",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "মলদ্বারে বড় কৃমি থাকা, পেটে প্রচণ্ড ব্যথা ও বমি হওয়া", "mid": "sym-anus-large-worms-vomiting"},
+{"text": "মলদ্বারে সূতার মতো ছোট ছোট কৃমি থাকা ও চুলকানি হওয়া", "mid": "sym-anus-thread-worms-itching"},
+{"text": "মলদ্বারে কোনো কৃমি না থাকা, মলদ্বার শুকনো ও ফাটা থাকা", "mid": "sym-anus-no-worms-dry-fissure"},
+{"text": "মলদ্বারে ফোড়া, পুঁজ ও জ্বর থাকা", "mid": "sym-anus-abscess-pus-fever"}
+],
+"answer": "sym-anus-thread-worms-itching",
+"explanation": "Mercurius Solubilis এ মলদ্বারে সূতার মতো ছোট ছোট কৃমি থাকে ও চুলকানি হয়।"
+},
+{
+"id": "mercurius-med-14",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "বারবার প্রচুর প্রস্রাব হওয়া, প্রস্রাবে কোনো জ্বালা না থাকা ও স্বচ্ছ প্রস্রাব", "mid": "sym-urine-frequent-profuse-clear"},
+{"text": "প্রস্রাবের ইচ্ছা একেবারেই না জাগা, প্রস্রাব স্বাভাবিক ও পরিষ্কার থাকা", "mid": "sym-urine-no-urge-normal"},
+{"text": "বারবার প্রস্রাবের ইচ্ছা জাগা, কিন্তু অল্প প্রস্রাব হওয়া বা প্রস্রাব বন্ধ হওয়ার উপক্রম হওয়া, প্রস্রাবের সময় কোঁথানি ও প্রস্রাবে রক্ত, পুঁজ ও শ্লেষ্মা যাওয়া", "mid": "sym-urine-frequent-scanty-tenesmus-blood-pus"},
+{"text": "প্রস্রাবের সময় জ্বালা নেই, প্রস্রাবের পর আরাম লাগা ও প্রস্রাবে কোনো পুঁজ না থাকা", "mid": "sym-urine-no-burning-relief-no-pus"}
+],
+"answer": "sym-urine-frequent-scanty-tenesmus-blood-pus",
+"explanation": "Mercurius Solubilis এ বারবার প্রস্রাবের ইচ্ছা জাগে, কিন্তু অল্প প্রস্রাব হয়, কোঁথানি থাকে, রক্ত, পুঁজ ও শ্লেষ্মা যায়।"
+},
+{
+"id": "mercurius-med-15",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "কোমরে ভোঁতা ব্যথা, নড়াচড়ায় উপশম ও স্যাঁতসেঁতে আবহাওয়ায় বৃদ্ধি", "mid": "sym-loin-dull-motion-better-damp"},
+{"text": "কোমরে ব্যথা নেই, শুধু পায়ে ব্যথা ও হাঁটলে বৃদ্ধি", "mid": "sym-loin-no-pain-legs-walking"},
+{"text": "কিডনি বা কোমর অঞ্চলে তীক্ষ্ণ বেদনা, যা মূত্রনালী পর্যন্ত প্রসারিত হয়", "mid": "sym-kidney-sharp-pain-to-urethra"},
+{"text": "কোমরে ব্যথা, চাপ দিলে উপশম ও গরম সেঁকে উপশম", "mid": "sym-loin-pressure-warm-better"}
+],
+"answer": "sym-kidney-sharp-pain-to-urethra",
+"explanation": "Mercurius Solubilis এ কিডনি বা কোমরে তীক্ষ্ণ বেদনা হয়, যা মূত্রনালী পর্যন্ত প্রসারিত হয়।"
+},
+{
+"id": "mercurius-med-16",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "শুধু শীতকাতরতা, গরমে ভালো লাগা ও গরম ঘরে আরাম", "mid": "sym-only-chilly-warm-better"},
+{"text": "শীত ও গরম উভয়ই সহ্য করতে না পারা, উভয় কাতরতা, মানবিক থার্মোমিটারের মতো আচরণ", "mid": "sym-both-chilly-hot-thermometer"},
+{"text": "শুধু গরমকাতরতা, ঠান্ডায় ভালো লাগা ও ঠান্ডা পানিতে আরাম", "mid": "sym-only-hot-cold-better"},
+{"text": "শীত ও গরম কোনোটাতেই কষ্ট না হওয়া, সব আবহাওয়ায় ভালো থাকা", "mid": "sym-no-chilly-hot-all-weather"}
+],
+"answer": "sym-both-chilly-hot-thermometer",
+"explanation": "Mercurius Solubilis রোগী উভয় কাতর, শীত ও গরম কোনোটাই সহ্য করতে পারে না, মানবিক থার্মোমিটারের মতো।"
+},
+{
+"id": "mercurius-med-17",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "জননাঙ্গে কোনো ক্ষত না হওয়া, শুধু চুলকানি ও লাল দাগ থাকা", "mid": "sym-genital-no-sore-itching-red"},
+{"text": "জননাঙ্গে শুধু শক্ত ক্ষত হওয়া, পুঁজ না হওয়া ও ব্যথা না থাকা", "mid": "sym-genital-hard-sore-only-no-pus"},
+{"text": "জননাঙ্গে কোমল ও কঠিন উভয় প্রকার ক্ষত হওয়া, যা সহজেই পুঁজযুক্ত হয়", "mid": "sym-genital-soft-hard-chancre-suppuration"},
+{"text": "জননাঙ্গে ফোস্কা, ঠান্ডা পানিতে উপশম ও জ্বর না থাকা", "mid": "sym-genital-blister-cold-better-no-fever"}
+],
+"answer": "sym-genital-soft-hard-chancre-suppuration",
+"explanation": "Mercurius Solubilis এ জননাঙ্গে কোমল ও কঠিন উভয় প্রকার ক্ষত হয়, যা সহজেই পুঁজযুক্ত হয়।"
+},
+{
+"id": "mercurius-med-18",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "খুব ধীরে কথা বলা, ভেবে ভেবে কথা বলা ও কথা মনে না থাকা", "mid": "sym-speech-slow-forgetful"},
+{"text": "খুব দ্রুত কথা বলা, তাড়াহুড়ো করে কথা বলা, অস্থিরতার কারণে কথা জড়িয়ে যাওয়া", "mid": "sym-speech-rapid-hurried-slurring"},
+{"text": "কথা বলতে অনিচ্ছা, চুপচাপ থাকতে চাওয়া ও প্রশ্ন করলে রেগে যাওয়া", "mid": "sym-speech-unwilling-silent-anger"},
+{"text": "কথা বলার সময় গলা বসে যাওয়া, ফিসফিস করে কথা বলা", "mid": "sym-speech-hoarse-whispering"}
+],
+"answer": "sym-speech-rapid-hurried-slurring",
+"explanation": "Mercurius Solubilis রোগী খুব দ্রুত কথা বলে, তাড়াহুড়ো করে, অস্থিরতার কারণে কথা জড়িয়ে যায়।"
+},
+{
+"id": "mercurius-med-19",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "মানসিকভাবে শান্ত থাকা, স্মৃতিশক্তি ভালো থাকা ও রাতে ভালো ঘুম হওয়া", "mid": "sym-mental-calm-memory-good-sleep"},
+{"text": "মানসিকভাবে অত্যন্ত অস্থির, খিটখিটে ও সন্দেহপ্রবণ হওয়া, স্মৃতিশক্তি দুর্বল হওয়া, মনোযোগের অভাব ও রাতে মানসিক উদ্বেগ ও ভয় বৃদ্ধি পাওয়া", "mid": "sym-mental-restless-irritable-suspicious-memory-anxiety-night"},
+{"text": "মানসিকভাবে খুশি থাকা, সবার সঙ্গে মিশতে চাওয়া ও সন্দেহ না থাকা", "mid": "sym-mental-happy-social-no-suspicion"},
+{"text": "মানসিকভাবে উদাসীন থাকা, কোনো কিছুতেই আগ্রহ না থাকা ও দিনে ঘুম পাওয়া", "mid": "sym-mental-indifferent-no-interest-day-sleep"}
+],
+"answer": "sym-mental-restless-irritable-suspicious-memory-anxiety-night",
+"explanation": "Mercurius Solubilis এ রোগী অস্থির, খিটখিটে ও সন্দেহপ্রবণ হয়, স্মৃতিশক্তি দুর্বল হয়, রাতে উদ্বেগ ও ভয় বাড়ে।"
+},
+{
+"id": "mercurius-med-20",
+"stem": "নিচের কোনটি Mercurius Solubilis এর বৈশিষ্ট্যপূর্ণ লক্ষণ?",
+"options": [
+{"text": "অতিরিক্ত গরমে আরাম বোধ করা, ঠান্ডায় কষ্ট বৃদ্ধি পাওয়া", "mid": "sym-amelioration-excess-heat-cold-worse"},
+{"text": "অতিরিক্ত ঠান্ডায় আরাম বোধ করা, গরমে কষ্ট বৃদ্ধি পাওয়া", "mid": "sym-amelioration-excess-cold-heat-worse"},
+{"text": "বিছানার গরমে আরাম বোধ করা, ঘাম হলে আরাম বোধ করা", "mid": "sym-amelioration-bed-warm-sweat"},
+{"text": "মাঝারি বা সমভাবাপন্ন তাপমাত্রায় আরাম বোধ করা", "mid": "sym-amelioration-moderate-temperature"}
+],
+"answer": "sym-amelioration-moderate-temperature",
+"explanation": "Mercurius Solubilis এ মাঝারি বা সমভাবাপন্ন তাপমাত্রায় আরাম বোধ হয়।"
+}
+]
